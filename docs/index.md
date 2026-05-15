@@ -6,10 +6,10 @@ Per-conference vaults for biomedical, bioinformatics, and AI/ML meetings. Every 
 
 ## At a glance
 
-- **37 conferences** scaffolded across 2025–2026
+- **38 conferences** scaffolded across 2025–2026
 - **~109 deep dossiers** built (tools / trials / launches / talks / keynotes)
 - **36-row Gantt timeline** with a 4-criterion scoring rubric — see [2026 Timeline](timeline.md)
-- 13 vaults content-complete · 24 scaffolded for live coverage at each meeting window
+- 13 vaults content-complete · 25 scaffolded for live coverage at each meeting window
 
 ## Built vaults
 
@@ -74,6 +74,7 @@ Each has an overview, program-notes research file, and a per-trial / per-tool / 
 | [SABCS 2026](conferences/sabcs-2026/) | Dec 8–11 (San Antonio) | clinical / per-trial |
 | [ASH 2026](conferences/ash-2026/) | Dec 12–15 (New Orleans) | clinical / per-trial |
 | [ASCB 2026](conferences/ascb-2026/) | Dec 12–15 (San Diego) | basic / per-talk |
+| [scverse 2025](conferences/scverse-2025/) | Nov 17–19 (Stanford) | single-cell / per-tool · per-talk (post-meeting) |
 
 ## How to use this site
 

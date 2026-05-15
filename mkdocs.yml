@@ -210,6 +210,8 @@ nav:
       - FAIR-EASE: conferences/gbcc-2025/tools/fair-ease.md
       - ipd: conferences/gbcc-2025/tools/ipd.md
       - GSVA→Galaxy: conferences/gbcc-2025/tools/gsva-galaxy.md
+  - scverse 2025 (scaffold):
+    - Overview: conferences/scverse-2025/index.md
   - AGBT 2026:
     - Overview: conferences/agbt-2026/index.md
     - Program notes (research): conferences/agbt-2026/program-notes.md

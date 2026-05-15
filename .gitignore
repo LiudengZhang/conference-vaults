@@ -3,6 +3,7 @@
 
 # MkDocs build output
 site/
+encryptcontent.cache
 
 # Python
 __pycache__/

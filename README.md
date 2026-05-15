@@ -6,8 +6,8 @@ The FM → Virtual Cells talk-prep and knowledge-base content moved to [fm-to-vi
 
 ## Coverage
 
-- **37 conferences** scaffolded across 2025–2026
-- **13 vaults content-complete** · 24 scaffolded for live coverage at each meeting window
+- **38 conferences** scaffolded across 2025–2026
+- **13 vaults content-complete** · 25 scaffolded for live coverage at each meeting window
 - **~109 deep dossiers** built (tools / trials / launches / talks / keynotes)
 
 ## Site

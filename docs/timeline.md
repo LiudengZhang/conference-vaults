@@ -232,6 +232,14 @@ We score each conference 0–2 on four criteria.
 | [KDD 2026](conferences/kdd-2026/) | Aug 9–13 (Jeju) | methods | 1 | 2 | 0 | 1 | **4** | light | scaffold |
 | [Single Cell Genomics 2026](conferences/single-cell-genomics-2026/) | May 10–15 (GRC) / Jun 10–12 (Wellcome) | methods | 2 | 1 | 2 | 2 | **7** | full | scaffold |
 
+### 2025 pilots (past, retained as reference)
+
+| Conference | Date | Tier | Axis | Source | Signal | Vantage | **Total** | Decision | Status |
+|---|---|---|:---:|:---:|:---:|:---:|:---:|---|---|
+| [EuroBioC 2025](conferences/eurobioc-2025/) | Sep 17–19 (Barcelona) | methods | 1 | 2 | 2 | 2 | **7** | full | ✅ built |
+| [GBCC 2025](conferences/gbcc-2025/) | Jun 23–26 (Cold Spring Harbor) | methods | 1 | 2 | 2 | 2 | **7** | full | ✅ built |
+| [scverse 2025](conferences/scverse-2025/) | Nov 17–19 (Stanford) | methods | 2 | 2 | 2 | 2 | **8** | full | scaffold (post-meeting) |
+
 ## What we're skipping (and why)
 
 Nothing yet — all 12 cleared the bar at 4+. Two scored "light" rather than "full":
