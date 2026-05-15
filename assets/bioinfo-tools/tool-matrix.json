@@ -1,0 +1,187 @@
+[
+  {
+    "tool": "CHIEF",
+    "slug": "chief",
+    "family": "path-fm",
+    "modality": "H&E whole-slide image patches (256×256 at 10×) and slide-level aggregation",
+    "released": "2024 (Nature)",
+    "license": "AGPL-3.0, non-commercial academic use only",
+    "n_posters": 0,
+    "n_sessions": 6,
+    "also_in": [
+      "agentic-ai",
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "UNI / UNI2",
+    "slug": "uni",
+    "family": "path-fm",
+    "modality": "H&E (and IHC for UNI2) whole-slide image patches (224×224, 20×)",
+    "released": "UNI: 2024 (Nature Medicine); UNI2-h: 2025 (Mahmood Lab release)",
+    "license": "CC-BY-NC-ND 4.0, non-commercial academic use; commercial use requires Mass General Brigham approval",
+    "n_posters": 9,
+    "n_sessions": 1,
+    "also_in": [
+      "clinical-trials",
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "Prov-GigaPath",
+    "slug": "prov-gigapath",
+    "family": "path-fm",
+    "modality": "H&E whole-slide image tiles (256×256 at 20×, resized to 224 for the ViT) plus a slide-level encoder",
+    "released": "2024 (Nature)",
+    "license": "Code Apache-2.0; model weights gated, non-commercial research only (Microsoft Research / Providence terms)",
+    "n_posters": 2,
+    "n_sessions": 1,
+    "also_in": [
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "scGPT",
+    "slug": "scgpt",
+    "family": "sc-fm",
+    "modality": "Single-cell RNA-seq (gene-expression value tokens)",
+    "released": "2024 (Nature Methods)",
+    "license": "MIT (code); checkpoints distributed via Google Drive under the same terms",
+    "n_posters": 2,
+    "n_sessions": 1,
+    "also_in": [
+      "agentic-ai",
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "Geneformer",
+    "slug": "geneformer",
+    "family": "sc-fm",
+    "modality": "Single-cell RNA-seq (rank-encoded gene expression, human)",
+    "released": "2023 (Nature); V2 update 2024",
+    "license": "Apache-2.0",
+    "n_posters": 4,
+    "n_sessions": 0,
+    "also_in": [
+      "agentic-ai",
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "Cell2Location",
+    "slug": "cell2location",
+    "family": "spatial",
+    "modality": "Spot-resolution spatial transcriptomics (Visium, ST), paired with a scRNA-seq reference",
+    "released": "2022 (Nature Biotechnology)",
+    "license": "Apache-2.0",
+    "n_posters": 3,
+    "n_sessions": 0,
+    "also_in": [
+      "single-cell-spatial-omics"
+    ]
+  },
+  {
+    "tool": "Virchow / Virchow-2",
+    "slug": "virchow",
+    "family": "path-fm",
+    "modality": "H&E whole-slide image tiles (224×224 at 0.5 µm/px for Virchow; mixed magnifications 5×/10×/20×/40× plus IHC for Virchow-2)",
+    "released": "Virchow: 2024 (Nature Medicine, Vorontsov et al.); Virchow-2: 2024 (arXiv, Zimmermann et al.)",
+    "license": "Virchow: Apache-2.0 (non-clinical use). Virchow-2: CC-BY-NC-ND 4.0, non-commercial academic use only",
+    "n_posters": 0,
+    "n_sessions": 0,
+    "also_in": [
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "Hibou-B / Hibou-L",
+    "slug": "hibou",
+    "family": "path-fm",
+    "modality": "H&E and non-H&E whole-slide image tiles (224×224, patch size 14); cytology slides in pretraining",
+    "released": "2024 (arXiv, Nechaev et al. — HistAI)",
+    "license": "Apache-2.0 for both Hibou-B and Hibou-L; commercial use permitted",
+    "n_posters": 0,
+    "n_sessions": 0,
+    "also_in": [
+      "single-cell-spatial-omics"
+    ]
+  },
+  {
+    "tool": "PathChat / PathChat-2",
+    "slug": "pathchat",
+    "family": "path-fm",
+    "modality": "H&E and IHC histology images (tile / ROI level) plus free-text clinical context; outputs natural-language answers",
+    "released": "PathChat: 2024 (Nature, Lu et al.); PathChat DX: FDA Breakthrough Device Designation, Jan 2025 (Modella AI)",
+    "license": "Weights not openly redistributed — academic access via Mahmood Lab; clinical version commercial via Modella AI",
+    "n_posters": 0,
+    "n_sessions": 0,
+    "also_in": [
+      "agentic-ai",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "UCE",
+    "slug": "uce",
+    "family": "sc-fm",
+    "modality": "Single-cell RNA-seq (cross-species; ESM2 protein-embedding gene tokens)",
+    "released": "2023 (bioRxiv)",
+    "license": "MIT (code)",
+    "n_posters": 0,
+    "n_sessions": 0,
+    "also_in": [
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "scFoundation",
+    "slug": "scfoundation",
+    "family": "sc-fm",
+    "modality": "Single-cell RNA-seq (continuous-valued, ~20K-gene vocabulary, human)",
+    "released": "2024 (Nature Methods)",
+    "license": "Apache-2.0 (code); separate model-weight license",
+    "n_posters": 0,
+    "n_sessions": 0,
+    "also_in": [
+      "agentic-ai",
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "GET",
+    "slug": "get",
+    "family": "regulatory-fm",
+    "modality": "Single-cell ATAC-seq peaks (motif × peak matrix) + DNA sequence; cell-type-resolved",
+    "released": "2025 (Nature)",
+    "license": "Open-source via GET-Foundation GitHub organization",
+    "n_posters": 0,
+    "n_sessions": 0,
+    "also_in": [
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  },
+  {
+    "tool": "CellPLM",
+    "slug": "cellplm",
+    "family": "sc-fm",
+    "modality": "Single-cell + spatially-resolved transcriptomics (cell-as-token; tissue-as-sentence)",
+    "released": "2024 (ICLR)",
+    "license": "BSD-2-Clause",
+    "n_posters": 0,
+    "n_sessions": 0,
+    "also_in": [
+      "single-cell-spatial-omics",
+      "virtual-cells"
+    ]
+  }
+]
