@@ -13151,45 +13151,34 @@
   
 
 
-<h1 id="caveats">Caveats<a class="headerlink" href="#caveats" title="Permanent link">&para;</a></h1>
-<h2 id="session-transcripts">Session transcripts<a class="headerlink" href="#session-transcripts" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>All captions are Vimeo AI-generated English.</strong> Expect misheard names ("Foersch" → "Firsch" / "Forster", "Bunne" → "Bonner") and technical terms ("scGPT" → "SC-GPT", "AACR" → "ACR"). Find/replace before quoting.</li>
-<li><strong>Sub-talks share the parent video.</strong> To extract just one sub-talk from a multi-speaker session, time-slice the parent VTT. See the <code>transcripts/agentic-ai/at02-per-speaker/</code> directory in the repo for a worked example.</li>
-<li><strong>VTT signatures in raw Vimeo configs have expired</strong> (signed URLs valid ~6 hours). Re-extracting a session means re-navigating the live session page, not re-using the saved JSON.</li>
-</ul>
-<h2 id="poster-abstracts">Poster abstracts<a class="headerlink" href="#poster-abstracts" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>HTML entities decoded, tags stripped.</strong> Any markup in the original abstract body is flattened. Tables and figures are not preserved — the AACR Abstracts Online system doesn't include them in the API response anyway.</li>
-<li><strong>"Activity" field distinguishes</strong> <code>Abstract Submission</code> from <code>Late Breaking and Clinical Trials</code>. Both are kept; other activities (<code>Invited Speaker</code>, <code>Chairperson</code>, etc.) are session-role records, not posters, and are filtered out.</li>
-<li><strong><code>PlayerUrl</code> required.</strong> Posters without a Vimeo poster-viewer link are filtered out (typically ~75-80% of raw activity-filtered records have PlayerUrl).</li>
-<li><strong>Token signatures in <code>PlayerUrl</code></strong> may expire in hours. PDFs are not downloaded by default; if you want a specific poster's PDF, re-extract the PlayerUrl from a fresh session or grab it from the embedded JSON while the original session is still authenticated.</li>
-</ul>
-<h2 id="poster-corpus-construction">Poster-corpus construction<a class="headerlink" href="#poster-corpus-construction" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Overlap handled by duplication, not symlinks.</strong> A poster appearing in multiple topic folders has its <code>.txt</code> file duplicated (~4 KB × ~534 duplicates = ~2 MB total) so each folder is self-contained for ripgrep. The JSONL-level <code>Id</code> is the dedup key if you union across topics.</li>
-<li><strong>Keyword union is OR-based when unquoted.</strong> The AACR Abstracts Online search returns posters matching any word in a multi-word query unless the query is phrase-quoted. All multi-word terms in the harvest were phrase-quoted (<code>"virtual cell"</code> not <code>virtual cell</code>).</li>
-<li><strong><code>@AllPosters=Yes</code> token + text search returns 0.</strong> The filter/text combination is broken in the API; filter downstream on <code>Activity</code> + <code>PlayerUrl</code> instead.</li>
-</ul>
-<h2 id="clinical-trials-session-transcripts-deferred">Clinical Trials — session transcripts deferred<a class="headerlink" href="#clinical-trials-session-transcripts-deferred" title="Permanent link">&para;</a></h2>
-<p>The Clinical Trials topic has <strong>no session transcripts</strong> in this corpus. Rationale:</p>
-<ol>
-<li>CT minisymposium talks at AACR are typically authors reading their own poster abstracts verbatim, then taking questions.</li>
-<li>Adding ~15 × 90 min = 22+ hours of auto-captioned video transcript would duplicate the poster corpus substantively.</li>
-<li>Extraction requires Fastly CAPTCHA handling + per-session Vimeo config capture; the Chrome download flow was blocked during the harvest session.</li>
-</ol>
-<p>25 CT parent sessions are identified by ID in the repo's <code>transcripts/clinical-trials/README.md</code>. Each can be extracted on demand — each session costs ~5-10 minutes of live interactive work.</p>
-<h2 id="known-discrepancies">Known discrepancies<a class="headerlink" href="#known-discrepancies" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>The 38-file scso reconciliation</strong>: early in corpus construction, the slugification algorithm for <code>.txt</code> filenames differed slightly from the final version. This caused 38 duplicate <code>.txt</code> files (same presentation number, old slug + new slug) in <code>single-cell-spatial-omics/posters/abstracts/</code>. These were deleted and the directory regenerated fresh from the JSONL in the initial commit. Count is now exactly 1,015 <code>.txt</code> files matching 1,015 JSONL records.</li>
-<li><strong>Character handling</strong>: <code>&lt;</code> and <code>&gt;</code> in the JSONL may represent stripped-tag remnants (now gone) or actual mathematical/scientific notation (e.g., <code>≤</code> → <code>&amp;#8804;</code> → <code>≤</code>). The <code>DOMParser</code>-based decode handles these correctly, but very old abstracts with HTML-within-entities may need manual review.</li>
-</ul>
-<h2 id="intellectual-property">Intellectual property<a class="headerlink" href="#intellectual-property" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Poster abstracts are © their authors. This corpus is for personal research / analysis only. Any republication should be via the original AACR attribution and conference identifiers (<code>ControlNumber</code>, <code>PresentationNumber</code>).</li>
-<li>Session transcripts are auto-captions of proprietary video recordings. Same caveat.</li>
-<li>The <code>aacr-2026</code> GitHub repo is <strong>private</strong> because of this — do not share the URL publicly.</li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">8PTu593SiOGjayOvOc0Iqw==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "notes/caveats/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

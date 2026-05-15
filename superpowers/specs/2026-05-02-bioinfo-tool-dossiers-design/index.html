@@ -13134,253 +13134,34 @@
   
 
 
-<h1 id="bioinfo-tool-dossiers-design">Bioinfo tool dossiers — design<a class="headerlink" href="#bioinfo-tool-dossiers-design" title="Permanent link">&para;</a></h1>
-<p><strong>Date:</strong> 2026-05-02
-<strong>Topic:</strong> Bioinfo / Comp Bio / AI Methods — per-tool reference layer
-<strong>Owner:</strong> liudengzhang91@gmail.com</p>
-<h2 id="goal">Goal<a class="headerlink" href="#goal" title="Permanent link">&para;</a></h2>
-<p>Add a per-tool reference layer under the <code>Bioinfo / Comp Bio / AI Methods</code> topic so that readers can answer the question <em>"who is using <tool> for what, on which data, with what gap"</em> directly from the corpus, without re-reading the upstream paper. The reference layer sits alongside the existing Overview / Landscape / Synthesis pages — it does not replace them.</p>
-<h2 id="non-goals">Non-goals<a class="headerlink" href="#non-goals" title="Permanent link">&para;</a></h2>
-<ul>
-<li>No restructuring of the other 4 topics. Tool pages live under bioinfo-tools only; other topics link out.</li>
-<li>Not a replacement for upstream papers / READMEs. Dossiers cover what the AACR 2026 corpus uniquely shows; they do not re-derive architecture or training claims that are already documented upstream.</li>
-<li>No deep benchmark compilation or head-to-head leaderboards (deferred — would age fast).</li>
-<li>No reverse cross-topic surfacing on the dossier side beyond a single "Also surfaced in" line.</li>
-</ul>
-<h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h2>
-<h3 id="file-layout">File layout<a class="headerlink" href="#file-layout" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>docs/topics/bioinfo-tools/
-├── index.md                                ← (existing, untouched modulo a one-paragraph add)
-├── landscape.md                            ← (existing, untouched modulo find/replace tool→link)
-├── synthesis-fm-pathology-traction.md      ← (existing, untouched modulo find/replace)
-└── tools/
-    ├── index.md                            ← landing + comparison matrix (Tabulator)
-    ├── chief.md
-    ├── uni.md
-    ├── conch.md
-    ├── pathchat.md
-    ├── virchow.md
-    ├── prov-gigapath.md
-    ├── scgpt.md
-    ├── geneformer.md
-    ├── uce.md
-    ├── scfoundation.md
-    ├── nicheformer.md
-    ├── tangram.md
-    ├── cell2location.md
-    └── …                                   ← only tools that pass inclusion gate
+<div id="mkdocs-encrypted-content" style="display:none">1tAjKPb10YZPnLZPt5kX6Q==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-docs/assets/bioinfo-tools/
-├── tool-mentions.json                      ← per-tool corpus mentions, refreshed each build
-└── tool-matrix.json                        ← matrix table data
-</code></pre></div>
-<h3 id="nav-mkdocsyml">Nav (<code>mkdocs.yml</code>)<a class="headerlink" href="#nav-mkdocsyml" title="Permanent link">&para;</a></h3>
-<p>Add a <code>Tools</code> collapsible section under the existing <code>Bioinfo / Comp Bio / AI Methods</code> group:</p>
-<div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">Bioinfo / Comp Bio / AI Methods</span><span class="p">:</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">Overview</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">topics/bioinfo-tools/index.md</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">Landscape</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">topics/bioinfo-tools/landscape.md</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">Synthesis — FM pathology traction</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">topics/bioinfo-tools/synthesis-fm-pathology-traction.md</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">Tools</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">Index</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">topics/bioinfo-tools/tools/index.md</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">CHIEF</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">topics/bioinfo-tools/tools/chief.md</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">UNI / UNI2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">topics/bioinfo-tools/tools/uni.md</span>
-<span class="w">    </span><span class="c1"># … one entry per surviving dossier</span>
-</code></pre></div>
-<h2 id="tool-selection">Tool selection<a class="headerlink" href="#tool-selection" title="Permanent link">&para;</a></h2>
-<p>Curated candidate list, gated by inclusion threshold = <strong>3 deduplicated corpus mentions</strong> (posters union'd by <code>Id</code> across all 5 topics; sessions union'd by canonical slug). Cross-topic counting is deliberate — tools that surface in multiple topics shouldn't be penalized by topic boundary. Sub-threshold tools are dropped, not stubbed; they may be listed in a "Notable absences from the corpus" section at the bottom of <code>tools/index.md</code> if they're well-known enough to deserve a no-op note.</p>
-<p>Candidates (22 total — final survivors determined by grep):</p>
-<p><strong>Pathology FMs</strong>: CHIEF, UNI/UNI2, CONCH, PathChat, Virchow/Virchow2, Prov-GigaPath, TITAN, PLIP
-<strong>Single-cell FMs</strong>: scGPT, Geneformer, UCE, scFoundation, scBERT, Nicheformer, Cell2Sentence
-<strong>Spatial / multimodal</strong>: Tangram, Cell2Location, SpatialData/Squidpy
-<strong>Perturbation / drug response</strong>: GEARS, DrugCell/DeepCDR
-<strong>Protein / structure</strong>: AlphaFold-Multimer, ESM family</p>
-<p>Realistic post-grep survival: ~12-15.</p>
-<h2 id="per-tool-dossier-shape">Per-tool dossier shape<a class="headerlink" href="#per-tool-dossier-shape" title="Permanent link">&para;</a></h2>
-<p>Target ~500-700 words per page. Fixed skeleton so tools are scannable side by side.</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># CHIEF</span>
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "superpowers/specs/2026-05-02-bioinfo-tool-dossiers-design/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<span class="gs">**Family:**</span> Pathology FM — slide-level
-<span class="gs">**Modality:**</span> H&amp;E whole-slide images
-<span class="gs">**Released:**</span> 2024 (Wang et al., Nature)
-<span class="gs">**License:**</span> non-commercial research
-<span class="gs">**Code/checkpoint:**</span> github.com/mahmoodlab/CHIEF
-<span class="gs">**Also surfaced in:**</span> virtual-cells, agentic-ai
-
-<span class="k">&gt; </span><span class="ge">One-paragraph plain-language description (~3 sentences).</span>
-
-<span class="gu">## Architecture &amp; training</span>
-
-A few sentences: backbone, pretraining corpus, objective, parameters.
-
-<span class="gu">## Use in the AACR 2026 corpus</span>
-
-&lt;!-- mentions:start --&gt;
-
-<span class="gs">**Posters mentioning CHIEF (n=6):**</span>
-<span class="k">-</span><span class="w"> </span>[<span class="nt">LB123 — *Title…*</span>](<span class="na">../../../sessions/...</span>)
-  1-sentence context auto-extracted from abstract.
-<span class="k">-</span><span class="w"> </span>…
-
-<span class="gs">**Sessions mentioning CHIEF (n=2):**</span>
-<span class="k">-</span><span class="w"> </span>[<span class="nt">foundation-models-multimodal-ai-cancer-research</span>](<span class="na">../../../sessions/...</span>)
-  1-sentence context.
-<span class="k">-</span><span class="w"> </span>…
-
-&lt;!-- mentions:end --&gt;
-
-<span class="gu">## What&#39;s missing / where evidence is weak</span>
-
-Hand-written bulleted notes — independent reading of the corpus.
-
-<span class="gu">## Takeaway</span>
-
-One paragraph. What this corpus uniquely teaches us about the tool.
-</code></pre></div>
-<p><strong>Field provenance:</strong>
-- Header metadata (license, paper, code link, also-surfaced-in) — hand-curated.
-- "Use in the AACR 2026 corpus" block — auto-generated between <code>&lt;!-- mentions:start --&gt;</code> / <code>&lt;!-- mentions:end --&gt;</code> markers, regenerated every build.
-- "What's missing" + "Takeaway" — hand-written.</p>
-<h2 id="tools-index-page">Tools index page<a class="headerlink" href="#tools-index-page" title="Permanent link">&para;</a></h2>
-<p><code>docs/topics/bioinfo-tools/tools/index.md</code> is the landing page. One paragraph of intro, then a sortable Tabulator table (reusing existing <code>posters.js</code> plumbing, different data source: <code>docs/assets/bioinfo-tools/tool-matrix.json</code>).</p>
-<p>Columns:</p>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Column</th>
-<th>Source</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Tool</td>
-<td>hand</td>
-<td>links to dossier page</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Family</td>
-<td>hand</td>
-<td>path-fm / sc-fm / spatial / perturbation / protein</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Modality</td>
-<td>hand</td>
-<td>H&amp;E / scRNA / spatial / multimodal / protein</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Released</td>
-<td>hand</td>
-<td>year</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Posters (n)</td>
-<td>auto</td>
-<td>corpus poster mentions</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Sessions (n)</td>
-<td>auto</td>
-<td>corpus session mentions</td>
-</tr>
-<tr>
-<td>7</td>
-<td>License</td>
-<td>hand</td>
-<td>OSS / non-commercial / proprietary</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Standout claim</td>
-<td>hand</td>
-<td>≤12 words</td>
-</tr>
-</tbody>
-</table>
-<p>Default sort: <code>Posters (n)</code> desc.</p>
-<p>Below the table, one paragraph per family — short prose orienting the reader to which tool dominates the AACR 2026 slice of that family.</p>
-<h2 id="build-pipeline">Build pipeline<a class="headerlink" href="#build-pipeline" title="Permanent link">&para;</a></h2>
-<p>Extension to <code>scripts/build_site.py</code>. New module-level constant + new function, called from <code>main()</code>.</p>
-<div class="highlight"><pre><span></span><code><span class="n">TOOLS</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="c1"># name, slug, family, aliases (case-insensitive, word-boundary)</span>
-    <span class="p">(</span><span class="s2">&quot;CHIEF&quot;</span><span class="p">,</span>         <span class="s2">&quot;chief&quot;</span><span class="p">,</span>         <span class="s2">&quot;path-fm&quot;</span><span class="p">,</span>  <span class="p">[</span><span class="s2">&quot;CHIEF&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;UNI / UNI2&quot;</span><span class="p">,</span>    <span class="s2">&quot;uni&quot;</span><span class="p">,</span>           <span class="s2">&quot;path-fm&quot;</span><span class="p">,</span>  <span class="p">[</span><span class="s2">&quot;UNI&quot;</span><span class="p">,</span> <span class="s2">&quot;UNI2&quot;</span><span class="p">,</span> <span class="s2">&quot;UNI-2&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;CONCH&quot;</span><span class="p">,</span>         <span class="s2">&quot;conch&quot;</span><span class="p">,</span>         <span class="s2">&quot;path-fm&quot;</span><span class="p">,</span>  <span class="p">[</span><span class="s2">&quot;CONCH&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;PathChat&quot;</span><span class="p">,</span>      <span class="s2">&quot;pathchat&quot;</span><span class="p">,</span>      <span class="s2">&quot;path-fm&quot;</span><span class="p">,</span>  <span class="p">[</span><span class="s2">&quot;PathChat&quot;</span><span class="p">,</span> <span class="s2">&quot;Path-Chat&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;Virchow / V2&quot;</span><span class="p">,</span>  <span class="s2">&quot;virchow&quot;</span><span class="p">,</span>       <span class="s2">&quot;path-fm&quot;</span><span class="p">,</span>  <span class="p">[</span><span class="s2">&quot;Virchow&quot;</span><span class="p">,</span> <span class="s2">&quot;Virchow2&quot;</span><span class="p">,</span> <span class="s2">&quot;Virchow-2&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;Prov-GigaPath&quot;</span><span class="p">,</span> <span class="s2">&quot;prov-gigapath&quot;</span><span class="p">,</span> <span class="s2">&quot;path-fm&quot;</span><span class="p">,</span>  <span class="p">[</span><span class="s2">&quot;Prov-GigaPath&quot;</span><span class="p">,</span> <span class="s2">&quot;GigaPath&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;scGPT&quot;</span><span class="p">,</span>         <span class="s2">&quot;scgpt&quot;</span><span class="p">,</span>         <span class="s2">&quot;sc-fm&quot;</span><span class="p">,</span>    <span class="p">[</span><span class="s2">&quot;scGPT&quot;</span><span class="p">,</span> <span class="s2">&quot;SC-GPT&quot;</span><span class="p">]),</span>  <span class="c1"># SC-GPT = caption mishearing</span>
-    <span class="p">(</span><span class="s2">&quot;Geneformer&quot;</span><span class="p">,</span>    <span class="s2">&quot;geneformer&quot;</span><span class="p">,</span>    <span class="s2">&quot;sc-fm&quot;</span><span class="p">,</span>    <span class="p">[</span><span class="s2">&quot;Geneformer&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;UCE&quot;</span><span class="p">,</span>           <span class="s2">&quot;uce&quot;</span><span class="p">,</span>           <span class="s2">&quot;sc-fm&quot;</span><span class="p">,</span>    <span class="p">[</span><span class="s2">&quot;UCE&quot;</span><span class="p">,</span> <span class="s2">&quot;Universal Cell Embeddings&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;scFoundation&quot;</span><span class="p">,</span>  <span class="s2">&quot;scfoundation&quot;</span><span class="p">,</span>  <span class="s2">&quot;sc-fm&quot;</span><span class="p">,</span>    <span class="p">[</span><span class="s2">&quot;scFoundation&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;Nicheformer&quot;</span><span class="p">,</span>   <span class="s2">&quot;nicheformer&quot;</span><span class="p">,</span>   <span class="s2">&quot;sc-fm&quot;</span><span class="p">,</span>    <span class="p">[</span><span class="s2">&quot;Nicheformer&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;Tangram&quot;</span><span class="p">,</span>       <span class="s2">&quot;tangram&quot;</span><span class="p">,</span>       <span class="s2">&quot;spatial&quot;</span><span class="p">,</span>  <span class="p">[</span><span class="s2">&quot;Tangram&quot;</span><span class="p">]),</span>
-    <span class="p">(</span><span class="s2">&quot;Cell2Location&quot;</span><span class="p">,</span> <span class="s2">&quot;cell2location&quot;</span><span class="p">,</span> <span class="s2">&quot;spatial&quot;</span><span class="p">,</span>  <span class="p">[</span><span class="s2">&quot;Cell2Location&quot;</span><span class="p">,</span> <span class="s2">&quot;cell2location&quot;</span><span class="p">]),</span>
-    <span class="c1"># other candidates added; grep gate culls below threshold</span>
-<span class="p">]</span>
-
-<span class="n">INCLUSION_GATE</span> <span class="o">=</span> <span class="mi">3</span>  <span class="c1"># ≥3 poster+session mentions to ship a dossier page</span>
-</code></pre></div>
-<p><code>build_tool_pages()</code>:</p>
-<ol>
-<li><strong>Inventory</strong> — load posters from all 5 topic JSONLs (deduplicated by <code>Id</code>) and the 26 unique session <code>.txt</code> files (deduplicated by canonical slug, following symlinks). One whole-corpus pass per build.</li>
-<li><strong>Match</strong> — for each tool, regex word-boundary match (case-insensitive) across each alias against <code>Title + Abstract</code> (posters) and full text (sessions). Capture poster <code>Id</code>, <code>Title</code>, <code>PresentationNumber</code>, plus a 1-sentence context window around the first hit.</li>
-<li><strong>Gate</strong> — drop tools with <code>mentions &lt; INCLUSION_GATE</code>. Log dropped tools to stdout for review.</li>
-<li><strong>Render mention sections</strong> — for each surviving tool:</li>
-<li>If <code>&lt;slug&gt;.md</code> exists, regenerate only the block between <code>&lt;!-- mentions:start --&gt;</code> and <code>&lt;!-- mentions:end --&gt;</code>. Hand-written prose preserved.</li>
-<li>If <code>&lt;slug&gt;.md</code> does not exist, scaffold a stub with the skeleton above (header metadata as <code>TODO</code>, prose sections as <code>TODO</code>) so the human author can fill in.</li>
-<li><strong>Emit matrix data</strong> — <code>docs/assets/bioinfo-tools/tool-matrix.json</code> for the index Tabulator table.</li>
-<li><strong>Emit tool-mentions.json</strong> for cross-topic linking convenience (downstream pages may consume).</li>
-</ol>
-<p>The script remains idempotent. Re-running the build never overwrites prose.</p>
-<h2 id="cross-topic-linking">Cross-topic linking<a class="headerlink" href="#cross-topic-linking" title="Permanent link">&para;</a></h2>
-<p>One-directional: dossiers live under <code>bioinfo-tools/tools/</code>; other topics link in.</p>
-<ul>
-<li><code>docs/topics/virtual-cells/landscape.md</code> — find/replace pass: scGPT, Geneformer, UCE, scFoundation, Nicheformer become links to <code>../bioinfo-tools/tools/&lt;slug&gt;.md</code>.</li>
-<li><code>docs/topics/agentic-ai/landscape.md</code> — same for PathChat and any agentic-flavored mentions.</li>
-<li><code>docs/topics/single-cell-spatial-omics/landscape.md</code> — same for sc + spatial tools.</li>
-<li><code>docs/topics/clinical-trials/landscape.md</code> — likely no links (CT corpus rarely names FMs).</li>
-</ul>
-<p>Reverse direction (on the dossier page): a single line at the top — <code>**Also surfaced in:** virtual-cells, agentic-ai</code> — generated from the cross-topic mention scan. No deeper backlink.</p>
-<h2 id="integration-with-existing-bioinfo-pages">Integration with existing bioinfo pages<a class="headerlink" href="#integration-with-existing-bioinfo-pages" title="Permanent link">&para;</a></h2>
-<p>Minimal, no rewrites:</p>
-<ul>
-<li><code>topics/bioinfo-tools/index.md</code>: one new paragraph linking to <code>tools/index.md</code>, plus a sentence in the topic intro flagging the new layer.</li>
-<li><code>topics/bioinfo-tools/landscape.md</code>: find/replace pass — when the existing prose names a tool that has a dossier, that name becomes a link.</li>
-<li><code>topics/bioinfo-tools/synthesis-fm-pathology-traction.md</code>: same find/replace.</li>
-</ul>
-<p>The 7-method-family landscape essay stays — it's still the right shape for orienting the reader to the topic. Tool dossiers complement, not replace, that essay.</p>
-<h2 id="sub-threshold-tools">Sub-threshold tools<a class="headerlink" href="#sub-threshold-tools" title="Permanent link">&para;</a></h2>
-<p>Tools with &lt;3 mentions are dropped silently from the dossier set. The build logs <code>dropped: &lt;name&gt; (n=&lt;count&gt;)</code> to stdout. The author reviews logs after each build and decides whether any dropped tool deserves a one-line note in a <code>## Notable absences from the corpus</code> section at the bottom of <code>tools/index.md</code> (e.g., "scBERT (n=1) — predates the recent wave; no current AACR posters cite it."). This avoids dead-page proliferation.</p>
-<h2 id="resolved-decisions">Resolved decisions<a class="headerlink" href="#resolved-decisions" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Metadata source of truth — inline in the dossier <code>.md</code> file.</strong> Header fields (<code>**Family:**</code>, <code>**Modality:**</code>, <code>**License:**</code>, etc.) are bold-prefix lines at the top of each <code>&lt;slug&gt;.md</code>. The build script parses them via regex (<code>^\*\*(\w[\w /]*?):\*\*\s*(.+)$</code>) when assembling <code>tool-matrix.json</code>. Single source of truth — no sidecar YAML, no frontmatter, no second-system drift.</li>
-<li><strong>Aliases for caption transcripts</strong> — Vimeo auto-captions mishear technical names (scGPT → "SC-GPT", "S.C. G.P.T."). The <code>aliases</code> list in <code>TOOLS</code> enumerates the most common variants observed in the existing transcripts. New aliases get added by hand when a missed mention is discovered.</li>
-<li><strong>Find/replace pass for cross-topic linking</strong> — manual, one-shot. The number of references is small (5-10 per landscape page) and link decisions are judgement-laden (which mention deserves a link vs which is a passing reference). Not scripting this.</li>
-</ul>
-<h2 id="out-of-scope-explicitly">Out of scope (explicitly)<a class="headerlink" href="#out-of-scope-explicitly" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Per-tool benchmark leaderboards.</li>
-<li>Comparison head-to-head matrix (e.g., CHIEF vs UNI on shared tasks). Posters report inconsistent baselines; aggregating would mislead.</li>
-<li>Auto-fetching upstream paper bibs / arxiv IDs.</li>
-<li>Tools section on topics other than bioinfo-tools.</li>
-<li>Dossiers for tools below the inclusion gate.</li>
-</ul>
-<h2 id="success-criteria">Success criteria<a class="headerlink" href="#success-criteria" title="Permanent link">&para;</a></h2>
-<ol>
-<li><code>mkdocs build</code> produces <code>tools/</code> section under bioinfo-tools without errors.</li>
-<li>Each surviving tool has a dossier page with: header metadata filled, auto-generated mentions block populated, hand-written "What's missing" + "Takeaway" sections.</li>
-<li>Tools index page renders the matrix correctly with sort/filter working.</li>
-<li>Cross-topic landscape pages have working links to dossiers for at least scGPT, Geneformer, UCE.</li>
-<li>Re-running <code>python scripts/build_site.py &amp;&amp; mkdocs build</code> does not overwrite hand-written prose in dossier <code>.md</code> files.</li>
-<li>The build logs sub-threshold dropped tools so the author can decide on the notable-absences list.</li>
-</ol>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

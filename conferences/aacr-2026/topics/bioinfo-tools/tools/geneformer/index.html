@@ -13150,119 +13150,34 @@
   
 
 
-<h1 id="geneformer">Geneformer<a class="headerlink" href="#geneformer" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> sc-fm
-<strong>Modality:</strong> Single-cell RNA-seq (rank-encoded gene expression, human)
-<strong>Released:</strong> 2023 (Nature); V2 update 2024
-<strong>License:</strong> Apache-2.0
-<strong>Code/checkpoint:</strong> <a href="https://huggingface.co/ctheodoris/Geneformer">huggingface.co/ctheodoris/Geneformer</a>
-<strong>Also surfaced in:</strong> agentic-ai, single-cell-spatial-omics, virtual-cells</p>
-<blockquote>
-<p>Geneformer is a transformer foundation model for single-cell
-transcriptomics from Christina Theodoris's group at Gladstone/UCSF
-that represents each cell as a rank-ordered list of its most
-distinctively expressed genes and learns gene-context relationships
-via masked language modeling. It is pretrained on Genecorpus-30M, a
-~30 million-cell corpus assembled from public human scRNA-seq, and
-was the first widely adopted single-cell FM. Standout claims center
-on zero- and few-shot transfer to disease modeling, in-silico
-perturbation, and identifying candidate gene targets in
-data-limited settings such as cardiomyopathy.</p>
-</blockquote>
-<h2 id="architecture-training">Architecture &amp; training<a class="headerlink" href="#architecture-training" title="Permanent link">&para;</a></h2>
-<p>Geneformer encodes a cell as the ranked list of its top expressed
-genes (rank-value encoding, deprioritizing housekeeping genes) and
-runs a BERT-style transformer encoder over that sequence. The
-original V1 model (2023) is ~10M parameters with a 2,048-token input
-and ~25K-gene vocabulary, pretrained with 15% masked-gene-prediction
-on Genecorpus-30M (~30M human single-cell transcriptomes). V2 (2024)
-scales to 104M and 316M parameter variants with a 4,096-token input,
-restricts the vocabulary to ~20K protein-coding genes, and is
-pretrained on a ~104M-cell expanded corpus, with a separate
-14M-cell cancer-domain-tuned variant. Pretraining is fully
-self-supervised and the released models are typically used either
-zero-shot for embeddings/perturbation or fine-tuned on small labeled
-sets.</p>
-<h2 id="use-in-the-aacr-2026-corpus">Use in the AACR 2026 corpus<a class="headerlink" href="#use-in-the-aacr-2026-corpus" title="Permanent link">&para;</a></h2>
-<!-- mentions:start -->
+<div id="mkdocs-encrypted-content" style="display:none">Ru0+QYAx86KXeq+Y/0edBQ==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<p><strong>Posters mentioning Geneformer (n=4):</strong></p>
-<ul>
-<li><strong>2752</strong> — <em>CancerSTFormer enables multi-scale analysis of spot-resolution spatial transcriptomes and dissects the gene and immune regulatory responses of targeted therapies</em>
-  …results using the PD1-sensitive/resistant gene sets of the Holdout group. When compared against a fine-tuned Geneformer and a norefinement control, both Local and Extended CancerSTFormer variants consistently achieved higher accu…</li>
-<li><strong>5478</strong> — <em>Benchmarking gene expression foundation models on bulk RNA-Seq data</em>
-  …thods: We compared publicly available models with released weights, including six single-cell models (CellFM, GeneFormer, scBERT, scFoundation, scGPT, and scLong) and BulkFormer, a model trained on bulk RNA-seq data. Embeddings we…</li>
-<li><strong>978</strong> — <em>Deep learning frameworks for translating cancer drug response from cell-level to patient-level by modeling transcriptome</em>
-  …e can be also seen as transcriptomic cellular state change, we used an existing pre-trained rank-based model (Geneformer, Nature 2024). Given these models of transcriptomic changes, we model the cancer patient in two different app…</li>
-<li><strong>LB169</strong> — <em>scCAP: An ontology-aware large language model framework for hierarchical and standardized single-cell type annotation</em>
-  …remains challenging in single-cell RNA sequencing analysis. Existing tools (CellTypist, SCimilarity, SingleR, Geneformer) exhibit distinct biases and lack standardized nomenclature, hindering cross-study comparability. Furthermore…</li>
-</ul>
-<p><strong>Sessions mentioning Geneformer (n=0):</strong></p>
-<p><em>No session transcripts in the AACR 2026 corpus mention this tool.</em></p>
-<!-- mentions:end -->
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/geneformer/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<h2 id="whats-missing-where-evidence-is-weak">What's missing / where evidence is weak<a class="headerlink" href="#whats-missing-where-evidence-is-weak" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>No primary application</strong> — every poster mention treats Geneformer as a baseline to beat (poster 2752 CancerSTFormer outperforms a fine-tuned Geneformer; poster 5478 benchmarks it alongside five other single-cell FMs on bulk RNA-seq), as a generic rank-based reference (poster 978), or as a comparator that "exhibits distinct biases" (poster LB169 scCAP). The corpus contains no poster that uses Geneformer as the primary tool driving a discovery.</li>
-<li><strong>Zero session mentions.</strong> Despite being one of the earliest single-cell FMs and frequently named alongside scGPT, Geneformer is absent from all 12 bioinfo-tools session transcripts.</li>
-<li><strong>No explicit V1-vs-V2 comparison.</strong> The released 104M / 316M-parameter V2 variants and the 14M-cell cancer-domain-tuned model are not differentiated in any corpus mention; posters refer to "Geneformer" generically.</li>
-<li><strong>No in-silico perturbation or drug-target discovery work</strong> — Geneformer's headline use case from the original Nature paper does not appear in any corpus entry.</li>
-</ul>
-<h2 id="takeaway">Takeaway<a class="headerlink" href="#takeaway" title="Permanent link">&para;</a></h2>
-<p>In AACR 2026, Geneformer is the canonical "previous-generation" single-cell foundation model: cited in four posters, but always as a benchmark baseline that newer methods (CancerSTFormer, scCAP, BulkFormer, custom rank-based pipelines) measure themselves against — never as the primary engine of a result. The corpus thus tells a consistent story across single-cell FMs: Geneformer set the template, and the field has moved on to larger or more domain-specific successors without abandoning it as a reference point.</p>
-<h2 id="fm-comparison-2026-status">FM comparison &amp; 2026 status<a class="headerlink" href="#fm-comparison-2026-status" title="Permanent link">&para;</a></h2>
-<p><strong>Where it sits in the FM landscape.</strong> Geneformer is the encoder-only, rank-token branch of the single-cell FM family — distinguished from scGPT's decoder-style gene-value generation by discarding magnitude and learning only relative gene ordering. V1 (2023) was ~10M parameters; V2 (Dec 2024) released <strong>104M and 316M parameter variants</strong> under the names Geneformer-V2-104M and Geneformer-V2-316M, with a separate <strong>Geneformer-V2-104M_CLcancer</strong> continually pretrained on ~14M cancer cells. At 316M parameters, V2-Deep is the largest published rank-encoded scFM, and one of the two largest single-cell FMs of any kind (UCE at 650M is the only larger commonly cited model).</p>
-<p><strong>Direct peers.</strong></p>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Architecture</th>
-<th>Pretraining corpus</th>
-<th>Public weights</th>
-<th>Headline benchmark</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Geneformer V2-316M</td>
-<td>BERT encoder, rank-value tokens, 4,096-token input</td>
-<td>104M cells, ~20K protein-coding genes</td>
-<td>Apache-2.0, HF</td>
-<td>Top AUPRC on cancer-task suite (Helical Bio 2025 benchmark)</td>
-</tr>
-<tr>
-<td>scGPT v1.0</td>
-<td>Decoder, gene-value tokens, ~51M params</td>
-<td>33M cells + 5.7M pan-cancer</td>
-<td>MIT, Google Drive</td>
-<td>Cell-type annotation + perturbation (Nature Methods 2024)</td>
-</tr>
-<tr>
-<td>UCE</td>
-<td>Encoder, protein-sequence-conditioned, 650M params</td>
-<td>36M cells, 8 species</td>
-<td>MIT, GitHub</td>
-<td>Strongest cross-dataset zero-shot embedding (Liu et al. 2025)</td>
-</tr>
-<tr>
-<td>scFoundation</td>
-<td>xTrimoGene encoder, continuous-value, 100M params</td>
-<td>50M human cells</td>
-<td>Code MIT, weights gated</td>
-<td>Tumor-tissue pooled-data benchmarks</td>
-</tr>
-<tr>
-<td>CellPLM</td>
-<td>Cell-as-token encoder, ~80M params</td>
-<td>11M cells with spatial context</td>
-<td>MIT, GitHub</td>
-<td>Spatial-aware cell-state inference</td>
-</tr>
-</tbody>
-</table>
-<p><strong>What changed in 2025-2026.</strong> Three things. First, the V2 family is now the default — the HuggingFace <code>main</code> branch was retargeted to V2-316M, and V1 is preserved only as a legacy directory. Geneformer-V2-104M_CLcancer (the cancer continual-learning variant) <strong>matched or exceeded the 316M deep model</strong> on cancer benchmarks at one-third the parameter count, which inverted the "scale wins" narrative the field had assumed in 2024. Second, the same 2025 critique wave that hit scGPT (Kedzierska et al., <em>Genome Biology</em> 2025; Wenkel et al., <em>Nature Methods</em> 2025) hit Geneformer harder — its rank-encoding deliberately throws away expression magnitude, and benchmark studies show this leaves it behind UCE and scFoundation on most embedding-quality and zero-shot classification tasks. Third, no retraction or formal concern has been issued, and the license remains permissive (Apache-2.0).</p>
-<p><strong>AACR-relevant use cases.</strong> The corpus shows Geneformer in three distinct AACR-relevant modes: (1) <strong>As a baseline to beat</strong> — poster 2752 (CancerSTFormer) explicitly fine-tunes Geneformer as the comparator and reports their spatial transformer wins, the cleanest "old-FM-vs-new-method" framing in the meeting; (2) <strong>As a rank-based feature extractor</strong> — poster 978 cites Geneformer as the rank-based model anchoring their cell-to-patient drug-response framework; (3) <strong>As a single-cell annotator under critique</strong> — poster LB169 (scCAP) names Geneformer among tools that "exhibit distinct biases" in cell-type annotation. Notably absent: Geneformer's headline <strong>in-silico perturbation / drug-target discovery</strong> use case from the original Theodoris <em>Nature</em> 2023 paper does not appear in any 2026 abstract, despite this being the workflow most directly relevant to AACR's translational audience. No session transcripts mention Geneformer at all (n=0) — strikingly low for a model with 4 poster hits.</p>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

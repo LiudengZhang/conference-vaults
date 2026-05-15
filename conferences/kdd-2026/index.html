@@ -13219,255 +13219,34 @@
   
 
 
-<h1 id="kdd-2026">KDD 2026<a class="headerlink" href="#kdd-2026" title="Permanent link">&para;</a></h1>
-<p><strong>32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining</strong> — International Convention Center Jeju (ICC Jeju), <strong>Jeju, South Korea</strong>, <strong>August 9–13, 2026</strong>.</p>
-<blockquote>
-<p><strong>Status:</strong> Scaffold — meeting ~3 months out (today is May 11, 2026). Cycle 2 main-track notifications are due May 16, 2026 (this week); BIOKDD submissions close May 14, 2026 with notification June 4, 2026. This is a <strong>light build</strong>, not full coverage — see "Scope" below.</p>
-</blockquote>
-<h2 id="why-this-is-in-the-vault">Why this is in the vault<a class="headerlink" href="#why-this-is-in-the-vault" title="Permanent link">&para;</a></h2>
-<p>KDD is the premier general-purpose data-mining conference (~3,500 attendees in recent years), with an unusually strong <strong>applied research / industry track (ADS)</strong> alongside its academic Research Track. Unlike NeurIPS / ICML / ICLR — which are the deep-learning methods venues — KDD's center of gravity sits on <strong>structured-data ML, graph mining, recommender systems, time-series, EHR mining, clinical NLP, and large-scale productionized pipelines</strong>. That makes its cancer-relevant subset distinct from the ML venues: less foundation-model preprint-bait, more EHR-cohort / claims-data / multi-omics-pipeline / drug-repurposing graph work that lands closer to the clinic.</p>
-<p>Three concrete reasons to keep a scoped presence:</p>
-<ul>
-<li><strong>EHR mining + clinical NLP pipeline.</strong> KDD historically hosts the largest non-AMIA cluster of EHR / claims / longitudinal-cohort papers in the ML world, including the recurring <strong>epiDAMIK</strong> workshop on data-driven public/population health. These pipelines feed AACR's outcomes-research and clinico-genomics axes.</li>
-<li><strong>Bioinformatics + multi-omics ML.</strong> <strong>BIOKDD 2026</strong> is the workshop's 25th edition; the 2026 theme is "Digital Twins" — disease-trajectory simulation, cell-cell communication, microenvironmental interactions, post-treatment outcome prediction. This is the closest KDD analog to ICML's GenBio / FM4LS bio cluster, but with a tilt toward applied multi-omics rather than de novo design.</li>
-<li><strong>Healthcare agentic-AI + LLM-grounding.</strong> KDD 2026 has an unusually heavy agentic-AI workshop slate (RelSciFM, SciSoc Agents &amp; LLMs, Enterprise AI Agents, AEGIS for evidence-grounded interventional systems, KDD Eval for agentic-AI trustworthiness). Many of these reliably adapt to clinical / oncology use within 6 months.</li>
-</ul>
-<p>KDD 2026 introduces a new <strong>AI for Sciences track</strong> (inaugural year) that explicitly welcomes "health sciences, healthcare, bioinformatics, epidemiology, pharmaceuticals, systems biology, multiomics, neuroscience." This consolidates work that previously spread across Research and ADS tracks and is our primary main-track filter target.</p>
-<h2 id="scope-what-this-vault-covers-and-what-it-does-not">Scope (what this vault covers — and what it does not)<a class="headerlink" href="#scope-what-this-vault-covers-and-what-it-does-not" title="Permanent link">&para;</a></h2>
-<p><strong>In scope (light build):</strong></p>
-<ul>
-<li>The <strong>bio / health / drug-discovery / clinical-NLP / public-health workshops</strong> at KDD 2026 (see roster below).</li>
-<li><strong>AI for Sciences track</strong> papers in the biomedical / health subset.</li>
-<li><strong>Research Track + ADS Track</strong> papers matching a <strong>cancer / genomics / single-cell / spatial / drug-discovery / EHR / clinical-NLP / pathology / healthcare-graph keyword filter</strong> (anticipate a few dozen out of ~700 main-track papers across two cycles).</li>
-<li>The <strong>agentic-AI / LLM-for-science</strong> subset of the main-track + agentic-AI workshops, regardless of explicit bio framing.</li>
-</ul>
-<p><strong>Out of scope:</strong></p>
-<ul>
-<li>General data-mining bulk: recommender systems, e-commerce, advertising (AdKDD), search/discovery (TSMO), urban computing (UrbComp), finance (MLF), talent computing (TMC), fraud / integrity work without a healthcare hook.</li>
-<li>Tutorials and KDD Cup challenges outside the bio / health niches.</li>
-<li>The full main proceedings (~700 papers across two cycles); bulk extraction is explicitly <strong>not</strong> planned.</li>
-<li>Korea Day / Special Days programming unless content overlaps.</li>
-</ul>
-<h2 id="anticipated-bio-health-relevant-workshops">Anticipated bio / health-relevant workshops<a class="headerlink" href="#anticipated-bio-health-relevant-workshops" title="Permanent link">&para;</a></h2>
-<p>The 2026 workshop roster is finalized (30 workshops total). The bio / health / clinical / agentic-AI-with-science-hook subset:</p>
-<table>
-<thead>
-<tr>
-<th>Workshop</th>
-<th>Theme</th>
-<th>Acronym</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>25th International Workshop on Data Mining in Bioinformatics</td>
-<td>data mining for bioinformatics, biomedical informatics; 2026 theme "Digital Twins" — disease trajectories, cell-cell comm, treatment-response prediction</td>
-<td><strong>BIOKDD 2026</strong></td>
-<td>Submission May 14, notification Jun 4, 2026; IEEE/ACM TCBB special issue for full papers</td>
-</tr>
-<tr>
-<td>Workshop on Data-driven Decision Making for Public and Population Health</td>
-<td>epidemiology, public health, AI/data systems for population health; recurring since 2018</td>
-<td><strong>epiDAMIK 2026</strong></td>
-<td>Aug 9 or 10, 2026</td>
-</tr>
-<tr>
-<td>Adaptation and Evidence-grounding of Generative Interventional Systems</td>
-<td>evidence-grounded generative AI for interventional / clinical decision systems; UF College of Public Health &amp; Health Professions affiliated</td>
-<td><strong>AEGIS 2026</strong></td>
-<td>First edition; clinical decision-support focus</td>
-</tr>
-<tr>
-<td>Reliable Scientific Foundation Models: Design, Training, Grounding, Verification</td>
-<td>trustworthy FMs for science — design, evaluation, grounding</td>
-<td><strong>RelSciFM 2026</strong></td>
-<td>Bio/chem subset only; skip generic FM theory</td>
-</tr>
-<tr>
-<td>The Second Workshop on SciSoc Agents &amp; LLMs: Agentic AI for Scientific and Societal Advances</td>
-<td>LLM agents for scientific and societal applications</td>
-<td><strong>SciSoc LLM 2026</strong></td>
-<td>Science-agent subset only</td>
-</tr>
-<tr>
-<td>KDD workshop on Evaluation and Trustworthiness of Agentic AI</td>
-<td>agentic-AI evaluation, safety, trustworthiness</td>
-<td><strong>AgenticAI-Eval 2026</strong></td>
-<td>Healthcare-deployment subset</td>
-</tr>
-<tr>
-<td>The International Workshop on AI for Cognitive and Mental Health Support</td>
-<td>clinical AI for mental health, cognitive support</td>
-<td><strong>AI4Mental 2026</strong></td>
-<td>First edition; psycho-oncology adjacent</td>
-</tr>
-<tr>
-<td>Responsible Multimodal Foundation Models for Knowledge Discovery</td>
-<td>multimodal FMs, responsible / robust deployment</td>
-<td><strong>RespMultimodal 2026</strong></td>
-<td>Medical-imaging / clinical-multimodal subset</td>
-</tr>
-<tr>
-<td>Enterprise AI Agents: From Prototypes to Production</td>
-<td>productionizing agentic systems; relevant where pharma / biotech is in scope</td>
-<td><strong>EntAIAgents 2026</strong></td>
-<td>Pharma/biotech-deployment subset only</td>
-</tr>
-</tbody>
-</table>
-<p>The seven core bio/health/agentic-with-science workshops above are the anchor; another ~3 (RelSciFM, RespMultimodal, EntAIAgents) get filtered partial coverage. The remaining ~20 workshops (advertising, finance, urban, fraud, recsys, time-series-generic, federated-generic) are out of scope.</p>
-<h2 id="what-we-have-will-have-to-work-with">What we have / will have to work with<a class="headerlink" href="#what-we-have-will-have-to-work-with" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Source</th>
-<th>Coverage</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Main proceedings</strong></td>
-<td>~700 accepted papers across Cycle 1 + Cycle 2</td>
-<td>ACM Digital Library / KDD proceedings; OpenReview KDD.org/2026/Conference group hosts decision records. Cycle 1 notifications were Nov 23, 2025; Cycle 2 notifications due May 16, 2026.</td>
-</tr>
-<tr>
-<td><strong>AI for Sciences track</strong></td>
-<td>inaugural track</td>
-<td>Biomedical / health applications consolidated here; cleanest filter target.</td>
-</tr>
-<tr>
-<td><strong>Workshop OpenReview / sites</strong></td>
-<td>one venue per workshop</td>
-<td>BIOKDD, epiDAMIK, AEGIS, RelSciFM, SciSoc LLM, AgenticAI-Eval, AI4Mental, RespMultimodal each host their own site.</td>
-</tr>
-<tr>
-<td><strong>bioRxiv / medRxiv mirrors</strong></td>
-<td>most bio-relevant KDD papers have a preprint</td>
-<td>Filter for "KDD 2026" mentions; especially for BIOKDD digital-twin contributions.</td>
-</tr>
-<tr>
-<td><strong>Twitter/Bluesky</strong></td>
-<td>real-time reactions</td>
-<td><code>#KDD2026</code>; useful for agentic-AI-for-science orals.</td>
-</tr>
-<tr>
-<td><strong>Recorded talks</strong></td>
-<td>YouTube + KDD virtual platform</td>
-<td>KDD records ADS orals + most workshop keynotes; posts within ~2–4 weeks of meeting.</td>
-</tr>
-<tr>
-<td><strong>Cross-link with NeurIPS / ICML</strong></td>
-<td>author + tool overlap</td>
-<td>KDD's August slot sits between ICML (July) and NeurIPS (December); the same agentic-AI / FM-bio authors often appear at all three.</td>
-</tr>
-<tr>
-<td><strong>Cross-link with AMIA / ML4H</strong></td>
-<td>EHR / clinical-NLP author overlap</td>
-<td>KDD's EHR cluster heavily overlaps with AMIA Annual Symposium (Nov) and ML4H @ NeurIPS.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="organization">Organization<a class="headerlink" href="#organization" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>conferences/kdd-2026/
-├── index.md             # this page
-├── program-notes.md     # pre-meeting prep — dates, filter criteria, expected themes
-└── tools/               # per-paper / per-tool entries, populated post-notification
-    └── index.md         # template + scope-filter note
-</code></pre></div>
-<p>No <code>digest/</code>, no <code>themes.md</code>, no <code>keynotes/</code>. The light-build pattern mirrors NeurIPS 2026 / ICML 2026 / CVPR 2026: only <code>tools/</code> gets populated, and only with the filtered subset.</p>
-<h2 id="whats-different-from-full-conference-vaults">What's different from full-conference vaults<a class="headerlink" href="#whats-different-from-full-conference-vaults" title="Permanent link">&para;</a></h2>
-<p>Compared to ISMB 2026, RECOMB 2026, AACR 2026, ASCO 2026, or EuroBioC 2025 — which aim at near-complete program coverage — KDD 2026 is <strong>scope-limited by design</strong>:</p>
-<ul>
-<li>No per-session digests, no per-day digests, no themes synthesis. The general-purpose data-mining bulk is irrelevant.</li>
-<li>No keynote / plenary coverage unless the speaker is a known bio / clinical-AI author.</li>
-<li>Tool entries are filtered down to a few dozen, not exhaustive. The filter is keyed on the AACR axes, not on KDD's own taxonomy.</li>
-<li>Most KDD 2026 tool entries should explicitly cross-link to a <strong>NeurIPS 2026 / ICML 2026 / AMIA 2026 cousin paper</strong> — KDD's EHR-cluster overlaps AMIA, its bio-cluster overlaps NeurIPS LMRL / ICML FM4LS, and its agentic-AI cluster overlaps all three ML venues.</li>
-</ul>
-<h2 id="key-dates">Key dates<a class="headerlink" href="#key-dates" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th>Event</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Jul 24, 2025</td>
-<td>Cycle 1 abstract deadline — past</td>
-</tr>
-<tr>
-<td>Jul 31, 2025</td>
-<td>Cycle 1 full-paper deadline — past</td>
-</tr>
-<tr>
-<td>Oct 4–18, 2025</td>
-<td>Cycle 1 rebuttal period — past</td>
-</tr>
-<tr>
-<td>Nov 23, 2025</td>
-<td>Cycle 1 notifications — past</td>
-</tr>
-<tr>
-<td>Feb 1, 2026</td>
-<td>Cycle 2 abstract deadline — past</td>
-</tr>
-<tr>
-<td>Feb 8, 2026</td>
-<td>Cycle 2 full-paper deadline — past</td>
-</tr>
-<tr>
-<td>Apr 4–17, 2026</td>
-<td>Cycle 2 rebuttal period — past</td>
-</tr>
-<tr>
-<td>May 14, 2026</td>
-<td>BIOKDD 2026 submission deadline (extended) — <strong>this week</strong></td>
-</tr>
-<tr>
-<td><strong>May 16, 2026</strong></td>
-<td>Cycle 2 main-track notifications — <strong>this week</strong></td>
-</tr>
-<tr>
-<td>Jun 4, 2026</td>
-<td>BIOKDD 2026 notification</td>
-</tr>
-<tr>
-<td><strong>Aug 9–13, 2026</strong></td>
-<td>KDD 2026 main meeting, Jeju, ICC Jeju</td>
-</tr>
-<tr>
-<td>Aug 9 or 10, 2026</td>
-<td>epiDAMIK 2026 (workshop day)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://kdd2026.kdd.org/">KDD 2026 home</a></li>
-<li><a href="https://kdd2026.kdd.org/workshops/">KDD 2026 Workshops list</a></li>
-<li><a href="https://kdd2026.kdd.org/research-track-call-for-papers/">KDD 2026 Research Track CFP</a></li>
-<li><a href="https://kdd2026.kdd.org/ai4sciences-track-call-for-papers/">KDD 2026 AI for Sciences Track CFP</a></li>
-<li><a href="https://kdd2026.kdd.org/applied-data-science-ads-track-call-for-papers/">KDD 2026 Applied Data Science Track CFP</a></li>
-<li><a href="https://biokdd.org/biokdd26/">BIOKDD 2026</a></li>
-<li><a href="https://epidamik.github.io/">epiDAMIK 2026</a></li>
-<li><a href="https://phhp.ufl.edu/aegis-2026/">AEGIS 2026</a></li>
-<li><a href="https://kdd26-relscifm.github.io/">RelSciFM 2026</a></li>
-<li><a href="https://kdd26scisocllm.github.io/">SciSoc LLM 2026</a></li>
-<li><a href="https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/">AgenticAI-Eval 2026</a></li>
-<li><a href="https://chrystalii.github.io/AI4mental/">AI4Mental 2026</a></li>
-<li><a href="https://respmultimodal2026.github.io/">RespMultimodal 2026</a></li>
-<li><a href="https://openreview.net/group?id=KDD.org/2026/Conference">KDD 2026 OpenReview</a></li>
-</ul>
-<h2 id="next-step">Next step<a class="headerlink" href="#next-step" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Now → mid-May 2026:</strong> monitor Cycle 2 main-track notifications (May 16) and BIOKDD notification (Jun 4). No bulk content extraction until accept lists drop.</li>
-<li><strong>Late May – Jul 2026:</strong> scaffold likely bio / health workshop pages; run the keyword filter against the Cycle 1 + Cycle 2 accepted list to identify the ~few-dozen bio-relevant papers; cross-check author lists against ICML 2026 (Jul 6–11) bio-workshop acceptances.</li>
-<li><strong>Aug 9–13, 2026 (during the meeting):</strong> opportunistic capture of social reactions, especially BIOKDD / epiDAMIK / AEGIS / RelSciFM orals and AI-for-Sciences track talks.</li>
-<li><strong>Post-meeting (mid-Aug 2026 onward):</strong> populate <code>tools/</code> with the filtered subset; cross-link into AACR 2026 agentic-AI, virtual-cells, and outcomes-research axes, plus NeurIPS 2026 / ICML 2026 / AMIA 2026 cousins.</li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">mJkLorW06szGEypW7Usgiw==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/kdd-2026/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

@@ -13109,95 +13109,34 @@
   
 
 
-<h1 id="ismb-2026-tools">ISMB 2026 — Tools<a class="headerlink" href="#ismb-2026-tools" title="Permanent link">&para;</a></h1>
-<p>ISMB 2026 will run ~5 distinguished keynotes + ~600 scientific talks across 22 COSI tracks + nested BOSC + special tracks (NIH/ODSS, Industry Workshop, Pathogen Data Network, Q4LS) + 9 full-day Sunday tutorials. The subset that yields tool pages is the intersection of (a) Proceedings papers published in <em>Bioinformatics</em> (peer-reviewed full papers with DOIs), (b) COSI-invited talks that announce a named package or method, and (c) BOSC talks that introduce a Bioconductor / Galaxy / scverse / open-source tool. <strong>Ecosystem field = <code>Bioconductor / scverse / Galaxy / standalone-Python / standalone-R / web-service / C++</code></strong> — broader than EuroBioC's R-only and GBCC's R+Galaxy.</p>
-<blockquote>
-<p><strong>Status:</strong> Template stub. Per-tool format proposed here for review <em>before</em> bulk extraction runs immediately after the meeting closes (Jul 16, 2026). Once locked, expected ~60–120 entries get populated from the proceedings-paper list + COSI program books.</p>
-</blockquote>
-<h2 id="per-tool-entry-template">Per-tool entry template<a class="headerlink" href="#per-tool-entry-template" title="Permanent link">&para;</a></h2>
-<p>Each tool gets its own page (<code>tools/&lt;package-slug&gt;.md</code>) following this structure. The shape mirrors EuroBioC2025 and GBCC2025 with two ISMB-specific additions (a Proceedings DOI row, a COSI track field):</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># &lt;ToolName&gt;</span>
+<div id="mkdocs-encrypted-content" style="display:none">aa/gwgIFaC8SY601O5AOKg==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<span class="gs">**One-line description**</span> — what the tool does in plain language.
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/ismb-2026/tools/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<span class="k">-</span><span class="w"> </span><span class="gs">**Maintainer:**</span> &lt;name&gt; (&lt;institution&gt;)
-<span class="k">-</span><span class="w"> </span><span class="gs">**Ecosystem:**</span> Bioconductor / scverse / Galaxy / standalone-Python / standalone-R / web-service / C++ / other
-<span class="k">-</span><span class="w"> </span><span class="gs">**Package / source:**</span> [GitHub link]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Docs / vignette:**</span> [link]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Status at ISMB 2026:**</span> new release / major update / proceedings paper / methods talk / case study / tutorial / BOSC demo
-<span class="k">-</span><span class="w"> </span><span class="gs">**Proceedings:**</span> [<span class="ge">*Bioinformatics*</span> DOI if applicable — null for COSI-invited / methods talks]
-
-<span class="gu">## Talk at ISMB 2026</span>
-
-<span class="k">-</span><span class="w"> </span><span class="gs">**Speaker:**</span> ...
-<span class="k">-</span><span class="w"> </span><span class="gs">**Day / COSI track:**</span> Mon Jul 13 / MLCSB · Tue Jul 14 / RegSys · etc.
-<span class="k">-</span><span class="w"> </span><span class="gs">**Session slot:**</span> 11:00–13:00 | 14:20–16:00 | 16:40–18:00
-<span class="k">-</span><span class="w"> </span><span class="gs">**Slides:**</span> [Zenodo DOI or lab site]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Video:**</span> [ISCB Nucleus on-demand link if posted]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Abstract / talk page:**</span> [ISMB program link]
-
-<span class="gu">## What it does</span>
-
-2–3 sentences: the problem it solves, the key methodological idea, what it consumes/produces, what it&#39;s benchmarked against.
-
-<span class="gu">## Where it fits in the corpus</span>
-
-<span class="k">-</span><span class="w"> </span>AACR 2026: [link if mentioned]
-<span class="k">-</span><span class="w"> </span>EuroBioC 2025: [link if mentioned]
-<span class="k">-</span><span class="w"> </span>GBCC 2025: [link if mentioned]
-<span class="k">-</span><span class="w"> </span>BioC 2026: [link if mentioned — Aug 10-12 Seattle, likely re-up for Bioconductor speakers]
-<span class="k">-</span><span class="w"> </span>Nextflow Summit 2026: [link if mentioned]
-<span class="k">-</span><span class="w"> </span>JPM 2026 / RECOMB 2026: [link if mentioned]
-
-<span class="gu">## Notes</span>
-
-Free-form impressions, benchmarks claimed, comparisons to alternatives, AACR-axis fit notes.
-</code></pre></div>
-<h2 id="tool-index">Tool index<a class="headerlink" href="#tool-index" title="Permanent link">&para;</a></h2>
-<p>Placeholder table. ~60–120 entries expected after bulk extraction; the populated table will be sortable by Ecosystem, Domain, or COSI. Slide DOIs and video links typically populate over the 2–4 weeks following the meeting (ISCB Nucleus on-demand is posted incrementally).</p>
-<table>
-<thead>
-<tr>
-<th>Package</th>
-<th>Ecosystem</th>
-<th>Domain</th>
-<th>Speaker</th>
-<th>Day / COSI</th>
-<th>Proceedings</th>
-<th>Slides</th>
-<th>Video</th>
-<th>Mentioned elsewhere</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em>(populated post-meeting from proceedings list + COSI rosters; see <a href="../program-notes/"><code>../program-notes.md</code></a> for the candidate shortlist)</em></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="why-this-format">Why this format<a class="headerlink" href="#why-this-format" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Proceedings DOI is the anchor for ISMB</strong> — unlike EuroBioC / GBCC (where slide-deck DOIs are the most stable artifact), the <em>Bioinformatics</em> paper is what survives. Putting it on the same row as the talk metadata keeps the citation chain intact.</li>
-<li><strong>COSI track</strong> is the cleanest sort dimension at this scale. ISMB has 22 COSIs; faceting by COSI gives 30–60 entries per slice instead of 600.</li>
-<li><strong>Ecosystem field broadened</strong> beyond EuroBioC's Bioconductor-implicit assumption — at ISMB, scverse (SpatialData, anndata, scanpy) and standalone-Python (DeepChem-class, foundation-model adapters) tools are first-class and shouldn't be forced into a Bioconductor template.</li>
-<li><strong>Cross-vault "Mentioned elsewhere"</strong> picks up the Bioconductor speakers who run EuroBioC → GBCC → ISMB (BOSC) → BioC2026 in a single year (Soneson, Mangiola, Castelo, Carey, Borman, Marini, etc.) so a reader of any one entry can hop sideways.</li>
-</ul>
-<h2 id="open-questions">Open questions<a class="headerlink" href="#open-questions" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>Granularity</strong> — locked: <strong>one page per tool</strong>, same as EuroBioC / GBCC.</li>
-<li><strong>Proceedings-paper linking</strong> — <em>new for ISMB, open</em>: when a tool's ISMB Proceedings paper is also cited in an AACR poster / talk, do we mirror the entry into the AACR vault, or just cross-link with a "Mentioned at AACR 2026" line? Proposed default: <strong>cross-link only</strong>, full entry stays in ISMB vault — the AACR poster usually treats the tool as a black-box dependency, not the artifact under study. Mirror only when the AACR poster is methodologically central (e.g., a benchmark of the ISMB-released tool on cancer data).</li>
-<li><strong>BOSC entries vs. main-program entries</strong> — open: BOSC runs as a 2-day COSI inside ISMB. A Bioconductor package introduced at BOSC is "an ISMB 2026 tool" in this vault, but the same package may also surface at BioC2026 in Seattle a month later. Proposed: <strong>one tool entry, two talk slots within it</strong> (one BOSC, one BioC2026) — the talk-slot block in the template repeats per appearance.</li>
-<li><strong>Coverage budget</strong> — open: 600+ talks. We don't expand 600 tool pages. Filter: (a) any proceedings paper with code + maintained repo, (b) any COSI-invited talk in MLCSB / RegSys / NetBio / VarI / TransMed / Microbiome / CompMS / 3DSIG / BOSC that names a package, (c) any tool that is an update to an existing-in-corpus entry. Estimated ~60–120 after filtering.</li>
-<li><strong>Tutorials as tool pages</strong> — open: 9 Sunday tutorials, each ~6 hours, each effectively a hands-on workshop for one tool/stack (Agentic AI, Cytoscape+NDEx, Quantum-for-multi-omics, k-mer biophysical ML, etc.). Proposed: yes, each tutorial gets a tool page treating the tutorial as a <code>Status: tutorial</code> entry — same pattern as EuroBioC2025's workshop entries (OSTA, msqrob2, iSEE, mia, Workshop Platform).</li>
-</ol>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

@@ -13120,30 +13120,34 @@
   
 
 
-<h1 id="sergei-l-kosakovsky-pond-interactive-genomic-analytics-with-responsive-notebooks-in-the-browser-computation-and-ai-assisted-development">Sergei L. Kosakovsky Pond — "Interactive Genomic Analytics with responsive notebooks, in-the-browser computation, and AI-assisted development"<a class="headerlink" href="#sergei-l-kosakovsky-pond-interactive-genomic-analytics-with-responsive-notebooks-in-the-browser-computation-and-ai-assisted-development" title="Permanent link">&para;</a></h1>
-<p><strong>Affiliation:</strong> Temple University — Institute for Genomics and Evolutionary Medicine
-<strong>Day / session:</strong> Day 2 (Tue Jun 24, 2025) — Keynote 1, Grace Auditorium (9:00–10:00)
-<strong>Talk title:</strong> "Interactive Genomic Analytics with responsive notebooks, in-the-browser computation, and AI-assisted development"
-<strong>Slides (Zenodo DOI):</strong> <em>to verify after publish</em>
-<strong>Video:</strong> <a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQTJ0O_FIO9ayqaUDfnMo4-4">GBCC2025 playlist</a>
-<strong>Abstract / schedule:</strong> <a href="https://gbcc2025.bioconductor.org/program/scientific_program/">GBCC2025 program</a></p>
-<h2 id="thesis">Thesis<a class="headerlink" href="#thesis" title="Permanent link">&para;</a></h2>
-<p>Genomic analysis is migrating off the server and into the browser — responsive notebooks running compiled code via WASM (Pyodide / WebR / native HyPhy builds), with LLM agents drafting the analysis scaffolding around them. The argument is almost certainly that the <em>combination</em> of in-browser compute, reactive notebook UI, and AI-assisted authoring collapses the distance between a published method and a non-developer using it on their own data — i.e., what Datamonkey did for selection analysis, generalized.</p>
-<h2 id="speaker-context">Speaker context<a class="headerlink" href="#speaker-context" title="Permanent link">&para;</a></h2>
-<p>Pond is the lead developer of <a href="http://www.hyphy.org/">HyPhy</a> (likelihood-based phylogenetic inference for selection, recombination, and rate variation) and a long-time contributor to <a href="https://www.datamonkey.org/">Datamonkey</a>, the public web front-end that has made HyPhy's selection-analysis methods accessible to non-developers for two decades. The Day-2 opening keynote slot is well chosen: Datamonkey is one of the older "compute-on-our-server" web tools in genomics, so a talk from its lead author about <em>moving compute into the user's browser</em> is a credible signal that the architecture is shifting. Beyond the title, the specific tooling — Pyodide vs. WebR vs. a HyPhy-native WASM build — is not yet knowable from the schedule alone.</p>
-<h2 id="connections-to-the-corpus">Connections to the corpus<a class="headerlink" href="#connections-to-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li>AACR axis: <strong>agentic-ai</strong> — "AI-assisted development" puts this talk in conversation with the LLM-agent thread running through Day 2's Oral Session 1</li>
-<li><a href="../../tools/gaia/">GAIA</a> — Galaxy's AI agent framework; same Day-2 morning, sets the AI tone for the whole conference</li>
-<li><a href="../../tools/galaxymcp/">GalaxyMCP</a> — the MCP-server-for-Galaxy entry; complementary "AI meets workflow tooling" angle</li>
-<li>Cross-link to the <a href="../../">GBCC2025 index</a> for the full Day-2 oral lineup that this keynote opens</li>
-</ul>
-<h2 id="open-questions">Open questions<a class="headerlink" href="#open-questions" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Which WASM runtime does Pond actually demo — a HyPhy-native build, Pyodide, WebR, or all three? The browser-compute story changes meaningfully depending on whether "in-the-browser" means a port of HyPhy or a generic Python/R kernel.</li>
-<li>How concrete is the AI-assisted development claim — a working notebook agent, or a forward-looking sketch? Datamonkey-as-an-LLM-tool would be a natural next step but isn't promised by the title.</li>
-<li>Does the talk address the deployment / privacy argument for browser-side compute (no server, no upload of patient data) explicitly, or stay on the developer-experience side?</li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">+v0Qie2TJBbDeovcbyKNOA==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/gbcc-2025/keynotes/pond/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

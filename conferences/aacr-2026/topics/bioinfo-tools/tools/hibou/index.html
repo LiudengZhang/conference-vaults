@@ -13029,145 +13029,34 @@
   
 
 
-<h1 id="hibou-b-hibou-l">Hibou-B / Hibou-L<a class="headerlink" href="#hibou-b-hibou-l" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> path-fm
-<strong>Modality:</strong> H&amp;E and non-H&amp;E whole-slide image tiles (224×224, patch size 14); cytology slides included in pretraining
-<strong>Released:</strong> 2024 (Nechaev, Pchelnikov, Ivanova — HistAI; arXiv June 2024)
-<strong>License:</strong> Apache-2.0 for both Hibou-B and Hibou-L — commercial use permitted (one of the only major pathology FMs with this property)
-<strong>Code/checkpoint:</strong> <a href="https://github.com/HistAI/hibou">github.com/HistAI/hibou</a>; HuggingFace <a href="https://huggingface.co/histai/hibou-b">histai/hibou-b</a>, <a href="https://huggingface.co/histai/hibou-L">histai/hibou-L</a>
-<strong>Also surfaced in:</strong> single-cell-spatial-omics</p>
-<blockquote>
-<p>Hibou is a family of two self-supervised pathology foundation models
-from HistAI (Hibou-B, 86M parameters; Hibou-L, 307M parameters) that
-uses a register-augmented DINOv2 recipe to produce general-purpose
-tile embeddings for H&amp;E and non-H&amp;E histology. Unlike most other
-pathology FMs at this scale, both Hibou variants ship under
-Apache-2.0 with no commercial restriction, which has made them a
-common backbone for industry-adjacent and startup pipelines that
-cannot adopt UNI / Virchow-2 / Prov-GigaPath under their respective
-non-commercial terms.</p>
-</blockquote>
-<h2 id="architecture-training">Architecture &amp; training<a class="headerlink" href="#architecture-training" title="Permanent link">&para;</a></h2>
-<p><strong>Hibou-B</strong> is a <strong>ViT-B/14</strong> with ~86M parameters; <strong>Hibou-L</strong> is a
-<strong>ViT-L/14</strong> with ~307M parameters. Both use a customized DINOv2
-implementation that adds <strong>register tokens</strong> (Darcet et al. 2024) on
-top of the original Facebook Research code — register tokens stabilize
-self-supervised ViTs at scale by absorbing the "high-norm artifact"
-tokens that otherwise pollute attention maps. The implementation
-requires <code>trust_remote_code=True</code> to load from HuggingFace.</p>
-<p><strong>Pretraining corpus.</strong> The training set comprises <strong>1,138,905 whole
-slides</strong>: 936,441 H&amp;E-stained slides, 202,464 non-H&amp;E (mostly IHC and
-special stains), plus 2,676 cytology slides, drawn from 306,400 unique
-cases. The corpus is multi-institutional and includes veterinary
-biopsies alongside human tissue — the authors frame this as one of the
-most stain- and species-diverse pathology pretraining sets to date.</p>
-<p><strong>Compute and recipe.</strong> Hibou-B was trained on 512M curated patches
-using 8× A100-80G GPUs with batch size 1024 for 500k iterations.
-Hibou-L was trained on 1.2B curated patches using 32× A100-40G GPUs,
-batch size 1024, for 1.175M iterations. Augmentations included
-random rotation, horizontal/vertical flips, RandStainNA stain
-normalization, and color jittering. The training objective is
-standard DINOv2 (DINO + iBOT + KoLeo) with register tokens.</p>
-<p>Hibou is a tile encoder only — no slide-level head — and is intended
-to feed attention-MIL or linear probes for downstream tasks.</p>
-<h2 id="headline-benchmarks">Headline benchmarks<a class="headerlink" href="#headline-benchmarks" title="Permanent link">&para;</a></h2>
-<p><strong>Patch-level linear probing (Hibou paper, average top-1 across 6
-public datasets: CRC-100K, PCAM, MHIST, MSI-CRC, MSI-STAD, TIL-DET).</strong></p>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Avg. top-1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Phikon</td>
-<td>0.846</td>
-</tr>
-<tr>
-<td>Virchow</td>
-<td>0.871</td>
-</tr>
-<tr>
-<td>RudolfV</td>
-<td>0.871</td>
-</tr>
-<tr>
-<td>Hibou-B</td>
-<td>0.872</td>
-</tr>
-<tr>
-<td><strong>Hibou-L</strong></td>
-<td><strong>0.887</strong></td>
-</tr>
-</tbody>
-</table>
-<p>Hibou-L is the top average performer in this comparison and beats
-Virchow by ~1.6 absolute points, despite Virchow having roughly 2×
-the parameters.</p>
-<p><strong>Slide-level AUC (Hibou paper, weakly-supervised aggregation).</strong>
-Hibou-L reaches 0.946 on TCGA-BRCA subtyping, 0.969 on TCGA-NSCLC,
-and 0.996 on TCGA-RCC. Notably, <strong>Hibou-B (86M) surpasses
-Prov-GigaPath (1.1B tile encoder) on 2 of the 3 slide-level
-benchmarks despite having ~13× fewer parameters</strong> — the authors cite
-this as evidence that pretraining-data diversity (non-H&amp;E + cytology)
-contributes meaningfully alongside scale.</p>
-<p><strong>Independent benchmarks.</strong> Public ranking suites of pathology FMs
-(e.g. the 2025 ArteraAI clinical readiness review) typically place
-Hibou-L mid-tier on H&amp;E-only tasks — below UNI2-h and Virchow-2 on
-average accuracy, but the only model in that tier with a permissive
-commercial license.</p>
-<h2 id="why-it-matters-for-aacr-clinical-pathology">Why it matters for AACR / clinical pathology<a class="headerlink" href="#why-it-matters-for-aacr-clinical-pathology" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Apache-2.0 is the differentiator.</strong> UNI / UNI2-h, CHIEF, and
-  Virchow-2 all gate weights under CC-BY-NC or AGPL non-commercial
-  terms; Prov-GigaPath weights are gated under Microsoft Research /
-  Providence terms. Hibou is the only top-tier pathology FM with
-  unrestricted commercial weights, so it is disproportionately
-  represented in startup and pharma-adjacent pipelines that need a
-  clean license trail.</li>
-<li><strong>Non-H&amp;E coverage.</strong> The 200K+ IHC and special-stain slides in
-  pretraining make Hibou competitive on multi-stain tasks where
-  UNI / Virchow-1 (H&amp;E-only) underperform. This matters at AACR for
-  posters combining H&amp;E with companion-diagnostic IHC (HER2, PD-L1,
-  Ki-67).</li>
-<li><strong>Lightweight option.</strong> Hibou-B at 86M parameters is the most
-  inference-cheap of the headline pathology FMs, useful for whole-cohort
-  scale-out and on-prem deployment.</li>
-</ul>
-<h2 id="known-limitations">Known limitations<a class="headerlink" href="#known-limitations" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>No slide-level encoder.</strong> Like Virchow and UNI, Hibou is a tile
-  encoder; users must add their own MIL aggregator.</li>
-<li><strong>Smaller training corpus than Virchow-2 / Prov-GigaPath.</strong> 1.1M
-  slides is below Virchow-2 (3.1M) and Prov-GigaPath (171K slides but
-  1.3B tiles); on pure H&amp;E tasks the larger models still lead.</li>
-<li><strong>Closed pretraining data.</strong> The dataset is proprietary to HistAI;
-  no slide-level provenance, demographic breakdown, or fairness
-  audit is published.</li>
-<li><strong>Smaller benchmark suite in the paper.</strong> Hibou's headline
-  comparisons cover 6 patch datasets and 3 TCGA slide tasks — less
-  exhaustive than the 26+ tasks in Prov-GigaPath or the 30+ in UNI.</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Nechaev D., Pchelnikov A., Ivanova E. (2024). <em>Hibou: A Family of
-  Foundational Vision Transformers for Pathology.</em> <a href="https://arxiv.org/abs/2406.05074">arXiv:2406.05074</a>.</li>
-<li>HuggingFace: <a href="https://huggingface.co/histai/hibou-b">histai/hibou-b</a>
-  (Apache-2.0), <a href="https://huggingface.co/histai/hibou-L">histai/hibou-L</a>
-  (Apache-2.0).</li>
-<li>GitHub: <a href="https://github.com/HistAI/hibou">HistAI/hibou</a> — reference
-  code, training notes, and downstream examples.</li>
-<li>Darcet T. et al. (2024). <em>Vision Transformers Need Registers.</em> ICLR
-  2024 — methodological basis for Hibou's register-augmented DINOv2.</li>
-</ul>
-<h2 id="use-in-the-aacr-2026-corpus">Use in the AACR 2026 corpus<a class="headerlink" href="#use-in-the-aacr-2026-corpus" title="Permanent link">&para;</a></h2>
-<!-- mentions:start -->
+<div id="mkdocs-encrypted-content" style="display:none">u1XcMF4oS1AfrbdhCngRlw==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<p><em>Mention scan pending — populated by the alias-matching pipeline used
-for UNI, CHIEF, and Prov-GigaPath.</em></p>
-<!-- mentions:end -->
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/hibou/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

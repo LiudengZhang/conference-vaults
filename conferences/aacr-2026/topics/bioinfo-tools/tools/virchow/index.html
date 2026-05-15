@@ -13029,123 +13029,34 @@
   
 
 
-<h1 id="virchow-virchow-2">Virchow / Virchow-2<a class="headerlink" href="#virchow-virchow-2" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> path-fm
-<strong>Modality:</strong> H&amp;E whole-slide image tiles (224×224 at 0.5 µm/px for Virchow; mixed magnifications 5×/10×/20×/40× plus IHC for Virchow-2)
-<strong>Released:</strong> Virchow: Nature Medicine, October 2024 (Vorontsov et al.); Virchow-2: arXiv August 2024 (Zimmermann et al., updated 2025)
-<strong>License:</strong> Virchow: Apache-2.0 weights (academic, non-clinical use). Virchow-2: CC-BY-NC-ND-4.0, non-commercial academic research only; institutional email required
-<strong>Code/checkpoint:</strong> <a href="https://huggingface.co/paige-ai/Virchow">huggingface.co/paige-ai/Virchow</a>; <a href="https://huggingface.co/paige-ai/Virchow2">huggingface.co/paige-ai/Virchow2</a>
-<strong>Also surfaced in:</strong> single-cell-spatial-omics, virtual-cells</p>
-<blockquote>
-<p>Virchow is a tile-level pathology foundation model from Paige and
-Memorial Sloan Kettering Cancer Center, designed as a general-purpose
-H&amp;E feature extractor that supports cancer detection, subtyping,
-biomarker prediction, and rare-cancer triage with a single frozen
-backbone. Virchow-2 keeps the same 632M-parameter ViT-H/14 backbone
-but doubles the training corpus to 3.1 million slides, adds IHC and
-mixed magnifications, and retrains with a pathology-tuned DINOv2
-recipe. The line is one of the three pathology FMs (with UNI and
-Prov-GigaPath) most often used as a drop-in patch encoder in 2025-2026
-translational pathology pipelines.</p>
-</blockquote>
-<h2 id="architecture-training">Architecture &amp; training<a class="headerlink" href="#architecture-training" title="Permanent link">&para;</a></h2>
-<p>Both Virchow and Virchow-2 use a <strong>ViT-H/14</strong> backbone: 632M parameters,
-32 layers, 1280-dim embeddings, 16 attention heads, SwiGLU activation,
-LayerScale enabled, 224×224 input. The final tile embedding is a
-2560-dim vector formed by concatenating the class token (1280-d) with
-the mean-pooled patch tokens (1280-d). Virchow-2 adds 4 register
-tokens.</p>
-<p><strong>Virchow (v1)</strong> was pretrained with standard DINOv2 self-supervision
-on 1.5 million H&amp;E whole-slide images from Memorial Sloan Kettering
-spanning ~100,000 patients, sampled at 0.5 µm/px (20× magnification).
-The model is released under Apache-2.0 (with a non-clinical-use
-disclaimer).</p>
-<p><strong>Virchow-2</strong> scales the training corpus to <strong>3.1 million WSIs covering
-~225,000 patients and nearly 200 tissue types</strong>, drawn from MSK plus
-external consult cases — ~15% of slides and ~57% of patients come from
-non-MSK institutions submitting challenging cases worldwide. The
-recipe is a <strong>pathology-modified DINOv2</strong>: the KoLeo regularizer is
-replaced with a kernel density estimator (more stable on
-near-duplicate histology tiles), the standard crop-and-resize
-augmentation is replaced with an "extended context translation" that
-preserves magnification semantics, and tiles are sampled at 5×, 10×,
-20×, and 40× to make the encoder magnification-aware. Virchow-2 ships
-as three variants: Virchow-2 (632M), Virchow-2G (1.9B), and Virchow-2G
-Mini (22M, distilled). The Virchow-2 weights carry the more
-restrictive CC-BY-NC-ND-4.0 license.</p>
-<p>Neither model includes a slide-level head — both are tile encoders
-intended to be paired with attention MIL (abMIL/ABMIL), TransMIL, or a
-linear probe downstream.</p>
-<h2 id="headline-benchmarks">Headline benchmarks<a class="headerlink" href="#headline-benchmarks" title="Permanent link">&para;</a></h2>
-<p><strong>Pan-cancer detection (Virchow Nature Medicine 2024).</strong> A
-weakly-supervised aggregator on top of Virchow tile features reached
-<strong>0.949 specimen-level AUC across 17 cancer types</strong> and 0.937 AUC on 7
-rare cancer subtypes. On the same evaluation, Virchow embeddings beat
-UNI (0.940), Phikon (0.932), and CTransPath (0.907) on overall
-pan-cancer AUC.</p>
-<p><strong>Tile-level tasks (Virchow-2, arXiv 2024).</strong> Across 12 tile-level
-benchmarks, Virchow-2 lifts the weighted average F1 from <strong>0.944
-(Virchow) to 0.966</strong>, with the pathology-tuned DINOv2 recipe
-contributing most of the gain. Virchow-2G (1.9B) is reported as
-state-of-the-art across the same suite.</p>
-<p><strong>Independent comparisons.</strong> Public clinical benchmarks of pathology
-FMs (e.g. the 2025 ArteraAI evaluation and the PMC clinical benchmark
-PMC12003829) consistently place Virchow / Virchow-2 in the top tier
-alongside UNI2-h and Prov-GigaPath, with model ordering shifting by
-task — Virchow-2 tends to win on rare-cancer detection and IHC-aware
-tasks where mixed magnifications matter.</p>
-<h2 id="why-it-matters-for-aacr-clinical-pathology">Why it matters for AACR / clinical pathology<a class="headerlink" href="#why-it-matters-for-aacr-clinical-pathology" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Rare-cancer triage.</strong> Virchow is the first pathology FM whose
-  flagship paper foregrounds rare-cancer detection (7 rare tumors at
-  0.937 AUC), directly relevant to AACR streams on under-served
-  cancers and pediatric oncology.</li>
-<li><strong>Magnification-aware features.</strong> Virchow-2's mixed-magnification
-  training is the closest current answer to the spatial-pathology
-  question of how to share features across 10×/20×/40× tiles without
-  retraining — useful for pipelines that combine tile-level cell
-  morphology with slide-level architecture.</li>
-<li><strong>Industrial provenance.</strong> Both Virchow checkpoints come from Paige,
-  whose Paige Prostate Detect is FDA-cleared, so the backbone has a
-  clearer regulatory lineage than purely academic FMs.</li>
-</ul>
-<h2 id="known-limitations">Known limitations<a class="headerlink" href="#known-limitations" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>License asymmetry.</strong> Virchow-2 (the better model) is CC-BY-NC-ND-4.0
-  and gated, so commercial / translational groups face a real
-  adoption barrier and often default to Virchow-1 or UNI2-h.</li>
-<li><strong>No slide-level encoder.</strong> Unlike Prov-GigaPath, neither Virchow
-  release includes a slide-level transformer — downstream MIL
-  aggregation is the user's problem.</li>
-<li><strong>Training data concentration.</strong> Despite Virchow-2's global consult
-  cases, the majority of slides still originate from a single
-  institution (MSK), and the paper does not release fairness analyses
-  by site or demographic.</li>
-<li><strong>No vision-language head.</strong> Virchow is vision-only; it does not
-  support text queries or report generation natively (cf. PathChat,
-  CONCH).</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Vorontsov E. et al. (2024). <em>A foundation model for clinical-grade
-  computational pathology and rare cancers detection.</em> Nature Medicine
-  30:2924-2935. <a href="https://doi.org/10.1038/s41591-024-03141-0">doi:10.1038/s41591-024-03141-0</a></li>
-<li>Vorontsov E. et al. (2023). <em>Virchow: A Million-Slide Digital
-  Pathology Foundation Model.</em> <a href="https://arxiv.org/abs/2309.07778">arXiv:2309.07778</a> (preprint).</li>
-<li>Zimmermann E. et al. (2024). <em>Virchow2: Scaling Self-Supervised Mixed
-  Magnification Models in Pathology.</em> <a href="https://arxiv.org/abs/2408.00738">arXiv:2408.00738</a>.</li>
-<li>HuggingFace: <a href="https://huggingface.co/paige-ai/Virchow">paige-ai/Virchow</a>
-  (Apache-2.0), <a href="https://huggingface.co/paige-ai/Virchow2">paige-ai/Virchow2</a>
-  (CC-BY-NC-ND-4.0).</li>
-<li>Paige.ai. <em>The Virchow Foundation Model, Explained.</em>
-  <a href="https://www.paige.ai/blog/the-virchow-foundation-model-explained-a-qa-with-an-ai-scientist">paige.ai/blog</a>.</li>
-</ul>
-<h2 id="use-in-the-aacr-2026-corpus">Use in the AACR 2026 corpus<a class="headerlink" href="#use-in-the-aacr-2026-corpus" title="Permanent link">&para;</a></h2>
-<!-- mentions:start -->
+<div id="mkdocs-encrypted-content" style="display:none">eTuY64/80fay27wgN6iOOA==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<p><em>Mention scan pending — populated by the alias-matching pipeline used
-for UNI, CHIEF, and Prov-GigaPath.</em></p>
-<!-- mentions:end -->
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/virchow/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

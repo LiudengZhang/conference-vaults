@@ -13029,140 +13029,34 @@
   
 
 
-<h1 id="scfoundation">scFoundation<a class="headerlink" href="#scfoundation" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> sc-fm
-<strong>Modality:</strong> Single-cell RNA-seq (continuous-valued, ~20K-gene vocabulary, human)
-<strong>Released:</strong> 2024 (Nature Methods)
-<strong>License:</strong> Apache-2.0 (code); separate model-weight license
-<strong>Code/checkpoint:</strong> <a href="https://github.com/biomap-research/scFoundation">github.com/biomap-research/scFoundation</a>
-<strong>Also surfaced in:</strong> agentic-ai, single-cell-spatial-omics, virtual-cells</p>
-<blockquote>
-<p>scFoundation (xTrimoscFoundationα) is a 100M-parameter single-cell
-foundation model from BioMap / Tencent AI Lab and Tsinghua
-University, built on the xTrimoGene asymmetric encoder–decoder
-transformer. It is the first single-cell FM at the 100M scale that
-jointly models ~20,000 genes in a continuous-valued (non-binned)
-representation, and it introduces a Read-Depth-Aware (RDA)
-pretraining task that lets the model project low-quality cells onto
-the manifold of high-depth cells. Pretrained on 50M+ human single-cell
-transcriptomes, it claims state-of-the-art transfer to perturbation
-prediction, drug-response prediction, and read-depth enhancement.</p>
-</blockquote>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>scFoundation produces cell- and gene-context embeddings from raw
-single-cell expression vectors and is designed to be plugged into
-downstream architectures — GEARS for perturbation, DeepCDR / SCAD for
-drug response — as a frozen or lightly fine-tuned feature extractor.
-The RDA pretraining task means the model has been explicitly trained
-to map a downsampled (low-read-depth) cell to the same embedding as
-its high-depth counterpart, which is useful when shallow scRNA-seq is
-all that's available.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Architecture.</strong> scFoundation uses the <em>xTrimoGene</em> backbone: an
-asymmetric encoder–decoder transformer where the encoder is a
-vanilla-transformer block that processes only nonzero, nonmasked
-genes (a small, information-dense subset), and the decoder is a
-Performer (linear-attention) block that operates over all ~20K genes
-(<a href="https://www.nature.com/articles/s41592-024-02305-7">Hao et al., <em>Nature Methods</em> 2024</a>; <a href="https://arxiv.org/html/2311.15156v2">xTrimoGene preprint</a>).
-This asymmetry keeps the heavy compute on the sparse input while
-still producing a full-length output. An embedding module converts
-continuous gene-expression scalars into learnable high-dimensional
-vectors so the model can ingest raw counts rather than binned tokens
-(<a href="https://www.nature.com/articles/s41592-024-02305-7">Hao et al., <em>Nature Methods</em> 2024</a>).</p>
-<p><strong>Tokenization.</strong> Genes are addressed by a fixed 19,264-gene index
-(<code>OS_scRNA_gene_index.19264.tsv</code>) — a continuous-valued vocabulary
-where each cell is a (gene, scalar-expression) pair list, not a
-ranked or binned sequence (<a href="https://github.com/biomap-research/scFoundation">biomap-research/scFoundation README</a>).</p>
-<p><strong>Pretraining corpus + objective.</strong> Pretraining uses over 50 million
-human single-cell transcriptomic profiles (<a href="https://www.nature.com/articles/s41592-024-02305-7">Hao et al., <em>Nature Methods</em> 2024</a>).
-The novel objective is Read-Depth-Aware (RDA) pretraining: each
-training pair consists of a masked expression vector plus two
-total-count indicators T and S (target depth and source depth). The
-model is asked to recover the masked expression at the target depth
-T given an input downsampled to depth S — so RDA simultaneously
-performs (a) traditional masked-token reconstruction and (b) a
-denoising / depth-enhancement task that maps shallow profiles to
-deep ones (<a href="https://www.nature.com/articles/s41592-024-02305-7">Hao et al., <em>Nature Methods</em> 2024</a>; <a href="https://hyper.ai/en/news/32623">HyperAI commentary</a>).</p>
-<p><strong>Scale.</strong> The authors trained scFoundation at three sizes — 3M, 10M,
-and 100M parameters — and report that masked-expression-prediction
-quality scales monotonically with parameter count (<a href="https://www.nature.com/articles/s41592-024-02305-7">Hao et al., <em>Nature Methods</em> 2024</a>).
-The flagship 100M-parameter checkpoint covers ~20,000 genes.
-Pretraining wall-clock GPU-hours are not stated in the manuscript
-(unverified — paper does not report total training cost).</p>
-<p><strong>Fine-tuning recipe.</strong> scFoundation is positioned as a <em>plug-in
-embedding service</em> for task-specific models. For perturbation, the
-recipe is GEARS-with-scFoundation-embeddings (the scFoundation
-encoder produces 19,264 × 512 gene-context embeddings that are fed
-into GEARS as the gene-relation graph). For drug response, embeddings
-are inserted into DeepCDR (bulk RNA-seq → drug IC50) or SCAD
-(single-cell drug sensitivity). The repository ships scripts for each
-of these stacks (<a href="https://github.com/biomap-research/scFoundation">biomap-research/scFoundation README</a>).</p>
-<p><strong>Downstream tasks evaluated.</strong> Read-depth enhancement, drug response
-prediction (DeepCDR, SCAD), perturbation prediction (GEARS), gene
-module inference, cell mapping / integration, and cell-type
-annotation (<a href="https://www.nature.com/articles/s41592-024-02305-7">Hao et al., <em>Nature Methods</em> 2024</a>; <a href="https://github.com/biomap-research/scFoundation">biomap-research/scFoundation README</a>).</p>
-<h2 id="headline-benchmarks">Headline benchmarks<a class="headerlink" href="#headline-benchmarks" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Perturbation prediction (GEARS + scFoundation).</strong> scFoundation
-  embeddings reportedly improve GEARS Pearson-Delta on the
-  Adamson/Norman/Replogle benchmarks vs. the GEARS baseline alone
-  (<a href="https://www.nature.com/articles/s41592-024-02305-7">Hao et al., <em>Nature Methods</em> 2024</a>).
-  Third-party re-evaluation, however, finds that scFoundation reaches
-  only 0.552 / 0.459 / 0.269 / 0.471 Pearson-Delta on
-  Adamson / Norman / Replogle-K562 / Replogle-RPE1 respectively —
-  <em>worse</em> than a Train-Mean baseline (0.711 / 0.557 / 0.373 / 0.628)
-  and worse than scGPT on most splits (0.641 / 0.554 / 0.327 / 0.596)
-  (<a href="https://www.nature.com/articles/s41592-025-02772-6">Ahlmann-Eltze et al., <em>Nature Methods</em> 2025</a>).</li>
-<li><strong>Cell-type annotation.</strong> In a head-to-head benchmark, the top
-  three single-cell FMs by combined usability + accuracy are scGPT,
-  CellPLM, and Geneformer — with scFoundation reported as competitive
-  but not dominant on intra-dataset annotation
-  (<a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202514490">Liu et al., <em>Advanced Science</em> 2025</a>).</li>
-<li><strong>Scale law.</strong> Within the scFoundation family, the 100M variant
-  outperforms 10M and 3M variants on masked-expression prediction
-  monotonically (<a href="https://www.nature.com/articles/s41592-024-02305-7">Hao et al., <em>Nature Methods</em> 2024</a>).</li>
-</ul>
-<h2 id="why-it-matters-for-aacr-virtual-cells">Why it matters for AACR / virtual cells<a class="headerlink" href="#why-it-matters-for-aacr-virtual-cells" title="Permanent link">&para;</a></h2>
-<p>scFoundation is the most-cited single-cell FM at the 100M-parameter
-scale that ships drug-response stacks (DeepCDR, SCAD) out of the box,
-which is directly aligned with the AACR audience's interest in
-translating cell-state models into IC50 or RECIST predictors. The RDA
-pretraining task is also a practical fit for clinical scRNA-seq,
-which is often shallower than research-grade cell atlases — RDA
-embeddings should, in principle, be more robust to PBMC samples
-generated under hospital-throughput conditions. Both
-features explain why AACR 2026 posters pair scFoundation with scGPT
-when building patient-response classifiers.</p>
-<h2 id="known-limitations-open-questions">Known limitations / open questions<a class="headerlink" href="#known-limitations-open-questions" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Perturbation gains contested.</strong> Independent benchmarks find that
-  scFoundation underperforms a Train-Mean baseline on standard
-  Perturb-seq splits (<a href="https://www.nature.com/articles/s41592-025-02772-6">Ahlmann-Eltze et al., <em>Nature Methods</em> 2025</a>).</li>
-<li><strong>Pretraining cost not reported.</strong> The Nature Methods paper does
-  not state pretraining GPU-hours or hardware
-  (unverified — paper does not report).</li>
-<li><strong>Human-only.</strong> Unlike UCE, scFoundation is trained on human
-  transcriptomes only; mouse / PDX work requires separate handling
-  (<a href="https://www.nature.com/articles/s41592-024-02305-7">Hao et al., <em>Nature Methods</em> 2024</a>).</li>
-<li><strong>Model-weight license is separate from code.</strong> The Apache-2.0
-  license covers code; the model checkpoint is distributed under its
-  own "Model License" agreement, which users must accept before
-  commercial use (<a href="https://github.com/biomap-research/scFoundation">biomap-research/scFoundation README</a>).</li>
-<li><strong>No tumor-pretrained variant.</strong> Unlike scGPT (which ships a 5.7M-cell
-  pan-cancer checkpoint), scFoundation's released weights are a single
-  pan-tissue model — there is no cancer-domain-tuned variant to
-  benchmark against (unverified — repository lists only the 100M
-  pan-tissue checkpoint at the time of writing).</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Paper: <a href="https://www.nature.com/articles/s41592-024-02305-7">Hao, Gong, Zeng, et al., "Large-scale foundation model on single-cell transcriptomics," <em>Nature Methods</em> 2024</a></li>
-<li>Preprint (full PDF): <a href="https://www.biorxiv.org/content/10.1101/2023.05.29.542705v4.full.pdf">bioRxiv 2023.05.29.542705</a></li>
-<li>Backbone paper: <a href="https://arxiv.org/html/2311.15156v2">xTrimoGene preprint, arXiv 2311.15156</a></li>
-<li>Code: <a href="https://github.com/biomap-research/scFoundation">github.com/biomap-research/scFoundation</a></li>
-<li>External benchmark: <a href="https://www.nature.com/articles/s41592-025-02772-6">Ahlmann-Eltze et al., <em>Nature Methods</em> 2025 — perturbation-prediction FM evaluation</a></li>
-<li>External benchmark: <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202514490">Liu et al., <em>Advanced Science</em> 2025 — single-cell FM utility evaluation</a></li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">47ZuYMe0bx78DQ4K+YWZ4g==;Yh4PBrcCkPIH64yhDlPBxG4LJjOGRPPoR8/lLI4yhckQGDMcAJLGDq5bAOIU9Qryvxqg1IlPreaeLA9hY2zHnAEp6s9Lj2uc8iFwXf/fWnfElKrKVgADY5XdZEalLzvOduj/5cV87x88mCdrIqmiN6pGHoag5aVOgJjsRcgh30D0sR2MXe8KdegwiTw/c8rzwq18Grubsj11f8qTPltC7SqMOquJERTshdV8ffwV6F0Duz40DwVGInoz7D8TWNZlxHvOr7VPRjwYVKbda/HAZX2EPiXroULxe4cuFrJb7SbwmrXzBIOUVsNtdc5due8+DSnbFVXgvNYi+1Sr3+pnQOirjUPA6sMkRIl0zynj9+MakJmG3MPpzgaJqRjMR4vkVWj+bA3ju+lv94nWMCuwLXB0A99/SBj+a3PP3pfywWBvjpUE5Fo0LqC0KMwn5QyYAM11r7yJU1UfbSwZ2+SltYc/Tde3+IP9/2CBWFrrCTeWRj2G79g2k+YGr4WUi1MpNYWwL6APSfqtpz9InTT1Hg+v5Fuz2HqKqVFIFEoFXkXXW4N+sqkAejFN59YYG7n64qCn/awdecfRNkC6oFCnIRVHHJ1tio4JB2WBOYjfsAjA4CysLVa8cq9J0xxB7mEQmUMRu6SuqcGAanj5rNxo7EKFz/D34zO3LDNNZpZ9EmAhVv0s7x9vURWeStKjoQSpUpVn1qzv2RM3GKLo0W38q4dYHcnyCijZt1pk5EXYPAZpOVy3oDFFHJDdMnZ+9mwfZxXggWnNxdiX3R+e+qzPashzx5zRJZ4dGWeU5b/q7EF915X3n+WXYrKNYY9dHwSFJ98M+QuI9pJWQb/P/RVxbFyjGqLUsxNT63WgMv7PfBGlTxJIDZoqU1YFWnmmf5sDxH/sFOnHFaXv7UKFkO2v+adp66WYFTjgWk7+PTNF3xOkpYkULPPtpo4d/VQ0bJl6oihh9uPN3teCsdX2yrgiThIlVHznhzT2m11pwOesdHx2gDkjGRBtWSxhxNQi7mUayZfpgVx4/ZhPgNb5RAD5BplCCe/EEhAJ8buQB+yrZArj7gIkibqEngatHOPXy/atQWw9TDuE5qwBjy0+I7OUwXYDYJb0wuL3RwV3KTFfDFuG/RTALHsbQlIYhc01HVZGeza/wcOlaMzsz44JBBM8tht8OWHtzHNkZfw4BxchCJNCtoaSuRLBEoWetJeXwsDNu9r1ur8KLr75hU082I4dge9QGwPaZni35zeEY/3i5+aJa5rKd80cxusAC28YkxlCON2IDjkzbhAtgRst64xJN4JqRkFi46kJPnnf2TqKISk4hzS1beCGzrrgCfuI2+t5D1h6DPWI8GoYKJUSFg15DznOtQ09v6fTOcMhQYBkfiZn+CbKTcgx0vsS/QJPq6TJygzJ5365rV2Wdm59z3D0kRx5ujoztTjJMMt+Qi/qfsX1/QWfHxEzgh3eHtl0ZELw0NEwR8Dc206Ur1dXDqzLGJkDffGTtmsBC4zK+qqBLNXKwmohr/Qshq+oWgA91wXmwn38LRfmtMJUt3zsmLPvdYJBgxBaKcj1k4dLzleB2jnDt5vrVPHKzrSKJmY8jVUDZjr13uDfMwknAm2bEueuJ8P77PTTr1mKydE5zZ7AJb7h71pAco6WGWnxxpgmCZL/KPvRwG5bquI1VseZzg+oeBkc5U+hc+9ks6qyG74ENYBaM7QHm8mijAf2KBE+Yr4Acyj0QLTyzYEoV5DVKTvejg65zbKtsl0vrr2QlICgtnfa4GBf7aORGbfRq7tDVU0YeA407QZ7ACzhEVNk1jmzb0Q3ZiV0s7bqbKUdiGa0RkW/MDLz1sbZCT0dxaE8Zw6o2LXDmi8fpsdjwI0nAokKO1LApgx01pQ/Q0PUk/V4jc6sExtltg75cDKWklLrm54JxYaUrOKa+/aGcX9VD3LG4cLk6R4cxKS6YiyUxPY4fDRBPtQWETQlUKZ0cM69yBHEez+1BsDt/4+J4ZHRvbz1i3Z0H8zV2y8oIloZMLF7WjYp+wkpDeF6CM6Jhs5TN6wNBq3tBbruMKIPhiYl7rERoBEhLjIuHv3z4sinEmaVo84eE0c+dqPtT9X1Z0LW4bTGJBVDoJq8RNk1Fg4HmtHMwroya71rIs9XL3DPDdpXF2x40uSlnK3LMLKMaj0qK+wpImokoQ95BOisNF+GOHi6k/2MwI4oN0Vy8P1AMCoHiQqBA9oIjqeGg3DKys3DNaphXEyYTpSq1acnryZqLNgFgOaCa7NM1+MfC3rsPxfUvNz2vEOK/EkMmIx4CqDUmEuX2Khf51cDRx4QF1zJjdRtiqaFY37XfiFbEB68A4Aa8EJ35zN76nBLAzLltWkPK8w54R7THmC1D6+YbsGYGMyqzgTsWe46bdqX4RP1kXY4jga5/Zq5JVau8XPjjaWqLf13YCKiizL5ix32czBLtBjo3O02LGJUoj2nwc9fRs+DaI+zWRAfT6M8Cl5yQ15jH8LzStIYruWVOqMT8WOwfEk7s9eJHFWMT4BFB3+pHVTT8thSiX5UU/756pkwgXo76m5/eOdNt17ZDgNJYVeeuPBjR7ergI/e9nvJqiMMhxD0r+57XLPVOhLDN/LeD+HtbzTnFbNXf4cSofvR0ZJo7B5N8OBwYQUjbzMX8bUuIP4k5TA8DKNifyVN98ZUD8akL62ZSQMakCUx7X9YD+1jGdSQFbGnCnwlOPnGiPGFR4a9mnt62Dgg+/4LaQ1zKfB+S+74jNPpAvdH1H2B8qoWxT6S1MZY5/fMB02vGN/JUsCs72ERBw/MVuMLsKug2QVwE9Kj2YX8XQ9qir3wIPMAYPpU2/NHTNNMl2gmIDU7l/eZvd1ZWHM6Ji/sEJPhvpMjvx4PQ/VxHj0nvAmM2syEA4nUilsRaWRPYxg0DyGK9mn1AdGrnvM7cPo3kusu5z5WbEqqfWwLDDylxaREeIb3QQ3ikD1P8SoIK8sjs7Q2KfMa5tyedUmzoBdRwXMl2hXCE+dHI7hlrwT8HhXJJ4MVAF7Th1hFPvm/PLXtu5gy/9CqWz37UtnM5SukMgSDrWQFTI9xRyD51BCdbaGwhkDL/5as+bSz6oCK6G/GFx7LB41Vrxqdrf8ERHTiQcsMS1qg2jPrqshXyGeeB+UNF8/ID4e1cTg5GOtRzG+9pUtVa21x91KwUtlkxgkVFKXUcqeY5+I/d5b097dRBdyi3KTGVtduuU3tbRYB+vUWA9Knu167+I2ePTCAArbLmOoXMzdXLRsaSa5rNhfWra691DZ995XAG9YjQT+0/e9sYamoW2T4+/pn0MUjT9YxJY467BaAqxZoyUhAAH2iUMilFnxgvqdU0zETLAHgLLHOsrc07NL6bIe5J+bCywCnRYEKrmIFCSUfig/ZipY+Z9GjUD6NEykHlHpDY4WOEZul2JI2Ka40vqHjjS8jNs7+BHGkGP1IbASUhvDqCPO3HRR1siSzp+U5y7sNhHRbWL1g0BIZv7lIZdqzo/Pdi8NAjESv7G0L6qRUKLldcdBwOgr5ODYegjE2BTfP/r7Z962xq06nDTm8ZDeZc6MeDh8OlEiH8XL+QoGBFCqFFdH48jp+4HmwLMm5S/XOSnL1V1wgg0q/JJ6Txk+78XwD+Jb7/X7OmdEsvNerJbTDB/dNpRp9kfGA1QKuS4JkOUrO2Icd8pB8Jtqwy28YVS4/ILZbGg+Nql2zq/scs+aiGrHApIaYWW06V2thyHtrUDgQvRplwpZYyRmUP0Up097YbKmSIATitcfGBM1qPCBDfj6OAJj+mWyvTrS5Qz7FnWuFw/Kcv3PRU85NNnE35NNWZjaI9LRnhoaWHD1Mj68DKryxi6qteIPZXjoN6iohL7vYasjrK5KP6roqTt04vzypWRVIhW1BlfIjY5VPxq8HsBYg0LDQ8n0625O09bIUodQg0JXdSs/0PIh1KLFAJ2+dy7pBTbmb9WRxB/N26QMrljVsVx0tB2Gr0EQ9NeWSYOaOrMTSKQ3UkFaHLqtI0isvk/3Q8LiTW+Acq1c+jwDXHRal9e9uxiNDBb2xJMOEogLUNdkj1hvDP3gCsdr5PnwyrE30k3WSCPBLJwPPDOcdUHeOrNXyBnGOJFCmt3HfhnChyGL4yeUv1/Jd1wyFDGzV0FHNUWOPdCwsDkRzIiQ9rQA3R+M1SsDHrKkvP9IxhDDvUjW6LhpH2yoERIiX0EbiErJhPtChN9q1STLfslxKcmOLcYMmupqwwbKisTUgDs5NPGyphWDva9CwKF/la2PhvXbHoeIj9PsOu+SyFGa0U7H4xZsZvbRft/4VSle7UcZejyOZSCONilaflIEXJyNiDdvMWAX8mDdVAg38bTzX+3/DmQ3C9CwoRceKA0pQoRvuQjDoRnIfgr6K13SCSZmyESnOBaWFMYBL5n5g+OmKV36LNMTYexU3HAueNVz1Q0zwGKkbQ9yi/qAHiXfTccW3zuyG/TYMZIwjeFwSYqXWxL5cRKCSgvCX4eml0fpT0FFuPDDuw5RO0xSy+BhLxVIWSeUF8A+OoN5VKHwvoGEnmd+SYxews+Wq3pBFuJa/G2y3lox9+7ZW2VESJN/GKxQbvOKqAjCodEZByTzbm873u1v4SqaiWYhHMkagy09oAHnckRZEvWTg1QYJtd3YUPKHuAIgA2UBqofN+MJDjAqkjcMzaeJ4iTkTcASTs1R3QS1J4bxvoZKLCY1hHCmpOFc+zjJN6f0N5k9OJ/5F6Sq1PuIu4JvEuAw+WgsrLbNp9iyaOfsYDlQFS4AdQ9PdYZ8szNccS+CVyzo+GW0LVdFQNcDjrXbUwacdOSPKe47yUn9kjzKL5tgKHUOIldQEqDMDiZ7q9MeC0t8MYy3G/wAD48opqq0Mg+fe9GjVcdW4izT50zw5SNAdJPB6Y6IC6WGcqgwPytEtOvxcOHfiF7SCvrd88irsKW9TTarteL1dbRjwmOKBEBSMx6GXI0fGdmrCSJnvfy5SVQXLbSr3S6AHrlxzOb52M8sZMbDF/2SIHYiF9L9MwId83PKxFgZJ/TdLKLrpOpJGdzEePpPTeIx4ULAMPOxauNE7xLhNRmQ5Gswr1U90ZcLpFGaWcOT0R58c1RtggdA+Z+NuU6XbMZiIqckkkQ/GesnrKo9CsoDFIsBhCnd6v05B4hsGXJadxbrMmccteNXIOPxhPIrKqym9kCCPokZIoPMssIWa7+c7S+meRSLyxdCMhJ+a5I8/c0ud9in5cdiGcmrcP7OotSqhHv1rhDZuFd10DXGEeyxZVxwTeUnKnxGKHr/kGZ7WBxZW0SpDCUsmeaClHKDJoK1AV2iKp3FbfQKyfjfyG0UBfPdkbd6QibhMR1OBbi2Xb4AzUBRSRdQOm4BmecGH5ebiwkf3fBmu/ZBVnyB9WOpmbxCLutnfluUlqa2Ymp7CRaISbYO7H0VzaBZfxvV6g0s5Ffvl6FHTTxpm2NRVqyEjWtYmQ6nXVdP3w+hEI21gkJxbNYsu4WPM4+R0TlZLAB51uzEcSPgfDeb3ihzI/W6Bzo0dNFZs027p9X7ANPnjMe5zT1pVflP1fLtoeSHpQff7wVCQaGDGcQz27oqpyi18Bn5Nbwy7cwHVuxQvWE5ORm/WuWVLbX7ayutKUHau/xQdZrWmdNnoWnKOpQXAQQuX8cxg8m76nDqDdJw7O+zYFrYAvBA9p9iUhW9m8LYUvPB2VnvbEoRt9w7owaGMYAeZhPyw7yG7V526BLYMyq9un/WrEd4dmYAuAHgWZVxuf0Rll813ZvJGQpsyw8krxuJjsRt2tel2qCigI5o397sb3cpI5EK9K3A94hKfJUsVeTBhMjD3U39mVrtFW0mncueMpSoygTwbEBAnkiTq0hYv4kJ64RoZ4BKtlLpALkniDMqiOjeq4gpBGVqAZqpQzHiOUpztKv0JTbtcEiEF2CqSLeN2+fi7c0Kg1muZUMgXJP5/fBdeEt/hieC+r+X/HC+UGouzmIzOIb+0RVnCa3nCJp4nlhTMTCZm5lyfC3331QQwljXXoPwGVmV3iMaJEQ5jb23uILCZXizFmo4tDP7+rpCFzdvy7CNcuZ0zntMy86ZsPkFDI4DpG8tgWXAeCDkMPgheHHJSN/aGsDx1EMvJje70aTtj00slTDx8xq6qVNe6WNNH63pVbkLjNs3sMUuUsQpoGO97C70Yi41JlhYZP1XjAtBfJNyBRcFHL3cboOJUvtghWt4PPbh21ktfrrcoSuM2CAkrhnVYQwpIbGStalFKSnAUtz72aRE4GRIEJO7aEncYMgYfjdzlUG0EvWT1OlxPrO/nm+YxXHECf97h/po1gIJjHIj6zeZzvCq8XOweoEAoSw9I+Ab9KRJ8Gr7vXmO5daCBSv4C1HfzQmi2dM4DlBQQLwaj4oTd7YK7Ru2afhY5G5aCM17DVAxhCiuVqIWpxYAw+aEwsFEy5Z7ZvW84MvXBWDVmLKOmyzwPJjl57xduYeY+mqg8eogAODc/YCNHSoyGGeiKMgsWZHFYXhz1zwxtXca5HwZ2h4TMh8nytDxo6j0xnoWzMmySq3RyoCizOwaSH+eR+7UjPQLNvx+iIs1jX4I5m2+AVC3LyoM5zpou6ll4U/O/o0dUGvLRE2biU8MatwHSxKnOMK5GuTt3qUTJXveRXke/i7zvUxA0Vq24JgiXUBdh1B4cfS+GPZoLYUOW+vIrfERwrqKCTXnw6vsGyoMXLPpPavDtVqk+ye6DbM4jnsu2qB79CxuNlUedHJJD0lMaUEMPUATDF8JGG9wA3SKhHvW7Td8B3W88jctmZgaZxntu+YJC9Y45Q+bDFaobuhkSZixCch+9jfDQUX5BSJ4ZbpmQEjdw5OPxP60RysPEpLj5zRQ1YLfz+rLgdjItoyO0ygK6P1UuLkhbdjsJjtO3FkiSOuAHrjnRncvaKSo5zJKLeAzTXbhR0FbHx4KiNPqEQYMgQL01b3jcSWmzIczBsr3eYE+nD/in03Ph/1ML7MYYV5qdABIobdmcb5BhGD8LC85h1bPv+Y42PtyTqc6inky3SlUH/Eb2+GQTpT7ZIpmFNzODNhO7xUNVbifrj4clZ+wdZZ4m03TBBG6PVn+S8CrruYQbHXlju0HrtqFvL1k8vEpzj645NAO6SVL4CbIJqtMVL9/UsMIoDN+dmw9Moh977R8Ody4bU+HfdAxifSsaHu8LR6uzJv3nKRCs9avwXGtpHCq1+tdwXuLPDZc6cctPiCr2aGCcpQFap727cZeSxNmZCfmhUwQkPX+QoWaPFdraNxplQVnqAXPPdvIwmrm1JVbvRhpHRjg7qdWVbxE6U/WeskjneookHYtW8dd1DL3dKkYI9WfnOMgt+XQG85R9Kv+McvNg43m6skoGBwg3G8GWP7tt6MhOJ+ciUqTMpd/Vww5KfOQJkBC6e0Q0v1nZUIAjA1xZu3xkOZ/LMwNavxyzWDrz0S5Nrga12UWKcU/9VdbXzMAbF0qSBWieRO5N+Wy5GaPw3+gnuLif3ySwTb8qcYfgbdNY4kgSF6AFwdufLg++K1poDSslLEnqKJ2Ce389M7fAij3JuciOug2+Br1GdXvDqRK//7IXW0zYflvl2Htj0qN5ntqI6HfLbgidoGMrzQ4UyY0R4T7pK+nlpv7MFbST05JPWNHd5g04WB8Q7Il2qMO+YqVeijmL2WtLU2kcA0FkvvCzCw1IAmuFKUvSbCE1r5LxacOU1J+2PmdJMcxR8SZYPRzaHCdyYztOMd39ZqQuyk8r+E0M8VAZtn0uIDYmOrSvMngzvmckVLtLk9ftyQU7PRm8DKaitmErJ4viugDyKfTnp7y8xenET5KzKTUCXQqD6DUSI/i6eSq1n5zjPfriDR8pnnvBnNZVB9xIJ7ZnhEEMDNZWJQXAO3rCUpjlA5q5VL/rEuDZponGKCR9bdAZJjiN4sHRVc0ctqH6VzqwSOHBs2u/oSZSkRX0Xe1D1da/4CUYque5/tgNZGnsklixzGemx6LEWzOvb1nPnDK0oaa7n91ljmE4ihQIvzfynSDl0YocykceuslgZLb+ZcGrOvTFVNhvGqotWNxwJWSXyNn1K97H5OOR8+JqmVRLMI2fLT6ZpmTX6um2HLr2tYGRDAPIl+/S5hyCmdU7kxrCkHo550JrX4OeExwG1KJpbriQD7HWidfVc8EpBAR5Ga55+SJIFTct4dTrF8J4dxzyZurQkND85plMhZYpRzs5V4fZm7ETl3yr+0Y3j3P8cwPqa9I5aw3QTmccXYMFa+TK0hunecmMnve213tt4udn0g7StosJUyCHiPFnb4iL1exzxI4TJvMLZee2/KN+NrGTWhzdXC8VA4ZtfBklPVNNMvYHw8YNHzRErhg4WYhQZW1kScdP/JEwdN259dNj72CnO42o7KlWuLolZNPHpaOTvPmUKcZ9Vd2KP+0ObVK7CZs60MmMsUYFgEf9VWdRWE94fCpZ1ZJzoq6Om+W6D/n+J+plKfiXlT+WzfnjUhphp+Sq4iGlMTcurg+O4IZGVCADKOSWu9HkHHPimrtyjTlUUshu5YvSD/u1dWT6RNEfTjs16CqreyIeq7grxomHUe/MBkHpauF+woHYcIgSIye5MdllPbKvBdg7SlzXH0GIxxtObe4zI+A24xZeo2SGhADZ4YQg05gCV2LEJGCiuMrsSBRlKxzeG28pHv/vgO+crFPzQL1rZv2USKzOexoZUUYR9LRgB3Nu4QyQ21uJ+aLLThgbkFLFB51A8EGbCpx3rMJWt/X/OoBZJYqRmrIQRWFyVi48Jlh0BLw+cMuMR1miD1qv35mlXHaILpmQwJOt4ZokdoluyT1AjNHTiIHZo82kQCL9ss/ZWNiaXYWTtC2219Oz0s27TNaaAi/ObUVok0ODAl0bUqzFhnjh6rv9/Lm2rQ9nWdJd4V6U1F/7uK24iQti6J84KXY9B4ZUMSnVQZkBcH7Bsyw+chKE7FWjuErl0WnqLxNUMJh1CnaiiIM62YEWHxyUf/g0bx+UogfN1+TodVVe+Mw7HhlAJsqPtT5tOEKHDCstRF2Tttx5XHFOtPMIirbOsvxdjQ30j9t5eDTR6MVEsaLyBxeIBkR2or2Cn1aYZ/tnMUFKVXiE+zi4g/2n1IgmUHIU7QFDpdAEcsIJPTFV/pk+hj1ohEG+7r9wvxFTdhBxkIopeBWZmHIAA5NJcAvTbgVeLyUi6/w2RmHu4ojghQ2WjIZOHla+7DZUxKZFbKiy18rsA7mVaEcbtwMywU9B/E7pEXa0ib0O1AfmXlMvfVgupBLxEHHshwTggtEfCpeu3/QVL83eCDn6vhTfKt3YSICzzcgPT3H2EB6Pw8AtCDb/TFr3xYxH5pcSUcd8tbYjzH7quXNBb1u8pgzswxgJQ+5WBCADieWChJUvRRf2sFKaoqTBy0tYXxJ8rSprnZUMoozP/HFeMv/XARHWGmYfKNz1CWeN67LfuhUd36fBhPDhabsVkDwmF9eVi8HnncH2w1WeqexBvUEOLFx0ailhdE+9zdQcCdtgh3H7gNswF+FUQpTWoz3lp1/fY7yWTFRqLvr/TmLjRRQgl4QasMyPtniIvLO/VJ5ASQzxreS4l74bO8psxB9X/2yKDou5cfOkwCHgxvmVx4/6fRR8I0gBMAdQrlxq7uknvFgCQfHkKzMMrHnAwTrZZp9CX3YWdcAJMjtdy4zcN2PwFJVKkJvhP/if6pQoCSf3+Bl0BL81lXYKv/3tSJpTMsVgnBCcUycduzcNsaZqX8no0tqZJ4e6SqqDW4ZTGwOWFQP/aoRZ3ErIWkTOK1fDNabR1WZIm3urWK6eLdMj9SdNP03/rF6WRGmU04e32sZVezg9GaugTg7ObRex6fBxGXqbFObU7Y1XvKrNrF1PouenhGCUt3gx+QmlNKNfd7C8zNny+g4t3kUp3KE6ZMao4j/Jrurjk+r2rcbyl0MqyDhrP2cSHU58T6bwiWI5KBwebbdUd25T5i1DKk0fOLkLbuHv+pvLVXiWCsK9RRJKqC7GCsoSlXEFcBBt7QJgP0efkX56n+4hid5Eb3OYXTV0Ni8Hxo6mIB9Oo0NlAoSD/t3ccv4ui031/oYjScNcbHVfdQrqSTPiMs6G25j0EK6+ThbyneVGSRHRKuwGXPoZEol/lcuhbfb2qtnqGi9QTQWoOwL5VzKqCjignKeWg0UXDjD1K+iaZ3Ql9SIelCD5GvibLT50JPpMuAg++Vre7syFCPIeK510vCpwQC3wZegkljmTeFOniaghxSyL5zp0nV+vN98qHoe0nOjawLJdWxOF1GRuJs3bu0IftiL2iFfggO97ZnqzDMInXy7IE/FE9QEUp1vZmWn5HaeAw0A0Uq34qz6AxCMW/J6xl5zK4eF/qJJZsZ9TKpFwXhaBNMHWkDy1T4P/4KfvhyxIp1o83C0xV2XKQ8Is5MQeyLj3xtF49pd/Qjom5lKvUCZ09o4m1GjkNZMBZYr1ItdHpWaBdxS5k3v805+ogu+upiaxauNbTO2PFD1eaAwFhietZJ7WK4w7YWV75JW606YnuhVFbvt9mjq2VKwiSabUSaFvPd268iH7+0b8tnxYtsEwo+kl8HOeDq/6+qV05sLjxyAi5Z+H7N9ip+LM5XWM+86dtFgUmnJCHW/qORFTCCFWGS7O39APsFzD00dMNIRTyxV9RgziJeCFiywPHrAYqcPXjVv9M9yBffZ3mBT2WR+eyvSvO2c8TQQ3WDfp0wPjnOAj502k/MqbkOT/Y7UJbypaGKeI+xUYK1YAYzUYZVcjM4Ickb/6nbAP0iSIcjuCaVp6KqDMjYlaD0Jc+4DEMUICKGO47S2mNACiS3HEGio1xOxmqmwkCxg3ezRKE2HdaeoOtnqiuzOc62fjD5T/GTdW5yLNZQ65tSrOdUkMnqgdCoUzt+mVlwUhsDBrb/Kc+khgpo5FON3dKWUZPwJVex2A97QskkYQWHSm8ic/qdEjpwCCXE35690M+Yv+PyGr9/ijZl0pKep4mwWUnKRfvJVdtxIooVHjtcOw5z+t5pWxR7bhBlh/7DYzgx/6uaF0cKoUPHB14kQAHs4xHhsMF0jwqOqNoRWls4+pQuDmjaTvW9rSDDloGG2I0X9VHovR+48GTvIwf0QnIdhUuUiqd05C46nmAp8Bc/JhO2kQh1kwMJ+ie3DN9H2NY4mvxNoh3htwoGNgV4R8g9I4JkoW7zKTxaAZExAwbbGQpQ5w0I1MkZZ2INGA0Jr2sZOC3nPEfjvpoyH6KDgvKnhFcT8TsjIUaoc9VhzEvFA4HarT0nTSMERcM022mvLgul+V+UxFeyOO3SefVaShORkYeojrWw00ons4h1/vr9oJfnKBGi6akjjY+XColYY3n3OE8+N5LPs2tIKSsbYleKBwoHJJgqgQQdSSQ70J+Ny67Ow++UnN7YOxB3VZXdw472HCPzqeAAhx6IaQyVpJ58ZwVOXA7OtzlL6wykN2X+m3aydDikS49p6lPtLRTKQnCAYe7SY+ZiXmt72u95ZBUjv4fsTHR+uDpf8gueCuDnIbHx2mH1UgPMLsnVIgHKlWGkvm/pX9XCEwrQxPrD8jn3WZXkGiY/L5KPZHB+Pdk2QVBSOi24CFcSuFHTWFyharyQrt2xs/yBwVlnKPWSwExI42Z5U6p5NJzufGArG4kUMhnUrMahzsipB0C2yTCZV8UEoav9g5LHYU2bqcCbzHkho2QxztAAlbm7HsIcT/a2UtqP8ZAZK5Cs7OFT25rG6ZIp5wox7nOcNCBfUY/bMosK27THFW6Un1buc+GVcN2Q+75Iohl7aSTF0vL/85os5o53JIm5Hk93OwLdA+MclCrefqqgj6vRX1zOFnPVkS6z6/sFuHAfnO+BV2ZLfoZ1BXXDFzAGGUxNiWm1Lfb/AGT7dmhpXNrXqK2APFfP1hV0GZbROZiPQSXZ42xKAIDivffa2+kLyOvfnQim+/GT+QS1R0jRlZoq0ocW4dTAqokY5YAf4/dDUQFof9KW1wmlnPFjuHgGasDy2Gfdos+Tj+spaz88Mf0gH98zCwhbcJrcpmC/36CywhXbbDc1RS8plkmt5RpF3NZVXzVCsJv6K3mA0jSpgocw+LiQ7MeR38CRcvT4mMx9w6mbPlYJKvfjM6mIryuEsvcfRomqi378pgP1WNwjb27Zst6vkiZWX8JLK2v4KtngL0Ve+6FSc5JpuORcsxSUDILmkY0K7o73cfW9MQsu5qpMW4uOU/Y8tLuJ5S5Xki25G3LRfYVxJYYBrP0x1j37SiA9BH4D4uypZE6BzuWAL0uQq+mFs5yvvoP3ZQsgBJrO7NttPRDFcPNgBFBxtDIGpavfcKCCbBWcht1X8e87fYSHoqZ5Zn8PoGn1w21aRQO/Rs8sGWRfdnKzhZnE+Boja/dr1QPN81+kki0rgv5zKq6uRdYh9mCsPMeR/b3X5TAjAaNaR2K+stbULugbSrsHz5XR352k4Z7PbJAJD/fQsS0K5jMAWFbItUNreM+x2DMnEW88mZUUfrzTIHivNqywl9J6gGGrZZxLNTjzuil+tBJaA68VYBOcGylzxShDdQe9M+Stdafi9clgt22LveAtOII4BTx9wcd7+v0O55VCr3sa7blNF1iseWaN9JahcRrcb4imqFT8QDWn2mYUUObB4Fxyh4VSU6ldG9sOdPfddOM4GqqaJH40Wqwp6h7gun4mgCUF2opCgu2CaRtja6/B3a631OU3MCzeGZNl/uSAGK1ybNuBwxkxiXZzZlRad0eaVn1BmqGFbMZ3J6nsljfpOKl5vInZHxRq44hNIn8u+ZeppBGrx42biQPQMaQ+kUZ+qFFTlJl14/HVCYa2F2Q6vRrW0ZkdaqCk0lyG8G0cMhsLx3qC94P2ebCYvoPwEdi1uDqsO2BLXeTXTkthpoxAxAa3e50frT7sP6uENMa29ZB8w66C5SRk/+XwDLtMpvL49e4iNN9jlWWifH1VNulL6vrZGB/drfms8p7mvMng4AoBhYyxzJNyQqkkOC0tP1KAJd8KUE1FvIINZ4oOD1x04QIfALVuDV/HPBfXzLVMHybD3LxFWTlXIFRfbX3xMgm71mC4H+4GEmaaZ6ijHwpny09+SR3ruEkaeldv9eaqQsfml1qZkQC/SYByKHurci0OakLS3qltAqnvzcK2YeY+KxtHgmc3UEhUObgKVuT8PH5O5Ghz5kixf8Kls4VJTQswvJWo098+2in2aBWbVolqC9hRxEMSxZAnQIV4tH5Fq/Vv6Tu7GJZu9zW7JEhxDkWYBHYEriqWQ1YOJv5qqeS0wZDbTDViHQfW7VtZ9DUULK0pK1QLEpwMYmaYV3dB0B/pYnTzoV2JWbjbMnHhWytSwK8nQFcOg7LPB4Em7luwdOtDH8CrDBuFtPcbrUUGG+DTK/AE0mY5K/cxbgYvCe0qoRwJCEADMtAu6tqAAIDcv55HTq5AAfhXn4u95xDZ+NRVcux+gNF60CHNjnePtPRqCx2DqhthO4OXCVCR0oW749d5y0q3IJ4OC+zkzloE8fgffpWS2vXzcqJ5ZS72j5goZFX4jMn2OAqtU9YcupzdHnjYzHvSY3LtoJQvbceG0RNdadvbH2zFI1isbeS2VgIdbnRKN4nlKUDc0ALiaQJzqwW0Hqj4L/ji5ODC0Hu7uRMavDhJVLwNHZKToE7+u4io50lTy+EIk6bkANk1JXueEqa4RtGChiz3lWa28eIJICAtsURbMNK6zGGymgvJdo+69RE+Ji5SIjDJTrXLqCFEgy2ub1SeqjdY6GoFzUXPUr3mQKE3Q3a0/x5m8FkfRmNSdjmaC50vBpssOrKWLvrV2j4Ne9nhDwDPtoYJWIGsc+C6tZ+iFZ8ftzNsNVj2hz1P7YfOKujr65VfpGtMBoC3y6uVlwNr0ZWQCiGPnBxmVgWhqRmiGx1m1hLRBWHxenMw2OGZc9fl3j3IJ2N9NQZGlUxHkM6vfBp/k+RyHIlIvneCuN/AGsi8JTRr2myyRZzqo5NyTU2/XQ7s5EP4pjMOE0la0z5YwJUhB3MuRreByEF9hxSYUbZq2AwxX1XXJMga1NiySkrU6ie/v/EnKJ3MYCOXYWocsQvQTdeCJ8VIZJduv/0jfIPcd6XlLRvRErqOphdvBHHI9Nqz3nZ9s4N142vrA3UPPaXlrzzICdSk158u1Ph5IwDvshf1CTuW4dQQHsUMHJB1Rg9ElWHGcJ22X23apZSPmh7rSGQkPPAxUGT8lqnJfi9vuXM+HP0P6YnjYbnRM8hooX9NmgplznQGK1BEufFt100mXOmH6si1kCMdbLvJRoVGqRg+RSN3PeMSr3tpw3wSeMg9fg5Ouz3DzjO6uUV/rD+sLSToQwUT0kK/g9ATdzCBKfn514QpQxUYMwZilu3cQA/wC15aQGkaLHHq6zeC8V9n8gDncZM3zja8wPP6QFAY6YlgaiPtZhh0GvWRwj9r0=</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/scfoundation/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

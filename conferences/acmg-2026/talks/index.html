@@ -13092,288 +13092,34 @@
   
 
 
-<h1 id="talks-acmg-2026">Talks — ACMG 2026<a class="headerlink" href="#talks-acmg-2026" title="Permanent link">&para;</a></h1>
-<p>The primary artifact of this vault: <strong>one Markdown file per talk</strong>. ACMG 2026 is a hybrid clinical-lab meeting — some talks are clinical case readouts, some are cohort / cohort-classification readouts, some are standards-document updates (ACMG/AMP, ClinGen VCEPs), some are AI/ML methods talks, some are TED-style perspectives, and the named-award lectures are their own slot type. The per-talk schema accommodates all of these with one Anchor field.</p>
-<blockquote>
-<p><strong>Status:</strong> Template + master index, populated retrospectively. Stubs are pulled from the ACMG 2026 meeting site, pre-meeting press release, and the ACMG Foundation award announcement; entries tagged <code>*per pre-meeting press, GIM abstract supplement pending*</code> will be reconciled with DOIs and full abstract text once the <em>Genetics in Medicine</em> abstract supplement publishes (typically ~April–May post-meeting) and the ACMG Digital Edition on-demand recordings are accessible (~April–May 2026, partially live now).</p>
-</blockquote>
-<h2 id="per-talk-template">Per-talk template<a class="headerlink" href="#per-talk-template" title="Permanent link">&para;</a></h2>
-<p>Each talk file (e.g., <code>rimoin-2026-carey.md</code>, <code>nifs-symposium.md</code>, <code>llm-acmg-amp-classification.md</code>) follows this schema. Copy and fill:</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># &lt;Talk title — short&gt;</span>
+<div id="mkdocs-encrypted-content" style="display:none">/d+L8Jsrz6u5GrBueMUP8w==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<span class="k">&gt; </span><span class="ge">**Session:** &lt;session name, date, time ET, room&gt; · **Track:** &lt;track / theme&gt; · **Abstract:** &lt;GIM abstract # or platform/poster #&gt;</span>
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/acmg-2026/talks/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<span class="gu">## At a glance</span>
-
-<span class="k">-</span><span class="w"> </span><span class="gs">**Speaker:**</span> &lt;name, degrees (MD, PhD, MS, FACMG, CGC, etc.)&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Affiliation:**</span> &lt;institution, department, clinical lab&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Day / session / track:**</span> &lt;Wed Mar 11 / Platform 1 / Hereditary Cancer and Adult Genetics&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Talk title:**</span> &lt;full title as in program&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Anchor type:**</span> &lt;clinical-lab cohort / case readout | standards / guideline update | tool / pipeline / ML method | award lecture | TED-style / perspective | symposium discussion&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Anchor:**</span> &lt;cohort name + size + lab | guideline document + version + GIM DOI | tool name + GitHub/PyPI | manuscript citation + DOI&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Co-authors / consortium:**</span> &lt;if applicable — e.g., ClinGen VCEP, UDN, AoU, CSER, eMERGE&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Preprint / paper:**</span> &lt;bioRxiv / medRxiv / GIM / GIM Open / NEJM / AJHG DOI, if accompanying&gt;
-
-<span class="gu">## Key result</span>
-
-&lt;One paragraph. Numbers + cohort size + diagnostic yield / classification-change rate / effect
-size if known. For retrospective stubs, mark <span class="sb">`*per pre-meeting press`</span>*` or
-<span class="sb">`*per session description, GIM abstract supplement pending*`</span> if not yet reconciled.&gt;
-
-<span class="gu">## Methods / approach</span>
-
-&lt;2–4 sentences. What clinical cohort, what assay, what classification framework
-(ACMG/AMP 2015 + which evidence-code recalibrations), what comparator. For tool
-talks: what it consumes / produces, key methodological idea, integration with
-lab LIMS / variant-curation workflow. For standards-update talks: scope, what
-changed vs prior version, implementation timeline.&gt;
-
-<span class="gu">## Why it matters for the corpus</span>
-
-&lt;1–2 sentences. The cancer-genomics / clinical-trials / methods relevance specifically
-— does it inform hereditary-cancer panel design, ACMG/AMP variant classification
-for cancer variants, CHIP / mosaicism detection in cancer testing, AI / LLM
-validation in clinical labs, or methods used in AACR / ASCO / ASH downstream?&gt;
-
-<span class="gu">## Cross-links to corpus</span>
-
-<span class="k">-</span><span class="w"> </span><span class="gs">**AACR 2026:**</span> &lt;related session / poster, if applicable&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**ASCO 2026:**</span> &lt;trial that uses the testing framework / cohort / panel&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**ASH 2026:**</span> &lt;CHIP / MN-predisposition / germline-MN tie-in&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**ASHG 2026:**</span> &lt;methods-paper sibling talk later in the year&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**ISMB 2026 / RECOMB 2026:**</span> &lt;upstream variant-effect-predictor or LLM methods talk&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**AGBT 2026:**</span> &lt;upstream platform if this talk applies a new sequencing modality&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**ESHG 2026:**</span> &lt;European sibling talk if same investigator / cohort&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Other ACMG 2026 talks:**</span> &lt;session-mates, same-cohort, same-method&gt;
-
-<span class="gu">## Sources</span>
-
-<span class="k">-</span><span class="w"> </span>GIM abstract: &lt;DOI / URL or &quot;pending supplement publication&quot;&gt;
-<span class="k">-</span><span class="w"> </span>Preprint / paper: &lt;bioRxiv / medRxiv / journal DOI&gt;
-<span class="k">-</span><span class="w"> </span>Lab / institutional page: &lt;URL&gt;
-<span class="k">-</span><span class="w"> </span>Recording (post-meeting): &lt;ACMG Digital Edition URL&gt;
-<span class="k">-</span><span class="w"> </span>Trade-press recap: &lt;GenomeWeb / 360Dx URL&gt;
-<span class="k">-</span><span class="w"> </span>Sponsor release (if applicable): &lt;vendor press URL&gt;
-</code></pre></div>
-<h2 id="master-talk-index">Master talk index<a class="headerlink" href="#master-talk-index" title="Permanent link">&para;</a></h2>
-<p>The shortlist below is pulled <strong>retrospectively</strong> from the ACMG 2026 meeting site and pre-meeting press. Stubs prioritize the <strong>cancer-genetics-relevant subset</strong> of the program (hereditary cancer, ACMG Secondary Findings cancer subset, CHIP / mosaicism in cancer testing, germline-somatic integration) plus the <strong>load-bearing standards / AI-in-clinical-genomics talks</strong> that we'd want to cite from cancer-talks downstream. Reconciliation with the GIM abstract supplement is pending.</p>
-<table>
-<thead>
-<tr>
-<th>Talk</th>
-<th>Speaker</th>
-<th>Affiliation</th>
-<th>Day</th>
-<th>Track</th>
-<th>Anchor type</th>
-<th>Anchor</th>
-<th>Cancer-genomics relevance</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>David L. Rimoin Lifetime Achievement Award Lecture</strong></td>
-<td>John C. Carey, MD, MPH, FACMG, FAAP</td>
-<td>University of Utah (Emeritus)</td>
-<td>Wed Mar 11 — Presidential Plenary</td>
-<td>Award</td>
-<td>award lecture</td>
-<td><em>career retrospective in clinical genetics, dysmorphology, trisomy 13/18 advocacy</em></td>
-<td>Indirect — clinical-genetics framing of cancer-predisposition syndromes</td>
-</tr>
-<tr>
-<td><strong>Presidential Plenary: The Future of Expanded Newborn Genomic Screening</strong></td>
-<td><em>Presidential Plenary panel</em></td>
-<td>Multiple</td>
-<td>Wed Mar 11 — Presidential Plenary</td>
-<td>Society / Plenary</td>
-<td>symposium discussion</td>
-<td><em>NBS expansion to genomic sequencing — BabySeq, GUARDIAN, NBSeq, EarlyCheck</em></td>
-<td>Core — pediatric cancer-predisposition reporting from newborn WGS is the cancer-relevant axis</td>
-</tr>
-<tr>
-<td><strong>Non-Invasive Fetal Sequencing (NIFS) Is Coming: Are You Ready?</strong></td>
-<td><em>symposium panel</em></td>
-<td>Multiple (incl. Natera, Illumina, academic prenatal centers)</td>
-<td>TBD</td>
-<td>Prenatal / Reproductive</td>
-<td>symposium discussion</td>
-<td><em>NIFS clinical-readiness debate</em></td>
-<td>Indirect — fetal cancer-predisposition variant detection is a downstream question</td>
-</tr>
-<tr>
-<td><strong>Clonal Hematopoiesis, Somatic and Post-Zygotic Mosaicism in Multigene Cancer Testing for Geneticists</strong></td>
-<td><em>symposium panel</em></td>
-<td>Multiple (incl. Bick-aligned, Natarajan-aligned, clinical-lab CHIP working groups)</td>
-<td>TBD</td>
-<td>Cancer Genetics</td>
-<td>symposium discussion</td>
-<td><em>CHIP / mosaicism findings in multigene panel testing — incidental finding handling</em></td>
-<td>Core — clinical-lab translation of population-CHIP work; bridge to ASH MDS/AML</td>
-</tr>
-<tr>
-<td><strong>Beyond The List — Scope and Implementation of ACMG Secondary Findings</strong></td>
-<td><em>ACMG SF Working Group</em></td>
-<td>ACMG SF WG</td>
-<td>TBD</td>
-<td>Standards / Policy</td>
-<td>standards / guideline update</td>
-<td><em>ACMG SF v3.3 implementation + future expansion debate</em></td>
-<td>Core — cancer-predisposition genes dominate the SF list (TP53, BRCA1/2, MLH1, MSH2, MSH6, PMS2, APC, MUTYH, PTEN, RB1, RET, VHL, WT1)</td>
-</tr>
-<tr>
-<td><strong>Demystifying Base Large Language Model Reproducibility and Accuracy in ACMG/AMP Variant Classification</strong></td>
-<td><em>platform speaker, TBC from program</em></td>
-<td>TBD</td>
-<td>TBD</td>
-<td>AI / Informatics</td>
-<td>tool / pipeline / ML method</td>
-<td><em>LLM benchmark for ACMG/AMP classification reproducibility</em></td>
-<td>Core — every cancer-variant classification rests on ACMG/AMP framework; LLM-validation is the gating question for clinical-lab adoption</td>
-</tr>
-<tr>
-<td><strong>Platform 1 — Hereditary Cancer and Adult Genetics</strong></td>
-<td><em>multiple platform speakers</em></td>
-<td>Multiple</td>
-<td>TBD</td>
-<td>Cancer Genetics</td>
-<td>mixed (clinical-lab cohort + classification + outcomes)</td>
-<td><em>hereditary-cancer panel updates, VUS reclassification, universal-testing implementations</em></td>
-<td>Core — primary cancer-genetics platform session</td>
-</tr>
-<tr>
-<td><strong>AI-assisted genome interpretation and networked data sharing</strong></td>
-<td><em>platform speaker, TBC</em></td>
-<td>TBD</td>
-<td>TBD</td>
-<td>AI / Informatics</td>
-<td>tool / pipeline / ML method</td>
-<td><em>AI-assisted clinical-lab genome interpretation pipeline</em></td>
-<td>Methods used in clinical cancer-variant interpretation downstream</td>
-</tr>
-<tr>
-<td><strong>Diagnostic challenges from the Undiagnosed Diseases Network</strong></td>
-<td><em>UDN clinical sites</em></td>
-<td>UDN / NHGRI</td>
-<td>TBD</td>
-<td>Rare Disease</td>
-<td>clinical-lab cohort / case readout</td>
-<td><em>UDN diagnostic-yield updates + complex-case readouts</em></td>
-<td>Indirect — UDN cancer-predisposition cases inform pan-cancer germline panel design</td>
-</tr>
-<tr>
-<td><strong>Genomic Oncology track</strong></td>
-<td><em>multiple</em></td>
-<td>Multiple</td>
-<td>TBD</td>
-<td>Cancer Genetics</td>
-<td>mixed</td>
-<td><em>germline-somatic integration, pharmacogenomics in oncology, tumor-only vs paired testing</em></td>
-<td>Core — cancer-genomics overlap with AACR / ASCO</td>
-</tr>
-<tr>
-<td><strong>Gene Therapy implementation (clinical-lab perspective)</strong></td>
-<td><em>multiple</em></td>
-<td>Multiple (incl. gene-therapy clinical sites)</td>
-<td>TBD</td>
-<td>Therapeutics</td>
-<td>symposium discussion</td>
-<td><em>clinical-lab role in AAV / CRISPR / ASO gene-therapy patient selection + monitoring</em></td>
-<td>Indirect — RB1 / TP53 gene-therapy and cancer-predisposition crossovers</td>
-</tr>
-<tr>
-<td><strong>Washington policy: payer / FDA / LDT implications</strong></td>
-<td><em>policy panel</em></td>
-<td>ACMG advocacy + payer / FDA reps</td>
-<td>TBD</td>
-<td>Health Services / Policy</td>
-<td>symposium discussion</td>
-<td><em>FDA LDT final rule, CMS coverage, prior-auth for clinical genetics</em></td>
-<td>Indirect — same regulatory framework gates somatic cancer-LDT operations</td>
-</tr>
-<tr>
-<td><strong>ClinGen VCEP updates (cancer-predisposition expert panels)</strong></td>
-<td><em>ClinGen Cancer VCEPs</em></td>
-<td>ClinGen</td>
-<td>TBD</td>
-<td>Standards / Curation</td>
-<td>standards / guideline update</td>
-<td><em>ClinGen Hereditary Cancer / TP53 / Lynch / BRCA VCEP curation updates</em></td>
-<td>Core — every clinical-lab cancer-variant classification consults ClinGen VCEP decisions</td>
-</tr>
-<tr>
-<td><strong>Cardiovascular genetics — cardiomyopathy / arrhythmia panel updates</strong></td>
-<td><em>multiple</em></td>
-<td>Multiple (incl. Mayo, Stanford, MGB)</td>
-<td>TBD</td>
-<td>Cardiovascular Genetics</td>
-<td>clinical-lab cohort / case readout</td>
-<td><em>HCM / DCM / LQTS panel-design updates, ClinGen Cardio VCEP</em></td>
-<td>Indirect — non-cancer, but methods overlap</td>
-</tr>
-<tr>
-<td><strong>Long-read clinical sequencing case readouts</strong></td>
-<td><em>multiple</em> (PacBio / ONT clinical adopters)</td>
-<td>Multiple</td>
-<td>TBD</td>
-<td>Clinical / Diagnostics</td>
-<td>tool / pipeline</td>
-<td><em>clinical WGS programs using HiFi / ONT for structural-variant + repeat-expansion resolution</em></td>
-<td>Methods bleed into AGBT 2026 platform talks and AACR / ASHG cancer-SV detection</td>
-</tr>
-<tr>
-<td><strong>RNA-seq for variant interpretation</strong></td>
-<td><em>multiple</em></td>
-<td>Multiple (incl. clinical-RNA programs)</td>
-<td>TBD</td>
-<td>Clinical / Diagnostics</td>
-<td>tool / pipeline</td>
-<td><em>RNA-seq for splice-variant / RNA-level evidence in ACMG/AMP PVS1 / PS3</em></td>
-<td>Core methods — clinical-lab cancer-splice-variant interpretation</td>
-</tr>
-<tr>
-<td><strong>TED-style talks (perspective slot)</strong></td>
-<td><em>multiple</em></td>
-<td>Multiple</td>
-<td>TBD</td>
-<td>Plenary perspective</td>
-<td>TED-style / perspective</td>
-<td><em>5–10 minute big-idea talks on field-shaping topics</em></td>
-<td>Variable — past TED-style talks have included AI ethics, equity, return of results</td>
-</tr>
-<tr>
-<td><strong>Trainee Awards platform session (Richard King Awards)</strong></td>
-<td><em>Trainee awardees</em></td>
-<td>Multiple</td>
-<td>TBD</td>
-<td>Trainee plenary</td>
-<td>award lecture</td>
-<td><em>winning trainee abstracts across categories</em></td>
-<td>Variable but often high-signal</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Additional shortlist candidates</strong> to stub from the Digital Edition on-demand catalog:</p>
-<ul>
-<li><strong>Prenatal / NBS:</strong> GUARDIAN study readout; BabySeq2 update; cfDNA expansion to monogenic disorders; expanded carrier-screening panel composition.</li>
-<li><strong>Cancer genetics:</strong> universal Lynch / HBOC testing implementation studies; CHARM / MAGENTA / WISDOM-style population-screening cohorts; germline reanalysis cohorts; pediatric-cancer-predisposition referral pathways.</li>
-<li><strong>AI / Informatics:</strong> AlphaMissense in clinical workflows; ESM-3 / EVO benchmark on clinical variants; LLM-drafted reports + clinician oversight; ML-assisted curation queues.</li>
-<li><strong>Therapeutics:</strong> Casgevy (exa-cel) / Lyfgenia post-launch clinical-lab perspective; n-of-1 antisense oligonucleotide programs (n-Lorem, Stoke); AAV redosing / immunogenicity from a genetics-clinic perspective.</li>
-<li><strong>ELSI / equity:</strong> ancestry / population-database representation in classification; return of results in pediatrics; secondary-findings in prenatal contexts.</li>
-<li><strong>Pre-meeting Short Courses to flag:</strong> clinical laboratory genetics primer; cancer genetics for the practicing clinician; coding / reimbursement; long-read clinical implementation.</li>
-</ul>
-<h2 id="cross-cutting-themes-for-themesmd-deferred-until-post-meeting-digest-completes">Cross-cutting themes (for <code>themes.md</code>, deferred until post-meeting digest completes)<a class="headerlink" href="#cross-cutting-themes-for-themesmd-deferred-until-post-meeting-digest-completes" title="Permanent link">&para;</a></h2>
-<p>To synthesize across <code>talks/</code> once populated:</p>
-<ol>
-<li><strong>LLM / foundation-model entry into ACMG/AMP variant classification.</strong> The Demystifying-LLM-Reproducibility platform plus AI-assisted genome interpretation talks suggest 2026 is the validation year for clinical-lab LLM workflows. Cross-link to ISMB 2026 / RECOMB 2026 methods papers and ASHG 2026 foundation-model-variant-effect-predictor talks.</li>
-<li><strong>Newborn-genomic-screening expansion: the cancer-predisposition wedge.</strong> Presidential Plenary theme. Reporting cancer-predisposition variants (RB1, TP53, RET, APC, BRCA, Lynch) from newborn WGS sits at the policy-debate edge. Cross-link to AACR 2026 hereditary-cancer / pediatric-cancer-predisposition sessions.</li>
-<li><strong>ACMG Secondary Findings list growth + scope debate.</strong> <em>Beyond The List</em> session. Cancer-genes dominate; pediatric-onset cancer-predisposition reporting is the load-bearing question.</li>
-<li><strong>CHIP / somatic mosaicism in clinical cancer testing.</strong> Clinical-lab framing of the population-CHIP body of work. Bridge to ASH 2026 MDS/AML and ASHG 2026 statistical-genetics CHIP talks.</li>
-<li><strong>NIFS clinical readiness.</strong> Non-invasive fetal sequencing as the next-generation prenatal modality beyond NIPT — clinical-lab-validation and ELSI questions both live here.</li>
-<li><strong>UDN diagnostic-yield maturation + complex-case framing.</strong> The diagnostic-odyssey case-based session — clinical-lab and clinician collaboration patterns that scale.</li>
-<li><strong>Long-read clinical sequencing inflection.</strong> Same theme as ASHG 2026 + AGBT 2026, with clinical-lab implementation framing (LIMS integration, variant calling, reporting).</li>
-<li><strong>Cancer pharmacogenomics + germline-somatic integration.</strong> Bridge between clinical-lab cancer testing and AACR / ASCO trial eligibility.</li>
-</ol>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

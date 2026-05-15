@@ -13150,115 +13150,34 @@
   
 
 
-<h1 id="scgpt">scGPT<a class="headerlink" href="#scgpt" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> sc-fm
-<strong>Modality:</strong> Single-cell RNA-seq (gene-expression value tokens)
-<strong>Released:</strong> 2024 (Nature Methods)
-<strong>License:</strong> MIT (code); checkpoints distributed via Google Drive under the same terms
-<strong>Code/checkpoint:</strong> <a href="https://github.com/bowang-lab/scGPT">github.com/bowang-lab/scGPT</a> (whole-human, organ-specific, and pan-cancer checkpoints)
-<strong>Also surfaced in:</strong> agentic-ai, single-cell-spatial-omics, virtual-cells</p>
-<blockquote>
-<p>scGPT is a generative single-cell foundation model from the Bo Wang
-Lab at the University of Toronto that treats each cell as a sequence
-of gene–value tokens and pretrains a transformer to reconstruct
-masked expression values. It is trained on more than 33 million
-human cells from CELLxGENE and supports cell-type annotation,
-integration, perturbation prediction, and gene-regulatory inference
-after lightweight fine-tuning. Organ-specific (brain, blood, lung,
-heart, kidney) and pan-cancer (5.7M cells) checkpoints are released
-alongside the whole-human default.</p>
-</blockquote>
-<h2 id="architecture-training">Architecture &amp; training<a class="headerlink" href="#architecture-training" title="Permanent link">&para;</a></h2>
-<p>scGPT uses a transformer encoder with a custom generative attention
-mask: gene tokens are paired with binned expression-value tokens and
-condition tokens (batch, modality), and the model is trained to
-predict masked expression values given the unmasked context. The
-flagship "whole-human" checkpoint is pretrained on ~33M normal human
-cells aggregated from CELLxGENE; organ-specific variants range from
-~0.8M to ~13M cells, and a pan-cancer variant is trained on ~5.7M
-tumor cells. Fine-tuning uses a small task head for cell-type
-classification, batch integration, or perturbation response, and the
-paper reports competitive or improved performance over scBERT,
-Geneformer, and scVI baselines across these tasks.</p>
-<h2 id="use-in-the-aacr-2026-corpus">Use in the AACR 2026 corpus<a class="headerlink" href="#use-in-the-aacr-2026-corpus" title="Permanent link">&para;</a></h2>
-<!-- mentions:start -->
+<div id="mkdocs-encrypted-content" style="display:none">o/vPrLlJ/oQnhaN4kYWhdA==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<p><strong>Posters mentioning scGPT (n=2):</strong></p>
-<ul>
-<li><strong>4212</strong> — <em>Baseline peripheral blood scRNA-seq AI estimator framework predicts solid-tumor response and adverse events via molecular foundation models and cell-to-patient learning</em>
-  …e PBMC scRNA-seq counts (with optional cell-type annotations), pre-trained molecular foundation models (FMs) (scGPT v1.0 [1], scFoundation [2]), cell-to-patient Multi-Instance Learning (MIL) [3] with RECIST labels (CR/PR Resp…</li>
-<li><strong>5478</strong> — <em>Benchmarking gene expression foundation models on bulk RNA-Seq data</em>
-  …ble models with released weights, including six single-cell models (CellFM, GeneFormer, scBERT, scFoundation, scGPT, and scLong) and BulkFormer, a model trained on bulk RNA-seq data. Embeddings were extracted following each m…</li>
-</ul>
-<p><strong>Sessions mentioning scGPT (n=1):</strong></p>
-<ul>
-<li><a href="../../../../sessions/2026-04-20-am-ai-revolution-in-cancer-research/">2026-04-20-am-ai-revolution-in-cancer-research</a>
-  …k and send us any feedbacks you may have. All right, so what's next? I talk about virtual cell models such as scGPT and ExCell. I talk about bioreason models, particularly bioreasons through DNA sequences, bioreasons through…</li>
-</ul>
-<!-- mentions:end -->
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/scgpt/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<h2 id="whats-missing-where-evidence-is-weak">What's missing / where evidence is weak<a class="headerlink" href="#whats-missing-where-evidence-is-weak" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>The pan-cancer checkpoint is absent.</strong> Despite a 5.7M tumor-cell pan-cancer variant being released alongside the whole-human default, no corpus mention uses or evaluates it. Both poster mentions reach for the v1.0 whole-human checkpoint or a generic "scGPT" baseline.</li>
-<li><strong>No fine-tuning protocol detail in the corpus.</strong> Poster 4212 (PBMC peripheral-blood AI estimator) calls out scGPT v1.0 as a feature extractor, and poster 5478 benchmarks it, but neither describes fine-tuning hyperparameters, organ-specific checkpoint choice, or perturbation evaluation.</li>
-<li><strong>The session mention is a name-check.</strong> The April-20 AI Revolution session lists scGPT alongside ExCell as "virtual cell models" without methodological detail; it adds no evidence beyond the posters.</li>
-<li><strong>No tumor-microenvironment or perturbation work.</strong> scGPT's headline capabilities (perturbation prediction, GRN inference) do not appear in any corpus mention.</li>
-</ul>
-<h2 id="takeaway">Takeaway<a class="headerlink" href="#takeaway" title="Permanent link">&para;</a></h2>
-<p>scGPT is present in AACR 2026 as a representative single-cell foundation model — invoked in two posters and one session — but always as a context entry in a foundation-model lineup (typically alongside scFoundation or Geneformer) rather than as the primary engine of an analysis. The corpus pattern mirrors Geneformer's: scGPT is widely <em>known</em> and consistently <em>named</em>, but no AACR 2026 contribution leans on its generative or perturbation capabilities to drive a finding.</p>
-<h2 id="fm-comparison-2026-status">FM comparison &amp; 2026 status<a class="headerlink" href="#fm-comparison-2026-status" title="Permanent link">&para;</a></h2>
-<p><strong>Where it sits in the FM landscape.</strong> scGPT is a generative, decoder-style transformer in the single-cell FM family — distinguished from Geneformer (encoder-only, rank-based) and Cell2Location (Bayesian, not an FM at all) by a gene-value tokenization that lets it run masked expression <em>regression</em> rather than just rank-token masking. The flagship whole-human checkpoint is ~51M parameters, with a 53M-parameter pan-cancer variant and several organ-specific releases; this puts scGPT at the smaller end of the modern single-cell FM cohort (UCE: 650M; scFoundation: 100M; CellPLM: 80M; Geneformer-V2-Deep: 316M).</p>
-<p><strong>Direct peers.</strong></p>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Architecture</th>
-<th>Pretraining corpus</th>
-<th>Public weights</th>
-<th>Headline benchmark</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>scGPT v1.0</td>
-<td>Decoder transformer, gene-value tokens, ~51M params</td>
-<td>33M human cells (CELLxGENE) + 5.7M pan-cancer variant</td>
-<td>MIT, Google Drive</td>
-<td>Cell-type annotation, integration, perturbation (Nature Methods 2024)</td>
-</tr>
-<tr>
-<td>UCE (Universal Cell Embeddings)</td>
-<td>Encoder transformer, protein-sequence-conditioned gene embeddings, 650M params</td>
-<td>36M cells, 8 species</td>
-<td>MIT, GitHub + HF</td>
-<td>Strongest cross-dataset zero-shot embedding in 2025 scFM benchmarks</td>
-</tr>
-<tr>
-<td>scFoundation</td>
-<td>xTrimoGene encoder, continuous-value embedding, 100M params</td>
-<td>50M human cells</td>
-<td>Code MIT, weights gated</td>
-<td>Tumor-tissue tasks (best in pooled-data eval)</td>
-</tr>
-<tr>
-<td>GET</td>
-<td>Sequence + chromatin-accessibility transformer</td>
-<td>213 fetal/adult cell types (multi-omics)</td>
-<td>MIT, GitHub</td>
-<td>Cross-cell-type expression prediction (Nature 2025)</td>
-</tr>
-<tr>
-<td>CellPLM</td>
-<td>Cell-as-token encoder, ~80M params</td>
-<td>11M cells with spatial context</td>
-<td>MIT, GitHub</td>
-<td>Spatial-context cell-state inference</td>
-</tr>
-</tbody>
-</table>
-<p><strong>What changed in 2025-2026.</strong> Three things matter. First, the Bo Wang lab released <strong>scGPT-spatial</strong> (bioRxiv Feb 2025), a continually pretrained variant on SpatialHuman30M (~30M spatial profiles) with a Mixture-of-Experts decoder for protocol-aware deconvolution and imputation — the spatial successor that AACR 2026 has not yet caught up to. Second, <strong>a series of 2025 benchmark papers</strong> (Kedzierska et al., <em>Genome Biology</em> 2025; Wenkel et al., <em>Nature Methods</em> 2025) showed that scGPT, Geneformer, and scFoundation <strong>do not outperform simple linear baselines on perturbation prediction</strong> and have weak zero-shot embedding quality — a credibility hit that has not surfaced in any AACR 2026 poster framing. Third, the scGPT-cancer (pan-cancer) checkpoint has been reported to <em>underperform</em> the generic whole-human checkpoint on several non-cancer tasks, raising the question of whether domain-specific continual pretraining was worth the 5.7M-cell investment. No formal retraction or concern flag has been issued on the published paper.</p>
-<p><strong>AACR-relevant use cases.</strong> Three live use modes appear in the 2026 corpus or are visible immediately adjacent to it: (1) <strong>PBMC response prediction</strong> — poster 4212 uses scGPT v1.0 + scFoundation embeddings as MIL features to predict RECIST response from peripheral-blood scRNA-seq, the only "primary engine" usage in the corpus; (2) <strong>Bulk-RNA-seq benchmarking</strong> — poster 5478 evaluates scGPT alongside five other scFMs on bulk-RNA-seq embeddings, an off-label use that the recent zero-shot critique literature would predict to fail; (3) <strong>Virtual-cell scaffolding</strong> — the <a href="../../../../sessions/2026-04-20-am-ai-revolution-in-cancer-research/">April 20 AI Revolution session</a> name-checks scGPT alongside ExCell as a virtual-cell substrate, framing it as a building block for cell-simulation agents rather than an end-user analysis tool. The pan-cancer 5.7M-cell checkpoint and scGPT-spatial are absent from both posters and sessions — a substantive gap given that scGPT-spatial would directly compete with Cell2Location on spot-resolution deconvolution.</p>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

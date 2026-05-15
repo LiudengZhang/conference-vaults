@@ -13142,45 +13142,34 @@
   
 
 
-<h1 id="gaia-galaxy-all-in-one-agent">GAIA (Galaxy All-in-One Agent)<a class="headerlink" href="#gaia-galaxy-all-in-one-agent" title="Permanent link">&para;</a></h1>
-<p><strong>A unified natural-language interface for cross-Galaxy data analysis</strong> — an agentic AI front-end that lets researchers drive Galaxy tools, workflows, and histories through natural-language conversation, federating across Galaxy instances. The Goecks-lab counterpart to GalaxyMCP: GAIA is the user-facing agent, GalaxyMCP is the server-side protocol bridge.</p>
-<ul>
-<li><strong>Lead authors:</strong> Junhao Qiu, Jeremy Goecks (Cleveland Clinic — Goecks lab)</li>
-<li><strong>Galaxy tool / platform:</strong> TBD — verify from the talk slides (likely under <code>goeckslab/</code> on GitHub)</li>
-<li><strong>Source:</strong> TBD — verify from the talk slides</li>
-<li><strong>Documentation / training:</strong> TBD — verify from the talk slides</li>
-<li><strong>Status at GBCC2025:</strong> oral talk on a natural-language interface for Galaxy</li>
-</ul>
-<h2 id="talk-at-gbcc2025">Talk at GBCC2025<a class="headerlink" href="#talk-at-gbcc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speakers:</strong> Junhao Qiu, Jeremy Goecks</li>
-<li><strong>Day / session:</strong> Day 2 (Tue Jun 24, 2025) — Oral Session 1, Grace Auditorium (chair: Sehyun Oh)</li>
-<li><strong>Talk title:</strong> "Galaxy All-in-One Agent: A Unified Natural Language Interface for Cross-Galaxy Data Analysis"</li>
-<li><strong>Slides:</strong> TBD</li>
-<li><strong>Video:</strong> <a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQTJ0O_FIO9ayqaUDfnMo4-4">GBCC2025 playlist</a></li>
-<li><strong>Abstract / schedule:</strong> <a href="https://gbcc2025.bioconductor.org/program/scientific_program/">GBCC2025 program</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>GAIA wraps Galaxy's tool registry, workflow engine, and history/dataset model behind an LLM-driven conversational layer. A user describes an analysis in English ("run variant calling on these PacBio reads, then annotate with VEP"); the agent picks tools, sets parameters, kicks off jobs, and surfaces results — federating across multiple Galaxy instances rather than locking the user to one server. The pitch is to lower the on-ramp for biologists who'd otherwise hit the Galaxy UI's tool-discovery cliff.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> GAIA is an agentic LLM front-end that translates natural-language requests into Galaxy API calls. The agent loop is: parse user intent, select tools/workflows from the Galaxy tool registry, fill parameters, invoke the BioBlend API, monitor histories, and report results — chained across turns so multi-step analyses build up in conversation.</p>
-<p><strong>Inputs / outputs.</strong> Input is a natural-language prompt (plus optional dataset references) and a target Galaxy instance (or set of federated instances). Output is one or more Galaxy histories with completed jobs, plus a conversational summary of what was run and where outputs live.</p>
-<p><strong>Key innovation.</strong> Cross-Galaxy federation in a single agent: the same chat session can run tools on <code>usegalaxy.org</code>, <code>.eu</code>, <code>.org.au</code>, or a private instance depending on data residency, tool availability, or load — the agent abstracts the "which server" decision away from the user.</p>
-<p><strong>Parameters / API surface worth knowing.</strong>
-- LLM backend — <em>not specified in docs</em> (talk-stage tool; repo / model choice TBD).
-- Galaxy connection layer — almost certainly BioBlend, the same Python client GalaxyMCP uses.
-- Tool / workflow selection — likely retrieval-augmented over the Galaxy ToolShed and IWC workflow registry.
-- History as memory — completed Galaxy histories provide the reproducibility / audit trail an LLM session would otherwise lack.</p>
-<p><strong>Canonical example.</strong> <em>Not specified in public docs.</em> The talk title frames the canonical interaction as a researcher asking GAIA to run an analysis spanning multiple Galaxy servers without manually choosing between them.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> axis = agentic AI; this is the most-relevant non-AACR talk for the agentic-AI dossier — a working agent grounded in a real, large bioinformatics tool ecosystem rather than a benchmark</li>
-<li><strong>GalaxyMCP</strong> (<a href="../galaxymcp/">entry</a>) — sister talk, same authors, same session; GAIA is the agent, GalaxyMCP is the protocol substrate</li>
-<li><strong>EuroBioC 2025:</strong> no direct counterpart on the agentic-AI side</li>
-<li><strong>Nextflow Summit 2026:</strong> thematic overlap with the AI-for-pipelines storyline</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>GAIA + GalaxyMCP appear back-to-back in Oral Session 1 — together they're the AI/automation half of GBCC2025's "joint Galaxy + Bioconductor" rationale. Watch for whether the agent is a hosted service or a local-LLM-friendly client; the answer changes how reproducible an AI-driven Galaxy session can be.</p>
+<div id="mkdocs-encrypted-content" style="display:none">6FkIaMqbHHehyV0Cx3PYIw==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/gbcc-2025/tools/gaia/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

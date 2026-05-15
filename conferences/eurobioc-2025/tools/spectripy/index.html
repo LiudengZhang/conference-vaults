@@ -13142,41 +13142,34 @@
   
 
 
-<h1 id="spectripy">SpectriPy<a class="headerlink" href="#spectripy" title="Permanent link">&para;</a></h1>
-<p><strong>Cross-language mass spectrometry: bridging R Spectra and Python matchms</strong> — enables R users of the <code>Spectra</code> package to call Python MS analysis code (matchms, MS-similarity scoring, etc.) without leaving R, and vice versa.</p>
-<ul>
-<li><strong>Maintainer:</strong> Johannes Rainer (Eurac Research) — <code>Johannes.Rainer@eurac.edu</code></li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/SpectriPy.html">SpectriPy v1.2.0</a></li>
-<li><strong>Source:</strong> <a href="https://git.bioconductor.org/packages/SpectriPy">git.bioconductor.org/packages/SpectriPy</a></li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/release/vignettes/SpectriPy/inst/doc/SpectriPy.html">SpectriPy guide</a></li>
-<li><strong>License:</strong> Artistic-2.0</li>
-<li><strong>Status at EuroBioC2025:</strong> methods talk on cross-language integration</li>
-</ul>
-<h2 id="talk-at-eurobioc2025">Talk at EuroBioC2025<a class="headerlink" href="#talk-at-eurobioc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speaker:</strong> Johannes Rainer (Eurac Research)</li>
-<li><strong>Day / session:</strong> Day 1 (Wed Sep 17, 2025) — morning short-talk session, after the Crowell keynote</li>
-<li><strong>Talk title:</strong> "SpectriPy for cross-language mass spectrometry analysis"</li>
-<li><strong>Slides:</strong> <a href="https://zenodo.org/records/17119120">Zenodo 10.5281/zenodo.17119120</a></li>
-<li><strong>Video:</strong> not recorded</li>
-<li><strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>SpectriPy converts R <code>Spectra</code> objects to and from Python MS data structures, then wraps Python similarity-scoring functions from <code>matchms</code> so they can be called from R as if they were native. The practical effect: R-pipeline authors can pull in Python MS-ML models without rewriting them, and Python authors can ship their work to R-heavy MS communities.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> Bidirectional conversion between R <code>Spectra</code> objects and Python <code>matchms.Spectrum</code> / <code>spectrum_utils</code> objects, plus R wrappers around <code>matchms</code> similarity scoring so Python MS routines look like native R calls. The Python side is reached through <code>reticulate</code>; in current versions the Python environment is declared via <code>py_require()</code> so dependencies (matchms, spectrum_utils, numpy) are pulled in automatically on first use.</p>
-<p><strong>Inputs / outputs.</strong> Input: an R <code>Spectra</code> object (from raw <code>mzML</code> via the Spectra package). Output: a Python list of <code>matchms.Spectrum</code> objects in the R session (via <code>rspec_to_pyspec</code>), or an R <code>Spectra</code> back the other way (<code>pyspec_to_rspec</code>), or an R numeric similarity matrix from <code>compareSpectriPy</code>.</p>
-<p><strong>Key innovation.</strong> Removes the practical wall between R-side and Python-side MS ecosystems — the R user keeps a single <code>Spectra</code> workflow but can invoke matchms scoring (CosineGreedy, ModifiedCosine, etc.) without writing Python. Comparable in spirit to <code>reticulate</code> for general R↔Python but specialized for MS data classes so the conversion is lossless.</p>
-<p><strong>Parameters worth knowing.</strong> Python dependency versions (matchms ≥ 0.1, spectrum_utils ≥ 0.3.2, numpy ≥ 2.2, Python ≥ 3.12 as of v0.99.6). The similarity-method object passed to <code>compareSpectriPy</code> (e.g. <code>CosineGreedy</code>). Optional reticulate environment overrides if a project already has a managed Python env.</p>
-<p><strong>Canonical example.</strong> Vignette loads a DDA mzML file via <code>MsDataHub::PestMix1_DDA.mzML()</code>, builds a <code>Spectra</code> object, filters to MS2 spectra with ≥3 peaks, then calls <code>rspec_to_pyspec(mzml_r)</code> — yielding a Python list of <code>matchms.Spectrum</code> ready for similarity scoring from R.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> no current dossier; cross-language interop is conceptually adjacent to AACR's pathology FM dossiers (also Python-trained, R-consumed)</li>
-<li><strong>GBCC 2025:</strong> queued</li>
-<li><strong>Nextflow Summit 2026:</strong> related axis (workflow-level cross-language interop)</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Same author (Rainer) maintains the <code>xcms</code> package for raw LC-MS preprocessing — SpectriPy slots downstream of <code>xcms</code>'s output.</p>
+<div id="mkdocs-encrypted-content" style="display:none">+YDPaUS4dcdlFqudRmeWDQ==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/tools/spectripy/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

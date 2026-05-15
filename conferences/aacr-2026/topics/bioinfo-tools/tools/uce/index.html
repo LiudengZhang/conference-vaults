@@ -13029,127 +13029,34 @@
   
 
 
-<h1 id="uce">UCE<a class="headerlink" href="#uce" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> sc-fm
-<strong>Modality:</strong> Single-cell RNA-seq (cross-species; ESM2 protein-embedding gene tokens)
-<strong>Released:</strong> 2023 (bioRxiv)
-<strong>License:</strong> MIT (code)
-<strong>Code/checkpoint:</strong> <a href="https://github.com/snap-stanford/UCE">github.com/snap-stanford/UCE</a> (4-layer default auto-downloads; 33-layer flagship via Figshare); model card on the <a href="https://virtualcellmodels.cziscience.com/model/uce">CZI Virtual Cells Platform</a></p>
-<blockquote>
-<p>UCE (Universal Cell Embedding) is a single-cell foundation model from
-the Leskovec and Quake groups at Stanford (with collaborators at
-Genentech) that learns a species-agnostic embedding space by
-tokenizing genes through their ESM2 protein representations rather
-than as integer IDs. Trained self-supervised on cell atlas data
-spanning eight species, UCE produces zero-shot cell embeddings that
-transfer across tissues and to previously unseen species, and is the
-engine behind the Integrated Mega-scale Atlas (IMA) of ~36M cells.</p>
-</blockquote>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>UCE turns any single-cell transcriptome — human, mouse, or a species
-the model has never seen — into a fixed-dimensional embedding without
-any task-specific fine-tuning. Because gene tokens are derived from
-the underlying protein sequence via ESM2, orthologs across species map
-to similar positions in the input space, so cell-type structure
-transfers zero-shot from well-studied to under-sampled organisms.
-The released checkpoints are typically used as a frozen feature
-extractor for clustering, label transfer, and atlas integration.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Architecture.</strong> UCE is a transformer encoder. The flagship paper
-checkpoint has 33 layers and over 650 million parameters; a smaller
-4-layer variant ships as the GitHub default for users without
-multi-GPU resources (<a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2">Rosen et al., bioRxiv 2023</a>; <a href="https://github.com/snap-stanford/UCE">snap-stanford/UCE README</a>).</p>
-<p><strong>Tokenization.</strong> Each gene is represented by the ESM2 protein
-language-model embedding of the protein it encodes (ESM2 is a 15B-parameter
-protein LM operating on amino-acid sequences), with a chromosome
-positional token and a species token concatenated. A cell is
-then encoded as a <em>sampled bag of expressed genes</em> — UCE draws genes
-with replacement, weighted by their expression value — rather than as
-a ranked list or fixed-length vector (<a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2">Rosen et al., bioRxiv 2023</a>).
-This design lets the model accept any gene set from any species
-without retraining the vocabulary.</p>
-<p><strong>Pretraining corpus + objective.</strong> UCE is trained self-supervised,
-without any cell-type labels, on cell atlases from human and seven
-other species (eight species total) (<a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2">Rosen et al., bioRxiv 2023</a>).
-The objective is a binary masked-gene-presence task: given a sampled
-subset of a cell's expressed genes, predict which other genes from a
-candidate set are also expressed in that cell. This contrastive-style
-objective avoids quantitative reconstruction of expression values and
-emphasizes which genes co-occur in a cellular context.</p>
-<p><strong>Scale.</strong> 33 layers, ~650M parameters for the flagship; pretraining
-GPU-hours are not stated in the preprint (unverified — paper does not
-report wall-clock training cost). Inference of the 33-layer model
-requires a multi-GPU node; the 4-layer model fits on a single GPU
-(<a href="https://github.com/snap-stanford/UCE">snap-stanford/UCE README</a>).</p>
-<p><strong>Fine-tuning recipe.</strong> UCE is positioned as a <em>zero-shot</em> model:
-the standard workflow is to run a single forward pass over a query
-AnnData and use the cell embeddings directly for downstream
-clustering, label transfer (e.g. k-NN against a labeled reference),
-or visualization. No fine-tuning code is provided in the official
-repository, and the paper's headline results are zero-shot.</p>
-<p><strong>Downstream tasks evaluated.</strong> Cell-type annotation by label transfer,
-cross-species cell-type matching, batch integration on the scIB
-benchmark, and construction of the Integrated Mega-scale Atlas — a
-joint embedding of ~36M cells, &gt;1,000 named cell types, spanning
-dozens of tissues and eight species (<a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2">Rosen et al., bioRxiv 2023</a>).</p>
-<h2 id="headline-benchmarks">Headline benchmarks<a class="headerlink" href="#headline-benchmarks" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>scIB cell-embedding benchmark (zero-shot).</strong> UCE reportedly
-  outperforms the next-best foundation model (Geneformer) by 13.9%
-  on overall score, 16.2% on biological-conservation score, and 10.1%
-  on batch-correction score (<a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2">Rosen et al., bioRxiv 2023</a>).</li>
-<li><strong>Per-cell-type win rate (zero-shot).</strong> UCE beats Geneformer on
-  80% of cell types, tGPT on 73%, and scGPT on 83% in the original
-  paper's evaluation (<a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2">Rosen et al., bioRxiv 2023</a>).</li>
-<li><strong>Perturbation prediction (third-party).</strong> When evaluated outside
-  its design envelope on the Adamson/Norman/Replogle perturbation
-  benchmarks, UCE — like scGPT (0.641/0.554/0.327/0.596 Pearson-Delta)
-  and scFoundation (0.552/0.459/0.269/0.471) — fails to beat a simple
-  "predict the training-set mean" baseline that scores 0.711/0.557/0.373/0.628
-  (<a href="https://www.nature.com/articles/s41592-025-02772-6">Ahlmann-Eltze et al., <em>Nature Methods</em> 2025</a>).
-  This is a class-wide limitation of single-cell FMs, not unique to UCE,
-  but worth flagging for cancer-perturbation use cases.</li>
-</ul>
-<h2 id="why-it-matters-for-aacr-virtual-cells">Why it matters for AACR / virtual cells<a class="headerlink" href="#why-it-matters-for-aacr-virtual-cells" title="Permanent link">&para;</a></h2>
-<p>UCE's species-agnostic tokenization is the cleanest published answer
-to a problem AACR audiences face every day: mouse models do not share
-gene IDs with human tumors, and PDX or syngeneic-model scRNA-seq is
-hard to project into a human reference. UCE's ESM2-grounded gene
-embeddings sidestep ortholog-mapping pipelines entirely, making it a
-natural backbone for cross-species cancer cell-of-origin questions
-and for harmonizing mouse perturbation screens with human atlases. It
-is also one of two published single-cell FMs (with scGPT) that the
-CZI Virtual Cells Platform packages as a hosted model card for the
-"virtual cell" research program (<a href="https://virtualcellmodels.cziscience.com/model/uce">CZI Virtual Cells Platform</a>).</p>
-<h2 id="known-limitations-open-questions">Known limitations / open questions<a class="headerlink" href="#known-limitations-open-questions" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>No native fine-tuning workflow.</strong> The model is designed for
-  zero-shot use; users who want task-specific adaptation must wire up
-  their own head and risk catastrophic forgetting of the
-  cross-species embedding geometry.</li>
-<li><strong>Inference cost.</strong> The 33-layer flagship requires multi-GPU
-  inference and is impractical for sample-level workflows without
-  caching embeddings (<a href="https://github.com/snap-stanford/UCE">snap-stanford/UCE README</a>).</li>
-<li><strong>Perturbation prediction is out of scope.</strong> Third-party benchmarks
-  show UCE (alongside scGPT, scFoundation, Geneformer) loses to
-  linear baselines on perturb-seq response prediction
-  (<a href="https://www.nature.com/articles/s41592-025-02772-6">Ahlmann-Eltze et al., <em>Nature Methods</em> 2025</a>).</li>
-<li><strong>Tumor-cell coverage is underrepresented.</strong> IMA is biased toward
-  normal cell atlases; the paper does not report a dedicated cancer
-  evaluation (unverified — paper claims general transfer, but no
-  pan-cancer benchmark is reported).</li>
-<li><strong>Still a preprint at time of writing.</strong> The work has circulated as
-  a bioRxiv preprint since November 2023; a peer-reviewed venue is
-  not confirmed in the public record we surveyed (unverified — paper
-  remains on bioRxiv).</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Paper: <a href="https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2">Rosen, Roohani, Agarwal, et al., "Universal Cell Embeddings: A Foundation Model for Cell Biology," bioRxiv 2023.11.28.568918</a></li>
-<li>Code: <a href="https://github.com/snap-stanford/UCE">github.com/snap-stanford/UCE</a></li>
-<li>Hosted model card / weights: <a href="https://virtualcellmodels.cziscience.com/model/uce">CZI Virtual Cells Platform — UCE v1.0</a></li>
-<li>External benchmark: <a href="https://www.nature.com/articles/s41592-025-02772-6">Ahlmann-Eltze et al., <em>Nature Methods</em> 2025 — perturbation-prediction FM evaluation</a></li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">5I+vbAaarC/e3pq1YXLnmQ==;6rc62EGIiSb5juvcbdRLNvPZk+DdQ3jaP5Fng012yw4aU+2jSJdFHDDnOlqoLPbIQm4J1Nn44WiIsMcQtMpebGNZDIGgXIni/w653YoObc8V2qCjUHu4y63RFutcLRoKjWnc6ITY/j146zr51qUixqeAoljIN9QctXkc7cLVERzdlttUGfFrGoyLZcHJw2v0w2i2hvc0/S9OVQrleBJrOMLKrUqb1iQgZ26y2YOaUOJytdUArJPbFcgwX69ekoD8C7ojwB9rXXPqz+oFOLZNFXnnuAGS4KdznAgN1bsdTlbd8kJyUOS0GbwP/Y9X/0rux1//r0GVzs7/I9MUnkBaqW2bX196mL5b1r2uHNcrms9eke1DGjFBkmpch1TtAJHazDiUJfwpB28ofx0JmWuUAytPgd89HgJ1ih2MOrPDVHNqOb+8U/NRGjidI4hZ1vfSO2MtJJ3LvkDN0Tbex0p97dom5gEl/4gZQ5+7efx+DqnVJkTR9fd0IRpT70/4h0AcM1QXHnXz76RnoJYPky2wT7sjv7C/qOmTupl6XzYFHGmFT/u7H0DaIJFjEUYtdQOo/ZZyJQFcKFg/U8Yhf/YjGUuBRTCGvqEh13bFty3qB3eNMe6knBDrz/t2OFHfDqNSRY15cIVPukbtW8nGA+lIP1413iUnBHpa1yDNCHUOQPxYgfK2A2NBvFFaNiRx9RKyPQeQZ9RDa57mK+pk4OPWZJrxWIUGhfyis6MdFMAg7pTsIZ3r/yPzDXY30NDwNVBKzeeFJWhzhNx6m2e9YURfODKT2DEs+H83JbuYqx7Aa18qcu0iY52aNuotg+g4FtRcK52fob896JmUfn0XeZ4KPkq1aWKE8KoMoEp/iyS8VsWX9nULKcT7xumLL4cDo1H0iuWi/6sL2hGlL4p9/oBzR6RpSj/7mAYXW6ZrQZcMaAp9vwOHWdzc/f3AvQ/wGjgZBqf3NAMwwhod3yXt3lyjdnJvXhUwp0nPnt+eBzB0SUPfQnEJejxohZXIdEjCMgX72/eWX3R8iwy5z1W5CkpB9QiR8jHYLaVM5cF/3VsWsU0rNTNalHQzKAqVsNHTg0rs/Xxs68Ik0HR2T1SM1Ty3bKPaZVcu0qNy8XEb644v+6eswwnFFF/Y8meekhhUMM0aM1DlDlIvNENEqGmiEq/GzptDyXHNQpkoKAkrvoxt1BJpn/MgI3hSxqV1QygU/DohlEv/vpZxKkstRyejAbC+5o/xju3QiOKCVba1glW6pcfHgz2unLk8vL9vNYzMqYuj+PYhHkUh6d4a3j5WZwAZrz3oY/iU/9CF1w3gjnpqUiYs3Z+w10Wfjqv4sg1fnrGBtoXaEg3nNReLtPONrGjnDJkAWzZ1AozXeTaBWDFUCchDGiFABSG/We5uC/jNN31YBUC3wodXJWh1CODRqENmwB1/eCfRaYKU3hwoQaIWedZjerg50Y1ht0xCZPh7U6aNKU0YHWH9OP9xoj67X+ONor5Jzk79pcZFG9Mk0JKHRUz3S6DgacaLtq4tkPteeNg9J6+9E8Hc77dfj5T9jCGKhDbDuJzWw/RPIN2XWCu/Yuegp8A0AsVacdba3suq/5WPsxYa5b656VkJn8PywJa56uAb90dnp6CgeGfc1DT3LE2rycMp+V0RDenEg92jBoYtNoQ0vv7T5+0UVKNRvyCLh1SMVsjOp9uMD51uXTtKoRVe/JUsOw/YV0M5gjTfowbh/SqqvkqsaqT/xoC1x51IJOAZJh9/MtZiP5pDDvyZ/QBBoT+oGNP6c8nIelMH7Lxbr8W9WlXjxEqgkkR9DZc/q8P3QFi64dnzQqaMu/NniSJunuAjWCrjUCeL8awdaMV6zOWUEldFIIZjIKnyKbO4AEO90EvJH+a/zYZ8+nw73rmuOXXYzGAXaDC7meFV8Jp6DSE+5wGobGyLkp5RTLqeUz4//TLQf/UyVppPJQ+X7oEYqT6hpyHBRuU5BfUJCjl2Iafxk0Q+vLkwX1fS8lJ77ITobx0PwxlaIhiJwrjCX/LjHuL9qHivtoqCmYD4l9tqhllO6gDzNUugruChK2vnDZEj9IEB13bbhHZigKLYHTyWh6rhy+xHwqGNnrafGpZm0D2ZL6hg6q80A1zKluMNkuu7rjcClPXAgVHVlvCjcyz3EFJMoilT5Ct95ZBCSbRSiw2/i+Xgi3lEOKGIZYTLSHBk7HgNmA5rYpmJODtR6chl/mOC2ruVQwdadbxk31O93PEA6qN/jcZRC4oktmKxXY3GexQ8dJBrDqED+r3IYV2V9PubztP694/uLqejwZqFoJRUqBJr9HIGAp1KVPkG5HUqdTBEMF2yIuLYzyRk3EHapWEuBGgqrArB8ChGSxHuCv46I6rlBLMCL1TkJOVwZ+7X1kCFumKc88SA9UwRfbISXZ0yySLm8vgqs9Y81nrWD+dQJyYIRbv3cL+N7GE3dbJ8myugsxmcFnuxp3NaDQr3Z99UXYeeXlz6xMMcf2yLebkDU6YAQdZ0gS7RELCQmV06VvzcPzkb70ktDDI/rDxOny1ada1Z9DIIo0ZX+ssIc2ceIC+M9OMZlW+rsmguIDhfae1dZwPyjoX6J+7/WQ4dAFQKDQQVn/nysZU6jtdqM7O/u9KUOmhoBfmvNdoFn8d8M6CLGkEyIgVQCsGvJMnU6i73tan4aq2+Y9Ypwgav06HNH3E4I+e/DXqwov0AHW3wdvfBhV3Nh6Z02IyVB1MWrHI5jO+ckqpYL9b4m3toftZ35W638PWAl+ECZBDX0+ebdN7maKoq39gXm9/GZTwFcLI8dCE+d7uMnkCD4nsubvCKcUBc3ap/9JDDjmGEHkaXkVUz2hKL2NETeBVBj4ptogpSARUW214aiBzFFSTPlXo3TOjmPjgQ0leI6I2tqTWwiz90lDoe2PTc4htk7PiIlNGIXk3hUCDAaTwN7nlF2d04o5qlj9cib2bfy7y5BzlgbnveYxp6TqRy5Mi29PPY1JcClvKLbaS22qsZ0jq+lcIkBGDzNejzCJxirrAMXHF9LzlTWa3z0cqdbUW9cwHg7aViEH41T7rFTV7dhnYTLTbWBly7iSoA7bd6Qqt6DaDoHNHPWj0qWHyBAbskO4eFPqfq//IigZ7FLfKdtO/A5vSRPKPAi8B+a4AagkiTrGphAbCHOOYaoRSw2g4uv8uL183V/ZJFvzDHxbgq0pm9w9ZxyyicVbCUC+Fw4qfd1oZljVmq+lpaYSTlmv8DRmDbSDUtdFTWMNwyv14E5cC+CE2aULJHUUxugIvC7sa2sC/7dKOBZ9ewmxgd6LSKvrqzC7KLwzlgcdJpj/7ET0/53WNEiXYgz92Mz99ZZMntVxDWLyo6d5ln7tLUIGtCIfWZ0hReOvzYmzX4D1jn5jgZvoAQ4ORRBERLbZbM3zYEX6ZWGXu11y7fwvGkjEcfV6ygBKetqI0ZBwymc7bHzcZaGiHBlNy9tf1UuwTioHDD43veGk4birPP2zH1x8MpT80zwey6rIneq+mFzs2ogE8sxbiYGeGpyYKZ9iVpkvTZeUwSy4oYy8MVoXVSsEw78WZjvjn8FQmNV/e75R1/sMyAnxMRJ490Q7tKDCPaqHgvp0oZN9QsBCMORhavf953/LPgwArlkrjMwR2/W79on6yVANjZ606KD5k+d1CKIEaLdfN0sSKHp3gt+dHB64HppKQviyjNJzQjtsQ320/wySXrDJ+QaYI//hv5jNSb8DSPXJGxJzi4A3eE+641EfyqhJ+PxsOZEGR0fQCISb+oNjR0rS9JNdFf332N8agLDQt16Eutp1OJpNZUuSO5l6VlDJubkIGwP/3bF9DkQrdw2P0qCW6mie65siLXviD4Bvy4IgEnA77/yxUJxojmpNROBOpG91+WqTkPwuLoDIc7MLZMOdho92Wu7Peagn6xma/m5+jAP5Lsx3XaR4D092lakQCHw4Rh4IzR0RSlFYzOVAVqyITng0Jr6XFgocZlFeXqP48ktOLIohT6qG4te/YBAP/JfkO8b6iIUFVe/LnWDTNfdzDEhsO8OEezZYxm4ra7113G77fsEVEdq03Qj3aXG9ZZojdkx9GG34txC+hHLCY94M8rph/Aq/VdJ96r+hVlN1WLOlTTK9ke9dHm7PlbW4wnx/mV1say+0CHGh+e5SxNgEfW2Ai3weCOLuskyg9Qpis1wqB9Bpx+UZSMGE+r24MKMWeqkjOFxE+OyQCl1FMnri5X90EDCal7p/iNvrPBilt4CE27VppeHnRCHXnn9aOmD9HeGliAxr59eiZdK1iq4DkEhnc3a/8mM7Rdtr3Xm3I0SgbPlCpiI+vd39Z7z4a6R5hip8sGgGmOCBldfk+YuibqF1TqIB1v0NyMdz0g5WprOEqN9i+YKE3t2pkGdz/aToNPQqEqSiB5nmFZljadlcyNhMVbYCEgXUXKi/KWiHf0tRmTYHSexIT15985I2CtZ8k15fWUFFwHL3FxmaoZPljaDhhblNV2c/XTMaCIuiZAdOBSnpe0ZkmT959xF6gMgvWcJMdq9HnXeqpJhVE29+/pDnqsMYXxbDHB7Y6PitHXbVlmopZGr56NRqGjTC7ezsI4W/dmPN+2R7nuY/aq87NZRVs/8ZPY+cwwhlxOi2uu7nwRXdN504x8kR3KCxjYIBCeeENl8C73I6iwfXTz/JBRikgBCVsSBJemwLvrsBzePkwb5Uck9Zyag6j5wZpqo9VVeLye6rFTdDzP2X4vpevR1NJSFuJwkOss5ZwoIY+yWt0/IGChWkGiitPZl9uf9ZzW9mCBqBJyS+WPGMUlgUs9pgWi1oi9kPa5AiGcsXB/Nc5Jz6TG8TsEmURoCOOaHHXe2vIbyhmavnaWjEzbBkyfU+vpvg984ZFw+nfuwG3L+yx+LTLqZqVfYnyEwze9LK4ERzjMlU12sIHSRJnsUqy/1UuZEaTlFBsPQnDcn0odhmzVpW+3g3X6qoqGBUpp7hcx3aCftfzOkJADgBFZF2QyNHfF8wF+HtWg5H+p2zJT5/By2UzHcXiCYzR/znu7Y+D5fkwnm3SCgBAUw9lBdY59Jg2TcP3XgWr1eCf9CxulP7cCqUVZbZPy/9BkmBeTei7WtPZc7XHoroDIjoJaqQwf6aZowB9EA2O2huIjJ4JLwcQdqoG7EWEFSEbbaCj4fy/4Jj/O0thMuBE7jkKboKuLuVyCRbJhin5FjbDgUv6E2NrZzXRRUkO4Pm+/enX+ByoS7ThPedqHTEg/fimYnEl6UgTn4oBKjrQjRS2yXoqfJ7mJYSH/MAdoteTvNmgh8nsv6kCyzDmkMmSQpLSw5ivZq7nS8j+AFsAzUqwB8yxPM0w6SV21Za5SDkDk3LiGTuxGvSIpw5Sv3KSjpcV2c4myihr6Hotmgd9Rdv5o8U57PwIvfiTH1F1EqQPRRg243e0xioVAbnyZn2q7zGsrs2bRD6ulwG+yXo2Byrsg3TAmEE6gL86r2eKDraqjHLcoENfNW2gWl6kduCcj4WEwLaH9G8RJqCDZ9Vcgac3vq6ZgGaQ21xoHkEGfVCk1zRMhekIWWkAv4h2r8om3Is6/WGxoTGxTSFYF0Y+sA3H9S2Fz0GQXrTMEZGTvJz2BmJIi2SPdOHYklqdYbaZf8b9SwDJb0v3aCLeUG7iWWfQxlUcdAc0lVbt1zxegu2dvWivlSr9LvebYtjh0As/pI80VDL4z9Ebvkei86IF2ARtp2wJl3LDTh3fLwM7NVLxA0lE5Z6jVMrlTpBHnnk5Y6HiHBS4TsWfzByr7wANIS79I6IDhqRKXB7OgC/yEPIqWxijfgouKgqMR5Z2wB29SAX8DmzUZCm7X2JWTEe3yNJujSrO/vvDOmq4hdL1C0QtIgjN+WTVZPZDNLDe9zz1vze8iE6whZYHUBJ0Re+yH+BjvW+32BOOGTQzNFh/ca77g6ubEjDBwN/LPIGK1FJQLB9HD62CqJdskzGnN5a6FZfJyoQFWN9QMC1Uf7iFl37O4uY/SQoOLeCfgcH33+CNFxThH9Zkwx/EHoLYxw9ODYuLxzWLPLitedybYXRYpnBfmIrHRkbbFBca6Yr1UPdzk9I7HhdDVJBrmc1yvij2chfaHMEFIMOGbyWpE5T4d6HGyQHk/fyGKUgnzU9f6RfA6wlk8rXUo5kE+K4s/CGG08lmol9h6wKL9V7kOZ6W2CS2mjMIaXB4rqcE3LlkP6NShx/MpCVyzu1gh8HKhZAMF237onYAO5tMjqkHmc9MJLAfSNGOUWvUNgo2ag2DT8ChF5SDmdrvDyCYutpDVyuTUYb41kqaf+7RTwM0VWpgl0OR4BA/yZzBmEdTZlD8UQ2bbEE5tcYw4CjEhCoqh05fAro8b7pH2bddsL54n/T0npAtZDp4PVP5LN+o0AdVGZUP6ezhcoModWazd7W20wPAI49K46k7en/VJNva9Jw/G38qW7bZ+qmzKedMhiRz/OKEU/NUc8O3YONu2ydDCcOeFLMQfsP4BQU3wkpRDIU51GpBkKex19s1iuHEGdmlMlaTuP+aEY/lpDeOd77NiGBv9uby1pWPBAOZM+xc/RkekF99HQr5KEgllVafk5s4vfGiH/B4v4GD9bA4hnBZLtJbX9pB7dIYduN6JkRyQ8uxNvlFhIHkpJu2dQWMXQkySZ8qKg07Psyeltz9xUGUdbTjs/W+zXLLBdPzYj5IUrQm4WkZr9Ns3EwGknRL6llF+f5up+qXa/LycuALQENnO7ElbLJrWmvXU36HG3p9JMBB+XIU3vbAgUC55AiicocWrVR+q7C+l0J+RjfuuNDflPSa9/Z5T3WfMIEUhPOoASKqlghDrbA08H1zf5LKVhUp4h5gr7w92CWfT7CQZrnhj//QN4NrY+E90gN6FncDSsek7Z8pIOxGZOI1SU9FEtjUBmpZF7E/wcAg+RkpgrmjLNAF5MowLSakAbqWmOyQTlckUcGD3evFAGIDszidr14T3yHlNab/R9r2OP6nrnVpDt4GC9KS0xjAndb17uTZ8Zb18mptYJrowhZAdmmKBzAaAcMadg9VjqBgMBT6djGypzx5xhk8QMcS8HX6Kz9TmdTYWFNF99G1uFmYEeL97S4YdrWc2xGMmI8U6gqJW0ClIVNN6vcnS9nulmdrMArmYQsW0T6AsNTeeW9rqQPXCG4alQblXWFTwQdLdWWzTB+6xP4DJ315kZY86zMOX6fuhZpqHQWlDQRHk4iP0PXJEK09ShA2eVAU6D6k9mrSaCXR6M3RC6ApN+Un6lEjidpgwMEKqMnbKbeUkgb18SjuWpxhsfi5vc8YilOOMRq6/PNDHmUieZlUDE+jD+xG9ouqokoqb3pLDCf4k8G8gPuXxUm0qwLc+P6lfUvWuaH/MbqbWTxYAZT4PEd3k/Hb3GT9hGB5torG1rEXh5EGR/nVuCidKkG1m09JfEiDL4rrRrkGFSYUaPbn1qUzrRU8DIULOE59Ur5tCgrndBtvRF2FzNIWsUL2bb0SKQR/M/6YKKAuWTL5rZ//anU6IAg1TnIgQqTHaNdpk/JyeadR/EAeK4b4NyA/wYY6zgkxHZUBSX5BVNOdolv2t2HHBp1QJd8Cxs2yxf0K1Sbpm5EiEDkBr74JT82kciMA8k2yG9xk7XLaJuev1Lp0u3vWE3rdcUUNMyaVL43q1PDgw+PfQgkl9fbN8KgO42wBmW3I96KMxTl7lyWfXFljBejopqmiYARC2kFMY0bRfn81hCl6GMZQlRFvoUZDeDTYNOQEc2ITDej4okmcPAWQK5Conhe2TB09DBzgrmIQyqYaSVLbF4nCA+OQdrAWG/oZ4Z9aCbraleyGuK09ENRd6Ukb7Qz/9r4RlDSfeDXKGv3/UTNz0Y0q5UFiotqx51ETo6TWdEPtlFSB4DU6+GNZChy9BjpdHaJqltyGBIHFMyvfn1dYLYIsb8g5ASRF6jyA9Mqxpf5j6zYrEQVoyyqodYUmArEqUI9FZhodmr0lJE+M0SRa0/JNVowiZRMVLulFmpBdLSlkTVZn40m+gWmiITTihx1PhMJIuRA8tILJtl0j7lQZb4/awVw3rUCWtyE19MBzrPDJA4v1SVHQdYhwoYo1fLnHVbayPF8+1pXWZ2SN3GzETWwxybdSxbRWhfTqFf/3NwgWFCps7qVlNZD0dJ3sOJrvQsDoucAD2e6u9tp/78TAyncJTJ3alF6P+isRAycsw1lpDhsJrKJQfEoUx/epbyamAvRooloiUQQqEGh1f0L5Y4/WJrwJOhRYVvIJ7E8+6vcQz4I2BH2eOiaV142Y0Ub2IZjNcWv+oCv0pqG4FYmo3jf+T30saZI2xLuLZ47/q6FB/j6HlWFV9JILUNA4MA85zbdnfVh5bn2qZataJ538aiTEMuB5uIPhPL3Qo9Fgyms5knap9wdLsdrXNBaqxSN3qYssWDkl8LZXuPqX1SaqMYMWOTsCZ+o3Q5/1hiONVIZU0rRfkbFWsQStjoOpk2BOirIX4Qdf2Eb+UL0fKZgcLzBLjJ8WdfM4FNrnIBB1bHed1fVBn6Oull9oN50osCFqAB93S4RFU+AwNTitxDQsmZh82M9EKEMwFiuaA0Aaw57StH0GF+tSj6W8voGGMPkODVkY8YS7+yJdTLjneht60co5tzQvwwAjxN1yFF6SycVrlT2lMQe5VM2AoVrAUV161So5diKB5f8pKii8YOyyyEAFJCcJxc5nn1Dp7cUve9kSO5gP/iXZTHB914TDhBVdZGLtYwz7Y9XA+NELe7UmHuQMb+WAQH+iCM6l0uz8FfAZevEMX3S9hCWTsvJl04z6UyFtKhdLZoYLvWa0YHzuskmfTIkxF4X1DAiNm2OE9cO1h4lypnpoiX1eL/fij09113XhV2PibiA/B67dj+ai5j0in6o+SO/XS+xa/Oh/oO/rCE3eRdq107JH+FQ15B+lYxZUm0KZY9Pa+ZSZ+7GGQ7FdwxTAFXs5P5/QIU7EwQJWUvCqLVUHndGK0Io3SS1RkkYhK8KUEp2c4G9lgLmHW42XJkLN73SuSriij7BGuFhAOStw/aL41orgxLjNN9PFhNUvjTt+qqczu6dZsm7cylj5qEJgmHZdnP9CyIPeWdPtQk5No2I9qkOkLrVTo6h3INrJxE/LlPDlnLQiKbY+FX/fvcgyTL7vyBH6fjZF9w5IfM6oTAhr5wSyhf5a6noveaYjB/S0XOMo09FrKTa6+oDT0GVcMzv9er2An5wzfArZm45qMeqd6Dsx7qge4b5H6XEVvKdppCHXPoQJYf6Ulnf90IPr/K0rnYinGQ+lJSzWBssyRrwtHG94+yu8YgukCp/k8SK0LqcVAfWcrZ6PCC8DPp/GI9W1gwpL5K6IX+VvkZgTovJcUv53Fm2J5oaTQSd40dE0zvSLY1ZmQ/UuMDins9c95SRc+kQ+CGZySc2lb+2b9jGa0TpVKyzr71BLmNpobSCurfxcZa65tsh5NzkrF54HAGgkiEBJr4rLuVXxB7ttAWiqmelFauqsuO/MpRZ3S/TmlzdO+BzZ24jAV8ar5rKqrgLOhGPpHe7c4LTwd5/ZkX1FmXxD9y5HfZYuph9UFNfZ6dOi8QrhZ/pa/Omrmir8usaSYRun4xX56ngyv4H8tOeHknRBwM6aRTTqTLSGfheJMCxmWeQnmqheyV5Yg9GHjsnkvGJdh6UFQ+HUQu2ED3tpOd7H5MqIKFTwtjZdSjB8EqeYXX77+5T0eeGxIuSb+sFyGP8KyqPK4TN8Pj9RCWVynSAVdyDhxItbRPp8q+KcswC65VkZBdWBthg2P2YdPnGf5yZman61DsEHn6qpplol1sT/2o87lTUSZdVyzsvE1HDA93/9ratAQ5a4VoYA7uaYVfWds6uGgYtcSTbvlU6aMDO13r04WWwokEkLB2zVy76tBZUvJPfuWKTwRehAqnODI19Dfhkgfj6q0E9jLBCEV+2+cSPh6ImSjuQyMqhuXHDvhoCm6PiiUjXGVXVD0k/7vlip7GWqj9jV7dQaa8kUryj+g5EgirjhnE/JhwaYhVCEtBJv+k+bIMsH0JmoLVkrjwGkwLu9hGS4/iPewKsVnjXtaPvwNA66xoJAgXqBFqM9cwb2oLIKJNCy+uQOHS4Qzk80D1Bo74PqVebHDa0uOQPiTEfdJ/ldbrsaoVgioSyKR3V+4EANyQO1LcvCNDx8mLpl82zX8/LfwZ01nIsHtSmRhTa2P+dXt3+Fwdb0UOLJ17Z6C1Nk3in5ARinadA05EQQ0Ka3T5m2s9byt9g6mt2K04XtPOTtd9+oXAaVrVYCpacqRuUoreKE+UjsKt098j9fHhnSjJWst0EtVfCD6WSXgqGdW9aAnr2HJiHfT7uIzLHn7VPWn+UyRck3o6974+l0VGzRSl2dRbzuSMUwhti/O6X84oq0JDTm9sYlYvTOLW0EakxbJfzz2miUKg/pLhI1K8UzazWT0oeSSrK3zFbB6w+O05yMmrNRRSOdt8ewEUXJwFhieQuZSmF44uBZGUpTOrYQ+i4J/8j89RjcgvJIsgU6VXk+CssyRMEYhIuOFmZF3Rjg4ewU/xzdI2YUhBvevRs1NQBMCfuc3KD05KP7CbMmVCtuWczBcnVwx3KWvUK+7t+Ojh7GXjDBNKMg/mnYpk7fsn7omkSkpLaa1yVYXxJlLHDYTHbxOxmRB+nLaQuhE4uCWUdj8rzTv2Leel0v+Jl9+yKdZH+cwyll754lUI2yuMJt8n9SRCV7AiigrJd6LeylFgFwUJEhUjM6qFXqAzKJOZHXpFp7NuYzPT6kHDYU+wNjn0c1/z+iZ3bbWDsqYKXwwI7wR2irt59BwemYkKeowip2NYi+VoAT5Uwf1bTqWjWEnglS7uVbhGF0W7+OkwjsKdetVSEhf6QS1IS4AVPt12oKU/rTvZTIaDOi6rK7ZfoLx9NHkmspUmYSObMcvydkgU6T5MUaav8N0Z2ltCHqfET44pUfZ3+KF0yGKspdcOlARkDX8mc8Ps9GGkY1sXv0YMKUSjrJin9qsm5VxgiHgN9afIShp2fmexFJ+p0DAayPQP+/5uppv/agk674gdSz0aVx3SGNH43Xzu3VUxQ5JC/UdTYXGTi9G66UAmCk/xieohV/KuFO/fs2l+NW83lYnTQxt2Fk6/RsxzSU6zKpy64TeoOTaT2qQ5PvgQJNhf+1zHuMgOfRBzqALOyrID5ycg5nLCYhWQ7MRXjRl2aHtQ6KGGGDs2uzyvdS+NN2LqnwqOqu0nC73N2pQAyjG9btYusT6t1O1vwWKZyVNljITZ88Pb52RcKePs+TEFOkl0cWrJuBBzLA3fXvt7kqmxPLfJqp2SZkA2/2KZOKkDq5lyKL516ugfeVR1vvgBcUlq9zhi8BvIjvLsuy4SxMqbqtuloP6Bw/NM/QTW6k/werldj5lroTaLVvnpoEktBmv9xvckhOfLJNIEWKqpkbrf4Zz9O2oipxINvX9d52hkydzEUh8I3T4yrbyTUiWtGSwa/pan3/8dMwf0A4x+L75/Ks+X8VLOlEG1e/1oLgtcqYP98vEXlGv1yNC6g1fYzKBSmr3afQn+pHwQxPC4B/WpTSpvHxGtuOt5FdpbdUB0ns5gbHau8Go2rF/LvhB4Sbw6MAEVd6TMjNPTwhrl1V5AIhlXWkWGfcG0tpn1LJ56L3cSmMpByfOpGUZp5lcBb8Fo4UvcL4N/TWV43+62pzMAa54efwtLPkwZ2P52LvY/3O/+JbYtUwAwhsrIAgOP947qaLMYli8IF1C4j1NbDjCFbZ/Oc9isPBN819jxxzdbNctjbPJog9wSuhmXOfNP3qzJswRArKCm7/M5ahj+GXNtB+a0Rx4uvSXjeJxyRFAbC2DD5bOrnd/imfs+iw9qxG8pdC4CYq3ULfcX9nZp4zh+Jte0VdueBrzytTF5dVmrMlzioUAIIdLnXELXBQhjafV9vcAIwr0+JYjYtPLX2qAAs+8c6Rz9FETiFswK8dzps2X2cp6vvmQkDVilP91Avpo+fUT9Z3dCjFycPtcXugfyGOZqeNAsh+PZv76VJ9M3Xri7mS/EHTJ8h9UDs/4BU07hlIcfqFEa1+mfpZDPoHj8CCov3XmRdTn8iB9JquUh2psti5c6FzOSaQGKFEazEobWNOoBlW0S9sMFF6wDkthl7jU0bhdJzTL6KLz3811xwNHPaVwa+hZkSb+/CNvYUnm+FHkoRX9OHQvZNlIghBdq46Bn9P4m0R0wL8lJsPDd4C2VlQyCcKh9Hl2RONBICDmuTXJ1JshQWhf6PmcVAaV73E5fJx613772lQfidhaZfmQpy/ZT8H+oxf1tzUHokj+8+2vFvTj/X+r2O1UCw1vvRxAh1G8AkDvPw7mISY48exyakGYPfZv727kfbFwekNGuFeezxb+XV09KiBYRqWdZHMkOdsH8VOBT7wxaQb1UqShZPfqUuZhYN9w7qDzvjKFngK0byTP6NYcr7R8dmBQPog9Dtej9QREbjPVRj0CJ2tKWfOhVHf+MeDrP/V4AnfnlXhKrtZF4hJDZ9yNxy8JWlOInVqsuhXawrvlB/bq7vJEAQVsSXLM+L9ooACjSM7S3L+3x27ZIhaK7EnFxnlDFmUti8GuGul9WhIi+c98NIxmywQamNS+voRyOG2BNWTZh16SWP2dzLnJAtwCsGe8rDQFSRYaeerUyUdlbA2d</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/uce/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

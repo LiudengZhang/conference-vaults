@@ -13150,115 +13150,34 @@
   
 
 
-<h1 id="prov-gigapath">Prov-GigaPath<a class="headerlink" href="#prov-gigapath" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> path-fm
-<strong>Modality:</strong> H&amp;E whole-slide image tiles (256×256 at 20×, resized to 224 for the ViT) plus a slide-level encoder
-<strong>Released:</strong> 2024 (Nature)
-<strong>License:</strong> Code Apache-2.0; model weights gated, non-commercial research only (Microsoft Research / Providence terms)
-<strong>Code/checkpoint:</strong> <a href="https://github.com/prov-gigapath/prov-gigapath">github.com/prov-gigapath/prov-gigapath</a>; checkpoint on HuggingFace (<a href="https://huggingface.co/prov-gigapath/prov-gigapath">prov-gigapath/prov-gigapath</a>)
-<strong>Also surfaced in:</strong> single-cell-spatial-omics, virtual-cells</p>
-<blockquote>
-<p>Prov-GigaPath is a whole-slide pathology foundation model from
-Microsoft Research and Providence Health that pairs a tile-level
-encoder with a slide-level aggregator, so a single forward pass can
-turn an entire gigapixel slide into a fixed-length representation.
-It is pretrained on more than 1.3 billion tiles from over 170,000
-real-world H&amp;E slides drawn from 31 Providence-affiliated hospitals,
-making it one of the largest published pathology corpora to date.
-The Nature 2024 paper claims state-of-the-art results across cancer
-subtyping, mutation prediction, and pathology-genomics retrieval.</p>
-</blockquote>
-<h2 id="architecture-training">Architecture &amp; training<a class="headerlink" href="#architecture-training" title="Permanent link">&para;</a></h2>
-<p>The tile encoder is a ViT-style backbone trained with DINOv2-style
-self-supervision on roughly 1.3 billion 256×256 H&amp;E patches sampled
-from 171,189 whole-slide images. The slide-level encoder uses a
-LongNet-based dilated-attention transformer that ingests the full
-sequence of tile tokens for a slide (tens of thousands per WSI) and
-is pretrained with a masked tile-modeling objective, producing a
-single slide embedding without needing weakly supervised MIL. The
-public checkpoint comprises both the tile and slide encoders; the
-authors report improved performance over UNI, CTransPath, and other
-pathology backbones across 26 downstream clinical and biomarker
-tasks.</p>
-<h2 id="use-in-the-aacr-2026-corpus">Use in the AACR 2026 corpus<a class="headerlink" href="#use-in-the-aacr-2026-corpus" title="Permanent link">&para;</a></h2>
-<!-- mentions:start -->
+<div id="mkdocs-encrypted-content" style="display:none">3KyJn3ncgCwMM6CYHfTumQ==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<p><strong>Posters mentioning Prov-GigaPath (n=2):</strong></p>
-<ul>
-<li><strong>1457</strong> — <em>Prediction of gene expression and molecular pathway activity from H&amp;E whole slide images in non-small cell lung cancer</em>
-  …ted internal dataset of 67 commercial non-small cell lung cancer (NSCLC) patient samples with matched RNA-seq.Gigapath, a large-scale pathology foundation model pre-trained on over 170,000 WSIs, was used to extract patch and pat…</li>
-<li><strong>1470</strong> — <em>Selecting representative histologic sections for cost-efficient 3D spatial transcriptomics and tumor microenvironment reconstruction</em>
-  …mune aggregates, and mucosa&#8212;were segmented using a graph neural network. For each section, we extracted Prov-GigaPath embeddings and tissue class area proportions. Pairwise similarities, incorporating histology features and z-d…</li>
-</ul>
-<p><strong>Sessions mentioning Prov-GigaPath (n=1):</strong></p>
-<ul>
-<li><a href="../../../../sessions/2026-04-20-am-decoding-cancer-ecosystem-pathology-tme-heterogeneity/">2026-04-20-am-decoding-cancer-ecosystem-pathology-tme-heterogeneity</a>
-  …get a lot of those related image. For example, that's how, for example, Gabriele and team build on using the gigapath to actually model sort of pathology slide. They are using in just specific kind of scenario that are very dif…</li>
-</ul>
-<!-- mentions:end -->
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/prov-gigapath/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<h2 id="whats-missing-where-evidence-is-weak">What's missing / where evidence is weak<a class="headerlink" href="#whats-missing-where-evidence-is-weak" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Only the tile encoder is being used.</strong> Both poster mentions (1457 NSCLC gene expression; 1470 3D spatial-transcriptomics tile selection) extract patch / tile embeddings — neither exercises the LongNet slide-level encoder that is Prov-GigaPath's actual architectural contribution.</li>
-<li><strong>No head-to-head benchmark in the corpus.</strong> None of the posters compare Prov-GigaPath against UNI / UNI2-h or CONCH on a shared task; the choice of backbone reads as convenience, not the result of evaluation.</li>
-<li><strong>The session mention is glancing.</strong> The April-20 session reference is a name-drop ("using gigapath to … model pathology slide") with no method detail, so it adds no evidence beyond the posters.</li>
-<li><strong>No discussion of the gated weights or non-commercial terms</strong> in any corpus mention, despite this being a real adoption barrier for industry-adjacent work.</li>
-</ul>
-<h2 id="takeaway">Takeaway<a class="headerlink" href="#takeaway" title="Permanent link">&para;</a></h2>
-<p>Prov-GigaPath shows up as a working tile-feature backbone in two specialized methods posters — gene-expression prediction from H&amp;E in NSCLC, and tile-similarity-based section selection for 3D spatial transcriptomics — plus one passing session reference. The AACR 2026 corpus thus uses Prov-GigaPath the same way it uses UNI: as a frozen patch encoder feeding a downstream model. The slide-level LongNet encoder, which is the paper's main novelty, never appears in the corpus, suggesting that even where Prov-GigaPath is preferred over UNI, it is not yet preferred <em>because of</em> its slide-level capability.</p>
-<h2 id="fm-comparison-2026-status">FM comparison &amp; 2026 status<a class="headerlink" href="#fm-comparison-2026-status" title="Permanent link">&para;</a></h2>
-<p><strong>Where it sits in the FM landscape.</strong> Prov-GigaPath is the <strong>two-stage (tile + slide) encoder</strong> in the pathology FM family — a ViT-style DINOv2 tile encoder paired with a LongNet dilated-attention slide encoder, which is its architectural differentiator from the encoder-only UNI / UNI2-h / Virchow line. At ~1.1B parameters total (the LongNet slide encoder adds substantial weight on top of the ViT tile backbone) it sits between UNI2-h (681M) and Virchow2G (1.85B). The 1.3B-tile / 171K-WSI Providence corpus is one of the three largest pathology pretraining datasets, alongside Paige's 3.1M-WSI Virchow2 corpus and the Mahmood Lab's 350K-WSI UNI2 corpus.</p>
-<p><strong>Direct peers.</strong></p>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Architecture</th>
-<th>Pretraining corpus</th>
-<th>Public weights</th>
-<th>Headline benchmark</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Prov-GigaPath</td>
-<td>DINOv2 ViT tile + LongNet slide encoder</td>
-<td>1.3B tiles, 171K WSIs (Providence)</td>
-<td>Apache-2.0 code, gated HF weights, non-commercial</td>
-<td>26-task SOTA over UNI/CTransPath (Nature 2024); top tumor-type classification (2026 benchmark)</td>
-</tr>
-<tr>
-<td>Virchow</td>
-<td>DINOv2 ViT-H, 632M params</td>
-<td>1.5M WSIs (Paige real-world)</td>
-<td>CC-BY-NC, HF gated</td>
-<td>Pan-cancer detection, rare cancers (Nature Medicine 2024)</td>
-</tr>
-<tr>
-<td>Virchow2 / Virchow2G</td>
-<td>DINOv2 ViT-H (632M) / ViT-G (1.85B)</td>
-<td>3.1B / 1.9B tiles, 3.1M WSIs</td>
-<td>CC-BY-NC, HF gated</td>
-<td>Highest overall CPTAC 7-task average (2026 clinical benchmark)</td>
-</tr>
-<tr>
-<td>Hibou-B / Hibou-L</td>
-<td>DINOv2 ViT-B (85.7M) / ViT-L</td>
-<td>1M+ WSIs (HistAI)</td>
-<td>Apache-2.0 open</td>
-<td>Patch classification + batch-effect correction</td>
-</tr>
-<tr>
-<td>PathChat / PathChat+</td>
-<td>Vision-language LLM (UNI/CONCH-based encoder + LLM)</td>
-<td>1M+ visual-language instructions</td>
-<td>Demo only, non-commercial</td>
-<td>Diagnostic Q&amp;A across pathology specialties (Nature 2024 + arXiv 2025)</td>
-</tr>
-</tbody>
-</table>
-<p><strong>What changed in 2025-2026.</strong> Prov-GigaPath itself has not had a v2 release — the model card on <code>prov-gigapath/prov-gigapath</code> retained the original Nature 2024 weights through 2025-2026, gated behind a HuggingFace contact-information form. Two things shifted in 2025-2026: (1) the clinical benchmark frontier moved — Campanella et al. (<em>Nat Commun</em> 2025) and follow-up CPTAC-based studies put <strong>Virchow2 first, Prov-GigaPath and UNI tied for second</strong>, reordering the 2024 Nature paper's "SOTA" claim; (2) Virchow2G at 1.85B parameters demonstrated that <strong>further scaling beats Prov-GigaPath</strong> on tile-level tasks, putting pressure on the LongNet slide-level architecture to justify its compute cost. The non-commercial / Microsoft-Providence terms remained an adoption barrier for industry-adjacent groups, more restrictive than Hibou's Apache-2.0 and comparable to UNI2-h's CC-BY-NC-ND.</p>
-<p><strong>AACR-relevant use cases.</strong> The corpus shows three live use modes: (1) <strong>H&amp;E-to-RNA prediction in NSCLC</strong> — poster 1457 uses Gigapath embeddings as the tile-feature backbone for predicting matched RNA-seq gene expression and pathway activity from H&amp;E in commercial NSCLC samples, the most "biomarker-discovery" use case in the corpus; (2) <strong>3D-ST section selection</strong> — poster 1470 uses Prov-GigaPath embeddings + tissue-class area proportions to compute pairwise WSI similarity for cost-efficient 3D spatial transcriptomics, a methodologically novel application that exercises tile-level features at scale; (3) <strong>Pathology TME modeling</strong> — the <a href="../../../../sessions/2026-04-20-am-decoding-cancer-ecosystem-pathology-tme-heterogeneity/">April 20 AM Decoding Cancer Ecosystem session</a> name-checks "gigapath" in the context of modeling pathology slides for tumor microenvironment heterogeneity, though without methodological detail. Conspicuously <strong>absent</strong>: no AACR 2026 poster exercises the <strong>LongNet slide-level encoder</strong>, which is Prov-GigaPath's actual architectural novelty over UNI — every corpus use is a tile-feature extraction that UNI2-h could equally serve. The "virtual cell" framing (the topic the dossier is also surfaced in) does not yet connect Prov-GigaPath to single-cell or spatial transcriptomic FMs in any 2026 abstract.</p>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

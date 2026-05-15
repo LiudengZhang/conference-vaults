@@ -13158,37 +13158,34 @@
   
 
 
-<h1 id="cifi-pacbio-uc-davis">CiFi — PacBio + UC Davis<a class="headerlink" href="#cifi-pacbio-uc-davis" title="Permanent link">&para;</a></h1>
-<h2 id="at-a-glance">At a glance<a class="headerlink" href="#at-a-glance" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Vendor:</strong> PacBio (in collaboration with UC Davis; Megan Dennis lab)</li>
-<li><strong>Launch date / venue:</strong> Announced 2026-01-08 (pre-AGBT); featured at AGBT 2026</li>
-<li><strong>Availability:</strong> Shipping (reagent-only protocol) <em>per <a href="https://www.pacb.com/press_releases/pacbio-and-uc-davis-researchers-introduce-cifi-a-new-long-read-3c-method-that-enables-chromosome-scale-assemblies-from-a-single-smrt-cell/">PacBio CiFi press release, 2026-01-08</a></em></li>
-<li><strong>Modality:</strong> Long-read 3C / Hi-C variant on Revio (HiFi reads)</li>
-<li><strong>Output:</strong> Chromosome-scale de novo assembly from <strong>1 SMRT cell</strong> <em>per <a href="https://www.pacb.com/press_releases/pacbio-and-uc-davis-researchers-introduce-cifi-a-new-long-read-3c-method-that-enables-chromosome-scale-assemblies-from-a-single-smrt-cell/">PacBio CiFi PR</a></em> <strong>(vendor PR — no independent benchmark)</strong></li>
-<li><strong>Accuracy:</strong> HiFi base accuracy retained, Q≥30 per base <em>per PacBio CiFi PR</em></li>
-<li><strong>Price:</strong> Reagent-only (consumes existing Revio SMRT cell footprint)</li>
-</ul>
-<h2 id="whats-new">What's new<a class="headerlink" href="#whats-new" title="Permanent link">&para;</a></h2>
-<p>CiFi captures 3D chromatin proximity ligations (like Hi-C) but reads them on Revio as HiFi long reads rather than on a short-read sequencer. The combination of HiFi base accuracy and proximity signal collapses what historically required separate HiFi + short-read Hi-C runs into a single SMRT cell run, dropping chromosome-scale assembly cost and turnaround for non-model organism genomics.</p>
-<h2 id="headline-benchmarks">Headline benchmarks<a class="headerlink" href="#headline-benchmarks" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Chromosome-scale assembly of human and selected non-human references from a single SMRT cell — disclosed in the PacBio/UC Davis announcement; independent N50 / haplotype-resolution metrics from non-UC-Davis groups not yet published as of AGBT <em>per <a href="https://www.pacb.com/press_releases/pacbio-and-uc-davis-researchers-introduce-cifi-a-new-long-read-3c-method-that-enables-chromosome-scale-assemblies-from-a-single-smrt-cell/">PacBio CiFi PR</a></em> <strong>(vendor PR — no independent benchmark)</strong>.</li>
-</ul>
-<h2 id="reception-competitive-context">Reception / competitive context<a class="headerlink" href="#reception-competitive-context" title="Permanent link">&para;</a></h2>
-<p>CiFi targets the de novo / pangenome / conservation genomics segment where Hi-C scaffolding is mandatory. By eliminating the short-read Hi-C arm, it tightens PacBio's grip on the chromosome-scale-assembly workflow and complements SPRQ-Hq's per-genome economics for population-scale long-read.</p>
-<h2 id="cross-links">Cross-links<a class="headerlink" href="#cross-links" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Companion chemistry: <strong><a href="../pacbio-sprq-hq/">SPRQ-Hq / SMRT-cell reuse</a></strong> (CiFi runs on this chemistry).</li>
-<li>Downstream Bioconductor: <a href="https://bioconductor.org/packages/release/bioc/html/BSgenome.html">BSgenome</a> and <a href="https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html">GenomicRanges</a> consume chromosome-scale assemblies for reference packaging and coordinate operations.</li>
-<li>AGBT 2026 plenary cross-ref: Megan Dennis (UC Davis) on Day 2 AI-in-Genomics plenary.</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://www.pacb.com/press_releases/pacbio-and-uc-davis-researchers-introduce-cifi-a-new-long-read-3c-method-that-enables-chromosome-scale-assemblies-from-a-single-smrt-cell/">PacBio + UC Davis CiFi press release (2026-01-08)</a></li>
-<li><a href="https://www.pacb.com/press_releases/pacbio-announces-first-quarter-2026-financial-results/">PacBio Q1 2026 financial results recap</a></li>
-<li><a href="https://www.genengnews.com/topics/omics/agbt-2026-recap-ngs-big-bets-and-spatials-rising-momentum/">GEN — AGBT 2026 Recap</a></li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">eWJFMs8BVU7H48EqXeRdqQ==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/agbt-2026/launches/pacbio-cifi/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

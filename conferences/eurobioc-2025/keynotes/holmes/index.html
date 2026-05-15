@@ -13120,30 +13120,34 @@
   
 
 
-<h1 id="susan-holmes-latent-variables-as-the-best-medicine-for-heterogeneity">Susan Holmes — "Latent variables as the best medicine for heterogeneity"<a class="headerlink" href="#susan-holmes-latent-variables-as-the-best-medicine-for-heterogeneity" title="Permanent link">&para;</a></h1>
-<p><strong>Affiliation:</strong> Stanford University, Department of Statistics
-<strong>Day / session:</strong> Day 1 (Wed Sep 17, 2025) — afternoon keynote
-<strong>Talk title:</strong> "Latent variables as the best medicine for heterogeneity"
-<strong>Slides (Zenodo DOI):</strong> <em>to verify after publish</em>
-<strong>Video:</strong> <a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQS_qvtLJNdDqHL6z5jj5y_7">Bioconductor YouTube — plenaries playlist</a> (keynotes recorded)
-<strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></p>
-<h2 id="thesis">Thesis<a class="headerlink" href="#thesis" title="Permanent link">&para;</a></h2>
-<p>Biological data — microbiome, single-cell, longitudinal multi-omics — is heterogeneous in ways that defeat both naive pooling and naive stratification: there is shared latent structure across samples that simple mixed-effects models miss and that fully separate per-stratum analyses cannot borrow strength across. The talk argues that latent-variable methods (factor models, generalized matrix factorization, latent-Dirichlet-style topic models, mixOmics-class integrative factorizations) are the right level of abstraction — they let heterogeneity be modeled as structure rather than noise, and they generalize across modalities.</p>
-<h2 id="speaker-context">Speaker context<a class="headerlink" href="#speaker-context" title="Permanent link">&para;</a></h2>
-<p>Susan Holmes is one of the most influential statisticians for biological data of the last two decades — co-author of <em>Modern Statistics for Modern Biology</em> (with Wolfgang Huber), longtime collaborator on microbiome statistics (<code>phyloseq</code> lineage), and a recurring methodological voice on multi-table / multi-omics integration. Her group has produced foundational work on multivariate methods for compositional and high-dimensional data, longitudinal analysis of pregnancy / preterm-birth cohorts, and the statistical foundations behind several Bioconductor workflows. Inviting her places the keynote slot squarely on <em>statistical method</em> rather than <em>application</em> — a deliberate signal in a program that otherwise leans heavily on platforms and packages.</p>
-<h2 id="connections-to-the-corpus">Connections to the corpus<a class="headerlink" href="#connections-to-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../../tools/omicsgmf/">omicsGMF</a> — generalized matrix factorization is exactly the latent-variable family the keynote is about; this is the most direct package-level link in the EuroBioC2025 program</li>
-<li><a href="../../tools/consica/">consICA</a> — consensus independent component analysis; another latent-variable method shipping in the same release</li>
-<li><a href="../../tools/edger/">edgeR</a>, <a href="../../tools/mosclip/">MOSCLIP</a> — multi-omics methods that benefit from latent-structure framing</li>
-<li>AACR axis: bioinfo-tools (the statistical-methods sub-axis); virtual-cells (latent representations are the substrate any "virtual cell" model would learn over)</li>
-</ul>
-<h2 id="open-questions">Open questions<a class="headerlink" href="#open-questions" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Which application(s) carry the talk — microbiome, single-cell, longitudinal multi-omics, or all three as a tour? Holmes's recent work has spanned all of them.</li>
-<li>Does she engage directly with the deep-learning latent-variable literature (VAE / scVI-class models) or stay within classical / Bayesian factorization? The framing matters for how it lands with a younger audience.</li>
-<li>Concrete software recommendations or method-pluralism? Holmes tends toward the latter, which would shape any cross-links to specific Bioconductor packages.</li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">WL8Ctj2ICrIQMnaRow6Ndw==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/keynotes/holmes/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

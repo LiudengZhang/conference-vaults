@@ -13136,159 +13136,34 @@
   
 
 
-<h1 id="iclr-2026-tools-methods-filtered">ICLR 2026 — Tools / Methods (filtered)<a class="headerlink" href="#iclr-2026-tools-methods-filtered" title="Permanent link">&para;</a></h1>
-<blockquote>
-<p><strong>Status:</strong> Template stub. Meeting concluded Apr 27, 2026 (today is May 11, 2026); accepted-paper lists are fully public on OpenReview, camera-ready PDFs are landing rolling, SlidesLive recordings are posting now. <strong>Bulk extraction starts this month.</strong> No entries are populated yet — this page exists to lock the per-tool format and the <strong>scope filter</strong> before extraction begins.</p>
-</blockquote>
-<h2 id="scope-filter-load-bearing-this-is-a-light-build">Scope filter (load-bearing — this is a light build)<a class="headerlink" href="#scope-filter-load-bearing-this-is-a-light-build" title="Permanent link">&para;</a></h2>
-<p>ICLR 2026 accepted ~3,700 main-track papers + several hundred more across 40 workshops. We do <strong>not</strong> extract them all. An entry lands in this directory <strong>only if</strong> it satisfies one of:</p>
-<ol>
-<li><strong>Workshop filter</strong> — appears in one of the bio / health / drug-discovery / structural-biology workshops at ICLR 2026:</li>
-<li><strong>LMRL</strong> — Learning Meaningful Representations of Life</li>
-<li><strong>MLGenX</strong> — Machine Learning for Genomics Explorations (3rd edition; "AI Agents and the Biological Lab" theme)</li>
-<li><strong>Gen² / Gen2</strong> — Generative AI in Genomics: Barriers and Frontiers</li>
-<li><strong>GEM</strong> — Integrating Generative and Experimental Platforms for Biomolecular Design</li>
-<li><strong>FM4Science</strong> — Foundation Models for Science (bio subset only; skip pure climate / materials / physics contributions)</li>
-<li><strong>Main-track keyword filter</strong> — title or abstract contains any of: <em>cancer, oncology, tumor, genomics, single-cell, scRNA, spatial transcriptomics, perturbation, CRISPR, drug discovery, molecular property, protein structure, foundation model for biology, electronic health record, clinical NLP, pathology, histology, virtual cell</em>.</li>
-<li><strong>Agentic-AI / LLM-for-science filter</strong> — main-track or workshop paper on LLM agents, tool-use, scientific-reasoning benchmarks, or autonomous experimentation, regardless of explicit bio framing. These reliably adapt to oncology within 6 months and feed the AACR agentic-AI axis.</li>
-</ol>
-<p>Everything else — general vision / NLP / RL / theory / optimization / fairness / robotics — is <strong>out of scope</strong> and gets no entry here. Reviewer bandwidth is the binding constraint, not source availability (ICLR's full OpenReview transparency means we could grab everything; we choose not to).</p>
-<h2 id="per-entry-template">Per-entry template<a class="headerlink" href="#per-entry-template" title="Permanent link">&para;</a></h2>
-<p>Each in-scope paper gets a file (<code>tools/&lt;paper-slug&gt;.md</code>) following this structure:</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># &lt;Method / Tool name&gt;</span>
+<div id="mkdocs-encrypted-content" style="display:none">kiWICmDqCPEFMorjOSpujQ==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<span class="gs">**One-line description**</span> — what the method does in plain language.
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/iclr-2026/tools/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<span class="k">-</span><span class="w"> </span><span class="gs">**Authors:**</span> &lt;first author + lab + institution&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Track:**</span> main-track (oral / spotlight / poster) / LMRL / MLGenX / Gen² / GEM / FM4Science
-<span class="k">-</span><span class="w"> </span><span class="gs">**OpenReview:**</span> [paper page with public reviews]
-<span class="k">-</span><span class="w"> </span><span class="gs">**arXiv / bioRxiv:**</span> [preprint link]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Code:**</span> [GitHub link]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Pretrained weights:**</span> [HF Hub / Zenodo link if applicable]
-
-<span class="gu">## Presentation at ICLR 2026</span>
-
-<span class="k">-</span><span class="w"> </span><span class="gs">**Format:**</span> oral / spotlight / poster / workshop talk
-<span class="k">-</span><span class="w"> </span><span class="gs">**Day / session:**</span> Apr 23–25 (main) or Apr 26–27 (workshop)
-<span class="k">-</span><span class="w"> </span><span class="gs">**SlidesLive / YouTube:**</span> [link, post-meeting]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Review thread sentiment:**</span> brief note on review-thread contention, if notable (ICLR&#39;s public reviews are a useful signal)
-
-<span class="gu">## What it does</span>
-
-2–3 sentences: the problem it solves, the methodological idea, what it consumes and produces.
-
-<span class="gu">## Why it matters for cancer / biology</span>
-
-Explicit statement of the bridge to oncology — even for main-track papers that don&#39;t claim cancer relevance. Example: &quot;Multi-modal contrastive objective aligning single-cell RNA with spatial-protein readouts; directly applicable to tumor microenvironment characterization.&quot;
-
-<span class="gu">## Where it fits in the corpus</span>
-
-<span class="k">-</span><span class="w"> </span>AACR 2026 agentic-AI axis: [link if relevant]
-<span class="k">-</span><span class="w"> </span>AACR 2026 virtual-cells axis: [link if relevant]
-<span class="k">-</span><span class="w"> </span><span class="gs">**ICML 2026 cousin paper / author overlap:**</span> [link — Jul 2026, same calendar year]
-<span class="k">-</span><span class="w"> </span><span class="gs">**NeurIPS 2026 cousin paper / author overlap:**</span> [link — Dec 2026, same calendar year]
-<span class="k">-</span><span class="w"> </span>ISMB 2026: [link if benchmarked / cited]
-<span class="k">-</span><span class="w"> </span>RECOMB 2026: [link if benchmarked / cited]
-<span class="k">-</span><span class="w"> </span>ASCO 2026: [link if clinically translated]
-
-<span class="gu">## Notes</span>
-
-Free-form: benchmarks claimed, comparisons to scGPT / Geneformer / UCE / ESM / RFdiffusion / AlphaFold / Boltz / Evo / NT, scaling-law observations, agentic-AI capabilities, regulatory implications, OpenReview review-thread highlights.
-</code></pre></div>
-<h2 id="tool-index">Tool index<a class="headerlink" href="#tool-index" title="Permanent link">&para;</a></h2>
-<p><em>Empty — populates from May 2026 onward. Anticipated final count: ~30–50 entries across the five bio workshops + main-track filter hits + agentic-AI subset. Likely slightly larger than ICML 2026's expected ~20–40 because ICLR's bio-workshop footprint is denser (5 workshops vs. ICML's 2–3).</em></p>
-<table>
-<thead>
-<tr>
-<th>Method / Tool</th>
-<th>Track</th>
-<th>Modality</th>
-<th>Authors</th>
-<th>Format</th>
-<th>OpenReview</th>
-<th>Code</th>
-<th>Mentioned elsewhere</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="esm-3/">ESM-3</a></td>
-<td>Foundation-model dependency</td>
-<td>Protein sequence + structure + function</td>
-<td>Hayes et al. (EvolutionaryScale)</td>
-<td><em>Science</em> 2025 (not ICLR)</td>
-<td>n/a</td>
-<td><a href="https://github.com/evolutionaryscale/esm">evolutionaryscale/esm</a></td>
-<td>Backbone for Proteina-Complexa, TEA-alphabet, GEM workshop binder pipelines</td>
-</tr>
-<tr>
-<td><a href="biomedclip/">BioMedCLIP</a></td>
-<td>Foundation-model dependency</td>
-<td>Biomedical image-text (CLIP)</td>
-<td>Zhang, Xu et al. (Microsoft Research)</td>
-<td><em>NEJM AI</em> 2024 (not ICLR)</td>
-<td>n/a</td>
-<td><a href="https://github.com/microsoft/BiomedCLIP_data_pipeline">microsoft/BiomedCLIP_data_pipeline</a></td>
-<td>Default baseline for ICLR 2026 imaging tracks; AACR 2026 pathology axis</td>
-</tr>
-<tr>
-<td><a href="nucleotide-transformer/">Nucleotide Transformer</a></td>
-<td>Foundation-model dependency</td>
-<td>DNA / genomic FM (encoder, MLM, 6-mer; 50M–2.5B params)</td>
-<td>Dalla-Torre et al. (InstaDeep + NVIDIA + TU Munich)</td>
-<td><em>Nature Methods</em> 2025 (not ICLR)</td>
-<td>n/a</td>
-<td><a href="https://github.com/instadeepai/nucleotide-transformer">instadeepai/nucleotide-transformer</a></td>
-<td>Canonical 2.5B baseline cited across MLGenX / Gen² / FM4Science</td>
-</tr>
-<tr>
-<td><a href="dnabert-2/">DNABERT-2</a></td>
-<td>Foundation-model dependency</td>
-<td>DNA / genomic FM (encoder, MLM, BPE + ALiBi; 117M params)</td>
-<td>Zhou et al. (Northwestern MAGICS Lab)</td>
-<td>ICLR 2024 poster (not ICLR 2026)</td>
-<td><a href="https://openreview.net/forum?id=oMLQB4EZE1">oMLQB4EZE1</a></td>
-<td><a href="https://github.com/MAGICS-LAB/DNABERT_2">MAGICS-LAB/DNABERT_2</a></td>
-<td>GUE benchmark canonical across MLGenX / Gen² submissions</td>
-</tr>
-<tr>
-<td><a href="hyenadna/">HyenaDNA</a></td>
-<td>Foundation-model dependency</td>
-<td>DNA / genomic FM (causal LM, Hyena operators, single-nt; 1 Mb context)</td>
-<td>Nguyen et al. (Stanford Hazy Research + Harvard + Mila)</td>
-<td>NeurIPS 2023 poster (not ICLR)</td>
-<td><a href="https://openreview.net/forum?id=ubzNoJjOKj">ubzNoJjOKj</a></td>
-<td><a href="https://github.com/HazyResearch/hyena-dna">HazyResearch/hyena-dna</a></td>
-<td>Hyena lineage → Evo / Evo2 (Sci4DL ICLR 2026)</td>
-</tr>
-<tr>
-<td><a href="alphagenome/">AlphaGenome</a></td>
-<td>Foundation-model dependency</td>
-<td>DNA → multi-modal functional tracks (U-Net + transformer; 1 Mb, ~450M params)</td>
-<td>Avsec et al. (Google DeepMind)</td>
-<td><em>Nature</em> 2026 (not ICLR)</td>
-<td>n/a</td>
-<td><a href="https://github.com/google-deepmind/alphagenome">google-deepmind/alphagenome</a></td>
-<td>Variant-effect benchmark referenced by Gen² / LMRL clinical-genomics submissions</td>
-</tr>
-</tbody>
-</table>
-<h2 id="why-this-format">Why this format<a class="headerlink" href="#why-this-format" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Track field</strong> — ICLR runs 40 workshops + a sprawling main track; this field disambiguates where a result lived without polluting the page body. Bio-workshop names are short enough to use as plain track labels.</li>
-<li><strong>"Why it matters for cancer / biology" is mandatory</strong> — most ICLR work is not explicitly oncology, but the only reason it's in this vault is the cancer downstream. Forcing this field keeps the filter honest.</li>
-<li><strong>Review thread sentiment</strong> — ICLR-specific. OpenReview review threads are public and a useful signal for which method claims hold up under scrutiny vs. which got accepted on novelty alone. Optional but encouraged.</li>
-<li><strong>ICML + NeurIPS cousin fields</strong> — load-bearing cross-links. ICLR (Apr), ICML (Jul), NeurIPS (Dec) split the same author community across three cycles per calendar year; tracking the overlap prevents duplicated tool entries and surfaces the full-year method-evolution arc.</li>
-<li><strong>Pretrained weights row</strong> — ICLR bio papers very reliably ship HF Hub / Zenodo weights (OpenReview reviewer pressure for reproducibility is the highest of the big-three); tracking these is the difference between a paper entry and a usable tool entry.</li>
-<li><strong>Cross-vault links to AACR axes</strong> — the load-bearing purpose: an ICLR April result should be one click from the AACR April session (same month, by the way) where it gets demonstrated on a tumor dataset.</li>
-</ul>
-<h2 id="open-questions">Open questions<a class="headerlink" href="#open-questions" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>Workshop-only papers without code or weights</strong> — keep as entries anyway, or defer to "main proceedings only"? <em>Tentative: keep; MLGenX and GEM workshop papers often pre-stage code releases.</em></li>
-<li><strong>Agentic-AI subset granularity</strong> — every LLM-agent paper, or only those with a science / bio benchmark? <em>Tentative: only those with a science / tool-use / SWE-bench-class benchmark; pure dialog-agent work is out. MLGenX BRChallenge submissions are auto-include.</em></li>
-<li><strong>Consolidating ICLR + ICML + NeurIPS cousin papers</strong> — one entry or three when the same lab ships an evolved version twice in the same year? <em>Tentative: separate entries per venue with explicit version / delta notes; the full-year arc across three venues is informative.</em></li>
-<li><strong>OpenReview review-thread mining</strong> — how much sentiment / contention signal to extract per entry? <em>Tentative: one sentence on contention only if the review thread is unusually divided (e.g., reject → accept after rebuttal, or strong-accept oral with a vocal dissent).</em></li>
-</ol>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

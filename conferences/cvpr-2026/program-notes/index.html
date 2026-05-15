@@ -13219,163 +13219,34 @@
   
 
 
-<h1 id="cvpr-2026-program-notes-pre-meeting-prep">CVPR 2026 — Program Notes (pre-meeting prep)<a class="headerlink" href="#cvpr-2026-program-notes-pre-meeting-prep" title="Permanent link">&para;</a></h1>
-<p><strong>Last updated:</strong> May 11, 2026 — T-3.5 weeks. Final paper decisions landed Feb 20, 2026; accepted-paper list public on OpenReview; CVF Open Access PDFs post around the meeting. Workshop accepted-paper lists landing May–early June. Camera-ready in flight.</p>
-<p>This page exists to lock the <strong>scope filter</strong>, <strong>workshop slate</strong>, <strong>anticipated paper themes</strong>, and <strong>cross-vault pairings</strong> before any tool extraction begins. It is intentionally explicit about what is <em>out of scope</em> — CVPR's bulk is general computer vision, and conflating that bulk with the medical-imaging / pathology-FM subset would destroy the vault's signal-to-noise.</p>
-<h2 id="verified-meeting-facts">Verified meeting facts<a class="headerlink" href="#verified-meeting-facts" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Dates:</strong> Wed June 3 – Sun June 7, 2026.</li>
-<li><strong>Jun 3 (Wed):</strong> Workshops + Tutorials Day 1 — the <strong>medical cluster lives here</strong> (MCV full day, FMV half day, MMFM-BIOMED half day, PHAROS half day).</li>
-<li><strong>Jun 4 (Thu):</strong> Workshops + Tutorials Day 2 — second medical sub-cluster (CV4Clinical half day, Med-Reasoner half day).</li>
-<li><strong>Jun 5 (Fri) – Jun 7 (Sun):</strong> Main conference, orals + highlights + poster sessions.</li>
-<li><strong>Venue:</strong> Colorado Convention Center, Denver, Colorado, USA.</li>
-<li><strong>Scale:</strong> ~10,000 attendees (sibling to NeurIPS / ICML in scale).</li>
-<li><strong>Proceedings:</strong> CVF Open Access (full open-access PDFs, no paywall) — typically posts within ~1 week of meeting. OpenReview venue: <code>CVPR.thecvf.com/2026/Conference</code>.</li>
-</ul>
-<h2 id="scope-filter-load-bearing-repeat-from-toolsindexmd">Scope filter (load-bearing — repeat from <code>tools/index.md</code>)<a class="headerlink" href="#scope-filter-load-bearing-repeat-from-toolsindexmd" title="Permanent link">&para;</a></h2>
-<p>CVPR is <strong>scope-limited by design</strong> in this vault. The filter is:</p>
-<ol>
-<li><strong>Medical / biomedical workshop</strong> (one of six identified).</li>
-<li><strong>Main-track keyword match</strong> on medical / pathology / radiology / oncology / clinical / biomedical / segmentation-for-medicine vocabulary.</li>
-<li><strong>Architectural building block</strong> with a documented or near-certain medical adoption path — DINOv3-class SSL pretraining, SAM-3-class segmentation FM, next-gen CLIP / SigLIP multimodal alignment, slide-level aggregation, diffusion / flow-matching for medical synthesis.</li>
-</ol>
-<p>Everything else stays out. The light-build pattern mirrors <a href="../../icml-2026/program-notes/">ICML 2026</a> and <a href="../../neurips-2026/">NeurIPS 2026</a>.</p>
-<h2 id="medical-biomedical-workshop-slate-verified">Medical / biomedical workshop slate (verified)<a class="headerlink" href="#medical-biomedical-workshop-slate-verified" title="Permanent link">&para;</a></h2>
-<p>Six workshops identified from the CVPR 2026 workshops page. All run on Jun 3–4 alongside tutorials.</p>
-<table>
-<thead>
-<tr>
-<th>Workshop</th>
-<th>Acronym</th>
-<th>Date</th>
-<th>Format</th>
-<th>Contact</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Medical Computer Vision</td>
-<td><strong>MCV</strong></td>
-<td>Wed Jun 3</td>
-<td>Full day</td>
-<td>Zongwei Zhou</td>
-<td>12th edition; the canonical CVPR medical-CV workshop; broad scope from segmentation through FMs</td>
-</tr>
-<tr>
-<td>Foundation Models for Medical Vision</td>
-<td><strong>FMV</strong></td>
-<td>Wed Jun 3</td>
-<td>Half day</td>
-<td>Jun Ma</td>
-<td>3rd edition; medical-imaging FMs, SAM-Med-class, RadFM-class; co-organized with the BraTS / nnU-Net network</td>
-</tr>
-<tr>
-<td>Multimodal Foundation Models for Biomedicine</td>
-<td><strong>MMFM-BIOMED</strong></td>
-<td>Wed Jun 3</td>
-<td>Half day</td>
-<td>Yuhui Zhang</td>
-<td>2nd edition; pathology + radiology VLMs; CLIP / LLaVA / SigLIP for biomedicine</td>
-</tr>
-<tr>
-<td>PHAROS AI Factory for Medical Imaging &amp; Healthcare</td>
-<td><strong>PHAROS</strong></td>
-<td>Wed Jun 3</td>
-<td>Half day</td>
-<td>Stefanos Kollias</td>
-<td>EU AI Factory project; healthcare deployment, regulatory, federated learning</td>
-</tr>
-<tr>
-<td>Bridging AI and Medical Reality (CV4Clinical)</td>
-<td><strong>CV4Clinical</strong></td>
-<td>Thu Jun 4</td>
-<td>Half day</td>
-<td>Yicheng Wu</td>
-<td>Real-world clinical translation, reliability, reproducibility, deployment failure modes</td>
-</tr>
-<tr>
-<td>Medical Reasoning with Vision Language Foundation Models</td>
-<td><strong>Med-Reasoner</strong></td>
-<td>Thu Jun 4</td>
-<td>Half day</td>
-<td>Anas Zafar</td>
-<td>New entrant for 2026; reasoning capabilities for medical VLMs; clinician × CV researcher cross</td>
-</tr>
-</tbody>
-</table>
-<p>Workshop accepted-paper lists are landing through May 2026; stub pages and per-paper tracking will populate as those lists go public.</p>
-<h2 id="anticipated-paper-themes-5-high-signal-axes">Anticipated paper themes (5 high-signal axes)<a class="headerlink" href="#anticipated-paper-themes-5-high-signal-axes" title="Permanent link">&para;</a></h2>
-<p>These are the patterns we expect to see repeatedly in both main-track and workshop accepts. We will not commit to a full theme synthesis page (that would be out of scope for a light build), but the per-tool entries will tag against these themes:</p>
-<ol>
-<li>
-<p><strong>Pathology foundation model successors and slide-level aggregators.</strong> Next-generation tile encoders (DINOv3-class, scaling beyond UNI / GigaPath / Virchow), slide-level aggregation transformers (ABMIL / TransMIL successors), and multi-cohort pretraining at TCGA / CPTAC / Mass General Brigham + Providence + UCSF-scale. Direct upstream of <a href="../../aacr-2026/topics/bioinfo-tools/tools/chief/">CHIEF</a> / <a href="../../aacr-2026/topics/bioinfo-tools/tools/prov-gigapath/">Prov-GigaPath</a> / <a href="../../aacr-2026/topics/bioinfo-tools/tools/uni/">UNI</a> updates.</p>
-</li>
-<li>
-<p><strong>Pathology and radiology vision-language models.</strong> CONCH / PathChat / MUSK successors on the pathology side; MAIRA / RadFM / Merlin / CXR-LLaVA successors on the radiology side. Pathology-report alignment, radiology-report generation, prompt-tunable report drafting. Expect MMFM-BIOMED + Med-Reasoner to be the workshop home for the bulk of these.</p>
-</li>
-<li>
-<p><strong>Generative medical imaging and counterfactuals.</strong> Latent diffusion / DiT / flow-matching priors for MRI / CT reconstruction; ControlNet-style anatomy-conditioned synthesis; counterfactual generation for fairness audits and explainability; synthetic-data augmentation for rare-cohort segmentation. Bridges to MICCAI 2026 DGM4MICCAI workshop.</p>
-</li>
-<li>
-<p><strong>Segmentation foundation models — SAM line and successors.</strong> SAM-3 / EfficientSAM-2 / MedSAM-class adapters; promptable segmentation for tumor / lesion / organ tasks; few-shot and zero-shot transfer to BraTS / HECKTOR / KiTS / AutoPET / PANORAMA. Direct upstream of MICCAI challenge entries.</p>
-</li>
-<li>
-<p><strong>Multimodal medical reasoning and clinical-grade VLMs.</strong> Med-Reasoner is the named workshop; the main track will carry the architecture papers. Chain-of-thought reasoning over chest X-rays / pathology slides, agentic clinical workflows, retrieval-augmented diagnosis, multimodal alignment between text reports + imaging + structured EHR. Cross-link to <a href="../../aacr-2026/">AACR 2026 agentic-AI axis</a> and <a href="../../icml-2026/">ICML 2026 agentic-AI subset</a>.</p>
-</li>
-</ol>
-<h2 id="out-of-scope-themes-explicitly-skipped">Out-of-scope themes (explicitly skipped)<a class="headerlink" href="#out-of-scope-themes-explicitly-skipped" title="Permanent link">&para;</a></h2>
-<p>To keep the filter honest, the following CVPR 2026 themes get <strong>no coverage</strong> in this vault even when they are technically impressive:</p>
-<ul>
-<li>General scene understanding, depth estimation, optical flow, monocular 3D — no medical thread.</li>
-<li>Autonomous driving perception (KITTI / Waymo / nuScenes-class) — no medical thread.</li>
-<li>Robotics manipulation, embodied AI, simulation-to-real — no medical thread (surgical robotics is MICCAI's CAI track, not CVPR's general robotics track).</li>
-<li>General video generation (Sora / Veo / Movie Gen class) — no medical thread unless medical-imaging-specific.</li>
-<li>Face recognition, person re-identification, biometrics — no medical thread.</li>
-<li>AR / VR / NeRF / Gaussian splatting (general) — no medical thread.</li>
-<li>Adversarial robustness and watermarking for general images — out of scope.</li>
-<li>General efficiency / quantization / pruning — out of scope unless the paper benchmarks on a medical FM.</li>
-</ul>
-<h2 id="cross-vault-pairings-the-load-bearing-chains">Cross-vault pairings (the load-bearing chains)<a class="headerlink" href="#cross-vault-pairings-the-load-bearing-chains" title="Permanent link">&para;</a></h2>
-<p>The point of carrying CVPR in this vault is the cross-conference arcs. Three canonical chains to track:</p>
-<ol>
-<li>
-<p><strong>CVPR pretraining recipe → MICCAI methods → AACR translational poster.</strong> A new SSL recipe at CVPR June 2026 → pathology-FM v2 paper at <a href="../../miccai-2026/">MICCAI 2026</a> Sep 27–Oct 1 → translational poster at AACR 2027 April. The CVPR entry should explicitly link forward to the MICCAI cousin and the eventual AACR poster.</p>
-</li>
-<li>
-<p><strong>CVPR medical-VLM → RSNA clinical-deployment readout.</strong> A new radiology VLM at CVPR / MMFM-BIOMED → vendor demonstration or prospective-study readout at <a href="../../rsna-2026/">RSNA 2026</a> Nov 29–Dec 3. The half-year arc is reliable for diagnostic-imaging VLMs.</p>
-</li>
-<li>
-<p><strong>CVPR SAM successor → MICCAI challenge winner.</strong> A SAM-3-class segmentation FM at CVPR → adoption in BraTS / HECKTOR / KiTS / AutoPET / PANORAMA winning entry at <a href="../../miccai-2026/">MICCAI 2026</a> within the same calendar year. Track which CVPR segmentation paper anchors each MICCAI challenge result.</p>
-</li>
-</ol>
-<h2 id="what-is-not-being-built">What is NOT being built<a class="headerlink" href="#what-is-not-being-built" title="Permanent link">&para;</a></h2>
-<p>To be explicit (light-build hygiene):</p>
-<ul>
-<li><strong>No <code>digest/</code> directory.</strong> No per-day digests. The general-vision bulk dominates per-day proceedings and would dilute signal.</li>
-<li><strong>No <code>themes.md</code>.</strong> The five themes above are scoped here in <code>program-notes.md</code> and tagged per tool entry; a separate synthesis page is not warranted.</li>
-<li><strong>No <code>keynotes/</code>.</strong> CVPR plenaries are general-vision; we cover them only if a known medical-imaging / pathology-FM author is on stage.</li>
-<li><strong>No <code>mkdocs.yml</code>.</strong> This vault piggybacks on the parent site config (per repo convention for sibling conference vaults).</li>
-<li><strong>No <code>timeline.md</code>.</strong> Conference timeline lives at <a href="../../../timeline/"><code>../../timeline.md</code></a>; no per-vault duplication.</li>
-</ul>
-<h2 id="next-actions">Next actions<a class="headerlink" href="#next-actions" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>May 11–31, 2026 (now → T-1 week):</strong> scan accepted-paper list with keyword filter; pre-stub the ~25–50 high-signal entries. Pull workshop accept lists as they post. Cross-check against the MICCAI 2026 early-accept list (already posted May 7) for cousin-paper pairing.</li>
-<li><strong>Jun 3–7, 2026 (during the meeting):</strong> opportunistic capture of slide deposits, GitHub repos, demo links, social reactions. The Wed Jun 3 medical-workshop cluster (MCV / FMV / MMFM-BIOMED / PHAROS) is the densest day; Thu Jun 4 carries the clinical-translation pair (CV4Clinical + Med-Reasoner).</li>
-<li><strong>Jun 8 – Jun 30, 2026 (post-meeting):</strong> CVF Open Access proceedings post ~1 week after meeting. Bulk-populate <code>tools/</code> with the filtered subset. Cross-link into AACR pathology-FM dossiers and stage MICCAI 2026 (Sep 27–Oct 1) cousin pairings.</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://cvpr.thecvf.com/Conferences/2026">CVPR 2026 home</a></li>
-<li><a href="https://cvpr.thecvf.com/Conferences/2026/Dates">CVPR 2026 Important Dates</a></li>
-<li><a href="https://cvpr.thecvf.com/Conferences/2026/Workshops">CVPR 2026 Workshops list</a></li>
-<li><a href="https://fmv-cvpr26workshop.github.io/">FMV — Foundation Models for Medical Vision (CVPR 2026)</a></li>
-<li><a href="https://med-reasoner.github.io/cvpr2026/">Med-Reasoner workshop (CVPR 2026)</a></li>
-<li><a href="https://cv4clinical.github.io/cv4clinical_2026/">CV4Clinical 2026 — Bridging AI and Medical Reality</a></li>
-<li><a href="https://mmfm-biomed.github.io/">MMFM-BIOMED workshop</a></li>
-<li><a href="https://github.com/MedAIerHHL/CVPR-MIA">CVPR-MIA paper tracker (community-maintained)</a></li>
-<li><a href="https://openaccess.thecvf.com/">CVF Open Access</a></li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">uu9lI7SoDHAKCnfWCn7YLQ==;D4tiKTDZP9sGSt7kmYdmQQHyjVwSR/kc0EAw5XRT+1JiWGOKrXTCAKJeSNg68mut6w1U+Dx3fOga0jo9G84Ed+E7RlaoIdtB73C2XqSVVxEYhk2t8BmGT0nc9ZVcajzW7gbR5n9sIXvajtWSaYSWuauAITYq3weC309jFkuLidUvBofHcGz2L1Ussup+dN8yRzwWGdmCyATXdSO9ToV8QvC+Xwi1zEAtNE7GdjYaiML2ABMHsYCYhEJC2EdOAjeQu+9+vaqan1fOvjuGkNd/Da2uDSY9Z9pVFST5quZ9JPH3zj0BcrElDvaUXMfDbGNLrhLRPl82fXHRUdl/uJzZVr499+T4e9rWIbdtgaf89eqmzk0CVjkjn6ZuBey0MkOeKo9/b0nsR7JrA9hBBIMm/iArWExXAAybWYft7ebZhrhUv1I6VjTyWAfWfZraT/LFCJeVqwmE5xiHAzFEub3Im/UB3PUWrtx9h2pmB+leaoYUug6BVtYQBJvs2nT+Cx248uYg63hQGkvRdLEhhH7jlrb6xzQRVZIsYZJN2Ul9JtNBaVLf7QVxzQ2xZiKVbuVN81JiMwdDDk6FL4HVvf6/9r7AmxgCdvpZsUHgV6z6DxI+sjU3HN50wRFfgD8Dsn6F/Ifdxz6/BsHwqnXIB0Tgde1eIxN7pu0mrXY3UptGgtBOdnYF8ktp9Vx/ZsheFUK/a6Bgbyjolj/mqhw/bgad4KfVvBON7HF5wL3lzm07A2TgwZ0PZ0HodbWakObJLFci9eU+i8uwzAf1hJoqcINWI3XAAjnBHKVNzsicl45cPK52WeGsppCnZeV/kcehPMPmWUYG3AViMwCouS0aCrkaLB5HqdRvlZ9VvVr4C4/5YqOgTn3oEVIv1eVahRRpYIh1vElAFphsxeKe+vy//C0ncWXpKNkVDrDotJSi7yaumqC12EugeajtcrtEYt0JQOpUqJpsm8+IxwgV6tpZFsDLBfPKzCCyl3TRBr1apUziBcZkSvk+sNFmPQ6RMsscHnFydBvnbSg/yNbSshKQzQI+7wW+I+QjwmMqIStHLn/Carow9vQTvqmbcGNwkO2GLtbPvaGlVrQo3pouRLO7DAWlhNhX0xEwXL71YS6ndphq9+dORRZ6xW4RmjlcrWhHYn7tzJl1oWb4faw5W0OKL8Q/cs3BIoHNnBz2h0t295k4vHQLa+031/6Vrw5cXrhQnQYcEQ0Qeo55HV/PRPUTjLAeIFY8jjfTY0iXPrk2+X7dUhSREaDc6U1hxaKChal9cnpXDNcAxlr9RpA/CXRirSqC9L9I3/3+UrZ2FzdhoT3QKzH2nXLuEEoNtWJ7q2gAAKomHobbNSGmAcspAKoF6VbEQHJk1FSzZ+4d+LQsVZat4ipBuK3P2p3R4mPpRqBMUb6+eHtNlJtCCUl6gobhoxXBNORY/f9gZ1w46Wpl0JiTUIMKuS/N0LEVcAvHogtzr6QeOo6DP1ZYepZIpV1XgO+xa4qg+NJANb6Ct8z55L0Uc7LVcb2FZapDXIKBu+YUEB+He2+A5wjFugCt0YnnDW+qxHkDiLOpNv5n5vfH1LKHCQd2dD1jHVYhTF5ABxacymXyMWiIXtLKSNMk2V5FvxpjiboKpxJZRUbKR3RN1YXRkNwGwceFSSq9bKHA/kzUZgRWu1jGf1H63u7SBmnShE8ioSeSgUeCacbIt1r5I8J87tg9wDQun5xK7yb25/YC1rRVwSkMugT4zlR7JMr3KYy+yoLyUPSOA2/uj2F/+UBrAhET6s6oJbSRBRT2KfP9Tf3RQGLWEIAKNx+AD6NEldlGYBrCAdkKPXfXgy3Uk+EgW4mo8I3fQgDnFP5B/NGl08I9CPZGNP8uz+p6ylEYeHASGo48e0E3r/mwRbnee03D3dhlvzkeHRf5A/5XhdObhi66x5t7cX4kJJFXHNWPaybG31z0ExFH75Rev3XHsx8AS+W90IVwGhAnu9H83G1qyV5gzxqemOeJrPGp079C+sVA1AmvykBHhbZKr52jZHy6iAcQTILbEntrCv51GJMax/D+bqVOoLMERNCe9Ma364NpSf5gtw3YUek2k6DZUa37u9D20dFIz6LvYiFQdIBK9Lo43kURhy6YWj5QxUZklxs0Gb8pvxdyh0kUypNSKWDLEB7ESq4OEBsiiHWx48cXlEmtdPNLwfszRp7QaPDblWYrBKVrdIdHBgLrBhxNcNgl0iM9ZeRW+R1fT1uXEn4hWIjsV3+9x/Ih5yBl9RxR/JnCubeGRVx8IldSpFfrCuJCmkFWAAJD0g6OboPi7mA7Y6fTxZfUP7JI9H658rHB+QYgo0gU6WG9HzgdRPvo4dPyFzf86mkueUSHHVtLNVP0AkKCsWc2PxgNEkaG4q1qqdkjsI9Va0O4o0FW7uIXKM/CeOvW03aFcnpEXYf0lN5NXvDm5TSeWcJKpcQTyq7pfwUgRaNJs9Cl8wZ+vZC8lm3sjSKKIEr+XpAFX7PS/I7Go8yNlBx/J6jexb4SEqi3Zy/nRHv+IpedrnwpRT4mnDyR6bBiFqv88jig7gHPl6uNN3B+x8LZGDaH1Yb6M8ftsWtglXmkhRJNyaDdbU/RIUNyu74R2JawKZ1SalF8NlH/SxkOFs2KvMAV0T/USZpA9JNlDVPuDVTrg4iwSAV8YzGZdreYw70EJofBj4nX4JnlDf+5kCSClZDQc3g7QSsvZctfL+5WLNXIv1D6hUTyIcHAdwmI5/6MQeivrEWA8wik7o49zcSPj5VBkqQcWBEs2x5s0TyKy6vy4aCfvORmuzWY0AhtYPvzn4X0rQd45G1rR/U1zCg0Gk7ie79ywI4XFC/nKNlWh9ofHpAjPGmsmmmSbuUr8ouWkCO8fv4bGVNEf1oUGqE1SZqpoMXfFW8Uf2Y3FUWLuYLfClNroy5v8oqBDWH3E+bg3hcVR2UugavVdZvdfKfxT+dRS+orAieQp8PK5zJ1hX7RTFE7QvfGGDbgzPoqqS2juEnxjRMzIooJ9+EZGVHjOEY7C8zz1aoQHAAvE6OaifJ3J8HrTlB7/vfrcaOef1VWiUcaxewMrLLPHZZIzGoyJgKK0Azlr88jzCN8t770d+ysiEad2YbP5AdsGC6W5+voh7KfwyE98iRwEwXWa9Akl0ww7W3C0fJwnWarx9bRvmPlCRY+b8eJ8n/bG6fnaU6qpV7fpRs679puq/lfuFsgbiRU4fpqDqVxQGOZtNDPvNh1yyfIvAnd7KF4YTksaNVpqkM9YcFwALQZc3wPh7HrVOZ74LHG2jmIUN9EJWee02NtrLd4TiKtSmo7o0TUzdnC1b24r9td/DqdTXkdbC/qI05EGl71aG9OEkX9tz3HFHSRc8UYrggVyTDmGG12mg+pEW6kCpVpsGTzWEBNJx8S4+cWYzJt1gm1/hS2KVmKG5+IzEJvLyp+EN5KIoxdGqTkYN5OWVlSRDg+4aBFg6mPLEmsR+3ZvlgZSHgE3ZZ96dNyD5gbbIa4C+9NS/esOFs/78bkq5A1dObdeFj1oENd44xV6ZW9v5qKn4MmrWp/W7E7eaq3enPAirfAwu3Rqit0MsrhKaVsNvuJ1jWHOIBNkiCe4LLDCY9XLWKApSSN88ubVEPJU52mIkmi8Q36mVEfKga2NqXvBc+cEkG2bK47H+hmdaP8zoq4poaiuBDSY47Nxw+GhWyD2QaVuEtVbRvk1OZRDMUs2uaMMKgrllXvO2goF2R3It2lwsPk/pIAh0VL0r1sIBorTfMdvOeZTr33JHSNEwiJ7NSbptZdApBRYbeWWAfHc471XtliRmFy/Idc6jGfFEShFlV5jdPTHg4r3i7sc5OV2bLuuBLOIYRRNLq2QYAxo6D9Af2/XsFV0ut1n7Eioeurxy8/Lq2NfXcmFWy85F/EmBFK60Rz7R6OlgSNvWa5kNLaUbWTmvBbDF5lduyzYhPu8cKMvK3UVuKvJtQBNjp6UaZEBZt86fKgZDEl2/RbO/QGSTC68syVWApROttVAjcLSYKbavl2j+BQ0i7yEGuiNO3+bhPybnSV3fF3OIv8pAceflBwPb3D0Q1HNXAtpEND4xjez5ANaeIcKvgR4wfT46wVOvzXYeAvdEY1kng637h98FOk8pzGtaZaU0YmmGfznOj/6GqkO653lBWhxF/R+MYA5dLVRqdYOenZVFK03V3fhcvMxVDzloNCdCK2duP8MGX7HILlLRazCvp4g/bxAExETmvTry/cIludhf50zZVRdQZ4qU2g0QAT8bz8lrzmMVrGecWw+XL+eEJum2OG6JnKIAnTjlDmsXZuypMDTq/CwV84RoyrziptHJUc614VbjfyK+GVVworx4S8r2tasVB+wohs88z9unf3E0RZevDkfh9opVxnJns8ZSIRO11L0dMWwqWznBtQUS7cC5zuw23uqxrWYT8FFmTo7VOVc2ygugaA0bxTjnjSRyQ1mlTosED8R9SR0CU6oQsyTZsqXPYsIklAgswZFaUxx1rjbGzKwzKvV0Kc9EASRPo3jccoViS9IPWbWo1OpbEqTFuJUAehRys72jLnnru4E2C/nfDXiUl8R1Og31Ww/mQ+Hl7CcqvDvyJ+RsDWR+57+JpjvCbKGLSwmBE6pJ5bUJXiw82DKxE1rK/ibN044GBBLB7cRPLyPMfVSVsVgZDFkLi2JSnaSXRnwkXS9YnFRu7jZirz1q/jVG8qxk+LP1RUIACEaPE78m6UTJuJ+nieWkY8cJsA5DfYQZyt/fqCRkwPEl+lyqD8BzQcS66P06/xQzwEmJVXziV9ZtPSLUnHlmq6lrTVk+ZC6KkHh4UEseXjquuWkktcq6zaQ9a04OooxnSikuOG2UBtD28+CktY87lJ9AQ6afiLgnWJH4NSeFSbm0NJrt0N1L3dYAkTbxoLuKSBt8DyWQHfDtQ0bO1dhkp7ZGRtVy1EFN0m1FZ8kNG/73HDgRhOSa1jULaqQbbBRFFeRYlxQw1iJMognyirx4OR+4G+DsnOkx9f/+xOzp9aYw1f71Arjz6WYRDTpB5AwpniZXPIZ9xTXYMgFjXS+LaABVvApMpwxS0r6jRjTDVgIiVmpAeD65eOisZDa+f/ikrTfMRt6byBUJG6vS4x2rKTX+Tx43jI5E18PZnlv6idKCOFczZ4/9vdc/E0vi5hZAoSxMW9XNG7NokLGEc6aTGV/s4bF+klM0EdNBKUAJ21gwoKSIZ0e1Wz5Eme05A13XXhsWxaCbnnbh7NSpTeDi/JqX1F8rmRMkgdIgCDEqWR7iOV6Sz4DwAaVoVd+quWbRe22qESfnWUSpivXRWEGcpLglmfeiLHjBQIvS3lpvNIXcuml9cEC2dc8XTv3OMQtaAz5LoCpFwPSJ3bT9+efxCM3bWi4mmHdxSolcmBxGhdZdytEyxIRfkasFH8C7a2cED0CwsPxbfD0VRfcT6SABxYc8qdyGTupggUQZy49rOiTkr0zCLYmIDDklrBgaubmIK/XgedbWR7hOmnc64hvYsfKDTe0fP0QNO4aQmPrfmX4XGNZCF5OyAmYcnKQmDwJqVzYTq/mdncCp99TwuYrc6yC+oG5tGg7MmM+bP19lVuFaGsQUq/33pe+0+Ue+x2dAFyMZnrtrMNhx8ImeWX5rKRMA9A7yI2SM5RouvSK7fhGQIF/UQO96R7Ff8RnfpbeGQKpmQPb2tz7Y/X7OHcpCcAzcWJPbLhFjZuKOmYfmSPrC+czQQ96kQQ6HFtt8JPqeAJ21I4yIbAU/ERSxJiFQDP9DnUloRQnTgqwaHUAmseMYcDaEeJSxbXQKGfR3ZKt5J7m7ZGG8XtakucCThhD1AB+E6gpJMoIjxiPCT/vvFxShix3juPwGfTKPR3/B0jalY3JRn+UdoQSXfzHJfXg97JREfCk9h2/4RM2ZFG2LNMmv/TY0gm6AbY038YDuzFuHVugjlNmx7zgLbgfPMFsSkSFMB9qyD9a/MCXjF9SPBFIaFbzX6/QP9wuLtMMCma2D5+m7fQaIJQPEn4TX4crPz15wAVaUpv+fREFMZw62FNefQEOX348X6P9Trmp0h03e/TqqL0XnqQx+ekLYCoVBhYBcIuO/RZTA1PKotNY4A/G/yzueu4Fhjs6zPkU08xZON4Z78BfIlqmYm9hNr2qWv1NNkAL6UElygkrZZBcrbYiFOZ0EHJAjRAKOOghIKnxJAf+TvK34HzuVF9ODh3HzomRfv35RSLUNzzZ4Rv290hQe42RIVTTjkUm9gLbwKeZXWEgy4UxJLYjOTOwpMrRnMzYTgm7L65FOYWdxTXikBl2O/XhpiWarIdQDiWiGgwYl4hwNoIY6JcMcOo/z6I0L4V5BJISUj9PwWfDKkYPqcuKKnbUTSgw1panLuAnxZdh0kvuy84bhuEFMPvG1MfEZ7UgAMIK3YojDRafGR9vDxqMAGkWaEPfDkOnTLwmo4zrEaa0uJgLCCaMTy3cJF19ods8BsOzQTNMKd7iN+lh7nZKTUFWNRBnhGIkqUaQH+J+VhrM5rESS5rYsi5Et9DP/lG0SSfC1Sx7x0PzTJ8iEsSFNwlhwEpCDo1GyH97Sd+eZlLWvE4eYOR6LpQb5gQF8MDfvmr7XWKLy9Er/GPPdBcllYVfvKwDlzIAfg5XLj3u/n0fXlJcjCPtoC5pErP2vPQygSh6YH709pA7nYL+DbxLFsvjL1Xn3P0JSadtPgJsMdHD9rXavj+kmdIruBGsGKFU1XIDV7LLLCPySZr9f4DrveqWJ0MuzBndWkzG7Q3GbUTutUF7OzJ7sxX+PeR8R1IJ1R0X3DRTIsVYgebOSUo9fjSE0NY2zKqeTsdsilo66EtP0PSafojxMzabosFinL5ExNVdfD2q9lTd7s9UkUdg/e5Lmfj2wzheDiLE6sEJjSIbPw8aVVWdIMvAjE3CjdWF6q0RYv1gytIWu/lZ10lPtBjEAsiRUzcDgD2VNFg/XlnwgYWqzp702ZnK+mF7wX4S0wWmMkyB3WyCxIyRk45A1qOs4Ilk8p46v+oJ0i0PhPwCxEt29tX0E+IIKjsPJTW/k5LSEwy0o8aUx3Oj5+cyqA72I1bbfJpivpogVkHeHEAtHn7OsdshYZIIJLh2JCIuBkm01mZ2MkRC59qh7NFmASorv34HRbXQY0+z8NIMcSwCLUBmGnmOiD5O0JSPV4GnzeeKo8TzpyubI9y3KnLOCTT0XJ25zgB2Ltlv1ntzuPqFyImHEQlg+Jir0v6VNMaDP1nUIsC9Jv91IJe8zqeH7542ffXB+0A2mYmEApQA8rKDh5kWSUQ2HnjeqaAyUxVz8aBeL4MwJvwCZx3TtpDgkRMe1tUqWqvtrx1rnhg/ws2bCb0s0SOlIcWt2Tw3ESeErLfhihIU+EzutHICufejO7S6PhVjg2zjL+mCxmfVK4NwosFnKIzkUWfg/qEGPbwOio+Jvupw2C+fzuHC9LyQOoLXoDojmqshVJupieBc/NqiJsyPbC6tM0Jc5wL8PtRIAlm017ghwYAvcEGu6NbHUqjjmr2FS0q5w7G4YLPaoQkyG1eOFsgzjJOxJ/dhT/jxr7VZF0NAfdvFy2RKNPF6F+65rZWwHOonU41D1UAdHA8ZifVibxb9G5LBAky5zZZ0pmVshXUvjziProAnwM59LQP4/DWahu+U6yYxao4jAxFmkckqS4krAMvhG9EMjW4GpgWx6c/henD1jYmbdsk8IFLaqL+7uZZEmT7kx+jpoaKK5yu1Sq8DeFX3pGXuvFzA6TFJFvLftuS0J25H4TSmPjtbM0IsjGJFQls4ap4btrizvu/ocq03Fy6fBg+42bUbZtgbyepqHlnji9LfzldXKiA63+xeOqNs7lnQisEuIZxIlo3HjhdsT4vo7ZxkXsuGDuXQpLkf2Q5bwtvA2yYNrGyy0WK/dTn0Uj52CbVazm+752/ribAC8UkbMj+KhoFn/4sK5BVblSQBK7MD1BnKZReVIHE4KypAwE4QqMxmo+6BbvQVXe6LFgRlYxkUfDbzIaka/U1+hdkV/yhLFKfSi6e5WY0dAfrORjEYMGHbtqzVor3RRlh4YJ1Zn89UPWX9yXLCCvyWFPszY9i3MWjChbv/T7MIyLEcn1edWazfuKYFayzNQXviAkPnFTiLr4ZCHt/Sj445p/971BO7OeX1tk0MrB85YKGFzJbHnggL/wCLa21zjqEuFt+4Y45k7JVy4jPJLMXC6JLDOYIakhkchipTXlWk6Sm44v3h2iYItTHclOMlGUZGrXnFEh7TXPIDmtvVJD1dRAo4KPN4JfzABdVp3m290kLCepm43CkE5rUY2VXHKOjIaFKI3WiR26jMWaN+pmzxWZF1vUD71ksrj7eIgQ3ngLHbvKQV+e3DEmtTyQI2Xa9hzc/XwXJUpdEQ+sSb/WKmadAs7ERpZ0uBEmQ76Opt6zqazDzRIHF7Vhl0tf72lkbsVC62Qtf+tPQjU+v+10ZaMCHobe19hTpsEexy1saeypzM4Ca8YXt8lnv6Jbb9zsF2L93OgCK2y6MYl2hNIgn4GDjsXBLQCURCISZ7MMe1Q5wqBwmGKHm97VlYrZsXXyKRMcczwFTxRC3L3v6uHAbtm4pru4XmjGlELDPhGQwKrkn7Jfc1GcZxDeU4vtWZv2PX89kL6R5wtWpSxwo+MZGbdxr1rhTi6GkJLVtvpujnNMT27XTGgvtKp/2ZwPmk2ljJFiLPqfJsedIwyBkrv5fYAA0afI/eUHP4PRuv780JG5O8ZZF/NVyKzBa7z83DFGZSNa19V8a1LWiht2+ss3Uji1a6j/wmiQo7v2Qo/y7XU5w8JnGod1pY8t8qYwT3NCPuoTtKU+BqOtZRtlT2VrV79Ak6+l+70uhtftcEaU4Ck3UuUviF1oxNAImFy1ML3vk4HZVRVpQoZc37gFCkeuO/Iw1LVc5oyGbhcyrOLZjS9rAVpAgP4Lt8BUhKopNBi4mEAqf8PcO2biFtQ+AeJGBWJrdBf2j8ckOLuzF0de+j8s9/kEr3KoptuMcjadxHQtj+1L7Sp84PodhCxOjsDNhF/nSmGw8j9gOBMNqyfU1cTPAag8d4qcpc1+rRMYWQDkaIrjOoiI8yyem+ggEcrqeYELbxBuCVne5bf8P4oArM6K9UYWmUwtpEAPB7rgvlUziaKmYd3oxQT0YcFUO7Za4U8gviG6uCebV3Zk2Uawm1Aj+wfhOdnYj7lAWu4KYFDHcgAxgaWgah5Ko57AeMGIEyvstT2ojo0thckMKY++q6S/01yaRdEm9fs3bnEBhKFVHnfH9zoOujVdlQ1N9zANQF4LlqRsFTPBgtzDzaQZZ6voWku/g8oVCshkK9vos0YSAwGGH1v/By4XPzKogtUVf1g7a/Xkk0qs6uhnr9TYxMhSK9Yxu/CMbWg9pb4I6indcpQKg/+h0cNPNFF9WOWFOOWgh3KtLteK0MYCs3EwnC9AzNCpBsNfpqRGUDIV15okWJe0UIljIKmfnmHKbAR1D5alH7vpdxHnYBu7nH/eRtrleHvS/NS5DLrg7l1GiL5qQ1Eiy8YTvBdcr9crLxhTOFaFGoM6w3iJM9fcil9EbK9Ia5+7Ok/SxRdHkJF41X2v1CSVK/CsaNPBoAXazV64K8qV8y2XlPPzkxlHjfiLFNoCNftXY+I6obEVmcdqubQ7wJu4PwiAZglISu83YGwuJfuovj3uiAyw+KwVyIs8k6Xov5eP+urczI0wG3ECvMncf/t5/JQgyfLJS0KDN9tyHDx5Z3WoHfoQH2f6ELi7bWMbeAujzl/5SeNkdclOjfg3fxckjl/AghlsWDTOUce8VzX+H9vajbeiCnRO1zKrq5o5ccdZ2Q79+w+tkAFyf9ylh/g6yEpNMXLnva9Iacm3EkHzoJFDCrAR8LF09ZElV+xEHIegpONXwcG2qU7hIvlzsC6EtT5KcI3CbcEuQqOR/5btphDgfwMHOUSdRTVkdS1s3qwpthu8Kf7WvqFS6jpvxbA0lvnZtscD4FLCovWnFu2nQMVud4D2RD5u1EusCPfZO/k10/unVqmp8PNP8qiksYewMxHx5s6pj+8mAbZ0nV8WVS1T+jdGfu8h9M/88BBt5puySaT+FfjzPUpdWOyLI6MZyBK88FdDLOwwV+xT6SVnF/pBOEcI6Llh/BOr0IM1A2ep/t2N4sAVNVUMXplZrrK3Cp2k4K0vbMEQa80Hr21iJRGz6a2ckTJuH3iYMht/Y8DQxpZ2WKFdXcGbHee1xMi8M1bEZIUfs92O7VvE9OoNG9AJz/7vNhyw/DbrEtrVFPl9V+VDMl/I0ZpKKkpLSXq8PZv1c/xv2yNk06XmFo+eJU41/UAPb3yrBpi/tsl0hfUCH9Uhujah7k3QLtWJ8uJIg3CzyqxDD42Kboi1hUPqXMQz5LeNXhizSWuYqxPOcW5uwkwp0eh9ZEtP0Jlcv4A6azjB9rYEZIRZxNQFH9D09tWzNMnx6+zyszwPdhxQfZ0u2UX9qW4JAP6uhdIAYHzaP7K5gjOnxRDdNLu5P/GHVewFpBiTw/pCQolbwabPOKeAHkGVsSRdKs5bkQd2Q8MoEiofFKhY5tS21bjoWs92al9/SpNeinH8TyKXf319NwFUHlFRiLF0cUd7Q5qKxtgkM4xJaE5yDN8HLKGtbMfFPL1mZWbjcTUeuOOxwWtcgpHHL1UXY2di9KLz8EY7gACuXtw6BhAVlaC+ZG8VQuEPGZ3FTbMyoL618N/vENLQzOA7TyKOws6o34sJeCvRPD3VVC6nTt1uaHv5GQEUssPfL1IAPz0+u+ptTgqLOShRU8cXEoOF5YfylJA6TeyTqo+XAbh21tYO5NrEoYaafi+mYSf7eed69DylXHMDxFVi7JSoeGXgNvRTOhvZWACfIhMhr4+r9wMtTwP0nhhUZfLlWu6MJyLi5piXfaKMUOuJD+Te3MLEMAqsEjYl7i4f1ZMarX5t70WWFylYHEzL6kvBNY6aqpJPM/++Fq84Ia6LG1AgOAWJENvtBmpHzGF+Wv7aLvh/+DOFxZTtSfdvhotfm+OGMkquy7a3TBYlrwQFLfvClcM4Ub+mR+TVTB8WWLRcICa3BE1wYz4Uj6NFRcVTpWdDkd1HrbXxhLa3XAWUjrox+UPmRGbbiqZnKngu5iIPbE7qzpGiDEiydXeoze7pQ7kU8pDL2izLiz3Ia+vCzLtBawY5HbJbF0mn7gVFA2QLbeXciTYEDf1M7/mu9tUBN4iNWVssNaL0qhdEg5qCEe8WJk3INZjvfVw40Pgr1TxYfamYOmicw5wddU716Hwejx3JBjwMmBxxaQi1/yk93tFmLvtwdzoeX0VpahmWvXpZ3j+grx310pXbdapWTmjERcXx7F3l/vAFoS4PmrDtXv1PzQfrwFR/CzIZJSLpw8hhHVdW2jJKZlkQRkGTqJ7dkCrpp6glKqr1uIdLvuR+34Id4ux5AFHeNpP2pHOg4cJoQywRjvdJ3umk11DOTVk22ZLWUnPlyBs3KIN7bgpM80rcW8kzt59tZdbnRYI3gPKI56Mg/O0v5gddhZpc9/0p5qCIIqEXKLG2Aapc4mR/VHQIypf4WGoPbSr0j52I4wuZ0gjHafoj68iO2yadjN8ghSJ/6dbHe68igLYD6EJ5pO3wKsihFtA05cefHr2ro4otPvAa75asgmjXDfRzIaWFr7gDsOq3PO6yvKk+RFpLWyQZMCpraRjVwNSckKfQ7mXGqMeGHY7g0lLiFuEE9JACXVSOrC0SGqcgQdwpfITo3yR5jzzqdVm9nAKpnwb6Ein9Ti3PIhVHtDRl1nmu2bcA68P3S6jhofeC6unMxFfjNpL9N63xA1JfqmwlMaPwYkrh5dFW8FrcmsUyt8APW/ChpD1AnD9IyI56u2Q8vlKwU8LGzdU/UWIJAH0uqakHanCU91L2taybNWTD+jgJY8/WjqTPrrJChJb8IwTDMHK0KxtjhWehK3dB5eM3Mesl1C3Tl/qp77TzF9E3wKPhFxnvaMa5ELcqqmRRi7/SUHaXqAqPxFaOxEa0wAnfdKFmYmn+k6Pg1dGqoTU7m9pJ5SdVdlOAec+M9xBkqbR63R8Wo9TOqQ2wJL2SWW2vRWqXBvFTvfghJi2e4ZWuwaxJjyrFb8gxBAXAzN61iXvDkUcbbJynF3b4dRQ9Pen1Jmj713jsJwTXPQXsMATPS097eDbNOyeFygtGCIyvs4sRApZx124F+h+NtiyP8mrcAyu6BonzOetVI2DD5SZkFybcb5STIMuG1+r10N2zJGQogbmMqQC40LiyfRpRi4A73p/BzkdvK6sbXNb8fcn1fSlUqLmZKY1abZ76FAI6La95B/XgED0Alb7Gf9TBk3suOL+oMId+l0KPNRhBDBnjXieeg12gVkeB6hHRGptHId92SN/YeDMYnYXNHb1qRvZbVjVfkL6wIXUnRq1GyklGyaA/3XEOONGu03YZmGqgd2SbAEqGol3+3FBBew8HJppea0I6HhBJosbqL39aXmqle/lcfxbS2E6l45fzjfGu0/is6Z5A6yHNZSafquI96RNMDJBbeotNeod11QDKT0KlLbIrHvTBrH7nNy8bMsv7PCGs4m+epO2ekQwgeuI+Ga4dpgA7LhjZcEYnwpBpTaULCi8Q10rXsNUFf3VVIE5XRhJU8sHmZ07jGRNWSH70z46bqKJR3kP9V9DIr+vCFu0/k52YGsKzT0lW2hb/eZzNuker55fUm9Oav159LjtybU8iqjwqof6rnTpknTuPscblpj+i7D8R9t2/RC3coyt1cgE99kKooO591gRa2Zkh8l6Gklyyiy1ZUpvw+M0jy+dTry+eXOjIESlwLLyVXZA3cXZcyhxB8HBQtvthBao1pHXgAe2+1jMtshpUhESGI99KWyFJXMl7e5qr51fHIZ/BuALHxVYsvCAcdK4eXL6FeYteaTByYn25rKiqeCRaDBQXlqFhrHcwoJTUmwMHyoA3FsPHCfl0N2DVgI/l2sO4QlZqWGGKOMnseHykHmwUoRgaS/TlJksmog7BI7aR1QxQCRt8Ljdd12JfvdTWhZTkiT31K3QcTRU8eaf8wDUHZEvWMvudhBIZWtTJL0tK3aJgf4XoaomHd9+dolWphnd3vDYlyDwTHCqnWKuGY1nircYoEypqrRvIcqPhLVoBxRQU91ZLNgCJuNZa6Y3UfFCGJQHBOM5uaT76xkouDPf+B+dTb3XQsivBWhudNHMWciS1e9VwLiJiFbB7gqw7KFoQhMKgBs+O5hmS4TZ4xTN/NNftxbMitIWU7rriyWMV93znG9tl7WYpi+Pzx2h3kQCPxqSVxAGN4sJzU+tkehN1FaPzPjwC05UWlGPMOyLOsUBvhme8TrDPKtgC0hBHpUkAIYpAppMNvaEhAF1y+jgF+xgzDOYYpIuz39/pt3I+vUFs7yOByHIIBPiYdJuwg+x/qcN+o1Ch2kVpRrHWKx7+hKtY7iNL+aTirAfRYQTT61s9S5YwVswgATF2QVNUw/hhm9zV2h4dt5T56igJ537ie8fYtUue0kHot9japjI5I2M+farbhNUifcKqu04btoNXA+L5f82WVqKetxky7A7tfHWDAauRMAt8zO77mZMJhWHbY02s9mx6gZ7vABcOnMBFIoZmCuOWzA3wkaJytr6dCEyB24U6YsRHtSuvBK0E+PVPDemnqEXx2ckTdpb1RdykEw5Cd2P/E2ioWm7TtXQL6oQEKx4a3mkfa+PLfBTmKox4M7rPR3V+gLlPj5N1Z/bKGWMOnakJlCyu1R4fiBHn2rgIn5ZWF+jImqmMys/oUopd3vvax7RUD76VRTXc+29okfnMfBJdzd8eIXpMvmemhe34j8+9XuGHdpoOIVpm6BJz7saBj/tOdYRkXNMA+SHVzU8mXyD6kgrSn0K7QxcnfJcsrHmZlN45oI5paglIZePlDdjKaMtsu+M0tfe0U/x+HpsOpZei17EVgma4TE+yboCD3Fn6YsbG9ih+HVlewmzUgwZ7a0G7uuNXGjRtXQnmvhpwFrxzzinof+jsj8EmzzKDwY1RxuwUyrW6GuABjIt9NUMlJWTnRCsNinZpJaBG2zvwWHoQbRgE+yAKvzT98fSpLta88Yh5Ixvi0Q3mOBpoYhtoPUrh4dfvKMNEr1JsHFSrSh2R9r1dzKC7TbGQm9OVZiQt2u36uJN2bLFgz8Xoj/kOSVobyw+Z9zwFDJVadeWb1hYfEFuxtdzJtxulciRSKqNUBVHT3OQhs6QD9Ov69W6YPjaHcRUnLFqr7pGl2YgIT5FgLiSa00EwHGww7C4mAg/SGhzI13tmH+9ezTgSJvrQDkhdaD5uQ8NR1dWxpOh+WXf+3Vlbavyc+M7qAwnQl2wAXEK8FMlO3LdZtfqjbBxPdXGN4DeI1IKCC4cRIoNWfY1WP2MgwY8QetjO4+7YLAPmRbBdEs4XoihI3Y9RaiowMKQoVMuPfoVgTtigRQmg3hdN7BQsS6CoL9ZAbMJ4YHYLy6Wrwvd9UllFbO5rRlZz7iQask4GkxTW2A9aiWMvaGoGFs2RLQo4Ua1IGpoqJlaBHyqlGPgMEXom8d0BhU08RPGZpTdFZJd2skIp544iGHT6d2cUZLI0jcoZfvGSjgy9Ba+SHoTz2lnGEvf+jWte+ReM3ci2DoTT9z1g3M3RN1A1n9U8X/9qWQjGgkorGe/k3SGNzypFQ1hAEbHsDlxzbfSs6cdHy5zJSWmMfoWYt6JOFG5H/QiLQsuSBzitc0bfii6KBLFLmXFnoLWA6dZ6Y72pXokHVSdS7Tf6hvIqqA6lcMcQa3cwg66gOB/k4b4XBhp/Wrt834p00BOnQGFiMORYJjPh2LFhK1Jf1TV0IwqVM/hPERl7gVQAuAhE+IiRXElZgY36VxKe47GrtTlWFsTI6Zgmyk6QUUIYVJ9EDPP4d41yxMep0FRCFCu9kDtsU8Q/+jRVHJxZMkRxPRIKjdB/b0avEgLur9vnFU2dJ9+OWRX/Z7men6Ia2Exdih0/sAakMU77GHvtpqkoTe8/lbGHABT06JMM77hTHZ4MpE4qDctg6725X284eg3jMEQl2SFjuN/MpS2nLLl8w+8vQo+uDy63/+0J5NMFdD0W/4c7Dp8UOr6RfOOp2tLbm23SoH8lH1IgHiFiqaM26JZysXDg4tAnIF9Mi7qJk3q06eqdUuHl0TjlHvK/hUDVq4HUtiu8/yPriXpHk5O8eyNWABgN0I0EBoQej1fieiPCpL/9/KNX4amyqwlodIKvLttkVJxeKqNcsdqZsCgpnM+j0VtShDynpJYOega3WkifWFXzpWvpbBpwoPMGJkI6Bu9EwcK9vQCfqy2V7gHyQGUw6f4JcKyBH1dTmHWrdFR2oGsKAbWISKjXYdEnq0YWyMcqiheTopUhML5KWIQ+c91ZL8Z/0T+FAl6Y7qHCmAdrIXRegHZpZ+uepwZHAMp4UEaJ7CKGcM/Fbt3pvRfTvjuf/dBfo2G1949L4W6n0W2T2kRe1FQHYFx1siW7lX5ZhGrCUhUJDtZwDQEuP5GBV/8ekvb9f9yr5kvXcsJeEtNLNM7+XmzPIaEs4LnbpssDQdrU3FsrV1+/RBuRirs8g4aqeMeVJjZ5xFd2/MQjMORLU9iW6IccIfnpRfXopGEFU1y31oJmU+pzb2flOaLPelYVMfDBZxgqHsluT0T1T+T+iwxStFuGGSSGwIPqyhh3qG/Vh3CyfJAdPQQO1XYaVk5j5IkWFX3a/Dwps1FSHFaQaTST63UDvjSLKqU0NeoXyuDxkrnNQF9DTuNWKujH4nPzGrJ4UwOcpAXZJVgzKoDDXRpdPksN+o+a2I6B+nMW+7pZGBY2pjamTOO0+qFKqIVaxlImpLES2vN4wk391DN1ZnAF2zRCbbR3hl5n+j7DEAsZA7S8bK9FnIibYp63rrZHyCglof/jC6Vu5UW86BYhS8Vfpv/YzhheAHIwst5fUAme8okDZyTZtmpeKrMBwrJG4+W3515PXklZPYs+HDYJytTeA+xmP+F2veHlRST3wHVhAygnmN6MczO2Wka9CdEbANASSVojXqF+aixyr4xE7r4rU3Sb1/o5gSKZ2EFu1shrZ+/bRXtcTiZDHanCu0c5RAFZcXvly710Aaw/t9ff/+WI2nASaUwvf/qa//O6iRcNaQAonHd7DFvDW5JjoF62BHNOMZfBZUrk6af2nbbnpXcLAz+nd/eg5OfGwQSUpHR1YLb/jcLzwsZU5tAyb163PNrmsOYXt1GPv/m/NP72i9gZVQSTH5KBqhdVwAwPTQSbIFEqrK+7a1NPCOIbX0ajAP0z5at9LuOde30E021V539amYfZNcpSL6ATGIIE2EW7cDyB9oCp9OoY66wALylmAY4n2CVtvZ2sn46jQxVUG9l/5B/lj9nLt9aZchOCgGE7h36MqxHtbDSzIISLvgI39c5i2+BxxdIyu18TOt3bGEtsNHlm2SjDMQ6gVliCxoR+hfPznHm2N/1PkC37MelI0YjHnmsMDAA7CmMbRXHqVmsyHRKv5IeLXwuAu5RpT/6X1rVD+QIOTKfZeeIrf2QCdXg/sFtzHhashtYYMQD7vpwPdTQ26M6mfz+DOS8uAElc7ozg6rtCG9P2VzRVhBS1WLP2Wk3pcU3GDtBmDgnG2KOarrvSwWmy70UADXVKiCyU5O0Qb+3Z1GC6wRMKEQaFHLR5Klrw+zpWpF1jFaVRnHDYayzRGwt897tA2V9gySFyITOOIrBsFY5CXzqAiud0czBanR0vCxu0H+YLyBEX/afwwh7mmP2ZNfCHCRKpT8HYonrij2EPl2PqRilBiQB2o1S7LmwOoELWnbkHEzoqlSghtdhqmxsOpLpqCX9/2eFQ01h1IwOBJMKXIvtYPK0m7LFlZ+6WQeyQnP0jDSedef1jU56Wro8IV6lRNa/Kq3sJG+iC+KmCdRnMP+aj9pZQiN8GD8+qvrJ9o9c2AoKsHOnPiobR+XFr8C1p7xXsXFxihRC1a47i+iBBUyLc/5yMRJQMXTLgQ6KQjt94ZLBNn0AJ8miNy95ZvLqlZyPHuz1yThqMMzfSwV6eqV0WqafAD248dcYpfqgYNC3lrVthkr3FdPNq66xt7V0KJhLEHvPo/iKBDUFc7Rq1eBecJRJqHqI3MqRxlJrCnc1GC/HmRuD7LJM3csLO1wNzEikCK2v2YCGeHpCIJpinEecEODTiMoKSIm69p7HmjKqkizYO+zsb0WH4tbsFHRZShukz7StN1icwf4aARSG21eTjy8n4KTghZsYv3TWrdYEojU2QjDc0TrAHbrvUsoxH/Jeh6QpHb+z+m76C8bdvK6IlBus2GrpOSSrkiBamcfaAbPA485QLDJzuE+7/j1OXSY5KEEu8xUgF9RWh+J59em4ZSeWswZE/3Rxitl6fUWUBuZqOkE3R2XZBan4QdvDOyY2k8XKCECPvhRe5QE4fJpmpBRd5QIF8ti9RfIeCsiBSdQsD+bp3J/vtfUTBkqoxDrj4uSWq8Snmcgtsu84mOaDtSkdQjllFwYXKIGQMl/g2QWimu4J5l1gzfxpcQ5LDhqe3CKvT3AReUfE7IQ8VPH74bG8CiLYOBc+N2ZDazg+e6s5CkMyM3DIcdNOkDjPQt0HI7QnIsggWXInHirI1b42h+bCEmnv8gQWQSZ1quyMnWI8xY5FK44WdZGzWr9KOdkpBEiBOQT7MjOs3cPyWLgUmtPHTAXls7AWMzZEE2SdVAMwSXx93Uc3LvEg72iaamFCvzAsyUMqvQKSXOQtEbq1Aj5r0SyQOmnmvoLVrXxv1Xo119LRnu9Tv0MeSc0nQ+QiHdrdMRpEVd5GM0PoLLAxJrt4sdcl41txQDEHLqF7/fQa3rKoDu1R45gFfZZPKV/MWyC9r7lp7/tP7r5xGisKP45qcb40sqff/PtkruTCTYmPGDOqJxwEm45xx0QrSPpMKCMfotkyL9W7qiVvae1lklF5CTU7cMHgex2xM8vboRCbJR9vO5hC7m8WMqXPz4rpVp1HBj</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/cvpr-2026/program-notes/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

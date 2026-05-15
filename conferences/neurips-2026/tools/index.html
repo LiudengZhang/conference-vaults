@@ -13131,105 +13131,34 @@
   
 
 
-<h1 id="neurips-2026-tools-methods-filtered">NeurIPS 2026 — Tools / Methods (filtered)<a class="headerlink" href="#neurips-2026-tools-methods-filtered" title="Permanent link">&para;</a></h1>
-<blockquote>
-<p><strong>Status:</strong> Template stub. Meeting is ~7 months out; main-track accepted-paper list lands Sep 24, 2026; workshop accepted-paper lists land Oct–Nov 2026. No entries are populated yet — this page exists to lock the per-tool format and the <strong>scope filter</strong> before extraction begins.</p>
-</blockquote>
-<h2 id="scope-filter-load-bearing-this-is-a-light-build">Scope filter (load-bearing — this is a light build)<a class="headerlink" href="#scope-filter-load-bearing-this-is-a-light-build" title="Permanent link">&para;</a></h2>
-<p>NeurIPS 2026 accepts ~2,000 main-track papers + thousands more across workshops. We do <strong>not</strong> extract them all. An entry lands in this directory <strong>only if</strong> it satisfies one of:</p>
-<ol>
-<li><strong>Workshop filter</strong> — appears in one of the bio / health / drug-discovery / structural-biology workshops:</li>
-<li><strong>MLSB</strong> — Machine Learning in Structural Biology</li>
-<li><strong>AI4NewDrugs / AI4D3</strong> — AI for New Drug Modalities / AI for Drug Discovery</li>
-<li><strong>LMRL</strong> — Learning Meaningful Representations of Life</li>
-<li><strong>GenAI4Health</strong> — Generative AI for Health</li>
-<li><strong>AIM-FM</strong> — Advancements In Medical Foundation Models</li>
-<li><strong>AI4Science</strong> — AI for Science (only the bio / chem subset; skip physics-only and materials-only contributions)</li>
-<li><strong>Main-track keyword filter</strong> — title or abstract contains any of: <em>cancer, oncology, tumor, genomics, single-cell, scRNA, spatial transcriptomics, perturbation, CRISPR, drug discovery, molecular property, protein structure, foundation model for biology, electronic health record, clinical NLP, pathology, histology, virtual cell</em>.</li>
-<li><strong>Agentic-AI / LLM-for-science filter</strong> — main-track or workshop paper on LLM agents, tool-use, scientific-reasoning benchmarks, or autonomous experimentation, regardless of explicit bio framing. These reliably adapt to oncology within 6 months and feed the AACR agentic-AI axis.</li>
-</ol>
-<p>Everything else — general vision / NLP / RL / theory / optimization / fairness / robotics — is <strong>out of scope</strong> and gets no entry here. Reviewer bandwidth is the binding constraint, not source availability.</p>
-<h2 id="per-entry-template">Per-entry template<a class="headerlink" href="#per-entry-template" title="Permanent link">&para;</a></h2>
-<p>Each in-scope paper gets a file (<code>tools/&lt;paper-slug&gt;.md</code>) following this structure:</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># &lt;Method / Tool name&gt;</span>
+<div id="mkdocs-encrypted-content" style="display:none">bDsw+tRMhN5umhaKn80uhQ==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<span class="gs">**One-line description**</span> — what the method does in plain language.
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/neurips-2026/tools/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<span class="k">-</span><span class="w"> </span><span class="gs">**Authors:**</span> &lt;first author + lab + institution&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Track:**</span> main-track / MLSB / LMRL / AI4D3 / GenAI4Health / AIM-FM / AI4Science
-<span class="k">-</span><span class="w"> </span><span class="gs">**OpenReview:**</span> [paper page]
-<span class="k">-</span><span class="w"> </span><span class="gs">**arXiv / bioRxiv:**</span> [preprint link]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Code:**</span> [GitHub link]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Pretrained weights:**</span> [HF Hub / Zenodo link if applicable]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Satellite hub:**</span> Sydney / Atlanta / Paris (if presentation is hub-specific)
-
-<span class="gu">## Presentation at NeurIPS 2026</span>
-
-<span class="k">-</span><span class="w"> </span><span class="gs">**Format:**</span> oral / spotlight / poster / workshop talk
-<span class="k">-</span><span class="w"> </span><span class="gs">**Day / session:**</span> ...
-<span class="k">-</span><span class="w"> </span><span class="gs">**SlidesLive / YouTube:**</span> [link, post-meeting]
-
-<span class="gu">## What it does</span>
-
-2–3 sentences: the problem it solves, the methodological idea, what it consumes and produces.
-
-<span class="gu">## Why it matters for cancer / biology</span>
-
-Explicit statement of the bridge to oncology — even for main-track papers that don&#39;t claim cancer relevance. Example: &quot;Equivariant GNN for protein–ligand binding affinity; directly applicable to target-engagement prediction in oncology drug discovery.&quot;
-
-<span class="gu">## Where it fits in the corpus</span>
-
-<span class="k">-</span><span class="w"> </span>AACR 2026 agentic-AI axis: [link if relevant]
-<span class="k">-</span><span class="w"> </span>AACR 2026 virtual-cells axis: [link if relevant]
-<span class="k">-</span><span class="w"> </span>ISMB 2026: [link if benchmarked / cited]
-<span class="k">-</span><span class="w"> </span>RECOMB 2026: [link if benchmarked / cited]
-<span class="k">-</span><span class="w"> </span>ASCO 2026: [link if clinically translated]
-
-<span class="gu">## Notes</span>
-
-Free-form: benchmarks claimed, comparisons to scGPT / Geneformer / ESM / RFdiffusion / AlphaFold / Boltz / Evo / NT, scaling-law observations, agentic-AI capabilities, regulatory implications.
-</code></pre></div>
-<h2 id="tool-index">Tool index<a class="headerlink" href="#tool-index" title="Permanent link">&para;</a></h2>
-<p><em>Empty — populates from Sep 29, 2026 (workshop roster) onward. Anticipated final count: ~30–60 entries across the five bio workshops + main-track filter hits + agentic-AI subset.</em></p>
-<table>
-<thead>
-<tr>
-<th>Method / Tool</th>
-<th>Track</th>
-<th>Modality</th>
-<th>Authors</th>
-<th>Format</th>
-<th>OpenReview</th>
-<th>Code</th>
-<th>Mentioned elsewhere</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="why-this-format">Why this format<a class="headerlink" href="#why-this-format" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Track + satellite-hub fields</strong> — NeurIPS spans three cities and a dozen+ venues per year; these two fields disambiguate where a result lived without polluting the page body.</li>
-<li><strong>"Why it matters for cancer / biology" is mandatory</strong> — most NeurIPS work is not explicitly oncology, but the only reason it's in this vault is the cancer downstream. Forcing this field keeps the filter honest.</li>
-<li><strong>Pretrained weights row</strong> — NeurIPS bio papers increasingly ship HF Hub / Zenodo weights; tracking these is the difference between a paper entry and a usable tool entry.</li>
-<li><strong>Cross-vault links to AACR axes</strong> — the load-bearing purpose: a NeurIPS December result should be one click from the AACR April session where it gets demonstrated on a tumor dataset.</li>
-</ul>
-<h2 id="open-questions">Open questions<a class="headerlink" href="#open-questions" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>Workshop-only papers without code or weights</strong> — keep as entries anyway, or defer to "main proceedings only"? <em>Tentative: keep; workshop ideas often pre-stage code releases.</em></li>
-<li><strong>Agentic-AI subset granularity</strong> — every LLM-agent paper, or only those with a science / bio benchmark? <em>Tentative: only those with a science / tool-use / SWE-bench-class benchmark; pure dialog-agent work is out.</em></li>
-<li><strong>Satellite-hub overlap</strong> — if the same paper is presented at two hubs, one entry or two? <em>Tentative: one entry, both hubs noted.</em></li>
-</ol>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

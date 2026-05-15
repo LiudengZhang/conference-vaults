@@ -13029,155 +13029,34 @@
   
 
 
-<h1 id="pathchat-pathchat-2">PathChat / PathChat-2<a class="headerlink" href="#pathchat-pathchat-2" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> path-fm (vision-language)
-<strong>Modality:</strong> H&amp;E and IHC histology images (tile / ROI level) + free-text clinical context; outputs natural-language answers, diagnoses, and rationale
-<strong>Released:</strong> PathChat: Nature, June 2024 (Lu et al., Mahmood Lab); PathChat+ / PathChat-2: 2024 follow-up; PathChat DX: FDA Breakthrough Device Designation, January 2025 (Modella AI)
-<strong>License:</strong> PathChat weights are not openly redistributed — academic access via Mahmood Lab request; clinical "PathChat DX" version is commercial via Modella AI. The Nature 2024 paper is open access
-<strong>Code/checkpoint:</strong> <a href="https://comp-path.bwh.harvard.edu/pathchat/">comp-path.bwh.harvard.edu/pathchat</a> (access request); <a href="https://www.modella.ai/pathchat">modella.ai/pathchat</a> (commercial)
-<strong>Also surfaced in:</strong> agentic-ai, virtual-cells</p>
-<blockquote>
-<p>PathChat is a multimodal vision-language assistant for pathology
-from the Mahmood Lab (Mass General Brigham / Harvard) — a histology
-"copilot" that accepts an H&amp;E or IHC region of interest plus
-free-text clinical context and returns natural-language answers,
-differential diagnoses, and explanations. It is built by pairing a
-pathology-tuned vision encoder (UNI, further aligned to text on 1.18M
-pathology image-caption pairs) with a 13B-parameter Llama-2 LLM via
-a LLaVA-style multimodal projector, then instruction-tuning the
-stack on 456,916 visual-language instruction pairs covering 999,202
-question-answer turns. The clinical-grade follow-up, PathChat DX,
-was granted FDA Breakthrough Device Designation in January 2025 —
-one of the first generative-AI pathology tools to receive the
-designation.</p>
-</blockquote>
-<h2 id="architecture-training">Architecture &amp; training<a class="headerlink" href="#architecture-training" title="Permanent link">&para;</a></h2>
-<p><strong>Vision encoder.</strong> PathChat re-uses the <strong>UNI</strong> ViT-L/16 backbone
-from the same lab, pretrained on ~100M H&amp;E tiles from ~100K slides via
-DINOv2 self-supervision. A vision-language alignment stage further
-trains this encoder on <strong>1.18 million pathology image-caption pairs</strong>
-(curated from textbooks, PubMed Central figures, and lab-internal
-sources) — this stage is conceptually equivalent to CONCH-style
-contrastive alignment and produces a text-aware vision encoder.</p>
-<p><strong>LLM backbone.</strong> A <strong>13B-parameter Llama-2</strong> chat model. The vision
-encoder feeds the LLM through a multimodal projector module in the
-LLaVA-1.5 style: image tokens are concatenated to the text token
-stream before the first transformer layer.</p>
-<p><strong>Instruction tuning.</strong> The full stack is fine-tuned end-to-end (or
-LoRA-style — the paper uses full-MLLM tuning) on <strong>456,916 unique
-visual-language instructions covering 999,202 question-answer turns</strong>.
-The earlier arXiv preprint (2312.07814) reports a smaller 257K
-instruction set; the published Nature version expanded to the 456K
-figure. Instructions span tumor identification, grading,
-differential diagnosis, biomarker reasoning, and IHC interpretation.</p>
-<p><strong>PathChat+ / PathChat-2.</strong> A follow-up MLLM trained on <strong>&gt;1 million
-pathology-specific instruction samples and ~5.5M Q-A turns</strong>, with
-upgraded vision encoder and instruction curation. PathChat+ reports
-<strong>80.0% accuracy on a held-out differential-diagnosis benchmark</strong>, a
-+8 absolute-point lift over PathChat-1. PathChat DX is the
-clinically-validated derivative carrying the FDA Breakthrough
-Designation.</p>
-<h2 id="headline-benchmarks">Headline benchmarks<a class="headerlink" href="#headline-benchmarks" title="Permanent link">&para;</a></h2>
-<p><strong>Multiple-choice diagnostic accuracy (Nature 2024, image only):</strong>
-- <strong>PathChat: 78.1%</strong> image-only; <strong>89.5%</strong> when patient clinical
-  context (age, sex, history, radiology) is added.
-- The arXiv preprint reports 70.8% image-only / 81.2% with context for
-  an earlier checkpoint — the +50%-pt and +52%-pt gaps vs. LLaVA-1.5
-  and LLaVA-Med in the preprint reflect that earlier checkpoint.</p>
-<p><strong>Head-to-head pairwise win rates (Nature 2024 evaluation by
-board-certified pathologists, open-ended responses):</strong></p>
-<table>
-<thead>
-<tr>
-<th>Comparator</th>
-<th>PathChat median win rate</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>GPT-4V</td>
-<td>56.5%</td>
-</tr>
-<tr>
-<td>LLaVA-1.5</td>
-<td>67.7%</td>
-</tr>
-<tr>
-<td>LLaVA-Med</td>
-<td>74.2%</td>
-</tr>
-</tbody>
-</table>
-<p>PathChat beats GPT-4V on pathologist preference even though GPT-4V
-operates with a vastly larger underlying LLM — the gap is driven by
-the pathology-tuned vision encoder.</p>
-<p><strong>vs. UNI / Virchow / Prov-GigaPath.</strong> These are vision-only feature
-extractors and are not directly comparable on the QA / chat tasks
-PathChat is benchmarked on. The closest analogue is CONCH, also from
-the Mahmood Lab; PathChat re-uses CONCH-class alignment data but adds
-the generative LLM head, so it competes with LLaVA-Med rather than
-with UNI.</p>
-<h2 id="why-it-matters-for-aacr-clinical-pathology">Why it matters for AACR / clinical pathology<a class="headerlink" href="#why-it-matters-for-aacr-clinical-pathology" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>First MLLM pathology copilot with FDA Breakthrough Designation.</strong>
-  PathChat DX (Modella AI, January 2025) is among the first generative
-  AI tools for pathology to receive Breakthrough Device Designation,
-  making PathChat the most regulatorily mature item in this catalog.</li>
-<li><strong>Closes the loop with clinical context.</strong> The +11.4-pt accuracy
-  gain from adding text-based clinical context (78.1% → 89.5%) is a
-  direct experimental answer to a question AACR sessions repeatedly
-  pose: how much does multimodal context actually move the needle on
-  diagnostic accuracy?</li>
-<li><strong>Agentic AI substrate.</strong> Several AACR 2026 agentic-AI sessions
-  describe pathologist-in-the-loop AI; PathChat is the canonical
-  example of the underlying primitive (image + text → reasoning).</li>
-</ul>
-<h2 id="known-limitations">Known limitations<a class="headerlink" href="#known-limitations" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Closed weights.</strong> PathChat is not redistributed under an
-  open-source license; academic users must request access through
-  the Mahmood Lab portal, and commercial use is mediated through
-  Modella AI.</li>
-<li><strong>ROI-level, not WSI-native.</strong> PathChat operates on
-  pathologist-selected regions of interest, not whole gigapixel
-  slides — the system does not include a slide-level aggregator and
-  therefore depends on upstream ROI selection (manual or via a
-  separate WSI model).</li>
-<li><strong>Llama-2 backbone is aging.</strong> The 13B Llama-2 LLM was
-  state-of-the-art in 2023 but trails Llama-3.x and Qwen-2.x on
-  general reasoning by 2026; PathChat-2 / DX is presumed to update
-  the backbone but details are not fully public.</li>
-<li><strong>English-only.</strong> All instruction tuning and clinical context is
-  English-language; multilingual deployment is not evaluated.</li>
-<li><strong>Hallucination risk on rare entities.</strong> The Nature paper documents
-  cases where PathChat fabricates plausible-but-wrong differential
-  diagnoses for tumor entities under-represented in the
-  instruction-tuning corpus — a generic MLLM failure mode that is
-  load-bearing here because outputs look authoritative.</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Lu M.Y., Chen B., Williamson D.F.K., Chen R.J., Zhao M., Chow A.K.,
-  Ikemura K., Kim A., Pouli D., Patel A., Soliman A., Chen C., Ding T.,
-  Wang J.J., Gerber G., Liang I., Le L.P., Parwani A.V., Weishaupt L.L.,
-  Mahmood F. (2024). <em>A multimodal generative AI copilot for human
-  pathology.</em> Nature 634, 466-473. <a href="https://doi.org/10.1038/s41586-024-07618-3">doi:10.1038/s41586-024-07618-3</a> — open access.</li>
-<li>Lu M.Y. et al. (2023). <em>A Foundational Multimodal Vision Language AI
-  Assistant for Human Pathology.</em> <a href="https://arxiv.org/abs/2312.07814">arXiv:2312.07814</a> — preprint with the earlier 257K instruction set and 70.8% benchmark.</li>
-<li>Mahmood Lab landing page: <a href="https://comp-path.bwh.harvard.edu/pathchat/">comp-path.bwh.harvard.edu/pathchat</a>.</li>
-<li>Modella AI commercial site and FDA Breakthrough announcement (Jan
-  2025): <a href="https://www.modella.ai/pathchat-fda-breakthrough-designation">modella.ai/pathchat-fda-breakthrough-designation</a>.</li>
-<li>Nature Biotechnology research-highlight commentary: <em>Vision-language
-  AI assistance in human pathology.</em> <a href="https://www.nature.com/articles/s41587-024-02326-9">nature.com/articles/s41587-024-02326-9</a>.</li>
-<li>License: Nature paper is open access (CC-BY); model weights are not
-  openly redistributed.</li>
-</ul>
-<h2 id="use-in-the-aacr-2026-corpus">Use in the AACR 2026 corpus<a class="headerlink" href="#use-in-the-aacr-2026-corpus" title="Permanent link">&para;</a></h2>
-<!-- mentions:start -->
+<div id="mkdocs-encrypted-content" style="display:none">ttA2Fp2yY8A8kIhLXFkDDQ==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<p><em>Mention scan pending — populated by the alias-matching pipeline used
-for UNI, CHIEF, and Prov-GigaPath.</em></p>
-<!-- mentions:end -->
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/pathchat/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

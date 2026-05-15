@@ -13120,30 +13120,34 @@
   
 
 
-<h1 id="noelia-ferruz-controllable-protein-design-with-language-models">Noelia Ferruz — "Controllable protein design with language models"<a class="headerlink" href="#noelia-ferruz-controllable-protein-design-with-language-models" title="Permanent link">&para;</a></h1>
-<p><strong>Affiliation:</strong> IRB Barcelona (Institute for Research in Biomedicine); Ferruz Lab — protein language models (ProtGPT2, ZymCTRL, and successors)
-<strong>Day / session:</strong> Day 2 (Thu Sep 18, 2025) — afternoon keynote
-<strong>Talk title:</strong> "Controllable protein design with language models"
-<strong>Slides:</strong> <a href="https://zenodo.org/records/17193056">Zenodo 10.5281/zenodo.17193056</a>
-<strong>Video:</strong> <a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQS_qvtLJNdDqHL6z5jj5y_7">Bioconductor YouTube — plenaries playlist</a> (keynotes recorded)
-<strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></p>
-<h2 id="thesis">Thesis<a class="headerlink" href="#thesis" title="Permanent link">&para;</a></h2>
-<p>Protein language models — autoregressive transformers trained on UniProt-scale sequence corpora — can generate plausible novel proteins, but the practical question for design is <em>control</em>: conditioning generation on function (EC class, binding target, stability), on structure (fold family), or on sequence constraints (active-site motifs). The talk likely argues that controllability — via conditional training tags (ZymCTRL-style), classifier-free guidance, or structure-conditioned decoding — is what moves protein-LMs from "interesting samplers" to "useful design tools," with wet-lab validation as the load-bearing evidence.</p>
-<h2 id="speaker-context">Speaker context<a class="headerlink" href="#speaker-context" title="Permanent link">&para;</a></h2>
-<p>Noelia Ferruz leads a group at IRB Barcelona focused on protein language models and their use for de novo design. Her lab released ProtGPT2 (2022), one of the first GPT-2-class autoregressive models trained on protein sequences to demonstrate that LMs can sample novel, foldable, expressible proteins; ZymCTRL extended the approach with conditional control tokens for enzyme class. The lab has continued publishing on controllability, evaluation, and wet-lab characterization of generated sequences. Inviting her into a Bioconductor program signals deliberate bridging — protein-LMs are not native to the R/Bioconductor ecosystem, but they are increasingly the framing for any "AI-driven biology" conversation a methods audience needs to track.</p>
-<h2 id="connections-to-the-corpus">Connections to the corpus<a class="headerlink" href="#connections-to-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li>AACR axis: virtual-cells — protein-LMs are a foundational layer for any "virtual cell" that needs to reason over protein sequence / function</li>
-<li>AACR axis: agentic-ai — controllable generation is the substrate that closed-loop design agents (generate → predict → assay → update) build on</li>
-<li>AACR axis: bioinfo-tools — the foundation-model sub-axis; closest neighbor in the corpus is the protein / sequence-LM thread of AACR 2026 dossiers (when those come online)</li>
-<li>This is the most "adjacent" keynote in the EuroBioC program — no direct Bioconductor package crosslink, intentionally</li>
-</ul>
-<h2 id="open-questions">Open questions<a class="headerlink" href="#open-questions" title="Permanent link">&para;</a></h2>
-<ul>
-<li>What's new since the last Ferruz public talk — a new model release, a wet-lab campaign, a benchmarking framework, or a methods-paper synthesis? The recording will tell.</li>
-<li>Does she engage with the structure-prediction / inverse-folding literature (ESM3, ProteinMPNN, RFdiffusion) directly, or stay within the sequence-only autoregressive frame? The hybrid is where the field is moving.</li>
-<li>Any concrete tooling story for a Bioconductor / R audience — an interface, a benchmarking dataset, a way for non-ML labs to use these models — or is this a "here's where the field is" talk?</li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">ZYzsm2qGdmRyfWfjjd2BEw==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/keynotes/ferruz/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

@@ -13142,48 +13142,34 @@
   
 
 
-<h1 id="synextend">SynExtend<a class="headerlink" href="#synextend" title="Permanent link">&para;</a></h1>
-<p><strong>Tools for orthology detection, synteny analysis, and comparative genomics on top of DECIPHER</strong> — a Bioconductor companion to Erik Wright's DECIPHER package, providing functions to compute synteny hits, predict gene-functional associations (EvoWeaver), and cluster orthology networks at billion-edge scale (ExoLabel).</p>
-<ul>
-<li><strong>Maintainers:</strong> Nicholas Cooley, Aidan H. Lakshman, Erik S. Wright (University of Pittsburgh) — <code>npc19@pitt.edu</code></li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/SynExtend.html">SynExtend</a></li>
-<li><strong>Source:</strong> <a href="https://github.com/ahl27/SynExtend">github.com/ahl27/SynExtend</a> (Lakshman fork) · upstream Bioconductor git</li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/release/bioc/vignettes/SynExtend/inst/doc/UsingSynExtend.html">Using SynExtend</a></li>
-<li><strong>EvoWeaver paper:</strong> <a href="https://www.nature.com/articles/s41467-025-">Lakshman &amp; Wright, <em>Nature Communications</em> 2025</a> — large-scale prediction of gene functional associations</li>
-<li><strong>ExoLabel:</strong> disk-backed linear-time community-detection algorithm shipped inside SynExtend</li>
-<li><strong>License:</strong> GPL-3</li>
-<li><strong>Status at GBCC2025:</strong> methods talk on the orthology-clustering extension (ExoLabel)</li>
-</ul>
-<h2 id="talk-at-gbcc2025">Talk at GBCC2025<a class="headerlink" href="#talk-at-gbcc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speakers:</strong> Aidan H. Lakshman, Erik S. Wright (University of Pittsburgh)</li>
-<li><strong>Day / session:</strong> Day 2 (Tue Jun 24, 2025) — Oral Session 2B, Grace Auditorium (chair: Vincent Carey)</li>
-<li><strong>Talk title:</strong> "Orthology Detection at the Scale of Modern Genomics"</li>
-<li><strong>Slides:</strong> TBD</li>
-<li><strong>Video:</strong> <a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQTJ0O_FIO9ayqaUDfnMo4-4">GBCC2025 playlist</a></li>
-<li><strong>Abstract / schedule:</strong> <a href="https://gbcc2025.bioconductor.org/program/scientific_program/">GBCC2025 program</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>SynExtend extends DECIPHER's sequence-comparison primitives into a full comparative-genomics stack: pairwise-similarity computation, synteny-block detection, orthology-network construction, and clustering of the resulting graph into orthologous groups. The GBCC2025 emphasis is on <strong>ExoLabel</strong> — a community-detection algorithm that uses disk storage to identify clusters on arbitrarily large similarity networks in linear time with bounded RAM, which sidesteps the memory wall that conventional orthology pipelines (MCL, OrthoFinder) hit at the scale of thousands of genomes.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> SynExtend bootstraps orthology from synteny: DECIPHER's <code>FindSynteny()</code> first locates "exactly matched shared k-mers" between genomes and stitches proximate matches into significant syntenic blocks, then features that fall under those syntenic k-mer links are flagged as candidate ortholog pairs. The candidate pair graph is then clustered into orthogroups.</p>
-<p><strong>Inputs / outputs.</strong> Inputs are DECIPHER SQLite sequence databases plus gene/feature annotations and a k-mer matching threshold. Outputs are synteny maps across genomes, scored ortholog pair predictions, and orthogroup cluster assignments; EvoWeaver layers gene-functional-association predictions on top.</p>
-<p><strong>Key innovation.</strong> <strong>ExoLabel</strong> — a disk-backed, linear-time community-detection algorithm for the ortholog graph, which keeps memory bounded as the genome count grows. Together with EvoWeaver (Lakshman &amp; Wright, <em>Nat. Commun.</em> 2025), this is what lets the DECIPHER ecosystem scale orthology detection past the size where MCL / OrthoFinder run out of RAM.</p>
-<p><strong>Parameters worth knowing.</strong>
-- <code>FindSynteny()</code> — detects k-mer matches and assembles syntenic blocks.
-- <code>NucleotideOverlap()</code> — computes sequence-similarity metrics over the synteny links.
-- <code>PairSummaries()</code> — aggregates per-pair statistics for ortholog candidates.
-- <code>ExoLabel()</code> — disk-backed clustering of the resulting orthology network.</p>
-<p><strong>Canonical example.</strong> The vignette loads the bundled <code>Endosymbionts_v05a.sqlite</code> (three endosymbiont genomes with distant evolutionary relationships) and runs <code>Syn &lt;- FindSynteny(dbFile = DBPATH)</code> to produce a synteny summary across the three genomes, which then feeds into the pair-scoring and ExoLabel-clustering stages.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> axis = bioinfo / AI methods; orthology at scale matters for pan-cancer comparative-genomics and tumor-evolution dossiers</li>
-<li><strong>EuroBioC 2025:</strong> no direct counterpart; comparative-genomics infrastructure is GBCC-side</li>
-<li><strong>ISMB 2026:</strong> scaffold; expect overlap on scalable orthology methods</li>
-<li><strong>Nextflow Summit 2026:</strong> not mentioned</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>ExoLabel's linear-time-on-disk approach is the load-bearing claim. The package sits in the DECIPHER ecosystem (Wright lab at Pitt) — credibility comes from how heavily DECIPHER itself is used for ribosomal-RNA alignment and microbial-genome work across Bioconductor.</p>
+<div id="mkdocs-encrypted-content" style="display:none">ZYHA2OCyGkoiJPXHM+tf+Q==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/gbcc-2025/tools/synextend/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

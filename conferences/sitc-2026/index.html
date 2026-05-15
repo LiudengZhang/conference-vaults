@@ -13197,146 +13197,34 @@
   
 
 
-<h1 id="sitc-2026">SITC 2026<a class="headerlink" href="#sitc-2026" title="Permanent link">&para;</a></h1>
-<p><strong>SITC 41st Annual Meeting &amp; Pre-Conference Programs</strong> — Phoenix Convention Center, Phoenix, AZ · November 4 – 8, 2026. ~6,000 attendees, the premier cancer-immunotherapy venue of the year.</p>
-<blockquote>
-<p><strong>Status:</strong> Scaffold — meeting is <strong>6 months out</strong> as of today (May 11, 2026). Vault structure is being seeded now so we can move quickly on the abstract embargo (regular abstracts open Apr 22 → close Jun 25; presentation embargoes lift on the morning of the talk in early November). Anything in this vault dated before SITC 2026 is built from SITC 2025 program shape, company toplines, and partner / sponsor press from JPM 2026, AACR 2026, and ASCO 2026 — flagged inline.</p>
-</blockquote>
-<h2 id="why-this-is-in-the-vault">Why this is in the vault<a class="headerlink" href="#why-this-is-in-the-vault" title="Permanent link">&para;</a></h2>
-<p>SITC is the <strong>immunotherapy half-life</strong> of the oncology calendar — the venue where checkpoint, cell therapy (CAR-T, TIL, TCR-T), bispecifics, neoantigen vaccines, and tumor-microenvironment biology converge in one program. It sits at a deliberate intersection with two AACR axes:</p>
-<ol>
-<li><strong>Clinical-trials axis</strong> — early- and mid-phase IO readouts (Ph1/2 cell-therapy and bispecific cohorts, checkpoint-resistance combos, neoantigen-vaccine signal). Many SITC presentations are the IO trials that didn't fit the ASCO Plenary calendar or the AACR mechanism slot — earlier-phase data on drugs that will land at ASCO 2027 or ESMO 2027.</li>
-<li><strong>Single-cell / spatial-omics axis</strong> — immune profiling is half the program. Multiplex IF, spatial transcriptomics, scRNA-seq, TCR repertoire, ctDNA-MRD, and microbiome readouts anchor a large block of the methods program. Same tools, same labs as the EuroBioC / GBCC / RECOMB tools axis, applied to IO-specific biological questions.</li>
-</ol>
-<p><strong>Hybrid template (and the design decision behind this vault):</strong> SITC is <strong>neither pure-clinical (ASCO) nor pure-tools (EuroBioC)</strong> — it's both, in the same program, often back-to-back in the same session. Pure per-trial pages miss the methods talks; pure per-tool pages miss the cell-therapy cohorts. We're running <strong>both templates in parallel</strong>:</p>
-<ul>
-<li><code>trials/</code> — per-trial / per-readout entries for drug + cell-therapy readouts (CAR-T cohorts, bispecific Ph1/2, neoantigen-vaccine arms, checkpoint-resistance combos). Schema borrowed from <a href="../asco-2026/trials/">ASCO 2026 trials</a>.</li>
-<li><code>tools/</code> — per-tool entries for biomarker, immune-profiling, and spatial-immune methods (multiplex IF panels, TCR repertoire pipelines, ctDNA-MRD assays, microbiome 16S/shotgun protocols, spatial-immune classifiers). Schema borrowed from <a href="../eurobioc-2025/tools/">EuroBioC 2025 tools</a>.</li>
-</ul>
-<p>Cross-links between the two are the load-bearing piece: a CAR-T cohort in <code>trials/</code> should link to the spatial-immune profiling tool that read its biopsies in <code>tools/</code>, and vice versa.</p>
-<h2 id="what-we-have-will-have-to-work-with">What we have / will have to work with<a class="headerlink" href="#what-we-have-will-have-to-work-with" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Source</th>
-<th>Coverage</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>SITC Annual Meeting site</strong></td>
-<td>program, plenary slate, pre-conference workshops</td>
-<td><a href="https://www.sitcancer.org/2026/home">sitcancer.org/2026</a> — primary</td>
-</tr>
-<tr>
-<td><strong>Journal for ImmunoTherapy of Cancer (JITC)</strong></td>
-<td>abstract supplement (published as JITC volume, open access)</td>
-<td><a href="https://jitc.bmj.com/">jitc.bmj.com</a> — the official abstract record, citable DOI per abstract</td>
-</tr>
-<tr>
-<td><strong>SITC press program</strong></td>
-<td>embargoed media briefings during the meeting</td>
-<td>press releases typically wire-syndicated same day</td>
-</tr>
-<tr>
-<td><strong>ACIR Weekly Digest</strong></td>
-<td>curated post-session expert recap</td>
-<td><a href="https://acir.org/">acir.org</a> — Cancer Research Institute editorial, names key abstracts</td>
-</tr>
-<tr>
-<td><strong>Cancer Research Institute blog</strong></td>
-<td>conference-week editorial</td>
-<td><a href="https://www.cancerresearch.org/blog">cancerresearch.org/blog</a></td>
-</tr>
-<tr>
-<td><strong>OncLive / Targeted Oncology / CancerNetwork</strong></td>
-<td>trade-press recaps, video stand-ups</td>
-<td>similar pattern to ASCO</td>
-</tr>
-<tr>
-<td><strong>Endpoints / STAT / BioPharma Dive / Evaluate</strong></td>
-<td>analyst framing, sponsor stock reactions</td>
-<td>sub-required for some</td>
-</tr>
-<tr>
-<td><strong>Company press releases</strong></td>
-<td>toplines (often pre-meeting), full deck post-presentation</td>
-<td>wire-service syndication</td>
-</tr>
-<tr>
-<td><strong>Plenary livestream + replay</strong></td>
-<td>session video for hybrid attendees</td>
-<td>SITC virtual platform</td>
-</tr>
-<tr>
-<td><strong>Social</strong></td>
-<td>#SITC26 on X / Bluesky / LinkedIn</td>
-<td>useful for real-time room reactions</td>
-</tr>
-</tbody>
-</table>
-<p>The <strong>JITC abstract supplement is the load-bearing primary source</strong> — every accepted abstract gets a citable DOI and full text via JITC, which is the same property that makes the ASCO Meeting Library load-bearing for ASCO. Per-trial and per-tool pages should cite the JITC abstract permalink, not the company press release.</p>
-<h2 id="program-shape-per-sitc-2025-early-sitc-2026-announcements">Program shape (per SITC 2025 + early SITC 2026 announcements)<a class="headerlink" href="#program-shape-per-sitc-2025-early-sitc-2026-announcements" title="Permanent link">&para;</a></h2>
-<p>SITC 2026 runs <strong>Wednesday Nov 4 – Sunday Nov 8</strong>, five days. The structure:</p>
-<ul>
-<li><strong>Wed Nov 4 – Thu Nov 5: Pre-Conference Programs.</strong> Workshops on cellular therapy, biomarkers / immune-monitoring, regulatory science, primer courses. ~10 parallel tracks.</li>
-<li><strong>Fri Nov 6 – Sun Nov 8: Annual Meeting</strong> proper. Plenary + concurrent sessions + poster halls.</li>
-<li><strong>Keynote:</strong> Ton Schumacher, PhD (Netherlands Cancer Institute) — "T Cell Recognition of Human Cancer: 'Cracking the Code'" (TCR / neoantigen-recognition biology).</li>
-<li><strong>Smalley Memorial Award &amp; Lectureship:</strong> Catherine J. Wu, MD (Dana-Farber) — neoantigen-vaccine science (the personalized-vaccine program that started at DFCI and now anchors Moderna, BioNTech, and Gritstone competitor reads).</li>
-<li><strong>Abstract scale:</strong> ~1,200 abstracts, several hundred posters, &gt;40 oral / concurrent sessions.</li>
-<li><strong>Tracks dominating the corpus</strong> (per SITC 2025 shape):</li>
-<li><strong>Cellular therapies</strong> — CAR-T (autologous + allogeneic), TIL, TCR-T, NK-cell, engineered macrophages. Solid-tumor cell therapy is the growth area.</li>
-<li><strong>Checkpoint resistance</strong> — combinations to overcome primary / acquired anti-PD-(L)1 resistance; novel checkpoints (LAG-3, TIGIT, TIM-3, VISTA).</li>
-<li><strong>Bispecifics + ADCs</strong> — T-cell engagers, NK engagers, immunocytokines; checkpoint × VEGF, checkpoint × CD3.</li>
-<li><strong>Neoantigen vaccines</strong> — personalized mRNA, peptide, DNA platforms; shared-neoantigen approaches; vaccine + checkpoint combos.</li>
-<li><strong>Biomarkers / immune monitoring</strong> — multiplex IF, spatial transcriptomics, TCR repertoire, ctDNA-MRD, single-cell.</li>
-<li><strong>Microbiome × immunotherapy axis</strong> — FMT, defined-consortium products, dietary intervention, prebiotic / probiotic combinations (the Wargo thread, continued).</li>
-<li><strong>Spatial-immune profiling</strong> — tumor microenvironment characterization across response / resistance; spatial classifiers as biomarker-development substrate.</li>
-</ul>
-<h2 id="organization">Organization<a class="headerlink" href="#organization" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>conferences/sitc-2026/
-├── index.md             # this page
-├── program-notes.md     # pre-meeting prep: dates, venue, tracks, expected readouts, tool-talk watch list, key dates
-├── trials/              # per-trial template — drug + cell-therapy readouts
-│   └── index.md         # template + master trial index table (CAR-T, bispecific, neoantigen vaccine, checkpoint-resistance combo)
-└── tools/               # per-tool template — biomarker / immune-profiling / spatial-immune methods
-    └── index.md         # template + master tool index table (multiplex IF, TCR repertoire, ctDNA-MRD, microbiome, spatial classifiers)
-</code></pre></div>
-<p>Day-by-day digest (<code>digest/day-N-*.md</code>) and cross-day themes (<code>themes.md</code>) deferred until post-meeting, modeled on the ASCO / Nextflow / JPM 2026 vaults.</p>
-<h2 id="whats-different-from-asco-2026-and-aacr-2026">What's different from ASCO 2026 and AACR 2026<a class="headerlink" href="#whats-different-from-asco-2026-and-aacr-2026" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Smaller, denser, more IO-pure.</strong> ~6,000 attendees vs ASCO's ~40,000 and AACR's ~22,000. Every session is IO; no GU non-IO, no symptoms-and-survivorship track, no non-cancer biology.</li>
-<li><strong>Earlier-phase data than ASCO.</strong> Most cell-therapy and bispecific readouts at SITC are Ph1/2 cohorts and dose-escalation updates, not randomized Ph3. Closer in maturity to AACR's clinical-trials track than to ASCO's Plenary slate.</li>
-<li><strong>Tools-and-trials in the same program.</strong> Unlike ASCO (pure clinical) or EuroBioC (pure tools), SITC programs methods talks adjacent to drug readouts. Spatial-immune profiling on biopsies from the same Ph2 cohort that's reading out in the next session.</li>
-<li><strong>JITC as the citable record.</strong> Unlike ASCO Meeting Library (proprietary), JITC is open-access BMJ-published; every abstract gets a DOI. Easier to cite, more permanent.</li>
-<li><strong>Microbiome / spatial-immune themes</strong> — both are bigger at SITC than at any other oncology meeting. Microbiome × IO especially: SITC is where defined-consortium products and FMT-in-IO trial data appear.</li>
-</ul>
-<h2 id="cross-vault-links">Cross-vault links<a class="headerlink" href="#cross-vault-links" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong><a href="../aacr-2026/">AACR 2026</a></strong> — IO biology / mechanism / discovery side. Many SITC 2026 presenters had AACR 2026 sessions in April. Single-cell / spatial axis overlaps heavily.</li>
-<li><strong><a href="../asco-2026/">ASCO 2026</a></strong> — clinical-translation counterpart. Some SITC 2026 trials will reach ASCO 2027 as randomized readouts.</li>
-<li><strong><a href="../jpm-2026/">JPM 2026</a></strong> — financing layer. Multiple SITC 2026 sponsors (cell-therapy companies, neoantigen-vaccine platforms, bispecific developers) were on the JPM stage in January.</li>
-<li><strong><a href="../eurobioc-2025/tools/">EuroBioC 2025 tools</a></strong> — methods axis. Spatial-omics packages (SpatialData, DESpace, spatialFDA), TCR / clonal-tracking (barbieQ), and microbiome (mia, miaTime) all have direct application in SITC immune-monitoring talks.</li>
-<li><strong><a href="../../timeline/">Conferences timeline</a></strong> — SITC's position in the year's cycle (AACR Apr → ASCO May/Jun → ESMO Oct → <strong>SITC Nov</strong> → ASH Dec → JPM Jan).</li>
-</ul>
-<h2 id="next-step">Next step<a class="headerlink" href="#next-step" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Now (May – Jun 2026, abstract window open):</strong> populate <code>program-notes.md</code> with the expected-readout shortlist (~20 trials, ~15 tools) and watch list for the cell-therapy / bispecific / vaccine sponsor tracks. Pre-build top stubs for the Schumacher keynote and the Wu Smalley lecture.</li>
-<li><strong>Abstract acceptance (Sep 2026):</strong> when SITC posts the program-at-a-glance + accepted-abstract list, expand <code>trials/</code> and <code>tools/</code> stubs to match the actual session grid.</li>
-<li><strong>JITC abstract supplement (Oct 2026):</strong> when JITC publishes the abstract issue, fill in full-text per stub.</li>
-<li><strong>Live meeting (Nov 4 – 8):</strong> real-time capture per day. Hybrid format means slides + video available post-session for many tracks.</li>
-<li><strong>Post-meeting (Nov – Dec 2026):</strong> finalize <code>themes.md</code>. Expected threads (speculative, to be revised): solid-tumor CAR-T inflection point, neoantigen-vaccine signal across pancreatic / melanoma / kidney, TIGIT / LAG-3 class status post-skyscraper failures, microbiome × IO maturation, spatial-immune biomarker convergence.</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://www.sitcancer.org/2026/home">SITC 2026 Annual Meeting home</a></li>
-<li><a href="https://www.sitcancer.org/">SITC main site</a></li>
-<li><a href="https://jitc.bmj.com/">Journal for ImmunoTherapy of Cancer (JITC)</a></li>
-<li><a href="https://acir.org/weekly-digests/2025/november/sitc-40th-anniversary-annual-meeting-2025">ACIR — SITC 2025 40th Anniversary recap</a></li>
-<li><a href="https://www.cancerresearch.org/blog/sitc2025">Cancer Research Institute — SITC 2025 blog</a></li>
-<li><a href="https://www.sitcancer.org/2025/home">SITC 2025 schedule reference</a></li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">s+V/ubwdhiWBa7xmtt3J6Q==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/sitc-2026/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

@@ -13184,105 +13184,34 @@
   
 
 
-<h1 id="eurobioc-2025">EuroBioC 2025<a class="headerlink" href="#eurobioc-2025" title="Permanent link">&para;</a></h1>
-<p><strong>European Bioconductor Conference 2025</strong> — Barcelona Biomedical Research Park (PRBB), Barcelona, Spain · September 17–19, 2025.</p>
-<blockquote>
-<p><strong>Status:</strong> Pilot vault — scaffolding the bioinformatics-tools template here before scaling to GBCC2025, BioC2026, ISMB, and RECOMB. Conference concluded; source material public and stable.</p>
-</blockquote>
-<h2 id="why-this-is-in-the-vault">Why this is in the vault<a class="headerlink" href="#why-this-is-in-the-vault" title="Permanent link">&para;</a></h2>
-<p>Bioconductor is <em>the</em> release pipeline for R-based bioinformatics — every short talk maps to an installable package with vignette + GitHub repo + benchmarks. EuroBioC2025 is the European leg, ~3 days, tighter signal than the broader GBCC2025 (Galaxy + Bioconductor joint). Five keynotes and ~25 short talks span the axes we care about: single-cell, spatial omics, statistical modeling, AI-driven design, infrastructure, multi-omics.</p>
-<p>This vault gives the AACR tools matrix a deeper bench: not just "tool used in a cancer paper" but "tool released, reviewed, and benchmarked in the package ecosystem."</p>
-<h2 id="what-we-have-to-work-with">What we have to work with<a class="headerlink" href="#what-we-have-to-work-with" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Source</th>
-<th>Coverage</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Plenary recordings</strong></td>
-<td>keynotes</td>
-<td><a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQS_qvtLJNdDqHL6z5jj5y_7">Bioconductor YouTube playlist</a></td>
-</tr>
-<tr>
-<td><strong>Schedule</strong></td>
-<td>full program</td>
-<td><a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></td>
-</tr>
-<tr>
-<td><strong>Community recap</strong></td>
-<td>overview + photos</td>
-<td><a href="https://blog.bioconductor.org/posts/2025-10-24-EuroBioC2025-recap/">Bioconductor blog post</a></td>
-</tr>
-<tr>
-<td><strong>Slides</strong></td>
-<td>varies per talk</td>
-<td>typically posted to <a href="https://zenodo.org/communities/bioconductor">Zenodo Bioconductor community</a></td>
-</tr>
-<tr>
-<td><strong>Packages</strong></td>
-<td>every short talk</td>
-<td>Bioconductor / CRAN page + source + vignette + downloads</td>
-</tr>
-<tr>
-<td><strong>Workshops</strong></td>
-<td>day 2 afternoon</td>
-<td>OSTA, microbiome, msqrob2, Workshop Platform, iSEE — public GitHub repos</td>
-</tr>
-<tr>
-<td><strong>Press</strong></td>
-<td>minimal</td>
-<td>academic conf, no general-press coverage</td>
-</tr>
-</tbody>
-</table>
-<h2 id="program-shape">Program shape<a class="headerlink" href="#program-shape" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Day 1 (Wed Sep 17)</strong> — Vince Carey "A coherent ecosystem for genomic data science: 25 years of Bioconductor"; Helena Crowell "Colorectal cancer through whole-transcriptome imaging"; short-talk session on metabolomics / proteomics / network methods; Susan Holmes "Latent variables as the best medicine for heterogeneity"; short-talk session on differential expression / multi-omics / community resources; poster session; conference dinner.</li>
-<li><strong>Day 2 (Thu Sep 18)</strong> — James Sharpe "C3PO: Cell 3D Positioning by Optical encoding"; short-talk sessions on epigenomics and spatial omics; Noelia Ferruz "Controllable protein design with language models"; afternoon hands-on workshops (OSTA, microbiome, msqrob2, Workshop Platform, iSEE); poster session.</li>
-<li><strong>Day 3 (Fri Sep 19)</strong> — Jacques Serizay "Enhancing genomic research with community-driven flexible software"; flash talks; Birds of a Feather; closing.</li>
-</ul>
-<h2 id="organization">Organization<a class="headerlink" href="#organization" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>conferences/eurobioc-2025/
-├── index.md                 # this page
-├── themes.md                # cross-day synthesis
-├── digest/
-│   ├── day-1.md
-│   ├── day-2.md
-│   └── day-3.md
-├── topics/                  # Bioconductor subdomains
-│   ├── single-cell/
-│   ├── spatial/
-│   ├── multi-omics/
-│   ├── statistical-genomics/
-│   ├── infra-devops/
-│   └── visualization/
-├── tools/                   # PRIMARY artifact — one entry per package
-│   └── index.md
-└── sessions/                # full abstracts, indexed
-    └── index.md
-</code></pre></div>
-<p>The <code>tools/</code> directory is the load-bearing artifact — every short talk yields one entry, each keynote gets a longer treatment.</p>
-<h2 id="whats-different-from-aacr-nextflow-templates">What's different from AACR / Nextflow templates<a class="headerlink" href="#whats-different-from-aacr-nextflow-templates" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>tools/</code> is <strong>primary</strong>, not secondary — every short talk yields a row, not just the noteworthy ones</li>
-<li>Each tool entry has the full source quartet: package page + vignette + slides (Zenodo DOI when available) + video (where recorded)</li>
-<li>Cross-vault "Mentioned at:" links — a tool released at EuroBioC2025 can point to its appearance in the AACR vault, the planned GBCC2025 / BioC2026 vaults, and vice versa</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://eurobioc2025.bioconductor.org/">EuroBioC2025 conference site</a></li>
-<li><a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">EuroBioC2025 schedule</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQS_qvtLJNdDqHL6z5jj5y_7">Plenary recordings (YouTube)</a></li>
-<li><a href="https://blog.bioconductor.org/posts/2025-10-24-EuroBioC2025-recap/">EuroBioC2025 community recap</a></li>
-<li><a href="https://www.bioconductor.org/">Bioconductor.org</a></li>
-<li><a href="https://zenodo.org/communities/bioconductor">Bioconductor on Zenodo</a></li>
-</ul>
-<h2 id="next-step">Next step<a class="headerlink" href="#next-step" title="Permanent link">&para;</a></h2>
-<p>See <a href="tools/"><code>tools/</code></a> for the per-tool entry template. We're drafting 3 sample entries (single-cell / infra / visualization) before running bulk extraction via Codex over the ~25 short talks + 5 keynotes + 5 workshops.</p>
+<div id="mkdocs-encrypted-content" style="display:none">/whJ6WBHp5+IAzCsp1+t3Q==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

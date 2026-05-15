@@ -13142,41 +13142,34 @@
   
 
 
-<h1 id="rcx-rcx2-update">RCX (RCX2 update)<a class="headerlink" href="#rcx-rcx2-update" title="Permanent link">&para;</a></h1>
-<p><strong>Cytoscape Exchange (CX) format for R</strong> — creates, validates, visualizes, and converts biological networks in the Cytoscape CX format to standard R graph objects (igraph, graphNEL). The EuroBioC2025 talk covered the package's v2 (RCX2) updates.</p>
-<ul>
-<li><strong>Maintainer:</strong> Florian Auer (University of Augsburg) — <code>florian.auer@informatik.uni-augsburg.de</code></li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/RCX.html">RCX v1.16.0</a></li>
-<li><strong>Source:</strong> <a href="https://git.bioconductor.org/packages/RCX">git.bioconductor.org/packages/RCX</a></li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/release/bioc/vignettes/RCX/inst/doc/RCX_an_R_package_implementing_the_Cytoscape_Exchange_format.html">RCX implementing the Cytoscape Exchange format</a></li>
-<li><strong>License:</strong> MIT</li>
-<li><strong>Status at EuroBioC2025:</strong> methods talk on the v2 update (talk title referenced as "RCX2")</li>
-</ul>
-<h2 id="talk-at-eurobioc2025">Talk at EuroBioC2025<a class="headerlink" href="#talk-at-eurobioc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speaker:</strong> Florian Auer (University of Augsburg)</li>
-<li><strong>Day / session:</strong> Day 1 (Wed Sep 17, 2025) — morning short-talk session, after the Crowell keynote</li>
-<li><strong>Talk title:</strong> "RCX2 package for biological network exchange formats"</li>
-<li><strong>Slides (Zenodo DOI):</strong> <em>to verify after publish</em></li>
-<li><strong>Video:</strong> not recorded</li>
-<li><strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>RCX is the canonical R reader/writer for the Cytoscape Exchange (CX) network format used by NDEx and Cytoscape itself. It validates network structure, round-trips to igraph/graphNEL for downstream analysis, and provides a visualization layer. The "RCX2" talk title points to a v2 upgrade — the released Bioconductor package is named <code>RCX</code> (currently v1.16.0); the v2 changes likely shipped under the same package name.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> The CX format is a JSON document split into aspect-modules (nodes, edges, nodeAttributes, edgeAttributes, networkAttributes, cartesianLayout, cyVisualProperties, metaData), each with its own schema and cross-references by integer IDs. RCX mirrors that as an R <code>RCX</code> object whose slots are aspects, and validates referential integrity (every edge's source/target must resolve to a node ID, attribute aspects reference valid node/edge IDs, etc.) on import.</p>
-<p><strong>Inputs / outputs.</strong> Input: a CX JSON file (from NDEx, Cytoscape, or another producer). Output: an <code>RCX</code> R object; round-trippable to <code>igraph</code> via <code>toIgraph()</code> and to Bioconductor's <code>graphNEL</code> for downstream graph algorithms; serializable back to CX with <code>writeCX()</code>.</p>
-<p><strong>Key innovation.</strong> Native R support for the full aspect model — including Cytoscape visual properties and metaData — so a CX file edited in R is still a valid CX file when opened in Cytoscape or pushed to NDEx. Earlier R network packages strip presentation when converting to igraph; RCX preserves it.</p>
-<p><strong>Parameters worth knowing.</strong> <code>readCX(file)</code> for full-file read; the lower-level <code>readJSON</code> / <code>parseJSON</code> / <code>processCX</code> triple for incremental parsing when a CX file has deprecated or unknown aspects. <code>toIgraph(rcx)</code> for graph-library export. <code>$metaData</code> accessor to inventory which aspects an object actually carries.</p>
-<p><strong>Canonical example.</strong> Vignette walks through the bundled "Imatinib-Inhibition-of-BCR-ABL" pathway (an NDEx network): load with <code>readCX()</code>, inspect aspects with <code>summary()</code> and <code>$metaData</code>, modify node or edge attributes, then write back with <code>writeCX()</code> for re-upload to NDEx.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> no current dossier; relevant axis is bioinfo / AI methods (network-based analyses, gene-regulatory inference)</li>
-<li><strong>GBCC 2025:</strong> queued</li>
-<li><strong>Nextflow Summit 2026:</strong> not mentioned</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Naming oddity: talk announced as "RCX2" but the released Bioconductor package is <code>RCX</code>. Verify after slides land whether RCX2 was a project nickname for the v2 update or a separate fork.</p>
+<div id="mkdocs-encrypted-content" style="display:none">XXFs1vDuiTyOYQ4peeHydA==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/tools/rcx/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

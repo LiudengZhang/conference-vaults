@@ -13150,120 +13150,34 @@
   
 
 
-<h1 id="chief">CHIEF<a class="headerlink" href="#chief" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> path-fm
-<strong>Modality:</strong> H&amp;E whole-slide image patches (256×256 at 10×) and slide-level aggregation
-<strong>Released:</strong> 2024 (Nature)
-<strong>License:</strong> AGPL-3.0, non-commercial academic use only
-<strong>Code/checkpoint:</strong> <a href="https://github.com/hms-dbmi/CHIEF">github.com/hms-dbmi/CHIEF</a> (weights gated via repo request form)
-<strong>Also surfaced in:</strong> agentic-ai, single-cell-spatial-omics, virtual-cells</p>
-<blockquote>
-<p>CHIEF (Clinical Histopathology Imaging Evaluation Foundation) is a
-two-stage pathology foundation model from the Mahmood Lab that maps
-H&amp;E whole-slide images to patch- and slide-level embeddings for
-cancer detection, subtyping, biomarker prediction, and outcome
-stratification. It is trained on a multi-cancer cohort spanning 19
-anatomical sites and is positioned as a generalist model whose
-embeddings can be reused across downstream histology tasks without
-task-specific retraining.</p>
-</blockquote>
-<h2 id="architecture-training">Architecture &amp; training<a class="headerlink" href="#architecture-training" title="Permanent link">&para;</a></h2>
-<p>CHIEF is built in two stages: a CTransPath-based patch encoder
-(CHIEF-CTransPath) producing 768-dimensional tile embeddings, and a
-weakly supervised attention-based aggregator that pools tile features
-into a slide-level representation. Patch-level pretraining uses
-self-supervised contrastive learning over ~15 million tiles drawn from
-~60,530 whole-slide images spanning 19 anatomical sites (~44 TB of
-pixel data); the slide-level head is then trained with anatomic-site
-conditioning so embeddings carry organ context. The released
-checkpoints are evaluated across 19,491 WSIs from 32 independent
-cohorts at 24 hospitals, with reported gains on cancer detection,
-genomic biomarker prediction, and survival prediction relative to
-prior pathology backbones.</p>
-<h2 id="use-in-the-aacr-2026-corpus">Use in the AACR 2026 corpus<a class="headerlink" href="#use-in-the-aacr-2026-corpus" title="Permanent link">&para;</a></h2>
-<!-- mentions:start -->
+<div id="mkdocs-encrypted-content" style="display:none">/KyYT3cmznM40bvTCW6ZzA==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<p><strong>Posters mentioning CHIEF (n=0):</strong></p>
-<p><em>No posters in the AACR 2026 corpus mention this tool.</em></p>
-<p><strong>Sessions mentioning CHIEF (n=6):</strong></p>
-<ul>
-<li><a href="../../../../sessions/2026-04-18-ai-in-biomarker-discovery-and-drug-development/">2026-04-18-ai-in-biomarker-discovery-and-drug-development</a>
-  …wever, that he was able to send his recorded talk. So we'll get there in a second. I'm George Visilo. I'm the Chief AI for Science Innovation at AstraZeneca, and I'm going to pass here to my impromptu co-chair. Hi. Very nice…</li>
-<li><a href="../../../../sessions/2026-04-19-gastric-gastroesophageal-cancer-dynamics/">2026-04-19-gastric-gastroesophageal-cancer-dynamics</a>
-  …cling tuft cell into the secretory progenitor. And at the opposite end of the spectrum, these are the gastric chief stem cells. Whereas in metaplastic organoid, you can see they are more complex. So from the cycling isthmus s…</li>
-<li><a href="../../../../sessions/2026-04-20-am-plasticity-cancer-progression-clarkson-symposium/">2026-04-20-am-plasticity-cancer-progression-clarkson-symposium</a>
-  Morning, everybody. My name is Bill Heit, and I'm honored to serve currently as the AACR Chief Scientific Advisor, but it's really my even greater honor to introduce today's symposium in honor of my frien…</li>
-<li><a href="../../../../sessions/2026-04-20-pm-ai-spatial-transcriptomics-pathology/">2026-04-20-pm-ai-spatial-transcriptomics-pathology</a>
-  …ry and development. In this virtual biotech, it's a team of tens of thousands of AI agents, which is led by a chief scientist officer, or CSO agent, and working under the CSO agent, we have these different divisions, which co…</li>
-<li><a href="../../../../sessions/2026-04-20-pm-late-microenvironmental-determinants-tumor-evolution-immune-escape/">2026-04-20-pm-late-microenvironmental-determinants-tumor-evolution-immune-escape</a>
-  …For gastric regeneration, we primarily use a high-dose tamoxifen model, which induces parietal cell loss and chief cell loss, and triggers PEN, a kind of metaplastic response, and normally resolve back to histological baseli…</li>
-<li><a href="../../../../sessions/2026-04-22-agentic-ai-as-the-oncologist/">2026-04-22-agentic-ai-as-the-oncologist</a>
-  …ion Support and Human AI Collaboration. My name is Renato Umeton. I'm the Vice President of Data Sciences and Chief of AI for St. Jude Children's Research Hospital. And today we're going to explore this session with two giant…</li>
-</ul>
-<!-- mentions:end -->
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/chief/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<h2 id="whats-missing-where-evidence-is-weak">What's missing / where evidence is weak<a class="headerlink" href="#whats-missing-where-evidence-is-weak" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Every corpus hit above is a false positive.</strong> "Chief AI for Science", "Chief Scientific Advisor", "Chief of AI", "chief scientist officer", and the gastric-biology references to "chief stem cells" / "chief cell loss" all share the substring "chief" but none refer to the CHIEF pathology foundation model. The tool cleared the inclusion gate purely on alias collision.</li>
-<li><strong>No posters in the AACR 2026 corpus mention the actual model.</strong> This is the cleanest signal that despite CHIEF being a flagship 2024 pathology FM, it did not surface in the abstracts harvested for this meeting.</li>
-<li><strong>No head-to-head benchmark against UNI or Prov-GigaPath in the corpus</strong> — the posters that do compare pathology FMs (e.g., 4163, 5478, LB159) name UNI / UNI2 / GigaPath but not CHIEF.</li>
-<li><strong>No discussion of the AGPL-3.0 + non-commercial-academic gating</strong> in any corpus mention; the licensing constraint is invisible here even though it likely shapes adoption.</li>
-</ul>
-<h2 id="takeaway">Takeaway<a class="headerlink" href="#takeaway" title="Permanent link">&para;</a></h2>
-<p>CHIEF is the textbook case for why an alias-based mention scanner needs a human pass: it scored highest of any tool by raw session count, yet none of those hits is real. The genuine signal AACR 2026 carries about CHIEF is its absence — a widely cited pathology FM that simply did not appear in the harvested abstracts or transcripts, while UNI and Prov-GigaPath did. That absence, not the false-positive count, is the data point.</p>
-<h2 id="fm-comparison-2026-status">FM comparison &amp; 2026 status<a class="headerlink" href="#fm-comparison-2026-status" title="Permanent link">&para;</a></h2>
-<p><strong>Where it sits in the FM landscape.</strong> CHIEF is a two-stage pathology FM (tile encoder + weakly-supervised attention aggregator) from the Yu Lab at HMS-DBMI — distinct from the Mahmood Lab line (UNI/UNI2, CONCH, TITAN, PathChat) and from the Microsoft / Providence Prov-GigaPath line. Its CTransPath-based tile encoder is ~28M parameters, smaller than UNI (ViT-L, 307M), UNI2-h (ViT-H, 681M), Virchow (632M), and Virchow2 (632M); its distinguishing feature is the <strong>slide-level aggregator with anatomic-site conditioning</strong>, an architectural choice that the dominant Mahmood Lab and Microsoft alternatives handle either via separate MIL heads (UNI) or a LongNet slide encoder (Prov-GigaPath).</p>
-<p><strong>Direct peers.</strong></p>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Architecture</th>
-<th>Pretraining corpus</th>
-<th>Public weights</th>
-<th>Headline benchmark</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>CHIEF</td>
-<td>CTransPath tile encoder + attention-MIL slide head, anatomic-site-conditioned</td>
-<td>~15M tiles, 60K WSIs, 19 anatomic sites</td>
-<td>AGPL-3.0, gated via request form</td>
-<td>32-cohort eval, 19,491 WSIs (Nature 2024)</td>
-</tr>
-<tr>
-<td>Virchow / Virchow2</td>
-<td>DINOv2 ViT-H (632M) / ViT-G (1.85B for Virchow2G)</td>
-<td>1.5M / 3.1M WSIs (Paige real-world)</td>
-<td>CC-BY-NC, HF gated</td>
-<td>12 tile-task SOTA, biomarker prediction (Nature Medicine 2024 / arXiv 2024)</td>
-</tr>
-<tr>
-<td>Hibou-B / Hibou-L</td>
-<td>DINOv2 ViT-B (85.7M) / ViT-L</td>
-<td>1M+ WSIs (HistAI proprietary)</td>
-<td>Apache-2.0, HF open</td>
-<td>Patch-level classification, batch-correction tasks</td>
-</tr>
-<tr>
-<td>PathChat / PathChat+</td>
-<td>Vision-language LLM, multimodal</td>
-<td>1M+ visual-language instructions</td>
-<td>Mahmood Lab terms, demo-only</td>
-<td>Diagnostic Q&amp;A (Nature 2024); PathChat+ multi-image (arXiv 2025)</td>
-</tr>
-<tr>
-<td>Prov-GigaPath</td>
-<td>ViT tile encoder + LongNet slide encoder</td>
-<td>1.3B tiles, 171K WSIs</td>
-<td>Apache-2.0, HF gated</td>
-<td>Mutation prediction, retrieval (Nature 2024)</td>
-</tr>
-</tbody>
-</table>
-<p><strong>What changed in 2025-2026.</strong> CHIEF itself has not had a new major release in 2025; the github.com/hms-dbmi/CHIEF repository remained at its initial Nature 2024 release through the year, and weights stayed gated behind a request form under AGPL-3.0 with non-commercial-academic restrictions. The landscape shifted <em>around</em> it: Virchow2 / Virchow2G (Paige, 2024-2025), UNI2-h (Mahmood, Jan 2025), CONCHv1.5 + TITAN (Mahmood, 2025), PathChat+ and SlideSeek (Mahmood, 2025) all released larger or vision-language-extended successors, while the 2025 Nat Comms clinical benchmark (Campanella et al.) put <strong>Virchow2, Prov-GigaPath, and UNI</strong> at the top across CPTAC tasks with CHIEF either absent from the lineup or trailing. The AGPL-3.0 + gated-weights combination has become a real adoption tax versus Apache-2.0 alternatives (Prov-GigaPath, Hibou).</p>
-<p><strong>AACR-relevant use cases.</strong> The AACR 2026 corpus contains <strong>zero real CHIEF mentions</strong> (all six "session hits" are alias collisions on the word "chief" — Chief Scientific Advisor, gastric chief cells, Chief of AI, etc.; see the "What's missing" section above). The relevant AACR 2026 sessions where CHIEF <em>could</em> have surfaced but did not include the <a href="../../../../sessions/2026-04-20-am-decoding-cancer-ecosystem-pathology-tme-heterogeneity/">April 20 AM Decoding Cancer Ecosystem</a> (which name-checked Prov-GigaPath), the <a href="../../../../sessions/2026-04-20-pm-ai-spatial-transcriptomics-pathology/">April 20 PM AI Spatial Transcriptomics Pathology</a> session, and the <a href="../../../../sessions/2026-04-21-at02-agentic-ai-cancer-researcher/">April 21 Agentic AI Cancer Researcher</a> talk that explicitly featured Mahmood Lab's competing PathChat+ and SlideSeek. The honest CHIEF use-case story for AACR 2026 is that the model is <strong>deployable in principle</strong> for clinical pathology workflows — cancer detection, anatomic-site-aware biomarker prediction, survival stratification — but is <strong>not deployed in this corpus</strong>, with adoption likely capped by the AGPL-3.0 license and the rise of Apache-2.0 / CC-BY-NC competitors with comparable or stronger benchmark numbers.</p>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

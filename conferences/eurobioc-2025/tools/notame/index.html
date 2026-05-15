@@ -13142,41 +13142,34 @@
   
 
 
-<h1 id="notame">notame<a class="headerlink" href="#notame" title="Permanent link">&para;</a></h1>
-<p><strong>Workflow for non-targeted LC-MS metabolic profiling</strong> — a Bioconductor package covering tabular preprocessing, quality control, and uni-/multi-variate analysis of untargeted LC-MS metabolomics data, packaging the recommendations from the <em>Metabolomics Data Processing and Data Analysis — Current Best Practices</em> special issue.</p>
-<ul>
-<li><strong>Maintainer:</strong> Vilhelm Suksi (University of Turku) — <code>vksuks@utu.fi</code></li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/notame.html">notame v1.2.0</a></li>
-<li><strong>Source:</strong> <a href="https://git.bioconductor.org/packages/notame">git.bioconductor.org/packages/notame</a></li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/release/vignettes/notame/inst/doc/introduction.html">Introduction</a></li>
-<li><strong>License:</strong> MIT</li>
-<li><strong>Status at EuroBioC2025:</strong> methods talk on the package's analysis workflow</li>
-</ul>
-<h2 id="talk-at-eurobioc2025">Talk at EuroBioC2025<a class="headerlink" href="#talk-at-eurobioc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speaker:</strong> Vilhelm Suksi (University of Turku)</li>
-<li><strong>Day / session:</strong> Day 1 (Wed Sep 17, 2025) — morning short-talk session, after the Crowell keynote</li>
-<li><strong>Talk title:</strong> "notame package for LC–MS metabolomics analysis"</li>
-<li><strong>Slides (Zenodo DOI):</strong> <em>to verify after publish</em></li>
-<li><strong>Video:</strong> not recorded</li>
-<li><strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>notame is a one-stop workflow for untargeted LC-MS metabolomics: it ingests feature tables, runs QC visualizations and drift correction, performs univariate and multivariate analysis (PCA, PLS-DA, etc.), and emits diagnostic reports — a curated translation of the field's best-practice recommendations into runnable R.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> notame layers QC-pooled-sample-aware preprocessing on top of a <code>SummarizedExperiment</code>: it models analytical drift per feature with cubic-spline regression fit through the pooled QC injections, then flags features by detection rate and robust dispersion metrics (RSD*, D-ratio*) computed on those same QCs. Flagged features are not deleted — they are kept in the object but silently excluded from downstream operations (PCA, imputation, statistics) so the user can audit them.</p>
-<p><strong>Inputs / outputs.</strong> Input: a feature × sample abundance table plus sample metadata identifying pooled QCs and injection order, wrapped in a <code>SummarizedExperiment</code>. Output: the same object with drift-corrected assays, per-feature QC flags in <code>rowData</code>, missing values imputed (random-forest), and figures / Rmd-style diagnostic reports.</p>
-<p><strong>Key innovation.</strong> The flagging-not-filtering convention plus codifying the <em>Metabolomics Data Processing — Current Best Practices</em> recommendations into a single importable pipeline. Drift correction is the cubic-spline-on-QCs approach standard in the field rather than a novel method.</p>
-<p><strong>Parameters worth knowing.</strong> Spline smoothing parameter range (default 0.5–1.5, CV-selected). Detection-rate threshold (default ≥0.5). Robust RSD* limit (≤0.2 recommended). Robust D-ratio* limit (≤0.4 recommended).</p>
-<p><strong>Canonical example.</strong> Vignette uses the bundled <code>toy_notame_set</code>: call <code>mark_nas()</code> to convert zeros to NA, <code>correct_drift()</code> for spline-based drift correction, <code>flag_detection()</code> / <code>flag_quality()</code> to mark poor features against the QC thresholds, then <code>impute_rf()</code> for random-forest imputation. The result is a QC-cleaned SummarizedExperiment ready for PCA / PLS-DA.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> no current dossier; relevant axis is bioinfo / AI methods (metabolomics is adjacent to the cancer-metabolism talks)</li>
-<li><strong>GBCC 2025:</strong> queued</li>
-<li><strong>Nextflow Summit 2026:</strong> not mentioned</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Mature workflow package (Bioconductor 3.23, v1.2.0). The value is curation more than novelty — converting consensus best-practice into one importable pipeline.</p>
+<div id="mkdocs-encrypted-content" style="display:none">j9pri8baigBArQ9gOs6X1Q==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/tools/notame/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

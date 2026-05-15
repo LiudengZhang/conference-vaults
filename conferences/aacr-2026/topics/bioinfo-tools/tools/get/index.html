@@ -13029,142 +13029,34 @@
   
 
 
-<h1 id="get">GET<a class="headerlink" href="#get" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> regulatory-fm
-<strong>Modality:</strong> Single-cell ATAC-seq peaks (motif × peak matrix) + DNA sequence; cell-type-resolved
-<strong>Released:</strong> 2025 (Nature)
-<strong>License:</strong> open-source via GET-Foundation GitHub organization
-<strong>Code/checkpoint:</strong> <a href="https://github.com/GET-Foundation">github.com/GET-Foundation</a></p>
-<blockquote>
-<p>GET (General Expression Transformer) is a foundation model for
-transcriptional regulation from Xi Fu in the Rabadan lab at
-Columbia, with Shentong Mo from Eric Xing's group at CMU / MBZUAI.
-It learns cell-type-specific regulatory grammar from chromatin
-accessibility (scATAC-seq) and DNA sequence alone, and predicts
-gene expression — even in held-out cell types — with reported
-experimental-level accuracy. Unlike scGPT / Geneformer /
-scFoundation, GET does <em>not</em> take an RNA-expression cell as input;
-it takes the <em>regulatory state</em> of a cell and reads out what that
-cell should be transcribing.</p>
-</blockquote>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>Given a cell type's scATAC-seq accessibility profile, GET predicts
-which genes that cell type will express, in a sequence-aware way:
-each gene's prediction is computed from the model's view of the
-~2 Mbp region around its locus. The model also enables in-silico
-perturbation of transcription-factor (TF) motifs to identify causal
-regulators, and it generalizes zero-shot to cell types not in the
-pretraining set, including held-out fetal lineages and disease
-states.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Architecture.</strong> GET is a 12-layer transformer encoder. The input
-is a (regions × motifs) tensor — for each of R accessible peaks in a
-~2 Mbp window, a motif-presence vector of length M (the quantitative
-ATAC signal can optionally be appended to M). A <code>RegionEmb</code> layer
-projects this into a D-dimensional latent (shape: B × R × D); 12
-transformer encoder layers then mix information across regions; a
-linear projection plus SoftPlus activation produces the per-region
-output (B × R × O), which is summed/aggregated to a gene-level
-expression prediction (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11244937/">Fu et al., PMC PMC11244937</a>).</p>
-<p><strong>Tokenization.</strong> Each token is an <em>accessible region</em> (an
-scATAC-seq peak), not a gene. The token's content is the offline
-motif-matching vector for that peak's DNA sequence (B, R, L*, 4 → B,
-R, M after motif convolution), optionally augmented with the peak's
-quantitative accessibility signal (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>).
-Switching cell types means swapping the accessibility vector at
-input time — the model itself is shared across all cell types.</p>
-<p><strong>Pretraining corpus + objective.</strong> GET is pretrained on a human
-single-cell ATAC-seq atlas covering 213 fetal and adult cell types
-(<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>; <a href="https://www.cs.cmu.edu/news/2025/gene-expression">Carnegie Mellon press release</a>).
-The self-supervised objective is <em>random masked-region pretraining</em>:
-mask out the motif vectors for a subset of accessible peaks and have
-the model reconstruct them from the surrounding peaks. After
-pretraining, the model is fine-tuned on paired scATAC + scRNA data
-to map regulatory syntax to expression, with the gene-expression head
-trained on held-in cell types and evaluated on held-out ones.</p>
-<p><strong>Scale.</strong> 12 transformer encoder layers over a ~2 Mbp locus window.
-The paper does not report a single headline parameter count
-(unverified — exact parameter count not stated in the main text);
-inputs span more than 2 megabases of genomic context per locus.</p>
-<p><strong>Fine-tuning recipe.</strong> Two-stage: (1) masked-region pretraining
-across all 213 cell types using ATAC peaks alone, (2) supervised
-fine-tuning on paired scATAC + scRNA-seq for gene-expression
-prediction, with leave-one-cell-type-out evaluation for
-generalization. For zero-shot reporter-assay prediction, GET is run
-without further fine-tuning (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>).</p>
-<p><strong>Downstream tasks evaluated.</strong> Cell-type-specific gene expression
-prediction (held-in and held-out cell types); cis-regulatory element
-identification; transcription-factor interaction inference; in-silico
-perturbation of TF motifs; lentivirus-based massively parallel
-reporter assay (MPRA) readout prediction (zero-shot); upstream
-regulator identification for fetal haemoglobin; identification of
-leukemia-risk TF interactions in B cells (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>; <a href="https://www.genengnews.com/topics/artificial-intelligence/ai-foundation-model-predicts-gene-activity-in-human-cells/">GEN news coverage</a>).</p>
-<h2 id="headline-benchmarks">Headline benchmarks<a class="headerlink" href="#headline-benchmarks" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Cell-type-specific gene expression.</strong> GET achieves
-  experimental-level accuracy in predicting gene expression in both
-  seen and held-out cell types using only chromatin accessibility +
-  sequence (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11244937/">PMC PMC11244937</a>).</li>
-<li><strong>Cis-regulatory element identification.</strong> GET outperforms prior
-  state-of-the-art on identifying cis-regulatory elements, including
-  distal regulatory regions missed by earlier models in fetal
-  erythroblasts (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>).</li>
-<li><strong>Zero-shot MPRA readout.</strong> GET outperforms current models in
-  predicting lentivirus-based massively parallel reporter assay
-  results without any task-specific training (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>).</li>
-<li><strong>Disease application.</strong> In B cells, GET identifies a
-  lymphocyte-specific TF interaction that explains the functional
-  significance of a leukemia-risk germline mutation
-  (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>; <a href="https://www.cuimc.columbia.edu/news/new-ai-predicts-inner-workings-cells">Columbia CUIMC press release</a>).</li>
-</ul>
-<p>Note: GET is not directly comparable to scGPT / Geneformer on cell-
-type annotation because it does not take an expression vector as
-input. Comparisons in the literature instead pit GET against
-Enformer-class sequence-to-expression models on the regulatory-element
-side, where GET reports state-of-the-art (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>).</p>
-<h2 id="why-it-matters-for-aacr-virtual-cells">Why it matters for AACR / virtual cells<a class="headerlink" href="#why-it-matters-for-aacr-virtual-cells" title="Permanent link">&para;</a></h2>
-<p>GET is the cleanest published bridge between the <em>epigenomic</em> virtual-
-cell agenda (cell-type-specific chromatin landscapes) and downstream
-<em>expression</em> predictions, which makes it uniquely useful for cancer
-risk-variant interpretation. The B-cell leukemia example in the
-Nature paper is a template AACR-relevant workflow: take a GWAS
-variant of unknown significance, ask GET to score its effect on
-TF-motif accessibility in the relevant cell type, and read out the
-predicted downstream-expression change in silico. For solid tumors,
-GET's generalization to held-out cell types is a route to scoring
-regulatory variants in cell types that lack scRNA reference atlases
-but do have ATAC data.</p>
-<h2 id="known-limitations-open-questions">Known limitations / open questions<a class="headerlink" href="#known-limitations-open-questions" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Requires scATAC-seq input.</strong> GET cannot operate on bulk RNA-seq
-  or scRNA-seq alone — applications without matched accessibility
-  data are out of scope (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>).</li>
-<li><strong>Human-only.</strong> The pretraining atlas covers 213 <em>human</em> fetal and
-  adult cell types; cross-species transfer is not reported
-  (<a href="https://www.nature.com/articles/s41586-024-08391-z">Fu et al., <em>Nature</em> 2025</a>).</li>
-<li><strong>Cancer cell-type coverage is uneven.</strong> The pretraining atlas
-  emphasizes fetal and normal adult tissues; tumor-derived ATAC
-  cell types are likely underrepresented (unverified — paper does
-  not report a tumor-specific subset).</li>
-<li><strong>Parameter count is not headline-reported.</strong> The main text does
-  not surface a single parameter number, which makes
-  apples-to-apples scaling-law comparison with scGPT / scFoundation
-  difficult (unverified — only architectural shape, 12 layers, is
-  stated).</li>
-<li><strong>Resolution is at the peak, not the base.</strong> Tokens are accessible
-  regions, so single-base-pair regulatory effects (e.g. fine-grained
-  variant interpretation inside a single motif) must be re-encoded
-  through motif-presence features.</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Paper: <a href="https://www.nature.com/articles/s41586-024-08391-z">Fu, Mo, Buendia, et al., "A foundation model of transcription across human cell types," <em>Nature</em> 2025</a></li>
-<li>Open-access PMC version: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11244937/">Fu et al., PMC PMC11244937</a></li>
-<li>Preprint: <a href="https://www.biorxiv.org/content/10.1101/2023.09.24.559168v2.full">bioRxiv 2023.09.24.559168</a></li>
-<li>Code: <a href="https://github.com/GET-Foundation">github.com/GET-Foundation</a></li>
-<li>Press: <a href="https://www.cuimc.columbia.edu/news/new-ai-predicts-inner-workings-cells">Columbia CUIMC — "New AI Predicts Inner Workings of Cells"</a></li>
-<li>Press: <a href="https://www.cs.cmu.edu/news/2025/gene-expression">Carnegie Mellon — "Using AI To Predict Gene Expression"</a></li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">6PaZuIyPEnsEQCc5+/3rJg==;9FPvgFunNDdo0iALyoulOXeoXeLtUWpWIeGXG7W6OB6dMeRVujh9fL2t6af4XsS9hu1zc1tLf3pXDFkcsWrTvT5kM1k/v4u0UbVDvP9vqY9Pk9NCNkWYxttM32PrNfgAo3eHpKTCId0EOxwg912syNBvg19TfvLx5XJ/T4ViBUEm7z+kHE76An95riodEPrnaVf+xuWiHlVPNPjwtmmB6VzEAF8CtPqCYJwDRXfr0A01L7GOi8NN0zmldR818zKZFpTzJd3d5mA6wLpCl4ekRDUmmFTnWL9slPG+IhxO8fIhfALY55ZwKWXoRnbwQZnPqD1u1oU7VDUT4UQFcem5YogDLYP5z/j1zA33G9if+aWiPT2TNtt8vyhs9wf2idqPtvdgcf32C7pd8UJIbmBQBajPYhxp16+AdX27Cc4fViwEV5cGc2dBo+Kow+GYyvB+oYBb0oAl18l6uYbLuRgof7NZvWoK62udVssBhaykbXtOnEx/x9zNgVuEd5fKHCnmY/bFvnT/4I2+xe7RD0tQnpCZuetdX21Ht3PveMiu2S6CFUvaGrf8Rx6Q26DG7/3yn4bAWpwYysraxn7MdzrVnc4QQXUOFM5F6XA3tmSadZ94QVMlNl7FG96XaMGOT4jCHxocO+dmXcSdA2lqKYm9M9Cb3qusbDL2Z2xDjTZuyp/UseaclXXk/B207KqXUkQzck55pgGRRp9eW6VYtwjWdHTeAjDHT3o2MtMUoZvWnRfct+2xDp6GmBH8MTpJwDH7gW+pQO7vCM8gN5t4zlkj1j7zUUgHBvXTHXodJ535jN0GJFBT+GLxB6sEsG/yJinbrUfsUrdvmaJS3JHi8/XUslAMxx7Y48scalw2twnCsstw6q7OPwavqSVfwHIJlEo86et0y+IgNf4tQrWCYpFNEYoQgCHjkorvXPYWHrIxyh/9AP1IxRY72/kREsMR+/6OXUh95zBfcmv2XaUAKOfHiYDBxXmw0PzUHfmK/gHRBGuFANXoywprSRF9bl370F9ZOXlTMODeXypI7i36Bh+TzFHeQkbSZz6OrgN0vPXkM66YuSmc34i1L147VF6UuZiULofCp/3tt9PWiSqY4FfV1tMDdq75umgptxnZim2lyesG0fXKHQTATUUXTxpOV06YVVugIJtuV/4eQrT4AkfI6rdgySr0xPO4BtUTL5jAB/FIYsvKypflF/Ze58GG6+hrjl+vnpWJY0RCAPo7GqUcRdibOMZtPRZTifjFWsR3n/F/EaE9LTYKV//cfXfp/FYpYJB3LM+019qTH/QDZZHuPCB9boDoXScLspaF7eC3FCFw+7tLvAEjooa29M5QxZQz6y2jHVd91ql1E6VegAHjKUV8tf4JvMPvptcTdaEmM9H4K8Zj/sH+IbXBe45RPWbYk+uzDfessmCiZzqF20TXUBfCN1LXWk98GTdaN5sbxPCJcrAfls5qWgap3mU9iQxvRs3lGCHefsxUGTcxz5pgSxC0pVPWtSaezpOHO0KOvfVVztP5J+00uXTWMEnzPhOIfdIEtpIsBpPYGhzS7RSarNtUJ2ZjQNrMjvRsfkiwGCFuRcVNu/PAbtRuumxkEmP8AkDb7zu9PciGdUXaHD+SuGof6ZAsSmcmusCHcSSwkufDVchyDe3KNZJVafMxFbZJ2e6W1hiraN7HKd17VPhthRyRJcZXQPzMUCnB7mrOEK4Pkgyha45JiI5fCq6I+NFjzlrji3y2kMkwiK2S/fIh2KUdw9LWAUiTxuL+1f1rH/db4RD1Pb1rmopJkYUj87d6zoRw1ivpiESUm+ZEJ9VW3yj/hUc2iwWV8Sk6zqQWlXn9ropjo04Ei5/araMgIcw9I9mroo5iK2WksPZzIjiicm9Hbboq6OYSYXFCvDUG+O/pljmvDuYM3d2FMZ74uTwL2ZyLHYjb5TfImKNLJP4q+4Lirqahh/3Ao6nOxCCwPf1p8bGHEhlKRe6uXR2Fx8wQv1g3xCaqqnF2mfP6Inp7KDE+5H0QSe0zkf8GPLUuY/XQgtrISNA+8jbDOzcSnrbHHY4I2QbiWAD4TT57m3F6LPe45gaiKxPajhcLylJ+SLapgaPgDjWpOr1HOojubObtmj/OEr8e4b3H7B/WbCTVilS7SQr9yBKfgHLzLftLWFtk7ZdiC35NOFWfKz2FGJWqYFEGFaT8/YjqzovlrpuywSa0s87dw6crd9OtIzUGwfhXmgc4ZNffch1z83qRUNBhPftitEqv1sFHnDWcWR7roBJnRa6Ojf9nyA6zmuaw2L+j2SaZi6WuPw5dDczag6xY0EfHXzUyj4gsySd4/5SgpBxE1szfBVFY1CcBNofDzTM2yksgFzy+8iHRPVVy0mdRPBl2MkwHNfPGF9XJf0klJK0C/2CVo9lx9VNWvz76yxeCiPx9Pof97V9XEDU/O1XLwM5Ih3ySZs/2x3iNfR5gel6UIG2JG78rDu039py83+YkJMk6aB0HQ5nRI1RiXv/2FE5mOnt1GJdbF+ArZZnn4pW2/PqYMH7DsugrKgtOZgyAb1Ac7L0+86HiJX7qQUpsMroSMGuPn7eSbQ1TgaCUpz6g5Yd2WEFOSV/2+jKLYRXNwwEB9gb+WbGmFNYfsp6jzLwSMkTDj0LYjpfYMI15sJwlbOv9E57RDZVXiaSMgsNKHdymr1KHxoRbLakisp9Ui+8BqS6p7wtczNwlAT+Y+037hwoSZPmhm59QnmvckFornyYRJkKUWhXjsS/Nhi2qEcDZeoPeWbHGS3OTwwTskFQrsaqW+B8FTTP9+fmpm/d2X65B5R61XNW1hy+V/NfgIt786zvg8dUUA9hrQa8K9UEVJdA5SthHKMdgCHcTxntuxYo389d62AwZHRwsxTUYzepy6xH32LOMT5sGsBWYOrhtx2Lw3gRjXJI0gibkfI5SJGDvuin4Qljh1SLbm3AzWLCijrgyH1EgQnJ0KcFxZnHwOFeTYFKdgbTOfEjHdWnQNpV3EzMbjW88LIfJ9dbl/+DhYKEIojjFWGbtlV0OG0oPjhizGhPbvz6JBm7fuKSBXiaE+uVZeDW8O+cKBt3PmKnT6O3J6ZCds/xh0cMHrBnU28KYknX6BttbjrkBhQhqtjYLBce6tAT6SktD4tCe27MzXZxsK1hPeLLEqm7BbtvDw2FJ+2xHcQmu1RivbOE8Z9gPUZWYHebJQTcmGlxIMVjoFidCJGQ4SHlTmvAuoIgFLeBpeVWeOP/TuObmBPjuSfkSSpFdco9I2KTEVC68+Jba5Bz6Rs77BjaDokS3hFE261uUOkW8IrhkfJg3cufuSwKwwg3zpo4sT9LJ0UKUT8GLxqTbakS+X7J2uPCPH6mwP1QHc6sTi7MJmUJ/HPuIp/8T/qSGwc5KDprsZqYfQ9v8IOkeS89coAobMGJQ1N7bHXTJt4v68XI2UXtCPIa3Gi8Tj+l6SQ9AWoNQSVg7QsgMguhN9YcAfgfZQx6Vgh3O2+aniCkJ+U2GKVNb77SwwY4H0u9RNZ077hfYUumPExrZFpVBXpCRiYX8TWC/WNGppRA+/KWB/yqFN1qzN98vjeEVZFwKBZyYYRzzVAPQY29WdK63jy7RsePHDyJHdNXZEw0o+p8eaYGO3Q1W74m/jE1MGcbO3gf8rP8ZyHFDQPwKMeIKktc8spqw8VGpfws3wJjFYnBpDmyxAAsCewZimbhaQVX183DkHqKcHCsc6bvp2q7tRFuR7Lhn7pjkLr3NXzn8iSZegoan0qMJ/VZ67aT9awNAr7Orzf0tHsi1edsnMmCxxuNSoSFUk6Muc82LLRe6mLO4OFr6LFD8ciQD9sZUNTYWoB4w468TinZrHvVEahm6UVhyEmy0mwCE4ogVpcyAbQLEksjz5sa8wegpf+S3YAbx87rWXcUjX4YVZxrs6qI1SMF3GkqVy9vBynd4EfEatGCVdaJWT+wK4zKZcnG0leYM9g9FjH9P3ZN924fST543Uy0pnoiA5de5PU3qvWLGVWMgE8tEMH5ZsSPXluyXJogQ1P4dsdcg+gTkLkCt7PWud7dSXJGxheMlaXAKx6qZoL5zfXAsOHSD0H3SvV1J2IB2fngxWVmBnUdmb9oUClEvuLG+MWlLc1lWrgZE/+rloBpxtVQUgkKSKhIfj7g14FmaD+hM9S6IobBEq7InFWbddRL3zpjGSxJN4f7bUYauRl5SS8tdLGfXC82iQMTZhhOjYbh9fxA65ey8OuPsrbUYcU4dYR9nr7LiZ39DbDLOeJsBt1SkSnh7CaQN+8LHilPsUeFREEmIRTjfMml91OjQYmm3683uxszrcv+0/CEc6fbxwTiYb6fnTWNCobiVxpaWsn/CcVAH1GTBedDJ5jRnHDXtjlHlHKWqhH9qY7ahCBIgyaY3cfsxlTCkf++yOc+NzRWv0L/O8X9KSuG0j9y+XBm4ksvPk4htjbQdc7uHNtIg4UDFpMqg8cy0hlSavA9WOCdvMEJdtNGxfLS9vbGVh9Hkg0mY0KaY8QbC09n0VAB7fypotvwkYwTfAz5W7ESgNPQmwXFbelL58LJuVUUUE2ezAG9LiKzbf3vAl/kcDVRkN6LcGGI95VRHmXwfwtkicwi5qZ4H3TrxyFweBW+iFzS2+FAnaENZazUIiBG7CwcvsQsx3dgHWtlAOBKrEO0UWjD/y6aOZIW2bnc5cnnFB4zOWxbTbQhT7XflZrGGWGtZcYbS1xNm4JmKXJA/pOBhUOFrd/4mrCqwIUrkuHCdAbe60Uj0d96SPGc/Ybuidb11NUdBsRp3MMQI0eU6d2T3qX86BdQSsOhDu4xRKFuRwrSd/rEW0eGk2FOMR5xPie+rFV+lmrA/+J3kH9jALq9b0uVBrMvQl9o4qN4eXU5P+VMGP/jBEcADBJi6X3BZhijx8YSQwkgsg5X/N1S01fcn7HjXYNcmTY4utiW2b9LCsHzhUT6dxy8Eye1tEQDHBkgKk6cs9F3QcNH9tU8MffT+LW+k3mEoymgfrlp3/hIhd9Fo2JQSA8xWfW1j6WEzf3yp3OFEaZfP7xaR9IZBrUr2z+v/1q2OOZLXZzJ2jmJLbAcdX/VpJfJjScEb0ThbM8Paab510opsuK03BWLnjgVrsl7pXjrv4JLeVNbwMkTwlbNrr0ycQRHp7qx3Ze5nKcrv6yWalvImBzckrnD5ySeibKZZ5jvhKodtvU3aM9ZGo4LcHqQNlsVzJWABdfxKpI0f1QbiNY0qYmmMHCo2LbbW7x8boV1FObb9eNdIm0AScVRrmoTg7xJtQeMfBoQUGf/xCxCLDMWz1gdaU01tUHTyglSQ6S7N0y3XtWn89zZPQ0+mB8g08hv3uyGZub2DEoJwQDdz/Q6Mtr0IV+hs833u3Ai8K02Jb1ybrzEkvfRVB8DKoTwXOr3BBXYcdFLo0JfdzwOQcIGVgPmpNbr6E8BTohrGDBc3rqqAM7AgnjptGWEYuuaCEKW6P8kNMH6F4d7NcKNXGAYE0Dv1NeELksnLqRFH6w3TfI4tpfkAQnCPpNo8/qkwjCd3s1wO8ej4i1a47HzTFslHztZ5nFUX/DeISkYjiQd1iFigW8LSUO91G7AqFALP9xUZcPp0Etq7sbZjFgm565pIRX4oahK+IsQK2kMgKubx7hYQLkfriSBL5gbFRreKO83Jcb5AUFKtNkeTsOX5NQ8giM+uuRuQlC+rJaZAFuptDwQfAraA3cmftk9xWNYP9eF1veXNFe+M4qIpRCiQ1bZqcX6oYemVEpCn7/4gGsUojPCjCe3/b78Zd/VpGhWbGOnmhwjpoEKX1HbIHSE1D1CNPNQ3uIIrfmLiGVItm+fgrdZE2rWlWmnYlC9etsKg+FOgV3RfgvFucrI13SIE1ZBG3GQI/+QrxwquZYX2rEa4oh9tVT/VPMWQxmxNPIR4TZvY0ZSW8HWMXpLIKEjhx5kjIZO8o8jy4kx2pIdY3leCU6xh9RCWEJllD+OTWJQ2Q6+Pm+uaXfNs0PC8nbIy/bePevccOg0bkMSRMeQu0gFfl8xEDQKGaRZtk6ArhkKDS0S6y3qMt94w3Jf0SIIO6P6YIBbV0bsuGV+ZYbqoUOw4aymE6VyVNk9oYWUqWFn9CoNdMMuzsgcZ3g4b2SyHwMItFjaCcrd9hY949C1ST/3siH523ECe+olHgEuhbxcoHMqB0AJ4F0so9Q/oowsW5GyAbmyBopuoKgedh3E7/UyyGxaQbyhIogY9iiHYJXXAt+np8u8XLk0LTLfORSOjCKWmZyCuLzXCNO2Qe0J4lSE/ex+Bcg8EFWhx+miCug1DukPxokMxWSMQZFuhcSrgAas3En6j9EY7/HcNfQJQtNpVTG5J8nXaB8VWrXQ0L6KTBqSg4aY+fiz1GY3X1sZcg9QfpIs1T1qZ3ZPZ2585Z0268H1E2eEMwlXGeO6cub3yKMywZwggu++QFsXyAtBH/cl+lgkVPwYgi+zSVlBUb38/xYCz2NQFUJ7TVsPitUSrxJLiQEQ/hUmCFd5Ql85IHMZpziluq/RAe+YMZEZo+uUwCWMIc/Ov4ez9+9guTPiPh2PvayLLqyMHM0ASxfTdq3brWzfBRGNyaDPooN5kU9npRNhnDzAH/q/V1bdNCgce/wrzXgDzZr3R7C2jTJa0v6TBDUUFG1hX9JHKEMm8A8pXQXE4N6HaSYtO3cmQkgDUK/R9JYT3ShVOWcSSIea+AlHWcqQTH3HoALYLO5qmD4TME105hiDqPNeQ44Yv4iUii2BskooEd/t2OCcbTph9jrWqyWZfjMpl9i5XaW/ibcEGmXJINQFJWihGcPcyU0D919PswljLzlx4UJAP6u/q8xt3MlwUEiejtsNgLEbH+BYBJ/Kkt/M7hYWmYHk/ITln5jAM/fC4Lr9fVs26e7I7qd7MYQeuMB2i85Md1sOopH+am9SKrpwvoSyBzIe3wEdDbhy4sBw3ioE7UuVyamZ8tTv/KtYu1VvI7X/CPmDnt6hCMNZuvIs3ceKc87vVzOH0Qklv7ivIFKGjpfXjHKiIH3AQ3afUx2D2msDlztD8kz27e3L0TurhKazYNqBWw5h4Y7jYxEC8UC9TBEST5Rk+Ez8chit8vnFJKF/+HXA5tVKozXcNIV5WrnNo+4gkRZLT1YRz8YW9wRNeTJwWErTLbcHkTODo7dMj4gUeiFWs/PLg6r9T/DteEXdydH5AXK5ZuJMsMuDZRbWtnM8zp2uuKgTo3QiFrjdAY/WmrHnaiWX+rI6dkxCr+KS2mk9ztBtrPEnscIt22qwVrMFD9afiR0BZ4ksKyfEbBMvafUPBc47yIOL3uLlZFPrno4yOwqvu2dlnctbiVfToSH+bxIkeN4eJZh70BRXIVDDFqyTXyvvUKknyJkQvCkL+S64n4+IL3cr7pcgSq3kNolBVaO+qqFb1CHbeQv5tQnCXYXhcOOb2+EsKxhKIHxIOeUD1AcAUufmpIHrjGRthRjlyCSsJol4mx+YjHNBv6c7mPAP/JRWpgGSrr9YwrkwASbEqSRwRKvyQ28h00aG+b8m+hnD2AYUNFdsldzZMudQ58egqxKk51lbQ7S/9wgn4KOI6IF+1EZBELn7/OREjXxgPb/+FQ/kM0mkxViWkudcC0mNmFpDonpyGWR9h89GmdmeByUsJKYxmkBXkhKryiyHEEh0lJzKno1XNn8lKCp2KazWSUP8+8NICUb1FmPjmwe2TUP3YAoi38Z3Z5b213so6s4FH783h15yAxEjHvGxeGgKCgGvRXx57DfscGpdc6CMSd81um6fgZkC5YDOrzMejNaPNSrXcnW3tuuPQ6FhX8NzUQ6jfrcUngX88On/phe1aw/ReVBoktsteg7HQ/VrntQp9TUqKCLX7xSbLrXqZJBxKqL1FvvZF3IPAsX+hFJbE0FfQhKJFDEcl83aJb0GlszUd7ZpMCK8gHRO82w18AyEfeFXCNDP1LL8UspkXW7W75uDIFqr42VVUYrjUyDFBC+aqBYH0LrHjPqonfWWSBCgjb2W2er4ul88CTI5JAeL2LCRAOby97b6HQHWexXsXWiGPPLXq7HoxApf46ZuJQBPodPxDZoQWDGQvXcckG31oUhuMlf/BpHWPzL0v59Uoj/pxfH/IigDVi2Y4kOHTyfLCo1Lz6ieJFR2bdVjoTuxOobZjj0f9hgbFylK2WA1EXf7TeCDDVNOGNAE7fUsI+79VXXelr/2nNZQCybQyi4N2oPlpvPu66bL5xl9xyMPoVZvC99w+qty2jyxU6/cidUBJP0FpY0Be4o9EuUSbSm1aDPXX9BND/yQODmXpkODYeclG0JyuG4EW3zwHaJUpYO2df3JhJofjPdKsJ/QIZGmQbfY7EsR72FuHGbytDZ6Dwob7XAG9TdMq2lAQ5+c3+i+nzH/eijP4XpIjKXo1JX0VkKufiWwrQpCEOvuprNfeJ452xyz/itBhxnO+rnkS4Nov9VOoEVBedafB61R5vaI648WZJwNoNt8k3rV8h3OsKjETARwaECOGN0d3LWyW4iqEvvj5sAhtqveLRdXpUcHEBwm6bI0NS6dlxjflwiLhlvzlG8yFEdcUJNow16vfF7l/UJwAy400VoheeF24dAL58VVfktOTTxe1uzM7KtiQGQyTSHXT9uBRNv5EAhQn43rk0HXPw/mXS3VFyGt0zlpiGHcsCC5A9qQj39kE1P1Q5K+vHfdPWPo5xKlGBkaWNqINTrX3hHnjcpf7vIzP3iH+iTvwwdMrSoj6+odUT37Qb5xdSwKHfhSCC0EehvQ5Q8WiO07FvH4YP2wwpZS+6GWkCPheW0sSVbMkpOdyr+Gt4WuwNPKHEFDUtGzhrp8BnL+rF2B697osJcT0+VGPTTcaCJAf8zuOdSVm3iVlNndlA5JSrgGtByHJCETbP05YEBrpxjHV+HtZPedT3p88mh+edxHDbIkVb/nIm8M/0mh9DE2LNI1NXpi05DqYojxlPpnLAwqatpWKdNWQ1uMI4lCiDw1yFaaAlfZ+mgYl48Ui6JxvOuM095IMvIvvdeCN26ukSgM/fCW7qpX3ajUmMfBNvYhVUAm8KDgB+hmXmKfakc9ST5kR1Mw4OH3z3igefPkYoARLQ3k2+PmXxxm5AzdA3PTioLN5SNYIsFCOOLeOynQIXNQkuWMDOWV+Bbhk5uL1jSN/VAS1nMQP1oJGgJeAlzKKlUzS1x5xzahWxrRtFMh9Uctqo6I2h6MNxhaNd9j3dFd79qmIBZhjGYResatZGZVzzJKBzXWTqSvELnraim6a4bGz+vwOOC+UlU8dv5s5kRqoj/FYb799n4PxBGVaXi+p+rZTV2D6q1uFrZhCQX1CQzp3XsBtN9ttlqJzpZ9EfZkBQ6KUT24fWSLQlIbfRjbdIwSvDkdEwOgojaEZfGoki82l8l5hbMXu7p1YImEwzhSAvOPmaI1zTbvXRz370iHRvcAvPs7nQQhf9L/EDCuPUE6DXUTHF7QRn7kjYMeCjQBEVwisbVKBacoj4fsKhzXt/KAL47tQilGzqympKFbgfJ18j+uajuZN6+4ijuxvaS4CPcy7/QxPmdCWQ1Bj1qnGtYBGAYAf5dHG1B4y11O/9w0cAbeXcpGl1sS4K5c2W8lkEVgZ6wSmJZSNffoFz2bmUjO8dklUEkF2MRRdAQH6pSw0fiH0ThLo3vttnhI+Ig4RPY/y++mopjSpy+K4nTXZdynoOtZ+5y9F5lEu5l9jU6g8VWLq/9RyJa0VqTs3dhzZnPbYj/JsF4KcbNH2pLe+cbin85Y+2Ey5YUmE8l2v2No/movZZdlVWt8SuuCHTk+iWstdT3/HlL7nJ3qxBXALnUQ0uzjsUPDnlkgyqH8ElsZe64rpmFKQurSG24qBPd63O5Soi8OxZHn5JOeEWa6rWv14OVvAFzPnR+3jVzD1V/E1Zy5o0oQJIbBPcbadZ62fG1/jTgZGMF7C5845V1uSVwHtHK6jQaFxb5DI4Zi1tXqj9EoSiWMcoNVa8DXZ6COM9WW8glswjprgQg5XZdD+QWJYGyyXySlYrN/DTCq+AYBTjN3LcXnHMx2h7H1UKGaBMNt6LLDRR0ry08druFaqDW6rwuizD/n+Z6yDaDIaunBgGN/L7yXzBlY9+Ximq5BFTkGpjwzAOPmAPz7LLpbge9q26bcUjf6Ql1efSpD/3Di15s90u+IDIs0QWxS58vkKqEUk+X787el7j4Hzi8qOPy54IZB6mQH+zCfycSIXfkyOWOhZ/MQJybP5xFg8OSMsGRD8RipYdU81eL4nOxEvXJzx65mq624ZuEXA24jf7ugaPKUwk14SVlJ33IJNq4s0u6ewpJ2cwyjE9whkb9AAqSgJnH4ak80J7EQtwZfAcw/hWauBKXZOmQ3Z9TFMBmJBW9zVOPbVUZtYX9Duq2696S7VzXUD1WN38tmidQWXaHs8qEESLsc8zBjGqnBdIiahn9mQyOj9vbRXv++Du0mI3pObm7ObQpUD1eH5hvCQDKrIYaYvE0yDgXb9nbigucQ2KDruwPFDPgshUTpuXh0IwxwKutiIeIScCtD0FMtK2040ScpKdoMInPeMj588onaqX0fp6SduZBsj8p2SyW3DeNkJBtEqYlv8SPtxlTFJuN3fkZbsYbIHLxC0zRgGK3/lHWmJd3KnnsxQNNe6SLL7QwoU7QeBeX7hoqOJGsI0LddToYkRpKcP7KmWFCn+bnfuAEWHOjX08eKGNXshBribNBSSd+0faeg/ptn7+Mjb+mZMoyEgmBdACGnWlJ7ZwyyEou1iYI0scgYfTGsXXn8SXFGTmrfJoWFfi864c7Av2jnr4fmDbK8WV6/BmUUSAqOrPJ1K3AR1QxBjf44TTfW7ZChuecbTjLqkhf+j9h+vRguRo+zOF47VgerMACicH6NQfPE6gbFB2CyRSkAdxHUnWKwRLeDZV5tgbNfYSYCYVkT5Ob/Lae9wj/3DdxZ8QKnfIzOXjcH3vOFyArviDKztmIFEF7D6s01eeIuJSrK6EPU22p/BAu19GtvAf3gr3B6S6vHC80zplkQ66PnBkTPy50V7J5l6AHpfkIUbIh8Mk+DYG3Owr8K89wYGtzo0hX2lZeD1a0e9ROJ7GpoWuxA0/2NYJK0bJ1T6rF1TiP8why4wgN5nZFualhzwxfxwpfyEsymLVIxFWyOnJoS9tNPzxuEvThzWOUjmq/iTyrN5r4Uu8caWyKP9L9hmk94ft5dfGjHQe95ukOdPmiEiYbzUttRg1+Q96q056IT3sHm2t3hlTB059SRWhFy+lET+8kfd4krUrqtmitbFAZ9GWU18qr7/jGS/hCxgmQEJGvEHfp2DC/lhWEKvFp7Oai2ITRKK105ATQc7/NON6/CdH6Oh+kvFIcmeQ6y1R/EO9JV9w5JVHLEjrW1Y5M5DbtOlIt/YoWLDMDQadxQSU2fVHWw8nzSS2oK1rEFhY2y0w1tEFMDrgUcAYGGu8SMZ1bwxV0djaxONvhmz0ObIYx/dURjZq8KJR4JReHzZrYfocVRj2nMtJ0irB9CVHUUHHj3Qj/9eE6y0dnFXNwP742NDIWJcCSpuYs2kFvF+RGgB2C0xqer/JVpzjugb6spiQsKH5nbSWBRVixf5GMLohgkneS+CIDajtxxygYFGfXZvTI86mpDUm4cPf1vLHQWb56Rze6IZPQqAQr1rqTZuODN8rXv/xY/bv083xXOxHDtJ3nhwagLgiJyeU1TxBTYSWOlkLjwqAs9H8vD1RTHg5H7ljWmoyE5Ke2WfVQbWqxf/ehRGklNWaxe3ud0HDH35kSEd82FWCtsMkMXLvNpbs4YfxymVquJ+cjZDDhnfJ/AUFCKlnWNCXMHEgvasgT+bo6OfSf+y4x0PAS4r4Iy9890gHO4HnPOP97ZNRE7RrCeqmRmIKGylV1+JmMwIK/mfNMItQHLGhJd9DPYBsRfpaePNhPSsuojwSwmFeqDjVHAffLTXfXhoMKnqlKQ14XB7LEK3a+h3/WKMVd3F8HizBOe8sYdBzgV8suafin2XUT40tdlhRijIDDMd9qPtYwcDg/6ZEgPgPHMCL8QlwHbXZ4EFjLxFbsqq20oE5xg+I1+L6OlIkDuN+Apudjo3v0OaqLvVQ+UCik3NWIAxF5cZFkJCC61xRGGcIRLuzHvQdXBD+ujg29eM8rq6l4EeWh/yisTVcVIzoM4D1oAHzkkq3QbcCYRaokozUmOt3rXEDvQuXcNS36Hm66newwaviUHA6owxk6zJTWSMKhuC6hG+I8ztdP1/NbZefvmzlJFVhrLuHA7yZR1/TG21MGFr5noHBNDDyxWzV9lCIxZ47FJ8PGmOzz9Q7bkXS56iPYUvWcD6xfIxFswWixX3aneXE7bZe9G+p4wVZCkOPLqsg8jDdMvarZHGYePPx+OHxoEDk6nXtNfLoEY0IfuJi/ZlojK1DyOUg/m6Ci6AfSg83XuaVJx6hgKn3XPOTUcdFMXaxAojHmnBzGkNtkRx9k2nL5PDr5qndlyjra3WLHaxNjNcKbC40GFXMe0szGwSKRXO6wfJJ3tJJiDvEfK8RtdLIaJPeTL9nexyuKfeHjm9yWNd+ze8fZqQxspeBAvWN2xQB1yhVEGJ2ek3qP4ztqZNbpEcsgLFdAG2vn0rpU2icETfprCWs7e1hvBLU7RQb7jSsplf1j4UYfCCa1yOOBAD6cIlAx3ndYjnm1zW8bXP1HwFUKPd3PvR7OtFdUe2fLOkAOfWjdaERRoMs5qrHTpXJfo1SsBx0xBuOX63R29PYb91bapJMRFRWvz0fDyHU0HthMZ0eTlpF4oCayYibYecaUsdQSnGfcvbc+tuzHdzcrINH6Ci6ENMQT2KeJQgDofQoXPr7VGhYXmPFlQMc2B9rtRynf0Ea/T+ptGLblcZjoJahpkR6UkgyUyig9Azi/iMXLN2ykaVvwHTFkqJa4a+n8vRLC+mHH3ayHS80QRLvUkqHB+0AnZ6U6j29czqMAnuDHWSD8PteLiLtnK5eXvV39JSoDeyYlrSyD/3986nDjAlaIFfgAPK3Izm47BL2N/IT8iN/9Gobx8/1//m51GJCcGcOt1Ogu4nAErrrVlZTF9HFcr8OmQ4yVTZneRwm+QwuXzlyu6s88UqFI8YlQTFAlNQhUVYe3fZGoDjTPNZwWW+ho2en2NXsJ9ebGafv0y3wLU41elJ83J7iKdJo6CmnZwsoXLxWmDwFZge2LnVCJjAOuVxFIrZ4a2XJY8CFa2oNl3v5kABLtLfvYgTRG4CAj3hfkm6twrmdJaXQLtTlZnk/kAbxZhn5dXVsVZ+clGqU1sQbmnc22L83erXrhVnOawD1Vk0oSKitE1d3KaInrX9IElfVUIVZR9RKPAbp4+R60tkAtkKQUeP/n/Tx2WrZ81snnRLdeo8NyBCeeC9oKrAvHWain31mZ9/xTQAgHsbcXqNDaMC97GU90/np9JFWGMEVMQbc5zPuAu+zT2ZEOB/NFOF3ZX5/Q1/f70w3PnRWUJkutDCKfVgeMB2ph54vUpxdEuuSRx+P84GVAnFqhP/HxqaQyXq0mIF5Bn7TzcYFMWaM8n4wH96/hHYkBe/CSwnyIVH97Gz/AnXF0FFQJE/CG5NZDYkCWhkDnTSuHsfZow+G+uMGwYha+vNf6YEXX3vCBHkkNSHACd5XmZA8uXj5gDgZGh43y9sT/EZOGdIltjj7n5RB7Vk5OSpSlNHqRMhwCyM2ra07w579hgWMbwjGMABQ02B3nV80DD68xyvW89tZJUShc3gO3+aDbFzUs784jFLTAsc+XrlL1n7L/FKVmqAzAqIg/KWI4ZtfiEPb4IAR/CqTZbGuCBgGFLqUQUqqFOGWnJ95nAzmvqzJNfGf5P+druxXODahqUKHdlZDddndagclOJxP6oW30Se2ymP+Iz/VpToxqxWeN+BfKgL0SzywWumdDtqcKXpb3GNTgEo8uqAzN9gWkBeFP3p6YpRrom3ZErthdKaLlg68hoWo04YHYm0oc93kwv1bmRe0xEv2+FETzj26oGyUbNsSqwqI2msTNIqg+THx5NZQszss/GUjf9AU4X0z0LFnBvJM+VsOgskx1U7CLFn9CcunHsZCGk4gzCop1qFx7q6RPO6qu/3n+Kfd0XVUQbHuOhJqAAoa2q5f57KV0qvoajMMSsTNh7HDBP+sTsGhsowUGA64LDk76f5xTb4xCUOfRCjsyiJjLtleZBFU3s3g1t4sAEPeabmUL059UTJLapIA8KujTsvPcAQO8UgMV2tYWEnqbiDJZ9F6lavGgOeF4fFv8r4JYAWXTV9u4djknV1y9wyBnUzzaN5PIeIpsKC8mX78s0j1gNVuzDYNwIs7c4NHGdnIgDKsxgpF8ok</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/get/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

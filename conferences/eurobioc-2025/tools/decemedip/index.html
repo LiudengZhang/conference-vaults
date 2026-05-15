@@ -13142,41 +13142,34 @@
   
 
 
-<h1 id="decemedip">decemedip<a class="headerlink" href="#decemedip" title="Permanent link">&para;</a></h1>
-<p><strong>Hierarchical Bayesian modeling for cell type deconvolution of immunoprecipitation-based DNA methylome</strong> — a Bioconductor package that infers relative cell type and tissue abundances from MeDIP-Seq data, and can leverage reference datasets from alternative technologies (microarray, WGBS) to improve deconvolution.</p>
-<ul>
-<li><strong>Maintainer:</strong> Ning Shen — <code>ning.shen.wk@gmail.com</code></li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/decemedip.html">decemedip v1.0.0</a></li>
-<li><strong>Source:</strong> <a href="https://git.bioconductor.org/packages/decemedip">git.bioconductor.org/packages/decemedip</a></li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/release/bioc/vignettes/decemedip/inst/doc/how-to-use-decemedip.html">How to use decemedip</a></li>
-<li><strong>License:</strong> MIT</li>
-<li><strong>Status at EuroBioC2025:</strong> new release (v1.0.0)</li>
-</ul>
-<h2 id="talk-at-eurobioc2025">Talk at EuroBioC2025<a class="headerlink" href="#talk-at-eurobioc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speaker:</strong> Ning Shen</li>
-<li><strong>Day / session:</strong> Day 2 (Thu Sep 18, 2025) — morning short-talk session, after the Sharpe keynote</li>
-<li><strong>Talk title:</strong> "decemedip for DNA methylation deconvolution"</li>
-<li><strong>Slides (Zenodo DOI):</strong> <em>to verify after publish</em></li>
-<li><strong>Video:</strong> not recorded — short talks at EuroBioC2025 were not part of the plenary YouTube playlist</li>
-<li><strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>decemedip fits a hierarchical Bayesian model to MeDIP-Seq signal to estimate the relative contribution of each reference cell type or tissue in a mixture sample. It can borrow strength from reference panels generated on other methylation platforms (microarray, WGBS), bridging across technologies rather than requiring matched-platform references.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> A hierarchical Bayesian model couples a logit-normal prior on the cell-type proportion simplex with a generalized additive model (GAM) that maps fractional methylation level and CpG density to expected MeDIP-Seq read counts. The simplex prior keeps proportions on the unit simplex while letting cell types covary; the GAM absorbs MeDIP-specific enrichment bias.</p>
-<p><strong>Inputs / outputs.</strong> Input: MeDIP-Seq read counts at a fixed CpG-site panel, a reference methylation matrix (fractional methylation for each reference cell type), and per-site CpG-density values. Output: posterior cell-type / tissue proportions with credible intervals, plus MCMC convergence diagnostics (Rhat, effective sample size).</p>
-<p><strong>Key innovation.</strong> Two complementary reference panels are used jointly: ~2,500 cell-type-specific CpG sites (cell-type discrimination) and ~1,000 "anchor" methylation-universal sites (calibration of the read-count-to-methylation curve). The anchor sites let the model learn MeDIP enrichment bias separately from biology, which is what makes references generated on microarray or WGBS usable to deconvolute MeDIP-Seq.</p>
-<p><strong>Parameters worth knowing.</strong> Reference panel selection (<code>hg19.ref.cts.se</code> cell-type sites + <code>hg19.ref.anc.se</code> anchor sites). MCMC iterations (vignette uses 500 for the toy example; ~2,000 recommended). Prior on the simplex (logit-normal). Choice of cell types in the reference (controls which mixtures the model can resolve).</p>
-<p><strong>Canonical example.</strong> The vignette runs decemedip on a prostate-tumor PDX MeDIP-Seq sample (LuCaP_147CR), producing posterior tissue proportions across 25 reference tissues. Convergence diagnostics confirm the run is stable at the demo iteration count.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> no current dossier; relevant axis is epigenomics — methylation-based deconvolution is a recurring theme in liquid-biopsy / cfDNA work</li>
-<li><strong>GBCC 2025:</strong> queued</li>
-<li><strong>Nextflow Summit 2026:</strong> not mentioned</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>First Bioconductor release. The platform-bridging reference design — using microarray or WGBS panels to deconvolute MeDIP-Seq — is the methodological signature and unusual enough to be worth tracking.</p>
+<div id="mkdocs-encrypted-content" style="display:none">O7TX69vdDfXRUdPANKgrig==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/tools/decemedip/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

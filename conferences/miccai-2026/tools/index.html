@@ -13109,98 +13109,34 @@
   
 
 
-<h1 id="miccai-2026-tools">MICCAI 2026 — Tools<a class="headerlink" href="#miccai-2026-tools" title="Permanent link">&para;</a></h1>
-<p>MICCAI 2026 will deliver peer-reviewed Springer LNCS proceedings (~700–900 accepted papers across main + early-accept tracks; final count after Jun 12 notifications) plus ~35–60 workshops, ~25–40 challenges, and a tutorials slate across two satellite days. The subset that yields tool pages is the intersection of (a) main-proceedings papers that release a named model / method / package with a maintained repo, (b) workshop papers in the cancer-adjacent tracks (COMPAY, BrainLes/BraTS, DGM4MICCAI, MILEX, MMMI, CaPTion), (c) challenge winners with public code / weights, and (d) any update to an FM already in the AACR or RSNA corpus (CHIEF, Prov-GigaPath, UNI/UNI2, RadFM, MedSAM, Merlin, MAIRA-class).</p>
-<blockquote>
-<p><strong>Status:</strong> Template stub. Per-tool format proposed here for review <em>before</em> bulk extraction runs after the meeting closes (Oct 1, 2026). Estimated ~25–50 entries once the proceedings list + challenge results are public.</p>
-</blockquote>
-<h2 id="per-tool-entry-template">Per-tool entry template<a class="headerlink" href="#per-tool-entry-template" title="Permanent link">&para;</a></h2>
-<p>Each tool gets its own page (<code>tools/&lt;package-slug&gt;.md</code>) following this structure. The shape mirrors <a href="../../ismb-2026/tools/">ISMB 2026's tool template</a> with two MICCAI-specific adaptations (Springer LNCS DOI instead of <em>Bioinformatics</em> DOI; Track field instead of COSI field):</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># &lt;ToolName&gt;</span>
+<div id="mkdocs-encrypted-content" style="display:none">2/tGUZrQvw+bMvD8csJVIA==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<span class="gs">**One-line description**</span> — what the tool does in plain language.
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/miccai-2026/tools/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<span class="k">-</span><span class="w"> </span><span class="gs">**Maintainer:**</span> &lt;name&gt; (&lt;institution&gt;)
-<span class="k">-</span><span class="w"> </span><span class="gs">**Domain:**</span> pathology / radiology (CT / MR / PET / mammography / US) / surgical / multimodal
-<span class="k">-</span><span class="w"> </span><span class="gs">**Ecosystem:**</span> PyTorch / MONAI / nnU-Net / HuggingFace / standalone-Python / web-service / other
-<span class="k">-</span><span class="w"> </span><span class="gs">**Package / source:**</span> [GitHub link]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Model weights / checkpoint:**</span> [HuggingFace / Zenodo / lab site link, with license]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Docs / tutorial:**</span> [link]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Status at MICCAI 2026:**</span> new release / major update / methods paper / challenge winner / workshop talk / tutorial / CliniCAI demo
-<span class="k">-</span><span class="w"> </span><span class="gs">**Proceedings:**</span> [Springer LNCS DOI if applicable — null for workshop-only or non-paper talks]
-<span class="k">-</span><span class="w"> </span><span class="gs">**arXiv preprint:**</span> [arXiv link if mirrored — typical for MICCAI methods papers]
-
-<span class="gu">## Talk at MICCAI 2026</span>
-
-<span class="k">-</span><span class="w"> </span><span class="gs">**Speaker:**</span> ...
-<span class="k">-</span><span class="w"> </span><span class="gs">**Day / Track:**</span> Sun Sep 27 / Tutorial · Mon Sep 28 / Main Proceedings · Wed Sep 30 / COMPAY workshop · Thu Oct 1 / BraTS challenge results · etc.
-<span class="k">-</span><span class="w"> </span><span class="gs">**Session slot:**</span> oral / poster / spotlight / challenge-results / keynote
-<span class="k">-</span><span class="w"> </span><span class="gs">**Slides:**</span> [Zenodo DOI or lab site if deposited]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Video:**</span> [conference replay link if posted]
-<span class="k">-</span><span class="w"> </span><span class="gs">**Abstract / paper page:**</span> [MICCAI program link or Springer link]
-
-<span class="gu">## What it does</span>
-
-2–3 sentences: the clinical or methodological problem it solves, the key architectural / training idea, what it consumes (modality, resolution, label type) and produces, what it&#39;s benchmarked against (which challenge / public dataset).
-
-<span class="gu">## Where it fits in the corpus</span>
-
-<span class="k">-</span><span class="w"> </span>AACR 2026: [link if mentioned — pathology FM dossiers especially]
-<span class="k">-</span><span class="w"> </span>RSNA 2026: [link if mentioned — radiology-side clinical-deployment counterpart]
-<span class="k">-</span><span class="w"> </span>ISMB 2026: [link if mentioned — methodologically adjacent]
-<span class="k">-</span><span class="w"> </span>NeurIPS 2026: [link if mentioned — general ML / FM counterpart]
-<span class="k">-</span><span class="w"> </span>ESMO 2026 / ASCO 2026: [link if a clinical readout uses this tool]
-
-<span class="gu">## Notes</span>
-
-Free-form impressions: benchmarks claimed, comparisons to baselines (nnU-Net, SAM, prior FM checkpoints), reproducibility (license, weights availability, training-data access), and AACR/RSNA-axis fit notes (does this surface at RSNA as a clinical-deployment story? does it cite an AACR pathology-FM dossier?).
-</code></pre></div>
-<h2 id="tool-index">Tool index<a class="headerlink" href="#tool-index" title="Permanent link">&para;</a></h2>
-<p>Placeholder table. ~25–50 entries expected after bulk extraction; the populated table will be sortable by Domain, Track, or Ecosystem.</p>
-<table>
-<thead>
-<tr>
-<th>Tool</th>
-<th>Domain</th>
-<th>Ecosystem</th>
-<th>Maintainer</th>
-<th>Day / Track</th>
-<th>Proceedings (LNCS DOI)</th>
-<th>arXiv</th>
-<th>Code</th>
-<th>Mentioned elsewhere</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em>(populated post-meeting from the Jun 12 final-accept list + workshop programs + challenge result writeups; see <a href="../program-notes/"><code>../program-notes.md</code></a> for the candidate shortlist)</em></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="why-this-format">Why this format<a class="headerlink" href="#why-this-format" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Springer LNCS DOI is the anchor for MICCAI.</strong> Like ISMB's <em>Bioinformatics</em> DOI, the LNCS chapter DOI is what survives — it's the citable artifact even when slide decks vanish. Putting it on the same row as the talk metadata keeps the citation chain intact.</li>
-<li><strong>Track field replaces COSI.</strong> MICCAI has fewer parallel tracks than ISMB (no 22-COSI structure), but it has a meaningful Main / Workshop / Challenge / CliniCAI / Tutorial split that drives reader expectations: a Main-proceedings paper is full peer-reviewed; a workshop paper is lighter peer review (typically 1–2 reviewers); a challenge writeup is more of a benchmark report than a methods paper.</li>
-<li><strong>Model weights + license are first-class.</strong> MICCAI tools are mostly model checkpoints (not Bioconductor packages). License clarity (CC-BY, OpenRAIL, research-only) matters as much as code availability — clinical-deployment downstream at RSNA / AACR depends on it.</li>
-<li><strong>arXiv row separate from LNCS row.</strong> Almost every MICCAI methods paper has an arXiv mirror filed 2–6 months before the meeting. The arXiv version is what most readers cite, but the LNCS version is the version-of-record. Both rows.</li>
-<li><strong>Cross-vault "Mentioned elsewhere"</strong> specifically watches: AACR pathology-FM dossiers (CHIEF / GigaPath / UNI) for pathology-FM updates, RSNA tool index for radiology-side clinical-deployment counterparts, ESMO / ASCO trial readouts for any imaging-AI-driven oncology study.</li>
-</ul>
-<h2 id="open-questions">Open questions<a class="headerlink" href="#open-questions" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>Granularity</strong> — locked: <strong>one page per tool / model</strong>, same as ISMB / RECOMB / AACR bioinfo-tools.</li>
-<li><strong>Challenge writeups vs methods papers</strong> — open: a BraTS-2026 winning submission is "a tool" (the winning model) but the BraTS challenge itself is also "a benchmark." Proposed: <strong>one page per winning model</strong> (top-1, top-3 if all release code), plus <strong>one page for the challenge as a benchmark</strong> (history, dataset, leaderboard pointer). The challenge page lives under <code>topics/oncology-challenges/</code> rather than <code>tools/</code>.</li>
-<li><strong>Pathology FM updates vs new entries</strong> — open: if CHIEF's authors release a v2 or a new sub-method at MICCAI 2026 (likely), do we (a) update the AACR CHIEF dossier in-place with a "MICCAI 2026 update" section, or (b) create a parallel MICCAI tool page that cross-links to the AACR dossier? Proposed default: <strong>(a) update in-place for incremental work, (b) new MICCAI page only for a fundamentally new model</strong>. Symmetric to the ISMB-AACR cross-link convention.</li>
-<li><strong>CliniCAI talks</strong> — open: the Clinical Day track is typically clinician-facing and rarely names a new tool, but occasionally introduces a deployment-ready system. Proposed: <strong>only if the talk names a specific tool with public artifact</strong> — otherwise the talk is summarized in the day's digest, not in <code>tools/</code>.</li>
-<li><strong>Coverage budget</strong> — open: ~700–900 papers + ~50 workshops × ~10 papers each + ~30 challenges. We don't expand a tool page for every paper. Filter: (a) any main-proceedings paper with code + maintained repo + clear oncology / FM tie-in, (b) any COMPAY / BrainLes / DGM4MICCAI workshop paper that introduces a named model, (c) any challenge winner with released checkpoints, (d) any update to an existing-in-corpus AACR or RSNA tool. Estimated ~25–50 after filtering — narrower than ISMB's ~60–120 because the methods filter is sharper.</li>
-</ol>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

@@ -13087,259 +13087,34 @@
   
 
 
-<h1 id="trials-sitc-2026">Trials — SITC 2026<a class="headerlink" href="#trials-sitc-2026" title="Permanent link">&para;</a></h1>
-<p>One of two primary artifacts in this vault: <strong>one Markdown file per drug or cell-therapy readout</strong>. SITC 2026 reads out a heavy block of early- and mid-phase IO trials — CAR-T (autologous + allogeneic + in vivo), TIL, TCR-T, NK-cell, bispecifics, neoantigen vaccines, and checkpoint-resistance combos. Each gets a <code>trials/&lt;slug&gt;.md</code> entry. The methods / immune-profiling side lives in <a href="../tools/"><code>tools/</code></a>.</p>
-<blockquote>
-<p><strong>Status:</strong> Template + master index. Per-trial pages will be populated as the SITC program is announced (program-at-a-glance typically posts in September; full abstracts via JITC supplement in October; presentation embargoes lift on the morning of the talk). Pre-meeting stubs flagged <code>*expected, subject to embargo*</code> are sourced from sponsor toplines, JPM 2026 / AACR 2026 / ASCO 2026 framing, and analyst preview pieces; numbers can shift on the actual abstract reveal.</p>
-</blockquote>
-<h2 id="per-trial-template">Per-trial template<a class="headerlink" href="#per-trial-template" title="Permanent link">&para;</a></h2>
-<p>Each trial file (e.g., <code>obe-cel-r2-all.md</code>, <code>bnt122-melanoma.md</code>) follows this schema. Copy and fill:</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># &lt;Trial acronym / name&gt; — &lt;Drug regimen / cell-therapy product, indication, line&gt;</span>
+<div id="mkdocs-encrypted-content" style="display:none">cbMuI3HPh72KGX50mv6Nww==;yI4Ri9Nk+axeAG2HvD8sKEg0ww45apasXJJXWwfJ0NW3cv886h81x8x4IEL0lry5313PmKsBOBJ0jTY6hUJCUf+0NEOao2Auy7Zs1FtlTnjAJ9jTQFF7IHWi34qlkCgUYY9hDJrBimIOmPpQ4kq/NKMFcC4xq3uxPWtYk45Xi3lpBt/JUti9GGPqZ2o2vVYaJ3nfSBw+bVoGt4tdN4YQcHslxSZe/h/DhGosUdD4UPJepz86PztUEUaXlbFpcdV5t3yQ4zy1J4lYx1jx6DrsL/WZJAAeVSj61qRLpZB7VxdHjeI8nufdRkvvYV8RHxPPNNRwByrigFC5fDSDt/2s4fSq48E92qwPfuXYEvd7nfLpmtgx4+AmzunRa73vb7KrxPXl34IKu/yI02nphqpAX9URCYYjLyLrBNEENZUn/5dk7x19Q2M8+l0CuSJNr8Co47YAxSerWSfyZWUrBWIeAOrtTHT6j6WkPdw5tvFdwRmUIQI9m0kg8Cr0D4ncTB7kQH50ET240Ij7Smw5+Z2i9/fVXUVJB/cNGMUJtqK6BfPlzKc94x22awuSW+0GIyfVD/9xnrGbSh06QfllEBwO9x8gL4hL3eY9xX+QVgElEyKbY5xavwyL/WehIvag5CbjOa5Nf1r9WHueZTa956AEtFpfNqeu84CImZDVKLr8NTprPUxUb/QO5Hr+1vczwudBirDXFnBmJsPLoER9oM52V9IOjgmzDy6d2OJhqKHgVypgNW4n6lmJyxah5Ll4iqozh6BY5FZP6GQ8YBVA2A2wZLqOqfeBDJxCd5ZRQCweC8kbXnWbB39DD4D+3y9KlUs5Hdx/JLfYbDspO6c5qStm+HwKC2SiMayoOfhgr1v8Ow7dPYjWK+5xsxhZdaVK1QfPSgz6LG772JJ/P2Stlw/M7hbKc0BNtrBtTZOAde1U9E/mvs1vzFOI6F5cUajG51YjglwEd7fvbLuA64vuH8NYPlHMemMix5fzZIepmI3Tj8lRbSOFp32MHJ7nDnTcCht1H/3fQRyPjDa6qgmE5Ep5PN/fkM3W8w/nbOCnMBz4rbsPHSke/9s3T/shGii7LZbb0fSzdSwbRrS7+xlzM6Zy/1YQ2l5GqJcnDhBm5TEEznEVF3aTb0BGpuZ2N1+A/ERjAuK/88FdbVhubnb2iH5TA2cH9vhEPePfgEvNjlS7ZI4uvn9kDL9aQfLfvbEdbKbcvHUtoBICNv8YGgnWsx9sb+ZZoMIy1F8Ba2UFS0AmqOyMsE9GnpzIfO6C9myxbw5tMIdvQeP1XPoKBPewC7ZTuo/LiajUZYlkRDTTK4w1a40ll5yXU+rfOhCCQKO/EZxCeE4gqqqy1MWAgf9AcYe/4aPLuspVJcrNCILLgvZ1U99P8rnIq1pn9e8YLRPwcpMfUWiDd3/T1od39HGCKHzaR65pFZOJ6KOvKgNQcp/pHqe8kdU5IG1MR6kFAfu/Y86v76WB9CJzGgaBn4PN8ABomTjvtY0Z43uCRn2NgMC9u4RUcU0VRBpqLZRrDlb/ayNHukpVLXYD8ImAyNfYIK35VhCx8ZhY6UwHcAEhzfulSrC8fc+ozw20futt8uw4dn1Ym1CJKI58USsnotUcRgcrcZUTvG9eDBoIi7jHhESohCsl33nb8++5LVXBuKKTiswLGyApncV9EhTNqy5BXnUqZ3kk8n9vPnvoDGStAcrw3ndgNiRRMe+dblslVhxtLFwDGRitiH2GlWfFeIBBislM9Cnyk2oqhW8wRHqiwmJv0ylTPQv2ZDer89LrgnVS1huLqc9lb0eHf8UybgznDa31A7qooIzwUW/oLY04DdYxaHvcwlh6PjzfboCeHmPKkQjOA8w0bU55IUr9A90pKhugNuZrgT7Z/2Ei/2US+5aqGrQ0Qd2U5y/TE4+lTvmGbpSxiktSLVb0NODXeIapFhqHTk0RlZZfzGD0XUd4/x5R83sW3piZOKmvpA/+1c0sw13ddIbt2Baq5PsKat1RQ56HqCR6Wbdwd/5B+vhaxRvJ6TV/1plHVxuppwoWxUTfHhF91iSjCvR7lccqtnmrz78GNWCUy/RRrfcglONEQbBzMxZBvtbDvRWVHCkPOCrNFD38FB8bAtavlmgos0iHI/0ShICiPJSUAzfkat3Gwf1lBiu4mr0jYnlgryPtVFc2d9j1bSWAhggxAjrGCkyrGLgM51e5QF4ADo8Ulz5aYgFbCEyMrjRmK8siQylvjyH12/PwfHekrC8CsRz68enQraYttWNe5XKKORMamnK0U8fzvtXAi36UhJCEfc0g6j0Rj9Ng69XtXSxgu1Gik7sQnI98pkTZfCzzau2Jd82EghxXuhzP0uoEilmBZ5eOYphshSMoAh6WyANKM3Tw8lR+twmAsVOTGYdkN+AB1rifAri4wL81uVamuT17n6SfTWUqY7WS/WS1rRLCJSyaA63zqatmJCDpii52EjzM7a1rntbZFhRfud6J/xMHfnoWgZa47VVza2obmno4Yr83IhvmiQHf+h0FKFijM8osPu/hR169rIdcoj5MOSSwSDyl2m+y2D5pqf9BlWVNQrk9vrPcClto3BXw8x0rsVDml8uK3YPGbN4fW8Ngznpe9TxIiFvyYx9VG7bGh4s06LqSEHEh5jkPSm94UDt+uYyIVfKkUdaRI5bgvme0qc1dHY70CwhE3MWFnD557GQEVWkxu3EftEThH5ZQidv6xXILaozq1GofF2k8Zcf6fTwL4Q0g8Im9MOtggZMhALPzBHGWudf6r2w+3w1Si7aSNSQQib88b+LU95UMJT+vHhBx7om7JIJJVy1wHaBzATaS2D0lIoSkrHGsn9q5X1hdR8e8D5kUicZfE7CfK06fEVaNp6tUhcaA56uzz+zbEauOZr17YLNG+ALc1wq3mrBirUc3GugYRUZwTkPmx0ZnBgW8nuwHMnF/ICjr7S8n09je89lZph8V3/QDvGHauh2xNkxT6+sB/wmSuKG0tsMDJSCEc7RDhmcaIdqjxbZ9iyQ93NzkMoXSPw49CPxf0RtaZrvDuH5FvjwuV3E16pcBR5rk80BTvAz+oKxNBGYduOPImCmzhBqGqmQbgKxvOfzx5CinF4LtrFstuPde+0skS/kx5p50qN2tR4XQ3vXkKr+qDnQfs7EAbRoXRU3I9k9+s6xmEuJN+U8H014FCJFizrDBPP2uwKxC0NZIYdhtkZ2wkmriYfCwG4KwCXdq/ACSKq5SGmt+eLHnykbXVFzyTb7o28h+3z3oOEFb+Gb/MO7nznC7jQ9NuXzzktpy90f+MbsrMDSyakRBEgiQBYtmTAAHLc1vyGCQY+G5ZzlJ+88BSmMLI7w7d8SRK3WB02EqHg6OMfU9iLYUIsbgVo6L/T+5BnKJ7+TA4xZ2Egk9uUtX1WcFR6nCU5UkkMqab9p1mBIfo++j2bvXuTU58r69v67if6teuJaYn24FEwkuN09NeHdjryKRPxrsyD7Lq+/r2MRUQf7K5m/HkZ4W9BoNk008MaETI2FWO/2u/jqokqx88LVVSbexB4amEPCrtG5FqqLtP6SnzAiFnjH4Q4WeLd2blp1lC6j6NauHbrC/Drgonssn30fDZAxwoof+mDlNO8Lkyt/yQz8sP6Iq24XdGxn80Z0x0LWaRsyPzWn+fTnbF77F3n4H/W0A1GIaSfhVZlX3fDj1ZPyrzVhEFyNBhu+Lq/oFbaSLXS+gth9fVCUrvZEplnm4BfrR80FIcmAW1Z/wj3aGWdNhzEQoifDDleXE/dBqDkVR1O0QTDFUb0YSZJa24yor38jRnQq4i1hod6/JO8WC9gVINm63NoTuN+qQMIzvou/ZMii18bJkEsPg/NeTvtaaXyVXMphFweZgf2TTSSR4pJf0wwLN6atvgMyVJt8Tepfs8b9Pafo7E/IfiukfkgMlYI4vJcBAfmnQIhoWDiuXYV4ikauIby8zeYv/+shkgP+uO3T8YDIO81wYzPyjUjEvU47c38z9ITZF3B904gMe6rvrk85QIWoyLUY0jnJ8lmH2ObUfuaDwLRet8SfSVYCZ9xVUfvyRbvEuSjkkZ8YyVl6dwg+LHj+l8nsFTJx5WOdLP9xAB5VWtcM1yEPAockib0ckSuS3RlvxTQ1sjK3BYCxBRUA/CbyNbEu6vZhMc51IrbD3Z2XdiprstuiAAbjH+RDWXXxE1ny4SAqOuM6EU0xGI4asOURfErBvrJXcOVil/HN1gawNIRY3jktIT1he4Sjs7dVzyLZ6XxoOanJavqJrEjfjNcUJUpw60nAfMDvoIrUETLGy91BZHUcJAdUdbM5tMT/a81O5eKs2b0kiPtvhhJnVDQfK2HRzAYPW4UBpkDapdHUv4Dkahu/xdEazLJqeHT8Fofnpj72Vd5Lzpj6t8tphZIcfjpg0ofWlMEsjJGxpd5eG6LTjZowK/QwJUWfyY082P9F0fObkjVzfiQ8D/FmhSeBlT8XQL1VL+xwPSRweFtkD9BZob8PoGd3gAM+BDjnyzHhxVEqC3MIe1sq5rd8HW/4LgjxQv2W+Lfs3oEUnWyKgBp4YEt/w/eIpJca7T5Kj1y1dTujZWpDsEifW46iuXEZEDa78d5K/AGc5JZbtuLTJAwpALugLZQ3cgO/Y3p+ugFPmf50v7B6cR7iUNhUkU/JwAgKxf/kwAwcp43C/V55AGck3pTpB4TWgHHzIMVUXy9UBaUhi5z4P/2ZZqNYyZEAngZ3nO+/H7Z8EpkYElfH98ybaYYT6syp4sRbHJdruGuZEKr+BdNELI40KylPw1lg9vgg1DhLsKzza40liSxAR5mkNL4eH6t2Fe4PXYcnFPbfEISZ/7FDkhLLsZVm8ViWjaTI8AFlbau9PdXjVkX36TS5WKopbcwOb5TxJtX4tI74DYBbl/Qr9FaLpQZos2Do8ZewqZsWIDHYw2xRgq1437SLHA0t68ee2bg4qNp8GJ1qvrGHLO+ijVz29IAtkxqxzIGxpDiccDLQerw3FmEQsuUFBvnXeS+eooptY9+qAqkR/QhhdchBMhyaEJjpVgJxtbO/A8lohMQVWegnRGYCpHr1HSlXwimTLPMD9WYNOJj3bN1lp8Y4QHUwHYO3igOqufnh6gtyUu9Y8Hd+qABxJH+XXsawxa29eSr1i5nn4ZC59LRhSdwG9XgXM4oljPW2FFj2zABcfsuAr7HaExKG7qIwDS2Pxd4JMxLgB0c0RSHyE6HhaCN4glLTCi3RsbG7dIz7OrV+rhi9gHpLdIy+4NBrslzodQ6DgD6yfvoWVccGhL9QpXZp1QJDdJ7VnIcnEx82mszGZoTRJhT/XAO6wOnakHTIDxtG/6TsQa4pGAsm3KW0d22rv7IMqpjCwbrFptsaPoCvQVQga7tNo9lGq4Dbt+xl+y5qnef1myD7RmRlPXExWIVmnfEpf4DXYqCCTLzxe42qBEN+I8e7SC9JqXQ9sJ0GA/9q1Jmv6SF72laVtFpk1ysOWESviZuJqxv/6RtZTDRYtBQ9XRoVx9D8lcyqQSxQwxKPGYlFMCyR9YzImYsyKAG6SqwAxTLVHZ0nMkK3KlozlpHtoUUfjNlE2PrEfBG/jdGjSSHgTVPsy8ubu7jlEFIWUbE1aAWS6tNIPscyJf6zo6KwNg/4l6v90w0AgSfYhRv/bm7pUhEi8oatVXTkUmxBvTo+VbiCeu1Cje7SdsdzXmjuGEI2lxA1rt6rl95Si5FOVAqwnA8uvaYViwGPf5DpafwRB5y2t/Wg6EiNMJNoY9XuRTYZdr2/C76PhX2izFYmxnLG/SnLGP6kf9mCADMkPHORVqYOJtSfX+F9bWYaUy7HGGNj5DrgruDCOECA5Vw30ku9e9Mb5Ze2nRelkES7lci+D23KEQhItCOCCw8q00I4+hquRAbCqCRzI9sG0Bq99BSN/74illfRKHSJU4EEcDr1L0insTyXB8jUdvEi14QSpwgRXYGCHJyW5AjXY4aWWJ60iDGD8fulZ6D0S/tVrc56NwuBb753U3e0BeLXXuofoVO2ALnEeWeCRdsSQCsFCfMVZDP8i1urZlGHzxTSHsNOHZ/Voil5hKOf0aL1Ee1IaBiPRmpasBwdpLhQHq3S9euC3fEX5gNSrZaTypchb+7h1iJl7vcHdiDipLjuUKu/oZX1Hx2/vIYEg1ouL40AEs7FQHAaHoc7UpEw+OospnYlKDRTJKpWGY5lRSjr8u8UA5jyddnJphiqCsjkNNTxHSafjax/FnIEOM+8oOcZHurJBe+2AB6LdIQ14mp7h5IFAlE9TSVgPYv356AAyttW2afGKgmFLbcYm4cmDOxv6r1gM/fJDe3lgl8cMN4XmDC8at3oiNL3vhBCEMHiKziQ4vIhDLUgBHdZZW1gFp5prSFmvCYED0G9fn0lachNaIzjO3uNfzYgMGD+/FdKDnf3bKQhepmzOkJqaXshBDiT2g1CEbevDz0bzMpIT2RYUevf5OtHfwUA3eAU2Bdy6ylApvlatkiHG91tOTEP/apUAJclqNA7FgalZ0zPnoZWakufNpcmXwTb7h/LaHUahWfTPcUsm0Gb8FfgWY9UoZjlXiY53ckpoIpvacGbP7guEJpMZ9bSRNWbb+r78wtZIHmafemj02YSyshoy25fRIO7REzR/jTxW4OFFz9vzg+bI+eW+k/VYgqes7UCQM9DkhaIiXaBcWYIxz+JKVkEf7UjqWiUw+tyFcAaETnQP1IbE/2wM5FFkt+KWh4/Oa9p7dkeL0x+cyrlxqRMti5tIq++JyVB3Kqo4/WQOeeBeKRf7Ott+r1n7YvEaZio9YOriVvnB0vb5Ll6sRgF9Qwk/5FJdrtZ0U3tUBoNX8ZTqK+zp8awm9XlFIqoywHVqhvwYdJbfy3VfxLhrYsulSsUy8FJVtLmwqErAUY0YYLKHjlcLuY8pRW4sixR5+6jC+dQGFIP3oaWUriAgnMHhC2QOfThoMWELpW+NZh52eMrA44k9X9e7X1/Qv6dqk/eNQxyWvEfIendd3CnDPLeqeWJxfMYytLS2KWGG+2XpKZActf2SghBbZfKOcjP3oDp8Adcs8lcvRO3zjPtn98WU3j844F8o4zKvw2LG00PuOlMvnCBsr0XQa/oVB1aqgUBJUs9nYuLMOBQqezy0WgVkLwb5th0I78/emV6oMTdo79vGnSOUQDavpS8p0dagy1p1ZaNwvY/nUERFxQtsccQNdNNepVk3kK0bxImmeuE3YH3ZXBcjLM8+N/TwS2neFvsBIrHfnEZ8jy1B6GUha0xJ7u2UH5JsbwH1L/kS8svV91312iJSzn8ule5zvWdcDh/A0qPmitwaHOWhhsIhHU3OFVTEXYesS/5XZe1kC3QzNl6heUwEwojDw5qRNO6D/BI2BSsqGdNO4xdJKAkzrkYJDVZMe/d2ufFSopohfkpZ7NclO3TUUaKX0jP9qS5ncbGJCecNikYgoqJSaktf4POihLtV5LmgjEPUt3foGCTcxBY4s0gtm+Nwn/NcGWKJGIWhFRr1zAD0HSmC7/DTs4xHg6EQPoQFepSf8UgvcJLPRDSV5CEUuyNeOgbuPRRmNqxLUXE0c8zC77zkE4l+tJhDFjWZFxcHo4/QnsmTMI3+yKkTk9Dv2OycL9OSC3ySMzxEkgCn3FZSO1n+IdoBB9ggypdO05A/UDL5QrynWRniz51bznZMo6syXtCBuA/kK3/3KWGuKoOUnTbv9C6Ea0tnSLH9YHB4UZl1AiAui3qr/I/uVjLslBdpn4ftjJEHEewTQU08+owK71yp2YWJUUlrTplffevLVBtNn5q5xwLqvn4Fb3JIPCOktVhcKAoWV/upn8pe2FpcZfgP5Q7VL+ICSFzF7N3o/FCgIZMLjWl1xKc0O6m+FL/C1q9TSUvrLntjyEUkCt3pRv7SXmvxLClqoKYlH9aP9ELE2TkT0sdRdDxdlqSKQmYxROgYaC94TRpp+XfZmHIkK21fQy8EfQRT/rbzVhpyfaAzbhqbc+8XDI3FUTk8TqEh01AGZNdR99VN6iCotxHHW8pjhVrYhLS8cU7hFoDuFE9xvShncCtItuNMdEP881cjJQamwrczTZ3FW8DtNhVy5PWFsFJEjHGppj8M4ivi3r8FFj8IWITZ4oryl6G0J6TUQiBs8q1jHxpqBape7oErzT3pmbPwPr9nQEi3msidIawACgjw5QFtkWPp2qWUrs7uWiY/rR+y3aQ9vjKHeM3zfeYmu9m6nLNiVgWsbiG388gqjTs2wK9/nYQKQJYvxIwMj3wx4LdgqUKu+fl+8DdFxX40L3V08keyJoiDVub0bME3EhCk5RKPwa/AULJHgBudmwom49EOWru9yMxXvbB7Dm1833Bu8796Lk05qptYhcFebeGERQ1k9HdZE6Gc53pz7ceORuEgZ4cMfH+YENjp+EyLJ+lR79jws2wtZ9BUaxyGTpfVM+ODEC9y01Nlc0SmF39sjnOHlFTvLn8mahJs4JX25NFMEczJ321NNn7hoVmip7+r9GVXyNDzilU5OazXYrYcad1f4mTh+FyM4lWiSwVqxbeYVGt1PJ9QRCzmSLAjVNxjbAFv7gRbgL6Pn1rhpvm1uIr0Oyo6EYanukSgHslNPzppVuFnv3rmoy2Pxye8R93uCz4H1WG8x4/Mbmr0HWqs7nwjzvuEM4322zJnCm0XWHtgM5mtUT3LAoqGzqUGzkRzqgufORvZALeU/DYgHPPwFYIR7ow0G0a4AygIWldvIKWoWNXTYUEpauJ4BqUrXwdsFlG6TY2T0TeurKD7M/fOYdM8q/DQfdx4+r4Tje+5P57oatRunQ9u8PzEaMjtkBSk0GVzOl1QFdDswhJgSUVNOeLYgW+C1g2aiQ2fh9crGtFWZ7xT9wHYJrb6Id7DNlDB9gm6E7qSyleEl5rmNSUrrPtBdtRe4AV3o/RSxXuwsOMVxQfna5+jSC3lX23G/YbLrwlLX7f8drOrfaCPWN5I4l7/zjg6Z2oi1giy7AMmjasu5lPIJ+/LOK2AkojR6/nwxIjZ/4JNAWXCPcv5vySTpBzYtr1nGqKHFO29fMFaKsSFlNIU3/4nSt0fzU9rEsnlxQClLPxM6mjld9XJkjup4rTn7Ul64xKytQA4iyh+x/P7X44wIPvMx2UKP+c8sJPow9trQcMM0D8FXiuoFodvE7XaYjMe71Q3yPQoeHV4MhttYFF5rSgGItlUtZxUzlhkBEtOFWgB6SEagTzBHySCwTk78WHcpUZQtQN7FLLHkCUCU3kLGZtMGDpDve9IAB6MxtPAzhiglYO2GW58w4EAIdB+TjvB1PDiJjWJlpfndYmMSPpeGMuMylZ/sZjtybNtuRiDzbYZJinuSVkDshnpi+R/mKh8yA6a4lCq0Zjf4ejc+4enJnzYPn3Co6+PnkDLyVdgpJdUUu8ztdprHWCiAcn2HKxEM0yb2yYUpi1hbl+WpGzAprEUYJ/Aq/D3UdMGL6HFyOT2ffz60u5YjOJ3A0vyg6RKvzIx8lYvOO4ntzmd0Glw5JpCzXktaq7bt8pqHA1V9FxcD4yUtv3XIJexdE9D1s3gDysbC20JgXJ/g5ANa2fiW5QGLEi1rrLyw4glFhrxL8n7X3TMiClDKogW2+tFOO0ekiuvtVSIoLZ4c1wQte2U2tQsCuHStCM9t3VlB7qOuzL+hztWOV1r5expFLVa1QWPYYlmtPzSoPm5WgZIrh/VKl6WLz9GsVvLbRU0Urzo0uttgfIxxNNVoTBmr+kH6Q6o65AQPAvhjO7qvpCUAgCSOK1bIOGXNY5bP/EbMe9g84s4idLF8BqCXuahZNVA37xKTJjTHldX6wkDYeSp5XypagePv4qmpukgX3tfaa2hSWypd8/VFHi5Sfte9TELF03+PIU3nDnuF5rfdutF+SIfHVIh6ZdhInwoupHRSPs8nA++KdNAyRbfElYoK9Klngntw5usZPwevkWgJSsr48Shcd9f+Gz1lnGgsKu25uosjjNXDYcAF389vhFd6v6NQ0ko6oUSiuU4sN01/l5pQWyB8fVQkKhssqhiJTOIpSc60phS7RXAGunYIDTV5BDs6SOkHpsH15c3jQiicGyjNw9T56TKtg8kMVI0YqbimTeLmm+Il7+jXYIJHlDmceSVZxzXGHA/GQkzXuJ211aEZhmB4Noy7v5qv9MUBaYYYFSTaC4ilpzC6Nt635q775pXj636osN2NqZtEwros8n2WgoYKmXixs2I2VftWb4Y+gwTCwIdqN8AUsSs9SuB6H5b9fi3xdUeWbxZjO38XOPO+DjEP8qQNiwtc0O4uk2wdmF96IlfRkdbbVxZoxdTkc97fMVsXOl8878Yt3CqVjmSthASRzu8PsTLvYCYxvzRkVwT2YQ063IKztzZOlng4LbZWp7Tp0A8NkFy4hTaLHrJUVQjUkUqR7AOqY+f58n9deI//ekARWcOl1m0Pjxcg+4fFGpy2lzjZvUmG2rkLquFC9+VjepgxnYGk7e1HyhYZcAHELNF3CU5wABXPk3GRFJXP+IElngHKbmkmdtBcaa6FhBSqpTyyepd+X3+lgpW3onS2/kplZPSWDO51VUPnMsM39HylXN4045kwiU7Gjh6d6UL2xK+Je+w7Dkxw3h9CWIPywXyfa7P52w5AoPGVZ6VDwf14YuHRxfgxo4SDO2V0cbejKjWkBwPR/TLoOV4ZeUzRkal9vWoR4zRvzB4bkutNKDD+jBF7bL9HSRZxl40s7T5oBIhh80F/leLjDbcnCDm4glpv7l+zOI7mHQPc81GO9TBnvn+wuscWRBy3HGfQIxtvk3+w181zy8HczZ9/hHRBWT7O3bmDZKHM8J29mZb0RkrkcRD8mclHzKLeYwBBxaN7kINqd2YEH5HzQ+QWY/Lj74Zd2jWkjxFxeRe767f41e/P+L+GVaZobz3kyH9H102DYPLbBJNGfUOGhWSvtlQxvN22RzVgIWQ6T0PWYERgpNa88wx9QrUtjAh+V2mDFK/Ma3ZoW2fw4G44COdPg4a89WIILxtDq1C3B4+s6ZCRkgMA0uq0TEkmvy+7H3f2bftIp2kgBD7mhA6E6g1dwfhyVKNiHpU1Sr7Oji+YwdtU8KEQo6ATn/kl2ZYj4Qr3TdIATlNH9vEwO4d6gP5Q9W3o+WoBFSIjdnxBevQowSi6c6uHvrovOWbwr/7rtVGH3ltYYTGtX32oStNNvCTOkS+fcdhn4MSIkXO8Fo47xf8szW9tV5h36ucUkjicE5YvbEkIA3e7T3vUDNJH949PhHJOMjPwmVB2NoPx790lH7ryaaUeWzeR0QB6SeF0lJG8r2i0/pcWRUh/WJWrX/mY/PTWCJdK/1j+kFI00aXvaBDXNa5K5bhP7QB0ZxZfOVkJFI2FDm3nFxlN9cs4t4ZOlrUvhq9uWSu77Hwo8IW59T/xRCv6Y4Eh9MWR0GyiddijmIZfDvdF+y3jOTG8NThoXHZN+m4O433FqyAQN+ZJzVDjQ4+AFcUWHCjN/4i2P0R9MClamW9/Se5mIL889UYx8HLROvLlORe+OMolL2HiNx3oNROu5CxV4+jOPly26g13NMTCvq2Cd0D1lEW/OTvYa8B+WKgCNT7GWt9xM4VwRcbWgh68zKEXO8NYvfXHe77SKmSioub86DTA6vV8gtYLLqlxQD2W1GiBg10OAVw+4mNdbBNqVEOW8WZG0s5zc2SfUk025S2IJZ0gg9LF42ceylxgIZEojNLl1MyIsjo7Bo7oFRd8PfZwgt4MLtXyCz5FlvJFxrbn7Wv3szbFGZ+E+kYIOJ70demErTYi9CORrE/PRyetUtYiQfL4LNqOk8pvMqckjJW5PZ8HYg8qCzuKC8i5NJpC+zIHwWZX462qlXij6HkA8hBwE2CggyxZwnqaYb4c+ctlHAD9QvFWpyKQyj1E8qOd8LMTj7ExP3rKkh0PpqZ34qjad5f5W/xoJGX1MVZTKJw8toFNoKyaL4rjH8kfUn/NL1L70tz206ix7fGDCFQysnnXgE9qZZj6B2LZAJkqVa7S52dHgVvA7QqmIGDIC4UBl44sGZZnLBVK6qOtbIDkneSKIOVjJb030iWJWQsjwP6aCUUq/TEINVhNAG+xnbhPIY1FymZOSWQP4jvCBPQ3rw31K89GSe0KEsARWGeufb1QTQtMArHWMgYqibsLlK+5K5OVkrjhKN6kIvj5e+QflY0c3ih4WtwRKLZ/s+ptBJFfqkdBIZ/bhUxA9cg5X4SOhRjVpXxjHEGfOLLtgC4QTPZjc+frOfT1TzymRAIQ23WSFAPBuZihBDf7lrduP4aMu2RClucypOq5O5Jpdt33VtP+9maxksp45KlElYXBzRXO9LZQ1yuCpS4LVo++Hm3DSWd4pVLnwThUbJKTcxLZzn9u7v8m/uxZjyKGmJhgTVoa++hXtL7sAfIgU8nOLY1mRwu1NcZzO5W13wLZ9KOo+BoB6YMrcgUfhYrvNXhVuAgNwDSbhZV2vgRKwGO7Xmm2LZs/DI5+Mb1oz/dN7EIxdcrt+PC/6/PS6zu8ZbQk8JQ70ri9+4SY9TzC5yNsYsG/wa5Ar5UMc+E8v3kDm4IFrznsEcXZRHyOO/kPzFl0HghekblOxSgG3xJRfAAn4RQyKG0IzPTA5Xm/HUNmgijkD5f9qh/kYK+3tIIaMgK4XbDV7I3fVacYJsDrxbBx8oBTPB1tA8t5L/FBz5LIUA4RnZrSx9ndaODkagKAoh8lojirqrWyJbmY3adaUFHL5DP6+JR+ml5fzWav0XeqFWfTN338clGbXvjh6Rbty6H7t/c/mDUJyM1G+gUFe3c/jWJdnjm4jQje3uil5M2sfAXS8b71/yJEW2G4gn7KxmRIjn068Gn/dvpgfkkYUtQiKWaJ1s+zUAYxdkL+29AyHNFWHiJNTlWoA6tH2sOvsC26Ky0/5Ll7INNwfLiVCLnYrzBDBRvfI4ILAqeGw3A1A756KH9FajHEZlfUQO5qL9htJ34EWV2OUvEVvaQztPeD+UStomwwJCw2BmHgyxOPGf1b+Ma8YXHqlZKDWm/2d6LANXEpY6V0IegTPSenIknwscVXmCJnN2AonR/s3LyGuhpAo4a7VKdwZ4/9R2CQCQK+bsYOqh5JA0sf/LusRMVrmUuBi7/jG0p6IlgVoq506pt33cSQ+DE/nT7SIbe29aPmMWPPJCCOOpevHpM+TwWeDy/P/vS+h/ue3HYQKzXqp6qGmNt5YbTI0pOXfZcDnGXtliqULjEZWFVO1RobTu8MCfCsA0xjS5Tjd5eauvwwXpP5pCrvLWLhSCVws60hU3gk1Hy+4zR1wthlq8n6LM6K+qEC0ll9td/jBO6SOXc1ZWO5IOUAF0q2/7/nOWUcrti/LbrpN2LHaYCJ0QCTq42himxV33hlqFpmqfskmUixWDBGzy3izPIAstp0xu/DVhgekmkzRYQcfDCWzsU6cmTDBbwKZejHRojN2PfaSUacTTXm3zzP6LPhIgAWJv/CMtS6bqRyANGLr0TihKjssl/vbCE9oA2vTdJ/IGkJgXhd12GtsFEHMSUoIxWhq6wkVaxiiX+nqwmHCSEVIO+oQoYbAKgpmoJWZ5tx9ZL3xsWLySBxbcURIqmY+k56bimueWKlz8x7HhZw9MShcbXxc04KCaggfBppOqUQvT18cxrVZ73FHxpbRrLG3p6zmBoqpOxFlFlwuwZXkmzLlnP8eYQdUyIYmW51x9n7h5aSADEVWZ3cdtZnXSs7iY+70is4cnBcs8PpdJeJRiXIRpN9oF+OmIf22dgaWgzNLSxtENTOhvCImkqXeTMOHTK8BXU7baDbTZJ3d8Yn6NPudgOMWqMQ+VV8ctrUyR6pdeMpKfpTR/rA1nfKE8pm9pt34X4D61cZlYC4jxHQGu2THOsN1H3FKr+IOtGgeo2wtMhWDeUUen3/j/hafm0KAuFTWOaFRm/lMHI1QRr3KEtrHRXxHGeyxjFnyDxg6ab/L9Uw6OBYvJQJbeMaZUC0itYmORhSnDZyg7sysZFDpyG1BxUZ9EsTfB3sX8Z1xPOzU39SPebnKVC/wtpIGRToQGbWCRn1Uz1mzslzJGuqv/QGoMZF7GAc1w732ch1w73yj7mqfL31O+V5ss8tmXpTjhIHw1HT8QL9FFcg+wwVaUweUtRtY5OZYpIx/txmaGXa1gdAqHKClkEbk2417cKnKQbuBuWbl8XXYAi4eWbGJ3TZnEICmOv5GcD+eiaotAFXy/wVryb059u3nEV4drooRoYZn3+TjfU1u3zGmiG2B/ZaS/uW2xVVOPsVOkudunEjJHbKARe8EoChBmKvHSgIkjtkqofJr/x/A+Vq5k2vN4BqzVE4mPKTDvf3Wb/OKhiDIMTJ+lFZfoaCNFa//5EVcKJUgU83IdVklr23XEzRxBEU7r/66qgwZWqOmF041LLJFzSoDghRfsI7yll2/qP90L6OoV/vG8SOjmfmolzLvuJxJCTyfV2CVTxyCrEXRU2UQm19riq+T4DcPoYFDJWx9ZMVupmKroZUXsgDJoyRfzU83l0zqYyCqI9RipSnb25e/GS9/jla4A/F5JJVRVIdCVGwaZmsvhZIlUaZbF7159TQHcWwDEToxVIcoE7W5Zn/xHqBnyte+GF6o0zLsUn4D8ROiku2692KWeJPeCVA7RlRatoEdAdqO1UsRObjnvvMDrYuDKcnm0Ro4tMTzQX9OzvLZTVfSp94wOo6kERcTYuDTEP4aXOI+tBhIBPGpGEYITMGu3XPeJWfPQrmGkOzPxP/pFKn5jKEKCeU6Gx0deBFST5KpxTND1htUrDEyNmO/JCK2iuQAycgHvWi6u3qUrChXLCOGjRGAYbx9KamXp5j73v4zqtnEKOaYxSCEX92ZCkPv0adFKCxobW6WoLEZfMGar25Ed+AiEoP9KsSmD7mXpbLF6OH8FXAEhjqneCNxlYb9CWWZzd5kGnILf4BFLTRYp3ujmJ2upC5uNyqR9rUuNRqjXycLstMR6xqhHxvSPiSbYfFEhQnOQqc9QCHHIWMnv7OUYYcAnOvCTvg3f9HWlmGLYsLto0n2boR9oJfSMcu30sgxKK6pscA13CZFUe/y9mYUTpl4stpaABpsLyiQI9zqQmTRsvmJJdhFdHRi+6W2Ec1VV/+STBybMcQ75MeDnAMSl2PNFCVx7gjiGLzkEnuDTHkJsMemmpye26UBlpwWlVMfRftsMBtPQjl6ChXyacbjPHO+aPv8Vo4FvDzzZplih5S0PM5cid9SaN/Ge9yYhTdelxOxa6u3eCD3AyYjk0Yr/xcS1163M8qXgx2eMD/NG08NIkJKYqiOoWK5rfMCPmdvdlLUnHthCu+7rB94Z/hmYuT6ZLsJNqTKbpOzH70zEhQ6ZDKm8RKXaPkoVemipbYi9JaLS9Pcl70wjsfH6oD/09k5nqFwsUUm3Fd69gmRmFnHbAwQtajeSBLJzmI7UNMGqrqR+bdF4iVaDqA7lkEHUdYKFHXYnYbHIQhUfW8FAXRCKMhdEE9wLmFJq9io+0MAsaMP3RvxAqvARNQLTpdJ3tgEBXAODcR7wehcrsXnoDHu0henQLAA+FIAPbcahlfi7GKFlPXeoCBLujE27UyxLePNVyKyn3ZT0Cr0m7ISRzKVW1L1DIR3pk+VydwD1ygi/mgah2VSf/qqpADdwU05fA6sO6dFMq1a5ONWzwG8klGu7xTuzOkVI8iJkrJprQuUiyh3dkB6BDiw9XNdfEKYnPFErwFtKkKaQyZmsZtuCh/Jx7v6YpwmYLcZ6cKBFwo57fizi/hcz9F6iSfG/pthC6V9FZ+5XbLF1Gr9WCZwrmHXOC1gueG7H2R1M/C+b5965gu+tEFHHljyVwKWVkwooTSKPmHfDvDQk9C200aRm1ofaAAIP7xfHsTqaDvdBRI0eJ5Hm2inxgPf/FMOZwx1KXOrW5fIwC4gCg6NWOejhfr0ECMXVAsita9EpQlef5GeZx8yT//Gs2Wmrt6FivQqXABX2fKZbJDS4lNazzCWERIW9SO+AL05PBXurUfLA1hw+pNIDtgq2iBpaN5rn2b5o3Iztpz89EsDURwf8pxWy0WlUrx7sHM0x6laotV7cWTvTCs/yMF+exK250Ahe0/F0dweU5ko3LcFBXrIcfpjma0LNmih+2ni89cCJdz+F+VIsqN4V3SGcdmXnUArP8YgQPfK0t9nLgnmw7UAr8vinDW1svHP6g75jYNH2s9ALB42ZWjrA4k63ABjrfKtDkBx/2whj6kiKmLqfG6KlZLgFSIQE/93s+TTW0qYXGWKttG1bVSRKaFhwFNsH1KyzxSaFH9dyKi9n8Qc0YM04Ffs7zdJD0vu0KEm9TLHhFYBV6xrlWCUKcbbBjYtGzV1hUo4RIqs244RFyUdysnvEENrA8ess8JITD23Yu4JaaQKhA5kluMMlsO9bvm3bF13nsCI8HILuknBko7qKnBoXV3+/iUHYRsQscpsXPwk1NncozW5PZo8yFOFD7dxhQIh1zpSAsepcIj0CAHc8YzalB483Wd6nUTHhWa3+O3kIYlgyHuhgfthUbaCVHO1PTLCEgwMK3gbQtrqPr27UiuRIVj4fX3NSyrucyqt/SoBSTyxTUBWyyf9iy8OBGgQvIigmfYHDNrTcS41Q+N7MREMocf41g6GCWx1OCtboyAq0fr4ICqzhx6t5SQwl+jZKhywBHgQvWQQ47bXBCqMH23MOGxK4GAM+3/vZ4E7FHhtVnVFCMBqyYThVvEO5SDhZqVmK9ng1xhmRsqzrgCGMQ/GN9oDmCQm65qz3z8Bq+tPdtPAiZHooEwP20Nnr2mQgla3CHBQMPusUWGIJy55XFxBAS5/zes1nyGnN+4HRUeJj1Zlr51d6Ph00oRMU2hHgtiQo15FcGTxWl2JD9ioiMR4YbucNm3wd6zvEO7lEv2Ox8sd6GP8LFlg3d5f/InZZNQnlZXkCPPAh3RPrQ9jzzH0vXxrBy0aXRolmi37Ngb1aZE137MG3Xv98rZkcwMCst0XslgPq9tyB3Y4s6X9MY0qjL53fRHwoFNA4KUCqE7LeJiewZxqQlT3Ogvfkt91UHHTj7rTXhANGULLVhaC+8CiMDyVbb4f0x73rPas4eqdkhLGK4UM+1Yorstv05j8SQZuX+jkBFwFinQLAkNmbJl+SgArsjVxGbjBElHNb2ejXR87jcfWS5RD+/K9XRa3O2oZhFpJN3BeaxO2DGUYAxboFjLAEOZvjBIVx7/Zs0FSfG/4IKezLYnbRMXSqQGl3ynGkms1+rkDBU5y5ekV27grlD/nq6L+it23S7tf/dmeIWu8mH5+SSMKGLVVMVjETYAB9VxLABuQFCQwir9dd7ZJaDIvO/jri/v0Z/ODSYpRRfdCf/2CQhdZCrgeLoV95HfUZZKFWUYBb/TA0vbZpg7SUCHlMPgdz4k2kLRxt3bkc0KNW30O9DNDBV5JGLkcitL7tONbkt263dPGEmAozlCz18Cpzui+S+YFZb2aOY2oksRTAuXgWVnKASPdC77bOrkuBW/oRY50oT7UfuLxbQ5VmzZrVYYnkcnYr7dFWIXRImZwR4jUDIiIxmZVTqbOvfxxoWU71ZlUta9lZO49pqmBY2JuEFj4NZb0NtlVLue9TH+hsbn+9RhZG43i7BsxM7up3fLZD8XjheFNp/XgGoxdcycaKH/DuPLz6tMVnTtVWv2oHSHrsmzcFxA2GbUkUtuJ++3T4RycQLKTYwvX6tstEDXqbchMiIYJ9WzA2AMv1qcepIT776nuDYODjftCzeMLan/17OmzuPxlwi6g7tq1rHALW9hu0HXDm1R8dctbcIrlxCVUtu+GByicc+cGaQTaeZuTQXhKkT4uUo3xXqlMDoZTWs9kqLXVf5vAz1G4qngWXEoYF1BqvJuwluy200CnKO1Fq7Y1btWGrNaesA1BIfKAxn18zKYBxR8tTlpaodL0NaaDfhp19KzGzr0NJiOHQ8Kj5927Y2kaEIhn8K5QMlUtk+BJsGvK+Z0OyWi2AFDEtXFvffq2goI7DQqf5C9n83EZ0qbwnZZqT70UgcMZgXQQWCjjzbLRGMvIUMGJgC0E14kbfxhX0hpWBbyyIU0QWlAcY4goRApmuOBMuC9AnoG6ZSZQWKH/d3lrYY4NGcXSPeV+1vdgzIw4p/Pc6LUw==</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<span class="k">&gt; </span><span class="ge">**Abstract:** &lt;JITC abstract #, e.g., 102&gt; · **Session:** &lt;session name, date, time MST, room&gt; · **Embargo:** &lt;presentation date&gt;</span>
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/sitc-2026/trials/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<span class="gu">## At a glance</span>
-
-<span class="k">-</span><span class="w"> </span><span class="gs">**Sponsor:**</span> &lt;pharma / academic / cooperative group&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**PI / presenter:**</span> &lt;name, institution&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**NCT ID:**</span> &lt;NCTxxxxxxxx&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Modality:**</span> &lt;autologous CAR-T / allogeneic CAR-T / in vivo CAR-T / TIL / TCR-T / NK cell / bispecific / mRNA neoantigen vaccine / peptide vaccine / checkpoint combo / ADC + IO / immunocytokine&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Target / construct:**</span> &lt;CD19 / BCMA / GPRC5D / Claudin18.2 / HLA-A*02 NY-ESO-1 / personalized neoantigen / PD-1×VEGF / etc.&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Phase:**</span> &lt;1 / 1b / 2 / 1-2 / 2-3&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Design:**</span> &lt;dose-escalation / dose-expansion / randomized / single-arm / basket / platform&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**N:**</span> &lt;enrolled / treated / analyzed&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Primary endpoint(s):**</span> &lt;ORR / CR / PFS / OS / DLT / safety / immunogenicity&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Indication:**</span> &lt;tumor type, subtype, biomarker selection (HLA, antigen expression, MSI, TMB)&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Line:**</span> &lt;neoadjuvant / adjuvant / 1L / 2L+ / R/R / heavily pretreated&gt;
-
-<span class="gu">## Headline result</span>
-
-&lt;One paragraph. ORR, CR rate, duration of response, safety profile if known.
-If pre-embargo, mark <span class="sb">`*expected per &lt;company&gt; topline &lt;date&gt;*`</span> or
-<span class="sb">`*pre-embargo per &lt;analyst source&gt;*`</span>.&gt;
-
-<span class="gu">## Mechanism / class</span>
-
-&lt;Modality detail: construct architecture for cell therapies (CAR design, costim
-domain, edits); target rationale; manufacturing / vein-to-vein time;
-neoantigen-selection pipeline for vaccines. Cross-link to related AACR
-mechanism sessions where the biology was presented.&gt;
-
-<span class="gu">## Biomarker / correlative readout</span>
-
-&lt;This is the SITC-specific field. What immune-profiling assay anchored the
-trial? Multiplex IF? scRNA-seq of TILs? TCR repertoire? ctDNA-MRD? Cross-link
-to the corresponding <span class="sb">`tools/&lt;assay&gt;.md`</span> entry. Many SITC trials present
-biomarker correlatives in the same talk as the efficacy numbers.&gt;
-
-<span class="gu">## Discussant / session framing</span>
-
-&lt;Session chair + co-presenters, if a themed concurrent session. SITC doesn&#39;t
-have ASCO-style discussants, but session co-programming is itself a signal.&gt;
-
-<span class="gu">## Practice-changing / class-defining?</span>
-
-&lt;Yes / no / pending, with rationale: first-in-class signal, dose decision for
-pivotal, BLA path, unmet need, competitive context vs prior cell therapies
-or checkpoint baselines.&gt;
-
-<span class="gu">## Cross-links</span>
-
-<span class="k">-</span><span class="w"> </span><span class="gs">**AACR 2026:**</span> &lt;related mechanism / TME / biology session&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**AACR 2025:**</span> &lt;prior-year construct / target work&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**ASCO 2026:**</span> &lt;if a Ph3 ASCO readout used the same construct / target&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**JPM 2026:**</span> &lt;sponsor presentation / cell-therapy strategy slide / deal&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**SITC 2026 tools:**</span> &lt;multiplex IF / TCR / spatial assay used for correlative&gt;
-<span class="k">-</span><span class="w"> </span><span class="gs">**Other SITC 2026 trials:**</span> &lt;same modality / target / sponsor&gt;
-
-<span class="gu">## Sources</span>
-
-<span class="k">-</span><span class="w"> </span>JITC abstract supplement: &lt;DOI URL or &quot;pending JITC publication&quot;&gt;
-<span class="k">-</span><span class="w"> </span>Company press release: &lt;URL&gt;
-<span class="k">-</span><span class="w"> </span>Trade-press recap: &lt;OncLive / ACIR / Targeted Oncology URL&gt;
-<span class="k">-</span><span class="w"> </span>ClinicalTrials.gov: &lt;NCT URL&gt;
-</code></pre></div>
-<h2 id="master-trial-index">Master trial index<a class="headerlink" href="#master-trial-index" title="Permanent link">&para;</a></h2>
-<p>Pre-meeting shortlist — to be expanded as the SITC 2026 program-at-a-glance posts (~Sep 2026). All entries below are <strong>anticipated / speculative</strong>, sourced from sponsor pipelines, AACR 2026 echo, JPM 2026 strategy slides, and SITC 2025 program shape. <strong>Treat every row as <code>*expected, subject to embargo*</code> until JITC publishes.</strong></p>
-<table>
-<thead>
-<tr>
-<th>Modality</th>
-<th>Sponsor / lab</th>
-<th>Indication</th>
-<th>Phase</th>
-<th>Target / construct</th>
-<th>Anticipated readout</th>
-<th>Why it's on the list</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>In vivo CAR-T</strong></td>
-<td>Capstan / AstraZeneca</td>
-<td>Autoimmune + onc</td>
-<td>1</td>
-<td>CD19 lipid-nanoparticle</td>
-<td>First-in-human safety + B-cell depletion kinetics</td>
-<td>The in vivo CAR-T thesis — one of SITC 2026's likely headline tracks</td>
-</tr>
-<tr>
-<td><strong>Allogeneic CAR-T</strong></td>
-<td>Allogene / Caribou / Cellectis</td>
-<td>R/R LBCL / MM</td>
-<td>1/2</td>
-<td>CD19 / BCMA, gene-edited</td>
-<td>Updated CR durability, donor-derived persistence</td>
-<td>Allogeneic remains the off-the-shelf bet</td>
-</tr>
-<tr>
-<td><strong>Solid-tumor CAR-T</strong></td>
-<td>various academic + biotech</td>
-<td>GBM, mesothelioma, colorectal</td>
-<td>1</td>
-<td>CLDN18.2, GPC3, GD2, mesothelin</td>
-<td>Dose-escalation safety + early response</td>
-<td>Solid-tumor CAR-T inflection thesis</td>
-</tr>
-<tr>
-<td><strong>TIL therapy</strong></td>
-<td>Iovance</td>
-<td>2L+ melanoma, NSCLC, cervical</td>
-<td>2/3</td>
-<td>TIL (Amtagvi follow-on cohorts)</td>
-<td>Real-world durability + NSCLC update</td>
-<td>Post-Amtagvi-approval data</td>
-</tr>
-<tr>
-<td><strong>TCR-T</strong></td>
-<td>Adaptimmune / TScan / Immatics</td>
-<td>Synovial sarcoma, MAGE-A4+ solid</td>
-<td>2</td>
-<td>HLA-A*02 MAGE-A4 / NY-ESO-1</td>
-<td>Durability beyond afami-cel approval</td>
-<td>TCR-T solid-tumor thesis</td>
-</tr>
-<tr>
-<td><strong>Bispecific (T-cell engager)</strong></td>
-<td>Janssen / Pfizer / Roche / IGM</td>
-<td>MM, DLBCL, solid (incl Claudin18.2)</td>
-<td>1/2</td>
-<td>BCMA×CD3, CD20×CD3, CLDN18.2×CD3</td>
-<td>Updated ORR + step-up dosing safety</td>
-<td>Bispecific class durability in heme + GI</td>
-</tr>
-<tr>
-<td><strong>PD-1 × VEGF bispecific</strong></td>
-<td>Summit / Akeso / BMS / AbbVie</td>
-<td>NSCLC, CRC, HCC</td>
-<td>1b/2</td>
-<td>PD-1×VEGF (ivonescimab and follow-ons)</td>
-<td>Mechanism-of-action correlative data</td>
-<td>Class follow-through from HARMONi-6 ASCO Plenary</td>
-</tr>
-<tr>
-<td><strong>NK-engager</strong></td>
-<td>Affimed / Sanofi / Cytovia</td>
-<td>R/R LBCL, AML</td>
-<td>1/2</td>
-<td>CD16A×CD30, CD16A×BCMA</td>
-<td>Updated CR + persistence</td>
-<td>NK platform reset post-Sanofi deal</td>
-</tr>
-<tr>
-<td><strong>Personalized mRNA neoantigen vaccine</strong></td>
-<td>Moderna / Merck</td>
-<td>Adjuvant melanoma, NSCLC, RCC</td>
-<td>2/3</td>
-<td>mRNA-4157 (V940) + pembro</td>
-<td>Updated RFS, immunogenicity correlative</td>
-<td>The neoantigen-vaccine signal — top of mind for Wu Smalley lecture</td>
-</tr>
-<tr>
-<td><strong>Personalized mRNA neoantigen vaccine</strong></td>
-<td>BioNTech / Genentech</td>
-<td>Pancreatic adjuvant, CRC</td>
-<td>1/2</td>
-<td>BNT122 (autogene cevumeran) + chemo / atezo</td>
-<td>Updated RFS, T-cell expansion</td>
-<td>The DFCI / MSK pancreatic vaccine thread</td>
-</tr>
-<tr>
-<td><strong>Shared-antigen peptide vaccine</strong></td>
-<td>Gritstone / Nouscom / EpiVax</td>
-<td>Adjuvant CRC, MSS CRC, lung</td>
-<td>1/2</td>
-<td>KRAS-mut shared neoantigens</td>
-<td>T-cell response + recurrence signal</td>
-<td>Shared-neoantigen platform comparison</td>
-</tr>
-<tr>
-<td><strong>Checkpoint × LAG-3</strong></td>
-<td>BMS / Regeneron / Macrogenics</td>
-<td>Melanoma 1L combos</td>
-<td>2/3</td>
-<td>Relatlimab + nivo follow-ons; novel LAG-3</td>
-<td>Updated mPFS, biomarker-defined subsets</td>
-<td>LAG-3 class status</td>
-</tr>
-<tr>
-<td><strong>Checkpoint × TIGIT</strong></td>
-<td>Roche / iTeos / Gilead</td>
-<td>NSCLC, GI subsets</td>
-<td>2</td>
-<td>Tiragolumab / EOS-448 + checkpoint</td>
-<td>Subset rescue post-Skyscraper failure</td>
-<td>TIGIT class status</td>
-</tr>
-<tr>
-<td><strong>Microbiome × IO</strong></td>
-<td>Vedanta / Seres / Finch / academic</td>
-<td>Melanoma + RCC checkpoint-refractory</td>
-<td>1/2</td>
-<td>Defined consortium, FMT</td>
-<td>Response rate after FMT or VE303-class</td>
-<td>Microbiome × IO maturation (Wargo continued)</td>
-</tr>
-<tr>
-<td><strong>ADC × IO combo</strong></td>
-<td>Pfizer / Gilead / Daiichi</td>
-<td>mUC, TNBC, HER2+ GC</td>
-<td>1b/2</td>
-<td>EV+pembro, Trop2-ADC+IO, T-DXd+IO</td>
-<td>Safety + ORR uplift</td>
-<td>ADC×IO combo durability</td>
-</tr>
-<tr>
-<td><strong>Immunocytokine</strong></td>
-<td>Philogen / Mural / Asher Bio</td>
-<td>Melanoma, RCC, NSCLC</td>
-<td>1/2</td>
-<td>IL-2v-targeted, IL-12-tumor-localized</td>
-<td>Tolerability + intratumoral T-cell expansion</td>
-<td>Cytokine-engineering revival</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Additional candidates</strong> to stub once the program lists land:</p>
-<ul>
-<li><strong>CAR-NK</strong> updates (NKARTA, ImmunityBio, Wugen, Affimed)</li>
-<li><strong>Engineered Tregs</strong> (early-phase IO and autoimmune crossover)</li>
-<li><strong>In vivo gene-edited cell therapy</strong> — beyond Capstan; competitive set</li>
-<li><strong>Checkpoint combos in MSS CRC</strong> — long-standing unmet need cohort</li>
-<li><strong>Brain-tumor IO</strong> — GBM cell therapy, neoadjuvant IO in glioma</li>
-<li><strong>HPV-driven cancer vaccines + checkpoint</strong> — head &amp; neck, cervical</li>
-</ul>
-<h2 id="cross-cutting-themes-for-post-meeting-themesmd">Cross-cutting themes (for post-meeting <code>themes.md</code>)<a class="headerlink" href="#cross-cutting-themes-for-post-meeting-themesmd" title="Permanent link">&para;</a></h2>
-<p>To synthesize across <code>trials/</code> once populated:</p>
-<ol>
-<li><strong>Solid-tumor CAR-T inflection.</strong> Whether GBM, GI, and mesothelioma CAR-T cohorts cross the response threshold that justifies pivotal trials.</li>
-<li><strong>In vivo CAR-T arrives.</strong> Capstan / Umoja / Orna / Outpace LNP-delivered constructs — first-in-human safety + B-cell kinetics will define a new modality.</li>
-<li><strong>Neoantigen-vaccine signal hardens (or doesn't).</strong> Moderna mRNA-4157 RFS update + BioNTech BNT122 pancreatic + Gritstone shared-antigen CRC. Wu Smalley lecture frames the field.</li>
-<li><strong>Bispecific durability and resistance.</strong> BCMA × CD3 and CD20 × CD3 long-term follow-up — antigen escape, T-cell exhaustion, sequencing vs CAR-T.</li>
-<li><strong>LAG-3 / TIGIT class status.</strong> Post-Skyscraper TIGIT cohorts and LAG-3 expansion data — which checkpoint partner survives.</li>
-<li><strong>Microbiome × IO matures.</strong> Defined-consortium and FMT data in checkpoint-refractory melanoma + RCC, the through-line from Wargo's SITC 2025 keynote.</li>
-<li><strong>PD-1 × VEGF bispecific class.</strong> Mechanism-of-action correlatives following HARMONi-6 OS readout at ASCO Plenary.</li>
-</ol>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

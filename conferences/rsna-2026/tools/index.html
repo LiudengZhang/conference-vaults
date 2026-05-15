@@ -13253,281 +13253,34 @@
   
 
 
-<h1 id="rsna-2026-tools">RSNA 2026 — Tools<a class="headerlink" href="#rsna-2026-tools" title="Permanent link">&para;</a></h1>
-<p>The RSNA 2026 AI track is dominated by <strong>medical-imaging foundation models</strong> — self-supervised models pretrained on millions of radiology images (or radiology + radiology-report pairs, or radiology + pathology jointly) that can be fine-tuned or prompted for downstream tasks: detection, segmentation, report generation, triage, risk-stratification, opportunistic screening. This directory captures one page per model / method that surfaces at RSNA 2026 with new checkpoints, clinical-deployment data, or named-trial readouts.</p>
-<blockquote>
-<p><strong>Status:</strong> Template stub — meeting is ~7 months out. The per-tool format below is the proposal; tool entries get populated as the program goes live (late summer) and during / after the meeting. Pathology FMs already covered at AACR 2026 (CHIEF, Prov-GigaPath, UNI/UNI2) are <strong>cross-linked, not duplicated</strong> — see "Cross-vault links" below.</p>
-</blockquote>
-<h2 id="per-tool-entry-template">Per-tool entry template<a class="headerlink" href="#per-tool-entry-template" title="Permanent link">&para;</a></h2>
-<p>Each tool gets its own page (<code>tools/&lt;model-slug&gt;.md</code>) following this structure:</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># &lt;ModelName&gt;</span>
+<div id="mkdocs-encrypted-content" style="display:none">+SrbZ1YtwIvj2HfYHvLKRA==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<span class="gs">**Family:**</span> radiology-fm / pathology-fm / multimodal-fm / segmentation-fm / report-generation / vendor-product
-<span class="gs">**Modality:**</span> CT / MR / X-ray / mammography / US / multimodal — be specific (e.g., &quot;CT chest only&quot;, &quot;whole-slide H&amp;E + CT&quot;)
-<span class="gs">**Released:**</span> YYYY (venue, e.g., &quot;2025 (NEJM AI)&quot;, &quot;2024 (Nature)&quot;)
-<span class="gs">**License:**</span> OSI license or proprietary; note non-commercial-academic gating
-<span class="gs">**Code / checkpoint:**</span> [repo link] + checkpoint availability (open, gated, none public)
-<span class="gs">**Vendor / sponsor:**</span> academic group, company, or consortium
-<span class="gs">**Also surfaced in:**</span> AACR 2026 / NeurIPS 2026 / ISMB 2026 / ASCO 2026 — short list of cross-vault hits
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/rsna-2026/tools/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<span class="k">&gt; </span><span class="ge">One-paragraph plain-language summary: what the model does, what data it was pretrained on, what tasks it&#39;s evaluated for, what&#39;s novel about it. ~120 words.</span>
-
-<span class="gu">## Architecture &amp; training</span>
-
-2–4 paragraphs:
-<span class="k">-</span><span class="w"> </span>Backbone (ViT-L, Swin, hybrid CNN-Transformer, etc.) and parameter count
-<span class="k">-</span><span class="w"> </span>Pretraining objective (DINO, MAE, CLIP-style image-text contrastive, MoCo, etc.)
-<span class="k">-</span><span class="w"> </span>Pretraining corpus size and composition (#images, <span class="ni">#institutions</span>, modalities, anatomies)
-<span class="k">-</span><span class="w"> </span>Slide-level / volume-level / report-level aggregation if applicable
-<span class="k">-</span><span class="w"> </span>Released checkpoint variants and what differs
-
-<span class="gu">## Use at RSNA 2026</span>
-
-&lt;!-- For populated tools: pulled from program / Daily Bulletin / Radiology journal. --&gt;
-
-<span class="gs">**Sessions / talks at RSNA 2026 (n=X):**</span>
-<span class="k">-</span><span class="w"> </span>Date — session — talk title — speaker — link
-
-<span class="gs">**Named clinical trials presenting data at RSNA 2026 (n=X):**</span>
-<span class="k">-</span><span class="w"> </span>Trial ID / acronym — sponsor — endpoint — readout (PFS / sensitivity / AUROC / etc.)
-
-<span class="gs">**AI Showcase exhibitors using this model (n=X):**</span>
-<span class="k">-</span><span class="w"> </span>Company — booth — product
-
-<span class="gu">## Cross-vault links</span>
-
-<span class="k">-</span><span class="w"> </span>AACR 2026: [link to the AACR dossier if one exists] — short note on what the AACR side covers
-<span class="k">-</span><span class="w"> </span>ASCO 2026: [link if an imaging-driven trial readout appears at ASCO]
-<span class="k">-</span><span class="w"> </span>JPM 2026: [link if the sponsor company presented at JPM]
-<span class="k">-</span><span class="w"> </span>NeurIPS 2026: [link if a methods paper landed at NeurIPS]
-<span class="k">-</span><span class="w"> </span>ISMB / RECOMB 2026: [link if a benchmark paper landed there]
-
-<span class="gu">## What&#39;s missing / where evidence is weak</span>
-
-Bullet list — honest about gaps: no head-to-head benchmark, license unclear, single-institution evaluation, no prospective deployment data, etc.
-
-<span class="gu">## Takeaway</span>
-
-1–2 sentences: what RSNA 2026 actually told us about this model beyond the paper.
-</code></pre></div>
-<h2 id="tool-index-candidate-roster-pre-meeting">Tool index — candidate roster (pre-meeting)<a class="headerlink" href="#tool-index-candidate-roster-pre-meeting" title="Permanent link">&para;</a></h2>
-<p>Candidate models / methods to watch, grouped by family. Populated entries link out; unpopulated ones are tracked here for the program-notes triage pass. The roster is conservative — only models with a credible RSNA 2026 footprint (named talk, AI Showcase product, companion-publication submission) get individual pages. Otherwise they live in a roll-up paragraph in <code>../program-notes.md</code>.</p>
-<h3 id="pathology-fms-cross-linked-to-aacr-2026">Pathology FMs (cross-linked to AACR 2026)<a class="headerlink" href="#pathology-fms-cross-linked-to-aacr-2026" title="Permanent link">&para;</a></h3>
-<p>These are already covered in the AACR vault — the RSNA page is an extension addendum, not a duplicate.</p>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>AACR dossier</th>
-<th>RSNA-side notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>CHIEF</td>
-<td><a href="../../aacr-2026/topics/bioinfo-tools/tools/chief/">aacr-2026/topics/bioinfo-tools/tools/chief.md</a></td>
-<td>Watch for radiology-pathology bridges / multimodal extensions at RSNA</td>
-</tr>
-<tr>
-<td>Prov-GigaPath</td>
-<td><a href="../../aacr-2026/topics/bioinfo-tools/tools/prov-gigapath/">aacr-2026/topics/bioinfo-tools/tools/prov-gigapath.md</a></td>
-<td>Microsoft + Providence — sponsor may demo at AI Showcase</td>
-</tr>
-<tr>
-<td>UNI / UNI2</td>
-<td><a href="../../aacr-2026/topics/bioinfo-tools/tools/uni/">aacr-2026/topics/bioinfo-tools/tools/uni.md</a></td>
-<td>Mahmood Lab — same lab has CHIEF; watch for joint H&amp;E + radiology presentation</td>
-</tr>
-</tbody>
-</table>
-<h3 id="radiology-native-fms">Radiology-native FMs<a class="headerlink" href="#radiology-native-fms" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Modality</th>
-<th>Sponsor</th>
-<th>Status at RSNA 2026</th>
-<th>Page</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>RadFM</td>
-<td>multimodal (2D + 3D radiology + text)</td>
-<td>Shanghai Jiao Tong + others</td>
-<td>candidate — refresher-course material</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>Med-PaLM-M</td>
-<td>multimodal (radiology + report)</td>
-<td>Google DeepMind</td>
-<td>candidate — informatics track</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>Merlin</td>
-<td>abdominal CT + EHR</td>
-<td>Stanford</td>
-<td>candidate — opportunistic-screening sessions</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>RadDino</td>
-<td>chest X-ray FM (DINOv2-based)</td>
-<td>Microsoft Research</td>
-<td>candidate — chest AI sessions</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>MAIRA-2</td>
-<td>chest X-ray report generation</td>
-<td>Microsoft Research</td>
-<td>candidate — informatics / governance</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>CheXagent</td>
-<td>chest X-ray (multimodal LLM)</td>
-<td>Stanford AIMI</td>
-<td>candidate — informatics</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>LLaVA-Med / LLaVA-Rad</td>
-<td>vision-language radiology</td>
-<td>Microsoft + Stanford</td>
-<td>candidate — informatics</td>
-<td>TBD</td>
-</tr>
-</tbody>
-</table>
-<h3 id="segmentation-fms">Segmentation FMs<a class="headerlink" href="#segmentation-fms" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Modality</th>
-<th>Sponsor</th>
-<th>Status at RSNA 2026</th>
-<th>Page</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MedSAM</td>
-<td>universal medical segmentation</td>
-<td>Wang lab (UToronto)</td>
-<td>candidate — segmentation refresher</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>SegVol</td>
-<td>3D volumetric segmentation</td>
-<td>BAAI / Tsinghua</td>
-<td>candidate — segmentation refresher</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>Universal-MedSeg variants</td>
-<td>various</td>
-<td>various</td>
-<td>placeholder</td>
-<td>TBD</td>
-</tr>
-</tbody>
-</table>
-<h3 id="screening-clinical-deployment-ai-named-trial-entries">Screening / clinical-deployment AI (named-trial entries)<a class="headerlink" href="#screening-clinical-deployment-ai-named-trial-entries" title="Permanent link">&para;</a></h3>
-<p>These are models with a credible RSNA 2026 trial readout — entry per model, trial cross-linked in the page.</p>
-<table>
-<thead>
-<tr>
-<th>Model / vendor</th>
-<th>Modality</th>
-<th>Trial / readout</th>
-<th>Page</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mammography AI-CAD (Lunit INSIGHT MMG, ScreenPoint Transpara, Hologic Genius AI, etc.)</td>
-<td>mammography</td>
-<td>AI-STREAM follow-up, BreastScreen Norway, prospective deployment audits</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>Mirai / Mirai-MRI</td>
-<td>mammography risk + MR triage</td>
-<td>MIRAI-MRI (NCT05968157) — supplemental MRI triggered by AI risk</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>Lung-nodule AI (various — Aidoc, Riverain ClearRead, RadAI, etc.)</td>
-<td>chest CT</td>
-<td>NLST-replay readouts, USPSTF-aligned screening cohorts</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>PI-RADS AI (prostate MRI)</td>
-<td>prostate MRI</td>
-<td>PI-RADS Steering Committee AI-development reporting standards (Radiology v1.0)</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>Body-composition / opportunistic-screening AI</td>
-<td>abdominal CT / whole-body MRI</td>
-<td>RSNA 2026 whole-body MRI body-composition study (May 2026 press release)</td>
-<td>TBD</td>
-</tr>
-</tbody>
-</table>
-<h3 id="methods-governance-not-models">Methods / governance (not models)<a class="headerlink" href="#methods-governance-not-models" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Why it matters</th>
-<th>Page</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>AI bias auditing / fairness frameworks</td>
-<td>governance refresher courses</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>FDA-cleared AI device list / regulatory snapshots</td>
-<td>reimbursement + governance</td>
-<td>TBD</td>
-</tr>
-<tr>
-<td>ACR DSI (Data Science Institute) standards</td>
-<td>tied to "Radiology Reimagined" IAIP demo</td>
-<td>TBD</td>
-</tr>
-</tbody>
-</table>
-<h2 id="why-this-format">Why this format<a class="headerlink" href="#why-this-format" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>One model per page, AACR-style</strong> — the AACR <code>topics/bioinfo-tools/tools/</code> index uses the same shape. Borrowing it lets a reader hop AACR ↔ RSNA in one click without learning a second schema.</li>
-<li><strong>Cross-vault links are first-class</strong> — pathology FMs that already have an AACR dossier don't get re-typed; they get a row in the table above plus a back-link in any RSNA addendum.</li>
-<li><strong>Trials fold into model pages</strong> — at RSNA, most trials are evaluating a model. Indexing by model keeps trial coverage attached to its evidence base.</li>
-<li><strong>"Status" tells the reader whether they're looking at a paper-only candidate or a model with named-session footprint</strong> — same convention as EuroBioC 2025 tools.</li>
-</ul>
-<h2 id="open-questions-for-the-pilot">Open questions for the pilot<a class="headerlink" href="#open-questions-for-the-pilot" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>Where do vendor products go?</strong> — <em>open</em>: an FDA-cleared AI device that's a wrapper around a public FM should probably link to both (the FM gets the model page; the vendor product gets a row in the "AI Showcase exhibitors" section of that page). Need to validate this against the actual exhibitor list when it goes public.</li>
-<li><strong>How granular for screening AI?</strong> — <em>open</em>: every major mammography vendor has an AI-CAD product, but lumping them into one "mammography AI-CAD" page hides head-to-head differences. Likely split if any one product has a load-bearing RSNA 2026 readout (e.g., a single-product prospective trial); otherwise stay rolled up.</li>
-<li><strong>Cross-modality FMs (radiology + pathology)</strong> — <em>open</em>: these straddle AACR and RSNA. Default: page lives in whichever vault hosts the named talk; the other vault gets a back-link. If the model debuts at NeurIPS / arxiv with no conference home, the page goes wherever the first deployment cohort lives.</li>
-</ol>
-<h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../program-notes/">RSNA 2026 program notes</a> — pre-meeting prep, expected FM updates, anticipated trial readouts</li>
-<li><a href="../../aacr-2026/topics/bioinfo-tools/tools/">AACR 2026 bioinfo-tools index</a> — the pathology-FM dossier collection this directory cross-links into</li>
-<li><a href="../../eurobioc-2025/tools/">EuroBioC 2025 tools template</a> — the per-tool format this is adapted from</li>
-</ul>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

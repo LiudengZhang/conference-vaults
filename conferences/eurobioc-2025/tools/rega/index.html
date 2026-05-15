@@ -13142,41 +13142,34 @@
   
 
 
-<h1 id="rega">Rega<a class="headerlink" href="#rega" title="Permanent link">&para;</a></h1>
-<p><strong>R Interface to European Genome-Phenome Archive</strong> — a streamlined, extensible R interface to the EGA API for programmatic upload of metadata, providing a GEO-like Excel submission template by default.</p>
-<ul>
-<li><strong>Maintainer:</strong> Igor Cervenka (University of Basel) — <code>igor.cervenka@unibas.ch</code></li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/Rega.html">Rega v1.0.0</a></li>
-<li><strong>Source:</strong> <a href="https://git.bioconductor.org/packages/Rega">git.bioconductor.org/packages/Rega</a></li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/release/bioc/vignettes/Rega/inst/doc/Rega.html">Rega</a></li>
-<li><strong>License:</strong> Artistic-2.0</li>
-<li><strong>Status at EuroBioC2025:</strong> new release (v1.0.0)</li>
-</ul>
-<h2 id="talk-at-eurobioc2025">Talk at EuroBioC2025<a class="headerlink" href="#talk-at-eurobioc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speaker:</strong> Igor Cervenka (University of Basel)</li>
-<li><strong>Day / session:</strong> Day 1 (Wed Sep 17, 2025) — afternoon short-talk session, after the Holmes keynote</li>
-<li><strong>Talk title:</strong> "Rega R interface for EGA metadata submission"</li>
-<li><strong>Slides (Zenodo DOI):</strong> <em>to verify after publish</em></li>
-<li><strong>Video:</strong> not recorded — short talks at EuroBioC2025 were not part of the plenary YouTube playlist</li>
-<li><strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>Rega wraps the European Genome-Phenome Archive API in R so that metadata for controlled-access submissions can be assembled, validated, and uploaded programmatically. By default it accepts a GEO-style Excel submission template, lowering the friction for groups already familiar with GEO conventions to deposit into EGA instead.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> A three-stage pipeline — parse, validate, submit — over an EGA-shaped Excel template. The template is parsed into a structured in-memory metadata object, run through a client-side validator that checks the schema before any API call, then pushed to EGA via an <code>httr2</code>-based client whose endpoints are generated from a bundled YAML API specification.</p>
-<p><strong>Inputs / outputs.</strong> Input: an <code>ega_full_template_v3.xlsx</code> workbook with sheets for studies, samples, experiments, runs, datasets, and analyses (columns include <code>title</code>, <code>description</code>, <code>alias</code>, <code>phenotype</code>, <code>biological_sex</code>, <code>instrument_model_id</code>, file references). Output: a parsed metadata object, a validation summary, and — on submission — EGA-side metadata records returned with submission IDs and a yaml log.</p>
-<p><strong>Key innovation.</strong> Client-side validation against the EGA schema <em>before</em> anything hits the server — <code>default_validator()</code> runs 38+ checks (uniqueness of study/sample/experiment aliases, referential integrity across tables, title length 3–20 words, description length 3–5 sentences, null detection). And the GEO-style default template is a deliberate adoption nudge for groups already submitting to GEO.</p>
-<p><strong>Parameters worth knowing.</strong> <code>create_client(api, verbosity)</code> — initializes the authenticated API client; OAuth via <code>httr2</code> by default with credentials in OS keyring (no hard-coded secrets). <code>default_parser()</code> / <code>default_validator()</code> — swap to custom parser/validator if the user has a non-default template. <code>finalise_submission(id, release_date)</code> — explicit two-step release.</p>
-<p><strong>Canonical example.</strong> Vignette: <code>parsed &lt;- default_parser(system.file("extdata/submission_example.xlsx", package = "Rega"))</code>, then <code>default_validator(parsed)</code> to surface schema violations, then <code>new_submission(parsed, logfile = "log.yaml")</code> to push to EGA. Submission is finalised separately via <code>finalise_submission()</code> (or the EGA GUI) once curators have reviewed.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> no current dossier; relevant axis is clinical-trials / data deposition — EGA submission is a regulatory step for controlled clinical genomics data</li>
-<li><strong>GBCC 2025:</strong> queued</li>
-<li><strong>Nextflow Summit 2026:</strong> not mentioned; conceptually adjacent for pipelines that close out by lodging results in EGA</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Streamlines controlled-data submission — adjacent to the AACR clinical-trials axis where data deposition is a regulatory step. First Bioconductor release; the GEO-template-by-default choice is a deliberate adoption nudge.</p>
+<div id="mkdocs-encrypted-content" style="display:none">lfMppayxoVyCVKkP5/yH3w==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/tools/rega/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

@@ -13197,132 +13197,34 @@
   
 
 
-<h1 id="asco-2026">ASCO 2026<a class="headerlink" href="#asco-2026" title="Permanent link">&para;</a></h1>
-<p><strong>62nd ASCO Annual Meeting</strong> — McCormick Place, Chicago, IL · May 29 – Jun 2, 2026. ~40,000 attendees, the largest oncology meeting of the year.</p>
-<blockquote>
-<p><strong>Status:</strong> Scaffold — meeting is <strong>3 weeks out</strong> as of today (May 11, 2026). The structure is landing now so live-coverage build (Plenary May 31, LBA-by-LBA reveal across May 29 – Jun 2) can run immediately. Abstract titles are public (released Apr 21); the <strong>regular-abstract embargo lifts May 21, 5:00 PM ET</strong>; <strong>LBAs (including all Plenary abstracts) release at 7:00 AM CT on the day of presentation</strong>. Anything in this vault dated before its embargo lift is built from company topline press releases, ASCO press-program previews, and analyst notes — flagged inline.</p>
-</blockquote>
-<h2 id="why-this-is-in-the-vault">Why this is in the vault<a class="headerlink" href="#why-this-is-in-the-vault" title="Permanent link">&para;</a></h2>
-<p>ASCO is the <strong>clinical-translation counterpart</strong> to <a href="../aacr-2026/">AACR 2026</a>. Same investigators, one phase later: where AACR shows the biology and the early-phase signal, ASCO shows whether it works in patients at randomized phase 3 scale. Strong overlap with AACR's clinical-trials axis — multiple plenary trials at ASCO 2026 (PROTEUS, LIBRETTO-432, HARMONi-6, Rasolute-302) have AACR 2025/2026 mechanism-of-action sessions backing them.</p>
-<p><strong>Format note (and the design decision behind this vault):</strong> ASCO is <strong>clinical, not tools-focused</strong>. The per-tool template that loads the EuroBioC2025 / GBCC2025 / ISMB 2026 vaults does not fit here — there are no Bioconductor packages debuting on the Plenary stage. The primary artifact for ASCO 2026 is the <strong>per-trial / per-readout</strong> entry. See <code>trials/index.md</code> for the schema.</p>
-<p>The closest sibling vault in shape is <strong><a href="../jpm-2026/">JPM 2026</a></strong> — also non-tools, also public-coverage-driven (no slide decks public for many sessions), also synthesis-by-day. The ASCO vault borrows JPM's "themes + day-by-day digest" pattern, but adds a per-trial detail page that JPM doesn't need (JPM doesn't have randomized phase 3 readouts).</p>
-<h2 id="what-we-have-will-have-to-work-with">What we have / will have to work with<a class="headerlink" href="#what-we-have-will-have-to-work-with" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Source</th>
-<th>Coverage</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>ASCO Meeting Library</strong></td>
-<td>abstract full-text (regular) post-May 21; LBA full-text on day of presentation</td>
-<td><a href="https://www.asco.org/abstracts">asco.org/abstracts</a> — primary source for the per-trial pages</td>
-</tr>
-<tr>
-<td><strong>ASCO 2026 Program page</strong></td>
-<td>session grid, Plenary slate, Discussant assignments</td>
-<td><a href="https://www.asco.org/annual-meeting/program">asco.org/annual-meeting/program</a> — Plenary is Sun May 31</td>
-</tr>
-<tr>
-<td><strong>ASCO Daily News</strong></td>
-<td>first-pass post-session recaps, official ASCO editorial</td>
-<td><a href="https://dailynews.ascopubs.org/">dailynews.ascopubs.org</a></td>
-</tr>
-<tr>
-<td><strong>The ASCO Post</strong></td>
-<td>weekly recap issues June – August 2026</td>
-<td><a href="https://ascopost.com/">ascopost.com</a></td>
-</tr>
-<tr>
-<td><strong>OncLive / Targeted Oncology / CancerNetwork</strong></td>
-<td>discussant-level depth, "expert reaction" video stand-ups</td>
-<td><a href="https://www.onclive.com/">onclive.com</a>, <a href="https://www.targetedonc.com/">targetedonc.com</a>, <a href="https://www.cancernetwork.com/">cancernetwork.com</a></td>
-</tr>
-<tr>
-<td><strong>Evaluate / ApexOnco / BioPharma Dive / Endpoints / STAT</strong></td>
-<td>analyst framing, sponsor stock reactions, M&amp;A read-through</td>
-<td>sub-required for some; STAT runs a real-time blog</td>
-</tr>
-<tr>
-<td><strong>Company press releases</strong></td>
-<td>toplines (often pre-embargo), full presentation decks (post-presentation)</td>
-<td>wire-service syndication via PRNewswire, BusinessWire</td>
-</tr>
-<tr>
-<td><strong>Plenary livestream + replay</strong></td>
-<td>full talk video + discussant</td>
-<td>ASCO Virtual; replay typically free for ~3 months post-meeting</td>
-</tr>
-<tr>
-<td><strong>Social</strong></td>
-<td>#ASCO26 on X / Bluesky</td>
-<td>useful for real-time room reactions; not primary</td>
-</tr>
-</tbody>
-</table>
-<p>The <strong>ASCO Meeting Library is the load-bearing primary source</strong> — every accepted abstract has a permalink with title, authors, affiliations, methods, results, and conclusions. Per-trial pages should cite the abstract DOI / permalink, not the company press release.</p>
-<h2 id="program-shape">Program shape<a class="headerlink" href="#program-shape" title="Permanent link">&para;</a></h2>
-<p>ASCO 2026 runs <strong>Friday May 29 (Education Day) through Tuesday June 2 (closing)</strong>, five days, McCormick Place West / South. The structure:</p>
-<ul>
-<li><strong>Plenary Session — Sunday May 31</strong> (the practice-changing slot). Six abstracts: <strong>LBA1 PROTEUS</strong> (Erleada/apalutamide, prostate, perioperative), <strong>LBA2 SARC041</strong> (abemaciclib, dedifferentiated liposarcoma), <strong>LBA3 LIBRETTO-432</strong> (selpercatinib, adjuvant RET+ NSCLC), <strong>LBA4 HARMONi-6</strong> (ivonescimab, 1L squamous NSCLC, China-only), <strong>LBA5 Rasolute-302</strong> (daraxonrasib, 2L pancreatic PDAC, RAS), plus one TBD. Discussants for the Plenary are usually announced ~2 weeks pre-meeting; we'll capture them in <code>program-notes.md</code>.</li>
-<li><strong>Opening Session (Sat May 30)</strong> — Presidential Address + Karnofsky Award lecture.</li>
-<li><strong>23 Oral Abstract Sessions + 25 Rapid Oral + 13 Clinical Science Symposia</strong> — ~450 oral abstract presentations.</li>
-<li><strong>&gt;7,000 abstracts total</strong> (orals + posters + online-only publications).</li>
-<li><strong>Tracks dominating the corpus:</strong> GI (CRC, pancreatic, gastric), GU (prostate, RCC, bladder), Lung (NSCLC, SCLC), Breast (HR+/HER2-, TNBC, HER2+), Heme (DLBCL, MM, AML), Melanoma, GYN, Sarcoma, Symptoms/Survivorship. Cross-cutting: <strong>ADCs, bispecifics, radioligands, RAS-class inhibitors, perioperative IO</strong>.</li>
-<li><strong>Press program</strong> (separate, embargoed media briefings) Fri-Tue mornings; ASCO Daily News and STAT have AM newsletters during the meeting.</li>
-</ul>
-<h2 id="organization">Organization<a class="headerlink" href="#organization" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>conferences/asco-2026/
-├── index.md             # this page
-├── program-notes.md     # pre-meeting prep: tracks, plenary preview, expected LBAs, discussant watch list, key dates
-├── trials/              # PRIMARY artifact — one entry per trial / readout
-│   └── index.md         # template + master trial index table
-├── themes.md            # cross-day synthesis (deferred until post-meeting)
-└── digest/              # day-by-day recap (deferred until post-meeting)
-    ├── day-1-friday.md      # May 29 — Education Day, first LBAs (incl. LBA8500 WU-KONG28)
-    ├── day-2-saturday.md    # May 30 — Opening, Presidential, first oral sessions, frontMIND
-    ├── day-3-sunday.md      # May 31 — PLENARY (LBA1–LBA5); the load-bearing day
-    ├── day-4-monday.md      # Jun 1 — ALCHEMIST, OptimUM-02 melanoma (LBA9503), more orals
-    └── day-5-tuesday.md     # Jun 2 — closing orals, TRIPLEX SCLC
-</code></pre></div>
-<p>The <code>trials/</code> directory is load-bearing. Each trial gets one Markdown file. Template at <code>trials/index.md</code>. Expected ~50–80 entries spanning the Plenary slate, top-polled LBAs, and the major track headliners.</p>
-<h2 id="whats-different-from-aacr-2026">What's different from AACR 2026<a class="headerlink" href="#whats-different-from-aacr-2026" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>No biology, no posters-on-AI-platforms.</strong> Pure clinical readouts. The AACR template (mechanism + assay + scRNA-seq cohort + xenograft + clinical-translation appendix) does not apply.</li>
-<li><strong>Public coverage is the load-bearing source, not full transcripts.</strong> Like JPM, much of what happens in the room only reaches us via trade-press editorial. Unlike JPM, every claim is backed by an embargoed peer-curated abstract — the Meeting Library makes ASCO the <strong>most-citable non-journal venue</strong> in oncology.</li>
-<li><strong>Embargo discipline matters.</strong> Anything written pre-embargo about a regular abstract is reconstructed from titles + company toplines + analyst preview pieces. Plenary LBAs only release the morning of presentation. Flag everything pre-embargo as <code>*expected, subject to embargo*</code> and update post-presentation.</li>
-<li><strong>Drug names are the index, not tool names.</strong> Cross-linking goes through INN / brand / mechanism (e.g., "PD-1×VEGF bispecific" links HARMONi-6 ↔ Summit ivonescimab JPM 2026 entry ↔ AbbVie RC148 deal ↔ BMS pumitamig).</li>
-</ul>
-<h2 id="cross-vault-links">Cross-vault links<a class="headerlink" href="#cross-vault-links" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong><a href="../aacr-2026/">AACR 2026</a></strong> — the mechanism / biomarker / discovery side of the same investigator network. Many ASCO 2026 plenary trials have AACR 2025 or 2026 mechanism sessions (e.g., RAS-inhibitor preclinical at AACR → Rasolute-302 at ASCO Plenary).</li>
-<li><strong><a href="../jpm-2026/">JPM 2026</a></strong> — the financing / dealmaking layer. Multiple ASCO 2026 trial sponsors were on the JPM stage in January (Lilly Retevmo / Verzenio, Pfizer Padcev, Summit/Akeso ivonescimab licensing, Revolution Medicines daraxonrasib).</li>
-<li><strong><a href="../../timeline/">Conferences timeline</a></strong> — ASCO's position in the year's oncology cycle (AACR Apr → ASCO May/Jun → ESMO Oct → ASH Dec → JPM Jan).</li>
-</ul>
-<h2 id="next-step">Next step<a class="headerlink" href="#next-step" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Now (pre-meeting, May 11–21):</strong> populate <code>program-notes.md</code> with the expected-LBA shortlist (~25 trials), plenary slate, and discussant watch list as named. Pre-build trial stubs for the top 10 — Plenary LBAs + frontMIND + OptimUM-02 + ALCHEMIST + KEYNOTE-B15.</li>
-<li><strong>Embargo lift (May 21, 5pm ET):</strong> drop regular-abstract full-text into trial pages. ~7,000 abstracts go public at once — batch the priority shortlist first.</li>
-<li><strong>Live meeting (May 29 – Jun 2):</strong> real-time capture per day-digest. Plenary day (May 31) is the high-priority slot — LBAs 1–5 reveal in a single 3-hour session.</li>
-<li><strong>Post-meeting (Jun 3 – Jun 30):</strong> finalize <code>themes.md</code>. Expected threads: RAS-class drugs become real (daraxonrasib + KRAS-G12D early-phase), perioperative IO expansion (KEYNOTE-B15, ALCHEMIST, PROTEUS), PD-1×VEGF bispecific class read-through (HARMONi-6 OS, AbbVie RC148 echo), ADC durability (ASCENT-04 PFS2), endocrine-backbone resistance (persevERA miss, SERENA-6 PFS2).</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://www.asco.org/annual-meeting">ASCO Annual Meeting home</a></li>
-<li><a href="https://www.asco.org/annual-meeting/program">ASCO 2026 Program</a></li>
-<li><a href="https://www.asco.org/annual-meeting/dates-know">Dates to Know</a></li>
-<li><a href="https://www.asco.org/annual-meeting/abstracts-presentations/abstract-policies-embargoes-exceptions/faqs">Abstract Policies / Embargoes</a></li>
-<li><a href="https://www.asco.org/abstracts">ASCO Meeting Library</a></li>
-<li><a href="https://dailynews.ascopubs.org/">ASCO Daily News</a></li>
-<li><a href="https://ascopost.com/">The ASCO Post</a></li>
-<li><a href="https://www.onclive.com/view/onclive-polls-reveal-picks-for-top-lung-cancer-abstracts-at-asco-2026">OncLive — ASCO 2026 lung cancer poll picks</a></li>
-<li><a href="https://www.onclive.com/view/poll-results-highlight-breast-cancer-abstracts-of-interest-at-asco-2026">OncLive — ASCO 2026 breast cancer poll picks</a></li>
-<li><a href="https://www.oncologypipeline.com/apexonco/asco-2026-preview-revolution-completes-its-rout">ApexOnco — ASCO 2026 preview (Revolution Medicines)</a></li>
-<li><a href="https://www.asco.org/about-asco/press-center/news-releases/new-research-highlights-lifestyle-treatment-strategies-2026-annual-meeting">ASCO press release — 2026 Annual Meeting lifestyle &amp; treatment strategies</a></li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">wS+9Vh0DhejFk1M/Af6cEw==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/asco-2026/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

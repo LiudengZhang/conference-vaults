@@ -13142,46 +13142,34 @@
   
 
 
-<h1 id="mosclip">MOSClip<a class="headerlink" href="#mosclip" title="Permanent link">&para;</a></h1>
-<p><strong>Multi Omics Survival Clip</strong> — a topological pathway analysis tool that integrates multi-omics data to identify survival-associated modules and significant modules for two-class analysis, providing both pathway tests and module tests.</p>
-<ul>
-<li><strong>Maintainer:</strong> Paolo Martini (University of Brescia) — <code>paolo.martini@unibs.it</code></li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/MOSClip.html">MOSClip v1.6.0</a></li>
-<li><strong>Source:</strong> <a href="https://git.bioconductor.org/packages/MOSClip">git.bioconductor.org/packages/MOSClip</a></li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/release/vignettes/MOSClip/inst/doc/mosclip_vignette.html">MOSClip vignette</a></li>
-<li><strong>License:</strong> AGPL-3</li>
-<li><strong>Status at EuroBioC2025:</strong> methods talk on multi-omics survival pathway analysis</li>
-</ul>
-<h2 id="talk-at-eurobioc2025">Talk at EuroBioC2025<a class="headerlink" href="#talk-at-eurobioc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speaker:</strong> Anna C E De Lima Tanada (presented; Paolo Martini is maintainer / senior author)</li>
-<li><strong>Day / session:</strong> Day 1 (Wed Sep 17, 2025) — afternoon short-talk session, after the Holmes keynote</li>
-<li><strong>Talk title:</strong> "MOSClip for multi-omics pathway analysis"</li>
-<li><strong>Slides (Zenodo DOI):</strong> <em>to verify after publish</em></li>
-<li><strong>Video:</strong> not recorded — short talks at EuroBioC2025 were not part of the plenary YouTube playlist</li>
-<li><strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>MOSClip overlays multi-omics measurements onto pathway topology and tests pathway modules for association with survival or two-class outcomes. It returns both a pathway-level test and a finer-grained module-level test, so users can localize <em>which</em> part of a pathway carries the signal rather than only learning that the pathway is hit.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> Pathways are represented as graphs via <code>graphite</code>/<code>graphNEL</code>; within each pathway the package extracts connected-component "modules," reduces the multi-omics measurements over those modules to a small number of covariates, and tests those covariates jointly against outcome — Cox proportional hazards for survival, a generalized linear model for two-class comparisons.</p>
-<p><strong>Inputs / outputs.</strong> Input is an <code>Omics</code> object (a <code>MultiAssayExperiment</code> subclass) holding any combination of expression, methylation, mutations, and CNV, plus a pathway list (e.g. Reactome). Output is a per-module table of p-values with the contributing omic-covariates labelled (e.g. <code>expPC1-3</code>, <code>met2k2</code>, <code>cnvPOS</code>, <code>mut</code>).</p>
-<p><strong>Key innovation.</strong> Topology-aware multi-omics survival testing at module resolution: rather than collapsing a whole pathway to one score, MOSClip localizes the signal to a connected sub-graph and attributes it to specific omics layers.</p>
-<p><strong>Parameters worth knowing.</strong>
-- Reduction method per omic — <code>summarizeWithPca</code> (expression), <code>summarizeInCluster</code> (methylation CpG clusters), <code>summarizeToBinaryEvents</code> / <code>summarizeToNumberOfEvents</code> (mutations, CNV).
-- <code>useTheseGenes</code> — pre-filter genes considered for module construction.
-- <code>specificArgs</code> — per-omic arguments (e.g. methylation gene dictionary).
-- <code>seed</code> — reproducibility for the dimensionality-reduction steps.</p>
-<p><strong>Canonical example.</strong> The vignette runs <code>multiOmicsSurvivalModuleTest()</code> over <code>reactSmall</code> (three Reactome pathways) on <code>multiOmics</code>, a 50-sample ovarian-cancer TCGA cut, then aggregates results with <code>multiPathwayModuleReport()</code>. The output is a top-modules table ranked by Cox p-value, where the contributing covariates (expPC1–3, met2k2, cnvPOS, mut) make explicit which omics drove the association.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> no current dossier; relevant axis is clinical-trials / survival modeling — MOSClip's explicit survival framing maps onto outcome-prediction talks</li>
-<li><strong>MIRit</strong> (<a href="../mirit/">entry</a>) — sibling network/pathway method on the same Day 1 short-talk session</li>
-<li><strong>GBCC 2025:</strong> queued</li>
-<li><strong>Nextflow Summit 2026:</strong> not mentioned</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Multi-omics with explicit survival modeling — distinct from purely descriptive multi-omics methods. The module-level test is the differentiator: it pushes interpretation below the pathway aggregate.</p>
+<div id="mkdocs-encrypted-content" style="display:none">tXnafe6Wzg4Oq75rlgfBCA==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/tools/mosclip/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

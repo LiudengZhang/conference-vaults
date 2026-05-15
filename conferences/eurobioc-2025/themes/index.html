@@ -13284,309 +13284,34 @@
   
 
 
-<h1 id="themes-takeaways-eurobioc-2025">Themes &amp; takeaways — EuroBioC 2025<a class="headerlink" href="#themes-takeaways-eurobioc-2025" title="Permanent link">&para;</a></h1>
-<p>Cross-day synthesis of the recurring threads, surprises, and named entities across <a href="../digest/day-1/">Day 1</a>, <a href="../digest/day-2/">Day 2</a>, and <a href="../digest/day-3/">Day 3</a>. EuroBioC 2025 was a 3-day, ~5-keynote / ~25-short-talk / 5-workshop event in Barcelona — the European leg of the Bioconductor calendar, tighter and more methodological than the joint GBCC counterpart. The themes below are what the program <em>converges on</em> once you read the schedule as one document rather than three.</p>
-<blockquote>
-<p><strong>Source caveat:</strong> Plenary recordings are public on the Bioconductor YouTube playlist; short-talk slides typically land on Zenodo within a few weeks but were largely TBD at recap time. Claims below are anchored to talk titles, package READMEs, and the official community recap — recordings will tighten the specifics.</p>
-</blockquote>
-<hr />
-<h2 id="the-five-threads">The five threads<a class="headerlink" href="#the-five-threads" title="Permanent link">&para;</a></h2>
-<h3 id="1-spatial-omics-convergence">1. Spatial-omics convergence<a class="headerlink" href="#1-spatial-omics-convergence" title="Permanent link">&para;</a></h3>
-<p>The single loudest thread of the meeting. The European Bioconductor scene is consolidating fast around spatial methods, and Day 2 was where it surfaced as a coordinated stack:</p>
-<ul>
-<li><strong><a href="../keynotes/crowell/">Helena Crowell's Day 1 keynote</a></strong> anchored the case for whole-transcriptome imaging in colorectal cancer.</li>
-<li><strong><a href="../tools/spatialdata/">SpatialData</a></strong> (Marconato) provides a Python-primary data structure with an in-development R interop layer — the meeting's clearest acknowledgment that spatial data formats are now cross-language by default.</li>
-<li><strong><a href="../tools/despace/">DESpace</a></strong> (Cai) layers spatial differential expression on top of edgeR's NB machinery — i.e., a classical Bioconductor workhorse extended with spatial context.</li>
-<li><strong><a href="../tools/spatialfda/">spatialFDA</a></strong> (Emons) pushes the same problem into the multi-sample regime where clinical use lives.</li>
-<li><strong><a href="../tools/osta/">OSTA</a></strong> (Day 2 workshop) — the <em>Orchestrating Spatial Transcriptomics Analysis</em> book, taught in person, locks the curriculum.</li>
-</ul>
-<p>Five contributions, four different speakers, one consistent direction. This is what Bioconductor convergence actually looks like in real time.</p>
-<h3 id="2-cross-language-interop-as-a-first-class-concern">2. Cross-language interop as a first-class concern<a class="headerlink" href="#2-cross-language-interop-as-a-first-class-concern" title="Permanent link">&para;</a></h3>
-<p>Two talks foregrounded language bridges in their <em>titles</em>, not as footnotes:</p>
-<ul>
-<li><strong><a href="../tools/spectripy/">SpectriPy</a></strong> (Rainer) — explicit R↔Python mass-spec interop, named for the bridge.</li>
-<li><strong><a href="../tools/spatialdata/">SpatialData</a></strong> — Python-primary, R interop <em>in development</em>, openly acknowledged.</li>
-</ul>
-<p>The implicit version of the same thread runs through the <a href="../tools/workshop-platform/">Workshop Platform</a> (containerized environments that don't care which language), <a href="../tools/metabonaut/">Metabonaut</a> (a tutorial framework that has to interoperate with SpectriPy), and the broader pattern of Python-primary frameworks (anndata, scanpy, MuData) that the R-side is increasingly mirroring rather than competing with. The Bioconductor stance has shifted from "we are the R ecosystem" to "we are the R-anchored interoperable ecosystem."</p>
-<h3 id="3-latent-variable-dimensionality-reduction-methods-proliferate">3. Latent-variable / dimensionality-reduction methods proliferate<a class="headerlink" href="#3-latent-variable-dimensionality-reduction-methods-proliferate" title="Permanent link">&para;</a></h3>
-<p>Statistically, this was the year's centerpiece — and it was visible across both days:</p>
-<ul>
-<li><strong><a href="../keynotes/holmes/">Susan Holmes' keynote</a></strong> — <em>Latent variables as the best medicine for heterogeneity</em> — argued the methodological frame head-on.</li>
-<li><strong><a href="../tools/omicsgmf/">omicsGMF</a></strong> (Clement) — generalized matrix factorization usable across modalities.</li>
-<li><strong><a href="../tools/consica/">consICA</a></strong> (Chepeleva) — independent-component analysis with a consensus / stability layer.</li>
-</ul>
-<p>Three contributions, three different angles (latent factor models, GMF, ICA), one common claim: when the biology is heterogeneous, the right primitive is a latent representation. Pair this with the spatial track and the picture sharpens — spatial heterogeneity is heterogeneity, and the same tools apply.</p>
-<h3 id="4-proteomics-renaissance-from-the-clement-lineage">4. Proteomics renaissance from the Clement lineage<a class="headerlink" href="#4-proteomics-renaissance-from-the-clement-lineage" title="Permanent link">&para;</a></h3>
-<p>A quieter but striking thread: multiple proteomics-flavored tools traceable to Lieven Clement's group, with complementary roles:</p>
-<ul>
-<li><strong><a href="../tools/omicsgmf/">omicsGMF</a></strong> (Clement himself, Day 1) — dimensionality reduction.</li>
-<li><strong><a href="../tools/msqrob2/">msqrob2</a></strong> (Vanderaa, Day 2 workshop) — robust statistical proteomics, the workhorse downstream of search engines.</li>
-<li>Lucas Beerland's distributional-inference single-cell proteomics talk (skipped from the tools index but in the program) — the experimental frontier of the same lineage.</li>
-</ul>
-<p>Bioconductor proteomics is having a moment, and one Belgian group is producing much of the gravitational mass. This complements the metabolomics track (<a href="../tools/notame/">notame</a>, <a href="../tools/metabonaut/">Metabonaut</a>, <a href="../tools/spectripy/">SpectriPy</a>) — the small-molecule side is healthy too.</p>
-<h3 id="5-workshop-platform-biocbook-the-meta-infrastructure">5. Workshop Platform + BiocBook = the meta-infrastructure<a class="headerlink" href="#5-workshop-platform-biocbook-the-meta-infrastructure" title="Permanent link">&para;</a></h3>
-<p>The most strategic thread runs <em>underneath</em> the talks:</p>
-<ul>
-<li><strong><a href="../tools/workshop-platform/">Workshop Platform</a></strong> (Mahmoud, Day 2 workshop) — the containerized environment that runs all the workshops in the room, deployable as a per-event service.</li>
-<li><strong><a href="../keynotes/serizay/">Jacques Serizay's Day 3 keynote</a></strong> — community-driven flexible software, BiocBook, the ecosystem-as-coordination-mechanism argument.</li>
-<li><strong><a href="../tools/osta/">OSTA</a></strong> as a <em>book</em> taught as a <em>workshop</em> on a <em>platform</em> — the three layers compose.</li>
-</ul>
-<p>The closing argument of the meeting is that the value Bioconductor delivers is not packages, it's the <em>production line that turns research into a reproducible, shareable, runnable artifact</em>. Workshop Platform is to a workshop what BiocBook is to a vignette is to a peer-reviewed package — three rungs on the same ladder.</p>
-<hr />
-<h2 id="surprises-worth-flagging">Surprises worth flagging<a class="headerlink" href="#surprises-worth-flagging" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Surprise</th>
-<th>Day</th>
-<th>Why it stood out</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Five distinct spatial-omics tools across two days</strong></td>
-<td>1 + 2</td>
-<td>The European scene is now coordinating on spatial, not competing</td>
-</tr>
-<tr>
-<td><strong>SpatialData as a Python-primary "Bioconductor" talk</strong></td>
-<td>2</td>
-<td>Explicit acknowledgment that the data-structure standard isn't R-only</td>
-</tr>
-<tr>
-<td><strong>SpectriPy named for its language bridge</strong></td>
-<td>1</td>
-<td>Cross-language interop is a <em>title-worthy</em> contribution now</td>
-</tr>
-<tr>
-<td><strong>Holmes keynote framing latent variables as "medicine"</strong></td>
-<td>1</td>
-<td>Methodological argument, not a results talk — the rhetorical centerpiece</td>
-</tr>
-<tr>
-<td><strong>edgeR still getting a methods-talk slot 20 years in</strong></td>
-<td>1</td>
-<td>The classical workhorses are not done; Lizhong Chen's update went alongside the new spatial-DE tools</td>
-</tr>
-<tr>
-<td><strong>Workshop Platform as a <em>workshop</em> about workshops</strong></td>
-<td>2</td>
-<td>The infrastructure-of-infrastructure show, quietly the most leveraged talk in the room</td>
-</tr>
-<tr>
-<td><strong>No agentic-AI / LLM track at all</strong></td>
-<td>all</td>
-<td>In contrast to Nextflow Summit 2026; see "notably absent" below</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="tools-keynotes-entities-quick-index">Tools, keynotes &amp; entities — quick index<a class="headerlink" href="#tools-keynotes-entities-quick-index" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th style="text-align: center;">Day 1</th>
-<th style="text-align: center;">Day 2</th>
-<th style="text-align: center;">Day 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../keynotes/carey/">Vince Carey — 25 years of Bioconductor</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../keynotes/crowell/">Helena Crowell — CRC imaging</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../keynotes/holmes/">Susan Holmes — latent variables</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../keynotes/sharpe/">James Sharpe — C3PO</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../keynotes/ferruz/">Noelia Ferruz — protein LMs</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../keynotes/serizay/">Jacques Serizay — community software</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr>
-<td><a href="../tools/notame/">notame</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/metabonaut/">Metabonaut</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/spectripy/">SpectriPy</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/omicsgmf/">omicsGMF</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/miatime/">miaTime</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/rcx/">RCX</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/mirit/">MIRit</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/deedeeexperiment/">DeeDeeExperiment</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/edger/">edgeR</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/mosclip/">MOSClip</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/rega/">Rega</a></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/footprintr/">footprintR</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/decemedip/">decemedip</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/spatialdata/">SpatialData</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/despace/">DESpace</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/spatialfda/">spatialFDA</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/consica/">consICA</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/barbieq/">barbieQ</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/osta/">OSTA</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/mia/">mia</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/msqrob2/">msqrob2</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/workshop-platform/">Workshop Platform</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td><a href="../tools/isee/">iSEE</a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Speakers / institutions named in the program:</strong> Vince Carey (Channing/Harvard), Helena Crowell (CNAG), Susan Holmes (Stanford), James Sharpe (EMBL Barcelona), Noelia Ferruz (CSIC), Jacques Serizay (Institut Pasteur), Lieven Clement (Ghent), Christophe Vanderaa (Ghent), Charlotte Soneson (FMI/SIB), Federico Marini (Mainz), Luca Marconato (EMBL), Tuomas Borman (Turku), Johannes Rainer (Eurac), Alexandru Mahmoud (Bioconductor core), and the short-talk roster captured in the <a href="../tools/">tools index</a>.</p>
-<p><strong>Domains represented:</strong> spatial omics, single-cell, microbiome, mass spec / metabolomics, proteomics, RNA-seq, miRNA-mRNA, multi-omics survival, methylation, networks, clonal tracking, EGA submission, visualization, infrastructure / data classes, books / training.</p>
-<hr />
-<h2 id="whats-notably-absent">What's notably absent<a class="headerlink" href="#whats-notably-absent" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>No agentic-AI / LLM-driven-pipeline track.</strong> The Nextflow Summit 2026 vault is dominated by <a href="../../nextflow-2026/themes/">agentic AI threads</a> — Co-Scientist, MCP-per-pipeline, LLM-driven QC rewrites. EuroBioC 2025 has <em>one</em> AI keynote (Ferruz on protein design) and effectively zero short talks on agentic tooling for Bioconductor itself. Striking, given the topic's gravity elsewhere; an opening for BioC2026.</li>
-<li><strong>Light on benchmarks-of-benchmarks.</strong> Most short talks present <em>new</em> tools; few revisit the comparative-benchmark genre that the AACR / ISMB methods circuits have been pushing. The Bioconductor review process front-loads this work into vignettes, but a session-format methods-comparison track is missing.</li>
-</ul>
-<hr />
-<h2 id="where-the-corpus-connects">Where the corpus connects<a class="headerlink" href="#where-the-corpus-connects" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026 (<a href="../../aacr-2026/">../aacr-2026/</a>)</strong> — the bioinfo-tools and single-cell/spatial-omics topics share a substantial subset of the spatial stack here (<a href="../tools/spatialdata/">SpatialData</a>, <a href="../tools/despace/">DESpace</a>, <a href="../tools/osta/">OSTA</a>). When AACR speakers cite "we used SpatialExperiment / SpatialData" — this is the meeting where the underlying tooling got versioned.</li>
-<li><strong>Nextflow Summit 2026 (<a href="../../nextflow-2026/">../nextflow-2026/</a>)</strong> — opposite framing: Nextflow is pipelines / orchestration / agents, EuroBioC is methods / packages / statistics. The two are complementary halves of the bioinformatics stack — Nextflow ships the spatial-preprocessing pipeline, Bioconductor ships the spatial-DE method that consumes its output. The contrast on agentic AI (heavy at Nextflow, near-absent here) is the most legible cross-vault signal.</li>
-<li><strong>GBCC 2025</strong> (queued sister vault) — the Galaxy + Bioconductor joint event. The OSTA / mia / iSEE workshops in particular will likely show up there in re-taught form; cross-linking once GBCC is populated.</li>
-<li><strong>JPM 2026 (<a href="../../jpm-2026/themes/">../jpm-2026/</a>)</strong> — distant from this vault on content but worth noting that the Crowell-keynote disease focus (CRC, whole-transcriptome imaging) sits in a space that AI-pharma announcements are starting to circle (multi-modal foundation models for oncology — see Modella AI). Methods first, then deals.</li>
-</ul>
-<hr />
-<h2 id="caveat">Caveat<a class="headerlink" href="#caveat" title="Permanent link">&para;</a></h2>
-<p>EuroBioC 2025 has a public schedule, public plenary recordings, and a public community recap; short-talk slides land on Zenodo on a multi-week lag. This synthesis is built from titles + package documentation + the recap blog, with a small number of inferences explicitly flagged ("the talk title suggests…"). Recordings should be the source of truth where the precise methodological claim matters.</p>
+<div id="mkdocs-encrypted-content" style="display:none">Z9j2vAEoa1MnTtZCZkHhrQ==;XzZNXvr1xxqCZwrLvuFFUPYbwreIwR3Q0mAol+wr/hA0y78eQt9JRGuv/0x32cpHJ8Yrkdrhn0Qk8M1rmCjl88LS/vfXjY36ypeSNBXXboMWyB8v7p+J1d3E+XMtIN5UrRTudpJVNXyFjitFKOBSBjt5t5Ohsr6a21GjQIqhYwrYgRcsJEZuX+VguGlMVoyG1YzQMT8RxE9Z9qkM6+QO5lfMP177/cLrRwnnQC5cLdaitB7UhaskROz1hKPeOGRUhjEO4K/ecwMcnUq2kfSzV0aFo4RzplLvXw/591QJ3T0qjyM4FoC7B3pgzmrpjvL7gDQF7oBSfpmK/k4DHpkm8jmZdJDDPRAyqns7YTvBDTkTheFe4kazjZF3eH7IfPSMt1LCidv55CusM9nhl9q8hhDjqaeITQCRZpjlKYz9lAjE9jVIW53FlnVcqtq/qV+AAunK5mjVnUTGltKFiMW2BLNCblnrdvAO3N72wVi7JhPWdnMlJEA/QUfNmirozzbJ0w9OGbB7JwAalcvnOTGmU6cSrzTOpWibdu0Uw++hueX7u7C0uiAldKVSgzDCcq0A6sJx81H38+ojkZwlIpJHko0DYvH2TkpV1dugndrQ7lU2nC8oOjMAq9tCY88FmfekuTl5EkS3QhsROUzagRvVCUzZmvEunYSJu+uoUYF6mlmuwhbjBoBYfvJTB2qop3oRBx7MhY2R1ELrpbRgFglV9RHsUQDpP3TTB0/7CKaYMySRW0Wc4MsC3z7pRXqqFS7xtOyjC4ZJRtXTMS6hGszFBNT/ZRmyTRgbW6aduxLyizL4nmGMKol6kpBAhhuzlFUmqSRyFtU9Vb280Ha+ug9M0Q2Ki/AZyFEkEKGhOT6R+FeFVhUvZA5yB6IxDhmYB8FOxwfmAPGcvb0Q5FVHtIAE0Gz4ikGkJ5xR+Ob2ea9NbcjbOSC3DrradyBynEY90cZ5rpuZ18kWMxTWc11hf9mLeSnhI3aeX01sPnZbrq9ei3diXIOW4zNVkX/5insAt1WhR1O2M0JtyHnT82sojnvsoc2xq28TerJve6W2zx9xyKU6pzkNLY2JKr0DMYxY+xZFosvowCxVHQeW+xnYRYpwuU1KKpHBt8uZysy1XdeTjQZD0IKLSrzSnOkoM6p7OxaxdUcDs3+3PcopSnx44bSRZsvMkLz7LrfQc6YmolsmqavDNkvgTpJmConSWnaimBmyQnC3D+EvX6yQZ4vkxEXqDeLm5qG1BPWAxsqxlIAdKQlYsaiVJ58HZanM2H270zpdFfwM57BUXCAFJMFGzk3pElx+7Z7YfCJ0mDWF1tlmvOngqfLsMuTLiBWxunqp5TLb8Qvk4Uq3ACobqDXuEfpeyOUWTL+hImbAEGDd62/TJqjgia+qL8262/Xjr/nFONZO4W4VuRBDlE627RrNcqg01veDgAXx2IE1udjeYej4G2Ddiy3EqBthhvNjDkFE0Nv3ETQzZtNPSNRr87AiiFaONc+UJT/+qVBTMwXDp66EyLmYTUDNGdRIZsX5mNwrLINAPrw4kc5GKuDnhKHUzQB2RkOYgrH5Fjt4E3FzMMQ9/EE4gDkvT+oEmyGm5bKB9anS6rX3cAXhAja+ae1AuX9ed6Gwq2yC17BOQlfPEZgiWoPXiFOfd6NJR0V+7kbc9tQB+OFiGNOdbtPDoLHry0Dd0lDMgn6TWU/hTQ1RFXeeQCTENcJO2yzrhgf5f6CV1fEoQ5YYaMLGsmLVGJ8FU5MJ3jH8FHcek33eCvlXd/luMicPcOUD45RvZLK6pOlFNJCxFR8clYcBGxYRcUJJwIDkccRTS5/LjWys5VSEDO+ADQKYPpy72JAH+aWOyEU0nsop70rt6Hkx1wHbYntpZxw8LyDXbHq0YQac/LI16iN+6zsIScbx493FougF1cPTjGrPWgLh+2V0eGVevV7MEVPYQDZDS2CHDTM4lOdcCflbPNiXhMAHEMB7gso61IIyG1+3vKrPHmzae11XHGmBl8LB/fsrSFloeSLepuSeAuOSWBbBKQvBFQXfKDi4xABKF8252x+l5U+qIMQzkmENii4/fz8hVskWWJ4A+UMzZppQuDUvyVkdyR77Rw7TCBB06GlAzlntFHpii5pFK9eyH3nxIzu2iFRWWjvGKVv3vleBn9j3kt1SdKlGKmsRQxRK92esIeL22GQKgnean2R0u70IcnE18LyLqd/gA4mq6RknJKfUom9/l3gEPMWnRimCRbJTIvTgvD9Nmi7t/sz+BZNXc0XpHhu1dnXSVh9fmuPUBC0kHytMuwxsupIITOk/pe9BNrBlXLl/IOPjrKVDZDHbcGIxY2eBlRpqQQy9oB34dxWti7tI3o2pMU80mTaMIM0xhDSf+iLR5XYjSNAulmAU2wVAGm7ARGLU3sfyGOIljU+VIZj9lrDi7/7NOcwSQtXrpXQLgUP8GpceovDodSZ52K8+X9w3kTHe0CiFKUZ0Zd54s0SeeW20X945OmikE3MxneVsmCLHFknJ317Rjq1FUk/44oGZfU0DvarEPgAvQuWAqJCxLuSWQPP/OvpJNbh7l5agnRaXkkR34MY72mWkHJ46986PICdTFeSwPuYnNp3hSTady7MtEyM4y+v3CgiICXEirh8Y6fs6y30nke6XnRjVEGf82Cb2EbWWM5/Rnp8pvSZfP6ufnbSVF2Ljmbv7true5qlkR0jqGqIUYAS2F5+e14RJwXxUyLjNsL31BvSRdbgUZkIQSTKSK/2MWfI1H35YdHIKSmwoyhsoAt7+OgzB8nIj6mc8TdmpHR3TUmgc1NGae7AbOue37FhmWcHa9MlNFKO8FzU8IH1WkG7LBxMIMLyuLn1lEv+JTUkonHJoC5fR5xKfHFsm6ObEmhSrWOHKzAcJ0BX1Ibbyt/qOCujXXka124IgMgg8Sl5/Xv+AWnsN2ndc9FRH/ZpSUMPU/hcv5NysVh9o0MMV95jFBgFNW+PrGTQb54vR8jWMnoDXedl1Tw2QtSqTchKxmtCQBukgnSvQdJ1Bz+4E0WfQbp06bystJ2MT+WghzPTEoEs6FFHT9+J9wkqypJlCU6ISq/UsYMhJ2Jtmj9F21I8SbZwApj6Qb0xib9595aeH3ZEpSCE20ZJwVCRef8mYIHUBJzDSfSusNZCJoQe5cePf54E6kCbT7fiEo7GgT2qjnQVhuXZu5mSh9zvRd2ds5iFd7Tbpc+llHN2dJW7xQ040Rhix33GA+DvE6X8Q71UCoqvNfvVLrU0s0L0wQzH8oiz2ve8Mwg3s7guf6AVB652AI+NrAVQBgOSmCWRazg37/yXH2sZF7Mw9/WFS1QMST7EHsPGSVIwVptaPYpDwi3d4OQMp0ggL4gFMyT/lmGpJwU8UbpFfmD+glROJuD2OcvjSCn+56GW2tEakiWqrDcJg225c/igppWN2cy7XBdlZAs1XLLQfFHrd9fhi3sgfsURTilpMUB6lI40ThQeTKJlFTvpbAnNbh4/udwaX9uTgLGpUwC7k9f+hb1CJVkqnob/LyUfDSEfYi04C2rYCnM4Ws+kAc63/zgQG9tjrxv9aHUrhXE4QjHRld1yWjwwnnRdJ9rKkUY1SnrJCRqbkEHaPX7DzDSE/yTIq3xc/Kt3+lhG1u26f0nhPeMrACYei64QtLF6AJS7xn+Y/y/UHRRkchSyfcXtji8ySFDPWfFIV/uT8UiZRYap3GvAPNpuX1endSOo02ZALR+jGkJ5klyS/FOLzHSXkt5Tbt4KzR5MB5N5Ap7zTW+HBABRC+Np3xtkMa4eqYts3TKwTupGLx/RZhmHA1UIuwtka7hHoZ+Ct6t27sGEvbLSYHJV8n8UHGGxGWDD4d50qOwrcMu7loozPrhzwHZkiDWh8CrTLEXoITvNxd6ipuUGV1T1BUiwTB2y268LzICWC4xWRsny7cukcjNrs/hKxZsvq0MzJ2OHwh9FjAj1dOMJp3JaVlgk1Y3joLguO7zfExWrGs4++iqswnmsIxLILvKN4/dr4eHYhhnIPguIWsNSaZGavUKemTY37uZCRg6o/mDbsluGdpR4LFI1OrWQGfXnG3qoigQXHFZgiylZKWz4lMVe0P/+jC+4RAmBjIPTd64Lc83I/4fOcZ7Wpz6x7dYhDlCQflbXtJeF2gZV5dHIxN7S3dp2zQiBzq9JslksaDeodaTNfcejHCtRbWUm5OMSpOzxR+fu8u5yGflqhsEuBw/NpHE1jlZRzPRPb3QUWwOrluGsqTOR9BFFIA9NveZIOich+fGz2UizxMlvp3EgdUHl3/yp1MBZWzTqHvoap7Z4zhNl6X+Ni0VC0z5f7Ol9/M0Gyas2LB0KV89JlO9xfNNJxlfW8vz5xfK3le8jVRP6uQ7RxVCtQbUPbrpjov6QLeihPThPhFuTDfmGmpCjBoxJlimlEQtkUsf38XGJV9/JqoTJct2gOIdUPX0TO/EnsZraEuI6m8d9vDNDu3Z5MrZb5Wxn1Xa24YpxYW4fmePRBrjeSkxRO8W7b9LL7vPMyxQAEOjZKD1CI+o7vODpnT1hQ3cWeDWi3WeIlsvPPYdPMKFJy8JtVYoxbxSs+JvznWy5AEbxpvlxUOnUUrYbkK45cahF99x8Tt3Fg1ffrV71CAH5P3blsaHR24+byoG0UIJ0ocSfopa/l9TQAQe19JYGuTHU66ZN9AnxrtNjzYNWwQn22t7V9JgcrCdKIHovFraeEj5Kx/w+KiqPQa0mk/StKZdFuGdgbEJ3inV1zfgFHcTmIGjLi/naM/sqh8ErJjeAsXUxKesMkVlrFL05qGBxGRESfd5KTDP1DnY1t+850m5AK+bifeBxITVhVWBX9shB8rDYiFMsH6Lct2whMdkNzfOQEwU1aDA+KiwVuCfyaykxublK39F0qzflhiDuqB8w+Ir8YBbWQgnaNFOem0vW1Zs/MlyTO/ec0io9nrYcg5XyL77eLroZKwennQXOnSqlGxP3+2ue6MQTmVPL5yD1Jms+miVJV8qisr1ZOSMi8kx1KsHEDhPGlxydyuRH3IYRY+4039ked4A3zhHhUgsGw/dF5+jTSREEB2wj0ApBUZxAPbgfdVSEiGbQeqGNmZzA1oJJPy+QIbwsL1Ehbg4FAiFK4RomKqKFJOBph8Eq5V7keO38ErfwYWybo777ni2bh2CvWYay5DqR/MKeAEcsGgCF9I2S2J/PJ79Y+oxFKtS3YBsKa7NgMad4xeATm30GRMRzSvPPU0iHHWvgfkGtWVSJOwxUS47TzAw1tQUDdfBWCrnoac1m0M5NlVjWp4XGE6W3N40DLLj1JC8+DE5oUZR2ee/TWWZpRs85RjdJ6zsGbiw5YXWrCJF0Tt2wNOkxHw4SgkAW0IaryEGl+hUy/94VHQFMoVmATfSUkAnpqMhN6+pRLfnIRhxcCLp4nXt3CdPuJK1Qnv2/n+LrCMAk2xe8OgUigfy2x3W2/Bkx203MWUmuHUOttRKLwJVe8nceUykon+CB47bXevTfjo926xw7y9ZVJg481ZQid7egILIYys4115+TIf1U8vtiaFH6r3I0Jio+N8eytI06Gq8cwOEf64QBMZ10wIdllBLEDt9+4tn8fPHdHUZUQyq2h8BPi3C5hZgQe6qPv2GFCf5BlB7eLVjAfjVr01P/69iOg/qLXC6mYR1Fy/bWr1r/RWZG5/hbEOxNokH8k7rIl6g71Yz5/ec9o0xoTD4Q1kyStDv7ewu/eozZPiQi929Sx3jIyTWnz6PG0nxJvMk2V8EK9udgl+bzW/PZGTFfh39T+/pdRKxgkJUZN04J/n6ORQiXx32NljmiW+Vz25NQYLRUWB63P39C5T6t1toUmsfPPm/hsKhjsDP27hOchwVxUkeFJgsXZvfqxiwXq5xAKPjtIa1aUsuGMTpioOe6yyOSTxN6GwHlnuYtM6D9JvWgUxUGjkzN/TJKhGZ/VJQA86UZrgjEw3urm20fbXfPyyrQbDeWVrUAmAITl8M+o6YpqfwQoDDTnYQXCWj4RGd4UBDbNEyYQK7KCE4oe/xkwPELlvIitBS84w8xSkaq7OAiphc8d7WF6dPqSof2cZCGpU9U+ZV5ZlyKXuF6V62uJzg+Fcz7MRkGcpkBnKR7ZTRtorOteL/yn6ybxrumMmieI/URZyIhX3/Xx5etVxxgleEWNaZ7PkO359R/hX69AfjqxNDj04uxVUoBdtfxNjEM6Z6sPbPr/ZwuZtmT7fjZNnKx8XwKZKAJ5EMzwWROuy7tGixN5v94zPi6SId5HdsjdyCdGn3LKWdiYKxw+UIwLf8Js3VROXK5J3hU2v7wN7ToXLUxAdcxmucZT34Tjtht9tN6oXoTqJbpQmj7v/45bhVa5qFDaZiwfP3DvCPfH4YBHnbe9rdXX89cVxkkt2xIdVG0fV/LdlQvk/3VxJm6cbEMUBoaXD4YecGrY2N/ksCg+igWUgPb4XNKvxWw/G18RZ3DV8Ybmt7cwUvIfHD3ojeFnJaYiTtQFXEmP0esTXWHStSCpB4z/QEZm9FvYzCzKyCq9zieinYEQsxUO+cX+RgkFyPxhnQSrsvOoRz/A8TsEbmb0scyOBjfa4lRWISpPQiuuIfGpcUcqWhAl/deiaNkiVOiKnnNn4sjFFV+Z/7yylP/eGyxBpyNqTnhjTgYEg6ygQ9pmnsCfvjPfSbsXKArw7XvoEfoCtf7QoYsmTtSrQw2nKjWJhIRarVwIqZQne+SOpGt2lt8Ll4zmWxkkGSrUusZ4lfpgSHURXROLCa7fjyDMes7vMSeYfSaTshebgJimZC96BKfFs7WytrOfpIxRNvoCoiqEua/qqS05yRveRIvukkEpEIdlZV1Vq2w7e4m7DyDng+wXYUZBuMnwbYAC2rzbj6vXY9PYQZgnYq8j4y3u8Sy57Ivu2xM6owHlFCY/ePGBqcrtBvaDGYDzzyS8aRx0y2yy0vrDrYf2iukrQFPUdtCo0JczG9OUl6FGIjnLSMjuC6Z0trWfUR/MUbedsqyGnfEBiggA3qH8mAkc/Da+3oUMwvuO4DwXOxlp2up7hNlVTPjDFfgEFVUUs8prtpunATJF5CeVspKGENZL5HBHNWkIuyYztMjV72TZnieAH/uVRWPHeLcDAMhJGKwNjq9zh3jH3RP1iDfiDtyChrm1W9LiO0mjfZGrBtANn/Qfgx6Wqu8rNuwME1F1zmZlDDHM5WFZdsR7NLLr7t1qws1Q8UKsOo8dlT0TRv+YLNu515zp0kYQg/2GhKQp3nj1+6ADhCgwWjhv1V1RU99LNCjyQwB0hKp/xPt8HZjIoVOY3BLyI3wB8zLpPFfxxbnxRJtYv9vtV7p7+59Wo+NcaAEBWwR9PPmVoxzo3iu+VL0Ku1NQv96AhmdOKbxtX/jmvRWoouTWXXXcjpmAwTOiAarfZRqwASgsqDbcUi3V9tgArkbiOwb7xK0hdcZqJfYePXuQUiVJOTHrDqL19lC7lq0bgE5HVq0sYudpMnTMIbnpJUBhz4ZyFJubnttjSLNHhh606W7HBdISblvm8HT77PZBAvgv+NpoTP2ief3v1ertLbNaUSXYzUjoL1CbCWgHwDYLLD2CIM3LIc+4D3alGTPaAL8X2gZLLrUp489YpeOyCYs1sAvPMsqtnv6VZKf58TEL+kHQEDV5YZ5NvQ2PkiAdPy94YxysslShYhECoqXT85Z99aI6ueTwnXz4VjMcxpD78Lp4cLcAf+uauOWWZStEcBvheozDKuiJJe4ur0raJm0vQ3njA3NsiXHKCN1oiUmIdv+tRwhMMSgnzyCUOWBSaeZMYZd0i4XEHu7z64nCkWSBh8M5P36jsC6c5YXyTiUtcDH4R49pwWZiu/YKRajZGUMhqxtrf1mItFlcbFOtiWOvEWXLKHWvS0/iIaQqQ15rdI/u1OnJUyYVt3laCKIEs+AESOso0HAS5jpTIyRn+sII/1AcWL5DiUMWYIlq2USew9w/ViQYAWAxmlvPqMrJNXsLPvfO6gG8Ye7Qxt+LExXMdZAzNi2YAUOx+QLdMAxNMoyMeIyp3MekCDXCoDzI5jMOfTVTeF0y+kpISrOHebGoUwmP9cWX2xo0YhrEx4l153Py3ErZCssBwMMboQsN09ewF5J0NVps4Vz1kYGf/0reDSTZ9rLAoBL4LyPzEQBP0WA1lu65ujHt8SDj7m0OHDrhA0mQbl6VatrjRzedhhkCuLaySe3MASmvGVecTPdshhbIdOWa826epUa6HfwaQcuK186F8fcqHj10gZqXgb1pj7kOGswJLDR7lBtlh7XpeKGqmCsJ9SXkmk9DyasA2mrJhz2MXGfjjEndFGEuLMWfGMeKlvSaUzM1wAUP7sm0eBdz1AUQA6SYwWxHgYJmmsIYjgPTB7XeIqiiN8EWc6KmS1NdJre3Bpe36zCUisC5dRw/nFCVx/s9iZVIOEPp7bQ+sCqkDY99xs9EY4mSvJe5WyygAE8eCn8K89QNErY8mTZRKewcHuxy3xj2RguVB0pk0xooeQrIROfMYu4Q458CbOxIenKWU6AiQR6zhwuSadbzs9ENhWCUz+kj5R0xldCUmwyG0TuUt0TseOBcCDj4x0l/oINGTgAAEOanDqhRvdnRLe90/9QbsSZi/FnC5uBB2Khi/NpWJ3sujb+VQZ3CguqMM+vDr3clPtwkcOBUZWB827TjP/YPJpIeLBI55ezI097oD5ATllKhGNI0TJMPAb1DA+l2DSLMQoLW4XDWs31Gpl1XJtot8uTKYZeVpM5Lsu859N784MkFKOZUh5qELznaTcaJY5N0/OK9yU2teIkhTpQsbts3zVebWJl9unOARFf978l+aBQ/Qqe9117opz6xKNjm6/Xt/s16kho1YDtOTo0zB+eFiQnZt9lBLeseqoiLnK3ImxBsBPLRT6WY1e+oEIljL/pldqQqb2DP0qNOtr9w31vN1xeHcKtd3gAZpMOOfxhc7AQUuCcum+YiCvHgjKJZkfFH8VBWfSVxs9Plrov9CDnlTWsfxaXWq9CGYK3kz6Pp7NGes1TVbE2T4Hx/4XXBMJoCHKvUsJxwcEAJP0ZrJ6E3aQlkSn6jMpowBdVYv6CYI6UYCwImP7rRcnV8XRe0KJff7Eb6L/kYdRQflBEcSRZ/pSSd8t2JRQsyiFIem5+4+lOxxM6pjrS7rFNaMfBjgqAcHaq4BC3lw2debzUJypTZAutH2+ge5Xsk8eZkPd8euhBWXJ06ZI7atfmPCelaiMZGcdOymLCet7zY1C+IKPgSQAJIhreVRXHDuhhvgse4MDr6ONPnbnmc6ublDVygcR7W2Of+sR3CXFtQr9eX1sTz1SueESsHgzf+M+9OPPCnk8YUbAnnX+nOqW7MdX8c5JSQXKCH2yI2yIRBT/M+qaD4IRHgtMNpFU2A2ye5BovtCriVv8SJ4OzDohI8H54Wdi4adBsaJPhZ1ZUlSVzjDYKdsXoqk21PkYIjFIkIoNZcNuZrcNQibj/HBi2iSyjIJyCpEwueUjUeX571varKt33VH9kBmqcGtvT3xAgT8+Gzo1YqWGlQ13/mMevMLYlOF0gpBcEBVhyf+tVnS9MW6ddCJ/60xCyc/MUvrK9XfWvScvpW3udjxrSQVpZVany2Z/6Nsf6w/cMDrO1xV5joE2PZfvBQI5WOaeX87j2kSaPVYuO6Vi48uBr4nEp75u0dDsemxBfuguUQvK7AhMIZcr8EVVKB72b1SyGsf6f+sN4sHnIQMSrXbBnhwLrcOOTG9Yv9P0xd1WYlM/MlO+m12LrRpSN8Sazwk+4tvDyPee+gZxRCJHYf/vJLYFewFPoem/swB8+soLZI2OEHbyaeya2WOBdqaYHqIgzyiLlzc7vMsWMFnw0bRRyAM+MfIRCT6J26ZLLI9q52vQAhnx0tLvkCk0nu7Zii7aU9KNJQnpZP79XAeudXF60jI4/XwDSGwrONisfrYnEG20ogt7UyIwrZltzYhGtqiHWF8ZBLBwiN5FeCo3mdq8Q/eiEwU0FFaPWAt4ajyjcmi6pm045JYwMtI3258XM6UIFB1Z56aZG6Ua2duIhSG35h8TJKGZfbbni5HDFE/nILcH26hRUDuwz1jnmBzwUqJlG8CN0Aj0WfAP6ZA2pMt/Qe2upxsdmXqhKtB4nIq7bUFlEXJCnbrjHcB3TRrQoxIGx/3PX6DIDnlixNDU/2paRj6315q2d6QRFY2QDmnwbaJNcqAz3+AfYf9YZCnERVBiCzYTPjqFVEgXBgpMoEHsTJDEVVEPfVJYvRplOPK13hdDq+oHafH0rPILvNEx1JezAsxXVP7wCxO+f2X9lRVc0WJ5MXc+PFlgcl4HszoxrC8HlpMOxZRntiGiVm9NsSjRTQV+3LP1lVvWsdMyqXUMIaYiesS33VKGFpFxhKcEddM5qFa6vtV1WRnztxxpsl7QyR09HX3iW8mQ8G9BGDX9lxrYJInKH8HzKd/csrZ432V9UxG6UWH4/0h+XZF13/LIxvYgodmFjawZDGRRu6P1E9Xr8Rfb1xKT0BMzFLrT8yhh+okTlpPJ2Nh2MqG6CJ8IfX6nMyOvRk7s5CQlg0S76KF6bKQKqQob4sRF0+2EFEpkt89DYYgZt+TlgeoJS9XEu7iNruWZXsJuEljMQpMee16uro75crIdVTKTGDnctq8U8mAktzpeZyTSyTN5sTtMDYv4ci55XTsyfYQqNrqvobUFZmzUyHKL91k8ZpZQ4t2uLVMvLo40d57wx9YnP+px0ip/G5qUFyiLNPs09OPInRtxHTr4/OZeBOivyXUPzZ/+CgHUH8OzSomAZlwSIqCyTQ94F3mQ+Kwffqk+ysxYIOunUFSXmMvmMM+dZEOej7Wa4+/AzLBRMn51GOnn4tQFnVGWe/punLodyAgjhEvsyk6GS7naqCMYhA+Ck/Vmi0fnSZSTnPHycbAAtFgXziL7N7NJAfcgByEjYiGkd86ezE1WJKXEDjvObRhJsNZS7AybgbxCFdL8UFbFiJM0r7mKnTRClw0KZgIeXAdigoX2mtJS9aF6MA7ADHzGUfRrB9oD2kPXYk3Z6oBdg/Imd7olPQs/r7h4sYw0dWmOVs7CglA9b/a/U0PdcazIBu9RZENJrL9waAup+U1i1CnLzdk9kRQ54YUqRem4xb3ktZWilzSEnNAl7zbOVTIIrUqbQCa+tIyjdL6iaMfhD2naGXgG6pU1hKPAGJfZsiGkKomu8BsTGbYzWZsu5ejMWEEc4AQslmXpdcJeo6fRiqzE9x/yQKA90INKK/9/DlLkH7Cdd5xoNfwyThX6/YOIkm5RSiKcMo9pofddOf4XjY0CU8IiLMOO/QOoOzBo1aY+yCRAmNg2g+DpfLV8oPPrQHHXC9Fbxaela3vpCJM1EYwdczN+wfiOm4KTI27jL/aS1wJvT1RmTwogV5pu3Pm7iBlO0tzyWBD+7bFO5IpkOUryEqJEDCXl1MKtbRen/hK/RD8OVTsf71hNzRhVTS9A4ZT+vkv92djW0HIcdIKC+SrxrWwZ+wPdkw0p6mXUIb585Jw6ytem49MbCCQpbKzfD5wuE2s8ufi7+kPMhjMeZrozSqmFkprK+Bqh4kHCUX+RYJEhuhhd758F7ayXHTxnwiQMtK7Nwul+P3gsYaizw+3AhAAtOqqri0TcAgO5qOTX4+citAXhOT4GkAycroXr8VVqVRJveCMGsI8xjM6Xfek4T/K6H6zKPE8YqsysYRnQNcfUHSa8NxN3Q8Gnczsgnl+4iZUlEDcvAo2BW3boTLW6tFGoaq57O2KdWb7KvczDChhFGsSwqbZeBOVHmt17p3eqwfBM+8uxhl6Ql7ErllzLJRXoRx4bJuT7e8SqvMXBsW3QTJ1hEO3qYAoyAj60oJAUsIePWF30zBtsbLDMICTaoyIsRjKvj3hRJi8ujYIWFZpWryPToAxBlXm+W8e93+48cX2kw8iKWtt+HMTLL2KNwvObD+sAvZ+42h2Lxz3l25LabumvOoyvUGK1HdXPaeNramzlIt3R5axAIqosyf+43ttPhzV/ZPlf9jKy6WMBkw2vrP+lXUgeqhQqTOQD/grtTLdA01EZmPUzc/JOipv/AQMgYlQDqFdwc3wUueZ6GvWj0MHy9GNgihQI9vwb2AUED96ZNrC/LA7sXq2hmxduXxpw0S71VTShJQeJzwsDQWKg6uvcA5acN7a2O7VtwwkAfBHlsMv1rYPVr+7ooVBB+ZoYi9yxPw1CvMt6kfOEOVy1Ps08Uh/pjSUAPAfeIHSiZ753lplueYtK3QC5e7RpA1HnCQKcO0KGw+3NMXvbNReI7CLqxVqHaymM61VTaTWee4OPj6lbUaU34zckfF8FElZwqtKmLLVXBvB/ijWUiHGSgIGSVN8XflTHIUrHg12eGgMIDDhMcaCpIQitJw/qCgN9SKq6te7hBgKDVtZb9mQpFK4Kxd75BgajxsFWOpRPyG63IG9TklyFOT2MmLndHdIykozKgmSTDcVq+KIZmmnifwD4l1I5hSXrgnUeSOZ4xxtOKBM6ftKWB+l65dTmmmafcWYXu69Jk9JbsBa8LxsnXp9sdk0/QM/CAycNdS6JTY+ZLWwRFty4qFHP6zvzHI+PR3FwrhCRmz0f7VFmfrNXDn9/V2emqfzC/lzCoXNi81AjtAXMwkeJOiv2FZdbnLloDWLCAPUoAUcmGi8rNH2LUr3k7wYZMbs0N5LznOGwQtUf40Np/i/vTiP0/mfKLFtlj3THHUoSdPoH46x40oPq3Ya6jevHKR7F8gZWiKChdphmIu4iRe3S4ap3rQ0mtSG6/c4P+Dc1BauJkdnwKitCdNAt7t1zhlv07OzvqtjP8g5xmVzX2Ox0jA1+cMwekkvvcGyL+m5E2LFTZdk8mMNE3DoBarOKI0BNIJ8aedvlCDFBZCJ3L2pxKie/vfQ313+Xaiakgw3ek2d9768iGyi8tlbOTF/QVN1g3DD347//lojgfxuj4p0w0w0Qu5HJ++FPFOAiHUvlicIeT5oshZO7m8QAh8udrEqVWonhWyXybEogldMqI+w+UqPDL4ub4nXVQKtI761CkZrr2X7xWIEhXUr1/BO7wRdpOS7dDPKTdLdu10eOEXCdmdUpUIFY2SkNWMII1DXwbNGlpomqIP3lGB8ZteLknmJCqRYZF4Z6HsmUsVIyKUUCG/EXADb4lvruM0umV/To1OAZAT94UMPeVllNkbVX2+XSBRRmaog7WN3ncF+lIYczSn4zptSGkLQ+ArVqMOpkdS/lVAbXukgTZBfyXtwxRuoqokzdzHTmOol+p80obUwRGbKtCy2LamdylXRYiIkWCVY1Dtl/7Zhqjn+QfRS50+OzinuwakNC17Y9TD9tFBBfXO4uhTvDdoOwYA9ZgYa2sIEQYbe1zoi1lJsFI3sVdZ/pyUW7DZZ3RqVwsGTUP3tBxCYP0a62kDGjYjL6UhxTMHnZryCQdv+gIUlUpfIRW0PynMPgjQWn4iNHBntSjyKn3nSQb2FgD3BPXSo+AAb9BzGRfsLFMGM46sx0hu6+0xbfrts7wGN4fg0gmBobvez8477TzDr5tzgflUeZOmV+O1RYSY9L8RkweWg/xBKvpby3mGhxhP1bOZ+dRqS0a3Dif/Ql7xZJ90Uduky95mdCNPQkqi182QgWXzfhrxWfbD9uFW1Sx8PSvOrHlcbbu1eDAsqSbfbY/dR0NUfciSXcss4XvlrDCUxhmkKn8NDasDl0OLGcoPQV7SZ86eQGfN3RWIVxhh0SP11aX3L0aNbWZWVrkM0fvdugwpvVUvw6X+i029ZwHgLwMI1Or8AO852eN7iLx7AknRFS+zeENOdj8h22Un5gLqk6XM+zWjKAMffsUETv7WPRWF9EbjDs/Il6xDZ7/5qDVTT1Mg9IRDjpDiT9VpBv64qD+RsVPJqxOwWuwup+gPmSkaqasXlLyYTrDn0of7dzKDALbyAFnOjMQulnqayNRSGSf5NUU8woXivJm6ZVb1KPgZoujvY6r8WnTTCDS7VtxOEQDxvUQ9Ni57c8Qk2dZ6w+fW/+HAr9QdpjbRvuJgPZlGVfv47KUba+Rdzf2VvRltWy7Cr+YhUjntHo97sodug50vuYm7WtTd+X21F7ywba7GsaYXSEU82oqICGTkgMopDRIPSPuNMfIyXsEtzUBSJNj4+5MBre/fLDcu50GNVY7/uc3lk3uZkuRrJdGcbkLwO6+o8mJNG7Snekb59+xe67EUKwSnx5G4aNtpl0DcLN2a1dkVJ12CkxC2puy0dhjxtS4B4WXQkMkorieIU7XWOno+fbzd6e9W4torpqnPjQrMFS3fX3hmFeBjfwZb59RQWhptfQ2TgHDKTfBnmOARKXzh+ovlqyt0E+uC+xLkjVa9/zDTAtfbbGyh7SHO/9yIzQDmXsbAtZd87qUR3L6R9E3AeU6SNzgbkY42P2RarNg1ooLoK3x0RUZlwZFoHWPbCPIgiTwUh+/1Y1ey4CzeiFjksgnBnO3EUvfVaMfW0Y7/4uiKojR18Zg0Fu7D2jyu0fDeBEWXvZaDSgPd4BIUbLpIE2S+UxxlClQ20jtTitMea6p7HgXwHH9EJy80Ctr4TkvXHVJpf5rExz898HZ9a++2D68mquT5huo5yiK1SBZc5j9gQGzkwN+1PO6r0wWzRYKzSe8M3EWd622qer00Ph8pep5NngRwLyTOwNhnuSuMR/SxxMIR7OhF9HhzXN39JNv3l0juPDBC0bnH10GxwoCS0NlUSBe+RPCOGIqe9psDQVPmjlrogaKfkoiQxMlmd0z8/grNmZI0aOEydM/lw8wAkm0Msdl/GHxqJUWaLJfOEH8ahFCoHyJjVRG2mnnA4hl5Mb+IoVpm+ngVpO+FRDEKhQnuLiZiO4i50Ybv9Y9xODblxJaJQg57EMUHlRPQRnNfQFIjyN/MNSnpjFgbz35QuhvpJewjB/sxDTxBcYA8zFlSlb6gi+8hfg1GXabuL3KNwK5zbQE7x9RjxOOakoS2Yq/1PkQo8+N1ju6OqmLAzFKo+j6c8ptWo0xZL7G8h7oDFQjs/TN7auU91mmSDbtL2SOSvPOImudBHOtOU7AQvbim5i/kF4zevVFS14vmmdL4111xT4NibHGAav2xUJBDw/u3YIAH5qQRv8Pj9/rVrU04kBf8Gp4e1jHMpiD+dm66Lhbt/FtNu5y95gmeHYSEaLIbqyDZ/fdOJcRKEriYOPiD2x186O6QNVWtggyTvKtB0ylOcak76zGSnBfoyrWmvoUzFBXymiaKd09KA/FNP5O33JpUFGv7P/Pd2W/fYgo9CPWr51tGenbAJ0l3+Qb7X4cT0nMXx+Ohj9s12EkbaABJUQaIvxnDKDMg1RZh0HZjfKE0e8Co4ZpLJPVvTdg9rdG/xcjg7VzeUER00cZdGDIaJefhnd0bVJ3FBMtOpQiPySEDi5RinYAz7UgnnFArbYrfXBbSrAvxSxgjj+4pghEDbrw4ErA2nrKE2hgN1C6H87I91+fbk0/3OWre3mElgjAVUX5iJ4p+guZdFrAQGF2Xatrm7thNXryB+ddQcen9S0hl4iIotY/Nm2TOiI11eQO1AxSAn7PTBOqZYK1krVhxEbLHzO/qFscOrlXwiu9MGJHwyDpvQXzLlWmdOqm+vL3hc5prBDN2CwUvQGb1vVOShRhXw1/D+tNWrcZKyDugdz5vEMzLnhZDQPv/bX6X04y1V9p1Az0Ps/BnYPiqXIqNB1eJVup7oiJ87M9M4qzHpb7rivZesuMjSVgQrueExVHCR53GGZ4Q4tKV4s88mPrUi+U31q7ILEODDB24eEumefqbO1yM9eG/akIlLM5KSaxK1oIFNRKWs73DQ/XemiNCDA4WOewM0xPkwY8L7IWZMsBnzB/8NvPUjb5NuWxN55S/RkMXBT+ww7+jSEjD6GAj7ex6G0tSB8lNxpGylGzxSk0AWyv3sGnJtv+ERZ34idAxi6tLZ65SX6umys4j+JqIejVKHRVJjgiYf6au97jmNxr0S68q8jvRIqEuYPbpG4Rs+YGcLy9JO9xJ4er1WIJk89qllw7V1DyK8qoHcfR7JBiPQNnBqB0ypclh5lht8Iocuiu7kgttYMKdGYxBtiRXdKeWcqDQ2JZ1LeZFk8ji90fTt8GIR1OeGJ6gzpeujBNc2Bl7tELeAcRJE8QiLew+pkEriG4bxZTW3PK6TaDsRWifj4rruYmMpesOQT/JTEdu0AFeM/tschr2LlEUQzG63h7tMU1G9m1+cxZrnUr6uUBXyRo3cMAjwuqM4Ajofi4xDKzB3m4b8LbBPtty/jick6gEtbAz1PeGFMHLqEci7GlNKKXJbbXwNFoyFerjY6mkVgL5CEe5BQnObozrKWXLEpMSWKF/S11NKAgBJrIIFag7cyJTQoR2uRflKdZsKRM8X+lVXpzwlh/9A5Jkp9fUlNm5HKBVAzDMICZ5EBbEYZ4BnxOuNW1LnXdBjxXoRCs/8w7qJdLokxKRSpvhCUBPJDb0b/g8bCqZDOAAYt7Ln2YWS1yEsSCkEnMjCyVPn1i5fuFXlJi33E2ML94Bc50Z2Ih2N6g0QWvgl6wkkErCR6a4J+UlAhlSZvsnH9SzLyabD3FQ3rlMPG9d6pTNQPqD532v/dnLVg7zd3fraKHShUFNVo9uQikaKtsNrMYpNi7d8dnm8r0Oj3dS9JgtjlD2ydIoHDGqpEaSP5Z+TEO1CJtnf9LsD+SEAkXqgR7VYHoqe/2neEf9C24no5h+bOr0OSGl5zTMZ8s0KimS3ivzyJ0R8gAsXWPxHWLa9TlDMmQsXIGI1ysNDTk2Rfi1gyjSyG7J86vPAf7lADrNBn7XbqWD5Gn9jXRFMDRc9h2jwCKu6daRI13aYKQFbwysOwdFN7nEOW3kJy/3D1NJwc3Ijazb6njK3VlTM5diHZFtQal+8ngAH9ozjbQRGVi9re6k++/iusDbHju1ko61VfYm3yBCJdbnhq+cBWnj59krIUIs0A36SQcb4Gn361KDQTo1M/8AFSKRJSZgH3s0ylT5fbegLURDJbk7+nf6ppVr4t1J+VBhZCg2GJlmYkA6vutrLWDuFX51ZRQgUgonJ5zriZsD14822ukLt/ylRRLVSUlCgHVeW0buU3tkSgy5cwK8f5j4bqAE4IiRx5WgoU1uWUzotTKAVd8Mp5Rg/xpiz3PK8guOmNlf+E+NqN4aBQGxGkdZ0FC+lqXyivDYPmFmKbu7ETr70qNBhYFtSlV6teoCYPEB7zn6WVxG6MxUTBQtG5pGcqb5LW541BjD3CA4QwV5WSCoo7LTAhq6NwAKHE0vXFUNhjQ15izV6mx3T8bxRmkpjzBG5WvTzuM0qH1RySeouMfNk8t75irs4IzYZSf8nQbf+g5IQ9nhZ6TJ9UG7yrtJCJTVIE2iGL+psUoq2b1ZhJDFVg0PDBDc/9N1j3iMHRcdNpgKlSoDpKU1g2Hko7ipQa215PRVO6R2ioPt3y4pWiK+LL3YCneLMws/HN9hqw97hQplh+j1DipSu5gpj/s6NXFHg323LivwE5InU6HHGjV3Tr1wnJ1nJ3oRAkafRuTrcfZrT+wOY3//3kwMHDqXESybHscV7r86Hx7QNwdTkbjfIC1circLcN1V9WKNSqR3i5a+rBGATF0+Q4V2JT5UfMiI2+JJEimTsPkIouTHBP4iAeF2wzaJFE2T2tnnyJRIc0UIKupFBwj1MYiZ0iGQ5IfeTVsAMXZ7ydfzhYTSM3kXxSToHBfxpiyOLh51vnyYHu6VbMY/1AOZB0K5y6Bw5bvXGUWvxdUIb7PhJT90ol/WNZ12dyrll5diyQX+jMaBnpT5CJtxVq3pivhdFNPXYvOAdKhL9A8zxcFoy3qanY1l7UFYqXg8MtOQGhNGdAQqRPVJJp+NNyxltLtRVJFYn20Hrk0YuhKhQutJGBb3nLIt2eoW5ycR1887E22/fGuIfpkXyPHQxqeGXdtjIarM8914D7WQKBx90KSRCwM76hf4lU6Qfz/Msj+c56BQtL5x3XzYo9urn+IMnydhMXPu2ZoyX4kYFYInROho0mxpPWtuv06WHKfgK+zpOoaJv8kLRQMhDEn7vH9Zx0+hqEx/GdDO7tjg20N1L1GZglqfpr7eZlilNakJTnHUGwXfr6WDSVcJ6JKbMgn9iyQEOksd+Bg9D2KBCNhkNP5a8c4tHVgEeUcv/eIjeYtfzCIZ6TqyqRYIPX3Z+ilF64TWWdOAyKjYywopS3W+bQNv3YSuuSMt2lmvZiXXMpyaiqKIjOhqNLgdLrMBA5dHHeZpptahgA7H/9vor6MKACfTRlS14Feldj6yS89L+rKjKD5jn/97VJsajtS8ogbLwCRiGQKzwGUBqrYTif6VWaCgz8FdDJdZgUnHgwe0pI//dIAYubgRbKeTHjvmYOZ3ljmnlLi2OIXfcRakwnWs4GhUPHOfpcpkcHmzB3tj/zlq727egLQghSElKN33L5zEZGqRl3vm2C1je+FbFBEtEH2CdCn+d9QQXxeGL0SZ4NshR8L6LutMrQ74xB2a5tkAkrp4x4DI9LeD3ezlWAMOvQhdVTCXQGYyLAc+Z9kxXgpODBpB+uJjLabm67ny3yqTHpnrJInE7FefAUh87hqTx00rBjq7Iskno9LSD/FbSKX/PXK6L9TzYkmL5yCbjDdnQMksFWYMhKCcpZgwWJ9hqBAlr9GUs9wj318IxlG9UcbCeJYxek+FzocfCoh5ASiOwklMaRG2Xmwho4LikcKs3bHqQEYtmUOgryBTm/vaUvK6z2hDGAGorDubtpZqnD/qSSL/hLgxe5Y671rZuO7geXcp5KwE1StPLODE7XXjveEeYBFsL8aAtD2ZAGUU1owKZsDtjuGWmCSOefsl5FhU+hWa+kdYi5fBr/jpcou8OLW5DioYM9/R09H4l4BBaBJ3HXjGv2IUJNKdUvPtkegwqDmDG++keZFzALG8ETVC09bfzQBJHmZM/UHBrmwKdaTVtWdbjT4MEyinRVaflYhtVeAHPzTUc/hTMeUcL4GMIjy5Uv0JhLiOA5sBlY9GP5mmgWXtVfc+YaAz76Ry9WIetSwaKKmsf6jaC39ZfzcsHel3BuJTf4AAxTXyz3Yvf7vVzxK2oqnrQ6A88/vgV4835lXtCunSTmMRkjU0yOoYMdBrbmI4lSkOSCZvua4Tu+uJS1gOi8/a6SmK18cLxdX4lgu1LRg4lSahSIjB0CdI4ecLTzK5TbDmwHVy/IqMAaEuTSGfDciu6UU7kuXSGLnfrxRwApLRuAzDAF5TcwrHF5C+FYmx/TNJF7avWktVXZpYQoNOrkFSc41381sbQ+yQ17FS/oUBHvlBO9WgZNsKwde7oX3L0RZntkaiSS0cCdaUz3OGYH0UGuxGOSgXbH7DIz8dIGBJItC/gChx0QAcxWyCNAiHJBEkRR6+kqvAejLfLlJIHRtIHnfZM6sESoL6G04Ox5+oMkHXmfqemPmerDfHWUwngwhbeW/N+LuyUfX3Wuz/U0KAu/2xKuS32+Iv/0bDQvT1T/kbRN4X3FkgCNWkHIm6JWmxwrr68GqZO7TembOWNQczq2BQ21tgFgCI1uxCtCiQVgs64faIoxoxWaN9LgZ5qcPDnYWfNPw+7oHJRvM7/lP4sx0aB2EGMHM5LIY1DhTl3jkaa4N/nLPdUEoHzKXSYUAoShykNSLO2WcoyFitxkV+KyIYwQCz0lHRqI37TCPTXAGa3j8PpEPSSH2LO5LLFz5Fz+iGZSBywvR/GfZzrWEDlMkutqpZHHjBC6vbpTT2CX2E8iTI7I4+3bolcho0r5Sq+JlY7GYuozovEN8tOwBGDHVc610amDuhVaAl+4gkHcaxEdQW/TlDkW/9tXb6Q2jCsRVzYRPBPBH5y1eOhM3aLEgNemy0+3Q1BQ7jShjzS9Osu1gJcH+PlUh6l16PGUo2zsooguza2IM3nSvK8twksEXT9fssiUGNIAEGOm6dcYRd13eGCkVScmntfTtGNQTvkyfL9JT2jIuPw+ceE+far51pDK+qr1mhp5kkxjwq6xuM6k0IRkfNugwfovKEs4EK44sC9lDbL3Cd73RDCMU15IlTMBHFzC803eFqsh/B3GBs6w52+XrABu1zf89ienle8iY1fvot1UyZDZugG2vRO58iubuarM2Ng9OOb/zJQQu/hhboCRmTIks+NWV9ZVoP4tAZHIl+SSnnxFR7qXHvSa7hAEgKaZNX7ePaylq6RkA1JqFWwuyZHKCRZtHU/N0CjlKO9iea5SJkAcmy4J8Jt5KU9hr8FcXdO+vRQ7YDpoNFeRPMf8t8CcQzt1KAMXvIkWhedNyIqCWqNg+W3GILP+49H6BS8EGVx90EW5fPvTBlSgj/0wt/2iqjaTpLTtfJc95RINL5GNf0Amemgh40AAt/AFP/uukcuN/b6Z/wlEg4hz9bpQeLOg05nvklGRMDpXrYoUxaFEM4dwiVfIClRnSH6RKE4fRnyyO7HoOn4YeMk/yttLrp17D2AoehSF6ZSniUPoTr7oHjAuyy7OIxM9oXS7c5rNmRf/+p9CIyl6ELz1g33zYlMmOq5ueDck/ssNI5EQbWkF1xtAzPmzvL72Bgb44F0nnyYPViDVjpBc4bGNAB6SckvyW78GX2q6Iu+Dd7SpwPd5Qii9ed3UJJ17RfEmIv41ryW1q5ymaomrIHeH6fNjtXiH72WAbS3qNd++KY9KtuMmBsNEn6/KnWIQj91caX1VNXYGi/tiHLdxbV0Wf5VHqm3Ora15Ch+QMkX2rw8ALFCcEW8N7i6pW70JD4QDQNbvtRNtzF8Gg3BOzHoBKXFOIyNFTOrE//4fWtyhnzkSWOiLCIW0KuE/y2MkqxSe0PNVnnAlYgrERoSktDRfWAgSiR4eeGMHC7pgt/jFKJSBDrMlRZHIncXq3srCKgzGCUwL1B/lwvIuz9r4n/MsYl11CiZtwUPyhnBecjPnOTQN0jOpTH+HQVbdCvdaASY/essg/ifNJ+ZcwM0JkjTiopfrim37Iq89LhHdlygvTFjGCdDqNxgJHojmn98gVA+1cEt7GsGux14CJJwXKrmHgRRd7UFv6YoZDKPPVNghxIzJFTDeonCBG7nSyLDW4rTVHnIHvmYKIQJnW88r2E0xY/Gjc04NQHQb3wwTRTS568HKHWAr7UXQyKeHYAkcA/pRu6tHa4y7LIbKs9DZgbzLPpHBFJUWQ/cDbW49LimrTUWJNl9keoi8LoWOrRPBlupjnntQKyjT6tbgq2adt9+Klg4d4axKphn1XI0eKXiJduI5BgEGerJhsHuzrrZk/IL1qfVz4SWoW2973RMoGqqIwk/QuZXtFob8KK1EYwGyLGr16fZ7BQHllo41V9ao35V9CzN4nylb/OrelAhfcfGjpOMLldm0CBqdGZICTVrMWUeXkFteMm4afVduHScckhJKfuOKXeclOjVC5s7gffz/vseofbUGLOLMr/TrKaMco18eVVXWkKOdDeJKii91pK+Rmas080ouXjNqHle9NIkI4b3jnMr8aln3REI94NVcYzhzxfzRwzyo1YatUEmI6e9fvZUf7zO3m/WmnaG0NhgyJhgB/y8UoXwjvbVjy+cmUErwld6A0J8CjrZ+ceBAPDqWJH/eKzaXnR1bQ/M1HT16+tcG+VG9z56B1ooKNOWc2I+1t2tuEa/7dG3/gYnfMTC5Q8jg4vBHQx9rWDI2sQZ3a+5xwY6Mx7U07m637Rcem32JYHSw1NOCcFsgDF5XgS6KPVCPU+1Da5dqnyFYaDfIdZ7kf/lN1rH51FObu1RBq7+pA+deMKc0lhIX5ulf9F/pLIONDYP+YtZ8wFQI22d1lxDKEtyLKAocNbhl1VTiqxxe21KMTLFtQ0y3p67JT+91fUhi+BBHt/thY+dsoBiR58XF83+gF0HOrI6334ard3Y2B9xAtJM4E2Tou0rPHqb7s7s4j6rlnu8QCvW64IjQKJovdGHpoI8lL+MOOQLobXU3CMG2sBHRoNi/x3tQz2CRs3pfKjXCloiwH7rvEoCIu9Tz9t9qO+YnCDdDveXI0ifR2b5V2zimmWTRjpo5HUhhZjnXa/fwfpiIV/bgRAimdJNvTf08gpDW9ESOHZwbmuwebjXiNm9LKA913Qa+i9KfiYDM89fz08jRbvAmZvOgtCaO3utr7CcuHC/clwfERkfg0t4bt3y9Z/tG0GVLXj/gHQLu2JLpfNFN8XhBnejER8nCEfl5hgjiOdikj9t4oMEb4M7mz43a43oOIkdoLzj7rqlNx7oQnFdJbadNngDBDPJ7QTGfk3hJmBtP9bQhKDVbSz8A081i6p0eQy96jU/qpPW/gMhwf74z7rcmxMWUB4bmBPhLlgJ0kc1RfOttaCUdyIhYhuzj2nsB++KVJ5OUOR23cYJbQV+65aRddhpLXdmdgz9AQtWzCkcyOuiWly/7pZBnL6o+rmPG7aCB9ZAT5Yrrqvv4xUtDgdypHgf2TCMZOQh6Uxqk0ujt1I9N+XsNIpWGCqL1Mhx8obrlPmspMgtWzRuvtM5RTPK9WIjDbsQijN4OhT06kGoo8TLxeC7QzCNJxtCVTUEu5DJbwtvgoWIup3HELVqnXr657TF8Lr450otuWqwwtGBlKMtm0ntp0ZG/Q5MY5VhY/vCXEWpU9mNS//rr55AhncZolRRl1QQOjrNVUHQuqEMqteW4LcWRffzFe9CXuHH9h2n+RR7fRwO/JFwKgR6J4HlIxas2u4rrkZSe1uGSLIm7zbZIizJlSm/tcBgX/PluTN7gCOGEImDVZETE4xpd7x5v0ExHa+zKIK+obrx2x4vjm3TkolDevInZAsdAARqIUAH+UQCsVnI16vi53/PQfAwOsiv+/knRjxjKaFJ8qr11S+ysDXBaNwW456PmJ2iKx5zB/djOVOAiWQPT72jF3NI9SJVBycL5OisRYcoEYG1GYJk+IkK+J+lIz5Tm1NntsR51RFspXPMpaWrPuUFnglCrfPyMuT1cZ+GeU3BcqxrFicAevXt+inwwxjYekHMGyiAuZtNc/glsKwnivPzBYoVv6w2Dp8JPSUCO6qnf79C3XuoBMeowuwt3gCgYaeVFvu4Aw1+9PaPbSi6ys9tH9RlN+T12bEdDpIE1J7ser6s/d3SHQS5j1nJNdA9Wlay2QgM3Lp7U6ZV6+ABZUuSi8wO9MryD9dmi8z7TATBLQjmKmYaIs7qb8zBdVSpgQNjcpK3JxaC4PNsYXsP24g3wn+sfrWTi5Mkn8CU20hPLILFaWkCfc/wN5BH2wJR733g4QgMuPriPFzhhDHNiw9s7+MzNM5R3+WKQZyDBDdz0DQTWGLhsnQX8tfsBsl/nsLqN7dIqmV4bIeC6hV8b14oLA+wuSNk2CmAAR0EMmHjFUjzGCDyoeWnW2wIpwHJwJXv4+XU7NJq0Xr1uItvlZ2661SzJjaGHWSB7MLa+iojSb+SoWmpHNHlWB/TEBfwtsuPsd+PpCufNX0sonUvkVMrd7/QsCb9zw9S5hXtyXrUXkwVBN7hQHs2zdhkKue6M48cBIRmkG7ZbNyekFqBcTSrFm/xLNizx1RFuUIpb5dj6I9DKF+41y48TjgjsqFd14q8l3YcB7d+KadQ9EZFvUqfFym8Kz1dd55lr2nGy5WKpTs+5+lnQQJZfX5Q6X7yxjlfZ/FiPH25KBvYpemsD7T14QvxOQywt/XeKFrM7mUN05ErBMIXzmHvwifjZMWfnucR1AO1tCol11OZhbpn8VCL3iZPw5VWN/4myABXqlTWb8bVmEAPPvlezIJvAyz+RAvRLfHFXwdoIqsMAzfkaIuowWB8iboLdPK9Tco0svqMn8bjvt444SrRenAN1da3uMAEcYUVbJin7pgGQfCECS4BvQKkSsdQu5TIC2xHU0DmL40NznDLNZThob2ibNARdfdgfgguwU/kmgTXKWbn3ItefsADkL+qOIersKgpS4mn+ZdBoKbm2iePZkkxEp6wI/kZd3C11gBlYyvz0pO1nrqvQPm9qHmXWXynWqHy63rfrapsZirIYw2nvnx57gHLNGWLyEZacFd7dn/A6ZxteQqSFkrG3JOHM4yjFOWetEJaMDCNL3ik1YcacWCoQGXbdXDNtlxwVVrra1ARv5duEj4jG9KMkDQ31n5Bh2uUlhOkag8I8ETYT7mrjlhgp+XKZuFe4FOs+mQeV1bzLJuiFQWSxM9bDzy9wDFXoWD05Fcm6snzz84LJ4pnYwXSubAfIZdGZMLK06xwR9xyg2gWi1eLLJcpJI9ShLitvWPyOE2fgLM/Gf2uwJFHckUFYPkxtzRSToHEm5tx3mVerj4I3wu/yjcnkJR2yqLLanu+Xo1gIjChcrD4AjHjcKv6puOOVlxMn0H+rOfnWbYW+DwOInkb0h0BsmAWRuVrEVL3jcKr6xHaCO2A4AViFzGYNG8EsEtwpEQGOpYG//aJFJ3W/nOyCyNazQfjGeP+mRJJB2xBLFIHEh+P/6u25XvjB7Voc1lJT3wtUQTnVc5L7H9Uh7VtDsOVvx3hhAg6hudumDR5YpdBRpQktPD+iOpHEcrcFsc6oeW8GYnTFchlcsHPuucvQetjFSSLBDO+HC23dKGXwO3Vj082w8vCNpfrRzXw3JjQhX3NMRGK6qpa5GdlXBhXCP94jqWXzayJDiXlFlfGF+h746VQBt7LD5XOicuY1t4fAM1c8KhgvFtxLxu4JTPR2vufwvfz9+AN04Z3IKivKTcc11Y8sdxBjaYFT2S9IYwmKKIb7QnQg3QgqHybj2n44DK5FmTOu8gR4PYR3xiiQ5JezfqDHyUsD+tE74gGhMdfZBpq3wdcgyWXAhLYp6x3r4ubG9AURYDdTz0kZlkrhbQFbsjfotn8wfeHKRU6ev4jg3LQlII7i/YpPofyL6KJuhYYX/c46QFDhRArKQy5OCm8qY1RAl4iTuXebQpezFluVL91z1XY1siUhgpHoBwfnq5Cna+nUrPtD573OhmbOvDN3Q9OltpohVBk4kksVa5gCzWfiMwZtTN9ShVT3yc8Y5bSD9D73ViZXUpVQaFVjnhVsvDB9p3k4Kj40CMjZGPR5I+I6+tIwMTI+PzjN45pJD1bz9YzjK0kJJUo9ztg7H8</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/themes/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

@@ -13029,139 +13029,34 @@
   
 
 
-<h1 id="cellplm">CellPLM<a class="headerlink" href="#cellplm" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> sc-fm
-<strong>Modality:</strong> Single-cell + spatially-resolved transcriptomics (cell-as-token; tissue-as-sentence)
-<strong>Released:</strong> 2024 (ICLR)
-<strong>License:</strong> BSD-2-Clause
-<strong>Code/checkpoint:</strong> <a href="https://github.com/OmicsML/CellPLM">github.com/OmicsML/CellPLM</a> (checkpoint <code>20230926_85M</code> via Dropbox link in repo)</p>
-<blockquote>
-<p>CellPLM is a single-cell pretrained language model from Jiliang
-Tang's group at Michigan State University that inverts the
-dominant single-cell-FM design: instead of treating <em>genes</em> as
-tokens and a single cell as a sentence, CellPLM treats <em>cells</em> as
-tokens and a <em>tissue</em> as the sentence. This lets a transformer
-attend across neighboring cells in a tissue context — the first
-single-cell FM to encode cell–cell relations explicitly. It is
-pretrained on ~9M scRNA-seq cells plus ~2M spatially-resolved
-transcriptomic (SRT) cells with a Gaussian-mixture prior over the
-cell-embedding space, and is reported to be ~100× faster at
-inference than gene-as-token FMs.</p>
-</blockquote>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>CellPLM produces cell embeddings that incorporate not only the
-focal cell's expression profile but also the gene-expression context
-of its neighbors in a tissue (or its cohort within a batch for plain
-scRNA-seq). The model is fine-tuned for cell-type annotation, gene
-expression imputation (including imputing scRNA from spatial slices
-and vice versa), and perturbation response — and the entire
-pretrained model can be used zero-shot for spatial imputation.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Architecture.</strong> CellPLM is a transformer encoder where each input
-token is a <em>cell embedding</em> derived from its gene-expression vector,
-not an individual gene. Many cells (sampled from a tissue / dataset)
-are concatenated into one input sequence so the model attends across
-cells. A Gaussian-mixture prior is imposed on the cell-embedding
-latent space as an inductive bias to overcome the relative scarcity
-of single-cell data vs. text (<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>; <a href="https://openreview.net/forum?id=BKXvPDekud">OpenReview</a>).
-For SRT inputs, 2D spatial coordinates are added through a positional
-encoding, so the model can use physical neighborhood structure.</p>
-<p><strong>Tokenization.</strong> Cell-as-token. A cell's gene-expression vector
-(masked positions filled with 0) is encoded by a gene-embedding
-front-end into a single cell-level token vector; the transformer
-then operates over a sequence of such cell tokens. Masked
-positions are reconstructed at output — the masked-language-modeling
-objective is over <em>gene-expression entries inside cells</em>, not over
-held-out cell tokens (<a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202514490">Liu et al., <em>Advanced Science</em> 2025</a>).</p>
-<p><strong>Pretraining corpus + objective.</strong> Over 9 million scRNA-seq cells
-plus over 2 million SRT cells, all human, are used for masked-language-modeling
-pretraining (<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>).
-Including spatial cells with their (x, y) coordinates is what makes
-the cell-cell attention biologically meaningful: neighbor cells in a
-tissue genuinely share signaling context, so cross-token attention
-has a substrate to learn from.</p>
-<p><strong>Scale.</strong> Approximately 80M+ parameters (the released checkpoint is
-named <code>20230926_85M</code>) (<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>; <a href="https://github.com/OmicsML/CellPLM">OmicsML/CellPLM README</a>).
-Pretraining completed in under 24 hours on a single GPU server
-(<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>).
-The repo distributes weights via Dropbox under the BSD-2 license
-(<a href="https://github.com/OmicsML/CellPLM">OmicsML/CellPLM README</a>).</p>
-<p><strong>Fine-tuning recipe.</strong> Standard pretrained-init + task-specific
-loss: the pretrained encoder is initialized and either a
-classification head (cell-type annotation), an imputation decoder
-(scRNA / SRT imputation), or a perturbation head is added. For
-spatial-transcriptomic imputation, the <em>entire pretrained model</em> can
-be used zero-shot — no task-specific fine-tuning is required
-(<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>).</p>
-<p><strong>Downstream tasks evaluated.</strong> Cell-type annotation on PBMC12K,
-Pancreas, HLCA, Immune, Brain, and Liver datasets; scRNA-seq
-expression imputation; spatial-transcriptomic imputation
-(MERFISH-style, zero-shot); perturbation prediction
-(<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>; <a href="https://github.com/OmicsML/CellPLM">OmicsML/CellPLM README</a>).</p>
-<h2 id="headline-benchmarks">Headline benchmarks<a class="headerlink" href="#headline-benchmarks" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Cell-type annotation (intra-dataset).</strong> CellPLM, scGPT, and
-  Geneformer show comparable performance; CellPLM is among the
-  top-three single-cell FMs by combined usability and accuracy in a
-  systematic benchmark across nine open-source FMs and 29 datasets
-  (<a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202514490">Liu et al., <em>Advanced Science</em> 2025</a>).</li>
-<li><strong>Cell-type annotation (inter-dataset transfer).</strong> CellPLM, scGPT,
-  Geneformer, tGPT, and UCE all outperform scBERT
-  (<a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202514490">Liu et al., <em>Advanced Science</em> 2025</a>).</li>
-<li><strong>Inference speed.</strong> CellPLM reports ~100× faster inference for
-  generating cell embeddings than prior gene-as-token FMs
-  (<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>; <a href="https://iclr.cc/virtual/2024/poster/19221">ICLR poster page</a>).</li>
-<li><strong>Spatial imputation.</strong> Pretrained CellPLM zero-shot beats published
-  baselines on cross-modality SRT imputation; specific numerical
-  margins are reported per dataset in the ICLR paper rather than as a
-  single headline figure (unverified single-number summary — paper
-  reports per-dataset MAE/Pearson rather than a single benchmark).</li>
-</ul>
-<h2 id="why-it-matters-for-aacr-virtual-cells">Why it matters for AACR / virtual cells<a class="headerlink" href="#why-it-matters-for-aacr-virtual-cells" title="Permanent link">&para;</a></h2>
-<p>CellPLM is the most credible single-cell FM positioned for <em>spatial
-oncology</em> analyses, because (a) it explicitly models cell-cell
-relations rather than treating each cell as i.i.d., and (b) its
-zero-shot spatial-imputation capability fills in genes not measured
-on commercial spatial platforms (Xenium, MERSCOPE) from a paired
-scRNA reference. For AACR audiences building tumor-microenvironment
-analyses, that is closer to a usable virtual-cell pipeline than the
-gene-as-token FMs that ignore spatial context. CellPLM's
-~100× inference speedup also lowers the barrier to embedding patient
-cohorts on commodity hardware (<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>).</p>
-<h2 id="known-limitations-open-questions">Known limitations / open questions<a class="headerlink" href="#known-limitations-open-questions" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Smaller pretraining corpus than its peers.</strong> ~9M scRNA-seq + ~2M
-  SRT cells is well below scFoundation (50M+), Geneformer V2
-  (~104M), or UCE's IMA (~36M) (<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>).
-  The Gaussian-prior inductive bias is positioned as a remedy, but
-  scaling-law comparisons at fixed corpus are not reported.</li>
-<li><strong>Human-only.</strong> Pretraining is human; mouse / PDX work is out of
-  scope without retraining (<a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen et al., ICLR 2024</a>).</li>
-<li><strong>Cell-as-token framing depends on batch composition.</strong> Because the
-  transformer attends across cells in an input sequence, embeddings
-  for the same cell can drift when the surrounding cohort changes —
-  a property the paper presents as a feature (context-awareness) but
-  which complicates reproducibility of per-cell embeddings across
-  pipelines (unverified quantification — paper does not benchmark
-  embedding stability across input batches).</li>
-<li><strong>No tumor-pretrained variant.</strong> Like scFoundation, CellPLM ships
-  one pan-tissue checkpoint; no cancer-domain-tuned weights are
-  released (<a href="https://github.com/OmicsML/CellPLM">OmicsML/CellPLM README</a>).</li>
-<li><strong>Cell-type-annotation lead is narrow.</strong> Head-to-head, CellPLM is
-  not consistently #1 — it is consistently competitive with scGPT
-  and Geneformer rather than dominant
-  (<a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202514490">Liu et al., <em>Advanced Science</em> 2025</a>).</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Paper: <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/173bcdbd820edbe43284e0941109ada9-Paper-Conference.pdf">Wen, Tang, Dai, Ding, Jin, Xie, Tang, "CellPLM: Pre-training of Cell Language Model Beyond Single Cells," ICLR 2024</a></li>
-<li>Preprint: <a href="https://www.biorxiv.org/content/10.1101/2023.10.03.560734v1">bioRxiv 2023.10.03.560734</a></li>
-<li>OpenReview record: <a href="https://openreview.net/forum?id=BKXvPDekud">openreview.net/forum?id=BKXvPDekud</a></li>
-<li>ICLR poster: <a href="https://iclr.cc/virtual/2024/poster/19221">iclr.cc/virtual/2024/poster/19221</a></li>
-<li>Code + weights: <a href="https://github.com/OmicsML/CellPLM">github.com/OmicsML/CellPLM</a></li>
-<li>PyPI package: <a href="https://pypi.org/project/cellplm/">pypi.org/project/cellplm</a></li>
-<li>External benchmark: <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202514490">Liu et al., <em>Advanced Science</em> 2025 — single-cell FM utility evaluation</a></li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">1rcaEpzdRp2t9G/N7i83ig==;J+ERap59/fC3+Ge2Kv+1nONe+x9v5p+fwuXKfoON761iOttyu5+hxp01sdsoCnm7lUsjy8J7PRG8zQl0Q1oFh9Bb4ELSstvdrYlDVlC1PrLJP3LFkCDTAsdMSWKYlGPIHo32E3SfUrrgjqNsK0pv18SUVM6pHAmtAtw0ubJT4sw1NYXYHUW++WIxvubMHLxl892EgWJRuX7dCb4Ei9ceLbwqYRlR7xR/9eDHgQpHAuWinj5gw28DicMUx37OgSUH0dKWCT4yEAxxME7ia+LFN6K1LkmEFfGeOB8B7RV4RNQRJqBegNfNVLvGCyVQNjKwKS4a0eLQxj8KyHtAGYAWnLVAjWXVkeYVUAgJRieRjbz/OWwvbTWzqTaqvry3Lj5mO/LjXpkkXQg3ffKsIYTgErrWMdT71SJpVYNzeQ3L4kDnFats6oWLHnexdiF5Q9EcHSt+lUpt+micwXmzz611XBv9/ufw5pVVAsUsBWw+2zouoAt+RNUH29YvAxSB1q7NKmZRTS0RiSSEYWbbmsipD9zHLJlUixas+j4Hiv13SjB8Brv6N1JU5CumWjEFjQ78MfSEkxI5AzrW5CpErrtaPEEuItE53i/Lf+FwTgGcMYi5bTOaOhX64Yzj+ixFB2zqMP9635tDxtKowdM/OK3di0izPEY9+8G2+yycez3ivAX5Z+3iGdJijYK814GklqbL/LxTYKMut0Qz2micxjUcmFqHg8C+aO3U4C2JYu+1IKJ/S3pxeCNSUSf4h7DENH19teYZCNZ3pQ3/E4NALuKJ/+HCLPtWSx5u2VPAWqTm1wyAihgBdGE/vQOQLIIyRhRH2fX2Nq9oL6Wr/htIzg/ML8fRLrL4/C4gmU/pkB9mSt4nuDV6oL6nZNVfAQWOZi9RjL8smr1gmpL9qUHcWsC23Urn+xZ/OxPTiMlUMwVgam0xs8eOahjRFXwiThuoKsp5lcZ56+TCJQhva3wHqAS8W2eRck6Zwu63zcjFgFuIKG5x1umUecd5mLjSTg8D0wc74ol4vvirkj9Jqtl+a8q5JN9r7Fl77iOJdEahkFnR8O/IZjzF1uZnSDK83XG8LjFVo++KGFvNxliokjXlRAiCf5pU52HqOXYa901OD1xu2h7lN6FBOQpSo329j0h2RAyWD0l34x9Z8p9EN0tvbl171wySiAvxZXSXsmgWPfS+M/ZtNiW2HUSlnsnRpHEvOcxXNJnLjS9Eeu31gWPexqEhU44eoR7kAB6x/6z3qt7beimBb0WSE/YYxhO+xKsFNKSgm0bLw3f0EFtafoJJqW1pSRQlzUxWlDr2SNCCitd5NRk7TgXeGxp1ZZIdiY+9VxmKEGsVKr3cr87/tXgFPO52OcQgSWnAXgMcma3+GBlpmKKXiNkvFHpMdZ+AbjWRqtDvlixKPWhUEvIg5BgX4MdI6j3unAx/FADkA2C3nkxJ2tflo5nPEPHgpZ5IlbSv3u3/xlNfPDlmv6TyJiJ4LF13AOjly+yt70upWe5G8GGs0yuf0LljNx9KyhLHCddo91p5/s9U0cTInMyxObUzTHLp24GRSJMKXBdq621SSnCjwS8wZEoEX/zO36Psivqjdw9nIDPH742VHw3imqeujsH7XILYBFctDN/sz5jq9HpQvwZUIJQjN6gbpp8ygDxC0EBBLL61H9EWXN4z3NcPps8zWtUytwO4BtrElAQbDeenQ5IVRU5TjGFgGfS9H+rMfeFG8umRVvVfWE3/dkWxz/jvGmaISk0Hmy/zIaKTUHPtimiH9XGfC7DT1qeTqSq4GFVozaNFXl+VKNHLC911/4kCOtAKE21MOHZYwVnHUQxXA++JEA2ITOIJATnd07OYhJ+iSKXMkcS55mfbB6ZSRXZd3F+EzHYA+ZhJDsUl+KaruJxmDNNRaZmBe+Y/KHCigvzee0FwBGMD33feepz+FK84snIeupZKJRzjiv5eIPn9+8XjMP6VI8HSO/1K+jkiqTWiAkA4YeqTWHYZOZg5xx4caCFrtkXpjZY7j/DrRrznfJKu5/9BWqaN2BdyxpELymfxXXIdEuiSs4YsKDy9z6IpTXiQ0fuhI6x1LBqGZch8YFw2fdVNuVG4eRQEQgpxIxPmj1p3ux8zDBBLfY+lnNzQKUDZSw/V1EHrKF/ESI9/xweuj6tzzCWvUavRaP0qZzfz3uRBLw4lxxPLrjEMYz7L5+hXDmbeFfQbhDGHuWXjp8LFeS56F1iq9VUdt2sB0cvMkxTGwe+fNj1qyxnbg7JcnEj16rtBjFcR31hYvuz8cuzseZgo7+dXKg6EYlBjs8XuVKkn0Ib5BrWvEJbUO/dlcaNi6dfk2zJy1tbOTp9ZErJy0uBULGSyG7+4QZzpv7x5P6JclDSxb2oOKW7CYBLNIC51BNV6BOMJgFJ54azQlcKGsevCX9J+h3KDKFbVHUzlDzATJzi4uKSZo6v7qOkpvH3Wz58/uIRKftPx1TaL/Ep4LOuvUEurLwOmNZKCYUIwHL4T3Frt0wzwsluYP7KC7uXUvZSKVrrjPoHg6qMy/fyad8XD+Mjf4qUvLrh3kyXA1eYGcZ8UDnIKT8nIIjHYaOFqvNxpSEb29nVlzzzgtiOjzKcCC8u3bVtr89FH/cSNhdNOTgbhXqme+9qE91TTGG0pataFC7evUO45r2ynt5TD3PbNEoqDWr78tUNhfrebttu4AI+VBreBtzASLtPaJarQb7LbRs060BAdJJscDZaoHgqnAaP0WccJxY7O7n1BLyPiy8wSSMNe3DZ7KTS3itxdRIAcY7pd+DLF8ll2YcMFeeviV5HTg+dT7Bku1/J0L87CuHWJrivCXAzmTBLcros0a1jEgrHKxoU4gIArh2v/H8BOIaG7Z1t4ohn+R4jiUdd9sg1vI3Ssd9JhWVbKoZ7LeNbaIKnR/gXSEU5pQOM4ZdqT/IwjKfXrORvhVtpZdVdV8lF35syH0j65ljOaN4JDQ6zrqfrHbVVlVQikhr4FOxK89G45wiHMsHRPV+BgbohIm1CrJsy5UakFLdblq9NmBa+0vxHvZdsIWhi7eu9+HQZxHzo8hnk8fRyDtnGN8aSY31BDunSy3mXp3CAy45iB4Y8J5FckCnIQNfgOU3ZNDELXW6Q2BUs8TFx47zbvw69GQzV+AZJhgfxYwwi9r8BR0fCX82COKInDidAVnJ3XiLsz+wS6DK9KoTenjhvK06Ufli+xBBPE0qbkZLl2l/aXe1FhnCXTXP4qbFJoLHzHOSk06khFr8ub8WGGL8ixyBn2+HuQkNEjabiKHannqpaVWyOlN4q5GWXLYLONPEBV6eRuJD+YNxcLa1ARMKHpKlJy7/cTtOHJu/YfzImuHPJxLVZ+Ia4pgDXoaUS59H3E+2ZeYVPEu652UXBLgmv2a2WQeTVMXVNML4G9jPE2NO7HdmM0uhZ+4DWQdB7Xtd/Mriq4caDwMEBd/fT8DYnWoBowEnbKWzmyf4p5G5+9oyTBHH5UAu+tsZRpzKAiZ5XAOUdKxyRYQldk2v8xL3xdXXx9LWZJiQgsMAOE6Kh0W9KrTUBYFhkSO4Y5q/KAvoB9nF8xpn8pOLprPl2BTryJBENpmMGNYmCNzzQ+bL1YszPccM2zziT1creBg2LvVJKGH2vQBNAMNk9dZ2kJqr6hjT+5T1RUVTqxaZObf6m8I2vEM1BjPv2gbVg+DIZHy/KSTWB8pNODmU2j/1yoAlsQEyEp4XB+x+nyCdGFOEh09phpOJ7Vb3B6m6Qt8U3OuBzm+VsE1EK6w8eTzE0Q1SbWJuV57sQfNPWsHTBe30NjC6q5XRxEfd3iGZJKEAODOa/LwgMteW8YR8WZ9OJNIQV/PFb6oVSM80QMct6Y6NmhGV5MoI9aQlf3Wle87SjSPeWeB9+doRXLEpcDdmCg6187CteRKmkqXxLUhlLGXaCrDWDaSgH0uqDkfLpZKwm/yUxAMD/4IVIKst3G/Kc4saCvRLIXDX7BvlQRWbyTnKA0GcTyVCTO7OEsHbQ7sIbaUYbc8u9Gd/TZBJXJI7cGwD+4sAB8p7q5mlbYGM5QK3YTRoEfcyR84UR/587MOofiqSWDfM4MPI5gz1Y2ny1p9Mmwm5Q1t+d+HG4m7/TLbet7N1zg7zY4Cb5nmQIUGqgMEr4mIV6D3M8zOnBx3gszQxv9tpYDfg5G6zRLkDwUKqbWBasqXLYULQEq+y6E0XsZYBX1eTTmz7NL2gsRhaHvTbeqeN4MOj5M/Dv4vAlAaXhI1nbZMn5F//8R2HCx+rVc77iuRAedbA5i9pGjR7yiJJHnK8j8+qikUN8Qn+bDfvA+bH4rvKC1Tg+8GjOsy3rTU4o2gwvCurhFj3+tT3wNJU3Mbza3syyBweb6HGOqHwq8NrXHNg/imF2MexViSYyq+OCSb6iXPZ9TAhvmSUJ8o5vALE61WSBu1mwdWwj4yFlfUZA00Q5TnxfEmd3lzMfryDTq5NR8oIpRHvcdfanNrwjlnhOWn2ipkRYIaeCyICXx3DMv0qxZu2tyE4lnoaB1FC4MoFat/6ldxvYYxgEoBYNcvmyc+M8GalmblgTba4eCGUanys/4dCBnzLVSCk6d7w9K387Sz3gPQR9T73KM4IX5w0xVqPlv9Hm04IoFFLVlZZOVLKQ2tZv8zSNhsyEsB7OKuXoX0t9CYr5/4FqaQJk9Gn3lIslvTLRs278/jSAo/BexmHNJIafXduSXnal15VMINSjoS6nwT7QieAN/Vj2GfNbQcjscwxtWAZBQ05NkXM2qzooa6cDIdiXqIlhI91MJxqXy+F14SO+EInVRQ5apMNxKo2nb7b2ztGQ7cBYayuALk46UwZITWMJ4JcO4nM3VclUvF72y1P0ceTDofcKbwY0UEa/MVP6aTzoy9kFtbCBCpQQ+8zJtSKDtjh7Z1SroXTF1Ld/qHlQuMxAs7wvkvJKiRUDYJbSQ7pdYFsb9zAuy0ZZbU8B7eoQqYBZxpx5pqc3EdiBvHxCgmrEAQwhNObtdj6KTAVqmhiNRlaDE3UeKcPCiIe/4LggpMnGjO1466DgYtaTLiEDmFbHQpNh10SQAmUwkp5ybCvs1Ztun0FDUKdcUPIJyK4wzORKMLFJ1Oh8wxz8zP5elbpiil38eCmFznKr60hivslz2HYv/slhVLtjUqcucBUAjJyJ6DC3tIm42O3ZxwjrxpMPTNZ++WQ24I/y4K+hL2rvmUbGquFeQTCg6AEK4jX/HhwlTBPf664IVwoC5JPVA2dlg4wNU+KBljcRAeSBsomvUqSWqmuzvaY/9FE1ccB0L8G0kwPtsv4AOPvlbPObXhlVY2fG0Mv6BONWaM0YGixLYO+5pqsguX6ILsI+YD2dsuZcbwOAIfZ4npFHl+3eOBE9pKKqCjuVsyYWiMvFBGT3Ao6WkKjDt/p1yLngN1dtY4z0UotxZdOsoiSJDMo/+tcwbnI5OVJ6wsCU/BbYY3rSD0eqajpuUPanxdAWSvaitH+19ZCrE5lyiZ8fi+9rEB8Fu/Yh64kuvshYtjd/fqQ093GbdJVqmIAHSpIKI6vHEu17SkxN5NgHVpyXlTef9cj80/LaW9Z9XbZBJJG6sejuIzgoUyOsQZQcqxprhGZH6c3upnj+ZIhyX70rCwIOVjNL/aTY72ILrjFkWRlAv/ARy3ebscRJklegaHZuJu6Pkvf1tCD8PUx5LZ6+8t8DhMV68M8dOAIGzv20wt+Rc94WARnl1m1/sP8545rCt6w3tF6UlagqMALIuQXUF1dRzkzxljmQ1f+8pFSpMji0QMd7TYFfHYnhU0beWZ0Sq+9Fh+FmpS2Kbg2vXtRQBWFWbaPuRt/iX4/4f11zwInTOZ438gw2oJPFTnBmdZXF+Y63mGH4GEccAADRHKBYfkjQk+MYo1dHLY68G6w0SHOl3wrbVzh8AynH6wG0lCUupCNplRFXUC6JAnpirCmtEMceikRzwlo1Zab53MXZb6Ne7PUdhUE3+4rNhs1ySNO+OC+H0sPgYWFliwCR6tSf3oQqwb7UgXf1WhFIuDSEeu4DKPePrvk9DAMEP/wRtmIot26ROJIgci87d3JN5zYG0qXLU18+tyTkqcr+D/H2YLEUnMSPLYKadUEzlMBdB0LT5dbkzuhTNjE7raB2t1pApIxkfzlx97g+EzVAkGeKOS3w6+O5hQr6lTDYTca0hKAeskquV3qZ17fvYem8o/0LLSGt/Cd6+ccwUPovr9Dj+ACKJTBiXkG4kV6tXdLW3XafCbSc18cR6GhxXy7yjamW+Bh66iodRxuBtxZJL6oamKg9cNSpxdub/baMiR8C9VbDMSx12Gb9u4IoXzP4d5MXTkMjA6h8e2vnnkAHy+tMAUtohuTjj72dYh1N5HI/QU2fVfF5ilShTJ7ilv1JjdTRFIIGBMDXA6/S6GGuzBjZBH4bHQj4kZ10oJNM87D7wtnQFRc7LuiFefsonmfc8h9CuXUfHjsKbmGKzoRUcAL/p3yI6qdshmaRC8Z6VzeaeFnn6VWB7drdEDpygPdv50ujYZaiWPofwVeI7dJgdGa97xZK9QSiDi89p7uXMjxGMIIEYDF1NTWIk/0jIlLJe60BF+UD5xmLCy+Bl+jySVAdI3VEh1QEElRqaMJfSzZbjwJ3E/BqIjQs0SpStHxZ1O50O14myaWT0W6H3u9FVJNxXFTsOeVUq6ETb0DU13hgIfZTq7/pVg1FTPpPcXTxXbINNTN5AIJZKSzXjNtPZKox4hi4nPL3ODRbbYaVeWxx7JfQ5zOhIPM/9njWXHKeotdrIkF38KtBujTyg2hoGdqu5LYQdvNxzdJJkmYo8UheedvB/xfI2ZlIBw3fSez0PGgDWGc1F0L0AO1TsfAfxwqTNcOOsdtCtaHWaiGszmYXdjgbxY0T96OE/klUEkt94l094SqJyFBNu1vE8Lue49fb+MaE4Th8XJZ3jtetifJNOVGEhe9/6T48pAmrF4pCfpVGRoN/3CCUCSEklOwPd1Ym6AAJMLCqeRPvDt1t2SbR1MmRqbjMtbc18XJFTLXDC+8D93ozU1mugKAPFO2aJuB+3wBfTO/RHNkpdnhVeA/iQ2EW6Bve2jd0Yoj1gqO5flndANKxjBNBIhbmV2GLcdSdvhOc5hoXenOYwomVFslcOkLOSI2sgJw6aS42zAyhK6P8v5R6p/I36SaHM6gJtl8hynWx6G041spz+42WY3lJqmURk3+WmcMV5DUQ2An2IZWFB4fUo0ps3UKFkBoFaZxRXhQybWZ8ZREVn+I8S5NwtCWFKfb2iL7/SCndlcXRwNJupGNqIOCJyTlq2IM5ajOcDXnJyakcSVvKPxQ+IwJ34s6BBxmP2Kllu2hChikgij5g+0kgghMMypvKl0MhCsNYBLqzETsinh673zqgS54FZ98nzaet1grmUULeYYxFYXkyl9isfgyCNCHlFEPomVV78dzs3gEv0BIzuSXQ3qG3CmXwq+oqB7rhrkd6sT3VHZKWaKSDSXEw6boZA20gsfsHAjSVjLA7tsjHjdqu73e/cNVGt21gXPOt+evUWbo2V9w4TvEXxL4izLDygqDHLl8aJ4DXJr+ARTZ+X4yRewOZ+dVQstmqHrqKhEbkUHko7s9QAbEh/lo2PDH9Qss6ddh7axjxGyEDolDaG8w0G3yGwQH3kG1fXR6jv+SLs8BuKsve2Jy8N/CzkF/rZsRl5IXOfuN5B61c0O/YmTJWuTtA/QWEihIGoVGSly3ZeEPy52xNDdxQm3IayBdaGU1McctbiXvwfV2Ede2HjK+D9QYfCLVwKy8Xao3kx8aF+cHCyWamrcet9PL9IMS/GWf7+JR3Djt+ErKX74to0g8w7orI4d33+5m49DZx+u1TOLco/YSkIOYD3AEyqyoJP/M1FBroIsIaDy0z3s65wuLgez16oui01jFHuHbBpBjXHzzEsGdletBQFMEwxNtaDtm+kbWisoXohYe0OMCbXJFySFLqd2XrZgpslC4047TJ7JJ9k7XX4wluhNnz8IU4IXxYNmGrpQOTP2/TLNk+V5Bz9xDKtgs7CJ9YPmnxE+scc22FPmiNOgO+47ti9Hpi50XSNM5Q0dau7YtMH4wgOzKlvP1wyF/kgpHF8gxRS/p3rKtrmmA4qqnGER9a4VvGSss8SbagEHhXhRqm47L+BA5d1NYMvO9ppL76MlPo5ieZ9g8RCQR08z6OzVcDzOWGsJ1z0a1gR7aOcteWV//W8BSUKY7iH3WHEXhPjrF+tH4MACrUwS+csx2tipReqxNpCgqHQ1KRB+Pl9MqmGg1z4W4EzbLsKIWojjYJMy5Kcw75vJQKW5MWT5t4Ngqfg0lSXLMuOb5yWaJb1yfnceRuW0WWZDbHeljXt4Qp5R+YvtOrhV5FLHfA8ZWeiTwu7r6soFhX/ROxdKWZEpVKqHcUvpMpdz8S9yJZ70akiwvWH0u0tKObX77TQ3ncbdCEh2lde79mAPYClxvQDOsqp/QpdJFwtmCf0svsFTBhEdWX90m8aVVb0z3mkJZariL1O7gvWaBgpERI8wOA5kDU2AWkx8ftnx06N1JE909oRSVqPUW4mmakfMSUB7AmiTtwHLAGTSAftP+a+p3tjI1X+rZ465kmE6CeP6yTvOBccktIdkFeZnwzWczIz1pfUJihlZodD051mlIfVtZMCmqVzR6fi9lL2GchLaC85t5IIqzUvPXlVdL2zvn+MdhD5+X13jvCAbu8Utw/Nn1XJ7BxkW/t3dgHfMuCio6kTqWWk/8SIF1XHGeAeWlhx22X6JOrWUly/Qsax40j6I+v7zQl3VX6pxgtXXjCU2MjfDPqhRZqnwOIrM4CF0WTk7sY8ug1j+Ql+PxjSjA1EFq1UD0B5PW2cYnkbC7V3UW2O7C0/5Pl7npIFsmvg8YVtauSkfof+e1FZ5/r4PiPdO7lRYsfX+Hq0A+zbz7ru51icYduRxbAgLAO1tXrUQxPWqhdy5Q7LsPgaftnuelebU/fsb/ZlxBRJrpiVyWdwuobDWkPC0/EPtfx29ei9ElWc31NRLwKk2mcxV1BSpj0iAh8NyH99YIOIMSdXmbM1F+ivY4uMcQYhoB8EZIONmQrIjMat0bjt+jRbyBKOxWbjtXI5ouwN6ePyFWmhnY4lXmp0GJ2FpaW6fnF+HrTOKkdwMzVv/1v+Xoo1ZGxGCGACZh1EcNEWh7RqKLD+lOPJsBehHbV2QdvsvQlhl4iy1YoTELH7erNEKksZU25/VfmEYWOOK5LSs/dkY8F7Tt4IN2ofkkYdbFI+N9NNbyFfcaNRP3SBsGukGNBwB957O12yPl76Rq28VsAftG89hbDaFtqe4mdO1XZs8z9d/Vi+7sbtSA7uMytEionnebnaDu80dkQ6d7WQ/EfegMB//+8J+Wsx5HPcxrMRuuW5W/aRbpnmPCavXlWgXF/+MDCcOg0YmIiEfc7E0Q12B0M/WgNMIrT38yp16ASTQuyu85kvw/SuizHHSlWoDeI+OwkeKJNe8IGk7paaLPiZnxsvY9U0SVUMUsmC81Qg9UCd9RJRH1+tdBHQAo34EiGZHu6QIcXOt3ofoQ23Iw1xrKZKvXVKXQPTGXqVeJhixcayg/I2jvLX61Frtu0KUOarGD9bkkcwLoqpVjfSIHZeVJlg9qvZRQLK0YIMLjIVjPSlPUC30+SarPua/42ygiPf48pqiKhfpOfGs5Q3bEKvkvs0fk67gg6pQNlysHPRfbGCbj2HDing/i9uOQ9qFpeY0Mr+5dxqU5ozMrUZykUzbAqTWLWwgg/PfTeteCYUWKbvAPITR8qqfhCqUvQC9Xzc19kJDlP2n3RmD4W+0pnmm0efwB+56Ksq10xcr/Tdub5l/KzYwvKT8uRMIVrV9uK8ud/TYQoGXAtr0tha2itSBk5kcXYDO2vgSjffq7eSFVT/+8QHz23OtSn/mrhGVLXWHsNt85TqfywgLLQP1gFW5Q5j2spQgJXEH2kR7tX15TG8og9p7w7c5Ka/jYuK+83A2ik67HB7XXEvauJZa4Cq2Q+Tg9QgrAA0KoVZT+zev4h5YWmkzCVcArp7Yg4h07/nGYLmk7H1ysKBg/AXradWGKOD81YNSUgXXusM7AgSuHCsr/L833om2nYI9xVDUm6iHYKxV9rIfCGS0y9g58WVBhe9lOBSNzTKCZ5DHdu4xKQB1UFaU0QnsyuoDRLtM7IMaD++81oAlGIBfDGbHo4Bw7RtrBIS8eardXhZ4Zjxa85mCqyU43p1R6jrDmi+wb3BbfO1R+ba2eC3fGwkX7VmxbA1ZDSUXD0/NV5MeiaZFgPyOfbDSXn2NelWT9+5cS3Cid9AjLGsA4QJswhH0tFqmVxaQ1u1VfGocMkUA1xbpNeOuoWxhPw/iEmS/meXbonlD+GdjqwuMluG4bEAhTEx2aPmbTJcBwHCbbQm2/C8jmv8/LenJhpsIh0ouFJYb4/grYt/nzcIP+OMGejgCjooQlorx2wpJJzSDTKdJfy9ti36MHSNpt5OGOHk+M+qgSQJZcmYq+QX1UL6aidmasNbqmNLNoiaB7FmlLzCeISH5YskeW6/ppf79dkRLpksx9Z4znWeeD4KZPbBLgxa0QU/wL4478ZQiKoKRhdTKJ2JpRYqlkD2o5ADgS/dbBhlI+9SDBxhw88YEHutVun79xDox0cel8XGu7HOzjnvSF97Q/0HET4/ZRTA3WFfbR7gw/T/rbMGh8o4MsU+fxysK8FeLr/isaCS09mbvIASMb8WN9fczvmeg38nwkzcj2NsIVBP3tXn4NGEQ9nGMYOkEKdE1yBY05MsXvI7oNnoLlMY1/qv2uBgTC+BYhrfzo7c2MvroHR97TGQEcfxyUl+eBjMvuVd/7ie90GllvN84XPbr4ahtPVrUkw9tQTJWFTlpisqIhNyRvSKBDz3vO4i4sZUUpSvCc0epdmu3o9p9jkyTnxPsNjZWaGuW1TO1q4oTbUz1I9YSBO5BlmYNS106B/IYSLkfILXh9KIXSuInY1wAyIFWW7ZgXYKFegG9Ta7VmNR/TarRdlg9gSmYsjxWaPz0z56GHwCcHY2Eau9uaxBF4Ls55mNvu/FWwkkKdcSXsjXha5M7mZ3+EIAyJ+39JC3FSw4sxKKwFa/QDRPEiFfpYyBpTeffQVHgKNiZE8QdT8Dl653mnvXf1VCDyWqW7SDRG8uZoR1AwFHnJGOflXnyYAX7j5ZLE9OUVSEZd2UcSdvrVLFchUJ4L5NlwwU2nPuTi1H4970KqPBQi0BrnUYedR5pSrw3avZgiaMvE1VyP6yTlNF0yTKdFafb34VX0N0nTx6/+2gVz2QVkLRgLoHTVuPnlwE4rwAGSUCtagAA06TqMNbD11FrEHKHzix5ozJQf/4Mevh0om107L678Qab5xF7PdNNz4bOMQiQMt3hV3pcdTxItzpMmmrxjXlJhpH7A6KbrrQMzj4DTx6FUG6TKLAWFtMWKoAJfTpay5KoTXR5uuW1eNW818EEj/1YQA5SrxYgBK7XoDwGsZBk+E9QNJ9aNnQpoNldALizQYtPnBa99H1peSzz60+HmWmgkm0zvJRO459tjAr+XGrHk0UzMdAacouNBJZMg09BWUxwLTuY3N5UHqx+p87aC5Q+mvXAn8u0R5nXfS+rDwG01M/Mhxh3W/3NStNYDwYEHK/tKrPfw5o7K3aUVgS8myd+eGB9herFwHEQ3hvJrEHEzD8HtP6+skQfWQXDgx2iZQ5nUR+FqMu4LS3bB4NNvNcnUt8PXoAo9VrcfPPjam1nARZkk7vnlzDoEmf4NH2Wc4uPcBjb3RvBLdWmO9ul+tm525xbFNBWmMUbnBvJnqLnuPwqwp+LUJHtvzlByvrR/5pGWKogrPe8fk/aG5KK0Wmu2lyCk3fMYc5iW+lOlrYkkfCjBJGBh9uMw2q8TL7OLFSiUhv2vitBKwcJwo+SXtrvTRmF0qfdopAtFKoDVTIG+jHlfFfgN861ao9mhg7huxaQsGNcek05+2u0B9MWUuBlZuEn3by8zpiYruCUQvXNoTUpert1ygGTwGZJxcLOxAUhS6BMdr99l/eIS2UklgICUfeK3WgLodv/g+to7H+WEDWoPV/a3dj0b6+fe+YEjhws4hOkgb3Crh3xElmDTDpgSYAcjyAIXgRnD5aonX2kOLAN3qarEFr/TocB2R+TS2b/i6N4PBMx2OrUfwIPe90+N5vmq9BhfqUh3Bk5S5lWpApxiR7TSY2tBmOEs2A5GuyK8UEdnB/6HY7fYXqO8qhF/O8tlYV7XhELD0VMjV+AJ5lrZ8GtL140RHsMbnyXupejMaCFmjCpz+zRbphnaq1jDGq9Eg2JeL92ijvme2yOKqPldETLjlS3iecBrXI/2+LbIsCFALG5lZ2xskHdwupGOkHeRDv4+Oxilw8nrUUdRb7Ttr2yMaqA3ZhB73JqU+dFe1r54t2gUv3zzjH5ZlbXtRJk2eHDTP88+EZYwLtWg9aaZKdRoIj3Jz95eRv13iPvb3koSpzOerGEXPWmkD7vrqmhZ5t58IoDSQ9GhRSxMyjEvGH7+IZfJckRPLifTV991zg0F3Wck3Bkt5V9snJ6KgvupfBGQdSdysYQ0RhksVvHtus0fu23Q/tS32NvsoqR6USZM/6S5sRcWf3TV3TUZl/+/2XuyzP5x0xRMJRFPVZTMoSDMmpFwqutzMPwf4l2P8DYuZGFZhXXPGv8yNfO5BUVfVHZjjq5uneVXOfMe5OhralrlYC4r5EfRxr998eZku1Q8UiikrBA8BgzpHbmfNr3+YsbjRjP4DTGgLSqMYkyvOxZzOVxySnwUvksJpPaxAJwxShhjgyG+B2dkUaZx2CEYjeiFgUx0JtxLKnTR1rfJ4yqWcpXIhGiSPhcs24LD9ghNix4eVn0M9XvIFnTdRBFJ+gO3efL0OBeIGI4S8xSlmAwEeeD1XA7BJIp/cET+7l3SnBoBEKaIqa5O5ICIy1CiOPCObEpi73f1o5ea7xyTQ8WzEMAceHn1RXJNdevyNa8lh0hR35ABoldWDWtzlRHDHy9+vXzWP48X5qkzNm5pm0Z07jeJkvEDmmA9igCuQtrlys/EtxROfRv1Yx6Le6qEoBOrTD1tAkg2ScaMoLhvLMaeKKoduqdaXZ2ZxraDDUGm362S3x4TVT3qve6PyQw/86wHbk3F/7eAdiwV7Dq5tAljyyXd9dFmXSNinAEMiMTBvx19moXDyj+1q0RYRO6J/6umZ2K/iu1CrGAVIb0T5LCR70HA70skXHN1kJP+mlM8gorpSM6N3kE0Yv0emuPgsAn6mGUxx/31T8mklXH5qR1/AvFx71LUwRDDv9G4Mpf0YeH5n6aja6C8he8T8vBbAykTB7/OmgMsoVgSMCeOaGzNv0x8l7Z8rW4f7FQS/RsFWEDtyo0R+Zib+BC/cZIc+iLm/fxvofv7mge9FYO5jMpw47CTl4jKHxG52N6TXvoAsdAOtCo/wMUsXNsjXefFDQVWzHzbFAyXDQ3gUPfd0pOMRMIPYgO+/Rdz4vCBGzXhbWU5JmkccBqENc7neEuQWj8JbN5bggMzdUTyKqusLJMPpknqOFReEd4lXUh8YIuzrgcFonRtLvr7d8zbvm8CrE49G9hF1RqJ5t5giwY2aRA+/pZSZEIGt/xraOSLjuWp8yJOVhWL3HBb8zWWFxR2yrymyz1T0KJkZwnvoLHRGJWj1Od9Zwm711ANiabvQZE6VEjDeoKxyggsjQO91goK2PL6Y8nxGJGDuCHs0DNjqbB2LtdfvO7SBKBgM4HCFiMMxfUJQbeJ8d4tleOREGY8O026HAp+4s6kkXXxsEpaKVxM4njMnZdRz5yXZlvoAx4SsKbZq2sayNQgRBZp1sDuuv26dtsUQ93qdmNjiHjDHpcBPnkl0C2+Dmlus3vTW+m7IyLJqlPgPejBMt6O7UQ8wtP2KXxDNLQIBniivE9QMCn9OG3Y9lYS7GP+CRzFgprAy5rijlZnlVCjJ8syb3B7S4VGNEQuN2AXPR5CIHRK51yLv9qZRRdRWkS60uYGHn8xCVp+pJTocncSquVaScjkpiuIHTy6tx33wtRKowzwhFPX7+vbELR8GvRDUitx0teWZs4vqZBa1Fa0C6buFtPWrg/FyKBEGfX80msxO24GPz2WAk+u6RI4y+NVKjch2lctoPnS2kzGb3oQmActUiYJSi9XxfAX+sWoPqSKJCUyyfWIF2zY+nfLWQP0ztKjpuv7iV0nn/Z0114sxq//v6kCrOT/gcaidCoF4qJxpN1ceGJ/Da8A9LrEd0lopGCIKQ4/heG4459JhBLm3ya4dngooeOPri5p9jTnyjGqbq3d5NhcvFYQCOyJKthDTymGq5SG3ZBY7mpnSDKWpjMKpMDuj1SeQ5BirwjoqKDYX0pVj9hj5lQiBGBlQO4Xmn6LAFuRIfJXiF/4DGJU8TewbN8Sp01NZ2pqTK8cbu+gjq2cxTOsktdONjwJRCnNXaKN0aWt/maZQk5D/f18zyHtr6r5nJ5jHKrTnn0uxdBjsuYIcLzpMm1rujLz8WASTFs3jAdwLf2FowsvManjAgURZ46tA4WRQrxiYr4N18sLxTR08yW3qBCsZi0bOSIx/tySh0CIanQGBO9ERgjFW9hbe8ozMJkJBklRwt12eoqqwjUtGA7KUvxwXGi0qPSvtJkWqA7yxjmKRiCVGQ5kM9f2vkjx3C8rb1K553pH35Tvi+3q3Rwfl/sMiYhK65RKKi3lsVUZB+S1mjuxXzDZmAelt8n5/kRqjwCIitTM+0jYwF1uBL9l/aEG6T1q0Knos1ozJR2TCkSb3V0TYRE09UvDCqPfTD0PH08k3aj4uRhH4T2zF+rOemjyKUt+mn2WYsKnzsmhcav4YyLTle9I2WAcIgawidVs77SDCoAxAJYfmWdGpRKrc1DThaulxx/8wdXWdlkWeEcgXrJApLd2sWKw+uDA==</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/cellplm/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

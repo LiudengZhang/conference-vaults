@@ -13253,73 +13253,34 @@
   
 
 
-<h1 id="extraction-method">Extraction Method<a class="headerlink" href="#extraction-method" title="Permanent link">&para;</a></h1>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Session videos + transcripts</strong>: <code>connect.aacr26.org</code> (Swapcard-backed). Videos are hosted on Vimeo with auto-generated English captions.</li>
-<li><strong>Poster abstracts</strong>: <code>cattendee.abstractsonline.com/meeting/21436</code> (CTI Meeting Technology's Abstracts Online platform).</li>
-</ul>
-<h2 id="session-transcript-pipeline">Session transcript pipeline<a class="headerlink" href="#session-transcript-pipeline" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Log into <code>connect.aacr26.org</code> (Fastly CAPTCHA requires manual solve on first visit).</li>
-<li>Search the Sessions listing for topic terms.</li>
-<li>Navigate to each parent session page — the Vimeo iframe triggers a config fetch at <code>https://player.vimeo.com/video/&lt;id&gt;/config?...transcript=1</code>.</li>
-<li>Read <code>request.text_tracks[0].url</code> — a signed <code>captions.vimeo.com</code> URL (expires in ~6 hours).</li>
-<li><code>curl</code> with <code>Referer: https://vimeo.com/</code> to download the <code>.vtt</code>.</li>
-<li>Strip cue numbers and timestamps → plain-text <code>.txt</code> version.</li>
-</ol>
-<h2 id="poster-pipeline-two-patterns">Poster pipeline — two patterns<a class="headerlink" href="#poster-pipeline-two-patterns" title="Permanent link">&para;</a></h2>
-<p><strong>Keyword-union</strong> (virtual-cells, clinical-trials, single-cell-spatial-omics): Best for narrow topics.</p>
-<ol>
-<li>Log into <code>cattendee.abstractsonline.com/meeting/21436</code> (last name + 7-digit Registration ID) — this is the frontend. The API is hosted at <code>www.abstractsonline.com</code> (the <code>cattendee.</code> subdomain is CloudFront-fronted and 403s on <code>/oe3/*</code>).</li>
-<li>Read Backpack auth token from <code>localStorage.token</code>.</li>
-<li>For each quoted phrase, <code>POST https://www.abstractsonline.com/oe3/Program/21436/Search/new/presentation</code> with <code>{"Phrase": "&lt;query&gt;"}</code>, headers <code>Backpack: &lt;uuid&gt;</code> and <code>Accept: application/json</code> (omit the Accept header and the API returns XML).</li>
-<li>Poll <code>/Search/&lt;SearchId&gt;/Results?page=1&amp;pagesize=2500</code> until <code>Search.Status == "Complete"</code>.</li>
-<li>Union unique <code>Id</code> values across all queries.</li>
-<li>For each <code>Id</code>, <code>GET /Presentation/&lt;Id&gt;</code> for full record.</li>
-</ol>
-<p><strong>Session endpoint</strong> (bioinfo-tools): Best for broad methods topics.</p>
-<ol>
-<li>Identify methods-oriented session IDs (e.g., 228 = Digital Pathology 1).</li>
-<li><code>GET /Session/&lt;sid&gt;/Presentations</code> — returns the full presentation array directly. Complete session coverage, no false positives.</li>
-</ol>
-<h2 id="filter-cleanup">Filter + cleanup<a class="headerlink" href="#filter-cleanup" title="Permanent link">&para;</a></h2>
-<p>For both patterns:</p>
-<ol>
-<li>Filter <code>Activity ∈ {Abstract Submission, Late Breaking and Clinical Trials}</code> + <code>PlayerUrl present</code> (Vimeo poster viewer link).</li>
-<li>HTML-decode via <code>DOMParser</code>, strip tags.</li>
-<li>Emit JSONL + per-poster <code>.txt</code>.</li>
-</ol>
-<h2 id="data-transport-workaround">Data-transport workaround<a class="headerlink" href="#data-transport-workaround" title="Permanent link">&para;</a></h2>
-<p>Chrome download flow became blocked partway through the extraction session (macOS TCC or Claude sandbox state). Switched to:</p>
-<ol>
-<li>POST JSONL to <code>httpbin.org/anything</code> via browser <code>fetch()</code>.</li>
-<li>Capture response via chrome-devtools MCP <code>get_network_request --responseFilePath</code>.</li>
-<li>Extract the <code>.data</code> field from the JSON response with <code>jq</code>.</li>
-</ol>
-<p>Clean, fast, bypasses the filesystem path entirely.</p>
-<h2 id="keyword-unions-per-topic">Keyword unions per topic<a class="headerlink" href="#keyword-unions-per-topic" title="Permanent link">&para;</a></h2>
-<h3 id="virtual-cells-48-posters-from-88-union-hits">Virtual Cells (48 posters from 88 union hits)<a class="headerlink" href="#virtual-cells-48-posters-from-88-union-hits" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&quot;virtual cell&quot;, &quot;virtual cells&quot;,
-scGPT, Geneformer, scFoundation, &quot;Universal Cell Embeddings&quot;,
-scBERT, scMulan, CellLM, Nicheformer,
-&quot;cell foundation model&quot;, &quot;foundation model&quot;,
-&quot;in silico perturbation&quot;, &quot;in silico screen&quot;, &quot;perturbation prediction&quot;,
-&quot;digital twin&quot;
-</code></pre></div>
-<h3 id="single-cell-spatial-omics-1015-posters-from-1331-union-hits">Single-Cell &amp; Spatial Omics (1,015 posters from 1,331 union hits)<a class="headerlink" href="#single-cell-spatial-omics-1015-posters-from-1331-union-hits" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&quot;single-cell&quot;, &quot;single cell&quot;, &quot;single nucleus&quot;,
-&quot;spatial transcriptomics&quot;, &quot;spatial omics&quot;, &quot;spatial proteomics&quot;,
-&quot;imaging mass cytometry&quot;,
-MERFISH, Visium, Xenium, CODEX, CyCIF,
-snRNA-seq, scRNA-seq, scATAC, CITE-seq
-</code></pre></div>
-<h3 id="clinical-trials-642-posters-via-hybrid-union">Clinical Trials (642 posters via hybrid union)<a class="headerlink" href="#clinical-trials-642-posters-via-hybrid-union" title="Permanent link">&para;</a></h3>
-<p>Keyword union (<code>"Phase I"</code>, <code>"Phase II"</code>, <code>"Phase III"</code>, <code>"clinical trial"</code>) → 790 IDs → filter = 578 real posters.
-Plus session endpoint for 25 CT-track session IDs → 386 presentations → filter = 270 posters.
-Union by Id → <strong>642 unique posters</strong>.</p>
-<h2 id="see-the-repo">See the repo<a class="headerlink" href="#see-the-repo" title="Permanent link">&para;</a></h2>
-<p>Source data + extraction artifacts live at <a href="https://github.com/LiudengZhang/aacr-2026"><code>LiudengZhang/aacr-2026</code></a>. Raw Vimeo player configs are in <code>raw/&lt;topic&gt;/</code>.</p>
+<div id="mkdocs-encrypted-content" style="display:none">6wWr5hHklX8GNiF6ZGuH5w==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "notes/extraction/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

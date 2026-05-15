@@ -13150,118 +13150,34 @@
   
 
 
-<h1 id="cell2location">Cell2Location<a class="headerlink" href="#cell2location" title="Permanent link">&para;</a></h1>
-<p><strong>Family:</strong> spatial
-<strong>Modality:</strong> Spot-resolution spatial transcriptomics (Visium, ST), paired with a scRNA-seq reference
-<strong>Released:</strong> 2022 (Nature Biotechnology)
-<strong>License:</strong> Apache-2.0
-<strong>Code/checkpoint:</strong> <a href="https://github.com/BayraktarLab/cell2location">github.com/BayraktarLab/cell2location</a> (fitted per dataset; no pretrained weights)
-<strong>Also surfaced in:</strong> single-cell-spatial-omics</p>
-<blockquote>
-<p>Cell2Location is a Bayesian spatial-transcriptomics deconvolution
-method from the Bayraktar Lab at the Sanger Institute that maps
-fine-grained cell types onto Visium / ST spots by integrating a
-single-cell reference with the spatial counts. It first estimates
-reference cell-type expression signatures from annotated scRNA-seq,
-then fits a hierarchical Negative Binomial model per dataset to
-infer the absolute abundance of each cell type at each spot while
-accounting for technical effects. It is a probabilistic model
-rather than a foundation model: there is no pretrained checkpoint —
-users fit it on their own scRNA-seq + spatial pair.</p>
-</blockquote>
-<h2 id="architecture-training">Architecture &amp; training<a class="headerlink" href="#architecture-training" title="Permanent link">&para;</a></h2>
-<p>Cell2Location is a hierarchical Bayesian Negative Binomial model
-implemented in PyTorch / Pyro on top of the scvi-tools framework. It
-factorises the observed spot count matrix into per-cell-type
-reference signatures (estimated separately from annotated scRNA-seq
-via a regression NB model) multiplied by latent per-spot cell-type
-abundances, with explicit nuisance terms for slide-level batch
-effects, ambient/contaminating RNA, and gene- and location-specific
-overdispersion. Inference is done with stochastic variational
-inference; informative gamma priors on per-spot total cell count and
-per-cell-type abundance provide the regularisation that lets the
-model resolve dozens of cell types per spot. There is no pretraining
-or shared checkpoint — the model is fit from scratch on each
-scRNA-seq + spatial pair, with GPU runtimes of minutes-to-hours per
-slide.</p>
-<h2 id="use-in-the-aacr-2026-corpus">Use in the AACR 2026 corpus<a class="headerlink" href="#use-in-the-aacr-2026-corpus" title="Permanent link">&para;</a></h2>
-<!-- mentions:start -->
+<div id="mkdocs-encrypted-content" style="display:none">LFTQ7CBWsjdnL976qrxcHA==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
 
-<p><strong>Posters mentioning Cell2Location (n=3):</strong></p>
-<ul>
-<li><strong>1442</strong> — <em>Spatial transcriptomics informed tumor purity estimation from histology slides for triple negative breast cancer</em>
-  …en TNBC patients using SCANVI. The integrated single-cell data were mapped onto in-house Visium sections with Cell2Location to estimate spot-level tumor cell-type proportions, serving as supervisory labels. A deep learning model (VID…</li>
-<li><strong>4952</strong> — <em>Spatial Transcriptomics reveals core resistance niches distinguishing non-MPR from MPR in NSCLC after neoadjuvant chemoimmunotherapy</em>
-  …9;MPR 70-90%). We compared global programs (DEG, GSEA/Reactome, cell&#8209;cycle), inferred cell composition (cell2location), analyzed context&#8209;specific ligand-receptor and metabolic states, and spatially mapped resistance axes…</li>
-<li><strong>773</strong> — <em>Single-cell and spatial transcriptomic profiling reveal fibrosis-related tumor states in lung squamous cell carcinoma associated with idiopathic pulmonary fibrosis</em>
-  …v3.8.0). Cellular trajectories were analyzed using scTour (v1.0.0). Spatial deconvolution was performed using Cell2location (v0.9.6), with validation in an external fibrosing ILD spatial dataset. Results: To infer lineage relationshi…</li>
-</ul>
-<p><strong>Sessions mentioning Cell2Location (n=0):</strong></p>
-<p><em>No session transcripts in the AACR 2026 corpus mention this tool.</em></p>
-<!-- mentions:end -->
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/aacr-2026/topics/bioinfo-tools/tools/cell2location/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
 
-<h2 id="whats-missing-where-evidence-is-weak">What's missing / where evidence is weak<a class="headerlink" href="#whats-missing-where-evidence-is-weak" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>No comparison against alternative deconvolution methods.</strong> All three posters (1442 TNBC tumor purity, 4952 NSCLC neoadjuvant chemoimmunotherapy resistance niches, 773 lung squamous cell carcinoma fibrosis) use Cell2Location as the chosen tool without benchmarking against RCTD, Tangram, CARD, or stereoscope. There is no AACR 2026 evidence for which spot-resolution deconvolver is preferable for which tissue.</li>
-<li><strong>No discussion of compute or runtime.</strong> Cell2Location's per-dataset variational fitting can take hours on GPU; none of the posters report runtime, slide count, or convergence diagnostics.</li>
-<li><strong>Reference-scRNA-seq dependence is unexamined.</strong> The fidelity of Cell2Location output is bounded by the quality and cell-type coverage of the matched single-cell reference, but corpus posters describe their references in passing rather than as a controlled variable.</li>
-<li><strong>Zero session mentions.</strong> Despite being a workhorse spatial-transcriptomics tool, Cell2Location does not surface in any of the 12 bioinfo-tools session transcripts.</li>
-</ul>
-<h2 id="takeaway">Takeaway<a class="headerlink" href="#takeaway" title="Permanent link">&para;</a></h2>
-<p>Cell2Location is the quiet utility of AACR 2026's spatial-transcriptomics work — three posters use it as the primary deconvolution step in real analyses (TNBC tumor-cell proportions as supervisory labels, NSCLC resistance-niche composition, IPF-associated lung-cancer cell-state mapping) and treat the choice as routine. Unlike the pathology and single-cell foundation models in this index, Cell2Location is not being evaluated, benchmarked, or compared; it is simply being <em>used</em>. The corpus thus reinforces its status as the default Bayesian deconvolver for Visium/ST data, while highlighting that the community is no longer asking whether to use it but only what to do with its output.</p>
-<h2 id="fm-comparison-2026-status">FM comparison &amp; 2026 status<a class="headerlink" href="#fm-comparison-2026-status" title="Permanent link">&para;</a></h2>
-<p><strong>Where it sits in the FM landscape.</strong> Cell2Location is the one entry in this dossier set that is <strong>not a foundation model</strong> — it is a hierarchical Bayesian Negative Binomial deconvolver implemented on Pyro / scvi-tools, refit per dataset with no pretrained weights. Its "peers" are therefore other spot-resolution deconvolution methods (RCTD, Tangram, CARD, stereoscope, DestVI) rather than scFMs. Conceptually it occupies the niche newer scFMs are now trying to colonize: scGPT-spatial (Feb 2025) and CellPLM both target the same deconvolution / imputation task with pretrained transformer backbones, threatening Cell2Location's incumbent status by promising zero-shot transfer instead of per-dataset variational fitting.</p>
-<p><strong>Direct peers.</strong></p>
-<table>
-<thead>
-<tr>
-<th>Method</th>
-<th>Architecture</th>
-<th>Reference / training</th>
-<th>Public weights</th>
-<th>Headline benchmark</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Cell2Location</td>
-<td>Bayesian hierarchical NB, Pyro/scvi-tools</td>
-<td>Per-dataset fit from scRNA-seq + ST</td>
-<td>Apache-2.0, no shared checkpoint</td>
-<td>Top RMSE/JSD on heterogeneous Visium (Li et al. 2023 + ATAC generalization 2025)</td>
-</tr>
-<tr>
-<td>RCTD</td>
-<td>NMF-style regression with platform effects</td>
-<td>Per-dataset fit</td>
-<td>MIT, GitHub</td>
-<td>Co-top performer on AUPR/JSD; preferred for sparse ST</td>
-</tr>
-<tr>
-<td>Tangram</td>
-<td>Optimal-transport mapping of scRNA-seq onto spatial</td>
-<td>Per-dataset fit</td>
-<td>MIT, GitHub</td>
-<td>Strong on heterogeneous tissue, sensitive to reference quality</td>
-</tr>
-<tr>
-<td>CARD</td>
-<td>Conditional Autoregressive spatial decomposition</td>
-<td>Per-dataset fit</td>
-<td>MIT, GitHub</td>
-<td>Top method in 2023 Nat Commun benchmark for spatially smooth signal</td>
-</tr>
-<tr>
-<td>scGPT-spatial</td>
-<td>MoE-decoder transformer FM, continual-pretrained</td>
-<td>30M spatial profiles (SpatialHuman30M)</td>
-<td>MIT, GitHub</td>
-<td>Zero-shot deconvolution + imputation, outperforms baselines (bioRxiv 2025)</td>
-</tr>
-</tbody>
-</table>
-<p><strong>What changed in 2025-2026.</strong> Cell2Location itself has been incrementally maintained — recent point releases tracked scvi-tools 1.1.x compatibility, added a SpaceJam model for Nanostring CosMx data, introduced memory-efficient posterior quantification, and extended the amortising neural network architecture. The license remains Apache-2.0 and there is no pretrained checkpoint to release. The bigger 2025-2026 story is <em>competitive</em>: an Oxford Bioinformatics 2025 benchmark on spatial ATAC-seq showed Cell2Location and RCTD jointly dominating chromatin-modality deconvolution, generalizing the 2023 Li et al. <em>Nature Communications</em> finding to a new data type. Simultaneously, scGPT-spatial's bioRxiv release in Feb 2025 directly threatens Cell2Location's monopoly on Visium / ST deconvolution by offering a pretrained alternative that does not require per-dataset variational fitting. No retraction or concern has been issued.</p>
-<p><strong>AACR-relevant use cases.</strong> The corpus uses Cell2Location in exactly the role its design supports: (1) <strong>Generating supervisory labels for downstream ML</strong> — poster 1441 (TNBC tumor purity from histology) uses Cell2Location-derived spot-level tumor-cell proportions on Visium as the ground-truth labels for training a deep learning model on matched H&amp;E, the cleanest "Cell2Location as upstream annotator" pattern; (2) <strong>Compositional analysis in immuno-oncology</strong> — poster 4952 (NSCLC neoadjuvant chemoimmunotherapy resistance niches) uses cell2location to infer composition before running ligand-receptor and metabolic analyses on MPR-vs-non-MPR samples; (3) <strong>Cross-cohort cell-state mapping</strong> — poster 773 (lung squamous fibrosis) pins Cell2Location v0.9.6 in a multi-tool spatial pipeline alongside scTour. The corpus contains zero head-to-head Cell2Location-vs-RCTD-vs-scGPT-spatial benchmarks; the deconvolver choice is invisible-by-convention. No AACR 2026 session transcript mentions Cell2Location, despite three spatial-transcriptomics-themed sessions on April 20-21 — the workflow is too downstream to surface in plenary talks.</p>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

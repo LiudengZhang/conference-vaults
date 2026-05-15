@@ -13184,128 +13184,34 @@
   
 
 
-<h1 id="gbcc-2025">GBCC 2025<a class="headerlink" href="#gbcc-2025" title="Permanent link">&para;</a></h1>
-<p><strong>Galaxy and Bioconductor Community Conference 2025</strong> — Cold Spring Harbor Laboratory, NY · June 23–26, 2025.</p>
-<blockquote>
-<p><strong>Status:</strong> Scaffold — program ingested; per-tool entries queued. The full session-by-session program (5 oral sessions, 11 lightning talks, 10 hands-on workshops, 50+ posters) has been extracted into <code>_program-extracted.md</code>; bulk tool-page generation is the next pass.</p>
-</blockquote>
-<h2 id="why-this-is-in-the-vault">Why this is in the vault<a class="headerlink" href="#why-this-is-in-the-vault" title="Permanent link">&para;</a></h2>
-<p>GBCC2025 is the <strong>first-ever joint conference between Galaxy and Bioconductor</strong> — bridging the two flagship open-source bioinformatics communities (Galaxy = workflow / web-platform / training; Bioconductor = R packages for statistical genomics). For the AACR tools matrix this is uniquely valuable: it's the one place each year where workflow tools and analysis packages get presented under the same roof, with explicit "package wrapped into Galaxy" sessions making the integration story load-bearing.</p>
-<p>GBCC2025 is the sister event to <strong>EuroBioC2025</strong> (Barcelona, Sep 17–19, 2025) — together they form the two annual community meetings in Bioconductor's calendar. EuroBioC is the European leg with a tighter R/package focus; GBCC is the joint US event where Galaxy workflow tools and Bioconductor packages share the same program. Roughly 30% of GBCC2025 oral talks introduce a named Bioconductor or Galaxy tool; another 20% introduce cross-platform integration scaffolding (e.g., GalaxyMCP, Bioconductor-R-Shiny on Galaxy, automatic R package wrapping).</p>
-<h2 id="what-we-have-to-work-with">What we have to work with<a class="headerlink" href="#what-we-have-to-work-with" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Source</th>
-<th>Coverage</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Schedule (at-a-glance)</strong></td>
-<td>full 4-day grid</td>
-<td><a href="https://gbcc2025.bioconductor.org/program/glance/">gbcc2025 program/glance</a></td>
-</tr>
-<tr>
-<td><strong>Scientific program</strong></td>
-<td>every oral talk: title, speaker, affiliation, session, chair</td>
-<td><a href="https://gbcc2025.bioconductor.org/program/scientific_program/">gbcc2025 scientific_program</a></td>
-</tr>
-<tr>
-<td><strong>Meeting report</strong></td>
-<td>community recap with lightning-talk + workshop summaries</td>
-<td><a href="https://galaxyproject.org/news/2025-07-11-june2025-newsletter/">Galaxy June 2025 newsletter</a></td>
-</tr>
-<tr>
-<td><strong>CSHL meeting page</strong></td>
-<td>conference-level metadata, organizers</td>
-<td><a href="https://meetings.cshl.edu/meetings.aspx?meet=galaxy">meetings.cshl.edu (galaxy)</a></td>
-</tr>
-<tr>
-<td><strong>Repo</strong></td>
-<td>Hugo source for site; speaker/abstract YAML</td>
-<td><a href="https://github.com/Bioconductor/gbcc2025">github.com/Bioconductor/gbcc2025</a></td>
-</tr>
-<tr>
-<td><strong>Abstract book</strong></td>
-<td>full abstracts (PDF)</td>
-<td>URL referenced as <code>meetings.cshl.edu/posters/galaxy25/gbcc25_AbstractBook.pdf</code> — <strong>404 at fetch time</strong>; flagged for retry</td>
-</tr>
-<tr>
-<td><strong>CoFest recap</strong></td>
-<td>which Bioconductor tools wrapped into Galaxy at the post-conf hackathon</td>
-<td><a href="https://blog.bioconductor.org/posts/2025-07-03-bioc-to-galaxy/">Bringing Bioconductor to Galaxy (Bioconductor blog)</a></td>
-</tr>
-<tr>
-<td><strong>Plenary recordings</strong></td>
-<td>keynotes + selected talks</td>
-<td>"GBCC2025 YouTube Playlist" referenced in the meeting report — playlist URL not surfaced in current crawl</td>
-</tr>
-<tr>
-<td><strong>Slides</strong></td>
-<td>varies</td>
-<td>Bioconductor speakers typically deposit to <a href="https://zenodo.org/communities/bioconductor">Zenodo Bioconductor community</a>; Galaxy speakers vary</td>
-</tr>
-</tbody>
-</table>
-<h2 id="program-shape">Program shape<a class="headerlink" href="#program-shape" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Day 1 (Mon Jun 23)</strong> — Registration → dinner → Opening Ceremony → "GBCC2025 LIVE!" evening session.</li>
-<li><strong>Day 2 (Tue Jun 24)</strong> — <strong>Keynote 1: Sergei L. Kosakovsky Pond</strong> (Temple) "Interactive Genomic Analytics with responsive notebooks, in-the-browser computation, and AI-assisted development" → <strong>Oral Session 1</strong> (9 talks; Galaxy infrastructure / AI agents / R-Bioc-into-Galaxy integration; chair Sehyun Oh) → 5 concurrent <strong>workshops</strong> (Galaxy workflows; AI-predicted-outcomes inference; Galaxy backend; autonomous workflows for materials labs; spatial-omics) → <strong>Oral Sessions 2A</strong> (12 talks; Galaxy workflows + ML + multi-omics; chair Jenny Drnevich) <strong>and 2B</strong> (12 talks; Bioconductor packages — RAIDS, signifinder, SEMplR, HiFi-MAG, etc.; chair Vincent Carey) → wine-and-cheese networking → poster session 1.</li>
-<li><strong>Day 3 (Wed Jun 25)</strong> — <strong>Keynote 2: Charlotte Soneson</strong> (Friedrich Miescher Institute) "From classes to community — How Bioconductor has advanced my research" → <strong>Lightning Talks</strong> (11 short talks: Tidyomics, atena, iscream, SummarizedExperiment-tidy interfaces, kinome analysis, FAIR-EASE, Galaxy-E ecology, etc.) → <strong>Birds of a Feather</strong> sessions → <strong>Oral Session 3</strong> (6 talks; imaging × multi-omics, Visium HD, sosta, genome-assembly curation; chair Lambda Moses) → 5 concurrent <strong>workshops</strong> (Bioc-tools-in-Galaxy; microbiome with Bioc; immunopeptidogenomics; AnVIL secure cloud; IGB Galaxy alignment) → <strong>Oral Session 4</strong> (6 talks; community / training / global access; chair Mike Love) → second BoF block → banquet → DJ Party + Galaxy 20th Anniversary celebration.</li>
-<li><strong>Day 4 (Thu Jun 26)</strong> — <strong>Keynote 3: Jason Williams</strong> (CSHL) "Conquest of Abundance: Genomics in a Time of Plenty" → <strong>Oral Session 5</strong> (8 talks; plyxp, microbiome orchestration, predicted-data inference, mitology, Galaxy ecology, infrastructure; chair Scott Cain) → lunch + departure.</li>
-<li><strong>Post-conference (Jun 27–28)</strong> — <strong>CoFest</strong> at the Sandra and Edward Meyer building (separate registration) — Galaxy + Bioconductor hackathon. Featured artifact: GSVA wrapped as a Galaxy tool; on-site team Doyle, Yagudayeva, Soneson, Ramos Pérez.</li>
-</ul>
-<p><strong>Counts:</strong> 3 keynotes · 53 oral talks across 5 sessions · 11 lightning talks · 10 workshops · 50+ posters · ~6 BoF slots.</p>
-<h2 id="organization">Organization<a class="headerlink" href="#organization" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>conferences/gbcc-2025/
-├── index.md                 # this page
-├── _program-extracted.md    # working notes — every talk with package + tags
-├── themes.md                # cross-day synthesis (deferred)
-├── digest/                  # day-by-day recap (deferred)
-│   ├── day-1.md
-│   ├── day-2.md
-│   ├── day-3.md
-│   └── day-4.md
-├── topics/                  # cross-cutting bins (deferred)
-│   ├── galaxy-infra/        # AI agents, MCP, dataset collections, scheduling
-│   ├── bioc-packages/       # short-talk Bioc package introductions
-│   ├── spatial-imaging/     # Visium HD, sosta, histopathology FMs
-│   ├── multi-omics/         # RAIDS, signifinder, gINTomics, MOSClip-adjacent
-│   ├── training-community/  # Africa, Canada, sertão, AnVIL training
-│   └── integration/         # the seam — Bioc-in-Galaxy, R-Shiny-on-Galaxy
-├── tools/                   # PRIMARY artifact — one entry per package or Galaxy tool
-│   └── index.md
-└── sessions/                # full abstracts, indexed (deferred until abstract-book PDF available)
-    └── index.md
-</code></pre></div>
-<p>The <code>tools/</code> directory is, as in the EuroBioC2025 vault, the load-bearing artifact. GBCC adds two new entry shapes the EuroBioC template doesn't quite cover: <strong>Galaxy workflow tools</strong> (web-deployable, often with no R/Python "import" surface) and <strong>integration scaffolding</strong> (e.g., automatic R-package-to-Galaxy wrapping pipelines). The tools/index.md template stub flags this as Open Question 5.</p>
-<h2 id="whats-different-from-eurobioc2025">What's different from EuroBioC2025<a class="headerlink" href="#whats-different-from-eurobioc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Two ecosystems on one program</strong> — every "Bioc package" entry has a sibling "Galaxy tool" question: was it wrapped? is the wrapper PR open? what's its tool-shed ID? The sister-vault cross-link from <code>eurobioc-2025/tools/&lt;pkg&gt;</code> to <code>gbcc-2025/tools/&lt;pkg&gt;</code> matters more here because GBCC is where the wrapping conversation actually happens.</li>
-<li><strong>Galaxy is workflow-first</strong>, conceptually adjacent to <strong>Nextflow Summit 2026</strong> even though the engines and communities differ. Cross-link target: <code>nextflow-2026/</code> — the seam to watch is "what does each platform's tool-wrapping story look like, and which papers reference which?"</li>
-<li><strong>CoFest as a separate artifact</strong> — the post-conference 2-day hackathon produces concrete "package X is now a Galaxy tool" deliverables that don't exist after EuroBioC. These belong in the GBCC vault, not the per-package pages.</li>
-<li><strong>Training and global-access talks are first-class</strong> — Session 4 (Doyle on Bioconductor in Africa; Gauthier on UseGalaxy Canada; Santana on Brazilian sertão research; Kucher on AnVIL training) is structurally larger than EuroBioC's equivalent. We track these as community-talk entries (not tool entries) but link them from the relevant tool pages where applicable.</li>
-</ul>
-<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://gbcc2025.bioconductor.org/">GBCC2025 conference site</a></li>
-<li><a href="https://gbcc2025.bioconductor.org/program/glance/">GBCC2025 schedule (at a glance)</a></li>
-<li><a href="https://gbcc2025.bioconductor.org/program/scientific_program/">GBCC2025 scientific program</a></li>
-<li><a href="https://gbcc2025.bioconductor.org/about/overview/">GBCC2025 about / overview</a></li>
-<li><a href="https://gbcc2025.bioconductor.org/bofs/overview/">GBCC2025 BoFs overview</a></li>
-<li><a href="https://gbcc2025.bioconductor.org/cofest/overview/">GBCC2025 CoFest overview</a></li>
-<li><a href="https://galaxyproject.org/news/2025-07-11-june2025-newsletter/">Galaxy June 2025 newsletter — GBCC meeting report</a></li>
-<li><a href="https://blog.bioconductor.org/posts/2025-07-03-bioc-to-galaxy/">Bringing Bioconductor to Galaxy — CoFest recap (Bioconductor blog)</a></li>
-<li><a href="https://blog.bioconductor.org/posts/2024-09-03-gbcc2025-announcement/">GBCC2025 announcement (Bioconductor blog, 2024-09-03)</a></li>
-<li><a href="https://galaxyproject.org/news/2024-09-03-gbc-c2025/">GBCC2025 announcement (Galaxy hub, 2024-09-03)</a></li>
-<li><a href="https://meetings.cshl.edu/meetings.aspx?meet=galaxy">CSHL meeting page (galaxy)</a></li>
-<li><a href="https://github.com/Bioconductor/gbcc2025">Bioconductor/gbcc2025 GitHub repo</a></li>
-<li><a href="https://zenodo.org/communities/bioconductor">Bioconductor on Zenodo</a></li>
-</ul>
-<h2 id="next-step">Next step<a class="headerlink" href="#next-step" title="Permanent link">&para;</a></h2>
-<p>See <a href="tools/"><code>tools/</code></a> for the per-tool entry template and the talks-with-packages list. After that template is reviewed against the EuroBioC2025 version, the bulk pass populates ~25–30 tool pages from <code>_program-extracted.md</code>. Open question — whether Galaxy workflow tools share the Bioconductor template or get their own variant — is tracked there as Q5.</p>
+<div id="mkdocs-encrypted-content" style="display:none">X+YgVpMnjYdnrEZVgR9aBg==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/gbcc-2025/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

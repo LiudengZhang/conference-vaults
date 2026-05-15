@@ -13142,47 +13142,34 @@
   
 
 
-<h1 id="atena">atena<a class="headerlink" href="#atena" title="Permanent link">&para;</a></h1>
-<p><strong>Transposable-element expression quantification from RNA-seq</strong> — a Bioconductor package implementing multiple TE-quantification methods (ERVmap, TEtranscripts, Telescope) under a single API so analysts can choose, compare, or benchmark approaches for measuring transposable-element activity from bulk RNA-seq.</p>
-<ul>
-<li><strong>Maintainer:</strong> Robert Castelo (Universitat Pompeu Fabra) — <code>robert.castelo@upf.edu</code></li>
-<li><strong>Authors:</strong> Beatriz Calvo-Serra (author), Robert Castelo (author/creator)</li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/atena.html">atena v1.18.0</a></li>
-<li><strong>Source:</strong> <a href="https://git.bioconductor.org/packages/atena">git.bioconductor.org/packages/atena</a></li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/release/bioc/vignettes/atena/inst/doc/atena.html">Introduction</a></li>
-<li><strong>License:</strong> Artistic-2.0</li>
-<li><strong>Status at GBCC2025:</strong> lightning talk teaser</li>
-</ul>
-<h2 id="talk-at-gbcc2025">Talk at GBCC2025<a class="headerlink" href="#talk-at-gbcc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speaker:</strong> Robert Castelo (Universitat Pompeu Fabra)</li>
-<li><strong>Day / session:</strong> Day 3 — lightning talks</li>
-<li><strong>Talk title:</strong> "atena (transposable element analysis)" (lightning teaser)</li>
-<li><strong>Slides:</strong> <em>to verify after publish</em></li>
-<li><strong>Video:</strong> <a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQTJ0O_FIO9ayqaUDfnMo4-4">GBCC2025 playlist</a></li>
-<li><strong>Abstract / schedule:</strong> <a href="https://gbcc2025.bioconductor.org/program/scientific_program/">GBCC2025 program</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>atena ingests RNA-seq alignments and quantifies expression of transposable elements (LINEs, SINEs, ERVs, etc.) under three published method backends — ERVmap, TEtranscripts, Telescope — exposed through one Bioconductor API. Method choice matters because TEs share sequence with ancestral copies and the assignment strategy (best-hit, EM, family-collapsed) drives the answer; atena lets users pick deliberately or compare estimates from the same reads.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> atena re-implements three published multi-mapping read-assignment strategies in R. <strong>ERVmap</strong> filters multi-mappers by hard/soft-clipping ratio (≥0.02), edit-distance ratio (≥0.02), and alignment-score gap (&lt;5). <strong>TEtranscripts</strong> reassigns multi-mappers to TEs proportionally to estimated relative abundance via expectation–maximization. <strong>Telescope</strong> extends the TEtranscripts EM with per-TE reassignment parameters tuned by Bayesian MAP estimation.</p>
-<p><strong>Inputs / outputs.</strong> Input is RNA-seq BAM files plus a TE annotation in RepeatMasker format or GTF; the annotation can be parsed with built-in functions such as <code>OneCodeToFindThemAll</code>. Output is a <code>SummarizedExperiment</code> of TE-level counts with coordinates as <code>GRanges</code>/<code>GRangesList</code>, which slots directly into a downstream DESeq2 / edgeR workflow.</p>
-<p><strong>Key innovation.</strong> A single R/Bioconductor API across three previously separate command-line tools — analysts can swap backends on the same BAM set and compare estimates without leaving R, which makes "did this TE signal survive a method change?" a one-line check.</p>
-<p><strong>Parameters worth knowing.</strong>
-- <code>method</code> — selects the annotation parser / quantification backend (e.g. <code>rmskidentity</code>, <code>rmskbasicparser</code>, <code>OneCodeToFindThemAll</code>, <code>rmskatenaparser</code>).
-- <code>genome</code> — genome assembly identifier (e.g. <code>"dm6"</code>).
-- <code>parsefun</code> — the annotation parsing function.
-- <code>BPPARAM</code> — <code>BiocParallel</code> backend for parallelization.</p>
-<p><strong>Canonical example.</strong> The vignette loads atena and builds a TE annotation with <code>teann &lt;- annotaTEs(genome="dm6", parsefun=OneCodeToFindThemAll, strict=FALSE, insert=500, BPPARAM=SerialParam(progress=FALSE))</code>, then runs quantification against a BAM input under the chosen backend to produce a TE-count <code>SummarizedExperiment</code>.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> axis = bioinfo-tools (TE biology — ERVs, LINE-1, retrotransposon de-repression — is increasingly mainstream in cancer transcriptomics, immunotherapy response, and aging-cancer interfaces)</li>
-<li><strong>GSVA / Bioc-to-Galaxy</strong> (<a href="../bioc-to-galaxy/">entry</a>) — Castelo also leads the GSVA Galaxy-wrapper CoFest deliverable; atena is a candidate next package for the same auto-integration pipeline</li>
-<li><strong>EuroBioC 2025:</strong> not presented</li>
-<li><strong>Nextflow Summit 2026:</strong> not mentioned</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>A lightning teaser at GBCC; the substantive value is the unified API across three published TE-quantification methods. For cancer transcriptomics groups exploring TE / ERV signatures (immunogenicity, replication stress, aging), atena removes the "which tool / will my numbers reproduce" hurdle by carrying all three backends.</p>
+<div id="mkdocs-encrypted-content" style="display:none">UTKnfDie4i9km7OaF19huw==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/gbcc-2025/tools/atena/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

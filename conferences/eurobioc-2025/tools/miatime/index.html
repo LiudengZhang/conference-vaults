@@ -13142,41 +13142,34 @@
   
 
 
-<h1 id="miatime">miaTime<a class="headerlink" href="#miatime" title="Permanent link">&para;</a></h1>
-<p><strong>Microbiome time series analysis</strong> — a Bioconductor package providing tools for longitudinal microbiome studies on top of the (Tree)SummarizedExperiment infrastructure. Sister to the broader <code>mia</code> framework.</p>
-<ul>
-<li><strong>Maintainer:</strong> Tuomas Borman (University of Turku) — <code>tuomas.v.borman@utu.fi</code></li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/miaTime.html">miaTime v1.2.0</a></li>
-<li><strong>Source:</strong> <a href="https://git.bioconductor.org/packages/miaTime">git.bioconductor.org/packages/miaTime</a></li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/3.23/bioc/vignettes/miaTime/inst/doc/miaTime.html">miaTime guide</a></li>
-<li><strong>License:</strong> Artistic-2.0</li>
-<li><strong>Status at EuroBioC2025:</strong> methods talk on the longitudinal extension</li>
-</ul>
-<h2 id="talk-at-eurobioc2025">Talk at EuroBioC2025<a class="headerlink" href="#talk-at-eurobioc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speaker:</strong> Geraldson T. Muluh</li>
-<li><strong>Day / session:</strong> Day 1 (Wed Sep 17, 2025) — morning short-talk session, after the Crowell keynote</li>
-<li><strong>Talk title:</strong> "miaTime framework for longitudinal microbiome studies"</li>
-<li><strong>Slides (Zenodo DOI):</strong> <em>to verify after publish</em></li>
-<li><strong>Video:</strong> not recorded</li>
-<li><strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>miaTime layers time-aware analyses (e.g. trajectories, time-resolved dissimilarity, change-point detection) on top of <code>mia</code>'s TreeSummarizedExperiment containers. The split keeps the core <code>mia</code> package focused on cross-sectional analyses while letting longitudinal users opt in to the time-series surface separately.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> Time-aware operations on a <code>TreeSummarizedExperiment</code>: per-subject samples are ordered by a time column, then beta-diversity (Bray-Curtis by default) is computed either against a reference baseline sample (<code>addBaselineDivergence</code>) or between consecutive timepoints (<code>addStepwiseDivergence</code>). The output is a per-sample divergence score appended to <code>colData</code> so it can be modeled, plotted, or used to flag change-points.</p>
-<p><strong>Inputs / outputs.</strong> Input: a <code>TreeSummarizedExperiment</code> whose <code>colData</code> includes a time-of-sampling column and a subject/group column. Output: the same object with new <code>colData</code> columns for divergence, time-difference to reference, and reference-sample IDs.</p>
-<p><strong>Key innovation.</strong> Keeping longitudinal microbiome methods inside the same <code>(Tree)SummarizedExperiment</code> substrate as the rest of <code>mia</code>, rather than spinning out a parallel data class — so a user can move from cross-sectional <code>mia</code> analysis to time-resolved analysis without reshaping data.</p>
-<p><strong>Parameters worth knowing.</strong> <code>time.col</code> — colData column with sampling time. <code>group</code> — subject/group identifier (divergence is computed within group). <code>name</code> — prefix for the new colData columns. The dissimilarity metric is inherited from <code>mia::getDissimilarity</code> (Bray-Curtis default).</p>
-<p><strong>Canonical example.</strong> Vignette uses the <code>hitchip1006</code> human-gut dataset: <code>addStepwiseDivergence(tse, time.col = "time")</code> appends a Bray-Curtis dissimilarity between each sample and its predecessor in the same subject's series. The resulting <code>colData</code> column can be plotted against <code>time</code> to surface periods of rapid community change versus stability.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> no current dossier</li>
-<li><strong>mia</strong> (<a href="../mia/">entry</a>) — base package; miaTime extends it for time-series studies</li>
-<li><strong>GBCC 2025:</strong> queued</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Borman maintains both <code>mia</code> and <code>miaTime</code> (and presented the <code>mia</code> workshop on Day 2). The two-package split mirrors the <code>Bioconductor</code> convention of keeping core data classes separate from method extensions.</p>
+<div id="mkdocs-encrypted-content" style="display:none">uJtN0QGhmlMV62KVN0n+dA==;wDfLxQKKuwIi/Q5UNuEsGBIRpJcpri01GWxha66BZyZF+2GySWDQOZ3Unwo23FtaBf56KPRZS3S1jiy1ON5PZ485saYnVplCVxfez3aMf1EY9bE+K8hZ1Xhkif7U2GSTWhgTZpEqPhkJVp0ap2bBJSJfYORbv0DOWt0KHAhaPtVTugq3X3IxsKasTKmrzToIwPHTgiq8llA2Xfcoqx+77rhE4Yv2p3gs/St1nqw7LKGN04Pr9d188406rdnPH9hPM8vYLqIjLu12dJi9dy0HKvaFOkuZsJ4gkI245AawRHruh6ZOOyr0MkoU/8XAZjFl0M1VhKKMZJE2dSwnCht4yQBAMgY0PNuY/Y5X8FZkmr5bmqVIF5gUY1bfyv2IxaORpxdb9JtIaoAPmDb1T0TfIwCFTtovCaMDr79skD+TRi/URQjp6DbA4lfu0JnPtVWOeMo1ggR+5+ftMWytsTwpBUEuXPIQTrTmp1paNzcfFx3mXkiKm+3SpP6Whbc2sZT7kb6Wmwb5qpfHPqrJq8LGQ38QocIkEg+0HM789IMC28JyffRAZsTw9PDsBlgwVgdNl5ZQLRBJYhNL70/6qpWMh37VT5qptasgzlIZyc7fVdy0SCiup33MFUaSR8fiRd71xVsdXJRCm+adaKrEmwrfumFV4zrb2RmnLtDgtGcpAIWmqnj72NeMuXDULfnw2TpMaeSUxN/7tm79c0ZQm9O0HdtlZtRlfHyaLwsqmApp3wpkGqx0rdmStmX+S8BhAaL7AbsI01nMaVSqjxHmLi6StwDUUVbOFkHMAVZizhiRBtWZ9g4sz0u+P8Yp7DuK10dIOv0n30VjDGU/WdX5o/uEABbwDv1XHmtJVFqSNAKZyyw7DzU7epx9TGpgbWPKg0nh/RDrcUzvCoY2SebL+mzJ2OvOLu48RopMxU7jTHYuevsKGMGN9acwgF3vWA8rpJQKSGKJrLy7iZSBm/bPWEqdMApA6Ukx+JylkVudMYo0l41hBGXtRpxQfNuFw8GbOBHyRNLVczEYGZgQjUG2agYHpAFn5v0ZU28mBTRnd7XLZ6iMdsmsHqB2rH6VeyZaGiB/rDkTMJpOiF985uiNv5RdbEd04uiIGj+l+GifE4jLqJbyOLM576VghZ7vgklqCh28E0SGx+myQFn1UHO5QfFiX8Ug2QSYWIKtSL6MhePB9OlmpWmNpkUagPqHy01Fi9hLrxZLdqaInE6PCLsnkniGk8Taz6bsoTb0ENDqMwC7ZZ79NRH90hAkRJA2OLo0PSC1TsmJQI8SEGNssbrHlBfZKEf2C4GxZBBFJKexGFSiuU8fb8ABJcup0rj9+NF+XsA0ewEX2IOHQMjEVU5qvcGlWZbaY1RON56nRRFBsiN6Gff74lyVtthpI9YPLwCOoISLUhrVOHJTkSdSS5jKi76j4kwujfQjBYMNH4JuUYU+Ln6APTB4U5/sBw+3WaS+gx9/L9pCSN84pfSdQh4Hb8lQrzHZ6cjjWJyzCMk46u0WJgYP18aKBr7KBwpguHyfO2ZK2uyF4sGn/k1sFnw5NNWwE5jtWN8S9R46cxjmUiUs4hoTvThjz1eP+PVw5LyhzBrIVK94BUAeX9KaWbmJYWgHLAvv8JDN9bNKnsvYAoAoUimAYgMkjOLKR6eXEoX39pLbfuHoO54o+sQDzHMNh2YJi4KmupffLiKU7/UOiLkvR/TyKgVe4uYdwDAE5uZRpgRuR9IWjVhoSXgnBTxTUgyrw5ajn+15yjqvLY15x1W7mBY6FhOYmQdIecyTxzP/yCbzBpc4V0g21r4o9vgGr52A8eGiiGnY3rcRakoCRj7Bp1leno4USkHyE3RyhppBUubASDkFIc55WnLeehcp93HUIwnyaVeD+KhEaGChvf5GwIZ9uzIsBvAaokfXKTuTJ72MdcEsIs6cooIagEBFhhSNTSxOUaURAZxSbuk+17wrGTGeoPK3o7UqfSfss3KjxtRLVthcjrbrpCFZmPIwhXjLhfp0hDmN/mAMj6XPf3wE84JTV6We/NjU30GgNX+FNijElHlHuck0AjPglNgsD9gFxX9eNIM4Wl2A7iIKnKKFpa4AHTw4RmcZNDbCNu4mKHHq7JSbzUFkFkV3KSUafg4e5GbMUmleJgMPxc71/S+5tuwLeJYb8678kZY+fPsYeaUg0aF5lIuEqd/TV3LxBV6xK9iGIiIBSpnvSpdbHrTT9hTC2yjIZ3omJsK6KjSNq0IcNov3zPU25467kYJWjp7Ia0f1dNxNBTswAUcnsflTM5SRV3f3vKPH9QGkYdWLOJATng9h2gn3ngCF3xswaT6ZSIwl1h5VBq9Tv8rB5dXyYEwHNH33NJUMTOQ2e6BQNaE1YGENFlB3pW8caeglB70IHtvksGAAJbDXZfvun9alN2KMZxbKfdbx/x/P8XeQG4t8XGQYytwp2Zj8oj7k1qG+EMhZoXfxvl4BpXaeg9pU1kFwg5l5Do/4SJhbahYlnihI6qh2tQ63zEJfha7zpMF15lPvZuHPcFxeHuDGKywsXB49cMhDyfnWN9R95LI3ZrnYKX8lYjgfaw6+cjtIvDhMeMv5nn6ZUYK90vYXhUE/9d3QxAqFl7WbA34CDloeml4claPaEOAesK0MRLbww4n7x2gtkV+TI+MTCV8y5qWliguoTqQamwjU7rPV/T1Ea4RvMFZtck8zc35pzONvlyQZRL71zZTLDPyQccxPhXT6EQYFZhFtjscaXo2ZecZZsCGCrNcP9Ey05UmUkC8NLGjqT04vpv8TOpSSUp1KZLta9wypvjloIfTnGR6qZHFzI2CWDdpiN3trXM+0vG8W3tdiTVBs8G5roV9XZto+7VMOXx1F4bjh9cbs2GkYNubRuny7biumG++orXrGUhQ6xvNA8n8IukcRnaZQePQUbyQs7WfeAf/mABi9zpoR6dHuBbKHS6N12O8k8lEYudPb2ts0MjtX7jI8GNQO7s8WZP2QmIqu8jS9V1wSkRBwfYsGKskd0KI3hOd3sqKQgp7VRx4xCssRAFgbom+JMDJXep1Ef4bbxwyI6bUECKHGlr0MPoHQOBxVY8IBWEtsTeHAUtwt51v0nDgHLNqe6RLEsdDmuUoWiq6SO4B0NoVe0VwJb0Q/iXIpdjuiRHFhjtYrKNegcwl5AQiXYvJ+aHIClBi31bELLJeeA3ANuiozOMu6IxZtq3wgZ15JpkxMdFSDlZGL1AVZiZsyi00Jl7ALRDUBTok3K4cRLfUw/cRfSn38s1w2mh3H6LFzsvsSQnAxiUh5pVkCrFftnWzTpQnazOTcv+fdygtgSnwHoNjsK0zfdkR5ONlO9yhah1g+kPMIVGF9SkSw0YvpDwNZQbKvA6wIK3O8f1p818MWx53McUMUyfIHbrf2zp6BbmF7fgpN3rOi2TZ/O0LvW8hOH6nH9HDovOsb3Eh9EoMrvxEcajACEMDUDz4lT9xGV4+Fz6cN2IcoVD6hnglEsFWanAbwDVJVJOUUfWV1X+/++h97OEQSZiquizYvF8C8zhLKoBCrfweyuDdDv8v/eTE4gRmOR2EReWsqv/hWcH5ARbi2YnAR139yPh+UcFF9yRznIe6dFO6/PZnFlSAFb4NpxfV/oMEEIU2a7n+lqmF9aiBCxtCirxj65nnuVohWT1xQ9Ux7hbqKyyOwQoKPNbAW55Ic0rcrR+RBj5t0eOlagHUaYEyP6sWX+Q6XYoOePrpdv3rge/rhxEZswLMCyJPWI3kEmvN2iLTvIwDsOoybTGWLt+riMPrVQwgdAZ2OBcYxvW+SXDBk8Zl36CHB8OuwPU0eHOg4T5tGO+1VtTYMRAvXh2Q2QnMYgZXw6GJ6jpZa3dsurIdcwRzRnNtIcUajsuEHiPe6k99TvmAKPnqpdJj/4XJo2CDM7k8cxza+uA5LYj6J6pEWzvYslLKJ8UuUBDl4x6WylnAeapeY3kihu2wW1KqmzH0YkXhuiEeKhM+QkDKqk4PsBdfY2oNX+ZwSEIveGdMOE3bbnobWsoQ/ie1IzilaU2l9Z2jEV+7+iqgwc6yTth1eSY70AJ5B8VJ2E39nh60bhQ46Kbsl4Mns9/zLgcnRdbAIrLJ5yJltOl+dENcCFNn3mKlTd2d0waxiL/jML3OhB+RTsxuPxuhM8ngMCkoDYxoWO841b4aZFmNgwln4wZ9WsY6tBObRugvHCQ5djCMBxgeIr0LNeGkhCxcxjgsPsViwl7MHiagFEejy8U9yT1GtTc3hbWB5fO/qspXKNggMzvB4MOWls03AYj/+Bzm7ygzghaKwsOXhd75LqK8Ax1yIhgIj4XztFNJLQMxEI37Wuy1PEdt+WeqCFklOaHjQELNi9FoWUMrdNm+iWQ1m1hqISLe50y95LLDQE/bsT4/zSHstXygXqvpnZsX5ZTFbGF/jO/aTB3znsEMclUf0Yw3UNp8MwT2szauKWBUJzQyhDq+1mBvH+Z0nOYbahnZ9VVj3RoQGJpQLWblpQfieojloq9PXaNNu0QD5XMq5ucYiK/gWUFfFwgo92r2UHXK9LZijN01Ln1oP1BS0KjCSh43St47IXhO6VC09KZ1MP5oCbxA7u9s7XVa1uoLGf8RgN+7/Vn94Een5x6jMYE+YWxTCD2LaniBp5UOAYv5E55P4e7Lsx7kZmKslT6jLRljz+nGYBho6gLWZEkwNEQecvKiSWxXZlV6l26edNXiVMJUgY44xvCEJjXAOCUop6L8ZIcWiNtlMxO0TKQh3dNrfIeTvOi28wRUN9hVkZXt9WvEkEsuFEHba3AHwU+G/ZFM2BgF2wWzvkG9SnU3n2yZdGKfl+zKnGtHdDIEj9PhZLRA0fFTSkapqPfLMa5Bc/cS3zcKZdgjb3mxgqQk3OeZE3FNIzOWf8rhxOIThzgmsc48pg0oVER8Goip7qDtgH1YlspH5sn8f2dsu907km6R9rqAxLpHWMB3GtmLwbqNDsE/yceYATDthTioX89cyky5BeBkc3jtwQWCDM2xk4N5TdW2VVmgfVUQUXla6g/Am0bZngpXSmCgyQCIylTOgS/UFNsdxPXZhz+tQzjrKlf2ea4n8vQ9AgMNN4auRyGNl38QZ1HTvIFF/xOqEjgPA1Vj9j/WKZEYEuepnKGKYzWAnZ77NjlBA5BGlZ9HQZ2fiJXiuHcjdBDA1WR0fO/AI5aJsTCUxV3joMgdOa2+yoyjXawpKInCklwCSVNWLqjPLjs90JO0PAfXKlcnGlooqJVgbrIAf34nIg5Lm2DaoRWJJYWQuJ73lggk9zhKYMHmcuuWkslyPytOiw31cIdj216v6FIe97HoPgDURKQFVHXOTcBb/0qnyPMKAwdPV7hLgmA4eb7MxpMGidN2KjpOoxZRAX8la/z4f5rPbBtWXpzWifBLofK4V76KAW9XAcQjalkfl5gmc0puhNHSODJ4Qppz18+9W7skilZRg6YEPq+6kKgzBH1H/hb/D2ZCF13+kMAW8WVFof6FbgSTUAqeXBNOJ6KJPvSaECqBKkEgGqAeVMjFsnHSWee+bO8ose0sxOr3aXwjxF9MPnuCtOEjbgD2jhrdk2KFReL1O5gIBQQ3q0+udlwuLd3N69fIpVhWj7BQ5FiWf9aUCq1FN4ekr4z0d7/wMF3iZIvyJgnfa7lZfwTANj3/DbATTv6FSubOUIY24ud9F+4EhSx5SnQjvKhxdKIN9ZZOmuTrcbXOY5/17IRbyJPw2EzkD1BdtxNgM+nBQgnKdi6uJE09u2YgcyefNdG/jCoEghUvzs37TpiINGQdcRIloJqepOR5TLvIVXqQiCjg3LFaSfL0eOO5zDPIFablu+PhI/UHtQCEXM2osQmH6MxyNf9cJ7uVS4k1WL1wp8Mhp8FKTKwRIBf1KS5JWESDZgTQkpFUQgwZ9fUK//5/q413eIpG7HYaPBwutTq/hH5SUJTcw5/oCGUoXgZvXmV3rLAfvOoeJmwD9Zez7foeJwgwXs+ipbmhwug23l6vhHCCDxD3g9/NBqd3TjSFKhenIbZUevMCGdbKTGNE3zpfnrCxJybOWiJ2di8Eeb7qgyGNEQit1Hb58bdCNdaD6eEt8LnwfZjR6IEi99y/sgxFUz0IPzgvGWQDVCKDyk49WXm9ohfRzq77l2qW0immh86ZU2kOxtCXTtS6vgc2oMyxpVolunh1HcOdU/bpaq9q6uAqyzu+2D4684n7XJ10gO9mlK3Iz1URPR6PSx3s6ZLx1m7jM1oVLg6e4qc9jJ6gEBZY4PqRuuQRxiPLJX5DdIcyHQyfmPxcPD0pgzJW5HGrynmKWAM8jXN9++YL7+cPmAxyhmb8UaSaTuM5jeH8XVv7L3GwZ0mjdv544TIUZ3sgFRe0h1p9LFR2jfgiHRGQFrk4ulZbXC2yTIvbkFFznsL2W4z9YDMZ6A4tA/liEx++YuivWlD9DS+zje7ckR50HTmytLcBmLXn2d0vdFzZ9TUkTDaU3d9PJ4n8Oc7YgbeUo4bCqMAIBPw7xPIeLAddFqxenJ2zqpCv4FIDbt5XG4q9q9uEz/VaVX9Y/TlC5u9C8cwTMcTjdS5RuP7hdw5LK3LNXINnHmEn7vsXovxkXajJXVC/EYDc1dh5e7hqUJLfotKOCFbtlmYUQcmRSymAuYY0=</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/tools/miatime/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

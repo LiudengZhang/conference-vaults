@@ -13120,29 +13120,34 @@
   
 
 
-<h1 id="james-sharpe-c3po-cell-3d-positioning-by-optical-encoding">James Sharpe — "C3PO: Cell 3D Positioning by Optical encoding"<a class="headerlink" href="#james-sharpe-c3po-cell-3d-positioning-by-optical-encoding" title="Permanent link">&para;</a></h1>
-<p><strong>Affiliation:</strong> EMBL Barcelona (head of unit; Multicellular Systems Biology)
-<strong>Day / session:</strong> Day 2 (Thu Sep 18, 2025) — morning keynote
-<strong>Talk title:</strong> "C3PO: Cell 3D Positioning by Optical encoding"
-<strong>Slides (Zenodo DOI):</strong> <em>to verify after publish</em>
-<strong>Video:</strong> <a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQS_qvtLJNdDqHL6z5jj5y_7">Bioconductor YouTube — plenaries playlist</a> (keynotes recorded)
-<strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></p>
-<h2 id="thesis">Thesis<a class="headerlink" href="#thesis" title="Permanent link">&para;</a></h2>
-<p>C3PO appears to be a new optical-encoding approach to assign 3D spatial positions to individual cells — a non-trivial problem for dissociated single-cell experiments where the tissue context is lost at sequencing time, and a complementary problem for in-situ methods where segmentation in 3D is hard. Sharpe's lab has historically argued that <em>acquisition geometry</em> is itself a methodological frontier (Optical Projection Tomography, mouse limb development atlases), so the talk likely frames C3PO as another "encode the geometry into the measurement" play rather than reconstructing geometry post-hoc.</p>
-<h2 id="speaker-context">Speaker context<a class="headerlink" href="#speaker-context" title="Permanent link">&para;</a></h2>
-<p>James Sharpe heads the Multicellular Systems Biology unit at EMBL Barcelona and is one of the inventors of Optical Projection Tomography (OPT), a foundational 3D imaging method for developmental biology. His group's signature work has been on mouse limb morphogenesis — combining live imaging, computational modeling, and quantitative cell tracking. Inviting him to a Bioconductor / methods conference signals that the program wants the <em>upstream</em> end of the spatial-omics pipeline represented: the data that downstream R/Python frameworks ingest is shaped by what the microscope and the labeling chemistry can encode. C3PO is, on the title alone, a continuation of that lineage.</p>
-<h2 id="connections-to-the-corpus">Connections to the corpus<a class="headerlink" href="#connections-to-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../../tools/spatialdata/">SpatialData</a> — at the data-substrate level: any 3D-positioning method has to produce coordinates that downstream frameworks (SpatialData, SpatialExperiment) can hold and visualize</li>
-<li>AACR axis: single-cell-spatial-omics — but this is the <em>acquisition</em> end of that axis, not the analysis end; most AACR spatial dossiers are about analysis tools that assume coordinates are already in hand</li>
-<li>Closest analytical kin in the corpus: cross-modality registration / segmentation tooling rather than gene-level methods</li>
-</ul>
-<h2 id="open-questions">Open questions<a class="headerlink" href="#open-questions" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Is C3PO an optical / hardware method, a barcoding-based method, or a hybrid (e.g., spatial barcoding patterns read out by imaging)? The acronym "Optical encoding" hints at hardware-side, but the field has converged on hybrids.</li>
-<li>What is the readout — can it be combined with single-cell sequencing on the same cells (a la Slide-seq / Stereo-seq lineage), or is it imaging-only?</li>
-<li>Is there an open-source software component (a Bioconductor or scverse package) that ships with the method, or is this a pure-method talk in front of a software audience?</li>
-</ul>
+<div id="mkdocs-encrypted-content" style="display:none">rZ6snzPW1f8RhpkIhhAmUQ==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/keynotes/sharpe/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

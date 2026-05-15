@@ -13142,45 +13142,34 @@
   
 
 
-<h1 id="barbieq">barbieQ<a class="headerlink" href="#barbieq" title="Permanent link">&para;</a></h1>
-<p><strong>Analyze barcode data from clonal tracking experiments</strong> — statistical tools for barcode count data from cell clonal tracking experiments, where each clone carries a unique inherited barcode; supports preprocessing, statistical testing, and visualization of clone abundance changes under experimental conditions.</p>
-<ul>
-<li><strong>Maintainer:</strong> Liyang Fei (Peter MacCallum Cancer Centre) — <code>liyang.fei@petermac.org</code></li>
-<li><strong>Bioconductor:</strong> <a href="https://bioconductor.org/packages/release/bioc/html/barbieQ.html">barbieQ v1.4.0</a></li>
-<li><strong>Source:</strong> <a href="https://git.bioconductor.org/packages/barbieQ">git.bioconductor.org/packages/barbieQ</a></li>
-<li><strong>Vignettes:</strong> <a href="https://bioconductor.org/packages/release/vignettes/barbieQ/inst/doc/barbieQ.html">barbieQ introduction</a></li>
-<li><strong>License:</strong> GPL-3</li>
-<li><strong>Status at EuroBioC2025:</strong> methods talk on clonal-tracking statistics</li>
-</ul>
-<h2 id="talk-at-eurobioc2025">Talk at EuroBioC2025<a class="headerlink" href="#talk-at-eurobioc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speaker:</strong> Liyang Fei (Peter MacCallum Cancer Centre)</li>
-<li><strong>Day / session:</strong> Day 2 (Thu Sep 18, 2025) — late-morning short-talk session, before the Ferruz keynote</li>
-<li><strong>Talk title:</strong> "barbieQ package for clonal tracking barcode analysis"</li>
-<li><strong>Slides:</strong> <a href="https://zenodo.org/records/17239082">Zenodo 10.5281/zenodo.17239082</a></li>
-<li><strong>Video:</strong> not recorded</li>
-<li><strong>Abstract / schedule:</strong> <a href="https://eurobioc2025.bioconductor.org/pages/schedule.html">eurobioc2025 schedule</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>barbieQ ingests barcode count tables from clonal-tracking experiments (lentiviral or CRISPR-based barcode libraries delivered into cell populations), performs preprocessing and quality filtering, runs statistical tests for differential clone abundance across experimental conditions, and visualizes how individual clones expand or contract over time. The package is built around a dedicated barcode-experiment data class so that downstream comparisons stay aware of clone-level structure rather than collapsing to bulk counts.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> barbieQ wraps a barcode count matrix in a <code>SummarizedExperiment</code>-backed <code>barbieQ</code> object, partitions clones into "top" vs. low-abundance tails, and applies regression-based tests for significant clonal change across conditions. The specific distribution family used by <code>testBarcodeSignif()</code> is <em>not specified in vignette; needs talk slides</em>.</p>
-<p><strong>Inputs / outputs.</strong> Input is a barcode-by-sample count matrix plus a sample-metadata data frame; the vignette example is a 16,603 × 62 monkey HSPC matrix. Output is the augmented <code>barbieQ</code> object carrying preprocessing flags (top-barcode tags, automatic transformations), pairwise correlations, and test results.</p>
-<p><strong>Key innovation.</strong> Clonal-tracking-specific workflow rather than re-purposing bulk DE machinery — the object carries a top/bottom-barcode partition through downstream steps, so abundance tests are anchored to clones that have enough support to model rather than to the long tail of singletons.</p>
-<p><strong>Parameters worth knowing.</strong>
-- <code>nSampleThreshold</code> (in <code>tagTopBarcodes</code>) — minimum number of samples a barcode must appear in to qualify as "top"; controls the abundance-tail cut.
-- <code>sampleMetadata</code> (in <code>createBarbieQ</code>) — the condition / time-point design used by downstream tests.
-- Automatic transformations on object creation — exact set of transformations <em>not specified in vignette; needs talk slides</em>.</p>
-<p><strong>Canonical example.</strong> The vignette builds <code>exampleBBQ &lt;- createBarbieQ(object = assay(monkeyHSPC), sampleMetadata = colData(monkeyHSPC)$sampleMetadata)</code>, tags abundant clones with <code>tagTopBarcodes(barbieQ = exampleBBQ, nSampleThreshold = 6)</code>, then visualizes the partition with <code>plotBarcodePareto()</code> and <code>plotBarcodeSankey()</code>. Pairwise QC uses <code>plotBarcodePairCorrelation()</code> and <code>plotSamplePairCorrelation()</code>; statistical testing for condition-specific abundance change runs through <code>testBarcodeSignif()</code>.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> clinical-trials axis — clonal tracking is heavily used for drug-resistance and metastasis lineage analysis, which is core AACR territory</li>
-<li><strong>ISMB 2026:</strong> scaffold</li>
-<li><strong>GBCC 2025:</strong> queued</li>
-<li><strong>Nextflow Summit 2026:</strong> not mentioned (different ecosystem)</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Cancer-research relevance: clonal tracking sees use in CRISPR screens, drug-resistance studies, and metastasis seeding experiments — direct overlap with AACR's clinical-research lineage analyses, and one of the more clinically-anchored methods talks at EuroBioC2025.</p>
+<div id="mkdocs-encrypted-content" style="display:none">EAkowu4o95WBVzaiRPot2A==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/eurobioc-2025/tools/barbieq/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

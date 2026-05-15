@@ -13142,45 +13142,34 @@
   
 
 
-<h1 id="galaxymcp">GalaxyMCP<a class="headerlink" href="#galaxymcp" title="Permanent link">&para;</a></h1>
-<p><strong>Model Context Protocol bridge for Galaxy</strong> — an MCP server that exposes Galaxy's tools, workflows, histories, and datasets to any MCP-aware AI client (Claude Desktop, IDE assistants, custom agents). Turns a Galaxy instance into a first-class context source for AI assistants, with conversational analyses materialising as fully reproducible Galaxy histories.</p>
-<ul>
-<li><strong>Authors:</strong> Dannon Baker, Junhao Qiu, Jeremy Goecks, Mike Schatz</li>
-<li><strong>Galaxy tool / platform:</strong> <a href="https://github.com/galaxyproject/galaxy-mcp">galaxyproject/galaxy-mcp</a></li>
-<li><strong>Source:</strong> <a href="https://github.com/galaxyproject/galaxy-mcp">github.com/galaxyproject/galaxy-mcp</a></li>
-<li><strong>Documentation / training:</strong> <a href="https://github.com/galaxyproject/galaxy-mcp/blob/main/mcp-server-galaxy-py/README.md">server README</a></li>
-<li><strong>Status at GBCC2025:</strong> oral talk on an MCP server for Galaxy</li>
-</ul>
-<h2 id="talk-at-gbcc2025">Talk at GBCC2025<a class="headerlink" href="#talk-at-gbcc2025" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Speakers:</strong> Dannon Baker, Junhao Qiu, Jeremy Goecks, Mike Schatz</li>
-<li><strong>Day / session:</strong> Day 2 (Tue Jun 24, 2025) — Oral Session 1, Grace Auditorium (chair: Sehyun Oh)</li>
-<li><strong>Talk title:</strong> "Introducing GalaxyMCP: Integrating AI Assistants with Galaxy Through the Model Context Protocol"</li>
-<li><strong>Slides:</strong> TBD</li>
-<li><strong>Video:</strong> <a href="https://www.youtube.com/playlist?list=PLdl4u5ZRDMQTJ0O_FIO9ayqaUDfnMo4-4">GBCC2025 playlist</a></li>
-<li><strong>Abstract / schedule:</strong> <a href="https://gbcc2025.bioconductor.org/program/scientific_program/">GBCC2025 program</a></li>
-</ul>
-<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h2>
-<p>GalaxyMCP is a Python MCP server (FastMCP + BioBlend) that exposes Galaxy operations — tool search, workflow invocation, history/dataset access, result retrieval — as MCP tools. An AI assistant connects to a Galaxy instance, then accepts human-language instructions and translates them into BioBlend API calls, leaving behind the same auditable Galaxy history a hand-driven session would. Where GAIA is a complete agent product, GalaxyMCP is the substrate: any MCP client (Claude Desktop, Cursor, custom agents) can drive Galaxy through it.</p>
-<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p><strong>Core idea.</strong> A FastMCP-based Python server wraps BioBlend (the official Python client for the Galaxy REST API) and re-exposes Galaxy operations as MCP tools that any MCP-aware client can call. The server is the protocol adapter; BioBlend does the actual REST work.</p>
-<p><strong>Inputs / outputs.</strong> Input is a Galaxy connection (URL + API key, or OAuth-issued temporary key) plus MCP tool calls from a client. Output is JSON-shaped results — search hits, tool descriptors, history/dataset metadata, workflow invocation IDs — flowing back to the AI client over MCP.</p>
-<p><strong>Key innovation.</strong> Roughly 21 specialized MCP tools across five functional groups — tool management (search / view / execute), workflow integration (including pulls from the Interactive Workflow Composer), history operations, dataset and file management, and server info — turning a full Galaxy instance into a first-class MCP context source rather than a single ad-hoc tool.</p>
-<p><strong>Parameters / API surface worth knowing.</strong>
-- Transport: stdio (default, local) or streamable HTTP with optional OAuth (remote / browser clients).
-- Auth: API key via environment variables, or OAuth flow that exchanges credentials for a temporary Galaxy API key.
-- Quickstart: <code>uvx galaxy-mcp</code> (stdio) or <code>uvx galaxy-mcp --transport streamable-http --host 0.0.0.0 --port 8000</code> (HTTP).
-- Configuration: register the server in <code>claude_desktop_config.json</code> with <code>GALAXY_URL</code> and <code>GALAXY_API_KEY</code> env vars.</p>
-<p><strong>Canonical example.</strong> From the README: configure the server in Claude Desktop, then ask the model something like "give a summary with my histories" — Claude calls the MCP <code>list_histories</code> tool, which calls BioBlend, which calls the Galaxy REST API, and the result flows back into the chat as a human-readable summary.</p>
-<h2 id="where-it-fits-in-the-corpus">Where it fits in the corpus<a class="headerlink" href="#where-it-fits-in-the-corpus" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AACR 2026:</strong> axis = agentic AI; the protocol-layer story complements GAIA's product-layer one</li>
-<li><strong>GAIA</strong> (<a href="../gaia/">entry</a>) — sister talk, same authors, same session</li>
-<li><strong>EuroBioC 2025:</strong> no direct equivalent (Bioconductor side has no MCP server yet — gap worth flagging)</li>
-<li><strong>Nextflow Summit 2026:</strong> parallel to "AI control of Nextflow pipelines" discussions</li>
-</ul>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>MCP is Anthropic's open protocol for tool/context exchange between AI assistants and external systems. GalaxyMCP makes Galaxy itself an MCP server, joining the broader MCP ecosystem (filesystem, GitHub, databases, etc.). Strategically the more durable of the two GBCC2025 AI talks — protocol bets tend to outlive specific agent products.</p>
+<div id="mkdocs-encrypted-content" style="display:none">5N9JtKgIJicMhP81R1C0+A==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/gbcc-2025/tools/galaxymcp/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 

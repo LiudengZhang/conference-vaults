@@ -13271,125 +13271,34 @@
   
 
 
-<h1 id="day-2-community-multi-agent-demos-enterprise-stacks-ai-panel">Day 2 — Community, multi-agent demos, enterprise stacks, AI panel<a class="headerlink" href="#day-2-community-multi-agent-demos-enterprise-stacks-ai-panel" title="Permanent link">&para;</a></h1>
-<p><strong>Date:</strong> 2026-05-01
-<strong>Source transcript:</strong> <a href="../../sessions/2026-05-01-nextflow-summit-day-2/"><code>2026-05-01-nextflow-summit-day-2</code></a></p>
-<p>Day 2 was lower-key on product launches and heavier on community structure (training, ambassadors, hackathons), enterprise architecture (Pfizer iFox on Lamin, Microsoft Foundry agent demo, Azure storage tiering), and a closing panel on what AI is doing to the bioinformatician role.</p>
-<hr />
-<h2 id="1-community-training-update">1. Community training update<a class="headerlink" href="#1-community-training-update" title="Permanent link">&para;</a></h2>
-<p><strong>Geraldine "GiGi"</strong> (Seqera Community team)</p>
-<p>The Nextflow training portal: free, Creative Commons, GitHub-Codespaces-based, available in <strong>11 languages</strong>. Two tracks:</p>
-<ul>
-<li><strong>Newcomers:</strong> Hello Nextflow, Nextflow Run</li>
-<li><strong>Experienced:</strong> nf-core training + advanced "side quests"</li>
-</ul>
-<p>Heavy use of <strong>Claude (Anthropic) skills</strong> to update code snippets across courses. Phil's AI-driven translation harness diffs changed sections and re-translates only those — fixes are made in the <strong>prompt, not the file</strong>, so style and pronoun choices propagate to all 11 languages on the next run. Inspired by FastAPI docs community.</p>
-<p>Upcoming: Nextflow Training Week (~2 weeks out).</p>
-<hr />
-<h2 id="2-nextflow-ambassador-program">2. Nextflow Ambassador Program<a class="headerlink" href="#2-nextflow-ambassador-program" title="Permanent link">&para;</a></h2>
-<p><strong>Marcel Ribeiro-Dantas</strong> (Seqera Community team)</p>
-<p>History and stats: started late 2023, grew from 5 → <strong>143 ambassadors</strong>, 16 → <strong>40 countries</strong>, ~700 activities in 2.5 years. Rolling six-month cohorts (Jan / July intake). Incentives: travel/swag/event funding, early access to Seqera releases (Seqera AI, VS Code extension), private channel.</p>
-<p><strong>Top 10 Certificates of Excellence</strong> — James, Julia, Matias, Jose, Firas, Evangelos, Maxim, Cubra, Antoine, plus Fides (Tunisia).</p>
-<p><strong>Hybrid Hackathon (March):</strong> ~70% of local sites hosted by ambassadors.</p>
-<p><strong>Why it matters:</strong> The deliberate non-monetary recognition model is the program's stated load-bearing design choice (keeps it non-competitive).</p>
-<hr />
-<h2 id="3-skipped-vipava-grail-cancelled-live-recorded-talk-to-be-posted-on-youtube">3. <em>(Skipped)</em> — Vipava (Grail) cancelled live; recorded talk to be posted on YouTube.<a class="headerlink" href="#3-skipped-vipava-grail-cancelled-live-recorded-talk-to-be-posted-on-youtube" title="Permanent link">&para;</a></h2>
-<hr />
-<h2 id="4-downstream-rna-seq-analysis-pipeline">4. Downstream RNA-seq analysis pipeline<a class="headerlink" href="#4-downstream-rna-seq-analysis-pipeline" title="Permanent link">&para;</a></h2>
-<p><strong>Reema</strong> (Northeastern University; work begun at Novo Nordisk)</p>
-<p>Custom DSL2 pipeline that <em>starts</em> from the count matrices that nf-core/rnaseq emits.</p>
-<p><strong>Sub-workflows:</strong> gene filtering → optional <strong>ComBat-seq</strong> batch correction → <strong>DESeq2</strong> <em>or</em> <strong>limma-voom</strong> differential expression → optional <strong>FGSEA / MSigDB</strong> pathway analysis. Plus <strong>RNASeqPower</strong> for power analysis, YAML-driven config, optional API ingestion of metadata/counts.</p>
-<p><strong>Live ecosystem moment:</strong> Q&amp;A surfaced overlap with <strong>nf-core/differentialabundance</strong> (already has a built-in Shiny app) — maintainers publicly invited her to merge efforts.</p>
-<hr />
-<h2 id="5-hackathon-recap">5. Hackathon recap<a class="headerlink" href="#5-hackathon-recap" title="Permanent link">&para;</a></h2>
-<p><strong>Marcel</strong> (returning)</p>
-<p>Pitches nf-core hackathons as fun / collaborative / flexible (not competitive). Recap:</p>
-<ul>
-<li><strong>March hybrid hackathon</strong> — 41 projects, 29 local sites, 600 participants, 19 time zones</li>
-<li><strong>Boston in-person</strong> — ~30–40 participants</li>
-</ul>
-<p><strong>Highlighted projects:</strong></p>
-<ul>
-<li><strong>Topic-channels migration</strong> — ~30–40 PRs converting nf-core modules to the <code>versions</code> topic</li>
-<li><strong>GPU variant callers in nf-core/sarek</strong> (Gary, Joe)</li>
-<li><strong>nf-core/cellpainting</strong> (Ken)</li>
-<li><strong>DuckDB integration for Nextflow</strong> — "Eider" h5ad reader (Michael, Edmond, Ben)</li>
-<li><strong>Harrison's AI-agent project</strong> — Antigravity orchestrating multiple agents to auto-fix ~2,000 modules</li>
-<li><strong>Single-cell perturbation pipeline</strong> ("Cosmic AI")</li>
-</ul>
-<p>A ~30-page "host-your-own hackathon" handbook is now available.</p>
-<hr />
-<h2 id="6-lightning-talks">6. Lightning talks<a class="headerlink" href="#6-lightning-talks" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Marcus Sujanski</strong> (MDI Biological Lab, Bar Harbor ME) — <code>sc-samap</code>: Nextflow wrapper around the <strong>SAMap</strong> algorithm (Tarashansky / Wang, Stanford) for cross-species single-cell comparison (axolotl, turquoise killifish, zebrafish). Adds homolog detection, cross-species DE, cell-type-to-cell-type mapping.</li>
-<li><strong>CUNY PhD student</strong> — Two pipelines: Nextflow port of an older Galaxy-based lab pipeline + a downstream analysis pipeline that integrates outputs and produces transcript lists for phylogenetic analysis.</li>
-<li><strong>Unnamed</strong> — Pipeline for circular / non-canonical-splicing RNA quantification; claims top-tier speed and accuracy vs. CD3 benchmark.</li>
-</ul>
-<hr />
-<h2 id="7-multi-agent-workflows-with-microsoft-foundry-nextflow">7. Multi-agent workflows with Microsoft Foundry + Nextflow<a class="headerlink" href="#7-multi-agent-workflows-with-microsoft-foundry-nextflow" title="Permanent link">&para;</a></h2>
-<p><strong>Computational biologist at Microsoft</strong> (book on O'Reilly forthcoming)</p>
-<p>Defines models vs. agents vs. multi-agent workflows (sequential, concurrent, group-chat, human-in-the-loop). Pitches <strong>Microsoft Foundry</strong> (announced Nov 2025):</p>
-<ul>
-<li>Governed model deployment (incl. Hugging Face's ~14k models)</li>
-<li>Agent builder, <strong>Foundry IQ</strong> (RAG over your data)</li>
-<li><strong>Foundry Tools</strong> including a generic MCP connector</li>
-<li><strong>Foundry Local</strong> — auto-quantizes models to local hardware</li>
-</ul>
-<p><strong>Demo:</strong> workflow with a "bioinformatics evaluator" agent + a "Seqera coding" agent connected to Seqera via <strong>MCP</strong>. Given a BioProject ID, the agents autonomously identified plasmodium RNA-seq, picked an nf-core pipeline, drafted and ran the Nextflow command. Cost note: ~$600 in GPT-4o tokens to run the book examples.</p>
-<p><strong>Why it matters:</strong> The autonomous BioProject demo is the conference's strongest "agents end-to-end" data point. The agent identified one of the speaker's own six-year-old datasets with no domain hints.</p>
-<hr />
-<h2 id="8-pfizers-ifox-omics-cross-functions-infrastructure">8. Pfizer's iFox — OMICs cross-functions infrastructure<a class="headerlink" href="#8-pfizers-ifox-omics-cross-functions-infrastructure" title="Permanent link">&para;</a></h2>
-<p><strong>Joe</strong> (Pfizer, Machine Learning &amp; Computational Sciences in Medicine Design Research Unit)</p>
-<p><strong>iFox</strong> (Infrastructure for OMICs Cross-functions) — joint R&amp;D + IT initiative to unify storage / compute / pipelines across Pfizer research units (oncology, immunology, vaccines, drug safety).</p>
-<p><strong>Stack:</strong></p>
-<ul>
-<li><strong>AWS Batch + Seqera Platform</strong> as the backbone</li>
-<li><strong>Lamin / LaminDB</strong> for data lineage, ontology-aware search, artifact versioning (Pfizer's framing: "<em>LaminDB is to data as GitHub is to code</em>")</li>
-<li>Lamin-integrated metadata schema tool (Rebecca White)</li>
-<li><strong>Seqera Studios</strong> for interactive compute</li>
-<li><strong>iFox reference-data ingestion pipeline</strong> (Airflow)</li>
-<li><strong>Evidence</strong> visual analytics platform (built with Austrian partner "David Vision")</li>
-<li>ML model registry + custom genome-manager pipeline</li>
-<li><strong>Bionty</strong> ontologies</li>
-</ul>
-<p><strong>Why it matters:</strong> A relatively rare enterprise adoption story for Lamin. Recruiting note included.</p>
-<hr />
-<h2 id="9-optimizing-nextflow-cost-performance-on-azure">9. Optimizing Nextflow cost &amp; performance on Azure<a class="headerlink" href="#9-optimizing-nextflow-cost-performance-on-azure" title="Permanent link">&para;</a></h2>
-<p><strong>Azure Storage Engineering</strong> (HPC storage products)</p>
-<p>Covers Nextflow's five copy strategies, executor choice (<strong>Azure Batch</strong> vs. <strong>AKS</strong> via Azure CycleCloud), and storage tiering:</p>
-<ul>
-<li><strong>Azure Blob</strong> (object) for cold/output</li>
-<li><strong>Azure Managed Lustre</strong> / <strong>Azure NetApp Files</strong> / <strong>Azure Files NFS</strong> for hot working dirs</li>
-<li>Single-namespace tiered storage: POSIX hot tier in front, object cold tier behind</li>
-</ul>
-<p><strong>Networking:</strong> multi-region endpoints to avoid egress; co-locate compute with storage.</p>
-<p><strong>Mindset shift:</strong> optimize "<strong>science per compute budget</strong>" instead of cores/petabytes purchased.</p>
-<p>Mentions <strong>Seqera Fusion</strong> as the abstraction layer; Azure MCP server can analyze runs and suggest optimizations.</p>
-<hr />
-<h2 id="10-closing-panel-ai-in-bioinformatics">10. Closing panel — AI in bioinformatics<a class="headerlink" href="#10-closing-panel-ai-in-bioinformatics" title="Permanent link">&para;</a></h2>
-<p><strong>Maria Enrique</strong> (Seqera, agentic AI), <strong>Isha</strong> (Seqera scientific engagement lead), a third panelist with microbiology background, <strong>Evan</strong> moderating.</p>
-<p><strong>Themes discussed:</strong></p>
-<ul>
-<li>The bioinformatician's role is shifting from hands-on executor to <strong>orchestrator/architect</strong></li>
-<li>Validating fuzzy biological "ground truth" is the open problem</li>
-<li>IT/governance burden of approving AI tools</li>
-<li>Need for guardrails + human-in-the-loop + sandboxes</li>
-<li>Ownership of AI-generated code (avoiding duplicate solutions)</li>
-<li><strong>Obsidian + Notion as "second brain"</strong> repositories LLMs can search</li>
-<li><strong>MCP servers as the integration backbone</strong></li>
-</ul>
-<p><strong>Closing prediction:</strong> <em>systems</em> will beat <em>models</em> — long-term winners are agent harnesses with reasoning + domain context + tool/data access, not any single frontier model.</p>
-<p><strong>Plugs:</strong> upcoming Seqera Co-Scientist webinar, virtual Nextflow Summit in October, Boston subterranean hackathon.</p>
-<hr />
-<h2 id="cross-cutting-threads">Cross-cutting threads<a class="headerlink" href="#cross-cutting-threads" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>AI/agents everywhere</strong> — training maintenance (Claude skills), code generation, autonomous workflow execution, hackathon project automation.</li>
-<li><strong>MCP as integration substrate</strong> — Seqera, Azure, Foundry connectors all converging on it.</li>
-<li><strong>Governance + trust</strong> — Lamin lineage, audit logs, human-in-the-loop, sandboxed adoption before enterprise rollout.</li>
-<li><strong>Cost-aware cloud architecture</strong> — Azure tiered storage, AWS savings plans, GPT-4o token costs all called out explicitly.</li>
-<li><strong>Community as the moat</strong> — non-competitive hackathons, ambassador recognition, multilingual training.</li>
-</ul>
-<p>See <a href="../../themes/">Themes &amp; takeaways</a> for cross-day synthesis.</p>
+<div id="mkdocs-encrypted-content" style="display:none">Ip4xrzDvZZnw1OttWjiQOg==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
+        <h1>This site is password-protected.</h1>
+        <p>Contact the site owner if you need access.</p>
+        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
+        
+        <p id="mkdocs-decrypt-msg"></p>
+    </form>
+</div>
+
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "conferences/nextflow-2026/digest/day-2/";
+var decryption_failure_message = "Wrong password.";
+var encryptcontent_keystore = ["7rpiNDuSKschGKt/qb1FtA==;O8LP+7MqlkmQfGpKMOGTvphqbGvK9zlTrhff9jOi8hBmrjH590lfG7QXIWJQY69Ku2E6Q83F54KGkzdt00gOm/+noCxcf1tN8TCXUwT8EuFQO7yvUdmw1qRsIYqYcn2U;ZHmjz4on9qBRSwiSUDrpPg=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../../../../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
 
 
 
