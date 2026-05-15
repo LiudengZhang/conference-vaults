@@ -1,0 +1,14 @@
+# Macrophage-dendritic cell-T-cell tetrads orchestrate antitumor immunity and response to checkpoint blockade
+
+**Poster #**: LB086
+**Session**: Late-Breaking Research: Immunology 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Mehdi Chaib, Muhammad Aminu, Shelley Herbrich, Mahshid Arabi, Yue Xuan, Akshay Basi, Anna Casasent, Marc Macaluso, Kenneth Hu, Matthew Gubin, Xi Chen, James Mancuso, Sreyashi Basu, Sonali Jindal, Jared Burks, Stephanie Watowich, Jia Wu, James Allison, Padmanee Sharma
+
+UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Immune checkpoint inhibitors (ICIs) elicit durable responses in only a subset of patients with solid tumors, underscoring the need to define the cellular architectures that govern effective antitumor immunity. Here we identify a spatially organized multicellular immune unit comprising macrophages, cDC1s, CD4&#8314; T-cells, and CD8&#8314; T-cells that emerges in response to anti-CTLA-4 or dual checkpoint blockade. We term these structures tetrads. Using multiplexed imaging and spatial transcriptomics in mouse and human tumors, we show that tetrads assemble early during immune priming, depend on the ICOS-ICOSL pathway, and are enriched for ICOS&#8314; Th1-like CD4&#8314; T cells and ICOSLhigh cDC1s. CD8&#8314; T-cells within tetrads exhibit an activated, non-terminally differentiated state, while tetrad-associated macrophages display an interferon-&#947;-responsive program that sustains CD8&#8314; T-cell function and prevents dysfunction. Functionally, ICOSL&#8314; cDC1s are required for tumor eradication in vivo. In patients with bladder cancer treated with neoadjuvant dual checkpoint blockade, tetrad, but not triad or dyad formation correlates with clinical response. These findings establish tetrads as a fundamental cellular unit coordinating antitumor immunity and responsiveness to ICIs.

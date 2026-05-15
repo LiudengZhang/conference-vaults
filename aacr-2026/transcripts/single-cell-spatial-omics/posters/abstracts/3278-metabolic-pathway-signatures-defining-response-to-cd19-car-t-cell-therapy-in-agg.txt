@@ -1,0 +1,19 @@
+# Metabolic pathway signatures defining response to CD19 CAR T-Cell therapy in aggressive B-cell non-hodgkin lymphoma
+
+**Poster #**: 3278
+**Session**: Metabolic Studies in Brain, Pediatric, and Hematologic Cancers
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Melinda S.Y. Tan1, Panwen Wang2, Patrizia Mondello1, Jacqueline Turner1, Andre de Menezes Silva Corraes1, Chen Wu1, Zuoyi Shao1, Kevin Regan1, Ma Audrey1, Arushi Khurana1, Nora  N.  Benanni1, Yucai Wang1, Paul Hampel1, Jonas Paludo1, Saad J. Kenderian1, Urshila Durani1, Patrick  B.  Johnston3, Jose Caetano Villasboas1, Stephen  M.  Ansell4, Ying Li5, Haidong Dong6, Hu Zeng1, Yi Lin7
+
+1Mayo Clinic, Rochester, MN,2Mayo Clinic, Scottsdale, AZ,3Hematology, Mayo Clinic, Rochester, MN,4Assistant Professor, Div. of Hematology, Mayo Clinic College of Medicine, Rochester, MN,5Mayo clinic, Jacksonville, FL,6Mayo Clinic College of Medicine and Science, Rochester, MN,7Asst. Professor, Div. of Hemat., Mayo Clinic, Rochester, MN
+
+---
+
+Chimeric antigen receptor (CAR) T-cell therapy achieves high response rates in relapsed/refractory aggressive B-cell non-Hodgkin lymphoma, yet only 40% of patients achieve durable remission. Identifying biological programs linked to long-term response remains critical. As metabolic fitness underlies T-cell persistence and effector function, we profiled metabolic pathways associated with clinical outcomes following commercial CD19 CAR T-cell therapy.
+Single-cell RNA sequencing of peripheral blood mononuclear cells collected at baseline (BL), peak CAR-T expansion (PK), and one-month post-infusion (M1) was analyzed using CellRanger v7.0.1, immunopipe. Seurat v4.3.0 was applied for unsupervised clustering to delineate cell subsets based on top differentially expressed genes. Patients were categorized as durable complete remission (CR &#8805;6 months; n = 16), primary refractory (PD1; n = 4), or relapse after initial response (PD2; n = 12). Gene-set enrichment analysis defined metabolic pathway activity across T-cell, monocyte, dendritic cell (DC), and natural killer (NK) subsets.
+Oxidative phosphorylation (OXPHOS) emerged as the dominant metabolic program distinguishing clinical outcomes. At BL and PK, OXPHOS was consistently enriched in PD1 relative to CR across T-cell, monocyte, and DC subsets, suggesting early oxidative activation in non-responders. By M1, this pattern inverted, with higher OXPHOS activity in CR. PD2 largely paralleled PD1, but several subsets including CD8 T central memory, classical monocytes TGF&#946;, intermediate monocytes CD38, monocytic myeloid-derived suppressor cell (mMDSC) HIF1A, and mMDSC SIRPA, showed OXPHOS enrichment in CR at BL and/or PK that persisted through M1. In contrast, DC and NK subsets exhibited the opposite pattern: OXPHOS was enriched in CR at PK (conventional DC 2 (cDC2), plasmacytoid DC (pDC), NK, proliferating NK), but shifted toward enrichment in PD2 at M1 (cDC2, NK, NK CD56bright).
+Glycolysis (GLY) followed a similar trajectory in monocytes and NK cells, with enrichment in PD1/PD2 at BL and PK, followed by enrichment in CR at M1. In T-cells, PD1 maintained GLY enrichment from BL through PK, with no significant differences observed at M1.
+The inositol-phosphate metabolism pathway showed a more static pattern and was consistently enriched in multiple PD2 effector and memory T-cell subsets without reversal at M1.
+Taken together, these data reveal distinct, lineage-specific metabolic signatures that differentiate durable remission from early and late progression. Dynamic OXPHOS and GLY programming, characterized by lower activity early and enhanced activity at M1 in CR, may reflect adaptive metabolic programming that supports sustained antitumor immunity. Immune-metabolic profiling may therefore serve as a biomarker of response and highlight actionable metabolic pathways to enhance CAR T-cell durability.

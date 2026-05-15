@@ -1,0 +1,14 @@
+# Single-cell spatial profiling microRNA in human colon cancer tissue using high-plex multiomic Spatial Molecular Imaging (SMI)
+
+**Poster #**: 2044
+**Session**: MicroRNAs as Cancer Biomarkers, Therapeutic Targets, and Modulators of Treatment Response
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Rachel Liu, Joe Phan, Rustem Khafizov, Kimberly Young, Ashley Heck, Dwayne Dunaway, Sayani Bhattacharjee, Courtney Anderson, Mirko Corselli, Prajan Divakar, Margaret  L.  Hoang, Joseph  M.  Beechem
+
+Research and Development, Bruker Spatial Biology, Seattle, WA
+
+---
+
+MicroRNAs (miRNAs) are small, conserved noncoding RNAs that play an important role in cancer mechanisms and translational research, acting as oncogenes (e.g., miR-21), tumor suppressors (e.g., miR-200 family), and immune modulators (e.g., miR-155). However, miRNAs and their spatial and temporal implications, until now, have not been spatially profiled on an &#8220;omics-scale,&#8221; as short sequence length complicates traditional in situ hybridization probe design. The CosMx&#174; Spatial Molecular Imager (SMI) fills this gap by providing a multiomics platform that profiles over 800 miRNAs spatially in tandem with 64+ proteins and over 1,000 RNAs, allowing the collection of a rich dataset that enables precise cell typing, miRNA imaging, and observation of the tumor microenvironment. Detection is achieved through the attachment of barcode oligos to miRNA targets and rounds of readout reporter binding and fluorescence imaging of these barcodes. Although over 38,000 miRNA sequences are cataloged, only a subset is considered biologically or clinically relevant per the latest miRBase database release. The CosMx miRNA Expression Panel targets these most impactful 827 human miRNAs, including key molecules such as miR-21, miR-200 isoforms, and miR-155, among others.Using the CosMx SMI multiomics workflow, we spatially profiled sections of formalin-fixed paraffin-embedded (FFPE) colon adenocarcinoma miRNA at the highest plex ever achieved at subcellular resolution in combination with same-section protein or RNA data. Results showed distinct miRNA enrichment in tumor cells, revealed miRNA-mRNA interactions, and highlighted regulatory networks across tissue compartments. These results underscore the power of high-plex spatial miRNA imaging for translational and clinical research.

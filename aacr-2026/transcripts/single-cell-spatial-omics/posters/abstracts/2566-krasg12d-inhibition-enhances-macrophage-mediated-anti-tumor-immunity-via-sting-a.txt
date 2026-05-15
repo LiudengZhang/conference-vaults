@@ -1,0 +1,14 @@
+# KRASG12D inhibition enhances macrophage-mediated anti-tumor immunity via STING activation
+
+**Poster #**: 2566
+**Session**: Immunomodulatory Effects of Targeted Therapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Xiaoe He, Xiangyan Jiang, Wengui Shi, Long Qin, Tao Wang, Zuoyi Jiao
+
+Lanzhou University, Lanzhou, China
+
+---
+
+The KRASG12D mutation is a key oncogenic factor in pancreatic cancer, present in over 40% of cases, making it the most prevalent and the most poorly prognostic mutation. However, KRASG12D has been considered "undruggable," and thus remains a challenging target for therapeutic intervention. The novel KRASG12D inhibitor, RMC-9805 (Zoldonrasib), has shown promising efficacy and safety in clinical trials, offering hope to address the therapeutic void in KRASG12D-driven cancers. In this study, we utilized single-cell RNA sequencing to reveal that Zoldonrasib suppresses the SPP1/CD44 intercellular communication between tumor cells and macrophages, while promoting the antigen-presenting function of tumor-associated macrophages. Mechanistically, we observed that Zoldonrasib treatment induces mitochondrial damage and mtDNA release in tumor cells, leading to the activation of the cGAS/STING signaling pathway. Subsequently, STING-mediated phosphorylation of STAT1 inhibits the transcriptional activity of the key SPP1 transcription factor, STAT3, thereby downregulating SPP1 expression in tumor cells. Zoldonrasib enhances macrophage MHC-I antigen presentation by suppressing SPP1/CD44 signaling. In both immune-competent KPC mice and immune-reconstituted PDX models, the use of a clinical-stage STING1 agonist further promoted macrophage antigen presentation and enhanced the therapeutic efficacy of Zoldonrasib, while also sensitizing pancreatic cancer to immune checkpoint inhibitors. This study uncovers the regulatory role of KRASG12D inhibition via Zoldonrasib in anti-tumor immunity and proposes a promising combinatorial therapeutic approach for clinical trials.

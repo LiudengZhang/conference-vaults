@@ -1,0 +1,17 @@
+# SR-A antagonism remodels the myeloid population of tumor immune microenvironment, expands CD8-positive T cells, and enhances antitumor efficacy in vivo
+
+**Poster #**: 2908
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Steven  R.  Post1, Fariba Jousheghany1, Thomas  J.  Kelly1, Charles  M.  Quick1, Behjatolah  M.  Karbassi2
+
+1Pathology, University of Arkansas for Medical Sciences, Little Rock, AR,2University of Arkansas for Medical Sciences, Little Rock, AR
+
+---
+
+Introduction: Tumor-associated macrophages (TAMs) are key regulators of the tumor immune microenvironment (TIME). Macrophage class A scavenger receptors (SR-A) modulate macrophage activation and polarization, and increased SR-A-positive TAMs are associated with poor outcomes in several cancers, including breast cancer. We previously showed that SR-A engagement skews macrophages toward an immunosuppressive phenotype, suggesting that SR-A blockade may reprogram the TIME and enhance antitumor immunity. In this study, we tested whether SR-A blockade reprograms the TIME and limits tumor progression in tumor-bearing mice.
+Methods: EO771 cancer cells were injected into mammary fat pads of syngeneic mice to establish breast tumors. Tumor-bearing mice were treated with an SR-A antagonist or a control, and then CD45&#8314; tumor-infiltrating cells were isolated for single-cell RNA sequencing. In separate cohorts, SR-A blockade was combined with CD137-targeted activation, and mice were euthanized when tumors reached the predefined tumor endpoint (volume &#8805; 1.5 cm&#179;). In parallel, mice were treated with the appropriate controls for both SR-A antagonist and CD137 activation. Tumor volume, time to the tumor endpoint, and the presence of lung metastases were determined. Mice showing complete tumor regression were rechallenged by assessing tumor growth following the injection of EO771 cells into the contralateral mammary fat pad.
+Results: Monotherapy with the SR-A antagonist did not significantly alter primary tumor growth. However, single-cell RNA-seq of CD45&#8314; tumor-infiltrating cells indicated a shift in the polarization of tumor-associated macrophages toward an immunostimulatory, antigen-presenting phenotype, characterized by the upregulation of MHC class II molecules. Further, there was an increase in a cytotoxic T-cell subset characterized by high expression of the CD137 co-stimulatory receptor. Extending these results, we evaluated the effect of combining the SR-A antagonist with targeted CD137 activation. Treating tumor-bearing mice with the combination of SR-A antagonist and CD137 activation significantly inhibited both tumor growth and the proportion of mice that developed lung metastases compared to control-treated mice. Moreover, a subset of treated mice achieved complete tumor regression and rejected subsequent tumor rechallenge, consistent with the generation of durable systemic antitumor immune memory.
+Conclusions: Inhibiting SR-A-dependent interactions reprograms macrophages toward a tumor-hostile, antigen-presenting phenotype, enhances cytotoxic T-cell responses, and synergizes with CD137-targeted activation. Thus, SR-A-blocking strategies may improve the efficacy of co-stimulatory receptor agonists by conditioning the TIME.

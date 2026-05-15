@@ -1,0 +1,14 @@
+# Functional heterogeneity of neutrophils in hepatocarcinogenesis in animal models and human patients
+
+**Poster #**: 1431
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Zhihao Huang1, Wang Xiaopeng2, Wei Dai1, Xin-Yuan Guan1, Feng Gen-Sheng3
+
+1The University of Hong Kong, Hong Kong, China,2Peking University, Beijing, China,3Institute of Cancer Research, Shenzhen Bay Laboratory, Shenzhen, China
+
+---
+
+The role of neutrophils in the tumor microenvironment has been widely reported recently, but the relationship between neutrophil heterogeneity and liver tumorigenesis remains unclear. In this study, we analyzed transcriptomic data from 70707 cells across 184 samples, profiling the progression of liver disease from healthy tissue through non-alcoholic fatty liver disease (NAFLD), non-alcoholic steatohepatitis (NASH), fibrosis, and cirrhosis to hepatocellular carcinoma (HCC). We developed an optimized computational model to evaluate the tumor development index using the single-cell RNA-seq data, which was further validated with independent datasets from various tumor types. Specifically, our analysis revealed a significant positive correlation between the proportion of neutrophils and the tumor development index, suggesting that the neutrophils actively contribute to hepatocarcinogenesis progression. This finding was further confirmed by scRNA-seq data from a c-Myc/Alb-cre mouse model. We also identified neutrophil subtypes with distinct functions, highlighting dynamic functional changes during liver tumorigenesis. These results confirmed that our tumorigenesis model can robustly predict the pre-malignant stage. And they also underscore the role of neutrophils as key mediators in liver tumor progression and provide a framework for targeting the immune microenvironment in HCC.

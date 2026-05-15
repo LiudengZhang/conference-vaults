@@ -1,0 +1,21 @@
+# Unraveling the role of APOE/APOC1/SPP1/TREM2&#8209;positive lipid&#8209;Associated macrophages in destructive venous invasion and metastasis of colorectal cancer
+
+**Poster #**: 4951
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Sanha Hwang
+
+Seoul National University, Seoul, Korea, Republic of
+
+---
+
+Background/Objective
+Venous invasion (VI) is strongly linked to recurrence and poor outcomes in colorectal cancer, especially when the vessel wall is breached (destructive VI). The cellular programs that distinguish destructive VI from intraluminal VI remain unclear. We hypothesized that lipid&#8209;associated macrophages (LAMs) co&#8209;expressing APOE, APOC1, SPP1 and TREM2 remodel the VI niche via lipid metabolic reprogramming, immune suppression and matrix/vascular remodelling, thereby driving metastatic spread.
+Methods
+We analysed 103 metastatic colorectal cancer patients across three platforms. Using GeoMx Digital Spatial Profiler on 67 samples we compared regions of destructive VI tumours, VI&#8209;negative tumours and control vessels. We re&#8209;analysed published single&#8209;cell RNA&#8209;seq data from 60 matched primary-liver&#8209;metastasis pairs for myeloid re&#8209;clustering, differential expression and pathway analysis. We applied Xenium in situ sequencing (5k panel) on 36 tissues to spatially map macrophage states around VI boundaries. Standard normalization, batch correction, multiple&#8209;testing control and ring&#8209;based spatial enrichment around destructive VI edges were applied, with primary contrasts of destructive VI versus VI&#8209;negative/control regions.
+Results
+Across platforms we found a convergent myeloid program. In GeoMx data, tumour microenvironments adjacent to destructive VI exhibited consistent up&#8209;regulation of APOE, APOC1 and SPP1, along with cathepsins (eg CTSB/CTSL), and enrichment of protein secretion, glycolysis and complement/coagulation pathways compared to VI&#8209;negative tumours and control vessels. The single&#8209;cell dataset revealed a distinct TREM2&#8314; TAM cluster co&#8209;expressing APOE/APOC1/SPP1 with lipid&#8209;oxidative signatures, matching LAM&#8209;like macrophages. In Xenium spatial data these macrophages preferentially accumulated at destructive VI boundaries, aligning exactly with suppressed T&#8209;cell activity at sites of vascular breach and tumour escape. Our data confirm a functional interaction between APOE and LRP1, supporting a Jun-APOE-LRP1 axis in colorectal cancer invasion and metastasis.
+Conclusions
+Our multi&#8209;platform study nominates APOE/APOC1/SPP1/TREM2&#8314; LAMs as central players in the destructive VI niche in colorectal cancer, integrating lipid&#8209;metabolic rewiring with matrix/vascular remodelling and immune suppression at vascular breach sites. The confirmed involvement of the Jun-APOE-LRP1 axis points to this pathway as a therapeutic target. These findings support translational efforts to target TREM2 and the APOE-LRP1 axis to intercept metastatic seeding via venous invasion. Functional validation is underway.

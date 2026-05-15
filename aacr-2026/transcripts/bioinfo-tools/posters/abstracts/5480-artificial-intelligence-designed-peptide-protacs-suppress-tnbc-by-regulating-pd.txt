@@ -1,0 +1,12 @@
+# Artificial intelligence-designed peptide PROTACs suppress TNBC by regulating PD-L1 palmitoylation
+
+**Poster #**: 5480
+**Session**: Deep Learning in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Miao LiuHarvard Medical School/MIT, Boston, MA
+
+---
+
+Background: Triple-negative breast cancer (TNBC) responds poorly to immune checkpoint blockade (ICB), partly due to sustained PD-L1 expression on tumor cells. PD-L1 palmitoylation enhances its membrane stability and limits internalization, contributing to immune evasion. Modulating PD-L1 palmitoylation therefore represents an attractive strategy to overcome ICB resistance. Here, we developed an Artificial Intelligence-designed peptide PROTAC platform to regulate PD-L1 palmitoylation and restore anti-tumor immunity in TNBC.Methods: Using an Artificial Intelligence-guided structural peptide-design workflow, we generated membrane-permeable peptide PROTACs composed of: (1) a high-affinity DHHC3-binding peptide, (2) a cell-penetrating peptide module, and (3) a small-molecule E3 ligase ligand. TNBC models (MDA-MB-231 and 4T1) were used to evaluate the effects of these degraders on DHHC3 levels, PD-L1 palmitoylation, PD-L1 expression, T-cell activation, apoptosis, and in vivo antitumor efficacy.Results: The lead Artificial Intelligence-designed degrader efficiently reduced DHHC3, leading to substantial suppression of PD-L1 palmitoylation and marked downregulation of PD-L1 protein at nanomolar concentrations. In vitro, the degrader significantly enhanced T-cell-mediated cytotoxicity and increased IFN-γ and TNF-α secretion. In ICB-resistant 4T1 TNBC models, systemic administration of the peptide PROTAC resulted in strong tumor growth inhibition, outperforming PD-L1 monoclonal antibodies and small-molecule PD-L1 inhibitors. Tumor tissues showed increased apoptosis, reduced Ki67, robust loss of PD-L1, and no detectable systemic toxicity.Conclusions: Artificial Intelligence-designed peptide PROTACs effectively suppress TNBC by regulating PD-L1 palmitoylation. This strategy expands the therapeutic potential of targeted protein degradation and provides a promising approach for highly aggressive and treatment-refractory TNBC.

@@ -1,0 +1,17 @@
+# Spatially resolved multiplex immunofluorescence profiling of antibody-drug conjugate targets in bladder cancer using an AI-powered end-to-end workflow
+
+**Poster #**: 6669
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Christoph Kuppe1, Markus Eckstein2, Samaneh Samiei1, Katharina Dornblut3, Niklas Klümper4, Fabian Schneider5, Moritz Widmaier3, Florian Leiss3
+
+1RWTH Aachen, Aachen, Germany,2FAU Erlangen-Nürnberg, Nurnberg, Germany,3ZEISS Microscopy GmbH, Jena, Germany,4University of Bonn,5Mindpeak GmbH, Hamburg, Germany
+
+---
+
+Background: Bladder cancer is one of the most common malignancies, with significant morbidity and mortality rates. Emerging antibody-drug conjugates (ADC) are promising treatment options for this challenging disease. However, insight about the location and presence of different ADC target molecules is needed to guide treatment decisions. Multiplex immunofluorescent (mIF) offers the opportunity to investigate multiple biomarkers and their spatial distribution at the same time, enabling detailed spatial analysis of ADC targets within a tissue section.
+Methods: We utilized a novel mIF reagent system to analyze formalin-fixed, paraffin-embedded (FFPE) bladder cancer samples from a patient cohort by staining clinically relevant ADC target molecules. Slides were imaged using the ZEISS Axioscan 7 spatial biology system and SlideStream automation for high-throughput, standardized acquisition. Image analysis was performed using Mindpeak PhenoScout integrated to the automated workflow, which employs pre-trained AI models for tissue region segmentation, single cell detection, biomarker positivity, and phenotype classification based on multichannel signal integration.
+Results: We established an mIF assay to investigate different ADC targets in bladder cancer samples. This information, in combination with AI-based analysis, was used to generate an ADC sensitivity profile for each patient.
+Conclusions: Spatially resolved mIF analysis of bladder cancer revealed clinically relevant biomarker signatures, highlighting its potential for patient stratification. The integration of automated imaging and AI-driven analysis ensures robust, reproducible spatial profiling, accelerating the translation of multiplex tissue imaging into precision oncology and personalized treatment approaches.

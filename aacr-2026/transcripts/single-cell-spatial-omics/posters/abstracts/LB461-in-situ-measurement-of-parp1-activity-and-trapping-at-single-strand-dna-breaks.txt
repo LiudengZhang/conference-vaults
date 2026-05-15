@@ -1,0 +1,14 @@
+# In situ measurement of PARP1 activity and trapping at single-strand DNA breaks
+
+**Poster #**: LB461
+**Session**: Late-Breaking Research: Experimental and Molecular Therapeutics 4
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Franek Sierpowski, Katarzyna Fryt, Jakub Lechowski, Zsombor Prucsi, Agnieszka Waligórska, Magdalena Kordon-Kiszala, Kamil Solarczyk
+
+intoDNA S.A., Kraków, Poland
+
+---
+
+Poly(ADP-ribose) polymerase inhibitors (PARPi) have transformed the treatment of tumors with defects in DNA damage repair, yet their clinical activity depends not only on catalytic inhibition but also on PARP1 trapping at single-strand DNA breaks (SSBs). Despite the central role of PARP1 trapping in therapeutic efficacy, resistance, and toxicity, direct methods to measure PARP1 engagement at sites of SSBs in situ are lacking. Current assays rely on indirect surrogates such as global PARylation or downstream DNA damage markers, limiting mechanistic and translational insight. We report the development of sSTRIDE-PARP1, a novel in situ assay that directly detects PARP1 localized at single-strand DNA breaks at single-cell resolution. sSTRIDE-PARP1 enables quantitative measurement of PARP1 engagement at damaged DNA within intact cells. Using this assay, we distinguish cell lines with different basal levels of PARylation and PARP1 activity. Treatment with PARP inhibitors induces a robust increase in sSTRIDE-PARP1 signal, consistent with enhanced PARP1 trapping, and this effect is observed across multiple agents, including olaparib and the PARP1-selective inhibitor saruparib. Importantly, assay specificity is demonstrated by loss of signal in PARP1-deficient cells, confirming that the readout is strictly dependent on PARP1. In summary, sSTRIDE-PARP1 enables direct, functional measurement of PARP1 trapping at single-strand DNA breaks in situ. This assay provides a translational platform for mechanistic characterization of PARP inhibitors, comparative profiling of PARPi trapping capacity, and development of functional biomarkers to support patient stratification, drug development, and resistance studies in DNA damage response targeted therapies.

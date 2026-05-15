@@ -1,0 +1,17 @@
+# Temporal dependency of STAT3 signaling dictates hepatocarcinogenesis in metabolic dysfunction-associated steatohepatitis
+
+**Poster #**: 936
+**Session**: Cancer in the Community: Epidemiology, Experimental Knowledge, Action, and Communication
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Jie Qing Eu1, Nur Afiqah Binte Mohamed Salleh2, Ming Yee Sim2, Zi Swan Tan2, Daniel Q. Huang3, Tuan Zea Tan4, Boon Cher Goh4, Li Ren Kong1
+
+1Nanyang Technological University Singapore, Singapore, Singapore,2National University of Singapore, Singapore, Singapore,3Dept. of Medicine, NUS Yong Loo Lin School of Medicine, Singapore,4Cancer Science Institute of Singapore, Singapore, Singapore
+
+---
+
+Background: Metabolic dysfunction-associated steatohepatitis (MASH) is rapidly surpassing viral and alcoholic etiologies as the leading cause of hepatocellular carcinoma (HCC). Despite so, the molecular checkpoints governing the transition from metabolic injury to malignancy remain poorly understood. Hyperactivated STAT3 has been implicated in lipid dysregulation, inflammation, fibrosis, and oncogenic signaling. However, its dynamic regulation during MASH-to-HCC progression remains undefined.
+Methods: We performed longitudinal profiling of diseased mouse and human liver tissues to map STAT3 signaling dynamics across disease stages. Using the STAM model, we administered a hepatocyte-targeting, GalNAc-conjugated Dicer-substrate siRNA (GalNAc-STAT3) to selectively silence STAT3 at distinct disease phases: (i) early MASH and (ii) post-tumor initiation. Disease outcomes were evaluated using histopathology and serum proteomics. Spatial transcriptomics and immune phenotyping were used to resolve microenvironment- and subtype-specific responses.
+Results: STAT3 suppression exhibited striking stage-specific effects. Early intervention prior to malignant transformation substantially reduced HCC initiation and tumor burden despite persistent steatosis, demonstrating that lipid accumulation alone is insufficient to drive carcinogenesis. Multi-omics analyses identified a STAT3-dependent, TGF-&#946;1-associated fibrogenic and inflammatory program in peritumoral regions that acted as a key molecular driver for malignant progression. In contrast, late intervention failed to reduce tumor nodule formation despite effect STAT3 inhibition, indicating loss of STAT3 dependency following malignant transformation. Spatial interrogation further revealed subtype-specific adaptive remodeling through metabolic re-differentiation in glutamine synthetase (GS)-positive nodule, and activated stress tolerance transcriptional programs in GS-negative tumors.
+Conclusions: This work uncovers a previously unrecognized temporal dependency of STAT3 during MASH-associated hepatocarcinogenesis. STAT3 is essential as an early driver in establishing pro-tumorigenic niche, but is dispensable once malignant cell states emerge. These discoveries redefine the therapeutic window for STAT3 inhibition, positioning it as an early stage interception strategy rather that treatment for advanced tumors.

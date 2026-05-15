@@ -1,0 +1,17 @@
+# In situ KRAS-mapping and spatial -omics characterization in lung premalignancy
+
+**Poster #**: 687
+**Session**: Methods to Measure Tumor Evolution and Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Amanda Lindberg1, Bartosz Sobocki2, Patrick Micke1, Carina Strell1
+
+1Immunology, genetics and pathology, Uppsala University, Uppsala, Sweden,2Department of Oncology and Radiotherapy, Medical University of Gda&#324;sk, Gda&#324;sk, Poland
+
+---
+
+Introduction: Lung cancer symptoms typically do not appear until advanced stages, leading to late diagnoses. This delay is a major contributor to its poor prognosis, resulting in lung cancer being the leading cause of all cancer-related deaths worldwide. Essential biological understanding of how lung cancers arise and progress is still lacking. Studying premalignant lesions that eventually develop into invasive carcinomas helps to bridge this knowledge gap. We are focusing on adenocarcinomas (ACs), the most common subtype of lung cancer, and especially, activating mutations in the Kirsten rat sarcoma virus oncogene (KRAS), which is among the most common oncogenic mutations and has previously been reported in premalignant lung lesions. Given that KRAS signaling is growth-promoting, it is reasonable to assume that KRASmut promotes tumor formation and progression. However, the extent of its influence, the timing of when it arises, and particularly its connection to histologic and phenotypic changes driving tumor evolution, remain unclear.
+Methods: We have collected a cohort from biopsy material, initially collected for diagnostic purposes from AC patients at varying stages of tumor evolution, with some matched &#8216;normal-histology&#8217; samples when available. In total, tissue from 38 patients with AC premalignancies is available for investigation. To map KRAS mutations in situ, we employed a BaseScope assay with commercial detection probes against the different KRASmut transcripts. To map KRAS statuses to cellular phenotypes in the microenvironment, we are running a 6K panel on the CosMx platform (Bruker) on a subset of patients, which is a highly sensitive spatial transcriptomics technique at single-cell resolution. Spatial Mass Spectrometry (MS) tracking metabolic features on the timsTOF flex MALDI-2 (Bruker) is also being performed on a subset of patients.
+Results: Initial tests of the BaseScope assay have revealed specific, yet not sensitive, signals of KRASmut transcripts in premalignant lesions. While advanced cancers display distinct signals, premalignant lesions have fewer, if any, signals. This might be due to the lower expression levels of KRAS at the earlier stages. To address this, we are now applying a BaseScope assay with signal amplification to be able to track KRAS expressed at lower levels. Preliminary analyses of the Spatial MS matrix have revealed highly individual metabolomics features, with great inter-patient heterogeneity. This pattern is also reflected in bulk RNA-seq data, revealing expression profiles more similar across, e.g., Adenocarcinoma in Situ (AiS) and invasive AC from the same patient, than between the AiSs from different patients.
+Conclusions: By applying this state-of-the-art multi-omics approach to premalignant adenocarcinomas, we hope to identify key regulators of early lung cancer progression and to translate these findings to clinically relevant basic molecular diagnostics.

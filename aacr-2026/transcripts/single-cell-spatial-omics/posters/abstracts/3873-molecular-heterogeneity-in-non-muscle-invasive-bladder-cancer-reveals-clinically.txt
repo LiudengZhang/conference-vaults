@@ -1,0 +1,18 @@
+# Molecular heterogeneity in non-muscle invasive bladder cancer reveals clinically divergent subtypes with contrasting Bacillus Calmette-Gu&#233;rin response and clinical outcomes
+
+**Poster #**: 3873
+**Session**: Molecular Classification and Tumor Biology in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Jee-Woo Seo, Il-San Jeong, Yeo-Gyeong Yoon, Jae-Yoon Kim, Seon-Young Kim, Seung-Woo Baek, Seon-Kyu Kim
+
+Korea Research Institute of Bioscience & Biotechnology (KRIBB), Daejeon, Korea, Republic of
+
+---
+
+Background: Non-muscle-invasive bladder cancer (NMIBC) is an early-stage, molecularly heterogeneous malignancy with diverse clinical outcomes from frequent recurrence to occasional progression. Unlike muscle-invasive bladder cancer (MIBC), NMIBC lacks a unified molecular subtype. Current classification systems provide biological insights but offer limited prognostic precision. Although recurrence and progression are often treated as a continuum, recurrent tumors commonly exhibit Bacillus Calmette-Gu&#233;rin (BCG) resistance, whereas progressive tumors tend to respond to BCG, highlighting the need for a precise molecular classification.
+Methods: By integrating ten previously established omics-based classifiers of NMIBC, we identified six clinically and molecularly distinct subtypes. Fifty representative genes per subtype (300 total), designated as the Molecular Heterogeneity of NMIBC 300-gene signature (MHN300), were selected to build an AutoML-based prediction model. The model was trained and validated across 11 independent NMIBC cohorts and 7 single-cell RNA-seq datasets. Each subtype underwent comprehensive molecular characterization, including transcriptomic and genomic analyses, and prognostic relevance was assessed using Kaplan-Meier and Cox regression analyses.
+Results: Six molecularly and clinically distinct NMIBC subtypes (C1-C6) were defined through integration of ten prior classifiers. C1 exhibited early cell-cycle and uroplakin activity, whereas C2 showed pan-fibroblast TGF-&#946; and EMT signaling. C3 combined strong immune and late cell-cycle programs, while C4 and C5 both featured late cell-cycle activation with opposing clinical behaviors; C4 showing favorable BCG response and prolonged progression-free survival (PFS, P < 0.001 by log-rank test), and C5 displayed a high-frequency recurrence NMIBC (24% with &#8805;2 recurrence per year, HR = 5.12, 95% CI 2.82-9.39, P < 0.001 by log-rank test), along with BCG resistance and endothelial enrichment in scRNA-seq. C6 demonstrated FGFR3 and early cell-cycle features. The MHN300 AutoML classifier achieved 0.88 accuracy and was validated across independent cohorts.
+Conclusions: The MHN300 classifier refines the current molecular framework for NMIBC by resolving intra-subtype heterogeneity and delineating biologically coherent, clinically meaningful subgroups with distinct risks of recurrence and progression. This refined taxonomy provides a foundation for subtype-guided precision management of NMIBC.
+Grant Support: This study was supported by grants from the Korea Research Institute of Bioscience and Biotechnology (KRIBB) Research Initiative Program (KGM5192423).

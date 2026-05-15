@@ -1,0 +1,14 @@
+# Bulk RNA-seq atlas guided annotation of tumor transcriptomes
+
+**Poster #**: 1417
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Timmy  T.  Wen, Dusan Pesic, Pedro  L.  Ballester, Josh Nash, Adam Shlien
+
+The Hospital for Sick Children, Toronto, ON, Canada
+
+---
+
+Single-cell RNA sequencing (scRNA-seq) enables high-resolution profiling of cellular heterogeneity, revealing novel transcriptomic states. However, many existing generative and foundational single-cell models are trained predominantly on non-neoplastic data, limiting their accuracy in cancer cell annotation. We present SPOTTER (Seed-guided Prediction Of Tumor Transcriptomes with Ensemble Recognition), a framework that integrates bulk RNA sequencing (bulk RNA-seq) cancer atlases with single-cell data. SPOTTER first classifies individual cells using an ensemble neural network classifier OTTER (Oncologic TranscripTome Expression Recognition), trained on the hierarchical RACCOON (Resolution-Adaptive Coarse-to-fine Clusters OptimizatiON) cancer atlas spanning over 15,000 pediatric and adult cancer samples. High-confidence seed labels are selected using a Gaussian mixture model (GMM) and Gini impurity-based filtering of OTTER scores to exclude low-quality cells with uncertain predictions. These labels are then propagated through scANVI (single-cell Annotation using Variational Inference) to achieve per-cell classifications. Across nine diverse pediatric and adult single-cell and single-nucleus cancer datasets, SPOTTER reliably assigned malignant cells to their expected tumor classes. In Ewing sarcoma samples with matched bulk RNA-seq and single-nucleus RNA-seq (snRNA-seq), SPOTTER recapitulated bulk RNA-seq-defined subtypes at single-cell resolution, distinguishing one subtype enriched for neuronal programs, including SYT1 and SOX6, and another with increased EWS-FLI1 fusion activity and elevated JAK1 signaling&#8212;consistent with subtypes previously identified by OTTER and RACCOON in bulk RNA-seq. By integrating bulk and single-cell analyses, SPOTTER enables characterization of tumor heterogeneity and supports identification of subtype-specific markers to reveal critical insights into the transcriptomic profile of a cancer.

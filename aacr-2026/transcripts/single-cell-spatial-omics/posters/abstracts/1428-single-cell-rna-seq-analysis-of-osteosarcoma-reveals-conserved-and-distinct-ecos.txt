@@ -1,0 +1,17 @@
+# Single cell RNA-seq analysis of osteosarcoma reveals conserved and distinct ecosystems across sites and species
+
+**Poster #**: 1428
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Yogesh Budhathoki1, Matthew Cannon1, Troy  A.  Mceachron2, Anand G. Patel3, Matthew Gust1, Jaime F. Modiano4, Dylan T. Ammons5, Kathryn Cronise5, Daniel Regan5, Heather Gardner6, Ryan D. Roberts1
+
+1Nationwide Children's Hospital, Columbus, OH,2National Cancer Institute, Bethesda, MD,3St. Jude Children's Research Hospital, Memphis, TN,4University of Minnesota, Minneapolis, MN,5Colorado State University, Fort Collins, CO,6Cummings School of Veterinary Medicine, Tufts University, North Grafton, MA
+
+---
+
+Osteosarcoma exhibits profound heterogeneity that has long challenged efforts to understand its mechanisms and advance therapeutic progress. To unravel this complexity, we compiled the largest cross-species single-cell transcriptomic dataset, integrating 775,441 cells from human patients, dog patients, patient-derived xenografts, and mouse models. To our knowledge, this dataset represents the first multi-species, multi-technology, and multi-site (primary and metastatic) harmonization of single-cell data for any solid tumor, enabling a unified framework for interrogating inter- and intra-tumor heterogeneity across biological and evolutionary contexts.
+Through this work, we define subpopulations of osteosarcoma tumor cells that are conserved across tumors, species, and disease sites. These subpopulations span a continuum of differentiation states, from quiescent progenitor-like cells to more differentiated matrix-producing and inflammatory phenotypes, suggesting a conserved developmental hierarchy. Analysis of the stromal compartment revealed both established and previously unappreciated features of osteosarcoma, including the presence of bone-associated osteoclast-like macrophages in both primary and lung metastatic sites and enrichment of inflammatory and scar-associated macrophages in metastatic lung lesions, which we have previously implicated in metastatic progression.
+The resulting atlas provides a rich and unprecedented resource for exploration and discovery. Using this resource, we characterized tumor-host interactions occurring in primary and metastatic sites and compared them across species. This analysis revealed a striking number of matrix-derived signals within metastatic lung lesions, far exceeding those identified in primary bone lesions. For example, we found that tumor-derived fibronectin engages syndecans and integrin receptors on epithelial cells, inducing a pathogenic phenotype remarkably similar to that described in pulmonary fibrosis. Validation of these interactions using spatial transcriptomic data identifies distinct neighborhoods that support specific tumor cell subpopulations, with patterns conserved across samples.
+Collectively, this work establishes a transformative resource and conceptual framework for understanding tumor heterogeneity, evolution, and microenvironmental remodeling. It serves as a powerful platform for hypothesis generation, model fidelity assessment, and therapeutic discovery, guiding the next generation of translational advances in osteosarcoma biology.

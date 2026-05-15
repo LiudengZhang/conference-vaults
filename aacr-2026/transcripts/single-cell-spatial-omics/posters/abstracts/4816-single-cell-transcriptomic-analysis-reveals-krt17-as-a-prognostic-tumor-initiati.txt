@@ -1,0 +1,17 @@
+# Single-cell transcriptomic analysis reveals KRT17 as a prognostic tumor-initiating cell marker in ovarian cancer
+
+**Poster #**: 4816
+**Session**: Contextual Determinants of Cancer Stemness and Tumor Aggressiveness
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jie Wu, Tat San Lau, Kit Ying Loucia Chan, Chi Chiu Wang
+
+Department of Obstetrics and Gynaecology, The Chinese University of Hong Kong, Hong Kong, China
+
+---
+
+Background: Ovarian cancer (OV) is characterized by high rates of recurrence and chemoresistance, which are largely attributed to a subpopulation of cancer cells known as tumor-initiating cells (TICs). The identification of specific biomarkers for TICs is crucial for developing novel prognostic tools and targeted therapies. This study aimed to identify and validate potential TIC markers in OV using a comprehensive bioinformatics approach at the single-cell level.
+Methods: We performed an integrated analysis of publicly available single-cell RNA sequencing datasets from ovarian cancer patients. Malignant epithelial cells were first identified by inferring copy number variations (CNVs). To characterize the heterogeneity within these malignant cells, we quantified cellular stemness using CytoTRACE, reconstructed the differentiation trajectory with Monocle3, and analyzed the cell cycle to assess proliferative states. By integrating these multi-dimensional analyses, we identified a distinct cell subpopulation exhibiting high stemness, an undifferentiated state, and a unique gene expression signature, which we designated as the TIC-like cluster. Candidate markers were defined as the genes specifically upregulated within this functionally characterized cluster. The prognostic significance of the top candidate was then evaluated using bulk RNA-seq and clinical data from an independent cohort from our institution.
+Results: Our analysis successfully identified a distinct subcluster of malignant cells exhibiting significant TIC properties. Differential gene expression analysis of this subcluster pinpointed Keratin 17 (KRT17) as a top-ranking, specifically expressed gene. Crucially, survival analysis demonstrated that high expression of KRT17 was significantly associated with worse overall survival and progression-free survival.
+Conclusion: Through a multi-faceted bioinformatic pipeline, our study identifies KRT17 as a robust candidate marker for TICs in ovarian cancer. The strong correlation between high KRT17 expression and poor patient prognosis underscores its potential as a valuable prognostic biomarker. These findings provide a strong rationale for future experimental studies to validate the functional role of KRT17 in OV tumorigenesis and its utility as a therapeutic target.

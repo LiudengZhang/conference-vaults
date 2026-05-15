@@ -1,0 +1,14 @@
+# Cancer reprograms the remote vascular microenvironment to promote atherosclerosis
+
+**Poster #**: 4790
+**Session**: Angiogenesis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Lingfeng Luo1, Changhao Fu1, Kai-Uwe Jarr2, Richard Baylis3, Virginia Sun3, Julius Heemelaar3, Moritz von Scheidt4, Daniela Ramirez4, Johannes Krefting4, Nadja Sachs5, Justus Wettich5, Hanna Winter5, Hua Gao1, Fudi Wang1, Allen  M.  Haas6, Kevin  T.  Nead7, Lars Mägdefessel5, Heribert Schunkert4, Tomas Neilan3, Nicholas  J.  Leeper1
+
+1Surgery, Stanford University, Stanford, CA,2Cardiology, Angiology, and Pneumology, Heidelberg University Hospital, Stanford, Germany,3Medicine, Massachusetts General Hospital, Boston, MA,4Surgery, Technische Universität München, Munich, Germany,5Vascular and Endovascular Surgery, Technical University Munich, Munich, Germany,6University of Texas MD Anderson Cancer Center, Houston, TX,7Radiation Oncology, University of Texas MD Anderson Cancer Center, Houston, TX
+
+---
+
+Cancer releases a broad repertoire of circulating cytokines and angiogenic factors that remodel distant tissues. However, the remote vascular consequences of tumor-derived inflammatory signaling remain incompletely understood. Our preliminary data suggest that cancer activates a TNF-driven, LRG1-dependent endothelial pro-angiogenic pathway implicated in remote vascular remodeling. We profiled vascular responses to colorectal tumors using bulk and single-cell RNA sequencing of aortic tissues from tumor-bearing versus control mice across diverse backgrounds, endothelial assays stimulated with tumor-conditioned media, O-link proteomics to define tumor-induced circulating mediators, and in vivo perturbation of the TNF-LRG1 axis using a TNF-neutralizing antibody or endothelial-targeted AAV-LRG1 knockdown. Across independent human datasets, we further observed that large cohort studies from both Europe and the United States demonstrate an increased risk of atherosclerotic CVD in cancer survivors, tumor resection is associated with a reduced risk of atherosclerotic events, and biobank tissues from cancer patients display elevated vascular TNF-LRG1 signaling, supporting clinical relevance. In conclusion, cancer upregulates TNF to activate an LRG1-dependent endothelial pathway, driving angiogenesis and vascular remodeling. These findings uncover a previously unrecognized tumor-CVD interaction and identify the TNF-LRG1 axis as a potential therapeutic target to mitigate cancer-induced vascular dysfunction.

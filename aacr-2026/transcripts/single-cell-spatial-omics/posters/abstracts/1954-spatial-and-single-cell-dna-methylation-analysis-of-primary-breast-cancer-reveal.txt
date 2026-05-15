@@ -1,0 +1,17 @@
+# Spatial and single-cell DNA methylation analysis of primary breast cancer reveals lineage independent epigenetic plasticity
+
+**Poster #**: 1954
+**Session**: DNA Methylation
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Ruslan Strogantsev1, Aysegul Ors2, Jamie Endicott3, Aaron  R.  Doe4, Hugo Cros5, Joseph Hwang5, Hisham Mohammed5
+
+1Knight Cancer Institute, Oregon Health & Science University, Portland, OR,2Aysegul Ors (Individual),3OHSU Knight Cancer Institute, Portland, OR,4Oregon Health and Science University, Portland, OR,5CEDAR, Knight Cancer Institute, Oregon Health & Science University, Portland, OR
+
+---
+
+Introduction: Intra-tumoral heterogeneity is governed by the interplay between rigid genetic evolution and plastic epigenetic states. However, dissecting the distinct contributions of these forces remains a challenge. While single-cell methods have traced genetic phylogeny, the spatial logic of epigenetic evolution and the extent to which it acts as an independent driver of phenotype remains unresolved. We present a comprehensive spatial and single-cell multi-omic atlas to decouple these mechanisms.
+Methods: We generated a large-scale dataset comprising single-cell DNA methylation profiles from >22 patients, matched single-cell NMT-seq (nucleosome, methylation, transcription) from 8 patients, and spatial DNA methylation maps from 11 patients. We utilized our spatial sequencing approach achieving high-quality DNA methylation recovery at 50-micron resolution across tumor sections.
+Results: We observed widespread, dramatic demethylation in Partially Methylated Domains (PMDs) characteristic of the cancer genome as expected. By leveraging variable/fluctuating DNA methylation sites as native barcodes, we reconstructed the phylogenetic lineage of each tumor. We demonstrate that epigenetically defined clones are not randomly dispersed but form spatially coherent, adjacent domains, confirming that tumor expansion follows a spatial logic. Integrating matched genetic data, we found that methylation lineages align with Copy Number Variation (CNV) sub-clone status. However, our multi-omic analysis revealed a critical divergence. While sub-clone specific DNA methylation patterns tracked with genetics, we observed dominant epigenetic states characterized by coordinated shifts in chromatin accessibility, transcription factor enrichment, and RNA expression that emerged independently of the underlying genetic phylogeny.
+Conclusion: This study provides the first high-resolution spatial map of epigenetic architecture in cancer. We demonstrate a dual-layer model of evolution: while single CpG epimutations can record the genetic history of the clone, DNA methylation can also simultaneously drive broad, phylogenetically independent state changes that dictates cell phenotype. These findings establish epigenetic plasticity as a distinct, key driver of tumor heterogeneity beyond the constraints of the genome.

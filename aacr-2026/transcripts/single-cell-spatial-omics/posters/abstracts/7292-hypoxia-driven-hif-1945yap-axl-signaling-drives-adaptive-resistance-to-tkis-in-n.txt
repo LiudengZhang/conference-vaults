@@ -1,0 +1,17 @@
+# Hypoxia-driven HIF-1&#945;/YAP-AXL signaling drives adaptive resistance to TKIs in NSCLC
+
+**Poster #**: 7292
+**Session**: Hypoxic and Proteotoxic Stress Response
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yuki Katayama1, Tadaaki Yamada2, Tomoko Yasuhiro2, Ryohei Kozaki3, Shigekuni Hosogi2, Eishi Ashihara4, Koichi Takayama2
+
+1Department of Pulmonary Medicine, Kyoto Prefectural University of Medicine, Kyoto, Japan,2Kyoto Prefectural University of Medicine, Kyoto, Japan,3Ono Pharmaceutical Co., Ltd., Osaka, Japan,4Kyoto Pharmaceutical Univ., Kyoto, Japan
+
+---
+
+Background: Intratumoral hypoxia is a hallmark of solid cancers and promotes invasion, metastatic progression, and drug resistance. However, the mechanisms by which hypoxia contributes to resistance against tyrosine kinase inhibitors (TKIs) in driver-mutant non-small cell lung cancer (NSCLC) remain insufficiently defined. To address this gap, we systematically examined how hypoxic conditions reprogram signaling networks that undermine TKI responses.
+Methods: EGFR-mutant PC-9 and HCC4011 and ALK-rearranged H2228 cells were cultured under normoxia (21% O&#8322;) or hypoxia (1% O&#8322;) and treated with osimertinib or brigatinib. Drug response and signaling were assessed by MTT assays, immunoblotting, and phospho-RTK arrays. Bulk RNA-seq (PC-9; normoxia vs hypoxia, 72 h) supported pathway-level analyses. Mechanistic perturbations included siRNA knockdown, co-immunoprecipitation, nuclear/cytoplasmic fractionation, and immunofluorescence. For spatial analysis of human tumors, multiplex immunofluorescence (HIF-1&#945;, AXL, &#945;-SMA, DAPI) was performed on FFPE EGFR-mutant lung adenocarcinoma specimens and quantified with whole-slide single-cell segmentation and tumor/cancer-associated fibroblast (CAF) classification; CytoMAP nearest-neighbor and 50-&#181;m neighborhood metrics assessed CAF proximity to hypoxic tumor cells.
+Results: Hypoxia reduced sensitivity to osimertinib in PC-9 and HCC4011 and to brigatinib in H2228. RNA-seq in PC-9 highlighted enrichment of hypoxia and PI3K/AKT pathways, indicating RTK network rewiring under hypoxia. Integrative phospho-RTK profiling and downstream validation pinpointed AXL as the dominant hypoxia-responsive node. AXL knockdown restored TKI growth inhibition and the suppression of downstream AKT signaling under hypoxia, and the AXL inhibitor ONO-7475 phenocopied these effects. Mechanistically, hypoxia decreased LATS1/YAP phosphorylation, promoted nuclear YAP, and enhanced HIF-1&#945;-YAP interaction; silencing HIF-1&#945; or YAP inhibited hypoxia-induced AXL expression. In patient specimens, HIF-1&#945;-high tumor cells showed higher AXL intensity and closer proximity to &#945;-SMA&#8314; CAFs within 50-&#181;m neighborhoods, linking hypoxia, AXL upregulation, and CAF-enriched niches.
+Conclusions: Hypoxia induces adaptive resistance to TKIs via HIF-1&#945;/YAP-AXL signaling, linking oxygen stress to RTK reprogramming. Spatial analyses of patient tumors reveal CAF-proximal hypoxic niches with elevated AXL, providing tissue context for this mechanism. These findings support AXL inhibition as a rational combination partner to TKIs to suppress hypoxia-driven adaptive resistance in NSCLC, and motivate future studies to define the clinical conditions under which targeting this axis improves treatment durability.

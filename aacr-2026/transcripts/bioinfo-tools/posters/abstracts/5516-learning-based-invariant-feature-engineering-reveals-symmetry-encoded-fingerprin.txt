@@ -1,0 +1,12 @@
+# Learning-based invariant feature engineering reveals symmetry-encoded fingerprints of cancers that facilitate drug discovery
+
+**Poster #**: 5516
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Cristina Correia1, Choong-Yong Ung2, Cheng Zhang2, Shizhen Zhu2, Hu Li21Department of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic College of Medicine, Mayo Clinic, Rochester, MN,2Mayo Clinic, Rochester, MN
+
+---
+
+Background: Symmetry principles, a long foundational framework in physics and chemistry, have rarely been applied to understand biological phenotypes especially in cancers. Here we examine whether symmetric relationships in gene expression can characterize and differentiate healthy from disease conditions.Method: To test this concept, we built a hybrid machine‑learning framework, Learning‑Based Invariant Feature Engineering (LIFE), that applies two symmetric invariant feature functions, IFF1 and IFF2, to all possible gene pairs in bulk transcriptomic datasets to identify invariant feature genes (IFGs) - gene pairs whose transformed expression values by either IFF1 or IFF2 produce quasi‑constant single‑value outputs within a phenotype despite inter‑individual variability.Results: Using bulk transcriptomes from 25 normal organs (GTEx) and 25 cancer types (TCGA), we computed IFF values for all normally distributed gene pairs, selected the 1000 most stable pairs per phenotype, and evaluated their performance in multiclass classification with five‑fold cross‑validation and independent hold‑out testing. IFGs generated >70% accuracy across organs and cancers, establishing the existence of robust phenotype‑specific symmetry “fingerprints.” Mapping approved and experimental drug targets onto networks construction from IFGs (IF‑Nets) showed strong enrichment of hubs in cancer networks and highlighted the use of IF-Nets as drug discovery platforms in cancer treatment.Conclusion: Our findings demonstrate that gene‑expression symmetry as a unifying organizing principle for phenotype definition and illustrate how IFGs and IF‑Nets can guide biomarker design and symmetry‑aware pharmacological intervention via “symmetry breaking.”

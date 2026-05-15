@@ -1,0 +1,14 @@
+# Multi-scale modeling to predict cancer cell mechanics and migration based on transcriptional state and microenvironment
+
+**Poster #**: 3477
+**Session**: Migration and Invasion
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Esra Tiftik Karabay1, Stephanie  I.  Fraley2, Parag Katira1
+
+1Mechanical Engineering, San Diego State University, San Diego, CA,2Bioengineering, University of California, San Diego, San Diego, CA
+
+---
+
+Cancer is a disease characterized by increasing heterogeneity as it progresses. Single-cell RNA sequencing has shed light on the variety of states that cancer cells can adopt, but connecting transcriptional signatures to functional outcomes remains a major challenge. Here, we have taken a multi-scale modeling approach to connect heterogeneous cytoskeletal gene expression programs exhibited by breast cancer cells to biochemical signaling networks and extracellular matrix conditions that regulate the cellular mechanical state. Our model, G-BoHyM-3D, comprises three key components: transcriptomic data, Boolean-Hybrid-Modular Model (BoHyM), and 3D stochastic cell simulations. We identified multiple signaling nodes that connect various extracellular and gene expression signals to key cytoskeletal proteins. The signaling network is solved using a Boolean Hybrid Modular (BoHyM) approach specifically developed to deal with the distinct timescales and complexities of biochemical signaling processes. This integrated framework predicted differences in cell migration behavior of MDA-MB-231 breast cancer cells based on single-cell transcriptional differences. Further development will offer a versatile and user-modifiable tool for investigating how both extracellular and intracellular signaling mechanisms regulate cellular cytoskeleton components, which in turn influence cell-substrate interactions, force generation, invasion, migration, and emergent phenomena such as collective rotational and invasive cell migration.

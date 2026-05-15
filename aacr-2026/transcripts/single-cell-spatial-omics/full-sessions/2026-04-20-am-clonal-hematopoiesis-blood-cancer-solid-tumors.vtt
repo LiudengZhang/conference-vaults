@@ -1,0 +1,6505 @@
+WEBVTT
+
+1
+00:00:00.080 --> 00:00:03.980
+Welcome everyone, to those in the room and those joining us online,
+
+2
+00:00:04.120 --> 00:00:08.080
+to this major symposium, Clonal Hematopoiesis: Aging
+
+3
+00:00:08.300 --> 00:00:11.400
+and Drivers of Both Blood Cancer and Solid Tumors.
+
+4
+00:00:11.880 --> 00:00:15.480
+My name is Jyoti Nangalia. I'll be chairing the session.
+
+5
+00:00:15.580 --> 00:00:19.200
+I'm a hemato-oncologist based at Cambridge University
+
+6
+00:00:19.220 --> 00:00:22.419
+Hospital, but also the Wellcome Sanger Institute, where I do my research.
+
+7
+00:00:23.220 --> 00:00:25.740
+We have three speakers today. I'm one of them.
+
+8
+00:00:25.900 --> 00:00:29.100
+We have Siddharth Jaiswal, who I'll introduce first.
+
+9
+00:00:30.120 --> 00:00:33.700
+He's a current associate professor of pathology at Stanford?
+
+10
+00:00:34.840 --> 00:00:35.320
+Associate.
+
+11
+00:00:35.800 --> 00:00:36.940
+Associate at Stanford.
+
+12
+00:00:37.860 --> 00:00:41.340
+One of the first people, together with Ben, to describe the concept of clonal
+
+13
+00:00:41.350 --> 00:00:45.100
+hematopoiesis. So we're really fortunate to have amazing speakers with us today.
+
+14
+00:00:46.220 --> 00:00:49.840
+His lab focuses on understanding the biology of aging, of the
+
+15
+00:00:49.860 --> 00:00:53.740
+hematopoietic system in particular, and how these mutations associated with
+
+16
+00:00:53.780 --> 00:00:57.520
+clonal hematopoiesis contribute not only to cancer, but also to age-related
+
+17
+00:00:57.600 --> 00:01:00.060
+phenotypes. So first up, we'll have Dr.
+
+18
+00:01:00.260 --> 00:01:03.940
+Jaiswal, then myself, and after that, Ben Ebert. All right.
+
+19
+00:01:04.041 --> 00:01:05.840
+Over to you, Sid.
+
+20
+00:01:12.200 --> 00:01:16.140
+Thank you, Dr. Nangalia, and it's my great pleasure to be back at
+
+21
+00:01:16.200 --> 00:01:16.860
+AACR
+
+22
+00:01:17.680 --> 00:01:20.040
+presenting our latest work.
+
+23
+00:01:23.780 --> 00:01:24.940
+These are my disclosures.
+
+24
+00:01:27.580 --> 00:01:31.460
+So clonal hematopoiesis is a premalignant expansion
+
+25
+00:01:31.580 --> 00:01:35.500
+of hematopoietic stem cells, typically due to acquired somatic
+
+26
+00:01:35.580 --> 00:01:38.480
+mutations in a handful of driver genes.
+
+27
+00:01:39.860 --> 00:01:43.780
+And we know from first principles, clonal hematopoiesis should be
+
+28
+00:01:44.080 --> 00:01:47.680
+very common with aging. Thanks to great work from the Sanger Institute,
+
+29
+00:01:48.040 --> 00:01:51.980
+we can estimate that there are about 50,000 to 200,000
+
+30
+00:01:52.080 --> 00:01:54.740
+hematopoietic stem cells in adult humans.
+
+31
+00:01:55.740 --> 00:01:59.540
+And we also know that these HSCs acquire about one protein coding
+
+32
+00:01:59.600 --> 00:02:03.540
+mutation every 10 years. Which doesn't sound like a big number, but
+
+33
+00:02:03.620 --> 00:02:07.600
+if you multiply these two figures together, you can calculate that by the
+
+34
+00:02:07.620 --> 00:02:11.021
+age of 70, there will be about 1.4 million
+
+35
+00:02:11.300 --> 00:02:14.940
+protein coding mutations within the HSC pool of each of us.
+
+36
+00:02:15.900 --> 00:02:19.660
+And if just one of these mutations is sufficient to confer a fitness
+
+37
+00:02:19.700 --> 00:02:21.950
+advantage to a hematopoietic stem cell,
+
+38
+00:02:22.960 --> 00:02:25.720
+then these clonal expansions should be common with aging.
+
+39
+00:02:27.620 --> 00:02:31.260
+And indeed, that is what we see. And so I thought it'd be useful to
+
+40
+00:02:32.040 --> 00:02:35.640
+spend one minute just talking about the terminology of clonal hematopoiesis,
+
+41
+00:02:35.720 --> 00:02:37.120
+because it is a bit confusing.
+
+42
+00:02:38.240 --> 00:02:41.820
+So clonal hematopoiesis, as I mentioned, is any clonal
+
+43
+00:02:41.880 --> 00:02:45.760
+expansion due to a fitness-increasing mutation in a
+
+44
+00:02:45.780 --> 00:02:46.880
+hematopoietic stem cell.
+
+45
+00:02:47.870 --> 00:02:51.660
+And we know that clonal hematopoiesis, by this definition, is ubiquitous in
+
+46
+00:02:51.740 --> 00:02:52.460
+all humans.
+
+47
+00:02:53.660 --> 00:02:57.620
+Clonal hematopoiesis can be further subdivided into CH
+
+48
+00:02:58.000 --> 00:03:01.140
+with known cancer-associated driver mutations.
+
+49
+00:03:01.290 --> 00:03:05.200
+So that's how we first identified this state, is by looking
+
+50
+00:03:05.280 --> 00:03:07.760
+in genes that were recurrently mutated in heme
+
+51
+00:03:07.800 --> 00:03:11.710
+malignancies, and then going back to healthy individuals to see if they had
+
+52
+00:03:11.740 --> 00:03:12.700
+those mutations.
+
+53
+00:03:14.660 --> 00:03:18.400
+However, there is also clonal hematopoiesis with unknown driver mutations, and we
+
+54
+00:03:18.440 --> 00:03:21.440
+don't really understand why these mutations expand.
+
+55
+00:03:21.800 --> 00:03:25.690
+But we know that this is almost as common as clonal hematopoiesis with known
+
+56
+00:03:25.760 --> 00:03:26.220
+drivers.
+
+57
+00:03:27.720 --> 00:03:31.400
+And then within the known driver clonal hematopoiesis space, there's
+
+58
+00:03:31.460 --> 00:03:35.380
+what we have defined as CHIP, clonal hematopoiesis of indeterminate
+
+59
+00:03:35.460 --> 00:03:39.260
+potential. That's based on a variant allele fraction of greater than
+
+60
+00:03:39.400 --> 00:03:39.980
+2%.
+
+61
+00:03:41.120 --> 00:03:41.580
+And then
+
+62
+00:03:42.660 --> 00:03:46.540
+clones that are smaller than this are sometimes called micro CH or microCHIP.
+
+63
+00:03:47.800 --> 00:03:51.080
+These are very common, because only a
+
+64
+00:03:51.140 --> 00:03:54.920
+subfraction of these small clones go on to develop into
+
+65
+00:03:54.960 --> 00:03:55.760
+large clones.
+
+66
+00:03:56.800 --> 00:04:00.790
+And then within the CHIP pool, there's CHIP due to single
+
+67
+00:04:00.860 --> 00:04:04.730
+nucleotide variants or indels, so think mutations in TET2 and
+
+68
+00:04:04.780 --> 00:04:05.660
+DNMT3A,
+
+69
+00:04:06.640 --> 00:04:10.180
+and then there's also mosaic chromosomal alterations.
+
+70
+00:04:13.300 --> 00:04:17.190
+So surprisingly, there haven't been that many studies that have reported
+
+71
+00:04:17.190 --> 00:04:20.860
+the prevalence of these different kinds of clonal hematopoiesis all in a single
+
+72
+00:04:20.921 --> 00:04:21.601
+population,
+
+73
+00:04:22.760 --> 00:04:26.480
+mainly because you need whole genome sequencing data to identify clonal
+
+74
+00:04:26.500 --> 00:04:28.360
+hematopoiesis with unknown drivers.
+
+75
+00:04:28.400 --> 00:04:31.700
+It's typically identified because there's an
+
+76
+00:04:32.040 --> 00:04:35.160
+accumulation of passenger mutations, which doesn't occur,
+
+77
+00:04:36.420 --> 00:04:40.080
+at least is not detectable from whole blood sequencing, unless there is an
+
+78
+00:04:40.120 --> 00:04:41.000
+expansion event.
+
+79
+00:04:42.100 --> 00:04:46.080
+But we've done this in a few cohorts now, and this is the prevalence
+
+80
+00:04:46.140 --> 00:04:49.640
+of the different kinds of clonal hematopoiesis as a function of age.
+
+81
+00:04:50.600 --> 00:04:54.530
+So you can see that in those under the age of 60, it's relatively
+
+82
+00:04:54.580 --> 00:04:58.140
+uncommon, about 10% in total. And this
+
+83
+00:04:58.200 --> 00:05:01.960
+rises to about 80% of all individuals who are age 90 or
+
+84
+00:05:02.020 --> 00:05:04.330
+older have a large detectable clone.
+
+85
+00:05:05.380 --> 00:05:09.280
+And you can see that clonal hematopoiesis with indels
+
+86
+00:05:09.320 --> 00:05:13.140
+or single nucleotide variants is almost as common
+
+87
+00:05:13.240 --> 00:05:16.280
+as clonal hematopoiesis with unknown drivers.
+
+88
+00:05:20.400 --> 00:05:24.360
+And one of the bigger surprises in the initial surveys of clonal
+
+89
+00:05:24.380 --> 00:05:28.180
+hematopoiesis was the spectrum of genes that we typically
+
+90
+00:05:28.260 --> 00:05:29.040
+see mutated.
+
+91
+00:05:30.300 --> 00:05:34.000
+And if you think about typical oncogenes, things like
+
+92
+00:05:34.020 --> 00:05:37.620
+RAS signaling pathway or tumor suppressors, like
+
+93
+00:05:37.660 --> 00:05:39.960
+TP53 loss of function mutations.
+
+94
+00:05:40.780 --> 00:05:44.240
+We do see these in clonal hematopoiesis, but they're
+
+95
+00:05:44.340 --> 00:05:47.480
+relatively uncommon. Only about 10% of the total.
+
+96
+00:05:49.320 --> 00:05:53.260
+Instead, the other 90% seems to be genes that are involved in
+
+97
+00:05:53.340 --> 00:05:56.820
+epigenetic regulation, like DNMT3A, TET2,
+
+98
+00:05:57.180 --> 00:05:59.740
+ASXL1, or spliceosome factor
+
+99
+00:05:59.800 --> 00:06:03.748
+mutations.And so why are these particular genes that
+
+100
+00:06:03.788 --> 00:06:06.768
+don't seem to have an obvious link to
+
+101
+00:06:07.828 --> 00:06:11.008
+oncogenes or tumor suppressors, why are they positively selected?
+
+102
+00:06:12.328 --> 00:06:15.928
+And we hypothesized that we could make headway into this
+
+103
+00:06:16.428 --> 00:06:19.248
+question by studying it directly in humans.
+
+104
+00:06:20.408 --> 00:06:24.028
+And specifically, if we could identify a way to
+
+105
+00:06:24.088 --> 00:06:27.848
+calculate the clonal expansion rate in a large number of people,
+
+106
+00:06:28.908 --> 00:06:32.708
+we could do large-scale association studies to try to figure out why these
+
+107
+00:06:32.748 --> 00:06:34.588
+particular genes are mutated.
+
+108
+00:06:36.608 --> 00:06:40.228
+And so we developed a method that we call passenger approximated
+
+109
+00:06:40.428 --> 00:06:41.588
+clonal expansion rate.
+
+110
+00:06:43.408 --> 00:06:47.028
+So this is a method that uses the total number of passenger
+
+111
+00:06:47.128 --> 00:06:51.058
+mutations in a clone to infer how old that
+
+112
+00:06:51.148 --> 00:06:51.688
+clone is.
+
+113
+00:06:52.598 --> 00:06:56.568
+So basically, these passenger mutations are accumulated linearly with respect
+
+114
+00:06:56.608 --> 00:06:57.068
+to time,
+
+115
+00:06:58.168 --> 00:07:01.808
+and so it's like a timestamp for when that clone was born.
+
+116
+00:07:03.868 --> 00:07:07.428
+And once we know how old that clone is, we can infer how quickly it's been
+
+117
+00:07:07.468 --> 00:07:11.408
+growing using a simple linear regression model, as shown here.
+
+118
+00:07:12.448 --> 00:07:16.228
+And what we hypothesized was that the residual, so if you plot the
+
+119
+00:07:16.288 --> 00:07:18.948
+passenger mutations versus the input variables
+
+120
+00:07:19.948 --> 00:07:23.838
+for each individual, which is shown by a dot here, the residual, which is
+
+121
+00:07:23.868 --> 00:07:27.708
+the difference on the y-axis from the line of best fit to their
+
+122
+00:07:27.768 --> 00:07:31.648
+number of passenger mutations, that should be a measure of the
+
+123
+00:07:31.708 --> 00:07:34.128
+fitness of that clone in that individual.
+
+124
+00:07:35.968 --> 00:07:39.128
+And so we went on to validate this method in several ways.
+
+125
+00:07:40.488 --> 00:07:44.128
+And one of the things that we found was that the specific driver
+
+126
+00:07:44.188 --> 00:07:47.768
+mutation itself is a pretty large determinant of clonal
+
+127
+00:07:47.828 --> 00:07:48.268
+fitness.
+
+128
+00:07:49.168 --> 00:07:52.668
+So these are our PACER fitness estimates for the most common
+
+129
+00:07:52.728 --> 00:07:54.248
+drivers seen in CHIP.
+
+130
+00:07:55.308 --> 00:07:58.868
+These are all shown relative to DNMT3A mutations.
+
+131
+00:07:59.128 --> 00:08:03.088
+And what you'll note is that most of the drivers have a higher fitness
+
+132
+00:08:03.188 --> 00:08:05.448
+than DNMT3A. So DNMT3A,
+
+133
+00:08:06.288 --> 00:08:09.728
+somewhat paradoxically, despite being the most commonly mutated gene,
+
+134
+00:08:10.388 --> 00:08:12.747
+also has one of the lowest fitness scores.
+
+135
+00:08:14.508 --> 00:08:14.568
+The
+
+136
+00:08:15.668 --> 00:08:18.948
+highest fitness scores were seen in the spicy som genes,
+
+137
+00:08:19.068 --> 00:08:23.038
+U2AF1, SRSF2, and SF3B1. JAK2 was
+
+138
+00:08:23.088 --> 00:08:26.418
+also quite high. And then in the middle, you see a lot of
+
+139
+00:08:26.448 --> 00:08:30.148
+genes that are common, TET2, PPM1D,
+
+140
+00:08:30.368 --> 00:08:31.988
+ASXL1, et cetera.
+
+141
+00:08:35.108 --> 00:08:38.968
+So we know that driver mutation is a major determinant of growth rate,
+
+142
+00:08:39.808 --> 00:08:43.728
+but we wanted to know, using our method, what environmental
+
+143
+00:08:43.739 --> 00:08:47.568
+and genetic factors may also drive positive selection of these clones.
+
+144
+00:08:51.028 --> 00:08:54.068
+So we turned first to environmental factors.
+
+145
+00:08:54.328 --> 00:08:56.528
+And this is data taken from the UK Biobank,
+
+146
+00:08:57.908 --> 00:09:01.808
+as well as some other cohorts. So we first measured
+
+147
+00:09:02.188 --> 00:09:05.948
+biomarkers or demographic factors that were available in this data
+
+148
+00:09:06.088 --> 00:09:09.688
+set and asked, did any of these associate with clonal expansion rate?
+
+149
+00:09:11.328 --> 00:09:15.068
+And you can see that of these commonly assessed demographic
+
+150
+00:09:15.128 --> 00:09:18.948
+variables, including sex, smoking, diabetes, BMI,
+
+151
+00:09:19.568 --> 00:09:21.628
+inflammation, and air pollution,
+
+152
+00:09:22.488 --> 00:09:26.368
+only smoking was associated positively with clonal
+
+153
+00:09:26.428 --> 00:09:27.208
+expansion rate.
+
+154
+00:09:28.308 --> 00:09:32.048
+This was a little surprising given the amount of animal model data
+
+155
+00:09:32.108 --> 00:09:34.108
+supporting things like
+
+156
+00:09:35.308 --> 00:09:39.248
+obesity or inflammation as being drivers of clonal
+
+157
+00:09:39.288 --> 00:09:41.108
+expansion, at least in mice.
+
+158
+00:09:42.348 --> 00:09:45.028
+However, we did not see these associations in humans.
+
+159
+00:09:45.248 --> 00:09:48.448
+The reasons for that difference are not entirely clear.
+
+160
+00:09:51.688 --> 00:09:53.468
+We've also looked at this in other ways.
+
+161
+00:09:53.508 --> 00:09:56.768
+This is a collaborative project with Alex Bick's group at Vanderbilt.
+
+162
+00:09:57.828 --> 00:10:01.688
+And what his group did was to create polygenic risk scores
+
+163
+00:10:01.748 --> 00:10:05.368
+for different protein levels that you might have in your body,
+
+164
+00:10:06.348 --> 00:10:09.988
+and then asked if you have a higher genetic risk of having
+
+165
+00:10:10.008 --> 00:10:11.248
+certain proteins
+
+166
+00:10:12.328 --> 00:10:16.008
+circulating in your body, does that associate with clonal expansion rate?
+
+167
+00:10:17.328 --> 00:10:20.828
+And what we found generally was that genetically
+
+168
+00:10:20.968 --> 00:10:24.768
+predicted cytokine levels were not very predictive
+
+169
+00:10:25.568 --> 00:10:29.108
+for clonal expansion rate. The one exception being there was a modest
+
+170
+00:10:29.128 --> 00:10:33.058
+association between predicted IL6 levels and the
+
+171
+00:10:33.128 --> 00:10:35.308
+rate of growth of DNMT3A clones.
+
+172
+00:10:36.488 --> 00:10:40.208
+And then there were a handful of other TNF-like factors that were
+
+173
+00:10:40.268 --> 00:10:43.668
+also modestly associated with DNMT3A clonal
+
+174
+00:10:43.848 --> 00:10:44.468
+expansion.
+
+175
+00:10:45.668 --> 00:10:49.568
+So overall, what our findings have seemed to indicate thus far is
+
+176
+00:10:49.628 --> 00:10:53.408
+that of the measured environmental factors that
+
+177
+00:10:53.648 --> 00:10:54.668
+we can assess,
+
+178
+00:10:55.548 --> 00:10:59.088
+it's really only smoking that seems to have a strong correlation
+
+179
+00:10:59.308 --> 00:11:00.428
+to growth rate.
+
+180
+00:11:02.288 --> 00:11:06.248
+And so we then hypothesized that perhaps we could
+
+181
+00:11:06.288 --> 00:11:10.208
+do a genome-wide association study or a GWAS to
+
+182
+00:11:10.288 --> 00:11:13.948
+look for germline variants of clonal expansion rate to
+
+183
+00:11:13.968 --> 00:11:17.848
+reveal genes or pathways that may be associated with
+
+184
+00:11:17.888 --> 00:11:18.968
+fitness advantage.
+
+185
+00:11:22.748 --> 00:11:25.388
+And this is the result of our first survey.
+
+186
+00:11:26.368 --> 00:11:29.328
+So this was done in the TOPMed cohort.
+
+187
+00:11:30.048 --> 00:11:33.248
+This finding has been replicated now in additional cohorts.
+
+188
+00:11:34.488 --> 00:11:38.148
+And what we found was that there was a single locus that reached
+
+189
+00:11:38.208 --> 00:11:40.168
+genome-wide significance in the survey.
+
+190
+00:11:41.408 --> 00:11:44.008
+The lead polymorphism in that locus is called
+
+191
+00:11:44.228 --> 00:11:47.908
+RS2887399. It's a single nucleotide
+
+192
+00:11:47.968 --> 00:11:51.288
+polymorphism in the promoter of a gene called TCL1A.
+
+193
+00:11:52.488 --> 00:11:54.568
+The reference allele is a guanine.
+
+194
+00:11:54.748 --> 00:11:56.568
+The alternative allele is a thymine.
+
+195
+00:11:57.408 --> 00:12:01.128
+And what we observed is that the alt allele was associated with slower
+
+196
+00:12:01.368 --> 00:12:04.128
+clonal expansion in several
+
+197
+00:12:04.268 --> 00:12:07.888
+non-DNMT3A driver genes, including TET2,
+
+198
+00:12:08.028 --> 00:12:09.888
+ASXL1, and some splicing
+
+199
+00:12:09.968 --> 00:12:13.638
+factors.TCL1A is an interesting
+
+200
+00:12:13.678 --> 00:12:17.118
+gene because it has been studied in the context of heme
+
+201
+00:12:17.138 --> 00:12:20.618
+malignancies before. It was originally cloned by Carlo
+
+202
+00:12:20.718 --> 00:12:24.618
+Croce's lab back in the 1990s because it was found in
+
+203
+00:12:24.678 --> 00:12:28.238
+a translocation in a rare malignancy called
+
+204
+00:12:28.318 --> 00:12:31.878
+T-prolymphocytic leukemia. That's a leukemia of mature T
+
+205
+00:12:31.978 --> 00:12:35.918
+cells. And this translocation causes the TCR alpha locus
+
+206
+00:12:35.958 --> 00:12:39.938
+to come into proximity with TCL1A to drive aberrant
+
+207
+00:12:39.978 --> 00:12:43.658
+expression of TCL1A in the mature T cells, and it's thought to be the causal
+
+208
+00:12:43.678 --> 00:12:45.478
+driver of that malignancy.
+
+209
+00:12:46.398 --> 00:12:49.758
+However, there was no known link between this gene and myeloid
+
+210
+00:12:49.778 --> 00:12:52.098
+malignancies or HSC biology.
+
+211
+00:12:53.978 --> 00:12:57.498
+TCL1A is a bit of an enigmatic protein in the sense
+
+212
+00:12:57.558 --> 00:13:00.038
+that it's not really very clear what it's doing.
+
+213
+00:13:01.638 --> 00:13:04.218
+It's a tiny protein. It's 14 kilodaltons.
+
+214
+00:13:04.578 --> 00:13:07.438
+It forms an obligate homodimer with itself,
+
+215
+00:13:08.338 --> 00:13:12.058
+and early studies show that it was able to bind to the PH
+
+216
+00:13:12.078 --> 00:13:15.838
+domain of AKT and potentially activate AKT
+
+217
+00:13:15.898 --> 00:13:17.538
+via an unknown mechanism.
+
+218
+00:13:21.318 --> 00:13:25.298
+And so what we went on to show in our published work, through
+
+219
+00:13:25.338 --> 00:13:28.918
+a variety of experiments, was that we think TCL1A is a
+
+220
+00:13:29.018 --> 00:13:32.958
+major driver of clonal expansion in hematopoietic stem
+
+221
+00:13:33.058 --> 00:13:33.458
+cells.
+
+222
+00:13:34.558 --> 00:13:37.978
+What we showed was that the TCL1A locus is normally
+
+223
+00:13:38.018 --> 00:13:41.598
+closed or lowly expressed in hematopoietic stem cells.
+
+224
+00:13:42.658 --> 00:13:46.618
+And in fact, the only cell types in adult humans where TCL1A is
+
+225
+00:13:46.658 --> 00:13:50.478
+expressed are B cells, plasmacytoid dendritic
+
+226
+00:13:50.558 --> 00:13:53.778
+cells, and progenitors of sperm cells.
+
+227
+00:13:54.918 --> 00:13:58.518
+And so in this sense, TCL1A might actually be a very good therapeutic
+
+228
+00:13:58.558 --> 00:14:02.258
+target because you might predict that you'd be able to block its function without
+
+229
+00:14:02.278 --> 00:14:04.378
+really affecting normal tissues very much.
+
+230
+00:14:07.778 --> 00:14:11.418
+However, if you now acquire a mutation in one of these driver
+
+231
+00:14:11.458 --> 00:14:14.658
+mutations that we showed was associated with the polymorphism,
+
+232
+00:14:15.458 --> 00:14:18.758
+we believe that this de-represses the TCL1A locus.
+
+233
+00:14:19.678 --> 00:14:22.117
+So now the gene goes from off to on.
+
+234
+00:14:25.438 --> 00:14:29.278
+This promotes TCL1A protein expression and we think is a driver of
+
+235
+00:14:29.298 --> 00:14:31.338
+clonal advantage for these mutations.
+
+236
+00:14:33.418 --> 00:14:37.318
+And the reason we were able to find this serendipitously was that there happens
+
+237
+00:14:37.358 --> 00:14:40.498
+to be a subset of the population that has a
+
+238
+00:14:40.738 --> 00:14:43.898
+thymine at this TCL1A promoter at this SNP.
+
+239
+00:14:44.838 --> 00:14:48.738
+And we think that having this thymine variant prevents the chromatin
+
+240
+00:14:48.778 --> 00:14:52.538
+from opening and abrogates the clonal advantage, and therefore
+
+241
+00:14:52.578 --> 00:14:54.238
+reduces prevalence of CHIP
+
+242
+00:14:55.198 --> 00:14:56.258
+in these individuals.
+
+243
+00:15:00.558 --> 00:15:04.378
+So what is the full spectrum of driver mutations in
+
+244
+00:15:04.438 --> 00:15:07.538
+CHIP that might be associated with TCL1A?
+
+245
+00:15:08.338 --> 00:15:12.178
+And so what we can do now that we have this polymorphism that we know is
+
+246
+00:15:12.187 --> 00:15:15.618
+strongly linked to TCL1A expression, is to systematically ask
+
+247
+00:15:16.538 --> 00:15:20.398
+what driver mutations are enriched or de-enriched if you have the T
+
+248
+00:15:20.438 --> 00:15:21.918
+allele at this locus.
+
+249
+00:15:23.038 --> 00:15:26.878
+And if the prevalence of the driver mutation is below
+
+250
+00:15:27.018 --> 00:15:30.898
+the dashed line, we would predict that these
+
+251
+00:15:30.978 --> 00:15:34.858
+driver mutations are somehow dependent on TCL1A
+
+252
+00:15:34.898 --> 00:15:36.198
+for their clonal expansion.
+
+253
+00:15:37.308 --> 00:15:40.298
+And so we did this in the UK Biobank
+
+254
+00:15:40.338 --> 00:15:43.738
+dataset, and we replicated our previous findings,
+
+255
+00:15:44.718 --> 00:15:46.768
+which were that ASXL1,
+
+256
+00:15:47.638 --> 00:15:51.528
+TET2, SF3B1, and SRSF2 mutations were
+
+257
+00:15:51.538 --> 00:15:52.538
+strongly depleted
+
+258
+00:15:53.758 --> 00:15:55.678
+in individuals who carried this T allele.
+
+259
+00:15:56.358 --> 00:16:00.308
+But we found a number of other surprising things, such as
+
+260
+00:16:00.418 --> 00:16:04.178
+NRAS mutations, IDH2 mutations, and JAK2 mutations
+
+261
+00:16:04.678 --> 00:16:07.438
+may also be depleted in carriers of the T allele.
+
+262
+00:16:08.458 --> 00:16:12.118
+And furthermore, we found that clonal hematopoiesis with unknown
+
+263
+00:16:12.138 --> 00:16:15.938
+drivers, so this large class of clonal expansions where we
+
+264
+00:16:15.998 --> 00:16:19.958
+don't really know why it's happening, it turns out the strongest genetic
+
+265
+00:16:19.968 --> 00:16:23.498
+hit, so if you do a GWAS for clonal hematopoiesis with unknown drivers,
+
+266
+00:16:24.198 --> 00:16:28.047
+the strongest hit is in this TCL1A polymorphism, suggesting
+
+267
+00:16:28.078 --> 00:16:32.037
+that many of these mysterious clonal expansions may also depend
+
+268
+00:16:32.058 --> 00:16:33.978
+on TCL1A expression.
+
+269
+00:16:38.438 --> 00:16:42.038
+So we think that TCL1A is a critical factor for the
+
+270
+00:16:42.058 --> 00:16:45.278
+development of clonal hematopoiesis, and it was found
+
+271
+00:16:45.938 --> 00:16:49.668
+using GWAS. And many of you in this room may note there have been
+
+272
+00:16:49.738 --> 00:16:53.718
+many polymorphisms, many genes that have been linked to clonal
+
+273
+00:16:53.728 --> 00:16:55.218
+hematopoiesis through GWAS.
+
+274
+00:16:56.058 --> 00:16:59.318
+But what I would say is distinct about TCL1A
+
+275
+00:17:00.258 --> 00:17:04.018
+is that it is the only gene of all the GWAS hits that
+
+276
+00:17:04.078 --> 00:17:07.798
+goes from off to on in hematopoietic stem cells
+
+277
+00:17:08.118 --> 00:17:11.219
+when a somatic mutation in one of these driver genes is
+
+278
+00:17:11.238 --> 00:17:14.949
+acquired. And this suggests that this is not
+
+279
+00:17:15.038 --> 00:17:18.878
+just a modulator of clonal expansion, but it may be
+
+280
+00:17:18.959 --> 00:17:22.738
+a major causal driver, so the reason that these mutations are
+
+281
+00:17:22.798 --> 00:17:23.798
+actually selected.
+
+282
+00:17:25.578 --> 00:17:28.338
+And if this model is true, there are two predictions.
+
+283
+00:17:28.738 --> 00:17:32.598
+So one is that ectopic expression of TCL1A should be
+
+284
+00:17:32.658 --> 00:17:36.598
+sufficient to cause clonal expansion phenotypes in vivo, in a model
+
+285
+00:17:36.698 --> 00:17:39.918
+system, for example, by altering key HSC
+
+286
+00:17:39.958 --> 00:17:43.358
+biology. And a second prediction is that TCL1A
+
+287
+00:17:43.378 --> 00:17:46.918
+expression should promote the risk of at least some
+
+288
+00:17:46.958 --> 00:17:50.358
+CHIP-related phenotypes, such as hematologic malignancy.
+
+289
+00:17:53.058 --> 00:17:56.998
+And so we decided we would like to study this in an animal system.
+
+290
+00:17:58.618 --> 00:18:02.438
+And as many of you in this room know, there are many models
+
+291
+00:18:02.518 --> 00:18:06.358
+for these common CHIP driver mutations, including loss of function,
+
+292
+00:18:07.558 --> 00:18:11.318
+TET2 alleles, TET2 catalytic domain mutants,
+
+293
+00:18:11.538 --> 00:18:15.478
+truncating mutations at the C-terminus of ASXL1,
+
+294
+00:18:15.578 --> 00:18:19.538
+and then point mutations in SF3B1 and SRSF2.
+
+295
+00:18:19.698 --> 00:18:23.422
+So these have all been built in mice.And they
+
+296
+00:18:23.462 --> 00:18:26.882
+variably show a clonal expansion
+
+297
+00:18:26.942 --> 00:18:28.762
+phenotype at the HSC level.
+
+298
+00:18:29.742 --> 00:18:33.122
+The majority of these mice show things like anemia,
+
+299
+00:18:35.302 --> 00:18:38.222
+but only a couple of these models actually develop malignancy.
+
+300
+00:18:38.662 --> 00:18:41.902
+And when they do develop malignancy, it's typically at a very late
+
+301
+00:18:42.182 --> 00:18:42.722
+stage.
+
+302
+00:18:44.742 --> 00:18:48.702
+And we looked in all of these models, and in none of these models could we see that
+
+303
+00:18:48.742 --> 00:18:51.422
+TCL1A became expressed in the HSCs.
+
+304
+00:18:51.722 --> 00:18:55.491
+So unlike what we see in humans, if you introduce these mutations into human HSCs,
+
+305
+00:18:55.882 --> 00:18:59.782
+TCL1A goes from off to on. It doesn't seem to happen in the
+
+306
+00:18:59.822 --> 00:19:00.142
+mouse.
+
+307
+00:19:01.802 --> 00:19:05.502
+One reason for that is that if you look at the
+
+308
+00:19:05.522 --> 00:19:09.402
+promoter region of TCL1A, this is where the polymorphisms
+
+309
+00:19:09.982 --> 00:19:11.642
+that I described lie.
+
+310
+00:19:13.402 --> 00:19:17.002
+You can see that there is generally poor conservation
+
+311
+00:19:18.362 --> 00:19:21.562
+between humans and other species at this locus.
+
+312
+00:19:23.022 --> 00:19:26.922
+And so we think that maybe because the promoter is not really conserved at
+
+313
+00:19:26.961 --> 00:19:29.462
+this region, mice do not have the same effect.
+
+314
+00:19:29.542 --> 00:19:33.142
+So even if you put the mutation in the mice, it doesn't lead to the
+
+315
+00:19:33.162 --> 00:19:34.781
+de-repression at this locus.
+
+316
+00:19:37.402 --> 00:19:41.182
+And so to get around this, what we decided to do was to build a
+
+317
+00:19:41.222 --> 00:19:44.762
+transgenic mouse model where we could enforce
+
+318
+00:19:44.822 --> 00:19:48.222
+expression of TCL1A in a tissue-specific manner.
+
+319
+00:19:48.962 --> 00:19:52.702
+And so we introduced the TCL1A human open reading
+
+320
+00:19:52.802 --> 00:19:56.462
+frame into the H-11 locus. It's a safe harbor locus
+
+321
+00:19:56.802 --> 00:19:57.302
+in mice,
+
+322
+00:19:58.282 --> 00:20:02.222
+and the promoter is separated from the open reading frame
+
+323
+00:20:03.182 --> 00:20:05.402
+with box stop lux
+
+324
+00:20:06.302 --> 00:20:06.742
+cassettes.
+
+325
+00:20:08.402 --> 00:20:12.372
+And so what we can do is cross these mice to various Cre-expressing strains to get
+
+326
+00:20:12.482 --> 00:20:15.882
+tissue-specific expression of TCL1A in the mice.
+
+327
+00:20:15.922 --> 00:20:18.322
+And so we have done this using Bav1 Cre mice
+
+328
+00:20:19.122 --> 00:20:20.722
+as well as Tau1 Cre mice.
+
+329
+00:20:23.382 --> 00:20:27.042
+And what we find is that these mice, for most of their life,
+
+330
+00:20:27.622 --> 00:20:28.882
+look largely normal.
+
+331
+00:20:29.702 --> 00:20:33.671
+So we followed their CBCs up to a year, and you can see that
+
+332
+00:20:33.701 --> 00:20:37.602
+there's really no difference in the white blood cell count, in the red
+
+333
+00:20:37.662 --> 00:20:39.862
+blood cell parameters, in the platelet counts,
+
+334
+00:20:40.862 --> 00:20:43.422
+or in the differential up to nine months.
+
+335
+00:20:47.302 --> 00:20:51.122
+We did note that by midlife, there was
+
+336
+00:20:51.222 --> 00:20:55.022
+a marked HSPC expansion in the bone marrow of
+
+337
+00:20:55.042 --> 00:20:58.622
+these mice, and this was particularly evident in the long-term
+
+338
+00:20:58.802 --> 00:21:01.092
+hematopoietic stem cell fraction of the bone marrow
+
+339
+00:21:01.922 --> 00:21:04.302
+and less evident in the myeloid progenitors.
+
+340
+00:21:05.822 --> 00:21:09.301
+So we think that TCL1A, as perhaps is
+
+341
+00:21:09.362 --> 00:21:13.102
+expected, does lead to some sort of fitness effect on the hematopoietic stem
+
+342
+00:21:13.182 --> 00:21:16.462
+cells and causes some sort of expansion in this model.
+
+343
+00:21:17.302 --> 00:21:21.062
+We've also done competitive transplants, where TCL1A
+
+344
+00:21:21.082 --> 00:21:24.322
+was forced to be expressed in some HSCs and then competed
+
+345
+00:21:24.362 --> 00:21:28.202
+against wild-type HSCs, and you can see that
+
+346
+00:21:28.322 --> 00:21:32.142
+over time, the TCL1A-expressing HSCs take over.
+
+347
+00:21:32.322 --> 00:21:34.602
+So there is this competitive advantage as well.
+
+348
+00:21:36.282 --> 00:21:40.142
+In terms of the mechanism of why TCL1A may cause clonal
+
+349
+00:21:40.182 --> 00:21:43.262
+expansion of these HSCs, that's still being worked out.
+
+350
+00:21:44.322 --> 00:21:48.202
+But we suspect that there is increased proliferation, so increased
+
+351
+00:21:48.262 --> 00:21:51.622
+cell cycling of these HSCs and also resistance to
+
+352
+00:21:51.762 --> 00:21:52.662
+apoptosis.
+
+353
+00:21:57.142 --> 00:22:01.122
+So, we thought that these mice would probably not have a very
+
+354
+00:22:01.162 --> 00:22:03.342
+exciting phenotype beyond what I just showed.
+
+355
+00:22:03.422 --> 00:22:07.352
+But much to our surprise, when we kept the mice alive for up to a
+
+356
+00:22:07.502 --> 00:22:11.462
+year, we found that there was 100% mortality in
+
+357
+00:22:11.482 --> 00:22:14.991
+the TCL1A transgenic mice. So you can see that by one
+
+358
+00:22:15.142 --> 00:22:18.902
+year in both Cre crosses, all of the mice have
+
+359
+00:22:18.942 --> 00:22:19.222
+died.
+
+360
+00:22:20.562 --> 00:22:24.022
+And we observed there's a pronounced splenomegaly and a
+
+361
+00:22:24.062 --> 00:22:27.202
+pronounced hepatomegaly, as well as an expansion of
+
+362
+00:22:27.382 --> 00:22:29.522
+HSPCs in the moribund mice.
+
+363
+00:22:30.542 --> 00:22:34.442
+The phenotypes at death range from pancytopenic, that's the
+
+364
+00:22:34.482 --> 00:22:37.662
+majority of the mice, to marked leukocytosis.
+
+365
+00:22:39.342 --> 00:22:43.222
+And we further characterize what are these mice dying of, and
+
+366
+00:22:43.282 --> 00:22:46.902
+it looks like the majority of the mice are developing a myeloid leukemia
+
+367
+00:22:47.002 --> 00:22:47.592
+phenotype,
+
+368
+00:22:48.602 --> 00:22:52.282
+characterized by sheets of abnormal myeloid
+
+369
+00:22:52.322 --> 00:22:53.742
+cells in the bone marrow
+
+370
+00:22:54.982 --> 00:22:57.262
+that express an abnormal phenotype.
+
+371
+00:22:57.462 --> 00:23:01.162
+They're Kitlow CD11b positive, so they're myeloid,
+
+372
+00:23:02.082 --> 00:23:05.522
+as well as CD34 positive and negative for lymphoid
+
+373
+00:23:05.582 --> 00:23:06.122
+markers.
+
+374
+00:23:10.102 --> 00:23:14.042
+So is this relevant potentially in human myeloid
+
+375
+00:23:14.122 --> 00:23:17.922
+malignancies as well? And so we've asked if
+
+376
+00:23:17.982 --> 00:23:21.882
+individuals who have this T allele, the one that prevents TCL1A expression,
+
+377
+00:23:22.782 --> 00:23:26.642
+do they have any alteration in their risk of developing myeloid malignancy?
+
+378
+00:23:27.482 --> 00:23:31.402
+And we can see that indeed that is the case, that carriers of the T
+
+379
+00:23:31.522 --> 00:23:35.462
+allele are less likely to develop any myeloid malignancy,
+
+380
+00:23:36.462 --> 00:23:40.382
+and an especially strong protective effect for CMML, chronic
+
+381
+00:23:40.422 --> 00:23:41.822
+myelomonocytic leukemia.
+
+382
+00:23:45.322 --> 00:23:49.292
+And finally, we've asked, is TCL1A still expressed in the
+
+383
+00:23:49.382 --> 00:23:52.882
+hematopoietic stem cells from patients with myeloid malignancies?
+
+384
+00:23:52.942 --> 00:23:55.522
+And we've looked at this in a couple of different ways.
+
+385
+00:23:56.282 --> 00:23:59.942
+First, using publicly available single-cell RNA-seq data
+
+386
+00:24:00.182 --> 00:24:02.422
+from healthy or malignant hematopoiesis.
+
+387
+00:24:03.262 --> 00:24:06.982
+We can see that healthy HSCs, as expected, there's
+
+388
+00:24:07.042 --> 00:24:08.922
+essentially no TCL1A expression.
+
+389
+00:24:10.022 --> 00:24:12.862
+However, if we look in the HSCs from patients with
+
+390
+00:24:12.902 --> 00:24:16.822
+CMML or MDS, so each dot represents a
+
+391
+00:24:16.882 --> 00:24:17.582
+single patient,
+
+392
+00:24:19.042 --> 00:24:22.732
+we now see TCL1A is expressed in these HSCs, confirming
+
+393
+00:24:22.782 --> 00:24:26.622
+that it may actually play a role in the malignancies as
+
+394
+00:24:26.662 --> 00:24:30.534
+well as clonal hematopoiesis.And we've also
+
+395
+00:24:30.574 --> 00:24:33.554
+looked at this at the protein level using flow cytometry.
+
+396
+00:24:34.074 --> 00:24:37.474
+So this is gated on a HSC fraction.
+
+397
+00:24:38.274 --> 00:24:41.574
+You can see that in healthy donors, there's, as expected,
+
+398
+00:24:41.974 --> 00:24:45.154
+essentially no TACE1A expressed, whereas we do see robust
+
+399
+00:24:45.214 --> 00:24:48.394
+expression in these high-risk MDS cases.
+
+400
+00:24:51.974 --> 00:24:55.814
+So to summarize, clonal hematopoiesis becomes ubiquitous with aging,
+
+401
+00:24:55.894 --> 00:24:59.214
+but the factors leading to positive selection of these drivers is
+
+402
+00:24:59.414 --> 00:25:00.674
+incompletely understood.
+
+403
+00:25:02.294 --> 00:25:05.974
+Of the environmental factors we've studied so far, smoking seems to be the
+
+404
+00:25:06.094 --> 00:25:08.074
+strongest promoter of clonal expansion.
+
+405
+00:25:09.034 --> 00:25:12.764
+And genetically, we think that expression of TACE1A seems to be a major
+
+406
+00:25:12.764 --> 00:25:16.354
+driver of clonal expansion of clones of both known and
+
+407
+00:25:16.414 --> 00:25:17.314
+unknown drivers.
+
+408
+00:25:18.334 --> 00:25:21.934
+And we hypothesize that TACE1A may be a therapeutic target for myeloid
+
+409
+00:25:22.194 --> 00:25:25.814
+malignancies arising from antecedent clonal hematopoiesis.
+
+410
+00:25:27.614 --> 00:25:29.854
+And I'd like to acknowledge all the people that did the work.
+
+411
+00:25:30.514 --> 00:25:33.894
+The majority of the studies that I've showed today were done by a very talented
+
+412
+00:25:33.994 --> 00:25:35.554
+postdoc, Isaac Tingestdal,
+
+413
+00:25:36.374 --> 00:25:38.814
+and an MD-PhD student, JK Gopalkumar.
+
+414
+00:25:39.614 --> 00:25:40.594
+Thank you for your attention.
+
+415
+00:25:46.334 --> 00:25:50.234
+Beautiful talks. Thank you. The talk's now open
+
+416
+00:25:50.274 --> 00:25:54.134
+for questions. Can I ask people to come to the microphones because this
+
+417
+00:25:54.154 --> 00:25:57.834
+is being live-streamed, and for those joining us online to use the
+
+418
+00:25:57.954 --> 00:25:59.594
+QR code and ask questions
+
+419
+00:26:01.074 --> 00:26:03.614
+via the online chat so we can ask the speaker.
+
+420
+00:26:05.314 --> 00:26:07.594
+Hi, Tim Ley from Wash U. Sid, beautiful work.
+
+421
+00:26:07.774 --> 00:26:10.834
+I must have been shocked to see those tumors arise in those mice late.
+
+422
+00:26:11.954 --> 00:26:15.454
+The long latency suggests that there's either cooperating
+
+423
+00:26:15.514 --> 00:26:18.294
+mutations. I wonder if you know what they are or whether there's some kind of
+
+424
+00:26:18.374 --> 00:26:20.994
+transcriptional earthquake associated with escape.
+
+425
+00:26:22.234 --> 00:26:25.894
+Yeah, Tim, great questions. So we are trying to
+
+426
+00:26:25.954 --> 00:26:29.374
+sequence the bone marrow from these mice now to determine if there are any
+
+427
+00:26:29.494 --> 00:26:33.204
+recurrent cooperating mutations that to be determined.
+
+428
+00:26:34.314 --> 00:26:37.823
+The thing that is a little bit surprising is the very narrow
+
+429
+00:26:37.934 --> 00:26:40.554
+window in which these mice all seem to die.
+
+430
+00:26:40.654 --> 00:26:44.603
+So they seem to be pretty healthy up to about nine months, and then by 12
+
+431
+00:26:44.754 --> 00:26:47.394
+to 13 months, they're basically 100% dead.
+
+432
+00:26:48.734 --> 00:26:52.674
+So I don't quite understand at this point why that
+
+433
+00:26:52.734 --> 00:26:53.274
+window
+
+434
+00:26:54.134 --> 00:26:57.634
+is very short, and it would be a little bit surprising if they all
+
+435
+00:26:57.694 --> 00:27:01.394
+acquired the same cooperating mutations within that time
+
+436
+00:27:01.474 --> 00:27:05.294
+frame. So I'm starting to suspect it's some sort of
+
+437
+00:27:05.374 --> 00:27:09.174
+epigenetic state or something else that goes wrong
+
+438
+00:27:09.254 --> 00:27:10.214
+around that time point.
+
+439
+00:27:11.654 --> 00:27:13.614
+Are they transplantable?
+
+440
+00:27:14.574 --> 00:27:16.214
+Yes, they are transplantable. Yes.
+
+441
+00:27:19.654 --> 00:27:22.614
+Very interesting presentation. I have a couple questions, actually.
+
+442
+00:27:23.274 --> 00:27:24.724
+Now that you can measure fitness,
+
+443
+00:27:25.634 --> 00:27:28.574
+if we measure the fitness of the non-clonally involved
+
+444
+00:27:29.114 --> 00:27:32.514
+hematopoietic stem cells in a patient who has clonal hematopoiesis, are
+
+445
+00:27:32.594 --> 00:27:35.454
+they as fit as normal or less fit than normal?
+
+446
+00:27:36.694 --> 00:27:40.434
+Yes, a good question. So the method that I
+
+447
+00:27:40.474 --> 00:27:43.974
+talked about, we can only assess the fitness of the
+
+448
+00:27:43.994 --> 00:27:45.114
+expanding clone.
+
+449
+00:27:46.194 --> 00:27:49.944
+So I think you're asking, can we assess the fitness of the other HSCs that are
+
+450
+00:27:50.014 --> 00:27:51.094
+not part of that clone?
+
+451
+00:27:51.514 --> 00:27:54.954
+I'm by no means an expert on this, but I was always wondering, is the clonal
+
+452
+00:27:54.974 --> 00:27:57.654
+hematopoiesis the result of the
+
+453
+00:27:57.754 --> 00:28:00.374
+background failing from aging?
+
+454
+00:28:00.694 --> 00:28:00.764
+Yeah.
+
+455
+00:28:00.804 --> 00:28:04.314
+So now you can see the clones because they are the only ones left contributing.
+
+456
+00:28:04.594 --> 00:28:04.754
+Yeah.
+
+457
+00:28:04.954 --> 00:28:08.014
+Or is it really that they are more effective, that's why they are
+
+458
+00:28:08.514 --> 00:28:10.454
+succeeding more and becoming more prominent?
+
+459
+00:28:11.224 --> 00:28:15.014
+The other question was, when we say they are more fit, is it because they are more
+
+460
+00:28:15.174 --> 00:28:19.064
+constantly dividing or more actively dividing, meaning is it the amplitude or the
+
+461
+00:28:19.154 --> 00:28:21.134
+time? Can we distinguish these two?
+
+462
+00:28:21.774 --> 00:28:25.674
+Because we say it's fit, but is it fit as a result of the
+
+463
+00:28:25.774 --> 00:28:29.374
+constant firing, or is it fit because it does a lot when it fires?
+
+464
+00:28:30.034 --> 00:28:32.134
+Yeah. So for your first question,
+
+465
+00:28:34.834 --> 00:28:38.554
+we don't know for sure what the reasons are.
+
+466
+00:28:39.354 --> 00:28:42.554
+Sorry, could you repeat the first question?
+
+467
+00:28:43.134 --> 00:28:46.254
+We've been always told in oncology, this is an activated mutation.
+
+468
+00:28:46.374 --> 00:28:46.454
+Yeah.
+
+469
+00:28:46.474 --> 00:28:50.414
+Okay? I'm now trying to ask, is it more potent, the
+
+470
+00:28:50.454 --> 00:28:53.874
+mutant, or is it more constantly on, and as a result, you end up having more
+
+471
+00:28:53.954 --> 00:28:57.334
+function? So here, the same thing, the fitness, is it because of more
+
+472
+00:28:57.434 --> 00:29:01.254
+proliferation per unit of time, or is it proliferating more
+
+473
+00:29:01.294 --> 00:29:04.134
+than normal, so it ends up being represented more than normal?
+
+474
+00:29:04.434 --> 00:29:06.094
+Can we distinguish these two scenarios?
+
+475
+00:29:07.274 --> 00:29:10.094
+So we could try to do that using the mouse models.
+
+476
+00:29:10.814 --> 00:29:13.934
+So far, we have observed an increased proliferation rate
+
+477
+00:29:14.834 --> 00:29:18.734
+using things like BrdU over short time
+
+478
+00:29:18.814 --> 00:29:19.194
+points.
+
+479
+00:29:21.134 --> 00:29:22.614
+But I guess we don't know, is that
+
+480
+00:29:24.174 --> 00:29:27.914
+also true in humans or is it perhaps some
+
+481
+00:29:27.994 --> 00:29:31.874
+sort of inciting event in the environment that promotes the
+
+482
+00:29:31.894 --> 00:29:32.644
+proliferation,
+
+483
+00:29:33.534 --> 00:29:34.554
+and when that
+
+484
+00:29:35.454 --> 00:29:37.404
+signal goes away, perhaps the cells
+
+485
+00:29:38.974 --> 00:29:42.534
+aren't proliferating as much? We don't know that for sure.
+
+486
+00:29:42.714 --> 00:29:44.374
+One of the things that was surprising is that
+
+487
+00:29:45.434 --> 00:29:49.243
+in the mouse HSC literature, it is believed that causing
+
+488
+00:29:49.394 --> 00:29:53.114
+HSCs to cycle reduces their overall stem
+
+489
+00:29:53.194 --> 00:29:57.074
+cell potential and fitness. So if you force HSCs into cycle,
+
+490
+00:29:57.114 --> 00:29:58.674
+they kind of exhaust over time.
+
+491
+00:29:59.674 --> 00:30:02.434
+But at least when you acquire this TACE1A gene
+
+492
+00:30:03.754 --> 00:30:05.354
+expression, that doesn't happen.
+
+493
+00:30:06.854 --> 00:30:08.554
+One quick last question, if I may.
+
+494
+00:30:09.614 --> 00:30:10.834
+Sure. Hi.
+
+495
+00:30:14.594 --> 00:30:15.674
+Lovely talk.
+
+496
+00:30:16.594 --> 00:30:19.494
+Just a quick question about the SNP that you found.
+
+497
+00:30:20.434 --> 00:30:24.174
+How common is it in, say, the UK Biobank, and does it modulate the
+
+498
+00:30:24.214 --> 00:30:27.714
+interaction between CHIP and other diseases like lung
+
+499
+00:30:27.794 --> 00:30:29.734
+cancer and other malignancies?
+
+500
+00:30:30.766 --> 00:30:32.286
+Yeah, great question. So the
+
+501
+00:30:34.186 --> 00:30:37.446
+allele fraction for the T allele is about
+
+502
+00:30:37.626 --> 00:30:41.016
+30%. So that means that about
+
+503
+00:30:41.926 --> 00:30:45.766
+25% of people are heterozygotes and 5% are
+
+504
+00:30:45.906 --> 00:30:47.406
+homozygotes for the T allele.
+
+505
+00:30:49.246 --> 00:30:52.806
+We know that this SNP doesn't cause or
+
+506
+00:30:52.926 --> 00:30:54.946
+associate with heme malignancy risk.
+
+507
+00:30:55.506 --> 00:30:59.426
+So far, we haven't seen a lot of associations with any of the other
+
+508
+00:31:00.046 --> 00:31:03.066
+sort of chip associations, like lung cancer, for example.
+
+509
+00:31:04.206 --> 00:31:07.826
+I'm afraid we're going to have to move on in the interests of time, but there
+
+510
+00:31:08.146 --> 00:31:11.506
+might be some time at the end for a general panel discussion. Thank you very much.
+
+511
+00:31:21.706 --> 00:31:22.726
+I'm up next.
+
+512
+00:31:24.586 --> 00:31:27.406
+So over the next 20, 25 minutes, I'm going to give you
+
+513
+00:31:27.506 --> 00:31:31.496
+all a summary of the sort of work that we do in our lab, and
+
+514
+00:31:31.526 --> 00:31:35.465
+it's really about looking back in time to understand the history of somatic
+
+515
+00:31:35.506 --> 00:31:36.986
+evolution in blood.
+
+516
+00:31:38.286 --> 00:31:39.386
+These are my disclosures.
+
+517
+00:31:41.526 --> 00:31:44.816
+So this audience will now need no introduction really to the concept that every
+
+518
+00:31:44.926 --> 00:31:48.726
+cell in our body, right from where the zygote dividing, is
+
+519
+00:31:48.806 --> 00:31:52.386
+accumulating somatic mutations such that within our tissue,
+
+520
+00:31:52.866 --> 00:31:56.666
+over here on the left-hand side, every cell is a little bit unique compared to its
+
+521
+00:31:56.706 --> 00:32:00.586
+neighbor. And depending on, as beautifully illustrated earlier,
+
+522
+00:32:00.726 --> 00:32:04.626
+the germline factors or the environmental factors, some cells will be winners,
+
+523
+00:32:04.686 --> 00:32:08.406
+some cells will be losers, and there's beautiful substrate for Darwinian
+
+524
+00:32:08.446 --> 00:32:10.306
+evolution within our tissues.
+
+525
+00:32:11.286 --> 00:32:15.056
+Now in our lab, we've developed approaches to study this
+
+526
+00:32:15.586 --> 00:32:19.576
+and look back in time using phylogenetic approaches to really try and
+
+527
+00:32:19.626 --> 00:32:23.536
+time and understand how this somatic evolution is occurring within
+
+528
+00:32:23.566 --> 00:32:25.646
+our tissues right from the start of life.
+
+529
+00:32:26.126 --> 00:32:30.036
+And just to give you an example, the way we do this is we can take any tissue, but
+
+530
+00:32:30.086 --> 00:32:34.016
+we use blood or bone marrow. We grow them into single-cell-derived
+
+531
+00:32:34.106 --> 00:32:38.046
+colonies, and by doing so, what you're really doing is amplifying the DNA of
+
+532
+00:32:38.106 --> 00:32:42.046
+a single cell without much in the way of artifact creation, so
+
+533
+00:32:42.086 --> 00:32:45.746
+that you have enough DNA to undergo whole genome sequencing that is
+
+534
+00:32:45.766 --> 00:32:48.706
+reflective of that single cell within that tissue.
+
+535
+00:32:49.355 --> 00:32:52.946
+And then when you do this several times, hundreds of times within the same tissue,
+
+536
+00:32:52.986 --> 00:32:56.746
+within the same individual, you can then use the pattern of somatic
+
+537
+00:32:56.826 --> 00:33:00.606
+mutations across the whole genome with an individual cell to
+
+538
+00:33:00.646 --> 00:33:02.126
+reconstruct a phylogenetic tree.
+
+539
+00:33:03.246 --> 00:33:07.106
+And this phylogenetic tree essentially allows you to go back in time
+
+540
+00:33:07.426 --> 00:33:10.886
+right to the fertilized egg to track somatic evolution
+
+541
+00:33:10.946 --> 00:33:12.306
+within any tissue.
+
+542
+00:33:13.346 --> 00:33:17.226
+And it's been a really fun time over the last five years because we've been using
+
+543
+00:33:17.266 --> 00:33:21.086
+these approaches to understand the ancestral origins of clones,
+
+544
+00:33:21.486 --> 00:33:25.355
+mutation timing, speed of clonal outgrowth, but
+
+545
+00:33:25.426 --> 00:33:28.806
+also, much to our surprise, we can infer population
+
+546
+00:33:29.026 --> 00:33:32.445
+size, stem cell dynamics, just from the genomics
+
+547
+00:33:32.506 --> 00:33:36.226
+approaches. So at the top is some of our studies in case you're interested in
+
+548
+00:33:36.266 --> 00:33:39.886
+looking at them. But we collaborate broadly, as shown in gray.
+
+549
+00:33:40.226 --> 00:33:43.996
+And so far, we have about 13,000 whole genomes,
+
+550
+00:33:44.106 --> 00:33:48.076
+perhaps one of the largest whole genome dataset in blood that's publicly
+
+551
+00:33:48.106 --> 00:33:51.666
+available, including all the tools that we've developed to
+
+552
+00:33:51.986 --> 00:33:53.306
+analyze these phylogenies.
+
+553
+00:33:54.166 --> 00:33:57.566
+And just to give you a bit of a flavor of the kind of things that you could learn
+
+554
+00:33:57.926 --> 00:34:01.866
+and some of the insights that we've had, I'm going to first orientate you as to
+
+555
+00:34:01.926 --> 00:34:05.886
+how to read a phylogenetic tree. So these little red dots at the bottom
+
+556
+00:34:06.086 --> 00:34:09.687
+are all the cells that we sequence with whole genome sequencing.
+
+557
+00:34:10.346 --> 00:34:12.406
+And the top of the tree is the start of life.
+
+558
+00:34:13.426 --> 00:34:17.107
+And what you do is these lines, the vertical axis of the somatic
+
+559
+00:34:17.167 --> 00:34:21.147
+mutation says you walk up the tree and you go sideways into
+
+560
+00:34:21.167 --> 00:34:23.187
+these shared branches, right to the root of the tree.
+
+561
+00:34:23.306 --> 00:34:26.986
+Those are all the mutations acquired by that history, that
+
+562
+00:34:27.046 --> 00:34:31.026
+ancestral lineage, right down to the sample that you have in your
+
+563
+00:34:31.086 --> 00:34:31.786
+dish today.
+
+564
+00:34:32.687 --> 00:34:35.627
+And you can see already that at the top of the tree, there are all these little
+
+565
+00:34:35.766 --> 00:34:39.707
+tiny branches. And what that's telling you is that early in life, there is
+
+566
+00:34:40.006 --> 00:34:43.627
+rapid expansion of cells, rapid genetic divergence of
+
+567
+00:34:43.707 --> 00:34:45.826
+cells, including the stem cell pool.
+
+568
+00:34:46.216 --> 00:34:49.406
+And then beyond that point, the stem cells don't really talk to one another.
+
+569
+00:34:49.446 --> 00:34:53.346
+They're independently making their family of progeny that we
+
+570
+00:34:53.386 --> 00:34:54.486
+then sample today.
+
+571
+00:34:55.607 --> 00:34:59.486
+On the right-hand side are the cancer cells in this individual that has a chronic
+
+572
+00:34:59.566 --> 00:35:02.986
+myeloid neoplasm, such as essential thrombocythemia.
+
+573
+00:35:03.016 --> 00:35:06.026
+It's often JAK2 mutation driven, nothing else.
+
+574
+00:35:06.566 --> 00:35:10.076
+And this occurred on this shared branch here before
+
+575
+00:35:10.246 --> 00:35:11.466
+1.3 years of age.
+
+576
+00:35:12.386 --> 00:35:16.066
+And as you can see, the pattern of expansion of that single stem
+
+577
+00:35:16.206 --> 00:35:20.055
+cell into a clone is trackable. And you can see that this
+
+578
+00:35:20.166 --> 00:35:23.846
+pattern of expansion is slower than early in life because the
+
+579
+00:35:23.886 --> 00:35:27.806
+clone has grown more slowly than the embryos growing early in
+
+580
+00:35:27.846 --> 00:35:31.806
+life. So you can really recapitulate pace of
+
+581
+00:35:31.846 --> 00:35:35.786
+clonal expansions within cells. And then you can sort of estimate
+
+582
+00:35:35.826 --> 00:35:36.566
+that fitness,
+
+583
+00:35:37.406 --> 00:35:40.926
+much like Pacer is doing. And for me, fitness is really
+
+584
+00:35:41.006 --> 00:35:43.446
+an interest rate on your bank account,
+
+585
+00:35:44.326 --> 00:35:47.906
+constant interest rate yields compound returns.
+
+586
+00:35:48.286 --> 00:35:52.006
+And when you model the interest rate really that a JAK2 is conferring on a
+
+587
+00:35:52.046 --> 00:35:55.676
+stem cell, we find that it's quite variable between individual
+
+588
+00:35:55.786 --> 00:35:59.486
+patients. But what's remarkable is that growth rate perfectly
+
+589
+00:35:59.546 --> 00:36:03.226
+correlates with when that individual will present with disease.
+
+590
+00:36:03.286 --> 00:36:07.146
+So fast-growing clones, 70% per year, take about 20 years to
+
+591
+00:36:07.166 --> 00:36:11.086
+present to clinic. Slow-growing clones take about 50 years, which has
+
+592
+00:36:11.166 --> 00:36:15.156
+therapeutic implications. You may not need to eradicate clones, you may just need
+
+593
+00:36:15.186 --> 00:36:18.886
+to slow them down. And it also has implications for early detection if your
+
+594
+00:36:18.986 --> 00:36:22.046
+window of detection is of the order of decades.
+
+595
+00:36:23.746 --> 00:36:27.586
+In the same clinic as MPNs, these myeloid disorders, I
+
+596
+00:36:27.646 --> 00:36:29.306
+also treat chronic myeloid leukemia.
+
+597
+00:36:29.386 --> 00:36:33.126
+Now, this holds a special place in our hearts because it was really the
+
+598
+00:36:33.186 --> 00:36:36.706
+first ever cancer to be associated with a acquired
+
+599
+00:36:36.906 --> 00:36:40.126
+genetic change, the Philadelphia chromosome.Here,
+
+600
+00:36:41.546 --> 00:36:45.446
+discovered in the 1960s and 70s and
+
+601
+00:36:45.506 --> 00:36:47.086
+here we see something very different.
+
+602
+00:36:47.346 --> 00:36:50.806
+Again, the wild type hematopoiesis looks much like the previous picture,
+
+603
+00:36:51.726 --> 00:36:55.596
+but this is the clone driven by the fusion protein BCR-ABL, and
+
+604
+00:36:55.626 --> 00:36:57.785
+this actually looks much like the start of life.
+
+605
+00:36:58.626 --> 00:37:00.786
+This clone is growing so fast,
+
+606
+00:37:01.386 --> 00:37:05.346
+30,000% growth per year, at least at the start, because you
+
+607
+00:37:05.386 --> 00:37:09.206
+could not maintain that. And the latency to diagnosis is about
+
+608
+00:37:09.246 --> 00:37:13.146
+four years. So if you detect a BCR-ABL at
+
+609
+00:37:13.186 --> 00:37:15.626
+the DNA level in your blood, don't wait.
+
+610
+00:37:16.166 --> 00:37:18.126
+It's going to grow quickly, you treat it.
+
+611
+00:37:18.406 --> 00:37:22.286
+And interesting that this is one of the most treatable cancers and it's the most
+
+612
+00:37:22.386 --> 00:37:23.446
+fast-growing cancer.
+
+613
+00:37:24.286 --> 00:37:27.826
+So this is quite exciting. You can get growth rates, you can get timing,
+
+614
+00:37:28.806 --> 00:37:31.086
+but you can also get clonal dynamics.
+
+615
+00:37:31.226 --> 00:37:31.486
+So,
+
+616
+00:37:32.766 --> 00:37:36.455
+Dr. Joyswell's nicely recapitulated how all of us have clonal
+
+617
+00:37:36.466 --> 00:37:40.376
+hematopoiesis as we're getting older, and often in multiple clones, not just a
+
+618
+00:37:40.526 --> 00:37:43.925
+single driver mutation. We'll have driverless clones as well.
+
+619
+00:37:44.406 --> 00:37:47.486
+And we can simulate how this is happening with these sort of
+
+620
+00:37:48.246 --> 00:37:49.186
+younger individuals
+
+621
+00:37:50.166 --> 00:37:53.496
+having perhaps some driver mutations, but they haven't had a chance to grow out.
+
+622
+00:37:53.906 --> 00:37:57.496
+And then as you simulate and get to 80 to 100 years old, you can
+
+623
+00:37:57.626 --> 00:38:01.436
+beautifully recapitulate what's happening to hematopoiesis and
+
+624
+00:38:01.466 --> 00:38:04.986
+this collapse in polyclonal due to the clonal expansions,
+
+625
+00:38:06.006 --> 00:38:08.606
+with a simulator we've created called RSimpPop.
+
+626
+00:38:09.406 --> 00:38:12.826
+And in that, what we find is that with a very simple model of
+
+627
+00:38:12.866 --> 00:38:16.466
+100,000 stem cells dividing around once per year and
+
+628
+00:38:16.986 --> 00:38:19.606
+click go and let that play out for about 80 years.
+
+629
+00:38:20.306 --> 00:38:24.166
+If you have around 200 coding mutations that are
+
+630
+00:38:24.286 --> 00:38:26.266
+entering your stem cell pool every year,
+
+631
+00:38:27.366 --> 00:38:30.486
+and if the interest that those mutations confer is around
+
+632
+00:38:30.546 --> 00:38:34.506
+15% per cell and you let that run, you can
+
+633
+00:38:34.566 --> 00:38:38.326
+nicely recapitulate clonal hematopoiesis over lifespan.
+
+634
+00:38:38.706 --> 00:38:41.326
+Now, we thought that we would need to do other things.
+
+635
+00:38:41.406 --> 00:38:44.826
+We thought that we would need to kill off some stem cells, induce population
+
+636
+00:38:44.926 --> 00:38:48.105
+bottlenecks, but a very simple model was sufficient.
+
+637
+00:38:48.945 --> 00:38:52.406
+So then we started to think, well, what happens when you play around with these
+
+638
+00:38:52.446 --> 00:38:55.946
+parameters? What happens if you have bone marrow failure and fewer stem
+
+639
+00:38:56.046 --> 00:38:59.886
+cells? What happens if your stem cell rate is higher, you're dividing more
+
+640
+00:38:59.946 --> 00:39:03.726
+frequently? And we're playing around with some of those experiments at the moment.
+
+641
+00:39:04.146 --> 00:39:07.806
+But in the first instance, I spoke to Peggy Goodell at Baylor College of Medicine,
+
+642
+00:39:08.586 --> 00:39:11.386
+who works on stem cell biology in the mouse.
+
+643
+00:39:11.896 --> 00:39:14.406
+And we thought, well, what happens in an old mouse?
+
+644
+00:39:14.766 --> 00:39:18.386
+It's used for studies of clonal hematopoiesis all the time. It's used for aging.
+
+645
+00:39:18.446 --> 00:39:22.306
+It's used for stem cell biology. Does an old mouse that's two to three years old
+
+646
+00:39:22.346 --> 00:39:26.046
+look like a 100-year-old, 80-year-old human, or does it look like a two to
+
+647
+00:39:26.086 --> 00:39:27.006
+three-year-old human?
+
+648
+00:39:27.886 --> 00:39:31.526
+Does this process scale with lifespan or does it scale with time?
+
+649
+00:39:32.426 --> 00:39:35.586
+So we did this study in the mouse with a talented
+
+650
+00:39:36.106 --> 00:39:40.086
+PhD student called Chirag, and we found a completely different pattern in
+
+651
+00:39:40.126 --> 00:39:44.106
+the mouse to the humans. So the old mouse, 30 months, quite hard to
+
+652
+00:39:44.126 --> 00:39:46.496
+get to 30 months as a mouse, really old,
+
+653
+00:39:47.506 --> 00:39:50.446
+no clonal expansions, no collapse in
+
+654
+00:39:52.646 --> 00:39:56.506
+clonality. And when you use very deep, sensitive, targeted sequencing, you
+
+655
+00:39:56.546 --> 00:40:00.086
+can find all the clonal hematopoiesis clones, but they're tiny.
+
+656
+00:40:00.126 --> 00:40:01.186
+Super, super, super tiny.
+
+657
+00:40:02.196 --> 00:40:03.626
+And then we tried to understand why.
+
+658
+00:40:03.806 --> 00:40:07.426
+Well, we found that the fitness, that interest rate from a
+
+659
+00:40:07.446 --> 00:40:10.746
+DNMT3A mutation or a BCOR mutation is actually similar
+
+660
+00:40:11.006 --> 00:40:13.346
+between a human stem cell and a mouse stem cell.
+
+661
+00:40:14.126 --> 00:40:15.206
+Now, this wasn't done functionally.
+
+662
+00:40:15.266 --> 00:40:19.106
+This was done using the phylogenetic trees and population
+
+663
+00:40:19.186 --> 00:40:22.806
+dynamics. We found that the HSC pool size wasn't too
+
+664
+00:40:22.846 --> 00:40:25.526
+different, about 70,000 stem cells in a mouse.
+
+665
+00:40:25.606 --> 00:40:29.246
+I have no idea why a little mouse needs 70,000 stem cells, but
+
+666
+00:40:29.306 --> 00:40:33.046
+perhaps it's legacy. Maybe it's phylogenetic
+
+667
+00:40:33.106 --> 00:40:33.526
+legacy,
+
+668
+00:40:34.366 --> 00:40:37.046
+and the mutation rate's only three times higher.
+
+669
+00:40:37.646 --> 00:40:41.466
+It doesn't scale with lifespan. Mutation rates to
+
+670
+00:40:41.506 --> 00:40:43.106
+really recapitulate human,
+
+671
+00:40:44.466 --> 00:40:48.326
+the human system would need to be maybe 30 times higher because lifespan of a
+
+672
+00:40:48.366 --> 00:40:50.706
+mouse is 30 times shorter, but it wasn't.
+
+673
+00:40:51.366 --> 00:40:52.246
+And so overall,
+
+674
+00:40:53.106 --> 00:40:56.806
+we concluded that the HSC division rate in the mouse, which was
+
+675
+00:40:56.866 --> 00:41:00.406
+around nine to 10 divisions per year, was just too low for
+
+676
+00:41:00.466 --> 00:41:04.386
+meaningful clonal expansions, over a two to three-year period.
+
+677
+00:41:04.766 --> 00:41:08.546
+So what this says is that somatic evolution, as we all know, is not just about the
+
+678
+00:41:08.586 --> 00:41:12.166
+environmental factors, not just about the cell intrinsic driver mutations,
+
+679
+00:41:12.566 --> 00:41:15.006
+but it's also about your baseline tissue dynamics.
+
+680
+00:41:15.106 --> 00:41:19.046
+How fast is the clock ticking? And in the mouse, I'd say a two to
+
+681
+00:41:19.086 --> 00:41:21.646
+three-year-old mouse is more like a 10 to 20-year-old human,
+
+682
+00:41:22.926 --> 00:41:25.306
+in terms of its pace of somatic evolution.
+
+683
+00:41:25.646 --> 00:41:28.946
+So this was quite interesting, and we have other studies now going on where we have
+
+684
+00:41:29.026 --> 00:41:32.866
+fewer stem cells, or perhaps increased cycling of stem cells to see
+
+685
+00:41:32.926 --> 00:41:35.086
+how does that influence clonal hematopoiesis.
+
+686
+00:41:36.386 --> 00:41:40.046
+But I want to, for the next 10 minutes of my talk, move on to some really
+
+687
+00:41:40.056 --> 00:41:43.366
+exciting unpublished data that we've been working on for many years.
+
+688
+00:41:43.406 --> 00:41:47.106
+It's been a bit of a labor of love, and we sort of asked ourselves, okay, we do all
+
+689
+00:41:47.126 --> 00:41:49.166
+these phylogenies, we have all these genomes now.
+
+690
+00:41:49.236 --> 00:41:53.146
+We're sort of really able to track the history of every somatic
+
+691
+00:41:53.206 --> 00:41:54.426
+mutation in our tissue.
+
+692
+00:41:55.326 --> 00:41:59.046
+But what about other forms of heritable genetic
+
+693
+00:41:59.086 --> 00:41:59.736
+information?
+
+694
+00:42:00.626 --> 00:42:03.006
+So we have 28 million CpG sites in our genome,
+
+695
+00:42:03.866 --> 00:42:07.826
+and each site has a cytosine on the forward strand and a
+
+696
+00:42:07.846 --> 00:42:10.866
+cytosine on the reverse strand. These little dyads, as shown
+
+697
+00:42:10.946 --> 00:42:14.806
+here. And methylation states are associated with density of
+
+698
+00:42:14.846 --> 00:42:18.676
+CpGs, with CpG islands being unmethylated, and then these
+
+699
+00:42:18.706 --> 00:42:21.966
+introgenic regions that are perhaps more sparse in CpGs being more
+
+700
+00:42:22.906 --> 00:42:23.546
+methylated.
+
+701
+00:42:24.726 --> 00:42:28.506
+And we know that in blood, we have DNMT3 mutations, we have Tet2
+
+702
+00:42:28.546 --> 00:42:31.066
+mutations. They're affecting the methylome.
+
+703
+00:42:31.326 --> 00:42:34.586
+And we know that there are things like epigenetic clocks that measure our age.
+
+704
+00:42:34.666 --> 00:42:36.846
+So it seemed like a really good candidate.
+
+705
+00:42:36.966 --> 00:42:39.186
+And so we had this dream, can we build methylation
+
+706
+00:42:39.206 --> 00:42:42.900
+trees?And it ended up being
+
+707
+00:42:44.610 --> 00:42:48.480
+longer than it took longer than we would have liked, but we're nearly getting
+
+708
+00:42:48.510 --> 00:42:52.390
+there. So we first had to collaborate with NEB to
+
+709
+00:42:52.450 --> 00:42:54.410
+get methylomes from these individual colonies.
+
+710
+00:42:54.450 --> 00:42:58.330
+Now we had two nanograms of DNA, sometimes 20 nanograms of DNA
+
+711
+00:42:58.350 --> 00:43:00.480
+from a clonic crypt or a hematopoietic colony,
+
+712
+00:43:01.410 --> 00:43:03.790
+and we were trying to get a whole genome PCR-free.
+
+713
+00:43:03.870 --> 00:43:05.470
+But we're also now trying to get a whole methylome.
+
+714
+00:43:05.510 --> 00:43:09.130
+So we first tried bisulfite sequencing, and that just vaporized our DNA.
+
+715
+00:43:09.170 --> 00:43:12.650
+That didn't work. So then we worked with NEB to lower the input of DNA
+
+716
+00:43:12.690 --> 00:43:13.330
+required
+
+717
+00:43:14.290 --> 00:43:16.230
+by adjusting the enzyme concentrations.
+
+718
+00:43:16.270 --> 00:43:19.639
+And then we finally managed to get to a situation where we now have an automated
+
+719
+00:43:19.650 --> 00:43:23.510
+pipeline at the Sanger, where we can put in a tiny amount of DNA, get a whole
+
+720
+00:43:23.550 --> 00:43:27.330
+genome and a whole methylome. And the beauty of this is that for
+
+721
+00:43:27.350 --> 00:43:31.010
+every CpG in the whole genome, full genome coverage, we have a
+
+722
+00:43:31.050 --> 00:43:33.990
+binary readout. So for every cell, you have two alleles.
+
+723
+00:43:35.510 --> 00:43:39.390
+So each CpG will either be fully unmethylated on both alleles or fully
+
+724
+00:43:39.410 --> 00:43:42.970
+methylated. And very occasionally at imprinted
+
+725
+00:43:43.050 --> 00:43:45.570
+sites, you might have half methylation.
+
+726
+00:43:46.290 --> 00:43:47.770
+So this is the picture of one colony.
+
+727
+00:43:48.770 --> 00:43:52.610
+All the sites are sort of unmethylated or methylated, and this little hump in the
+
+728
+00:43:52.650 --> 00:43:56.210
+middle are imprinting control regions. So we have now a binary readout.
+
+729
+00:43:56.250 --> 00:44:00.230
+No longer do we have to go 20% methylation goes to 30% methylation.
+
+730
+00:44:00.490 --> 00:44:02.470
+We have zero, we have one, we have two.
+
+731
+00:44:03.330 --> 00:44:06.550
+And then what was really tough is to do the informatics.
+
+732
+00:44:06.610 --> 00:44:10.510
+We have 28 million CpG sites per colony. We have thousands of colonies.
+
+733
+00:44:10.850 --> 00:44:13.620
+Every time you try and interrogate it, it runs out of memory.
+
+734
+00:44:14.470 --> 00:44:18.270
+So we needed to build an informatics pipeline for this, and which we now have.
+
+735
+00:44:18.600 --> 00:44:22.550
+And so for every cell, effectively, we now have 50 million CpG sites, duplicate
+
+736
+00:44:22.590 --> 00:44:26.150
+rates less than 10% for those who look at genomic
+
+737
+00:44:26.160 --> 00:44:29.980
+technologies, that's really good, and global methylation rates that are completely
+
+738
+00:44:30.070 --> 00:44:31.210
+biologically plausible.
+
+739
+00:44:32.390 --> 00:44:36.330
+So this is our study now. We have about seven healthy donors from 17
+
+740
+00:44:36.390 --> 00:44:40.290
+weeks post-conception to 77 years and six hematological
+
+741
+00:44:40.330 --> 00:44:44.290
+cancer donors that include some of the patients that I have just shown you
+
+742
+00:44:44.350 --> 00:44:46.150
+from the somatic mutation analysis.
+
+743
+00:44:46.950 --> 00:44:50.750
+And we sequenced about 1,200 colonies with both whole
+
+744
+00:44:50.790 --> 00:44:54.590
+genomes and methylomes. The idea is that we use the somatic mutation
+
+745
+00:44:54.690 --> 00:44:56.010
+tree as the gold truth
+
+746
+00:44:56.890 --> 00:45:00.510
+of the ancestry, and then we assign CpG methylation
+
+747
+00:45:00.550 --> 00:45:04.460
+changes to the phylogeny. So for every CpG in the genome, we can
+
+748
+00:45:04.490 --> 00:45:07.410
+say has it changed? Which cell is it changing in?
+
+749
+00:45:07.450 --> 00:45:08.650
+When in life did it change?
+
+750
+00:45:11.530 --> 00:45:15.380
+And just to give you a sense, most of the CpGs were in open seas, and some of
+
+751
+00:45:15.430 --> 00:45:18.590
+them were in islands, shelves and shores, as you'd expect.
+
+752
+00:45:19.110 --> 00:45:22.890
+And we treated each CpG as a dyad, combining the read
+
+753
+00:45:22.910 --> 00:45:26.230
+counts from this with the read counts for this into one
+
+754
+00:45:26.330 --> 00:45:30.190
+dyad just to increase our power. And we didn't
+
+755
+00:45:30.210 --> 00:45:33.670
+find there was much discordance within a dyad, actually.
+
+756
+00:45:33.750 --> 00:45:35.670
+Dyads changed together, which was good.
+
+757
+00:45:36.710 --> 00:45:40.310
+And as expected, we had fully methylation predominantly in the open
+
+758
+00:45:40.370 --> 00:45:44.030
+seas, mostly unmethylation in the CpG islands.
+
+759
+00:45:44.570 --> 00:45:48.420
+And when you look in the women, these two donors, blue and purple are women,
+
+760
+00:45:49.180 --> 00:45:53.010
+we're finding a lot of half methylation in the islands and the
+
+761
+00:45:53.050 --> 00:45:56.370
+shores because this is X inactivation in the females.
+
+762
+00:45:57.090 --> 00:46:00.930
+What's really interesting is X inactivation in the females is not X
+
+763
+00:46:00.950 --> 00:46:02.010
+chromosome wide.
+
+764
+00:46:02.830 --> 00:46:06.760
+It is predominantly at the islands, the promoter regions, and
+
+765
+00:46:06.790 --> 00:46:10.150
+much less in the open seas, which was quite interesting for us to note because I
+
+766
+00:46:10.210 --> 00:46:13.530
+just assumed as a hematologist, you see these bowel bodies
+
+767
+00:46:14.550 --> 00:46:18.400
+on your blood films and you sort of think the whole chromosome's just
+
+768
+00:46:18.430 --> 00:46:19.250
+compacted down.
+
+769
+00:46:20.430 --> 00:46:22.010
+So we did some further checks now.
+
+770
+00:46:22.950 --> 00:46:26.830
+This is a phylogenetic tree now on its side, and those
+
+771
+00:46:26.870 --> 00:46:29.810
+in my lab will immediately be looking at that and going, "What's the age of that
+
+772
+00:46:29.930 --> 00:46:33.710
+patient?" Because we're quite good at aging someone based on their phylogenetic
+
+773
+00:46:33.790 --> 00:46:36.810
+tree now. So this individual's probably in their 50s.
+
+774
+00:46:37.890 --> 00:46:41.370
+And each row here is a consecutive
+
+775
+00:46:41.430 --> 00:46:41.910
+CpG,
+
+776
+00:46:43.010 --> 00:46:46.490
+and red is methylated, blue is unmethylated, white is
+
+777
+00:46:46.550 --> 00:46:48.070
+methylated but only on one allele.
+
+778
+00:46:48.810 --> 00:46:52.780
+And every row here, every dot here is the
+
+779
+00:46:52.970 --> 00:46:54.810
+CpG for all the different colonies.
+
+780
+00:46:55.390 --> 00:46:59.210
+So this is a block of CpGs, and we can see that it's unmethylated at the promoter
+
+781
+00:46:59.230 --> 00:47:01.010
+of CSF3R, which we'd expect.
+
+782
+00:47:01.870 --> 00:47:05.350
+This is a line element. It's fully methylated across all of our colonies.
+
+783
+00:47:05.850 --> 00:47:08.290
+And this is an imprinting control region which is nicely,
+
+784
+00:47:08.820 --> 00:47:11.850
+heterozygosely methylated.
+
+785
+00:47:12.730 --> 00:47:14.130
+So these sites haven't changed.
+
+786
+00:47:15.660 --> 00:47:19.290
+And now we have the challenging task of assigning methylation states to the
+
+787
+00:47:19.330 --> 00:47:23.240
+trees. So what we have here now is we take the reads that are methylated
+
+788
+00:47:23.650 --> 00:47:26.810
+for individual tips, we take the full sequencing depth,
+
+789
+00:47:27.770 --> 00:47:31.610
+and then what we're essentially asking is we convert this into a methylation
+
+790
+00:47:31.850 --> 00:47:35.840
+state, methylated, unmethylated, heterozygous methylation, and
+
+791
+00:47:35.870 --> 00:47:39.630
+we account for in vitro changes. In vitro, there might be some demethylation, there
+
+792
+00:47:39.670 --> 00:47:42.000
+might be some methylation, and we correct for that.
+
+793
+00:47:42.920 --> 00:47:46.850
+And then we're basically saying, what is the probable sequence of methylation
+
+794
+00:47:46.970 --> 00:47:50.930
+states that's occurred from the tips all the way to the root so we can see
+
+795
+00:47:50.950 --> 00:47:54.230
+what the most likely changes are using a hidden Markov approach.
+
+796
+00:47:56.170 --> 00:47:57.950
+And what we found was really quite staggering.
+
+797
+00:47:58.030 --> 00:47:59.950
+So I'm just going to talk you through this one example.
+
+798
+00:48:00.590 --> 00:48:02.630
+This is a tree from an MPN patient,
+
+799
+00:48:03.450 --> 00:48:07.350
+and the y-axis is the number of mutations, and they have about 800 mutations.
+
+800
+00:48:07.410 --> 00:48:10.110
+They're maybe about, I don't know, 40, 50 years old.
+
+801
+00:48:10.810 --> 00:48:13.989
+And there are two clonal expansions here with drivers, which I'll talk about later.
+
+802
+00:48:14.650 --> 00:48:18.170
+And I've expanded the top of the tree, the first 50 mutations that you
+
+803
+00:48:18.210 --> 00:48:21.890
+acquire before you're born. So we can see the top of the tree
+
+804
+00:48:22.070 --> 00:48:24.090
+really clearly, otherwise it's really squidged.
+
+805
+00:48:25.250 --> 00:48:28.670
+And you can see that this block of CpGs, these 33
+
+806
+00:48:28.710 --> 00:48:32.680
+consecutive CpGs in a promoter of PLD6, the fact that it's PLD6 doesn't
+
+807
+00:48:32.690 --> 00:48:36.010
+matter. Well, it might matter, but there are loads of sites like this.
+
+808
+00:48:36.610 --> 00:48:40.370
+This has changed from unmethylated to methylated one, two,
+
+809
+00:48:40.490 --> 00:48:44.350
+three, four, and maybe a few more times, and each of those has
+
+810
+00:48:44.410 --> 00:48:44.930
+happened
+
+811
+00:48:45.930 --> 00:48:49.918
+very early in life.Around 10 mutations, which is basically
+
+812
+00:48:49.978 --> 00:48:50.958
+around gastrulation.
+
+813
+00:48:51.838 --> 00:48:55.728
+So during gastrulation and very early in life, each cell is going,
+
+814
+00:48:56.118 --> 00:48:59.518
+am I going to be heterozygously methylated? Am I going to be unmethylated?
+
+815
+00:48:59.618 --> 00:49:03.358
+Am I going to be fully methylated? And it's choosing an epiallelic state,
+
+816
+00:49:03.618 --> 00:49:05.338
+which we'd never appreciated before.
+
+817
+00:49:05.658 --> 00:49:08.958
+And there are thousands of these regions that are changing early in life.
+
+818
+00:49:11.058 --> 00:49:14.558
+So then we went back and said we can't consider each CpG change as an individual
+
+819
+00:49:14.678 --> 00:49:17.678
+change because they're changing together in segments.
+
+820
+00:49:18.048 --> 00:49:21.558
+So we went back and segmented the genome using various approaches,
+
+821
+00:49:22.058 --> 00:49:25.338
+and only last week we decided exactly which approach we're going to be using for
+
+822
+00:49:25.358 --> 00:49:29.278
+the study. And as expected, most segments that change together are in
+
+823
+00:49:29.318 --> 00:49:31.298
+promoters, around two million segments.
+
+824
+00:49:32.278 --> 00:49:35.878
+And in transcribed regions, about 75% of your promoters have these
+
+825
+00:49:35.958 --> 00:49:39.718
+large blocks of CpG segments. And in the quiescent regions, they're
+
+826
+00:49:39.758 --> 00:49:42.998
+mostly single CpGs, two CpGs that change together.
+
+827
+00:49:44.238 --> 00:49:48.218
+And then we found so many more. So because I said that these are changing early in
+
+828
+00:49:48.238 --> 00:49:50.398
+life, we went to our early samples.
+
+829
+00:49:50.438 --> 00:49:54.418
+We went to our cord blood and our fetal samples to go, are they really changing
+
+830
+00:49:54.438 --> 00:49:58.198
+early in life? So this is a cord blood phylogeny, about
+
+831
+00:49:58.418 --> 00:50:00.998
+50 mutations by the time you're born.
+
+832
+00:50:02.158 --> 00:50:05.938
+And here is a site, again, around 30, 40 CpGs,
+
+833
+00:50:06.518 --> 00:50:08.378
+unmethylated in all of your cells.
+
+834
+00:50:08.818 --> 00:50:12.678
+It's changed and gained methylation on one allele, but not the
+
+835
+00:50:12.758 --> 00:50:16.558
+other, and it's heterozygously methylated here and here,
+
+836
+00:50:16.998 --> 00:50:19.098
+around 10 to 15 mutations in life.
+
+837
+00:50:20.158 --> 00:50:21.498
+This has happened twice in the tree.
+
+838
+00:50:22.078 --> 00:50:26.018
+This site has happened so many times, and sometimes it's allele
+
+839
+00:50:26.078 --> 00:50:29.218
+A that's methylating, sometimes it's allele B.
+
+840
+00:50:30.358 --> 00:50:34.318
+And this site I find particularly fascinating because every time
+
+841
+00:50:34.358 --> 00:50:38.148
+it's acquired this segmental allelic state, it's the same allele.
+
+842
+00:50:38.658 --> 00:50:41.808
+Now, what I don't know is this the paternal allele or the maternal allele because
+
+843
+00:50:41.818 --> 00:50:45.598
+they're treated differently early in life, particularly with
+
+844
+00:50:45.618 --> 00:50:48.058
+methylation, but this is all work in progress.
+
+845
+00:50:49.138 --> 00:50:52.748
+So overall, we have about 4,000 or 5,000 of these
+
+846
+00:50:52.758 --> 00:50:56.678
+segments of CpGs that are at least five CpGs long changing early
+
+847
+00:50:56.698 --> 00:50:59.678
+in life, and thereafter, the rate is much slower.
+
+848
+00:51:00.118 --> 00:51:03.578
+This is very different to somatic mutations that are quite linear over life.
+
+849
+00:51:04.558 --> 00:51:08.318
+And in total, we have half a million CpGs changing early in life,
+
+850
+00:51:08.938 --> 00:51:12.618
+and then slower. Now, you may notice this here, that's so much higher.
+
+851
+00:51:13.198 --> 00:51:16.598
+This is in an in utero DNMT3A R802H mutation.
+
+852
+00:51:17.278 --> 00:51:20.688
+Its acquisition is associated with 200,000
+
+853
+00:51:20.818 --> 00:51:22.958
+CpGs that have demethylated.
+
+854
+00:51:25.118 --> 00:51:28.498
+So then we asked what's the rate of somatic methylation changes in life compared to
+
+855
+00:51:28.638 --> 00:51:32.158
+SNVs, and late in life we have about 100 changes per
+
+856
+00:51:32.318 --> 00:51:35.678
+SNV, but early in life we have about 10,000 changes.
+
+857
+00:51:35.718 --> 00:51:37.798
+So this is just a regression model.
+
+858
+00:51:39.028 --> 00:51:41.298
+So much, much higher than we ever appreciated.
+
+859
+00:51:42.398 --> 00:51:46.358
+And when you look at the really simple question, do clonal hematopoiesis
+
+860
+00:51:46.478 --> 00:51:48.758
+driver mutations impact your methylome?
+
+861
+00:51:49.638 --> 00:51:53.558
+The answer is yes. So every dot here is colored by
+
+862
+00:51:53.598 --> 00:51:57.498
+the donor, and these are the number of epimutations per branch
+
+863
+00:51:57.558 --> 00:51:58.098
+of the tree.
+
+864
+00:51:58.958 --> 00:52:01.068
+And you can see some are above the line here,
+
+865
+00:52:02.478 --> 00:52:06.138
+and they're all associated with driver mutations, 1q+, DNMT3A
+
+866
+00:52:06.218 --> 00:52:08.778
+Y66F.
+
+867
+00:52:09.678 --> 00:52:13.658
+And for losses, it's the same, around 5,000 large segmental losses
+
+868
+00:52:13.738 --> 00:52:17.318
+early in life, and the ones that are above the line are often our
+
+869
+00:52:18.038 --> 00:52:20.258
+familiar driver mutation players.
+
+870
+00:52:21.778 --> 00:52:25.558
+And this may be how some of these mutations are conveying their phenotypic
+
+871
+00:52:25.568 --> 00:52:29.318
+effects on stem cells. We need to see what these sites are and
+
+872
+00:52:29.358 --> 00:52:31.438
+perhaps what genes they may be associated with.
+
+873
+00:52:32.398 --> 00:52:36.227
+But what's really more interesting to me is, are these epialleles
+
+874
+00:52:36.318 --> 00:52:38.118
+themselves drivers?
+
+875
+00:52:39.078 --> 00:52:39.258
+Do
+
+876
+00:52:40.318 --> 00:52:43.758
+somatic mutations prefer certain epiallelic
+
+877
+00:52:43.798 --> 00:52:47.498
+backgrounds? And can these epialleles act as drivers
+
+878
+00:52:47.558 --> 00:52:51.458
+themselves? And the answer to both of them is yes, we
+
+879
+00:52:51.498 --> 00:52:55.058
+think. So going back to that example I showed you earlier,
+
+880
+00:52:55.698 --> 00:52:59.358
+this is actually a JAK2 mutation-driven clonal expansion.
+
+881
+00:52:59.798 --> 00:53:03.638
+This is a DNMT3A mutation. When you do
+
+882
+00:53:03.978 --> 00:53:05.637
+a differential methylation analysis,
+
+883
+00:53:06.538 --> 00:53:10.098
+DNMT3A mutations versus wild type, what are the methylation
+
+884
+00:53:10.158 --> 00:53:12.438
+changes? This is the first hit that comes up.
+
+885
+00:53:13.618 --> 00:53:17.378
+But it's not due to DNMT3A. It predates DNMT3A.
+
+886
+00:53:17.898 --> 00:53:20.818
+It's a background that DNMT3A prefers.
+
+887
+00:53:21.478 --> 00:53:24.638
+So now we're trying to see whether there are certain embryonic
+
+888
+00:53:24.678 --> 00:53:28.098
+epialleles that are preferred by certain driver
+
+889
+00:53:28.108 --> 00:53:28.838
+mutations.
+
+890
+00:53:31.298 --> 00:53:32.918
+But this is even more fascinating.
+
+891
+00:53:32.978 --> 00:53:35.338
+Can these epialleles act as the first hit
+
+892
+00:53:36.458 --> 00:53:38.958
+as a driver mutation themselves? And the answer is yes.
+
+893
+00:53:39.798 --> 00:53:43.748
+So this project has involved many PhD students and this Laurie Kreeger, who's
+
+894
+00:53:43.778 --> 00:53:46.178
+a joint PhD student between Peter Campbell and myself,
+
+895
+00:53:47.118 --> 00:53:48.638
+with Lucy Yates. They had this idea
+
+896
+00:53:49.738 --> 00:53:49.938
+to
+
+897
+00:53:50.758 --> 00:53:54.698
+take individuals with breast cancer that have BRCA-like breast cancer but
+
+898
+00:53:54.758 --> 00:53:57.598
+do not have a germline BRCA mutation.
+
+899
+00:53:57.618 --> 00:54:01.018
+And some of you in the audience will know that there's this concept that some
+
+900
+00:54:01.058 --> 00:54:04.808
+people with BRCA-like breast cancers have methylation of the promoter of
+
+901
+00:54:04.818 --> 00:54:07.678
+BRCA, but weirdly, it's detectable in their blood.
+
+902
+00:54:08.638 --> 00:54:11.498
+So why is it in the blood? People have thought, well, is it some sort of
+
+903
+00:54:11.518 --> 00:54:12.638
+environmental hit?
+
+904
+00:54:13.698 --> 00:54:16.658
+This is the phylogenetic tree of two individuals who developed
+
+905
+00:54:17.058 --> 00:54:18.618
+BRCA-like breast cancer,
+
+906
+00:54:19.558 --> 00:54:23.198
+and this is a segment within the promoter of
+
+907
+00:54:23.258 --> 00:54:23.658
+BRCA.
+
+908
+00:54:24.698 --> 00:54:28.018
+It's methylated on one allele, and it's normally unmethylated.
+
+909
+00:54:28.078 --> 00:54:31.618
+So they have epigenetic silencing of one allele of BRCA in their blood,
+
+910
+00:54:32.778 --> 00:54:35.278
+and here, too. But look at when this occurred.
+
+911
+00:54:35.878 --> 00:54:39.718
+I've not expanded the top of the tree here, but it's right at the top of the tree
+
+912
+00:54:39.758 --> 00:54:41.898
+in this tiny little branch you can barely see.
+
+913
+00:54:42.558 --> 00:54:45.258
+It's right at the top of the tree in this tiny branch you can't see.
+
+914
+00:54:46.158 --> 00:54:49.918
+These two individuals got epigenetic silencing of one
+
+915
+00:54:50.038 --> 00:54:51.598
+promoter of their BRCA allele
+
+916
+00:54:52.478 --> 00:54:56.452
+pre-gastrulation.They have epigenetic mosaicism in their
+
+917
+00:54:56.522 --> 00:54:56.862
+blood.
+
+918
+00:54:57.732 --> 00:55:00.782
+They have epigenetic mosaicism in their breast because it's
+
+919
+00:55:00.822 --> 00:55:04.742
+pre-gastrulation, and the subsequent breast cancer has emerged
+
+920
+00:55:04.782 --> 00:55:08.242
+from the lineage that has this silenced BRCA
+
+921
+00:55:08.302 --> 00:55:11.942
+allele in the breast. So when we map, and we're not showing it here, when we
+
+922
+00:55:12.022 --> 00:55:14.902
+map the breast cancer onto this, it
+
+923
+00:55:14.942 --> 00:55:17.462
+emerges from this lineage.
+
+924
+00:55:18.422 --> 00:55:21.942
+So this is an evidence of an epi driver that occurs early in life.
+
+925
+00:55:22.422 --> 00:55:24.222
+So we're very excited by this field.
+
+926
+00:55:24.342 --> 00:55:28.122
+This is what our lab's now doing across cancers, and we're hoping to put this
+
+927
+00:55:28.162 --> 00:55:28.502
+together
+
+928
+00:55:29.302 --> 00:55:30.302
+for submission soon.
+
+929
+00:55:31.162 --> 00:55:35.042
+So key messages, phylogenetics are a beautifully powerful approach to understand
+
+930
+00:55:35.082 --> 00:55:38.642
+cancer evolution. I've presented new data on methylation
+
+931
+00:55:38.682 --> 00:55:41.892
+mutations being stably inherited for decades after occurrence.
+
+932
+00:55:42.402 --> 00:55:45.982
+Most changes are heterozygous, unmethylated to heterozygous
+
+933
+00:55:46.062 --> 00:55:49.822
+methylation or fully methylated to heterozygous, and they occur in
+
+934
+00:55:49.882 --> 00:55:50.402
+segments,
+
+935
+00:55:51.282 --> 00:55:54.162
+and they are stable, and they're vast changes early in life.
+
+936
+00:55:54.712 --> 00:55:58.122
+And I believe that somatic methylation changes are both due to driver
+
+937
+00:55:58.202 --> 00:56:01.212
+mutations, but most excitingly, can be drivers themselves.
+
+938
+00:56:02.102 --> 00:56:05.582
+So just before I end, a little paper plug, because I think this paper's been
+
+939
+00:56:05.602 --> 00:56:09.502
+released to time with this session, but I haven't had a chance to
+
+940
+00:56:09.542 --> 00:56:13.242
+talk about it, but it's on the evolution of MPNs and
+
+941
+00:56:13.322 --> 00:56:13.662
+how
+
+942
+00:56:14.882 --> 00:56:18.322
+serial genomic monitoring in the clinic can be used to predict disease
+
+943
+00:56:18.362 --> 00:56:21.472
+progression years in advance of clinical
+
+944
+00:56:21.472 --> 00:56:24.182
+progression. And interestingly, we find that both
+
+945
+00:56:24.222 --> 00:56:28.082
+azacitidine and hydroxycarbamide, which are two common agents
+
+946
+00:56:28.202 --> 00:56:31.132
+used in MDS and MPN, are mutagenic,
+
+947
+00:56:31.982 --> 00:56:35.962
+and we describe their signatures to normal tissues, and then we do some work on
+
+948
+00:56:36.002 --> 00:56:39.262
+why skin cancers are emerging in the context of some of these therapies.
+
+949
+00:56:39.602 --> 00:56:41.702
+So I encourage you to check it out.
+
+950
+00:56:42.722 --> 00:56:46.492
+Most importantly, those shown in bold, including Xin Wang, who's sitting in the
+
+951
+00:56:46.602 --> 00:56:50.062
+audience, they're the brains behind the work that I presented
+
+952
+00:56:50.122 --> 00:56:53.902
+today. They're brilliant at the analysis that they do and the
+
+953
+00:56:53.942 --> 00:56:56.762
+ideas that they have, and I'm so proud that they're in our team.
+
+954
+00:56:58.042 --> 00:57:01.322
+Our funders, our collaborators, and the patients for donating their samples.
+
+955
+00:57:01.402 --> 00:57:02.162
+Thank you very much.
+
+956
+00:57:12.122 --> 00:57:13.222
+Should we take some questions?
+
+957
+00:57:17.302 --> 00:57:17.442
+No?
+
+958
+00:57:18.582 --> 00:57:22.262
+Me. Hi. Amazing talk as always. So my
+
+959
+00:57:22.282 --> 00:57:26.202
+question is allelic-specific methylation and clonal selection.
+
+960
+00:57:26.822 --> 00:57:27.482
+You show the
+
+961
+00:57:28.322 --> 00:57:30.742
+several independent crates have the same
+
+962
+00:57:31.742 --> 00:57:32.282
+methylation.
+
+963
+00:57:33.102 --> 00:57:36.002
+So I'm not totally understood your explanation.
+
+964
+00:57:36.062 --> 00:57:39.742
+But two explanation, one is the sum result of the positive
+
+965
+00:57:39.802 --> 00:57:41.312
+selection of the particular allele.
+
+966
+00:57:41.862 --> 00:57:45.622
+The other explanation might be the
+
+967
+00:57:46.102 --> 00:57:48.122
+sum epigenetic memories through the...
+
+968
+00:57:48.582 --> 00:57:52.402
+Because after paternalization. So once
+
+969
+00:57:52.482 --> 00:57:55.582
+the old methylation erased but not completely erased.
+
+970
+00:57:56.122 --> 00:57:59.482
+So this seeds of some methylation could
+
+971
+00:57:59.982 --> 00:58:02.982
+prefer the particular allele rather than the original.
+
+972
+00:58:03.302 --> 00:58:07.122
+Which is the more feasible plausible explanation-
+
+973
+00:58:07.462 --> 00:58:07.582
+Yes.
+
+974
+00:58:07.622 --> 00:58:08.582
+According to your data?
+
+975
+00:58:08.612 --> 00:58:11.962
+So in terms of these sites that are either gaining methylation or losing
+
+976
+00:58:11.982 --> 00:58:15.442
+methylation early in life, you're wondering whether it might be selection or
+
+977
+00:58:15.482 --> 00:58:19.442
+something else. I'm not sure if it's selection because
+
+978
+00:58:19.502 --> 00:58:21.422
+it's at a time... Well, it could be.
+
+979
+00:58:21.462 --> 00:58:25.422
+It's at a time when the growth is so rapid that any
+
+980
+00:58:25.562 --> 00:58:28.072
+minor selective advantage will sort of hitchhike
+
+981
+00:58:28.882 --> 00:58:32.602
+with clonal expansion. So they could have a minor
+
+982
+00:58:32.642 --> 00:58:35.402
+selective advantage. We don't know.
+
+983
+00:58:35.442 --> 00:58:38.722
+We have to model that, and it's quite hard to model because the background growth
+
+984
+00:58:38.782 --> 00:58:42.312
+rate is so high that literally even a 5% selective
+
+985
+00:58:42.362 --> 00:58:46.182
+advantage would come up. It could also just be stochastic
+
+986
+00:58:46.262 --> 00:58:50.082
+loss. Maybe when there's reprogramming going on because it's at a
+
+987
+00:58:50.142 --> 00:58:54.042
+time when you are lineage priming your germ layers, that there are
+
+988
+00:58:54.082 --> 00:58:57.992
+pockets that get missed. I don't know the mechanism at
+
+989
+00:58:58.002 --> 00:59:01.462
+the moment, and I also don't know how the maternal and paternal
+
+990
+00:59:01.522 --> 00:59:04.962
+chromosome alleles might be differentially treated.
+
+991
+00:59:05.742 --> 00:59:08.262
+I think it's a really key question that what's driving this.
+
+992
+00:59:08.462 --> 00:59:11.121
+For me, it's like autosomal imprinting.
+
+993
+00:59:11.162 --> 00:59:13.422
+We're seeing this beyond the X chromosome.
+
+994
+00:59:13.462 --> 00:59:14.181
+Imprinting?
+
+995
+00:59:14.242 --> 00:59:15.922
+Well, it's like that.
+
+996
+00:59:17.362 --> 00:59:20.422
+We always think of heterozygous methylation as only associated with the X
+
+997
+00:59:20.462 --> 00:59:24.162
+chromosome, but that's essentially what we're seeing here across 5,000 sites in the
+
+998
+00:59:24.202 --> 00:59:26.502
+genome. And I don't know what's causing it.
+
+999
+00:59:27.762 --> 00:59:28.422
+Okay. Thank you.
+
+1000
+00:59:31.082 --> 00:59:33.422
+Okay. Nuria Lopez-Bigas from Barcelona.
+
+1001
+00:59:34.602 --> 00:59:38.382
+I think it's very powerful to have the mutations and also the methylation.
+
+1002
+00:59:39.242 --> 00:59:43.222
+If you would get non-regulated CpGs, in
+
+1003
+00:59:43.262 --> 00:59:45.502
+principle, you could also build trees, right?
+
+1004
+00:59:45.822 --> 00:59:49.022
+Have you tried that and do they correlate with the
+
+1005
+00:59:49.062 --> 00:59:50.722
+mutation trees?
+
+1006
+00:59:51.562 --> 00:59:55.422
+So the issue with building de novo methylation trees
+
+1007
+00:59:55.482 --> 00:59:59.022
+is you'd have to restrict it to certain methylation sites that are likely to only
+
+1008
+00:59:59.102 --> 01:00:02.882
+change once or twice. So the ones that I showed you change once
+
+1009
+01:00:03.262 --> 01:00:05.322
+early in life and then stay stable.
+
+1010
+01:00:06.302 --> 01:00:09.622
+So those would be very hard to use because when you do a de novo tree, it would try
+
+1011
+01:00:09.662 --> 01:00:13.142
+and place it as one event, and then it breaks the phylogeny.
+
+1012
+01:00:16.942 --> 01:00:19.982
+So it's a bit trickier, but you'd have to find
+
+1013
+01:00:20.022 --> 01:00:23.612
+CpGs that change once-- That have a
+
+1014
+01:00:23.662 --> 01:00:27.362
+constant rate of change over life and then use those to build a
+
+1015
+01:00:27.402 --> 01:00:28.902
+tree. We
+
+1016
+01:00:30.062 --> 01:00:31.982
+can resolve our trees with methylation.
+
+1017
+01:00:32.082 --> 01:00:35.682
+So where we have what we call polytomies at the top of the tree where we don't know
+
+1018
+01:00:35.722 --> 01:00:39.502
+what the ordering is because there's multiple branches happening very quickly,
+
+1019
+01:00:39.522 --> 01:00:42.942
+because the methylation rate is so much higher, we can beautifully resolve those
+
+1020
+01:00:42.982 --> 01:00:43.962
+with the methylation.
+
+1021
+01:00:45.862 --> 01:00:47.482
+Great. Thank you. Really great talk.
+
+1022
+01:00:48.282 --> 01:00:51.952
+Could you comment on the role of these somatic mutations,
+
+1023
+01:00:52.022 --> 01:00:55.002
+methylations, the ordering in other diseases outside of cancer?
+
+1024
+01:00:55.152 --> 01:00:57.992
+And I feel like you're sitting on a dataset where you can start to look at
+
+1025
+01:00:58.042 --> 01:01:01.726
+that.Outside of oncology? Yeah.
+
+1026
+01:01:02.086 --> 01:01:03.325
+Outside of oncology.
+
+1027
+01:01:03.506 --> 01:01:03.666
+Yeah.
+
+1028
+01:01:03.966 --> 01:01:05.926
+Yeah, really great question. So
+
+1029
+01:01:06.826 --> 01:01:10.566
+when we look at some of these genes associated with these
+
+1030
+01:01:10.646 --> 01:01:12.706
+segments that change early in life, just
+
+1031
+01:01:14.366 --> 01:01:17.846
+gene set enrichment pathway analysis, weirdly, they're
+
+1032
+01:01:18.266 --> 01:01:22.066
+kind of neurological genes. And it's
+
+1033
+01:01:22.106 --> 01:01:22.966
+almost like
+
+1034
+01:01:24.026 --> 01:01:27.706
+methylation barcoding and methylation diversity is for
+
+1035
+01:01:27.806 --> 01:01:31.565
+neurons as DNA VDJ is for immune cells,
+
+1036
+01:01:33.186 --> 01:01:37.166
+strangely enough. And when we look at EWAS, EWAS is like
+
+1037
+01:01:37.186 --> 01:01:40.526
+the methylation version of GWAS hits in Parkinson's,
+
+1038
+01:01:40.586 --> 01:01:41.366
+Alzheimer's,
+
+1039
+01:01:42.786 --> 01:01:46.446
+schizophrenia. Some of those hits, because they're done in blood, are these early
+
+1040
+01:01:46.546 --> 01:01:50.126
+changes that are happening. So whether that's just coincidence because these are
+
+1041
+01:01:50.136 --> 01:01:53.706
+stable changes over life or whether they have some impact on
+
+1042
+01:01:53.726 --> 01:01:56.286
+neurological disease is currently under investigation.
+
+1043
+01:01:57.666 --> 01:01:58.726
+Thank you.
+
+1044
+01:01:59.766 --> 01:02:03.666
+How are we doing for time? I think we should probably move on to the next talk.
+
+1045
+01:02:03.906 --> 01:02:05.626
+Okay. Let me introduce Ben.
+
+1046
+01:02:13.506 --> 01:02:15.936
+I mean, Ben really doesn't need an introduction, does he?
+
+1047
+01:02:16.646 --> 01:02:20.406
+It's a real honor to have Ben Ebert speak, CEO of
+
+1048
+01:02:20.426 --> 01:02:23.446
+Dana-Farber and President Professor of Medicine at Harvard,
+
+1049
+01:02:24.006 --> 01:02:27.926
+and again, together with Sid, Ben and Sid really described
+
+1050
+01:02:27.966 --> 01:02:28.556
+this field,
+
+1051
+01:02:29.826 --> 01:02:31.666
+and opened up this new area for research.
+
+1052
+01:02:31.696 --> 01:02:33.766
+His lab focuses on clonal hematopoiesis,
+
+1053
+01:02:34.946 --> 01:02:38.226
+and the molecular basis of blood cancers, but also protein degradation for cancer
+
+1054
+01:02:38.286 --> 01:02:40.386
+therapeutics. So delighted to have you here, Ben.
+
+1055
+01:02:40.746 --> 01:02:44.306
+Thanks, Jyoti, and it's easy to give a talk now because you guys did such an
+
+1056
+01:02:44.386 --> 01:02:46.626
+incredible introduction to this field.
+
+1057
+01:02:47.726 --> 01:02:48.526
+So these are my
+
+1058
+01:02:49.766 --> 01:02:50.576
+disclosures.
+
+1059
+01:02:52.206 --> 01:02:56.016
+So I'm going to jump right into some of
+
+1060
+01:02:56.066 --> 01:02:59.666
+the consequences of CHIP that occur
+
+1061
+01:02:59.766 --> 01:03:02.486
+in terminally differentiated blood cells.
+
+1062
+01:03:02.566 --> 01:03:06.146
+And this was a finding that Sid made in his
+
+1063
+01:03:06.186 --> 01:03:10.105
+original analysis of exome sequencing data, that
+
+1064
+01:03:10.165 --> 01:03:13.526
+while we clearly saw that CHIP was associated
+
+1065
+01:03:13.586 --> 01:03:17.206
+with the increased incidence of myeloid
+
+1066
+01:03:17.246 --> 01:03:21.026
+malignancies, there was also an increased mortality
+
+1067
+01:03:21.466 --> 01:03:25.106
+that was beyond what we could explain from just blood cancers,
+
+1068
+01:03:25.706 --> 01:03:29.686
+and that came from some of the common age-associated
+
+1069
+01:03:29.786 --> 01:03:33.626
+inflammatory diseases, and that has subsequently been
+
+1070
+01:03:33.666 --> 01:03:35.636
+validated in a number of studies,
+
+1071
+01:03:36.686 --> 01:03:38.586
+both using human genetics,
+
+1072
+01:03:39.726 --> 01:03:42.906
+some using more population science epidemiology
+
+1073
+01:03:42.986 --> 01:03:46.606
+methodologies as well as animal models.
+
+1074
+01:03:46.626 --> 01:03:50.226
+But just in the heart, we can see evidence
+
+1075
+01:03:50.406 --> 01:03:54.196
+of increased atherosclerosis, increased myocardial
+
+1076
+01:03:54.226 --> 01:03:54.926
+infarction,
+
+1077
+01:03:56.506 --> 01:03:59.846
+heart failure, as well as arrhythmias, including
+
+1078
+01:04:00.486 --> 01:04:01.425
+atrial fibrillation.
+
+1079
+01:04:02.506 --> 01:04:06.246
+There's quite a strong association with chronic liver disease as well,
+
+1080
+01:04:07.046 --> 01:04:10.766
+with chronic kidney disease, pulmonary disease, osteoporosis,
+
+1081
+01:04:10.886 --> 01:04:14.246
+blood clots. I didn't add in the lung cancer
+
+1082
+01:04:14.286 --> 01:04:17.656
+findings more recently, that are actually mediated
+
+1083
+01:04:18.006 --> 01:04:21.306
+apparently by similar biology with increased levels of
+
+1084
+01:04:21.366 --> 01:04:25.046
+interleukin-1 beta in many of these circumstances being
+
+1085
+01:04:25.106 --> 01:04:26.076
+associated with
+
+1086
+01:04:27.126 --> 01:04:28.675
+these inflammatory consequences.
+
+1087
+01:04:29.476 --> 01:04:33.426
+Sid, in his own lab, has made the striking observation that individuals with CHIP
+
+1088
+01:04:33.466 --> 01:04:36.645
+have a decreased incidence of
+
+1089
+01:04:37.026 --> 01:04:39.806
+Alzheimer's disease and other neurodegenerative disease.
+
+1090
+01:04:40.346 --> 01:04:44.286
+So there's a broad effect of these mutant blood cells
+
+1091
+01:04:44.426 --> 01:04:48.306
+on their function and their risk of
+
+1092
+01:04:48.646 --> 01:04:49.866
+a variety of diseases.
+
+1093
+01:04:51.566 --> 01:04:55.486
+Been very convenient that one of the mutations
+
+1094
+01:04:55.526 --> 01:04:59.175
+that is most powerfully associated with inflammatory disease is
+
+1095
+01:04:59.206 --> 01:05:02.735
+TET2, and that's been very consistent across many disease states.
+
+1096
+01:05:03.326 --> 01:05:06.726
+And the animal model of knockout of TET2
+
+1097
+01:05:06.766 --> 01:05:10.046
+recapitulates many things, as was
+
+1098
+01:05:10.486 --> 01:05:11.746
+described in Sid's talk.
+
+1099
+01:05:12.696 --> 01:05:16.546
+It recapitulates the competitive advantage of TET2 mutant
+
+1100
+01:05:16.645 --> 01:05:20.296
+cells. It recapitulates the increased risk of blood cancers,
+
+1101
+01:05:20.606 --> 01:05:24.186
+and it also recapitulates the increased
+
+1102
+01:05:24.226 --> 01:05:25.506
+inflammatory phenotypes.
+
+1103
+01:05:26.786 --> 01:05:28.556
+Sid initially showed that in
+
+1104
+01:05:29.666 --> 01:05:33.626
+atherosclerosis and the exposure to a very high-fat diet
+
+1105
+01:05:33.646 --> 01:05:37.526
+in LDL receptor knockout recipient mice, that just changing the
+
+1106
+01:05:37.546 --> 01:05:41.426
+genotype of the blood cells to TET2 knockout resulted in increased
+
+1107
+01:05:41.546 --> 01:05:44.146
+atherosclerosis, shown here in the descending aorta.
+
+1108
+01:05:45.466 --> 01:05:49.386
+In mice with TET2 knockout blood cells exposed to
+
+1109
+01:05:49.426 --> 01:05:52.886
+cigarette smoke, you can see greater airspace disease
+
+1110
+01:05:53.386 --> 01:05:53.666
+and
+
+1111
+01:05:54.826 --> 01:05:56.686
+mimicking COPD.
+
+1112
+01:05:57.826 --> 01:06:01.076
+And in chronic liver disease in mice fed a diet that
+
+1113
+01:06:01.086 --> 01:06:01.876
+predisposes to
+
+1114
+01:06:03.306 --> 01:06:06.826
+first fatty liver and then NASH, and then cirrhosis and
+
+1115
+01:06:06.866 --> 01:06:10.766
+fibrosis, you can see that just changing the genotype of the
+
+1116
+01:06:10.786 --> 01:06:12.886
+blood cells increases
+
+1117
+01:06:13.906 --> 01:06:17.166
+the reticulin staining here, leading to
+
+1118
+01:06:18.546 --> 01:06:20.486
+end-stage liver disease in these mice.
+
+1119
+01:06:21.686 --> 01:06:25.426
+In many of these cases, we can interrupt either
+
+1120
+01:06:25.446 --> 01:06:29.346
+interleukin-1 beta or the NLRP3 inflammasome, which is in the same
+
+1121
+01:06:29.406 --> 01:06:32.806
+pathway, and reverse these phenotypes, implicating
+
+1122
+01:06:33.346 --> 01:06:36.586
+IL-1 beta as a critical mediator
+
+1123
+01:06:36.726 --> 01:06:38.926
+of many of these phenotypes.
+
+1124
+01:06:41.046 --> 01:06:45.006
+And actually, one other thing that I might just add to all of these studies
+
+1125
+01:06:45.066 --> 01:06:48.666
+is that over the years, we've recognized that different
+
+1126
+01:06:48.686 --> 01:06:52.446
+genotypes have different risk of inflammatory diseases.
+
+1127
+01:06:52.466 --> 01:06:56.446
+And really, it's the individuals with the largest clones that
+
+1128
+01:06:56.526 --> 01:07:00.106
+have the greatest risk with a varying allele fraction of around
+
+1129
+01:07:00.126 --> 01:07:03.446
+10% or greater. So that becomes an enormous clone
+
+1130
+01:07:03.986 --> 01:07:07.746
+comprising quite a large percentage of all the terminally
+
+1131
+01:07:07.786 --> 01:07:11.506
+differentiated blood cells in the body, and those are the individuals who carry the
+
+1132
+01:07:11.526 --> 01:07:15.344
+greatest riskSo what is the mechanistic
+
+1133
+01:07:15.414 --> 01:07:17.514
+basis of inflammation Tet2 knockout cells?
+
+1134
+01:07:18.134 --> 01:07:21.954
+We like to use genetic screens in the lab, and that is a challenging
+
+1135
+01:07:22.034 --> 01:07:25.934
+thing to do in vivo. And we're talking about very
+
+1136
+01:07:25.974 --> 01:07:29.244
+complex phenotypes where there's a lot of interaction between
+
+1137
+01:07:29.514 --> 01:07:33.254
+hematopoietic stem cells or differentiated blood cells and their surrounding
+
+1138
+01:07:33.294 --> 01:07:37.254
+environment. So we wanted to do this type of screen in the native
+
+1139
+01:07:37.314 --> 01:07:41.274
+microenvironment. A challenge for doing these large-scale in
+
+1140
+01:07:41.354 --> 01:07:45.094
+vivo screens is that you transduce
+
+1141
+01:07:45.574 --> 01:07:47.994
+a very heterogeneous pool of cells.
+
+1142
+01:07:48.134 --> 01:07:51.794
+Unlike CRISPR screens in cell lines where every cell is
+
+1143
+01:07:52.394 --> 01:07:53.114
+pretty similar,
+
+1144
+01:07:53.994 --> 01:07:56.554
+in vivo, the cells are incredibly different.
+
+1145
+01:07:56.714 --> 01:08:00.474
+Even if you try to purify stem or stem and progenitor
+
+1146
+01:08:00.514 --> 01:08:00.934
+cells,
+
+1147
+01:08:01.974 --> 01:08:03.534
+they have very different proliferation rates.
+
+1148
+01:08:03.574 --> 01:08:06.354
+So we wanted to be able to quantify not only
+
+1149
+01:08:07.174 --> 01:08:11.114
+the size, the number of cells with every guide, but every individually
+
+1150
+01:08:11.214 --> 01:08:14.974
+transduced cells using a unique molecular barcode.
+
+1151
+01:08:15.754 --> 01:08:19.074
+And so every guide RNA in this library
+
+1152
+01:08:19.235 --> 01:08:23.094
+has a unique molecular barcode, so we could track both the number
+
+1153
+01:08:23.134 --> 01:08:26.994
+of clones and the total number of cells transduced with each guide
+
+1154
+01:08:27.054 --> 01:08:30.704
+and trace that clonal progeny from infected stem cells
+
+1155
+01:08:31.174 --> 01:08:34.534
+and progenitor cells. The reason for this is just illustrated here.
+
+1156
+01:08:34.614 --> 01:08:37.894
+You can imagine that in some cases, a cell that is
+
+1157
+01:08:37.954 --> 01:08:40.855
+transduced might produce a couple of cells,
+
+1158
+01:08:41.714 --> 01:08:45.514
+and even if it's a non-targeting guide that has no biological
+
+1159
+01:08:45.554 --> 01:08:49.454
+effect. And another non-targeting guide could
+
+1160
+01:08:49.554 --> 01:08:52.574
+happen to transduce a cell that gives rise to many progeny.
+
+1161
+01:08:53.124 --> 01:08:56.704
+And you would think based on just the sequencing
+
+1162
+01:08:56.775 --> 01:09:00.695
+data that this guide causes the cells to be
+
+1163
+01:09:00.754 --> 01:09:04.394
+less fit than this guide, but it's just the heterogeneity of the cells.
+
+1164
+01:09:04.434 --> 01:09:08.355
+And using this approach, we can track the number of clones as well as the
+
+1165
+01:09:08.394 --> 01:09:09.264
+total number of cells.
+
+1166
+01:09:11.134 --> 01:09:15.054
+So we actually managed to do a genome-wide in vivo screen
+
+1167
+01:09:15.134 --> 01:09:18.474
+for inflammation in Tet2 knockout cells.
+
+1168
+01:09:18.874 --> 01:09:22.804
+We started with Cas9 transgenic mice,
+
+1169
+01:09:23.753 --> 01:09:26.775
+with or without Tet2 inactivated in the blood cells.
+
+1170
+01:09:27.914 --> 01:09:31.355
+We used this genome-wide barcoded library as an
+
+1171
+01:09:31.394 --> 01:09:35.174
+inflammatory stimulus. And I should also note that we think that
+
+1172
+01:09:35.275 --> 01:09:38.994
+really with any of these inflammatory states, CHIP by itself
+
+1173
+01:09:39.034 --> 01:09:42.603
+doesn't immediately cause any inflammatory diseases.
+
+1174
+01:09:42.804 --> 01:09:46.315
+It increases the risk and there needs to be another stimulus.
+
+1175
+01:09:46.374 --> 01:09:50.195
+In the case of cardiovascular disease, that could be a high cholesterol
+
+1176
+01:09:50.454 --> 01:09:54.334
+exposure, or in the case of gout, it's
+
+1177
+01:09:54.834 --> 01:09:58.454
+uric acid crystals, and that inflammatory response is
+
+1178
+01:09:58.494 --> 01:10:01.794
+exaggerated in the case of the Tet2 knockout.
+
+1179
+01:10:01.854 --> 01:10:03.954
+So here we used a classic
+
+1180
+01:10:05.334 --> 01:10:09.134
+stimulator of myeloid inflammation, which is zymosan from a yeast
+
+1181
+01:10:09.194 --> 01:10:09.734
+cell wall,
+
+1182
+01:10:11.054 --> 01:10:14.874
+and then harvested cells from the peritoneum,
+
+1183
+01:10:14.914 --> 01:10:17.914
+which becomes very inflamed in this circumstance.
+
+1184
+01:10:17.934 --> 01:10:21.534
+And we actually looked at the bone marrow and the peritoneum,
+
+1185
+01:10:21.574 --> 01:10:24.984
+looking specifically not just for clonal expansion broadly, but
+
+1186
+01:10:25.054 --> 01:10:25.694
+for
+
+1187
+01:10:26.514 --> 01:10:30.504
+genes that mediate inflammation and accumulation of guides
+
+1188
+01:10:30.574 --> 01:10:31.394
+in the peritoneum.
+
+1189
+01:10:33.294 --> 01:10:37.154
+When we did this, we were struck that a very
+
+1190
+01:10:37.274 --> 01:10:41.074
+large percentage of the guides related to lipid metabolism,
+
+1191
+01:10:42.334 --> 01:10:45.634
+and particularly one of the key regulators
+
+1192
+01:10:45.834 --> 01:10:49.574
+of the lipid metabolic pathway is
+
+1193
+01:10:49.594 --> 01:10:53.454
+ACLY, as well as OGT, which I'll talk
+
+1194
+01:10:53.514 --> 01:10:56.114
+about in a little bit. It also reminded us of
+
+1195
+01:10:57.174 --> 01:11:00.454
+some of the very early studies that we did, that Sid did,
+
+1196
+01:11:01.374 --> 01:11:04.994
+that showed sheets of macrophages, foamy macrophages in
+
+1197
+01:11:05.614 --> 01:11:08.714
+mice with Tet2 knockout exposed to a high-fat diet.
+
+1198
+01:11:09.874 --> 01:11:13.174
+So if you look at some of the individual genes that hit in this screen, they
+
+1199
+01:11:13.234 --> 01:11:17.194
+include ACLY, which is a regulator of conversion of
+
+1200
+01:11:17.214 --> 01:11:18.534
+citrate to acetyl-CoA,
+
+1201
+01:11:19.574 --> 01:11:23.494
+a number of genes that are critical regulators of cholesterol
+
+1202
+01:11:23.574 --> 01:11:24.934
+and fatty acid metabolism.
+
+1203
+01:11:25.814 --> 01:11:29.654
+And each of these individual mutations takes the level
+
+1204
+01:11:29.874 --> 01:11:32.354
+of inflammation in the peritoneum from
+
+1205
+01:11:34.274 --> 01:11:37.854
+increased inflammation with Tet2 compared to wild type back to baseline.
+
+1206
+01:11:38.834 --> 01:11:42.514
+So the same effect of the inflammatory stimulus in the Tet2
+
+1207
+01:11:42.554 --> 01:11:44.534
+knockout and the wild type.
+
+1208
+01:11:46.134 --> 01:11:49.314
+If you do lipid profiling of these mutant cells,
+
+1209
+01:11:49.834 --> 01:11:53.794
+both in human cells and in mouse cells, you see a
+
+1210
+01:11:53.834 --> 01:11:55.114
+very dramatic increase
+
+1211
+01:11:55.954 --> 01:11:59.594
+of accumulation of triacylglycerols, diacylglycerols, as well as
+
+1212
+01:11:59.614 --> 01:12:02.624
+cholesterol esters in neutrophils, macrophages
+
+1213
+01:12:03.454 --> 01:12:07.154
+in mice and in human macrophages that have been edited at the
+
+1214
+01:12:07.194 --> 01:12:11.114
+Tet2 locus. And if you stain these cells, these
+
+1215
+01:12:11.154 --> 01:12:14.954
+green droplets are lipid droplets that we see in the
+
+1216
+01:12:14.994 --> 01:12:18.634
+Tet2 knockout cells much more than in wild-type cells.
+
+1217
+01:12:18.674 --> 01:12:22.334
+And in humans as well, using a different stain, you can see these lipid
+
+1218
+01:12:22.414 --> 01:12:24.974
+droplets in Tet2-edited
+
+1219
+01:12:25.974 --> 01:12:29.234
+HSCs, HSPCs, compared to wild type.
+
+1220
+01:12:29.654 --> 01:12:33.174
+So there's a quite profound metabolic defect
+
+1221
+01:12:33.234 --> 01:12:36.554
+related to lipid metabolism in these Tet2 knockout cells.
+
+1222
+01:12:38.354 --> 01:12:42.254
+If you look by gene expression profiling in the Tet2 knockout cells
+
+1223
+01:12:42.314 --> 01:12:44.414
+exposed to this inflammatory stimulus,
+
+1224
+01:12:45.434 --> 01:12:47.754
+it's quite marked compared to wild-type cells.
+
+1225
+01:12:48.274 --> 01:12:48.974
+But if you
+
+1226
+01:12:49.934 --> 01:12:53.634
+knock out ACLY, one of the critical regulators, you
+
+1227
+01:12:53.754 --> 01:12:57.514
+largely return the gene expression profile to the wild-type
+
+1228
+01:12:57.814 --> 01:12:58.034
+state.
+
+1229
+01:13:01.154 --> 01:13:03.824
+I mentioned that OGT was one of the other hits.
+
+1230
+01:13:04.434 --> 01:13:08.374
+That struck us because OGT is one of the primary binding partners
+
+1231
+01:13:08.454 --> 01:13:11.724
+of Tet2, and OGT is a regulator,
+
+1232
+01:13:12.394 --> 01:13:16.174
+is actually a sensor of metabolic state in cells, and
+
+1233
+01:13:16.234 --> 01:13:18.294
+it adds a sugar moiety,
+
+1234
+01:13:19.254 --> 01:13:22.954
+glycan acylation, to many different proteins in the cell in
+
+1235
+01:13:23.014 --> 01:13:25.574
+response to metabolic
+
+1236
+01:13:25.634 --> 01:13:29.412
+stimuli.We tried to look at
+
+1237
+01:13:29.462 --> 01:13:33.022
+that interaction between TET2 and OGT and map it.
+
+1238
+01:13:33.102 --> 01:13:34.002
+We did a
+
+1239
+01:13:35.022 --> 01:13:38.922
+base editing screen, tiling all of
+
+1240
+01:13:39.002 --> 01:13:42.982
+TET2 and found some hits right where we predicted
+
+1241
+01:13:43.022 --> 01:13:45.822
+the binding interaction between TET2 and OGT to be.
+
+1242
+01:13:47.802 --> 01:13:51.552
+And then we developed a TR-FRET assay to look directly
+
+1243
+01:13:51.642 --> 01:13:53.742
+at the interaction of the
+
+1244
+01:13:54.842 --> 01:13:58.592
+TET2 with OGT right at this location, and you can
+
+1245
+01:13:58.722 --> 01:14:02.502
+see there's a nice interaction here with wild type TET2
+
+1246
+01:14:02.562 --> 01:14:05.662
+interacting with OGT. And if we mutate the critical
+
+1247
+01:14:06.302 --> 01:14:07.802
+amino acids shown here,
+
+1248
+01:14:09.322 --> 01:14:12.482
+we lose the interaction between TET2 and OGT.
+
+1249
+01:14:12.522 --> 01:14:16.122
+So we think there's a very specific interaction that occurs at this locus between
+
+1250
+01:14:16.162 --> 01:14:19.502
+TET2 and OGT. If TET2 is gone, OGT is
+
+1251
+01:14:19.862 --> 01:14:21.272
+liberated from that interaction.
+
+1252
+01:14:22.642 --> 01:14:25.842
+So there's a lot more to be worked out there, but we think
+
+1253
+01:14:25.902 --> 01:14:29.182
+that TET2 mutations result in a
+
+1254
+01:14:29.802 --> 01:14:33.722
+major metabolic defect and it's related to
+
+1255
+01:14:33.802 --> 01:14:37.722
+OGT and its metabolic sensing. If you interrupt,
+
+1256
+01:14:38.342 --> 01:14:42.222
+so if you knock out TET2, OGT is liberated from its
+
+1257
+01:14:42.242 --> 01:14:45.802
+interaction with TET2, it results in
+
+1258
+01:14:45.862 --> 01:14:48.402
+glyco-N-acylation that's aberrant.
+
+1259
+01:14:49.102 --> 01:14:52.742
+It results in this lipid accumulation.
+
+1260
+01:14:52.822 --> 01:14:55.902
+If you block AOLY, you remove that lipid
+
+1261
+01:14:56.762 --> 01:15:00.702
+droplet formation. Lipid droplets are known to cause inflammation, and that,
+
+1262
+01:15:00.782 --> 01:15:04.242
+again, can be inhibited by various inhibitors of lipid metabolism.
+
+1263
+01:15:04.902 --> 01:15:08.502
+It also aligns with findings from our lab and a number of
+
+1264
+01:15:08.542 --> 01:15:12.162
+labs that have shown mitochondrial
+
+1265
+01:15:12.202 --> 01:15:15.882
+defects in TET2 knockout cells as well, which we think are
+
+1266
+01:15:15.902 --> 01:15:19.322
+probably related to the substrates going into the mitochondria.
+
+1267
+01:15:21.572 --> 01:15:25.462
+And then quickly, I just wanted to note prediction of outcome for CHIP,
+
+1268
+01:15:25.482 --> 01:15:28.882
+because this is critical for us to think about how we are going to
+
+1269
+01:15:28.922 --> 01:15:32.422
+intervene in individuals with CHIP who might have these various
+
+1270
+01:15:32.482 --> 01:15:36.262
+outcomes. We did this in the UK Biobank in 500,000
+
+1271
+01:15:36.302 --> 01:15:37.021
+individuals.
+
+1272
+01:15:38.322 --> 01:15:41.942
+If you look at instant myeloid malignancy in individuals with
+
+1273
+01:15:42.002 --> 01:15:45.822
+CHIP, you see a huge variation in the
+
+1274
+01:15:45.862 --> 01:15:49.832
+risk of progression, DNMT3A heterozygous mutations being among
+
+1275
+01:15:49.882 --> 01:15:53.562
+the lowest, splicing factor mutations being among the highest.
+
+1276
+01:15:53.912 --> 01:15:57.382
+This aligns very well with the PACER
+
+1277
+01:15:57.422 --> 01:16:00.842
+analysis that Sid showed us, though there are
+
+1278
+01:16:00.862 --> 01:16:04.572
+exceptions like PPM1D, which had a higher rate of
+
+1279
+01:16:04.622 --> 01:16:08.282
+progression in the PACER analysis but has a very low risk of developing a
+
+1280
+01:16:08.302 --> 01:16:09.142
+myeloid malignancy.
+
+1281
+01:16:11.382 --> 01:16:14.542
+DNMT3A mutations, though they have a very low risk compared to the others,
+
+1282
+01:16:14.662 --> 01:16:18.402
+still, of course, increase the risk of
+
+1283
+01:16:18.412 --> 01:16:19.842
+progression to myeloid malignancy.
+
+1284
+01:16:19.882 --> 01:16:23.402
+It's just much smaller than the others, at least for the heterozygous
+
+1285
+01:16:23.862 --> 01:16:25.022
+DNMT3A mutations.
+
+1286
+01:16:26.522 --> 01:16:30.452
+By putting the various factors that we observed together, which are quite simple,
+
+1287
+01:16:31.142 --> 01:16:34.402
+what the genotype is that's driving,
+
+1288
+01:16:35.122 --> 01:16:38.882
+how many mutations are present, how big the clone is, RDW, which
+
+1289
+01:16:38.922 --> 01:16:42.442
+in all studies have been very powerfully associated with
+
+1290
+01:16:42.842 --> 01:16:46.642
+all the adverse outcomes, MCV, cytopenias, and age,
+
+1291
+01:16:47.022 --> 01:16:50.702
+get a very simple score that really
+
+1292
+01:16:50.762 --> 01:16:52.662
+subdivides the risk.
+
+1293
+01:16:53.582 --> 01:16:54.302
+High-risk
+
+1294
+01:16:55.222 --> 01:16:59.122
+individuals, which fortunately is only about 1% of individuals,
+
+1295
+01:16:59.582 --> 01:16:59.862
+have
+
+1296
+01:17:00.682 --> 01:17:04.602
+getting close to an inevitability of progressing to a myeloid
+
+1297
+01:17:04.622 --> 01:17:08.442
+malignancy, and there are already multiple clinical trials underway
+
+1298
+01:17:08.502 --> 01:17:12.442
+to intervene on risk of progression, specifically in
+
+1299
+01:17:12.502 --> 01:17:13.182
+this subgroup.
+
+1300
+01:17:14.222 --> 01:17:16.822
+Again, that's only 1% of individuals, which is good.
+
+1301
+01:17:16.922 --> 01:17:20.062
+90% of individuals are in green in the very low-risk group.
+
+1302
+01:17:20.462 --> 01:17:24.122
+Only a threefold increased risk of developing a myeloid malignancy, which is a very
+
+1303
+01:17:24.162 --> 01:17:27.002
+low baseline, so the absolute risk is very low.
+
+1304
+01:17:27.042 --> 01:17:30.622
+And then the intermediate risk has an intermediate, about a 35-fold increased risk,
+
+1305
+01:17:30.702 --> 01:17:33.322
+but still a relatively small overall risk.
+
+1306
+01:17:35.922 --> 01:17:39.762
+And even though we built this model for progression to myeloid
+
+1307
+01:17:39.782 --> 01:17:43.142
+malignancy, it correlated very powerfully with overall survival.
+
+1308
+01:17:43.302 --> 01:17:47.262
+The high-risk group having about 50% overall survival, low risk
+
+1309
+01:17:47.362 --> 01:17:50.662
+and no CHIP having about a 95% survival.
+
+1310
+01:17:53.022 --> 01:17:56.862
+And this has been validated now in a number of cohorts, but illustrating that
+
+1311
+01:17:56.922 --> 01:18:00.502
+even in this cohort that was very different from the UK
+
+1312
+01:18:00.542 --> 01:18:04.142
+Biobank, in that it was older and less healthy,
+
+1313
+01:18:05.122 --> 01:18:08.862
+the absolute risk of heme malignancy is most affected by this risk
+
+1314
+01:18:08.942 --> 01:18:09.182
+group,
+
+1315
+01:18:10.202 --> 01:18:14.022
+but the total mortality is still driven
+
+1316
+01:18:14.062 --> 01:18:17.822
+by cardiovascular disease as the major
+
+1317
+01:18:17.842 --> 01:18:21.182
+cause of death, though solid organ malignancy
+
+1318
+01:18:21.282 --> 01:18:25.242
+also was significantly elevated, particularly in the high-risk group.
+
+1319
+01:18:27.542 --> 01:18:31.182
+So just wanted to note that, again, CHIP is
+
+1320
+01:18:31.302 --> 01:18:35.182
+extremely common, associated with overall mortality, increased risk of a variety
+
+1321
+01:18:35.262 --> 01:18:38.542
+of inflammatory diseases, and that TET2 inactivation
+
+1322
+01:18:38.962 --> 01:18:42.942
+exacerbates these inflammatory phenotypes and alters lipid
+
+1323
+01:18:42.962 --> 01:18:46.882
+metabolism, and intervening on that lipid metabolism removes
+
+1324
+01:18:46.922 --> 01:18:48.432
+the inflammatory phenotype.
+
+1325
+01:18:49.232 --> 01:18:52.822
+And risk of progression to malignancy or to
+
+1326
+01:18:53.042 --> 01:18:56.622
+overall mortality is affected by individual genetic alterations
+
+1327
+01:18:56.962 --> 01:19:00.942
+and can be predicted by this and other clonal hematopoiesis
+
+1328
+01:19:01.002 --> 01:19:01.622
+risk scores.
+
+1329
+01:19:02.802 --> 01:19:06.542
+And again, highlighting the seminal work that Sid did,
+
+1330
+01:19:07.442 --> 01:19:09.372
+as well as various members of the lab.
+
+1331
+01:19:09.402 --> 01:19:12.982
+The work I talked about today was led by Peter Kim and Chris
+
+1332
+01:19:13.002 --> 01:19:13.682
+Hergot here.
+
+1333
+01:19:14.602 --> 01:19:15.702
+Happy to take any questions.
+
+1334
+01:19:26.782 --> 01:19:27.482
+Yeah, go ahead.
+
+1335
+01:19:27.902 --> 01:19:31.812
+Beautiful talk. I was wondering, when you see infection,
+
+1336
+01:19:32.402 --> 01:19:36.122
+cancer, or anything other than autoimmune, you start to wonder about
+
+1337
+01:19:36.162 --> 01:19:36.842
+sex effects.
+
+1338
+01:19:37.182 --> 01:19:37.382
+Mm-hmm.
+
+1339
+01:19:37.532 --> 01:19:41.422
+And so I was wondering, do you have a component for mosaic loss of
+
+1340
+01:19:41.462 --> 01:19:44.042
+sex chromosomes in your risk score?
+
+1341
+01:19:44.858 --> 01:19:45.178
+And
+
+1342
+01:19:46.158 --> 01:19:49.738
+to what extent is there an overlap between the effect of any given
+
+1343
+01:19:49.798 --> 01:19:52.978
+clonal hematopoiesis-associated allele?
+
+1344
+01:19:53.498 --> 01:19:56.778
+It's a great question. Minus Y is included in there, but
+
+1345
+01:19:58.598 --> 01:20:01.618
+there is clearly an effect of sex on
+
+1346
+01:20:02.538 --> 01:20:03.998
+each of these individual mutations.
+
+1347
+01:20:04.078 --> 01:20:08.018
+The vast majority of mutations are much more common in males than
+
+1348
+01:20:08.078 --> 01:20:11.768
+females. DNMT3 mutations are slightly more common in
+
+1349
+01:20:11.798 --> 01:20:15.008
+females than males. And we've actually been able to
+
+1350
+01:20:15.058 --> 01:20:18.678
+recapitulate some of that in animal models
+
+1351
+01:20:18.718 --> 01:20:22.038
+by just modulating hormone exposures
+
+1352
+01:20:22.138 --> 01:20:25.718
+and estrogen-driving clonal advantage in
+
+1353
+01:20:26.218 --> 01:20:26.898
+DNMT3A.
+
+1354
+01:20:27.718 --> 01:20:29.038
+Very cool. Thank you so much.
+
+1355
+01:20:31.918 --> 01:20:32.218
+Hey, Tim.
+
+1356
+01:20:32.558 --> 01:20:35.398
+Ben, great talk. Fantastic work, as always.
+
+1357
+01:20:37.078 --> 01:20:39.318
+Clonal hematopoiesis of indeterminate potential.
+
+1358
+01:20:39.418 --> 01:20:43.358
+Since the algorithms are so good now, is it time to drop IP and just call it-
+
+1359
+01:20:43.408 --> 01:20:43.418
+Yeah
+
+1360
+01:20:43.428 --> 01:20:44.128
+... clonal hematopoiesis?
+
+1361
+01:20:44.658 --> 01:20:48.088
+I suppose every
+
+1362
+01:20:48.138 --> 01:20:51.418
+human disease has some indeterminate potential.
+
+1363
+01:20:52.518 --> 01:20:56.278
+We were trying to align with MGUS, which
+
+1364
+01:20:56.358 --> 01:20:59.818
+also has almost an inevitable
+
+1365
+01:21:00.018 --> 01:21:03.698
+component to it. But it's still a smaller percentage that fully
+
+1366
+01:21:03.798 --> 01:21:06.558
+progress, which is the idea. It's a good question.
+
+1367
+01:21:07.898 --> 01:21:11.098
+My question's related to the ACLY component.
+
+1368
+01:21:11.108 --> 01:21:11.108
+Yeah.
+
+1369
+01:21:11.158 --> 01:21:14.918
+Do you see the same dependency in earlier, less mature
+
+1370
+01:21:15.038 --> 01:21:18.678
+cells being MPPs and HSCs, or is this
+
+1371
+01:21:18.738 --> 01:21:22.368
+lipid accumulation phenotype restricted to these different-
+
+1372
+01:21:22.438 --> 01:21:24.318
+Great question. We're doing that now,
+
+1373
+01:21:25.678 --> 01:21:26.078
+and
+
+1374
+01:21:27.138 --> 01:21:30.478
+it is not a trivial experiment because ACLY is
+
+1375
+01:21:30.498 --> 01:21:34.478
+essential for all cells, and so doing that genetically carefully is
+
+1376
+01:21:34.518 --> 01:21:37.638
+hard. There are some ACLY inhibitors, some of which have been
+
+1377
+01:21:38.598 --> 01:21:42.338
+moved forward clinically, but they are developed to have their primary
+
+1378
+01:21:42.418 --> 01:21:43.158
+activity in the liver,
+
+1379
+01:21:44.558 --> 01:21:47.038
+to modify lipid metabolism. And so,
+
+1380
+01:21:48.518 --> 01:21:52.338
+understanding the tet2 specificity is not trivial, but we think it's
+
+1381
+01:21:52.378 --> 01:21:52.698
+there. But
+
+1382
+01:21:53.858 --> 01:21:56.378
+we're still working our way through those experiments. Good question.
+
+1383
+01:21:56.418 --> 01:21:56.618
+Thanks.
+
+1384
+01:21:56.727 --> 01:21:57.038
+Question?
+
+1385
+01:21:58.798 --> 01:21:58.938
+Yeah.
+
+1386
+01:21:59.358 --> 01:22:00.878
+Wonderful talk.
+
+1387
+01:22:01.738 --> 01:22:05.438
+Just a quick question. Building on what you mentioned about the lipid
+
+1388
+01:22:05.498 --> 01:22:07.998
+metabolism, do you think there's a role to
+
+1389
+01:22:10.118 --> 01:22:13.938
+investigate CHIP on tumor microenvironments and
+
+1390
+01:22:14.018 --> 01:22:17.918
+how it would evolve, like response to immunotherapy and things of
+
+1391
+01:22:17.978 --> 01:22:18.438
+that line?
+
+1392
+01:22:18.958 --> 01:22:22.468
+Absolutely. I think the most elegant work has been done
+
+1393
+01:22:22.518 --> 01:22:24.848
+in lung cancer, where
+
+1394
+01:22:26.358 --> 01:22:29.598
+infiltrating tet2 mutant clones seem
+
+1395
+01:22:29.738 --> 01:22:32.808
+to increase the risk of lung cancer.
+
+1396
+01:22:33.548 --> 01:22:37.238
+That also aligns with the striking finding of the CANTO
+
+1397
+01:22:37.258 --> 01:22:41.048
+study, in which a large number of patients, about
+
+1398
+01:22:41.078 --> 01:22:44.418
+10,000 patients in a randomized controlled clinical trial, were treated with an
+
+1399
+01:22:44.478 --> 01:22:48.338
+IL-1 beta inhibitor called canakinumab, and the
+
+1400
+01:22:49.038 --> 01:22:52.698
+risk of lung cancer was approximately
+
+1401
+01:22:52.778 --> 01:22:54.798
+halved in the individuals who got canakinumab.
+
+1402
+01:22:55.498 --> 01:22:55.638
+And
+
+1403
+01:22:57.118 --> 01:23:00.938
+when mature lung cancers were treated with canakinumab, it
+
+1404
+01:23:01.118 --> 01:23:04.498
+didn't have great efficacy. So it may be in those very earliest
+
+1405
+01:23:04.558 --> 01:23:07.838
+stages where there's an initial mutation that the
+
+1406
+01:23:07.878 --> 01:23:10.638
+inflammatory microenvironment that
+
+1407
+01:23:10.678 --> 01:23:13.158
+CHIP is part of,
+
+1408
+01:23:14.178 --> 01:23:17.808
+can lead to whether that clone becomes established,
+
+1409
+01:23:18.298 --> 01:23:21.938
+expands, and then ultimately progresses to lung cancer.
+
+1410
+01:23:22.068 --> 01:23:25.958
+So, yes, I think at least in the case of lung cancer, that seems to
+
+1411
+01:23:25.978 --> 01:23:28.718
+be true and may be true in other cases as well.
+
+1412
+01:23:31.018 --> 01:23:31.118
+Yeah.
+
+1413
+01:23:31.138 --> 01:23:32.578
+Thank you very much. Great work again.
+
+1414
+01:23:33.178 --> 01:23:36.118
+I just remember from the very first paper of DNMT3A that Dr.
+
+1415
+01:23:36.378 --> 01:23:37.578
+Lei published in the "New England Journal."
+
+1416
+01:23:37.618 --> 01:23:37.628
+Yeah.
+
+1417
+01:23:37.628 --> 01:23:40.058
+There were two mutants that were recurrent.
+
+1418
+01:23:40.428 --> 01:23:40.458
+Yeah.
+
+1419
+01:23:40.468 --> 01:23:42.088
+The rest were one hit each.
+
+1420
+01:23:42.167 --> 01:23:42.167
+Yeah.
+
+1421
+01:23:42.218 --> 01:23:44.978
+Now with more sequencing, maybe this is not completely true.
+
+1422
+01:23:45.018 --> 01:23:48.918
+So the question is, are they all relevant or only some that are
+
+1423
+01:23:48.978 --> 01:23:50.918
+recurring and have functional impact?
+
+1424
+01:23:51.138 --> 01:23:54.958
+Yeah, great question. It's a loss-of-function mutation, but as Tim showed and has
+
+1425
+01:23:55.018 --> 01:23:58.978
+held up both in CHIP and in mature MDS and
+
+1426
+01:23:58.998 --> 01:23:59.398
+AML,
+
+1427
+01:24:00.538 --> 01:24:04.447
+there are hotspot mutations, and those hotspot mutations that are
+
+1428
+01:24:04.478 --> 01:24:07.798
+dominant negative mutations. And so if you look
+
+1429
+01:24:07.838 --> 01:24:11.338
+at those mutations, specifically, the risk of
+
+1430
+01:24:11.378 --> 01:24:15.318
+progression is greater than a heterozygous loss-of-function mutation and
+
+1431
+01:24:15.618 --> 01:24:17.078
+associated with worse outcomes as well.
+
+1432
+01:24:17.358 --> 01:24:21.158
+So in the model, when they say DNMT mutation, any one counts or
+
+1433
+01:24:21.278 --> 01:24:21.668
+only the hotspots?
+
+1434
+01:24:21.678 --> 01:24:25.218
+Yeah. We have lumped them together, which is an apples and oranges.
+
+1435
+01:24:25.258 --> 01:24:28.318
+It's probably true for many mutations, P53 as well.
+
+1436
+01:24:28.358 --> 01:24:30.618
+They're hotspot mutations that act as dominant negatives.
+
+1437
+01:24:30.698 --> 01:24:30.838
+So,
+
+1438
+01:24:31.758 --> 01:24:35.398
+we do sometimes lump just because even with these huge data sets,
+
+1439
+01:24:35.798 --> 01:24:39.438
+you start to get into sample size problems when you get down to
+
+1440
+01:24:39.478 --> 01:24:40.778
+individual types of mutations.
+
+1441
+01:24:43.278 --> 01:24:45.638
+Thank you. Great talk. My name is Amulia Singh.
+
+1442
+01:24:45.658 --> 01:24:49.618
+We work on blood tests to detect lung cancer, and so almost everything you all
+
+1443
+01:24:49.758 --> 01:24:51.958
+said was fascinating in that light.
+
+1444
+01:24:52.458 --> 01:24:55.798
+For your COPD phenotype, do you see it sort of
+
+1445
+01:24:55.818 --> 01:24:56.518
+differential
+
+1446
+01:24:58.398 --> 01:25:00.318
+or kind of a differential diagnosis where
+
+1447
+01:25:01.318 --> 01:25:05.178
+you have individuals who have COPD but don't get lung cancer, and what does
+
+1448
+01:25:05.198 --> 01:25:07.698
+that look like relative to those who do?
+
+1449
+01:25:07.778 --> 01:25:11.298
+Yeah. It's not something that we've worked on ourselves,
+
+1450
+01:25:12.018 --> 01:25:13.178
+but that's a great question.
+
+1451
+01:25:14.538 --> 01:25:17.878
+We certainly haven't looked at that at all.
+
+1452
+01:25:19.978 --> 01:25:23.918
+But that's a good question because that is the at-risk population and
+
+1453
+01:25:23.958 --> 01:25:27.578
+whether there are other stimuli that lead somebody in a more
+
+1454
+01:25:27.638 --> 01:25:30.078
+oncogenic direction versus airspace disease
+
+1455
+01:25:30.198 --> 01:25:33.898
+or whether that's a stochastic event.
+
+1456
+01:25:34.318 --> 01:25:35.778
+So, great question. Thanks.
+
+1457
+01:25:36.858 --> 01:25:40.598
+Great. We can now open the floor for a panel discussion, for the
+
+1458
+01:25:40.678 --> 01:25:43.948
+last five minutes actually, because there are quite a lot of questions online, and
+
+1459
+01:25:43.978 --> 01:25:47.298
+if there are questions for any panel members, please come to the microphones.
+
+1460
+01:25:47.838 --> 01:25:51.048
+So the first one is for you, Sid. Is expression of TCL1A
+
+1461
+01:25:51.198 --> 01:25:53.778
+increasing with age in the healthy population?
+
+1462
+01:25:55.962 --> 01:25:59.342
+That's a great question and one that we're looking at right now.
+
+1463
+01:26:00.662 --> 01:26:04.052
+So I don't have any data yet, but that's something that we're going to want to look
+
+1464
+01:26:04.142 --> 01:26:07.922
+at. It could be complicated because, as I mentioned,
+
+1465
+01:26:08.262 --> 01:26:11.542
+clonal hematopoiesis with unknown drivers seems to be strongly associated with the
+
+1466
+01:26:11.562 --> 01:26:15.082
+TCL1A SNP. So if you start to look at older
+
+1467
+01:26:15.122 --> 01:26:18.202
+individuals, many of them will have these unknown expansions.
+
+1468
+01:26:19.502 --> 01:26:22.522
+Maybe could I ask Jodi a question?
+
+1469
+01:26:23.562 --> 01:26:26.542
+In your methylome analysis, have you seen any
+
+1470
+01:26:27.262 --> 01:26:30.602
+TCL1A promoter hypermethylation? Yeah.
+
+1471
+01:26:31.442 --> 01:26:32.882
+Well, we'll check when we get back.
+
+1472
+01:26:33.842 --> 01:26:34.062
+Now,
+
+1473
+01:26:35.562 --> 01:26:38.982
+I'm looking at Shin in the audience, who's probably going to be very keen to check.
+
+1474
+01:26:39.022 --> 01:26:39.722
+We haven't looked.
+
+1475
+01:26:41.042 --> 01:26:41.562
+Question
+
+1476
+01:26:42.542 --> 01:26:43.722
+for both of you, actually.
+
+1477
+01:26:44.602 --> 01:26:48.502
+Were there any protective environmental factors for CH expansion that either of you
+
+1478
+01:26:48.542 --> 01:26:49.462
+have come across?
+
+1479
+01:26:53.062 --> 01:26:56.722
+Pradeep Natarajan published a paper showing that a
+
+1480
+01:26:57.122 --> 01:27:01.042
+vegetarian diet actually had a lower risk of
+
+1481
+01:27:01.342 --> 01:27:04.762
+CHIP, so that's one that I can think of.
+
+1482
+01:27:07.762 --> 01:27:10.422
+But as Sid said, the exact
+
+1483
+01:27:11.842 --> 01:27:15.662
+relationship between CHIP and inflammation from a human genetic
+
+1484
+01:27:15.742 --> 01:27:18.142
+standpoint has been difficult to see.
+
+1485
+01:27:20.562 --> 01:27:24.422
+Yeah, I don't have anything additional beyond what I showed.
+
+1486
+01:27:25.162 --> 01:27:27.372
+Smoking seemed to be the strongest risk factor,
+
+1487
+01:27:28.182 --> 01:27:29.642
+so not smoking is protective.
+
+1488
+01:27:30.842 --> 01:27:32.102
+But yeah, I'm not sure.
+
+1489
+01:27:33.182 --> 01:27:33.962
+And perhaps,
+
+1490
+01:27:36.282 --> 01:27:40.122
+I think there are sex hormone differences that are driving clonal selection in
+
+1491
+01:27:40.202 --> 01:27:43.802
+ways that we don't understand yet, or hematopoiesis in ways, and
+
+1492
+01:27:44.382 --> 01:27:48.162
+we've always known that there's differences in blood count parameters
+
+1493
+01:27:48.222 --> 01:27:51.442
+between males and females, so there's some interaction there.
+
+1494
+01:27:51.942 --> 01:27:55.902
+Perhaps the most powerful selective pressure that we see on a routine basis in
+
+1495
+01:27:55.962 --> 01:27:59.682
+all of our cancer centers is chemotherapy and radiation, which has an extremely
+
+1496
+01:27:59.782 --> 01:28:03.422
+powerful selective pressure for p53 and p53
+
+1497
+01:28:03.502 --> 01:28:05.202
+pathway mutations, which
+
+1498
+01:28:06.142 --> 01:28:07.342
+ends up being the
+
+1499
+01:28:08.142 --> 01:28:11.852
+basis of therapy-related malignancies,
+
+1500
+01:28:12.262 --> 01:28:13.182
+ultimately.
+
+1501
+01:28:13.742 --> 01:28:17.482
+And I suspect the protective factors will be very much gene dependent.
+
+1502
+01:28:17.542 --> 01:28:21.402
+So, with JAK2, for example, you can do these polygenic risk scores
+
+1503
+01:28:21.462 --> 01:28:22.662
+for all your different blood counts.
+
+1504
+01:28:22.702 --> 01:28:26.022
+Are you likely to have a high hemoglobin or a low hemoglobin in the population?
+
+1505
+01:28:26.482 --> 01:28:29.912
+And for example, if you're likely to have a low platelet count in the population
+
+1506
+01:28:29.912 --> 01:28:33.872
+and you acquire a JAK2 mutation, you're much less likely to develop an MPN, and
+
+1507
+01:28:33.902 --> 01:28:37.062
+you're more likely to have just clonal hematopoiesis due to JAK2.
+
+1508
+01:28:37.082 --> 01:28:40.982
+So your germline polygenic risk scores, as you've also shown, can sort
+
+1509
+01:28:41.022 --> 01:28:43.422
+of influence selection on specific drivers.
+
+1510
+01:28:45.262 --> 01:28:47.222
+There is an interesting question here online.
+
+1511
+01:28:47.522 --> 01:28:51.442
+In germline carriers of DNA repair defects, do
+
+1512
+01:28:51.722 --> 01:28:53.902
+you see more CHIP? We
+
+1513
+01:28:54.762 --> 01:28:58.202
+don't at the moment, but we haven't looked in detail.
+
+1514
+01:28:59.402 --> 01:29:00.362
+Any thoughts on that?
+
+1515
+01:29:01.722 --> 01:29:04.122
+So there are, for all of the
+
+1516
+01:29:05.422 --> 01:29:07.402
+really powerful germline
+
+1517
+01:29:08.562 --> 01:29:09.942
+predisposition to leukemia
+
+1518
+01:29:11.302 --> 01:29:11.982
+disorders,
+
+1519
+01:29:13.262 --> 01:29:17.102
+clonal hematopoiesis does develop early in life and is a predictor.
+
+1520
+01:29:17.242 --> 01:29:17.422
+So
+
+1521
+01:29:18.362 --> 01:29:21.582
+patients with RUNX1 mutations or Shwachman-Diamond syndrome,
+
+1522
+01:29:21.662 --> 01:29:25.002
+and the particular mutation that is inherited
+
+1523
+01:29:25.382 --> 01:29:29.162
+does, to a large degree, dictate what those initiating mutations
+
+1524
+01:29:29.222 --> 01:29:33.102
+are. So individuals who inherit one RUNX1 allele mutated
+
+1525
+01:29:33.342 --> 01:29:36.982
+will acquire a mutation in their second RUNX1 allele.
+
+1526
+01:29:37.022 --> 01:29:40.902
+Patients with Shwachman-Diamond syndrome will develop p53 mutations as one of their
+
+1527
+01:29:41.282 --> 01:29:45.242
+initial drivers. So the inherited
+
+1528
+01:29:45.282 --> 01:29:48.782
+allele does have a powerful effect on the initiating mutation.
+
+1529
+01:29:49.162 --> 01:29:52.142
+And sometimes what's growing out in that context can be maladaptive.
+
+1530
+01:29:52.802 --> 01:29:55.962
+But occasionally, what's growing out in that context can be germline rescue.
+
+1531
+01:29:56.262 --> 01:29:56.422
+Yeah.
+
+1532
+01:29:56.462 --> 01:30:00.182
+So it can be a really powerful tool for discovering what
+
+1533
+01:30:00.262 --> 01:30:02.522
+actually reverses the germline defect because those
+
+1534
+01:30:03.602 --> 01:30:06.611
+good clones will also grow out in addition to the maladaptive clones.
+
+1535
+01:30:06.642 --> 01:30:09.542
+It could be a powerful discovery engine. Some more questions on the floor?
+
+1536
+01:30:11.182 --> 01:30:14.542
+A quick question about GATA2. Very famous epiallele, right?
+
+1537
+01:30:14.662 --> 01:30:15.582
+Because
+
+1538
+01:30:16.402 --> 01:30:19.852
+when you methylate the wild-type allele and the mutant allele is expressed on the
+
+1539
+01:30:19.902 --> 01:30:22.882
+other one, it's associated with progression to monoMAC and AML.
+
+1540
+01:30:23.722 --> 01:30:25.142
+Did you look at GATA2
+
+1541
+01:30:25.942 --> 01:30:28.802
+in your studies to see whether it was affected early on?
+
+1542
+01:30:29.142 --> 01:30:30.802
+Sorry, didn't quite catch the gene. Which one?
+
+1543
+01:30:31.142 --> 01:30:31.742
+GATA2.
+
+1544
+01:30:32.242 --> 01:30:35.942
+GATA2. It hasn't come out in our unsupervised screens.
+
+1545
+01:30:36.362 --> 01:30:38.892
+We will do a more supervised screen on known drivers.
+
+1546
+01:30:39.142 --> 01:30:40.942
+So far, what we're finding is
+
+1547
+01:30:43.222 --> 01:30:47.202
+we're finding some early signals in known tumor suppressor genes where there's
+
+1548
+01:30:47.282 --> 01:30:49.202
+promoter methylation early in life.
+
+1549
+01:30:49.962 --> 01:30:53.662
+What's tricky is knowing which segment in the promoter is critical.
+
+1550
+01:30:53.862 --> 01:30:57.062
+So there might be five segments in the promoter, one of which has shown this
+
+1551
+01:30:57.102 --> 01:30:59.842
+beautiful allelic methylation in association with the lineage.
+
+1552
+01:31:00.282 --> 01:31:04.162
+Is it changing gene expression? We don't yet know, but we will check out
+
+1553
+01:31:04.222 --> 01:31:06.482
+GATA2. We haven't looked at it directly.
+
+1554
+01:31:07.502 --> 01:31:10.202
+It's very susceptible to allele-specific methylation.
+
+1555
+01:31:10.242 --> 01:31:13.882
+It just might be a place to look because there's something very special about it.
+
+1556
+01:31:13.942 --> 01:31:16.422
+We should be able to. We have genome-wide coverage. Yeah. Thank you.
+
+1557
+01:31:17.882 --> 01:31:20.662
+My question, in general, is I guess related
+
+1558
+01:31:20.722 --> 01:31:24.662
+to clinically, we now sequence all of our cancer
+
+1559
+01:31:24.702 --> 01:31:28.662
+patients and find their CH incidentally, or their primary care
+
+1560
+01:31:28.722 --> 01:31:29.222
+found them.
+
+1561
+01:31:30.482 --> 01:31:34.242
+And obviously, we shouldn't be changing people's chemo exposure at this
+
+1562
+01:31:34.282 --> 01:31:37.082
+point without a randomized controlled trial to
+
+1563
+01:31:37.462 --> 01:31:40.742
+suggest that avoiding doxorubicin
+
+1564
+01:31:41.122 --> 01:31:43.702
+prevents therapy-related myeloid neoplasms.
+
+1565
+01:31:43.942 --> 01:31:47.722
+But I'd just like put it to you three experts on where you
+
+1566
+01:31:47.742 --> 01:31:51.722
+think we should be going and what types of questions we should be asking, and how
+
+1567
+01:31:51.862 --> 01:31:55.662
+do we incorporate this data in our care of cancer
+
+1568
+01:31:55.742 --> 01:31:57.482
+patients over the next five years?
+
+1569
+01:31:59.270 --> 01:32:02.900
+And I can start. So, we've looked at the effect of chemotherapies, lots of
+
+1570
+01:32:02.910 --> 01:32:06.270
+different chemotherapy agents, both for solid tumors and liquid tumors
+
+1571
+01:32:06.330 --> 01:32:10.090
+in normal blood cells. And sometimes you find quite interesting
+
+1572
+01:32:10.150 --> 01:32:13.390
+things. You can find that two agents within the same class that actually have quite
+
+1573
+01:32:13.450 --> 01:32:17.270
+similar efficacy, one is mutagenic to the blood cell and one isn't.
+
+1574
+01:32:17.390 --> 01:32:20.890
+So in some scenarios like that, clinicians may be quite happy to switch.
+
+1575
+01:32:21.810 --> 01:32:24.790
+Um, we found that long-term alkylator use can be mutagenic.
+
+1576
+01:32:24.870 --> 01:32:28.490
+So you can have two routes. You can have direct mutagenesis to cells, or you can
+
+1577
+01:32:28.550 --> 01:32:32.290
+just have clonal selection, such as on PPM1D and TP53.
+
+1578
+01:32:33.310 --> 01:32:37.010
+I think what will be quite interesting is to survey that before you
+
+1579
+01:32:37.190 --> 01:32:41.140
+start. So if you have someone who has a history of chemotherapy use and is
+
+1580
+01:32:41.210 --> 01:32:44.790
+about to get more treatment, surveying what
+
+1581
+01:32:44.830 --> 01:32:48.490
+proportion of TP53 selection there is already in the marrow may be quite
+
+1582
+01:32:48.570 --> 01:32:52.390
+useful. So not only might be useful in the future in terms
+
+1583
+01:32:52.470 --> 01:32:56.050
+of making our chemotherapy regimes a bit safer, but it
+
+1584
+01:32:56.210 --> 01:32:59.530
+could be useful for predicting how
+
+1585
+01:33:00.790 --> 01:33:04.490
+damaged wild-type hematopoiesis is following the first bout.
+
+1586
+01:33:04.710 --> 01:33:06.110
+I don't know if there's anything to add.
+
+1587
+01:33:06.750 --> 01:33:09.930
+Yeah, we see it a lot because it's in the sequencing reports.
+
+1588
+01:33:10.710 --> 01:33:13.090
+I think the vast majority of cases it wouldn't
+
+1589
+01:33:14.490 --> 01:33:18.170
+give it a thought in the midst of therapy, but as those
+
+1590
+01:33:18.190 --> 01:33:22.030
+patients become cancer survivors, it becomes perhaps a bigger
+
+1591
+01:33:22.090 --> 01:33:26.050
+issue or to identify the people who might be at greatest risk
+
+1592
+01:33:26.070 --> 01:33:27.890
+of a therapy-related malignancy or something.
+
+1593
+01:33:28.010 --> 01:33:28.630
+So,
+
+1594
+01:33:29.450 --> 01:33:32.990
+they end up in our survivorship clinics and thinking about
+
+1595
+01:33:33.030 --> 01:33:33.629
+it.
+
+1596
+01:33:34.430 --> 01:33:37.730
+And the other point is that the
+
+1597
+01:33:37.790 --> 01:33:41.770
+tumor-infiltrating clonal hematopoiesis may be a little bit different
+
+1598
+01:33:41.810 --> 01:33:45.740
+than just identifying the mutations in the blood, and the associations with
+
+1599
+01:33:45.790 --> 01:33:49.730
+lung cancer most powerfully with the individuals where the cells
+
+1600
+01:33:49.790 --> 01:33:52.310
+are at a higher percentage in the tumor.
+
+1601
+01:33:52.650 --> 01:33:52.830
+So,
+
+1602
+01:33:54.050 --> 01:33:56.250
+I think we're probably too early to know how to
+
+1603
+01:33:57.910 --> 01:34:01.650
+change therapy. And as you said, you would never change therapy without evidence
+
+1604
+01:34:01.690 --> 01:34:03.410
+from a randomized trial first.
+
+1605
+01:34:05.910 --> 01:34:06.990
+In your descriptive...
+
+1606
+01:34:27.870 --> 01:34:30.830
+So the question's around whether we've stratified by hormone therapy.
+
+1607
+01:34:31.730 --> 01:34:34.790
+We're looking at a cohort to look at just that question right now, but don't have
+
+1608
+01:34:34.810 --> 01:34:35.490
+any answers yet.
+
+1609
+01:34:38.230 --> 01:34:39.790
+Okay, probably the last question. Thanks.
+
+1610
+01:34:39.850 --> 01:34:41.470
+Oh, just a quick question,
+
+1611
+01:34:42.390 --> 01:34:45.050
+more of a technical question. Thank you for the great talk.
+
+1612
+01:34:46.290 --> 01:34:46.990
+For the
+
+1613
+01:34:48.130 --> 01:34:52.030
+epigenetic phylogenic trees, did you
+
+1614
+01:34:52.070 --> 01:34:55.710
+use short-read sequencing, and have you done it with long-read
+
+1615
+01:34:55.790 --> 01:34:59.150
+sequencing? You know, because that has better-
+
+1616
+01:34:59.270 --> 01:35:00.890
+So it's Illumina short-read sequencing.
+
+1617
+01:35:01.910 --> 01:35:05.690
+So with long-read sequencing, you need large DNA input, whereas we have two
+
+1618
+01:35:05.730 --> 01:35:06.670
+nanograms of DNA.
+
+1619
+01:35:07.110 --> 01:35:07.120
+Okay.
+
+1620
+01:35:07.250 --> 01:35:09.880
+So you can do long-read sequencing, but it's going to be on the whole sample.
+
+1621
+01:35:10.260 --> 01:35:13.130
+So it's useful for phasing the germline, for example.
+
+1622
+01:35:13.490 --> 01:35:17.160
+But we can phase about 15% of sites on short-read
+
+1623
+01:35:17.230 --> 01:35:18.050
+sequencing.
+
+1624
+01:35:18.490 --> 01:35:19.110
+Gotcha. Thank you.
+
+1625
+01:35:19.530 --> 01:35:23.290
+Great. Okay, well, with that, thank you all very much for attending in
+
+1626
+01:35:23.390 --> 01:35:26.430
+person and I'll close the session. Thank you to the speakers.

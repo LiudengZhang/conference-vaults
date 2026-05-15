@@ -1,0 +1,17 @@
+# Spatial characterization, of T-cell receptors at subcellular resolution using in situ sequencing-by-synthesis and spatial protein detection on the same tissue section
+
+**Poster #**: 817
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Hansueli Meyer1, Robert Pinard1, Ryan Hindman2, Emily Neil1, Chris Nehme1, Sameh Soliman1, Dongju Park1, Rebecca C. Hennessey1, Jinling Wang1, Alex Makrigiorgos1, John Lee1, Seiyu Hosono1, Matthias Wahl3, Dominic Mangiardi1, Mong Marma1, Hsu-yi Lee1, Andreas Bosio3
+
+1Miltenyi Biotec, Waltham, MA,2Miltenyi Biotec, Gaithersburg, MD,3Miltenyi Biotec, Bergisch-Gladbach, Germany
+
+---
+
+Abstract: Analyzing the tumor microenvironment (TME) and its immune context based on protein and RNA expression, alongside RNA sequencing, offers a powerful approach to understand tumor biology, predict treatment response, and guide the development of personalized therapies. It provides a more comprehensive understanding of tumor biology and the interplay between genetic alterations, cellular environment, and immune response. Currently, commercially available spatial transcriptomics methods require cDNA barcoding on tissue and ex situ cDNA sequencing on a separate instrument which limits the ability to directly sequence known or unknown regions in situ, such as T-cell or B-cell receptor (TCR/BCR) complementarity determining regions. This limitation can impact the detailed analysis of immune responses within tissue. Advances in technology are needed to enable direct in situ sequencing for more comprehensive insights.
+Here, we present a novel approach combining in situ sequencing-by-synthesis with high-plex protein detection (30+), H&#38;E, and DAPI &#8212; all performed on the same formalin-fixed, paraffin-embedded section. The technology is based on iterative detection of rolling circle amplified RNAs detection probes, proteins with directly conjugated antibodies and is also capable of in situ four color-based sequencing-by-synthesis (SBS) analysis of known and unknown RNA sequences. The detection of known RNA transcripts and unknown RNA sequences can be combined with existing pre-tested, ready to use MICS antibodies by Miltenyi Biotec, to identify proteins on the same FFPE tissue section.
+Using this novel approach we generated data that enabled detailed characterization of TCRs in their spatial context. Five to ten &#181;m thick tumor FFPE sections were transferred to glass slides, followed by deparaffinization and antigen retrieval. In situ sequencing was concurrently combined with an extensive panel of Miltenyi Biotec&#8217;s MICS antibodies and DAPI imaging, followed by H&#38;E staining on the same FFPE tissue section.
+We observed high diversity of clonotypes which were assigned to T-cell subtypes and used to generate clonotype maps. Co-localized alpha and beta chain receptors within the same cell were identified as well. We also further applied immune cell protein markers for segmentation and mapping in the complex tissue environment. Our approach enables researchers to identify and analyze the diversity of T-Cell populations based on their unique receptor sequences, while spatially mapping immune cell clonality directly on tissue. This nondestructive method preserves the tissue in its original context.

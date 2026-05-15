@@ -1,0 +1,17 @@
+# Sun exposure shapes distinct mutational profiles in human skin cells
+
+**Poster #**: 528
+**Session**: Mechanisms and Targets in DNA Damage Repair
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Neda Bahrani, Aravind  K.  Bandari, Bishal Tandukar, Delahny Deivendran, Harsh Sharma, Alan Hunter Shain
+
+UCSF Helen Diller Family Comprehensive Cancer Ctr., San Francisco, CA
+
+---
+
+Surprisingly little is known about how ultraviolet (UV) radiation exposure affects individual skin cell types. Prior studies relied on bulk sequencing of whole biopsies, masking cell type-specific mutational patterns, and often used narrow UV spectra, non-physiological doses, or focused only on immediate DNA damage rather than lasting mutations. To delineate the enduring genetic effects of UV-radiation, we measured somatic mutations and cellular viability in melanocytes, keratinocytes, and fibroblasts exposed to physiologically relevant simulated solar radiation.
+We exposed primary neonatal melanocytes, keratinocytes, and fibroblasts to simulated solar radiation under three conditions: no irradiation (control), 5 minutes (~70.2 J/m&#178;), and 10 minutes (~129.9 J/m&#178;), corresponding to ~0, 0.42, and 0.83 Minimal Erythema Dose (MED). Cell counts were measured on days 1 (pre-irradiation), 3, and 5 (post-irradiation) to assess viability and proliferation. For mutational profiling, single cells from each condition were sorted, clonally expanded, and subjected to exome and transcriptome sequencing using G&#38;T-seq. In total, we analyzed 9 fibroblast clones (n=4, 2, 3), 13 keratinocyte clones (n=5, 3, 5), and 12 melanocyte clones (n=4 per condition) to quantify UV-induced mutational burden.
+All three cell types exhibited a dose-dependent reduction in cell counts following irradiation, though with differing magnitude. Keratinocytes showed the most pronounced decline, whereas melanocytes displayed a dose-dependent decrease but to a lesser extent. Fibroblasts were the most resilient, with the smallest reduction in cell count and the fastest post-irradiation recovery. Mutational profiling revealed a corresponding dose-dependent increase in mutation burden (mutations per megabase) and in the fraction of canonical UV-signature substitutions (C>T and CC>TT) across all cell types. After 10 minutes of simulated solar radiation, median mutation burdens reached 1.30 mut/Mb in keratinocytes, 0.52 mut/Mb in melanocytes, and 0.36 mut/Mb in fibroblasts. The cells also showed distinct mutation signature and gene expression profiles.
+Together, these findings highlight both the physiological and genomic consequences of solar radiation in distinct skin cell types. The differences in mutational landscapes point to cell type-specific mutational processes and DNA repair mechanisms, providing a framework for understanding how UV exposure shapes the genomic architecture of human skin.

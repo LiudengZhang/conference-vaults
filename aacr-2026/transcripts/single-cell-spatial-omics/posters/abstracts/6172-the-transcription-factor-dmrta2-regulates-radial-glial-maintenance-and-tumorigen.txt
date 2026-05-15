@@ -1,0 +1,17 @@
+# The transcription factor DMRTA2 regulates radial glial maintenance and tumorigenicity of pediatric high-grade glioma
+
+**Poster #**: 6172
+**Session**: Pediatric Cancer Models
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Hitomi  N.  Royston1, Autumn  B.  Hampton1, Elissa  G.  Oliver1, Jayden Jackson1, Ibukunoluwa Florence Tella1, Miriam  D.  Emerson1, Dhruv Bhagat1, Daijiro Konno2, Kosuke Funato1
+
+1University of Georgia, Athens, GA,2Kindai University, Higashiosaka, Japan
+
+---
+
+Brain tumor is the leading cause of cancer-related death in children. Among them, pediatric-type diffuse high-grade glioma (HGG) accounts for 40% of brain tumor deaths in children. Diffuse hemispheric glioma (DHG), H3 G34-mutant (DHG-H3G34), represents a highly malignant subtype of HGG with a poor prognosis. Although dysregulated developmental programs have been implicated in these tumors, the exact mechanisms that drive subtype-specific tumorigenesis remain unclear. DMRTA2, a member of the Doublesex-mab3-related (DMRT) transcription factor family, has been linked to the proliferation and maintenance of neural progenitor cells. However, its functions in human brain development and pediatric glioma are not yet fully understood.
+To address this gap, we first analyzed previously published single-cell RNA-seq datasets from human fetal brains and cerebral organoids. We found robust DMRTA2 expression in neural progenitor populations, particularly in radial glial (RG) cells. To investigate the functional role of DMRTA2 in human brain development, we knocked out the DMRTA2 gene using CRISPR-Cas9 genome editing in human embryonic stem cell (hESC) lines and differentiated them into cerebral organoids. DMRTA2 KO organoids exhibited reduced size, decreased proliferation, and a marked depletion of RG cells, suggesting an important role of DMRTA2 in early cortical development.
+We next examined DMRTA2 expression in DHG-H3G34 patient tumors and observed its high and specific expression compared to other subtypes of pediatric brain tumors. To investigate the role of DMRTA2 in DHG-H3G34, we knocked out DMRTA2 in hESC-based DHG-H3G34 model cells that we developed. Loss of DMRTA2 resulted in a significant decrease in RG-like population and a marked increase in differentiated cells. In our mouse xenograft studies using luciferase-labeled DMRTA2 WT and KO cells, loss of DMRTA2 significantly reduced tumor growth in vivo. KO tumors also displayed reduced proliferation and fewer RG-like cells.
+Together, our findings suggest that DMRTA2 is a key regulator of radial glial cells in human cortical development and promotes tumorigenicity in pediatric DHG-H3G34 tumors.

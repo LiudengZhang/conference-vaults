@@ -1,0 +1,17 @@
+# Generation of daraxonrasib-resistant patient-derived xenograft models of pancreatic cancer
+
+**Poster #**: 1882
+**Session**: Targeting Drug Resistance 2: RAS Signaling
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Nina Dashti-Gibson1, Amy  L.  Olex1, Rachel  K.  Myrick2, Alexa  M.  Barber3, David  C.  Boyd2, Emily  K.  Zboril2, Katarzyna  M.  Tyc4, Mikhail  G.  Dozmorov4, Guang-Yu Yang2, Nicholas  T.  Woods3, Jose  G.  Trevino5,  J.  Chuck Harrell2
+
+1Wright Center for Clinical and Translational Research, Virginia Commonwealth University, Richmond, VA,2Department of Pathology, Virginia Commonwealth University, Richmond, VA,3University of Nebraska Medical Center, Omaha, NE,4Department of Biostatistics, Virginia Commonwealth University, Richmond, VA,5Department of Surgery, Virginia Commonwealth University, Richmond, VA
+
+---
+
+Background: Patients diagnosed with pancreatic ductal adenocarcinoma (PDAC) face limited treatment options and a dismal survival rate. KRAS is mutated in over 90% of PDAC and is a critical driver of tumor initiation and progression. Daraxonrasib (RMC-6236), a newly developed pan-RAS inhibitor, has shown promise in extending the survival of patients with PDAC in ongoing clinical trials. However, acquired resistance to daraxonrasib is anticipated and may limit the efficacy of this new therapeutic. To address this challenge, we developed a biobank of over 60 patient-derived xenograft (PDX) models, including 24 new models of PDAC, and aimed to generate daraxonrasib-resistant lines to investigate mechanisms of resistance and explore strategies to prolong daraxonrasib efficacy.
+Methods: PDX cells from six patients with PDAC were injected subcutaneously in NSG mice, and tumor volume was measured weekly by caliper. Daraxonrasib (25 mg/kg) was administered daily by oral gavage when tumor volume reached 10-30 mm3. Following 4-6 weeks of treatment, tumors that were initially responsive were digested and injected into additional mice which were again treated with daraxonrasib. Tumors that grew through treatment were collected for histological analysis and single cell RNA-sequencing.
+Results: PDAC was found to be the most KRAS-dependent cancer type in our PDX biobank. Initial daraxonrasib treatment resulted in 63-97% reduction in tumor volume area-under-the-curve (AUC) compared to untreated controls across six models of PDAC. Response was significantly correlated with KRAS dependency score, while no association was found with patient demographics, KRAS mutation, or PDAC subtype. The PDXs with the greatest response were selected to generate resistant lines. Within two passages, the reduction in AUC was no longer significant based on Welch&#8217;s t-test, indicating that resistance had developed. Transcriptomic analysis of treated tumors revealed upregulation of mucin production and YAP1 signaling, which likely represent early resistance mechanisms.
+Future directions: Daraxonrasib was effective in reducing tumor volume in PDX models of PDAC, but prolonged treatment resulted in acquired resistance. Comparing the transcriptomic profiles of newly generated resistant lines and their sensitive counterparts will elucidate the mechanisms by which PDAC develops resistance to daraxonrasib. Furthermore, these models will provide a platform to test strategies to overcome resistance and maximize the efficacy of this promising new therapeutic.

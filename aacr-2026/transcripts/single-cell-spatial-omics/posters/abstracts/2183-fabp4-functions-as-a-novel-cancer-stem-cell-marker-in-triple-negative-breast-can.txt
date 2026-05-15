@@ -1,0 +1,14 @@
+# FABP4 functions as a novel cancer stem cell marker in triple-negative breast cancer
+
+**Poster #**: 2183
+**Session**: Metabolic and Transcriptional Control of Cancer Stem Cell Plasticity
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Huiyi Feng1, Jinquan Xia2, Fuhua Zhong2, Yinghuan Cen1, Lu Jiang2, Pan Zhao2, Lin Gao2, Chang Zou2
+
+1Shenzhen Hospital, Shenzhen Hospital of Southern Medical University, Shenzhen, China,2Shenzhen People’s Hospital, Shenzhen, China
+
+---
+
+Anthracycline-paclitaxel (A/P)-based chemotherapy remains a cornerstone of triple-negative breast cancer (TNBC). However, chemo-resistance continues to compromise durable clinical benefit. Cancer stem cells (CSCs) are major contributors to tumor heterogeneity and therapeutic resistance. Identifying novel CSC-associated genes may provide new strategies for overcoming drug resistance in TNBC. Single-cell RNA sequencing on five paired TNBC tumors and adjacent normal tissues. FABP4 exhibited the strongest enrichment within the CSC-like population compared with luminal and basal epithelial cells. Spatial transcriptomics further confirmed the expression of FABP4 within CSC-enriched cell clusters. Integrated transcriptome profiling demonstrated significant upregulation of FABP4 in paclitaxel-resistant 4T1 cells, which was further validated in resistant and sphere-forming TNBC models across both 4T1 and MDA-MB-231 cells. Knockdown of FABP4 by siRNA markedly reduced spheroids-forming capacity of these breast cancer cells, supporting its functional role in maintaining the stemness in TNBC. Moreover, FABP4 was identified highly expressed and accompanied by CSC markers in TNBC clinical tissue by immunofluorescence, indicating its spatial and biological association with the CSC niche. Further studies are warranted to elucidate the mechanistic pathways through which FABP4 contributes to chemo-resistance and CSC stemness maintenance.

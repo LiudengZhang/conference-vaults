@@ -1,0 +1,14 @@
+# Highly plastic macrophage niches orchestrate acquired quiescence and reactivation in breast-cancer bone metastasis
+
+**Poster #**: LB078
+**Session**: Late-Breaking Research: Immunology 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Noriko Gotoh
+
+Kanazawa University Cancer Research Institute, Kanazawa city, Japan
+
+---
+
+Recurrence and metastasis remain major causes of cancer mortality, sustained by therapy-resistant micrometastatic cells. Bone is a frequent site of breast-cancer relapse, yet the cues that reawaken disseminated cells remain poorly defined. We identify a previously unrecognized, highly plastic CXCL16&#8314; macrophage population that integrates tumor-associated macrophage programs found in distant metastatic sites such as lung and brain with non-tumor disease-associated traits in bone marrow. These CXCL16&#8314; macrophages establish a transient niche that restrains disseminated cancer-cell proliferation. Single-cell transcriptomics delineate functional remodeling of myeloid niches within the bone metastatic microenvironment: a CXCL16&#8314; macrophage niche that transiently constrains metastatic growth, and G-CSF&#8314; macrophage and neutrophil niches that reignite tumor outgrowth. In primary tumors, cancer-associated fibroblasts (CAFs) aberrantly secrete G-CSF in response to cancer-cell signals, expanding G-CSF-receptor-positive subset of cancer cells with high metastatic potential. In advanced human bone metastases, CXCL16&#8314; macrophages localize to CAF-rich stroma but are excluded from cancer-cell clusters, indicating immune evasion. Together, these findings uncover CAF-bone-marrow cross-talk as a therapeutic target linking stromal inflammation, immune remodeling, and metastatic progression.

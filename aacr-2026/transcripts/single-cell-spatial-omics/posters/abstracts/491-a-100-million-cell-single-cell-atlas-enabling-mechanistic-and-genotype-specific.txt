@@ -1,0 +1,14 @@
+# A 100 million cell single cell atlas enabling mechanistic and genotype-specific drug response discovery
+
+**Poster #**: 491
+**Session**: Genomic Dissection to Define Novel Therapeutic Strategies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Aisling Sinclair, Joey Pangallo, Vuong Tran, Efthymia Papalexi, Simone Marrujo, Bryan Hariadi, Crina Curca, Olivia Kaplan, Sarah Schroeder, Ajay Sapre, Guillermo Gallareta Olivares, Maria Nigos, Oliver Sanderson, Hoai Hguyen, Alec Salvino, John Thompson, Ryan Koehler, Sam You, Gokhan Demirkan, Charles Roco, Alexander Rosenberg
+
+Parse Biosciences, Inc., Seattle, WA
+
+---
+
+Machine learning promises major advances in drug discovery, but training effective models requires large, well-controlled datasets capturing how diverse compounds affect human cells. Traditional perturbation studies are limited by batch effects and experimental variability. Recent advances in combinatorial barcoding now allow tens of millions of transcriptomes to be profiled in unified workflows, greatly reducing technical noise.We created Tahoe-100M, a single cell atlas of more than 100 million cells spanning 50 human cell lines and 379 compounds. Mixed cell lines (Tahoe Therapeutics) were grown as 3D spheroids, treated for 24 hours across three doses, fixed, and processed in pooled batches of ~10 million cells using the Parse Biosciences GigaLab platform. Sequencing on the UG100 followed by Demuxlet assignment produced high quality transcriptomes at unprecedented scale.Tahoe-100M covers ~56,000 line-drug-dose combinations and reveals thousands of dose-dependent expression changes. Stratification by genotype uncovers lineage- and mutation-specific responses, including unexpected Dabrafenib sensitivity in additional cell lines not typically classified as BRAF-dependent. Cell cycle analysis exposes compound-specific effects, such as G1 or G2/M arrest by CDK inhibitors and G2/M accumulation after microtubule inhibition.The atlas also enables mechanistic discovery. For example, transcriptional similarity mapping shows that Saquinavir induces an adrenoceptor-agonist-like program, resembling Vilanterol and Norepinephrine, providing a molecular explanation for its known cardiovascular effects. Exploratory analyses further identify compounds that up-regulate MHC-I pathways, highlighting candidates that may enhance tumor immunogenicity.By processing fixed cells in massive pooled batches, we minimized batch effects and enabled direct comparison across the entire perturbation space. Tahoe-100M establishes a new benchmark for large scale drug response mapping and provides a foundation for AI-driven discovery across human cell models.

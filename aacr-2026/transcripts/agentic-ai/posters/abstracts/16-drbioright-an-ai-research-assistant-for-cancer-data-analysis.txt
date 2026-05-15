@@ -1,0 +1,12 @@
+# DrBioRight: an AI research assistant for cancer data analysis
+
+**Poster #**: 16
+**Session**: Agentic AI in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Han Liang1, Wei Liu21UT MD Anderson Cancer Center, Houston, TX,2UT MD Anderson Cancer Center
+
+---
+
+We present DrBioRight, a next-generation conversational AI platform that streamlines cancer omics analysis through a multi-agent large language model (LLM) architecture. Modern sequencing and imaging technologies generate vast and complex datasets, yet conventional analysis tools often require substantial computational expertise. DrBioRight overcomes this barrier by enabling researchers to engage in natural language dialogue with the system, transforming intricate analytical tasks into intuitive, conversational interactions. DrBioRight’s chatbot-driven interface allows users to search and query datasets, execute multi-omics analyses, access interpretable insights, and generate publication-quality visualizations—all through simple questions or commands. This interaction model removes the need for programming, lowering the barrier to advanced bioinformatics and making omics research accessible to a broader scientific community. Key features include: (i) LLM-powered conversational analysis for RNA-seq, proteomics, single-cell, spatial, and clinical-genomic data ; (ii) A curated, high-performance cancer omics datastore drawing from TCGA, CPTAC, DepMap, and other public repositories; (iii) An extensible App Store integrating bioinformatics software packages, pipelines, and custom tools; (iv) Real-time task prediction, workflow guidance, and troubleshooting; (v) Collaborative workspace functionality for sharing analyses and results across research teams; (iv) Community-driven extensibility, enabling seamless integration of new datasets, modules, and analytical frameworks. By shifting from traditional technical interfaces to an interactive conversational paradigm, DrBioRight functions as an intelligent research assistant. It democratizes the use of complex omics analytics, enhances collaborative discovery, and accelerates translational research across the cancer research community.

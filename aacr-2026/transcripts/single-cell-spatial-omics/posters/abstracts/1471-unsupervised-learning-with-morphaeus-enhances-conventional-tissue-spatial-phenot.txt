@@ -1,0 +1,17 @@
+# Unsupervised learning with MORPHAEUS enhances conventional tissue spatial phenotyping
+
+**Poster #**: 1471
+**Session**: Integrative Computational Approaches 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Elias Pavlatos1, Benjamin Tate1, Gregory Joseph Baker2, Joanna Pucilowska1
+
+1Immune Monitoring and Cancer Omics Services, OHSU Knight Cancer Institute, Portland, OR,2Division of Oncological Sciences, OHSU Knight Cancer Institute, Portland, OR
+
+---
+
+Introduction: Identifying unique cell phenotypes in cyclic immunofluorescence (cycIF) images is typically achieved through manual gating or unsupervised clustering of segmented cells based on marker expression profiles. While effective, segmentation-based methods are limited by predefined thresholds and cell type classification schemes. MORPHAEUS is a new Python-based software that infers cell types and multicellular structures directly from pixel-level imaging data using the variational autoencoder (VAE) deep learning architecture. This method enables unsupervised identification of cellular and morphological patterns without relying on image segmentation. Here, we compared segmentation-based phenotyping with MORPHAEUS-derived cell type classifications in a liver metastasis from a patient with PDAC imaged for 32 markers on the Lunaphore COMET platform.
+Methods: Cell segmentation was performed on DAPI-counterstained nuclei using the U-net algorithm in Visiopharm. Mean per-cell marker intensities were quantified, and cell types were assigned based on a nested classification scheme using binary thresholding and prior biological knowledge. For MORPHAEUS analysis, 9x9&#181;m image patches centered on nuclear centroids were extracted and stored in Zarr file format for VAE model training. Image patch encoding containing information on marker intensity, morphology, and local neighborhood contexture were clustered using Leiden community detection to identify cell types.
+Results: MORPHAEUS identified several clusters consistent with those identified by manual gating, including a cluster with high CD3, CD8, CD69, and CD103 expression corresponding to tissue-resident memory CD8+ T cells. Clusters enriched for PanCK were consistent with tumor cells, with a subset co-expressing Ki67 indicative of proliferating tumor. MORPHAEUS also revealed novel clusters not captured by manual classification, including one with unexpected co-expression of CD4 and CD11C. Inspection of the primary image revealed that this cluster represented cell-cell interactions involving CD4+ T helper cells and CD11C+ dendritic cells, consistent with their known cooperative roles in antigen recognition.
+Conclusions: Traditional classification provides a robust framework for quantifying predefined cell populations, but its reliance on manual gating and fixed marker definitions limits the discovery of novel or context-dependent phenotypes. MORPHAEUS offers a complementary, unsupervised approach capable of identifying rare and previously uncharacterized cell states as well as biologically meaningful spatial interactions that may be missed by conventional segmentation-driven analyses. These findings underscore the value of pixel-level deep learning as a powerful adjunct to traditional spatial phenotyping, enabling deeper insights into tissue organization and biomarker discovery.

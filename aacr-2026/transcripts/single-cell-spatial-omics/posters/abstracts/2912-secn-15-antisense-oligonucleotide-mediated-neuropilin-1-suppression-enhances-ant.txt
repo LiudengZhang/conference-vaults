@@ -1,0 +1,17 @@
+# SECN-15: Antisense oligonucleotide-mediated Neuropilin-1 suppression enhances anti-tumor immunity and overcomes checkpoint inhibitor resistance in solid tumors
+
+**Poster #**: 2912
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Andre Maaske, Sven Michel, Anne Sadewasser, Julia Festag, Monika Schell, Janani Sekar, Stefanie Raith, Frank Jaschinski, Richard Klar
+
+Secarna Pharmaceuticals GmbH & Co. KG, Planegg, Germany
+
+---
+
+Background:Immune checkpoint inhibitors (ICIs) have transformed cancer therapy, but their efficacy remains limited in many solid tumors due to suppressive features of the tumor microenvironment (TME). Neuropilin-1 (NRP1), a multifunctional co-receptor, promotes tumor progression through immunosuppressive mechanisms and neoangiogenesis. High NRP1 expression correlates with poor prognosis and ICI resistance in different solid tumors, including gastric cancer. SECN-15 is a locked nucleic acid (LNA)-modified antisense oligonucleotide (ASO) designed to selectively downregulate NRP1 and counteract its protumorigenic functions.
+Methods: NRP1-specific ASOs were generated using the OligoCreator&#8482; platform and evaluated in vitro and in vivo in syngeneic murine tumor models as monotherapy or in combination with anti-PD-(L)1 antibodies. NRP1 knockdown was assessed at RNA and protein levels, including soluble NRP1 as a target engagement biomarker. Tumor cell composition and transcriptomic profiles were analyzed by flow cytometry and RNA sequencing. In silico analyses of publicly available bulk and single-cell RNA-seq datasets from cancer patients informed indication selection for the upcoming Phase I/II clinical trial and elucidated NRP1 biology in human tumors.
+Results: Systemic SECN-15 treatment of tumor-bearing mice induced robust NRP1 knockdown in macrophages, T cells, and endothelial cells, leading to tumor growth delay and complete regressions in a subset of animals, both as monotherapy and in combination with anti-PD-1 treatment. Transcriptomic profiling revealed upregulation of pro-inflammatory pathways and downregulation of extracellular matrix and epithelial-to-mesenchymal transition (EMT) genes. Analysis of single-cell RNA-seq datasets from patients with gastric cancer identified endothelial cells and macrophages as major NRP1-expressing populations. NRP1high endothelial cells exhibited activation of TGF-&#946; signaling, while NRP1high macrophages showed an upregulation of hypoxia and EMT pathways and suppressed allograft rejection signatures, in comparison with their NRP1low counterparts. These findings suggest that NRP1 promotes an immunoregulatory, pro-angiogenic TME in gastric cancer, further supporting its selection as a lead indication.
+Conclusion: SECN-15 represents a promising therapeutic strategy to enhance anti-tumor immunity and overcome ICI resistance. Integration of preclinical and single-cell data highlights NRP1&#8217;s role in sustaining an immunosuppressive TME which is currently further investigated in in vitro models. IND-enabling studies are underway to advance SECN-15 into clinical development.

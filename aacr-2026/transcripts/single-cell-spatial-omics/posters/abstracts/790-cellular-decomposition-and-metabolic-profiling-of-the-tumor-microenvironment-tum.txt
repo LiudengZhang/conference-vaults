@@ -1,0 +1,17 @@
+# Cellular decomposition and metabolic profiling of the tumor microenvironment tumor-stroma interface using high-dimensional spatial proteomics and image analytics
+
+**Poster #**: 790
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Arutha Kulasinghe1, Felicia Roland2, Michelle Poulin2, Ritu Mihani2, Katherine Hales3, Daniel Winkowski3
+
+1Frazer Institute, University of Queensland, Woolloongabba, Australia,2Quanterix, Marlborough, MA,3Visiopharm Corp, Broomfield, CO
+
+---
+
+Introduction There is an urgent need for the development of better prognostic and predictive biomarkers for cancer immunotherapy across a number of solid cancers. Here we sought to characterise the tumour microevironment (TME) using high-dimensional spatial proteomics paired with advance image analytics to define tumour, stomal and interface regions. We developed custom functional and metabolic content to profile these interface regions to determine activity across transitional zones.
+Methods Using high dimensional spatial proteomic profiling (Phenocycler Fusion, Quanterix) with a custom immuno-metabolic panel targeting over 68 proteins, including markers for tumor, stroma, structural components, immune cell types, functional states, and metabolic activity, we characterized cell types, sub-types and metabolic activity across the tumor-stromal interface regions. Custom image analytics, utilizing Visiopharm&#8217;s analytic pipeline and workflow, enabled precise identification and mapping of spatially distinct tumor and stromal interface regions associated with TME composition. Characterization of cellularity and metabolic activity was further performed through the Phenoplex&#8482; guided workflow.
+Results We found intra-tumor and intra-stromal regions were distinct from tumor-interface and stromal-interface regions in terms of TME composition and metabolic activity. Moreover, whilst cell proportions alone were not predictive of clinical benefit, the nuances were in the tumor and immune cell sub-types which were functionally and metabolically characterized. We found a tumor metabolic signature predictive of poorer clinical outcomes and reciprocally high metabolic activity in immune cells at the TME interface associated with benefit from immunotherapy.
+Conclusion Taken together, this study highlights the value of high-dimensional spatial proteomics covering functional and metabolic profiling of the TME and the advanced image analytics providing insights into the TME.

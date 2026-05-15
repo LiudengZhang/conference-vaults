@@ -1,0 +1,18 @@
+# DPF3a-YY1 cooperation drivesimmunosuppression in renal cell carcinoma by activating CSF2 transcription
+
+**Poster #**: 7350
+**Session**: Transcription Factor Function in Cell Identity, Signaling, and Post-Transcriptional Control
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Xin-Ru Yu, Haodong Liu, Zeyun Mi, Kexin Chen
+
+Tianjin Medical Univ. Cancer Inst. & Hospital, Tianjin, China, Tianjin, China
+
+---
+
+Background:Renal cell carcinoma (RCC) is among the most aggressive and therapy-resistant malignancies, characterized by extensive vascularization and profound immune evasion. Genome-wide association studies have identified the SNP rs4903064 as a key variant regulating the expression of DPF3a, a chromatin remodeling factor that interacts with HIF signaling in RCC. Although the DPF3 gene encodes two isoforms (DPF3a and DPF3b), the biological significance of DPF3a in RCC initiation and progression remains largely unexplored.
+Methods: The expression of DPF3 isoforms in RCC cell lines and clinical tumor specimens was examined by Western blotting (WB), quantitative PCR (qPCR), and immunohistochemistry (IHC). Multi-omics approach integrating RNA-seq, CUT&#38;Tag, and ATAC-seq were applied to define DPF3a-dependent transcriptional and chromatin accessibility landscapes. TurboID-based proximity labeling assays were used to identify interactors of DPF3a,and co-immunoprecipitation (Co-IP) were performed to validate these interactions. Single-cell RNA sequencing (scRNA-seq) and flow cytometry were used to evaluate the impact of DPF3a on the tumor immune microenvironment.
+Results: In this study, we found DPF3a, but not DPF3b, was markedly overexpressed in RCC tissues and cell lines. Integrated multi-omics analysis revealed that DPF3a binds to the promoter of the CSF2 gene and promotes its transcriptional activation, consequently leading to increased CSF2 secretion. Mechanistically, the PHD1/2 domains of DPF3a mediate its interaction with the transcription factor YY1, which collaboratively facilitates CSF2 transcription. Furthermore, single-cell RNA sequencing analysis indicated that DPF3a-driven CSF2 upregulation promotes neutrophil infiltration and CD8&#8314; T-cell exhaustion, thereby contributing to the suppression of anti-tumor immunity.
+Conclusions: Our findings identify DPF3a as a previously unrecognized oncogenic isoform in RCC. By forming a complex with YY1 and activating CSF2 transcription, DPF3a drives neutrophil recruitment and CD8&#8314; T-cell exhaustion, thereby fostering an immunosuppressive microenvironment and promoting RCC progression.
+Keywords: DPF3a; YY1; CSF2; Renal Cell Carcinoma; Tumor Immune Microenvironment

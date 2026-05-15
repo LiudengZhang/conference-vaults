@@ -1,0 +1,12 @@
+# Resource allocation deconvolution for pathway analysis
+
+**Poster #**: 4139
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Junhao Wang, Yifei Wang, Tianshu Michael Bao, Yong LiBaylor College of Medicine, Houston, TX
+
+---
+
+Background: Traditional pathway analysis mainly focuses on comparing pathway activity among different samples, ignoring how pathways share and compete for a limited transcriptional "budget."Methods: We present PathwaySpectra, a framework that characterizes the transcriptional budget allocation and competitive landscape of pathways at the single-sample level. It can flexibly integrate standard annotations and user-defined gene sets and can be easily extended to various data types and disease scenarios.Results: In an immune checkpoint inhibitor (ICI) cohort, PathwaySpectra revealed previously unannotated high‑efficiency modules whose budget shares positively tracked clinical response, as well as low‑efficiency modules enriched in progressive disease. Using composition‑aware models with covariate adjustment, these associations remained robust. Compared to common supervised pathway scores, PathwaySpectra not only demonstrates the ability to distinguish response-related signals but also to identify previously unknown related signals. The competition view further suggested a reallocation of budget from immune‑effective to inefficient pathways in non‑responders, potentially constraining resources for productive immune activation.Conclusions: PathwaySpectra offers a complementary perspective beyond standard pathway activity metrics, enabling budget-based, sample-by-sample pathway analysis and supporting custom gene sets for research targeting specific questions, thereby facilitating the discovery of pathway-level therapeutic response biomarkers.

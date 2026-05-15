@@ -1,0 +1,14 @@
+# Ecotype-guided multi-omics profiling identifies potential cell-surface therapeutic targets in gastric cancer
+
+**Poster #**: 7647
+**Session**: Multi-Omics, Systems Biology, and Biological Mass Spectrometry
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yuefan Wang1, Lindsey  K.  Olsen2, Hui Zhang1, Bing Zhang2, Clinical Proteomic Tumor Analysis Consortium (CPTAC)
+
+1Pathology, Johns Hopkins University, Baltimore, MD,2Baylor College of Medicine, Houston, TX
+
+---
+
+Gastric cancer (GC) exhibits marked heterogeneity, complex molecular alterations, and limited therapeutic options. To comprehensively define its biology and vulnerabilities, we performed 15-layer multi-omics profiling of 159 gastric adenocarcinomas and 30 matched normal adjacent tissues, encompassing genomics, epigenomics, transcriptomics, proteomics, post-translational modifications, protein&#8211;protein interactions, metabolomics, and microbiome analyses, yielding more than 385,000 features. By integrating cell-state deconvolution, we defined gastric tumor ecotypes based on cellular states, providing a new framework for multi-omics integration. These ecotypes captured distinct tumor ecosystems and stromal&#8211;immune compositions and offered deeper mechanistic insight than conventional genomic or histologic classifications.Leveraging machine learning and large-scale AI models, we identified ecotype-specific molecular features and linked them to clinical outcome. To prioritize therapeutic opportunities, we applied high-outlier analysis to proteins and glycoproteins. Multiple cell-surface&#8211;associated targets showed strong high-outlier expression, including several known or emerging therapeutic candidates. Extracellular matrix (ECM) components were significantly enriched among high-outlier proteins, underscoring their central role in tumor growth, invasion, and potential therapeutic targeting. We further characterized altered cell-surface glycosylation patterns in high-outlier glycoproteins, revealing changes in immune regulation and ECM engagement. Phosphosite-resolved analysis identified key signaling signatures associated with aggressive tumor behavior.Importantly, embedding these high-outlier events within ecotype and genomic subtype frameworks revealed distinct, ecotype-specific patterns that were not apparent from genomic classification alone. Single-cell analyses localized many targets to specific stromal compartments, particularly fibroblast-rich ecosystems, suggesting that targeting fibroblast-driven niches may provide new therapeutic strategies for aggressive GC subsets. Overall, this study establishes an ecotype-guided proteogenomic approach to nominate cell-surface proteins, glycoproteins, and signaling nodes as precision therapy candidates in gastric cancer, and offers a broadly applicable model for dissecting heterogeneity in other complex malignancies.

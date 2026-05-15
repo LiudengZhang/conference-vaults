@@ -1,0 +1,17 @@
+# Microbiotas activate a tuft cell-sensory neuron feedback loop to promote esophagogastric junction (EGJ) tumorigenesis
+
+**Poster #**: 6222
+**Session**: Tumor-Neuron Interactions and Neuro-Regulation of Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yi Zeng1, Feijing Wu1, Puran Zhang1, Ruhong Tu1, Xiaofei Zhi2, Biyun Zheng1, Jin Qian1, Hualong Zheng1, Shuang Li1, Hiroki Yi Kobayashi1, Yosuke Ochiai1, Masahiro Hata1, Juli Lin1, Junya Arai1, Leah B. Zamechek1, Zaisheng Ye3, Timothy C. Wang1
+
+1Columbia University Irving Medical Center, New York, NY,2Nantong University, Nantong, China,3Fujian Cancer Hospital, Fuzhou, China
+
+---
+
+Background Esophagogastric junction (EGJ) adenocarcinoma is rising in developed countries. While diet and reflux contribute, microbial-neuronal mechanisms remain poorly defined.
+Methods Metabolomic and 16S rRNA sequencing were performed on 40 paired human EGJ tumors and adjacent tissues, and single-cell RNA sequencing on five pairs. Mechanistic studies used the pL2-IL1B mouse model of Barrett&#8217;s esophagus, Cck2r-CreERT2 mice to label EGJ progenitors, and crosses to p53R172H; pL2-IL1B to provide a tumor-prone background. Dclk1-CreERT2 targeted Tuft cells, while Trpv1-Cre, hM3Dq, and Ramp1 flox examined sensory signaling. Additional lines (Cck2r-CreERT2; Ramp1flox/flox, Dclk1-CreERT2; Cox1flox/flox; Cox2flox/flox, Pou2f3-CreERT2; DTA) dissected the Tuft-neuron-epithelial circuit. P. melaninogenica colonization and deoxycholic acid (DCA) supplementation modeled microbial-metabolic effects. Calcium imaging, phospho-ERK staining, and Tuft-neuron co-cultures assessed functional signaling.
+Results EGJ tumors were enriched in Firmicutes/Bacteroidota and Prevotella, while adjacent tissues contained Proteobacteria and Helicobacter. Prevotella abundance correlated positively with arachidonic-acid and negatively with tryptophan metabolites. Single-cell data showed epithelial, immune, and metabolic clusters, with bile- and fatty-acid pathways enriched in proliferative cells. P. melaninogenica, linked to bile-acid-rich, cancer-prone environments, was selected for mechanistic study. DCA alone enhanced EGJ dysplasia in pL2-IL1B mice. Oral P. melaninogenica colonized the EGJ, further increased by DCA, forming a bile-acid niche. Colonization amplified CGRP&#8314; neuronal signaling, expanded Tuft cells, and aggravated dysplasia. Tumor-prone Cck2r-CreERT2; p53R172H; pL2-IL1B mice showed more Tuft-CGRP&#8314; contacts, and pseudotime analysis indicated enhanced Cck2r&#8314;-to-Tuft differentiation. In ex vivo organoids, activation of Dclk1&#8314;; hM3Dq&#8314; Tuft cells elevated PGE&#8322;/NGF secretion, strengthened Tuft-nerve contacts, and induced calcium influx in co-cultured Trpv1&#8314;; GCaMP6s&#8314; DRG neurons. Trpv1&#8314; neurons co-expressed CGRP and EP4. Combined DCA + CNO treatment in Trpv1-Cre; hM3Dq; pL2-IL1B mice further increased dysplasia. Tuft ablation (Pou2f3-CreERT2; DTA), Tuft-specific Cox1/2 loss, or Ramp1 deletion in Cck2r&#8314; cells suppressed P. melaninogenica-induced dysplasia, demonstrating that blocking the Tuft-neuron-progenitor axis halts tumor progression.
+Conclusions We define a microbiota-bile-acid-Tuft-neuron feedback loop driving EGJ tumorigenesis. P. melaninogenica and DCA activate Tuft cells to release PGE&#8322;/NGF, stimulating EP4-CGRP/Ramp1 signaling and promoting epithelial dysplasia. Disrupting this circuit suppresses tumor growth, highlighting a metabolic-neuronal target for EGJ cancer prevention.

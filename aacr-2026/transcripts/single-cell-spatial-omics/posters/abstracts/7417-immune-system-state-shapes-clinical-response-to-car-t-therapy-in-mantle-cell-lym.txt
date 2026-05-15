@@ -1,0 +1,21 @@
+# Immune system state shapes clinical response to CAR-T therapy in mantle cell lymphoma
+
+**Poster #**: 7417
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Vivian Jiang, Qingsong Cai, Hong Kim, Lei Nie, Chengtai Yu, Yang Liu, Yijing Li, Jovanny Vargas, Michael Wang
+
+UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Background:
+CAR-T therapy has transformed treatment for relapsed/refractory mantle cell lymphoma (MCL), yet a significant subset of patients relapses or fails to respond. The biological mechanisms driving relapse and refractoriness remain poorly defined, particularly the influence of systemic immune dynamics in shaping CAR-T efficacy.
+  Methods:
+Single-cell RNA sequencing (scRNA-seq) was performed on 56 blood samples from 44 MCL patients treated with brexucabtagene autoleucel, including 24 long-term responders (pre-CAR-T samples), 17 relapsed patients (13 with paired pre-CAR-T and post-relapse samples), and 3 refractory patients (paired pre- and post-CAR-T samples). Integrative computational analysis was conducted to define immune system state (ISS) at single-cell resolution and correlate them with clinical outcomes. An AI-assisted predictive model is under development for clinical application.
+  Results:
+scRNA-seq analysis of 156,852 cells in total revealed three major ISS categories strongly associated with clinical outcomes: immune surveillance (low-risk), immune equilibrium (intermediate-risk), and immune suppression (high-risk), based on cytotoxicity and immunosuppressive profiles. Low-risk patients exhibited robust cytotoxic activity and durable remission, whereas relapse involved evolution to high-risk states characterized by T-cell and NK-cell exhaustion and monocyte enrichment. All refractory patients displayed high-risk ISS prior to CAR-T. Exhaustion scores and checkpoint expression (e.g. TIGIT, LAG3) were elevated in T-cell subsets (CTL, Tex, TCM) and NK cells post-relapse or in refractory cases. These findings establish ISS as a predictive framework for CAR-T response and relapse risk in MCL.
+  Conclusions:
+ISS provides a clinically actionable framework for predicting CAR-T response in MCL by capturing systemic immune dynamics. ISS-guided risk stratification may inform CAR-T optimization and rational combination strategies in MCL.

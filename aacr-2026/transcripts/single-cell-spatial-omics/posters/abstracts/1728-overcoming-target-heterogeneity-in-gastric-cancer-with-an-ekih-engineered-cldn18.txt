@@ -1,0 +1,17 @@
+# Overcoming target heterogeneity in gastric cancer with an eKiH-engineered CLDN18.2&#215;HER2 bispecific ADC
+
+**Poster #**: 1728
+**Session**: Antibody-Drug Conjugates and Linker Engineering 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Kyoung-Ho Pyo1, Seong-Hyun Park1, Dongsop Lee2, Haneol Kim2, Younggyu Kong2, Younggeun Lee1, Hojin Yeom1, Sowon Aum1, Sun Hee Park1, Huijo Oh1, Cheyeon Kim1, Hyeonseok Jin2, Aera Lee2, Hojeong Hong2, Ju Hwan Kim1, Hyungseok Choi2, Mi-Kyung Kim2, Taedong Han1
+
+1AbTis  Co., Ltd, Yongin, Korea, Republic of,2Dong-A ST Research Headquarter, Yongin, Korea, Republic of
+
+---
+
+Background: Target heterogeneity, mosaic and cluster expression of CLDN18.2 and HER2 is common in gastric cancer (GC) and undermines the efficacy of single-antigen therapies. We previously developed DA3501 (AT-211), a CLDN18.2-targeting ADC currently advancing toward Phase 1 evaluation. The DA3501 antibody clone demonstrates enhanced affinity and internalization compared with zolbetuximab. To more comprehensively address heterogeneous tumors, we engineered a CLDN18.2&#215;HER2 bispecific ADC built on Dong-A ST BsAb platform incorporating an enhanced knob-into-hole (eKiH) interface to improve heavy-chain pairing fidelity and bispecific assembly.
+Methods: Antibody discovery and optimization yielded lead clones for CLDN18.2 and HER2 with improved binding and internalization. Bispecifics were assembled using Dong-A ST BsAb platform. Conjugation to monomethyl auristatin E (MMAE), exatecan (a topoisomerase-I inhibitor), or dual-payload configurations was performed using site-selective chemistry. Target prevalence and co-expression were evaluated in human GC using single-cell RNA sequencing (scRNA-seq) of tumor specimens and multiplex immunohistochemistry (mIHC) on tissue microarrays (TMAs). Immune correlates were analyzed to assess combinatorial potential with immune checkpoint inhibitors (ICIs).
+Results: scRNA-seq revealed CLDN18.2 and HER2 expression in mutually exclusive as well as co-expressing tumor cell subsets, corroborated by mIHC showing intra-tumoral mosaic and clustered patterns. The DA3501 anti-CLDN18.2 clone exhibited superior binding kinetics and internalization versus zolbetuximab. ATS1002 retained high-affinity binding to both targets and demonstrated efficient internalization in dual-positive and single-positive (CLDN18.2 or HER2) models, supporting a &#8220;catch-all&#8221; approach for heterogeneous lesions. ADCs conjugated with MMAE, exatecan, or dual payloads showed potent in vitro cytotoxicity across CLDN18.2-high, HER2-high, and co-expressing GC lines. Immune-correlative analyses indicated potential synergy with ICIs in tumors exhibiting activated T-cell and myeloid signatures.
+Conclusions: This BsAb is a rationally engineered CLDN18.2&#215;HER2 bispecific ADC designed to overcome target heterogeneity in GC. Together with the DA3501 program, it broadens therapeutic coverage of CLDN18.2/HER2-expressing tumors and combination-strategy studies, including ICI co-therapy.

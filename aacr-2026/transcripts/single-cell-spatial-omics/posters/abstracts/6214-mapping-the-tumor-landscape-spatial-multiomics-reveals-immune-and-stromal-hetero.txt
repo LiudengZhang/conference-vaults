@@ -1,0 +1,17 @@
+# Mapping the tumor landscape: spatial multiomics reveals immune and stromal heterogeneity across early and late-stage NSCLC
+
+**Poster #**: 6214
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Gaurav  N.  Joshi, Nicholas Sciascia, Michael Yang, Brenna Fearey, Junya Yoshioka, Fumiki Yanagawa
+
+Nikon Bioimaging Lab, Nikon Instruments Inc, Lexington, MA
+
+---
+
+Background:  Lung cancer accounts for 12% of all cancers and 20% of cancer-related deaths. Rapid advances in spatial biology are uncovering mechanisms of disease, patient-to-patient variability, and immune biomarkers predictive of response to immunotherapy. Using a combination of spatial multiomics approaches and data analysis in the same section, we characterized the spatial distribution, phenotypes, and functional states of tumor, immune, and stromal cells between stage IA (early) and IIIA (late) non-small cell lung cancer (NSCLC).
+Method:  5 &#181;m formalin-fixed paraffin-embedded (FFPE) tissue sections were prepared from stages IA and III A human NSCLC with confirmed histology of adenocarcinoma. Same sections were analyzed using two complementary platforms, (1) multiplex immunofluorescence (mIF) with a 30-antibody panel on Lunaphore COMET system and (2) spatial transcriptomics using 10x Genomics Visium CytAssist. Protein-level data were processed using HORIZON, and transcriptomic data were analyzed in Loupe Browser. Unbiased clustering (Leiden) and cellular phenotyping were performed to identify region-specific cell populations and marker co-expression patterns.
+Results:  In early NSCLC tumor, CD8+, CD4+ T cells were more concentrated within the tumor core. In addition, fewer Tregs, immunosuppressive macrophages, and cells expressing immune checkpoint were observed. There were less stromal remodeling, fibrosis and angiogenesis and more TLSs in stage IA tumor. On the other end, late NSCLC tumor showed an increased expression of markers associated with immunosuppression/evasion and stromal remodeling, including an increase in Treg cells, TAMs, CAFs and immune checkpoint expression. A difference in the gene expression signature between early and late-stage NSCLC support observations from protein expression. Early-stage tumor was enriched for genes associated with immune surveillance and active cytotoxic response, whereas late-stage tumor was enriched for immune suppression and stromal remodeling genes. Spatial analysis also highlighted changes in various chemokines and cytokines between the two tumor types.
+Conclusions:  The integration of multiomics technologies on the same section helped identify diverse processes and transcriptional changes associated with a varied tumor and immune landscape between early and late-stage NSCLC. Cellular phenotyping triaged cell types based on marker expression in pathologist annotated regions. These findings highlight intra and inter-tumor changes, the biology within and helped with the identification of potential biomarkers for immunotherapy response and intervention.

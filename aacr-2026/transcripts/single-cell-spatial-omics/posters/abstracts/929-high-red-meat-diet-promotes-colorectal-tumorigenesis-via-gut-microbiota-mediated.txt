@@ -1,0 +1,17 @@
+# High red meat diet promotes colorectal tumorigenesis via gut microbiota mediated Th17/Treg imbalance
+
+**Poster #**: 929
+**Session**: Cancer in the Community: Epidemiology, Experimental Knowledge, Action, and Communication
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Yamei Hu1, Yating Wei2, Runjie Song3, Yilin Tang2, Dongli Pei2, Zigang Dong2
+
+1Department of Pathology, The Third Affiliated Hospital of Zhengzhou University, Zhengzhou University, Zhengzhou, China,2Department of Pathophysiology, School of Basic Medical Sciences, Zhengzhou University, Zhengzhou, China,3School of Life Sciences, Zhengzhou University, Zhengzhou, China
+
+---
+
+Background: Excess red and processed meat consumption is a known risk factor for colorectal cancer (CRC), but the underlying mechanisms remain unclear. Given that dietary components reshape gut microbial ecology and mucosal immunity, we hypothesized that high red meat consumption promotes CRC by disrupting microbiota-immune crosstalk that maintains intestinal homeostasis.
+Methods: The C57BL/6 mice were fed isocaloric diets with increasing proportions of red meat-derived protein (20%, 50%, 100%) compared with a 20% casein control. Tumorigenesis was assessed in azoxymethane (AOM)/dextran sulfate sodium (DSS)-induced mouse and ApcMin/+ mouse models, complemented by orthotopic MC38-Luc-implantated mouse models as well as AOM/DSS-induced Lgr5GFP-Slp-mCherry transgenic mouse engineered to trace intestinal stem cells (GFP+mCherry-) and tumor microenvironmental cells (GFP-mCherry+). Colonic tumors were subjected to single-cell RNA sequencing to delineate immune landscape shifts, while fecal samples were analyzed by metagenomics and metabolomics to profile microbiota and microbial metabolites.
+Results: Higher dietary red meat led to significantly increased colonic tumor burden in a dose-dependent manner. scRNA-seq revealed a progressive shift toward a pro-inflammatory T cell milieu with escalating Th17/Treg ratios: 0.26 (control diet), 0.44 (20% red meat diet), 0.61 (50% red meat diet) and 0.71 (100% red meat diet). Th17 transcriptional signature including IL17A and ROR&#947;t as well as IL-6/STAT3 signaling was enhanced in tumors from red meat-fed mouse, consistent with amplified Th17 responses. Metagenomic profiling identified the depletion of a commensal consortium &#8220;PFIO&#8221; comprising Parasutterella excrementihominis, Faecalibaculum rodentium, Ileibacterium valens and Oscillospiraceae species linked to short-chain fatty acid synthesis and bile acid homeostasis. Metabolomic data confirmed reduced SCFA and secondary bile acids levels, consistent with an inflammatory gut environment conducive to Th17 polarization.
+Conclusions: These findings define a microbiota-Th17/Treg axis that mechanistically links red meat consumption to colorectal tumorigenesis. Disruption of SCFA-producing commensals amplifies Th17 dominance, driving tumor-promoting inflammation. Therapeutically restoring microbiota composition or Th17/Treg balance may offer preventive strategies for red meat diet associated CRC.

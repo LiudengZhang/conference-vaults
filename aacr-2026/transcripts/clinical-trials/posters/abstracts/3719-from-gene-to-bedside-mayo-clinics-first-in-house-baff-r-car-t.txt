@@ -1,0 +1,12 @@
+# From gene to bedside: Mayo Clinic’s first-in-house BAFF-R CAR-T
+
+**Poster #**: 3719
+**Session**: Adoptive Cell Therapy 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Yan Luo1, Shaohua Guo1, Yaqing Qie2, Martha E. Gadd2, Tanya Hundal2, Hemant S. Murthy3, Mohamed A. Kharfan-Dabaja3, Hong Qin41Department of Cancer Biology, Mayo Clinic Florida, Jacksonville, FL,2Regenerative Immunotherapy and CAR-T Translational Research Program, Mayo Clinic Florida, Jacksonville, FL,3Division of Hematology and Medical Oncology, Department of Internal Medicine, Mayo Clinic Florida, Jacksonville, FL,4Department of Immunology, Mayo Clinic, Rochester, MN
+
+---
+
+Chimeric antigen receptor (CAR)-T cell therapy has revolutionized the treatment of B-cell malignancies. Despite the clinical success of CD19-targeted approaches, relapsed/refractory (R/R) disease—often driven by antigen loss or immune escape—remains a major challenge. To overcome this, we developed a novel CAR-T cell therapy targeting BAFF-R, a receptor consistently expressed in chronic lymphocytic leukemia (CLL) and other B-cell malignancies. We developed a new anti-BAFF-R monoclonal antibody and engineered the MC10029 CAR construct using its scFv. Antigen-specific cytotoxicity was validated in both in vitro and in vivo models, including Nalm-6 (leukemia) and Z138 (lymphoma), and CD19-knockout tumor cells to model (R/R) disease. MC10029 CAR-T cells were generated from healthy donors and CLL patients, and their cytotoxicity was evaluated against MEC-1, a CLL cell line, as well as autologous CLL patient tumor samples. These studies demonstrated potent and specific antitumor efficacy. We transitioned to clinical-grade production, using GMP-compliant lentivirus to manufacture MC10029 CAR-T cells under regulatory guidelines. With FDA IND approval, we initiated a Phase 1 clinical trial to evaluate safety and dosing. Our first patient, treated with a low-dose, single infusion, achieved a complete metabolic response within 2 months. The therapy is well tolerated, with no severe advent events such as cytokine release syndrome or neurotoxicity, supporting both the safety and efficacy of the therapy. Conclusion: This study represents Mayo Clinic’s first homegrown CAR-T cell therapy, developed entirely in-house—from antibody discovery and CAR design to GMP manufacturing and clinical trial—marking a significant step toward personalized, next-generation immunotherapy for B-cell malignancies.

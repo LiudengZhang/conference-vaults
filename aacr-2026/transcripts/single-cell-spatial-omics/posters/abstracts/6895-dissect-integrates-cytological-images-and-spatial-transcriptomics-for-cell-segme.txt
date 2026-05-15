@@ -1,0 +1,14 @@
+# DISSECT integrates cytological images and spatial transcriptomics for cell segmentation
+
+**Poster #**: 6895
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yufeng He1, Yanping Zhao2, Rui Zhang1, Heli Yang3, Zhaode Bu3, Yuan Luo4, Deng Pan5, Zexian Zeng1
+
+1Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China,2Tsinghua-Peking Center for Life Sciences, School of Life Sciences, Tsinghua University, Beijing, China,3Center of Gastrointestinal Cancer, Peking University Cancer Hospital & Institute, Peking University, Beijing, China,4Department of Preventive Medicine, Feinberg School of Medicine, Northwestern University, Chicago, IL,5Tsinghua-Peking Center for Life Sciences, Department of Basic Medical Sciences, Tsinghua University, Beijing, China
+
+---
+
+Advances in both imaging- and sequencing-based spatial transcriptomics technologies have significantly increased panel size and resolution, enabling the measurement and analysis of spatially resolved single-cell transcriptomics. However, challenges remain in accurately segmenting cells due to variability in cell morphology, tissue processing, and staining methods, leading to reduced accuracy and poor generalization of existing cell segmentation algorithms. To address this, we propose DISSECT, a novel cell segmentation model that combines cytological image segmentation with transcriptome-guided fine-tuning. DISSECT leverages a pre-trained deep generative model to identify cell nuclei or membrane boundaries, unifies the gradient fields of both images and transcriptomics to refine cell boundaries, and reconstructs spatial single-cell transcriptomes. We benchmarked DISSECT using the ground-truth dataset profiled by the Visium HD, Stereo-seq, Xenium 5k, and CosMx 6k platforms, demonstrating higher mean average precision than other tools. Furthermore, evaluations on independent 10x Xenium 1k, Nanostring CosMx 1k, and Stereo-seq datasets further validate that DISSECT achieves superior segmentation accuracy, especially in densely packed cell regions. Additionally, DISSECT was applied to three paired gastric adenocarcinoma samples, which we collected before and after PD-1 treatment and sequenced using Stereo-seq, a transcriptome-wide NGS-based sequencing technology, showcasing its potential for driving in-depth biological discoveries.

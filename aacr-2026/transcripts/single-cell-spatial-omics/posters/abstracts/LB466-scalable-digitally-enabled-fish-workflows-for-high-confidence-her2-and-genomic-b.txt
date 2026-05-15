@@ -1,0 +1,14 @@
+# Scalable, digitally enabled FISH workflows for high-confidence HER2 and genomic biomarker assessment in precision oncology
+
+**Poster #**: LB466
+**Session**: Late-Breaking Research: Experimental and Molecular Therapeutics 4
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Julianna Buccafuri, Christine Hale, Jess Dhillon, Richard Siderits, Greg Cesarone
+
+Discovery Life Sciences, Newtown, PA
+
+---
+
+Fluorescence in situ hybridization (FISH) is a widely used cytogenetic method for detecting gene amplification, deletions, and structural alterations in solid tumors. Its single-cell resolution and high specificity make it essential for assessing biomarkers such as HER2 in both clinical practice and translational research. As targeted and immuno-oncology therapies expand, there is increasing need for validated, scalable FISH assays that provide reliable and reproducible results across sites.Discovery Life Sciences has developed CAP/CLIA-certified, ISO-accredited FISH workflows using FDA-approved and custom probes to evaluate HER2 amplification and additional genomic targets in FFPE tissues. More than 1,000 oncology samples across breast, gastric, and lung cancers have been processed using automated and manual hybridization platforms. To support cross-site concordance, all FISH slides can be scanned for digital pathology review, enabling image sharing, remote scoring, and standardized interpretation. Digital analysis tools including HALO, QuPath, and Visiopharm provide quantitative fluorescence measurements and automated scoring to enhance reproducibility.Analytical validation studies demonstrate high sensitivity, precision, and operator agreement, with clear detection of HER2 amplification even in challenging specimens. Custom dual-color and multi-target probe designs allow simultaneous assessment of amplifications, deletions, and structural rearrangements, and can be integrated with IHC and NGS data for multi-modal biomarker evaluation.Together, these capabilities support robust, scalable FISH testing for research and clinical trial applications. The combination of high-quality laboratory workflows, digital slide scanning, and advanced image analysis strengthens pathology concordance across sites and enables high-confidence biomarker assessment to advance precision oncology.

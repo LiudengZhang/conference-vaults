@@ -1,0 +1,14 @@
+# Metabolic dependence of prostate cancer subtypes and its association with the tumor-immune microenvironment
+
+**Poster #**: 7434
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Tonatiuh  A.  Gonzalez1, Anisha Tehim2, Inna Serganova1, Roberta Zappasodi3, Ekta Khurana3
+
+1Weill Cornell Grad. School of Medical Sci., New York, NY,2Cornell University, Ithaca, NY,3Weill Cornell Medicine, New York, NY
+
+---
+
+Due to the rising use of androgen deprivation therapy (ADT) and AR signaling inhibitors (ARSIs), metastatic castration-resistant prostate cancer is expanding and although it is known that its subtypes provide predictive utility, their individual tumor-immune microenvironments are woefully underexplored mechanistically. Careful investigation of these subtypes of mCRPC may provide insights into therapeutic resistance beyond mCRPC. Using both publicly available and in-house single-cell RNA-sequencing and spatial transcriptomics datasets, we have characterized mCRPC cells and their accompanying tumor-immune microenvironment using established marker genes and verified their identity using inferred copy-number variation status. Firstly, we have explored metabolic profiles of the various cell-types in our samples by calculating scores based on transcription of genes involved in metabolic processes. We have performed ligand-receptor pair analysis to predict which cell types are interacting and through which inflammatory and metabolic axes these interactions are occurring. Finally, we have demonstrated interaction feasibility by measuring distance in space via our spatial transcriptomics data. Our preliminary results indicate that these subtypes have significantly different metabolic profiles. Additionally, the immune cells near to these different subtypes have shown differential immunosuppressive programs and metabolic reprogramming. These findings suggest the potential role of tumor metabolic forces in the induction of an immunosuppressive tumor microenvironment and point to a promising utility of metabolic perturbations in mCRPC as a neoadjuvant to enhance response to immune checkpoint blockade (ICB). This work highlights novel lenses in which to analyze tumors in the hopes of suggesting combination therapies that may overcome treatment obstacles.

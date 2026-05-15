@@ -1,0 +1,14 @@
+# CEACAM5/6+ cancer cell and IL1B+ macrophage-mediated resistance in anti-PD-1 treated gastric cancer
+
+**Poster #**: 7746
+**Session**: Immune Response to Therapies
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Liudeng Zhang1, Jian Chen2, Yikai Luo1, Lie Wang2, Han Liang1
+
+1Bioinformatics and Computational Biology, UT MD Anderson Cancer Center, Houston, TX,2Zhejiang University, Hangzhou, China
+
+---
+
+Immune checkpoint blockade therapy has shown limited efficacy in gastric cancer, with most patients developing resistance through mechanisms that remain incompletely defined. Here, we generate a comprehensive single-cell RNA sequencing atlas of 526,583 cells from gastric cancer patients treated with anti-PD-1 plus chemotherapy, analyzing paired pre- and post-treatment samples to capture dynamic resistance mechanisms. We identify two distinct resistance pathways that emerge during treatment. First, CEACAM5/6+ cancer cells are markedly enriched in pre-treatment non-responders and predict treatment failure. These CEACAM5/6+ epithelial cells show the highest tumor scores and correlate with increased regulatory T cell infiltration expressing CEACAM1, establishing an alternative checkpoint axis that bypasses PD-1/PD-L1 blockade. External validation in independent cohorts confirms CEACAM5/6 expression as a robust predictor of anti-PD-1 resistance. Second, we uncover a macrophage-driven inflammatory cascade central to treatment resistance. IL-1&#946;+ macrophages serve as the primary source of NF-&#954;B pathway activation across the tumor microenvironment, triggering downstream IL-6 production, Th17 cell differentiation, chronic inflammation and epithelial-mesenchymal transition. This macrophage module is significantly enriched in post-treatment non-responders, with TNF-high expressing monocyte-macrophages absent in responders but prevalent in resistant tumors. The resulting inflammatory milieu drives PD-L1 upregulation across multiple cell types, creating a self-reinforcing immunosuppressive niche. Collectively, these findings nominate CEACAM5/6&#8314; epithelial cells and IL-1&#946;&#8314; inflammatory macrophages as actionable therapeutic targets for overcoming anti-PD-1 resistance in gastric cancer, providing a mechanistic framework and rational blueprint for next-generation combination immunotherapy strategies.

@@ -1,0 +1,18 @@
+# p-EMT transitional hub and its DC2-macrophage niche define recurrence in oral squamous cell carcinoma
+
+**Poster #**: 1484
+**Session**: Integrative Computational Approaches 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Yongjoon Jin1, Jeong-Yeon Ji2, Hyojung Lee1, Na-yeon Kim1, Eun-Jae Chung3, Jong-Il Kim4
+
+1Department of Biomedical Science, Seoul National University College of Medicine, Seoul, Korea, Republic of,2Department of Otorhinolaryngology-Head and Neck Surgerys, Seoul National University Bundang Hospital, Gyeonggi-do, Korea, Republic of,3Department of Otorhinolaryngology-Head and Neck Surgery, Seoul National University Hospital, Seoul, Korea, Republic of,4SNU Medicine, Seoul, Korea, Republic of
+
+---
+
+Background: Partial epithelial-to-mesenchymal transition (p-EMT) is increasingly recognized as a critical driver of invasion and recurrence in OSCC, yet the spatially defined ecosystems and lineage trajectories that sustain p-EMT remain unknown.
+Methods: We analyzed 40 tumor-edge TMA cores from 14 patients using Xenium 5k spatial transcriptomics and integrated two-year clinical outcomes (14 non-recurrence, 26 recurrence). Complementary snRNA-seq from 8 matched patients (4 non-recurrence, 4 recurrence) enabled epithelial subclustering, lineage/ontogeny modeling, ligand-receptor inference, and spatial neighborhood reconstruction.
+Results: snRNA-seq uncovered a distinctly enriched p-EMT epithelial state (p-EMT_C2) defined by ECM-remodeling genes (MMP11, POSTN, COL11A1), CAF-like markers (PDGFRB, THY1, FAP), and pro-invasive regulators. p-EMT_C2 was significantly expanded in recurrence tumors. Spatial mapping revealed that p-EMT_C2 forms a discrete &#8220;transitional zone&#8221; positioned between differentiated core epithelium and highly invasive edge cells&#8212;a zone that was preferentially amplified in recurrence lesions. Pseudotime reconstruction demonstrated that p-EMT_C2 represents a central branching hub along the core-to-edge invasion trajectory, functionally linking epithelial differentiation to edge aggressiveness.
+Strikingly, p-EMT_C2 was embedded within a recurrence-specific multicellular niche composed of DC2 dendritic cells and a pro-metastatic macrophage subset (Macrophage_C1). This tri-cellular niche exhibited strong spatial co-occurrence in recurrence cores. Macrophage_C1 expressed IL1A, IL6, HBEGF, THBS1, VEGFC, DKK1, PTHLH, and FOSL1, while DC2 cells displayed complementary pro-invasive signatures. Ligand-receptor analysis revealed dense reciprocal signaling among the three populations, suggesting that DC2 and Macrophage_C1 collaboratively reinforce and stabilize the p-EMT hub state.
+Conclusions: We identify p-EMT_C2 as a transcriptionally and spatially central hub that orchestrates the transition from differentiated epithelium to invasive edge states in OSCC. Its tight association with DC2 and pro-metastatic macrophages defines a recurrence-specific invasive ecosystem. These findings nominate the p-EMT_C2-DC2-macrophage axis as a mechanistically grounded therapeutic target for disrupting the emergence of recurrence in OSCC.

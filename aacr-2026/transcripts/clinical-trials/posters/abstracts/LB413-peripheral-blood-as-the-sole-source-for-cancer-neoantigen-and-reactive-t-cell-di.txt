@@ -1,0 +1,12 @@
+# Peripheral blood as the sole source for cancer neoantigen and reactive T cell discovery
+
+**Poster #**: LB413
+**Session**: Late-Breaking Research: Clinical Research 4
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Andrea Garcia Garijo1, Immaculada Creus-González1, Pierre Levy1, Ana Belen Moreno-Cárdenas1, Maria Lozano-Rabella1, Carlos Alberto Fajardo1, Ricardo Pujol-Borrell1, Albert Marín1, Johanna Kusnick1, Jared Gartner2, Anna Yuste-Estevanez1, Alma Calahorro1, Jose Fernandez1, Rebeca Sanz3, Thomas  B.   K.  Watkins4, Vladimir Galvao1, Eva Muñoz-Couselo1, Javier Ros1, Elena Elez1, Mafalfa Oliveira1, Cristina Saura1, Irene Braña1, Ana Oaknin1, Ramon Alemany3, Josep Tabernero1, Raquel Perez-Lopez1, Alexander  M.  Frankell5, Elena Garralda1, Rodrigo De Almeida Toledo1, Alena Gros11VHIO Vall D'Hebron Institute of Oncology, Barcelona, Spain,2National Cancer Institute (NCI), Bethesda, WA,3IDIBELL-Institut Catala d’Oncologia, Barcelona, Spain,4The Francis Crick Institute, London, United Kingdom,5Early Cancer Institute, University of Cambridge, Cambridge, United Kingdom
+
+---
+
+Neoantigen-targeted T-cell therapies require invasive tumor biopsies to identify neoantigens and reactive T cells, limiting their applicability and potentially underestimating tumor heterogeneity. We propose a novel strategy relying solely on peripheral blood to identify non-synonymous mutations via cell-free DNA whole-exome sequencing and isolate neoantigen-specific CD4+ and CD8+ T cells based on PD-1 and CD39 co-expression. Our method successfully identified most neoantigens and increased the number of T-cell reactivities detected by standard biopsy-based techniques in an initial cohort of eight metastatic cancer patients. Critically, our approach uncovered additional neoantigens missed by tumor biopsy analysis, highlighting the potential for broader neoantigen targeting using liquid biopsies. Analysis of a larger cohort of 69 metastatic cancer patients revealed that approximately half could be eligible for our blood-only approach. This proof-of-concept study demonstrates the potential of using peripheral blood as a surrogate or complement for tumor biopsies to develop neoantigen-reactive T-cell therapies against a broader spectrum of neoantigens.

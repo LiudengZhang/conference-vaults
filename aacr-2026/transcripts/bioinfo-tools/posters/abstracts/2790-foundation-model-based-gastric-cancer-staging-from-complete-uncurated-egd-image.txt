@@ -1,0 +1,12 @@
+# Foundation model-based gastric cancer staging from complete, uncurated EGD image sequences
+
+**Poster #**: 2790
+**Session**: Radiomics and AI in Medical Imaging
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Sehun Kim1, Hyosoon Yoo1, Yang Won Min2, Hyuk Lee21Samsung Precision Genome Medicine Institute, Samsung Medical Center, Seoul, Korea, Republic of,2Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea, Republic of
+
+---
+
+Background: Histopathologic assessment remains the gold standard for gastric cancer staging but creates significant treatment bottlenecks. While AI-based prediction of pathologic outcomes from endoscopic images shows promise, existing approaches rely on manually selected images, introducing selection bias and missing the case-level context essential for clinical decisions. We present GastroFM, a vision transformer-based foundation model that learns from complete esophagogastroduodenoscopy (EGD) image sequences, enabling case-level predictions aligned with clinical practice.Methods: GastroFM is pretrained using a modified DINOv3 framework on approximately 500,000 images from 13,515 pathology-confirmed EGD cases at Samsung Medical Center (2019-2023). We then fine-tuned the pretrained model for gastric cancer staging using Attention-based Multiple Instance Learning (AbMIL), which aggregates uncurated, variable-length image sequences (1 to 105 images per case) into case-level predictions. We evaluated the model on gastric cancer staging at multiple granularities using a 75%/10%/15% train-validation-test split (8,121 cases with gastric cancer): (1) early gastric cancer (EGC) vs. advanced gastric cancer (AGC), (2) four-class T-stage (T1-T4), and (3) lymph node metastasis (N0 vs. ≥N1).Results: On the test set, GastroFM achieved: AUC 0.93 (accuracy 0.91) for AGC classification, substantially exceeding expert endoscopic assessment (76.8% accuracy in our cohort); AUC 0.84 (overall accuracy 0.67) for 4-class T-stage classification; and AUC 0.85 (accuracy 0.87) for lymph node metastasis prediction.Conclusion: Unlike conventional approaches that rely on manually selected images, GastroFM analyzes complete, uncurated image sequences, providing case-level predictions aligned with clinical practice workflows. Further comparative studies with existing foundation models and large-scale external validation are necessary to fully establish its superiority and clinical utility in diverse settings.

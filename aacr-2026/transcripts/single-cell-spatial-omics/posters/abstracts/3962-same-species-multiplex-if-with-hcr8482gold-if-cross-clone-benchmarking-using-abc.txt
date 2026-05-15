@@ -1,0 +1,17 @@
+# Same-species multiplex IF with HCR&#8482;Gold IF: Cross-clone benchmarking using Abcam&#8217;s oncology-validated primaries
+
+**Poster #**: 3962
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Wudy Yang1, Randy Chen1, Harry Choi1, Aneesh Acharya1, Will Howat2
+
+1Molecular Instruments, Inc., Los Angeles, CA,2Abcam, Cambridge, United Kingdom
+
+---
+
+Background: Spatially resolved, multiplexed immunofluorescence (mIF) is essential for oncology research to profile tumor-immune architecture, track pathway activation, and stratify biomarkers in precious FFPE specimens. Conventional mIF is often limited by species constraints, secondary antibody cross-reactivity, and custom conjugations that slow panel development. Here, we present a plug-and-play workflow that pairs HCR&#8482; Gold IF and Encoder reagents with Abcam&#8217;s broad portfolio of primary antibodies to deliver robust same-species multiplexing with minimal optimization and rapid turnaround, streamlining setup from antibody order to imaging in about one work week.
+Methods: The HCR&#8482; HiFi Encoder binds with high affinity to the Fc domain of unmodified primary antibodies, forming a stable 1:1 complex without compromising antigen recognition. This encoding process is fully compatible with commonly used antibody buffers. Human cancer lines and FFPE tumor sections (e.g., lung, breast, colorectal) were processed using standard fixation/antigen retrieval, permeabilization, and blocking. Off-the-shelf Abcam primary antibodies were HiFi-encoded and detected with fluorophore-labeled HCR&#8482; Gold amplifiers. Multiplexing was achieved by assigning orthogonal HCR&#8482; initiators to each unmodified antibody, allowing simultaneous detection of multiple targets within a single sample. No primary conjugation or iterative stripping steps were required. Panels included oncology-relevant markers for epithelium (panCK), immune subsets (CD3, CD8, CD68), proliferation (Ki67), and stroma (a-SMA).
+Results: Same-species multiplexing with Abcam primary antibodies produced high-contrast images that preserved expected subcellular/localization patterns across tumor cells, immune compartments, and stroma. Orthogonal Encoders minimized channel crosstalk and HCR&#8482; Gold amplification yielded bright, linear signals suitable for quantitative comparisons across regions of interest. Replicate runs across tissues showed consistent signal-to-background and spatial patterns. Panel build time was markedly reduced; researchers can purchase Abcam antibodies and generate imaging-ready data in ~5 days, enabling rapid iteration of oncology panels and testing of alternative clones.
+Conclusions: HCR&#8482; Gold IF with Encoders provides a practical, cancer-focused solution for standardized, same-species multiplex IF using widely available Abcam primary antibodies. The enzyme-free, isothermal amplification preserves epitopes while delivering sensitive, reproducible signals, supporting robust characterization of the tumor microenvironment, pathway activity, and checkpoint expression from limited clinical material. This streamlined, plug-and-play approach lowers barriers to spatial biomarker studies and accelerates discovery and translational research.

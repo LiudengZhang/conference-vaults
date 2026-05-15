@@ -1,0 +1,14 @@
+# From transcripts to cells: Dissecting sensitivity, signal contamination, and specificity in Xenium spatial transcriptomics
+
+**Poster #**: 5496
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Mariia Bilous1, Daria Buszta1, Jonathan Bac1, Senbai Kang1, Yixing Dong1, Stephanie Renaud-Tissot2, Sylvie Andre2, Marina Alexandre-Gaveta2, Christel Voize2, Solange Peters2, Krisztian Homicsko2, Raphael Gottardo1
+
+1Biomedical Data Science Center, Lausanne University Hospital; University of Lausanne, Lausanne, Switzerland,2Department of Oncology, Lausanne University Hospital; Swiss Cancer Center Leman, Lausanne, Switzerland
+
+---
+
+Understanding cell states and interactions within tumors requires accurate spatial gene measurements. Spatial transcriptomics provides this capability by mapping gene expression directly within intact tissue, offering a powerful framework for studying tumor ecosystems. The purpose of this study was to systematically evaluate the performance of the Xenium platform in cancer samples and to develop an improved strategy for refining cell-level signals.We generated one of the largest Xenium datasets to date, comprising 41 breast and lung tumor sections from 27 donors and profiled using multiple targeted panels as well as the newer 5K panel. Using matched snRNA-seq, we assessed assay specificity, panel performance, segmentation strategies, and the prevalence of transcript spillover&#8212;a major source of technical variability in densely intermixed tumor ecosystems.We found that broader panel content increases biological coverage but reduces per-gene sensitivity. We further show that transcript spillover from adjacent cells significantly affects signal specificity, producing mixed profiles that obscure critical immune programs in cancer tissues. Building on these insights, we developed SPLIT (Spatial Purification of Layered Intracellular Transcripts), a method that combines snRNA-seq with deconvolution to correct spillover and recover cleaner cell-type signatures. SPLIT improved background correction, enhanced cell-type resolution, and revealed features such as T-cell exhaustion linked to local tumor-immune proximity that were not detectable using raw, contaminated data.In conclusion, our study provides a comprehensive performance assessment of Xenium in cancer contexts and introduces a scalable and interpretable approach for signal refinement, enabling more reliable inference of cellular programs and interactions within the tumor microenvironment. This dataset and methodology offer an important resource for designing, benchmarking, and interpreting spatial transcriptomics studies in cancer.

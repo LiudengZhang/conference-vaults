@@ -1,0 +1,14 @@
+# Spatially Resolved Cell-Cell Communication Reveals Intra-tumoral heterogeneity in Small Cell Lung Cancer
+
+**Poster #**: 3963
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Tingxiao Gao, Jalal Kazan, Fatema Zohora, Gregory Schwartz, Benjamin Lok
+
+Medical Biophysics, University of Toronto, Toronto, ON, Canada
+
+---
+
+Introduction: Small cell lung cancer (SCLC) is an aggressive neuroendocrine malignancy with a 5-year survival rate of only 7%. Despite ongoing advances, most patients derive limited benefit from existing therapies, underscoring the need to better understand mechanisms of SCLC progression and resistance. Cell-cell communication (CCC) through ligand-receptor (LR) interactions has been studied to have a key role in regulating process that influence tumor cell plasticity and spatial organization. We hypothesize that tumor-tumor CCC mediates heterogeneity within SCLC and contributes to its aggressive phenotype. Method: We generated spatial transcriptomic profiles from two SCLC circulating tumor cell-derived xenograft (CDX) samples at single-cell resolution using VisiumHD. Hematoxylin and eosin (H&#38;E) staining confirmed the neuroendocrine morphology of each sample by an expert pathologist. We inferred CCC using CellNEST, a graph neural network model our lab developed to detect intercellular LR interactions directly from spatial transcriptomic data. Results: Across both CDX samples, we identified 380,790 high-confidence LR interactions at single-cell resolution. The five most frequently observed LR pairs were L1CAM-L1CAM (n=5430), MDK-PTPRZ1(n=5260), NECTIN1-NECTIN1(n=4172), VEGFA-NRP1 (n=2984) and GRN-SORT1 (n=2840). These LR pairs are biologically consistent with known pathways in SCLC, including those regulating cell adhesion, angiogenesis, and neuroendocrine differentiation. By spatially mapping these recurrent LR back to the tissue, we further revealed interesting region-specific communication patterns, suggesting that CCC contributes to transcriptionally and morphologically distinct tumor subregions. Discussion: This study provides spatially resolved characterization of tumor-tumor interactions in SCLC CDX models at single-cell resolution. By identifying highly recurrent LR interactions and mapping their spatial organization, we aim to uncover potential biological mechanisms underlie intra-tumoral heterogeneity. Ongoing work will expand this framework to larger SCLC cohorts to identify CCC-driven transcriptional programs and evaluate their potential as biomarkers and therapeutic targets to shed light on future therapeutic strategies for SCLC.

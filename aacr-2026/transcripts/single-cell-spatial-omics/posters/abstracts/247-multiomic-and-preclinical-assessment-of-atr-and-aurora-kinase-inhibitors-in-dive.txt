@@ -1,0 +1,18 @@
+# Multiomic and preclinical assessment of ATR and Aurora kinase inhibitors in diverse TNBC models
+
+**Poster #**: 247
+**Session**: DNA Damage and Repair 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Nathan  M.  Merrill, Hamadi Madhi, Nathalie M. Vandecan, Athena Marie Apfel, Habib Serhan, Peter J. Ulintz, Liwei Bao, Aki Morikawa, Matthew  B.  Soellner, Soffia  D.  Merajver
+
+University of Michigan, Ann Arbor, MI
+
+---
+
+Introductory Sentence: This study investigated the efficacy of combined ATR and Aurora kinase (AK) inhibition in triple-negative breast cancer (TNBC), emphasizing racially diverse patient-derived models and mechanisms of therapeutic resistance.
+Pertinent experimental procedures: Through high throughput screening, we identified an ATR inhibitor, berzosertib, that targets the DNA damage response (DDR) pathway, and whose efficacy correlates with AK expression and activity. When combined with danusertib, a pan-AK inhibitor, berzosertib produced synergistic cell death across a broad range of TNBC cell lines. To validate this drug combination, we initiated a 1x1x1x1 patient-derived xenograft (PDX) trial using 30 racially diverse PDX models (15 from Caucasian and 15 from African descent patients), allowing assessment of potential ethnicity-based differences in response, given the higher TNBC incidence in African American women of West African ancestry. Mice were first exposed to the berzosertib-danusertib combination to evaluate toxicity and optimize dosing. Once dosing was established, PDX tumors were serially implanted and treated with berzosertib, danusertib, their combination, or vehicle control for 21 days. After treatment, tumors were collected for single-cell RNA sequencing and spatial transcriptomics analysis. Finally, baseline DNA and RNA sequencing will be conducted across all PDX models to identify predictive biomarkers of therapeutic response.
+Summary of new unpublished data: Initial experiments in NSG mice revealed unexpected toxicity with the combination therapy, which was resolved by switching to NRG mice without RAG1 knockout. Screening four PDX models showed synergistic effects in three, indicating strong anti-cancer potential. Single-cell and spatial transcriptomic analysis of treated tumors revealed enrichment of extracellular matrix remodeling genes, especially MMP7, and proliferation genes at the tumor periphery. This upregulation suggests possible activation of pro-invasive pathways and increased metastatic risk with the combination treatment. These preliminary studies established workable experimental protocols, but further testing in additional models with deeper sequencing is needed. While initial transcriptomic studies compared combination therapy to vehicle controls, it will be important to perform similar analyses for danusertib and berzosertib monotherapies to determine if either drug alone is responsible for the increased proliferation and extracellular remodeling observed with the combination.
+Statement of the conclusions: Overall, these findings suggest that dual ATR and Aurora kinase inhibition benefits select TNBC models and uncover gene expression changes, highlighting the need for ongoing surveillance for metastatic indicators.
+AI disclosure: AI was used for language editing only; content was verified by the authors

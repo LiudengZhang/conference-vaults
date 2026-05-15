@@ -1,0 +1,14 @@
+# Integrative single-nuclei spatial transcriptomic profiling of primary and recurrent human glioblastoma reveals cell-specific EGFRvIII expression and ANXA1 signaling axis
+
+**Poster #**: 1997
+**Session**: Genomic Drivers of Cancer Pathogenesis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Simon  G.  Gregory1, Lauren Whaley-Powers1, Vaibhav Jain1, Michael Aksu1, Emily Hocke2, Alan Smith2, Stephanie Arvai2, Ellora Haukefrers2, Kevin Stevenson3, Khooshbu Patel3, Diane Satterfield3, Elizabeth Thomas3, Karen Abramson2, Giselle  Y.  Lopez4, Roger  E.  McLendon4, David  M.  Ashley1
+
+1Neurosurgery, Duke University School of Medicine, Durham, NC,2Duke Molecular Physiology Institute, Duke University School of Medicine, Durham, NC,3Preston Robert Tisch Brain Tumor Center, Duke University School of Medicine, Durham, NC,4Pathology, Duke University School of Medicine, Durham, NC
+
+---
+
+The World Health Organization provides clear criteria for diagnosing IDH1-wildtype glioblastoma (GBM), relying on traditional approaches to define pathoetiological features, genomic mutations, copy number variation, and aberrant expression of prognostic genes. While these methods guide diagnosis, they may lack the resolution to fully capture tumor heterogeneity, therapeutic response, or outcomes. To address this, we applied leading-edge technologies to 14 primary and recurrent tumors to add granularity to current diagnostic metrics and clinical classification. Aiming to better inform tumor subtyping and improve patient care, this integrative approach enabled us to identify malignant gene programs and localize prognostically relevant features at both single-cell and spatial levels. We analyzed 14 GBM tumors from 6 patients using spatial in situ sequencing (ISS) and single-nuclei RNA-sequencing. A custom ISS gene panel enabled spatial mapping of tumor-associated cell types and state markers, while matched snRNA-seq from adjacent tumor tissue provided transcriptome-wide profiles. The dataset enabled subcellular and spatial localization of the prognostic GBM biomarker, EGFRvIII, being enriched in oligodendrocyte progenitor (OPC)-like tumor cells, which provides and exciting insight into the putative cell of origin for GBM. Finally, one patient contributed 5 serially collected during tumor recurrence which enabled longitudinal analysis of tumor evolution. Characterizing these tumors using ligand-receptor interaction analysis of snRNA-seq and spatial data identified an evocative ANXA1 signaling axis that progresses across recurrent tumors, which suggests novel therapeutic opportunities. By extending beyond conventional diagnostic benchmarks, our molecular profiling reveals new insight into GBM biology that may support more refined tumor subtyping and prognostic assessment.

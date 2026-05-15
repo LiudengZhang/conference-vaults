@@ -1,0 +1,12 @@
+# The risk of high-grade hyperglycemia with PI3K inhibitors-a meta-analysis
+
+**Poster #**: 5746
+**Session**: Multi-Axis Antineoplastic Agents
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Zhan Rong1, Shenhong Wu21Department of Medicine, Stony Brook University Hospital, Stony Brook, NY,2Division of Medical Oncology, Department of Medicine, Stony Brook University Hospital, Stony Brook, NY
+
+---
+
+Background: Phosphoinositide 3-kinase (PI3K) inhibitors are a promising therapeutic class in cancer treatment and their clinical utility has been limited by toxicity, particularly high-grade hyperglycemia. Currently the overall risk of hyperglycemia in patients treated with PI3K inhibitors has not been well understood. We performed a meta-analysis on the risk of high-grade hyperglycemia in patients treated with PI3K inhibitors based on currently available published randomized control trial (RCT) data.Methods: A systematic meta-analysis was conducted including phase II-III RCTs evaluating PI3K inhibitors in cancer patients. The primary endpoints were the incidence and relative risk of grade ≥3 hyperglycemia. Pooled effect sizes were calculated using random- or fixed-effects models based on the heterogeneity of included studies.Results: A total of 4977 patients across 16 eligible RCTs were included for analysis. The overall incidence of high-grade hyperglycemia was 12.7% (637/4977). Compared to controls, PI3K inhibition was associated with a significantly increased risk of high-grade hyperglycemia (RR: 2.27; 95% CI, 1.74-2.80; p < 0.001), with moderate heterogeneity (I² = 38.9%). Subgroup analyses revealed that control type significantly moderated toxicity risk (p < 0.001), with the greatest risk observed in trials with placebo controls (RR: 2.60; 95% CI, 2.05-3.15) and active controls (RR:1.50; 95% CI, 0.49-2.52). PI3K inhibitor subtype also moderated risk (p < 0.001). PI3K-α selective inhibitors were associated with the highest risk (RR: 3.80; 95% CI, 2.50-5.11), followed by pan-PI3K (RR: 2.15; 95% CI, 1.79-2.52) and PI3K/mTOR dual inhibitors (RR:1.46; 95% CI, 0.61-2.31). Class I α/β/δ inhibitors showed no significant elevation.Conclusions: PI3K inhibitors substantially increased the risk of grade ≥3 hyperglycemia, with heterogeneity driven by control type and inhibitor subtype. The markedly elevated risk with PI3K-α selective agents highlights the need for vigilant metabolic monitoring and tailored management strategies in clinical use.

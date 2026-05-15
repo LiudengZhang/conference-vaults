@@ -1,0 +1,14 @@
+# microRNA-25 drives initial resistance to immune checkpoint therapy by repressing innate and humoral immunity via Syndecan3
+
+**Poster #**: 1591
+**Session**: Innate Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Zhouting Zhu1, Wenyan Han2, Yufei Deng3, Zhaoyang Jia2, Lujing Wu2, Shweta Jakhmola2, Gulshanbir Baidwan2, Tongyun Wang2, Dhenugen Logeswaran2, Amanda Y. Sun2, Bill Bray2, Na Li2, Lingling Wang2, Hui Hui2, Jiaqian Wu1, Sandip Pravin Patel4, Tariq M. Rana2
+
+1Graduate School of Biomedical Sciences, Sanford Burnham Prebys Institute, La Jolla, CA,2Department of Cellular and Molecular Medicine, University of California San Diego, La Jolla, CA,3Cancer and Cell Biology program, Graduate School of Biomedical Science, Baylor College of Medicine, Houston, TX,4San Diego Center for Precision Immunotherapy, Moores Cancer Center, La Jolla, CA
+
+---
+
+Immune Checkpoint Therapy (ICT) has demonstrated durable responses and long-lasting immunologic memory in cancer treatment. However, overcoming primary and acquired resistance remains a major challenge. Here, we show that CRISPR-Cas9-mediated deletion of miRNA-25 (miR-25) sensitizes tumors to cancer immunotherapy across three syngeneic mouse tumor models. Single-cell RNA sequencing (scRNA-seq) of the tumor microenvironment (TME) revealed that miR-25 deficiency induces innate immunity by upregulating major histocompatibility complex class II (MHC II) in antigen-presenting M1-like macrophages and enhances the classical complement cascade in cancer-associated fibroblasts (CAFs) to drive a humoral immune response. The complement activation polarizes CAFs from myofibroblastic CAFs (myCAFs) toward inflammatory CAFs (iCAFs) while simultaneously reduces immune-suppressive interactions between CAFs and tumor associated macrophages (TAMs). This shift results in a reduced macrophage population and fosters a pro-inflammatory, anti-tumor TME. Syndecan-3 (Sdc3), a membrane proteoglycan expressed in tumors, is repressed by miR-25 through miRISC (microRNA induced silencing complex) upon IFN-&#947; exposure. Using an adenine base editor (ABE8e) to mutate the miR-25 binding site in the 3&#8217; untranslated region (3&#8217; UTR) of Sdc3 effectively overcomes the resistance. The repression of SDC3 by miR-25 is further validated in five human cancer cell lines upon IFN-&#947; exposure but remains unaffected in non-cancerous cells. These findings identify miR-25 as a key driver of initial resistance through the repression of SDC3 and demonstrate that miR-25 deletion or stabilization of SDC3 could transform immune resistant "cold" tumors into immune responsive "hot" tumors, offering therapeutic avenues to enhance cancer immunotherapy.

@@ -1,0 +1,17 @@
+# Integrative analyses of cervical cancer and patient-derived organoids uncover signaling and metabolic circuits associated with therapy-resistant
+
+**Poster #**: LB485
+**Session**: Late-Breaking Research: Tumor Biology 3
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Rui Wang, Dalissa Negrón-Figueroa, Xiaogang Wu, Erica Lynn, Bo Jiang, Keiko Akagi, Jhoan Sebastian Gonzalez Diaz, Shae  N.  Jansen Aref, Barrett Craig Lawson, Timothy  A.  Harris, Maura  L.  Gillison, Lauren Colbert
+
+UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Background: HPV-related cervical cancers pose challenges in murine models due to human-specific viral carcinogenesis. Patient-derived organoids (PDOs) incorporate extracellular matrix and tumor microenvironment features and faithfully mirror human tumor biology. Here, we apply PDOs integrated with paired single-cell RNA sequencing to investigate mechanisms of heterogeneous chemoradiation responses.
+Methods: Tumor and adjacent tissues were sampled via cytobrushes and resections, and purified through a Lymphoprep gradient, and split for scRNA-seq and PDO generation. Baseline tumor and buccal swabs served as genomic controls. PDO identity was validated through immunofluorescent staining, bulk RNA sequencing, and whole exome sequencing. Radiation and chemotherapy responses were assessed with viability assays.
+Results: We established five patient-derived organoid (PDO) lines and two primary cell lines from cervical squamous cell carcinoma (CSCC) and cervical adenocarcinoma (CAC), enabling comparative analysis for various treatment response. Cell viability assays indicated that CAC derived primary cells have increased resistance to radiation and cisplatin than the CSCC1188-derived primary cells. PROGENy analysis revealed marked differences in pathway activity between the two primary lines, including opposing regulation of JAK-STAT and VEGF signaling in response to irradiation. Using scRNA-seq data from seven cervical tumors, we mapped twelve cancer cell subtypes and used CIBERSORTx to infer their composition within the primary lines. CAC1237 contained a broader spectrum of subtypes&#8212;including EMT-Inflamed, Secretory/Mesenchymal-Interacting, and Highly Proliferative (S/G2M)&#8212;and showed radiation-induced expansion of Invasive Hypoxic, Stress-Activated Squamous, HPV+ Glandular, and Quiescent/Stressed subtypes, with emergence of Dedifferentiated subtype. CSCC1188 displayed fewer subtypes and minimal post-irradiation shifts. CellChat identified several signaling hubs, with EMT-Inflamed subtype acting as a major sender of EGF signals and Dedifferentiated and Quiescent/Stressed serving subtypes as key receivers of developmental, WNT, NOTCH, and LIFR-JAK-STAT cues. Integration with PROGENy revealed that hypoxia and NF-&#954;B activation in Invasive Hypoxic, HPV+ Glandular, EMT-Inflamed, and Secretory/Mesenchymal-Interacting subtypes likely suppress apoptotic TRAIL signaling and promote therapy resistance in their own and other cell subtypes. Extensive ECM, metabolic, and hormonal crosstalk further shaped distinct growth and stress-adaptation programs across cancer cell subtypes.
+Conclusion: PDOs recapitulated the features of their original tumors, offering insights into tumor-microenvironment interactions and variable responses to chemoradiation therapy. The bulk RNAseq and scRNA seq integration analysis reveal subtype-specific signaling circuits which may explain divergent treatment responses of cervical cancer cells.

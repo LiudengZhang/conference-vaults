@@ -1,0 +1,14 @@
+# Single cell spatial multiomics of TCR and BCR repertoires using CosMx&#174; SMI to characterize immune cell dynamics in PBMCs and tumors
+
+**Poster #**: 808
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Margaret  L.  Hoang, Rachel Liu, Dan McGuire, Ashley Heck, Kimberly Young, Megan Vandenberg, Claire Williams, Martin Shelton, Prajan Divakar, Patrick Danaher, Erin Piazza, Joseph  M.  Beechem
+
+Research and Development, Bruker Spatial Biology, Seattle, WA
+
+---
+
+Immune cell dynamics shape tumor responses to therapy. Peripheral blood mononuclear cells (PBMCs) offer a systemic view of adaptive immunity, yet conventional immune sequencing lacks the spatial resolution to contextualize these findings within tissue architecture. High resolution spatial mapping of tumor-infiltrating lymphocyte (TILs) reveals cell-to-cell interactions, illustrating how immune cells engage with tumor cells and the tumor microenvironment (TME) to influence immunotherapeutic outcomes.We present a spatial multiomics strategy using the CosMx Spatial Molecular Imaging (SMI) platform to simultaneously profile T-cell receptor (TCR) and B-cell receptor (BCR) repertoires within PBMCs and tumor tissues. Immune profiling incorporated the CosMx TCR Add-on panel covering V, J, and constant segments of &#945;, &#946;, &#947;, and &#948; chains, along with BCR heavy chain V and constant region. These assays were integrated with CosMx Whole Transcriptome (WTX) and the Human Immuno-Oncology 64-plex protein panel for comprehensive immune cell characterization in PBMCs. High-resolution subcellular CosMx SMI imaging of tumor FFPE sections, combined with advanced computational pipelines, enabled single cell spatial mapping of TILs, capturing TCR/BCR clonotype distributions and immune cell interactions with tumor cells and the extracellular matrix (ECM) components including cancer-associated fibroblasts (CAFs), fibronectin (FN1), &#945;-smooth muscle actin (&#945;-SMA).We uncovered distinct patterns of T- and B-cell phenotypes across PBMCs and tumors, including multiomics signatures of activation, exhaustion, and cytokine signaling. Spatial context revealed immune niches enriched for T and B cells, as well as regions of TIL exclusion associated with immunosuppressive ECM signals. By combining spatial multiomics with immune repertoire profiling, this approach uncovers critical immune dynamics across systemic and tumor compartments, informing biomarker discovery and immunotherapy strategies.

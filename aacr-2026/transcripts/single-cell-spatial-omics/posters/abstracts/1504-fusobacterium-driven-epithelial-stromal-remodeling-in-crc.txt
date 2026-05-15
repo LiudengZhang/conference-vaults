@@ -1,0 +1,18 @@
+# Fusobacterium-driven epithelial-stromal remodeling in CRC
+
+**Poster #**: 1504
+**Session**: Sequence Analysis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Sabin Park1, Taeyul Kim2, Kyung-A Kim2, Minsun Jung2, Sang Cheol Kim3, Han Sang Kim2, Semin Lee1
+
+1Ulsan National Institute of Science and Technology, Ulsan, Korea, Republic of,2Yonsei University College of Medicine, Seoul, Korea, Republic of,3National Institute of Health, Cheongju, Korea, Republic of
+
+---
+
+Background: Fusobacterium nucleatum is recognized as a key microbial factor accelerating colorectal cancer (CRC) progression. However, the cellular and molecular mechanisms underlying its impact on the tumor microenvironment (TME) are not yet fully understood. 
+Methods: We performed single-cell RNA sequencing on specimens from 39 CRC patients. Samples were stratified into Fusobacterium-positive (Fuso-pos; n=14) and Fusobacterium-negative (Fuso-neg; n=25) groups using a 1% microbial abundance cutoff. Comparative analyses were conducted across the stromal and epithelial compartments to investigate microbe-associated transcriptional programs, pathway activation, and fibroblast-epithelial interactions.
+Results: CRC tumors with high Fusobacterium abundance exhibited coordinated remodeling of both stromal and epithelial landscapes. Fibroblasts from Fuso-pos samples showed enhanced interferon-driven inflammatory activity and mesenchymal transition, accompanied by a marked expansion of a specific myofibroblastic cancer-associated fibroblast (myCAF) subtype. In the epithelial compartment, Fuso-pos tumors showed increased genomic instability, elevated stemness, and upregulation of CMS4-related signatures. Gene module analyses demonstrated a strong increase in epithelial-mesenchymal transition-related module in epithelial cells upon Fusobacterium infection, which correlated significantly with the myCAF abundance. Analysis of bulk RNA-seq data further confirmed that a higher proportion of the deconvoluted myCAF subtype was associated with unfavorable clinical outcomes. Mechanistically, Fuso-pos tumor cells showed increased SHH expression, while the myCAFs exhibited high expression of Hedgehog signaling components, indicating augmented epithelial-stromal Hedgehog signaling.
+Conclusions: These findings suggest that Fusobacterium infection in CRC promotes epithelial-stromal signaling through the SHH-Hedgehog axis, contributing to CRC progression. It may represent a therapeutically targetable component of the TME in Fusobacterium-associated CRC.
+Acknowledgments: The authors gratefully acknowledge support from the following funding sources: a grant of the Korea Health Technology R&#38;D Project through the Korea Health Industry Development Institute (KHIDI), funded by the Ministry of Health &#38; Welfare, Republic of Korea (RS-2025-25459033 to H.S.K.). This work is also supported by the National Research Foundation of Korea (NRF) funded by the Ministry of Education (RS-2018-NR031072).

@@ -1,0 +1,17 @@
+# Deriving high-fidelity, low-plex clinical signatures from ultra-high-plex spatial data for immunotherapy response prediction
+
+**Poster #**: 6666
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Raymond Yan1, Brian Falkenstein1, A. Burak Tosun1, Filippo Pullara1, S. Chakra Chennubhotla2
+
+1PredxBio, Inc., Pittsburgh, PA,2PredxBio, Inc. / University of Pittsburgh, Pittsburgh, PA
+
+---
+
+Background: Ultra-high-plex multiplex immunofluorescence (mIF) imaging enables detailed characterization of the tumor microenvironment (TME), yet translating these rich datasets into clinically deployable, low-plex biomarkers remains a major barrier for precision immuno-oncology. Existing predictive models rely heavily on high-dimensional features or broad phenotypic panels, limiting scalability, interpretability, and routine pathology integration. A systematic framework is needed to compress spatially resolved molecular information into minimal, clinical-plex, yet highly informative signatures capable of predicting immunotherapy response.
+Methods: Our SpaceIQ&#8482; platform is a multi-omic analysis tool that integrates spatial proteomics data with optimized feature selection algorithms to distill molecular signatures. We employ unbiased cell typing and microdomain discovery to identify a differentially expressed network of spatial interactions between these unbiased cell types, utilizing pointwise mutual information (PMI) analysis. Each interaction (either pairwise or higher-order cliques) within this network represents a potential spatial prognostic model capable of predicting patient response. A key component of our approach is the identification of a subset threshold cell population that is enriched for a given unbiased cell type using a low-plex panel. The final prognostic model for a differential clique combines a spatial proximity score with these low-plex marker intensities.
+Results: Analysis of ultra-high-plex (=51 markers) spatial data from trial specimens of checkpoint-treated cutaneous T-cell lymphoma patients demonstrated that tumor-immune and immune-immune interactions emerge as microdomains with minimal signatures of 6-8 markers and high prediction accuracies (AUC = 0.87, 95% CI (0.865-0.881)).
+Conclusions: The SpaceIQ platform enables the extraction of compact, clinically practical biomarker panels from ultra-high-plex mIF datasets without sacrificing predictive power. By linking spatial microdomain biology to sparse signature derivation, this framework supports scalable deployment of precision immunotherapy biomarkers and enhances patient-selection strategies in clinical practice.

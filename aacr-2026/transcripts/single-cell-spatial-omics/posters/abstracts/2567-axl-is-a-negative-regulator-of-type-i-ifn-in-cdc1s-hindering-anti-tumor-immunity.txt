@@ -1,0 +1,17 @@
+# Axl is a negative regulator of type I IFN in cDC1s hindering anti-tumor immunity
+
+**Poster #**: 2567
+**Session**: Immunomodulatory Effects of Targeted Therapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Isaac Gonzalez1, Eslam  A.  Elghonaimy1, Qiongwen Zhang1, Isaac Montgomery1, Peter  Q.  Leung1, Arely  P.  Rodriguez1, Rolf  A.  Brekken2, Todd A. Aguilera1
+
+1Radiation Oncology, UT Southwestern, Dallas, TX,2Surgery, UT Southwestern, Dallas, TX
+
+---
+
+Background: The receptor tyrosine kinase Axl is widely implicated in tumor progression and immune evasion, yet its role in antitumor immunity remains poorly defined.
+Methods: Investigate the role of Axl on tumor growth, using animal models, genetic crosses, cellular assays, and single cell RNAseq from human and mouse tumors.
+Results: Here, we uncover Axl as a key negative regulator of type I interferon signaling in dendritic cells, with direct consequences for CD8&#8314; T cell priming and tumor control. Axl-deficient mice exhibited delayed tumor growth that was dependent on CD8&#8314; T cells and BATF3, highlighting a requirement for cross-presenting cDC1s. Conditional knockout models confirmed that Axl loss in dendritic cells&#8212;but not macrophages&#8212;was sufficient to enhance antitumor immunity through type I interferon pathways. Mechanistically, Axl ablation increased cDC1 cross-priming capacity and amplified the therapeutic effects of a STING agonist and radiotherapy.
+Conclusion: These findings position Axl as an intrinsic checkpoint in cDC1s that restrains interferon-driven immunity, revealing a mechanism by which innate regulation of dendritic cells shapes adaptive antitumor responses.

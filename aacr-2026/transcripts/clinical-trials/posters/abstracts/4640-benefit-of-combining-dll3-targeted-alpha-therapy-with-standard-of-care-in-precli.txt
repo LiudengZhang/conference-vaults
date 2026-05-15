@@ -1,0 +1,12 @@
+# Benefit of combining DLL3 targeted alpha therapy with standard of care in preclinical small cell lung cancer models
+
+**Poster #**: 4640
+**Session**: Strategies to Enhance the Therapeutic Index of Radiotherapy
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Hanan Babeker1, Emma Cummins1, Alex Mandel1, Lily Li1, Etienne Melese1, Rachael Brake2, Iva Kulić11Abdera Therapeutics Inc., Vancouver, BC, Canada,2Abdera Therapeutics Inc., San Francisco, CA
+
+---
+
+ABD147 is a human delta-like ligand 3 (DLL3) engineered antibody designed with optimized pharmacokinetics and biodistribution to preferentially deliver actinium-225 (225Ac) to DLL3 expressing tumor cells resulting in potent antitumor activity in preclinical models. 225Ac-ABD147 is built using Abdera’s Radio Optimized Vector Engineering (ROVEr™) platform and is currently in phase I clinical trials for small cell lung cancer (SCLC) and large cell neuroendocrine carcinoma (LCNEC). SCLC is an aggressive neuroendocrine malignancy characterized by rapid progression and high relapse rates despite initial response to standard-of-care (SOC) treatment, including platinum-based chemotherapy and immune checkpoint inhibitors, underscoring the unmet need for therapies that improve tumor control and prolong survival. SCLCs are intrinsically radiosensitive and along with other neuroendocrine cancers commonly express DLL3 on the cell surface. Targeted alpha therapy induces difficult to repair DNA double-strand breaks and can promote immunogenic cell death enhancing SOC tumor-directed cytotoxicity by overwhelming DNA repair pathways and overcoming resistance. A single administration of 225Ac-ABD147 or a murine DLL3 ROVEr™ was assessed in combination with SOC in DLL3-expressing chemo-resistant SCLC cell line derived xenograft models or a syngeneic model. The combination treatment was tolerated and outperformed SOC alone for anti-tumor efficacy, sustained tumor responses and prolonged survival across models. In conclusion, DLL3-targeted alpha therapy demonstrates potent anti-tumor activity in combination with SOC across multiple SCLC models. These findings suggest 225Ac-ABD147 has a combinatorial benefit that could support an add-on to a SOC therapeutic approach in the clinic.

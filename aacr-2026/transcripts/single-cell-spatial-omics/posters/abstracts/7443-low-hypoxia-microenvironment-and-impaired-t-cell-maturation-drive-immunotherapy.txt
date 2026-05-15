@@ -1,0 +1,17 @@
+# Low hypoxia microenvironment and impaired T cell maturation drive immunotherapy resistance in premenopausal triple negative breast cancer
+
+**Poster #**: 7443
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Vidya Prasad Nimbalkar1, Snijesh V P1, Anupama CE1, Mahalakshmi S1, Annie Alexander1, Rakesh Ramesh2, Srinath BS3, Jyothi  S.  Prabhu1
+
+1Division of Molecular Medicine, St. John's Research Institute, Bangalore, India,2Department of Surgical Oncology, St. John's Medical College and Hospital, Bangalore, India,3Department of Surgical Oncology, Sri Shankara Cancer Hospital and Research Centre, Bangalore, India
+
+---
+
+Purpose: Triple-negative breast cancer (TNBC) often show limited response to immune checkpoint blockade (ICB) therapy, but the mechanisms underlying this resistance remain unclear. This study aimed to investigate how menopausal status associated changes in the tumor microenvironment influence antitumor immunity, particularly T-cell differentiation and activation, and how these factors may contribute to ICB resistance.
+Methods: Spatial transcriptomic profiling (NanoString GeoMx DSP) was performed on 19 TNBC tumors across 59 tumor and immune regions. These data were integrated with publicly available bulk RNA seq datasets from METABRIC and SCAN-B, as well as single-cell RNA seq data (GSE176078) including pre and postmenopausal TNBC samples. Gene Set Enrichment Analysis (GSEA) was used to identify pathway-level differences, and T-cell subtypes from the single-cell dataset were assessed for distribution and functional state. Findings were further investigated using immunotherapy response data from the I-SPY2 clinical trial.
+Results: Premenopausal TNBC tumors showed consistent downregulation of hypoxia and angiogenesis pathways across both spatial and bulk transcriptomic datasets. These pathways were positively correlated (r = 0.61, p = 5.8e-05) and associated with reduced immune signaling. Single-cell profiling showed an enrichment of na&#239;ve and progenitor-like CD8&#8314; T cells in premenopausal tumors, lacking exhaustion markers such as PDCD1, TOX, and TIGIT. In contrast, postmenopausal tumors contained more cytotoxic CD8&#8314; T cells expressing granzyme and perforin, indicative of enhanced effector activity. Although premenopausal tumors had higher proportions of M1 macrophages and follicular helper T cells, these populations did not appear to drive effective cytotoxic responses. Importantly, the hypoxia-low transcriptional profile of premenopausal TNBC resembled that of ICB non-responders in the I-SPY2 trial.
+Conclusions: Reduced hypoxia-related signaling and impaired maturation of cytotoxic T-cell responses may contribute to weak antitumor immunity and poor ICB efficacy in premenopausal TNBC. These findings point to the need for tailored therapeutic strategies to improve immunotherapy responses in premenopausal TNBC.

@@ -1,0 +1,17 @@
+# ctDNA false negativity in colorectal cancer reflects CMS3 phenotype and DNASE1L3 positive macrophages, identifying recurrence prone subgroup
+
+**Poster #**: LB115
+**Session**: Late-Breaking Research: Clinical Research 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Hiromichi Ebi1, Rui Yamaguchi1, Yoshiaki Nakamura2, Satoru Kisoda1, Jun Watanabe3, Osamu Muto1, Hiroki Yukami4, Saori Mishima2, Hideaki Bando2, Hiroya Taniguchi1, Ichiro Takemasa5, Takeshi Kato6, Alexey Aleshin7, Daisuke Kotani2, Issei Imoto1, Eiji Oki8, Masahiro Aoki1, Takayuki Yoshino2
+
+1Aichi Cancer Center, Nagoya, Japan,2National Cancer Center Hospital East, Kashiwa, Japan,3Kansai Medical University, Takatsuki, Japan,4Osaka Medical and Pharmaceutical University, Takastuki, Japan,5Osaka Keisatsu Hospital, Osaka, Japan,6NHO Osaka National Hospital, Osaka, Japan,7Natera, Inc., Austin, TX,8Kyushu University, Fukuoka, Japan
+
+---
+
+Circulating tumor DNA (ctDNA) assays are increasingly used for minimal residual disease (MRD) detection in colorectal cancer (CRC), yet false-negative results remain a critical limitation. We aimed to identify biological determinants of ctDNA false-negativity and evaluate their prognostic significance.
+  From a nationwide prospective registry (CIRCULATE-JAPAN), we first analyzed 1,727 stage II-III CRC patients with preoperative ctDNA results; 82 (4.7%) were ctDNA-negative at baseline. We sequenced 1,290 tumors with available tissue and subdivided them into a discovery cohort (n=737; 48 ctDNA-negative) and a validation cohort (n=553; 36 ctDNA-negative) using stratified sampling. Multi-omics integration included whole-exome sequencing, bulk RNA-seq, and ctDNA assay data. Single-cell RNA sequence was performed on ctDNA-negative tumors. Disease-free survival (DFS) was assessed in 920 evaluable patients.
+Preoperative ctDNA-negative tumors were enriched in right-sided CRC and exhibited a low-proliferation phenotype with negative enrichment of G2/M checkpoint and MYC signaling pathways. Transcriptomic classification revealed predominant Consensus Molecular Subtype (CMS) 3. Mutation analysis showed RAS/RAF pathway alterations (KRAS/BRAF) were significantly more frequent in ctDNA-negative tumors. ctDNA&#8209;negative tumors showed significantly higher DNASE1L3 expression&#8212;a macrophage&#8209;secreted nuclease&#8212;localized to resident/C1QC&#8209;type macrophages and mutually exclusive with pro&#8209;tumor, SPP1&#8209;positive tumor associated macrophage that co&#8209;vary with CAF abundance; this pattern supports enhanced extracellular DNA digestion in the tumor microenvironment (TME) as a contributor to reduced ctDNA detectability. Clinically, ctDNA negativity trended toward improved DFS versus ctDNA positivity (HR 2.01, P=0.087). However, within ctDNA-negative patients, high DNASE1L3 expression identified a subgroup with significantly higher recurrence risk (P=0.03). Among relapse cases, DNASE1L3 expression was higher in patients with false-negative ctDNA at recurrence.
+ctDNA detectability reflects both tumor cell state and TME-mediated DNA clearance. DNASE1L3 emerges as a biological contributor to ctDNA false-negativity and a prognostic marker that uncovers a recurrence-prone subgroup among ctDNA-negative CRC patients. These findings highlight the need for DNASE1L3-informed MRD interpretation and tailored surveillance strategies.

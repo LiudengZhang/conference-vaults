@@ -1,0 +1,17 @@
+# Multi-omics integration of bulk, single-cell, and spatial transcriptomics identifies robust prognostic biomarkers in head and neck salivary adenoid cystic carcinoma
+
+**Poster #**: 1217
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Gopikrishnan Bijukumar1, Kathryn  J.  Brayer2, David Lee2, Scott  A.  Ness3, Jeremy  S.  Edwards1, Viswanathan Palanisamy4
+
+1Chemistry and Chemical Biology / Cancer Research Facility, University of New Mexico, Albuquerque, NM,2University of New Mexico, Albuquerque, NM,3Professor, Dept. of Molec. Genetics & Microbiol., University of New Mexico School of Medicine - Albuquerque, Albuquerque, NM,4Internal Medicine / Comprehensive Cancer Center, University of New Mexico Health Sciences, Albuquerque, NM
+
+---
+
+Adenoid Cystic Carcinoma (ACC) of the head and neck is a rare malignancy with a paradoxical clinical course, slow-growing yet highly invasive, with limited therapeutic options and no validated molecular prognostic biomarkers. To address this unmet need, we implemented a comprehensive multi-omics strategy integrating bulk RNA sequencing (n=20), single-cell RNA sequencing (n=24), and high-resolution spatial transcriptomics (4 Visium HD samples) from ACC tumors spanning eight distinct anatomical subsites. Clinical metadata enabled stratification into &#8220;poor&#8221; (<2-year survival) and &#8220;good&#8221; (>5-year survival) prognosis groups. In the absence of definitive cause-of-death data, we developed a machine learning-based classifier to define transcriptomic prognosis subgroups, revealing biologically coherent clusters aligned with clinical outcomes.Our biomarker discovery pipeline encompassed three key phases:
+1.Cross-Modality Differential Expression and Pathway Profiling: We identified conserved gene expression signatures and dysregulated pathways distinguishing poor from good prognosis tumors across bulk, single-cell, and spatial modalities. High-risk tumors exhibited consistent enrichment of oncogenic signaling (e.g., MYC, NOTCH), immune suppression, and stromal activation programs across shared cell types and anatomical regions.
+2. Spatially Resolved Cellular Ecosystem Mapping: Integration of single-cell and spatial transcriptomics enabled precise localization of malignant cell states and immune niches associated with poor prognosis. Spatial analyses revealed intratumoral &#8220;hotspots&#8221; characterized by elevated oncogenic activity, immune exclusion, and stromal remodeling. Ligand-receptor interaction networks, validated by spatial proximity, uncovered key signaling axes (e.g., CXCL12-CXCR4, TGFB1-TGFBR2) driving tumor progression.
+3. Development of a Prognostic Biomarker Panel: We constructed a machine learning-derived multi-gene signature reproducible across all modalities. This panel demonstrated superior risk-stratification performance compared with existing ACC gene sets, with prognostic accuracy independent of clinical features. Importantly, the biomarker panel is amenable to clinical translation via bulk RNA profiling, offering immediate utility for patient stratification and therapeutic decision-making. In summary, our integrative multi-omics approach reveals robust molecular programs and spatially defined cellular ecosystems underlying poor prognosis in ACC. The resulting biomarker panel offers a powerful tool for precision prognostication and lays the foundation for targeted therapeutic development in this challenging malignancy.

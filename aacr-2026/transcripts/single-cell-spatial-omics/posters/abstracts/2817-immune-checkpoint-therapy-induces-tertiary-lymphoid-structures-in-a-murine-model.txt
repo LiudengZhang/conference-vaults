@@ -1,0 +1,16 @@
+# Immune checkpoint therapy induces tertiary lymphoid structures in a murine model of triple-negative breast cancer
+
+**Poster #**: 2817
+**Session**: Immune Checkpoints
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Zachary  D.  Schrank, Benjamin  G.  Vincent, Jonathan  S.  Serody
+
+University of North Carolina School of Medicine, Chapel Hill, NC
+
+---
+
+Background: Though immune checkpoint therapy (ICT) is approved for the treatment of triple-negative breast cancer (TNBC), response rates are low and non-durable. There is thus an urgent need for improved therapeutic biomarkers and deeper understanding of TNBC antitumor immune responses to tailor improved immunotherapies. Tertiary lymphoid structures (TLS) are intra-tumoral lymphoid tissues composed of B cells and T cells that are associated with improved survival and response to ICT. Despite these associations, it is unclear what impact ICT has on these structures and whether they mediate ICT efficacy. We sought to examine if ICT may promote formation of TLS in TNBC.
+Methods and Results: In this study, we show induction of TLS following immune checkpoint therapy (anti-PD-1 and anti-CTLA-4) in an orthotopic murine TNBC model. This model, T11-APOBEC, genocopies clinical TNBC and is dependent upon B cells and CD4+ T cells for response to immune checkpoint therapy. Using immunofluorescence, we show that TLS formation is significantly upregulated in the periphery of T11-APOBEC tumors following ICT, whereas tumors treated with vehicle control show little to no TLS formation (p = 0.0286). These TLS are composed of B cells coalescing with CD4+ and CD8+ T cells and are also associated with pro-inflammatory macrophages and monocytes. Using spatial transcriptomics and K-nearest neighbor analysis, we show that these TLS are identified as a spatially and transcriptionally distinct niche in an unbiased manner. TLS in this model are significantly enriched for four widely used transcriptional signatures of human cancer-associated TLS, and they also significantly upregulate pathways associated with B cell activation, humoral immunity, and germinal center activity. We then further show that a signature derived from these ICT-induced TLS are focally enriched in a cohort of human TNBC samples by spatial transcriptomics, suggesting the formation of similar structures in TNBC patients.
+Conclusions: These data suggest that ICT promotes the formation of TLS in TNBC, which may mediate enhanced anti-tumor adaptive immune responses. This model also provides a platform to further investigate mechanisms of formation and function of these structures in the context of ICT, which will inform predictive biomarkers and improved immunotherapy approaches for this aggressive disease.

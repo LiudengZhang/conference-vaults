@@ -1,0 +1,14 @@
+# Integrative spatial transcriptomics reveals EMT-driven immune regulatory programs underlying metastasis in HNSCC
+
+**Poster #**: 6576
+**Session**: Inflammation, Immunity, and Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Chih-Hung Chung, Han-Hsun Yu, Muh-Hwa Yang
+
+National Yang Ming Chiao Tung University, Taipei, Taiwan
+
+---
+
+Head and neck squamous cell carcinoma (HNSCC) is a globally prevalent malignancy. Standard treatment typically involves surgical resection, radiotherapy, and chemotherapy. However, for patients with recurrent or distantly metastatic disease for whom surgery or radiation is no longer feasible, systemic therapy consisting of targeted agents combined with chemotherapy or immune checkpoint inhibitors (ICI) becomes the mainstay of management. Despite these advances, clinical outcomes remain suboptimal, underscoring the urgent need to elucidate how immune cell composition and functional states are altered within the tumor microenvironment (TME) of aggressive or metastatic tumors. Such insights are essential for improving the therapeutic effectiveness of ICIs in HNSCC. The objective of this study was to characterize TME compositional changes across diverse HNSCC specimens. We employed the GeoMx Digital Spatial Profiler (DSP) to perform high-resolution, imaging-guided spatial transcriptomic profiling. By comparing EMT-related gene signatures enriched at the invasive tumor front, we identified significant upregulation of canonical EMT markers&#8212;including FN1, CD44, and ITGB1. To further dissect the regulatory programs associated with ITGB1-high tumor cells, we applied Single-Cell Regulatory Network Inference and Clustering (SCENIC), which revealed distinct regulon activities. Notably, IRF-associated signaling emerged as a major downstream regulatory pathway in ITGB1-high EMT tumor populations. Subsequently, we analyzed HNSCC tissues using integrative spatial-omics (10x Visium and 10x Xenium) approaches and identified a clear transcriptional trajectory of tumor EMT states. To directly assess how EMT-high tumor cells modulate surrounding immune cells, we performed NicheNet ligand-receptor analysis, which revealed pronounced alterations in ligand-receptor interactions shaping the immune landscape of malignant HNSCC. Collectively, these findings provide mechanistic insights into EMT-driven immune suppression and highlight actionable TME features that could guide personalized therapeutic strategies for patients with head and neck cancer.

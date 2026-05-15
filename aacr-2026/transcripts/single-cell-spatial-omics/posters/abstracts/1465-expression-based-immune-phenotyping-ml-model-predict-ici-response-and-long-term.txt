@@ -1,0 +1,14 @@
+# Expression-based immune-phenotyping ML model predict ICI response and long-term clinic benefit in lung adenocarcinoma
+
+**Poster #**: 1465
+**Session**: Integrative Computational Approaches 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Ki Wook Lee1, Hyun Woo Park1, Han-En Lo1, Sehhoon Park2, Balachandran Manavalan1, Young-Jun Jeon1
+
+1Sungkyunkwan University, Suwon, Korea, Republic of,2Samsung Medical Center, Seoul, Korea, Republic of
+
+---
+
+Immune checkpoint inhibitors (ICIs) have transformed the treatment landscape of lung cancer, yet only a subset of patients derive durable clinical benefit, and reliable predictive biomarkers remain limited. To address this challenge, we developed a transcriptome-based artificial intelligence (AI) framework that predicts both ICI response and long-term clinical benefit by leveraging immune phenotype (IP) in lung adenocarcinoma (LUAD). Transcriptomic profiles of 359 TCGA-LUAD samples annotated with IP classes derived from whole-slide images (WSIs) were used to identify immune infiltration-associated AI-informed genes (AIGs) through tree-based classifiers. These features were subsequently trained across 14 machine learning algorithms to classify immune-infiltrated (IF) versus non-infiltrated (non-IF) tumors, followed by ensemble refinement. The resulting AIGs were then applied to ICI-treated LUAD cohorts (N=300) to construct a progression-free survival (PFS) prediction model reflecting long-term therapeutic benefit. The immune phenotyping model achieved strong predictive performance with AUCs of 0.907 in training, 0.810 in the independent test set (N=90), and 0.842 in external validation (N=76). Notably, immune phenotyping based on this model outperformed image-based prediction methods such as Lunit-SCOPE and PD-L1 tumor proportion score (TPS), achieving AUCs of 0.933 for the 1%<TPS<50% subgroup and 0.809 for TPS>50%, compared to 0.733 and 0.559, respectively. The PFS prediction model showed a high correlation between predicted and observed PFS (R = 0.94), and risk scores derived from this model demonstrated excellent predictive accuracy for ICI response (AUCs of 0.964 in training and 0.887 and 0.849 in two external validations). Biological interpretability was further supported by single-cell RNA-seq analysis, which revealed that model-derived genes were enriched in T cell activation and exhaustion compartments, reflecting immune activation linked to therapeutic response. This integrated framework demonstrates dual predictive capacity for short-term ICI response and long-term clinical benefit, offering a biologically interpretable and clinically scalable transcriptome-based platform with strong translational potential in precision immuno-oncology.

@@ -1,0 +1,17 @@
+# Spatial multi-omics dissection of colorectal cancer micrometastasis
+
+**Poster #**: 6116
+**Session**: Metastasis and Organ-Specific Microenvironmental Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yang Liu, Akshaya  S.  Jadhav, Yuwen Pan, Jianlong Liao, Isha Khanduri, Yunhe Liu, Riham Katkhuda, Wei Lu, Kyung Serk Cho, Tieling Zhou, Baohua Sun, Mei Jiang, Sharia  D.  Hernandez, Idania Carolina Lubo Julio, Patrick Brennan, Guangsheng Pei, Kai Yu, Yibo Dai, Tian Chu, Fuduan Peng, Khaja Khan, Saxon Rodriguez, Ling Xia, Youming Guo, Alicia Mejia, Zhiming Tong, Sean  W.  Barnes, Ou Shi, Shreeya Indulkar, Alaa Mohamed, Natalie Wall Fowlkes, Timothy Newhook, Yun Shin Chun, Van K. Morris, David G. Menter, Dadi Jiang, Jean-Nicolas Vauthey, Ruoyan Li, Humam Kadara, Luisa  M.  Solis Soto, Scott Kopetz, Linghua Wang, Dipen M. Maru
+
+The University of Texas MD Anderson Cancer Center, Houston, TX
+
+---
+
+Background:Colorectal cancer (CRC) metastases frequently recur due to minimal residual disease (MRD) and persisting micrometastases after therapy. However, the spatial and molecular features underlying micrometastatic persistence and CRC recurrence remain poorly defined.
+Study design and methods:We performed integrative spatial multi-omics profiling&#8212;including Visium spatial transcriptomics (ST), Visium HD ST, laser-capture microdissection with whole-genome sequencing (LCM-WGS), and PhenoCycler-Fusion multiplex imaging&#8212;across 49 tumors from 19 patients with paired primary CRC, liver (CLiM), and lung (CLuM) metastases. The analysis encompassed 341,328 Visium spots and approximately 3.8 million Visium HD bins. Non-negative matrix factorization (NMF) was applied to identify conserved and distinct spatial metaprograms across CLiM, CLuM, and primary CRC using Visium ST datasets. For Visium HD ST data, StarDist-SMURF segmentation was used to transform subcellular bins into single-cell-level data. Cross-modality alignment and Jaccard similarity analyses integrated spatially resolved DNA, RNA, and protein profiles across both corresponding and independent tissue blocks, enabling multi-layer characterization of tumor evolution and microenvironmental organization.
+Results:Spatial phylogenetic and molecular analyses delineated distinct evolutionary trajectories of primary and metastatic CRC, revealing early clonal divergence and stem-like phenotypes in liver micrometastases (CLiMi) across DNA, RNA, and protein levels. Spatial profiling uncovered stromal interactions in both CLiM and CLuM, with macrophages enriched in CLiM and lymphocytes predominating in CLuM. Micrometastases exhibited pronounced immunosuppression and T cell exhaustion, potentially mediated by PGE2/PTGES2-PTGER4 and NECTIN2/3-TIGIT signaling interactions. A CLiMi-specific six-gene signature predictive of micrometastasis was identified and validated, correlating with disease-free survival (DFS) and MRD-DFS in the MDACC cohort (n = 117), and with DFS and overall survival (OS) in TCGA (n = 610) and GSE17538 (n = 232).
+Conclusions:Our integrative spatial multi-omics analysis provides a comprehensive atlas of CRC micrometastases, revealing their evolutionary and immune landscapes. These findings illuminate the molecular and spatial determinants of micrometastatic persistence and identify potential therapeutic vulnerabilities for preventing CRC recurrence.

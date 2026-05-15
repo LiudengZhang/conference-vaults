@@ -1,0 +1,14 @@
+# Clonal diversity drives cooperative growth in lung cancer
+
+**Poster #**: 564
+**Session**: Tumor Cell Plasticity, Microenvironment, and Stress-Response Pathways
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Yan Jennifer Gu1, Salil Garg2
+
+1Laboratory Medicine, Yale School of Medicine, New Haven, CT,2Laboratory Medicine, Genetics, Pathology, Yale University, New Haven, CT
+
+---
+
+Cell-cell communication within the tumor microenvironment is critical for cancer growth and therapy resistance. While many studies have focused on interactions between tumor cells and the surrounding microenvironment, this study investigates how interactions between distinct tumor cell states contribute to tumor growth. We constructed an in vitro system using the H1975-Clonebow lung cancer cell line, which allows for stochastic recombination of distinct fluorescent proteins to yield unique color signatures for lineage tracing. From the parental H1975-Clonebow line, we derived and expanded 218 single-cell clones and compared each clone&#8217;s growth rate to the heterogeneous parental population. The parental line grew faster than 86% of clones, suggesting a cooperative advantage of clonal diversity. Systematic &#8220;mixing&#8221; at fixed total cell numbers showed that mixed-clone populations consistently outperformed single clones, which we interpret as evidence for adaptive heterogeneity. Across 4-clone mixes, quantification during unmixing revealed that both fast- and slow-growing clones proliferated better in mixtures than in isolation, indicating non-random cooperation that promotes collective growth. To capture cooperation-associated programs, we performed bulk RNA-seq on clones fluorescently sorted after 4-clone mixing, with identically sorted single-clone cultures grown alone as controls. Transcriptomes clustered primarily by clone identity but converged on shared signaling modules in mixes, consistent with the observed growth boost. Mix-induced gene programs were more strongly enriched in malignant cells from patient-derived NSCLC tumors than programs from individually grown clones. Ligand-receptor (LR) analysis highlighted an integrin-centered adhesion program: multiple integrin LR pairs consistently ranked among the top tumor cell-cell interactions in vitro and in patient tumors, with &#946;1-integrin (ITGB1) recurring as a hub. Consistent with this, &#946;1-integrin blockade preferentially reduced the mix-specific growth advantage. Future experiments will involve longitudinal live-cell imaging to directly test whether the cooperative growth phenotype requires sustained inter-clone contact. Together, these data suggest that emergent cooperation between tumor cells promotes growth and may be targetable for therapeutics. Targeting &#946;1-integrin-mediated adhesion at the tumor cell-cell interface represents a feasible strategy to disrupt cooperative growth in EGFR-mutant lung cancer.

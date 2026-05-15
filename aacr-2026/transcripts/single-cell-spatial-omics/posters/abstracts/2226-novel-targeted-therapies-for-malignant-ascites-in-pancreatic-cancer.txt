@@ -1,0 +1,14 @@
+# Novel targeted therapies for malignant ascites in pancreatic cancer
+
+**Poster #**: 2226
+**Session**: Therapies Targeting Metastasis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Kuntal Halder1, Ruben Munoz1, Wei Lin1, Annie Yang2, Yanghee Woo2, Erkut Borazanci3, Haiyong Han1, Daniel D Von Hoff1
+
+1TGen (The Translational Genomics Research Institute), Phoenix, AZ,2City of Hope National Medical Center, Duarte, CA,3Honor Health Research Institute, Scottsdale, AZ
+
+---
+
+Malignant ascites (MA) remains a severe, untreatable complication in patients with late-stage cancers including pancreatic cancer, contributing to their poor prognosis. Using single-cell RNA sequencing (scRNA-seq), we characterized 12,084 cells isolated in MA samples from patients with pancreatic cancer. We found that immune cells were the dominant (90%) cell population with M2-like macrophages (62.4%) and T cells (23.1%) prevailing, while tumor cells constituted only 7.5% of the total cell population. The M2-like macrophages, marked by high CD163 and low CD80 expression, expressed elevated vascular endothelial growth factor (VEGF) and colony-stimulating factor-1 receptor (CSF1R), potentially promoting tumor proliferation, survival, and ascites formation via increased endothelial permeability. The T cells were mostly CD8-negative, indicating suppressed cytotoxic function, consistent with findings in ovarian cancer ascites. We hypothesize that targeting VEGF, CSF1R, and immune checkpoint proteins (e.g., PD-1 and CTLA-4) can reprogram the MA immune microenvironment, reducing ascites and peritoneal tumor growth. To test this hypothesis, we established an MA model for pancreatic cancer by intraperitoneally implanting murine pancreatic cancer cells derived from the KPC model into C57BL/6 mice. These mice develop ascites 7-10 days after cell injection and succumb to the disease within 4-5 weeks. We then evaluated the activity of anti-PD-1 and anti-CTLA-4 antibodies as a single agent or in combination in the KPC MA model. Both antibodies significantly reduced the formation of MA and extended the survival of the mice. The anti-PD-1 antibody (300 &#181;g/dose for 3 weekly doses) extended the median survival from 25 days in the isotype control antibody group to 55 days, while the median survivals for both the anti-CTLA-4 group (100 &#181;g/dose for 3 weekly doses) and the combination group were not reached 96 days after the initiation of treatment. We are in the process of assessing the efficacy of an anti-VEGFA antibody (2G11-2A05) and a CSF1R inhibitor (PLX3397) in the same model. Results from the studies could establish preclinical evidence supporting the utility of these novel therapeutic regimens for treating MA in pancreatic cancer patients and lead to clinical trials to address this critical unmet need.

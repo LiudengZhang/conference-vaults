@@ -1,0 +1,17 @@
+# Spatially resolved transcriptomic signatures of gallbladder carcinogenesis from precursor to undifferentiated stages
+
+**Poster #**: 3960
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Yeseul Kim1, Yoseob Lee2, Harim Oh1, You-Na Sung1, Yoo Jin Lee1, Yona Kim1, Inho Park3, Jinhyuk Bhin2, Su-Jin Shin3
+
+1Department of pathology, Korea University Anam Hospital, Seoul, Korea, Republic of,2Department of Biomedical Sciences, Yonsei University College of Medicine, Seoul, Korea, Republic of,3Department of pathology, Gangnam Severance Hospital, Seoul, Korea, Republic of
+
+---
+
+Background: Biliary intraepithelial neoplasia (BilIN) is recognized as a precursor lesion of gallbladder carcinoma. However, the transcriptomic alterations underlying the sequential process of carcinogenesis remain poorly understood. Moreover, the differentiation status of gallbladder carcinoma varies among patients, with some tumors exhibiting both differentiated and undifferentiated components within the same tumor. To elucidate key transcriptomic changes across this histologic spectrum, we performed spatial transcriptomic analysis on gallbladder tumor samples containing coexisting areas of normal epithelium, BilIN, differentiated carcinoma, and undifferentiated carcinoma to understand the molecular differences between lesions within individual patients.
+Methods: A total of 59 regions of interest (ROIs) were selected from 13 patients, including normal (n = 11), dysplasia (n = 14), differentiated carcinoma (n = 22), undifferentiated carcinoma (n = 8), and metastatic lesions (n = 4). Spatial transcriptome profiling was performed using GeoMx Digital Spatial Profiling (GeoMx DSP) with EpCAM staining. The maximum size of each ROI was 750 &#215; 625 &#181;m, and each ROI included at least 200 cells. From GeoMx DSP-derived expression profiles, gene-expression dynamics were patterned via A-orthogonal nonnegative matrix factorization (AONMF), and epithelial-stromal crosstalk was inferred via weighted gene co-expression network analysis (WGCNA).
+Results: Pathway enrichment analysis revealed bile acid metabolism and fatty acid metabolism were highest in normal spectrum and progressively diminished with histological worsening. From the differentiated spectrum, cell proliferation programs were upregulated, and the undifferentiated spectrum was characterized by EMT signature. Epithelial-stromal interaction analysis showed a TNC-ITGB1 axis in epithelial regions that activates TGF-&#946; signaling in stromal cells within undifferentiated carcinoma. Patients harboring undifferentiated carcinoma exhibited distinct transcriptional patterns within the differentiated regions, showing increased HDGFL3 and decreased MMP1 expression compared with patients without progression to undifferentiated carcinoma, suggesting that HDGFL3 upregulation may represent an early molecular cue preceding dedifferentiation.
+Conclusion: This study provides spatial transcriptomic insights into the sequential carcinogenic process of gallbladder tumorigenesis. EMT pathway is elevated in the undifferentiated spectrum in association with the TNC-ITGB1 axis, and HDGFL3 is upregulated in differentiated regions of patients harboring undifferentiated components. Thus, upregulation of HDGFL3 may serve as potential predictive biomarkers for the progression from BilIN to undifferentiated gallbladder carcinoma.

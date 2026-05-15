@@ -1,0 +1,14 @@
+# Simultaneous spatial transcriptome and epigenome profiling in fresh frozen and FFPE tissues with spatial CoPro
+
+**Poster #**: 815
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Katelyn Noronha, Molly Wetzel, Abigail Chang, Jennifer M. Garbarino, Jiaying Chen, Jeffrey Sabina, Colin Ng
+
+AtlasXomics Inc., New Haven, CT
+
+---
+
+Understanding how gene regulation drives tumor evolution and therapeutic response requires spatially resolved, multi-omic data from clinically relevant samples. Current approaches for mapping gene expression dynamics rely on pairing spatial ATAC-seq with separate spatial or single-cell transcriptomic assays performed on adjacent sections. This consumes precious tissue, requires cross-slide computational integration, and makes it difficult to capture the state of the same cells&#8212;often obscuring key regulatory relationships and cell states. Here we introduce Spatial CoPro, a multi-omics assay that captures open chromatin and unbiased whole-transcriptome states within the same section, preserving morphology and spatial context in both fresh frozen and FFPE tissues. Built on the Deterministic Barcoding in Tissue for Spatial Omics Sequencing (DBiT-seq) platform, the innovation centers on a random hexamer priming strategy for unbiased capture of coding and noncoding transcripts. Unlike poly(A)-based approaches that capture only polyadenylated transcripts and are not suitable for fragmented or degraded RNA, random priming recovers RNA fragments across the gene body, making it particularly effective for both Fresh Frozen and FFPE samples. This provides a more complete and less biased view of transcriptional states while directly pairing with high-resolution chromatin accessibility data. Our Spatial CoPro assay achieves >2,000 fragments (FRiP >20%) for chromatin accessibility and >500 UMIs with >300 detected genes for RNA capture per 10 &#181;m &#215; 10 &#181;m spot, approaching single-nucleus resolution across a 5.5 mm &#215; 5.5 mm region in mouse hippocampus and human prostate cancer. Transcriptome performance matches industry standard spatial transcriptomics assays, while chromatin accessibility matches single-modality spatial ATAC-seq. Matched fresh frozen and FFPE sections correlate strongly across modalities (R >0.7), ensuring robustness across clinical specimens. This unified and FFPE-compatible workflow enables analysis of spatially distinct regulatory programs, enhancer-gene interactions, and tumor cell states not detectable with single-omic assays. By extending multi-omic spatial profiling to clinical specimens, Spatial CoPro establishes a new standard for spatial epigenome-transcriptome integration, advancing studies of tumor heterogeneity, therapeutic resistance, and disease progression to accelerate precision oncology and biomarker discovery.

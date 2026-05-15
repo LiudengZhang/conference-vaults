@@ -1,0 +1,18 @@
+# Doublet removal enhances single-cell resolution and uncovers malignant transcriptional programs in NSCLC
+
+**Poster #**: 1515
+**Session**: Sequence Analysis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Benjamin Jin, Eva Liu, Amy Lei, Qian Wang
+
+iLab Research Institute, Mountain View, CA
+
+---
+
+Background: Non-small cell lung cancer (NSCLC), accounting for more than 85% of lung cancer cases. includes several subtypes such as adenocarcinoma, squamous cell carcinoma, and large cell carcinoma. Advances in single-cell RNA sequencing (scRNA-seq) have enabled high-resolution profiling of the NSCLC tumor microenvironment, revealed previously unrecognized cellular heterogeneity, and identified potential therapeutic targets, including immune checkpoint inhibitor (ICI) pathways. However, doublets (artificially merged profiles of two cells captured in one droplet) can distort downstream analysis by altering clustering and differential gene expression, ultimately confounding biological interpretation.
+Objective: This study evaluated a refined scRNA-seq workflow that incorporates doublet removal to improve cell-type identification and downstream biological insights.
+Methods: Public scRNA-seq dataset GSE198099 was downloaded from NCBI and reanalyzed using both routine pipelines and a refined workflow that incorporates the DoubletCatcher algorithm. DoubletCatcher generates artificial doublets, computes doublet scores based on neighbor relationships, and removes cells exceeding the defined threshold. Differentially expressed genes (DEGs) were identified using R-based pipelines (FDR < 0.01; |log&#8322;FC| > 0.2). Gene Ontology enrichment was performed to identify enriched pathways. UMAPs and heatmaps were generated for visualization.
+Results: Routine analysis produced 17 poorly resolved clusters, while the refined workflow yielded 14 well-defined clusters, while eliminating spurious overlaps in immune signatures. Clear cell identities were recovered, including CD4&#8314; T cells, CD8&#8314; T cells, B cells, plasmablasts, macrophages, monocytes, mast cells, endothelial cells, type II epithelial cells, and three distinct cancer cell clusters comprising cancer cells and stem-like cancer cells. DEG analysis revealed significant transcriptional differences of cancer cells and stem-like cancer cells in tumor tissues compared with adjacent Tumor-region cancer cells exhibited de-differentiation, hypoxia-driven metabolic reprogramming, inflammatory and immune-evasive signaling, proliferation and cell-cycle activation, and epithelial-mesenchymal transition (EMT). In contrast, cancer cells from adjacent tissues showed more differentiated states, suggesting potentially greater therapeutic responsiveness before surgical intervention.
+Conclusion: Removing doublets markedly improved cluster accuracy and biological interpretability, revealed distinct cancer cell, stem-like cancer cell, and immune cell populations, and uncovered key active malignant programs in tumor-region cancer cells. This refined method enhances the reliability of single-cell analysis and provides further insights into NSCLC tumor biology.

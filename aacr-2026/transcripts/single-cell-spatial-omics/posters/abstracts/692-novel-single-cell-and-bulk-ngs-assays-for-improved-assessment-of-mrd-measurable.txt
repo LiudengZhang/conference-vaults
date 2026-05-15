@@ -1,0 +1,18 @@
+# Novel single cell and bulk NGS assays for improved assessment of MRD (measurable residual disease) and clonal dynamics in acute myeloid leukemia (AML)
+
+**Poster #**: 692
+**Session**: Methods to Measure Tumor Evolution and Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Crystal Zhou1, Ruwan Gunaratne1, Emily Yang1, Rachel Agoglia2, Diwash Jangam3, Charu Tiwari1, Kailee Tanaka4, Tsoyu Chiang3, Chandler Ho3, Sydney Lu1, James L. Zehnder3, Bing Melody Zhang3, Henning Stehr3, Tian Yi Zhang1
+
+1Hematology, Stanford University School of Medicine, Stanford, CA,2Mission Bio, South San Francisco, CA,3Pathology, Stanford University School of Medicine, Stanford, CA,4Stanford Cancer Institute, Stanford, CA
+
+---
+
+Background: The genomic heterogeneity of AML and high rates of relapsed/refractory (R/R) disease necessitate improved tools for detecting MRD and studying clonal evolution. Standard-of-care (SOC) MRD methods, namely multiparametric flow cytometry (MFC) or single-variant molecular assays, are limited in sensitivity, applicability across diverse AML genomes, and ability to resolve clonal dynamics. We evaluated the Tapestri single-cell multiomics AML assay (Mission Bio) and HemeSTAMP-MRD, a novel high-sensitivity bulk NGS assay, as alternative platforms for MRD detection and clonal profiling.
+Methods: We analyzed 72 bone marrow or peripheral blood mononuclear cell samples from 24 AML patients at diagnosis (n=18), remission (n=35), or R/R disease (n=19). Tapestri single-cell genotypic and immunophenotypic analysis was performed after CD34+/CD117+ enrichment using a 41-gene panel and 17-cell surface marker panel. HemeSTAMP-MRD, a bioinformatically optimized version of an in-house 203-gene error-corrected clinical NGS panel (Kim et al. 2022), was performed on paired whole blood samples in the CLIA-certified Stanford Molecular Pathology Laboratory. Each patient had &#8805; 1 trackable diagnostic variant(s). MRD results were compared with SOC MFC.
+Results: 87% (21/24) of patients achieved initial clinical remission (CR1), of whom 62.5% (15/21) relapsed. MFC detected MRD in only 33% (5/15) of patients with pre-relapse CR1 samples, while Tapestri and HemeSTAMP each identified MRD in 67% (10/15), including 8 patients with positive concordance. Among MFC-negative cases (n=10/15), 4 had detectable MRD by Tapestri and/or HemeSTAMP at variant allele frequencies < 1%, including one with actionable IDH2-mutant disease who relapsed and died before receiving targeted therapy. The 3 patients who relapsed despite negative MRD by all assays either had exclusively extramedullary relapse, loss of trackable variants, or inadequate sampling prior to relapse. Among patients yet to relapse, Tapestri and HemeSTAMP-MRD detected residual variants during CR1 in 5 of 6 patients, although 4 of whom later received allogenic transplant as a confounding factor.
+During active disease (diagnosis or R/R timepoints), Tapestri identified a median of 4 clones per sample (range 1-9). In paired samples, 8/9 (88%) patients showed clonal evolution between diagnosis and R/R disease: 3/8 (37.5%) gained at least one emergent clone and 5/8 (62.5%) lost at least one. The most dynamic genes were NRAS, NF1, PTPN11 and TET2, while TP53 and DNMT3A were most stable.
+Conclusion: Tapestri and HemeSTAMP-MRD both demonstrated improved MRD level detection, relapse prediction, and greater capacity to identify actionable mutations compared to MFC, with Tapestri uniquely enabling single-cell resolution of clonal dynamics to interrogate drivers of R/R disease. Larger cohort validation is ongoing.

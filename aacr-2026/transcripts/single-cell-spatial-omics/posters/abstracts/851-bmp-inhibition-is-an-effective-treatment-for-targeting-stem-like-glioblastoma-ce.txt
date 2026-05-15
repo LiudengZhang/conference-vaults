@@ -1,0 +1,16 @@
+# BMP inhibition is an effective treatment for targeting stem-like glioblastoma cell states
+
+**Poster #**: 851
+**Session**: Stem Cell Plasticity and Lineage Reprogramming in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Davey (Cheng Zhe) Li, Michael Luo, Phuong  U.  Le, Maryam Safisamghabadi, Tuong  V.  Kieu, Andy Nkili, Paul Wambo, Rozica Bolovan, Javad Nadaf, Kevin Petrecca
+
+Department of Neurology and Neurosurgery, Montreal Neurological Insitute-Hospital, McGill University, Montréal, QC, Canada
+
+---
+
+Glioblastomas are an aggressive and incurable type of brain cancer with an estimated 250,000 people around the world receiving this devastating diagnosis every year. With a median survival of 14.6 months, standard of care (surgery, radiation, and chemotherapy) is ineffective as it fails to eliminate residual glioblastoma stem cells (GSCs), which cause cancer recurrence.
+Previous work suggests that GSCs arise from aberrantly activated neural stem cells (NSCs) from the subventricular zone (SVZ). This unique brain region supports NSC growth and potentially subsequent glioblastomagenesis. Single-cell RNA sequencing (scRNA-seq) and MERFISH spatial transcriptomics of glioblastoma tumors and SVZ tissue from patients have allowed us to generate an atlas of 2 million cells to identify and spatially validate primordial developmental pathways that drive the malignant transformation of SVZ-NSCs and promote GSC survival. Cell-cell interaction, consensus non-negative matrix factorization (cNMF), spatial domain, and neighborhood enrichment analysis revealed bone morphogenetic protein (BMP) signaling as a key pathway maintaining stem-like glioblastoma cells. Thus, we tested LDN193189, a potent BMP signaling inhibitor that selectively blocks the BMP type I receptors ALK2/3.
+Using patient-derived GSCs treated with LDN193189, we observe a robust reduction of cell viability at 24 and 48 hour timepoints. Daily treatment for 7 days with LDN193189 on GSCs in vitro displayed reduction in cell cycling, decreased astrocytic stemness markers and BMP downstream signaling, while ablating the oligodendrocytic lineage. Assessment of LDN193189 in a patient-derived ex vivo explant organoid model demonstrated a reduction of cycling cells and reduced BMP signaling. Multiplexed spatial proteomics were performed to further interrogate the glioblastoma explant microenvironment and characterize the treatment response to LDN193189. These results suggest that disrupting key developmental pathways exploited by GSCs can halt highly proliferative GSC stem cell states, thus allowing us to target glioblastoma at its origin to prevent recurrence. Based on these promising pre-clinical results, we are currently exploring launching a Phase 1/2 open-label clinical trial for treating glioblastoma patients with BMP inhibitors.

@@ -1,0 +1,17 @@
+# Tumor-intrinsic CD80 mediates cancer stemness and vascular mimicry in aggressive oral squamous cell carcinoma
+
+**Poster #**: 4793
+**Session**: Angiogenesis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Yu-Lin Chen1, Shih Sheng Jiang1, Shih-Han Huang1, Ssu-Han Wang1, Fang-Yu Tsai1, Yen-Chung Chiu1, Kai-Ping Chang2, Daw-Yang Hwang3, Ko-Jiunn Liu3, Yu-Wen Su1, Ya-Wen Chen1
+
+1National Health Research Institute, Miaoli County, Taiwan,2Chang Gung University, Taoyuan, Taiwan,3National Health Research Institute, Tainan, Taiwan
+
+---
+
+Background Intratumoral heterogeneity drives oral squamous cell carcinoma (OSCC) progression by fostering tumor cell plasticity. This plasticity poses a major therapeutic challenge. We identified the immune molecule CD80 as a potential driver of this process and dissected its non-canonical, tumor-intrinsic functions.
+Methods Syngeneic OSCC sublines were established through in vivo selection. Gene profiling and single-cell RNA sequencing (scRNA-seq) of mouse tumors, integrated with human datasets, identified candidate drivers. CD80 function was interrogated using shRNA knockdown, cell sorting, and assays of tumorigenesis, cancer stemness, and vascular mimicry (VM) in mouse models and human OSCC cells. SOX2 rescue experiments assessed mechanistic dependency.
+Results Gene expression profiling and scRNA-seq identified the co-stimulatory molecule CD80 as highly expressed in the aggressive sublines, and its expression correlated with poor patient prognosis in OSCC. Crucially, CD80 knockdown reduced tumor burden in immunocompetent and immunodeficient mice, demonstrating a tumor cell-intrinsic oncogenic role independent of its canonical function in adaptive immunity. Mechanistically, CD80 enhanced cancer stemness, as evidenced by increased sphere formation and SOX2 expression. In vivo scRNA-seq data indicated that CD80+ tumor cells were associated with EMT-active, metabolic, and angiogenesis pathways. Moreover, CD80 knockdown impaired vessel-like formation in vitro, while CD80-high tumors displayed prominent VM in vivo. Ectopic SOX2 expression rescued both sphere and vessel-like formation in CD80 knockdown cells, suggesting that CD80-mediated oncogenic effects are partly SOX2-dependent.
+Conclusions Our findings reveal a novel, non-immunological role for CD80 in driving OSCC progression. By promoting cancer stemness and VM via a CD80-SOX2 axis positions CD80 as a promising therapeutic target.

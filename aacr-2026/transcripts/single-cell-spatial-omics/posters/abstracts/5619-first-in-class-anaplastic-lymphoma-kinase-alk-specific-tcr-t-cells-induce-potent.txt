@@ -1,0 +1,17 @@
+# First-in-class anaplastic lymphoma kinase (ALK)-specific TCR-T cells induce potent and selective antitumor immunity across ALK-driven human cancers
+
+**Poster #**: 5619
+**Session**: TCR and Autologous T Cell Therapies
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Carmen Mecca1, Simone Piane1, Nirmala Tilija Pun1, Ana Azambuja1, Luca Alessandrí2, Rafael Blasco1, Chi Nguyen Puc Bao1, Elisa Bergaggio1, Gabriele Saccu1, Alessandro Gasparetto1, Haley Ohlson1, David  A.  Barbie3, Ellis  L.  Reinherz4, Marcos Simoes-Costa1, Roberto Chiarle1
+
+1Pathology, Boston Children's Hospital, Boston, MA,2Universitá Degli Studi di Torino, Turin, Italy,3Lowe Center Thoracic Oncology, Dana Farber Cancer Institute, Boston, MA,4Department of Medical Oncology, Dana Farber Cancer Institute, Boston, MA
+
+---
+
+Introduction: Anaplastic Lymphoma Kinase (ALK) tyrosine kinase inhibitors (TKIs) have dramatically improved outcomes for patients with ALK-rearranged non-small cell lung cancer (NSCLC) and other ALK-positive (ALK+) cancer types. However, the near-universal emergence of resistance underscores an urgent need for new, durable therapeutic strategies. Leveraging our prior identification of the ALK-derived peptide RPRPSQPSSL presented by HLA-B*07:02 (PMID: 37430060), we aimed to develop ALK-specific TCR-engineered T cells (ALK.TCR-T) that can selectively recognize and eliminate ALK-driven tumors.
+Methods: HLA-B*07:02 transgenic mice were vaccinated with the RPRPSQPSSL peptide. After two priming and two booster injections, CD137+/CD8+ T cells were sorted and subjected to single-cell sequencing for TCR discovery. The most expanded TCR clonotypes were then cloned and retrovirally transduced into human T cells to generate ALK.TCR-T cells. The anti-tumor activity of ALK.TCR-T cells was evaluated against various models of ALK+ tumors both in vitro and in vivo.
+Results: From twelve dominant clonotypes, six ALK-specific TCRs were identified. Two (ALK.TCR-1 and ALK.TCR-2) demonstrated >95% ALK-dextramer binding. Notably, ALK.TCR-2 bound the ALK-dextramer also in CD4&#8314; T cells, indicating co-receptor-independent peptide-MHC recognition. Both TCRs mediated robust, antigen-specific cytotoxicity against ALK+/HLA-B*07:02+ cell lines, with no activity against mismatched targets. Engineering either EML4;ALK variant 3 or HLA-B*07:02 into non-expressing cells restored potent killing, confirming strict peptide-MHC specificity. In vivo, a single infusion of ALK.TCR-1 or ALK.TCR-2 markedly suppressed tumor growth and extended survival in a metastatic ALK+/HLA-B*07:02+ NSCLC model. Treated animals exhibited near-complete tumor clearance by day 7 post-ALK.TCR-T infusion, while control mice experienced progressive disease. Remarkably, in a metastatic ALK+/HLA-B*07:02+ neuroblastoma model, 70% (7/10) of mice achieved complete, durable responses (>100 days tumor-free) without evidence of on-target/off-tumor or off-target toxicity.
+Conclusion: We report the first generation of ALK-specific TCR-T cells targeting the naturally presented ALK peptide RPRPSQPSSL in the context of HLA-B*07:02. ALK.TCR-T cells display potency, selectivity, and safety across multiple ALK-driven tumor models, providing a strong rationale for advancing ALK.TCR-T cell therapy into clinical development.

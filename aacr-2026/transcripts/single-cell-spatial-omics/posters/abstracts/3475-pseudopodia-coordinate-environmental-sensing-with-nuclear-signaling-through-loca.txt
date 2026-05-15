@@ -1,0 +1,14 @@
+# Pseudopodia coordinate environmental sensing with nuclear signaling through localized gene regulatory machinery
+
+**Poster #**: 3475
+**Session**: Migration and Invasion
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Kourosh Kouhmareh1, Thi Hoa Le1, Richard L. Klemke2
+
+1UC San Diego School of Medicine, La Jolla, CA,2UCSD Moores Cancer Center, La Jolla, CA
+
+---
+
+Cells dynamically extend membrane protrusions known as pseudopodia to explore their local microenvironment, facilitating interactions with neighboring cells and extracellular matrix (ECM) components. These structures are implicated in regulating fundamental cellular processes, including migration, differentiation, proliferation, and mechanotransduction. While pseudopodia have long been proposed to function as sensory organelles that relay external cues to the nucleus, the molecular mechanisms underlying this spatial signaling remain incompletely understood. Here, we utilized a microporous membrane-based purification strategy that enables the selective isolation of pseudopodia in response to chemotactic gradients. Using paired transcriptomic and proteomic profiling, we compared isolated pseudopodia and their corresponding cell bodies from highly migratory cells. We identify a distinct enrichment of nuclear transport proteins, RNA splicing enzymes, chromatin remodelers, and components of the translational machinery within pseudopodia, supporting a model in which these structures act as early relay sites for gene regulatory signaling. Extending these findings to human cancer, we applied a pseudopodia-specific gene signature to single-cell RNA sequencing datasets from primary breast, bladder, and pancreatic tumors. Malignant epithelial cells highly enriched for our pseudopodium-associated gene set exhibited coordinated upregulation of chromatin remodeling, intracellular signaling and transport, ECM adhesion, and RNA regulatory pathways, mirroring the protrusion-associated programs identified in vitro. Collectively, our findings establish pseudopodia as spatially compartmentalized signaling hubs that couple environmental sensing to chromatin regulation and transcriptional reprogramming. This work uncovers a previously unappreciated mechanism by which cellular architecture directs gene expression changes relevant to both normal physiology and disease.

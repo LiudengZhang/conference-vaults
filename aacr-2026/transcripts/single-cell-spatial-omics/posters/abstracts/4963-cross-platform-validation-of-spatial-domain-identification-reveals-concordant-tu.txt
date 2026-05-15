@@ -1,0 +1,17 @@
+# Cross platform validation of spatial domain identification reveals concordant tumor microenvironment architecture in NSCLC using integrated spatial transcriptomics and multiplex immunofluorescence
+
+**Poster #**: 4963
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Zeinab Mokhtari1, Mint Htun2, Debayan Mukherjee2, Nima Vakili1, Deon Hildebrand2, Crysthiane Ishiy2, Anna Pasto2, Sue Griffin2, Paul Barber2, Tony NG2
+
+1GSK, Heidelberg, Germany,2GSK, Stevenage, United Kingdom
+
+---
+
+Background: Spatial organization of the tumor microenvironment (TME) in non-small cell lung cancer (NSCLC) influences therapeutic response, yet the reproducibility of spatial domain identification across platforms remains unclear. We performed spatial transcriptomics (STx) and multiplex immunofluorescence (mIF) on surgically resected NSCLC specimens to validate spatial domain identification and characterize TME architecture between lung adenocarcinoma (LUAD) and squamous cell carcinoma (LUSC).
+Methods: Formalin-fixed paraffin-embedded NSCLC tissue was analyzed using spatial profiling platforms. STx was performed using Xenium platform with cell type annotation via TACCO optimal transport-based label transfer from public NSCLC single-cell RNA sequencing data. mIF was performed using Leica Cell Dive platform. Spatial domain identification was achieved independently on both platforms: foundational deep learning models identified tissue domains in STx data, while Cell Charter method with transfer variational autoencoder (trVAE) determined cellular architecture in mIF images. Cross-platform validation assessed concordance of spatial domain boundaries and composition between STx and mIF based modalities.
+Results: Spatial domain identification revealed strong concordance between STx and mIF platforms across multiple tissue compartments. Tumor epithelial domains identified transcriptomically overlapped with EpCAM-defined regions in mIF. Cancer-associated fibroblast (CAF)-enriched stromal and tertiary lymphoid structure (TLS) domains showed consistent boundaries and composition across modalities. Computationally-defined spatial domains accurately reflected histological features without manual annotation. LUSC samples exhibited expanded CAF-enriched stromal domains with reduced T-cell infiltration compared to LUAD, indicating distinct immune-stromal organization between subtypes.
+Conclusions: We demonstrate robust cross-platform validation of spatial domain identification in NSCLC tissue, with computational methods accurately recapitulating biological compartments across transcriptomic and proteomic modalities. The strong concordance between STx and mIF spatial domains establishes confidence in automated tissue segmentation approaches for TME characterization. Spatial domain analyses reveal distinct microenvironmental architectures between LUAD and LUSC, with differential organization of stromal and immune compartments. This validated spatial domain framework provides a reproducible approach for high-resolution TME mapping and may enable identification of spatially-defined biomarkers for precision therapy selection in NSCLC.

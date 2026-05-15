@@ -1,0 +1,17 @@
+# Sialic acid inhibits engager-mediated T cell activation
+
+**Poster #**: 2804
+**Session**: Immune Checkpoints
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Johanna Nimmerfroh1, Dinah Heiligensetzer1, Michael Sandholzer1, Anastasiya Börsch2, Heinz Laubli1
+
+1Department of Biomedicine, University Hospital and University of Basel, Basel, Switzerland,2Department of Biomedicine, University of Basel, Basel, Switzerland, Basel, Switzerland
+
+---
+
+Background: Although T cell-based therapies have led to a significant success in certain tumor types, a large proportion of patients receiving cancer immunotherapy still progress with the disease. Thus, there is interest in identifying and blocking alternative pathways mediating immune suppression. Beyond canonical protein-based immune checkpoints, tumor-associated glycosylation&#8212;particularly hypersialylation&#8212;has emerged as a key modulator of immune suppression. Sialic acid-containing glycans on tumor cells are recognized as glyco-immune checkpoints that engage inhibitory Siglec receptors on immune cells. While the immunosuppressive role of tumor sialylation is well established[1], new evidence indicates that sialylation of the T cells themselves[2] may also contribute to immune dysfunction, suggesting a previously underappreciated layer of glyco-regulation in the tumor microenvironment.
+Methods: Human T cells were treated with pan-sialidase to enzymatically remove surface sialic acids. Desialylated T cells were then stimulated with anti-CD3/anti-CD28 or co-cultured with bispecific T cell engagers and tumor target cells, followed by flow cytometry. Primary samples from patients with chronic lymphocytic leukemia (CLL) were analyzed through single-cell RNA sequencing combined with lectin-based glycan profiling.
+Results: We discovered that T cells treated with sialidase exhibited enhanced proliferation and activation. In a co-culture system with bispecific T cell engagers and target cells, we demonstrated that sialidase-treated T cells showed enhanced cytotoxicity, including increased cytokine production, T cell proliferation, and tumor cell killing. When studying T cell subsets, we observed that sialidase treatment lowered the activation threshold particularly in na&#239;ve T cells. Our findings were validated using primary samples from patients with chronic lymphocytic leukemia (CLL): sialic acid remodeling led to improved immune function.
+Conclusion: Sialic acids on T cells significantly modulate their function. Enzymatic removal of these glycans enhances T cell response and may help overcome resistance mechanisms in cancer immunotherapy. Future studies will investigate whether distinct glycan signatures among T cell subtypes correlate with functional heterogeneity.[1]Dobie, C., Skropeta, D. Br J Cancer 2021,124, 76-90.[2]Edgar, L. J.; Paulson J. C et al. ACS Cent Sci 2021, 7, 1508-1515.

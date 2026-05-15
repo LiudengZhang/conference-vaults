@@ -1,0 +1,14 @@
+# RNA isoform discovery and quantification with SMART-Seq&#174; mRNA Long Read (v1 and v2) kits
+
+**Poster #**: 1789
+**Session**: Mechanisms of Drug Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Jackson Peterson1, Yue Yun1, Lisa Welter1, Kazuo Tori1, Alan Du1, Yana Ryan1, Ning Ma1, Rachana Kumar1, Shiyi Yin1, Mike Covington1, Shuwen Chen1, Elena Shagisultanova2, Mohammad Fallahi1, Bryan Bell1, Andrew Farmer1
+
+1Takara Bio USA, Inc., San Jose, CA,2Department of Medicine/Medical Oncology, University of Colorado, Aurora, CO
+
+---
+
+RNA serves a central role in biology by converting genomic information into effector molecules, either as functional non-coding RNAs or as protein-coding mRNAs. While it has long been appreciated that complex RNA transcript profiles can be produced through alternative splicing, numerous discoveries have highlighted the essential role of alternative splicing in cell and developmental biology. Furthermore, aberrant splicing has recently been linked to diseases like cancer, neurodegeneration, and autoimmunity. Of particular interest, cancer-specific splice isoforms have emerged as a potential source of neo-antigens targetable by novel immune therapeutics. Thus, understanding the expression and function of RNA isoforms has become increasingly important in cancer biology research. A current limitation of long-read RNA sequencing (LR-RNA-seq) is the requirement of large amounts of input RNA, which can be unachievable for samples such as resected tumors or sorted single cells.&#8239;Here, we describe SMART-Seq&#174; mRNA Long Read kit, a new LR-RNA-seq library preparation technology that enables full-length RNA sequencing from single cells (~10 pg RNA/cell) up to 100ng total RNA. In high-quality bulk RNA inputs, we demonstrate the ability to reliably sequence at an average read length (N50) of 2 kb and to detect full-length transcripts as long as 8 kb, enabling the discovery and quantification of novel mRNA isoforms in samples from both healthy tissues and cancer cells. &#8239;Analysis of cancer cell lines with evolved resistance to targeted therapies identifies differential isoform usage associated with the evolution of cancer therapeutic resistance. We further describe an update to this technology, SMART-Seq&#174; mRNA Long Read version 2, which expands the input range to 2&#181;g, improves read-length performance, and enables UMI-based analysis. Comparison studies demonstrate that SMART-Seq mRNA Long Read technology substantially outperforms existing bulk and single-cell LR-RNA-seq methods. With PCR barcoding of up to 96 samples at a time, this technology will accelerate discovery as scientists catalog and study splice isoforms in both routine long read cDNA sequencing workflows and in settings where sample input is limited.

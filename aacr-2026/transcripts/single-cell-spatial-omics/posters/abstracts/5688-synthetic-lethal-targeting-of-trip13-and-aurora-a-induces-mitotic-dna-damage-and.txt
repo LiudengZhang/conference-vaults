@@ -1,0 +1,14 @@
+# Synthetic lethal targeting of TRIP13 and Aurora A induces mitotic DNA damage and concurrent pyroptotic-apoptotic cell death in Rb-deficient cancer cells
+
+**Poster #**: 5688
+**Session**: Mechanisms of Anticancer Drug Action
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Lacin Yapindi1, Soma Ghosh1, Li Shen2, Lixia Diao2, Jing Wang2, Faye M. Johnson1
+
+1Department of Thoracic/Head & Neck Medical Oncology, UT MD Anderson Cancer Center, Houston, TX,2Department of Bioinformatics and Computational Biology, UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+There are currently no effective, biomarker-guided therapies specifically targeting cancers with functional loss of the Rb pathway, underscoring the urgent need to exploit their unique vulnerabilities. We previously demonstrated that combined inhibition of TRIP13 and Aurora A elicits a synthetic lethal effect specifically in Rb-deficient cancer cells. To dissect the underlying mechanism of this synthetic lethality, we employed live-cell imaging to monitor single-cell dynamics and found that the combination induces mitotic cell death by inducing prolonged mitotic arrest. These findings were validated using the orthogonal in vitro assays assessing apoptosis and cell cycle, which further revealed that the combination leads to DNA damage and concurrent apoptotic and GSDME-mediated pyroptotic cell death in mitotically arrested Rb-deficient cancer cells. The inhibition of mitotic entry using CDK1 inhibitor, RO-3306 abrogated these combination-induced lethal effects, further confirming the essential role of mitotic catastrophe in mediating this synthetic lethality. These in vitro findings were strengthened in vivo, as the combination of TRIP13 depletion and Aurora A inhibition achieved marked antitumor efficacy and provided a measurable survival benefit in Rb-deficient cell line xenograft model. TCGA analyses of head and neck and lung squamous cell carcinoma cohorts showed that Rb-deficient tumors have significantly higher CASP3 expression but lower GSDME expression than Rb-proficient tumors. This suggests that Rb-deficient tumors may possess an inherent tendency toward stress-induced caspase-3 activation due to elevated baseline CASP3 levels. The concurrent reduction of GSDME expression may therefore reflect an adaptive strategy to mitigate this potential vulnerability by limiting downstream caspase-3-mediated pyroptotic cell death. Here we report for the first time a detailed mechanism behind the synthetic lethal vulnerability of Rb-deficient cancer cells to dual inhibition of TRIP13 and Aurora A. This combination therapy offers new therapeutic avenues for Rb-deficient cancers and provides a rationale for exploiting mitotic vulnerabilities of Rb-deficient cancers.

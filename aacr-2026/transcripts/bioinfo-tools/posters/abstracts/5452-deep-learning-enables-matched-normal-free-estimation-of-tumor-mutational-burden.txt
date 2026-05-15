@@ -1,0 +1,12 @@
+# Deep learning enables matched-normal free estimation of tumor mutational burden from whole exome reads in colorectal cancer
+
+**Poster #**: 5452
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Amrita Chattopadhyay1, Liang-Yu Lin2, Ching-Tai Chen3, Eric Y. Chuang41Institute of Epidemiology and Preventive Medicine, College of Public Health, National Taiwan University, Taipei, Taiwan,2Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University., Institute of Epidemiology and Preventive Medicine, College of Public Health, National Taiwan University, Taipei, Taiwan,3Department of Computer Science, University of Taipei, Taipei, Taiwan,4Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University, Taipei, Taiwan
+
+---
+
+Tumor mutational burden (TMB) is a key biomarker for immune checkpoint inhibitor (ICI) therapy. However, its clinical implementation in colorectal cancer (CRC) remains limited by the cost of matched normal sequencing and by inconsistent TMB estimates across pipelines. We developed a tumor only, deep learning pipeline using raw whole exome sequencing (WES) reads. First, tumor purity was predicted using genomic language model (gLM) sequence features, read depth, and clinical data, the purity embedding from which were integrated with genomic and coverage features to estimate log transformed TMB. The model was trained with five fold cross validation on 121 CRC tumor samples; 29 matched-normal samples were gradually added to evaluate generalization. Across ten random experiments, the best purity model achieved an average mean-squared error (MSE) of 0.026 and concordance index (C index) of 0.93. Incorporating purity embedding improved TMB prediction accuracy, achieving MSE of 0.096 and CI of 0.62, nearly halving the error compared with a more complex baseline using reduced input reads. This framework enables rapid, TMB estimation directly from tumor only WES data, removing the need for matched normal or ad hoc filtering. By improving accessibility and consistency of TMB measurement, the method may enhance identification of CRC patients most likely to benefit from ICI therapy, particularly in resource-limited clinical settings.

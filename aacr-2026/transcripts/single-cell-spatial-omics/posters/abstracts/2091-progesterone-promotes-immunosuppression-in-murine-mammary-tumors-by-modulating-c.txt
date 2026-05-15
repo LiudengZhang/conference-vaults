@@ -1,0 +1,14 @@
+# Progesterone promotes immunosuppression in murine mammary tumors by modulating CD4 T cell viability and helper functions, promoting T cell apoptosis and a shift from inflammatory to anti-inflammatory cytokine profiles
+
+**Poster #**: 2091
+**Session**: Aging and Host Determinants of Tumor Progression: The Macroenvironmental Axis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Amanda Glen Heard
+
+Cancer Biology, Univerisity of Kansas Medical Center, Kansas City, KS
+
+---
+
+Breast Cancer is the most common cancer diagnosed in women in the US. Breast cancer results in the second greatest number of cancer deaths for women. Hormone receptor positive (HR+) breast cancers - cancers expressing the nuclear receptors for steroid hormones estrogen and progesterone, termed the estrogen receptor (ER) and progesterone receptor (PR) - make up the 70% of diagnosed breast cancers, making the HR+ subtype the largest contributor to breast cancer mortality despite a favorable prognosis compared to other breast cancer subtypes. Treatment consists of anti-endocrine therapies, targeting ER/estrogen signaling pathways. Most women respond well to these therapies, but for women who do not, there are few alternative options. It is accepted that lifetime exposure to estrogens increases the risk of developing of HR+ breast cancer, but both estrogen and progesterone are part of the normal menstrual cycle. Prior work from our lab has uncovered a novel immune-modulatory role for progesterone, pivotal to promoting the growth of PR-positive mammary tumors. Single cell RNA sequencing data from these PR+, progesterone treated tumors show a significant decrease in tumor-infiltrating T cells, specifically of the CD4+ helper T cell subset. Interestingly, in vitro progesterone treatment increases the percentage of CD4+ T cell undergoing apoptosis post T cell activation. Progesterone treatment also significantly decreases IFN&#947; production in CD4+ T cells, while increasing Th2 cytokine production. Our lab show that the culmination of these effects provides protection against T cell killing in a co-culture with mouse mammary tumor cells. Our lab has also found that mouse mammary tumor cells do not express select progesterone metabolism genes to efficiently metabolize progesterone, and that the human orthologs for these genes are also downregulated in human breast cancer. These results suggest that progesterone in the tumor microenvironment could modulate T cell functions, providing tumor cells with protection from immunosurveillance and contributing to HR+ breast cancer development. These data also argue for the use of anti-progestins to boost anti-tumor immune activity and synergize with current cancer immunotherapy regimens, providing an alternative option for women who have failed anti-estrogen therapies.

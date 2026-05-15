@@ -1,0 +1,14 @@
+# Embryonic reprogramming of neural crest cells drives the development of Ewing sarcoma
+
+**Poster #**: 6176
+**Session**: Pediatric Cancer Models
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Elena Vasileva1, Claire Arata2, Yongfeng Luo1, Gage Crump2, James Amatruda1
+
+1Children's Hospital Los Angeles, Los Angeles, CA,2Keck School of Medicine, University of Southern California, Los Angeles, CA
+
+---
+
+Ewing sarcoma (ES) is a pediatric cancer of the bone and soft tissues with poor outcomes for patients with metastatic or relapsed disease. Ewing sarcoma cells are characterized by the presence of a driver fusion oncogene, most commonly EWSR1::FLI1. In the absence of a genetic animal model due to the severe toxicity of the oncofusion, the developmental aspects of ES initiation, including its cellular origin, have remained poorly understood. To address these questions, we developed a stable zebrafish transgenic model enabling tissue-specific expression of the human EWSR1::FLI1 oncofusion in neural crest cells, one of the proposed cell of origin for ES (Vasileva et al., Cell Reports 2025). Using this model, we demonstrated that expression of human EWSR1::FLI1 oncofusion in neural crest cells can lead to their transformation and the development of tumors in vivo. Single-cell analysis of tumor initiation shows that EWSR1::FLI1 reprograms neural crest-derived cells to a mesoderm-like state, strikingly resulting in ectopic fin formation throughout the body. Such hijacking of the limb development program led to abnormal activation of developmental signaling pathways in EWSR1::FLI1-induced outgrowths, resulting in dysregulation of the FGF signaling cascade and HOX gene expression. EWSR1::FLI1 reprograms neural crest cells by hijacking developmental enhancers and upregulating the expression of mesodermal regulators. One such regulator is tbxta (Brachyury or T), a key transcription factor controlling mesodermal specification. Notably, tbxta/TBXT expression was maintained in a subset of zebrafish and human tumors. Our model provides a mechanism by which a neural crest cell lineage can be transformed into Ewing sarcoma, a malignancy with predominant mesenchymal features. Taken together, these findings show how a single mutation can disrupt normal developmental trajectories, driving neural crest cells reprogramming and initiating malignant transformation.

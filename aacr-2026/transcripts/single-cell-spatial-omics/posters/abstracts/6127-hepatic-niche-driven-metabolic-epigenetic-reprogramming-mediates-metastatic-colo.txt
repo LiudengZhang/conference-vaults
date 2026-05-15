@@ -1,0 +1,21 @@
+# Hepatic niche driven metabolic-epigenetic reprogramming mediates metastatic colonization through liver progenitor like plasticity
+
+**Poster #**: 6127
+**Session**: Metastasis and Organ-Specific Microenvironmental Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Ajit Kumar SHARMA1, Nobuyuki Takahashi2, Sophie Zhuang3, Amira Kazi3, Michael Nirula3, Abhinav Joshi3, Yingying Cao4, Rajesh Kumar4, Kanak Parmar3, Christopher Schultz5, Parth Anil Desai6, Samantha Nichols3, Linda Sciuto3, Yue Huang7, Chiori Tabe3, Yang Zhang3, Sanghvi Neel1, Nishanth Ulhas Nair4, Christopher A Febres Aldana1, Nir Friedman8, Simone Difilippantonio9, Thorkell Andresson3, Eytan Ruppin3, Stephen  M.  Hewitt3, Anish Thomas4
+
+1NIH/National Cancer Institute, Bethesda, MD,2National Cancer Center Hospital East, Kashiwa, Japan,3National Institutes of Health, Bethesda, MD,4National Cancer Institute, Bethesda, MD,5Department of Medical Oncology, Fox Chase Cancer Center, Philadelphia, PA,6Fox Chase Cancer Center, Philadelphia, PA,7Developmental Therapeutics Branch, NIH/National Cancer Institute, Bethesda, MD,8The Hebrew University of Jerusalem, Rehovot, Israel,9Leidos Biomedical Research, Inc., Frederick, MD
+
+---
+
+Background
+Liver metastasis is a major cause of mortality in small cell lung cancer (SCLC), but the organ-specific cues that enable metastatic colonization are poorly understood. We hypothesized that the hepatic microenvironment promotes a stem-like, high-plasticity state required for metastatic outgrowth.
+Methods
+We analyzed patient-derived SCLC liver metastases using RNA-seq, ATAC-seq, and metabolomics, combined with spatial transcriptomics and orthotopic liver colonization models. Regional hypoxia, HIF1&#945; signaling, and metabolic flux were assessed by protein quantification and 13C-glucose tracing. Functional studies included pharmacological ACLY inhibition (SB204990) and CRISPR-mediated ACLY knockout in vivo.
+Results
+Across patient specimens and in vivo models, metastatic SCLC cells in the liver adopted a distinct stem-like transcriptional state, marked by activation of regenerative programs and chromatin accessibility at stemness loci (HNF1A, HNF4A, SOX9, ATF3). Spatial profiling revealed that tumor cells adjacent to hepatocytes experienced localized hypoxia, resulting in HIF1&#945; stabilization and the transcriptional induction of ACLY, a key enzyme that generates nuclear acetyl-CoA. ATP-citrate lyase (ACLY)-dependent generation of nuclear acetyl-CoA, driving histone hyperacetylation and chromatin remodeling at liver-lineage transcription factors HNF1A, HNF4A, and SOX9. Liver-metastatic cells undergo glycolytic reprogramming, a metabolic shift that parallels hepatocyte regeneration during liver injury, providing acetyl-CoA and biosynthetic precursors to support epigenetic remodeling and lineage adaptation. Similar progenitor-like hepatic plasticity is observed across other epithelial cancers with liver tropism, including breast, colon, and non-small cell lung cancers, indicating a conserved mode of metastatic adaptation. ALY activity mediated histone hyperacetylation and epigenetic remodeling required for the stem-like state. ACLY was functionally essential. Pharmacologic ACLY inhibition blocked the induction of stem-like programs, reduced histone acetylation, and growth rate of liver metastatic cells. CRISPR-ACLY knockout prevented the acquisition of the reprogrammed phenotype. Similar hepatic niche-induced stemness signatures were observed in liver metastases from breast, colon, and NSCLC, suggesting a conserved mechanism across epithelial cancers.
+Conclusions
+The liver microenvironment actively promotes metastatic competency by inducing a HIF1&#945;-ACLY-acetyl-CoA-driven stem-like state in disseminated tumor cells. ACLY inhibition disrupts this metabolic-epigenetic reprogramming and markedly suppresses liver metastatic outgrowth, highlighting ACLY as a tractable therapeutic target for liver metastasis.

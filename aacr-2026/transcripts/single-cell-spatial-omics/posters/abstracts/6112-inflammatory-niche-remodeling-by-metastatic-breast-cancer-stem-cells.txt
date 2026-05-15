@@ -1,0 +1,14 @@
+# Inflammatory niche remodeling by metastatic breast cancer stem cells
+
+**Poster #**: 6112
+**Session**: Metastasis and Organ-Specific Microenvironmental Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Claire Engstrom1, Jessica Pham2, Wenxue Ma2, Emma Klacking3, Kendale Wirtjes2, Patrick Chang1, Inge van der Werf2, Catriona H. M. Jamieson4
+
+1UCSD, San Diego, CA,2UCSD, La Jolla, CA,3UCSD Medical Ctr., San Diego, CA,4UCSD Moores Cancer Center, La Jolla, CA
+
+---
+
+Metastatic breast cancer (MBC) remains one of the leading causes of cancer-related mortality among women in the United States. Cancer stem cells (CSCs), which are characterized by immune evasion, self-renewal, and regenerative potential, are thought to be critical drivers of metastasis and recurrence.Here, we performed single-cell RNA sequencing on eight MBC samples from accessible secondary tumor sites with diverse hormone receptor and HER2 status, including three pleural effusions, one ascites, and five breast to bone metastases. To investigate the relationship of these metastatic cells to their microenvironment, we utilized the package CellChat which uses expression of receptor-ligand pairs to infer communication between populations.Across all samples, we identified a rare population of non-immune (CD45&#8315; CD24&#8315;) cells that consistently formed a distinct transcriptional cluster and expressed canonical stemness and cancer markers, including CD44, CD47, ALDH1A3, MET, HER3, THY1, and PROCR. Notably, they exhibited elevated expression of the RNA- and DNA-editing enzymes ADAR1 and APOBEC3C which are deaminases previously implicated in mutagenesis, splicing dysregulation, and cancer progression. This population also showed consistent downregulation of retrotransposable elements, a proposed mechanism of immune evasion in leukemia stem cells and consistent with upregulation of base deaminases, which are known repressors of retroelement activation. We uncovered a high degree of autocrine and paracrine signaling from this CSC population, particularly via the IL-6 pathway which is a known inducer of ADAR1 and APOBEC3C, and we performed downstream in vitro and in vivo analysis in patient-derived xenograft mice and nanobioreactor tumor organoid models to investigate the inflammatory and base deaminase activation through cytokine arrays and flow cytometry.Our findings highlight a conserved metastatic niche remodeling CSC-like population across MBC patients that may drive metastasis through base editing, inflammatory signaling, and retroelement repression, and targeting these pathways could offer new avenues for diagnostics and intervention.

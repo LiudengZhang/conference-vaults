@@ -1,0 +1,14 @@
+# Expanding the ACT paradigm: B cell engineering via spherical nucleic acids for cancer immunotherapy
+
+**Poster #**: 130
+**Session**: Alternative Cell Type and in Situ Cell Therapies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Maryam Balibegloo1, Yingying Li1, Abu Baker1, Jie Fan1, Ping Xie1, Mi Ran Choi1, Catalina Lee Chang2, Vinzenz Mayer3, Michael Evangelopoulos3, Chad A. Mirkin3, Bin Zhang4
+
+1Northwestern Univ. Feinberg School of Medicine, Chicago, IL,2Northwestern Univsity, Chicago, IL,3Northwestern University, Evanston, IL,4Northwestern University - Chicago, Chicago, IL
+
+---
+
+Adoptive cellular therapy (ACT) has revolutionized cancer immunotherapy, yet its focus remains largely on T cells. B cells, despite their potent antigen-presenting capacity and role in adaptive immunity, have been underutilized due to inefficient antigen delivery and activation. We developed an ex vivo strategy leveraging spherical nucleic acids (SNAs) to license B cells for ACT. This platform synchronizes pH-controlled co-delivery of tumor antigen peptides and TLR9 agonists into shared endosomal compartments, enabling sustained antigen presentation and robust cross-priming of tumor-specific CD8&#8314; T cells, resulting in epitope spreading and durable antitumor immunity.SNA-trained B cells exhibited lymphoid homing and secreted CCL3/CCL4, establishing a CCR5-dependent chemotactic axis that recruited effector CD8&#8314; T cells and cDC1, creating spatial immune hubs within tumors. Multiplex immunohistochemistry analysis revealed clustering of transferred B cells, CD8&#8314; T cells, and cDC1 in draining lymph nodes, facilitating antigen handoff and reciprocal activation. Mechanistic studies confirmed that CCR5 blockade or CD8&#8314; T-cell depletion abrogated efficacy. Across multiple murine and humanized tumor models, SNA-trained B cells outperformed controls, reduced metastasis, and synergized with PD-1 blockade to improve survival. Single-cell transcriptomics and BCR-seq demonstrated progression toward plasma cell differentiation, oligoclonal expansion, and IgG2 class switching.This work introduces a nanomaterial-based platform to reprogram B cells for ACT, overcoming limitations in immunologically &#8220;cold&#8221; and checkpoint-refractory tumors. SNA-trained B cells broaden the ACT paradigm beyond T cells, offering a versatile and well-tolerated strategy for durable antitumor immunity.

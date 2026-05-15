@@ -1,0 +1,22 @@
+# Distinct tumor microenvironmental landscapes define molecular subtypes in non-muscle-invasive bladder cancer
+
+**Poster #**: 3868
+**Session**: Molecular Classification and Tumor Biology in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Songjun Xu1, Matthew  H.   V.  Byrne2, Jiarui Zhang1, Ahmad Alalti2, Devika Agarwal3, Neil Beeharry1, Olesya Chornoguz1, Kyla Dooley4, Kin Cheung Lee4, Shuwei Li1, Guneet Walia1, Tommaso Mansi1, Joel Greshock1, Calliope Dendrou5, Freddie Hamdy6, Lisa Browning7, Dan  J.  Woodcock2, Patrick Wilkinson1, Shibu Thomas1
+
+1Johnson & Johnson, Spring House, PA,2Nuffield Department of Surgical Sciences, University of Oxford, Oxford, United Kingdom,3Kennedy Institute, University of Oxford, Oxford, United Kingdom,4Centre for Human Genetics, University of Oxford, Oxford, United Kingdom,5Kennedy Institute, University of Oxford; Weatherall Institute for Molecular Medicine, John Radcliffe Hospital, Headington, Oxford, United Kingdom,6Nuffield Department of Surgical Sciences, University of Oxford, Oxford, United Kingdom, Department of Urology, Oxford University Hospitals NHS Foundation Trust; NIHR Biomedical Research Centre, Oxford, United Kingdom,7Department of Cellular Pathology, Oxford University Hospitals NHS Foundation Trust, Oxford, United Kingdom
+
+---
+
+Background:
+Non-muscle-invasive bladder cancer (NMIBC) are biologically heterogeneous tumors that are classified based on stage/grade alone, which does not provide an accurate separation as it misses underlying molecular phenotypes. The UROMOL molecular classification, derived from large-scale transcriptomic profiling of NMIBC (Lindskrog SV, et al. Nat Commun. 2021;12:2301), stratifies tumors into prognosis-associated biology with distinct molecular subtypes. The relationship between molecular states and tumor microenvironment (TME) composition remains poorly defined.
+Methods:
+We performed transcriptomic subtyping and single-cell-level TME profiling of NMIBC tumors (patient n=16, sample n=34, cell n = 108108). Tumors were classified into UROMOL subtypes using NMIBC classifier (Lindskrog SV, et al. Nat Commun. 2021;12:2301) based on aggregated gene expression profiles. We quantified epithelial, stromal, and immune populations, and assessed pathway activity using curated immune and stromal gene module scores.
+Results:
+3 UROMOL subtypes were observed: Class 1 (luminal papillary), Class 2a (basal-inflamed), and Class 2b (luminal-inflamed). Class 1 tumors (n=6, 17.6%) exhibited an epithelial-dominant, immune-cold TME characterized by ~80.1% epithelial cells (95% CI: 74-86.2%) and minimal immune infiltration, including T cells (~1.9%, CI: 0.5-3.3%), macrophages (~1.4%, CI: 0.5-3.3%), and fibroblasts (~8.4%, CI: 4.3-12.5%). This composition is consistent with differentiated luminal biology and may have favorable baseline prognosis. Class 2a tumors (n=9, 26.5%) displayed a distinct TME composition pattern, with an increase in T-cell (~4.8%, CI: 1.7-8.0%) and macrophage (~1.9%, CI: 0.6-3.1%) infiltration compared to Class 1, alongside increased fibroblast (~17.5%, CI: 9.6-25.3%) and endothelial (~8.1%, CI: 4.9-11.4%) content. These tumors showed increased effector and checkpoint activity, reflecting a more active immune microenvironment than class 1. Class 2b tumors (n=19, 55.9%) showed a heterogeneous immune-stromal landscape with pronounced fibroblast enrichment (~27%, CI: 19.7-34.4%) and extracellular matrix remodeling, alongside elevated immune infiltration, including T cells (~17.5%, CI: 15-20.0%) and macrophages (~11.2%, CI: 7.4-14.9%), this reflects an immune-active, fibroblast-rich TME architecture.
+Conclusions:
+UROMOL subtypes are defined by distinct TME architectures with differences in cellular composition from immune-cold, epithelial-rich Class 1 tumors to highly immune infiltrated Class 2b tumors enriched with T cells and fibroblasts. Given the limited sample size, these observations should be validated in a larger cohort.
+This study demonstrates that UROMOL molecular classes of NMIBC are associated with distinct TMEs, revealing biologically meaningful differences in immune infiltration and stromal composition.

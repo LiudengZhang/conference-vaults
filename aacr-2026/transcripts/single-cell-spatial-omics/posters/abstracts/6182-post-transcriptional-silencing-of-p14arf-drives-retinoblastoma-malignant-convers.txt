@@ -1,0 +1,18 @@
+# Post-transcriptional silencing of p14ARF drives retinoblastoma malignant conversion in CRISPR-engineered retinal organoids
+
+**Poster #**: 6182
+**Session**: Pediatric Cancer Models
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Jinlun Bai, David  S.  Koos, Kevin Stachelek, Bhavana Bhat, Susan Asatrian, Patrick Belen, Sunjum Sanghari, Kayla Stepanian, Scott Fraser, Rex A. Moats, David Cobrinik
+
+Children's Hospital Los Angeles, Los Angeles, CA
+
+---
+
+Purpose: This study aims to elucidate the molecular mechanisms driving malignant transformation from pre-malignant lesions, leveraging a CRISPR-engineered human retinoblastoma retinal organoid (RBRO) model that recapitulates the cone cell-of-origin and timing of multi-step retinoblastoma genesis.
+Background: Most retinoblastomas arise from maturing cone photoreceptor precursors (CPs) following biallelic RB1 inactivation. The process can be recapitulated in explanted fetal retina, where pRB-depleted CPs proliferate, followed by a 3-5 month indolence phase and emergence of retinoblastoma-like masses at tissue ages mirroring in vivo disease. CRISPR engineered retinal organoids (ROs) provide a promising model with which to define mechanisms that underlie malignant progression.
+Methods: We generated RB1 knockout iPSC lines through CRISPR editing of the GNAT2-EGFP cone reporter (Bai et al., PMID 37902188). Chimeric RBROs were produced by mixing RB1 knockout and unedited parental iPSCs. Proliferation dynamics, cell identities and cell state changes of EGFP+ RB1-/- cones were evaluated by live imaging of hydrogel-embedded RBROs, immunofluorescent (IF) staining, and deep full-length scRNA-seq. Additional CRISPR edits were introduced to test candidate drivers of indolence entry and escape.
+Results: In RB1 WT ROs, EGFP specifically, robustly and innocuously labeled post-mitotic cones. In RBROs, live imaging and IF staining revealed initial EGFP+ RB1-/- cone proliferation followed by a pre-malignant indolence phase starting at ~d120. Most of the initially proliferating cones become Ki67-negative, with some adopting mature cone morphology. Retinoblastoma-like foci composed of cells co-expressing EGFP, cone markers, and Ki67 formed after ~d280, a tissue age that equates to the first post-natal month when retinoblastomas emerge. Single-cell transcriptomic profiling at different tumorigenesis stages revealed distinct RB1-/- cell proliferation, cell differentiation, and cell stress states with high expression of CDKN2AARF RNA and p14ARF protein. In contrast to initially proliferating pre-indolence CPs, the later proliferating post-indolence retinoblastoma-like cells expressed CDKN2AARF RNA but not p14ARF protein, consistent with post-transcriptional silencing of p14ARF as a mechanism underlying indolence escape. RBROs lacking p14ARF exhibited sustained initial cone proliferation similar to indolence-escaped p14ARF-WT RBROs.
+Conclusion: We established a human retinoblastoma organoid model that recapitulates the cell-of-origin, developmental context, and temporal sequence of multi-step retinoblastoma genesis. This system uncovers stage-specific molecular signatures and highlights p53 pathway regulation &#8211; particularly p14ARF post-transcriptional silencing &#8211; as a key driver of the indolence-malignancy transition.

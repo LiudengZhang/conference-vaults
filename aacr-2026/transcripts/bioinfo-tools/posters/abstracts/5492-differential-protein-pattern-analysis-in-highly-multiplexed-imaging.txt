@@ -1,0 +1,12 @@
+# Differential protein pattern analysis in highly multiplexed imaging
+
+**Poster #**: 5492
+**Session**: Machine Learning for Image Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Gourab Ghosh Roy, Peng JiangNational Cancer Institute, Bethesda, MD
+
+---
+
+The recent progress in highly multiplexed protein imaging has advanced our ability to identify topological structures in tissue microenvironments associated with distinct clinical characteristics. However, a significant challenge with high dimensional imaging is how to systematically infer spatial features underlying different patient clinical groups, like cancer outcome groups or immunotherapy response vs resistance groups. We develop an artificial intelligence framework for identifying differential protein patterns between distinct groups from spatial proteomics images. Our image region-based framework does not need any prior manual or semi-automatic steps like cell segmentation and cell type annotation as required in existing spatial data analysis workflows, and therefore can capture essential features not defined by humans. The framework is also suitable for use with a low number of labeled samples, as is the case for exploratory spatial studies. We used the framework to identify differential protein patterns between different phenotypic groups from humans and mice. We expect that our proposed framework will be a useful tool for generating novel hypotheses regarding biomarkers or regulators of cancer therapy outcomes.

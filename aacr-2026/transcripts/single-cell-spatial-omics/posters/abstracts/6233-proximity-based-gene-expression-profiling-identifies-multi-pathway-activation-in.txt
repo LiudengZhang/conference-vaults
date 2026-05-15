@@ -1,0 +1,14 @@
+# Proximity-based gene expression profiling identifies multi-pathway activation in perivascular, perineural, and pseudo-capsule adjacent human prostate cancer cells
+
+**Poster #**: 6233
+**Session**: Tumor-Neuron Interactions and Neuro-Regulation of Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Rafael Sainz1, Kelvin W. Pond1, Beatrice S. Knudsen2, Gregory  C.  Rogers1, Noel  E.  Warfel1, Anne  E.  Cress1
+
+1University of Arizona Cancer Center, Tucson, AZ,2University of Utah, Salt Lake City, UT
+
+---
+
+Prostate cancer (PCa) progression is critically driven by the tumor microenvironment (TME), which imposes selective pressures and dictates specialized invasive behaviors, such as perineural and lymphovascular invasion. We hypothesized that heterogeneity within the tumor allows for the selection of functionally specialized cancer cell clones based on their proximity to TME niches. Using Spatial Transcriptomics, we profiled cancer cell populations at three critical invasive fronts: near nerves, vessels, and the prostatic pseudo-capsule from 55 human prostate tissue datasets. Differential expression analysis revealed distinct, niche-specific functional signatures: neurotropic clones near nerves exhibited a loss of prostate identity and a gain of neural adhesion genes (e.g., NCAM1, NTN1) consistent with perineural invasion; perivascular clones showed upregulation of ECM remodeling and an EMT-like state (e.g., ANXA2, CCN1), suggesting priming for intravasation; and pseudo-capsule-adjacent clones displayed a highly proliferative phenotype (e.g., CCND1, CDK4). These results demonstrate that the TME drives the functional specialization of PCa cells, refining our understanding of invasion and nominating several niche-specific pathways as potential therapeutic targets. Studies are currently ongoing to validate these signatures, refine heterogeneity scoring, and cross-link the identified genes with pharmacological databases for future in-vitro inhibition assays.

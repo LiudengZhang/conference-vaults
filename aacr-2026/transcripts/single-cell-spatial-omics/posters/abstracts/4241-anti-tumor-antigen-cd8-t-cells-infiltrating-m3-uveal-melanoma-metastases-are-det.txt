@@ -1,0 +1,17 @@
+# Anti-tumor antigen CD8 T cells infiltrating M3 uveal melanoma metastases are detectable in the blood
+
+**Poster #**: 4241
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Sol  Y.  Nunez, Rachele Sintini, Camille Jamet, Setareh Aflaki, Abdoulaye Soumare, Pascale Mariani, Manuel Rodrigues, Marc-Henri Stern, Olivier Lantz, Ana  I.  Lalanne
+
+Institut Curie, Paris, France
+
+---
+
+Introduction: Uveal melanoma (UM) is the most common cancer of the eye in adults. 30-40 % of UM become metastatic with preferential tropism to the liver. UMs with loss of one copy of chromosome 3 (M3) are the most prone to metastasize. Current treatments for metastatic UM (mUM) remain largely ineffective. A better understanding of tumor-specific CD8+ T cell responses is essential for the development of new immunotherapies.
+Methods: Tumor-infiltrating and blood CD8+ T cells of mUM patients were studied using multicolor tetramer staining and spectral flow cytometry, VDJ single-cell RNA sequencing (VDJ-scRNAseq) and bulk TCR sequencing (TCRseq) for alpha and beta chains.
+Results: Analysis of the immune infiltrate of UM metastases revealed the presence of numerous CD8+ T cells in all disomic 3 (D3) (n=15) and M3 (n=22) metastases. In only 12 out of 22 M3 metastases, CD8+ T cells co-expressed CD39 and PD-1 markers, associated with tumor reactivity, as compared to the juxta-tumoral tissue (p=0.0003). VDJ-scRNAseq analysis evidenced increased expression of genes related to chronic activation (HAVCR2, LAG3 and TOX) and large clonal expansions of CD39+PD1+CD8+ T cells, which were the only proliferating cells in the tumor bed. The tumor antigen (Ag) specificity of CD39+PD1+CD8+ T cells was confirmed by staining with tetramers loaded with the tumor associated Ag, Melan-A, while the CMV-specific CD8+ T cells did not co-express CD39 and PD1. A coordinated immune response in the liver and the blood in matched metastasis-blood samples was revealed by a strong positive correlation (Rpea=0.7366, p=0.0017, n=15) between the proportion of memory Melan-A-specific CD8+ T cells in the blood and CD39+PD-1+CD8+ T cells in metastases. Notably, only metastatic patients harbored a significantly higher percentage of memory Melan-A-specific CD8+ T cells as compared to healthy donors (n=9, p=0.0133) and primary UM patients (n=13, p=0.0096), confirming the localized nature of the immune response in the eye, reported by our team (JEM, 2024). To explore if tumor-reactive CD8+ T cells of other tumor-Ag specificities could also recirculate, we performed scRNAseq and scTCRseq analysis of four M3 metastases along with bulk TCRseq for alpha and beta chains in the blood. A large proportion (between 18% and 42%, depending on the patient) of the most expanded CD39+PD1+CD8+ TCR clones (&#8805; 3 cells) from the metastasis were also found in the circulation at the time of liver resection. The stage of the disease when these expanded metastasis-reactive clones appear in the blood and their Ag specificity are currently under investigation.
+Conclusions: A subset of M3 mUM patients exhibit an anti-tumor Ag response in liver metastases which was also detectable in the blood. Further characterization of these tumor-Ag specific CD8+ T cells and identifying their Ag specificities may lead to novel biomarkers of metastatic disease as well as novel therapeutic targets.

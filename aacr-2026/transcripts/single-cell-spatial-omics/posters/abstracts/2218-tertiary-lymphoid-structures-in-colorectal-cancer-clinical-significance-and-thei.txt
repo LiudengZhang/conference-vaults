@@ -1,0 +1,14 @@
+# Tertiary lymphoid structures in colorectal cancer: Clinical significance and their interaction with CAFs and the immune microenvironment
+
+**Poster #**: 2218
+**Session**: Tertiary Lymphoid Structures in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Zizhou Wang1, Hiroaki Kasashima1, Yukina Kusunoki2, Yasuhiro Fukui1, Iguru Omori1, Nobuhiro Naito1, Hideki Tanda1, Yuki Seki1, Kenji Kuroda1, Yuichiro Miki1, Mami Yoshii1, Tatsuro Tamura1, Masatsune Shibutani1, Takahiro Toyokawa1, Yu Muta3, Yuki Nakanishi3, Masakazu Yashiro4, Kiyoshi Maeda1
+
+1Department of Gastroenterological Surgery, Osaka Metropolitan University, Osaka, Japan,2Department of Pathophysiology, Osaka Metropolitan University, Osaka, Japan,3Department of Gastroenterology and Hepatology, Kyoto University, Japan, Kyoto, Japan,4Department of Molecular Oncology and Therapeutics, Osaka Metropolitan University, Osaka, Japan
+
+---
+
+Colorectal cancer (CRC) is a major malignancy with high global mortality. The tumor immune microenvironment, particularly tertiary lymphoid structures (TLSs), has gained increasing attention for its role in antitumor immunity. However, their specific functions in CRC and the prognostic relevance of TLS-associated cells remain unclear. We analyzed 166 CRC patients who underwent curative resection, evaluating TLSs by hematoxylin and eosin (H&#38;E) staining and immunohistochemistry for CD20, &#945;-SMA, CD8, CD4 and CD103. We additionally performed Opal-based multiplex immunofluorescence (mIF) with a two-plex panel (CD20 and &#945;-SMA) to validate the presence of cancer-associated fibroblasts (CAFs) within TLSs. Patients were categorized by TLS density and immune-cell infiltration levels. TLSs were predominantly located at invasive margins, and higher TLS density correlated with better prognosis (P < 0.05). In contrast, high CAF density within TLSs was associated with poorer outcomes (P < 0.01), whereas a high abundance of CD8&#8314; T cells predicted improved survival. Furthermore, using Xenium Explorer spatial transcriptomics, we confirmed the spatial coexistence of CAFs and immune cells within TLSs in colorectal cancer. In particular, CAF accumulation within TLSs may reshape the immune microenvironment and potentially impair antitumor T-cell activity.

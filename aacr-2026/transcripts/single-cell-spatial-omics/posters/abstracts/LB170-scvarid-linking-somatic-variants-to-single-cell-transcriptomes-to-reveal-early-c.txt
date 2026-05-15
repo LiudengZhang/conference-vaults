@@ -1,0 +1,14 @@
+# scVarID: Linking somatic variants to single-cell transcriptomes to reveal early cancer-associated cell states
+
+**Poster #**: LB170
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Dongkwan Shin, Juyeon Cho, Jonghyun Lee, Seok-Won Jang
+
+National Cancer Center - Korea, Goyang-si, Gyeonggi-do, Korea, Republic of
+
+---
+
+Identifying how somatic variants reshape gene expression at single-cell resolution is essential for understanding cancer initiation and evolution, yet joint measurement of DNA and RNA in the same cell remains technically demanding. Single-cell RNA sequencing (scRNA-seq) captures rich transcriptional heterogeneity but typically discards variant-level information or treats it as bulk signal. We developed scVarID, a transcript-aware framework that maps externally called somatic variants from exome or panel sequencing onto single-cell transcriptomes, generating per-cell, per-variant matrices of reference and alternate allele counts across expressed molecules. To benchmark scVarID, we leveraged HG002, a reference individual with a gold-standard genomic variant set and single-cell long-read RNA sequencing data. Mapping curated variants onto scRNA-seq reads demonstrated high recovery of DNA variants in RNA and revealed distinct allele preferences in HLA class I and class II genes at single-cell resolution. Taking advantage of long-read coverage, scVarID further inferred haplotypes for expressed HLA alleles, phasing allele-specific expression patterns to individual cells and states. We then applied scVarID to colorectal cancer cohorts with matched tumor/normal exomes and scRNA-seq, confirming transcriptional activity for many somatic variants and observing similar HLA-focused allelic imbalance in immune and epithelial compartments, including rare normal epithelial subpopulations with skewed HLA-A ratios consistent with early disruption of antigen presentation. These results establish scVarID as a scalable approach for integrating externally called somatic variant profiles with single-cell expression programs in both reference and patient samples. By resolving genotype-phenotype relationships at cellular resolution, scVarID enables the discovery of subtle perturbations in immune-surveillance pathways and other cancer-relevant processes that are invisible to bulk sequencing, and provides a general framework for mapping evolutionary trajectories and high-risk cell populations in precision oncology.

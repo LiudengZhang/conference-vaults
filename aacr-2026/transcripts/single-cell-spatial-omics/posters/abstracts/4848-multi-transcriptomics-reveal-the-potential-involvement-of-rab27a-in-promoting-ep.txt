@@ -1,0 +1,17 @@
+# Multi-transcriptomics reveal the potential involvement of RAB27A in promoting epithelial-mesenchymal transition in pancreatic cancer
+
+**Poster #**: 4848
+**Session**: Epithelial-to-Mesenchymal Transition
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Zhanghao Li, Wing Ho Chan, Huiyi Guan, Sifan Yu, Aiping Lyu, Jin Liu*
+
+Hong Kong Baptist University, Hong Kong, China
+
+---
+
+Background: Pancreatic adenocarcinoma (PAAD) is a lethal malignancy with early metastasis, a process driven by epithelial-mesenchymal transition (EMT). Although RAB27A is implicated in cancer progression, its specific role in regulating EMT in PAAD remains unclear.
+Objective: This study aims to investigate the role of RAB27A in PAAD-associated EMT and to characterize its functional impact on malignant phenotypes.Methods: RAB27A expression and its correlation with patient survival were analyzed in the TCGA-PAAD cohort. Spatial transcriptomics was used to assess its enrichment in tumor regions. Gene Set Enrichment Analysis (GSEA) was performed to link RAB27A expression to the EMT program. For functional characterization, RAB27A was knocked down via siRNA in human (PANC-1) and murine (Panc-02) PAAD cell lines. Cellular proliferation, migration, and invasion were quantified by colony formation, wound healing, and transwell assays respectively. Protein levels of key EMT markers were assessed by Western blot.
+Results: Bioinformatic analysis revealed that high RAB27A expression was significantly associated with poor patient survival in PAAD. Spatial transcriptomics demonstrated a strong positive spatial correlation between RAB27A expression and tumor-annotated regions. GSEA linked high RAB27A expression to an activated EMT gene signature. Functionally, RAB27A knockdown markedly inhibited proliferation, migration, and invasion in PAAD cells. This functional suppression was accompanied by a molecular shift consistent with an attenuation of EMT, including increased E-cadherin and decreased N-cadherin levels.Conclusion: Our findings implicate the potential involvement of RAB27A in promoting EMT in pancreatic cancer.
+Future Directions: Future studies will focus on elucidating the precise molecular mechanisms by which RAB27A regulates EMT and evaluate the therapeutic potential of targeting RAB27A in pancreatic cancer.

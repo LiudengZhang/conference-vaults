@@ -1,0 +1,17 @@
+# FOLFIRINOX plus nivolumab promotes plasma cell production from intra-tumoral lymphoid aggregates in borderline resectable pancreatic adenocarcinoma
+
+**Poster #**: 6447
+**Session**: Biostatistics in Clinical Trials / Surgical Oncology
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Serena Zheng1, Jason Link1, Alykhan Premji1, Michael Srienc1, McKensie Hammons2, Shineui Kim2, David Dawson3, Zev Wainberg4, Timothy Donahue1
+
+1Surgery, UCLA Medical Center, Los Angeles, CA,2UCLA David Geffen School of Medicine, Los Angeles, CA,3Pathology, UCLA Medical Center, Los Angeles, CA,4Medicine, UCLA Medical Center, Los Angeles, CA
+
+---
+
+Background: Combination chemotherapy and immune checkpoint inhibitors have shown limited benefit in pancreatic ductal adenocarcinoma (PDAC) despite their success in other solid tumors. However, most studies were conducted in advanced disease. In a phase 1b/2 investigator-initiated clinical trial, we evaluated immunologic effects of neoadjuvant FOLFIRINOX (FFX) plus nivolumab (nivo) in patients with borderline-resectable (BR) PDAC.
+Methods: Resected tumor tissue was analyzed by bulk RNA sequencing with CIBERSORT leukocyte deconvolution, immunohistochemical (IHC) quantification of plasma cells and characterization of lymphoid aggregates (LAs), and 10x Xenium spatial transcriptomics (ST) to investigate LA organization. In parallel, tumor draining lymph node (TDLN) cores from untreated, FFX-only, and FFX+nivo cohorts were profiled with Xenium ST.
+Results: Across paired pre- and post-treatment samples, intra-tumoral CD8 T cells and plasma cells increased concurrently. Compared with historical FFX controls, nivo-treated tumors had significantly higher plasma cell abundance (p=0.002) and a modest CD8 T cell increase (p=0.037). IHC revealed that plasma cell abundance correlated with dense intra-tumoral LAs lacking germinal center-like structures (p<0.001), consistent with extrafollicular B cell differentiation. ST identified irregular LAs within the tumor bed with high plasma cell to B cell ratios (PBRs) enriched for terminally exhausted CD8 T cells and de-enriched for progenitor exhausted CD8 T cells and central memory CD4 T cells. In TDLN follicles from nivo-treated patients compared to historical FFX controls, plasma cells were again enriched (p=0.049), and PBR was significantly higher (p=0.035). However, CD8 T cell and memory B cell density decreased within the lymph node follicles (p<0.001 and p=0.005, respectively). T follicular helper (Tfh) cells provide a critical link between antigen-specific B cells and CD8 T cells; accordingly, IL-21 expression was de-enriched in TDLN Tfh cells from patients treated FFX+nivo compare to FFX alone (p<0.0001).
+Conclusion: Neoadjuvant FFX plus nivo in BR PDAC is associated with disorganized intra-tumoral LAs, extrafollicular-like plasma cell differentiation, and accumulation of terminally exhausted CD8 T cells within the tumor bed. TDLN follicles in nivo-treated patients also showed plasma cell-skewed, high-PBR architecture, but with reduced CD8 T cell and memory B cell density and selective loss of IL-21 expression in Tfh cells. These features may represent barriers to effective anti-PD-1-based chemoimmunotherapy in PDAC.

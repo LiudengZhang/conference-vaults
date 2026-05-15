@@ -1,0 +1,6377 @@
+WEBVTT
+
+1
+00:00:00.080 --> 00:00:00.500
+All right.
+
+2
+00:00:03.040 --> 00:00:07.010
+Welcome to our educational session on fibroblast dynamics,
+
+3
+00:00:07.100 --> 00:00:10.000
+how heterogeneity shapes the tumor microenvironment.
+
+4
+00:00:11.360 --> 00:00:13.260
+I'm going to be talking a lot about fibroblasts.
+
+5
+00:00:13.280 --> 00:00:17.140
+And you have this QR code up, so this is how you can go
+
+6
+00:00:17.200 --> 00:00:20.480
+online and type in questions. We also have two microphones.
+
+7
+00:00:20.520 --> 00:00:23.310
+You are more than welcome to come up and ask questions at the microphone.
+
+8
+00:00:23.700 --> 00:00:27.660
+But if you'd like to type your question online, that's the QR code,
+
+9
+00:00:27.760 --> 00:00:31.240
+and then it will pop up on the computer here so we can read out your question.
+
+10
+00:00:32.400 --> 00:00:32.860
+All right.
+
+11
+00:00:35.740 --> 00:00:36.140
+Great.
+
+12
+00:00:40.240 --> 00:00:41.720
+All right. Do you want to come up?
+
+13
+00:00:43.080 --> 00:00:44.920
+No. Okay.
+
+14
+00:00:59.740 --> 00:01:01.980
+All right. My name is Stephanie Duggan.
+
+15
+00:01:02.440 --> 00:01:06.160
+I'm an associate professor at Dana-Farber Cancer Institute and Harvard
+
+16
+00:01:06.200 --> 00:01:09.940
+Medical School, and we'll be talking to you today about fibroblasts and
+
+17
+00:01:10.000 --> 00:01:12.160
+anti-tumor immunity.
+
+18
+00:01:13.160 --> 00:01:14.300
+These are my disclosures.
+
+19
+00:01:16.400 --> 00:01:19.900
+All right. So when we think about fibroblasts, this is one of the most
+
+20
+00:01:19.960 --> 00:01:23.700
+fundamental cell types. It's part of
+
+21
+00:01:24.260 --> 00:01:27.780
+every normal healthy tissue. These are the cells that are
+
+22
+00:01:28.780 --> 00:01:32.220
+making your connective tissue, performing lots of structural
+
+23
+00:01:32.230 --> 00:01:35.980
+functions, and although this
+
+24
+00:01:36.000 --> 00:01:39.780
+session is about fibroblasts and cancer, I do want to iterate that these
+
+25
+00:01:39.880 --> 00:01:43.340
+are normal cells that are very important for homeostasis.
+
+26
+00:01:44.360 --> 00:01:47.920
+And they're not just one kind. And so if you look in various
+
+27
+00:01:48.000 --> 00:01:51.600
+tissues, the fibroblasts are poised for separate
+
+28
+00:01:51.700 --> 00:01:55.640
+functions in those tissues. All of them make extracellular matrix, some more
+
+29
+00:01:55.660 --> 00:01:59.200
+than others. But they also have a lot of metabolic functions.
+
+30
+00:01:59.880 --> 00:02:01.960
+They can secrete a lot of proteins.
+
+31
+00:02:02.020 --> 00:02:06.000
+These are cells that are really good at protein biosynthesis that's important
+
+32
+00:02:06.020 --> 00:02:09.521
+for making extracellular matrix, for remodeling extracellular matrix.
+
+33
+00:02:09.880 --> 00:02:13.860
+But they can also do things like secrete growth factors and cytokines
+
+34
+00:02:14.180 --> 00:02:17.860
+that can call in immune cells as needed or restrain them as needed.
+
+35
+00:02:19.180 --> 00:02:22.780
+And so this is a picture form, but it actually comes from a
+
+36
+00:02:22.920 --> 00:02:25.540
+lot of transcriptional profiling.
+
+37
+00:02:25.800 --> 00:02:29.780
+This is a really nice study from Shannon Turley's group, where
+
+38
+00:02:29.890 --> 00:02:33.520
+they looked at healthy tissues, and you can see the
+
+39
+00:02:33.560 --> 00:02:37.360
+tissues here. And a lot of them were public data sets where
+
+40
+00:02:37.400 --> 00:02:41.160
+they subsetted out fibroblasts and just asked, "What does the fibroblasts look like
+
+41
+00:02:41.220 --> 00:02:43.890
+in lung, in bone, in intestine?" And
+
+42
+00:02:45.320 --> 00:02:48.380
+they're slightly different. And so you see that there's some
+
+43
+00:02:48.420 --> 00:02:52.020
+heterogeneity. They're all capable of making extracellular
+
+44
+00:02:52.080 --> 00:02:56.060
+matrix, but they have slightly different gene transcriptions that make
+
+45
+00:02:56.320 --> 00:02:58.780
+the normal functions that are needed in those tissues.
+
+46
+00:03:01.760 --> 00:03:05.180
+A huge function, of course, is to produce the extracellular matrix.
+
+47
+00:03:05.360 --> 00:03:09.109
+We think of this in terms of collagens, but there's also a lot of
+
+48
+00:03:09.120 --> 00:03:13.040
+proteoglycans in there. Huge amount of ECM
+
+49
+00:03:13.080 --> 00:03:16.670
+components. This is an incredibly diverse set of
+
+50
+00:03:16.700 --> 00:03:20.590
+proteins that can be cross-linked in long fibers, that
+
+51
+00:03:20.620 --> 00:03:21.549
+can be cross-linked
+
+52
+00:03:22.920 --> 00:03:26.460
+in a more chaotic way. And a lot of the
+
+53
+00:03:26.500 --> 00:03:30.260
+remodeling of the extracellular matrix is also performed by fibroblasts.
+
+54
+00:03:30.480 --> 00:03:32.040
+Macrophages can contribute, too.
+
+55
+00:03:32.500 --> 00:03:36.360
+But in terms of both building and breaking down collagen, making
+
+56
+00:03:36.400 --> 00:03:39.820
+matrix metalloproteases to make sure that the
+
+57
+00:03:41.140 --> 00:03:43.640
+extracellular matrix is appropriately remodeled.
+
+58
+00:03:44.540 --> 00:03:48.240
+This is a cartoon, but also some really nice work.
+
+59
+00:03:48.840 --> 00:03:52.180
+This study was led by Richard Hynes' lab,
+
+60
+00:03:52.700 --> 00:03:56.440
+asking what proteins are there? And I think proteomics has
+
+61
+00:03:56.480 --> 00:04:00.400
+really led the way in this, where you can take the extracellular matrix from a
+
+62
+00:04:00.460 --> 00:04:04.350
+tissue, you can decellularize it, and ask, "Well, what is left?"
+
+63
+00:04:04.900 --> 00:04:08.260
+And it's a surprisingly rich set of proteins,
+
+64
+00:04:09.140 --> 00:04:12.480
+some of which are the core matrisome that are
+
+65
+00:04:12.520 --> 00:04:16.221
+detected across
+
+66
+00:04:16.300 --> 00:04:19.740
+tissues, but some of them are also more tissue-dependent.
+
+67
+00:04:20.640 --> 00:04:24.480
+And asking what does a tissue need in its extracellular matrix can be very
+
+68
+00:04:24.540 --> 00:04:28.380
+revealing about the function of the fibroblasts that secreted it in the first
+
+69
+00:04:28.440 --> 00:04:30.800
+place, and that tissue in particular.
+
+70
+00:04:33.600 --> 00:04:37.560
+And so we talked a bit about healthy homeostasis, but of
+
+71
+00:04:37.600 --> 00:04:39.830
+course, tissues can become inflamed.
+
+72
+00:04:40.340 --> 00:04:44.310
+And one of the huge important roles of the fibroblasts is
+
+73
+00:04:44.360 --> 00:04:47.740
+to sense tissue damage and to help mediate the
+
+74
+00:04:47.780 --> 00:04:50.740
+wound healing and remodeling of the extracellular matrix.
+
+75
+00:04:51.360 --> 00:04:51.660
+And
+
+76
+00:04:53.120 --> 00:04:56.860
+so the same subset of fibroblasts that we just surveyed
+
+77
+00:04:56.880 --> 00:05:00.740
+across healthy tissues also has a counterpart
+
+78
+00:05:00.800 --> 00:05:02.120
+in diseased tissues
+
+79
+00:05:02.920 --> 00:05:06.480
+that look slightly different, but are oftentimes recruiting
+
+80
+00:05:06.580 --> 00:05:10.420
+in innate inflammatory cells, so they make a lot of chemokines.
+
+81
+00:05:10.500 --> 00:05:13.730
+These are your CCL and CXCL family of proteins,
+
+82
+00:05:14.620 --> 00:05:18.080
+which form gradients that are deposited in the
+
+83
+00:05:18.160 --> 00:05:22.140
+extracellular matrix that allow for things like monocytes and neutrophils
+
+84
+00:05:22.180 --> 00:05:22.840
+to come in.
+
+85
+00:05:23.820 --> 00:05:27.400
+Monocytes, of course, can differentiate into macrophages and help
+
+86
+00:05:28.120 --> 00:05:30.560
+with that wound repair and tissue healing.
+
+87
+00:05:31.740 --> 00:05:32.260
+All right.
+
+88
+00:05:34.560 --> 00:05:38.520
+And this is going on in cancer. It's going on
+
+89
+00:05:39.100 --> 00:05:42.850
+at a much higher rate. And so cancer was
+
+90
+00:05:43.280 --> 00:05:45.760
+originally described as a wound that doesn't heal.
+
+91
+00:05:46.340 --> 00:05:50.330
+And so many of these activation of fibroblast pathways, of
+
+92
+00:05:50.420 --> 00:05:53.280
+course, are also happening in cancer. They're happening chronically.
+
+93
+00:05:53.300 --> 00:05:54.580
+They're happening for a long time.
+
+94
+00:05:55.100 --> 00:05:58.930
+And many of the processes that we think about in terms of cancer directly
+
+95
+00:05:59.020 --> 00:06:02.570
+act to activate fibroblasts. And so certainly, these are
+
+96
+00:06:02.800 --> 00:06:06.656
+contact-dependent signalsWith the
+
+97
+00:06:06.716 --> 00:06:08.456
+cancer cells and extracellular matrix,
+
+98
+00:06:09.496 --> 00:06:13.396
+DNA damage, factors like TGF-beta, which we're going to talk a lot
+
+99
+00:06:13.456 --> 00:06:17.216
+more about, and stress induced by hypoxia or
+
+100
+00:06:17.236 --> 00:06:20.976
+reactive oxygen species, can certainly all activate these sort
+
+101
+00:06:21.036 --> 00:06:24.816
+of constitutive fibroblasts that are present in whatever tissue the
+
+102
+00:06:24.856 --> 00:06:28.216
+cancer is arising in and turn them into this so-called CAF.
+
+103
+00:06:28.316 --> 00:06:30.336
+This cancer-associated fibroblasts.
+
+104
+00:06:30.736 --> 00:06:33.956
+And so we've appreciated these for a long time, that they're in all
+
+105
+00:06:34.076 --> 00:06:37.976
+cancers. They seem to be really bad or at
+
+106
+00:06:38.016 --> 00:06:41.716
+least complicated and sort of appreciating that they
+
+107
+00:06:41.796 --> 00:06:44.796
+have an origin with the normal tissue
+
+108
+00:06:45.496 --> 00:06:46.516
+is an important
+
+109
+00:06:48.036 --> 00:06:48.736
+point to note.
+
+110
+00:06:49.916 --> 00:06:53.756
+And so although we have CAFs in every cancer type,
+
+111
+00:06:54.656 --> 00:06:58.276
+we are today going to use as an example pancreatic
+
+112
+00:06:58.336 --> 00:07:01.996
+cancer. And so our speakers today all are sort of
+
+113
+00:07:02.096 --> 00:07:03.796
+active in the pancreatic cancer field.
+
+114
+00:07:04.236 --> 00:07:07.405
+And the reason that pancreatic cancer has kind of led the way in thinking about
+
+115
+00:07:07.405 --> 00:07:10.516
+fibroblasts is because it is highly desmoplastic.
+
+116
+00:07:10.856 --> 00:07:14.836
+I have a cartoon that I drew here, but you can also see from the H&amp;E
+
+117
+00:07:14.876 --> 00:07:18.056
+that you have these tiny nests of cancer cells that are the dark
+
+118
+00:07:18.156 --> 00:07:19.116
+purple,
+
+119
+00:07:19.936 --> 00:07:23.756
+that are kind of in this giant sea of extracellular matrix.
+
+120
+00:07:23.916 --> 00:07:27.196
+And so you have these activated fibroblasts making this huge amount of
+
+121
+00:07:27.256 --> 00:07:29.156
+stroma that can,
+
+122
+00:07:29.976 --> 00:07:33.816
+by its sheer biomass, outweigh the actual cancer cells themselves.
+
+123
+00:07:34.476 --> 00:07:37.376
+And so this has been appreciated for a very long time.
+
+124
+00:07:38.916 --> 00:07:39.756
+And so
+
+125
+00:07:40.876 --> 00:07:41.736
+how can we
+
+126
+00:07:43.296 --> 00:07:47.116
+therapeutically intervene? And I would say that we're going to talk
+
+127
+00:07:47.196 --> 00:07:50.256
+about all of these strategies to either deplete
+
+128
+00:07:50.276 --> 00:07:53.876
+fibroblasts or the extracellular matrix, and this kind of makes sense.
+
+129
+00:07:53.936 --> 00:07:57.126
+You look at something like pancreatic cancer, it has a very horrible prognosis.
+
+130
+00:07:57.176 --> 00:08:00.476
+It's got all of this desmoplasia. And so the obvious
+
+131
+00:08:00.936 --> 00:08:04.496
+thought is, okay, well, maybe that stroma is
+
+132
+00:08:05.096 --> 00:08:09.076
+contributing to progression of the tumor, and so what can we do about it?
+
+133
+00:08:10.076 --> 00:08:12.396
+And so these are strategies that have been tried.
+
+134
+00:08:13.356 --> 00:08:15.136
+We'll talk about Smoothened inhibitors,
+
+135
+00:08:17.355 --> 00:08:21.116
+pegylated hyaluronidase to enzymatically digest the extracellular
+
+136
+00:08:21.176 --> 00:08:21.696
+matrix,
+
+137
+00:08:22.856 --> 00:08:25.756
+blockade of two different cytokines, and CAR T cells.
+
+138
+00:08:27.776 --> 00:08:30.396
+All right. And so what is Smoothened?
+
+139
+00:08:30.596 --> 00:08:34.496
+This is a cartoon from Sunil Hingorani's lab, who's worked on this
+
+140
+00:08:34.536 --> 00:08:38.376
+quite a bit, where the tumor cells themselves can
+
+141
+00:08:38.437 --> 00:08:41.596
+make these Hedgehog ligands that will bind to
+
+142
+00:08:41.636 --> 00:08:45.516
+Patched1, which is a natural inhibitor of the Smoothened
+
+143
+00:08:45.656 --> 00:08:47.236
+protein, which can then
+
+144
+00:08:48.496 --> 00:08:52.276
+prevent it from signaling. And if you block this pathway, then Smoothened will
+
+145
+00:08:52.316 --> 00:08:56.176
+naturally activate these Gli transcription factors, and this can lead
+
+146
+00:08:56.256 --> 00:08:59.856
+to proliferation and activation of these fibroblasts.
+
+147
+00:09:01.576 --> 00:09:05.276
+And so there was a seminal study published a while ago now by Ken
+
+148
+00:09:05.356 --> 00:09:05.916
+Olive's group,
+
+149
+00:09:06.736 --> 00:09:10.136
+when he was in Tev Tuveson's lab, looking at, okay, well, maybe
+
+150
+00:09:10.756 --> 00:09:14.236
+can we use these Smoothened inhibitors to try to kind of
+
+151
+00:09:15.036 --> 00:09:17.876
+debulk this extracellular matrix with the
+
+152
+00:09:17.976 --> 00:09:21.925
+observation, as you can see in these pictures, that if you have
+
+153
+00:09:21.956 --> 00:09:25.716
+a pancreatic tumor growing in a spontaneous so-called
+
+154
+00:09:25.776 --> 00:09:26.896
+KPC gem mouse,
+
+155
+00:09:27.696 --> 00:09:30.316
+it's this dark spot in the middle. And what is this dark spot?
+
+156
+00:09:30.376 --> 00:09:33.996
+Well, this is looking at sort of a fluorescent gemcitabine
+
+157
+00:09:34.116 --> 00:09:37.916
+trying to get in, and you can see that the drug is able to get everywhere in the
+
+158
+00:09:37.956 --> 00:09:39.656
+pancreas but not the tumor. Right?
+
+159
+00:09:39.736 --> 00:09:42.156
+And so it was sort of obvious, like okay, it's very dense.
+
+160
+00:09:42.236 --> 00:09:44.296
+You try to cut into this, it's very hard, like a rock.
+
+161
+00:09:44.796 --> 00:09:48.786
+Maybe if we got rid of that extracellular matrix by sort of inhibiting these
+
+162
+00:09:48.816 --> 00:09:50.936
+fibroblasts, could we get more drug in?
+
+163
+00:09:51.736 --> 00:09:53.716
+And so gemcitabine is one of the
+
+164
+00:09:54.696 --> 00:09:58.346
+chemotherapies used in pancreas cancer, and you can see in the mouse model that
+
+165
+00:09:58.376 --> 00:10:02.256
+combination of the Smoothened inhibitor with gemcitabine is able to extend
+
+166
+00:10:02.296 --> 00:10:05.516
+survival in an incredibly difficult mouse model.
+
+167
+00:10:08.956 --> 00:10:12.676
+So this had some unfortunate results in humans,
+
+168
+00:10:12.736 --> 00:10:16.136
+though. And I do want to kind of show you the mouse and the human
+
+169
+00:10:16.396 --> 00:10:20.026
+data. And so the initial trial that was
+
+170
+00:10:20.116 --> 00:10:24.066
+started right on the heels of this pre-clinical study was using
+
+171
+00:10:24.096 --> 00:10:25.156
+a Smoothened inhibitor,
+
+172
+00:10:26.016 --> 00:10:29.856
+that's listed here, where the trial had to stop
+
+173
+00:10:29.916 --> 00:10:33.696
+early. This was not actually published, but it was released by the company,
+
+174
+00:10:34.156 --> 00:10:38.116
+that the Smoothened inhibitor plus gemcitabine actually made the tumors progress
+
+175
+00:10:38.396 --> 00:10:40.576
+faster than with chemotherapy alone.
+
+176
+00:10:41.336 --> 00:10:45.236
+A second trial was done where you can see that there was not really
+
+177
+00:10:45.276 --> 00:10:48.256
+much of a difference, but I think that this early press release
+
+178
+00:10:48.776 --> 00:10:51.946
+really was a huge wake-up call to the field saying,
+
+179
+00:10:52.536 --> 00:10:56.296
+"Wow, we really don't understand fibroblasts." We show that we
+
+180
+00:10:56.336 --> 00:11:00.316
+can deplete them or sort of quiesce them, and this idea that
+
+181
+00:11:00.336 --> 00:11:01.436
+we just get more drug in
+
+182
+00:11:02.476 --> 00:11:06.216
+ended up making the patient's survival worse.
+
+183
+00:11:08.776 --> 00:11:12.496
+Similarly, there have been strategies to try to deplete the extracellular
+
+184
+00:11:12.556 --> 00:11:16.516
+matrix, and so pegylated hyaluronidase, this is an enzyme that kind
+
+185
+00:11:16.556 --> 00:11:20.176
+of cleaves up hyaluronic acid, sort of pictured here in
+
+186
+00:11:20.236 --> 00:11:21.476
+yellow. And
+
+187
+00:11:22.396 --> 00:11:26.236
+if you look by immunohistochemistry, you can see that there's a range
+
+188
+00:11:26.336 --> 00:11:30.216
+of hyaluronic acid in pancreatic cancer in humans, some of which
+
+189
+00:11:30.256 --> 00:11:34.216
+can be quite, quite high. And so if you are able
+
+190
+00:11:34.256 --> 00:11:38.066
+to digest this enzymatically, then maybe you'll sort of dedensify that
+
+191
+00:11:38.096 --> 00:11:41.976
+extracellular matrix. The blood vessels are going to be less
+
+192
+00:11:41.996 --> 00:11:45.276
+compressed, and you'll be able to get more drug in.
+
+193
+00:11:46.556 --> 00:11:50.396
+And so the initial Phase II trial with gemcitabine and
+
+194
+00:11:50.436 --> 00:11:54.336
+paclitaxel, listed here as AG, was
+
+195
+00:11:54.396 --> 00:11:58.285
+promising. Although in Phase III, you can see that there was really
+
+196
+00:11:58.336 --> 00:12:01.916
+no effect of using the pegylated hyaluronidase to
+
+197
+00:12:02.616 --> 00:12:05.116
+increase chemotherapy delivery to the tumor.
+
+198
+00:12:05.916 --> 00:12:06.276
+And
+
+199
+00:12:07.156 --> 00:12:10.476
+very strikingly, if you just change the chemotherapy
+
+200
+00:12:10.576 --> 00:12:13.968
+regimenAnd this is now FOLFIRINOX,
+
+201
+00:12:14.428 --> 00:12:15.228
+which is
+
+202
+00:12:16.368 --> 00:12:19.428
+used very frequently in first-line pancreas cancer.
+
+203
+00:12:19.628 --> 00:12:22.488
+You can see that these labels are not mixed up, that in fact,
+
+204
+00:12:23.648 --> 00:12:26.308
+depleting the extracellular matrix with pegylated
+
+205
+00:12:26.348 --> 00:12:30.248
+hyaluronidase worsens overall survival.
+
+206
+00:12:31.168 --> 00:12:31.648
+And so
+
+207
+00:12:32.808 --> 00:12:36.448
+this again sort of had a moment of reckoning for the
+
+208
+00:12:36.528 --> 00:12:39.848
+field where we thought, well, maybe there's something about this, that
+
+209
+00:12:39.868 --> 00:12:42.318
+there's fibroblast heterogeneity.
+
+210
+00:12:43.368 --> 00:12:46.648
+Are there some fibroblasts that are actually good, that are sort of tumor
+
+211
+00:12:46.668 --> 00:12:49.638
+restraining, and maybe we need to understand this better.
+
+212
+00:12:50.928 --> 00:12:51.248
+And so
+
+213
+00:12:52.428 --> 00:12:55.948
+this led to some initial discoveries on sort of bucketing
+
+214
+00:12:55.988 --> 00:12:59.588
+fibroblasts into multiple subsets.
+
+215
+00:12:59.668 --> 00:13:03.548
+And one of the first ways of thinking about this was looking
+
+216
+00:13:03.588 --> 00:13:07.448
+at transcriptional profiling. And you could see, this is work
+
+217
+00:13:07.768 --> 00:13:11.728
+from Julia Biffi when she was with Dave Tuveson, that the
+
+218
+00:13:11.868 --> 00:13:15.867
+fibroblasts that are next to the cancer cells, that are sort of surrounding
+
+219
+00:13:15.888 --> 00:13:19.088
+these little cancer cell nests, receive a lot of
+
+220
+00:13:19.128 --> 00:13:22.228
+TGF-beta signaling, and they become these sort of
+
+221
+00:13:22.308 --> 00:13:25.648
+myofibroblastic-like CAFs or myCAFs.
+
+222
+00:13:26.168 --> 00:13:28.248
+These make a lot of extracellular matrix.
+
+223
+00:13:28.308 --> 00:13:30.868
+They have direct contact with the tumor cells.
+
+224
+00:13:32.148 --> 00:13:35.668
+Whereas the fibroblasts that are sort of further away
+
+225
+00:13:36.468 --> 00:13:40.388
+are not getting as much TGF-beta signaling, and they can
+
+226
+00:13:40.468 --> 00:13:44.388
+see more sort of IL-1, as it induces this phenotype.
+
+227
+00:13:44.868 --> 00:13:48.158
+And they're making some extracellular matrix, but a lot of
+
+228
+00:13:48.388 --> 00:13:51.728
+cytokines and chemokines that are interacting with the immune system.
+
+229
+00:13:51.788 --> 00:13:55.708
+So IL-6 is hugely produced by these fibroblasts,
+
+230
+00:13:56.688 --> 00:14:00.068
+as is the Th2 alarmin IL-33, as well as
+
+231
+00:14:00.468 --> 00:14:04.048
+complement proteins. And so these were termed inflammatory
+
+232
+00:14:04.088 --> 00:14:08.028
+fibroblasts or iCAFs, thinking there would be an interface
+
+233
+00:14:08.068 --> 00:14:11.608
+with the immune system. And when we said, "Oh, okay, look, there are two kinds of
+
+234
+00:14:11.648 --> 00:14:14.008
+fibroblasts. Maybe there's the good kind and the bad kind."
+
+235
+00:14:15.388 --> 00:14:17.568
+And so this has now been tried in humans.
+
+236
+00:14:17.648 --> 00:14:21.628
+Okay, we know that there are cytokine signals that prevent or
+
+237
+00:14:22.008 --> 00:14:23.128
+preclude development
+
+238
+00:14:24.388 --> 00:14:27.668
+of these sort of iCAFs and myCAFs. And so I'm going to show you data
+
+239
+00:14:27.868 --> 00:14:31.408
+from a blockade of TGF-beta, which should
+
+240
+00:14:31.628 --> 00:14:35.248
+deplete the myCAFs, not the iCAFs, and IL-1 beta
+
+241
+00:14:35.328 --> 00:14:37.548
+blockade, which should have the converse effect.
+
+242
+00:14:39.128 --> 00:14:42.668
+And so this is the mouse data. This was done in my lab, where we looked at
+
+243
+00:14:42.708 --> 00:14:46.548
+TGF-beta blockade in a mouse model of pancreas cancer, showing that it
+
+244
+00:14:46.608 --> 00:14:50.468
+nicely prevents signaling through phospho-SMAD2.
+
+245
+00:14:50.938 --> 00:14:54.048
+And if you look at fibroblasts, you can see that indeed, the sort of
+
+246
+00:14:54.108 --> 00:14:56.888
+alpha-SMA positive myCAFs were depleted.
+
+247
+00:14:56.948 --> 00:14:58.988
+That was statistically significant.
+
+248
+00:14:59.328 --> 00:15:02.428
+So the drug sort of does the thing we thought it was supposed to do.
+
+249
+00:15:03.528 --> 00:15:06.788
+But the trials in humans have been very
+
+250
+00:15:06.828 --> 00:15:10.368
+disappointing. In fact, kind of in the same vein of, wow,
+
+251
+00:15:10.748 --> 00:15:11.668
+this backfired.
+
+252
+00:15:12.488 --> 00:15:15.608
+This is showing the published data, which is primarily
+
+253
+00:15:17.148 --> 00:15:20.788
+lung cancer and colorectal cancer, but the trial of TGF-beta
+
+254
+00:15:20.828 --> 00:15:24.508
+blockade with gemcitabine plus paclitaxel in
+
+255
+00:15:24.568 --> 00:15:27.948
+pancreas cancer was actually stopped in phase three
+
+256
+00:15:28.848 --> 00:15:29.808
+for a
+
+257
+00:15:31.308 --> 00:15:33.028
+worsening of overall survival.
+
+258
+00:15:33.948 --> 00:15:34.208
+So
+
+259
+00:15:35.048 --> 00:15:36.468
+this is not the path to go down.
+
+260
+00:15:38.088 --> 00:15:41.317
+Similarly, we've looked at IL-1 beta blockade.
+
+261
+00:15:42.238 --> 00:15:43.817
+Most of the data that's
+
+262
+00:15:44.668 --> 00:15:48.638
+firmly established is in lung cancer, where there was a very promising signal that
+
+263
+00:15:48.728 --> 00:15:52.668
+sort of early blockade of IL-1 beta could prevent the formation
+
+264
+00:15:52.708 --> 00:15:53.468
+of lung cancer.
+
+265
+00:15:54.428 --> 00:15:58.068
+I think that's still true, but if you have patients who have established lung
+
+266
+00:15:58.128 --> 00:16:01.908
+cancer, these were three very disappointingly
+
+267
+00:16:01.968 --> 00:16:04.148
+negative trials where it just didn't do anything.
+
+268
+00:16:04.668 --> 00:16:08.568
+And this is data we were involved in, in pancreas cancer, where although
+
+269
+00:16:08.628 --> 00:16:12.408
+this waterfall plot looks a little better, it really doesn't
+
+270
+00:16:12.468 --> 00:16:16.428
+beat out chemotherapy alone, suggesting that there
+
+271
+00:16:16.468 --> 00:16:20.388
+was not a big effect of IL-1 beta blockade in
+
+272
+00:16:20.468 --> 00:16:21.268
+pancreas cancer.
+
+273
+00:16:23.468 --> 00:16:26.928
+So perhaps a little more promisingly, I don't want to leave you with
+
+274
+00:16:27.528 --> 00:16:31.428
+such a depressing historical run through our clinical trial
+
+275
+00:16:31.488 --> 00:16:31.768
+history.
+
+276
+00:16:32.667 --> 00:16:36.388
+CAR T cells have been developed that target fibroblast
+
+277
+00:16:36.488 --> 00:16:40.188
+activating proteins of FAP, which is expressed on many fibroblasts.
+
+278
+00:16:40.208 --> 00:16:41.528
+This is the mouse model
+
+279
+00:16:42.728 --> 00:16:46.198
+showing that, in fact, you can deplete FAP-positive
+
+280
+00:16:46.268 --> 00:16:50.208
+fibroblasts. Alpha-SMA goes down, so the CAR T cells
+
+281
+00:16:50.248 --> 00:16:53.198
+have their mechanism of action, and they can
+
+282
+00:16:53.728 --> 00:16:57.388
+control pancreas tumors quite well, sort of maintaining stable
+
+283
+00:16:57.408 --> 00:16:58.598
+disease for a long time.
+
+284
+00:17:00.988 --> 00:17:04.949
+And I think encouragingly, the CAR T cell doesn't
+
+285
+00:17:04.988 --> 00:17:07.148
+even necessarily have to deplete the fibroblasts.
+
+286
+00:17:07.209 --> 00:17:11.168
+And so this is a very interesting study where there is
+
+287
+00:17:11.179 --> 00:17:14.748
+a CAR T that was developed to target a fibronectin splice
+
+288
+00:17:14.768 --> 00:17:18.338
+variant that is unique to the extracellular matrix of many cancers,
+
+289
+00:17:18.388 --> 00:17:22.108
+including pancreas cancer. In this case, it's actually a melanoma example,
+
+290
+00:17:22.969 --> 00:17:23.588
+where
+
+291
+00:17:24.908 --> 00:17:27.748
+you ask yourself, why would you make a CAR T cell that doesn't even kill a
+
+292
+00:17:28.728 --> 00:17:32.658
+cell, right? It's targeting a protein in the extracellular matrix.
+
+293
+00:17:32.708 --> 00:17:36.228
+That seems like a ridiculously futile effort.
+
+294
+00:17:36.988 --> 00:17:40.968
+And yet you can see that the tumors are controlled quite well
+
+295
+00:17:41.028 --> 00:17:44.168
+in these mice. And when we looked by
+
+296
+00:17:44.428 --> 00:17:47.628
+immunohistochemistry, you can see that you get this massive
+
+297
+00:17:47.688 --> 00:17:51.408
+influx of activated T cells, a reopening of
+
+298
+00:17:51.448 --> 00:17:55.068
+CD31 here, so these are nicely patented blood vessels.
+
+299
+00:17:55.828 --> 00:17:56.508
+And the
+
+300
+00:17:57.608 --> 00:18:01.368
+effect is likely due to just localizing the CAR T as a major
+
+301
+00:18:01.508 --> 00:18:05.468
+source of interferon gamma that reprograms that whole
+
+302
+00:18:05.528 --> 00:18:09.248
+tumor microenvironment. And it doesn't really matter that it doesn't actually kill
+
+303
+00:18:09.288 --> 00:18:13.212
+any cells.All right. So I've sort of left
+
+304
+00:18:13.272 --> 00:18:16.592
+you with, well, maybe there's some fibroblast heterogeneity.
+
+305
+00:18:16.622 --> 00:18:19.632
+Are there any clearly good or bad fibroblasts?
+
+306
+00:18:19.712 --> 00:18:23.502
+And we've talked most about how to bucket them by transcriptional states,
+
+307
+00:18:23.912 --> 00:18:26.132
+where you have kind of this iCAF, myCAF.
+
+308
+00:18:27.032 --> 00:18:29.671
+This is really only one way to think about them.
+
+309
+00:18:29.822 --> 00:18:32.992
+And I would say that my colleagues here, Klaus and Mara,
+
+310
+00:18:33.912 --> 00:18:37.652
+have contributed a lot to understanding, are there
+
+311
+00:18:38.272 --> 00:18:40.912
+nuances of how you can define these cells better?
+
+312
+00:18:41.462 --> 00:18:45.412
+This is a figure from Mara's recent review, which goes
+
+313
+00:18:45.472 --> 00:18:48.972
+into all the different ways of looking at cell of origin, surface
+
+314
+00:18:49.012 --> 00:18:52.952
+markers, with the hope that maybe if we just figured out
+
+315
+00:18:52.972 --> 00:18:56.662
+who were the really, really good fibroblasts, that maybe we could
+
+316
+00:18:56.712 --> 00:18:59.382
+keep those and reprogram the other ones.
+
+317
+00:19:00.432 --> 00:19:01.572
+And so to that end,
+
+318
+00:19:02.412 --> 00:19:03.952
+this is a study
+
+319
+00:19:05.012 --> 00:19:06.532
+looking at sort of
+
+320
+00:19:08.012 --> 00:19:11.632
+epidemiologically, whether
+
+321
+00:19:11.852 --> 00:19:14.652
+there was a signal for overall survival by
+
+322
+00:19:14.972 --> 00:19:18.132
+subdividing cancer-associated fibroblasts and sort of
+
+323
+00:19:18.512 --> 00:19:21.852
+promoting CAFs, these pro-CAFs or restraining CAFs,
+
+324
+00:19:22.252 --> 00:19:25.352
+which mirror similarly the iCAF, myCAF
+
+325
+00:19:25.362 --> 00:19:28.472
+designation, but are slightly differently based.
+
+326
+00:19:28.512 --> 00:19:32.312
+And this is kind of the biggest effect you can see in shifting those overall
+
+327
+00:19:32.372 --> 00:19:36.052
+survival curves, which, I mean, all of you are looking at this as P value
+
+328
+00:19:36.132 --> 00:19:39.892
+significant, but pancreas cancer is really bad, and
+
+329
+00:19:39.972 --> 00:19:43.652
+so what are we actually going to succeed in if
+
+330
+00:19:44.052 --> 00:19:46.432
+all we're doing is shifting the fibroblast subsets?
+
+331
+00:19:47.232 --> 00:19:49.332
+So is this the best we can hope from it?
+
+332
+00:19:51.612 --> 00:19:55.052
+I do want to mention briefly a sort of minor population of
+
+333
+00:19:55.092 --> 00:19:58.592
+fibroblasts that came along with the sort of iCAF, myCAF
+
+334
+00:19:59.192 --> 00:20:03.092
+designation that there was appreciated to be a smaller
+
+335
+00:20:03.172 --> 00:20:06.252
+subset, more rare, that express MHC class II.
+
+336
+00:20:07.552 --> 00:20:11.172
+I love this. I'm primarily an immunologist, and so this is
+
+337
+00:20:11.252 --> 00:20:15.212
+how cells present antigen to CD4 T cells, your helper
+
+338
+00:20:15.292 --> 00:20:18.952
+T cells, and so what is it doing on a fibroblast?
+
+339
+00:20:19.872 --> 00:20:21.312
+And so this,
+
+340
+00:20:22.632 --> 00:20:26.521
+I think to understand it fully, we need to go back to sort of what are these
+
+341
+00:20:26.552 --> 00:20:29.232
+fibroblasts doing in the normal pancreas.
+
+342
+00:20:29.332 --> 00:20:32.652
+And this is a really nice study looking
+
+343
+00:20:32.852 --> 00:20:34.552
+in diabetes
+
+344
+00:20:35.712 --> 00:20:39.692
+models, and actually in humans with pre-diabetes, where you can see that you
+
+345
+00:20:39.712 --> 00:20:43.452
+have the islets here, right? And these islets are surrounded by
+
+346
+00:20:43.532 --> 00:20:47.352
+these class II positive fibroblasts. And what are they doing?
+
+347
+00:20:47.472 --> 00:20:51.412
+They're there so that you can present antigen
+
+348
+00:20:51.512 --> 00:20:55.392
+to a CD4 T cell, but turn it into a Treg, a regulatory
+
+349
+00:20:55.452 --> 00:20:58.932
+T cell. And this way, you can prevent autoimmune
+
+350
+00:20:58.952 --> 00:21:02.932
+diabetes and also pancreatitis. So I think this is a very important natural
+
+351
+00:21:02.952 --> 00:21:06.452
+process by which the pancreas promotes immune tolerance
+
+352
+00:21:06.712 --> 00:21:10.572
+rather than destruction. So summarized in
+
+353
+00:21:10.612 --> 00:21:13.952
+this title here, Tregs provide a critical buffer against diabetes and
+
+354
+00:21:14.012 --> 00:21:17.912
+pancreatitis. But of course, if you have the misfortune to develop
+
+355
+00:21:17.932 --> 00:21:18.852
+pancreatic cancer,
+
+356
+00:21:19.672 --> 00:21:23.432
+you're doing so kind of on this background of a lot of Tregs, which can
+
+357
+00:21:23.492 --> 00:21:25.012
+inhibit anti-tumor immunity.
+
+358
+00:21:26.232 --> 00:21:26.992
+Whoops. All right.
+
+359
+00:21:28.112 --> 00:21:31.942
+So where do we go? Are fibroblasts sort of cause or consequence in
+
+360
+00:21:32.032 --> 00:21:35.812
+cancer? I think we've seen from trial after trial that just
+
+361
+00:21:35.852 --> 00:21:38.572
+depleting fibroblasts is maybe not the way to go.
+
+362
+00:21:39.132 --> 00:21:42.292
+So I've listed some kind of fibroblast-adjacent strategies,
+
+363
+00:21:43.332 --> 00:21:43.712
+which
+
+364
+00:21:44.912 --> 00:21:48.292
+involve sort of either blocking downstream signaling in the tumor cells.
+
+365
+00:21:48.972 --> 00:21:52.912
+It's known that the tumor sort of relies on focal adhesion kinase
+
+366
+00:21:53.172 --> 00:21:56.932
+for support from those fibroblasts, and so these trials are actually looking pretty
+
+367
+00:21:56.972 --> 00:22:00.752
+promising. And then kind of going after the immune
+
+368
+00:22:00.992 --> 00:22:03.152
+profiling angle, can we deplete Tregs?
+
+369
+00:22:03.212 --> 00:22:07.072
+We actually have these new Fc enhanced CTLA-4 antibodies that do this pretty
+
+370
+00:22:07.152 --> 00:22:10.072
+well. So this I'm actually really excited about.
+
+371
+00:22:10.672 --> 00:22:14.372
+And can we sort of shift that cytokine balance by
+
+372
+00:22:14.412 --> 00:22:17.792
+either delivery of Th1 polarizing cytokines,
+
+373
+00:22:18.352 --> 00:22:22.272
+or there's some hint that CD40 agonism also acts by massively
+
+374
+00:22:22.312 --> 00:22:25.052
+reprogramming the extracellular matrix.
+
+375
+00:22:26.652 --> 00:22:30.491
+All right. A few take home messages here that I'll let you read, and
+
+376
+00:22:30.652 --> 00:22:31.732
+open it up to questions.
+
+377
+00:22:52.412 --> 00:22:53.912
+All right. Thank you. First question.
+
+378
+00:22:54.772 --> 00:22:56.011
+Is this on? Can you hear me?
+
+379
+00:22:56.502 --> 00:22:56.752
+Yes.
+
+380
+00:22:56.852 --> 00:23:00.452
+Okay, great. Great talk, great overview of all the clinical space and pre-clinical
+
+381
+00:23:00.492 --> 00:23:00.852
+space.
+
+382
+00:23:01.892 --> 00:23:05.792
+Probably not an unoriginal question, but thinking about all the experiments
+
+383
+00:23:05.842 --> 00:23:09.092
+we did pre-clinically, and then trying to translate them into clinics,
+
+384
+00:23:09.592 --> 00:23:10.332
+is this
+
+385
+00:23:12.112 --> 00:23:15.752
+us not understanding the therapy and how it works, or is this a limitation of the
+
+386
+00:23:15.792 --> 00:23:18.932
+mouse models that we've been trying in, and really it's just not reflecting the
+
+387
+00:23:18.972 --> 00:23:21.632
+clinical space that we don't really understand in humans?
+
+388
+00:23:22.532 --> 00:23:23.832
+Yeah, I think that's a great question.
+
+389
+00:23:23.872 --> 00:23:27.752
+I mean, how do we model this in order so that our models give us the
+
+390
+00:23:27.812 --> 00:23:31.472
+correct answer that will be what we see in trials?
+
+391
+00:23:31.532 --> 00:23:31.992
+And
+
+392
+00:23:33.592 --> 00:23:35.312
+I don't think this is just a mouse-human difference.
+
+393
+00:23:35.392 --> 00:23:38.032
+I think a lot of this is a time course difference.
+
+394
+00:23:38.152 --> 00:23:39.972
+And so fibroblasts are very plastic.
+
+395
+00:23:40.032 --> 00:23:42.712
+They can reprogram incredibly well.
+
+396
+00:23:42.752 --> 00:23:46.332
+And so if it's one kind of fibroblast today, it doesn't mean it can't shift its
+
+397
+00:23:46.372 --> 00:23:50.242
+phenotype. And so I think in the short course of the mouse models, we don't
+
+398
+00:23:50.252 --> 00:23:53.912
+necessarily capture that. How are we going to do this better?
+
+399
+00:23:54.082 --> 00:23:57.872
+There's certainly human sort of organoid fibroblast co-culture
+
+400
+00:23:57.952 --> 00:24:01.212
+data that's coming out. Does that really tell you long term?
+
+401
+00:24:01.632 --> 00:24:05.432
+Probably not. I think at this point, we should just look at
+
+402
+00:24:05.452 --> 00:24:09.032
+what the trial data that we have done are telling us and say
+
+403
+00:24:09.352 --> 00:24:12.402
+we had enough patients go through these efforts that
+
+404
+00:24:12.432 --> 00:24:15.606
+perhapsWe need to have just learned our lesson by now,
+
+405
+00:24:16.436 --> 00:24:20.236
+and say, what are the downstream effects of fibroblasts?
+
+406
+00:24:20.296 --> 00:24:24.116
+And are any of those individually targetable that might kind of be
+
+407
+00:24:24.176 --> 00:24:26.496
+more selective way? Yeah.
+
+408
+00:24:27.576 --> 00:24:27.896
+Edie.
+
+409
+00:24:28.996 --> 00:24:32.836
+I want to put you on the spot a little bit, because I learned something
+
+410
+00:24:32.956 --> 00:24:36.706
+from you that I think that most people would like to learn as well,
+
+411
+00:24:37.056 --> 00:24:37.736
+I hope.
+
+412
+00:24:39.776 --> 00:24:40.456
+You
+
+413
+00:24:41.376 --> 00:24:45.296
+enlightened me to understand what the reticular
+
+414
+00:24:45.316 --> 00:24:48.036
+fibroblastic cells do in lymph nodes.
+
+415
+00:24:48.836 --> 00:24:52.786
+And I wonder whether you think that the local fibroblasts in the
+
+416
+00:24:52.896 --> 00:24:56.056
+pancreas initially, the ones that
+
+417
+00:24:56.136 --> 00:24:59.936
+are making sure that the precancerous lesions don't go to
+
+418
+00:24:59.996 --> 00:25:03.696
+cancer in most of our cases, whether those are
+
+419
+00:25:03.796 --> 00:25:05.736
+similar and whether
+
+420
+00:25:06.576 --> 00:25:09.676
+that's what we're calling maybe the AP-CAFs.
+
+421
+00:25:10.896 --> 00:25:14.836
+Yes. I mostly focused on the CAFs in the tumor microenvironment.
+
+422
+00:25:14.876 --> 00:25:18.856
+Of course, fibroblasts are everywhere. They play a critical role in the lymph node.
+
+423
+00:25:19.696 --> 00:25:23.596
+But I think when we're talking about Class 2 positive CAFs, which I do try
+
+424
+00:25:23.616 --> 00:25:27.576
+to use that term, AP-CAFs or antigen-presenting CAFs has also been thrown
+
+425
+00:25:27.616 --> 00:25:31.136
+around. But that implies you're priming a T cell to go do something, right?
+
+426
+00:25:31.276 --> 00:25:32.256
+And the
+
+427
+00:25:33.216 --> 00:25:37.116
+fibroblasts universally never have co-stimulation, so
+
+428
+00:25:37.156 --> 00:25:40.816
+they don't have that second signal that tells the T cell, "Oh, this is
+
+429
+00:25:40.976 --> 00:25:44.856
+an infection. You should go fight it." And so it ends up
+
+430
+00:25:44.936 --> 00:25:48.756
+polarizing towards these regulatory T cells, which is an important and
+
+431
+00:25:48.796 --> 00:25:52.576
+critical role to say, okay, if it ends up on Class 2 on a
+
+432
+00:25:52.616 --> 00:25:54.496
+fibroblast, this is in quiescence.
+
+433
+00:25:54.576 --> 00:25:57.636
+You should not make an immune response. You should tolerize.
+
+434
+00:25:58.716 --> 00:26:00.156
+Yeah.
+
+435
+00:26:00.256 --> 00:26:02.596
+Thank you. You just answered my question.
+
+436
+00:26:02.616 --> 00:26:06.536
+It's about the AP-CAF. So I have another question.
+
+437
+00:26:06.556 --> 00:26:10.516
+It's about the extracellular matrix, because we think more in
+
+438
+00:26:10.556 --> 00:26:14.456
+biophysical properties. But there are more data that are
+
+439
+00:26:15.076 --> 00:26:16.856
+actively involved in immune response.
+
+440
+00:26:17.206 --> 00:26:19.566
+The proteoglycans, they are activating different kind of receptors.
+
+441
+00:26:20.036 --> 00:26:23.336
+So what do you think about that ECM, like immune
+
+442
+00:26:24.075 --> 00:26:27.516
+component that is giving maybe immunosuppressive effects or no?
+
+443
+00:26:28.816 --> 00:26:32.536
+So your question is about the cytokines or chemokines that are in the extracellular
+
+444
+00:26:32.576 --> 00:26:32.966
+matrix?
+
+445
+00:26:32.996 --> 00:26:33.036
+No.
+
+446
+00:26:33.116 --> 00:26:34.286
+Or I don't think I quite heard you.
+
+447
+00:26:34.286 --> 00:26:37.876
+Just the ECM itself acting like active
+
+448
+00:26:38.876 --> 00:26:42.716
+immune effector in the T cells, the microphages also.
+
+449
+00:26:43.376 --> 00:26:46.776
+Because there are a lot of proteoglycans that are agonists of different,
+
+450
+00:26:46.876 --> 00:26:50.816
+TLR4 and the other. So ECM is now produced by
+
+451
+00:26:51.196 --> 00:26:54.996
+myocaf, but also have active component in the microenvironment,
+
+452
+00:26:55.076 --> 00:26:55.236
+right?
+
+453
+00:26:55.936 --> 00:26:58.896
+Yes. So certainly if you're talking about immune cells crawling around in a tissue,
+
+454
+00:26:58.996 --> 00:27:01.126
+they do so on the extracellular matrix.
+
+455
+00:27:01.176 --> 00:27:04.536
+And so CD44, which is on activated immune cells, does bind
+
+456
+00:27:04.856 --> 00:27:07.216
+hyaluronic acid on extracellular matrix.
+
+457
+00:27:07.246 --> 00:27:09.576
+So it's a critical part of how cells crawl through the tissues.
+
+458
+00:27:09.596 --> 00:27:12.666
+And as they're doing that, they of course, can see whatever else is deposited in
+
+459
+00:27:12.696 --> 00:27:16.396
+the matrix. And so I really love the proteomic analyses to ask,
+
+460
+00:27:17.336 --> 00:27:20.746
+what proteins are there? Which you can miss by
+
+461
+00:27:20.856 --> 00:27:24.736
+transcriptional profiling, because it doesn't necessarily correlate with the RNA
+
+462
+00:27:24.796 --> 00:27:26.416
+of the cells you're identifying.
+
+463
+00:27:29.116 --> 00:27:32.896
+Thank you. When you're studying fibroblast-mediated
+
+464
+00:27:33.016 --> 00:27:36.396
+signaling and immune exclusion, specifically, let's say in PDAC,
+
+465
+00:27:37.016 --> 00:27:40.656
+are there specific spatial scales where there might be the most
+
+466
+00:27:41.116 --> 00:27:43.016
+strongest effect size in signaling?
+
+467
+00:27:43.796 --> 00:27:47.626
+Considering contact dependent versus maybe global tissue architecture.
+
+468
+00:27:47.816 --> 00:27:48.896
+Are there two?
+
+469
+00:27:49.476 --> 00:27:52.826
+That is a great question, and certainly, I think we're still
+
+470
+00:27:52.856 --> 00:27:55.076
+understanding how far things diffuse.
+
+471
+00:27:55.296 --> 00:27:59.236
+So a lot of the contact dependent mechanisms are obviously it has to be
+
+472
+00:27:59.276 --> 00:28:02.816
+the cell touching it. And so you get a lot of integrin signaling
+
+473
+00:28:02.976 --> 00:28:06.276
+happening between fibroblasts and cancer cells, fibroblasts and immune cells.
+
+474
+00:28:06.296 --> 00:28:09.476
+But the secreted molecules can diffuse.
+
+475
+00:28:09.536 --> 00:28:13.256
+Now, they don't diffuse like it's empty space because it's a lot of dense pressure
+
+476
+00:28:13.356 --> 00:28:14.176
+there. And so,
+
+477
+00:28:15.496 --> 00:28:19.176
+they sort of deposit in these gradients with some cytokines being very
+
+478
+00:28:19.216 --> 00:28:22.156
+localized in growth factors, and some kind of extending further out.
+
+479
+00:28:22.196 --> 00:28:25.376
+And so, really nice work on looking at
+
+480
+00:28:25.916 --> 00:28:29.436
+cells that are receiving the signal, like through phosphorylated
+
+481
+00:28:30.156 --> 00:28:33.676
+transcription factors, and can you ask sort of from the cell that produces it, how
+
+482
+00:28:33.716 --> 00:28:37.236
+many cell bodies away can you still see the response to that signal?
+
+483
+00:28:37.566 --> 00:28:39.716
+And I think it does differ for different
+
+484
+00:28:40.776 --> 00:28:43.416
+molecules. But it's a great area of research.
+
+485
+00:28:43.736 --> 00:28:46.836
+Maybe we'll take one more question, and then do we have any online?
+
+486
+00:28:47.536 --> 00:28:48.136
+Okay, great.
+
+487
+00:28:48.296 --> 00:28:50.276
+Okay. Thank you. Great presentation.
+
+488
+00:28:50.316 --> 00:28:54.056
+And my question is regarding the type of cancers you have, because you
+
+489
+00:28:54.116 --> 00:28:57.676
+started the presentation saying that pancreatic cancer is highly
+
+490
+00:28:57.696 --> 00:28:59.976
+desmoplastic. But does the
+
+491
+00:29:00.056 --> 00:29:03.916
+exocrine pancreas, if you have a neuroendocrine
+
+492
+00:29:04.576 --> 00:29:06.716
+pancreas tumor, it's not so desmoplastic.
+
+493
+00:29:07.276 --> 00:29:10.996
+So the different type of cancer drive different responses in the same
+
+494
+00:29:11.056 --> 00:29:11.656
+fibroblast.
+
+495
+00:29:12.496 --> 00:29:13.596
+Have you
+
+496
+00:29:14.716 --> 00:29:18.116
+done something like that, seeing which signals are given by one cell to
+
+497
+00:29:18.156 --> 00:29:21.936
+respect to another, and not treating the fibroblast as a unique
+
+498
+00:29:22.096 --> 00:29:23.636
+species that respond always the same?
+
+499
+00:29:24.516 --> 00:29:28.236
+Yes, that is a great question. I'm glad you bring up pancreatic neuroendocrine
+
+500
+00:29:28.276 --> 00:29:31.886
+tumors, because again, it tells you same organ, very, very different histology,
+
+501
+00:29:32.056 --> 00:29:34.676
+very different results in sort of activation of fibroblasts.
+
+502
+00:29:34.716 --> 00:29:38.036
+And so certainly there is crosstalk even with the
+
+503
+00:29:38.116 --> 00:29:42.066
+neoplastic cells as well. And so a lot of really good work done, I'd say senescent
+
+504
+00:29:42.066 --> 00:29:45.996
+cancer cells and sort of how they produce a lot of cytokines that could activate
+
+505
+00:29:46.016 --> 00:29:48.676
+fibroblasts and give you more of the sort of iCAF phenotype.
+
+506
+00:29:49.476 --> 00:29:53.136
+And the neuroendocrine tumors also make a lot of different factors.
+
+507
+00:29:53.756 --> 00:29:57.556
+I don't know if my panel wants to contribute more towards PNETs.
+
+508
+00:29:58.416 --> 00:30:02.096
+But you see this giant inflammatory reaction, and
+
+509
+00:30:02.156 --> 00:30:03.976
+yet, the tumor's progressing, right?
+
+510
+00:30:04.096 --> 00:30:08.076
+So not all inflammation is good. Just like not all fibroblasts
+
+511
+00:30:08.096 --> 00:30:10.436
+are good, but they could certainly act very differently.
+
+512
+00:30:11.196 --> 00:30:11.456
+Thank you.
+
+513
+00:30:11.816 --> 00:30:12.116
+Okay.
+
+514
+00:30:13.696 --> 00:30:15.636
+All right. Maybe last question. Yeah.
+
+515
+00:30:15.696 --> 00:30:15.936
+Thanks.
+
+516
+00:30:17.080 --> 00:30:20.860
+I have a question. Since you say that depletion might not be the right way to go,
+
+517
+00:30:20.900 --> 00:30:24.600
+what do you think about reprogramming and programming, let's say, from yeah
+
+518
+00:30:24.920 --> 00:30:27.680
+protumoral to anti-tumor fibroblasts?
+
+519
+00:30:29.160 --> 00:30:32.260
+Yes. So I think this is a very active area of research.
+
+520
+00:30:32.320 --> 00:30:36.000
+Can we reprogram a fibroblast? We know they're very plastic, so is there some
+
+521
+00:30:36.060 --> 00:30:40.000
+kind of signal we can give therapeutically that will keep them in whatever
+
+522
+00:30:40.060 --> 00:30:40.860
+the good state is?
+
+523
+00:30:41.680 --> 00:30:42.600
+I think we
+
+524
+00:30:43.700 --> 00:30:46.130
+want to be really sure we know what that good state is,
+
+525
+00:30:47.220 --> 00:30:50.929
+first, and how well or how
+
+526
+00:30:50.960 --> 00:30:52.850
+permanent that reprogramming is.
+
+527
+00:30:52.960 --> 00:30:56.620
+I think you're also stuck with, as soon as you stop using the drug, you can get it
+
+528
+00:30:56.660 --> 00:30:58.240
+to revert. So,
+
+529
+00:30:59.360 --> 00:31:03.230
+similar ideas have been proposed for macrophage reprogramming as well, and I
+
+530
+00:31:03.240 --> 00:31:07.150
+think it goes down a slippery slope of, is this
+
+531
+00:31:07.180 --> 00:31:10.060
+really the effect you want, and how long can you sustain that?
+
+532
+00:31:10.140 --> 00:31:13.540
+So I think there's a role for this fibroblast
+
+533
+00:31:13.600 --> 00:31:17.350
+reprogramming, but I think it's in combination with
+
+534
+00:31:17.380 --> 00:31:21.280
+other therapies that are either directly killing tumor cells or inducing an
+
+535
+00:31:21.319 --> 00:31:25.160
+immune response that can make that sort of transient
+
+536
+00:31:25.220 --> 00:31:27.540
+nature of the fibroblast reprogramming permanent.
+
+537
+00:31:28.180 --> 00:31:28.420
+Thanks.
+
+538
+00:31:28.860 --> 00:31:29.060
+Yeah.
+
+539
+00:31:30.080 --> 00:31:30.420
+Okay.
+
+540
+00:31:31.280 --> 00:31:32.059
+Thank you.
+
+541
+00:31:35.680 --> 00:31:36.110
+I will
+
+542
+00:31:37.840 --> 00:31:39.860
+introduce my colleague, Mara Sherman.
+
+543
+00:31:42.840 --> 00:31:46.480
+All right. Well, thank you, chair extraordinaire, Stephanie, for the opportunity to
+
+544
+00:31:46.520 --> 00:31:49.160
+participate in this session and for starting us off so nicely.
+
+545
+00:31:50.160 --> 00:31:53.630
+So my lab studies cellular hierarchies in the tumor microenvironment,
+
+546
+00:31:54.140 --> 00:31:57.720
+and our goal really is to understand how this immune-suppressive, chemo-resistant
+
+547
+00:31:57.740 --> 00:32:01.140
+microenvironment gets established, but also how it might be
+
+548
+00:32:01.180 --> 00:32:03.280
+dismantled for therapeutic benefit.
+
+549
+00:32:04.500 --> 00:32:05.300
+No disclosures.
+
+550
+00:32:06.280 --> 00:32:10.080
+So in this vein, we spend a lot of time thinking about mesenchymal elements such as
+
+551
+00:32:10.180 --> 00:32:14.160
+fibroblasts. And really our motivation is evidence from context
+
+552
+00:32:14.220 --> 00:32:17.500
+of development, health, and inflammation that
+
+553
+00:32:17.540 --> 00:32:21.110
+fibroblasts provide critical instructive cues that
+
+554
+00:32:21.140 --> 00:32:23.950
+regulate epithelial cell state and tissue function.
+
+555
+00:32:24.740 --> 00:32:28.280
+So for example, in the embryo, the splanchnic mesenchyme
+
+556
+00:32:28.440 --> 00:32:32.349
+critically instructs alveolar airway epithelium formation
+
+557
+00:32:32.380 --> 00:32:36.120
+in the developing lung, and that epithelial mesenchymal crosstalk
+
+558
+00:32:36.160 --> 00:32:38.720
+remains critical for lung function in early life.
+
+559
+00:32:39.320 --> 00:32:42.700
+In healthy adult tissue, there are positionally defined
+
+560
+00:32:42.800 --> 00:32:46.360
+populations of fibroblasts that secrete distinct developmental
+
+561
+00:32:46.430 --> 00:32:50.340
+cues that program epithelial heterogeneity in a way that's critical for
+
+562
+00:32:50.400 --> 00:32:54.260
+tissue function, and this is really nicely exemplified along the length of the
+
+563
+00:32:54.300 --> 00:32:55.340
+intestinal crypt.
+
+564
+00:32:56.280 --> 00:32:59.840
+And in the context of inflammation, there's a beautiful recent example from the
+
+565
+00:32:59.900 --> 00:33:03.800
+mighty reindeer showing that anatomically distinct populations
+
+566
+00:33:03.860 --> 00:33:07.090
+of fibroblasts can respond to similar wounding
+
+567
+00:33:07.200 --> 00:33:11.040
+insults with totally different secretomes, and therefore
+
+568
+00:33:11.080 --> 00:33:13.420
+different impacts on the epithelial compartment.
+
+569
+00:33:13.470 --> 00:33:17.320
+So specifically, a wounding insult to a regenerative organ, in this
+
+570
+00:33:17.400 --> 00:33:21.360
+case, specifically the velvet or the antlers, causes those fibroblasts
+
+571
+00:33:21.400 --> 00:33:24.960
+to secrete regenerative factors, stem cell niche
+
+572
+00:33:25.140 --> 00:33:28.780
+cues that ultimately promote epithelial cell proliferation,
+
+573
+00:33:28.860 --> 00:33:30.820
+regeneration, and tissue repair.
+
+574
+00:33:31.780 --> 00:33:35.080
+Whereas a really comparable wounding insult on the back skin
+
+575
+00:33:35.440 --> 00:33:39.080
+causes fibroblasts really to enter an inflammatory state and
+
+576
+00:33:39.160 --> 00:33:42.230
+ultimately result in epithelial cell death and a scarring
+
+577
+00:33:42.260 --> 00:33:46.240
+reaction. And importantly, really comparable fibroblast transcriptional
+
+578
+00:33:46.300 --> 00:33:49.700
+states are found in human skin in the fetus versus the
+
+579
+00:33:49.900 --> 00:33:53.500
+adult. And so, of course, we know that there are these
+
+580
+00:33:53.540 --> 00:33:57.440
+intrinsic differences among these positionally or anatomically
+
+581
+00:33:57.500 --> 00:34:01.380
+defined fibroblast populations, and we're motivated to understand how
+
+582
+00:34:01.460 --> 00:34:04.700
+about this epithelial mesenchymal crosstalk and fibroblast
+
+583
+00:34:04.710 --> 00:34:07.040
+heterogeneity in the context of cancer.
+
+584
+00:34:09.060 --> 00:34:09.460
+So there
+
+585
+00:34:10.281 --> 00:34:14.230
+has long been evidence that fibroblasts can really have heterogeneous
+
+586
+00:34:14.380 --> 00:34:17.281
+functional impacts on cancer cell growth.
+
+587
+00:34:17.900 --> 00:34:21.140
+Almost 60 years ago now, Michael Stoker's lab
+
+588
+00:34:21.180 --> 00:34:24.861
+demonstrated that normal static fibroblasts could suppress the
+
+589
+00:34:24.980 --> 00:34:26.900
+growth of polyoma transformed cells.
+
+590
+00:34:26.920 --> 00:34:30.700
+This was really an early example that components of normal tissue
+
+591
+00:34:30.740 --> 00:34:34.500
+architecture could serve as barriers to tumor genesis.
+
+592
+00:34:34.540 --> 00:34:38.460
+About 20 years later, pioneering work from Mina Bissell's lab in the chick
+
+593
+00:34:38.540 --> 00:34:42.500
+embryo comparing tumor progression in an uninjured versus
+
+594
+00:34:42.540 --> 00:34:45.830
+a clipped or wounded chick wing showed that a local
+
+595
+00:34:46.000 --> 00:34:49.620
+fibroinflammatory or wounding reaction was permissive to Rous
+
+596
+00:34:49.660 --> 00:34:51.880
+sarcoma virus-mediated tumor formation.
+
+597
+00:34:51.920 --> 00:34:55.700
+This was really a seminal example of a principle that's been shown many
+
+598
+00:34:55.761 --> 00:34:59.330
+times since, that a fibroinflammatory microenvironment can
+
+599
+00:34:59.380 --> 00:35:01.260
+promote tumor genesis.
+
+600
+00:35:02.900 --> 00:35:06.540
+So we study these networks in the context of pancreatic cancer really because, as
+
+601
+00:35:06.620 --> 00:35:10.200
+Stephanie so nicely described, these really are the
+
+602
+00:35:10.240 --> 00:35:12.820
+poster child of a fibroinflammatory malignancy.
+
+603
+00:35:13.380 --> 00:35:17.340
+So pancreatic cancer certainly exhibits heterogeneity from patient to
+
+604
+00:35:17.380 --> 00:35:20.620
+patient, but these tumors generally share two common
+
+605
+00:35:20.680 --> 00:35:24.670
+features. One is activating mutations in KRAS, something you'll no doubt
+
+606
+00:35:24.720 --> 00:35:28.640
+hear very much about at this meeting, and the second is that
+
+607
+00:35:28.680 --> 00:35:32.080
+during disease progression, the epithelial compartment
+
+608
+00:35:32.160 --> 00:35:35.300
+coevolves with this progressively dense
+
+609
+00:35:35.420 --> 00:35:39.300
+desmoplastic stroma. And the stroma, of course, includes abundant immune
+
+610
+00:35:39.420 --> 00:35:43.380
+cells and extracellular matrix components and is really set up by a
+
+611
+00:35:43.500 --> 00:35:46.320
+prominent population of cancer-associated fibroblasts.
+
+612
+00:35:47.000 --> 00:35:50.840
+So it stands to reason that during this dynamic coevolution of
+
+613
+00:35:50.860 --> 00:35:53.900
+epithelium and stroma, these fibroblastic
+
+614
+00:35:54.340 --> 00:35:58.050
+cells may very well have totally different molecular profiles
+
+615
+00:35:58.360 --> 00:36:01.680
+and functional consequences over time with respect to tumor
+
+616
+00:36:01.700 --> 00:36:05.520
+progression. So as a field, we've really learned
+
+617
+00:36:05.680 --> 00:36:09.120
+a great deal about factors or functions that fibroblasts
+
+618
+00:36:09.300 --> 00:36:13.120
+gain during tumor progression. As a community, we've seen
+
+619
+00:36:13.180 --> 00:36:17.160
+really nice studies showing that a CAF can produce immune
+
+620
+00:36:17.220 --> 00:36:20.980
+suppressive cytokines, chemokines, matrix components, and other
+
+621
+00:36:21.020 --> 00:36:23.780
+factors that can promote tumor genesis.
+
+622
+00:36:24.340 --> 00:36:28.280
+And in enacting this perturbed wound-healing response in the context of cancer,
+
+623
+00:36:28.660 --> 00:36:32.260
+they can also engage functions that are tumor restraining, including
+
+624
+00:36:32.300 --> 00:36:35.460
+engaging Hedgehog signaling, as Stephanie talked about earlier.
+
+625
+00:36:35.769 --> 00:36:39.720
+And there's also some really nice evidence that collagen I production can have some
+
+626
+00:36:39.800 --> 00:36:43.706
+tumor-restraining consequences as well.But what
+
+627
+00:36:43.796 --> 00:36:47.536
+we've really learned less about as a community is factors that are
+
+628
+00:36:47.576 --> 00:36:51.436
+expressed in normal tissue mesenchyme and that are lost over the
+
+629
+00:36:51.496 --> 00:36:52.756
+course of tumorigenesis,
+
+630
+00:36:53.676 --> 00:36:56.586
+which may potentially be barriers to tumor progression.
+
+631
+00:36:57.656 --> 00:37:00.996
+So really our motivation to think about this comes from
+
+632
+00:37:01.036 --> 00:37:04.276
+these pioneering studies from the labs of Laura Wood and Marina
+
+633
+00:37:04.316 --> 00:37:08.116
+Pawlikowska-Magliano that sort of took our collective breath away in
+
+634
+00:37:08.156 --> 00:37:12.066
+reporting that most adults, including
+
+635
+00:37:12.076 --> 00:37:15.756
+donors with no evidence of cancer, walk around with
+
+636
+00:37:15.896 --> 00:37:19.296
+pre-invasive lesions called PANNs in our pancreas.
+
+637
+00:37:19.336 --> 00:37:22.856
+So just as many of us walk around with BRAF mutant moles on our skin,
+
+638
+00:37:23.416 --> 00:37:26.156
+many of us walk around with KRAS mutant lesions in our
+
+639
+00:37:26.216 --> 00:37:29.256
+pancreas. The good news is that these lesions
+
+640
+00:37:29.556 --> 00:37:33.406
+vastly outnumber cases of invasive pancreatic
+
+641
+00:37:33.436 --> 00:37:37.356
+cancer. But the frequency of these lesions, this new normal
+
+642
+00:37:37.436 --> 00:37:40.956
+or newly appreciated normal, really compels us to ask why?
+
+643
+00:37:41.576 --> 00:37:45.476
+What are the mechanisms active in many of us that are keeping these lesions
+
+644
+00:37:45.556 --> 00:37:47.216
+from progressing to invasive cancer?
+
+645
+00:37:47.686 --> 00:37:51.516
+And can we learn from those mechanisms about biomarkers for
+
+646
+00:37:51.596 --> 00:37:54.766
+those at risk of progression and/or for preventative strategies?
+
+647
+00:37:55.676 --> 00:37:59.476
+So I think it's very likely that tissue-level tumor suppression
+
+648
+00:37:59.516 --> 00:38:03.396
+takes three forms. One, of course, is epithelial cell intrinsic mechanisms,
+
+649
+00:38:03.436 --> 00:38:06.596
+expression and activity of p53 as a key example.
+
+650
+00:38:07.336 --> 00:38:10.816
+Surely, there are roles of the immune microenvironment in
+
+651
+00:38:10.896 --> 00:38:12.856
+keeping those lesions from progressing.
+
+652
+00:38:13.216 --> 00:38:16.896
+But what I'll talk about today are the non-immune microenvironmental
+
+653
+00:38:17.196 --> 00:38:20.016
+mechanisms that are at play in the pancreas.
+
+654
+00:38:20.056 --> 00:38:23.916
+And really, these tumor suppression mechanisms likely vary
+
+655
+00:38:23.976 --> 00:38:27.726
+from individual to individual, and probably some mathematical modeling is needed
+
+656
+00:38:28.256 --> 00:38:30.796
+to infer temporal dynamics among the three.
+
+657
+00:38:31.396 --> 00:38:34.696
+So we really wanted to look in the mesenchyme to see if it could teach us about any
+
+658
+00:38:35.036 --> 00:38:37.326
+new obligate barriers to tumorigenesis.
+
+659
+00:38:37.696 --> 00:38:40.586
+And this was a project led by a wonderful graduate student in the lab, Catherine
+
+660
+00:38:40.636 --> 00:38:43.836
+Onyate, together with her lab mates, Chet and Shahini.
+
+661
+00:38:45.256 --> 00:38:48.436
+So before I get into the data, I just want to talk about what's in the pancreatic
+
+662
+00:38:48.516 --> 00:38:52.416
+mesenchyme. There's a kind of cell in both the pancreas and the liver called a
+
+663
+00:38:52.516 --> 00:38:56.205
+stellate cell. These are lipid-storing cells that can sense and
+
+664
+00:38:56.276 --> 00:39:00.266
+respond to the presence of cancer or a wound-healing insult and
+
+665
+00:39:00.316 --> 00:39:02.456
+give rise to activated fibroblasts.
+
+666
+00:39:02.736 --> 00:39:06.656
+It's not the whole story, though, and we know this just based on how we
+
+667
+00:39:06.676 --> 00:39:10.536
+isolate these cells in the lab. So if you want to isolate stellate cells from
+
+668
+00:39:10.716 --> 00:39:14.676
+normal, healthy pancreas or liver tissue, you make a single cell suspension,
+
+669
+00:39:14.726 --> 00:39:18.316
+you run it through a density gradient, and because these stellate cells are such
+
+670
+00:39:18.416 --> 00:39:22.096
+robust lipid-storing cells, they'll stay trapped at the
+
+671
+00:39:22.136 --> 00:39:24.116
+interface of this density gradient.
+
+672
+00:39:24.776 --> 00:39:28.676
+What you see sinking into this dense layer on the bottom is a bunch
+
+673
+00:39:28.716 --> 00:39:32.396
+of these conventional PDGF or alpha-positive tissue-resident
+
+674
+00:39:32.416 --> 00:39:36.256
+fibroblasts, which are also sitting in the tissue, also poised to
+
+675
+00:39:36.296 --> 00:39:39.916
+sense and respond to the presence of cancer and give rise to CAFs.
+
+676
+00:39:39.976 --> 00:39:43.216
+Just showing you a little bit of evidence that these cells are different.
+
+677
+00:39:43.276 --> 00:39:46.976
+Right after you plate these stellate cells in culture, you can see the
+
+678
+00:39:46.996 --> 00:39:50.145
+cytoplasmic lipid droplets, even evident by bright fields.
+
+679
+00:39:50.616 --> 00:39:54.416
+Within a couple of days, these cells will sort of spontaneously undergo
+
+680
+00:39:54.425 --> 00:39:57.356
+activation to sort of a myofibroblast-like
+
+681
+00:39:57.396 --> 00:40:00.796
+morphology. But within those lipid droplets, they store
+
+682
+00:40:01.116 --> 00:40:04.696
+esterified vitamin As, retinol esters, and they have this characteristic
+
+683
+00:40:04.705 --> 00:40:08.536
+blue-green autofluorescence that you can even see in your tissue culture microscope
+
+684
+00:40:08.596 --> 00:40:11.865
+using the DAPI channel. And so, these are different
+
+685
+00:40:11.876 --> 00:40:14.356
+populations that are poised to give rise to CAFs.
+
+686
+00:40:14.566 --> 00:40:18.376
+I'm really not going to talk about differences between these populations in normal
+
+687
+00:40:18.436 --> 00:40:22.086
+tissues or tumors today. But I did just want to make one point,
+
+688
+00:40:22.256 --> 00:40:26.166
+given that reading abstracts for this meeting, it's just so clear that this
+
+689
+00:40:26.256 --> 00:40:29.986
+theme has emerged with respect to the importance of spatial niches
+
+690
+00:40:30.496 --> 00:40:34.296
+in regulating cell function, molecular profiles, and
+
+691
+00:40:34.316 --> 00:40:38.216
+tumor outcomes. And I think this idea that there are different mesenchymal lineages
+
+692
+00:40:38.236 --> 00:40:41.656
+that live in our pancreas and give rise to CAFs is really consistent with that.
+
+693
+00:40:41.716 --> 00:40:45.136
+So specifically, stellate cells in liver and pancreas are in the
+
+694
+00:40:45.176 --> 00:40:48.956
+perivascular niche, whereas these conventional fibroblasts generally
+
+695
+00:40:49.076 --> 00:40:52.856
+accumulate in peri-ductal and peri-acinar spaces. Okay.
+
+696
+00:40:52.916 --> 00:40:56.796
+So in thinking about how to study these, there's a really nice Cre-based mouse
+
+697
+00:40:56.876 --> 00:41:00.256
+model, the FEBP4 Cre model, that's been used to study
+
+698
+00:41:00.276 --> 00:41:03.995
+adipocytes in vivo. So needless to say, this is not a stellate cell-specific Cre.
+
+699
+00:41:04.516 --> 00:41:08.326
+But what's nice is that it robustly induces recombination in sort of
+
+700
+00:41:08.376 --> 00:41:11.176
+professional fat-storing cells in the body.
+
+701
+00:41:11.186 --> 00:41:15.146
+And this includes stellate cells in the pancreas and liver, but does not
+
+702
+00:41:15.176 --> 00:41:18.936
+include conventional fibroblasts. So it's a way to kind of pick apart the two.
+
+703
+00:41:18.976 --> 00:41:22.696
+This can be combined with lineage tracing tools, in this case, the
+
+704
+00:41:22.736 --> 00:41:26.396
+Rosa MTMG allele. So we can indelibly label
+
+705
+00:41:26.456 --> 00:41:29.436
+stellate cells and the CAFs derived from them in green.
+
+706
+00:41:29.956 --> 00:41:33.736
+And so in this study, we really wanted to understand the temporal dynamics
+
+707
+00:41:33.746 --> 00:41:37.376
+of mesenchymal activation during pancreatic tumorigenesis and really
+
+708
+00:41:37.416 --> 00:41:41.176
+understand what gets lost. And in this case, instead of looking at all the
+
+709
+00:41:41.236 --> 00:41:44.876
+fibroblasts in the pancreas, all the fibroblasts in the tumor, we thought
+
+710
+00:41:44.936 --> 00:41:48.176
+maybe we'll learn something new if we look at a more focused
+
+711
+00:41:48.276 --> 00:41:50.516
+population and track it over time.
+
+712
+00:41:50.956 --> 00:41:54.826
+So we're going to focus on this lipid-storing origin and the CAFs derived from them
+
+713
+00:41:54.856 --> 00:41:58.606
+in this example. Okay, so what we did is we took this
+
+714
+00:41:58.616 --> 00:42:02.496
+reporter model. We took stellate cells from a healthy pancreas
+
+715
+00:42:02.536 --> 00:42:06.296
+tissue, CAFs derived from them from tumors, and did single-cell RNA-seq on
+
+716
+00:42:06.336 --> 00:42:10.176
+these GFP-positive cells. So just as sort of a sanity check, we
+
+717
+00:42:10.216 --> 00:42:14.096
+looked at these cells in both normal tissues on the left and tumors
+
+718
+00:42:14.156 --> 00:42:18.056
+on the right. We see that they sort of express all the classic mesenchymal markers.
+
+719
+00:42:18.076 --> 00:42:20.116
+They pervasively express vimentin.
+
+720
+00:42:20.146 --> 00:42:24.026
+They're along this continuum from PI16 positivity
+
+721
+00:42:24.056 --> 00:42:27.816
+to collagen 15A1 positivity. This is the trajectory
+
+722
+00:42:27.876 --> 00:42:31.816
+of universal fibroblasts that was reported in the study from Shannon Turley
+
+723
+00:42:31.856 --> 00:42:34.126
+and Matt Buechler that Stephanie mentioned earlier.
+
+724
+00:42:34.796 --> 00:42:38.756
+And most of them express one of the universal fibroblast markers, collagen
+
+725
+00:42:38.876 --> 00:42:42.496
+4A1 or HSPG2 or perlecan. I did
+
+726
+00:42:42.696 --> 00:42:45.516
+mention that these are in the perivascular niche.
+
+727
+00:42:45.996 --> 00:42:48.696
+In the liver, stellate cells have been called the pericytes of the liver, though
+
+728
+00:42:48.706 --> 00:42:52.296
+I'll just mention they seem to lack robust expression of conventional
+
+729
+00:42:52.336 --> 00:42:56.288
+pericyte markers.Okay, so then what are the differences across
+
+730
+00:42:56.328 --> 00:43:00.288
+tissue states? So in the context of tumorigenesis, these
+
+731
+00:43:00.328 --> 00:43:04.028
+cells gain expression of the expected players, immune suppressive
+
+732
+00:43:04.038 --> 00:43:07.688
+cytokines, CCL2, IL6, and IL33, just as a few
+
+733
+00:43:07.728 --> 00:43:11.588
+examples. So we looked at what gets lost, and we really wanted to
+
+734
+00:43:11.628 --> 00:43:15.508
+look at factors with the potential to function in a paracrine manner and
+
+735
+00:43:15.568 --> 00:43:17.748
+influence other cell states in the tissue.
+
+736
+00:43:18.208 --> 00:43:22.168
+And a gene that really leapt out from this analysis was a gene called Kit ligand
+
+737
+00:43:22.208 --> 00:43:26.068
+or stem cell factor, which was clearly expressed in normal pancreas
+
+738
+00:43:26.108 --> 00:43:29.408
+tissue but really seemed to be lost in tumors.
+
+739
+00:43:29.448 --> 00:43:33.268
+And this is consistent with a pseudotime analysis that we performed on these
+
+740
+00:43:33.288 --> 00:43:35.788
+cells. Okay, so what is Kit ligand?
+
+741
+00:43:35.828 --> 00:43:39.717
+Generally, Kit ligand is a paracrine factor that is
+
+742
+00:43:39.768 --> 00:43:42.588
+expressed by so-called sender cells in either a
+
+743
+00:43:42.688 --> 00:43:45.188
+membrane-associated or a secreted form.
+
+744
+00:43:45.518 --> 00:43:49.488
+It signals through a receptor c-Kit on the surface
+
+745
+00:43:49.548 --> 00:43:52.948
+of receiver cells and generally is thought to
+
+746
+00:43:53.028 --> 00:43:56.888
+activate mitogenic processes and pathways, Ras MAP kinase
+
+747
+00:43:56.928 --> 00:44:00.048
+signaling, Jak-Stat, and PI3 kinase/AKT signaling.
+
+748
+00:44:01.148 --> 00:44:04.588
+There is certainly a precedent for thinking about Kit ligand in the
+
+749
+00:44:04.648 --> 00:44:08.508
+context of the mesenchyme. For example, there was a really nice study some time
+
+750
+00:44:08.568 --> 00:44:08.928
+ago
+
+751
+00:44:09.728 --> 00:44:13.628
+showing that there are leptin receptor-positive mesenchymal
+
+752
+00:44:13.688 --> 00:44:17.448
+cells that indeed express Kit ligand, and these are specifically
+
+753
+00:44:17.488 --> 00:44:20.098
+hepatic stellate cells in the fetal liver.
+
+754
+00:44:20.398 --> 00:44:24.198
+And this Kit ligand expression by hepatic stellate cells is actually critical for
+
+755
+00:44:24.208 --> 00:44:27.668
+normal hematopoiesis in the fetal liver at the appropriate
+
+756
+00:44:27.988 --> 00:44:31.488
+stage of embryogenesis. Now, this idea that leptin
+
+757
+00:44:31.528 --> 00:44:35.468
+receptor-positive mesenchyme expresses Kit ligand is something that's been
+
+758
+00:44:35.508 --> 00:44:39.188
+reported in other anatomic contexts, including the bone marrow stroma.
+
+759
+00:44:39.608 --> 00:44:43.488
+So we asked, okay, are we looking at actually a leptin receptor-positive
+
+760
+00:44:43.588 --> 00:44:47.148
+component of the pancreas? And so what we did
+
+761
+00:44:47.468 --> 00:44:51.188
+is we looked at quiescent stellate cells taken fresh from mouse
+
+762
+00:44:51.208 --> 00:44:54.268
+pancreas, saw that these actually express really high levels of the leptin
+
+763
+00:44:54.308 --> 00:44:58.148
+receptor. But when these cells are just spontaneously activated to a fibroblastic
+
+764
+00:44:58.208 --> 00:45:01.248
+state in culture, they lose the expression of this leptin receptor,
+
+765
+00:45:01.847 --> 00:45:05.608
+suggesting that indeed, this is part of this kind of anatomically conserved
+
+766
+00:45:05.648 --> 00:45:09.488
+population of leptin receptor-positive mesenchymal cells that for some
+
+767
+00:45:09.548 --> 00:45:13.448
+reason express Kit ligand. Okay. So we were motivated to ask
+
+768
+00:45:13.488 --> 00:45:17.308
+what is the functional significance of this factor in normal pancreas
+
+769
+00:45:17.368 --> 00:45:21.208
+tissue? But first, we really wanted to validate that it was expressed in mice
+
+770
+00:45:21.268 --> 00:45:24.868
+but also in human pancreas. So we did a number of
+
+771
+00:45:24.888 --> 00:45:27.268
+experiments doing RNA in situ hybridization.
+
+772
+00:45:27.348 --> 00:45:31.108
+Kit ligands, like a number of other secreted factors, just cannot be reliably
+
+773
+00:45:31.148 --> 00:45:34.938
+detected by conventional immunohistochemistry using commercially available
+
+774
+00:45:35.048 --> 00:45:35.648
+antibodies.
+
+775
+00:45:36.588 --> 00:45:40.357
+So we did a series of RNA fish experiments showing indeed that
+
+776
+00:45:40.428 --> 00:45:44.248
+the mesenchymal component of mouse pancreas expresses
+
+777
+00:45:44.308 --> 00:45:48.208
+Kit ligand. And importantly, we used floxed alleles, this is a model
+
+778
+00:45:48.228 --> 00:45:51.288
+I'll get back to later, to show that our RNA fish
+
+779
+00:45:52.368 --> 00:45:53.938
+experimental approach was specific.
+
+780
+00:45:54.548 --> 00:45:57.588
+So we then went on to look at human pancreas tissues.
+
+781
+00:45:57.828 --> 00:46:01.608
+We costained for vimentin to mark mesenchyme and Kit ligand, and we
+
+782
+00:46:01.628 --> 00:46:04.968
+indeed saw expression of Kit ligand in human pancreas tissue.
+
+783
+00:46:05.288 --> 00:46:08.728
+And importantly, though there is, of course, an exuberant mesenchymal
+
+784
+00:46:08.748 --> 00:46:12.548
+population in human pancreatic cancer, we saw a significant
+
+785
+00:46:12.588 --> 00:46:16.528
+reduction of Kit ligand-positive mesenchyme in invasive
+
+786
+00:46:16.588 --> 00:46:19.488
+cancer. And this was, of course, conserved in mice.
+
+787
+00:46:20.148 --> 00:46:24.058
+Okay, so we wanted to really confirm this further in the human pancreas, but also
+
+788
+00:46:24.128 --> 00:46:27.908
+really assess the relevance of this mesenchymal population we were
+
+789
+00:46:27.948 --> 00:46:31.768
+studying in mice. And so we leveraged a protocol we're employing where we're
+
+790
+00:46:31.848 --> 00:46:35.488
+taking pieces of benign pancreas tissue from humans.
+
+791
+00:46:35.528 --> 00:46:39.448
+These are people who come into Memorial Hospital for resection of a primary
+
+792
+00:46:39.488 --> 00:46:42.388
+tumor, so I can't call this normal pancreas tissue.
+
+793
+00:46:42.428 --> 00:46:45.888
+This is benign adjacent. That's a meaningful caveat there.
+
+794
+00:46:46.168 --> 00:46:49.708
+But we've worked out a pipeline similar to what we do in mice, where we can take
+
+795
+00:46:49.768 --> 00:46:53.448
+this benign pancreas tissue, subject it to density centrifugation.
+
+796
+00:46:53.688 --> 00:46:57.408
+We can isolate fibroblasts. We can isolate stellate cells and study those on their
+
+797
+00:46:57.468 --> 00:47:01.158
+own, or either co-culture them with organoids or
+
+798
+00:47:01.288 --> 00:47:05.148
+culture them on collagen-coated plates together with cancer cell-derived secreted
+
+799
+00:47:05.248 --> 00:47:08.648
+factors in the form of conditioned media to make CAFs from them.
+
+800
+00:47:09.168 --> 00:47:12.868
+And so we see that the stellate cells look like stellate cells, kind of similar to
+
+801
+00:47:12.888 --> 00:47:16.428
+what we see in mice with these abundant cytoplasmic lipid droplets.
+
+802
+00:47:16.488 --> 00:47:19.108
+We see this in every patient that we've analyzed so far.
+
+803
+00:47:19.588 --> 00:47:23.508
+And when you culture them, both the stellate cells and the fibroblasts very readily
+
+804
+00:47:23.568 --> 00:47:27.108
+give rise to really what looks like a conventional myofibroblast or a
+
+805
+00:47:27.188 --> 00:47:31.180
+CAF.And so we looked in these cells to see if they express Kit ligand, and the
+
+806
+00:47:31.200 --> 00:47:32.320
+good news is that they do.
+
+807
+00:47:33.280 --> 00:47:37.200
+When we take these fresh out of human pancreas tissue, they express this marker.
+
+808
+00:47:37.520 --> 00:47:41.460
+But when we activate them, either with conditioned media or just with recombinant
+
+809
+00:47:41.520 --> 00:47:44.720
+TGF-beta, we see a significant reduction of this factor.
+
+810
+00:47:44.840 --> 00:47:48.720
+So it seemed like this was a thing. So we then wanted to ask, okay,
+
+811
+00:47:48.760 --> 00:47:51.820
+we've looked in normal, we've looked in cancer.
+
+812
+00:47:51.840 --> 00:47:55.410
+What happens in between? And so we wanted to look in the context of
+
+813
+00:47:55.440 --> 00:47:59.140
+pannens. And so we went back into our mouse models, and we used a dual
+
+814
+00:47:59.160 --> 00:48:02.900
+recombinase genetically engineered mouse model that allows us for
+
+815
+00:48:02.980 --> 00:48:06.720
+fate mapping of stromal evolution in the context of stepwise
+
+816
+00:48:06.780 --> 00:48:10.200
+tumorigenesis. So this is something that's missed when we do orthotopic
+
+817
+00:48:10.240 --> 00:48:13.060
+transplantation of invasive cancer cells.
+
+818
+00:48:13.080 --> 00:48:16.910
+But these genetically engineered mouse models go through these pre-invasive
+
+819
+00:48:16.910 --> 00:48:20.830
+stages that many of us harbor. And so when we looked in
+
+820
+00:48:20.880 --> 00:48:24.669
+pannen lesions from pancreas tissue, we saw that
+
+821
+00:48:24.700 --> 00:48:28.660
+really this GFP positive mesenchymal seems to be sort of at
+
+822
+00:48:28.720 --> 00:48:32.480
+a steady state of abundance in pre-invasive lesions versus
+
+823
+00:48:32.599 --> 00:48:36.180
+tumors. And when we looked at Kit ligand, we saw really
+
+824
+00:48:36.440 --> 00:48:38.930
+negligible signal in regions of invasive cancer.
+
+825
+00:48:39.260 --> 00:48:42.820
+But we saw some retention in the GFP positive stroma in the
+
+826
+00:48:42.880 --> 00:48:45.120
+context of these pre-invasive lesions.
+
+827
+00:48:45.160 --> 00:48:47.540
+And this is something we really want to look into further.
+
+828
+00:48:48.030 --> 00:48:51.880
+The last piece before we went forward with functional studies was, is its
+
+829
+00:48:51.940 --> 00:48:53.920
+partner there? Does it have someone to talk to?
+
+830
+00:48:54.260 --> 00:48:58.100
+And so we looked at expression of c-Kit in normal pancreas tissue, and
+
+831
+00:48:58.120 --> 00:49:01.780
+we did see expression of both c-Kit itself, as well as the activated
+
+832
+00:49:01.900 --> 00:49:05.500
+phosphorylated form, in both human and mouse
+
+833
+00:49:05.580 --> 00:49:09.280
+pancreas. I will mention that the c-Kit and Kit ligand,
+
+834
+00:49:09.820 --> 00:49:13.700
+it's rare, and it's in these defined niches where both the receptor
+
+835
+00:49:13.710 --> 00:49:15.480
+and the ligand are in the same region.
+
+836
+00:49:15.520 --> 00:49:17.810
+That's something we can maybe talk about during Q&amp;A.
+
+837
+00:49:18.310 --> 00:49:20.560
+And so together we thought, all right, this is a thing.
+
+838
+00:49:20.600 --> 00:49:22.979
+This is active in normal pancreas. What does it do?
+
+839
+00:49:23.010 --> 00:49:26.870
+And so we addressed that by doing transcriptional profiling and loss and
+
+840
+00:49:26.960 --> 00:49:30.760
+gain-of-function systems, and also perturbing Kit ligand in conditions of
+
+841
+00:49:30.800 --> 00:49:33.360
+health, injury, and cancer in vivo.
+
+842
+00:49:33.600 --> 00:49:37.180
+So first, to do transcriptional profiling, we used stellate cells in
+
+843
+00:49:37.240 --> 00:49:41.129
+culture. They really give rise to CAFs nicely when
+
+844
+00:49:41.180 --> 00:49:44.620
+you culture them. But the approximation of stellate cells in culture really is
+
+845
+00:49:44.660 --> 00:49:47.960
+something in between what's normal and what's a CAF.
+
+846
+00:49:48.040 --> 00:49:51.900
+Because in culture, of course, they're not really exposed to the rich milieu of
+
+847
+00:49:51.960 --> 00:49:53.840
+factors that's in an intact tumor.
+
+848
+00:49:54.280 --> 00:49:57.760
+And so we reasoned that probably to really understand what Kit ligand is doing
+
+849
+00:49:57.820 --> 00:50:01.740
+here, we should do both gain and loss of function experiments to knock
+
+850
+00:50:01.840 --> 00:50:05.760
+down Kit ligand to where it is in a tumor and to overexpress it to where
+
+851
+00:50:05.780 --> 00:50:09.360
+it is in normal pancreas. And so we did both and did molecular
+
+852
+00:50:09.460 --> 00:50:12.740
+profiling by RNA-seq to understand what Kit ligand does.
+
+853
+00:50:13.200 --> 00:50:17.060
+I'll just briefly mention that subpopulations of these cells express c-Kit, so the
+
+854
+00:50:17.380 --> 00:50:19.780
+Kit ligand had someone to talk to in these cultures.
+
+855
+00:50:20.400 --> 00:50:24.300
+And so what we found is that Kit ligand seems to positively regulate
+
+856
+00:50:24.360 --> 00:50:28.110
+a network of genes that we would predict is associated with
+
+857
+00:50:28.160 --> 00:50:30.330
+maintenance of normal tissue architecture.
+
+858
+00:50:30.420 --> 00:50:34.409
+So this includes a number of components of basement membrane and
+
+859
+00:50:34.460 --> 00:50:38.020
+matrix components, really, that are associated with keeping our tissues intact.
+
+860
+00:50:38.520 --> 00:50:42.230
+But we also saw negative regulation of factors that are
+
+861
+00:50:42.260 --> 00:50:45.400
+involved really in detrimental CAF functions, including
+
+862
+00:50:45.600 --> 00:50:49.440
+LRRC15. This was a marker described by Shannon Turley's lab
+
+863
+00:50:50.340 --> 00:50:54.180
+that may or may not be functional itself, but marks a CAF state really
+
+864
+00:50:54.220 --> 00:50:57.650
+associated with immune suppression and resistance to immunotherapy.
+
+865
+00:50:58.160 --> 00:51:01.940
+It also negatively regulated expression of a number of immune suppressive cytokine
+
+866
+00:51:01.960 --> 00:51:05.420
+and chemokine genes. And generally speaking, our loss and gain-of-function
+
+867
+00:51:05.480 --> 00:51:07.180
+experiments agreed with one another.
+
+868
+00:51:07.820 --> 00:51:11.439
+So from here, we moved into functional studies. We started in just healthy mice.
+
+869
+00:51:11.800 --> 00:51:15.100
+We conditionally deleted Kit ligand in the pancreatic mesenchymal.
+
+870
+00:51:15.440 --> 00:51:19.060
+We did H&amp;E, saw no differences. But we were
+
+871
+00:51:19.120 --> 00:51:21.960
+undeterred, so we crossed in a reporter.
+
+872
+00:51:22.560 --> 00:51:25.800
+Of course, still no difference by H&amp;E, but really thought to take a look under the
+
+873
+00:51:25.860 --> 00:51:29.770
+hood, and we did some multiplexed imaging analysis using
+
+874
+00:51:29.860 --> 00:51:32.770
+CODEX in collaboration with Sung Kim's lab at Stanford.
+
+875
+00:51:33.300 --> 00:51:36.540
+And so really, there were two differences that caught our eye and motivated us to
+
+876
+00:51:36.580 --> 00:51:40.560
+keep going. The first is that when we conditionally deleted Kit ligand,
+
+877
+00:51:40.880 --> 00:51:44.840
+we saw this significant increase in CD45 positive cells or
+
+878
+00:51:44.880 --> 00:51:47.900
+leukocytes that were recruited into pancreas tissue.
+
+879
+00:51:47.909 --> 00:51:51.620
+And the second, which we think is related, is an increase in the abundance of
+
+880
+00:51:51.680 --> 00:51:54.920
+perivascular mesenchymal, or these cells that are touching
+
+881
+00:51:55.200 --> 00:51:58.860
+endothelial cells. And these cells in those positions really are spatially
+
+882
+00:51:59.000 --> 00:52:02.620
+poised to secrete factors into the bloodstream that promote leukocyte
+
+883
+00:52:02.660 --> 00:52:06.460
+trafficking or that impact endothelial cells to regulate leukocyte
+
+884
+00:52:06.500 --> 00:52:09.720
+trafficking themselves. So from here, we moved into an
+
+885
+00:52:09.760 --> 00:52:13.480
+inflammatory setting, and we engaged a protocol that's been used
+
+886
+00:52:13.540 --> 00:52:16.890
+heavily by our colleagues in the field using this secretagogue called
+
+887
+00:52:16.960 --> 00:52:20.650
+cerulean that induces damage of the acinar compartment
+
+888
+00:52:20.980 --> 00:52:24.880
+and pancreatic inflammation. And in wild-type healthy mice, you
+
+889
+00:52:24.900 --> 00:52:28.810
+can treat with cerulean. You get an inflammatory reaction in the pancreas, and
+
+890
+00:52:28.840 --> 00:52:31.330
+that inflammation resolves within a few days.
+
+891
+00:52:31.380 --> 00:52:35.160
+This has been really nicely benchmarked by many of our colleagues in the field.
+
+892
+00:52:35.640 --> 00:52:39.580
+I will mention, though, that a combination of cerulean and a
+
+893
+00:52:39.640 --> 00:52:42.460
+K-RAS mutation gives something very different.
+
+894
+00:52:42.480 --> 00:52:46.460
+In that case, the inflammation does not get resolved and actually really
+
+895
+00:52:46.980 --> 00:52:50.940
+drives the formation of pre-invasive lesions in mouse pancreas.
+
+896
+00:52:51.510 --> 00:52:55.260
+And so what we found, really to our surprise, is that when we induced
+
+897
+00:52:55.270 --> 00:52:58.720
+pancreatic inflammation in the absence of Kit ligand, we saw really much more
+
+898
+00:52:58.760 --> 00:53:02.500
+inflammation, as well as a clear increase in what looked
+
+899
+00:53:02.540 --> 00:53:06.080
+like an acinar-to-ductal metaplasia within the
+
+900
+00:53:06.120 --> 00:53:10.040
+pancreatic epithelium. And this really aligned with what people have reported in
+
+901
+00:53:10.060 --> 00:53:13.880
+the context of a K-RAS mutation in the pancreatic epithelial compartment,
+
+902
+00:53:14.260 --> 00:53:17.460
+motivating us to ask whether there's some sort of paracrine
+
+903
+00:53:17.880 --> 00:53:21.530
+inverse relationship between Kit ligand in the stroma and
+
+904
+00:53:21.600 --> 00:53:25.516
+K-RAS signaling in the epithelium.And so we wanted to look a
+
+905
+00:53:25.556 --> 00:53:29.336
+little bit more carefully at this idea that kit ligand negatively
+
+906
+00:53:29.356 --> 00:53:31.436
+regulates epithelial plasticity.
+
+907
+00:53:31.476 --> 00:53:35.436
+This acinar to ductal metaplasia is an early step of pancreatic
+
+908
+00:53:35.446 --> 00:53:39.406
+tumorigenesis. And so you can see that in our control mice,
+
+909
+00:53:39.736 --> 00:53:43.316
+you see that most of these acinar cells express amylase.
+
+910
+00:53:43.396 --> 00:53:45.266
+The ductal cells express pan cytokeratin.
+
+911
+00:53:45.576 --> 00:53:47.636
+Generally, these are in different cellular compartments.
+
+912
+00:53:47.656 --> 00:53:51.216
+But when we conditionally knocked out kit ligand, we really saw fairly
+
+913
+00:53:51.256 --> 00:53:54.626
+extensive co-expression of these markers consistent with
+
+914
+00:53:54.696 --> 00:53:57.956
+this metaplastic state that's an early stage of
+
+915
+00:53:58.016 --> 00:54:01.636
+tumorigenesis. And when we looked at the immune composition of these
+
+916
+00:54:01.676 --> 00:54:05.126
+tissues, we saw a significant increase in CD45 positive
+
+917
+00:54:05.216 --> 00:54:08.946
+cells and CD68 positive myeloid cells when we had
+
+918
+00:54:08.996 --> 00:54:10.926
+this conditional kit ligand deletion.
+
+919
+00:54:11.526 --> 00:54:13.816
+And finally, we looked in the context of cancer.
+
+920
+00:54:14.145 --> 00:54:17.976
+And what we've now seen in three different implantable models is that when you lose
+
+921
+00:54:17.996 --> 00:54:20.976
+kit ligand in the stroma, you significantly increase
+
+922
+00:54:21.036 --> 00:54:24.576
+tumorigenesis. And we're totally
+
+923
+00:54:24.656 --> 00:54:28.296
+aware of the limitations of the implantable models, but the one point I want to
+
+924
+00:54:28.356 --> 00:54:31.976
+make here is that in these cases, these are insta-tumor, right?
+
+925
+00:54:32.076 --> 00:54:34.916
+They've already lost P53. They are invasive cancer.
+
+926
+00:54:35.276 --> 00:54:39.076
+But even in this case, kit ligand has some sort of tumor restraining
+
+927
+00:54:39.116 --> 00:54:42.976
+impact at the tissue level, something we certainly want to look into further.
+
+928
+00:54:43.576 --> 00:54:47.416
+And so to conclude, I hope I've convinced you that normal pancreatic cancer is
+
+929
+00:54:47.456 --> 00:54:51.296
+not the barrier, but a barrier to tumorigenesis.
+
+930
+00:54:51.576 --> 00:54:55.236
+We nominate stromal kit ligand as one factor that seems to limit
+
+931
+00:54:55.656 --> 00:54:58.156
+epithelial plasticity and inflammation.
+
+932
+00:54:58.816 --> 00:55:02.736
+The real relevance for epithelial sulfate is something we've only just started to
+
+933
+00:55:02.776 --> 00:55:06.596
+look into and think about. In human pancreas tissue, we really need to
+
+934
+00:55:06.636 --> 00:55:10.476
+dig deeper and understand where and when kit ligand gets lost
+
+935
+00:55:10.536 --> 00:55:13.866
+during tumorigenesis. And of course, we want to really better
+
+936
+00:55:14.196 --> 00:55:17.756
+understand what's happening in this dual recombinase genetic mouse model to
+
+937
+00:55:17.776 --> 00:55:20.436
+understand what happens to PanIN progression in these mice.
+
+938
+00:55:20.896 --> 00:55:24.676
+And the ultimate goal really is to think about downstream mediators that may serve
+
+939
+00:55:24.736 --> 00:55:27.746
+as targets for interception or as biomarkers of progression.
+
+940
+00:55:28.276 --> 00:55:31.336
+And so with that, I'll conclude. I'll thank all the wonderful people in my lab,
+
+941
+00:55:31.376 --> 00:55:33.216
+especially Kathrina, who did this work.
+
+942
+00:55:33.576 --> 00:55:35.976
+Thanks to our wonderful collaborators and funding sources.
+
+943
+00:55:36.016 --> 00:55:39.416
+And with that, I'll thank you all for your attention and gladly take any questions.
+
+944
+00:55:48.536 --> 00:55:52.436
+Very nice talk. And you mentioned there's a key
+
+945
+00:55:52.896 --> 00:55:56.036
+role of the kit ligand during the
+
+946
+00:55:56.396 --> 00:55:58.396
+pancreatic cancer progression, right?
+
+947
+00:55:58.776 --> 00:56:02.216
+So I'm curious about the loss of the kit
+
+948
+00:56:02.476 --> 00:56:06.376
+ligand expression in CAF. Is it a consequence or trigger of
+
+949
+00:56:06.496 --> 00:56:08.976
+the poor cancer progression? Thank you.
+
+950
+00:56:09.036 --> 00:56:12.796
+Yeah, no, it's a great question. So I sort of glossed over it, but
+
+951
+00:56:13.336 --> 00:56:16.716
+TGF-beta alone was sufficient in our, at least,
+
+952
+00:56:16.856 --> 00:56:20.356
+experimental culture models to induce loss of kit
+
+953
+00:56:20.396 --> 00:56:24.336
+ligand from the mesenchyme. So TGF-beta gets induced in the
+
+954
+00:56:24.416 --> 00:56:27.516
+pancreatic epithelium pretty early in tumorigenesis.
+
+955
+00:56:27.526 --> 00:56:31.456
+So I think a possibility is that kit ligand sticks around kind
+
+956
+00:56:31.496 --> 00:56:35.196
+of in the early stages of tumorigenesis, but once there's enough TGF-beta,
+
+957
+00:56:35.756 --> 00:56:39.736
+then kit ligand gets downregulated, and it's presumably part of a
+
+958
+00:56:39.796 --> 00:56:42.936
+program that serves as a barrier to tumorigenesis.
+
+959
+00:56:44.136 --> 00:56:47.776
+I think probably there are other signals in an
+
+960
+00:56:47.816 --> 00:56:51.196
+intact tumor. We did the is TGF-beta sufficient.
+
+961
+00:56:51.236 --> 00:56:54.786
+We haven't knocked out TGF-beta in the context of conditioned media, for example,
+
+962
+00:56:54.836 --> 00:56:58.796
+to ask whether it's necessary with all those other signals around.
+
+963
+00:56:58.816 --> 00:57:02.796
+But certainly, that's a key factor that we think probably mechanistically is
+
+964
+00:57:02.836 --> 00:57:05.016
+related to kit ligand regulation and expression.
+
+965
+00:57:05.276 --> 00:57:05.966
+Got it. Thank you.
+
+966
+00:57:05.966 --> 00:57:06.116
+Thank you.
+
+967
+00:57:07.576 --> 00:57:10.416
+So great talk. I'm Yue Fan from Johns Hopkins.
+
+968
+00:57:10.956 --> 00:57:14.536
+So I noticed that you used like a
+
+969
+00:57:14.576 --> 00:57:17.716
+PanIN as a model study. So I'm wondering whether like
+
+970
+00:57:17.936 --> 00:57:20.296
+IPMN to PDAC progression
+
+971
+00:57:21.236 --> 00:57:22.056
+share the similar
+
+972
+00:57:24.356 --> 00:57:28.216
+pathway you mentioned, or there's some other different mechanism. Thank you.
+
+973
+00:57:28.616 --> 00:57:32.016
+Yeah, no, it's a great question. One I don't have an answer to right now.
+
+974
+00:57:32.336 --> 00:57:36.236
+We were motivated by these totally striking human
+
+975
+00:57:36.316 --> 00:57:39.776
+studies from Laura's lab and Marina's lab showing how frequent PanINs are.
+
+976
+00:57:40.096 --> 00:57:43.696
+But these cystic lesions like IPMNs are reasonably common
+
+977
+00:57:43.836 --> 00:57:47.496
+too, and they all do have their own so-called microenvironment, right?
+
+978
+00:57:47.516 --> 00:57:50.856
+There is a modest stromal expansion around all of those lesions.
+
+979
+00:57:51.136 --> 00:57:53.256
+I have no idea what they're comprised of.
+
+980
+00:57:53.296 --> 00:57:57.176
+I have no idea what the kind of kit ligand expression is, but really, this
+
+981
+00:57:57.216 --> 00:58:01.126
+was a very mousey work, and we're really motivated to go into humans
+
+982
+00:58:01.416 --> 00:58:05.236
+and try to understand expression patterns in pre-invasive lesions of
+
+983
+00:58:05.246 --> 00:58:07.016
+different stages compared to cancer.
+
+984
+00:58:07.056 --> 00:58:10.756
+And also, we're so fortunate that we have now nice genetic
+
+985
+00:58:10.776 --> 00:58:11.976
+models that actually
+
+986
+00:58:13.216 --> 00:58:16.776
+enable us to study IPMNs, to study cystic lesions in the lab.
+
+987
+00:58:16.836 --> 00:58:19.396
+So it's something we haven't touched yet.
+
+988
+00:58:19.436 --> 00:58:23.216
+My sort of naive thinking is there's TGF-beta
+
+989
+00:58:23.226 --> 00:58:27.136
+around in all of them, so perhaps similar rules would apply, but we have to do the
+
+990
+00:58:27.176 --> 00:58:30.196
+experiment. I think it's a very valid question. Thank you.
+
+991
+00:58:30.276 --> 00:58:30.596
+Thank you.
+
+992
+00:58:32.976 --> 00:58:36.576
+Thank you. Very nice talk. I'm impressed by the stellate
+
+993
+00:58:36.656 --> 00:58:40.376
+cells. Do you know if there are any other organs where something like that happen?
+
+994
+00:58:40.916 --> 00:58:44.636
+Because you mentioned two endodermic organs, and
+
+995
+00:58:44.856 --> 00:58:47.496
+there are other organs that need fatty acids too, so.
+
+996
+00:58:47.596 --> 00:58:51.436
+Yeah. So, liver is really the original site where stellate
+
+997
+00:58:51.456 --> 00:58:54.396
+cells were discovered a century ago.
+
+998
+00:58:54.456 --> 00:58:58.326
+There's a really, really nice Cre-based mouse model, the L-RAT Cre model, that's
+
+999
+00:58:58.336 --> 00:59:01.336
+been used for studying stellate cells in liver.
+
+1000
+00:59:01.376 --> 00:59:05.116
+Unfortunately, pancreatic stellate cells use something else to
+
+1001
+00:59:05.176 --> 00:59:09.076
+esterify retinoids. They don't express L-RATs. We can't use that in pancreas.
+
+1002
+00:59:09.276 --> 00:59:13.025
+Fabp4 Cre is a tool that we can use in both organs, but we don't have
+
+1003
+00:59:13.196 --> 00:59:17.096
+an L-RAT Cre of the pancreas. But one thing
+
+1004
+00:59:17.116 --> 00:59:20.966
+I'll say that's interesting, bona fide stellate cells have only
+
+1005
+00:59:20.976 --> 00:59:24.866
+been found in pancreas and liver. But what' CAFs cool is there was a sort
+
+1006
+00:59:24.876 --> 00:59:28.296
+of meta-analysis, one of these kind of harmonized
+
+1007
+00:59:28.376 --> 00:59:32.276
+single-cell RNA-seq studies in sort of a pan-cancer study
+
+1008
+00:59:32.336 --> 00:59:35.876
+that came out in cancer research, I think last year, that actually
+
+1009
+00:59:35.936 --> 00:59:39.756
+showed what they called Fabp4-positive pericytes that they
+
+1010
+00:59:39.776 --> 00:59:43.416
+inferred to be major origins of CAFs across tissues.
+
+1011
+00:59:43.436 --> 00:59:46.796
+And so I have to wonder whether this idea of a
+
+1012
+00:59:46.816 --> 00:59:50.236
+fat-storing perivascular cell of origin is
+
+1013
+00:59:50.636 --> 00:59:54.616
+actually a more anatomically conserved feature than we think, if that makes
+
+1014
+00:59:54.676 --> 00:59:55.036
+sense.
+
+1015
+00:59:55.660 --> 00:59:59.160
+Exactly. Back to the thing, pericyte is supposed to be a
+
+1016
+00:59:59.200 --> 01:00:02.360
+reparative cell, and now you're saying that you have a
+
+1017
+01:00:02.440 --> 01:00:04.850
+fat-saving pericyte cell now, which is great.
+
+1018
+01:00:04.900 --> 01:00:05.520
+Exactly.
+
+1019
+01:00:05.540 --> 01:00:05.690
+Thank you.
+
+1020
+01:00:05.740 --> 01:00:07.200
+Yeah. Exactly. Thank you.
+
+1021
+01:00:08.880 --> 01:00:12.740
+Very interesting data. So other than TGF-beta, were you able to
+
+1022
+01:00:12.780 --> 01:00:15.920
+recognize anything else upstream that gets induced?
+
+1023
+01:00:16.380 --> 01:00:20.300
+Because if you think about therapeutic potential, it will be easier to
+
+1024
+01:00:20.720 --> 01:00:24.380
+down-regulate a target rather than overexpress it,
+
+1025
+01:00:24.460 --> 01:00:27.000
+right? And TGF-beta, we already saw the failures.
+
+1026
+01:00:27.940 --> 01:00:31.260
+So were you able to recognize something else, or that's something you're trying
+
+1027
+01:00:31.340 --> 01:00:31.480
+now?
+
+1028
+01:00:32.080 --> 01:00:34.800
+Yeah, it's definitely something we're trying now.
+
+1029
+01:00:34.840 --> 01:00:38.290
+I think ultimately, one thing I didn't talk about, just
+
+1030
+01:00:38.580 --> 01:00:42.420
+briefly covered in the background about Kit ligand is that conventionally,
+
+1031
+01:00:42.460 --> 01:00:46.000
+c-Kit is an oncogenic signaling mediator.
+
+1032
+01:00:46.100 --> 01:00:50.040
+We were certainly surprised by our results, but I
+
+1033
+01:00:50.060 --> 01:00:54.000
+don't think we would want to specifically agonize the
+
+1034
+01:00:54.020 --> 01:00:57.780
+Kit ligand c-Kit pathway as a preventative or therapeutic strategy.
+
+1035
+01:00:57.840 --> 01:01:00.079
+So we're really motivated to look
+
+1036
+01:01:00.900 --> 01:01:04.220
+really mechanistically in both the sender and receiver cells to think about, okay,
+
+1037
+01:01:04.800 --> 01:01:07.880
+probably we don't want to target this specific pathway, but what's associated
+
+1038
+01:01:08.000 --> 01:01:11.820
+functionally? What underlies this apparent link between Kit
+
+1039
+01:01:11.860 --> 01:01:15.420
+ligand and this kind of negative regulation of inflammation and tissue
+
+1040
+01:01:15.500 --> 01:01:19.410
+plasticity? Some of the things that popped out are some of these
+
+1041
+01:01:19.700 --> 01:01:23.200
+basement membrane and matrix components, some
+
+1042
+01:01:23.260 --> 01:01:27.100
+integrins, laminins, other factors that, generally speaking, are
+
+1043
+01:01:27.160 --> 01:01:29.380
+associated with normal tissue architecture.
+
+1044
+01:01:29.400 --> 01:01:33.080
+And if we can understand the molecular regulators of those, I think those would be
+
+1045
+01:01:33.480 --> 01:01:36.940
+really appealing targets. In thinking about the question that came up during
+
+1046
+01:01:37.000 --> 01:01:40.280
+Stephanie's talk of how do we reprogram or
+
+1047
+01:01:40.780 --> 01:01:44.380
+favor a tumor-restraining
+
+1048
+01:01:44.480 --> 01:01:48.160
+fibroblast phenotype, and I think one that promotes a normal, if you
+
+1049
+01:01:48.180 --> 01:01:51.920
+will, matrix and basement membrane architecture, that would be
+
+1050
+01:01:52.160 --> 01:01:55.820
+appealing. We don't know the specific molecular mediators to chase yet, but we're
+
+1051
+01:01:56.020 --> 01:01:57.160
+motivated to look.
+
+1052
+01:01:57.200 --> 01:02:00.040
+Yeah, I think instead of switching between good and the bad, because there's so
+
+1053
+01:02:00.140 --> 01:02:03.840
+little known, bringing them back to the quiescent would probably be the best
+
+1054
+01:02:03.940 --> 01:02:04.160
+bet.
+
+1055
+01:02:04.200 --> 01:02:04.900
+Yeah, for sure.
+
+1056
+01:02:06.319 --> 01:02:07.060
+All right. Thank you.
+
+1057
+01:02:19.380 --> 01:02:19.700
+Okay.
+
+1058
+01:02:21.060 --> 01:02:24.240
+The timer's already started countdown, so I better get going.
+
+1059
+01:02:24.480 --> 01:02:28.360
+Thank you for inviting me. It's
+
+1060
+01:02:28.380 --> 01:02:31.580
+been a great session. It's going to be completely downhill from here.
+
+1061
+01:02:31.900 --> 01:02:32.060
+So
+
+1062
+01:02:33.740 --> 01:02:37.640
+what I'll talk about is some of the work going on in the
+
+1063
+01:02:37.700 --> 01:02:38.060
+lab.
+
+1064
+01:02:40.020 --> 01:02:40.740
+Firstly,
+
+1065
+01:02:41.980 --> 01:02:43.720
+I have no disclosures.
+
+1066
+01:02:44.680 --> 01:02:46.140
+So essentially,
+
+1067
+01:02:47.080 --> 01:02:50.900
+I think as a starting point, just to reiterate the complexity of the tumor
+
+1068
+01:02:50.960 --> 01:02:54.560
+microenvironment in pancreatic cancer, that we have a
+
+1069
+01:02:54.900 --> 01:02:58.300
+multitude of heterocellular interactions
+
+1070
+01:02:59.220 --> 01:03:03.140
+that are present and that really drive tumor progression.
+
+1071
+01:03:04.160 --> 01:03:08.020
+And that we've had, through many years, several studies that have
+
+1072
+01:03:08.060 --> 01:03:08.410
+really
+
+1073
+01:03:09.500 --> 01:03:13.360
+identified these key signaling pathways
+
+1074
+01:03:13.420 --> 01:03:16.860
+that mediate these intercellular interactions.
+
+1075
+01:03:17.660 --> 01:03:20.920
+And similarly, as was just
+
+1076
+01:03:21.380 --> 01:03:25.130
+reiterated earlier, a number of preclinical studies
+
+1077
+01:03:25.380 --> 01:03:29.300
+have really demonstrated quite clearly that, at least in the preclinical models,
+
+1078
+01:03:29.920 --> 01:03:33.520
+if we target some of these interactions, we can
+
+1079
+01:03:33.900 --> 01:03:37.800
+sensitize these tumors to standard care chemotherapy, and in some
+
+1080
+01:03:37.840 --> 01:03:41.740
+cases, we can even make them sensitive to immune
+
+1081
+01:03:41.780 --> 01:03:42.800
+checkpoint inhibitors.
+
+1082
+01:03:44.080 --> 01:03:47.220
+But also, as we were just discussing,
+
+1083
+01:03:48.160 --> 01:03:52.109
+other studies have really illustrated that it's not just
+
+1084
+01:03:52.200 --> 01:03:56.150
+a free target for all to target this tumor microenvironment.
+
+1085
+01:03:56.590 --> 01:04:00.440
+There's a certain level of buyer beware that if you go after
+
+1086
+01:04:00.540 --> 01:04:03.480
+specific subsets, such as with a smoothened
+
+1087
+01:04:03.960 --> 01:04:07.650
+inhibitor and sonic hedgehog targeting,
+
+1088
+01:04:08.040 --> 01:04:11.680
+or specific depletion of certain fibroblast subsets or T
+
+1089
+01:04:11.760 --> 01:04:15.019
+regulatory T cells, you actually see an
+
+1090
+01:04:15.100 --> 01:04:19.000
+acceleration of tumor development or tumor progression.
+
+1091
+01:04:19.160 --> 01:04:22.320
+And actually, where that leaves us is in this
+
+1092
+01:04:22.380 --> 01:04:24.860
+scenario where we have
+
+1093
+01:04:25.100 --> 01:04:29.080
+multiple heterogeneous interactions in
+
+1094
+01:04:29.120 --> 01:04:32.460
+the tumor microenvironment, and that we probably have the
+
+1095
+01:04:32.540 --> 01:04:34.760
+coexistence of both
+
+1096
+01:04:35.540 --> 01:04:39.520
+tumor-suppressive and tumor-promoting interactions
+
+1097
+01:04:39.620 --> 01:04:43.140
+between tumor cells and cells in the microenvironment.
+
+1098
+01:04:44.200 --> 01:04:44.520
+And so,
+
+1099
+01:04:45.760 --> 01:04:46.060
+my
+
+1100
+01:04:47.220 --> 01:04:50.360
+co-chairs or co-speakers here have already
+
+1101
+01:04:50.700 --> 01:04:53.800
+gone through this in much greater
+
+1102
+01:04:55.640 --> 01:04:59.520
+detail than me, but just really to emphasize that we
+
+1103
+01:04:59.560 --> 01:05:03.300
+have multiple subsets of fibroblasts
+
+1104
+01:05:03.340 --> 01:05:06.860
+in these tumors. And a lot of effort have really gone into
+
+1105
+01:05:06.960 --> 01:05:10.720
+classifying these based on the transcriptional
+
+1106
+01:05:10.820 --> 01:05:14.300
+and cell surface marker, and we have an
+
+1107
+01:05:14.340 --> 01:05:16.760
+emerging understanding of their function.
+
+1108
+01:05:17.260 --> 01:05:19.120
+And a lot of them seems to have really
+
+1109
+01:05:19.400 --> 01:05:23.360
+pro-tumorigenic functions, at least the way that it's
+
+1110
+01:05:23.400 --> 01:05:27.340
+been described. And so the question is really, where does the
+
+1111
+01:05:27.420 --> 01:05:31.280
+anti-tumor function sit, and how
+
+1112
+01:05:31.320 --> 01:05:35.260
+can we think about this? But also, more conceptually,
+
+1113
+01:05:35.270 --> 01:05:38.529
+I think as we move forward and start thinking about
+
+1114
+01:05:38.620 --> 01:05:41.980
+targeting fibroblasts in these cancers,
+
+1115
+01:05:42.500 --> 01:05:46.160
+both for pancreatic cancer and also in other cancers, I think there's just
+
+1116
+01:05:46.680 --> 01:05:50.540
+some considerations that are worthwhile just going through.
+
+1117
+01:05:50.820 --> 01:05:54.060
+So we have these subtypes, and we know that they're plastic, there can be switches
+
+1118
+01:05:54.120 --> 01:05:57.980
+between them. But when you start overlaying lineages, it's worthwhile just
+
+1119
+01:05:58.020 --> 01:06:01.980
+really thinking about whether the particular function that's being
+
+1120
+01:06:02.020 --> 01:06:05.700
+interrogated is really restricted to the lineage or whether it's a
+
+1121
+01:06:05.740 --> 01:06:08.820
+compounding effect of the lineage plus the subtype.
+
+1122
+01:06:09.190 --> 01:06:13.120
+And so, this creates some thinking in and around
+
+1123
+01:06:13.600 --> 01:06:17.380
+how do we actually identify these subsets, and what's the
+
+1124
+01:06:17.480 --> 01:06:21.320
+right way to target them?We know that there's a spatial
+
+1125
+01:06:21.600 --> 01:06:25.370
+relationship between tumor cells and fibroblasts, and other cells as
+
+1126
+01:06:25.400 --> 01:06:28.720
+well. So how does this play into how we target the
+
+1127
+01:06:28.760 --> 01:06:29.460
+fibroblasts?
+
+1128
+01:06:30.480 --> 01:06:34.340
+What about tissue specificity? We have a much
+
+1129
+01:06:34.380 --> 01:06:38.260
+better understanding of the fibroblasts and the fibroblast function within the
+
+1130
+01:06:38.320 --> 01:06:42.280
+primary tumor, in particular in pancreatic cancer, compared to what happens
+
+1131
+01:06:42.340 --> 01:06:46.080
+in metastatic sites. And if we are thinking about targeting these fibroblasts,
+
+1132
+01:06:46.650 --> 01:06:50.580
+there's a bit of an underlying assumption that they do the same thing across all
+
+1133
+01:06:50.640 --> 01:06:54.440
+tissues, and I think emerging evidence suggests that that's probably not the
+
+1134
+01:06:54.500 --> 01:06:58.280
+case. Also, in terms of the cellular interactions, are
+
+1135
+01:06:58.300 --> 01:07:01.790
+we going after interactions between fibroblasts immune cells,
+
+1136
+01:07:01.880 --> 01:07:05.730
+fibroblast tumor cells, and is the consequence of targeting those,
+
+1137
+01:07:06.060 --> 01:07:09.760
+is that the same? And finally, I think it's
+
+1138
+01:07:09.860 --> 01:07:12.800
+also worthwhile thinking about whether the
+
+1139
+01:07:12.840 --> 01:07:16.420
+interaction that we're going after is actually
+
+1140
+01:07:16.480 --> 01:07:20.220
+a dominant effect that's really being
+
+1141
+01:07:20.260 --> 01:07:24.100
+driven from the fibroblast, or whether the change in
+
+1142
+01:07:24.120 --> 01:07:28.020
+fibroblast phenotype or transcriptional output is really a
+
+1143
+01:07:28.160 --> 01:07:30.780
+consequence of the environment in which it's sitting.
+
+1144
+01:07:31.180 --> 01:07:35.020
+And so therefore really being very careful in terms of how we select
+
+1145
+01:07:35.040 --> 01:07:37.980
+our targets and how we test them
+
+1146
+01:07:38.510 --> 01:07:40.900
+mechanistically before we go forward.
+
+1147
+01:07:41.400 --> 01:07:44.840
+And so just to illustrate some of these points, I'll just go through
+
+1148
+01:07:44.920 --> 01:07:46.520
+three examples
+
+1149
+01:07:48.020 --> 01:07:52.010
+in a bit more detail. So the first thing is just
+
+1150
+01:07:52.060 --> 01:07:55.260
+sort of related to the relationship between
+
+1151
+01:07:55.340 --> 01:07:59.050
+lineages or more stable fibroblast functions, for lack of a
+
+1152
+01:07:59.080 --> 01:08:02.940
+better term, versus the sort of subset, more
+
+1153
+01:08:02.980 --> 01:08:06.900
+plastic function. So we described in the lab a couple of
+
+1154
+01:08:06.920 --> 01:08:10.040
+years ago, this marker CD105,
+
+1155
+01:08:11.220 --> 01:08:14.600
+that sort of denotes two different subsets or
+
+1156
+01:08:15.180 --> 01:08:16.851
+perhaps even lineages of fibroblasts.
+
+1157
+01:08:17.260 --> 01:08:21.160
+And both of these subsets can adapt the
+
+1158
+01:08:21.200 --> 01:08:24.940
+transcription profile of myofibroblasts, inflammatory fibroblasts,
+
+1159
+01:08:25.221 --> 01:08:26.880
+and antigen-presenting fibroblasts.
+
+1160
+01:08:28.280 --> 01:08:32.160
+And so the way we actually ended up identifying those was using a
+
+1161
+01:08:32.221 --> 01:08:36.110
+slightly orthogonal approach to the single-cell sequencing, where we used mass
+
+1162
+01:08:36.120 --> 01:08:39.940
+cytometry to probe cell surface receptors, and this
+
+1163
+01:08:40.000 --> 01:08:43.561
+was in collaboration with Jen Morton from Scotland Institute.
+
+1164
+01:08:44.080 --> 01:08:47.620
+That really allowed us, based on the KPC model, to identify the
+
+1165
+01:08:47.660 --> 01:08:51.440
+CD105 positive and CD105 negative cancer-associated
+
+1166
+01:08:51.521 --> 01:08:55.160
+fibroblasts. But the sort of experiment that got us really
+
+1167
+01:08:55.181 --> 01:08:59.080
+excited about this was when we take the fibroblasts out from the normal healthy
+
+1168
+01:08:59.101 --> 01:09:02.620
+pancreas and grow them in vitro, the fibroblasts that are
+
+1169
+01:09:02.660 --> 01:09:06.221
+CD105 positive remain CD105 positive, and the ones that are
+
+1170
+01:09:06.260 --> 01:09:10.221
+CD105 negative stay CD105 negative, giving us
+
+1171
+01:09:10.260 --> 01:09:14.120
+sort of an early indication that this is a stable marker expression.
+
+1172
+01:09:14.440 --> 01:09:18.389
+And actually, when we treat these cells with either TGF-beta, interleukin, or
+
+1173
+01:09:18.440 --> 01:09:22.320
+interferon gamma, again, we don't see the sort of shift in
+
+1174
+01:09:22.360 --> 01:09:25.880
+terms of between positive and negative CD105
+
+1175
+01:09:25.940 --> 01:09:26.681
+fibroblasts.
+
+1176
+01:09:28.260 --> 01:09:32.080
+These fibroblasts population subsets or
+
+1177
+01:09:32.120 --> 01:09:36.101
+lineages were also defined by a sort of a differential
+
+1178
+01:09:36.141 --> 01:09:40.061
+response to common signals present in the microenvironment.
+
+1179
+01:09:40.120 --> 01:09:43.780
+So if we take these fibroblasts and treat them with a
+
+1180
+01:09:43.840 --> 01:09:47.240
+number of different signaling
+
+1181
+01:09:47.280 --> 01:09:50.960
+factors that are known to play important roles in the tumor
+
+1182
+01:09:51.021 --> 01:09:54.101
+microenvironment, and then we use mass cytometry to
+
+1183
+01:09:54.160 --> 01:09:58.120
+profile single-cell phospho-specific readout, we can see
+
+1184
+01:09:58.160 --> 01:10:01.760
+that the sort of response to these common signal
+
+1185
+01:10:02.320 --> 01:10:06.180
+differs between the positive and negative fibroblasts, suggesting not
+
+1186
+01:10:06.280 --> 01:10:08.240
+only that they express this differential
+
+1187
+01:10:09.360 --> 01:10:13.000
+receptor, but actually the way that they interpret the same
+
+1188
+01:10:13.100 --> 01:10:16.540
+signal from the microenvironment is actually inherently
+
+1189
+01:10:16.580 --> 01:10:19.280
+different between these two populations.
+
+1190
+01:10:20.570 --> 01:10:23.960
+And what we could also see is that they have a differential function in terms of
+
+1191
+01:10:24.000 --> 01:10:26.180
+how they regulate tumor development.
+
+1192
+01:10:26.560 --> 01:10:30.340
+So if we do a subcutaneous implantation of
+
+1193
+01:10:30.660 --> 01:10:34.580
+tumor cells and then co-implant CD105 positive fibroblasts, we see
+
+1194
+01:10:34.620 --> 01:10:38.600
+a slight acceleration of tumor development or tumor growth.
+
+1195
+01:10:38.950 --> 01:10:42.620
+But if we implant CD105 negative fibroblasts or even
+
+1196
+01:10:42.680 --> 01:10:46.580
+co-implant CD105 negative and CD105 positive fibroblasts,
+
+1197
+01:10:46.620 --> 01:10:50.420
+we can see that there's a suppression of tumor growth, and this
+
+1198
+01:10:50.620 --> 01:10:54.040
+is actually dependent on a functional immune system.
+
+1199
+01:10:54.960 --> 01:10:58.620
+What we don't know yet, and this is something we're actively exploring, is
+
+1200
+01:10:58.680 --> 01:11:02.560
+whether these sort of functional effects is
+
+1201
+01:11:02.640 --> 01:11:06.300
+not only encoded within the CD105 positive and
+
+1202
+01:11:06.340 --> 01:11:10.260
+negative subsets, but actually whether that's dependent on them adapting
+
+1203
+01:11:10.680 --> 01:11:14.580
+a particular myofibroblastic or inflammatory fibroblastic
+
+1204
+01:11:14.640 --> 01:11:18.520
+subset, trying to link the distinction or the interplay between
+
+1205
+01:11:18.620 --> 01:11:21.760
+the sort of hard-coded functions and the more
+
+1206
+01:11:21.840 --> 01:11:24.800
+plastic functions of fibroblasts.
+
+1207
+01:11:26.900 --> 01:11:30.260
+But what we also noticed is that when we start
+
+1208
+01:11:30.280 --> 01:11:33.880
+probing these fibroblast subsets across a
+
+1209
+01:11:34.020 --> 01:11:37.780
+larger number of models here using different genetic
+
+1210
+01:11:37.820 --> 01:11:41.640
+engineered mouse models, we can see that not only are the
+
+1211
+01:11:41.700 --> 01:11:44.980
+CD105 positive and CD105 negative fibroblasts
+
+1212
+01:11:45.520 --> 01:11:49.220
+identifiable across a number of models and also
+
+1213
+01:11:49.300 --> 01:11:53.260
+in human tissues. But what we can see is that when we
+
+1214
+01:11:53.320 --> 01:11:57.100
+look more broadly across a number of the sort of very
+
+1215
+01:11:57.260 --> 01:12:01.160
+well-described markers of fibroblast subsets, that
+
+1216
+01:12:01.220 --> 01:12:04.840
+the abundance of these markers differ
+
+1217
+01:12:04.940 --> 01:12:07.600
+highly depending on the tumor origin, right?
+
+1218
+01:12:07.700 --> 01:12:11.524
+So if we look at something like alpha-SMAOr a
+
+1219
+01:12:11.564 --> 01:12:14.224
+very useful marker of myofibroblasts.
+
+1220
+01:12:14.264 --> 01:12:15.154
+We can see that that's
+
+1221
+01:12:16.104 --> 01:12:19.784
+very well expressed, abundant in fibroblasts from the
+
+1222
+01:12:19.844 --> 01:12:23.064
+pancreas, the colorectal models, and breast cancer.
+
+1223
+01:12:23.464 --> 01:12:26.744
+But in other models, it's just much less abundant, even though the
+
+1224
+01:12:26.804 --> 01:12:30.284
+fibroblast's there. And so it led us to speculate,
+
+1225
+01:12:30.724 --> 01:12:34.204
+when we're thinking about fibroblast subsets, their
+
+1226
+01:12:34.214 --> 01:12:35.684
+presence, and the different
+
+1227
+01:12:36.644 --> 01:12:40.624
+origin of these fibroblasts, how can we start getting a
+
+1228
+01:12:40.704 --> 01:12:44.664
+handle on this in terms of the different subsets and whether there
+
+1229
+01:12:44.704 --> 01:12:48.214
+are tissue-restrictive or tissue-specific functions?
+
+1230
+01:12:48.684 --> 01:12:52.564
+And so the way we've started probing this is using implantation
+
+1231
+01:12:52.604 --> 01:12:55.944
+models, and coupling that with mass cytometry readouts.
+
+1232
+01:12:56.004 --> 01:12:58.444
+So in this particular case, we take
+
+1233
+01:12:59.464 --> 01:13:02.844
+cell lines, we implant them into the pancreas, the liver, and the lung, and then we
+
+1234
+01:13:02.924 --> 01:13:06.904
+probe that. And the benefit of the system is that we can control
+
+1235
+01:13:06.924 --> 01:13:09.684
+the cell line, so it's not an evolution of the cell line.
+
+1236
+01:13:09.704 --> 01:13:13.104
+When we see differences, it's the same cell signal
+
+1237
+01:13:13.424 --> 01:13:17.264
+the fibroblast and the tumor microenvironment is exposed to, but we are
+
+1238
+01:13:17.384 --> 01:13:21.364
+essentially probing the tissue-specific response to
+
+1239
+01:13:21.604 --> 01:13:25.184
+get sort of an experimentally refined way of
+
+1240
+01:13:25.224 --> 01:13:29.144
+interrogating this. And when we do this, and just look at the
+
+1241
+01:13:29.204 --> 01:13:33.024
+sort of mesenchymal marker composition, so this is
+
+1242
+01:13:33.084 --> 01:13:36.824
+just using a panel of about 32 cell surface
+
+1243
+01:13:37.224 --> 01:13:40.944
+markers, and looking in the normal healthy pancreas, the liver, and the
+
+1244
+01:13:41.004 --> 01:13:44.404
+lung. And I don't think we need a lot of statistical analysis to
+
+1245
+01:13:44.444 --> 01:13:48.114
+really say that the fibroblasts based on
+
+1246
+01:13:48.164 --> 01:13:51.924
+these 32 markers between the pancreas, the liver, and the lung, are just
+
+1247
+01:13:52.004 --> 01:13:55.264
+fundamentally different when we probe them in this sort of
+
+1248
+01:13:55.764 --> 01:13:59.724
+high-dimensional space. But what we can also start looking at
+
+1249
+01:13:59.764 --> 01:14:03.004
+is what's the response to tumor growth?
+
+1250
+01:14:03.344 --> 01:14:06.984
+And so we have the pancreas, the liver, and the lung, the healthy and the
+
+1251
+01:14:07.084 --> 01:14:10.964
+tumor-bearing tissue. And when we then take
+
+1252
+01:14:11.004 --> 01:14:14.844
+and cluster these individual fibroblast subsets that have
+
+1253
+01:14:14.884 --> 01:14:18.684
+been identified, and then look at their abundance in
+
+1254
+01:14:18.704 --> 01:14:22.564
+response between the healthy tissue and the
+
+1255
+01:14:22.644 --> 01:14:25.844
+tumor-bearing tissue, and we cluster this in a
+
+1256
+01:14:25.904 --> 01:14:29.844
+hierarchical manner, in an unsupervised hierarchical manner, what we
+
+1257
+01:14:29.884 --> 01:14:33.864
+can see is that the sort of clustering really resembles the
+
+1258
+01:14:33.924 --> 01:14:37.494
+tissue of origin, suggesting that
+
+1259
+01:14:37.544 --> 01:14:40.784
+the response of fibroblasts
+
+1260
+01:14:40.924 --> 01:14:43.864
+to tumor growth is really
+
+1261
+01:14:43.924 --> 01:14:47.804
+restricted based on the tissue of origin, and that there's sort
+
+1262
+01:14:47.844 --> 01:14:51.424
+of a hardwired, encoded way that these
+
+1263
+01:14:51.504 --> 01:14:55.364
+fibroblast subsets respond to tumor growth depending
+
+1264
+01:14:55.424 --> 01:14:59.344
+on the tissue organ. And the control experiment here is to do the
+
+1265
+01:14:59.404 --> 01:15:01.964
+same thing, but looking at immune cells.
+
+1266
+01:15:02.294 --> 01:15:06.204
+And essentially, if we do exactly the same set experiment, we
+
+1267
+01:15:06.244 --> 01:15:09.284
+don't see the same sort of clustering suggesting that there are sort of an
+
+1268
+01:15:09.724 --> 01:15:13.524
+inherent cell-specific way that
+
+1269
+01:15:14.224 --> 01:15:17.724
+these mesenchymal versus immune subsets respond to tissue
+
+1270
+01:15:17.764 --> 01:15:19.404
+damage or tumor growth.
+
+1271
+01:15:20.524 --> 01:15:24.204
+And so to really nail this down a bit more, we then
+
+1272
+01:15:24.324 --> 01:15:28.124
+isolate fibroblasts from the different organs and expose them to
+
+1273
+01:15:28.144 --> 01:15:30.944
+conditioned media from various tumor cell lines.
+
+1274
+01:15:30.984 --> 01:15:34.784
+And when we then start again probing, use a mass cytometry against
+
+1275
+01:15:34.864 --> 01:15:38.704
+these cell surface receptors, we can see again that the way
+
+1276
+01:15:38.804 --> 01:15:42.184
+that the fibroblast responds is really encoded
+
+1277
+01:15:42.384 --> 01:15:46.224
+depending on the tissue of origin, suggesting that the tissue of
+
+1278
+01:15:46.284 --> 01:15:49.744
+origin might dictate the fibroblast response to tumor growth.
+
+1279
+01:15:49.754 --> 01:15:53.684
+And so I think it causes a bit of pause in terms of thinking about,
+
+1280
+01:15:54.044 --> 01:15:57.964
+well, if we target one of these interactions in one organ, we
+
+1281
+01:15:58.004 --> 01:16:00.984
+really need to be sure that we see the same or at least a
+
+1282
+01:16:01.144 --> 01:16:04.524
+non-antagonistic effect of that in a different organ.
+
+1283
+01:16:04.804 --> 01:16:08.684
+And so the benefit of this could be that maybe actually we can use this as a
+
+1284
+01:16:08.704 --> 01:16:12.044
+way to think about doing tissue-specific targeting of
+
+1285
+01:16:12.084 --> 01:16:15.994
+fibroblasts, but we need to think about the sort of broader consequences
+
+1286
+01:16:16.044 --> 01:16:16.374
+of that.
+
+1287
+01:16:17.924 --> 01:16:21.704
+So, the sort of last example I'll highlight here is sort of
+
+1288
+01:16:21.744 --> 01:16:25.554
+like, so how do we think about probing this
+
+1289
+01:16:25.604 --> 01:16:29.544
+in a system whereby we can really
+
+1290
+01:16:29.624 --> 01:16:30.604
+control,
+
+1291
+01:16:31.524 --> 01:16:35.464
+in a very detailed mechanistic manner, the interactions
+
+1292
+01:16:35.504 --> 01:16:38.994
+between the cellular subsets to understand what
+
+1293
+01:16:39.084 --> 01:16:42.944
+happens within the cells, but also ultimately how
+
+1294
+01:16:42.964 --> 01:16:46.784
+the tumor cells respond to this. And so this is some work
+
+1295
+01:16:46.824 --> 01:16:50.304
+that's been ongoing in my lab, and this is really based on
+
+1296
+01:16:50.344 --> 01:16:53.944
+collaboration, in particular with Linda Griffith, who's a
+
+1297
+01:16:54.064 --> 01:16:56.364
+fantastic bioengineer out of MIT.
+
+1298
+01:16:56.984 --> 01:17:00.084
+And the sort of system that she's helped us develop,
+
+1299
+01:17:00.964 --> 01:17:04.804
+is a fully synthetic PEG gel system that allows us to
+
+1300
+01:17:04.884 --> 01:17:07.484
+do co-cultures between
+
+1301
+01:17:07.744 --> 01:17:08.924
+patient-derived
+
+1302
+01:17:10.044 --> 01:17:13.344
+organoids together with primary
+
+1303
+01:17:13.564 --> 01:17:16.484
+pancreatic fibroblasts or fibroblasts from other organs.
+
+1304
+01:17:16.524 --> 01:17:20.444
+And we can then include in vitro differentiated immune cells as well.
+
+1305
+01:17:20.894 --> 01:17:24.884
+And so when we start doing this, we can sort of start putting the model
+
+1306
+01:17:24.984 --> 01:17:28.684
+system together where we have the direct co-culture between defined
+
+1307
+01:17:28.724 --> 01:17:31.524
+cellular subsets. And this is just really to show that
+
+1308
+01:17:32.864 --> 01:17:36.564
+we have cellular interactions between the tumor
+
+1309
+01:17:36.644 --> 01:17:40.484
+cells, the immune cells, and the sort of fibroblasts you can
+
+1310
+01:17:40.524 --> 01:17:44.004
+see with the phalloidin stain here. And we got decent viability.
+
+1311
+01:17:44.724 --> 01:17:46.754
+But the sort of like,
+
+1312
+01:17:47.584 --> 01:17:51.104
+I think really exciting outcome here is that when we
+
+1313
+01:17:51.184 --> 01:17:54.984
+take fibroblasts, and when we take this model
+
+1314
+01:17:55.104 --> 01:17:58.924
+system and we start probing it by using single-cell
+
+1315
+01:17:59.004 --> 01:18:00.054
+RNA sequencing,
+
+1316
+01:18:01.264 --> 01:18:04.463
+even though we, in this particular experiment, take
+
+1317
+01:18:04.544 --> 01:18:07.724
+fibroblasts from the normal healthy pancreas
+
+1318
+01:18:08.664 --> 01:18:12.364
+and then co-culture them with the tumor cells
+
+1319
+01:18:12.764 --> 01:18:16.404
+and also the immune cells, we can see that the fibroblasts
+
+1320
+01:18:16.764 --> 01:18:19.884
+from the same sample start adapting these
+
+1321
+01:18:20.904 --> 01:18:23.496
+sort... subset transcriptional profiles.
+
+1322
+01:18:23.536 --> 01:18:23.916
+So we've got
+
+1323
+01:18:24.836 --> 01:18:27.356
+cells starting to look like myofibroblasts,
+
+1324
+01:18:28.156 --> 01:18:32.016
+MHC class II positive, CD74 positive, APCAFs.
+
+1325
+01:18:32.396 --> 01:18:36.376
+We've got ICAFs and complement secreting CAFs as well, suggesting
+
+1326
+01:18:36.416 --> 01:18:38.626
+that we can start rebuilding the
+
+1327
+01:18:39.496 --> 01:18:42.936
+tumor microenvironment using these bottom-up
+
+1328
+01:18:42.976 --> 01:18:43.716
+approaches.
+
+1329
+01:18:44.616 --> 01:18:47.336
+And what we can also see is that we have a
+
+1330
+01:18:48.596 --> 01:18:50.916
+tumor cell response that differs.
+
+1331
+01:18:51.336 --> 01:18:54.516
+So when we're looking in the tumor cells here,
+
+1332
+01:18:55.096 --> 01:18:58.816
+cultured by themselves together with fibroblasts and together with immune cells and
+
+1333
+01:18:58.896 --> 01:19:02.066
+fibroblasts, we can see that we have loss of transcriptional
+
+1334
+01:19:02.156 --> 01:19:05.976
+subsets and gain of other transcriptional subsets, and they actually
+
+1335
+01:19:06.036 --> 01:19:09.236
+correspond to more EMT, a more basal type
+
+1336
+01:19:09.916 --> 01:19:13.696
+transcriptional subsets, suggesting that when we rebuild these sort of
+
+1337
+01:19:13.756 --> 01:19:14.616
+interactions,
+
+1338
+01:19:15.716 --> 01:19:19.376
+we can start recapitulating some of the more aggressive
+
+1339
+01:19:19.496 --> 01:19:23.476
+features that we see in patients. But also that
+
+1340
+01:19:23.496 --> 01:19:26.856
+different patient-derived organoids respond
+
+1341
+01:19:26.866 --> 01:19:30.826
+differently to these interactions, suggesting that we can also
+
+1342
+01:19:30.826 --> 01:19:34.576
+start recapitulating some of the heterogeneity that we
+
+1343
+01:19:34.616 --> 01:19:38.456
+know or struggle to recapitulate in these preclinical
+
+1344
+01:19:38.496 --> 01:19:42.036
+models. So we've now started using this to
+
+1345
+01:19:42.756 --> 01:19:46.576
+probe a bit more detail what actually happens in the tumor cells
+
+1346
+01:19:46.976 --> 01:19:50.756
+as they are co-cultured. And as sort of a starting point, we focused
+
+1347
+01:19:50.776 --> 01:19:52.836
+on looking at RAS,
+
+1348
+01:19:53.696 --> 01:19:56.596
+just because it seems to be important in pancreatic cancer.
+
+1349
+01:19:57.436 --> 01:20:00.836
+But here, what we've been doing is we've taken a
+
+1350
+01:20:00.896 --> 01:20:04.636
+TurboID TAC to RAS, and then we can
+
+1351
+01:20:04.716 --> 01:20:07.976
+start probing is the number of proteins that are
+
+1352
+01:20:07.996 --> 01:20:11.856
+proximal to RAS as a consequence of
+
+1353
+01:20:11.876 --> 01:20:15.656
+the organoids being cultured by themselves in the presence of
+
+1354
+01:20:15.716 --> 01:20:18.216
+fibroblasts and the presence of fibroblasts and immune cells.
+
+1355
+01:20:18.716 --> 01:20:22.226
+And what you can sort of start seeing emerging here is that we have
+
+1356
+01:20:22.316 --> 01:20:25.896
+a vast expansion of the proximal
+
+1357
+01:20:26.056 --> 01:20:29.136
+protein network around
+
+1358
+01:20:29.196 --> 01:20:33.136
+KRAS as we increase the cellular heterogeneity in these
+
+1359
+01:20:33.156 --> 01:20:36.836
+models, suggesting that the way that the tumor cells
+
+1360
+01:20:36.876 --> 01:20:40.816
+respond to a high degree of cellularity
+
+1361
+01:20:41.196 --> 01:20:44.756
+really impacts the subsequent signaling
+
+1362
+01:20:44.836 --> 01:20:47.276
+dynamics within the tumor cells.
+
+1363
+01:20:48.556 --> 01:20:52.376
+And so what I've hoped to touch upon a little
+
+1364
+01:20:52.416 --> 01:20:55.556
+bit is that fibroblasts, they can
+
+1365
+01:20:55.596 --> 01:20:58.916
+regulate the tumor microenvironment as a
+
+1366
+01:20:58.976 --> 01:21:02.616
+whole in multiple ways. I think we're
+
+1367
+01:21:02.696 --> 01:21:06.596
+still trying to really work out as a community which of
+
+1368
+01:21:06.676 --> 01:21:10.456
+these effects are really dominant to tumor cell
+
+1369
+01:21:10.956 --> 01:21:14.636
+function, to tumor development, and identifying those,
+
+1370
+01:21:14.956 --> 01:21:18.576
+I think, is a very important first step to really thinking about how we can
+
+1371
+01:21:18.656 --> 01:21:20.136
+target these interactions.
+
+1372
+01:21:20.976 --> 01:21:24.946
+Some of the other things that I think would be very important to understand,
+
+1373
+01:21:25.196 --> 01:21:29.006
+and certainly there are ongoing efforts, is to really understand how
+
+1374
+01:21:29.056 --> 01:21:32.396
+the evolution of the interactions between the fibroblast
+
+1375
+01:21:32.476 --> 01:21:34.836
+microenvironment and the tumor cells
+
+1376
+01:21:36.816 --> 01:21:40.616
+is during treatment, and also how the
+
+1377
+01:21:40.656 --> 01:21:43.956
+sort of spatial interactions impact CAF
+
+1378
+01:21:43.976 --> 01:21:47.956
+biology and how that might apply to
+
+1379
+01:21:47.976 --> 01:21:51.776
+therapeutic response. So with that, I want to thank the
+
+1380
+01:21:52.056 --> 01:21:55.596
+people in the lab who've been instrumental to doing this work,
+
+1381
+01:21:56.436 --> 01:21:59.636
+the funders, and I'm happy to take any questions. Thank you.
+
+1382
+01:22:14.116 --> 01:22:17.456
+We actually do have one online question, but it's for Mara,
+
+1383
+01:22:17.676 --> 01:22:18.406
+sorry.
+
+1384
+01:22:19.516 --> 01:22:23.036
+Asking about your modulation of Kit ligand
+
+1385
+01:22:23.276 --> 01:22:26.796
+and the induction of CD45 positive cells.
+
+1386
+01:22:26.876 --> 01:22:29.176
+Do you have a rationale for why that happened?
+
+1387
+01:22:31.416 --> 01:22:35.126
+Our guess for now is that when we inhibit Kit ligand in this
+
+1388
+01:22:35.516 --> 01:22:39.416
+population, we increase expression of a number of inflammatory
+
+1389
+01:22:39.516 --> 01:22:41.396
+cytokines and chemokines in the lineage.
+
+1390
+01:22:41.456 --> 01:22:45.336
+So I think even in normal tissue, when these fibroblasts aren't
+
+1391
+01:22:45.396 --> 01:22:48.416
+in an activated state, it's still an
+
+1392
+01:22:48.496 --> 01:22:52.366
+increase in various chemoattractant cues that are
+
+1393
+01:22:52.396 --> 01:22:54.116
+presumably bringing the immune cells in.
+
+1394
+01:22:54.166 --> 01:22:56.766
+But another possibility is they're sitting right next to endothelial cells.
+
+1395
+01:22:57.016 --> 01:23:00.836
+So it's totally possible that they're also changing adhesion molecules on
+
+1396
+01:23:00.876 --> 01:23:03.366
+endothelial cells that are impacting leukocyte trafficking.
+
+1397
+01:23:03.436 --> 01:23:05.456
+So those would be probably my two guesses.
+
+1398
+01:23:06.736 --> 01:23:10.396
+Great. And then one for Claus. Do we have any insight
+
+1399
+01:23:10.456 --> 01:23:14.016
+into the tumor cell cues that impact CAF expression of
+
+1400
+01:23:14.076 --> 01:23:15.236
+CD105?
+
+1401
+01:23:17.596 --> 01:23:20.336
+Well, so CD105 is
+
+1402
+01:23:20.436 --> 01:23:24.316
+a co-receptor of the TGF
+
+1403
+01:23:24.356 --> 01:23:24.896
+beta
+
+1404
+01:23:25.776 --> 01:23:26.376
+receptor.
+
+1405
+01:23:27.536 --> 01:23:31.336
+So we know that if we treat fibroblasts
+
+1406
+01:23:31.496 --> 01:23:35.336
+with TGF beta, we see an increase in
+
+1407
+01:23:35.616 --> 01:23:39.356
+the level of CD105. But the sort of
+
+1408
+01:23:39.416 --> 01:23:43.256
+fundamental expression where we-- So we haven't identified any
+
+1409
+01:23:43.296 --> 01:23:47.226
+signals so far that turns on CD105
+
+1410
+01:23:47.716 --> 01:23:51.416
+in a CD105 negative fibroblasts. So the ones that are
+
+1411
+01:23:51.476 --> 01:23:53.276
+negative seems to stay negative.
+
+1412
+01:23:53.956 --> 01:23:56.256
+Okay.
+
+1413
+01:23:57.096 --> 01:23:59.656
+Hi, Claus. Bobby Norgard, Boehringer Ingelheim. Nice talk.
+
+1414
+01:24:00.216 --> 01:24:00.476
+Thank you.
+
+1415
+01:24:00.936 --> 01:24:02.016
+Kind of odd question.
+
+1416
+01:24:03.176 --> 01:24:06.156
+As I think about where you're pulling fibroblasts from different tissues and
+
+1417
+01:24:06.196 --> 01:24:08.916
+showing how they're very different depending on where they come from.
+
+1418
+01:24:08.956 --> 01:24:09.396
+Yeah.
+
+1419
+01:24:09.816 --> 01:24:13.576
+The idea of making a fibroblast normal is not an
+
+1420
+01:24:13.636 --> 01:24:17.096
+unoriginal idea. But to my knowledge,
+
+1421
+01:24:17.436 --> 01:24:19.896
+fibroblasts are usually not a good thing in cancers.
+
+1422
+01:24:21.256 --> 01:24:24.756
+To your knowledge, is there a cancer type where fibroblasts are a good
+
+1423
+01:24:24.816 --> 01:24:28.509
+thing?And should we be thinking about not turning CAFs normal, but turning
+
+1424
+01:24:28.580 --> 01:24:30.840
+CAFs to a different tissue of residence?
+
+1425
+01:24:33.400 --> 01:24:35.340
+So I need that again. Sorry.
+
+1426
+01:24:35.400 --> 01:24:35.470
+Yeah.
+
+1427
+01:24:35.560 --> 01:24:36.320
+It might be the jet lag.
+
+1428
+01:24:36.360 --> 01:24:37.700
+It was kind of an odd question.
+
+1429
+01:24:38.700 --> 01:24:42.550
+It's kind of thinking about changing CAFs, reprogramming CAFs, not
+
+1430
+01:24:42.580 --> 01:24:43.660
+to a normal state-
+
+1431
+01:24:43.940 --> 01:24:44.010
+Mm-hmm
+
+1432
+01:24:44.060 --> 01:24:45.940
+... but to a different residence state.
+
+1433
+01:24:46.660 --> 01:24:47.040
+Yeah.
+
+1434
+01:24:47.800 --> 01:24:49.680
+And I don't have a great example for this, but in
+
+1435
+01:24:50.500 --> 01:24:53.380
+fibroblasts in breast cancer, they're usually bad, and fibroblasts in pancreas
+
+1436
+01:24:53.440 --> 01:24:56.860
+cancer, they're usually bad. But if you took breast cancer fibroblasts and put them
+
+1437
+01:24:56.880 --> 01:24:57.320
+in pancreas
+
+1438
+01:24:58.540 --> 01:24:58.920
+tumors-
+
+1439
+01:24:59.280 --> 01:24:59.310
+Yeah
+
+1440
+01:24:59.440 --> 01:25:01.189
+... would that now be a better situation?
+
+1441
+01:25:02.360 --> 01:25:05.080
+It's just a different way of thinking about reprogramming instead of pushing them
+
+1442
+01:25:05.120 --> 01:25:07.580
+back to normal, which I don't know what normal actually means.
+
+1443
+01:25:08.410 --> 01:25:08.410
+Yeah.
+
+1444
+01:25:09.340 --> 01:25:11.100
+Well, the short answer is I don't know.
+
+1445
+01:25:11.420 --> 01:25:11.580
+So
+
+1446
+01:25:13.140 --> 01:25:15.560
+I think it's an intriguing question.
+
+1447
+01:25:16.940 --> 01:25:18.040
+So in fairness, I think
+
+1448
+01:25:23.240 --> 01:25:26.840
+a lot of emphasis over the years have been to try and target fibroblasts
+
+1449
+01:25:26.880 --> 01:25:29.480
+because they are there, and they are abundant.
+
+1450
+01:25:30.200 --> 01:25:31.000
+And so I think that
+
+1451
+01:25:32.240 --> 01:25:35.960
+has led a lot of efforts to try and show that they are
+
+1452
+01:25:36.400 --> 01:25:40.140
+pro-tumorgenic. I think the sort of efforts to try and
+
+1453
+01:25:40.180 --> 01:25:42.060
+understand how might they
+
+1454
+01:25:43.000 --> 01:25:46.740
+do the other thing, how might they be anti-tumor development, I think
+
+1455
+01:25:46.780 --> 01:25:50.560
+that's lacking behind. So, I think we still have a
+
+1456
+01:25:50.600 --> 01:25:54.140
+lot to learn, in particular, as Mara alluded to,
+
+1457
+01:25:54.580 --> 01:25:58.200
+the sort of early stages of tumor development, what's
+
+1458
+01:25:58.280 --> 01:25:59.360
+actually happening there.
+
+1459
+01:26:00.900 --> 01:26:04.380
+So how does a fibroblast function differ between
+
+1460
+01:26:04.460 --> 01:26:04.940
+organs?
+
+1461
+01:26:05.770 --> 01:26:06.960
+That's a good question. I
+
+1462
+01:26:07.780 --> 01:26:11.000
+don't have the answer to that, but yeah, a good one. Thank you.
+
+1463
+01:26:12.260 --> 01:26:12.640
+Hey, Jen.
+
+1464
+01:26:13.460 --> 01:26:14.020
+Hey, Claus.
+
+1465
+01:26:15.340 --> 01:26:17.220
+Question for you and everybody,
+
+1466
+01:26:18.080 --> 01:26:18.460
+really.
+
+1467
+01:26:19.420 --> 01:26:23.240
+Given Laura and Marina's really nice work on the abundance of
+
+1468
+01:26:23.280 --> 01:26:23.860
+PANNs-
+
+1469
+01:26:24.240 --> 01:26:24.420
+Mm-hmm
+
+1470
+01:26:24.680 --> 01:26:26.420
+... how likely is it, do you think, that
+
+1471
+01:26:27.240 --> 01:26:30.320
+some of the stuff that we can't translate from mouse to human
+
+1472
+01:26:31.140 --> 01:26:34.980
+is because we're having differential effect, the stromal targeting therapies
+
+1473
+01:26:35.099 --> 01:26:39.080
+are having differential effects on the primary versus the
+
+1474
+01:26:39.120 --> 01:26:42.540
+residual PANNs that are kicking about in those models and in the people?
+
+1475
+01:26:43.660 --> 01:26:45.660
+So I think that's very likely. Right.
+
+1476
+01:26:45.960 --> 01:26:48.400
+And I think it
+
+1477
+01:26:49.920 --> 01:26:53.640
+might even extend beyond that, because a lot of
+
+1478
+01:26:53.660 --> 01:26:54.140
+our
+
+1479
+01:26:55.580 --> 01:26:59.560
+current way of probing fibroblast biology is really focused on primary
+
+1480
+01:26:59.600 --> 01:27:02.000
+tumor. So yeah, we can target those.
+
+1481
+01:27:02.160 --> 01:27:05.180
+If they have a different function in pre-cancer lesion, that's
+
+1482
+01:27:05.260 --> 01:27:09.060
+obviously an issue. But also
+
+1483
+01:27:09.760 --> 01:27:12.720
+when we go in clinically, it's typically in metastatic disease.
+
+1484
+01:27:13.320 --> 01:27:17.160
+And so actually, that's compounding the effect there if the function is
+
+1485
+01:27:17.180 --> 01:27:18.800
+different between different organs.
+
+1486
+01:27:19.320 --> 01:27:23.060
+And so I think the emerging evidence suggests that that is the case.
+
+1487
+01:27:23.420 --> 01:27:27.300
+And so I think it's just critically important, as Stephanie alluded
+
+1488
+01:27:27.320 --> 01:27:29.200
+to, is really to learn from the
+
+1489
+01:27:30.320 --> 01:27:34.240
+clinical trials that have already happened, to really try
+
+1490
+01:27:34.320 --> 01:27:36.400
+and probe some of these
+
+1491
+01:27:37.440 --> 01:27:40.960
+questions before we rush into the next trial.
+
+1492
+01:27:41.340 --> 01:27:45.060
+Because it's not good for the patients, and it's not good for the community to
+
+1493
+01:27:45.120 --> 01:27:46.840
+shut down therapies
+
+1494
+01:27:47.760 --> 01:27:50.700
+and the development of therapies just because we're not doing the right
+
+1495
+01:27:50.760 --> 01:27:52.020
+translational workup.
+
+1496
+01:27:58.820 --> 01:28:00.520
+She claims you already answered.
+
+1497
+01:28:01.020 --> 01:28:02.420
+Okay. You're welcome.
+
+1498
+01:28:04.780 --> 01:28:06.740
+What about
+
+1499
+01:28:07.580 --> 01:28:08.880
+fibroblasts going
+
+1500
+01:28:09.780 --> 01:28:13.260
+together in clusters to the metastatic
+
+1501
+01:28:13.380 --> 01:28:13.800
+site?
+
+1502
+01:28:14.120 --> 01:28:14.360
+Mm-hmm.
+
+1503
+01:28:15.220 --> 01:28:19.040
+Is that going to now mingle and mix
+
+1504
+01:28:19.100 --> 01:28:19.700
+the-
+
+1505
+01:28:19.740 --> 01:28:19.820
+Yeah
+
+1506
+01:28:20.160 --> 01:28:23.900
+... heterogeneity and the functions again, or is this really
+
+1507
+01:28:23.960 --> 01:28:25.520
+truly imprinted?
+
+1508
+01:28:26.480 --> 01:28:30.320
+Can we change them? Is it really truly imprinted in what's going to happen with the
+
+1509
+01:28:30.860 --> 01:28:31.500
+travelers?
+
+1510
+01:28:31.960 --> 01:28:34.340
+Yeah. So, and again, that's a good question.
+
+1511
+01:28:34.380 --> 01:28:34.880
+So,
+
+1512
+01:28:37.480 --> 01:28:40.980
+I think a lot of it is hardwired. So if we take the
+
+1513
+01:28:41.000 --> 01:28:44.800
+fibroblasts out and culture them in vitro, we see that the response to
+
+1514
+01:28:44.840 --> 01:28:47.280
+these cues are really hardwired into the fibroblasts.
+
+1515
+01:28:47.310 --> 01:28:47.310
+Sure.
+
+1516
+01:28:47.340 --> 01:28:51.280
+Right? And so that would indicate that even if they travel with the tumor
+
+1517
+01:28:51.320 --> 01:28:55.300
+cells to a site of metastasis, that the way they would respond
+
+1518
+01:28:55.320 --> 01:28:59.220
+at that metastatic site might be similar to what they would respond to in
+
+1519
+01:28:59.240 --> 01:29:02.960
+the primary tumor. I think where
+
+1520
+01:29:03.040 --> 01:29:05.420
+we still don't know enough is
+
+1521
+01:29:05.900 --> 01:29:09.029
+how many of the fibroblasts we're finding,
+
+1522
+01:29:10.500 --> 01:29:13.590
+either in a primary tumor or metastatic site, are from
+
+1523
+01:29:13.660 --> 01:29:17.320
+the tissue of origin versus the ones that have actually either
+
+1524
+01:29:17.380 --> 01:29:21.340
+traveled with the tumor cells or being recruited from the bone marrow, such as
+
+1525
+01:29:21.420 --> 01:29:22.620
+fibrocytes, et cetera.
+
+1526
+01:29:22.840 --> 01:29:22.940
+Right.
+
+1527
+01:29:23.080 --> 01:29:26.900
+And one of the challenges is really
+
+1528
+01:29:27.760 --> 01:29:31.580
+having robust markers that do not
+
+1529
+01:29:31.680 --> 01:29:35.220
+change over time depending on the tissue that they're in.
+
+1530
+01:29:35.560 --> 01:29:39.440
+So how can we track this with epigenetic markers, for
+
+1531
+01:29:39.500 --> 01:29:40.100
+example?
+
+1532
+01:29:40.440 --> 01:29:44.180
+Right. So once we track them, then we need to
+
+1533
+01:29:44.320 --> 01:29:48.180
+study their reciprocity because now they're going to be companions.
+
+1534
+01:29:48.520 --> 01:29:48.660
+Yeah.
+
+1535
+01:29:49.740 --> 01:29:53.640
+Absolutely. I think really picking apart the sort
+
+1536
+01:29:53.680 --> 01:29:53.820
+of
+
+1537
+01:29:55.100 --> 01:29:58.900
+underlying mechanisms of those interactions, I think is going to be critical.
+
+1538
+01:29:58.930 --> 01:29:59.800
+And I think
+
+1539
+01:30:00.740 --> 01:30:04.720
+we haven't really discussed this in much detail here, but in particular, the
+
+1540
+01:30:04.800 --> 01:30:08.360
+structure in and around the ECM as well, I think is just going to be
+
+1541
+01:30:09.000 --> 01:30:12.580
+so important in terms of how those interactions
+
+1542
+01:30:12.640 --> 01:30:16.000
+drive the tumor phenotype and immune phenotype
+
+1543
+01:30:16.060 --> 01:30:16.840
+ultimately.
+
+1544
+01:30:16.880 --> 01:30:18.420
+Yeah, I made you said that.
+
+1545
+01:30:22.740 --> 01:30:24.860
+All right. Oh, you have your question?
+
+1546
+01:30:25.020 --> 01:30:26.860
+Yeah. So maybe this is for the whole panel.
+
+1547
+01:30:27.300 --> 01:30:30.900
+So, given that all of these CAF targeting
+
+1548
+01:30:31.100 --> 01:30:34.720
+approaches work great in mice and then they fail in the
+
+1549
+01:30:34.780 --> 01:30:38.480
+clinic or make it even worse, should we
+
+1550
+01:30:38.860 --> 01:30:41.500
+start thinking about other animal models
+
+1551
+01:30:42.740 --> 01:30:46.400
+in looking at these therapies? Or should we be
+
+1552
+01:30:46.480 --> 01:30:48.240
+comparing the human
+
+1553
+01:30:50.260 --> 01:30:53.800
+setting with the mouse setting a little bit more to figure out what are the exact
+
+1554
+01:30:53.840 --> 01:30:57.400
+differences that account for these phenotypical differences we see with the
+
+1555
+01:30:57.440 --> 01:30:58.400
+different species?
+
+1556
+01:30:58.560 --> 01:31:01.480
+Yeah. So I think that's a very important-- If I may start.
+
+1557
+01:31:01.540 --> 01:31:01.630
+Yeah.
+
+1558
+01:31:01.920 --> 01:31:03.720
+So I think that's a very important question.
+
+1559
+01:31:05.640 --> 01:31:05.740
+So
+
+1560
+01:31:06.780 --> 01:31:10.120
+I would be very careful with discarding the mouse model, right?
+
+1561
+01:31:10.800 --> 01:31:14.780
+Actually, I think some of the fundamental challenges we've had in
+
+1562
+01:31:14.840 --> 01:31:18.110
+terms of translating from mouse into human, I think
+
+1563
+01:31:18.220 --> 01:31:21.820
+some of it is just because we don't understand the
+
+1564
+01:31:21.860 --> 01:31:25.460
+underlying biology well enough. And I think that
+
+1565
+01:31:26.040 --> 01:31:29.140
+some trials have probably been started too early, right?
+
+1566
+01:31:29.210 --> 01:31:32.070
+Where we really haven't understood what we're looking for in the
+
+1567
+01:31:32.140 --> 01:31:33.620
+biomarker.
+
+1568
+01:31:35.360 --> 01:31:38.780
+I think it's worthwhile really thinking about having other models.
+
+1569
+01:31:38.900 --> 01:31:42.800
+I think the best model to study this sort of thing
+
+1570
+01:31:42.880 --> 01:31:45.620
+is ultimately the human patient, right?
+
+1571
+01:31:46.080 --> 01:31:49.600
+And so actually having access to tissue
+
+1572
+01:31:50.460 --> 01:31:54.200
+from clinical trials, even if it's not a stromal
+
+1573
+01:31:54.300 --> 01:31:57.920
+targeting agent, but for any other agent, right?
+
+1574
+01:31:59.000 --> 01:32:02.280
+Would really help us understand the
+
+1575
+01:32:03.340 --> 01:32:06.900
+interaction network and how they respond
+
+1576
+01:32:07.600 --> 01:32:10.300
+under those conditions. I think that the sort of fundamental
+
+1577
+01:32:10.380 --> 01:32:13.740
+biology is really where we're lacking, if you
+
+1578
+01:32:13.800 --> 01:32:14.640
+ask me.
+
+1579
+01:32:15.880 --> 01:32:16.059
+Yeah.
+
+1580
+01:32:16.820 --> 01:32:20.700
+I'll maybe bluntly say what Claus is too humble to say, that I think his approach
+
+1581
+01:32:20.740 --> 01:32:24.350
+really is such a critical way forward to, yes, use mouse models that
+
+1582
+01:32:24.400 --> 01:32:28.360
+incorporate lymphatic vasculature and inter-organ crosstalk
+
+1583
+01:32:28.400 --> 01:32:29.980
+and things that we really need in vivo models for.
+
+1584
+01:32:30.220 --> 01:32:33.920
+But to really have as a critical intermediate step, these sort of the brilliant
+
+1585
+01:32:33.960 --> 01:32:37.700
+engineering platform that you've developed or other kind of patient-derived models
+
+1586
+01:32:37.760 --> 01:32:41.439
+to complement those and at least understand whether some of the
+
+1587
+01:32:41.480 --> 01:32:44.740
+paracrine signaling mechanisms we've seen in mice hold true in
+
+1588
+01:32:45.660 --> 01:32:49.450
+patient-derived models, whatever we choose to make them before moving
+
+1589
+01:32:49.480 --> 01:32:52.650
+forward and translating. It does seem like a critical intermediate that hopefully
+
+1590
+01:32:52.700 --> 01:32:55.400
+will be incorporated more kind of across the field.
+
+1591
+01:32:56.660 --> 01:33:00.439
+Great. Okay, with that, we will close our session. So thank you.
+
+1592
+01:33:00.920 --> 01:33:01.280
+Thank you.
+
+1593
+01:33:04.780 --> 01:33:05.980
+Awesome talks, guys.
+
+1594
+01:33:06.020 --> 01:33:13.720
+Yeah.

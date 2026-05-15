@@ -1,0 +1,17 @@
+# Evidence of functional cytotoxic T-cell responses to induced pluripotent stem cells (IPSCs): Paving the way for IPSC-derived cancer vaccines
+
+**Poster #**: 846
+**Session**: Stem Cell Plasticity and Lineage Reprogramming in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Valentine Feyants1, Catherine Martel2, Christophe Desterke1, Mequa Maatoug1, Diana Chaker2, Ali  G.  Turhan2, Annelise Bennaceur Griscelli2, Frank Griscelli3
+
+1INSERM U1310, Université Paris-Saclay, Villejuif, France,2INSERM U1310, Université Paris-Saclay CITHERA, Villejuif, France,3INSERM U1310, Gustave Roussy Cancer Center, Villejuif, France
+
+---
+
+Background: Recent studies have demonstrated that both allogeneic or autologous iPSC-based vaccines represent a promising new approach to preventive or curative cancer immunotherapy strategies particularly against aggressive tumors harboring stemness features with high risk of metastatic spread. We have previously demonstrated the in vivo efficacy of this cancer vaccine strategy in mice models (Kishi et al, Front Med, 2021) but the immunogenicity of iPSCs in the context of human cells remains unknown.
+Methods:To address this issue in human cells, we developed a Mixed Lymphocyte Reaction (MLR) bioassay from collected batches of peripheral blood mononuclear cells (PBMC) from HLA-A2+ donors. The assay was standardized by co-culturing CD8+ na&#239;ve T Cells and Dendritic Cells (DCs) derived from CD14+ monocytes which were loaded with iPSCs derived-lysates generated from several iPSCs lines. The primed CD8+ T cells with the lysates were assessed using proliferation assays, phenotypic profiling, and cytokine secretion. Cytotoxic function of the primed CD8+ T cells was assessed after co-culture with several HLA A2+ human cancer cell lines, including melanoma (SK-MEL5), triple negative breast carcinoma (MAD-MB-231) and human colorectal adenocarcinoma (SW-620).
+Results: After differentiation and maturation, DCs loaded with iPSC-derived lysates highly expressed CD80, CD11c, CD86, MHC class I and II. After co-culture with these DCs, in all tested conditions, primed CD8+T cells exhibited significantly enhanced lysis of the cancer cell lines as compared to control T lymphocytes. These activated T cells displayed an effector phenotype marked by CD137, CD107a, IFN-&#947;, and TNF-&#945; expression suggesting that iPSCs were able to transmit a a broad array of immunogenic epitopes. We further analyzed the clonal diversity of the &#945;/&#946; TCR repertoire in CD8+T cells primed with different iPSCs using single-cell RNA sequencing. Sixteen distinct T cell clusters were identified, including a minor population of CD8+ Flt3+T cells and a dominant cluster of CD83+ CD8+T cells comprising over 1,000 unique &#945;/&#946; TCR clones. Single cell RNA sequence analyses of these T cells are in progress.
+Conclusions: Our results provide strong evidence that iPSCs can effectively activate DCs and induce the generation of phenotypically activated and functionally competent cytotoxic T cells. This strategy holds great potential for the development of off-the-shelf, IPSC-based cancer vaccines leveraging the broad antigenic repertoire of iPSC-derived cells able to generate immune response against cancer stem cell genes expressed in the most aggressive cancers such as non-small cell lung cancer, pancreas cancer and glioblastoma.

@@ -1,0 +1,18 @@
+# Intratumoral biodegradable nanofluidic platform for localized multimodal immunotherapy enhances tumor eradication and immune memory
+
+**Poster #**: 1551
+**Session**: Combination Immunotherapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Jingyi Wang, Francesco Manfredi, Eleonora Molinari, Madison  A.  Deeson, Danilo Settis, Casey Lewis, Junjun Zheng, Junhua Mai, Shu-Hsia Chen, Corrine Ying Xuan Chua, Alessandro Grattoni
+
+Houston Methodist Research Institute, Houston, TX
+
+---
+
+Introduction: Tumor-infiltrating lymphocytes (TILs) are key mediators within the tumor immune microenvironment (TIME) and are often associated with favorable prognosis across multiple cancers. Despite the transformative success of immunotherapy, its clinical efficacy remains limited by immune evasion and systemic toxicity. Multi-agent immunotherapy targeting complementary pathways holds great potential, yet its application is constrained by dose-limiting toxicities.
+Hypothesis: We hypothesize that localized, sustained delivery of multiple immunomodulators through a biodegradable nanofluidic drug-eluting seed (b-NDES) can enhance antitumor efficacy, generate durable immune memory, and minimize systemic adverse effects.
+Methods: A fully implantable, biodegradable nanofluidic platform (b-NDES) was engineered for intratumoral release of &#945;-CTLA4, STING agonist, resiquimod (TLR7/8 agonist), IL-12, and &#945;-CD40. Efficacy was evaluated in murine models of triple-negative breast cancer (4T1), pancreatic cancer (KPC), and lung cancer (KLN205). Three- to five-drug combinations were compared for tumor regression, systemic immune activation, and toxicity. For the KPC abscopal model, bilateral tumors were established, and only one lesion received b-NDES implantation to assess systemic immune activation. Immune memory was assessed via tumor rechallenge and IFN-&#947; ELISpot assays. Tumor immune remodeling was profiled using Olink proteomics, CyTOF, and imaging mass cytometry (IMC).
+Results: The five-drug b-NDES achieved complete tumor eradication in 5 of 6 mice in the 4T1 model and induced robust antitumor responses across KPC and KLN205 models. In the KPC abscopal model, b-NDES induced regression of untreated contralateral tumors, indicating systemic immune activation. Rechallenged mice demonstrated full tumor rejection and elevated IFN-&#947;-secreting splenocytes, indicating durable memory responses. IMC and CyTOF revealed enriched CD8&#8314; T-cell infiltration, dendritic-cell activation, and M1 macrophage polarization in responders. Cytokine profiling showed a robust pro-inflammatory signature in the five-drug group. Importantly, localized b-NDES delivery avoided the weight loss, hypothermia, and liver toxicity observed with systemic administration.
+Conclusion: The b-NDES platform enables safe, sustained, and synergistic delivery of multiple immunotherapies directly into tumors, achieving complete regression, systemic immune activation, and long-term memory without systemic toxicity. This approach represents a promising strategy for localized, multimodal immunotherapy against aggressive, treatment-resistant cancers.

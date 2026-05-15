@@ -1,0 +1,17 @@
+# Establishing reproducibility standards for Xenium spatial transcriptomics through multi-replicate validation and cross-sectional analysis
+
+**Poster #**: 6205
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Tommy Tran, JingHao Tian, Elim Cheung, Rikita Gakhar, Vidyodhaya Sundaram
+
+BioChain Institute, Inc., Newark, CA
+
+---
+
+Spatial transcriptomics technologies such as Xenium are rapidly gaining relevance in translational and clinical research, yet there remains a lack of standardized reproducibility benchmarks and quantitative quality-control (QC) metrics. Establishing technical validation frameworks is essential for ensuring cross-run, cross-section, and eventually cross-site comparability as the field moves toward regulated environments.
+Methods: We conducted a multi-replicate validation study using eight sections derived from a single FFPE block containing four human carcinoma tissues (lung, breast, colon, and stomach). Each slide included four tissue regions, yielding 32 total spatial transcriptomic datasets generated with the Xenium Human Multi-Tissue and Cancer Gene Expression Panel (10x Genomics). Sections at defined depths (X3-4, X14-15, X16-17, X20-21) enabled evaluation of technical reproducibility across both slide-to-slide and depth-dependent variation. Technical reproducibility metrics&#8212;including cross-replicate correlation, coefficient of variation, spatial pattern consistency, cell-type abundance stability, and gene-level variance&#8212;were assessed to define preliminary QC thresholds suitable for multi-replicate benchmarking.
+Results:Initial analyses demonstrate high reproducibility across replicates, with consistent gene expression profiles, stable spatial organization of major cell populations, and low variance across serial depths. Spatial pattern concordance remained robust across all carcinoma types, and variance decomposition suggests minimal depth-related technical drift. Ongoing analyses include expanded statistical modeling and evaluation of QC thresholds that could serve as standardized criteria for platform validation.
+Conclusions: This study establishes a practical framework for defining reproducibility and QC standards for Xenium spatial transcriptomics. By integrating multi-replicate evaluation with cross-sectional comparisons, we outline a foundation for reproducible spatial data generation that supports clinical translation, regulatory readiness, and harmonization across studies and institutions.

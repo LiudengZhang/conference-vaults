@@ -1,0 +1,17 @@
+# A transcriptome-based AI meta-model for immunotherapy response classification in hepatocellular carcinoma
+
+**Poster #**: 6874
+**Session**: Network Biology and Precision Medicine
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Jimin Seo1, Na Young Kwon2, Ki Wook Lee1, Han-En Lo1, Young-Jun Jeon1
+
+1Department of Integrative Biotechnology, Sungkyunkwan University, Suwon, Korea, Republic of,2Department of MetaBioHealth, Sungkyunkwan University, Suwon, Korea, Republic of
+
+---
+
+Immune checkpoint inhibitor (ICI) is frequently selected as first-line therapy in advanced hepatocellular carcinoma (HCC), yet current biomarkers that predict therapeutic response show limited accuracy. Robust and clinically applicable predictors of ICI response in HCC need to be established. We performed tissue RNA-seq on ICI-treated HCC patients (Atezolizumab plus Bevacizumab, Nivolumab, or Ipilimumab plus Nivolumab) and developed an AI stacking-based meta-model to classify responders (R, n=32) and non-responders (NR, n=57). To address class imbalance, 80% of samples were distributed into three balanced training sets, and the remaining 20% were used as an internal test set. Gene-feature selection performed with six tree-based algorithms (AB, ERT, GB, LGB, RF, and XGB) improved mean AUC from 0.58 to 0.73 and mean MCC from 0.25 to 0.43. The stacking meta-model, incorporating 14 algorithms (AB, CB, ERT, GB, LGB, RF, XGB, four SVM kernels, LR, NB, and MLP), further increased mean AUC to 0.95 and MCC to 0.79. The meta-model achieved an AUC of 0.92 and MCC of 0.62 in the internal test set, and an AUC of 0.84 and MCC of 0.82 in an external ICI-treated HCC cohort (Table 1). Meta-scores derived from the model clearly stratified clinical outcomes. Patients with high scores showed improved PFS (HR 0.27, 95% CI 0.17-0.45; p<0.0001) and OS (HR 0.37, 95% CI 0.22-0.62; p<0.0001). Feature selection identified 11 AI-important gene (AIG) sets (10-173 genes each), and each set overlapped with at least two others through shared AIGs, reflecting convergent biological signals. Analysis of AIG sets in immune-cell populations from an external single-cell RNA-seq cohort revealed enrichment patterns consistent with known mechanisms of immune activation and resistance. These findings demonstrate that the AI meta-model can help to classify immunotherapy response in HCC and stratify survival outcomes, while revealing biologically relevant AIG signatures.
+$$table_{D7689B83-971F-4C7E-8E56-BB92EAEC2020}$$
+Table 1. Performance of the final AI meta-model for immunotherapy response classification in HCCMCCACCAUCSensitivitySpecificityTraining0.880.940.960.960.93Internal Test0.62
+0.760.921.000.64External Validation0.820.900.841.000.80

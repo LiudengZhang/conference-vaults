@@ -1,0 +1,14 @@
+# Spatialomics detection of neuroendocrine involvement in cancer tissue
+
+**Poster #**: 3965
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Scott T. Clarke, Chris Vonnegut, Leticia Montoya, Mae Voeun, Wenjun Zhou, Anna Cartier, Aleksey Rukavishnikov
+
+Thermo Fisher Scientific, Waltham, MA
+
+---
+
+The study of neuroendocrine involvement observed in inflammation, neuronal damage, cancer, and neurodegenerative disease is an emerging field offering new opportunities of intervention and treatment of currently intractable disease. Cancer cells are known to invade the space surrounding neurons (perineuronal invasion) and derive pro-survival and anti-apoptotic benefits from the nerve fibers and their neurotransmitters, secreted amines and peptides. Formation of new neural tissue is a characteristic of cancer with poor prognosis. We present a spatial-omics approach of multiplexing immunohistochemistry (IHC) with mRNA in situ hybridization (ISH) detection to examine the microenvironment of neuroendocrine involvement and the biomarkers relevant to these tissues and infiltrating immune cells. We image both protein and mRNA abundance and distribution in FFPE tissue with neuroendocrine involvement. ISH detection uses single stranded branched DNA amplification scheme (ss-bDNA) for single molecule detection, while IHC detection uses direct antibody labeling for moderate and high abundant targets and enzymatic signal amplification for low abundant targets. We present protocol modifications with significant improvements minimizing incompatibility between IHC and ISH otherwise resulting in diminished or loss of signal. These modifications retain IHC and ISH signal, minimize auto-fluorescence, and shorten protocol time required for multiplexed workflows. We show multiplex IHC labeling of neural biomarkers such as S100B, CD56, glial fibrillary acidic protein (GFAP), chromogranin A (CgA) and synaptophysin in relevant tissue which are often over-expressed in non-endocrine structures and tissues of some tumors, and in neurodegenerative disease models. The presence of neural mRNA expression, combined with immune markers such as FoxP3 and PD-1, PD-L1 and proliferation markers of PCNA and Ki-67 in cancer tissue, reveal the neuroendocrine involvement in the tumor immune microenvironment. For Research Use Only. Not for use in diagnostic procedures.

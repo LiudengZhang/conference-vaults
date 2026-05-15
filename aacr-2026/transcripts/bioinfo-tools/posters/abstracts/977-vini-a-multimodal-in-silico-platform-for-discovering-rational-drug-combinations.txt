@@ -1,0 +1,12 @@
+# VINI: A multimodal in silico platform for discovering rational drug combinations in KRAS-mutant pancreatic cancer
+
+**Poster #**: 977
+**Session**: Computational, Technological, and Mechanistic Advances
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Drasko TomicRuđer Bošković Institute, Zagreb, Croatia
+
+---
+
+Rational combination therapies are urgently needed for aggressive KRAS-mutant cancers such as pancreatic ductal adenocarcinoma (PDAC), which has a 5-year survival rate below 10%. VINI is a multimodal in silico platform that integrates AI, quantum-informed algorithms, pathway modeling, and structural data to accelerate the discovery of effective drug combinations. Its foundation is based on KEGG cancer pathways, with gene expression and mutation data from the Cancer Cell Line Encyclopedia (CCLE), molecular structures from PubChem and DrugBank, three-dimensional protein structures from RCSB PDB or AlphaFold predictions, and protein sequences from UniProt and DrugBank (for monoclonal antibodies), capturing disease-specific biology.VINI uses AI and semi-empirical quantum-informed virtual screening (planned for implementation in the upcoming Horizon project) to predict intracellular drug efficacy and multi-drug synergy. Classical computational chemistry tools, including Rosetta, AutoDock Vina, UCSF Chimera, and Scripps MGLTools, are used by VINI to generate high-quality predictions, with high-performance computing enabling rapid evaluation.Proof-of-concept studies demonstrated VINI’s ability to predict novel triple-drug combinations targeting ALK, BCL-2, mTOR, DNA repair, and androgen pathways in hormone-sensitive prostate cancer, achieving 79.3% agreement with clinical outcomes across 16 cancer types and 100% for DU-145 and PC3 lines. VINI has also been applied to SARS-CoV-2 drug combinations, illustrating its broad applicability.In the upcoming EU Horizon project, VINI will be instrumental in identifying effective three-drug combinations against KRAS-mutant PDAC: (1) novel KRAS inhibitors developed at the University of Toronto, (2) DNMT1 inhibitors discovered at RBI, and (3) targeted monoclonal antibodies against PDAC hallmarks, also identified at RBI using VINI. Through this multinational consortium - including the University of Toronto, Lund University, Fraunhofer, EPFL, and seven other leading institutions - VINI will integrate AI, structural modeling, and computational chemistry to provide actionable insights for treatment-resistant cancers and guide future preclinical validation.

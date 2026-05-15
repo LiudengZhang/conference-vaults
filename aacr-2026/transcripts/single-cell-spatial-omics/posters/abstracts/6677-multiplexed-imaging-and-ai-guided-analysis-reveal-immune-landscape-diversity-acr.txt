@@ -1,0 +1,14 @@
+# Multiplexed imaging and AI-guided analysis reveal immune landscape diversity across multiple cancer types
+
+**Poster #**: 6677
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Lynne Turnbull, Michael J. Smith, Sophie Struble, Vasundhara Agrawal, Debayon Paul, Richard A. Heil-Chapdelaine, Natasha  F.  Diaz Granados, Arindam Bose
+
+Leica Microsystems, Waltham, MA
+
+---
+
+Understanding the interplay between tumor and host tissues within the tumor microenvironment (TME) is critical for guiding drug development. Immuno-oncology features of the TME can determine whether cancers progress or respond to immunotherapies. Mapping the TME by characterizing the phenotype, functional state, and proliferative status of immune and cancer cells can advance drug discovery. Because of the considerable number of cell types and biomarkers present in cancer samples multiplexed imaging approaches are often required to capture this complexity, while AI-guided analysis platforms can extract meaningful insights from these data-rich experiments. Owing to intra-tumor heterogeneity and expression differences across cancer types, a multi-tumor workflow that examines biomarker panels in diverse tissue sections provides additional value, by enabling differential biomarker profiling, co-expression analysis, and cancer signature discovery. To this end, we utilized the Cell DIVE multiplexed imaging platform to perform multiplex imaging across several cancer types using a novel dye-conjugation strategy with validated antibody panels and specialized dyes. Biomarker expression profiles and phenotypic classifications across the tumor samples were subsequently analyzed using Aivia. In addition, both supervised and unsupervised clustering analysis revealed distinct cancer signatures across tumor types. By combining the high-throughput capabilities of the Cell DIVE platform with newly developed specialized panels and staining reagents, the immune-oncology researcher can gain a comprehensive understating of the biological processes occurring within cancer samples and identify key molecular targets. This integrated workflow provides deeper insight into tumor-immune dynamics, bridging basic research and clinical applications to accelerate the discovery of actionable biomarkers and therapeutic targets.

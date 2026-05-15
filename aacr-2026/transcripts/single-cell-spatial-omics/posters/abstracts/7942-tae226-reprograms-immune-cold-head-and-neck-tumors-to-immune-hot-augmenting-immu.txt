@@ -1,0 +1,17 @@
+# TAE226 reprograms immune-cold head and neck tumors to immune-hot, augmenting immunotherapy efficacy
+
+**Poster #**: 7942
+**Session**: Tumor Microenvironment Modulators
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Atish Ranjan Mohanty1, Dana Do2, Sharad S. Singhal3, Haiqing Li4, Sravani Ramisetty4, Raju Pillai4, Sultatna Shoukath5, Prakash Kulkarni4, Ellie  G.  Maghami6, Ravi Salgia4, Erminia Massarelli5
+
+1City of Hope Comprehensive Cancer Ctr., Duarte, CA,2City of Hope National Medical Center, Monrovia, CA,3Beckman Research Institute of The City of Hope, Duarte, CA,4City of Hope National Medical Center, Duarte, CA,5University of Texas, Tyler, TX,6Faculty, Div. of Surgery, City of Hope, Duarte, CA
+
+---
+
+Introduction: Current treatment strategies in advanced/recurrent LSCC include chemotherapy, radiation therapy, and immune checkpoint inhibitors (ICI). ICI treatment is associated with durable benefit in about 20% of patients with advanced/incurable platinum-resistant LSCC. There is a clear need to develop strategies to reprogram the tumor microenvironment (TME) from immune-cold to immune-hot to enhance T-cell infiltration and activation that correlate with ICI treatment response. We investigated the therapeutic potential of Focal Adhesion Kinase (FAK) inhibition using a tyrosine kinase inhibitor, TAE226, alone and in combination with anti-PD-1 immune checkpoint blockade, to reprogram the TME and enhance immunotherapeutic responsiveness in a model of platinum-resistant LSCC.
+Methods: LSCC cell lines (SQ20B, SCC17A) were used to assess the inhibitory response to FAK inhibitors using the CCK-8 assay. RNA-seq was performed to evaluate global transcriptional changes and pathway enrichment. Syngeneic MOC2 mouse models were used to assess the therapeutic efficacy of TAE226 in combination with anti-PD-1 therapy. Post euthanization, the xenografts were processed for isolating single cells and performing single-cell RNA sequencing.
+Results: TAE226 significantly reduced LSCC cell proliferation, viability, and wound-healing capacity, indicating potent anti-tumor activity. Bulk RNA-seq and pathway enrichment analyses revealed robust upregulation of interferon and cytokine signaling pathways, consistent with an immune-stimulatory phenotype, while downregulating proliferative and metabolic programs. This dual modulation suggests that TAE226 exerts both tumor-intrinsic anti-proliferative and tumor-extrinsic immune-activating effects. In the MOC2 syngeneic model, the combination of TAE226 and anti-PD-1 produced a synergistic response, resulting in markedly enhanced antitumor signaling and significantly greater tumor regression compared to either monotherapy. Single-cell RNA-seq further demonstrated that TAE226 treatment induced profound TME remodeling, characterized by expansion of cytotoxic CD8&#8314; T cells, dendritic cells, and activated macrophages, and depletion of proliferative epithelial and fibroblast-rich stromal clusters. Hallmark pathway analyses highlighted activation of interferon-&#945;/&#947;, IL2-STAT5, TNFA-NF&#954;B, and complement signaling-consistent with broad activation of innate and adaptive immune programs.
+Conclusion: These findings indicate that TAE226 disrupts FAK-mediated adhesion and cytoskeletal signaling, converting the TME from immune-cold to immune-hot and enhancing responsiveness to immune checkpoint blockade and offering a promising therapeutic strategy for platinum-resistant laryngeal cancer.

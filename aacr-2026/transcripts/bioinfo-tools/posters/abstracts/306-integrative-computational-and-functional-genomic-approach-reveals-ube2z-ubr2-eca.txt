@@ -1,0 +1,12 @@
+# Integrative computational and functional genomic approach reveals UBE2Z-UBR2-Ecadherinaxis as a beta-catenin-specific vulnerability in colorectal cancer
+
+**Poster #**: 306
+**Session**: Innovative Therapeutic Modalities and Translational Platforms
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Chunhua Wan, Hugh Gao, Claire Sun, Ron FiresteinHudson Institute of Medical Research, Clayton, Australia
+
+---
+
+Synthetic lethality provides a powerful framework for cancer therapy by targeting gene interactions that are selectively essential in tumor cells, but are non-essential in normal tissues.. This approach is particularly attractive in malignancies driven by oncogenes considered “undruggable”. Using a machine-learning multi-omics approach we identify UBE2Z/USE1, a key ubiquitin-conjugating enzyme of non-canonical E1 UBA6-charged ubiquitination cascade, as a synthetic lethal partner of oncogenic β-catenin. UBE2Z knockout markedly impairs nuclear β-catenin accumulation, suppresses Wnt target gene expression, and induces differentiation in cell lines, tumouroids and in vivo models. Strikingly, UBE2Z is exclusively necessary for oncogenic β-catenin activity and completely dispensable for physiological Wnt/β-catenin signaling, highlighting its tumor-specific role. Genome-wide CRISPR rescue screens identified E-Cadherin as a critical intermediate of UBE2Z activity. Integrative transcriptomic and proteomics analyses suggest that UBE2Z supports oncogenic β-catenin transcriptional activity by promoting the degradation of intracellular E-cadherin via UBRfamily N-end rule E3 ligases. Manipulating UBE2Z’s ubiquitin-conjugating activity recapitulates the potent inhibitory effect of E-cadherin overexpression on oncogenic β-catenin activity, underscoring its translational significance. These findings reveal the UBA6-UBE2Z non-canonical ubiquitination cascade as a druggable vulnerability in β-catenin-addicted cancers and underscore synthetic lethality as a rational strategy for targeting β-catenin-driven tumorigenesis.

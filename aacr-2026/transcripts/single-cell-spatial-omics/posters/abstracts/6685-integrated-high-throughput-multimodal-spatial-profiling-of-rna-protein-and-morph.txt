@@ -1,0 +1,19 @@
+# Integrated high-throughput multimodal spatial profiling of RNA, protein, and morphology in FFPE sections with the G4X&#8482; Spatial Sequencer
+
+**Poster #**: 6685
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Michael Lawson1, Kenneth Gouin1, Sabrina Shore2, Yuji Ishitsuka2, Richard Que2, Eli Glezer2, Daan Witters2
+
+1Singular Genomics, San Diego, CA,2Singular Genomics, LA JOLLA, CA
+
+---
+
+Comprehensive characterization of the tumor microenvironment (TME) benefits from simultaneous measurement of transcripts, proteins, and morphology at single-cell resolution in clinically relevant samples. The G4X Spatial Sequencer is a high-throughput in-situ platform that delivers co-registered RNA, protein, and morphological readouts from the same FFPE section, supporting up to 40 cm&#178; of tissue per run and flexible panel customization.We designed four targeted ~300-gene RNA panels for kidney, lung, colon, and breast tissues. Each includes 150 shared immuno-oncology genes, 50 stromal genes, and ~100 tissue-specific targets. A paired 16-plex immuno-oncology protein panel provides spatially resolved multiplexed proteomics measurements. All analytes were acquired from single 5 &#181;m sections and directly aligned with fH&#38;E&#8482;, a fluorescent analog of standard H&#38;E.
+Sections were processed via the TissuStamp&#8482; transfer workflow in large (ten 10 &#215; 10 mm&#178;/flow cell) or small (thirty two 4.5 &#215; 4.5 mm&#178;/flow cell) arrays through antibody staining, padlock probe hybridization, amplification, and sequencing-by-synthesis (SBS). Per-cell detection ranged from 50-200 transcripts and 20-50 unique genes, with dynamic ranges exceeding 500 transcripts in high-expressing cells. RNA false discovery rates were &#8804;0.5% (typically <0.1%), and genomic DNA FDRs were 0.5-5%, with transcript detection unaffected by concurrent protein imaging.
+Protein data quality matched single-plex immunofluorescence, and integration of protein abundance with gene-expression programs improved cross-modal specificity beyond single-gene comparisons.
+In addition to curated panels for transcripts and proteins, G4X enables the inclusion of custom targets. The sequencing-based readout preserves probe-level resolution, enabling efficient optimization of custom RNA panels without loss of information, demonstrated across mouse, bone marrow, and pancreas datasets. Two additional custom protein targets were successfully incorporated into the curated 16-plex panel.
+To highlight scalability, G4X is deployed in ongoing atlas-scale lung and colorectal cancer studies with academic partners and has been used for 3D reconstruction across serial sections.
+Together, these results position G4X as a unified, scalable workflow for multiplexed spatial transcriptomic, proteomic, and morphological profiling of FFPE tissues, enabling large-cohort, integrative analyses of the TME.

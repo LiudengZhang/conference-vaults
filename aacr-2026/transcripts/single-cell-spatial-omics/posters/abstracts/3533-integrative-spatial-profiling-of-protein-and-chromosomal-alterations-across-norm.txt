@@ -1,0 +1,16 @@
+# Integrative spatial profiling of protein and chromosomal alterations across normal, precancer, and cancer revealed the presence of aneuploidy in the normal fallopian tube
+
+**Poster #**: 3533
+**Session**: Tumor Evolution
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Tanjina Kader1, Yu-An Chen1, Clemens Hug1, Jia-Ren Lin1, Jeremy Muhlich1, Euihye Jung2, Charles Drescher3, Ronny I. Drapkin4, Peter Karl Sorger5, Sandro Santagata6
+
+1Harvard Medical School, Boston, MA,2Perelman School of Med. Univ. of Pennsylvania, Philadelphia,3Fred Hutchinson Cancer Center, Seattle, WA,4University of Pennsylvania, Merion Station, PA,5DFCI/Harvard Medical School,6Brigham and Women’s Hospital, Boston, MA
+
+---
+
+Introduction: Simultaneous measurement of protein expression and chromosomal alterations within the same FFPE section enables direct analysis of clonal selection and disease progression from normal epithelium through precancerous to cancerous states. We developed a unified workflow based on the one-shot Orion multiplexed imaging platform (Lin et al., Nature Cancer 2023) that integrates high-dimensional protein imaging with a conventional DNA-FISH assay for in situ detection of chromosomal copy number alterations (CNAs). Traditional DNA-FISH, although widely used in diagnostic practice, requires protease digestion and permeabilization steps that destroy antigen epitopes and distort nuclear morphology, preventing reliable protein detection and limiting integration with immunofluorescence. The challenge spans both normal precursor and malignant tissues, where densely packed or overlapping nuclei complicate single-cell CNA scoring - an issue that is now particularly relevant, given the growing recognition that aneuploidy can arise even in morphologically normal epithelia.
+Method: Recent advances in multiplexed imaging now enable phenotypic characterization of individual cells harboring CNAs, a capability previously unattainable with conventional immunofluorescence. To realize this potential, we optimized fixation, hybridization, and imaging parameters to preserve both antigenicity and nuclear architecture while maintaining robust CNA detection. The resulting ORION-FISH workflow enables simultaneous visualization and quantification of protein states and chromosomal alterations within the same section.
+Results: We have found that normal fallopian tube epithelium harbors MYC and/or CCNE1, both of which are common CNAs in High Grade Serous Ovarian Cancer (HGSOC) and its precursor lesion, Serous Tubal Intraepithelial Carcinoma (STIC). We have also found that these aneuploid cells may have been under strong negative selection pressure, partially due to strong immune surveillance. Currently, we are analyzing in depth precursor samples and HGSOC specimens that will be presented at the meeting. Conclusion: We applied ORION-FISH approach to HGSOC and its precursors to generate spatial maps of aneuploidy and cell states across the normal-precancer-cancer continuum, establishing a foundation for our studies in the HGSOC Pre-Cancer Atlas 2.0.

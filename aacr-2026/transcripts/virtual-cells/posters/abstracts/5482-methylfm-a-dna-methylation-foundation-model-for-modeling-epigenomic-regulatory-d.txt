@@ -1,0 +1,12 @@
+# MethylFM: A DNA methylation foundation model for modeling epigenomic regulatory dynamics
+
+**Poster #**: 5482
+**Session**: Deep Learning in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Limeng Pu, Xiang ChenSt. Jude Children's Research Hospital, Memphis, TN
+
+---
+
+DNA methylation regulates gene expression, differentiation, and disease, making it a key target for computational modeling in precision medicine. To integrate high-resolution whole-genome bisulfite sequencing (WGBS) data into a unified analytical framework, we developed MethylFM, a transformer-based foundation model that captures context-aware methylation patterns and supports multiple downstream tasks.We trained on the BLUEprint Epigenome dataset, comprising single-base WGBS profiles across diverse blood cell types with matched histone modification and transcriptome data. By focusing on ±100 CpG sites around transcription start sites (TSS), MethylFM targets regulatory regions central to gene expression and chromatin dynamics. Built on a BERT-style transformer with rotary positional embeddings and a masked-value prediction objective, it learns robust representations capturing both local and long-range dependencies in methylation.MethylFM demonstrated versatility across three downstream applications. For CpG-level imputation, it reconstructed high-resolution WGBS profiles from 450k array data with strong accuracy (R² > 0.6, MAE < 0.15). When benchmarked against METHimpute, evaluation was restricted to two samples due to METHimpute’s intensive runtime; nonetheless, MethylFM achieved slightly higher accuracy (R² = 0.518 vs. 0.513), underscoring both precision and computational efficiency. In TSS-level H3K27ac prediction, the model reached R² = 0.614, matching the state-of-the-art M2A (R² = 0.617) and highlighting its capacity to infer promoter activity directly from DNA methylation. Finally, sample-level clustering based on predicted H3K27ac profiles accurately recapitulated hematopoietic lineages, surpassing experimental H3K27ac data (Silhouette = 0.47 vs. 0.30) and approaching RNA-seq-derived clustering performance (Silhouette = 0.51), demonstrating that MethylFM captures biologically meaningful epigenetic structure. Together, these results establish MethylFM as a generalizable and efficient framework for epigenomic modeling, enabling cost-effective methylation imputation, promoter activity prediction, and cellular identity characterization to advance biomarker discovery and precision medicine.

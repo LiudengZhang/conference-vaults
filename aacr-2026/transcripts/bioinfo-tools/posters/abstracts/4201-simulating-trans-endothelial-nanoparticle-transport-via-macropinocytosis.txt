@@ -1,0 +1,12 @@
+# Simulating trans-endothelial nanoparticle transport via macropinocytosis
+
+**Poster #**: 4201
+**Session**: Integrative Computational Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Marvin Skiba1, Hae-gyung  T.  Han2, Warren Chan31School of Materials Science and Engineering, Nanyang Technological University, Singapore, Singapore,2Harvey Mudd College, Claremont, CA,3Nanyang Technological University, Singapore, Singapore
+
+---
+
+Macropinocytosis is a key mechanism in transendothelial nanoparticle transport into solid tumours. It uses cell membrane ruffles to capture circulating nanoparticles. Endothelial cell ruffles cannot be independently and systematically varied in vivo, preventing parameter-specific analysis. We developed an in silico model that examines nanoparticle capture by macropinocytosis. We discover that nanoparticle capture rates rise steeply until saturating with ruffle number as well as ruffle turnover time. From our data we derive an equation describing the nanoparticle capture by macropinocytosis. This relationship reveals how ruffle dynamics govern nanoparticle capture efficiency.

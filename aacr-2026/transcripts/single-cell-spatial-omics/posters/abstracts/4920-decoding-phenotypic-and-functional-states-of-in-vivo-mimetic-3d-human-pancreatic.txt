@@ -1,0 +1,17 @@
+# Decoding phenotypic and functional states of in vivo-mimetic 3D human pancreatic CAF/ECM units through sequential high-plex IF
+
+**Poster #**: 4920
+**Session**: Novel Experimental Platforms and Causal Inference
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Mariia Dmitrieva, Edna Cukierman, Janusz Franco-Barraza
+
+Dr. Edna Cukierman's laboratory, Fox Chase Cancer Center, Philadelphia, PA
+
+---
+
+Background: Pancreatic ductal adenocarcinoma (PDAC) is characterized by extensive desmoplasia, with cancer-associated fibroblasts (CAFs) dominating the tumor microenvironment (TME) and driving collagen-rich extracellular matrix (ECM) deposition. While resident pancreatic fibroblasts exert natural tumor-restrictive functions, CAF/ECM units adopt both tumor-promoting and tumor-suppressive phenotypes, critically shaping tumor progression, therapeutic response, and patient outcomes. Defining inter-patient heterogeneity in CAF/ECM phenotypic traits and understanding their functional shifts in response to therapy is essential for predicting clinical outcomes, predicting therapy responses, and identifying new TME-targeting strategies.
+Methods: We developed a human PDAC TME-within-a-chip integrating fresh tissue-derived 3D CAF/ECM units cultured in customized microfluidic chambers on glass slides. High-plex sequential immunofluorescence (seqIF&#8482;) on the COMET&#8482; platform standardized ~20 mesenchymal biomarkers to distinguish tumor-supportive from tumor-restrictive CAF phenotypes. Automated image analysis (HORIZON&#8482; software) quantified single-cell, subcellular, and extracellular marker expression patterns.
+Results: CAF activation-state interventions revealed marked alterations in canonical TGF&#946; signaling, reduced Ki67-positive cell proliferation, and changes in ECM architecture and composition, reflecting shifts in stromal functional states. This integrated platform effectively resolved CAF/ECM unit heterogeneity and tracked TME adaptations in response to therapeutic perturbation.
+Conclusions: This technological advancement provides a robust, medium-throughput framework for dissecting CAF heterogeneity and exploring stromal biology in PDAC (and other cancers). The platform enables comprehensive profiling from minimal starting material while substantially reducing antibody consumption and processing time compared to conventional methods, establishing a scalable foundation for functional screening and evaluating therapeutic interventions in complex TMEs.

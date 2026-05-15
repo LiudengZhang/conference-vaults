@@ -1,0 +1,17 @@
+# Multimodal single-cell analysis of systemic immune remodeling induced by cytoreductive nephrectomy combined with immune checkpoint inhibitors in metastatic renal cell carcinoma
+
+**Poster #**: 4141
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Suebin Park1, Byungjin Hwang2
+
+1Department of Clinical Drug Discovery and Development, Yonsei University College of Medicine, Seoul, Korea, Republic of,2Department of Biomedical Sciences, Yonsei University College of Medicine, Seoul, Korea, Republic of
+
+---
+
+Background: The role of cytoreductive nephrectomy (CN) in metastatic renal cell carcinoma (mRCC) remains uncertain in the immuno-oncology era. Ongoing trials such as PROBE (NCT04510597) and NORDICSUN (NCT03977571), focus on deferred CN versus no CN, but neither includes an upfront CN arm. To address this gap, we performed a multimodal single-cell analysis comparing the immunological effects of upfront CN, deferred CN, and no CN in combination with ICIs.
+Methods: We performed multimodal single-cell sequencing integrating bulk RNA-seq, scRNA-seq, CITE-seq, and TCR-seq on peripheral blood mononuclear cell (PBMC) samples obtained from five patients undergoing CN and ICI therapy in different treatment orders. Eleven PBMC samples collected across treatment time points were pooled, genotyped, and demultiplexed using SNP-based assignment, followed by normalization and processing with the Seurat workflow. Bulk RNA-seq and genotyping enabled donor identification and transcriptomic profiling, while single-cell transcriptomic, surface proteomic, and TCR clonotype data were jointly analyzed to characterize cellular components, immune activation states, and clonal dynamics associated with CN in combination with ICI therapy.
+Results: We analyzed 133,943 cells and identified 16 immune cell types. Immune composition differed by the sequencing of cytoreductive nephrectomy (CN) and ICI therapy. In the upfront CN group, CN increased memory B cells, classical monocytes, and NK cells, and these changes persisted during nivolumab plus ipilimumab treatment. In the deferred CN group, CN also expanded NK cells but additionally increased CD8&#8314; effector memory T cells. Transcriptomic, ADT, and TCR analyses revealed distinct immune states and clonal expansion patterns contributing to systemic immune remodeling.
+Conclusions: This study reveals that CN combined with ICIs exerts different immune effects depending on whether CN is performed upfront or deferred. While both approaches increased NK cells, B- and T-cell responses differed between groups. Our multimodal single-cell analysis further identified distinct transcriptional, proteomic, and clonal changes associated with each approach. Although the optimal timing of CN remains uncertain, these findings highlight the need for further investigation to refine patient selection and guide CN integration with ICI therapy in mRCC.

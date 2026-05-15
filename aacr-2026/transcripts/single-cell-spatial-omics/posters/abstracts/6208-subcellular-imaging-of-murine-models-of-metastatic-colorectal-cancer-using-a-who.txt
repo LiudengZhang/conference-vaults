@@ -1,0 +1,14 @@
+# Subcellular imaging of murine models of metastatic colorectal cancer using a whole transcriptome spatial molecular imaging panel
+
+**Poster #**: 6208
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Liang Zhang1, Isabel Lee1, Shanshan He1, Martin Shelton1, Owen  J.  Sansom2, Joseph  M.  Beechem1
+
+1Bruker Spatial Biology, Seattle, WA,2Cancer Research UK Scotland Institute, Glasgow, United Kingdom
+
+---
+
+Spatial transcriptomics enables in situ characterization of molecular and cellular heterogeneity within complex tissues. However, such high-plex subcellular resolution analysis has not previously been available for mouse models, which are central to cancer biology and therapeutic development. To address this gap, we have developed a new mouse Whole Transcriptome (WTX) assay containing over 20,000 targets, enabling comprehensive subcellular imaging with potential for future multiomic integration. Using the CosMx Spatial Molecular Imager (SMI), we profiled formalin-fixed paraffin-embedded (FFPE) primary and metastatic colorectal cancers from advanced murine models of Kras-mutant colorectal cancer. Each slide was processed according to standard CosMx workflow. UMAP and clustering analyses were performed to identify spatially resolved cell populations. Cell type annotation was guided by canonical marker genes. Transcriptional heterogeneity and adaptive plasticity of the tumour epithelium and supporting micro-environment in response to targeted KRAS inhibition was interrogated in both primary colonic cancers and in hepatic metastases. The CosMx mouse WTX assay demonstrated robust detection sensitivity and dynamic range across both liver and colon cancer samples. Distinct cellular niches were identified within tumor and stromal compartments, revealing transcriptionally unique clusters corresponding to hepatocytes, immune cells, and fibroblast subtypes. In the colon tumor, spatially distinct tumor regions exhibited divergent gene expression patterns, suggesting differential microenvironmental influences. Transcriptional adaptation to therapeutic challenge was observed across tumour compartments in both primary and secondary disease, highlighted novel, exploitable avenues to drive improved therapeutic response. We present the first application of a mouse Whole Transcriptome assay on the CosMx platform, enabling subcellular spatial resolution across >20,000 targets. This new capability opens avenues for multiomic integration, allowing comprehensive investigation of tumor-stroma interactions and immune microenvironments in mouse models. Together, these advances bridge preclinical and translational spatial biology, providing a new foundation for spatially resolved discovery in cancer research.

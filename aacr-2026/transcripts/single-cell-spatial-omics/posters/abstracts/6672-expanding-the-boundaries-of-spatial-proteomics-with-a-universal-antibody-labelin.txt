@@ -1,0 +1,14 @@
+# Expanding the boundaries of spatial proteomics with a universal antibody labeling strategy and EpicIF&#8482; multiplexing chemistry
+
+**Poster #**: 6672
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Thore Boettke, Jannik Boog, Charles Eldon Jackson, Matthew  H.  Ingalls, Arne Christians, Oliver Braubach
+
+Bruker Spatial Biology, St. Louis, MO
+
+---
+
+Highly multiplexed immunofluorescence (mIF) has transformed cancer research by enabling the simultaneous visualization of dozens of biomarkers and cell types within the spatial context of the tumor microenvironment (TME). However, mIF assays often require custom antibody content, which is difficult to attain with inflexible or proprietary chemistries. Alternative detection systems provide partial workarounds but frequently rely on harsh conditions that can compromise tissue integrity and reduce assay reproducibility. To overcome these barriers, we developed a universal antibody-labeling strategy compatible with the CellScape&#8482; Precise Spatial Proteomics platform and EpicIF&#8482; multiplexing chemistry. This workflow enables low-volume fluorophore labeling of virtually any IgG antibody, independent of antibody buffer formulations, using standard organic fluorophores in minutes and without specialized instrumentation. The resulting labeled antibodies integrate seamlessly into CellScape workflows for custom, high-quality mIF imaging. In this study, we demonstrate how our universal labeling approach enables the seamless transfer of IHC-validated antibodies to the CellScape Platform without compromising staining quality or specificity. We first compared standard IHC-P DAB and immunofluorescence stains using several well-characterized and routinely applied antibodies. The results show that our universal labeling strategy allows a straightforward transition of these antibodies to multiplexed immunofluorescence staining. Next, we expanded our commercially available VistaPlex Kits with antibodies designed to provide deeper insights into the TME. Our final modified panel includes additional markers for immune infiltration, stromal activation, cellular metabolism, and checkpoint regulation. Applying this panel to whole-section tumor biopsies and tissue microarrays generated unprecedented single-cell-level data describing not only the composition of the TME but also the proteomic states of individual cells. Linking these data with patient treatment regimens and outcomes further revealed quantifiable spatial phenotyping signatures. This study details how a universal labeling strategy can easily expand mIF studies to better understand the TME. Presented here in its sum, our study marks a significant step toward fully user-driven, high-plex mIF assay development, which will accelerate discovery, expand biological insights, and redefine how complex cancer ecosystems are studied in situ.

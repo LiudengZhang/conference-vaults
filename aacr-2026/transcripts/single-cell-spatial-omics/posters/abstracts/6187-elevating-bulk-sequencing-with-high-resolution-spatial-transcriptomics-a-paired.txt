@@ -1,0 +1,17 @@
+# Elevating bulk sequencing with high-resolution spatial transcriptomics: A paired-data analysis of clinically-relevant spatial niches in CRC and NSCLC
+
+**Poster #**: 6187
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yajas Shah, Tianyou Luo, Christine  M.  Hoeman, Luca Lonini, Stanislaw Szydlo, Eduardo Diaz, Rossin Erbe, Matthew  B.  Maxwell, Michelle  M.  Stein, Andrew  J.  Sedgewick, Nicholas Rachell, Zachary Chelsky, Sonal Khare, Ryan  D.  Jones, Kate Sasser, Richard  A.  Klinghoffer, Justin Guinney, Chi-Sing Ho
+
+Tempus AI, Chicago, IL
+
+---
+
+Background. Bulk RNA-next generation sequencing (RNA-NGS) is a standard tool for the molecular characterization of solid tumors and is used in clinical practice to guide therapy selection. However, the spatial organization of the tumor microenvironment (unobservable in bulk RNA-NGS) plays an important role in clinical phenotypes and therapy response. While spatial transcriptomics (ST) overcomes the limitations of bulk sequencing, the relationship amongst ST, bulk NGS, and clinical phenotypes in real-world cancer patients has not been explored. To address this, we generated and analyzed a large multimodal, real-world cohort of colorectal (CRC) and non-small cell lung cancer (NSCLC) tumors profiled with ST, bulk RNA-NGS and targeted DNA-NGS data from the same biospecimen.
+Methods. Gene expression data from 3.7 million cells, sourced from 42 NSCLC (16 metastatic) and 19 CRC (6 lung and 6 liver metastases) patients were generated at whole-transcriptome level using 10X Genomics Visium HD platform. Cells were integrated using scVI and annotated using SCimilarity. Spatially-informed clusters were generated using CellCharter. Association testing between spatial, clinical, and biomarker features, including the Tempus Immune Profile Score (IPS) were performed using linear models adjusted for clinical (tumor type, stage, histology, metastasis) and molecular features (TMB) as appropriate.
+Results. Visium HD pseudo-bulk showed high correlation with paired bulk RNA, with a median Spearman correlation of 0.79 (IQR: 0.78-0.81). Spatial clustering of gene expression revealed six distinct spatial niches: two enriched for epithelial cells, one for stromal cells, and three for immune cells (myeloid-rich, lymphoid-rich, and tumor-immune mixed regions). Among NSCLC tumors sourced from the lung, we found that the myeloid, lymphoid and stroma-rich niches were enriched for Stage I, II and IV cases respectively (p < 0.05). Spatial niches were associated with key oncogenic alterations in NSCLC (lymphoid-, myeloid- and stroma-rich, CDKN2A, KEAP1, RBM10, p < 0.05) and CRC (lymphoid- and myeloid-rich, KRAS, TP53, p < 0.05). Patients with higher IPS scores were associated with an enrichment of lymphoid and tumor-immune mixed niches (p < 0.05), while cells from tumor-immune mixed regions had higher expression of immune infiltration and exhaustion markers than the lymphocyte-rich regions (IKZF2, TOX2, PTPRC, CD69).
+Conclusion. Our work profiles the genomic and transcriptional features contributing to spatial heterogeneity, revealing distinct molecular patterns associated with immune cell infiltration. This dataset provides a powerful foundation for understanding tumor microenvironment-driven phenotypes and translating spatial-only insights into scalable biomarkers, empowering future translational discovery in precision oncology.

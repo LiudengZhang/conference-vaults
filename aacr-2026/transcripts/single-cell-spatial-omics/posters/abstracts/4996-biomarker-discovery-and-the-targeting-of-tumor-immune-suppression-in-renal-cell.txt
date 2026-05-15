@@ -1,0 +1,14 @@
+# Biomarker discovery and the targeting of tumor immune suppression in Renal Cell Carcinoma
+
+**Poster #**: 4996
+**Session**: Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Giuliana  P.  Mognol1, Erpei Wang1, William Harris2, Tami Von Schalscha1, Birkley  S.  Lim2, Rayan Jouny2, Ahmed Abdelhak3, Rana  R.  McKay4, Judith Varner1
+
+1Pathology, University of California, San Diego, San Diego, CA,2Moores Cancer Center, University of California, San Diego, San Diego, CA,3Neurology, University of California, San Francisco, San Francisco, CA,4Medicine, University of California, San Diego, San Diego, CA
+
+---
+
+Metastatic renal cell carcinoma (RCC) remains highly lethal despite advances in immunotherapy, highlighting the need for improved diagnostic biomarkers and therapeutic strategies that overcome immune suppression and identify patients most likely to benefit from specific treatments. RCC tumors contain high levels of pro-angiogenic, immune-suppressive macrophages that contribute to therapeutic resistance and correlate with poor survival. To address the hypothesis that circulating and tumor-derived biomarkers can inform personalized therapeutic strategies, we prospectively collected 26 fresh surgical RCC tumors with matched peripheral blood, along with peripheral blood from 20 healthy donors. We isolated serum and peripheral blood mononuclear cells (PBMCs) from normal and RCC patients for comprehensive profiling. Serum was analyzed by Olink and Illumina high-throughput proteomics to detect more than 5,000 and 9,000 serum proteins, respectively. PBMCs were analyzed by 25-color flow-based immunophenotyping and by single-cell RNA sequencing. Tumor specimens also analyzed by single-cell RNA sequencing and immunocytochemistry. To identify novel strategies to treat RCC, we established ex vivo tumor slice cultures of early stage RCC specimens and tested the impact of novel innate immune therapeutics on myeloid and T cell content and state, as well as on tumor and immune cell survival. Combined, these approaches enabled the identification of biomarkers of disease progression and immune response in RCC patients. By integrating serum proteomics, single-cell profiling and functional ex vivo tumor modeling as well as the impact of new therapeutic strategies, these results may inform biomarker-guided therapeutic strategies and may identify novel therapeutic strategies that can enhance durable responses and improve clinical outcomes for patients with RCC.

@@ -1,0 +1,17 @@
+# Spatial characterization of tumor-immune interactions in MMR-p and MMR-d among African American colorectal cancer patients using attention-based modeling
+
+**Poster #**: 3955
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Hassan Brim1, Khushi Desai2, Shweta Dixi1, Justin Hong2, Colles Price3, Jonathan  H.  Chen4, Nicolas Fernandez5, Sara Sim5, Sami Farhi5, Rabia Zafar1, Elham Azizi5, Hassan Ashktorab1
+
+1Howard University, Dist. of Columbia, DC,2Columbia, New York, NY,3Takeda Pharmaceutical Company Ltd., Deerfield, IN,4Northwestern University, Chicago, IL,5Broad, New York, NY
+
+---
+
+Background: Colorectal cancer (CRC) disproportionately affects African American individuals, who experience higher incidence and mortality than non-Hispanic White patients. Immune infiltration varies widely across CRC phenotypes, particularly between microsatellite instability (MSI) and microsatellite stable (MSS) tumors. Recent single-cell studies show that MSI tumors demonstrate stronger anti-tumor immunity, with coordinated variation between immune and malignant cell types, highlighting the need for spatial analyses to understand tumor-immune interactions.
+Aim: To investigate spatial cellular organization in MSI and MSS tumors from African American patients using advanced computational and machine learning approaches to characterize immunomarker profiles. Methods: Spatially resolved single-cell transcriptomic profiling was performed using 10X Genomics Xenium 5k, which measures up to 5,000 genes in situ. Because such data require sophisticated processing, we employed machine learning innovations&#8212;including self-supervised learning&#8212;and robust artifact-correction tools to derive biologically meaningful signals. We introduce a pilot dataset of four CRC samples (2 MSI, 2 MSS) and present an analysis pipeline for preprocessing and annotating spatial CRC data using curated marker sets.
+Results: Spatial profiling revealed distinct immune-tumor ecologies across phenotypes. MSS tumors showed depleted T/NK and B-cell populations, whereas MSI tumors exhibited higher immune-cell abundance and strong cytotoxic CD8&#8314; T-cell activity marked by elevated CXCL13, GZMA, GZMB, and GZMK expression. MSI samples also demonstrated activated T-cell programs supported by pro-inflammatory myeloid cells expressing CXCL10, consistent with an immune-hot, therapy-responsive microenvironment. In contrast, MSS tumors were fibroblast-driven and metabolically reprogrammed, characterized by high TGFB1, FAP, COL1A1, LDHA, and SLC2A1 expression, reflecting an immune-cold state with minimal T-cell infiltration. To analyze cellular communication, we applied AMICI&#8212;an interpretable attention-based model predicting a cell&#8217;s gene expression from its spatial neighbors. AMICI revealed phenotype-specific interaction patterns, neighborhood length scales, and key genes mediating immune-stromal-tumor signaling.
+Conclusion: This pilot study establishes an integrated spatial and computational framework for dissecting MSI-MSS differences in CRC among African American patients. Future work will expand AMICI-based analyses to further resolve neighborhood-driven phenotypes and cell-cell communication networks that shape immune infiltration and therapeutic response.

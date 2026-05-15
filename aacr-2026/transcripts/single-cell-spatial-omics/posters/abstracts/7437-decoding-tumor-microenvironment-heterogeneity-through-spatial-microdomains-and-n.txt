@@ -1,0 +1,17 @@
+# Decoding tumor microenvironment heterogeneity through spatial microdomains and network biology to predict immunotherapy outcomes
+
+**Poster #**: 7437
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: A. Burak Tosun1, Raymond Yan1, Brian Falkenstein1, Filippo Pullara1, S. Chakra Chennubhotla2
+
+1PredxBio, Inc., Pittsburgh, PA,2PredxBio, Inc. / University of Pittsburgh, Pittsburgh, PA
+
+---
+
+Background: Spatial niches, often quantified through the co-occurrence or colocalization of various cell types, are a common measure of tissue organization in health and disease. However, a clear link is missing between how these spatial measures quantify tissue heterogeneity, how that heterogeneity relates to functional organization within the tissue, and how the functional organization impacts patient outcomes.
+Methods: The SpaceIQ&#8482; multi-omics analysis platform addresses tissue heterogeneity through a formal analysis of spatial cell-cell communication from a mutual information perspective. This methodology allows for the virtual dissection of tissue into distinct tumor microenvironment (TME) programs. Inter-patient heterogeneity is then revealed by clustering these spatial TME programs based on their compositional fractions, a process independent of patient outcomes. Crucially, these spatial TME programs serve as highly effective "microdomains" that provide critical local context for cell-to-cell interactions and spatially modulated "network biology," demonstrating strong predictive power for patient outcomes.
+Results: We analyzed a publicly available 51-plex immunofluorescence based spatial proteomics data (CODEX platform) from checkpoint-treated cutaneous T-cell lymphoma patients, using spatial analysis based on microdomains and network biology. Our findings demonstrate that: (i) checkpoint expressions alone are poor predictors of patient response; (ii) spatial interactions between different cell types moderately improve prediction accuracy compared to multi-marker phenotypes; and (iii) microdomains significantly outperform non-spatial methods and checkpoint expression-based approaches in predicting response.
+Conclusions: Spatial analysis leveraging microdomains and network biology significantly enhance prediction accuracy compared to non-spatial or checkpoint expression-based methods. This advancement enables improved biomarker-driven patient selection and targeted therapy optimization.

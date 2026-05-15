@@ -1,0 +1,14 @@
+# Spatial transcriptomics unveils tumor microenvironment changes in murine glioblastoma upon EGFRvIII suppression
+
+**Poster #**: 7435
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Fabio de Mello1, David Eisenbarth1, Feng Guo1, Yamei Chen2, Kun Huang2, Chunhai Hao3, Y. Alan Wang1
+
+1Brown Center for Immunotherapy, IU Simon Comprehensive Cancer Center, Indianapolis, IN,2Department of Biostatistics & Health Data Science, Indiana University School of Medicine, Indianapolis, IN,3Indiana University School of Medicine, Indianapolis, IN
+
+---
+
+EGFRvIII, a tumor-specific in-frame deletion of exons 2-7 that generates a constitutively active EGFR mutant, drives potent oncogenic signaling in a molecularly defined subset of glioblastoma (GBM) and is implicated in altered invasion, therapy resistance and immune modulation; because EGFRvIII occurs in a substantial fraction of GBMs we asked how suppression of this mutation in established tumors reshapes tumor cells and immune microenvironment in order to reveal treatment opportunities. We used an inducible EGFRvIII GBM mouse model to perform single-cell RNA sequencing and spatial transcriptomics on established with and without transcriptional suppression of EGFRvIII. Findings were validated in spatial transcriptomic profiles from human GBM specimens stratified by EGFR status. EGFRvIII suppression increases infiltration of myeloid and lymphoid cells into core tumor regions, slowing most tumor growth and increasing mouse survival. However, it also promotes invasion and proliferation in EGFRvIII-independent tumor-subpopulations, due to loss of EGFRvIII-driven communication between EGFRvIII-positive and -negative subpopulations. These observations are consistent with prior literature knowledge that direct EGFR inhibition often leads to resistance by vIII-negative populations, and complements it with insights into its mechanistic bases. Overall, our data argue for approaches that exploit the immune microenvironment changes to enhance direct EGFRvIII-targeted strategies for vIII-positive GBM.

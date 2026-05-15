@@ -1,0 +1,17 @@
+# A transcript-only framework for pseudocell boundary inference in high-resolution spatial transcriptomics
+
+**Poster #**: 6903
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Sungwoo Bae, Hongyoon Choi, Dongjoo Lee, Daeseung Lee
+
+Portrai, Inc., Seoul, Korea, Republic of
+
+---
+
+Background: High-resolution spatial transcriptomics (ST) enables subcellular expression profiling, yet cell-level analysis remains critical for understanding tissue organization. Current cell segmentation methods in ST like bin2cell rely on H&#38;E-based nuclear expansion, making them susceptible to image quality issues, 2D nuclear overlap artifact, bias caused by transcript contamination from neighboring cells, and dependent on histological staining. To address this, we developed HIPSTER (Hotspot-guided Inference of Pseudocell boundaries in Spatial Transcriptomics), a method that delineates cell boundaries solely using transcript density, and validated its accuracy against bin2cell.
+Methods: HIPSTER was applied to a human colorectal cancer Visium HD data (2 &#181;m bin). Total UMI counts were normalized using a destripping algorithm to correct for irregularities of ST bin. Transcriptionally dense hotspots were identified by calculating the Getis-Ord Gi* Z-scores to localize maxima (threshold of 0.125). Initial seed regions from local maxima were expanded based on gene-specific transcript distributions to refine cell boundaries. Segmented cells were filtered by size (excluding >144 bins) and total counts (<10). The tissue was divided into 60 segments: 48 (80%) for parameter optimization and 12 (20%) for testing. Performance was assessed via Leiden clustering quality on segmented cells using Average Silhouette Width (ASW), Calinski-Harabasz Index (CHI), and Davies-Bouldin Index (DBI).
+Results: Parameter optimization showed that Gaussian smoothing provided no benefit, whereas an 8-bin radius to capture seed regions from local maxima offered the optimal balance between cell clustering performance and cell detection count. In the independent test set (n=12), HIPSTER demonstrated statistically significant and superior clustering performance compared to bin2cell across all three metrics (ASW, CHI, and DBI). Notably, HIPSTER achieved a higher CHI score, reflecting superior cluster separability, in every single paired comparison without exception. Although HIPSTER detected fewer total cells than bin2cell, this reduction reflects a selective focus on transcriptionally meaningful hotspots, resulting in cleaner boundaries and more biologically coherent clustering.
+Conclusion: HIPSTER is a robust and effective transcript-only segmentation tool for high-resolution ST data. By defining cells via functional transcriptomic activity rather than H&#38;E-derived nuclear staining, it significantly outperforms the bin2cell method in distinguishing cell clusters by their expression profiles. This improved separation presents a clear trade-off, as HIPSTER's focus on transcriptional hotspots may result in the non-detection of cells characterized by very low local transcript density.

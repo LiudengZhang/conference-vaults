@@ -1,0 +1,18 @@
+# Th7R cells: CD4&#8314; T-cell partners that drive Tpex-mediated antitumor immunity in the tumor microenvironment
+
+**Poster #**: 4251
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Shota Takei, Ou Yamaguchi, Satoshi Yamasaki, Atsuhito Mouri, Ayako Shiono, Yu Miura, Kosuke Hashimoto, Hisao Imai, Kyoichi Kaira, Ichiki Yoshinobu, Hiroyuki Nitanda, Tomoyuki Hishida, Katsuhisa Horimoto, Hiroshi Kagamu
+
+Saitama Medical University International Medical Center, Hidaka, Japan
+
+---
+
+Background: Precursor-exhausted CD8&#8314; T cells (Tpex) are self-renewing, stem-like CD8&#8314; T cells that give rise to terminally exhausted (Tex) cells and maintain long-term antitumor immunity. Within the tumor microenvironment (TME), Tpex localize to tertiary lymphoid structures (TLSs) and high endothelial venules (HEVs) and trigger the CD8&#8314; T-cell burst after PD-1 blockade. However, the CD4&#8314; T-cell subsets that support Tpex generation and maintenance remain unclear. We previously identified Th7R cells, a Th1-like CD4&#8314; T-cell subset (CCR4&#8315;CCR6&#8314;, expressing IL7R and TCF7) in lung cancer, associated with immune checkpoint inhibitor (ICI) responsiveness. Th7R and Tpex share stem-like signatures, suggesting a potential partnership.
+Objective: To test whether Th7R cells function as CD4&#8314; partners sustaining Tpex and long-term antitumor immunity, and to evaluate the antitumor efficacy of Th7R adoptive transfer.
+Methods: We analyzed 55 early-stage lung cancer patients undergoing resection and 20 stage II-III patients treated with neoadjuvant anti-PD-1 therapy. Peripheral blood, tumor-infiltrating lymphocytes (TILs), and lymph node T cells were profiled by mass and imaging mass cytometry to assess the spatial and numerical relationship between Th7R and Tpex. In a mouse MCA205 model, CCR4&#8315;CCR6&#8314; Th7R cells sorted and expanded from tumor-draining lymph nodes were adoptively transferred to evaluate antitumor effects and their impact on TILs.
+Results: Patients with high preoperative Th7R frequency showed better disease-free survival. Th7R&#8212;but not other CD4&#8314; subsets&#8212;decreased after tumor resection, indicating tumor antigen-driven expansion. In neoadjuvant cases, complete or major pathological responders had higher proportions of Th7R cells. Th7R and Tpex showed a positive correlation in both blood and lymph nodes. Imaging mass cytometry showed Th7R cells located near Tpex within TLSs. In mice, Th7R transfer induced tumor regression and specifically expanded both Tpex and Tex subsets.
+Conclusion: Th7R cells are numerically and spatially associated with Tpex and crucial for sustaining long-term antitumor immunity. They may promote asymmetric Tpex division, maintaining renewal and effector supply. Th7R adoptive transfer, alone or with ICIs, represents a promising approach to enhance durable antitumor immunity.

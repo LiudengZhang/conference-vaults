@@ -1,0 +1,12 @@
+# Spatial identification of hypoxic and normoxic dormancy hotspots predicting in her2-positive and metastatic breast cancer
+
+**Poster #**: 5436
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Tzu-Hung Hsiao1, Fan Jhen Liu2, Yu-Ting Kang1, Kuo Yen Huang2, Yidong Chen31Department of Medical Research, Taichung Veterans General Hospital, Taichung City, Taiwan,2Graduate School of Advanced Technology, National Taiwan University, Taipei City, Taiwan,3Greehey Children's Cancer Research Institute, UT Health San Antonio, San Antonio, TX
+
+---
+
+One of the major clinical challenges in breast cancer is overcoming therapeutic resistance and metastatic relapse. Such relapses are often driven by residual tumor cells that resist therapy by entering a dormant, non-proliferative state and later reawaken after variable latent periods. In this study, we applied spatial transcriptomics-Visium HD platform to a HER2-positive breast tumor sample from a patient who developed brain metastasis one year after treatment. By integrating dormancy-associated transcriptional programs with spatial colocalization, we aimed to predict cells with dormancy potential. We curated eight dormancy-related genes to construct a DormancyScore and intersected it with G0/G1 cell-cycle arrest signatures to identify dormancy-like cells. Kernel density estimation (KDE) and Ripley’s K were used to quantify spatial aggregation and define dormancy hotspots. Using Intersection-over-Union (IoU) to evaluate the overlap between dormancy hotspots and HALLMARK pathway hotspots, we observed substantial colocalization with hypoxia. To further dissect the role of oxygenation in maintaining dormancy, hotspots were stratified into hypoxic dormancy hotspots (HDH) and normoxic dormancy hotspots (NDH). HDH exhibited enriched response to stress, defense, and inflammatory programs, accompanied by surrounding stromal accumulation of ECM-remodeling CAFs and TAMs. In contrast, NDH were enriched for oxidative phosphorylation, ATP synthesis, and biosynthetic processes, reflecting a distinct functional state under normoxia. This study lays the foundation for expanded cohort analyses to determine whether dormancy cells arising from different oxygenation states are associated with varying risks or timing of breast cancer metastasis, and to further evaluate the robustness of density-based and colocalization-based approaches for detecting dormant tumor cells.

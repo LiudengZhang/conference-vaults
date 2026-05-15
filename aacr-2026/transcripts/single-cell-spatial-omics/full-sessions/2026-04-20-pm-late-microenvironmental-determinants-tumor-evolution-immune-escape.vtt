@@ -1,0 +1,7965 @@
+WEBVTT
+
+1
+00:00:06.620 --> 00:00:09.120
+Okay, I think it's time to get started.
+
+2
+00:00:10.100 --> 00:00:12.660
+Thank you very much everyone for coming.
+
+3
+00:00:12.870 --> 00:00:13.280
+And
+
+4
+00:00:14.080 --> 00:00:17.840
+this is a session about microenvironmental determinants of tumor
+
+5
+00:00:17.860 --> 00:00:19.300
+evolution and immune escape,
+
+6
+00:00:20.360 --> 00:00:22.920
+another component of tumor microenvironment.
+
+7
+00:00:23.860 --> 00:00:27.370
+And we will be your chairs for today,
+
+8
+00:00:28.240 --> 00:00:31.400
+and we will have seven exciting talks in the program.
+
+9
+00:00:32.420 --> 00:00:32.830
+And
+
+10
+00:00:34.460 --> 00:00:38.129
+we will get started right now. Remember that
+
+11
+00:00:38.140 --> 00:00:41.520
+please actively contribute to the discussions and questions, and
+
+12
+00:00:42.200 --> 00:00:45.240
+our only requirements for speakers, try to stay on time.
+
+13
+00:00:45.700 --> 00:00:48.380
+It's a 10-minute talk and five minutes questions.
+
+14
+00:00:48.880 --> 00:00:50.740
+You will see the timer on the screen.
+
+15
+00:00:51.400 --> 00:00:55.040
+When it's 10 minutes, it will be yellow color
+
+16
+00:00:55.420 --> 00:00:59.180
+and your talk is supposed to end. When you run out of 15
+
+17
+00:00:59.220 --> 00:01:03.180
+minutes, it will be a red color and no more time for questions,
+
+18
+00:01:03.900 --> 00:01:07.680
+unfortunately. And without further ado, I
+
+19
+00:01:07.760 --> 00:01:11.590
+think we will have our first speaker, Yi Zheng from
+
+20
+00:01:11.840 --> 00:01:15.770
+Columbia University, and he will talk about neuroinflammatory memory
+
+21
+00:01:16.340 --> 00:01:17.720
+in gastric tumorgenesis.
+
+22
+00:01:32.400 --> 00:01:38.340
+Thanks
+
+23
+00:01:38.440 --> 00:01:40.820
+for the introduction. Good afternoon, everyone.
+
+24
+00:01:40.900 --> 00:01:44.560
+I'm Yi from Columbia University. Today, I will talk
+
+25
+00:01:44.620 --> 00:01:47.780
+about vagal sensory neuron inflammatory memory.
+
+26
+00:01:50.620 --> 00:01:54.400
+We all know that H. pylori eradication reduces the risk of
+
+27
+00:01:54.500 --> 00:01:58.140
+gastric cancer. However, a large RCT with up to
+
+28
+00:01:58.280 --> 00:02:01.600
+26 years of follow-up revealed important
+
+29
+00:02:01.680 --> 00:02:04.960
+limitation. Even after a successful eradication,
+
+30
+00:02:05.820 --> 00:02:09.801
+gastric cancer still occurred in about 2.6%
+
+31
+00:02:09.920 --> 00:02:13.800
+of treated individual. A risk that
+
+32
+00:02:13.880 --> 00:02:17.280
+remains potentially higher than that of general population.
+
+33
+00:02:18.440 --> 00:02:19.080
+Interestingly,
+
+34
+00:02:20.080 --> 00:02:23.720
+patients with dyspeptic symptoms derive little to no
+
+35
+00:02:23.780 --> 00:02:24.300
+benefit
+
+36
+00:02:26.160 --> 00:02:29.980
+from eradication therapy. Together, these findings suggest that
+
+37
+00:02:30.500 --> 00:02:34.040
+eliminating the pathogen alone is not sufficient.
+
+38
+00:02:34.590 --> 00:02:38.360
+Instead, they raise the possibility that a form of persistent
+
+39
+00:02:38.700 --> 00:02:42.640
+inflammatory memory, potentially involving the gut-brain
+
+40
+00:02:43.140 --> 00:02:45.650
+axis, remain after bacterial clearance.
+
+41
+00:02:47.520 --> 00:02:50.970
+So before going further, let me briefly define what do we mean by
+
+42
+00:02:51.580 --> 00:02:52.920
+inflammatory memory.
+
+43
+00:02:53.860 --> 00:02:57.780
+Inflammatory memory can be defined as tissues or
+
+44
+00:02:57.820 --> 00:03:01.400
+cells retaining a memory of inflammatory injury that
+
+45
+00:03:01.440 --> 00:03:04.540
+acquisition to react more quickly and
+
+46
+00:03:04.720 --> 00:03:08.100
+broadly to subsequent diverse secondary stimuli.
+
+47
+00:03:09.140 --> 00:03:12.670
+In the pancreas and Crohn's, epithelial memory of
+
+48
+00:03:12.740 --> 00:03:16.630
+inflammation limits tissue damage in subsequent episodes of
+
+49
+00:03:16.700 --> 00:03:20.420
+acute inflammation while promoting tumorigenesis.
+
+50
+00:03:21.580 --> 00:03:24.640
+So this brings us back to a central question.
+
+51
+00:03:25.160 --> 00:03:28.480
+Can neuron themselves store inflammatory memory?
+
+52
+00:03:29.440 --> 00:03:33.280
+For example, in a DSS colitis model, reactivation
+
+53
+00:03:33.360 --> 00:03:36.890
+of insular cortex neural activity during primary inflammation
+
+54
+00:03:37.440 --> 00:03:41.170
+is sufficient to induce secondary Crohn's inflammation.
+
+55
+00:03:42.200 --> 00:03:46.020
+And these findings indicate that the nervous system can
+
+56
+00:03:46.100 --> 00:03:49.260
+encode and reactivate information about
+
+57
+00:03:49.300 --> 00:03:51.400
+prior inflammatory states.
+
+58
+00:03:52.280 --> 00:03:55.720
+However, while a similar neural memory
+
+59
+00:03:55.780 --> 00:03:59.500
+exists in the stomach and how it might influence
+
+60
+00:03:59.760 --> 00:04:02.180
+long-term disease outcomes remains unknown.
+
+61
+00:04:03.880 --> 00:04:07.080
+To study inflammatory memory in a physiologically
+
+62
+00:04:07.600 --> 00:04:09.760
+relevant manner, we employed a set of
+
+63
+00:04:10.680 --> 00:04:11.580
+complementary
+
+64
+00:04:12.560 --> 00:04:15.120
+gastric regeneration and tumor model.
+
+65
+00:04:16.180 --> 00:04:19.780
+For gastric regeneration, we primarily use a high-dose tamoxifen model,
+
+66
+00:04:20.421 --> 00:04:24.140
+which induces parietal cell loss and chief cell loss, and
+
+67
+00:04:24.180 --> 00:04:27.780
+triggers PEN, a kind of metaplastic response,
+
+68
+00:04:29.200 --> 00:04:32.640
+and normally resolve back to histological
+
+69
+00:04:33.660 --> 00:04:35.080
+baseline within three weeks.
+
+70
+00:04:36.200 --> 00:04:38.000
+Using the high-dose tamoxifen model,
+
+71
+00:04:39.680 --> 00:04:42.620
+we observed a striking memory phenotype in the stomach.
+
+72
+00:04:43.360 --> 00:04:47.000
+We use immunofluorescence for parietal cell, chief cell,
+
+73
+00:04:47.300 --> 00:04:49.940
+and spin cell, and proliferation.
+
+74
+00:04:51.380 --> 00:04:54.760
+Mice that had experienced a single prior
+
+75
+00:04:55.320 --> 00:04:58.800
+injury and fully returned to histological
+
+76
+00:04:58.880 --> 00:05:01.460
+baseline displayed a markedly accelerated
+
+77
+00:05:01.960 --> 00:05:05.640
+regenerative and metaplastic response upon a
+
+78
+00:05:05.700 --> 00:05:06.520
+second injury.
+
+79
+00:05:08.220 --> 00:05:11.660
+Importantly, the enhanced recall
+
+80
+00:05:11.720 --> 00:05:13.680
+response was not transient.
+
+81
+00:05:15.940 --> 00:05:19.460
+The memory effect persists for at least six months
+
+82
+00:05:19.540 --> 00:05:23.440
+after the initial injury. A similar phenotype
+
+83
+00:05:23.940 --> 00:05:27.280
+could be observed in a clinically relevant manner.
+
+84
+00:05:28.300 --> 00:05:30.800
+In mice previously infected with H.
+
+85
+00:05:30.880 --> 00:05:34.600
+pylori and subsequently eradicated, we
+
+86
+00:05:34.660 --> 00:05:36.140
+induced the HDD injury.
+
+87
+00:05:37.360 --> 00:05:41.200
+Although gastric histology appeared comparable to control
+
+88
+00:05:41.220 --> 00:05:44.800
+before injury, mice with an inflammatory history
+
+89
+00:05:45.460 --> 00:05:48.810
+showed significant accelerated regeneration and
+
+90
+00:05:49.200 --> 00:05:52.940
+metaplastic response during recall with increased
+
+91
+00:05:53.020 --> 00:05:56.220
+parietal cell and metaplastic cell.
+
+92
+00:05:57.660 --> 00:06:01.640
+However, this accelerated recall response comes
+
+93
+00:06:01.680 --> 00:06:05.164
+at a cost.While inflammatory
+
+94
+00:06:05.224 --> 00:06:09.104
+memory enhances regeneration, it has deleterious
+
+95
+00:06:09.184 --> 00:06:11.624
+consequences in the context of cancer.
+
+96
+00:06:12.564 --> 00:06:14.524
+The memory effect accelerated
+
+97
+00:06:15.704 --> 00:06:18.314
+orthotopic ACKP tumor progression,
+
+98
+00:06:19.164 --> 00:06:22.984
+and a similar phenotype can be observed in
+
+99
+00:06:23.224 --> 00:06:27.084
+multiple spontaneous cancer models, including
+
+100
+00:06:27.144 --> 00:06:30.203
+the intestinal type and diffuse type.
+
+101
+00:06:31.684 --> 00:06:35.174
+These findings indicate that the memory, although
+
+102
+00:06:35.204 --> 00:06:38.724
+beneficial for tissue repair, creates a permissive
+
+103
+00:06:38.764 --> 00:06:40.764
+microenvironment for tumor
+
+104
+00:06:40.804 --> 00:06:44.184
+progression. So next,
+
+105
+00:06:44.624 --> 00:06:48.364
+we sought to link the memory phenotype to the sensory
+
+106
+00:06:48.384 --> 00:06:51.764
+nerve system. Of course, both regeneration
+
+107
+00:06:52.244 --> 00:06:55.764
+and tumor model recall injury was consistently
+
+108
+00:06:56.484 --> 00:07:00.104
+associated with an increased CGRP
+
+109
+00:07:00.544 --> 00:07:01.844
+positive density
+
+110
+00:07:02.724 --> 00:07:06.704
+fibers at the lesion site. In parallel, we observed
+
+111
+00:07:06.864 --> 00:07:10.564
+a selective CGRP increase in the
+
+112
+00:07:10.584 --> 00:07:14.064
+Trpv1 positive sensory neuron within the nodose ganglion,
+
+113
+00:07:14.784 --> 00:07:15.004
+while
+
+114
+00:07:16.124 --> 00:07:19.864
+neurons of dorsal root ganglion origin were
+
+115
+00:07:19.924 --> 00:07:21.484
+not comparably engaged.
+
+116
+00:07:23.684 --> 00:07:27.624
+To directly test whether vagal sensory neurons
+
+117
+00:07:27.644 --> 00:07:31.444
+are required for the memory phenotype, we selectively transected
+
+118
+00:07:31.964 --> 00:07:33.424
+the anterior vagal trunk,
+
+119
+00:07:34.424 --> 00:07:36.364
+denervating the anterior gastric wall.
+
+120
+00:07:36.884 --> 00:07:38.444
+Compared to the
+
+121
+00:07:40.444 --> 00:07:44.184
+innervated posterior wall, the denervated region completely
+
+122
+00:07:44.284 --> 00:07:47.964
+lost the accelerated regeneration and tumor-promoting
+
+123
+00:07:48.224 --> 00:07:50.754
+memory effects. So whether
+
+124
+00:07:51.644 --> 00:07:54.484
+this memory could be traced at the level of
+
+125
+00:07:55.644 --> 00:07:58.344
+individual neurons using a
+
+126
+00:07:58.404 --> 00:08:02.344
+force-dependent head-off laboring strategy, we
+
+127
+00:08:02.384 --> 00:08:03.444
+permanently marked
+
+128
+00:08:04.364 --> 00:08:07.904
+the neurons activated during the first injury and
+
+129
+00:08:07.984 --> 00:08:11.704
+using tocilazole to stop laboring after the first
+
+130
+00:08:11.844 --> 00:08:12.304
+injury.
+
+131
+00:08:13.264 --> 00:08:14.904
+And then by using pERK
+
+132
+00:08:15.704 --> 00:08:19.504
+as a marker of neural activation during recall, we found
+
+133
+00:08:19.544 --> 00:08:23.084
+that reinjury activated a significantly larger number
+
+134
+00:08:23.264 --> 00:08:26.864
+of nodose ganglion neurons than the initial injury,
+
+135
+00:08:27.624 --> 00:08:31.464
+with a substantial overlapping with the neurons labeled
+
+136
+00:08:31.484 --> 00:08:34.804
+during the first injury. To
+
+137
+00:08:34.814 --> 00:08:38.784
+determine whether memory resides in a
+
+138
+00:08:38.904 --> 00:08:41.584
+specific subset of neurons, we
+
+139
+00:08:41.605 --> 00:08:45.264
+selectively ablated the neurons activated during the first
+
+140
+00:08:45.344 --> 00:08:49.104
+injury using a force-dependent head-off strategy.
+
+141
+00:08:49.644 --> 00:08:53.384
+In this setting, recall injury failed to
+
+142
+00:08:53.464 --> 00:08:57.004
+induce regeneration and tumor progression, demonstrating that the
+
+143
+00:08:57.084 --> 00:09:00.964
+memory-encoded nodose ganglion neurons are necessary for the
+
+144
+00:09:01.024 --> 00:09:01.404
+recall.
+
+145
+00:09:02.264 --> 00:09:06.224
+Finally, transportation of memory-encoded nodose
+
+146
+00:09:06.264 --> 00:09:07.854
+ganglion into Trpv1
+
+147
+00:09:08.724 --> 00:09:12.604
+positive neuron deficient recipients was sufficient to
+
+148
+00:09:12.624 --> 00:09:16.184
+restore the regenerative and tumor-promoting memory,
+
+149
+00:09:16.744 --> 00:09:20.604
+indicating that this neuron persists over time and
+
+150
+00:09:20.784 --> 00:09:23.984
+carry transferable inflammatory memory.
+
+151
+00:09:25.084 --> 00:09:28.944
+So next key question comes whether this
+
+152
+00:09:28.984 --> 00:09:32.464
+memory requires immune input, and if so,
+
+153
+00:09:32.844 --> 00:09:34.804
+which immune compartment is involved.
+
+154
+00:09:35.644 --> 00:09:39.284
+Using Rec1 deficient mice and Brg mice,
+
+155
+00:09:39.584 --> 00:09:43.364
+which means Rec deficient but also deficient in
+
+156
+00:09:43.444 --> 00:09:47.404
+IL-2 receptor gamma chain, we found that the memory phenotype
+
+157
+00:09:48.004 --> 00:09:51.684
+is independent of adaptive immunity, but strictly depends
+
+158
+00:09:51.764 --> 00:09:53.724
+on the innate immune system.
+
+159
+00:09:55.124 --> 00:09:58.484
+Through systemic profiling, we
+
+160
+00:09:58.524 --> 00:10:02.284
+identified gastric ILC2 as the only immune
+
+161
+00:10:02.304 --> 00:10:05.724
+population capable of supporting the memory phenotype.
+
+162
+00:10:06.644 --> 00:10:10.504
+During memory establishment, IL-25-positive
+
+163
+00:10:10.604 --> 00:10:12.924
+ILC2 remained persistently enriched
+
+164
+00:10:13.764 --> 00:10:17.284
+and was spatially positioned near the sensory
+
+165
+00:10:17.524 --> 00:10:19.684
+fiber endings within the grand
+
+166
+00:10:20.584 --> 00:10:23.044
+isthmus region and the tumor region.
+
+167
+00:10:24.503 --> 00:10:28.404
+To directly test whether ILC2 are required for
+
+168
+00:10:28.444 --> 00:10:31.844
+the memory formation, we selectively ablated ILC2
+
+169
+00:10:31.924 --> 00:10:35.464
+using the IL-5 Cre-IDT mice.
+
+170
+00:10:36.364 --> 00:10:39.504
+Loss of ILC2 completely abolished the
+
+171
+00:10:39.604 --> 00:10:41.424
+memory-associated phenotype.
+
+172
+00:10:42.924 --> 00:10:46.804
+Conversely, transplantation of HDT-activated
+
+173
+00:10:46.864 --> 00:10:48.844
+ILC2 into Brg mice
+
+174
+00:10:50.064 --> 00:10:52.504
+was sufficient to restore inflammatory memory.
+
+175
+00:10:53.644 --> 00:10:56.784
+Similarly, conditioned media from activated
+
+176
+00:10:56.844 --> 00:10:59.104
+ILC2 was able to prime
+
+177
+00:10:59.964 --> 00:11:03.714
+nodose ganglion in vitro and even with enhances the
+
+178
+00:11:03.784 --> 00:11:06.704
+capacity to promote epithelial organoid growth.
+
+179
+00:11:07.564 --> 00:11:11.444
+So this led us to ask a final mechanistic
+
+180
+00:11:11.564 --> 00:11:15.284
+question: How do ILC2 write memory into
+
+181
+00:11:15.824 --> 00:11:16.584
+sensory neurons?
+
+182
+00:11:17.764 --> 00:11:21.204
+Using CGRP ELISA and calcium
+
+183
+00:11:21.264 --> 00:11:24.224
+imaging of the nodose ganglion, we found that
+
+184
+00:11:24.324 --> 00:11:27.664
+ILC2-derived IL-5 stimulates
+
+185
+00:11:27.724 --> 00:11:31.484
+CGRP release from sensory neurons, and this
+
+186
+00:11:31.544 --> 00:11:34.704
+effect is markedly amplified in
+
+187
+00:11:34.764 --> 00:11:36.944
+memory-encoded neurons.
+
+188
+00:11:38.364 --> 00:11:42.324
+This heightened responsiveness reflects the fact that the
+
+189
+00:11:42.624 --> 00:11:45.564
+memory neurons express elevated
+
+190
+00:11:46.304 --> 00:11:49.044
+levels of type II cytokine receptors.
+
+191
+00:11:49.864 --> 00:11:53.324
+Interestingly, while a knockdown of IL-5
+
+192
+00:11:53.444 --> 00:11:57.164
+receptor only partially weakened the memory phenotype,
+
+193
+00:11:57.544 --> 00:12:01.424
+only disruption of IL-13 receptor
+
+194
+00:12:02.644 --> 00:12:05.583
+completely abolished the inflammatory memory.
+
+195
+00:12:06.004 --> 00:12:09.964
+This result revealed IL-13 is the dominant signal
+
+196
+00:12:09.984 --> 00:12:13.744
+that drives and stabilizes inflammatory
+
+197
+00:12:13.844 --> 00:12:17.432
+memory with the sensory neuron.So,
+
+198
+00:12:17.872 --> 00:12:20.992
+here are our memories for our research.
+
+199
+00:12:21.492 --> 00:12:25.232
+First, we found that the sensory neuron encoded a
+
+200
+00:12:25.272 --> 00:12:29.252
+long-term inflammatory memory in the stomach, and the neuronal
+
+201
+00:12:29.332 --> 00:12:32.052
+inflammatory memory drives metaplasia and
+
+202
+00:12:32.252 --> 00:12:34.832
+tumorigenesis upon a recurrent
+
+203
+00:12:35.732 --> 00:12:39.452
+injury. A memory recall enhances CGRP release
+
+204
+00:12:39.912 --> 00:12:42.232
+and gastric progenitor cell activation.
+
+205
+00:12:43.052 --> 00:12:46.892
+ILC2 signaling exacerbates immuno-neural epithelial memory
+
+206
+00:12:46.932 --> 00:12:50.132
+circuit. And finally, we found IL-13
+
+207
+00:12:50.172 --> 00:12:53.432
+epigenetically imprints and maintains
+
+208
+00:12:53.472 --> 00:12:55.352
+neuronal memory programs.
+
+209
+00:12:57.812 --> 00:12:59.652
+And thanks for listening.
+
+210
+00:13:00.632 --> 00:13:03.412
+Please feel free to raise any question, and I'm glad to
+
+211
+00:13:03.422 --> 00:13:05.292
+answer. Thanks.
+
+212
+00:13:08.652 --> 00:13:09.412
+Questions, please.
+
+213
+00:13:11.752 --> 00:13:15.012
+Maybe while we're waiting for more questions, I
+
+214
+00:13:15.792 --> 00:13:18.912
+can't get over the novelty of an
+
+215
+00:13:19.012 --> 00:13:21.172
+ILC2-dependent
+
+216
+00:13:22.392 --> 00:13:26.192
+memory of nerve injury and injury to epithelium.
+
+217
+00:13:26.312 --> 00:13:26.552
+What's
+
+218
+00:13:27.372 --> 00:13:30.752
+going on with ILC2s? Do you think it's just the
+
+219
+00:13:30.812 --> 00:13:34.472
+cytokine production that's somehow mediating this?
+
+220
+00:13:36.212 --> 00:13:39.772
+Thanks. That's a great question. Because of the
+
+221
+00:13:40.672 --> 00:13:44.472
+time limitation, we didn't show all the mechanism in our
+
+222
+00:13:44.552 --> 00:13:46.112
+slide here, but
+
+223
+00:13:47.232 --> 00:13:50.432
+I can provide the detail. After the ILC2
+
+224
+00:13:50.472 --> 00:13:52.662
+activation into the sensory neuron,
+
+225
+00:13:53.492 --> 00:13:56.672
+because ILC2 release some kind of cytokine
+
+226
+00:13:56.792 --> 00:14:00.232
+such as IL-5, IL-13, and
+
+227
+00:14:00.272 --> 00:14:01.012
+IL-5A.
+
+228
+00:14:01.872 --> 00:14:05.772
+And among them, IL-13 will cause some
+
+229
+00:14:05.792 --> 00:14:09.512
+epigenetic change in the sensory neuron.
+
+230
+00:14:10.572 --> 00:14:14.252
+We have confirmed that some obvious epigenetic
+
+231
+00:14:14.392 --> 00:14:18.212
+changes such as H3K4 trimethylation and
+
+232
+00:14:18.392 --> 00:14:22.032
+found some key regulators such as specific
+
+233
+00:14:22.492 --> 00:14:26.312
+methyltransferases that will induce
+
+234
+00:14:29.452 --> 00:14:31.852
+chromatin accessibility during the memory
+
+235
+00:14:32.672 --> 00:14:35.931
+period. That's the mechanism basis of the
+
+236
+00:14:36.152 --> 00:14:38.292
+memory-encoded neuron. Thanks.
+
+237
+00:14:39.052 --> 00:14:42.712
+And another question I have with regard to sensory
+
+238
+00:14:42.792 --> 00:14:44.412
+neurons, what are the
+
+239
+00:14:44.492 --> 00:14:48.252
+ramifications of eating a lot of
+
+240
+00:14:48.292 --> 00:14:52.092
+capsaicin in this model, and depleting
+
+241
+00:14:52.492 --> 00:14:54.932
+sensory neurons in humans or in mice?
+
+242
+00:14:55.972 --> 00:14:59.632
+There will be then less inflammation and no inflammatory
+
+243
+00:14:59.672 --> 00:15:00.092
+memory?
+
+244
+00:15:02.012 --> 00:15:04.352
+Thanks. That's a really interesting point.
+
+245
+00:15:04.632 --> 00:15:07.392
+And we define the
+
+246
+00:15:08.672 --> 00:15:11.152
+inflammation memory circuit as
+
+247
+00:15:12.252 --> 00:15:13.212
+needed of the
+
+248
+00:15:14.112 --> 00:15:17.812
+immune input. And so for the human, we didn't
+
+249
+00:15:19.112 --> 00:15:22.931
+examine the sample about the inflammation.
+
+250
+00:15:23.132 --> 00:15:26.712
+But we used a very similar clinical
+
+251
+00:15:26.772 --> 00:15:30.632
+relevant manner, that is H. pylori infection and
+
+252
+00:15:30.692 --> 00:15:34.412
+eradication. That's the same process as the human disease.
+
+253
+00:15:35.022 --> 00:15:39.012
+And this model also confirmed that the memory from the sensory
+
+254
+00:15:39.052 --> 00:15:39.512
+neuron
+
+255
+00:15:40.352 --> 00:15:44.312
+are so previously related with the epithelial
+
+256
+00:15:44.332 --> 00:15:45.772
+phenotype. Thanks.
+
+257
+00:15:47.272 --> 00:15:47.652
+Thank you.
+
+258
+00:15:50.232 --> 00:15:51.132
+Over there. Yeah.
+
+259
+00:15:51.692 --> 00:15:55.152
+I think there's a small literature on TRPV1 positive vagal
+
+260
+00:15:55.252 --> 00:15:59.182
+signaling in the inflammation that can contribute to pancreatic disease,
+
+261
+00:15:59.232 --> 00:16:02.972
+in particular, diabetes and other conditions in the
+
+262
+00:16:03.032 --> 00:16:06.732
+GI. Could this be a general inflammatory tract for GI
+
+263
+00:16:07.292 --> 00:16:10.912
+tumorigenesis in the interface with ILC2, which is,
+
+264
+00:16:11.192 --> 00:16:12.312
+as pointed out, very interesting?
+
+265
+00:16:13.932 --> 00:16:14.192
+Thanks
+
+266
+00:16:15.252 --> 00:16:18.092
+for your question. It's also an interesting point.
+
+267
+00:16:18.372 --> 00:16:22.352
+We didn't check PD1 and PD-L1
+
+268
+00:16:22.472 --> 00:16:24.712
+that associated with the
+
+269
+00:16:25.652 --> 00:16:29.512
+sensory neuron signaling. And for the immune
+
+270
+00:16:29.572 --> 00:16:33.092
+input, we have some systemic profiling to
+
+271
+00:16:33.152 --> 00:16:35.482
+identify the role of ILC2.
+
+272
+00:16:36.452 --> 00:16:40.072
+Only after ablation of ILC2 that can
+
+273
+00:16:40.092 --> 00:16:42.672
+induce the loss of the memory phenotype.
+
+274
+00:16:43.272 --> 00:16:43.472
+So,
+
+275
+00:16:45.432 --> 00:16:47.232
+for other kinds of immune cells,
+
+276
+00:16:48.472 --> 00:16:52.012
+we can make sure that there are loss of the memory. Thanks.
+
+277
+00:16:53.632 --> 00:16:55.252
+Okay. Thank you so much.
+
+278
+00:16:55.552 --> 00:16:55.872
+Thank you.
+
+279
+00:17:00.392 --> 00:17:04.333
+Our next presenter is Dr. Naoko Ohtani
+
+280
+00:17:04.512 --> 00:17:07.652
+from Osaka Metropolitan University,
+
+281
+00:17:07.992 --> 00:17:11.633
+and she's going to be talking about T cell
+
+282
+00:17:11.692 --> 00:17:15.373
+exhaustion after steatosis in the tumor
+
+283
+00:17:15.452 --> 00:17:18.552
+microenvironment. Thank you, Dr. Ohtani.
+
+284
+00:17:19.373 --> 00:17:23.232
+Thank you very much for the kind introduction. My name is Naoko Ohtani.
+
+285
+00:17:23.613 --> 00:17:27.552
+And first of all, I would like to thank organizers for giving me the opportunity
+
+286
+00:17:27.613 --> 00:17:31.592
+to talk about the work here. Today, I'm going to talk about the mechanism
+
+287
+00:17:31.632 --> 00:17:34.932
+of MASLD-associated hepatocellular
+
+288
+00:17:34.992 --> 00:17:36.012
+carcinogenesis,
+
+289
+00:17:36.892 --> 00:17:40.792
+particularly focusing on T cell exhaustion in steatotic
+
+290
+00:17:40.872 --> 00:17:42.152
+tumor microenvironment.
+
+291
+00:17:43.552 --> 00:17:45.812
+So I have no COI to disclose.
+
+292
+00:17:50.412 --> 00:17:54.372
+Okay. Thank you very much. Over the past several decades, obesity has
+
+293
+00:17:54.412 --> 00:17:58.362
+become more prevalent in most developed countries, including recognizing some
+
+294
+00:17:58.612 --> 00:18:02.152
+major risk factor of several type of cancers, including liver
+
+295
+00:18:02.192 --> 00:18:05.772
+cancer. However, the molecular mechanism of how obesity
+
+296
+00:18:05.872 --> 00:18:09.372
+promote cancer have not been fully illustrated yet.
+
+297
+00:18:10.652 --> 00:18:12.992
+So, we are particularly focusing on the
+
+298
+00:18:13.712 --> 00:18:17.642
+MASLD-associated HCC, a typical obesity-associated HCC.
+
+299
+00:18:18.292 --> 00:18:22.172
+MASLD is a metabolic dysfunction associated steatotic
+
+300
+00:18:22.212 --> 00:18:26.044
+liver disease, so-called fatty liver.Around 25% to
+
+301
+00:18:26.104 --> 00:18:30.064
+30% of the global adult population, approximately 1.5
+
+302
+00:18:30.084 --> 00:18:33.344
+billion people, are estimated to have MASLD.
+
+303
+00:18:34.084 --> 00:18:37.524
+And hepatocellular carcinoma arising from MASLD has been increasing
+
+304
+00:18:37.564 --> 00:18:41.394
+worldwide, particularly in East Asia, Oceania, and
+
+305
+00:18:41.604 --> 00:18:41.994
+Europe.
+
+306
+00:18:43.004 --> 00:18:46.544
+However, unfortunately, ICF therapy, both
+
+307
+00:18:46.624 --> 00:18:50.544
+monotherapy and combination therapy, are
+
+308
+00:18:50.584 --> 00:18:53.564
+not effective in MASLD-associated HCC.
+
+309
+00:18:54.244 --> 00:18:55.164
+And monotherapy
+
+310
+00:18:56.204 --> 00:18:59.284
+even worsens the patients' survivals.
+
+311
+00:18:59.724 --> 00:19:03.324
+So we questioned why MASLD-associated liver
+
+312
+00:19:03.444 --> 00:19:05.964
+cancer is resistant to ICF therapy.
+
+313
+00:19:06.784 --> 00:19:10.324
+So to this end, we first set up the system to investigate
+
+314
+00:19:10.344 --> 00:19:14.224
+MASLD-associated liver cancer. Neonatal mice are treated with
+
+315
+00:19:14.264 --> 00:19:18.164
+DMBA, a chemical carcinogen, which frequently initiates oncogenic
+
+316
+00:19:18.244 --> 00:19:22.124
+mutation in the Ras gene, followed by normal diet or high-fat diet
+
+317
+00:19:22.204 --> 00:19:26.184
+for 30 weeks. And very interestingly, almost all the high-fat diet
+
+318
+00:19:26.564 --> 00:19:29.684
+mice developed hepatocellular carcinoma like this.
+
+319
+00:19:30.024 --> 00:19:33.784
+And we are using this model as a MASLD-associated HCC
+
+320
+00:19:33.884 --> 00:19:34.244
+model.
+
+321
+00:19:35.624 --> 00:19:39.574
+Using this model, we previously found that the long-term high-fat
+
+322
+00:19:39.624 --> 00:19:42.904
+diet increased gram-positive bacteria in the intestine,
+
+323
+00:19:43.524 --> 00:19:47.424
+and deoxycholic acid produced by this gram-positive
+
+324
+00:19:47.464 --> 00:19:49.704
+bacteria, deoxycholic acid,
+
+325
+00:19:51.144 --> 00:19:54.704
+circulate through the intrahepatic circulation to
+
+326
+00:19:54.744 --> 00:19:58.004
+provoke the serosinesis of hepatic stellate cells,
+
+327
+00:19:58.404 --> 00:20:00.944
+fibroblast cells in the liver tissues.
+
+328
+00:20:01.564 --> 00:20:05.304
+And moreover, this gram-positive bacteria also
+
+329
+00:20:05.344 --> 00:20:05.804
+provided
+
+330
+00:20:06.904 --> 00:20:10.804
+lipoteichoic acid, which is a cell wall component of the gram-positive bacteria,
+
+331
+00:20:10.944 --> 00:20:14.884
+into the liver to stimulate the inflammatory signal through
+
+332
+00:20:14.944 --> 00:20:18.364
+the toll-like receptor 2 signal to up-regulate the
+
+333
+00:20:18.424 --> 00:20:22.324
+serum susp gene expression as well
+
+334
+00:20:22.404 --> 00:20:25.763
+as Cox 2 expression to overproduce prostaglandin
+
+335
+00:20:25.864 --> 00:20:28.014
+E2 to suppress antitumor immunity.
+
+336
+00:20:28.684 --> 00:20:32.294
+In addition, we found that the caspase-1 and
+
+337
+00:20:32.364 --> 00:20:36.264
+caspase-11 activity is high in the steatotic liver
+
+338
+00:20:36.324 --> 00:20:40.284
+tissue, and this caspase activity created a
+
+339
+00:20:40.304 --> 00:20:41.524
+gastamin D
+
+340
+00:20:43.124 --> 00:20:47.064
+cleavage to create the small pore in the
+
+341
+00:20:47.124 --> 00:20:50.924
+cell membrane to create the gastamin D internal
+
+342
+00:20:50.984 --> 00:20:53.164
+mediated pore. Through this pore,
+
+343
+00:20:54.424 --> 00:20:57.254
+several suspectors such as IL-beta and
+
+344
+00:20:57.364 --> 00:21:01.134
+IL-33 exported to suppress antitumor
+
+345
+00:21:01.264 --> 00:21:01.824
+immunity.
+
+346
+00:21:02.704 --> 00:21:03.284
+And next we
+
+347
+00:21:05.104 --> 00:21:08.564
+wanted to search for biomarkers for the MASLD-associated
+
+348
+00:21:08.604 --> 00:21:12.344
+HCC. To this end, we have done the multiplex assay
+
+349
+00:21:12.864 --> 00:21:16.684
+using the patient's plasma, high-fat diet fed mouse
+
+350
+00:21:16.744 --> 00:21:19.764
+serum, and liver tissues. And we found that the
+
+351
+00:21:19.924 --> 00:21:23.064
+CXCL9 chemokine was commonly high
+
+352
+00:21:23.844 --> 00:21:24.664
+in these samples.
+
+353
+00:21:25.624 --> 00:21:29.344
+And we found that CXCL9 is highly
+
+354
+00:21:29.404 --> 00:21:31.884
+expressed in the LSEC,
+
+355
+00:21:32.044 --> 00:21:35.564
+liver sinusoidal endothelial
+
+356
+00:21:35.584 --> 00:21:39.364
+cells. And as you know, LSECs are located in the sinusoidal
+
+357
+00:21:39.544 --> 00:21:42.644
+area, like this. And also we found that the
+
+358
+00:21:42.844 --> 00:21:46.744
+microbial components such as LPS
+
+359
+00:21:46.784 --> 00:21:50.684
+or LTa, as well as the bacteria membrane vesicles
+
+360
+00:21:50.744 --> 00:21:54.584
+isolated from the MASLD patient's feces, were able to
+
+361
+00:21:54.644 --> 00:21:56.664
+up-regulate the CXCL9
+
+362
+00:21:57.744 --> 00:21:58.024
+in the
+
+363
+00:21:58.944 --> 00:22:00.104
+cultured LSECs.
+
+364
+00:22:01.104 --> 00:22:02.044
+And so
+
+365
+00:22:03.064 --> 00:22:06.864
+CXCL9 is a chemokine that can recruit
+
+366
+00:22:06.874 --> 00:22:10.264
+the T cells from the lymph node into the liver
+
+367
+00:22:10.324 --> 00:22:13.584
+tissue and through the CXCR3
+
+368
+00:22:13.724 --> 00:22:17.644
+receptor. So to block this axis,
+
+369
+00:22:17.824 --> 00:22:21.664
+we treated mice with the neutralizing antibody
+
+370
+00:22:21.844 --> 00:22:25.484
+for the CXCR3, and we found that
+
+371
+00:22:25.864 --> 00:22:29.824
+this antibody treatment significantly
+
+372
+00:22:29.864 --> 00:22:30.524
+reduced that
+
+373
+00:22:31.384 --> 00:22:32.924
+liver cancer development, like this.
+
+374
+00:22:33.384 --> 00:22:36.904
+Moreover, we found that the CXCL9 knockout mice as well as
+
+375
+00:22:36.964 --> 00:22:40.694
+LSEC-specific conditional CXCL9 knockout mice, showed
+
+376
+00:22:40.904 --> 00:22:44.324
+a significant reduced liver cancer development, like this.
+
+377
+00:22:45.104 --> 00:22:48.964
+And when we investigate the immune status, we found that
+
+378
+00:22:49.084 --> 00:22:52.864
+the ratio of exhausted T cells decreased
+
+379
+00:22:52.924 --> 00:22:55.804
+and the activated CD8 T cells increased.
+
+380
+00:22:56.304 --> 00:22:59.464
+However, the Treg status is
+
+381
+00:22:59.524 --> 00:23:02.864
+unchanged in the condition of the
+
+382
+00:23:03.904 --> 00:23:07.744
+CXCR3 antibody-treated status. So
+
+383
+00:23:07.884 --> 00:23:11.624
+suggesting that the CXCL9 is important to develop the
+
+384
+00:23:11.844 --> 00:23:14.544
+liver cancer. Next, we wanted to search for
+
+385
+00:23:14.644 --> 00:23:18.604
+which cells are important for the liver cancer
+
+386
+00:23:18.644 --> 00:23:21.374
+development, and we have done the single-cell T cell receptor
+
+387
+00:23:21.984 --> 00:23:22.744
+analysis
+
+388
+00:23:24.364 --> 00:23:28.304
+using the CD8 T cells isolated from the lymph node as well
+
+389
+00:23:28.324 --> 00:23:31.064
+as the liver tissues. And we found that
+
+390
+00:23:32.004 --> 00:23:35.764
+in the lymph nodes, TPEX, the progenitor-exhausted T
+
+391
+00:23:35.784 --> 00:23:39.764
+cells existed in the lymph node,
+
+392
+00:23:40.744 --> 00:23:44.544
+and showing some characteristic of TPEX, showing the
+
+393
+00:23:44.604 --> 00:23:47.184
+exhausted markers as well as the memory markers.
+
+394
+00:23:47.604 --> 00:23:50.824
+However, the same clone became completely
+
+395
+00:23:50.884 --> 00:23:53.084
+exhausted when the cells
+
+396
+00:23:54.124 --> 00:23:56.424
+entered into liver tissue, like this.
+
+397
+00:23:57.294 --> 00:24:01.244
+And we have done the trajectory analysis, and this trajectory
+
+398
+00:24:01.304 --> 00:24:04.764
+analysis showed a similar result, that the same
+
+399
+00:24:04.844 --> 00:24:06.664
+clone from the lymph node,
+
+400
+00:24:07.684 --> 00:24:11.004
+starting from the central memory T cells, became
+
+401
+00:24:11.284 --> 00:24:14.964
+TPEX and losing the memory markers, and
+
+402
+00:24:15.404 --> 00:24:18.844
+entered into the completely exhausted TECs,
+
+403
+00:24:19.764 --> 00:24:23.304
+combining with increasing expression of
+
+404
+00:24:23.844 --> 00:24:27.638
+exhausted markers.And in this
+
+405
+00:24:29.168 --> 00:24:33.008
+analysis, we found that the TEpCs and as well as
+
+406
+00:24:33.048 --> 00:24:36.188
+TEcs T cells highly express the
+
+407
+00:24:36.228 --> 00:24:40.128
+granzyme K. So we are interested in the granzyme K,
+
+408
+00:24:40.548 --> 00:24:43.088
+and this is one of the granzyme family.
+
+409
+00:24:43.128 --> 00:24:46.968
+However, they are very different from the granzyme B, and this
+
+410
+00:24:47.008 --> 00:24:50.408
+granzyme K has a caspase-1-like activity to
+
+411
+00:24:50.948 --> 00:24:54.488
+mature the iron beta like this. And also we
+
+412
+00:24:54.908 --> 00:24:58.388
+confirmed that the granzyme K is really
+
+413
+00:24:58.448 --> 00:25:01.548
+correlated with the PD-1 expression.
+
+414
+00:25:02.788 --> 00:25:03.648
+And as you know,
+
+415
+00:25:05.728 --> 00:25:09.588
+caspase-1 is able to create the
+
+416
+00:25:09.628 --> 00:25:13.588
+gasdermin D to create the immature domain to create the
+
+417
+00:25:13.628 --> 00:25:17.288
+small pore in the cell membrane. And we previously found that
+
+418
+00:25:17.328 --> 00:25:20.958
+through this gasdermin D cell membrane
+
+419
+00:25:21.188 --> 00:25:25.148
+pore, that some suspect factors such as iron beta are exported from
+
+420
+00:25:25.188 --> 00:25:28.438
+the hepatic stellate cells. So we treated
+
+421
+00:25:30.288 --> 00:25:34.228
+the hepatic cells, isolated primary hepatic cells
+
+422
+00:25:34.548 --> 00:25:38.228
+with the recombinant granzyme K, and we found that
+
+423
+00:25:38.288 --> 00:25:42.188
+the iron beta expression is highly upregulated by the
+
+424
+00:25:42.208 --> 00:25:44.268
+treatment of recombinant granzyme K.
+
+425
+00:25:44.728 --> 00:25:48.408
+And also interestingly, we found that the iron beta is
+
+426
+00:25:48.488 --> 00:25:51.948
+exported into the culture supernatant in this condition,
+
+427
+00:25:52.248 --> 00:25:56.188
+suggesting that granzyme K facilitates iron beta upregulation as well
+
+428
+00:25:56.228 --> 00:25:59.488
+as its export. And next we have created a
+
+429
+00:25:59.528 --> 00:26:03.408
+granzyme K knock-out
+
+430
+00:26:03.428 --> 00:26:07.268
+mice, and we found that the granzyme K knock-out mice shows
+
+431
+00:26:07.308 --> 00:26:07.428
+the
+
+432
+00:26:08.648 --> 00:26:11.528
+significantly reduced number of its development.
+
+433
+00:26:11.808 --> 00:26:15.608
+However, the granzyme K overexpression increased the liver
+
+434
+00:26:15.648 --> 00:26:19.488
+cancer development, suggesting that the granzyme K is involved in the
+
+435
+00:26:19.528 --> 00:26:22.448
+mass 30 associated HCC progression.
+
+436
+00:26:22.488 --> 00:26:23.108
+And next we
+
+437
+00:26:24.628 --> 00:26:28.368
+used the human samples, and we isolated CD8 T
+
+438
+00:26:28.378 --> 00:26:31.748
+cells using the human mass 30 associated HCC patient tissue.
+
+439
+00:26:32.068 --> 00:26:35.787
+And we have done the single cell T cell sequencing analysis.
+
+440
+00:26:36.388 --> 00:26:39.928
+And in these human cells, we found a similar
+
+441
+00:26:40.248 --> 00:26:44.008
+trajectory pathway from the central memory T cells
+
+442
+00:26:44.388 --> 00:26:47.068
+defects into the exhausted T cells.
+
+443
+00:26:47.488 --> 00:26:47.628
+And
+
+444
+00:26:48.728 --> 00:26:51.088
+similar to mouse model, TEpCs, TEcs
+
+445
+00:26:52.368 --> 00:26:55.348
+exhibited the high expression granzyme K as well.
+
+446
+00:26:57.188 --> 00:26:57.348
+And,
+
+447
+00:26:58.248 --> 00:26:58.948
+finally, we
+
+448
+00:27:00.248 --> 00:27:04.168
+have done the metabolome analysis, particularly focusing
+
+449
+00:27:04.208 --> 00:27:07.988
+on the oxidized lipid oxylipin, and we found that a
+
+450
+00:27:08.348 --> 00:27:11.768
+series of oxylipins are high in the
+
+451
+00:27:12.328 --> 00:27:15.648
+high fat diet fed mouse liver. And a series of
+
+452
+00:27:15.668 --> 00:27:17.868
+oxylipins are able to
+
+453
+00:27:21.508 --> 00:27:21.908
+develop
+
+454
+00:27:23.088 --> 00:27:26.258
+from naive T cells into the TEpCs like this.
+
+455
+00:27:26.688 --> 00:27:30.628
+And also this oxylipin E, sorry, I'm not showing the
+
+456
+00:27:30.688 --> 00:27:34.428
+real name, but oxylipin E was able to develop
+
+457
+00:27:35.588 --> 00:27:38.628
+exhausted T cells from the TEpCs. So
+
+458
+00:27:39.488 --> 00:27:43.288
+we have done this experiment because the steatotic
+
+459
+00:27:43.368 --> 00:27:46.628
+liver is highly lipid rich, so we thought that the
+
+460
+00:27:46.988 --> 00:27:48.848
+oxylipins may be involved in.
+
+461
+00:27:49.808 --> 00:27:51.768
+So, this is a summary slide, and
+
+462
+00:27:52.628 --> 00:27:56.248
+CXCL3 positive CD8 T cells are recruited
+
+463
+00:27:56.408 --> 00:27:58.928
+from the lymph nodes by the
+
+464
+00:27:59.808 --> 00:28:02.968
+CXCL9 chemokine produced by the LFX.
+
+465
+00:28:03.468 --> 00:28:06.928
+And this TEpCs became exhausted in the
+
+466
+00:28:06.948 --> 00:28:10.208
+steatotic liver condition and expressed the granzyme K.
+
+467
+00:28:10.588 --> 00:28:13.488
+And the granzyme K facilitates the
+
+468
+00:28:14.608 --> 00:28:18.568
+iron beta export from the hepatic stellate cells to facilitate the liver
+
+469
+00:28:18.628 --> 00:28:22.308
+cancer development. And we first questioned why is the ICL
+
+470
+00:28:22.348 --> 00:28:23.098
+therapy is,
+
+471
+00:28:25.528 --> 00:28:28.888
+why mass 30 HCC is resistant to the ICL therapy.
+
+472
+00:28:29.228 --> 00:28:32.718
+So maybe one of the answers is maybe granzyme K
+
+473
+00:28:33.008 --> 00:28:36.508
+upregulation in TEpCs and TEcs in mass 30
+
+474
+00:28:36.518 --> 00:28:38.968
+HCC is involved in the
+
+475
+00:28:39.068 --> 00:28:43.057
+ineffectiveness of ICL therapy. So this is the end of
+
+476
+00:28:43.107 --> 00:28:45.088
+my talk, and thank you very much for your attention.
+
+477
+00:28:50.828 --> 00:28:52.408
+Great talk. I
+
+478
+00:28:53.348 --> 00:28:56.968
+have to ask whether you feel that this is a reversible
+
+479
+00:28:57.428 --> 00:29:01.268
+T cell exhaustion. Can this be reversed
+
+480
+00:29:01.328 --> 00:29:04.628
+in terms of dietary changes or
+
+481
+00:29:05.068 --> 00:29:08.068
+any drugs that might be available yet?
+
+482
+00:29:09.148 --> 00:29:09.368
+Yes.
+
+483
+00:29:10.248 --> 00:29:14.148
+We haven't checked that point yet, but a TEpCs is
+
+484
+00:29:14.228 --> 00:29:15.648
+thought to be reversible,
+
+485
+00:29:17.028 --> 00:29:17.408
+maybe
+
+486
+00:29:18.248 --> 00:29:22.028
+to some extent. So it is worth challenging,
+
+487
+00:29:22.848 --> 00:29:26.448
+focusing the TEpCs to reverse into the active T cells.
+
+488
+00:29:28.408 --> 00:29:28.588
+Yeah.
+
+489
+00:29:29.408 --> 00:29:32.128
+Granzyme K is highly expressed in NK cells.
+
+490
+00:29:32.448 --> 00:29:34.848
+Does any of your work address the potential role of NK here?
+
+491
+00:29:36.508 --> 00:29:39.428
+We haven't checked the NK cells, but thank you very much for
+
+492
+00:29:39.448 --> 00:29:42.888
+important information. We will check that. Thank you very much.
+
+493
+00:29:44.218 --> 00:29:48.168
+And I had another question. So there were earlier publications
+
+494
+00:29:48.248 --> 00:29:52.128
+that in NASH HCC, CD8
+
+495
+00:29:52.188 --> 00:29:56.048
+cells may be good or bad, and they may be bad by
+
+496
+00:29:56.768 --> 00:29:59.828
+killing lipid-loaded hepatocytes and inducing
+
+497
+00:30:01.048 --> 00:30:04.918
+compensatory proliferation. Is it possible that actually some of the
+
+498
+00:30:05.028 --> 00:30:06.408
+function of CD8 is
+
+499
+00:30:07.268 --> 00:30:11.068
+to kill hepatocytes and then to become exhausted-
+
+500
+00:30:11.508 --> 00:30:11.708
+Yeah.
+
+501
+00:30:11.828 --> 00:30:12.708
+-in the process?
+
+502
+00:30:12.888 --> 00:30:16.468
+Okay, thank you very much. Important question, and I think that's possible
+
+503
+00:30:16.788 --> 00:30:20.628
+because the chronic liver hepatitis background,
+
+504
+00:30:21.188 --> 00:30:24.888
+so there's some CD8, active CD8
+
+505
+00:30:24.988 --> 00:30:27.528
+is involved in the hepatitis itself.
+
+506
+00:30:27.848 --> 00:30:31.358
+So maybe it's possible, and we have to carefully investigate that.
+
+507
+00:30:31.468 --> 00:30:32.218
+Thank you very much.
+
+508
+00:30:34.660 --> 00:30:38.480
+I have one more question. Do you think that the
+
+509
+00:30:38.560 --> 00:30:41.960
+factors driving T cell exhaustion in this model
+
+510
+00:30:42.540 --> 00:30:45.440
+are systemic, or are they localized to the liver?
+
+511
+00:30:46.040 --> 00:30:49.940
+Yeah. Actually, we are thinking that that should be local, and so
+
+512
+00:30:50.000 --> 00:30:51.520
+we investigated
+
+513
+00:30:52.680 --> 00:30:56.280
+a little bit metabolome analysis and found out some slight
+
+514
+00:30:56.380 --> 00:30:57.800
+importance. But
+
+515
+00:30:59.140 --> 00:31:02.460
+basically, there's a obesity problem, probably
+
+516
+00:31:02.520 --> 00:31:06.220
+systemically. So maybe some other important factor
+
+517
+00:31:06.440 --> 00:31:08.940
+circulating in the body should exist.
+
+518
+00:31:10.980 --> 00:31:14.880
+And also in this model, can you estimate how much
+
+519
+00:31:14.960 --> 00:31:18.140
+IL1 beta actually comes from CD8 T cells
+
+520
+00:31:18.880 --> 00:31:22.820
+and the rest probably comes from myeloid cells, but maybe
+
+521
+00:31:22.900 --> 00:31:26.500
+context is important that CD8s are interacting
+
+522
+00:31:26.580 --> 00:31:30.450
+exactly with the cellular targets of IL1 beta, and that's why?
+
+523
+00:31:31.160 --> 00:31:31.360
+Right.
+
+524
+00:31:32.320 --> 00:31:35.340
+You are asking the IL1 beta origin
+
+525
+00:31:36.560 --> 00:31:39.240
+itself. Yeah, that's important. And actually,
+
+526
+00:31:39.720 --> 00:31:42.840
+at the same time, we were doing the spatial
+
+527
+00:31:42.980 --> 00:31:46.720
+transcriptomic analysis. So we would like to check carefully
+
+528
+00:31:47.200 --> 00:31:50.180
+the neighboring cells expressing IL1 beta.
+
+529
+00:31:50.780 --> 00:31:51.360
+Thank you very much.
+
+530
+00:31:51.860 --> 00:31:52.340
+Thank you.
+
+531
+00:31:53.440 --> 00:31:53.640
+If
+
+532
+00:31:54.660 --> 00:31:56.800
+there are no more questions, thank you so much.
+
+533
+00:31:56.860 --> 00:31:57.380
+Thank you very much.
+
+534
+00:32:00.720 --> 00:32:04.200
+Our next speaker will be Shuyang He from
+
+535
+00:32:04.800 --> 00:32:08.700
+WashU, St. Louis, and she will talk about stress remodeling
+
+536
+00:32:08.760 --> 00:32:11.780
+of enteric neural system
+
+537
+00:32:12.000 --> 00:32:15.700
+in colitis to cancer transition.
+
+538
+00:32:16.580 --> 00:32:20.140
+All right. Thank you for the introduction. Is the sound okay?
+
+539
+00:32:20.880 --> 00:32:21.300
+All right.
+
+540
+00:32:22.260 --> 00:32:26.160
+So cancer patients are undergoing all different kind of stresses
+
+541
+00:32:26.200 --> 00:32:30.080
+from being diagnosed to all through all these treatments, and also
+
+542
+00:32:30.140 --> 00:32:30.880
+worry about the
+
+543
+00:32:31.760 --> 00:32:35.400
+collapse. So it is of note that one-third of the cancer
+
+544
+00:32:35.480 --> 00:32:39.340
+patients will develop a mental health problem, and half of
+
+545
+00:32:39.380 --> 00:32:41.960
+them will experience anxiety or depression.
+
+546
+00:32:43.140 --> 00:32:46.890
+From large scale of epidemiological studies, we know that
+
+547
+00:32:46.890 --> 00:32:50.640
+stress-related psychosocial factors associated with
+
+548
+00:32:50.760 --> 00:32:54.340
+higher incidence and poorer survival in cancer patients.
+
+549
+00:32:54.420 --> 00:32:58.260
+Social support, on the other hand, which can release the stress from the
+
+550
+00:32:58.280 --> 00:33:02.020
+cancer patients, has been proved with longer survival in these
+
+551
+00:33:02.120 --> 00:33:05.960
+patients. So as a systemic effect, it means
+
+552
+00:33:06.000 --> 00:33:08.280
+that stress can affect our whole body.
+
+553
+00:33:08.760 --> 00:33:12.300
+So my lab is of particularly interested in the gut system now.
+
+554
+00:33:12.780 --> 00:33:16.620
+So it is not only because the gut is closely related to our daily
+
+555
+00:33:16.640 --> 00:33:20.540
+life, but also because colorectal cancer is ranking number three in
+
+556
+00:33:20.580 --> 00:33:24.160
+the United States, meaning a lot of people are stressed out about this.
+
+557
+00:33:24.980 --> 00:33:28.640
+So although there are many evidence showing that genetic mutations like
+
+558
+00:33:28.700 --> 00:33:32.060
+KRAS or APC are driving the colorectal cancer onset,
+
+559
+00:33:32.589 --> 00:33:35.760
+there are more and more studies showing that these bad
+
+560
+00:33:36.320 --> 00:33:40.160
+lifestyle factors are also associated with the early
+
+561
+00:33:40.180 --> 00:33:43.480
+onset of colorectal cancer, including mental stress.
+
+562
+00:33:44.630 --> 00:33:48.380
+So to further understand the relationship between stress and the colorectal
+
+563
+00:33:48.420 --> 00:33:52.400
+cancer onset, we first looked into the published database
+
+564
+00:33:52.620 --> 00:33:56.470
+from the UK Biobank, which has a huge amount of population
+
+565
+00:33:56.540 --> 00:34:00.430
+data. For example, as shown here, when comparing
+
+566
+00:34:00.500 --> 00:34:04.280
+these patients with psychiatric disorders, the risk of them
+
+567
+00:34:04.300 --> 00:34:07.100
+getting colorectal cancer is much higher.
+
+568
+00:34:08.060 --> 00:34:11.700
+Moreover, when grouping these patients into different
+
+569
+00:34:11.720 --> 00:34:15.520
+disorders like depression or anxiety or psychological
+
+570
+00:34:15.580 --> 00:34:19.380
+stress, the risk factors for them for the CRC
+
+571
+00:34:19.400 --> 00:34:22.281
+incidence is also higher than the healthy controls.
+
+572
+00:34:23.740 --> 00:34:27.400
+So to further understand how stress promotes the colorectal cancer
+
+573
+00:34:27.460 --> 00:34:30.620
+onset, we went back to the mouse models in the lab.
+
+574
+00:34:31.540 --> 00:34:35.100
+From the past several years, we and others have used
+
+575
+00:34:35.281 --> 00:34:38.660
+different mouse models to study how stress promotes cancer
+
+576
+00:34:38.761 --> 00:34:42.680
+progression. And we have identified that stress by
+
+577
+00:34:42.761 --> 00:34:46.440
+activation of the HPA axis through the release of the stress
+
+578
+00:34:46.480 --> 00:34:50.460
+hormone like glucocorticoids, where stress can activate the sympathetic
+
+579
+00:34:50.560 --> 00:34:52.920
+nervous system in the mice.
+
+580
+00:34:54.040 --> 00:34:58.020
+So to really mimic the stress response in the mouse, we're now using
+
+581
+00:34:58.080 --> 00:35:00.960
+a physical restraint model to mimic stress.
+
+582
+00:35:01.020 --> 00:35:04.680
+So as shown here, the physical restraint model can lead to much higher
+
+583
+00:35:04.740 --> 00:35:08.660
+levels of corticosterone, which means that these mice are under
+
+584
+00:35:08.700 --> 00:35:09.100
+stress.
+
+585
+00:35:10.100 --> 00:35:13.900
+So with this model being established, we next combine it with the
+
+586
+00:35:13.920 --> 00:35:17.660
+colorectal cancer model. So we first started with the Apc min
+
+587
+00:35:17.720 --> 00:35:21.220
+mouse model, in which all the mice carry a loss-of-function
+
+588
+00:35:21.280 --> 00:35:25.140
+mutation of the Apc gene, and this is also the first step for
+
+589
+00:35:25.200 --> 00:35:28.100
+CRC onset in most of the cancer patients.
+
+590
+00:35:29.380 --> 00:35:33.190
+As you can see here within this model, delayed physical restraint
+
+591
+00:35:33.260 --> 00:35:37.070
+stress can significantly promote tumor genesis, and these
+
+592
+00:35:37.100 --> 00:35:40.100
+mice have developed more numbers of the tumors.
+
+593
+00:35:40.150 --> 00:35:44.080
+So this indicates that under the same genetic background, being
+
+594
+00:35:44.180 --> 00:35:46.760
+stressed can promote the tumor initiation.
+
+595
+00:35:48.160 --> 00:35:51.940
+So this phenomenon was not only limited in this Apc min mouse model,
+
+596
+00:35:52.260 --> 00:35:55.860
+but can also be found in multiple mouse models, including the
+
+597
+00:35:55.920 --> 00:35:58.700
+inducible CRC model and the spontaneous model.
+
+598
+00:35:59.480 --> 00:36:03.360
+So in both cases, we have shown that daily stress can promote
+
+599
+00:36:03.440 --> 00:36:04.180
+more numbers
+
+600
+00:36:05.380 --> 00:36:09.100
+of the tumor happening throughout the gut, meaning that the stress can
+
+601
+00:36:09.140 --> 00:36:11.020
+really promote the cancer onset.
+
+602
+00:36:12.380 --> 00:36:15.600
+So before getting into any mechanistic studies, I
+
+603
+00:36:15.640 --> 00:36:19.180
+would like to highlight here that gut is a highly
+
+604
+00:36:19.240 --> 00:36:23.180
+innervated organ. So here I'm showing you a 3D whole mount
+
+605
+00:36:23.240 --> 00:36:24.960
+imaging from this cleared tissue.
+
+606
+00:36:25.360 --> 00:36:29.240
+You can see here the gut has extensive blood vessels, which are
+
+607
+00:36:29.340 --> 00:36:31.900
+mediating the nutrient absorption.
+
+608
+00:36:32.480 --> 00:36:35.640
+But around these blood vessels here is enteric nervous
+
+609
+00:36:35.720 --> 00:36:39.340
+system. It includes the enteric glia cells labeled in
+
+610
+00:36:39.460 --> 00:36:43.204
+red and the nerves stained in white.So these two
+
+611
+00:36:43.304 --> 00:36:47.064
+types of the cells, the nerves plus the glia cells, has made
+
+612
+00:36:47.184 --> 00:36:50.744
+this neuronal network within the gut, and they are
+
+613
+00:36:50.784 --> 00:36:54.344
+playing critical roles in maintaining the gut homeostasis.
+
+614
+00:36:56.244 --> 00:37:00.004
+So within this nervous system, we are focusing now on
+
+615
+00:37:00.084 --> 00:37:03.884
+the role of glia cells, given its known role during the
+
+616
+00:37:03.924 --> 00:37:07.684
+CRC development. So we first generated a gene
+
+617
+00:37:07.784 --> 00:37:11.724
+signature expressed exclusively by the enteric glia cells,
+
+618
+00:37:11.824 --> 00:37:15.784
+or the EGCs. When we applied this gene signature into the
+
+619
+00:37:15.824 --> 00:37:19.224
+TCGA database for CRC patients, I hope you can
+
+620
+00:37:19.264 --> 00:37:22.524
+appreciate that the patients who had the higher
+
+621
+00:37:22.784 --> 00:37:26.504
+expression of this gene signature, meaning that their tumors
+
+622
+00:37:26.664 --> 00:37:30.624
+probably are more infiltrated by glia cells, they actually had much
+
+623
+00:37:30.664 --> 00:37:31.844
+shorter survival time.
+
+624
+00:37:33.264 --> 00:37:37.044
+So to further understand or characterize the roles of
+
+625
+00:37:37.084 --> 00:37:40.954
+EGCs during the CRC development, we next compared
+
+626
+00:37:40.964 --> 00:37:44.144
+the EGC infiltration across different stages
+
+627
+00:37:44.884 --> 00:37:48.704
+during the CRC development. However, to our surprise,
+
+628
+00:37:48.824 --> 00:37:52.664
+we found that there are a lot of glia cells infiltrated into
+
+629
+00:37:52.684 --> 00:37:56.484
+the polyps or the benign tumors at the initial stage.
+
+630
+00:37:56.544 --> 00:38:00.104
+As you can see here, the glia cells are labeled in green with
+
+631
+00:38:00.404 --> 00:38:04.204
+as 100 beta staining, and they're hanging around the cancer cells in
+
+632
+00:38:04.264 --> 00:38:04.464
+red.
+
+633
+00:38:05.364 --> 00:38:09.264
+However, when the tumors grow larger or become more advanced, we could
+
+634
+00:38:09.284 --> 00:38:11.324
+barely find any glia cells inside.
+
+635
+00:38:12.444 --> 00:38:16.384
+So this data has prompted us to think about the role of EGC in the
+
+636
+00:38:16.444 --> 00:38:19.714
+initial stage. So we next decided to deplete them.
+
+637
+00:38:20.724 --> 00:38:23.224
+We took advantage of a mouse strain called
+
+638
+00:38:23.324 --> 00:38:27.314
+Plp1creERT RosatTTR mice, in which we could
+
+639
+00:38:27.444 --> 00:38:31.094
+specifically deplete the glia cells in the gut following
+
+640
+00:38:31.204 --> 00:38:34.564
+the injection of tamoxifen and diphtheria toxin.
+
+641
+00:38:35.964 --> 00:38:39.704
+So, as confirmed here, we show that the glia cells can be
+
+642
+00:38:39.744 --> 00:38:42.564
+largely depleted in the gut. So we then
+
+643
+00:38:43.424 --> 00:38:47.214
+back cross this mouse strain within the ApcMin background
+
+644
+00:38:47.564 --> 00:38:51.364
+and subjected all these mice into this stress-induced CRC model.
+
+645
+00:38:52.484 --> 00:38:56.364
+So I think the data is pretty striking by just looking at this picture.
+
+646
+00:38:56.724 --> 00:38:58.464
+So simply by depleting the
+
+647
+00:38:59.284 --> 00:39:02.844
+glia cells at the very early stage could significantly
+
+648
+00:39:02.864 --> 00:39:05.204
+reduce stress-induced tumorigenesis.
+
+649
+00:39:06.544 --> 00:39:10.364
+So after identifying that the glia cells are in the tumor
+
+650
+00:39:10.444 --> 00:39:14.084
+microenvironment to promote tumor initiation, we were
+
+651
+00:39:14.164 --> 00:39:17.324
+then wondering, how do these glia cells promote
+
+652
+00:39:17.604 --> 00:39:19.784
+tumorigenesis? So we then turn
+
+653
+00:39:20.944 --> 00:39:23.164
+back to our in vitro culturing system.
+
+654
+00:39:23.884 --> 00:39:27.844
+So we generated the organoid line from this ApcMin mice.
+
+655
+00:39:28.124 --> 00:39:30.404
+We call it as a pre-tumor organoid lines.
+
+656
+00:39:30.984 --> 00:39:34.824
+And at the same time, we also collected the conditioned medium from the
+
+657
+00:39:34.884 --> 00:39:38.844
+stressed glia cells, meaning that we pre-treated the cells with the
+
+658
+00:39:38.864 --> 00:39:41.724
+glucocorticoid or the GR receptor
+
+659
+00:39:42.524 --> 00:39:43.024
+agonist.
+
+660
+00:39:44.124 --> 00:39:47.914
+So what we found is that when treating this pre-cancer organoid with the
+
+661
+00:39:47.964 --> 00:39:51.744
+conditioned medium from stressed glia cells, can significantly
+
+662
+00:39:51.784 --> 00:39:54.204
+promote the outgrowth of these organoids.
+
+663
+00:39:55.184 --> 00:39:59.144
+So to better understand at the molecular level, how do these glia
+
+664
+00:39:59.204 --> 00:40:03.184
+cells promote tumorigenesis, we next perform the qPCR on
+
+665
+00:40:03.204 --> 00:40:07.134
+this pre-cancer organoid. As you can appreciate here, all these
+
+666
+00:40:07.184 --> 00:40:10.484
+tumorigenesis-related genes have been all
+
+667
+00:40:10.564 --> 00:40:14.334
+upregulated when treating these organoids with the conditioned
+
+668
+00:40:14.344 --> 00:40:16.664
+medium from stressed EGCs.
+
+669
+00:40:17.914 --> 00:40:21.394
+So to further understand any clinical relevance of our study,
+
+670
+00:40:21.884 --> 00:40:24.884
+we next compared the cross-species of our data.
+
+671
+00:40:25.364 --> 00:40:29.204
+As you can see here, what we have found for these transcriptional changes
+
+672
+00:40:29.564 --> 00:40:33.284
+in the mouse organoid can be very well recapitulated with a
+
+673
+00:40:33.324 --> 00:40:34.224
+human database.
+
+674
+00:40:35.564 --> 00:40:39.164
+So after knowing that the EGCs are in the microenvironment
+
+675
+00:40:39.324 --> 00:40:43.294
+playing some role in promoting tumorigenesis, we next are wondering,
+
+676
+00:40:43.764 --> 00:40:46.344
+is there any cell intrinsic response to stress?
+
+677
+00:40:46.984 --> 00:40:50.644
+So to study this, we look at the early time point in our model.
+
+678
+00:40:51.884 --> 00:40:55.624
+So getting inspired by previous studies showing that stress can
+
+679
+00:40:55.684 --> 00:40:59.604
+induce reactive oxygen species, or ROS, in the gut, we
+
+680
+00:40:59.663 --> 00:41:02.764
+next examined this oxidative damage within our
+
+681
+00:41:02.804 --> 00:41:05.124
+system. As you can see here, with
+
+682
+00:41:05.984 --> 00:41:09.764
+two different marker staining, we show that the gut tissue from the
+
+683
+00:41:09.844 --> 00:41:13.824
+stressed mice do have elevated ROS, indicating that they
+
+684
+00:41:13.844 --> 00:41:16.164
+are undergoing oxidative damage.
+
+685
+00:41:17.224 --> 00:41:21.004
+So consequently of this oxidative damage, we
+
+686
+00:41:21.024 --> 00:41:24.844
+also found that the gut cells from the stressed mice do show more
+
+687
+00:41:24.884 --> 00:41:27.984
+DNA double-strand damage, as indicated by
+
+688
+00:41:28.024 --> 00:41:29.504
+gamma-H2AX staining.
+
+689
+00:41:30.604 --> 00:41:34.484
+But it's very interestingly that, although under all different kinds
+
+690
+00:41:34.584 --> 00:41:37.124
+of damage, these gut cells from the stressed
+
+691
+00:41:38.264 --> 00:41:40.404
+mice are also hyperproliferating.
+
+692
+00:41:40.824 --> 00:41:44.524
+So here, as indicated by the Ki-67 staining, these
+
+693
+00:41:44.664 --> 00:41:48.504
+abnormal damaged cells are hyperproliferating, and maybe
+
+694
+00:41:48.564 --> 00:41:51.664
+this is the reason that they will undergo tumorigenesis.
+
+695
+00:41:53.104 --> 00:41:56.604
+So in summary, our data has generated
+
+696
+00:41:57.004 --> 00:42:00.744
+a stressed EGC-stem cell axis, and by activating
+
+697
+00:42:00.804 --> 00:42:02.664
+this axis can trigger the tumor
+
+698
+00:42:03.544 --> 00:42:07.284
+initiation in the mice. Magnetically, we found that
+
+699
+00:42:07.864 --> 00:42:11.644
+the stressed glia cells, meaning that the activation of the GR
+
+700
+00:42:11.704 --> 00:42:15.164
+pathways in these glia cells, are the driver in the gut
+
+701
+00:42:15.224 --> 00:42:19.044
+microenvironment to trigger all these transcriptional changes in the
+
+702
+00:42:19.224 --> 00:42:22.384
+stem cells, and finally becoming a tumor cell.
+
+703
+00:42:24.164 --> 00:42:28.004
+So within this project, we also have some open questions
+
+704
+00:42:28.124 --> 00:42:31.924
+for the future direction. First, the glia cells are really
+
+705
+00:42:31.944 --> 00:42:35.604
+heterogeneous. So from recently published single-cell
+
+706
+00:42:35.684 --> 00:42:39.554
+data, we know that there are at least four types of glia cells
+
+707
+00:42:39.564 --> 00:42:43.084
+throughout the gut. So what we don't know is that if there is any
+
+708
+00:42:43.164 --> 00:42:47.004
+location-specific or subtype-specific response
+
+709
+00:42:47.104 --> 00:42:50.424
+to stress of these glia cells, and how this can be involved in
+
+710
+00:42:50.464 --> 00:42:54.434
+cancer.So second, so for this project, we
+
+711
+00:42:54.454 --> 00:42:58.194
+are working on understanding the glia's crosstalk with the stem
+
+712
+00:42:58.294 --> 00:43:01.774
+cells, but they're also surrounded with other cell types.
+
+713
+00:43:01.904 --> 00:43:05.844
+For example, whenever we did the staining for the glia cells, they always
+
+714
+00:43:05.874 --> 00:43:09.774
+come along with the nerve cells. So what we don't know is that under stress
+
+715
+00:43:09.854 --> 00:43:13.714
+condition, if there's any change of the nerves and whether and how this can
+
+716
+00:43:13.794 --> 00:43:17.274
+be involved during the stress-induced tumor genesis.
+
+717
+00:43:18.374 --> 00:43:21.914
+So with that, I would like to thank my lab members, especially
+
+718
+00:43:21.954 --> 00:43:24.654
+Xiaoxiao, she's here, she's a mom now, and Chenchen.
+
+719
+00:43:25.074 --> 00:43:29.054
+They are contributing significantly to this project, and happy to take
+
+720
+00:43:29.114 --> 00:43:29.774
+any questions.
+
+721
+00:43:34.674 --> 00:43:35.474
+Questions, please.
+
+722
+00:43:37.134 --> 00:43:40.494
+Quick question about can you simplify your model,
+
+723
+00:43:40.694 --> 00:43:43.934
+stress or no stress, if you just inject cortisol?
+
+724
+00:43:44.674 --> 00:43:48.374
+Will it produce all the effects on glia and
+
+725
+00:43:48.474 --> 00:43:52.034
+then on colitis or spontaneous tumor genesis?
+
+726
+00:43:52.804 --> 00:43:56.294
+This is a very good question. I think my trainees will be very happy to know
+
+727
+00:43:56.353 --> 00:43:57.353
+because they have to come to
+
+728
+00:43:58.234 --> 00:44:01.994
+lab every day to stress the mice. And I think the simple answer
+
+729
+00:44:02.054 --> 00:44:05.614
+is yes, because we tried in a different model with breast
+
+730
+00:44:05.624 --> 00:44:09.454
+cancer, in which we injected dexamethasone to mimic
+
+731
+00:44:09.514 --> 00:44:11.334
+stress response, and we saw the same
+
+732
+00:44:12.554 --> 00:44:16.274
+results for breast cancer liver metastasis, but we haven't tested in the
+
+733
+00:44:16.334 --> 00:44:16.634
+gut.
+
+734
+00:44:18.374 --> 00:44:19.594
+Okay.
+
+735
+00:44:19.634 --> 00:44:22.514
+Yeah. Tim Wong from Columbia. Really nice talk.
+
+736
+00:44:23.464 --> 00:44:23.484
+Thank you.
+
+737
+00:44:23.484 --> 00:44:27.294
+I like that you used the restraint stress model, which is very reproducible.
+
+738
+00:44:28.094 --> 00:44:31.414
+So you focus a lot on the HPA axis, and you focus more on the
+
+739
+00:44:31.514 --> 00:44:35.154
+glucocorticoid response, but you really didn't mention the
+
+740
+00:44:35.194 --> 00:44:38.704
+adrenergic response and the effects of epinephrine and norepinephrine,
+
+741
+00:44:39.214 --> 00:44:42.594
+which go up under stress and maybe under cold conditions.
+
+742
+00:44:43.034 --> 00:44:46.654
+So did you look at whether or not adrenergic
+
+743
+00:44:46.734 --> 00:44:50.684
+signaling played a role? Did you look at ADRP2 signaling, for
+
+744
+00:44:50.714 --> 00:44:51.084
+example?
+
+745
+00:44:51.804 --> 00:44:55.674
+Yes, very good question. So in another independent
+
+746
+00:44:55.684 --> 00:44:59.634
+project with breast cancer, we actually look at the sympathetic
+
+747
+00:44:59.644 --> 00:45:02.974
+nerves. We found that activation of the nerves specifically
+
+748
+00:45:03.034 --> 00:45:06.913
+locally in the breast can also promote tumor growth in the
+
+749
+00:45:06.934 --> 00:45:09.834
+primary site. But in the gut, it's a little bit different.
+
+750
+00:45:10.134 --> 00:45:13.894
+So we try to identify the nerve types within the gut,
+
+751
+00:45:14.154 --> 00:45:17.794
+and we found in the colon, these sympathetic nerves are really
+
+752
+00:45:17.814 --> 00:45:20.174
+located in the smooth muscle layer.
+
+753
+00:45:20.554 --> 00:45:24.094
+So when we dissected other neuron types, we found it's mostly like
+
+754
+00:45:24.234 --> 00:45:27.894
+VIP or vasoactive intestinal peptide, VIP
+
+755
+00:45:27.914 --> 00:45:31.634
+positive nerves, and endos positive nerves in the gut and also in the
+
+756
+00:45:31.714 --> 00:45:34.494
+tumor. So we guess probably it's not the
+
+757
+00:45:34.594 --> 00:45:38.494
+sympathetic nerves directly
+
+758
+00:45:38.554 --> 00:45:41.334
+working on, but it is also possible because
+
+759
+00:45:41.394 --> 00:45:44.834
+it's innervated into the smooth muscle layer,
+
+760
+00:45:45.234 --> 00:45:49.174
+which has a lot of ganglia. So there's a possibility that it
+
+761
+00:45:49.234 --> 00:45:53.114
+talks to the ganglia of the nerves in the gut and then
+
+762
+00:45:53.254 --> 00:45:56.934
+transmit the signal into the tumor, but we haven't looked at it.
+
+763
+00:45:56.994 --> 00:45:57.994
+Great question. Thank you.
+
+764
+00:45:58.274 --> 00:45:58.554
+Please.
+
+765
+00:46:00.174 --> 00:46:02.114
+Thanks for your fascinating presentation.
+
+766
+00:46:02.264 --> 00:46:04.134
+I just have a question about the gut microbiome.
+
+767
+00:46:05.774 --> 00:46:09.723
+A lot of the bacteria that are associated with psychiatric disorders
+
+768
+00:46:10.534 --> 00:46:11.764
+are also associated with
+
+769
+00:46:12.674 --> 00:46:14.054
+colonic tumorigenesis.
+
+770
+00:46:15.074 --> 00:46:18.814
+And I was wondering if you can close the loop,
+
+771
+00:46:18.854 --> 00:46:22.794
+whether the glial cells impact the bacterial populations that are in
+
+772
+00:46:22.834 --> 00:46:23.254
+the gut,
+
+773
+00:46:24.094 --> 00:46:27.774
+or how do you think about the microbiome in light of your
+
+774
+00:46:27.814 --> 00:46:30.114
+work from a sort of systems point of view?
+
+775
+00:46:30.704 --> 00:46:34.074
+Great. I think this is a very good question.
+
+776
+00:46:34.114 --> 00:46:38.024
+So we actually have a project ongoing in my lab in which we are looking at
+
+777
+00:46:38.134 --> 00:46:41.934
+how stress affects the colitis. And we have some preliminary data of
+
+778
+00:46:41.994 --> 00:46:45.834
+this microbiome composition in the stressed mice, and we do
+
+779
+00:46:45.914 --> 00:46:49.734
+see a lot of changes in terms of the species of microbiome.
+
+780
+00:46:50.004 --> 00:46:53.754
+And we found some of them are closely related to ulcerative colitis in
+
+781
+00:46:53.814 --> 00:46:57.754
+human. But what we don't know is that whether it's related to the
+
+782
+00:46:57.774 --> 00:47:01.754
+glia cells or the stress itself, or it is because stress can induce
+
+783
+00:47:01.794 --> 00:47:04.814
+a leaky gut, and then this leaky gut can promote
+
+784
+00:47:05.014 --> 00:47:07.894
+local inflammation, which will change the microbiome.
+
+785
+00:47:07.954 --> 00:47:10.354
+So we don't know yet, but this is very good.
+
+786
+00:47:10.794 --> 00:47:11.374
+Okay, thanks.
+
+787
+00:47:14.254 --> 00:47:15.474
+Okay, thank you so much.
+
+788
+00:47:22.154 --> 00:47:25.534
+Next, we're going to move into the setting of head and neck cancer,
+
+789
+00:47:26.034 --> 00:47:29.914
+squamous cell carcinoma progression, and hear about the
+
+790
+00:47:29.974 --> 00:47:31.894
+epithelial myeloid circuit
+
+791
+00:47:33.014 --> 00:47:36.754
+from Dichen Lin. Dr. Lin is from the University of Southern
+
+792
+00:47:36.854 --> 00:47:37.594
+California.
+
+793
+00:47:38.394 --> 00:47:40.974
+Thank you. Thanks so much for the introduction and invitation.
+
+794
+00:47:41.474 --> 00:47:45.434
+I'm very excited to share some of the works from the lab that we are
+
+795
+00:47:45.494 --> 00:47:48.894
+looking into the cancer development via the
+
+796
+00:47:48.954 --> 00:47:52.894
+single-cell plus spatial characterization to understand,
+
+797
+00:47:53.954 --> 00:47:57.114
+in this case, tumor monocytes crosstalk.
+
+798
+00:47:58.994 --> 00:48:01.154
+Nothing to disclose. So
+
+799
+00:48:02.074 --> 00:48:03.034
+switching gear a little bit,
+
+800
+00:48:03.894 --> 00:48:07.794
+head and neck squamous cancer. So this is a pretty common cancer around
+
+801
+00:48:07.834 --> 00:48:09.734
+the world. Not too much in
+
+802
+00:48:11.374 --> 00:48:12.614
+United States, but
+
+803
+00:48:13.794 --> 00:48:17.134
+every year there are 600,000 cases around the world.
+
+804
+00:48:17.204 --> 00:48:21.174
+And then squamous cell is the most dominant cancer
+
+805
+00:48:21.214 --> 00:48:25.174
+type, and then it's a very aggressive cancer, especially for the HPV
+
+806
+00:48:25.194 --> 00:48:26.634
+negative subtype.
+
+807
+00:48:27.514 --> 00:48:31.334
+The five-year survival, it's been stagnant for the far past, maybe two decades.
+
+808
+00:48:31.394 --> 00:48:31.754
+It's been
+
+809
+00:48:32.554 --> 00:48:33.834
+lower than 50%.
+
+810
+00:48:34.734 --> 00:48:38.094
+So it's this pressing need for innovative
+
+811
+00:48:38.674 --> 00:48:41.274
+research and drug development for this
+
+812
+00:48:41.514 --> 00:48:45.250
+disease.So in terms of microenvironment,
+
+813
+00:48:45.370 --> 00:48:49.350
+we wrote a little comment last year to highlight, just like
+
+814
+00:48:49.410 --> 00:48:50.740
+many other cancer types, the
+
+815
+00:48:51.690 --> 00:48:55.430
+diversity in terms of the microenvironment is pretty profound, and
+
+816
+00:48:56.390 --> 00:48:59.970
+there are patient-specific tumor microenvironment, which explains the
+
+817
+00:49:00.970 --> 00:49:04.630
+failure rate about 80% if you look at the ICB treatment in the clinic.
+
+818
+00:49:05.510 --> 00:49:09.310
+And so in this case, we're thinking about the heterogeneous
+
+819
+00:49:10.110 --> 00:49:14.070
+cell-cell crosstalk between different subtypes of cancer cells and the different
+
+820
+00:49:14.150 --> 00:49:18.110
+subtypes of myeloid cells. And so specifically, we collected
+
+821
+00:49:18.150 --> 00:49:20.230
+and we also sequenced our own patients.
+
+822
+00:49:20.330 --> 00:49:23.410
+So you're looking at about 167 samples from
+
+823
+00:49:23.730 --> 00:49:27.010
+114 patients. This is led by
+
+824
+00:49:28.670 --> 00:49:32.390
+Dr. Park, which sits there. So we have samples
+
+825
+00:49:32.430 --> 00:49:33.750
+across the disease
+
+826
+00:49:35.090 --> 00:49:38.050
+settings from normal premalignant tumor,
+
+827
+00:49:39.370 --> 00:49:41.590
+metastatic tumors, and recurrent tumors.
+
+828
+00:49:42.540 --> 00:49:42.810
+And
+
+829
+00:49:43.610 --> 00:49:46.950
+so with that data set, we look
+
+830
+00:49:46.990 --> 00:49:48.310
+into different
+
+831
+00:49:49.130 --> 00:49:52.780
+cell clusters. And so paying more attention to myeloid
+
+832
+00:49:53.490 --> 00:49:57.070
+cells, which you're looking at about 14 subsets here, standard
+
+833
+00:49:57.950 --> 00:50:01.610
+UMAP annotation. So if you look at this,
+
+834
+00:50:01.870 --> 00:50:05.280
+number 7, we call that tumor-enriched monocyte,
+
+835
+00:50:05.750 --> 00:50:09.370
+because if you look at the x-axis from distal normal to
+
+836
+00:50:09.390 --> 00:50:10.210
+precursor tumor,
+
+837
+00:50:11.470 --> 00:50:13.610
+you see a jump in terms of the
+
+838
+00:50:14.570 --> 00:50:14.990
+ratio,
+
+839
+00:50:16.930 --> 00:50:20.900
+sort of normalized the ratio. And then we are very interested in this
+
+840
+00:50:20.910 --> 00:50:24.070
+because across different cohorts, you see
+
+841
+00:50:24.170 --> 00:50:28.130
+very consistent association between the high amount
+
+842
+00:50:28.210 --> 00:50:31.810
+of this monocytic fraction
+
+843
+00:50:31.910 --> 00:50:34.390
+and the poor survival
+
+844
+00:50:35.330 --> 00:50:38.610
+in different patient cohorts, including
+
+845
+00:50:38.690 --> 00:50:39.990
+ICB-treated cohorts.
+
+846
+00:50:40.890 --> 00:50:42.510
+And then this subset also is very
+
+847
+00:50:44.010 --> 00:50:47.970
+featuring the high expression of immunosuppressive genes,
+
+848
+00:50:48.910 --> 00:50:52.710
+and then angiogenesis genes, so even higher than a
+
+849
+00:50:52.770 --> 00:50:55.990
+commonly used positive control SPP1 positive macrophages.
+
+850
+00:50:56.050 --> 00:50:59.650
+So this is even higher than that one.
+
+851
+00:50:59.670 --> 00:51:03.530
+And then we looked through different cancer types, and you can see that across
+
+852
+00:51:03.550 --> 00:51:07.220
+different cancer types that you see consistent enrichment of this cell
+
+853
+00:51:07.290 --> 00:51:08.470
+type in the tumor
+
+854
+00:51:09.830 --> 00:51:13.030
+specimens, especially also with the
+
+855
+00:51:13.090 --> 00:51:15.850
+pre-inflamed or pre-cancer
+
+856
+00:51:17.410 --> 00:51:21.010
+lesions. But you see that the increase is very tumor
+
+857
+00:51:21.050 --> 00:51:24.890
+specific. And then if you look at the pseudo time and trajectory
+
+858
+00:51:24.910 --> 00:51:25.470
+analysis,
+
+859
+00:51:26.530 --> 00:51:27.750
+this is a public data set.
+
+860
+00:51:29.550 --> 00:51:32.790
+So there are blood samples and the tissue samples, and
+
+861
+00:51:32.830 --> 00:51:36.630
+this subset of monocyte, you can see that the
+
+862
+00:51:36.670 --> 00:51:40.430
+slingshot shows that the trajectory is kind of deviated from the
+
+863
+00:51:42.070 --> 00:51:45.630
+development from the CD14 classical monocyte to
+
+864
+00:51:46.210 --> 00:51:47.150
+the macrophage to
+
+865
+00:51:48.150 --> 00:51:51.350
+CD16 positive monocyte. So this is pretty distinct.
+
+866
+00:51:51.970 --> 00:51:55.230
+So we believe that this is still a intratumor monocytic
+
+867
+00:51:55.490 --> 00:51:59.170
+population rather than a fully differentiated macrophage.
+
+868
+00:51:59.810 --> 00:52:03.790
+So, to understand the cell interaction, we took a published
+
+869
+00:52:03.890 --> 00:52:07.130
+method to use the UMF to sort of distill the
+
+870
+00:52:08.370 --> 00:52:12.350
+cell interaction. So basically, we nominate the nodes
+
+871
+00:52:12.410 --> 00:52:14.090
+and the edges based on the
+
+872
+00:52:15.030 --> 00:52:18.610
+weight of the UMF and then also pairwise correlation between the cell fraction.
+
+873
+00:52:19.290 --> 00:52:21.409
+And then with that, we can basically
+
+874
+00:52:22.790 --> 00:52:26.490
+identify modules. Here you can see these modules show
+
+875
+00:52:26.530 --> 00:52:30.470
+very high correlation among themselves, and very
+
+876
+00:52:30.510 --> 00:52:34.200
+interesting module six, it's very high in almost
+
+877
+00:52:34.250 --> 00:52:37.310
+absent in any precursor lesions, but very high in the
+
+878
+00:52:37.350 --> 00:52:41.090
+tumor. And why we're interested, because this is very high in
+
+879
+00:52:41.170 --> 00:52:44.890
+terms of this monocytic population, and it's also
+
+880
+00:52:44.910 --> 00:52:45.790
+enriched with
+
+881
+00:52:47.110 --> 00:52:50.890
+this so-called hybrid EMT or partial EMT, which
+
+882
+00:52:50.930 --> 00:52:54.750
+is recurrently now mentioned in the head and neck and other squamous tumors.
+
+883
+00:52:55.310 --> 00:52:57.970
+And then the correlation is also very, very specific for tumor.
+
+884
+00:52:58.010 --> 00:52:59.630
+You can see that the correlation is rather
+
+885
+00:53:00.950 --> 00:53:04.729
+very random in the precursor or distal regions, but
+
+886
+00:53:04.870 --> 00:53:05.090
+very
+
+887
+00:53:06.110 --> 00:53:08.690
+enriched in the primary tumor and the metastatic tumor.
+
+888
+00:53:08.720 --> 00:53:12.590
+And from here, the hybrid EMT or partial
+
+889
+00:53:12.630 --> 00:53:16.249
+EMT tumors, also just like the monocytic
+
+890
+00:53:16.710 --> 00:53:20.610
+subset, they're always associated with worse survival
+
+891
+00:53:20.690 --> 00:53:22.690
+across different patient cohorts in head and neck cancer.
+
+892
+00:53:22.710 --> 00:53:25.850
+And to further understand their interaction, we did
+
+893
+00:53:26.110 --> 00:53:26.850
+VZMHD,
+
+894
+00:53:27.650 --> 00:53:31.030
+the spatial sequencing to look at
+
+895
+00:53:31.070 --> 00:53:34.910
+their locations. And here you can see the co-occurrence score
+
+896
+00:53:35.310 --> 00:53:35.790
+based on
+
+897
+00:53:37.770 --> 00:53:40.330
+anchoring the tumor at the center.
+
+898
+00:53:40.390 --> 00:53:41.430
+And then you can see that
+
+899
+00:53:44.070 --> 00:53:45.110
+the modeled
+
+900
+00:53:46.530 --> 00:53:50.330
+score shows that the tumor-enriched monocyte is
+
+901
+00:53:50.370 --> 00:53:50.930
+really the
+
+902
+00:53:51.990 --> 00:53:54.690
+highest among all the module six subtypes.
+
+903
+00:53:54.740 --> 00:53:58.670
+So it suggests the direct proximity
+
+904
+00:53:59.090 --> 00:54:02.770
+between this monocytic cells and the hybrid
+
+905
+00:54:02.830 --> 00:54:05.710
+EMT tumors, and you can visually see them
+
+906
+00:54:07.030 --> 00:54:10.550
+across many regions in the tumor. They basically touch each other very often.
+
+907
+00:54:11.390 --> 00:54:12.850
+And then this is the other way to look at it.
+
+908
+00:54:12.910 --> 00:54:13.750
+So if you look at
+
+909
+00:54:15.210 --> 00:54:18.510
+50 micrometer, which is a reasonable
+
+910
+00:54:19.050 --> 00:54:21.490
+distance, you see that across different-- So
+
+911
+00:54:22.030 --> 00:54:26.010
+we also basically analyzed the subtypes
+
+912
+00:54:26.070 --> 00:54:29.750
+of the tumor. So highly differentiated, cell cycling
+
+913
+00:54:29.830 --> 00:54:32.270
+tumors and hypoxic tumors or oxidative tumors.
+
+914
+00:54:32.660 --> 00:54:36.210
+So all different cell subtypes of tumors, the hybrid
+
+915
+00:54:36.270 --> 00:54:39.880
+EMT or partial EMT always shows the highest correlation,
+
+916
+00:54:40.490 --> 00:54:40.730
+the
+
+917
+00:54:42.150 --> 00:54:45.710
+spatial closeness to this subtype of
+
+918
+00:54:46.730 --> 00:54:49.890
+monocytic cells, and this is another way to look at the distance.
+
+919
+00:54:49.950 --> 00:54:52.570
+If you rank them, the closest, the shortest distance...
+
+920
+00:54:52.630 --> 00:54:56.510
+occurring the partial EMT cells. And we can also
+
+921
+00:54:56.530 --> 00:54:58.510
+quantify the scores based on their distance.
+
+922
+00:54:58.790 --> 00:55:01.350
+So we ask, for example,
+
+923
+00:55:02.250 --> 00:55:05.790
+the tumor cells that are close to these monocytes versus tumor cells that are far
+
+924
+00:55:05.830 --> 00:55:09.750
+away from the monocyte, which tumor cells have the higher, let's say, EMT score.
+
+925
+00:55:10.170 --> 00:55:13.150
+And you can see that the more
+
+926
+00:55:13.190 --> 00:55:17.170
+close they are, the higher score you can see from
+
+927
+00:55:17.310 --> 00:55:18.750
+tumor cells. And
+
+928
+00:55:19.690 --> 00:55:22.150
+then the same is true for these monocytic cells.
+
+929
+00:55:22.290 --> 00:55:26.280
+I showed you the immunogenetic scores that is very high in these monocytic cells.
+
+930
+00:55:26.770 --> 00:55:30.670
+And then when they're closer to the partial
+
+931
+00:55:30.710 --> 00:55:33.170
+EMT tumors, they're also higher. So
+
+932
+00:55:34.050 --> 00:55:37.890
+it shows that from this correlation analysis, you
+
+933
+00:55:37.930 --> 00:55:41.890
+can see the spatial distance really dictates their
+
+934
+00:55:42.010 --> 00:55:42.870
+functional
+
+935
+00:55:44.250 --> 00:55:46.810
+status, at least from the gene expression level.
+
+936
+00:55:46.890 --> 00:55:47.830
+And you can
+
+937
+00:55:48.670 --> 00:55:52.570
+see that in the TCGA based on bulk data, the
+
+938
+00:55:53.790 --> 00:55:56.010
+hybrid EMT score and the monocytic
+
+939
+00:55:56.929 --> 00:55:58.690
+score is highly, highly correlated.
+
+940
+00:55:59.770 --> 00:56:03.150
+So that suggests sort of a functional crosstalk between these two
+
+941
+00:56:03.730 --> 00:56:07.650
+cell types. And then to understand that, we started
+
+942
+00:56:08.170 --> 00:56:10.910
+the patient using organoid modeling.
+
+943
+00:56:11.030 --> 00:56:13.270
+So basically, we took
+
+944
+00:56:13.750 --> 00:56:17.630
+PBMC-derived monocytes, and we co-cultured them
+
+945
+00:56:17.690 --> 00:56:18.960
+in patient-derived organoids.
+
+946
+00:56:19.960 --> 00:56:23.390
+And then we created a matrix liquid interface so
+
+947
+00:56:23.490 --> 00:56:27.110
+that these monocytic cells can really move around and
+
+948
+00:56:27.550 --> 00:56:30.960
+interact with the tumors because the matrix is
+
+949
+00:56:31.230 --> 00:56:34.920
+pretty dense, and monocytes, immune cells don't
+
+950
+00:56:34.950 --> 00:56:37.840
+move very well, but in this case, they can actually move and
+
+951
+00:56:38.270 --> 00:56:42.170
+infiltrate. So then after five days, you take these cells out,
+
+952
+00:56:42.290 --> 00:56:43.990
+and you look at the molecular changes.
+
+953
+00:56:44.030 --> 00:56:47.830
+So the first thing you see is that the signature scores
+
+954
+00:56:47.890 --> 00:56:49.030
+of the monocyte
+
+955
+00:56:49.970 --> 00:56:50.950
+compared to the
+
+956
+00:56:51.770 --> 00:56:55.730
+culture alone, the monocytic cell alone, and the different patient
+
+957
+00:56:56.410 --> 00:56:59.890
+organoids really enhance the expression of
+
+958
+00:56:59.950 --> 00:57:03.430
+these monocytic genes up to
+
+959
+00:57:03.530 --> 00:57:07.150
+150-fold. So it's pretty huge. And
+
+960
+00:57:07.210 --> 00:57:10.940
+then in the standing, you can also see that
+
+961
+00:57:12.230 --> 00:57:14.830
+CD14+ monocyte, you co-culture with the...
+
+962
+00:57:15.290 --> 00:57:18.810
+So we use ITGB4 as one of the marker genes for the
+
+963
+00:57:19.050 --> 00:57:23.010
+HME, hybrid EMT cancer cells. So you see that
+
+964
+00:57:24.030 --> 00:57:27.570
+life imaging shows that some of the... So this is a confocal.
+
+965
+00:57:27.650 --> 00:57:31.050
+You see that some of the monocytes actually can infiltrate into the
+
+966
+00:57:31.930 --> 00:57:33.570
+organoids, and you quantify that.
+
+967
+00:57:33.610 --> 00:57:36.490
+And then we did one, two, three, four, five, six
+
+968
+00:57:37.270 --> 00:57:38.210
+patients so far. So
+
+969
+00:57:39.030 --> 00:57:42.530
+we stratified them by EMT high, EMT low
+
+970
+00:57:43.050 --> 00:57:43.570
+patients.
+
+971
+00:57:44.630 --> 00:57:48.210
+So you see that EMT low versus EMT high, you see that the hybrid,
+
+972
+00:57:48.710 --> 00:57:51.150
+this is EMT high organoids,
+
+973
+00:57:52.770 --> 00:57:56.370
+tumors infiltrate, recruit more monocytes
+
+974
+00:57:56.430 --> 00:57:59.370
+into this tumor mass versus the low
+
+975
+00:57:59.790 --> 00:58:00.850
+counterparts. And
+
+976
+00:58:02.370 --> 00:58:05.990
+when you look at the organoid themselves, also you see that
+
+977
+00:58:07.250 --> 00:58:11.230
+before and after the co-culture, you see the ITGB4, this one of
+
+978
+00:58:11.280 --> 00:58:12.410
+the markers. So we see that
+
+979
+00:58:13.250 --> 00:58:17.050
+increased also pretty significantly after they
+
+980
+00:58:17.130 --> 00:58:19.130
+see the monocytes.
+
+981
+00:58:20.110 --> 00:58:21.250
+So suggesting that
+
+982
+00:58:22.130 --> 00:58:23.930
+they have functional crosstalk.
+
+983
+00:58:24.750 --> 00:58:27.030
+So to further prove that whether
+
+984
+00:58:28.430 --> 00:58:32.290
+hybrid EMT does impact the recruitment and
+
+985
+00:58:32.330 --> 00:58:35.410
+the reprogramming of these monocytes, we
+
+986
+00:58:36.650 --> 00:58:40.390
+use flow to sort cancer cells into
+
+987
+00:58:40.430 --> 00:58:43.890
+EMT high, EMT low based on PDP and ITGB4.
+
+988
+00:58:43.950 --> 00:58:45.490
+This is single-cell derived markers.
+
+989
+00:58:45.570 --> 00:58:45.930
+And then
+
+990
+00:58:46.850 --> 00:58:50.450
+after sorting them out, we incubate them with the monocyte, just like before I
+
+991
+00:58:50.490 --> 00:58:53.190
+showed you. And then you see that
+
+992
+00:58:54.130 --> 00:58:57.070
+compared to double, sorry about the resolution, it's kind of low.
+
+993
+00:58:57.590 --> 00:58:58.430
+Double negative
+
+994
+00:58:59.310 --> 00:59:03.170
+cells, which is hybrid EMT low, versus
+
+995
+00:59:03.190 --> 00:59:05.090
+the double positive, which is hybrid EMT high.
+
+996
+00:59:05.870 --> 00:59:06.650
+You see this very
+
+997
+00:59:07.550 --> 00:59:11.090
+distinguishing difference. So the cancer cell, if it's double
+
+998
+00:59:11.230 --> 00:59:14.850
+negative, it does go up, but very minimally, but with the double
+
+999
+00:59:14.910 --> 00:59:17.120
+positive, it goes up to sixfold,
+
+1000
+00:59:17.990 --> 00:59:21.590
+suggesting that the cancer intrinsic hEMT
+
+1001
+00:59:23.890 --> 00:59:27.230
+status really can dictate their
+
+1002
+00:59:27.410 --> 00:59:30.910
+impact on the monocytic
+
+1003
+00:59:31.150 --> 00:59:31.850
+cell state.
+
+1004
+00:59:32.750 --> 00:59:36.530
+And then after the co-culture, we also took out these cancer
+
+1005
+00:59:36.550 --> 00:59:39.970
+cells, and we look at their hybrid EMT gene expression.
+
+1006
+00:59:40.010 --> 00:59:43.990
+And you can see the panel of genes here, some of the classical EMT genes,
+
+1007
+00:59:44.090 --> 00:59:47.470
+some of them are the squamous sort of identity genes here.
+
+1008
+00:59:48.610 --> 00:59:51.870
+And after co-culture with the monocyte, these cancer cells also
+
+1009
+00:59:51.910 --> 00:59:55.710
+express much, much higher hybrid EMT markers.
+
+1010
+00:59:56.710 --> 00:59:59.350
+And then you can also look at the math flow.
+
+1011
+00:59:59.470 --> 00:59:59.830
+So
+
+1012
+01:00:01.190 --> 01:00:03.470
+the hybrid EMT low organoids, they
+
+1013
+01:00:04.430 --> 01:00:08.270
+do go up, but very minimally, but after co-culture with the
+
+1014
+01:00:08.310 --> 01:00:11.330
+monocyte, the hybrid EMT high organoid, these patients,
+
+1015
+01:00:11.810 --> 01:00:15.490
+their EMT signature goes even higher from 10% to
+
+1016
+01:00:15.670 --> 01:00:17.410
+20% to 30%. So that's
+
+1017
+01:00:19.230 --> 01:00:22.790
+basically showing that vice. So this is a bidirectional
+
+1018
+01:00:22.830 --> 01:00:26.810
+crosstalk between hybrid EMT
+
+1019
+01:00:26.850 --> 01:00:29.950
+tumor cells and this subset of
+
+1020
+01:00:30.630 --> 01:00:34.470
+monocytic cells. Basically, they impact each other to increase the,
+
+1021
+01:00:36.290 --> 01:00:39.390
+at least in the gene expression and protein standing level, the EMT
+
+1022
+01:00:39.850 --> 01:00:42.810
+markers and then the monocytic androgenetic genes.
+
+1023
+01:00:43.690 --> 01:00:47.470
+So to put that into more in the cancer context, we
+
+1024
+01:00:47.550 --> 01:00:51.270
+and others, we've shown extensively
+
+1025
+01:00:51.310 --> 01:00:54.918
+theThe function of hyper EMT in squamous biology, basically,
+
+1026
+01:00:55.018 --> 01:00:58.758
+it promotes not only the invasion metastasis but also
+
+1027
+01:00:58.818 --> 01:01:02.798
+drug resistance, radiation plus cisplat in this case, which is
+
+1028
+01:01:02.838 --> 01:01:05.638
+commonly used in treating head and neck cancer patients in the clinic.
+
+1029
+01:01:05.978 --> 01:01:09.258
+So you see that with cisplatting alone,
+
+1030
+01:01:10.198 --> 01:01:14.108
+the killing is about 50% ish, but in this case, we're using
+
+1031
+01:01:14.198 --> 01:01:16.078
+THP1 as a model system
+
+1032
+01:01:17.298 --> 01:01:21.178
+to show that. Okay, I'm done. I thought that's the time.
+
+1033
+01:01:21.658 --> 01:01:21.978
+That's it.
+
+1034
+01:01:22.698 --> 01:01:23.498
+Oh, I'm confused.
+
+1035
+01:01:24.178 --> 01:01:24.298
+Yeah.
+
+1036
+01:01:24.618 --> 01:01:25.578
+Yeah, I'm done. This is the last one.
+
+1037
+01:01:26.238 --> 01:01:27.678
+So with the
+
+1038
+01:01:28.858 --> 01:01:32.618
+monocyte being there, you see the cancers don't really
+
+1039
+01:01:32.658 --> 01:01:35.878
+die much. And then last one, this last piece.
+
+1040
+01:01:36.578 --> 01:01:39.888
+So basically in vivo you can see the tumor cell along, this is
+
+1041
+01:01:39.918 --> 01:01:43.318
+survival. And then if you co-implant them with the monocyte,
+
+1042
+01:01:43.918 --> 01:01:47.378
+they die much faster. But then the last piece is if you
+
+1043
+01:01:47.438 --> 01:01:48.218
+inject the
+
+1044
+01:01:49.058 --> 01:01:53.018
+monocyte into the circulation, after 20 days you actually
+
+1045
+01:01:53.038 --> 01:01:56.337
+see them being actively recruit to the tumor microenvironment through the
+
+1046
+01:01:56.378 --> 01:01:59.818
+bloodstream, so showing that there is active
+
+1047
+01:01:59.938 --> 01:02:02.458
+recruitment into the microenvironment.
+
+1048
+01:02:03.018 --> 01:02:06.938
+And that also reduced survival. So that's it. That's the little summary here.
+
+1049
+01:02:06.998 --> 01:02:10.178
+I'm going to skip that. And then lastly, I want to thank the lab
+
+1050
+01:02:10.938 --> 01:02:14.858
+members who are very dedicated and talented postdocs
+
+1051
+01:02:14.918 --> 01:02:17.258
+I'm blessed to work with. Thanks so much. I'll take any questions.
+
+1052
+01:02:17.658 --> 01:02:18.898
+Thank you. We have
+
+1053
+01:02:19.758 --> 01:02:21.438
+time for two quick questions.
+
+1054
+01:02:24.298 --> 01:02:24.308
+Go.
+
+1055
+01:02:25.718 --> 01:02:29.438
+One question I have, so EMT high cancer cells are more
+
+1056
+01:02:29.478 --> 01:02:33.098
+fibroblast-like, right? There is a concept that there is a
+
+1057
+01:02:33.158 --> 01:02:33.758
+tissue
+
+1058
+01:02:34.578 --> 01:02:36.518
+unit of fibroblast,
+
+1059
+01:02:38.078 --> 01:02:41.218
+macrophage or monocyte, and epithelial cell.
+
+1060
+01:02:41.298 --> 01:02:44.928
+Do you think if you incorporate into your cultures cancer-associated
+
+1061
+01:02:45.018 --> 01:02:45.718
+fibroblasts-
+
+1062
+01:02:45.798 --> 01:02:45.808
+Mm-hmm
+
+1063
+01:02:46.338 --> 01:02:49.498
+... then monocytes will be uniquely
+
+1064
+01:02:50.298 --> 01:02:53.738
+skewed towards what you see regardless of the
+
+1065
+01:02:54.698 --> 01:02:58.438
+epithelial characteristics, and everything will be dictated by fibroblasts?
+
+1066
+01:02:58.718 --> 01:03:01.497
+That's a very nice question. I don't think so.
+
+1067
+01:03:01.958 --> 01:03:05.908
+I think there has to be cancer present, but in the computational
+
+1068
+01:03:05.958 --> 01:03:08.798
+analysis we do see there's myofibroblasts also in that community.
+
+1069
+01:03:09.438 --> 01:03:09.598
+So,
+
+1070
+01:03:10.918 --> 01:03:12.058
+hey, Dr. Wang.
+
+1071
+01:03:12.218 --> 01:03:15.818
+Yeah. Nice talk. So in terms of your TIMO monocytes,
+
+1072
+01:03:16.398 --> 01:03:18.678
+do you think they play any role in immune suppression?
+
+1073
+01:03:18.718 --> 01:03:21.768
+That's the biggest focus for the monocyte field these days.
+
+1074
+01:03:21.787 --> 01:03:25.178
+And for your TIMO monocytes, there've been a lot of failures in trying to deplete
+
+1075
+01:03:25.218 --> 01:03:28.518
+monocytes and treat cancer. Do you have any specific targets for TIMO?
+
+1076
+01:03:28.938 --> 01:03:31.298
+Yeah. Thanks so much. That's a very insightful question.
+
+1077
+01:03:32.138 --> 01:03:33.518
+Absolutely. So as I mentioned,
+
+1078
+01:03:34.558 --> 01:03:38.238
+we found the TIMO enrichment also is very
+
+1079
+01:03:38.538 --> 01:03:40.618
+strongly associated with ICB treated failure.
+
+1080
+01:03:41.188 --> 01:03:44.498
+And then we actually were starting to look at this, so
+
+1081
+01:03:45.198 --> 01:03:46.757
+when we do a
+
+1082
+01:03:48.098 --> 01:03:52.088
+trio culture, you put T cells in, put monocyte, we put the patient-derived
+
+1083
+01:03:52.118 --> 01:03:55.578
+tumor organoids, there is a dampening in terms of at least the
+
+1084
+01:03:56.598 --> 01:03:59.158
+activation markers of these T cells.
+
+1085
+01:03:59.198 --> 01:04:03.178
+We don't know the killing effect yet, but at least the flow level
+
+1086
+01:04:03.218 --> 01:04:07.058
+shows that there's decreased CD69, decreased granzyme B levels.
+
+1087
+01:04:07.218 --> 01:04:08.578
+So we believe there will be
+
+1088
+01:04:09.778 --> 01:04:12.198
+a somewhat impact on T cell activation.
+
+1089
+01:04:13.318 --> 01:04:17.078
+In terms of the dependency, yes, I think
+
+1090
+01:04:17.138 --> 01:04:20.958
+it's not been very fruitful in terms of targeting them, but we do think there's a
+
+1091
+01:04:20.998 --> 01:04:21.558
+metabolic
+
+1092
+01:04:23.878 --> 01:04:27.018
+vulnerability in terms of in this specific subset.
+
+1093
+01:04:27.098 --> 01:04:31.058
+I'm not ready to show any of the data here, but we do think
+
+1094
+01:04:31.067 --> 01:04:34.738
+that's a promising future lead to follow up. Thank you.
+
+1095
+01:04:36.258 --> 01:04:38.278
+Okay, I think we are
+
+1096
+01:04:39.398 --> 01:04:40.118
+out of time.
+
+1097
+01:04:41.018 --> 01:04:41.778
+Thanks so much.
+
+1098
+01:04:42.738 --> 01:04:43.218
+Okay.
+
+1099
+01:04:45.918 --> 01:04:46.218
+So
+
+1100
+01:04:47.118 --> 01:04:50.958
+our next speaker is Maria Hernandez from University
+
+1101
+01:04:50.998 --> 01:04:52.218
+of Florida, and
+
+1102
+01:04:53.038 --> 01:04:56.978
+chronic sleep deprivation promotes colon cancer, and
+
+1103
+01:04:57.018 --> 01:04:59.738
+she will tell us how microbiota
+
+1104
+01:05:00.558 --> 01:05:02.738
+factors in to this process.
+
+1105
+01:05:03.898 --> 01:05:06.818
+Good afternoon, everyone. Thank you for the kind introduction.
+
+1106
+01:05:06.838 --> 01:05:07.848
+I'm excited to share my
+
+1107
+01:05:08.917 --> 01:05:12.678
+graduate work at the University of Florida, and I have
+
+1108
+01:05:12.738 --> 01:05:13.778
+nothing to disclose.
+
+1109
+01:05:15.278 --> 01:05:19.078
+There's a common factor among many cancer patients, is that sleep
+
+1110
+01:05:19.098 --> 01:05:23.038
+deprivation. In fact, over 60% of patients have reported
+
+1111
+01:05:23.158 --> 01:05:26.978
+sleep disturbances prior to cancer diagnosis, and in fact,
+
+1112
+01:05:27.118 --> 01:05:30.498
+over 60% of them experience these disturbances after
+
+1113
+01:05:30.518 --> 01:05:33.068
+diagnosis and even into treatment.
+
+1114
+01:05:34.738 --> 01:05:38.358
+However, we don't know the biological mechanisms by which sleep
+
+1115
+01:05:38.378 --> 01:05:41.198
+deprivation affect cancer progression.
+
+1116
+01:05:41.258 --> 01:05:45.148
+However, we do know in the literature that sleep deprivation
+
+1117
+01:05:45.178 --> 01:05:49.128
+significantly increases the abundance of pro-inflammatory cytokines in
+
+1118
+01:05:49.158 --> 01:05:52.748
+the host that can act through the systemic circulation and
+
+1119
+01:05:52.758 --> 01:05:56.248
+nearby lymphoid tissues. These changes have been
+
+1120
+01:05:56.298 --> 01:06:00.058
+associated with immunosuppression within the immune landscape of the host.
+
+1121
+01:06:00.818 --> 01:06:04.748
+For example, through decreased cytotoxic T cell frequency, as
+
+1122
+01:06:04.778 --> 01:06:08.348
+well as decreased antigen presentation, which are both key for
+
+1123
+01:06:08.398 --> 01:06:09.368
+antitumor immunity.
+
+1124
+01:06:10.328 --> 01:06:14.118
+And these changes have overall been associated with increased risk in
+
+1125
+01:06:14.158 --> 01:06:16.978
+colorectal cancer development, as well as cancer risk.
+
+1126
+01:06:18.398 --> 01:06:22.378
+Similarly, the field has established that sleep deprivation can negatively
+
+1127
+01:06:22.438 --> 01:06:25.558
+modulate the microbiome by altering its structure, for
+
+1128
+01:06:25.598 --> 01:06:28.918
+example, through elevating the ratio of Firmicutes to
+
+1129
+01:06:28.938 --> 01:06:32.258
+Bacteroides. Now, the novelty of our work is aiming to
+
+1130
+01:06:32.298 --> 01:06:35.478
+understand how sleep deprivation induced dysbiosis
+
+1131
+01:06:35.958 --> 01:06:39.598
+drives colorectal cancer development and further can
+
+1132
+01:06:39.638 --> 01:06:41.258
+decrease treatment response.
+
+1133
+01:06:42.838 --> 01:06:46.318
+To study our central hypothesis, we employed a model of chronic sleep
+
+1134
+01:06:46.358 --> 01:06:49.478
+deprivation. Using these commercially available cages,
+
+1135
+01:06:49.958 --> 01:06:51.258
+we housed mice,
+
+1136
+01:06:52.658 --> 01:06:56.598
+where a bar sweeps across the floor of the bar every two minutes
+
+1137
+01:06:56.798 --> 01:06:59.778
+for 12 hours a day from 7:00 a.m. to 7:00
+
+1138
+01:06:59.838 --> 01:07:03.698
+p.mThis works because mice are nocturnal, but it's
+
+1139
+01:07:03.758 --> 01:07:06.398
+meant to mimic a human being awake in the evening.
+
+1140
+01:07:07.788 --> 01:07:11.558
+The mouse models we used were Black 6 male mice, ages eight to
+
+1141
+01:07:11.598 --> 01:07:15.458
+12 weeks old. And we employed a murine
+
+1142
+01:07:15.558 --> 01:07:16.818
+adenocarcinoma model
+
+1143
+01:07:18.558 --> 01:07:22.378
+of MC38. The majority of the samples in the readouts
+
+1144
+01:07:22.638 --> 01:07:26.558
+were stools for 16S rRNA gene sequencing, as
+
+1145
+01:07:26.598 --> 01:07:30.508
+well as tumor for qPCR analysis of mRNA gene expression,
+
+1146
+01:07:30.538 --> 01:07:34.398
+as well as using flow cytometry to analyze tumor-infiltrating lymphocytes.
+
+1147
+01:07:35.698 --> 01:07:39.098
+The first fundamental question we wanted to address was how sleep
+
+1148
+01:07:39.118 --> 01:07:42.938
+deprivation, now I will label it as SD, can promote colorectal
+
+1149
+01:07:42.998 --> 01:07:46.818
+cancer development. We pre-exposed the mice to seven
+
+1150
+01:07:46.898 --> 01:07:50.798
+days of SD, and the control mice were housed in
+
+1151
+01:07:50.838 --> 01:07:53.708
+the same room with the same light exposure and the same
+
+1152
+01:07:53.778 --> 01:07:57.618
+temperatures. After a seven-day exposure to the SD mice, we
+
+1153
+01:07:57.658 --> 01:08:01.538
+implanted both the SD as well as the control with half a million
+
+1154
+01:08:01.548 --> 01:08:05.418
+MC38 cancer cells, and we followed through with tumor growth
+
+1155
+01:08:05.477 --> 01:08:07.338
+until a significant endpoint.
+
+1156
+01:08:08.498 --> 01:08:09.678
+To assess how this
+
+1157
+01:08:10.718 --> 01:08:14.138
+regimen of SD was affecting circadian rhythm expression,
+
+1158
+01:08:14.758 --> 01:08:18.178
+we took endpoint tumor tissue and explored
+
+1159
+01:08:18.258 --> 01:08:19.838
+circadian rhythm gene expression.
+
+1160
+01:08:20.678 --> 01:08:22.378
+For example, as you can appreciate,
+
+1161
+01:08:23.239 --> 01:08:26.918
+one of the positive regulators, BMAL1, was significantly
+
+1162
+01:08:26.958 --> 01:08:30.678
+decreased in the SD mice compared to the non-SD counterparts.
+
+1163
+01:08:31.458 --> 01:08:35.398
+Similarly, the protein family Cry, both Cry 1 and Cry
+
+1164
+01:08:35.458 --> 01:08:39.079
+2, were significantly elevated in tumor RNA compared to the
+
+1165
+01:08:39.098 --> 01:08:42.918
+non-SD counterparts. This was also observed in the other core
+
+1166
+01:08:42.938 --> 01:08:44.058
+protein, Per2.
+
+1167
+01:08:45.138 --> 01:08:48.498
+In the context of tumor growth, we see that SD mice were
+
+1168
+01:08:48.558 --> 01:08:52.378
+significantly more susceptible to tumor volume compared to the non-SD
+
+1169
+01:08:52.418 --> 01:08:55.978
+counterparts. This was also associated with a significant
+
+1170
+01:08:56.079 --> 01:08:57.338
+increase in tumor weight.
+
+1171
+01:08:58.138 --> 01:09:02.018
+And in the context of tumor immunity, we observed that the SD
+
+1172
+01:09:02.098 --> 01:09:05.678
+mice had a lower expression of
+
+1173
+01:09:05.758 --> 01:09:09.018
+IL17A, IL1B, and TNF alpha,
+
+1174
+01:09:09.659 --> 01:09:12.878
+likely alluding to an immunosuppressive tumor microenvironment.
+
+1175
+01:09:13.898 --> 01:09:17.659
+But more importantly than tumor progression, we wanted to focus on
+
+1176
+01:09:17.718 --> 01:09:21.558
+answering this fundamental question in another aspect of cancer care
+
+1177
+01:09:21.567 --> 01:09:24.258
+that's important, like chemotherapeutic response.
+
+1178
+01:09:25.138 --> 01:09:29.018
+5-FU has long been standing as a key drug for human colorectal
+
+1179
+01:09:29.079 --> 01:09:32.628
+cancer. And so to assess this, we asked ourselves two fundamental
+
+1180
+01:09:32.739 --> 01:09:36.638
+questions. How is our chronic SD regimen affecting 5-FU
+
+1181
+01:09:36.758 --> 01:09:39.638
+efficacy? And how is a sleep-deprived
+
+1182
+01:09:40.038 --> 01:09:42.898
+microbiota affecting 5-FU efficacy?
+
+1183
+01:09:44.058 --> 01:09:47.938
+Similarly, as before, we employed the same model where SD mice
+
+1184
+01:09:47.978 --> 01:09:51.878
+were housed in their cages and pre-exposed to seven days of chronic
+
+1185
+01:09:52.018 --> 01:09:52.358
+SD.
+
+1186
+01:09:53.298 --> 01:09:57.018
+After the seven-day exposure, we implanted them with the same concentration of
+
+1187
+01:09:57.078 --> 01:10:00.658
+cancer cells. And when the tumors were palpable at day 10, we
+
+1188
+01:10:00.998 --> 01:10:04.118
+began treating them with 5-FU at a concentration of
+
+1189
+01:10:04.258 --> 01:10:07.817
+25 milligrams per kg via IP route.
+
+1190
+01:10:08.498 --> 01:10:12.278
+The control mice were housed again in the same room and received the same tumor
+
+1191
+01:10:12.298 --> 01:10:16.238
+implantation and the same treatments starting at day 10 and until
+
+1192
+01:10:16.248 --> 01:10:20.178
+day 22. Endpoint was reached when the mice were at tumor endpoint.
+
+1193
+01:10:21.768 --> 01:10:25.567
+You can appreciate that the SD mice receiving 5-FU were
+
+1194
+01:10:25.598 --> 01:10:29.218
+significantly more susceptible to tumor growth compared to the
+
+1195
+01:10:29.278 --> 01:10:31.698
+non-SD controls also receiving 5-FU.
+
+1196
+01:10:32.578 --> 01:10:35.938
+This was also coupled with a significant increase in tumor weight.
+
+1197
+01:10:37.438 --> 01:10:41.378
+In the context of tumor immunity, we observed that the SD mice
+
+1198
+01:10:41.418 --> 01:10:44.488
+had a significant decrease in CD27 and
+
+1199
+01:10:44.518 --> 01:10:47.838
+interferon gamma in tumor mRNA levels,
+
+1200
+01:10:48.238 --> 01:10:52.158
+likely alluding to a decrease in T cell infiltration and cytotoxicity.
+
+1201
+01:10:52.858 --> 01:10:56.708
+You can also appreciate a significant increase in IL6,
+
+1202
+01:10:57.058 --> 01:11:00.278
+a pro-inflammatory cytokine associated with sleep deprivation.
+
+1203
+01:11:01.148 --> 01:11:04.998
+More exciting for us, we were able to observe using flow cytometry
+
+1204
+01:11:05.058 --> 01:11:08.578
+that the tumors of SD mice were significantly lower in
+
+1205
+01:11:08.618 --> 01:11:12.278
+frequency of CD4 positive T cells, which are effector cells key
+
+1206
+01:11:12.318 --> 01:11:13.808
+for anti-tumor immunity,
+
+1207
+01:11:14.738 --> 01:11:18.678
+as well as they had a lower frequency of CD8 T
+
+1208
+01:11:18.738 --> 01:11:21.218
+cells and interferon gamma CD8 T cells.
+
+1209
+01:11:21.848 --> 01:11:25.618
+Sleep deprivation also affected the infiltration efficacy of
+
+1210
+01:11:25.658 --> 01:11:29.358
+natural killer cells as well as granzyme A positive natural
+
+1211
+01:11:29.398 --> 01:11:33.258
+killer cells. And you can appreciate that the overarching theme is that this
+
+1212
+01:11:33.278 --> 01:11:36.998
+regimen significantly pushed the mice to a lower immune
+
+1213
+01:11:37.338 --> 01:11:41.058
+activation. It made it more susceptible to a decrease in
+
+1214
+01:11:41.118 --> 01:11:42.198
+5-FU efficacy.
+
+1215
+01:11:43.918 --> 01:11:47.718
+Now, to understand how this regimen could be negatively affecting the
+
+1216
+01:11:47.758 --> 01:11:51.478
+microbiota, we employed a validated model of
+
+1217
+01:11:51.538 --> 01:11:55.218
+fecal microbiota transplantation that I will explain shortly.
+
+1218
+01:11:56.018 --> 01:11:59.758
+Using the endpoint stool of the SD versus the
+
+1219
+01:11:59.838 --> 01:12:03.198
+non-SD mice from the previous study I just showed you,
+
+1220
+01:12:04.058 --> 01:12:07.678
+we took those stools and we prepared a pooled slurry of them.
+
+1221
+01:12:08.578 --> 01:12:11.108
+Now, we took healthy Black 6 mice, all male,
+
+1222
+01:12:11.918 --> 01:12:15.678
+and they were housed in the same facility near each other, received seven
+
+1223
+01:12:15.778 --> 01:12:19.458
+days of antibiotic water cocktail, and after a 24-hour
+
+1224
+01:12:19.558 --> 01:12:23.318
+washout period, we orally gavaged them with either a pool of the
+
+1225
+01:12:23.438 --> 01:12:26.478
+SD stool slurry or the non-SD stool slurry.
+
+1226
+01:12:27.498 --> 01:12:29.338
+We allowed for the microbiota in the
+
+1227
+01:12:30.218 --> 01:12:33.798
+slurry to implant in the gut of the mice, and then we
+
+1228
+01:12:33.858 --> 01:12:37.598
+implanted them with the same concentration of half a million MC38 cancer
+
+1229
+01:12:37.618 --> 01:12:38.728
+cells on the right flank.
+
+1230
+01:12:39.618 --> 01:12:43.398
+Same as before, on day 10, we began treatment with 5-FU via
+
+1231
+01:12:43.498 --> 01:12:47.438
+IP and followed through for four more rounds and then measured the
+
+1232
+01:12:47.478 --> 01:12:48.638
+mice until endpoint.
+
+1233
+01:12:49.578 --> 01:12:53.118
+We collected stool at zero and at endpoint to assess
+
+1234
+01:12:53.178 --> 01:12:57.038
+changes in the microbiota diversity using 16S
+
+1235
+01:12:57.158 --> 01:13:01.058
+rRNA gene sequencing. You can appreciate that
+
+1236
+01:13:01.098 --> 01:13:04.738
+at time point zero, the microbiota of the non-SD mice
+
+1237
+01:13:04.938 --> 01:13:08.858
+compared to the SD mice clusters significantly different at the beta
+
+1238
+01:13:08.898 --> 01:13:11.318
+diversity level.These changes
+
+1239
+01:13:11.368 --> 01:13:14.948
+had also gone through until the
+
+1240
+01:13:14.988 --> 01:13:18.848
+endpoint. As you can appreciate, the non-SD cluster tightly,
+
+1241
+01:13:18.888 --> 01:13:21.928
+whereas the SD cluster separately at endpoint.
+
+1242
+01:13:23.028 --> 01:13:26.588
+So not only do we see significant changes in the microbiota
+
+1243
+01:13:26.628 --> 01:13:30.258
+sustained over a period of about 26 days, these
+
+1244
+01:13:30.288 --> 01:13:34.228
+changes were also accompanied by functional changes in the mice.
+
+1245
+01:13:34.268 --> 01:13:37.908
+You can appreciate that the recipient SD mice
+
+1246
+01:13:37.948 --> 01:13:41.768
+receiving 5-FU had significant tumor growth
+
+1247
+01:13:42.228 --> 01:13:45.748
+compared to the non-SD recipient mice treated with 5-FU.
+
+1248
+01:13:46.828 --> 01:13:50.608
+The SD recipient mice were also more susceptible to a decrease in
+
+1249
+01:13:50.648 --> 01:13:54.428
+TNF-alpha, a key pro-inflammatory cytokine important for anti-tumor
+
+1250
+01:13:54.468 --> 01:13:58.228
+immunity. In the context of tumor-infiltrating lymphocytes, we
+
+1251
+01:13:58.288 --> 01:14:01.888
+also saw a significant decrease in frequency of effector CD4
+
+1252
+01:14:01.928 --> 01:14:05.548
+positive T cells, as well as cytotoxic CD8 positive T
+
+1253
+01:14:05.648 --> 01:14:05.988
+cells.
+
+1254
+01:14:07.028 --> 01:14:10.628
+So overall, our preliminary findings have demonstrated
+
+1255
+01:14:10.968 --> 01:14:14.868
+that our chronic SD model can significantly modulate the
+
+1256
+01:14:14.928 --> 01:14:18.888
+microbiota and create a dysbiosis or a lack of
+
+1257
+01:14:18.908 --> 01:14:22.868
+homeostasis that can potentiate the growth of cancer cells
+
+1258
+01:14:23.008 --> 01:14:26.688
+using an MC38 cancer model and a decrease in cornerstone
+
+1259
+01:14:26.748 --> 01:14:28.968
+chemotherapy 5-fluorouracil.
+
+1260
+01:14:30.068 --> 01:14:33.868
+I would like to thank my lab, the University of Florida, and our funding sources,
+
+1261
+01:14:33.928 --> 01:14:36.948
+as well as AACR for this wonderful opportunity. Thank you.
+
+1262
+01:14:42.228 --> 01:14:46.148
+That's very intriguing data. I have to ask,
+
+1263
+01:14:46.708 --> 01:14:50.328
+and I'm sure you've been asked this many times and have thought about it, but we
+
+1264
+01:14:50.408 --> 01:14:52.748
+all do our experiments during the day-
+
+1265
+01:14:52.878 --> 01:14:52.918
+Mm-hmm.
+
+1266
+01:14:53.188 --> 01:14:55.388
+When mice are supposed to be sleeping.
+
+1267
+01:14:55.448 --> 01:14:55.508
+Mm-hmm.
+
+1268
+01:14:56.288 --> 01:14:59.348
+So we've kind of reversed their night and day to begin with.
+
+1269
+01:14:59.888 --> 01:15:03.608
+So the animals you're using in this study presumably would've
+
+1270
+01:15:03.648 --> 01:15:07.528
+been conditioned under those circumstances
+
+1271
+01:15:07.568 --> 01:15:10.028
+before this experiment began.
+
+1272
+01:15:10.138 --> 01:15:10.138
+Yeah.
+
+1273
+01:15:10.168 --> 01:15:14.148
+How do you think that that may affect all of our
+
+1274
+01:15:14.158 --> 01:15:15.088
+data, let alone,
+
+1275
+01:15:16.088 --> 01:15:18.528
+then doing sleep deprivation studies?
+
+1276
+01:15:18.948 --> 01:15:22.828
+Well, it's incredible because before I started working on this, I
+
+1277
+01:15:22.848 --> 01:15:25.898
+didn't really understand how impactful circadian rhythm is.
+
+1278
+01:15:26.328 --> 01:15:29.348
+Every cell of our body has a circadian rhythm.
+
+1279
+01:15:29.448 --> 01:15:29.498
+Right.
+
+1280
+01:15:29.688 --> 01:15:33.378
+And some of the things like our gut microbiomes respond to
+
+1281
+01:15:33.428 --> 01:15:37.197
+that. So I think it's very important in all aspects of
+
+1282
+01:15:37.248 --> 01:15:40.508
+cancer research to incorporate these very large
+
+1283
+01:15:40.528 --> 01:15:44.028
+physiological systems that are taking place, like circadian rhythm,
+
+1284
+01:15:44.388 --> 01:15:48.188
+because prior to studies, in circadian biology, yeah, it's not
+
+1285
+01:15:48.228 --> 01:15:49.438
+really known, but-
+
+1286
+01:15:49.868 --> 01:15:49.988
+Yeah.
+
+1287
+01:15:50.038 --> 01:15:51.008
+Yeah. Thank you for bringing that out.
+
+1288
+01:15:51.648 --> 01:15:53.048
+Yeah. Very important work.
+
+1289
+01:15:53.568 --> 01:15:53.968
+Thank you.
+
+1290
+01:15:56.448 --> 01:15:56.688
+Yes.
+
+1291
+01:15:56.868 --> 01:15:57.088
+So,
+
+1292
+01:15:58.588 --> 01:16:00.608
+first of all, thanks, Betsy, you asked my question.
+
+1293
+01:16:00.868 --> 01:16:03.028
+Second question, but I have another suggestion.
+
+1294
+01:16:03.068 --> 01:16:06.857
+It's about the experiment that you show at the end where you do the FMT
+
+1295
+01:16:07.068 --> 01:16:07.528
+transfer.
+
+1296
+01:16:07.608 --> 01:16:07.708
+Mm-hmm.
+
+1297
+01:16:08.128 --> 01:16:10.948
+You took the mice at the end of the tumor growth.
+
+1298
+01:16:11.088 --> 01:16:11.288
+Mm-hmm.
+
+1299
+01:16:11.468 --> 01:16:13.848
+You took the FMT from mice with tumor.
+
+1300
+01:16:14.108 --> 01:16:14.368
+Yes.
+
+1301
+01:16:14.948 --> 01:16:18.768
+Have you done that with just simple stool of mice
+
+1302
+01:16:18.828 --> 01:16:19.008
+from
+
+1303
+01:16:19.828 --> 01:16:22.588
+sleep deprivation and then performed the experiment?
+
+1304
+01:16:22.988 --> 01:16:26.808
+We have not. But knowing that we have a preliminary phenotype, we're
+
+1305
+01:16:26.848 --> 01:16:29.688
+working into expanding and increasing the rigor of our experiments.
+
+1306
+01:16:29.728 --> 01:16:31.848
+So I appreciate you bringing that up. Thank you.
+
+1307
+01:16:33.488 --> 01:16:33.498
+Sure.
+
+1308
+01:16:33.528 --> 01:16:34.208
+Yes.
+
+1309
+01:16:35.568 --> 01:16:36.408
+Good work, Maria.
+
+1310
+01:16:36.508 --> 01:16:36.848
+Thank you.
+
+1311
+01:16:38.148 --> 01:16:38.868
+I was wondering
+
+1312
+01:16:39.988 --> 01:16:43.128
+if you have a confounding factor here that is stress.
+
+1313
+01:16:43.248 --> 01:16:43.378
+Mm-hmm.
+
+1314
+01:16:43.618 --> 01:16:47.568
+How can you differentiate between sleep deprivation or
+
+1315
+01:16:47.628 --> 01:16:48.808
+the machine is actually-
+
+1316
+01:16:49.118 --> 01:16:49.258
+Mm-hmm.
+
+1317
+01:16:49.308 --> 01:16:51.128
+Alarming the animals constantly?
+
+1318
+01:16:51.608 --> 01:16:53.088
+So I thank you for bringing that up.
+
+1319
+01:16:54.068 --> 01:16:57.788
+Preliminarily, that's why I checked for circadian rhythmicity to assess that it was
+
+1320
+01:16:57.828 --> 01:17:01.697
+affecting that axis of the host. But for our future studies, I will
+
+1321
+01:17:01.748 --> 01:17:05.378
+definitely incorporate checking plasma levels of certain stress hormones
+
+1322
+01:17:05.708 --> 01:17:09.248
+like glucocorticoid, or even other aspects of the
+
+1323
+01:17:09.268 --> 01:17:12.108
+parasympathetic or sympathetic nervous system. So I think that's very important.
+
+1324
+01:17:12.968 --> 01:17:16.588
+But something else about the mice and that I have read in the literature, they
+
+1325
+01:17:16.848 --> 01:17:20.308
+tend to acclimate to certain stressors.
+
+1326
+01:17:20.628 --> 01:17:24.558
+And because this is not an acute model and rather a stressful long-term chronic
+
+1327
+01:17:24.628 --> 01:17:24.838
+model,
+
+1328
+01:17:25.668 --> 01:17:29.268
+I anticipate that they're probably adapting to it.
+
+1329
+01:17:29.288 --> 01:17:32.848
+But I definitely agree that molecularly, I need to determine that whether this is a
+
+1330
+01:17:32.948 --> 01:17:36.488
+stress versus a sleep deprivation. So thank you for that.
+
+1331
+01:17:37.288 --> 01:17:37.838
+Or both together.
+
+1332
+01:17:37.838 --> 01:17:39.048
+Or both together. Absolutely. Thank you.
+
+1333
+01:17:40.188 --> 01:17:43.928
+It's a good talk, actually. I just want to comment on your
+
+1334
+01:17:44.028 --> 01:17:46.808
+experiment, where you used only the male mice.
+
+1335
+01:17:46.928 --> 01:17:47.168
+Yes.
+
+1336
+01:17:47.408 --> 01:17:50.008
+And circadian rhythm and bone colorectal cancer-
+
+1337
+01:17:50.088 --> 01:17:50.098
+Yes.
+
+1338
+01:17:50.098 --> 01:17:51.568
+They're affected by estrogen.
+
+1339
+01:17:51.808 --> 01:17:52.068
+Right.
+
+1340
+01:17:52.668 --> 01:17:52.848
+So,
+
+1341
+01:17:53.868 --> 01:17:56.848
+did you look into that also? Did you use female mice also?
+
+1342
+01:17:57.208 --> 01:18:00.888
+We have not used female mice simply because we know that females have the
+
+1343
+01:18:00.928 --> 01:18:03.148
+estrous cycle, and that does have fluctuation.
+
+1344
+01:18:03.288 --> 01:18:06.688
+So we wanted to minimize that confounding variable.
+
+1345
+01:18:08.028 --> 01:18:11.108
+As you can appreciate, the project is
+
+1346
+01:18:11.168 --> 01:18:14.868
+taking a very wide leap, so I think we're just trying to
+
+1347
+01:18:14.888 --> 01:18:18.028
+mostly concentrate on the microbiome as the highlight.
+
+1348
+01:18:18.408 --> 01:18:22.248
+But I definitely agree that there's to be consideration of the female
+
+1349
+01:18:22.348 --> 01:18:24.248
+sex and all of those factors, yeah.
+
+1350
+01:18:24.288 --> 01:18:24.668
+Thank you.
+
+1351
+01:18:24.728 --> 01:18:26.028
+Thank you.
+
+1352
+01:18:27.278 --> 01:18:30.088
+I have a question about the applicability of your model-
+
+1353
+01:18:30.288 --> 01:18:30.408
+Yeah.
+
+1354
+01:18:30.478 --> 01:18:30.768
+To
+
+1355
+01:18:31.628 --> 01:18:33.608
+the sleep problems we see in the clinic.
+
+1356
+01:18:33.668 --> 01:18:33.818
+Mm-hmm.
+
+1357
+01:18:34.488 --> 01:18:35.768
+Which are generally
+
+1358
+01:18:37.088 --> 01:18:37.728
+sleep apnea-
+
+1359
+01:18:38.368 --> 01:18:38.378
+Mm-hmm.
+
+1360
+01:18:38.388 --> 01:18:38.488
+Or
+
+1361
+01:18:39.348 --> 01:18:40.548
+mild to moderate, which is-
+
+1362
+01:18:40.888 --> 01:18:41.048
+Mm-hmm.
+
+1363
+01:18:41.128 --> 01:18:42.848
+Affects a surprising number of people.
+
+1364
+01:18:43.068 --> 01:18:43.168
+Yeah.
+
+1365
+01:18:43.268 --> 01:18:44.108
+Like 40%.
+
+1366
+01:18:44.348 --> 01:18:45.248
+Yeah, definitely.
+
+1367
+01:18:46.308 --> 01:18:46.778
+Like most-
+
+1368
+01:18:46.828 --> 01:18:50.788
+And the sleep apnea tends to track with visceral adiposity also-
+
+1369
+01:18:51.488 --> 01:18:51.498
+Mm-hmm.
+
+1370
+01:18:51.508 --> 01:18:55.388
+Which creates another thing to try and dissect out of what we're
+
+1371
+01:18:55.428 --> 01:18:56.088
+really measuring.
+
+1372
+01:18:56.208 --> 01:18:56.448
+Mm-hmm.
+
+1373
+01:18:57.448 --> 01:18:58.648
+How are you thinking about
+
+1374
+01:18:59.568 --> 01:19:01.808
+extrapolating from what you've done in the lab?
+
+1375
+01:19:02.508 --> 01:19:05.528
+So like most things, no model is perfect.
+
+1376
+01:19:05.928 --> 01:19:09.128
+Whenever I try to implement... There are lots of different sleep deprivation models
+
+1377
+01:19:09.168 --> 01:19:11.428
+in the literature. There's the jet lag model.
+
+1378
+01:19:11.848 --> 01:19:15.348
+There is a model that specifically affects REM
+
+1379
+01:19:15.388 --> 01:19:18.888
+sleep. And so we were trying to
+
+1380
+01:19:18.948 --> 01:19:22.168
+model something that a human or a cancer patient would be
+
+1381
+01:19:22.208 --> 01:19:26.188
+experiencing. So I think that's something that we should consider or
+
+1382
+01:19:26.228 --> 01:19:30.132
+maybedo our chronic SD and maybe incorporate other models that will
+
+1383
+01:19:30.172 --> 01:19:31.832
+likely... But yeah, it's not perfect.
+
+1384
+01:19:31.892 --> 01:19:35.792
+It was meant to be more of an umbrella term, but not a specific sleep
+
+1385
+01:19:35.852 --> 01:19:39.652
+condition because, as you know more, there are many, like insomnia,
+
+1386
+01:19:39.732 --> 01:19:42.642
+sleep apnea, et cetera. So yeah, not a perfect model, but-
+
+1387
+01:19:43.312 --> 01:19:43.512
+Thank you.
+
+1388
+01:19:43.632 --> 01:19:44.012
+Thank you.
+
+1389
+01:19:44.772 --> 01:19:47.852
+So sleep deprivation affects microbiota.
+
+1390
+01:19:48.312 --> 01:19:49.992
+When you do FMT,
+
+1391
+01:19:51.352 --> 01:19:55.132
+do clock genes change in immune cells or in the
+
+1392
+01:19:55.172 --> 01:19:55.472
+tumor?
+
+1393
+01:19:56.192 --> 01:19:59.612
+So I didn't show it here, but we have preliminary findings just from the tumor
+
+1394
+01:19:59.732 --> 01:20:03.392
+RNA that BMAL1 was significantly altered in the
+
+1395
+01:20:03.512 --> 01:20:06.912
+SD recipient mice. But we want to do further studies and
+
+1396
+01:20:06.952 --> 01:20:10.892
+evaluate more of those changes in specifically other tissues other than just the
+
+1397
+01:20:10.912 --> 01:20:11.172
+tumor.
+
+1398
+01:20:13.252 --> 01:20:14.612
+Okay. Thank you so much.
+
+1399
+01:20:14.652 --> 01:20:15.672
+Thank you very much.
+
+1400
+01:20:19.522 --> 01:20:22.772
+Next, we're going to hear about obesity-induced
+
+1401
+01:20:22.992 --> 01:20:26.972
+changes in adipose tissue in ovarian cancer by
+
+1402
+01:20:27.032 --> 01:20:30.992
+Dr. Sophia Hou from San Diego
+
+1403
+01:20:31.172 --> 01:20:34.752
+State University. You didn't have to come very far.
+
+1404
+01:20:34.852 --> 01:20:35.211
+Yeah.
+
+1405
+01:20:36.712 --> 01:20:39.092
+Yeah, thank you for the introduction and the invitation.
+
+1406
+01:20:39.172 --> 01:20:43.112
+I am a PhD student, to clarify for the
+
+1407
+01:20:43.192 --> 01:20:47.142
+audience. But yeah, I'm very excited to present my work to you, "The
+
+1408
+01:20:47.312 --> 01:20:51.112
+Impact of Obesity-Induced Changes in Adipose Tissue on Ovarian
+
+1409
+01:20:51.172 --> 01:20:52.112
+Cancer Progression."
+
+1410
+01:20:53.552 --> 01:20:57.452
+So ovarian cancer is the most lethal gynecologic malignancy and can be
+
+1411
+01:20:57.512 --> 01:21:01.412
+categorized into four different stages, where stages one and two is
+
+1412
+01:21:01.452 --> 01:21:04.052
+where the cancer is confined within the pelvic region.
+
+1413
+01:21:04.672 --> 01:21:08.592
+And then in stages three and four, the cancer has now spread to
+
+1414
+01:21:08.652 --> 01:21:12.592
+the omentum, and the omentum is an abdominal fatty tissue sheet that
+
+1415
+01:21:12.652 --> 01:21:14.392
+covers the peritoneal cavity.
+
+1416
+01:21:15.462 --> 01:21:19.292
+And unfortunately, at stages three and four, this is where ovarian
+
+1417
+01:21:19.332 --> 01:21:22.612
+cancer is most frequently caught due to its
+
+1418
+01:21:22.622 --> 01:21:26.112
+nonspecific symptoms and lack of accurate predictive screening
+
+1419
+01:21:26.172 --> 01:21:29.552
+tests. So, this makes understanding the
+
+1420
+01:21:29.592 --> 01:21:33.032
+biology of metastatic colonization to the omentum
+
+1421
+01:21:33.772 --> 01:21:35.192
+increasingly important.
+
+1422
+01:21:36.972 --> 01:21:40.212
+When ovarian cancer metastasizes to the omentum, the
+
+1423
+01:21:42.192 --> 01:21:46.152
+ovarian cancer cells establish a complex tumor microenvironment
+
+1424
+01:21:46.232 --> 01:21:49.812
+enriched of the cancer cells, pre-adipocytes, adipocytes,
+
+1425
+01:21:50.192 --> 01:21:54.172
+immune cells, fibroblasts that are secreting its own extracellular matrix
+
+1426
+01:21:54.252 --> 01:21:56.532
+composed of collagen or fibronectin.
+
+1427
+01:21:57.182 --> 01:22:00.452
+And there is cell-to-cell communication in the forms of IGF-1,
+
+1428
+01:22:00.972 --> 01:22:04.212
+IL-6, or TNF alpha as examples. And
+
+1429
+01:22:04.612 --> 01:22:08.392
+pre-adipocytes are precursors to fat cells, and they make up
+
+1430
+01:22:08.432 --> 01:22:12.292
+15% to 50% of the stromal cell compartment and are
+
+1431
+01:22:12.392 --> 01:22:15.972
+an important component of visceral fat.
+
+1432
+01:22:16.592 --> 01:22:20.572
+And unlike lipid-rich adipocytes, their morphology is
+
+1433
+01:22:20.612 --> 01:22:24.242
+fibroblast-like, and their secretome is enriched in proinflammatory and
+
+1434
+01:22:24.292 --> 01:22:25.632
+tumor-supporting factors.
+
+1435
+01:22:26.892 --> 01:22:30.392
+So a previous graduate student wanted to understand the role of these
+
+1436
+01:22:30.412 --> 01:22:33.112
+pre-adipocytes in ovarian cancer tumor formation.
+
+1437
+01:22:33.152 --> 01:22:37.072
+And so she did a limiting dilution injection model
+
+1438
+01:22:37.132 --> 01:22:41.032
+where she injected 40 cancer cells to one pre-adipocyte, an equal
+
+1439
+01:22:41.112 --> 01:22:44.072
+ratio of one to one, and then a one to 40 ratio.
+
+1440
+01:22:44.542 --> 01:22:45.602
+And the
+
+1441
+01:22:47.752 --> 01:22:51.632
+injections of cancer cells alone were not able to form tumors,
+
+1442
+01:22:51.732 --> 01:22:55.612
+but with the presence of pre-adipocytes, this significantly enhanced
+
+1443
+01:22:55.672 --> 01:22:57.132
+tumor growth. And
+
+1444
+01:22:58.072 --> 01:23:01.972
+this one to 40 ratio is mimicking isolation stress, which
+
+1445
+01:23:02.052 --> 01:23:05.752
+is a condition characteristic of metastasizing cells
+
+1446
+01:23:06.152 --> 01:23:09.452
+that are colonizing the omentum where there is an abundance of pre-adipocytes.
+
+1447
+01:23:10.312 --> 01:23:14.141
+And we further validated with injections of mature adipocytes
+
+1448
+01:23:14.172 --> 01:23:17.862
+that both pre-adipocytes and mature adipocytes are generating
+
+1449
+01:23:17.932 --> 01:23:20.832
+tumors similarly, as well as tumor growth.
+
+1450
+01:23:21.452 --> 01:23:24.792
+And the cells were then subjected to
+
+1451
+01:23:24.812 --> 01:23:28.152
+co-cultures between pre-adipocytes and adipocytes,
+
+1452
+01:23:28.612 --> 01:23:29.852
+and there were significant
+
+1453
+01:23:30.752 --> 01:23:34.392
+hits for cellular response to stress and extracellular matrix
+
+1454
+01:23:34.612 --> 01:23:38.032
+organization, as well as regulation of IGF
+
+1455
+01:23:38.092 --> 01:23:42.012
+transport. And I want to emphasize that this RNA
+
+1456
+01:23:42.052 --> 01:23:44.891
+was taken from the cancer cells in co-culture.
+
+1457
+01:23:46.292 --> 01:23:49.932
+And specifically here, these pre-adipocytes enrich
+
+1458
+01:23:49.942 --> 01:23:50.352
+this
+
+1459
+01:23:51.492 --> 01:23:55.092
+phenotype implicating insulin-like growth factor signaling
+
+1460
+01:23:55.112 --> 01:23:56.652
+important for these cancer cells.
+
+1461
+01:23:57.332 --> 01:24:01.292
+And IGF has vital effects on proliferation and survival,
+
+1462
+01:24:01.332 --> 01:24:03.682
+and it was indeed increased in co-culture
+
+1463
+01:24:04.612 --> 01:24:06.582
+with pre-adipocytes. And
+
+1464
+01:24:07.532 --> 01:24:11.152
+IGF stimulation on cancer cells increased ECM
+
+1465
+01:24:11.532 --> 01:24:13.972
+remodeling genes like collagen and fibronectin.
+
+1466
+01:24:14.862 --> 01:24:18.392
+And in my preliminary experiments, I'm finding that
+
+1467
+01:24:18.472 --> 01:24:21.872
+IGF is working in both nutrient-full and nutrient-depleted
+
+1468
+01:24:21.912 --> 01:24:25.532
+conditions, activating phosphorylated AKT as well
+
+1469
+01:24:25.592 --> 01:24:29.332
+as phosphorylated p65, which is associated with the
+
+1470
+01:24:29.372 --> 01:24:31.872
+classical NF Kappa B pathway.
+
+1471
+01:24:34.072 --> 01:24:35.492
+And obesity
+
+1472
+01:24:36.632 --> 01:24:40.232
+increases the risk for several cancers, including ovarian, and its
+
+1473
+01:24:40.252 --> 01:24:43.692
+dysfunctional adipose tissue creates a special and
+
+1474
+01:24:43.772 --> 01:24:47.552
+permissive niche for ovarian cancer to spread and thrive.
+
+1475
+01:24:48.212 --> 01:24:52.152
+And in an obesity mouse model, these researchers found that
+
+1476
+01:24:52.192 --> 01:24:55.852
+there was increased metastasis to the omentum as well as to the
+
+1477
+01:24:55.892 --> 01:24:59.632
+mesentery, and these are adipose-rich sites.
+
+1478
+01:25:00.252 --> 01:25:03.242
+And in a different study, these
+
+1479
+01:25:03.272 --> 01:25:07.172
+omental adipose tissue were taken from obese and
+
+1480
+01:25:07.212 --> 01:25:11.092
+morbidly obese patients, and there was increased IGF expression as
+
+1481
+01:25:11.132 --> 01:25:14.032
+well as activation of the IGF receptor.
+
+1482
+01:25:14.092 --> 01:25:17.852
+So all of these potential links led us to want to understand this
+
+1483
+01:25:17.912 --> 01:25:21.482
+obesity-mediated IGF
+
+1484
+01:25:21.592 --> 01:25:24.232
+signaling in ovarian cancer metastasis.
+
+1485
+01:25:24.272 --> 01:25:27.312
+So I have hypothesized that obesity increases
+
+1486
+01:25:27.332 --> 01:25:31.212
+pre-adipocyte-mediated activation of IGF-1 signaling
+
+1487
+01:25:31.272 --> 01:25:31.932
+to enhance
+
+1488
+01:25:32.772 --> 01:25:36.664
+ovarian cancer growth and metastatic ability.So to
+
+1489
+01:25:36.674 --> 01:25:40.414
+test my hypothesis, I obtained normal BMI preadipocytes
+
+1490
+01:25:40.444 --> 01:25:44.364
+from female donors or a female donor, and high
+
+1491
+01:25:44.444 --> 01:25:46.564
+BMI preadipocytes from a different female donor.
+
+1492
+01:25:47.184 --> 01:25:51.144
+And I did either a co-culture or a co-injection model
+
+1493
+01:25:51.304 --> 01:25:54.804
+with GFP-labeled cancer cells. And
+
+1494
+01:25:55.184 --> 01:25:58.844
+for the tumor model, I processed the tumors with FAC sorting
+
+1495
+01:25:58.904 --> 01:26:02.604
+and also prepared tumor lysates. And for the tumor
+
+1496
+01:26:02.684 --> 01:26:06.424
+model, I collected at an early time point during the tumor's
+
+1497
+01:26:06.464 --> 01:26:10.224
+exponential growth phase, as well as a clinical endpoint.
+
+1498
+01:26:10.824 --> 01:26:11.064
+And
+
+1499
+01:26:12.284 --> 01:26:16.224
+normal BMI and high BMI preadipocyte injections generated tumors
+
+1500
+01:26:16.304 --> 01:26:16.984
+similarly.
+
+1501
+01:26:18.624 --> 01:26:22.504
+But at the early time point, the high BMI preadipocytes
+
+1502
+01:26:22.544 --> 01:26:26.484
+had a significant increase in growth relative to injections of
+
+1503
+01:26:26.524 --> 01:26:30.364
+cancer cells alone. And over the course of the whole study,
+
+1504
+01:26:30.644 --> 01:26:33.864
+the high BMI preadipocytes had a decrease in the
+
+1505
+01:26:33.984 --> 01:26:35.524
+probability of survival.
+
+1506
+01:26:38.064 --> 01:26:41.444
+When I collected these tumors for FAC sorting, I found that there was
+
+1507
+01:26:41.523 --> 01:26:45.304
+an equal abundance of GFP-positive cells within the tumors.
+
+1508
+01:26:45.724 --> 01:26:48.854
+So I collected these cells for RNA, and I did a qPCR.
+
+1509
+01:26:49.564 --> 01:26:49.914
+And
+
+1510
+01:26:50.784 --> 01:26:54.484
+I tested for SOX2 gene expression, and I found that there was an
+
+1511
+01:26:54.544 --> 01:26:58.104
+increase in the normal and high BMI
+
+1512
+01:26:58.224 --> 01:27:02.124
+setting. And this was interesting to us because SOX2 has
+
+1513
+01:27:02.164 --> 01:27:05.244
+been indicative of these tumor-initiating cell
+
+1514
+01:27:05.324 --> 01:27:09.204
+populations. And then at the later time points,
+
+1515
+01:27:09.264 --> 01:27:12.964
+there was a significant increase in the high BMI preadipocyte
+
+1516
+01:27:13.004 --> 01:27:16.724
+group. So this data is suggesting that the preadipocytes
+
+1517
+01:27:16.924 --> 01:27:20.804
+are enhancing tumor initiation through SOX2 potentially,
+
+1518
+01:27:20.904 --> 01:27:24.604
+but the high BMI preadipocytes are enhancing
+
+1519
+01:27:24.784 --> 01:27:26.984
+ECM remodeling through fibronectin.
+
+1520
+01:27:28.924 --> 01:27:32.904
+In co-culture, I found that there was increased IGF secretion
+
+1521
+01:27:33.684 --> 01:27:36.704
+between both normal and high BMI preadipocytes.
+
+1522
+01:27:37.744 --> 01:27:40.604
+And then in the tumor lysates, I found a trending increase of
+
+1523
+01:27:40.624 --> 01:27:43.444
+phosphorylated NF-kappa B activity.
+
+1524
+01:27:43.964 --> 01:27:47.864
+But as far as the non-canonical NF-kappa B, RelB
+
+1525
+01:27:47.964 --> 01:27:51.664
+processing, I found that it was high in the late tumors, but there were
+
+1526
+01:27:51.764 --> 01:27:52.044
+no
+
+1527
+01:27:52.864 --> 01:27:54.424
+clear differences among the groups.
+
+1528
+01:27:54.884 --> 01:27:58.184
+So this data, along with my preliminary serum
+
+1529
+01:27:58.844 --> 01:28:01.124
+deprivation experiments and IGF stimulation,
+
+1530
+01:28:02.964 --> 01:28:06.744
+indicate that IGF may provide a survival advantage through
+
+1531
+01:28:07.084 --> 01:28:10.564
+phosphorylated p65, and this may be
+
+1532
+01:28:10.584 --> 01:28:12.444
+modulated by the OB setting.
+
+1533
+01:28:14.404 --> 01:28:18.364
+I collected conditioned media from these preadipocytes, and I did
+
+1534
+01:28:18.444 --> 01:28:22.344
+a cytokine array, and I found that there was an increase in
+
+1535
+01:28:22.414 --> 01:28:26.374
+pro-inflammatory factors such as IL-6 or MCP-1, as well as
+
+1536
+01:28:26.424 --> 01:28:30.224
+increase in growth factors like HGF and
+
+1537
+01:28:30.344 --> 01:28:33.724
+FGF. But in the normal BMI setting, there
+
+1538
+01:28:33.764 --> 01:28:37.724
+was increased IGFBP binding proteins, and this
+
+1539
+01:28:37.804 --> 01:28:38.164
+is
+
+1540
+01:28:39.084 --> 01:28:42.864
+indicating that since these binding proteins are inhibiting
+
+1541
+01:28:42.964 --> 01:28:46.344
+free IGF-1, there may be more
+
+1542
+01:28:46.404 --> 01:28:49.104
+bioavailable IGF in the OB setting.
+
+1543
+01:28:50.864 --> 01:28:51.244
+So
+
+1544
+01:28:52.144 --> 01:28:56.084
+to summarize this talk, I found that IGF signaling
+
+1545
+01:28:56.144 --> 01:28:59.904
+is driving omental colonization by inducing NF-kappa B
+
+1546
+01:28:59.924 --> 01:29:03.584
+transcription factor activity, that these obesity-induced
+
+1547
+01:29:03.624 --> 01:29:07.053
+changes in preadipocytes are contributing to early tumor growth
+
+1548
+01:29:07.464 --> 01:29:10.644
+and a decreased survival probability in the mice,
+
+1549
+01:29:11.604 --> 01:29:15.504
+and that the high BMI environment may drive tumor initiation through
+
+1550
+01:29:15.544 --> 01:29:19.524
+SOX2 expression, as well as enhancing tumor survival
+
+1551
+01:29:19.684 --> 01:29:22.224
+and ECM remodeling through fibronectin.
+
+1552
+01:29:23.984 --> 01:29:27.944
+And my current goal right now will be to define
+
+1553
+01:29:27.984 --> 01:29:31.784
+the mechanistic role of IGF in an obesity-induced metastatic
+
+1554
+01:29:31.984 --> 01:29:35.704
+potential model in vivo. So with that, I would like
+
+1555
+01:29:35.764 --> 01:29:37.824
+to acknowledge my lab and
+
+1556
+01:29:38.624 --> 01:29:41.024
+my committee members, as well as our funding resources.
+
+1557
+01:29:41.144 --> 01:29:44.624
+And thank you to AACR for providing this opportunity to speak here.
+
+1558
+01:29:44.884 --> 01:29:45.884
+Thank you for your attention.
+
+1559
+01:29:52.144 --> 01:29:52.963
+Questions, please.
+
+1560
+01:29:54.324 --> 01:29:55.764
+Very nice talk. I
+
+1561
+01:29:56.704 --> 01:30:00.364
+have been thinking as you were speaking, and actually in some of the
+
+1562
+01:30:00.444 --> 01:30:04.264
+other talks, there seems to be a
+
+1563
+01:30:04.324 --> 01:30:08.224
+controversy emerging about the type of fat
+
+1564
+01:30:08.284 --> 01:30:12.104
+that matters, and I guess I'm thinking about brown or
+
+1565
+01:30:12.124 --> 01:30:15.124
+beige fat versus the white adipose tissue.
+
+1566
+01:30:15.664 --> 01:30:19.014
+And I wonder if that question is something that
+
+1567
+01:30:19.084 --> 01:30:22.344
+impacts the work you're doing. Does it matter-
+
+1568
+01:30:22.784 --> 01:30:22.964
+Mm-hmm
+
+1569
+01:30:23.004 --> 01:30:26.684
+... what type of adipocyte we're talking about in terms of fat
+
+1570
+01:30:26.744 --> 01:30:27.234
+tissue?
+
+1571
+01:30:27.784 --> 01:30:31.224
+Yeah. Both brown and white adipose tissue have different
+
+1572
+01:30:31.804 --> 01:30:33.544
+thermogenic properties-
+
+1573
+01:30:33.624 --> 01:30:34.464
+Right
+
+1574
+01:30:35.204 --> 01:30:36.664
+... for the body. But
+
+1575
+01:30:37.644 --> 01:30:40.744
+as far as the adiposity of the
+
+1576
+01:30:41.064 --> 01:30:45.044
+individual, I think, yeah, my preadipocytes are from higher normal
+
+1577
+01:30:45.084 --> 01:30:46.384
+BMI patients,
+
+1578
+01:30:47.764 --> 01:30:50.874
+but I think there can be a better clear distinction of
+
+1579
+01:30:51.604 --> 01:30:54.924
+this visceral adiposity versus a-
+
+1580
+01:30:55.004 --> 01:30:55.014
+Mm
+
+1581
+01:30:55.014 --> 01:30:58.584
+... general increase in BMI. And I think that
+
+1582
+01:30:58.664 --> 01:31:02.584
+incorporating a better metric along with BMI, such
+
+1583
+01:31:02.624 --> 01:31:05.424
+as waist-to-hip ratio or waist circumference,
+
+1584
+01:31:06.264 --> 01:31:10.224
+for these ovarian cancer patients may be indicative of maybe their
+
+1585
+01:31:10.524 --> 01:31:13.264
+metastatic prognosis. So, yeah.
+
+1586
+01:31:16.044 --> 01:31:18.104
+And another question I had. So
+
+1587
+01:31:18.984 --> 01:31:22.944
+adipocytes are also known to interact with immune cells and sort
+
+1588
+01:31:22.984 --> 01:31:25.784
+of educate immune cells in environment.
+
+1589
+01:31:25.824 --> 01:31:27.144
+And IGF-1
+
+1590
+01:31:28.204 --> 01:31:31.924
+data is clear that adipocytes can release it, affect
+
+1591
+01:31:31.964 --> 01:31:35.264
+cancer cells, and so on. Do you consider any role
+
+1592
+01:31:35.864 --> 01:31:37.244
+in immune education?
+
+1593
+01:31:37.904 --> 01:31:38.344
+Mm-hmm.
+
+1594
+01:31:39.684 --> 01:31:43.600
+Yeah, I think with-From my preliminary data, I'm also
+
+1595
+01:31:43.700 --> 01:31:47.380
+seeing that mature adipocytes also secrete IGF-1, yes.
+
+1596
+01:31:47.740 --> 01:31:48.940
+But with the immune
+
+1597
+01:31:49.740 --> 01:31:53.700
+crosstalk, I have not dove straight into that
+
+1598
+01:31:53.780 --> 01:31:57.580
+just yet. But with these preliminary cytokine arrays, it's
+
+1599
+01:31:57.980 --> 01:32:01.940
+indicating that, and also this classical NF-kappa B activation that
+
+1600
+01:32:01.980 --> 01:32:02.560
+I'm seeing
+
+1601
+01:32:03.560 --> 01:32:07.300
+with the high BMI, it could definitely lead me down
+
+1602
+01:32:07.360 --> 01:32:11.020
+towards that way too. So that's something I will be unraveling
+
+1603
+01:32:11.540 --> 01:32:12.480
+in my mouse model.
+
+1604
+01:32:14.960 --> 01:32:15.120
+Yes.
+
+1605
+01:32:15.180 --> 01:32:16.520
+Hi, that was a really interesting talk.
+
+1606
+01:32:16.580 --> 01:32:20.480
+I was just curious if right now you have it kind of bended low onto normal and high
+
+1607
+01:32:20.560 --> 01:32:20.940
+BMI.
+
+1608
+01:32:21.060 --> 01:32:21.310
+Mm-hmm.
+
+1609
+01:32:21.350 --> 01:32:25.340
+But have you gone through and maybe plot the BMI individually and see if
+
+1610
+01:32:25.380 --> 01:32:27.880
+there's a dose response for increasing BMI?
+
+1611
+01:32:30.360 --> 01:32:34.240
+No, I have not. Because the background data that I
+
+1612
+01:32:34.280 --> 01:32:37.800
+was showing, the morbidly obese setting significantly enriched for
+
+1613
+01:32:37.880 --> 01:32:38.860
+IGF, yeah.
+
+1614
+01:32:39.920 --> 01:32:40.920
+But I have not
+
+1615
+01:32:41.720 --> 01:32:44.890
+dove into a dose, like if you're underweight
+
+1616
+01:32:45.640 --> 01:32:47.600
+versus overweight versus obese and morbid.
+
+1617
+01:32:47.800 --> 01:32:49.700
+I have not gone into that just yet, yeah.
+
+1618
+01:32:49.720 --> 01:32:49.830
+Mm-hmm.
+
+1619
+01:32:49.970 --> 01:32:50.650
+Great question, though.
+
+1620
+01:32:50.650 --> 01:32:50.980
+Thank you.
+
+1621
+01:32:56.280 --> 01:32:59.240
+In addition to
+
+1622
+01:32:59.500 --> 01:33:01.060
+IGF-1, any role
+
+1623
+01:33:02.520 --> 01:33:06.420
+for metabolites released from adipocytes?
+
+1624
+01:33:06.780 --> 01:33:07.140
+Mm.
+
+1625
+01:33:07.300 --> 01:33:10.940
+What they can provide to cancer cells to make survival
+
+1626
+01:33:11.040 --> 01:33:11.380
+better.
+
+1627
+01:33:11.980 --> 01:33:12.420
+Mm-hmm.
+
+1628
+01:33:16.620 --> 01:33:20.600
+When we knock down RelB
+
+1629
+01:33:20.740 --> 01:33:24.520
+expression, we see changes in lipid metabolism
+
+1630
+01:33:24.720 --> 01:33:27.720
+in cancer cells, which is very interesting.
+
+1631
+01:33:28.360 --> 01:33:31.920
+But I have not gone into
+
+1632
+01:33:32.040 --> 01:33:35.560
+the BMI story of that yet, whether an
+
+1633
+01:33:36.240 --> 01:33:40.060
+enrichment of lipids and an abundance of adipocytes
+
+1634
+01:33:40.080 --> 01:33:43.960
+there, whether if we inject cells with RelA knockdown or RelB
+
+1635
+01:33:44.100 --> 01:33:47.580
+knockdown, whether that can change. But yeah, very interesting point.
+
+1636
+01:33:48.000 --> 01:33:49.840
+Yes.
+
+1637
+01:33:51.220 --> 01:33:55.100
+In the high BMI patients, frequently, patients
+
+1638
+01:33:55.140 --> 01:33:56.240
+have insulin resistance.
+
+1639
+01:33:56.540 --> 01:33:56.790
+Mm-hmm.
+
+1640
+01:33:57.520 --> 01:34:01.290
+And the insulin-resistant patients, fat is releasing
+
+1641
+01:34:01.400 --> 01:34:04.540
+fatty acids, and you get an inflammatory milieu.
+
+1642
+01:34:05.680 --> 01:34:06.860
+And so I'm just
+
+1643
+01:34:09.080 --> 01:34:12.720
+fascinated and interested that you were able to isolate
+
+1644
+01:34:12.880 --> 01:34:16.760
+IGF-1 in the sort of vast interconnectedness
+
+1645
+01:34:16.820 --> 01:34:18.340
+of metabolism and inflammation.
+
+1646
+01:34:18.700 --> 01:34:22.580
+Mm-hmm. Yeah, I think as far as fatty acids
+
+1647
+01:34:22.640 --> 01:34:26.560
+go, it's been published in ovarian cancer that FABP4
+
+1648
+01:34:26.570 --> 01:34:30.340
+is an integral mediator of fatty acid intake
+
+1649
+01:34:30.380 --> 01:34:33.740
+into the cancer cells, and that this is mediated by the adipocytes.
+
+1650
+01:34:34.169 --> 01:34:37.740
+So what I'm really trying to unravel is the specific factors from
+
+1651
+01:34:37.780 --> 01:34:41.180
+pre-adipocytes that are less studied as mature
+
+1652
+01:34:41.220 --> 01:34:44.740
+adipocytes, and how they're able to regulate inflammation or
+
+1653
+01:34:45.120 --> 01:34:48.260
+potentially regulate metabolism in ovarian cancer
+
+1654
+01:34:48.460 --> 01:34:49.360
+metastasis.
+
+1655
+01:34:50.340 --> 01:34:53.100
+But yeah, very interesting point, and yeah.
+
+1656
+01:34:55.760 --> 01:34:56.520
+Just one other question. I
+
+1657
+01:34:57.500 --> 01:35:00.080
+noticed adiponectin was low-
+
+1658
+01:35:00.580 --> 01:35:00.900
+Mm-hmm.
+
+1659
+01:35:01.060 --> 01:35:05.020
+in these patients. Have you thought about using
+
+1660
+01:35:05.080 --> 01:35:08.160
+the drug that stimulates PPAR gamma
+
+1661
+01:35:08.240 --> 01:35:11.380
+to see if you can compensate that?
+
+1662
+01:35:11.820 --> 01:35:15.600
+We do have that in the lab. I've mainly been using it for
+
+1663
+01:35:15.620 --> 01:35:17.580
+adipogenesis studies
+
+1664
+01:35:18.400 --> 01:35:20.840
+for pre-adipocytes to adipocytes.
+
+1665
+01:35:21.360 --> 01:35:21.780
+But
+
+1666
+01:35:22.940 --> 01:35:24.560
+I think that would be interesting to
+
+1667
+01:35:26.360 --> 01:35:30.100
+further interrogate the role of PPAR gamma signaling and maybe
+
+1668
+01:35:30.140 --> 01:35:34.020
+with NF-kappa B too, if there's an interplay in metabolisms, yeah.
+
+1669
+01:35:35.040 --> 01:35:35.320
+Thanks.
+
+1670
+01:35:35.700 --> 01:35:36.060
+Thank you.
+
+1671
+01:35:37.020 --> 01:35:38.220
+Okay, thank you so much.
+
+1672
+01:35:43.520 --> 01:35:47.100
+So I believe our final speaker for today is Aram Liu
+
+1673
+01:35:47.660 --> 01:35:51.540
+from Fred Hutch Cancer Center, and he will talk about
+
+1674
+01:35:51.620 --> 01:35:55.560
+immunotherapy resistance to bone metastasis mediated
+
+1675
+01:35:55.660 --> 01:35:57.820
+by myeloid-driven mechanisms.
+
+1676
+01:35:58.700 --> 01:36:02.440
+I thank the organizers for this opportunity. My name is Aram Liu.
+
+1677
+01:36:02.460 --> 01:36:04.430
+I'm a post-doctoral fellow under the mentorship of Dr.
+
+1678
+01:36:04.550 --> 01:36:06.660
+Larry Fong at Fred Hutch Cancer Center.
+
+1679
+01:36:07.340 --> 01:36:11.300
+Today, I'll be presenting how myeloid cell-mediated immunotherapy
+
+1680
+01:36:11.380 --> 01:36:15.020
+resistance mechanisms evolve during prostate cancer progression,
+
+1681
+01:36:15.160 --> 01:36:17.600
+particularly in bone metastasis.
+
+1682
+01:36:19.100 --> 01:36:20.300
+I have nothing to disclose.
+
+1683
+01:36:21.800 --> 01:36:25.060
+Prostate cancer is among the most common male malignancies.
+
+1684
+01:36:25.580 --> 01:36:28.960
+Although immunotherapies, including immune checkpoint blockade, have
+
+1685
+01:36:29.060 --> 01:36:32.940
+revolutionized cancer treatment, patients with advanced prostate
+
+1686
+01:36:32.980 --> 01:36:36.820
+cancer remain largely unresponsive to these therapeutic
+
+1687
+01:36:36.880 --> 01:36:40.860
+options. For example, patients treated with atezolizumab,
+
+1688
+01:36:40.960 --> 01:36:44.680
+which is PD-L1 blockade, shown in blue, showed marginal
+
+1689
+01:36:44.760 --> 01:36:47.900
+efficacy compared to those treated with control arms.
+
+1690
+01:36:49.460 --> 01:36:53.300
+This therapeutic resistance is partly due
+
+1691
+01:36:53.340 --> 01:36:56.560
+to the presence of immunosuppressive tumor microenvironment.
+
+1692
+01:36:57.040 --> 01:37:00.500
+Particularly, tumor-associated myeloid cells are
+
+1693
+01:37:00.580 --> 01:37:03.380
+encouraging and promising immunotherapeutic targets.
+
+1694
+01:37:04.220 --> 01:37:07.840
+It's been well reported that immunosuppressive myeloid cells,
+
+1695
+01:37:07.960 --> 01:37:11.900
+including macrophages on the left and another suppressing
+
+1696
+01:37:11.940 --> 01:37:15.820
+myeloid population called myeloid-derived suppressor cells, become
+
+1697
+01:37:15.880 --> 01:37:19.040
+significantly enriched during prostate cancer progression.
+
+1698
+01:37:19.880 --> 01:37:23.760
+However, efforts to target these myeloid cells broadly, such as
+
+1699
+01:37:23.780 --> 01:37:27.720
+with CSFR1 receptor blockade, showed minimal efficacy
+
+1700
+01:37:27.740 --> 01:37:28.580
+in patients.
+
+1701
+01:37:29.720 --> 01:37:32.780
+So our lab hypothesized that if we
+
+1702
+01:37:32.860 --> 01:37:35.790
+identify distinct immunosuppressive myeloid
+
+1703
+01:37:35.860 --> 01:37:39.720
+subpopulations that signals a resolution, we may be able to
+
+1704
+01:37:39.760 --> 01:37:41.500
+enhance immunotherapy efficacy in
+
+1705
+01:37:41.620 --> 01:37:45.010
+patients.To address this question,
+
+1706
+01:37:45.460 --> 01:37:48.860
+we have previously investigated the primary tumor
+
+1707
+01:37:48.880 --> 01:37:52.740
+biopsies across multiple stages and identified
+
+1708
+01:37:52.760 --> 01:37:56.360
+a distinct macrophage population expressing elevated
+
+1709
+01:37:56.420 --> 01:37:59.920
+levels of SPP1 transcript, which encodes the protein
+
+1710
+01:37:59.980 --> 01:38:00.800
+osteopontin.
+
+1711
+01:38:02.000 --> 01:38:05.540
+These macrophages become significantly enriched during disease
+
+1712
+01:38:05.620 --> 01:38:09.100
+progression with enriched immunosuppressive molecular
+
+1713
+01:38:09.200 --> 01:38:09.800
+programs.
+
+1714
+01:38:10.760 --> 01:38:14.580
+Through preclinical studies, we demonstrated
+
+1715
+01:38:14.590 --> 01:38:18.560
+that these macrophages drive immunotherapy resistance, shown
+
+1716
+01:38:18.600 --> 01:38:22.020
+in blue versus red, via adenosine signaling
+
+1717
+01:38:22.080 --> 01:38:25.900
+pathways. So these findings inform the clinical trial
+
+1718
+01:38:26.400 --> 01:38:29.620
+showing that blockade of adenosine receptor
+
+1719
+01:38:30.120 --> 01:38:33.940
+synergize with atezolizumab, shown in red, compared to
+
+1720
+01:38:33.980 --> 01:38:36.820
+monotherapies. And these macrophage
+
+1721
+01:38:37.000 --> 01:38:40.860
+population may serve as predictive biomarkers.
+
+1722
+01:38:42.300 --> 01:38:45.860
+Although these longitudinal studies have provided
+
+1723
+01:38:46.020 --> 01:38:47.800
+significant clinical insights,
+
+1724
+01:38:50.440 --> 01:38:54.080
+these findings were primarily derived from primary
+
+1725
+01:38:54.100 --> 01:38:54.700
+tumors.
+
+1726
+01:38:56.140 --> 01:38:59.660
+And prostate cancer tend to spread to multiple organs,
+
+1727
+01:38:59.900 --> 01:39:03.260
+including bone, liver, and lymph nodes.
+
+1728
+01:39:03.300 --> 01:39:06.860
+And given majority of patients ultimately succumb to metastatic
+
+1729
+01:39:06.940 --> 01:39:10.860
+disease, we hypothesize that if we characterize
+
+1730
+01:39:10.900 --> 01:39:14.500
+myeloid departments across multiple metastatic organs,
+
+1731
+01:39:14.880 --> 01:39:18.660
+we may be able to distinct these immunotherapeutic targets.
+
+1732
+01:39:20.120 --> 01:39:23.940
+To address this question, we added more primary biopsies,
+
+1733
+01:39:24.200 --> 01:39:28.010
+particularly from metastatic organs, to existing single
+
+1734
+01:39:28.100 --> 01:39:31.700
+cell transcriptomes and conducted further transcriptional
+
+1735
+01:39:31.760 --> 01:39:32.520
+analysis.
+
+1736
+01:39:34.360 --> 01:39:38.300
+We found that a distinct organ has a unique
+
+1737
+01:39:39.180 --> 01:39:42.860
+immune and non-immune environment, notably bone
+
+1738
+01:39:42.900 --> 01:39:46.340
+metastasis, which is the most common organ of
+
+1739
+01:39:47.300 --> 01:39:50.720
+prostate cancer spread, showed a unique tumor
+
+1740
+01:39:50.780 --> 01:39:54.559
+microenvironment with neutrophils as a dominant component,
+
+1741
+01:39:54.619 --> 01:39:55.500
+shown in green.
+
+1742
+01:39:57.280 --> 01:40:01.060
+Importantly, we found that SPP1 high macrophages
+
+1743
+01:40:01.120 --> 01:40:05.020
+that we reported showed a marginal scarcity
+
+1744
+01:40:05.600 --> 01:40:08.960
+in bone metastasis compared to soft tissue sites,
+
+1745
+01:40:09.400 --> 01:40:13.020
+highlighting the need for organ-specific investigations.
+
+1746
+01:40:13.920 --> 01:40:17.680
+So we hypothesize that single cell characterization of myeloid
+
+1747
+01:40:17.740 --> 01:40:21.620
+cells, particularly neutrophils in bone metastasis, may
+
+1748
+01:40:21.660 --> 01:40:23.520
+reveal immunotherapeutic targets.
+
+1749
+01:40:25.340 --> 01:40:29.300
+To address this question, we combined prostate cancer bone
+
+1750
+01:40:29.380 --> 01:40:33.360
+biopsies with tumor-free bone samples and then performed further
+
+1751
+01:40:33.500 --> 01:40:34.720
+single-cell analysis.
+
+1752
+01:40:35.520 --> 01:40:38.760
+We identify multiple neutrophil subpopulations
+
+1753
+01:40:39.200 --> 01:40:41.640
+corresponding to their developmental trajectories.
+
+1754
+01:40:42.480 --> 01:40:46.400
+Notably, a mature neutrophil with elevated
+
+1755
+01:40:46.480 --> 01:40:49.740
+expression of IL1B became
+
+1756
+01:40:49.840 --> 01:40:53.100
+significantly enriched in tumor bone biopsies,
+
+1757
+01:40:53.700 --> 01:40:57.200
+and we orthogonally confirmed their presence at protein levels
+
+1758
+01:40:57.560 --> 01:40:58.840
+in bone biopsies.
+
+1759
+01:41:00.740 --> 01:41:04.580
+Using a published gene signature of immune suppression, we found that
+
+1760
+01:41:04.640 --> 01:41:08.480
+our target neutrophils show elevated immune-suppressive molecular
+
+1761
+01:41:08.500 --> 01:41:11.540
+programs compared to other neutrophil subpopulations.
+
+1762
+01:41:13.000 --> 01:41:16.640
+So we hypothesize that these IL1B mature
+
+1763
+01:41:16.700 --> 01:41:20.220
+neutrophil may play a critical role in driving immunotherapy
+
+1764
+01:41:20.280 --> 01:41:23.040
+resistance in prostate cancer bone metastasis.
+
+1765
+01:41:25.020 --> 01:41:28.580
+To investigate in more detail, we utilize preclinical models.
+
+1766
+01:41:29.340 --> 01:41:32.560
+We developed intraosseous prostate cancer model by
+
+1767
+01:41:32.640 --> 01:41:36.400
+engrafting syngenic mouse prostate cancer directly into the
+
+1768
+01:41:36.460 --> 01:41:36.870
+tibia.
+
+1769
+01:41:38.380 --> 01:41:42.200
+We collected the cells from tumor-bearing bones and then conducted
+
+1770
+01:41:42.320 --> 01:41:45.640
+single cell profiling along with characterization of
+
+1771
+01:41:46.540 --> 01:41:47.740
+cell surface antigen.
+
+1772
+01:41:48.900 --> 01:41:52.560
+Using systemic cross-transcriptional comparisons
+
+1773
+01:41:52.640 --> 01:41:56.520
+between the species, we found analogous mature neutrophils
+
+1774
+01:41:56.540 --> 01:42:00.300
+in our intraosseous models. And consistent with human
+
+1775
+01:42:00.340 --> 01:42:04.280
+data, our target neutrophils show elevated immune-suppressive
+
+1776
+01:42:04.300 --> 01:42:08.040
+molecular programs, suggesting that these neutrophils are well
+
+1777
+01:42:08.080 --> 01:42:09.800
+recapitulated in our model.
+
+1778
+01:42:12.300 --> 01:42:16.240
+Using cell surface markers revealed by our multi-omics
+
+1779
+01:42:16.280 --> 01:42:19.800
+sequencing, including CD62L and CXCR2,
+
+1780
+01:42:20.360 --> 01:42:23.760
+we successfully confirmed their presence at protein levels.
+
+1781
+01:42:24.700 --> 01:42:28.540
+To test whether they are immunosuppressive, we isolated these
+
+1782
+01:42:28.580 --> 01:42:32.180
+neutrophils and co-cultured them with activated
+
+1783
+01:42:32.240 --> 01:42:33.280
+CD8 T cells.
+
+1784
+01:42:34.200 --> 01:42:38.049
+The horizontal axis represents proliferation of T cells, and
+
+1785
+01:42:38.120 --> 01:42:41.660
+we found that these neutrophils potently suppress T cell
+
+1786
+01:42:41.940 --> 01:42:45.300
+proliferation and activation, at least in culture.
+
+1787
+01:42:47.440 --> 01:42:51.100
+To test the relevance in vivo, we generated two cohorts of
+
+1788
+01:42:51.180 --> 01:42:54.240
+mice, one with subcutaneous prostate cancer,
+
+1789
+01:42:54.900 --> 01:42:57.440
+another with intraosseous prostate cancer.
+
+1790
+01:42:58.380 --> 01:43:02.180
+It's been well reported that subcutaneously engrafted prostate cancer
+
+1791
+01:43:02.220 --> 01:43:06.160
+respond to immune checkpoint blockade, shown in gray versus
+
+1792
+01:43:06.240 --> 01:43:09.560
+red. So we reasoned that if our target
+
+1793
+01:43:09.620 --> 01:43:13.580
+neutrophils drive immunotherapy resistance, if we
+
+1794
+01:43:13.640 --> 01:43:16.900
+transfer these neutrophils from intraosseous prostate
+
+1795
+01:43:16.940 --> 01:43:20.850
+cancer into subcutaneous prostate cancer, then
+
+1796
+01:43:20.880 --> 01:43:24.760
+this introduction may confer therapeutic
+
+1797
+01:43:24.780 --> 01:43:28.500
+resistance. Indeed, when we introduced our
+
+1798
+01:43:28.560 --> 01:43:32.500
+target neutrophils, those subcutaneous tumors significantly
+
+1799
+01:43:32.580 --> 01:43:32.980
+became
+
+1800
+01:43:34.060 --> 01:43:37.680
+resistant to immune checkpoint blockade, suggesting that our target
+
+1801
+01:43:37.720 --> 01:43:40.840
+neutrophils mediate resistance to checkpoint blockade in vivo.
+
+1802
+01:43:42.860 --> 01:43:46.520
+To investigate the molecular mechanisms, we carried out pathway
+
+1803
+01:43:46.530 --> 01:43:50.440
+analysis using differentially expressed genes and then crossed the
+
+1804
+01:43:50.480 --> 01:43:53.540
+species to identify conserved activation of the
+
+1805
+01:43:53.600 --> 01:43:57.184
+pathways.And we found that inflammation-related
+
+1806
+01:43:57.304 --> 01:44:01.064
+pathways were highly upregulated in our target neutrophils.
+
+1807
+01:44:01.824 --> 01:44:05.284
+And further computation analysis implicated IL-1
+
+1808
+01:44:05.324 --> 01:44:08.404
+receptor pathway as a key mechanism.
+
+1809
+01:44:09.364 --> 01:44:13.323
+To explore this possibility, we initiated co-culture of our
+
+1810
+01:44:13.364 --> 01:44:14.684
+target neutrophils with
+
+1811
+01:44:15.624 --> 01:44:19.524
+activated CD8 T cells in the presence or absence of CD1
+
+1812
+01:44:19.564 --> 01:44:23.504
+receptor blockade. Indeed, immune suppression mediated
+
+1813
+01:44:23.584 --> 01:44:27.544
+by our target neutrophils were significantly reduced following
+
+1814
+01:44:27.884 --> 01:44:29.544
+IL-1 receptor inhibition.
+
+1815
+01:44:31.464 --> 01:44:35.264
+To test the relevance in vivo, we developed intraosseous prostate
+
+1816
+01:44:35.304 --> 01:44:39.184
+cancer and treated the cohort with immune checkpoint blockade
+
+1817
+01:44:39.664 --> 01:44:43.103
+in the presence or absence of IL-1 receptor antagonist.
+
+1818
+01:44:44.364 --> 01:44:48.084
+Consistent with human data, immune checkpoint blockade alone showed
+
+1819
+01:44:48.144 --> 01:44:50.344
+minimal efficacy, shown in blue.
+
+1820
+01:44:51.184 --> 01:44:54.144
+And IL-1 receptor inhibition also didn't show
+
+1821
+01:44:54.804 --> 01:44:58.424
+significant impact. However, when we combined these
+
+1822
+01:44:58.464 --> 01:45:02.443
+together, tumor growth significantly reduced, suggesting that
+
+1823
+01:45:02.524 --> 01:45:06.424
+IL-1 receptor blockade can enhance immune checkpoint blockade efficacy
+
+1824
+01:45:06.504 --> 01:45:08.264
+in intraosseous prostate cancer.
+
+1825
+01:45:10.364 --> 01:45:14.084
+Lastly, to investigate clinical perspective, we
+
+1826
+01:45:14.164 --> 01:45:15.964
+analyzed a published
+
+1827
+01:45:16.784 --> 01:45:20.024
+symposium consortium data, including bone
+
+1828
+01:45:20.124 --> 01:45:20.884
+biopsies.
+
+1829
+01:45:21.724 --> 01:45:25.664
+We stratified the patients using our mature
+
+1830
+01:45:25.704 --> 01:45:29.524
+neutrophil signature scores, and we found the elevated
+
+1831
+01:45:30.224 --> 01:45:33.904
+target neutrophil signature scores are highly associated with
+
+1832
+01:45:34.104 --> 01:45:37.144
+reduced survival, shown in gray versus red.
+
+1833
+01:45:37.924 --> 01:45:41.404
+Moreover, our target neutrophil signature scores
+
+1834
+01:45:41.504 --> 01:45:45.204
+also significantly correlate with increased immune suppression,
+
+1835
+01:45:45.424 --> 01:45:49.364
+as well as inflammation-mediated immune suppression, suggesting that
+
+1836
+01:45:49.424 --> 01:45:53.083
+our preclinical findings well align with those patient
+
+1837
+01:45:53.804 --> 01:45:55.624
+perspective.
+
+1838
+01:45:57.084 --> 01:46:00.784
+In summary, our lab has identified a distinct
+
+1839
+01:46:00.884 --> 01:46:04.304
+mature neutrophil expressing elevated IL-1 beta
+
+1840
+01:46:04.364 --> 01:46:07.534
+transcript in prostate cancer bone metastases.
+
+1841
+01:46:08.124 --> 01:46:12.034
+These neutrophils are functionally immunosuppressive, and the blockade of
+
+1842
+01:46:12.084 --> 01:46:15.344
+inflammatory signals, particularly IL-1 receptor,
+
+1843
+01:46:15.724 --> 01:46:18.324
+enhance the efficacy of these therapeutic options.
+
+1844
+01:46:18.834 --> 01:46:22.444
+An elevated IL-1 beta high mature neutrophil signature scores
+
+1845
+01:46:22.764 --> 01:46:24.604
+correlate with inferior survival.
+
+1846
+01:46:26.024 --> 01:46:29.944
+With that, I'd like to thank Dr. Larry Fong for his unwavering support
+
+1847
+01:46:29.964 --> 01:46:33.484
+and mentorship, and I thank our lab members and
+
+1848
+01:46:33.544 --> 01:46:37.144
+longstanding collaborators. And last but not least, I thank
+
+1849
+01:46:37.364 --> 01:46:40.984
+our funding sources, particularly Prostate Cancer Foundation,
+
+1850
+01:46:41.264 --> 01:46:43.164
+for supporting this presentation.
+
+1851
+01:46:43.604 --> 01:46:45.804
+Thank you for listening and happy to take questions.
+
+1852
+01:46:52.024 --> 01:46:52.303
+Yeah.
+
+1853
+01:46:53.224 --> 01:46:54.284
+I have a question.
+
+1854
+01:46:55.604 --> 01:46:58.104
+Is it black and white,
+
+1855
+01:46:58.944 --> 01:47:02.224
+SPP1 macrophages under the skin or
+
+1856
+01:47:02.344 --> 01:47:06.224
+orthotopically work, and then IL-1 beta neutrophils
+
+1857
+01:47:06.233 --> 01:47:09.524
+work in the bone and there is no role for SPP
+
+1858
+01:47:09.564 --> 01:47:10.534
+macrophages there?
+
+1859
+01:47:12.384 --> 01:47:16.344
+Yes. So the question, if I understand correctly, whether
+
+1860
+01:47:16.724 --> 01:47:20.024
+SPP1 high Macs are more restricted to primary tumors,
+
+1861
+01:47:20.224 --> 01:47:20.804
+whereas
+
+1862
+01:47:21.764 --> 01:47:24.924
+our target neutrophils are limited to the bone metastases.
+
+1863
+01:47:24.944 --> 01:47:26.884
+Am I understanding correctly? Yes.
+
+1864
+01:47:26.914 --> 01:47:27.284
+So
+
+1865
+01:47:28.084 --> 01:47:31.944
+other metastatic sites need to be further explored when I
+
+1866
+01:47:32.004 --> 01:47:35.584
+compare primary tumors versus bone metastases.
+
+1867
+01:47:36.404 --> 01:47:39.264
+Although I found multiple neutrophil
+
+1868
+01:47:39.324 --> 01:47:43.044
+subpopulations, I couldn't find these
+
+1869
+01:47:43.624 --> 01:47:47.524
+IL-1 beta high mature neutrophils in primary tumors,
+
+1870
+01:47:48.664 --> 01:47:52.464
+suggesting that those neutrophils, at least in the context of
+
+1871
+01:47:52.484 --> 01:47:56.084
+prostate cancer, may be more limited to bone
+
+1872
+01:47:56.124 --> 01:47:58.004
+metastases compared to other sites.
+
+1873
+01:47:58.684 --> 01:47:59.804
+Thank you. Please.
+
+1874
+01:48:01.484 --> 01:48:01.604
+Hi,
+
+1875
+01:48:02.404 --> 01:48:04.324
+I'm Amy Leslie. I'm from Stanford.
+
+1876
+01:48:04.644 --> 01:48:08.364
+And because we're talking prostate cancer, we got to talk about AR.
+
+1877
+01:48:09.064 --> 01:48:12.794
+And so thinking back to Amy Moran's and Felix Swings'
+
+1878
+01:48:12.884 --> 01:48:16.384
+paper on how enzalutamide and targeting AR
+
+1879
+01:48:17.924 --> 01:48:21.424
+changes the immune microenvironment and activates
+
+1880
+01:48:21.464 --> 01:48:22.684
+MHC-1,
+
+1881
+01:48:23.484 --> 01:48:25.104
+how do you think that recapitulates
+
+1882
+01:48:26.124 --> 01:48:30.004
+in terms of AR positive and AR negative and how that affects the immunosuppressive
+
+1883
+01:48:30.044 --> 01:48:32.184
+microenvironment, especially in terms of neutrophils?
+
+1884
+01:48:32.224 --> 01:48:34.984
+Are they affected by the AR signaling access or not?
+
+1885
+01:48:36.024 --> 01:48:39.904
+That's a great question, and it needs to be determined, at least
+
+1886
+01:48:39.984 --> 01:48:43.584
+for SPP1 macrophages. When I looked
+
+1887
+01:48:43.644 --> 01:48:47.424
+into AR expression in those macrophage
+
+1888
+01:48:47.584 --> 01:48:51.504
+populations and across the myeloid populations, their
+
+1889
+01:48:52.104 --> 01:48:56.084
+transcriptional expressions were quite marginal, suggesting that they
+
+1890
+01:48:56.104 --> 01:48:59.904
+may not be highly impacted by AR. But in terms
+
+1891
+01:48:59.984 --> 01:49:03.504
+of IL-1 beta mature neutrophils, I haven't done that
+
+1892
+01:49:03.544 --> 01:49:07.344
+analysis or experiment yet. So, thank you for the
+
+1893
+01:49:07.384 --> 01:49:08.564
+great question.
+
+1894
+01:49:09.244 --> 01:49:09.504
+Thanks.
+
+1895
+01:49:09.764 --> 01:49:09.964
+Mm-hmm.
+
+1896
+01:49:11.884 --> 01:49:14.544
+So conditioning with... Over to this mic.
+
+1897
+01:49:15.344 --> 01:49:16.744
+Tony Letai, NCI.
+
+1898
+01:49:17.804 --> 01:49:20.354
+Conditioning with cytotoxic chemotherapy
+
+1899
+01:49:21.164 --> 01:49:24.804
+is generally found to be necessary to have an effective CAR T cell
+
+1900
+01:49:24.844 --> 01:49:25.234
+treatment.
+
+1901
+01:49:26.044 --> 01:49:29.544
+It's often considered that this cytotoxic therapy is necessary for
+
+1902
+01:49:29.584 --> 01:49:32.924
+lymphocyte reduction. Do you think instead it could be
+
+1903
+01:49:33.884 --> 01:49:37.344
+an important effect is myeloid cell reduction?
+
+1904
+01:49:40.644 --> 01:49:41.604
+So if I
+
+1905
+01:49:42.884 --> 01:49:45.424
+received the question correctly, so whether these-
+
+1906
+01:49:48.964 --> 01:49:51.794
+I'm just saying we always give cytotoxic chemotherapy-
+
+1907
+01:49:51.944 --> 01:49:52.044
+Mm-hmm.
+
+1908
+01:49:52.274 --> 01:49:54.584
+... to condition people before they get CAR T cells.
+
+1909
+01:49:55.044 --> 01:49:55.054
+Yes.
+
+1910
+01:49:55.064 --> 01:49:56.524
+And if we don't do that, they don't work well.
+
+1911
+01:49:56.664 --> 01:49:56.873
+Mm-hmm.
+
+1912
+01:49:58.500 --> 01:50:00.780
+Typically, it's thought that we
+
+1913
+01:50:01.740 --> 01:50:04.580
+need to give that chemo to do lymphoreduction,
+
+1914
+01:50:04.960 --> 01:50:05.740
+lymphodepletion.
+
+1915
+01:50:05.760 --> 01:50:06.240
+Mm-hmm.
+
+1916
+01:50:06.300 --> 01:50:08.330
+Is it possible, based on your findings-
+
+1917
+01:50:08.360 --> 01:50:08.410
+Mm-hmm
+
+1918
+01:50:08.800 --> 01:50:11.970
+... that myeloid depletion is every bit as important as lymphodepletion, and that
+
+1919
+01:50:12.000 --> 01:50:15.260
+we're actually doing myeloid depletion with some of these chemotherapy regimens?
+
+1920
+01:50:15.340 --> 01:50:15.550
+Well,
+
+1921
+01:50:17.400 --> 01:50:20.600
+as a myeloid cell immunologist, not all myeloid
+
+1922
+01:50:20.640 --> 01:50:22.160
+populations are bad.
+
+1923
+01:50:23.020 --> 01:50:26.940
+During the disease progression, myeloid cells are reprogrammed
+
+1924
+01:50:26.980 --> 01:50:30.900
+into suppressive phenotypes. So I am
+
+1925
+01:50:30.980 --> 01:50:34.760
+relatively against the concept of broad ablation.
+
+1926
+01:50:35.280 --> 01:50:39.180
+I would rather more focus on how to
+
+1927
+01:50:39.240 --> 01:50:42.820
+reprogram bad myeloid populations into
+
+1928
+01:50:43.520 --> 01:50:46.600
+initially good, as part of innate immunity,
+
+1929
+01:50:47.260 --> 01:50:51.150
+myeloid populations. But I don't have experimental
+
+1930
+01:50:51.300 --> 01:50:55.000
+evidence, so I cannot say this confidently.
+
+1931
+01:50:55.120 --> 01:50:58.700
+But I think ablating myeloid cells could
+
+1932
+01:50:58.710 --> 01:51:01.800
+be playing a role there. Thank you for the question.
+
+1933
+01:51:05.980 --> 01:51:09.620
+Maybe I was just going to comment on this last question.
+
+1934
+01:51:10.480 --> 01:51:12.190
+I think one of the things
+
+1935
+01:51:13.600 --> 01:51:17.420
+we've seen, like even with checkpoint inhibition, actually, most of
+
+1936
+01:51:17.500 --> 01:51:21.360
+the efficacy that we see is in combination with chemotherapy.
+
+1937
+01:51:22.200 --> 01:51:25.980
+And I think for many folks studying immunotherapies, that's
+
+1938
+01:51:26.000 --> 01:51:29.700
+always been a bit of a conundrum. People think about potentially
+
+1939
+01:51:29.740 --> 01:51:33.700
+debulking the tumors, but there may be a myeloid reset that
+
+1940
+01:51:33.780 --> 01:51:37.700
+is associated with that. It may be a blunt tool to do that, but
+
+1941
+01:51:37.780 --> 01:51:39.560
+it's a provocative idea.
+
+1942
+01:51:39.800 --> 01:51:40.720
+Yes. Agreed.
+
+1943
+01:51:43.020 --> 01:51:46.780
+So prostate cancer isn't the only cancer that
+
+1944
+01:51:46.820 --> 01:51:50.800
+metastasizes to the bone. Breast cancer patients
+
+1945
+01:51:50.920 --> 01:51:54.720
+often have this happen. Do you think that
+
+1946
+01:51:54.960 --> 01:51:58.180
+what you're observing is restricted to prostate cancer,
+
+1947
+01:51:58.720 --> 01:52:02.540
+or would we expect some of these changes in, say, breast
+
+1948
+01:52:02.580 --> 01:52:04.040
+cancer?
+
+1949
+01:52:04.120 --> 01:52:07.800
+Yes. So, I would say the enrichment of our target
+
+1950
+01:52:07.860 --> 01:52:11.360
+neutrophils may not be restricted to prostate
+
+1951
+01:52:11.400 --> 01:52:13.070
+cancer. However,
+
+1952
+01:52:14.260 --> 01:52:17.520
+relative recent articles suggested
+
+1953
+01:52:17.530 --> 01:52:21.480
+that other subsets of neutrophils, inflammatory
+
+1954
+01:52:21.520 --> 01:52:25.060
+neutrophils expressing chitinase, particularly in the
+
+1955
+01:52:25.120 --> 01:52:28.760
+context of triple negative breast cancer.
+
+1956
+01:52:33.120 --> 01:52:40.380
+Phils
+
+1957
+01:52:40.900 --> 01:52:44.460
+may not be restricted, but it's not
+
+1958
+01:52:45.240 --> 01:52:48.580
+frequent or observed in at least bone trophic
+
+1959
+01:52:49.100 --> 01:52:49.900
+breast cancer.
+
+1960
+01:52:53.240 --> 01:52:54.380
+Okay. Thank you.
+
+1961
+01:53:00.300 --> 01:53:04.200
+So I'm charged with providing a summary, and I will be blessedly
+
+1962
+01:53:04.240 --> 01:53:07.740
+brief. I think we've heard some incredibly
+
+1963
+01:53:08.060 --> 01:53:10.940
+good talks, very exciting and
+
+1964
+01:53:10.980 --> 01:53:12.840
+future-directed, I think.
+
+1965
+01:53:13.760 --> 01:53:17.720
+And what impresses me the most is, even though this session
+
+1966
+01:53:17.820 --> 01:53:20.840
+was entitled "Microenvironmental
+
+1967
+01:53:21.800 --> 01:53:23.680
+Determinants," which is true,
+
+1968
+01:53:24.620 --> 01:53:28.300
+I'm struck by the systemic nature
+
+1969
+01:53:28.380 --> 01:53:32.169
+of the talks that we heard today in terms of how
+
+1970
+01:53:32.260 --> 01:53:35.660
+things like obesity, the nerve, brain
+
+1971
+01:53:35.960 --> 01:53:38.260
+stress, the microbiome,
+
+1972
+01:53:39.620 --> 01:53:42.980
+sleep deprivation, all of these
+
+1973
+01:53:43.060 --> 01:53:46.449
+clearly systemic events, inflammation,
+
+1974
+01:53:46.620 --> 01:53:49.860
+change from primary tumors to metastatic tumors,
+
+1975
+01:53:50.660 --> 01:53:54.540
+are affecting the tumor microenvironment, and I
+
+1976
+01:53:54.620 --> 01:53:57.740
+think that this has really opened up far
+
+1977
+01:53:57.920 --> 01:54:01.730
+more ideas than we originally
+
+1978
+01:54:01.780 --> 01:54:05.200
+thought of when we think about cancer hallmarks.
+
+1979
+01:54:06.660 --> 01:54:10.540
+There is going to be some great additions
+
+1980
+01:54:11.160 --> 01:54:14.980
+from the system, and I'm particularly intrigued myself
+
+1981
+01:54:15.500 --> 01:54:18.220
+with psychological stress and the role of nerves.
+
+1982
+01:54:18.739 --> 01:54:21.650
+But I'm impressed today with the incredible
+
+1983
+01:54:22.280 --> 01:54:26.240
+presentations that we saw on a variety of other factors as
+
+1984
+01:54:26.300 --> 01:54:29.520
+well. So I hope you all take home some new
+
+1985
+01:54:29.620 --> 01:54:33.580
+ideas and think about the systemic nature
+
+1986
+01:54:33.600 --> 01:54:35.840
+and control of the tumor microenvironment.
+
+1987
+01:54:35.880 --> 01:54:39.480
+And thanks to all the speakers. I'm really impressed
+
+1988
+01:54:39.860 --> 01:54:42.400
+with the quality of the presentations.
+
+1989
+01:54:42.440 --> 01:54:43.840
+We both are very
+
+1990
+01:54:44.900 --> 01:54:48.500
+happy with what we learned, and I hope you are too.
+
+1991
+01:54:48.600 --> 01:54:51.780
+So enjoy the rest of the evening, and thanks to all our speakers.

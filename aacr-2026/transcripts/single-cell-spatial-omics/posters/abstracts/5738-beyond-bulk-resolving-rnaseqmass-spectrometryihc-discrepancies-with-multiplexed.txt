@@ -1,0 +1,17 @@
+# Beyond bulk: Resolving RNASeq/mass spectrometry/IHC discrepancies with multiplexed spatial profiling and 3D cluster analysis to refine HER3 (bs)Ab and (bs)ADC therapeutic strategies
+
+**Poster #**: 5738
+**Session**: Molecular Targets 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Jeannette Fuchs, Christophe Mas, Eric Durandau, Diana Rocha Gomes, Min Ma, Antoine Attinger, Anna Pokorska-Bocci
+
+Translational Medicine, Debiopharm International S.A., Lausanne, Switzerland
+
+---
+
+Assessment of target expression for mono- and bispecific antibodies (Ab/bsAb) and antibody-drug conjugates (ADCs/bsADCs) can be challenging due to poor correlation between bulk RNASeq, proteomics and immunohistochemistry (IHC) data. While IHC is sufficient to address single target expression levels at single cell level, multiplexing is required to assess spatial distribution and expression thresholds of multiple targets for bsAb and bsADC use.
+To address these challenges, we performed a full characterization of (bs)ADC targets in patient-derived xenografts (PDX) across different omics platforms. Based on these outputs, we created a 3D biologics-tailored analysis tool which allows multifactorial target assessment to guide PDX model selection for evaluation of (bs)Ab/ADC sensitivity.
+HER3 and other selected tumor-associated antigens (TAA) were investigated, showing different levels of mRNA/protein correlations and different levels of mass spec-derived proteomics versus IHC. Based on these results, PDX models with a pre-defined TAA expression spectrum were selected for multiplexed spatial proteomics to determine single cell expression intensities and co-localization of those TAAs. Our 3D biologics analysis tool facilitates a multifactorial, granular assessment of the selected targets.
+The target-specific variability of correlation between the different analytes highlights once again the importance of proper omics/IHC platform selection depending on each individual target. Once the appropriate expression values are identified, the 3D analysis tool allows dynamic adjustment of expression thresholds of multiple targets with the potential to inform on the sample-specific most promising (bs)Ab/ADC treatment options.

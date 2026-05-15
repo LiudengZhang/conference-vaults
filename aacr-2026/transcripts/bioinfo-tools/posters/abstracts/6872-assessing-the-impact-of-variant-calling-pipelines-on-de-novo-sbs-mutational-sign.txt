@@ -1,0 +1,12 @@
+# Assessing the Impact of Variant Calling Pipelines on De Novo SBS Mutational Signature Extraction
+
+**Poster #**: 6872
+**Session**: Network Biology and Precision Medicine
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Zichen Jiang1, Jessica Nghi Au1, Mariya Kazachkova2, Marcos Díaz-Gay3, Raviteja Vangara1, Ludmil  B.  Alexandrov11Department of Cellular and Molecular Medicine, Department of Bioengineering, Moores Cancer Center, University of California San Diego, La Jolla, CA,2Department of Cellular and Molecular Medicine, Moores Cancer Center, Biomedical Sciences Graduate Pr, University of California San Diego, La Jolla, CA,3Digital Genomics Group, Cancer Genomics Program, Spanish National Cancer Research Center, Madrid, Spain
+
+---
+
+Deconstructing the mutational processes in a tumor's genome, known as mutational signatures, provides critical insights into cancer etiology and evolution. However, how the upstream variant-calling strategies propagate to affect the accuracy of de novo signature extraction remains underexplored. Here, we systematically evaluate how mutation-calling algorithms influence single-base substitution (SBS) signature analysis using over 8,900 whole-exome sequences from The Cancer Genome Atlas and 1,800 whole genomes from the Pan-Cancer Analysis of Whole Genomes study. We demonstrate that consensus variant-calling strategies produce remarkably stable mutational signatures across different reference genomes and pipeline versions. In contrast, individual variant callers introduce systematic false-positive mutations that manifest as stable, artifactual signatures, detectable by three signature extraction tools. A minimal consensus approach, requiring agreement between just two variant callers, successfully eliminates technical signatures while preserving genuine biological signals and is especially important for high SBS mutational context analysis. Our findings establish consensus variant calling as essential for robust mutational signature analysis and provide a clear framework for distinguishing biological processes from technical artifacts.

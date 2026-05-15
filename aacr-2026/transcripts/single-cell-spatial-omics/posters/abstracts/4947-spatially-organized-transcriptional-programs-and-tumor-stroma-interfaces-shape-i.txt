@@ -1,0 +1,17 @@
+# Spatially organized transcriptional programs and tumor-stroma interfaces shape immunotherapy response in microsatellite instability-high gastrointestinal cancers
+
+**Poster #**: 4947
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Xueshuai Han1, Kohei Yamashita1, Melissa Pool Pizzi2, Kyung Serk Cho1, Enyu Dai1, Kai Yu1, Yunhe Liu1, Yibo Dai1, Tian Chu1, Matheus Sewastjanow-Silva1, Hiro Yoshimura1, Yibo Fan1, Rebecca Waters1, Qiong Gan1, Feng Yin1, Shilpa S. Dhar1, Isadora Martins1, Jason Willis1, Mariela  B.  Murphy1, Jenny Li1, Brian D. Badgwell1, Van K. Morris1, Michael J. Overman1, Linghua Wang1, Jaffer  A.  Ajani1
+
+1UT MD Anderson Cancer Center, Houston, TX,2Gastrointestinal Medical Oncology, UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Background: Immune checkpoint blockade (ICB) has significantly improved outcomes in microsatellite instability-high (MSI-H) gastrointestinal cancers, yet more than half of patients do not achieve durable remission despite initial tumor regression. Clinical decisions guided solely by MSI status and radiographic response provide limited ability to anticipate long-term benefit or inform choices regarding surgery and treatment modification. The development of spatially informed molecular predictors of sustained response would therefore address a critical unmet need in the management of MSI-H tumors.
+Methods: Spatial transcriptomic profiling was performed on 18 tumor specimens from 13 patients with gastric, colorectal, or esophageal cancers, including 11 MSI-H and 2 MSS tumors, collected before and after ICB therapy. All tissues were assayed using the 10x Genomics Visium platform. Pathology-guided spot annotation was combined with transcriptional Meta-program analysis, spatial deconvolution, niche interaction mapping, and ligand-receptor modeling to characterize tumor-immune-stromal organization across sustained complete responders (CR) and non-sustained responders (NR).
+Results: We found that tumor cell meta-programs (MPs) exhibited distinct spatial gradients across different response groups. The epithelial-mesenchymal transition MPs was enriched at the invasive margin of pre-treatment NR (pre-NR) tumor tissue and diminished toward the core, while the Cycling-high-Interferon MPs peaked at the periphery of pre-CR tumor tissue. These findings indicate that transcriptional programs are spatially compartmentalized within the tumor. Next, we investigated how the spatial organization of the tumor microenvironment (TME) differed between response groups. In pre-CR tumors, malignant cells colocalized with B cells and T follicular helper cells within tertiary lymphoid structures (TLSs), whereas in pre-NR tumors, they were associated with macrophages and cancer-associated fibroblasts. Notably, TLSs from CR tumors exhibited stronger immune activation signatures irrespective of their maturation state. Cell-cell communication analysis further revealed immune activation at the tumor-stroma interface in sustained-CR tumors, contrasting with immunosuppressive signaling in NR tumors.
+Conclusions: Our study reveals distinct spatial and transcriptional programs underlying differential responses to ICB in MSI-H gastrointestinal cancers, highlighting the pivotal role of tumor-immune-stromal organization in shaping therapeutic outcomes and guiding future strategies to enhance immunotherapy efficacy.

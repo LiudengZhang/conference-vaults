@@ -1,0 +1,17 @@
+# Spatial and vascular microenvironmental features predict tumor-infiltrating lymphocyte expansion in glioblastoma
+
+**Poster #**: 4956
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jodie Jepson1, Kenan Zhang2, Anna Corcoran2, Elizabeth Owens1, Kelly  M.  Hotchkiss2, Beth  H.  Shaz2, Kyra Van Batavia2, Jose R. Conejo-Garcia1, John Hickey2, Mustafa Khasraw3
+
+1Duke University School of Medicine, Durham, NC,2Duke University, Durham, NC,3Duke Cancer Institute, Durham, NC
+
+---
+
+Introduction/Rationale: Adoptive transfer of tumor-infiltrating lymphocytes (TILs) has demonstrated meaningful clinical activity in several solid tumors, yet its application in glioblastoma is challenged by profound immune dysfunction, sparse T-cell infiltration, and spatially restricted immune niches that constrain the outgrowth of tumor-reactive lymphocytes ex vivo. A deeper understanding of the spatial, cellular, and vascular features that distinguish tumors capable of yielding TIL cultures from those that fail may identify microenvironmental determinants of successful expansion and guide patient selection or microenvironment-modifying strategies for future TIL-based therapies.
+Methods: TIL expansion was attempted in 40 tumors, 24 (60%) yielded successful yield in an optimized rapid expansion protocol (REP). Expanded products were characterized by spectral flow cytometry and TCRseq. A subset of TIL-positive (TIL&#8314;; n = 5) and TIL-negative (TIL&#8315;; n = 6) tumors underwent bulk RNA and TCRseq, single-cell RNAseq, CODEX multiplex spatial proteomics, and Xenium in situ spatial transcriptomics to define immune cell states, spatially organized niches, receptor-ligand communication networks, and vascular architecture.
+Results: Expanded TILs proliferated 100-1000-fold from pre-REP to REP and were enriched for CD4&#8314; cells, with both CD4&#8314; and CD8&#8314; compartments dominated by effector-memory phenotypes and containing minimal na&#239;ve or regulatory subsets. Although overall T-cell infiltration in tumors was low (<3% of all cells), TIL&#8314; tumors contained more stem-like TCF7&#8314; CD8&#8314; T cells and exhibited lower expression of HAVCR2 and TOX, consistent with reduced terminal exhaustion. Spatial analysis demonstrated 2.3-fold higher CD31&#8314; endothelial density and significantly shorter T cell-endothelium distances in TIL&#8314; tumors (p < 0.05), indicating more accessible vascular niches. In contrast, TIL&#8315; tumors exhibited 1.6-fold stronger inhibitory TAM-microglia signaling, whereas TIL&#8314; regions were enriched for T cell-endothelial and TAM-macrophage interactions, reflecting a more permissive immune architecture.
+Conclusion: Our data highlight vascular accessibility, immune spatial organization, and reduced inhibitory myeloid signaling as key determinants of successful TIL expansion in glioblastoma. The integration of spatial transcriptomics, multiplex proteomics, and single-cell sequencing identifies microenvironmental hallmarks associated with TIL outgrowth and suggests that modulating vascular or myeloid niches may enhance the feasibility and effectiveness of TIL-based therapies in glioblastoma. These insights support microenvironment-guided patient selection and inform the development of combination approaches aimed at reconditioning the glioblastoma tumor microenvironment to improve responsiveness to cell-based immunotherapy.

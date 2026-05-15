@@ -1,0 +1,17 @@
+# Spatial transcriptomics reveals distinct SPP1-CD44 signaling networks in neoadjuvant osimertinib treated EGFR mutant non-small cell lung cancer
+
+**Poster #**: 1212
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Whitney Tamaki1, Daniel  L.  Kerr2, Wei Wu1, Grant Eilers3, Anatoly Urisman3, Yu-Ting Chou1, Philippe Gui1, Shigeki Nanjo4, Johannes Ruediger Kratz1, David Jablons1, Trever G. Bivona1, Collin M. Blakely5
+
+1UCSF, San Francisco, CA,2University of Washington, Seattle, WA,3Anatomic Pathology, UCSF, San Francisco, CA,4Kanazawa Univ. Hospital, Kanazawa, Japan,5Clinical Fellow, Medical Oncology, UCSF, San Francisco, CA
+
+---
+
+Background: Lung cancer is the leading cause of cancer mortality, and despite improvements in treatment, tumors typically respond incompletely and resume growth after acquisition of drug resistance. Recent completion of a neoadjuvant osimertinib Phase II trial treating patients with surgically resectable stage I-IIIA EGFR-mutated non-small cell lung cancer (EGFRm NSCLC) (NCT03433469) has highlighted the importance of further identifying non-genomic, transcriptionally adapted mechanisms of persistence and resistance to targeted therapy.
+Methods: We analyzed these patient samples to identify transcriptionally regulated signaling patterns enriched at Residual Disease (RD) after neoadjuvant osimertinib treatment compared to treatment na&#239;ve samples (TN. Spatially resolved transcriptomic sequencing was performed, using the 10X Genomics Visium platform, on 36 tissue sections (n=9 TN, n=19 RD, n=4 Progressive Disease (PD), n=4 Tumor Adjacent Normal), from 25 patients. TN and PD samples were from standard-of-care surgical resections. 18 of 19 RD samples were from NCT03433469. After quality control, 91,582 array spots remained for downstream analysis.
+Results: We identified high confidence tumor array spots annotated both as &#8220;Cancer&#8221; by a board-certified pathologist and with tumor characteristic copy number variations. We applied disease-matched single-cell RNA-sequencing reference profiles to deconvolute the spatial transcriptomic data and estimate cell-type abundances. Analysis of cell-cell signaling networks identified significantly enriched or abundant SPP1-CD44 interactions between macrophage subtypes and tumor cells at the RD state. Specifically, PDPN+ Macrophages were identified as a primary source of SPP1 expression. Additional differential gene analysis identified significant upregulation of TM4SF4 and SERPINA3, known genes up and downstream, respectively, of SPP1, in the RD tumor nest, as compared to TN. SERPINA3 has previously been shown to positively regulate PI3K/AKT signaling pathway.
+Conclusion: The interaction between macrophages and tumor cells through SPP1-CD44 signaling significantly contributes to EGFRm targeted therapy-induced tolerance and resistance. Future studies will focus on elucidating the regulatory mechanisms governing the TM4SF4/SPP1/SERPINA3 axis and evaluating its contribution to therapy resistance, as well as its potential as a therapeutic target, using preclinical models.

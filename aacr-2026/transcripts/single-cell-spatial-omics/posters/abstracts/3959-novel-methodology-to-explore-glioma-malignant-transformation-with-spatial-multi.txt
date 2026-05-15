@@ -1,0 +1,14 @@
+# Novel methodology to explore glioma malignant transformation with spatial multi-omics
+
+**Poster #**: 3959
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Michal Polonsky1, Jonathan Fox1, Sheel Shah2, Noa Hadas1, Richard Everson2, Long Cai1
+
+1Biology and Biological Engineering, CalTech - California Institute of Technology, Pasadena, CA,2Neurosurgery, UCLA, Los Angeles, CA
+
+---
+
+Low-Grade Gliomas (LGG) generally have an indolent course and good prognosis after maximal safe resection; however, these tumors can progress into high grade gliomas through a poorly understood process of Malignant Transformation (MT). We sought to identify molecular drivers and cellular interactions predictive of MT, with the aim of informing early detection and providing new treatment targets. We developed a novel spatial multi-omics approach termed seqFISH+ which allows us to quantify the transcriptional states and DNA profiles of single cells within patient biopsies. With this approach, clones of cancer cells can be identified by shared DNA profiles, and matched with their transcriptional profiles and cellular interactions within the tumor microenvironments. We applied our experimental methodology to biopsies of 19 LGG patients as well as three Glioblastoma patients and compared the transcriptomic and genomic landscape of LGG patients which underwent MT to those that did not. We used a tailored gene panel to measure expression of 1150 genes and identified 12 cell types within the tumor biopsies encompassing malignant cell subtypes, immune cells and normal stromal cells. In addition to transcriptomic data, our novel pipeline allowed us to quantify hundreds of DNA loci within the same cells encompassing the entire genome at 3.3Mb resolution. Our final data set contained transcriptomic data of >600k single cells with matched DNA data for >200k cells. With our transcriptomic data we were able to identify known as well as novel gene markers associated with malignancy of LGG tumors. Our DNA data identified known chromosomal alterations such at 1p/19q deletion within malignant cells. As the location of the cells is left intact, we can now probe the spatial organization of the tumor-microenvironment and identify spatial signatures correlating with MT. DNA information will be used to identify individual cancer clones which contribute to progression. This information will enable us to identify clinically relevant molecular events and cellular interactions, which can be used as biomarkers for progression. With this highly multiplexed data we are constructing a comprehensive dictionary of cell intrinsic changes coupled with changes in the microenvironment to elucidate drivers of the MT process.

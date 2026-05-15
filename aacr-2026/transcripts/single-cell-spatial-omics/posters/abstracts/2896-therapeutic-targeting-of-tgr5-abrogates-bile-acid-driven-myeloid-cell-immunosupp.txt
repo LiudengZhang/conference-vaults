@@ -1,0 +1,17 @@
+# Therapeutic targeting of TGR5 abrogates bile acid driven myeloid cell immunosuppression in cholangiocarcinoma
+
+**Poster #**: 2896
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Enis Hikmet Ozmert1, Binbin Li2, Jingchun Yang2, Hannah Elizabeth Stumpf3, Jessica  R.  Willhite1, Danielle Carlson1, Jennifer  L.  Tomlinson4, Jon Covel5, Raghuveer Ramachandra5, Steven Olson5, Rory  L.  Smoot6, Sumera Ilyas2
+
+1Gastroenterology and Hepatology, Mayo Clinic, Rochester, MN,2Mayo Clinic, Rochester, MN,3Mayo Clinic College of Medicine and Science, Rochester, MN,4Mayo Clinic Hospital-Rochester, Rochester, MN,5Sanford Burnham Prebys, La Jolla, CA,6Surgery, Mayo Clinic, Rochester, MN
+
+---
+
+Background: Cholangiocarcinoma (CCA) is an aggressive hepatobiliary malignancy with limited treatment options. CCA exhibits a distinct desmoplastic and tolerogenic tumor immune microenvironment (TIME) characterized by elevated bile acid concentrations resulting from obstructive cholestasis and dysregulated bile acid metabolism. TGR5 is an essential component of bile acid signaling. We hypothesize that bile acids promote CCA progression by establishing an immunosuppressive TIME through TGR5 signaling, which can be therapeutically targeted using SBI-364, a novel potent small molecule TGR5 inhibitor.
+Methods: Single-cell RNA sequencing (scRNA-seq) of immune cells from human intrahepatic (iCCA) and perihilar (pCCA) CCA tumors were conducted. Therapeutic studies were performed using syngeneic murine models of iCCA (PMID: 38458319), a novel syngeneic model of pCCA, and patient-derived xenograft (PDX) models. In collaboration with Sanford Burnham Prebys, SBI-364, a first in-class competitive TGR5 antagonist, was assessed in vivo. Additionally, we performed co-culture experiments with bile acid +/- SBI-364-treated murine bone marrow-derived monocytic myeloid-derived suppressor cells (M-MDSCs) and CD8+ T cells to assess functional immunosuppressive effects.
+Results: Human scRNA-seq revealed significantly increased TGR5 (GPBAR1) expression predominantly in myeloid cell populations within the CCA TIME. SBI-364 treatment significantly reduced tumor burden in both syngeneic orthotopic iCCA models and a novel pCCA model that recapitulates the anatomic characteristics of perihilar CCA. In contrast, NOD/SCID mice bearing PDX535 (predicted sensitive) and PDX136 (predicted resistant), SBI-364 treatment did not achieve tumor reduction, suggesting that TGR5 inhibition predominantly attenuates tumor progression through modulation of bile acid-immune cell interactions. SBI-364 treated murine tumors had a significant reduction in immunosuppressive macrophages expressing interleukin-10 and M-MDSCs compared to vehicle treated tumors. Furthermore, bile acid-treated M-MDSCs exhibited enhanced suppression of CD8+ T cell proliferation and function, an effect that was abrogated by SBI-364 co-treatment.
+Conclusion: We demonstrate that TGR5 inhibition represents a promising therapeutic strategy across multiple immunocompetent preclinical CCA models. We demonstrate that the bile-acid TGR5 axis promotes CCA progression via immunosuppressive myeloid cells. Specifically, TGR5 signaling potentiates the immunosuppressive capacity of M-MDSCs, contributing to an immunosuppressive niche that facilitates tumor progression. These results establish TGR5 as a rational therapeutic target for overcoming immune evasion in cholangiocarcinoma.

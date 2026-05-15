@@ -1,0 +1,14 @@
+# Investigating the spatial immune tumor microenvironment of dermatofibrosarcoma protuberans
+
+**Poster #**: 4244
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Maryam Al-Ghezi1, Malia Rettig1, Christopher  P.  Loo2, Rashi Yadav2, Wesley Yu3, Joshua  M.  Moreau1
+
+1Cell, Developmental and Cancer Biology, Oregon Health & Science University, Portland, OR,2Cancer Early Detection Advanced Research Center, Oregon Health & Science University, Portland, OR,3Department of Dermatology, Oregon Health & Science University, Portland, OR
+
+---
+
+Dermatofibrosarcoma Protuberans (DFSP) is a rare, locally aggressive cutaneous sarcoma driven by the COL1A1-PDGFB fusion. While its molecular drivers are well-defined, the DFSP tumor immune microenvironment remains poorly characterized. Understanding immune-stromal interactions in DFSP may reveal opportunities to complement surgical resection with immunotherapy or targeted approaches. We performed spatial transcriptomics on 16 DFSP patient samples using 10X Genomics Visium v2 (n=12) and Visium HD (n=4), integrated with single-cell RNA sequencing. Our analysis revealed distinct tumor, stromal, and immune populations with high PDGFB-high tumor cells spatially segregated from infiltrating immune compartments. We identified transcriptionally distinct cancer-associated fibroblast (CAF) subsets, including populations enriched for extracellular matrix remodeling and inflammatory signatures that may modulate local immunity. Immune profiling uncovered spatially heterogeneous T cell and macrophage infiltration, with distinct immune-rich and immune-desert zones across patients. Notably, we observed tertiary lymphoid structure (TLS) formation in multiple samples, characterized by elevated TLS signature scores and spatial co-localization of B and T cell markers. CXCL13 and CCL19 emerged as key chemokines defining TLS-associated immune-stromal communication networks. Using cyclic immunofluorescence, we validated the spatial organization of TLS-associated immune niches, confirming co-localization of CD3+ T cells, CD20+ B cells, and CD68+ macrophages within TLS-enriched regions at protein level. This work provides the first spatial immune atlas of DFSP, revealing organized lymphoid structures and CAF-mediated immune regulation that could inform combination strategies targeting PDGFR signaling alongside immune checkpoint or stromal modulation.

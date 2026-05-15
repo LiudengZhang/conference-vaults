@@ -1,0 +1,18 @@
+# Spatial profiling of prostate cancer clonal evolution linked to nodal metastases
+
+**Poster #**: 3539
+**Session**: Tumor Evolution
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Alastair David Lamb1, Joakim Lundeberg2, Sandy Figiel3, Max Beesley1, Mengxiao He2
+
+1Queen Mary University of London, London, United Kingdom,2Science for Life Laboratory, KTH Royal Institute of Technology, Stockholm, Sweden,3University of Oxford, Oxford, United Kingdom
+
+---
+
+The progression of prostate cancer (PCa) to metastatic disease remains a critical clinical challenge, making it essential to gain a detailed understanding of the factors that enable certain subclones to invade and spread. Building on our previous study, which examined genomic variations in benign and malignant prostate tissues by inferring copy number alterations (CNA) from spatial transcriptomics data1, this study aims to trace the spatial evolutionary trajectories of PCa subclones within the prostate and to draining lymph nodes and to identify alterations in associated microenvironments features of the metastatic transition.
+To achieve this, we performed spatial transcriptomics on entire prostate axial disks and patient-matched lymph node metastases from 10 individuals. Standard spatial transcriptomics (55 &#181;m) was used for tissue profiling; from the spatial transcriptomics data, copy number alterations (CNAs) were inferred to identify distinct tumor subclones, and phylogenetic trees constructed to describe their evolutionary relationships. Additionally, high-resolution spatial transcriptomics (2 &#181;m) technology was employed to gain a cellular-level view of the immediate tumor-microenvironment (TME) surrounding specific subclones in two selected patients.
+Analysis of over 1,000,000 barcoded regions identified many distinct tumor subclones, enabling us to trace their evolutionary trajectories spatially. We observed notable subclonal events within the lymph nodes, including polyclonal colonization, indicating multiple origin events during the evolution of the primary disease. Exploration of the immediate TME revealed significant cellular heterogeneity and upregulation of genes related to antigen presentation and inflammatory pathways concentrated near ancestral tumor clones, specifically at the tumor border. By focusing on the inferred CNA profiles of the metastasizing clone across patients, we identified several common features defining the metastatic transition. Additionally, we were able to identify these metastasizing clones in matched diagnostic biopsies taken several months before prostatectomy was performed, raising the possibility of identifying potentially lethal disease at presentation.
+In summary, our study provides a detailed spatial map of PCa clonal evolution and dissemination, linking primary tumors to nodal metastases and revealing altered cell composition and gene expression around tumor clone borders. Importantly, it demonstrates subclonal events within lymph nodes, polyclonal colonization, and the potential to identify metastasizing clones at diagnosis, with implications for risk-stratification and treatment decisions in PCa.
+1. Erickson, A., He, M., Berglund, E. et al. Spatially resolved clonal copy number alterations in benign and malignant tissue. Nature 608, 360-367 (2022). https://doi.org/10.1038/s41586-022-05023-2

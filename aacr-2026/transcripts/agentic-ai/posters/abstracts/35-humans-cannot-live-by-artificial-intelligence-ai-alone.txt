@@ -1,0 +1,12 @@
+# Humans cannot live by artificial intelligence (AI) alone
+
+**Poster #**: 35
+**Session**: Agentic AI in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kim Blenman, Ondrej Blaha, Sherry Qiu, Kelly Chen, Kiera Spall, Yiran Liu, Madsion Williams, Marissa Villa, Valeri Vankov, Kwabena Oteng Agyapong, Di Li, Holly RushmeierYale University, New Haven, CT
+
+---
+
+INTRODUCTION: Differential expression (DE) analysis is the cornerstone of omics evaluation. It is used to identify biomarkers for cancer, therapeutic response, and drug-induced adverse events. DE methods use AI/ML (machine learning). If multiple DE methods could identify the same biomarkers, this would strongly support the biomarker’s use as a robust candidate(s) for wet lab validation studies. It is unclear if the top DE methods identify the same biomarkers (i.e., shared). Therefore, we evaluated 4 DE methods for their ability to identify shared serum autoantibodies in cancer patients with and without immune-checkpoint inhibitor induced hypothyroidism (TEAE ThyDis).METHODS: Patients with breast cancer (N=8) or melanoma (N=25) who were treated with durvalumab, ipilimumab, pembrolizumab, nivolumab, or combination who had TEAE ThyDis (N = 18) or No TEAE (N = 15) were included. Four DE methods (limma, DESeq2, edgeR, randomForest) were used in R. 15,500 pre-treatment autoantibodies with and without ComBat batch correction were evaluated for each patient.RESULTS: In patients with breast cancer, limma, DESeq2, edgeR, and randomForest identified 201, 109, 158, and 472 biomarkers, respectively (Table 1). However, only up to 53 biomarkers were shared between the 4 DE methods. ComBat batch correction with limma or randomForest led to identification of 125 and 484 biomarkers respectively and up to 114 shared biomarkers between the 4 methods. In patients with melanoma, limma, DESeq2, edgeR, and randomForest identified 198, 244, 568, and 1042 biomarkers respectively with up to 183 biomarkers shared (Table 1). ComBat batch correction with limma or randomForest led to identification of 196 and 1088 biomarkers respectively and up to 257 shared. There was no biomarker that was shared in all methods.CONCLUSIONS: Our data suggests that top AI/ML DE analysis methods identify different biomarkers. As a field, it is time to re-evaluate and re-vamp these tools as well as create new tools to ensure robust reproducible biomarker identifications.

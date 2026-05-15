@@ -1,0 +1,12 @@
+# Subtyping cancer cachexia through automated body composition
+
+**Poster #**: 2676
+**Session**: Application of Bioinformatics to Cancer Biology 3
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Sonia Boscenco1, Venise Jan Castillon1, Perry J. Pickhardt2, John W. Garrett2, Nathaniel C. Swinburne3, Ed Reznik11Computational Oncology, Memorial Sloan Kettering Cancer Center, New York, NY,2Professor of Radiology, University of Wisconsin School of Medicine, Madison, WI,3Department of Radiology, Memorial Sloan Kettering Cancer Center, New York, NY
+
+---
+
+Understanding how patients lose body mass during cachexia is critical for improving diagnosis and developing meaningful clinical endpoints. Yet, which body compartments drive the wasting phenotype remains unknown. We hypothesized that distinct patterns of changes to body composition might stratify patients into clinically relevant subtypes of cachexia. To test this hypothesis, we computed changes in body composition across periods of weight loss in a cohort of over 6000 pan-cancer patients from MSKCC and identified that loss of subcutaneous fat, loss of skeletal muscle, and unexpectedly, gain of liver volume, were the principal alterations during cachexia. Although all patients underwent periods of weight loss, unsupervised clustering of all body composition changes identified two broad subtypes of wasted and non-wasted patients. Wasted patients had significantly inferior overall survival, increased C-reactive protein, decreased albumin, and lower rates of weight recovery. Bulk RNA-sequencing analysis from a subset of BLCA, RCC, and PDAC patients identified a unique transcriptional phenotype of wasted patients, with marked upregulation in inflammatory response, interferon gamma response, and IL6-JAK-STAT3 signalling pathways. A subset of wasted patients exhibited pronounced hepatomegaly accompanied by markers of steatosis such as decreased radiographic liver density and increased alkaline phosphatase. This wasted-hepatomegaly subgroup, characterized by pronounced systemic inflammation, showed the poorest overall survival, suggesting a potential liver-driven axis of cachexia severity. Together, our data leverages opportunistic screening of computed-tomography scans to classify weight loss episodes using a radiographic biomarker that identifies bona fide wasting cachexia in a human patient cohort.

@@ -1,0 +1,17 @@
+# Spatial architecture analysis reveals disrupted lymphotoxin signaling gradients associate with recurrence in high-grade serous ovarian cancer
+
+**Poster #**: 6190
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Zhewei Zhang, Tat San Lau, Chi Chiu Wang
+
+The Chinese University of Hong Kong, Shatin, Hong Kong
+
+---
+
+Background: Recurrence drives mortality in ovarian cancer patients, with tumor-stromal signaling interactions playing critical roles in disease progression. Lymphotoxin family signaling, operating through lymphotoxin-LTBR interactions between tumor and stromal compartments, orchestrates chemokine-mediated immune cell recruitment. However, existing studies have focused on expression levels rather than spatial organization of these signaling networks. We aimed to characterize spatial gradient patterns of lymphotoxin signaling in high-grade serous ovarian cancer (HGSC) and determine whether spatial organizational features distinguish recurrent from non-recurrent disease.
+Methods: We integrated publicly available subcellular spatial transcriptomics datasets spanning multiple independent cohorts, comprising >100 HGSC patients and >2.5 million spatially resolved cells. Patients were stratified by 2-year progression-free survival into recurred versus non-recurred groups. We quantified spatial expression gradients using neighborhood-based approaches, calculating spatial autocorrelation and tumor boundary-associated expression patterns for lymphotoxin family genes (LTA, LTB, LTBR) and related chemokines.
+Results: Recurrent HGSC exhibited disrupted spatial organization of lymphotoxin signaling despite comparable expression levels. LTB displayed reduced spatial autocorrelation in recurrent tumors (-0.254 vs -0.320, p=0.029), indicating loss of organized spatial expression patterns. LTBR showed attenuated tumor boundary gradients in recurrent samples (Spearman &#961;=-0.121 vs -0.178, p=0.034), suggesting disrupted spatial signaling architecture at tumor-stromal interfaces. LTB also demonstrated diminished tumor boundary enrichment in recurrent cases (&#961;=-0.010 vs 0.070, p=0.055). Cellular composition and overall gene expression showed no significant differences, confirming that spatial organization rather than abundance drives these findings.
+Conclusion: Disrupted LTB/LTBR spatial gradients in recurrent HGSC indicate that immune evasion involves spatial disorganization of tumor-stromal signaling beyond expression-level changes. These findings suggest that interventions restoring spatial chemokine gradients&#8212;such as engineered lymphotoxin delivery or spatially-targeted stromal reprogramming&#8212;may enhance immune infiltration and warrant investigation as strategies to prevent ovarian cancer recurrence.

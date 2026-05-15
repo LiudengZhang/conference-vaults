@@ -1,0 +1,18 @@
+# Spatial multi-omics dissection of follicular lymphoma by GlycoScope-IN-DEPTH reveals a galectin-8L-driven complement-enriched, immune-exhausted microenvironment
+
+**Poster #**: 3952
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Stephanie  P.   T.  Yiu1, Ankit Basak2, Carolina Ortiz-Cordero2, Alex  K.  Shalek2, Laura Kiessling2, Sizun Jiang1
+
+1Beth Israel Deaconess Medical Center, Boston, MA,2Massachusetts Institute of Technology, Boston, MA
+
+---
+
+Follicular lymphoma (FL), an indolent malignancy of germinal center B cells, accounts for ~40% of non-Hodgkin lymphomas. Although most patients experience slow progression, a subset undergoes transformation, and CD20-negative relapses pose a therapeutic challenge. FL is characterized by BCL2 overexpression and highly mannosylated surface immunoglobulins that engage lectins on antigen-presenting cells to sustain B-cell receptor signaling and promote immune evasion. Yet, a systematic understanding of glycan-mediated interactions within the FL microenvironment remains limited.
+To address this gap, we developed GlycoScope, a multimodal spatial profiling platform that co-detects glycans and proteins at single-cell resolution in situ. Applying GlycoScope to tonsil, follicular hyperplasia (FH), and treatment-naive FL tissues, we identified selective enrichment of Galectin-8L in B cells, with significantly higher expression in FL. In tonsil and FH, Galectin-8L localized to the BCL2&#8314; mantle zone, whereas in FL it extended across both follicular center and mantle zones, suggesting its potential as a structural landmark to dissect the organization and local cellular architecture of lymphoid tissues.
+Stepwise neighborhood analyses anchored on Galectin-8L+ mantle-marginal zone rims revealed localized enrichment of checkpoint-expressing T cells with Galectin-8LHigh B cells. To further probe the functional states of these niches, we integrated GlycoScope with spatial transcriptomics on the same slide (GlycoScope-IN-DEPTH). Stratifying follicles by Galectin-8L expression showed that Galectin-8LHigh B cells adopt transcriptional programs enriched for immune synapse formation and complement activation, both positively correlated with Galectin-8L levels. CD4 T cells in the same cores exhibited terminal exhaustion, while macrophages displayed enhanced phagocytic and complement-cascade signatures, together indicating a coordinated, Galectin-8L&#8211;associated remodeling of the immune microenvironment.
+Additional glycan-lectin imaging demonstrated that the distinct intrafollicular distribution of Galectin-8L potentiates interactions with its cognate lectin Galectin-8, which we found expressed on macrophages and T cells. These observations support a Gal8L-Gal8 interaction axis across B-T-macrophage compartments that orchestrates a complement-enriched, immune-exhausted microenvironment in FL.
+Together, this integrated spatial framework highlights glycan-dependent immunoregulatory networks in FL and positions Galectin-8L as a functional landmark for mapping, and potentially targeting, dysregulated immune niches in lymphoid malignancy.

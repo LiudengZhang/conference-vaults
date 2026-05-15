@@ -1,0 +1,17 @@
+# Single cell multiomic profiling of heterogenousPROCR+ cells in mouse mammary gland and its implication for breast cancer
+
+**Poster #**: 838
+**Session**: Stem Cell Plasticity and Lineage Reprogramming in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Jose Silva1, Koon-Kiu Yan2, Erin Nekritz1, Jiyang Yu2
+
+1Icahn School of Medicine at Mount Sinai, New York, NY,2St. Jude Children's Research Hospital, Memphis, TN
+
+---
+
+Introduction: The mammary gland is a dynamic organ that undergoes extensive tissue remodeling during the female lifetime. In all these stages, epithelial enlargement is supported by a population of adult mammary epithelial stem cells (MaSCs) residing at the apex of the hierarchy. MaSC homeostasis needs to be tightly regulated in time and space to ensure proper organ function and avoid pathological consequences. Thus, dysregulation of stem cell activity has been linked to tumor initiation, and aggressive breast cancers are frequently enriched in cells exhibiting stem cell like properties. Although MaSCs are fundamental to mammary gland development, their precise identity and defining characteristics remain poorly understood. Notably, protein C receptor (PROCR) marks a rare subset of mammary epithelial cells with stem-like properties, but their low abundance has hindered their characterization.
+Methods: Here, we combine targeted FACS enrichment with single-cell RNA sequencing and chromatin accessibility profiling to generate a multimodal atlas of PROCR&#8314; mammary epithelial cells across developmental stages.
+Summary of results: We uncover heterogeneity within this compartment and identify a previously unrecognized Procr&#8314;, Cdh5&#8315;, Col1a1&#8314; population that exhibits the highest developmental potency, strongest EMT-like signature, and earliest pseudotime position, consistent with a bona fide mammary stem cell (MaSC) state. Integration of scRNA-seq and scATAC-seq reveals the transcriptional regulatory architecture governing MaSC identity and basal versus luminal lineage commitment, including direct master regulators whose motif accessibility and activity shift along differentiation trajectories. Comparative analyses with human mammary epithelium identify analogous PROCR&#8314; subpopulations, and interrogation of breast cancer datasets demonstrates that the Procr&#8314;, Cdh5&#8315;, Col1a1&#8314; MaSC signature is selectively enriched in triple-negative and claudin-low tumors.
+Conclusions: These findings refine the cellular hierarchy of the mammary epithelium, define regulatory programs underlying stemness and lineage bifurcation, and establish a molecular link between a distinct MaSC state and the biology of aggressive breast cancer subtypes.

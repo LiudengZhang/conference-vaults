@@ -1,0 +1,21 @@
+# Novel whole transcriptome spatial transcriptomics technology reveals CAF/TAM-mediated basement membrane remodeling at the invasive front
+
+**Poster #**: 6216
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Amanda Janesick, McKenzi Toh, Syrus Mohabbat, Stephanie Kravitz, 10X Genomics Development Team
+
+10x Genomics, Inc., Pleasanton, CA
+
+---
+
+Introduction:
+A precise understanding of the Tumor Microenvironment (TME) requires comprehensive, high-resolution transcriptomic profiling that can classify the functional states of numerous cell types and map their interactions with neighboring cells. In this study, we use novel technologies to investigate TME-mediated basement membrane (BM) remodeling in lung, kidney, breast, and ovarian cancers. We identify key proteases and laminins enriched in the tumor periphery surrounding hypoxia-adapted cancer cells and the invasive front.
+Methods:
+Formalin-fixed, paraffin-embedded (FFPE) tissues were stained for H&#38;E on Superfrost slides, then analyzed using spatial transcriptomics and subsequent cytoplasmic/cell membrane marker-based segmentation. Data were visualized using a 10x Genomics interactive workspace, which enables the subcellular mapping of transcripts overlaid on morphology images, alongside integrated capabilities for normalization, clustering, and differential gene expression analysis. We employed a spatial neighborhood approach and ROI export to quantify BM and TME marker expression. These molecular findings were subsequently correlated with the local cell type composition of the tumor region.
+Results:
+Spatial transcriptomic analysis demonstrated significant changes in the expression of laminins and metalloproteases in close proximity to the tumor's invasive front. These remodeling activities were found adjacent to proliferating cancer cells expressing oncogenes known to function in angiogenesis, glycolysis, and invasion. Critically, in breast cancer, we observed alterations to BM markers even where the myoepithelial layer remained histologically intact, suggesting that traditional markers are insufficient to capture early tumor progression. Hypoxia-adapted cancer cells expressing VEGFA and chemokines recruited Cancer-Associated Fibroblasts (CAFs) and Tumor-Associated Macrophages (TAMs), which were identified as the primary source of metalloprotease secretion. Furthermore, T-cells in these regions exhibited an exhausted phenotype, indicating a robust immune-evasive pathway.
+Conclusions:
+By employing high-resolution spatial transcriptomics, this study provides a comprehensive, spatially-resolved analysis of molecular heterogeneity within the TME, precisely localizing BM-remodeling activity to the invasive front. We successfully demonstrated the capacity of this technology to enable the discovery of novel, spatially-defined biomarkers and provide mechanistic insight into cancer progression.

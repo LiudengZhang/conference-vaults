@@ -1,0 +1,12 @@
+# MicroNucML: A machine learning approach for micronuclei segmentation and the refinement of nuclei-micronuclei relationships
+
+**Poster #**: 1408
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Nadejda  B.  Boev, Yukai Wang, Ulises  O.  Garcia, Kate  M.  MacDonald, Shane  M.  Harding, Sushant KumarPrincess Margaret Cancer Centre, University Health Network, Department of Medical Biophysics at University Toronto, Toronto, ON, Canada
+
+---
+
+Micronuclei (MN) are structures containing small fragments of DNA, arising from mitotic errors or failed DNA repair attempts. Therefore, MN serve as markers of genomic instability and are typically quantified either manually or through threshold-based methods, which can be tedious and inaccurate, leading to varying degrees of success and throughput. By employing a two-phase labeling approach that utilizes polygon and brush segmentation, along with refinement using SAM2, we developed a high-quality MN segmentation tool. Subsequent data augmentation, which captured heterogeneity in image quality and color diversity, enabled us to train a generalizable Mask-RCNN model optimized for small object detection, achieving state-of-the-art performance in MN detection. Finally, we applied our model to immunofluorescence data obtained from cell lines exposed to DNA damage conditions to gain biological insights into MN dynamics and their role in inducing genome instability. In summary, this work establishes an accessible resource for systematically studying genome instability with significantly greater fidelity and sensitivity, enabling insights into damage biology that were previously unresolved.

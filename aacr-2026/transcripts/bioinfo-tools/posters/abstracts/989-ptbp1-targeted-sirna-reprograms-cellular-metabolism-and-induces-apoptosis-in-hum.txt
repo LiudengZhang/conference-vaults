@@ -1,0 +1,12 @@
+# PTBP1-targeted siRNA reprograms cellular metabolism and induces apoptosis in human gastric cancer cells
+
+**Poster #**: 989
+**Session**: Computational, Technological, and Mechanistic Advances
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Hirokatsu Hayashi, Keita Matsumoto, Masashi Kuno, Masahiro Fukada, Ryuichi Asai, Yuta Sato, Itaru Yasufuku, Tajima Jesse Yu, Yoshihiro Tanaka, Manabu Futamura, Nobuhisa MatsuhashiGifu University, Gifu, Japan
+
+---
+
+Background: The prognosis of advanced gastric cancer remains poor despite recent therapeutic progress, underscoring the need for novel strategies. Cancer cells commonly rely on aerobic glycolysis (the Warburg effect). PTBP1 contributes to this metabolic phenotype by regulating the alternative splicing of the PKM gene, suppressing PKM1 and promoting the PKM2 isoform, which supports glycolytic metabolism. We hypothesized that PTBP1 inhibition would suppress tumor growth by shifting metabolic flux toward oxidative phosphorylation.Methods: Thirteen chemically modified siR-PTBP1 derivatives were synthesized and tested in the gastric cancer cell line MKN1. Cell viability was measured by crystal violet staining. PTBP1 expression, PKM1/PKM2 isoform switching, ATP production, and apoptosis (cleaved PARP) were evaluated by Western blotting and ATP assay.Results: Optimized siR-PTBP1 selectively reduced PTBP1 expression and increased the PKM1/PKM2 ratio, indicating metabolic reprogramming. ATP assay demonstrated that siR-PTBP1 treatment increased intracellular ATP production, supporting a metabolic shift from glycolysis toward oxidative phosphorylation. These metabolic changes were accompanied by elevated cleaved PARP levels, consistent with apoptosis induction. Consequently, siR-PTBP1 significantly inhibited MKN1 cell proliferation.Conclusion: PTBP1 inhibition reprograms tumor metabolic pathways and triggers apoptosis in gastric cancer cells. siR-PTBP1 represents a promising metabolism-targeted nucleic acid therapeutic candidate, warranting further evaluation in in vivo xenograft models.

@@ -1,0 +1,14 @@
+# Spatially resolved multi-omics reveal metastatic ecosystem remodeling and immunomodulatory niches in HGSOC
+
+**Poster #**: 3975
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Yufeng He1, Ce Luo2, Yuanguang Meng3, Zhe Zhang3, Zexian Zeng1
+
+1Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China,2Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China,3Department of Obstetrics and Gynecology, Seventh Medical Center of Chinese PLA General Hospital, Beijing, China
+
+---
+
+High-grade serous ovarian carcinoma (HGSOC) is the most lethal gynecologic malignancy. HGSOC spreads within peritoneal cavity via transcoelomic dissemination, and the greater omentum is a frequent site of metastatic tumor deposition. Embedded beneath the omental mesothelium, the fat-associated lymphoid clusters (FALCs, known as milky spots) serve as portals for early peritoneal metastasis. Yet how metastatic ecosystems differ from the primary tumor microenvironment, and are spatially organized around FALCs remains unclear. To address this, we profiled matched primary and metastatic tumor samples from 17 HGSOC patients using single-cell RNA sequencing with paired TCR/BCR profiling and spatial multi-omics including Visium HD spatial transcriptomics, multiplex CODEX imaging and spatial metabolomics. In FALC-rich regions within metastatic lesions, we identify a stereotyped architecture in which small aggregates of B cells and plasma cells are interlaced with CD4+ and CD8+ T cells and dendritic cells. Stromal regions between these FALCs and adjacent tumor border are highly infiltrated by SPP1+C1Q+ macrophages. We show that the B cells in metastasis mainly consist of IgG+ and IgA+ populations, and are class-switched and clonally expanded. Integrating spatial transcriptomics with histology, we found the abundance of the niche enriched for IgA+ B cells associates with worse overall survival using a deep learning framework. Spatial metabolomics mapped spatial metabolic niches and showed that metastases shift toward glycolytic, lipid and phospholipid metabolism, whereas primary tumors retain more oxidative programs. Collectively, our findings provide a spatially resolved atlas of HGSOC metastasis and a foundation for spatially informed biomarker development.

@@ -1,0 +1,17 @@
+# Intratumoral IL-12 in combination with HDAC inhibition overcomes checkpoint-refractory tumors
+
+**Poster #**: 1563
+**Session**: Combination Immunotherapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Asma  S.  Khelifa1, Ainara Meler1, Christine  M.  Minnar1, Katherine  E.  Lothstein1, Masaya Miyamoto1, Nicholas Roller1, Lisa  K.  Poppe1, David Peeney1, Sailaja Battula2, Howard  L.  Kaufman2, Jeffrey Schlom1, Sofia  R.  Gameiro1
+
+1Center for Immuno-Oncology, National Cancer Institute, Bethesda, MD,2Ankyra Therapeutics, Inc., Cambridge, MA
+
+---
+
+Background: Clinical resistance to immune checkpoint blockade (ICB) is prevalent across solid malignancies, thus prompting the need for novel therapies. Interleukin-12 (IL-12) is an important cytokine for cancer immunotherapy due to its ability to bridge innate and adaptive immunity. However, the narrow therapeutic index and toxicity associated with systemic IL-12 administration has hampered its clinical development. ANK-101 is an alum-anchored human IL-12 providing tumor retention upon intra-tumoral delivery. In this study, we investigated the anti-tumor activity and mechanism of action of murine ANK-101 (mANK-101) delivered intra-tumorally in combination with the class I histone deacetylase (HDAC) inhibitor entinostat, in different ICB-refractory murine tumor models, including CT26 (colorectal) and MOC-1 (HPV16neg head and neck).
+Methods: Mice receiving Entinostat diet and/or mANK-101 were monitored for anti-tumor activity, survival and protective memory. The contribution of CD8+, CD4+, and NK lymphocytes to antitumor effects were investigated via immune depletion. Analysis of tumor-specific T cell responses and comprehensive proteomic, transcriptomic, and tumor architecture analysis of the immunome was performed in MOC-1 tumors, tumor-draining lymph node (tdLN), and spleen. In addition, functional analysis of CD8+T cells in the periphery were performed.
+Results: We demonstrate that mANK-101 synergizes with Entinostat to suppress CT26 (colon, Kras G12Dmut) and MOC-1 (oral, HPV16neg) tumors, resulting in significant anti-tumor effects, survival benefit, and protective memory. Immune depletion studies demonstrated a role for CD8+ T cells, CD4+ T cells, and NK cells in the anti-tumor activity elicited by combination therapy. Mechanistically, combination therapy elicited significant activation of peripheral CD8+ T cells and NK lymphocytes, increased CD8+ T effector memory, tumor-specific T cell responses, and multifunctional IFN&#947;+TNF&#945;+CD8+ T cells, with concomitant decrease in CD4+ Tregs and increased CD8/Treg ratio. Notably, spatial analysis of tumor architecture indicates the development of B-cell rich stemness hubs exclusive to combination therapy. Ongoing in-depth studies including single cell transcriptomics in the tumor and tDLN, and investigation of the role of immune stemness hubs in the observed anti-tumor activity will allow for an in-depth understanding of the synergistic effect of mANK-101 with HDAC inhibition.
+Conclusion: Collectively, these findings provide a rationale for the combination of intratumoral delivery of anchored IL-12 with epigenetic modulation for patients with ICB-refractory solid tumors, such as colorectal and HPV16neg head and neck cancers.

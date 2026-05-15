@@ -1,0 +1,19 @@
+# Targeting Yap1-B7-H3 signaling stimulates CD8&#8314; anti-tumor response preferentially in male SHH medulloblastoma
+
+**Poster #**: 1152
+**Session**: Mechanistic Insights for Targeted Therapies in Pediatric Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Nourhan Abdelfattah*1, Maryam Faisal*1, Han Nhat Tran1, Thomas Wong1, Freddys Rodriguez2, Carston R. Wagner2, Kyuson Yun1
+
+1Neurology, Houston Methodist Research Institute, Houston, TX,2Medicinal Chemistry, University of Minnesota, Minneapolis, MN
+
+---
+
+Sex-biased mechanisms in cancer remain poorly understood. We recently reported an unexpected sex-biased function of Yap1, an oncogene dysregulated in many human cancers, in murine models of SHH medulloblastoma (MB). Yap1 deletion significantly extends survival preferentially in male animals and enhances immune infiltration, in part by attenuating the expression of the immune checkpoint molecule Cd276 (B7-H3) in MB cells. These findings are clinically relevant because male patients with MB, the most common pediatric brain malignancy, exhibit worse survival and a higher incidence.
+Here, we investigate the sex-specific consequences of Yap1 loss and evaluate therapeutic targeting of CD276 using systemically administered CD276-targeting chemically self-assembled nanorings (CD276-CSANs).
+Extensive characterization of the immune microenvironment in Yap1-deleted male and female tumors, conducted via single-cell RNA sequencing and high-parameter flow cytometry, revealed a significant increase in CD8+ T cells exhibiting cytotoxic properties in males, but not in females. In contrast, Yap1-deleted females had higher numbers of exhausted CD8+ T cells and regulatory T cells. Further, in vivo CD8 T cell depletion abolished the survival advantage seen in Yap1-deleted male MB, confirming the functional importance of these cells.
+T-cell proliferation assays demonstrated that in male MB cells, targeting either Yap1 or CD276 restored T-cell activation. In contrast, females, which have higher baseline CD276 expression, required both Yap1 deletion and CD276 blockade/deletion to achieve similar activation. Consistently, CD276 blockade with CD276-CSANs phenocopied the male-biased survival advantage of Yap1 deletion and increased CD8+ T-cell infiltration in vivo.
+Overall, these findings reveal that Yap1 promotes male-biased MB progression via Cd276-mediated CD8+ T cell suppression, resulting in immune evasion and highlighting CD276 as a promising therapeutic target for improving male MB prognosis.
+*contributed equally

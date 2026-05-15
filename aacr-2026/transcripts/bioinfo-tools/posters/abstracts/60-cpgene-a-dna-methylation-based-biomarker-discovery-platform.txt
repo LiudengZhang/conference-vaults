@@ -1,0 +1,12 @@
+# CpGene: a DNA methylation-based biomarker discovery platform
+
+**Poster #**: 60
+**Session**: Application of Bioinformatics to Cancer Biology 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Konstantinos Lazaros1, Vasiliki Tzelepi2, Christopher  J.  Logothetis3, Aristidis G. Vrahatis1, Susan (Souzana) Logotheti41Informatics, University of Ionion, Corfu, Greece,2Pathology, School of Medicine, University of Patras, Patras, Greece,3Chairman/Professor, Gu Med. Onc., UT MD Anderson Cancer Center, Houston, TX,4Pathology, School of Medicine, Univeristy of Patras, Patras, Greece
+
+---
+
+Background: DNA methylation (DNAme) has been established as the key player in the epigenetic regulation of the gene expression. While high throughput techniques are essential in rigorous research, data analysis requires in dept bioinformatic knowledge to provide a comprehensive approach to biomarker identification. Recognising this challenge, we developed CpGene, a web application that prioritises accessibility and usability, allowing users to perform robust DNA methylation microarray data analysis (e.g., Illumina 450K, EPIC v1.0, EPIC v2.0) and derive biologically relevant conclusions for biomarker discovery.Methods: The backbone of CpGene is built upon the integration of well-established and widely known packages, ensuring reliability, transparency and repeatability. Data preprocessing including beta value generation and quality control is conducted using minfi R package, while limma package and machine learning-based feature selection approaches are performed for differential methylation analysis. Functional enrichment analysis is obtained using Enrichr API and result visualization is performed using multiple R and python packages (e.g. ggplot2, lattice, matplotlib).Conclusions: CpGene offers an accessible, interactive and user-friendly workspace to perform DNA methylation analysis from microarray data. The platform caters not only to experienced bioinformaticians, but also to basic scientists and clinicians who possess foundational bioinformatics knowledge. The intuitive interface and streamlined workspace enable users from various backgrounds to effectively utilise the platform, regardless of their level of computational expertise. As a result, CpGene empowers both scientific and clinical communities seeking to characterize disease-linked epigenetic alterations and pinpoint actionable DNA methylation biomarkers, even in the absence of advanced bioinformatics training.

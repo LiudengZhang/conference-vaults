@@ -1,0 +1,14 @@
+# Mechanistic study of CX3CL1 promoting T cell exhaustion in ESCC via the JAK/STAT3 axis
+
+**Poster #**: 7420
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Jiayi Huang1, Beilei Liu2, Licheng Tan1, Hongyu Zhou3, Bowen Yao1, Shuang Zhang1, Xin-Yuan Guan1
+
+1Clinical Oncology, The University of Hong Kong, Hong Kong, Hong Kong,2City University of Hong Kong, Hong Kong, Hong Kong,3Shanghai Cancer Center, Shanghai, China
+
+---
+
+Despite the transformative impact of T cell therapy on hematologic cancers, its efficacy in solid tumors such as esophageal squamous cell carcinoma (ESCC) is hampered by T cell exhaustion and poor tumor infiltration. By establishing an immunocompetent ESCC mouse model and conducting single-cell RNA sequencing (scRNA-seq), we have generated a dynamic single-cell atlas of tumor evolution across four distinct phases: immune surveillance, immune equilibrium, immune suppression, and immune escape. We found that CX3CL1 is highly enriched in the immune suppression stage and associated with T cell exhaustion. Further GO analysis demonstrated that CX3CL1&#8314; tumor cells activate the JAK/STAT3 signaling pathway. Both in vitro co-culture systems and in vivo studies showed that treatment with CX3CL1-neutralizing antibodies and JAK inhibitors effectively enhances T cell cytotoxicity and promotes tumor cell apoptosis. Combined therapy with PD-1 inhibitors and CX3CL1-neutralizing antibodies/JAK inhibitors significantly suppressed the growth of subcutaneous ESCC tumors in mice. Our findings indicate that CX3CL1 is a potential therapeutic target in ESCC, and targeting the CX3CL1/JAK/STAT3 axis in combination with immune checkpoint inhibitors may confer potential benefits to ESCC patients.

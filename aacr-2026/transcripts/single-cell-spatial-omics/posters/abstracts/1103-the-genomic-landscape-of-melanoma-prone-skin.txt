@@ -1,0 +1,14 @@
+# The genomic landscape of melanoma-prone skin
+
+**Poster #**: 1103
+**Session**: Early Detection Biomarkers 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Katie Lee1, Yung-Ching Kao1, Darren Smit1, Marietta  K.  Saldias Montivero2, Joshua Jay Levy3, Brock C. Christensen2, Quan Nguyen4, H. Peter Soyer1, Mitchell S. Stark1
+
+1Frazer Institute, University of Queensland, Brisbane, Australia,2Dartmouth Geisel School of Medicine, Lebanon, NH,3Cedars-Sinai Medical Center, Los Angeles, CA,4QIMR Berghofer Medical Research Institute, Herston, Australia
+
+---
+
+Normal skin carries a high burden of somatic mutations, yet this does not explain where a melanoma will form. From 3D total body photography studies of high-risk individuals, we have observed a trend toward melanoma excisions clustered in regions on the back. This posed the question - are these melanoma-prone skin regions? The PhotoMelanoma Study aimed to determine the genomic architecture of the microenvironment that favours melanoma formation. We assessed photodamaged skin adjacent to an invasive melanoma excision, photodamaged skin 5cm away, and photoprotected skin from the same individual. To address this, we invited 19 study participants from our high-risk melanoma cohort (n=300+) to donate three biopsies for genomic analysis. Firstly, we derived a single-cell whole transcriptome library to determine cell types present at each biopsy site. Next, each biopsy was evaluated for hotspot mutations via the ultra-sensitive droplet digital PCR system; somatic mutation burden, mutation signature, and copy number aberrations via deep panel sequencing of 300+ cancer-related genes (PanelSeq), and global methylation profiling of 900K loci. In brief - as expected, PanelSeq showed UV-related mutation signatures (SBS7) with levels similar the across sun-exposed sites, whereas signature SBS2 (APOBEC activity) was enriched (67%) at the scar-adjacent site, with the number of mutations associated with SBS2 reaching significance (Wilcoxon matched-pair; p=0.015). BRAF V600E mutations were significantly enriched near prior melanoma and were present in all sites including sun-protected. Global DNA methylation profiling identified 2000+ loci differentially methylated between photodamaged and photoprotected sites, including HOX family members, and 70 loci were differentially methyated between prior melanoma vs 5cm away, indicating that even with the same level of UV damage, skin sites may be more melanoma-prone. These data are part of a comprehensive genomic and transcriptomic profile to characterise melanocytes, naevi, and the microenvironment to identify the molecular triggers for melanoma formation. In sum, we have uncovered enrichment of somatic events at melanoma excision sites that may provide the soil for de novo melanoma development.

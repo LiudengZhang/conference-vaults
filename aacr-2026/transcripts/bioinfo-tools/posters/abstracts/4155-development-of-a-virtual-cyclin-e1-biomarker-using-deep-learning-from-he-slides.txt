@@ -1,0 +1,12 @@
+# Development of a virtual Cyclin E1 biomarker using Deep Learning from H&E slides for predicting Cyclin E1 overexpression in gynecological malignancy
+
+**Poster #**: 4155
+**Session**: Digital Pathology 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jeannette Fuchs1, Kenneth To2, Christopher Jackson2, Lawrence Schobs2, Rohan Lyons2, Rafay Azhar21Translational Medicine, Debiopharm International S.A., Lausanne, Switzerland,2ViewsML, Vancouver, BC, Canada
+
+---
+
+The purpose of this study was to develop and validate a virtual immunohistochemistry (vIHC) algorithm capable of predicting Cyclin E1 (CCNE1) protein expression from hematoxylin and eosin (H&E)-stained whole-slide images in gynecological malignancy encompassing primarily high-grade serous ovarian carcinoma (HGSOC) and uterine serous carcinoma (USC). CCNE1 is a key cell-cycle regulator whose gene amplification (copy number ≥6) correlates strongly with protein overexpression (H-score >50) and enhanced sensitivity to WEE1 inhibitors. Conventional IHC requires precious tissue and additional laboratory processing; the ViewsML virtual biomarker platform derived from routinely available H&E slides provides a scalable alternative to accelerate patient selection for targeted therapy.H&E and matched Cyclin E1 IHC whole-slide images were provided by Debiopharm. Sixty paired digital slides (40 HGSOC and 20 USC) were analyzed. The dataset was divided into training (n=45), validation (n=6), and testing (n=9) cohorts. ViewsML utilized neural network models trained to learn morphological and nuclear features predictive of Cyclin E1 expression intensity (0-3+). Model performance was evaluated using per-cell sensitivity, specificity, and concordance with physical IHC intensity and H-score classifications, including ROC AUC metrics. Concordance between predicted and true Cyclin E1 expression was evaluated through nuclear localization distinguishing weak, moderate, and strong staining patterns, allowing quantitative assessment of Cyclin E1-positive tumor fractions across HGSOC and USC.In conclusion, this study demonstrates the feasibility of an AI-driven virtual biomarker for Cyclin E1 that can predict protein overexpression directly from H&E slides. The virtual IHC approach conserves valuable tissue and accelerates biomarker screening for patient selection, facilitating improved enrichment for Cyclin E1-associated therapeutic trials. Future applications include integration with multiplex virtual markers to further enhance clinical applicability.

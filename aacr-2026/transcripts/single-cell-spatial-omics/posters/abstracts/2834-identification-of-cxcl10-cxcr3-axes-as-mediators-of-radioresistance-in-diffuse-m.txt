@@ -1,0 +1,16 @@
+# Identification of CXCL10-CXCR3 axes as mediators of radioresistance in diffuse midline glioma (DMG)
+
+**Poster #**: 2834
+**Session**: Immune Mechanisms Invoked by Other Therapies and Exposures
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Mostafa  M.   H.  Ibrahim1, Niloofar Khairkhah1, Carl Koschmann2, Yue Zhao3, Stefanie Galban1
+
+1Department of Radiology, University of Michigan Medical School, Ann Arbor, MI,2Department of Pediatrics, University of Michigan Health System, Ann Arbor, MI,3Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan Medical School, Ann Arbor, MI
+
+---
+
+Diffuse Midline Gliomas (DMGs) are aggressive, universally fatal brain tumors with a 100% recurrence rate driven by therapeutic resistance. Many molecular therapies target epigenetically driven gene expression changes in DMG H3K27M-altered tumors, but whether they target methylation, acetylation, or downstream vulnerabilities, these treatments have failed to prevent recurrence. Since no recent therapies have prompted long-term responses, radiation remains the standard of care; however, radiotherapy often suppresses an immune response, and when tumors recur, an immune suppressive and tumor promoting microenvironment provides a niche for tumor cells to regrow uncontrollably.
+In preliminary studies utilizing single-cell RNA sequencing (scRNA-seq) in a murine model of DMG, we uncovered a complex cellular tumor microenvironment that is modulated upon radiotherapy. In fact, radiation therapy significantly increased the expression of pro-tumorigenic genes in both PDGFRA+ DMG cells (e.g., Tgfa, IL133, Fgf2, Pdgfa) and tumor associated-microglial cells (e.g., IL4i1, IL33, Fgf2, Tgfbr1), suggesting a coordinated pro-tumorigenic response. Furthermore, CXCL10 dramatically increased in tumor cells (DMG) in response to radiotherapy, whereas CXCR3 was found to be predominantly expressed in T cells in these tumors. Interestingly, CXCL10 has previously been shown to be associated with macrophage infiltration and cell proliferation, and expression of the chemokine receptor/ligand pair CXCR3/CXCL10 plays an important role in the proliferation of glioma cells (Pessina et al. Oncoimmunology 2015). These findings suggest radiotherapy-induced immunosuppression occurs through the CXCL10-CXCR3 axis, and thus, in ongoing studies, we are evaluating whether blockade of CXCL10-CRCR3 axes can prevent radioresistance. Lastly, as previously hypothesized, we detected an increase in stemness gene expression in radiated tumors, which was prevented when mice were treated with a pan-ALDH inhibitor (CVT-10216).
+In summary, we have characterized the stromal and immune tumor microenvironment in untreated and radiated DMG and have identified potential targets that may inform future therapeutic strategies to prevent recurrence.

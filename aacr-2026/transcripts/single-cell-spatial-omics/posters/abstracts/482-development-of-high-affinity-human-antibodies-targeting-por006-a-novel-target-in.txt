@@ -1,0 +1,17 @@
+# Development of high-affinity human antibodies targeting POR006: A novel target in squamous cell carcinoma identified by spatial transcriptomics
+
+**Poster #**: 482
+**Session**: RNA, Gene and Cell Therapies, and Enabling Assay Technologies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: MinKyu Kim, Jinyeong Choi, Jae Eun Lee, Hongyoon Choi, Hyung-Jun Im
+
+Portrai, Seoul, Korea, Republic of
+
+---
+
+Background: Squamous cell carcinoma (SQCC) is a malignant epithelial cancer that arises in various organs, including the lung and head and neck region. Spatial transcriptomics (ST) offers high-resolution mapping of gene expression while preserving spatial context within the tumor microenvironment, thereby facilitating the identification of tumor-specific targets for antibody drug conjugates (ADC) or radiopharmaceuticals. Through a data-driven discovery platform leveraging large-scale transcriptomic and ST datasets, POR006 was identified as a prioritized target associated with SQCC. Here, we generated and characterized human recombinant antibodies exhibiting high specificity and affinity toward POR006.
+Methods: Phage display screening was performed to isolate hit antibodies with strong binding potential to POR006. ELISA was used to evaluate binding selectivity, confirming that the antibodies are preferentially bound to POR006 over control proteins. Surface Plasmon Resonance (SPR) was conducted to determine binding kinetics and affinity. Furthermore, flow cytometry and immunocytochemistry (ICC) were carried out to validate target-specific binding in POR006-positive and -negative cell lines.
+Results: PortraiTARGET, a target prioritization platform based on human spatial transcriptomics data, identified POR006 as a novel therapeutic target exhibiting high tumor specificity and spatial homogeneity, suggesting potentially superior payload or radioisotope delivery to cancer cells compared to peer targets. Immunohistochemistry analyses confirmed that POR006 is highly expressed in lung and head and neck SqCC tissues, while its expression was minimal across a wide range of normal tissues. Two lead antibodies were isolated from a human phage display library and exhibited strong, selective binding to POR006. SPR analysis demonstrated sub-nanomolar affinities of 0.58 nM and 0.09 nM, respectively. Both antibodies showed selective binding to POR006-positive cells as determined by flow cytometry, with binding levels significantly higher than those of the IgG isotype control. Also, ICC confirmed target-specific staining patterns in agreement with the flow cytometry data.
+Conclusion: Our study identified POR006 as a novel SQCC-specific therapeutic target and generated two fully human antibodies exhibiting high specificity and sub-nanomolar binding affinities. These antibodies selectively recognize POR006-expressing cells, supporting their potential for targeted therapeutic development. Based on these findings, ADC and radiopharmaceuticals formats are under development, and their therapeutic efficacy will be evaluated through comprehensive in vitro and in vivo studies. This work highlights the utility of spatial transcriptomics in uncovering novel, clinically relevant targets for precision oncology.

@@ -1,0 +1,18 @@
+# Non-animal platforms using ex-vivo human tissue and live-cell biosensors enable functional drug testing in renal cell carcinoma
+
+**Poster #**: 662
+**Session**: Ex Vivo Systems: Patient-Derived, Patient-Specific Tumor Cultures
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Shuchi Gulati1, Madhura Patankar2, Elijah Kofke3, Michael Pargett3, Daniel Oberbauer3, Ching-Hsien Chen4, John G. Albeck3
+
+1UC Davis Comprehensive Cancer Center, Sacramento, CA,2UC Davis Comprehensive Cancer Center, Davis, CA,3University of California Davis, Davis, CA,4UC Davis, Sacramento, CA
+
+---
+
+Background: Animal models frequently fail to recapitulate the immune and metabolic complexity of renal cell carcinoma (RCC). To address this, we developed two complementary non-animal platforms, a patient-derived ex vivo tissue system and a biosensor platform to enable rapid, mechanistic, and clinically relevant drug testing.
+Experiments: i) Fresh RCC specimens were sectioned into precision-cut tissue slices (PCTS) and co-cultured with autologous peripheral blood mononuclear cells (PBMCs) (5x10^5 co-cultured with one PCTS) for six days. Treatment groups included: a) cabozantinib (cabo) alone, b) cabo with cemiplimab (cemi, a PD-1 inhibitor), c) cemi with fianlimab (fin, a LAG-3 inhibitor). The co-cultured PCTS were analyzed using H&#38;E staining and a Live-Dead stain to assess cell viability. ii) Using RCC cell line 786O, which recapitulates the canonical metabolic phenotype of clear cell RCC (high glycolytic flux and HIF1A stabilization), we performed time-course experiments to assess dynamic changes in biosensor signal. Cells were plated on biosensor-compatible microplates and treated with metabolic inhibitors (2-DG, oligomycin) and pharmacological targeted drugs relevant to RCC [(PI103- PI3K/mTOR inhibitor), sunitinib and cabozantinib (tyrosine kinase inhibitors), and linsitinib (IGF1R inhibitor)]. Biosensor output was recorded at 30-minute intervals over 12 hours to generate high-resolution kinetic profiles.
+Results: i) Viability assessment of co-cultured PCTS indicated a significantly higher proportion of dead cells in the cabo+cemi compared with either a single agent or cemi+fin doublet strategy. Additionally, the number of viable PBMCs, assessed six days post-co-culture, was also highest in the cabo+cemi-treated tumors. MxIF analysis is ongoing.
+ii) In the biosensor experiment, 786O RCC cells showed minimal AMPK response to oligomycin, suggesting reliance on glycolysis. Further, these cells, upon treatment with Linsitinib and PI103, induced a rapid and sustained reduction in HYLIGHT (glycolysis) signal intensity. A more gradual decrease was observed with cabozantinib, whereas sunitinib showed almost no effect, suggesting partial metabolic inhibition or pathway compensation. Ongoing work is using a modified protocol, SCENITH (Single-Cell ENergetic metabolism by profiling Translation Inhibition), which allows evaluation of cellular energy metabolism at single-cell resolution using puromycin-based labeling to quantify protein synthesis in the presence of metabolic inhibitors.
+Conclusion: This integrated, fully non-animal strategy overcomes key limitations of animal models by combining preserved human tumor microenvironments with high-resolution metabolic biosensing. Together, these platforms enable rapid and mechanism-based profiling of therapeutic vulnerabilities in RCC.

@@ -1,0 +1,14 @@
+# C3a-C3aR1 signaling promotes invasion of cutaneous squamous cell carcinoma
+
+**Poster #**: LB303
+**Session**: Late-Breaking Research: Tumor Biology 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Lauri Heiskanen, Liisa Nissinen, Elina Siljamäki, Pekka Rappu, Ujjwal Suwal, Jaakko  S.  Knuutila, Jutta Huvila, Jyrki Heino, Veli-Matti Kahari, Pilvi Riihilä
+
+University of Turku, Turku, Finland
+
+---
+
+Cutaneous squamous cell carcinoma (cSCC) is the most common metastatic skin cancer. The prognosis of metastatic cSCC is poor, highlighting the need for novel molecular markers and therapeutical targets for advanced cSCC. We investigated the role of complement component C3a and its receptor, C3aR1, in cSCC progression. Nanostring analysis showed elevated C3aR1 mRNA levels in cSCC tumors in vivo compared with normal skin. Single cell RNA-seq revealed significant expression of C3aR1 mRNA in monocytes, macrophages and tissue stem cells in cSCC tumors. Western blot analysis, RNA-seq and qPCR of 3D spheroid co-cultures of cSCC cells, fibroblasts and macrophages in a collagen I matrix revealed increased expression of C3aR1 protein and mRNA in the presence of M2-like macrophages. Immunofluorescence staining with a C3aR1-antibody localized C3aR1-positive cSCC cells predominantly to the invasive edges of spheroids. Treatment with recombinant C3a enhanced cSCC cell invasion, whereas the C3aR1 inhibitor SB290157 reduced invasion of cSCC cells in the spheroid co-culture model. Immunohistochemical staining of over 400 clinical tissue samples including normal skin, premalignant lesions (actinic keratoses), cSCC in situ, non-metastatic and metastatic primary cSCC, and metastases, showed C3aR1 expression on tumor cell surfaces in metastatic primary tumors and metastases. All C3aR1-positive primary tumors were classified as Clark level V and AJCC stage III or IV. These results provide evidence for the role of C3a-C3aR1 signaling in cSCC invasion and identify C3aR1 as a potential therapeutic target for locally advanced and metastatic cSCC.

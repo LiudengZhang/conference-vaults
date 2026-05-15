@@ -1,0 +1,12 @@
+# Fast and cost-effective cloud-based pipelines to analyze cancer sequencing data
+
+**Poster #**: 6881
+**Session**: Network Biology and Precision Medicine
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Sam Wiseman1, Samantha Van Seters1, Saveliy Belkin1, David  I.  Heiman1, Vasuki Narasimha Swamy1, Antonia Kowalewski1, Scott Ritterbush1, Zachary Everton1, Ron Solan1, Chip Stewart1, David Lehotzky1, Luis Antonio Corchete Sanchez1, Xavi Loinaz1, Haruna Tomono1, Andrew  D.  Cherniack1, Gengchao Wang1, Brian  P.  Danysh1, Young Seok Ju2, Esther Rheinbay1, Gad Getz11Broad Institute, Cambridge, MA,2Inocras Inc., San Diego, CA
+
+---
+
+With the release of high-quality resequencing of the TCGA cohorts, the scientific community has gained an opportunity to deepen its understanding of cancer’s underlying causes and create paths forward for its treatment. Well-experienced with these cohorts, we have developed (i) state-of-the-art computational pipelines that accurately characterize variants in sequenced cancer data, as well as (ii) the infrastructure to run these pipelines quickly and cost-effectively in the cloud. Using a combination of established tools and specialized filters that reduce the likelihood of false calls, our pipelines have been honed over years of use and run extensively in numerous cancer studies. The TCGA cohort presented a unique challenge of >8,000 deep coverage, PCR-free whole-genome-sequenced (WGS) tumor-normal pairs, requiring a massive upscaling of our pipeline infrastructure. Enhancements to individual tools and refinements of our cloud-based workflow engine have reduced the time and cost of our pipeline execution by more than 50% since the start of 2025, allowing us to characterize more than 8,000 of the pairs in less than 1 month. This undertaking detected more than 262 million mutations and 1.17 million structural variants that we believe will provide deep insight into cancer biology and potential therapeutic targets.

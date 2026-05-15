@@ -1,0 +1,14 @@
+# Development of reference standards for clonal evolution and measurable residual disease in acute myeloid leukemia
+
+**Poster #**: 5375
+**Session**: Prognostic Biomarkers 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Colt  W.  Nash, Matthew  G.  Butler, Ojaswee Dahal, Jayanthi Ramprakash, Andrew  T.  Anfora, Yves Konigshofer
+
+LGC Clinical Diagnostics, Gaithersburg, MD
+
+---
+
+Here, we describe novel reference standards for measurable residual disease (MRD) and clonal evolution in acute myeloid leukemia (AML). About a third of patients with AML harbor somatic mutations in NPM1 and FLT3, and it is not uncommon for AML to start with a mutation in NPM1 or an internal tandem duplication (ITD) in FLT3, respond to a therapy with remission, and have the other mutation appear during relapse as a result of clonal evolution. To support the development and validation of molecular diagnostic assays that assess MRD and clonal evolution, we created reference standards where several clonal AML cell lines with added mutations are combined with peripheral blood mononuclear cells (PBMCs). These clones represent different combinations of an NPM1 mutation, a short FLT3-ITD, and a long FLT3-ITD to support single-cell assays that can evaluate the mutations in a given cell. Additional PBMCs are provided to dilute these clones to MRD levels and for assays that are designed to use the DNA and/or RNA input from around 2 million cells (i.e., 10 micrograms). On a commercial single-cell assay, it was possible to identify and separate the individual clones. Additionally, it was possible to dilute the cells to MRD levels and detect the mutations by NGS. In conclusion, we have generated cell-based reference standards with combinations of an NPM1 mutation and FLT3-ITDs, which are designed for the development and validation of molecular biology-based AML assays. Using the same methodology, it should also be possible to generate clones with mutations in other genes to reflect clonal evolution in AML.

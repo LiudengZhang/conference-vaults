@@ -1,0 +1,19 @@
+# Omicology: A comprehensive AI/LLM/NLP-based web resource for the ontology, phylogeny, and practical navigation of omics literature
+
+**Poster #**: 5451
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: James M. Melott, John N. Weinstein
+
+UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Introduction: We present here a public website, omicology.com, which includes extensive information on omic research domains and features a specialized omics search engine. Omics started as a simple suffix for research based on molecular profiling of genes, proteins, and other (biological) molecules in aggregate. The etymology, from ancient Greek or possibly Sanskrit, is debated. Application of the suffix to dozens of research fields starting in the 1990s (Weinstein 1998) was often derided as jargon. &#8220;Where&#8217;s the hypothesis?&#8221; was a common critique - and reason for rejecting manuscripts or proposals. But given the draft human genome in 2001, synergy between omic and hypothesis-driven research gradually gained acceptance. In 2000, 2010, 2020, and 2025, there were 6, 61, 267, and >700 omics terms, respectively. More recently, high-throughput single-cell, spatially-resolved, and temporally-resolved omic technologies have provided new dimensions to our pursuit of precision medicine for cancer.
+Methods: Our starting point for development of the search engine database was 6,980,243 full-text Open Access PubMed Central articles plus various metadata. It included 5,699 omics terms. Our NLP, use of LLM resources, and careful manual curation have produced 702 omics terms. Refinement of such lists is complicated by eccentricities of language, misspellings, alternative spellings, suffixes like &#8216;nomics&#8217; (e.g., in economics), not &#8216;omics,&#8217; and ambiguous terms like &#8216;chromosomics.&#8217;
+AI tools (Elicit, Cursor, Google, and ChatGPT) have provided useful design and content ideas for a static html prototype website. An agentic AI coding tool has assisted our development of a dynamic full-stack, human-curated version (currently 34,124 lines of code and content) based on the prototype (for publicly roll-out before AACR 2026).
+Representative Results: The most frequent omic terms are Genomics (257,617 articles), Proteomics (123,697), Metabolomics, (80,023), and Transcriptomics (78,279). Metagenomics, radiomics, lipidomics, epigenomics, pharmacogenomics, and phosphoproteomics complete the top 10.
+Our data on the top 702 terms currently include usage numbers for each document section, publication date, curation status, a brief LLM-generated description, and more.
+Conclusions: The open-source, updatable Omicology.com website will provide an expanding repertoire of information and perspectives on omics plus specialized omics search capabilities. Biomedical perspective will be aided by the senior author&#8217;s long-term experience in omic research beginning with his initiation and leadership of the first omic/multi-omic NCI project, molecular profiling of the NCI-60 (e.g., Weinstein, et al., Science, 1997). Methods used here for omics can provide a template for research on other hard-to-analyze fields, complementing the capabilities of such resources as PubMed Central.

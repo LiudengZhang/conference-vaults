@@ -1,0 +1,17 @@
+# A novel epithelial tumor signature predicts survival and response to PD-1 blockade in non-small cell lung cancer
+
+**Poster #**: 1045
+**Session**: Biomarkers Predictive of Therapeutic Benefit 2
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Muaath Alsufi1, Jehad Yasin1, Muthafar Alsufi1, Osama Younis1, Amro Assayed2, Fawzi Abu Rous3
+
+1Faculty of Medicine, University of Jordan, Amman, Jordan,2University of Central Florida, Orlando, FL,3Henry Ford Health System, Detroit, MI
+
+---
+
+Introduction: Immune checkpoint inhibitors (ICIs) are the standard of care for NSCLC lacking driver alterations, yet many patients do not derive clinical benefit. Current biomarkers, such as PD-L1, are imperfect in predicting response. Identifying tumor epithelial gene markers linked to immunotherapy response could improve prediction of patient outcomes.
+Methods: A single-cell RNA (scRNA) dataset (GSE205335, n=12,975 cells) of NSCLC patients treated with anti-PD1 therapy was analysed to identify DEGs between responders (CR/PR) and non-responders (SD/PD). A bulk RNA-seq cohort (SU2C-MARK, n=142) was used to build a prognostic model. Genes associated with overall survival (OS) were identified using univariate Cox regression, followed by Least Absolute Shrinkage and Selection Operator (LASSO) and a multivariate Cox model to identify independent predictors of survival. A signature-based risk score was calculated, stratifying patients into High and Low-Risk groups based on median risk score. Associations with response and survival were assessed using Wilcoxon, Kaplan-Meier, and log-rank tests. Multivariate Cox analysis was performed to adjust for clinical covariates. The signature was validated using combined, batch-corrected datasets (GSE13522, GSE126044, GSE190265, GSE274975; n=129). xCELL was used to perform computational immune deconvolution.
+Results: scRNA-seq analysis revealed 816 epithelial genes linked to treatment response. Univariate Cox regression of the bulk RNA-seq cohort identified 36 OS-associated genes, which were reduced to 17 genes by LASSO-Cox. Multivariate Cox regression resulted in a 4-gene signature of independent predictors of survival: CXCL8 (HR: 1.27, p=0.008), C11orf58 (HR: 0.59, p=0.010), SERF2 (HR: 2.11, p=0.015), and MT-CO1 (HR: 1.27, p=0.045). The 4-gene risk score was used to split patients into High (n=71) and Low (n=71) risk groups. High-Risk patients exhibited shorter OS and PFS (HR=3.49, p = 4&#215;10&#8315;&#8311;; HR=2.029, p = 0.0007), and non-responders were associated with higher risk scores (p=0.0175). The 4-gene risk score was an independent predictor of OS (HR=2.785, p=0.0082) and PFS (HR=1.650, p=0.028) after adjusting for age, sex, stage, smoking, and PD-L1 TPS. TME deconvolution revealed that the High-Risk group featured higher Macrophages (M0, M1) and Neutrophils, while the Low-Risk group featured higher CD4+ T-cells and naive B-cells. In the combined validation dataset (n=129), the High-Risk group experienced worse PFS compared to the Low-Risk group (HR=1.58, p=0.036).
+Conclusion: We present a novel signature of 4 tumor-intrinsic epithelial genes (CXCL8, C11orf58, SERF2, MT-CO1) that predict response and survival in NSCLC patients treated with anti-PD-1 therapy. The link between these genes and the immune microenvironment highlights a key tumor-TME axis, and represents promising potential for translational biomarker studies.

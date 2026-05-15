@@ -1,0 +1,17 @@
+# Development of an AI framework for identifying image based digital biomarkers predictive of immunotherapy response in malignant melanoma
+
+**Poster #**: 1454
+**Session**: Digital Pathology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Theresa Koehler1, Eleftherios Mylonakis1, Raluca Wroblewski2, Khalid Daifalla1, Jasna Kovacevic2, Gianluca Corradini2, Patrick Frey1, Markus Tiemann2, Katharina Tiemann3, Tobias Lang1
+
+1Mindpeak GmbH, Hamburg, Germany,2MVZ HPH Institut für Pathologie und Hämatopathologie GmbH, Hamburg, Germany,3Faculty of Medicine, Asklepios Campus Hamburg, Semmelweis University, Hamburg, Germany
+
+---
+
+Background: The MelanomAIX project developed an AI-based framework to identify image-derived digital biomarkers predictive of immunotherapy response in malignant melanoma. Histopathological slides contain rich subvisual information that reflects tumor-immune interactions often missed by conventional assessment. By combining deep learning-based tissue characterization with molecular and clinical data, MelanomAIX leverages routine pathology for biomarker discovery and precision oncology.
+Methods: A real-world cohort of 200 melanoma patients was assembled from multiple clinical archives. Each case was curated with digitized H&#38;E and PD-L1 IHC slides, detailed treatment histories, and verified outcome data. Expert pathologists performed specialized, systematic annotations on 138 representative cases, generating detailed region- and cell-level labels to train and validate the AI model. These data complemented an independent larger dataset of 585 cases with over one million manually annotated cells used for model pretraining. The model characterizes the tumor microenvironment by identifying key tissue compartments, immune infiltration patterns, and subvisual morphological features potentially associated with therapeutic response. Building on these explainable image-derived features, the AI framework integrated paired PD-L1 IHC scores to explore AI-driven, multimodal predictive biomarker discovery.
+Results: A total of 106,442 manual single-cell and tissue-level annotations across 12 morphological classes were completed. The AI model achieved high segmentation accuracy for tumor-related tissue classes (91.9-95.7%). Extracted image-based features captured spatial and morphological characteristics of the tumor microenvironment, including immune infiltration and tumor-intrinsic heterogeneity. The framework demonstrates promising robust performance in identifying biologically relevant image features that can support response prediction.
+Conclusions: MelanomAIX delivers a scalable AI framework connecting histopathologic morphology with clinical outcomes in melanoma. This approach provides a foundation for developing explainable, image-based digital biomarkers predictive of immunotherapy response. Future work will validate the framework on independent and diverse patient cohorts to assess generalizability and clinical utility in predicting immunotherapy response. This abstract text was prepared with assistance from OpenAI&#8217;s GPT-5 language model for drafting and refinement purposes.

@@ -1,0 +1,5737 @@
+WEBVTT
+
+1
+00:00:00.080 --> 00:00:03.620
+All right. It is on the hour, so I will go ahead and kick off
+
+2
+00:00:03.680 --> 00:00:07.620
+this session. For me, this is not just kicking off the session, but it's also
+
+3
+00:00:08.340 --> 00:00:11.280
+kicking off the entire meeting. This is probably true for many of you.
+
+4
+00:00:12.020 --> 00:00:15.980
+So today's session is entitled Decoding Tumor Evolution through the Human Tumor
+
+5
+00:00:16.080 --> 00:00:16.800
+Atlas Network.
+
+6
+00:00:17.720 --> 00:00:21.340
+We have one introductory talk from a program
+
+7
+00:00:21.440 --> 00:00:25.200
+officer at the National Cancer Institute who will start out by telling you a little
+
+8
+00:00:25.220 --> 00:00:29.180
+bit about the Human Tumor Atlas Network, and then we have three scientific talks
+
+9
+00:00:29.880 --> 00:00:33.480
+representing three of the 10 atlases in HTAN.
+
+10
+00:00:34.200 --> 00:00:37.400
+There's no time for questions after the first introduction, but there will be time
+
+11
+00:00:37.800 --> 00:00:39.560
+after each one of the scientific talks.
+
+12
+00:00:40.280 --> 00:00:42.980
+So without further ado, I'll introduce our first speaker, Dr.
+
+13
+00:00:43.660 --> 00:00:47.540
+Indu Kohar, a program officer at the National Cancer Institute, who will tell
+
+14
+00:00:47.620 --> 00:00:50.560
+you a little bit about the Human Tumor Atlas Network.
+
+15
+00:00:55.200 --> 00:00:56.000
+Thank you, Hunter.
+
+16
+00:00:57.400 --> 00:00:59.380
+A very good afternoon to all, and
+
+17
+00:01:00.580 --> 00:01:04.080
+I thank the chair and the organizing committee for giving an opportunity to
+
+18
+00:01:04.100 --> 00:01:04.681
+present
+
+19
+00:01:05.660 --> 00:01:09.180
+and introduce our NCI's Human Tumor Atlas Network program.
+
+20
+00:01:15.500 --> 00:01:16.580
+It's not moving.
+
+21
+00:01:19.740 --> 00:01:23.440
+Okay. I have no financial relationships to disclose,
+
+22
+00:01:23.640 --> 00:01:26.920
+and I'm here representing the entire NCI HTAN
+
+23
+00:01:27.060 --> 00:01:30.320
+team. Members span across the various divisions
+
+24
+00:01:30.440 --> 00:01:34.200
+of NCI as well as within the
+
+25
+00:01:34.240 --> 00:01:34.780
+NIH.
+
+26
+00:01:36.840 --> 00:01:40.500
+We know that traditional hallmarks are the basic guiding principles for
+
+27
+00:01:40.820 --> 00:01:44.540
+malignant transformation of cancer from pre-cancer to advanced disease.
+
+28
+00:01:45.060 --> 00:01:45.680
+But these
+
+29
+00:01:46.760 --> 00:01:50.520
+relationships between these hallmarks are evolving, and the HTAN
+
+30
+00:01:50.600 --> 00:01:51.940
+program is addressing
+
+31
+00:01:53.640 --> 00:01:57.110
+such evolving relationship between the cancer hallmarks,
+
+32
+00:01:57.360 --> 00:01:58.550
+starting from pre-cancer to
+
+33
+00:01:59.900 --> 00:02:01.020
+late-stage disease.
+
+34
+00:02:02.800 --> 00:02:05.780
+Again, the deep understanding of the biology of the
+
+35
+00:02:06.520 --> 00:02:09.799
+carcinogenesis cannot be done
+
+36
+00:02:10.539 --> 00:02:11.620
+without the advancement
+
+37
+00:02:12.500 --> 00:02:15.950
+in the spatial omics technologies, and I'm here listing some of
+
+38
+00:02:15.980 --> 00:02:19.580
+the recent technologies which include spatial
+
+39
+00:02:19.600 --> 00:02:23.460
+transcriptomics, spatial proteomics, spatial metabolomics,
+
+40
+00:02:23.580 --> 00:02:26.560
+spatial multi-omics, and 3D/4D spatial profiling.
+
+41
+00:02:28.660 --> 00:02:32.160
+The NCI's Human Tumor Atlas Network program is a collaborative
+
+42
+00:02:32.220 --> 00:02:35.800
+initiative to map the tumor evolution at a single-cell resolution.
+
+43
+00:02:36.320 --> 00:02:39.700
+It aims to build highly dynamic three-dimensional
+
+44
+00:02:40.740 --> 00:02:44.640
+atlases of pre-cancer and tumor. The main goals include the
+
+45
+00:02:45.100 --> 00:02:48.480
+integration of molecular, cellular, and tumor tissue composition and
+
+46
+00:02:48.580 --> 00:02:52.440
+architecture involving the tumor microenvironment and immune milieu,
+
+47
+00:02:52.940 --> 00:02:54.760
+describe the transition across
+
+48
+00:02:55.600 --> 00:02:59.460
+the cancer spectrum, premalignant lesions to malignancy,
+
+49
+00:02:59.500 --> 00:03:01.560
+locally invasive to metastatic cancer,
+
+50
+00:03:02.760 --> 00:03:04.640
+responsive to resistant cancer type,
+
+51
+00:03:05.440 --> 00:03:09.400
+with the ultimate goal of enabling predictive modeling to refine detection and
+
+52
+00:03:09.460 --> 00:03:10.680
+therapeutic choices.
+
+53
+00:03:12.760 --> 00:03:16.660
+HTAN program was funded under two cycles, under Phase I,
+
+54
+00:03:16.760 --> 00:03:19.460
+which was from 2018 to 2024.
+
+55
+00:03:20.400 --> 00:03:23.100
+It encompasses various tumor types.
+
+56
+00:03:23.620 --> 00:03:27.340
+Six of them are listed here: lung, pancreas, colon, breast, skin, and
+
+57
+00:03:27.380 --> 00:03:28.040
+pediatric.
+
+58
+00:03:29.680 --> 00:03:33.620
+The highlights from the HTAN Phase I is published in a collection
+
+59
+00:03:33.660 --> 00:03:37.370
+in a "Nature" journal. It is a publicly available set of spatially
+
+60
+00:03:37.420 --> 00:03:41.280
+resolved tumor maps describing transitions in cancer for use by
+
+61
+00:03:41.340 --> 00:03:42.700
+the cancer research community.
+
+62
+00:03:44.400 --> 00:03:48.260
+Some of the important discoveries include one study which examined the
+
+63
+00:03:48.280 --> 00:03:52.100
+interaction among cancer as well as the non-cancer cells in six
+
+64
+00:03:52.460 --> 00:03:55.860
+different tumor types. The study identified distinct
+
+65
+00:03:55.920 --> 00:03:59.660
+substructures, which are called microregions, within the
+
+66
+00:03:59.700 --> 00:04:03.460
+tumors, which have been associated with different activities and interactions,
+
+67
+00:04:04.080 --> 00:04:07.920
+as indicated by a specific metabolic state or a T cell profile.
+
+68
+00:04:08.620 --> 00:04:12.520
+Several studies also focused on colorectal cancer, including two that
+
+69
+00:04:12.540 --> 00:04:15.900
+defined early molecular events that drive the
+
+70
+00:04:15.940 --> 00:04:19.440
+transformation of precancerous lesions in colon to cancer.
+
+71
+00:04:20.280 --> 00:04:22.600
+Two studies focused on breast cancer.
+
+72
+00:04:23.040 --> 00:04:27.020
+One used single-cell sequencing, RNA sequencing to profile metastatic cancer
+
+73
+00:04:27.080 --> 00:04:30.700
+from 60 individuals, while the other described the underlying
+
+74
+00:04:30.740 --> 00:04:33.780
+genetic networks that define the breast cancer subtypes.
+
+75
+00:04:35.820 --> 00:04:39.460
+Some of the common themes that came across these tumor types and analysis
+
+76
+00:04:39.500 --> 00:04:43.159
+include the recurring pattern of cellular spatial
+
+77
+00:04:43.960 --> 00:04:47.510
+patterns that is indicative of co-evolution of tumor and
+
+78
+00:04:47.580 --> 00:04:51.000
+stroma, which are emerging drivers as progression
+
+79
+00:04:51.100 --> 00:04:53.640
+of progression and resistance.
+
+80
+00:04:54.420 --> 00:04:58.060
+Additionally, discovery of rare transitional dedifferentiated or
+
+81
+00:04:58.120 --> 00:05:01.740
+plastic tumor cell types often conserved across tumor subtypes and
+
+82
+00:05:01.780 --> 00:05:03.400
+correlated with the poor outcome.
+
+83
+00:05:04.080 --> 00:05:04.640
+In addition,
+
+84
+00:05:05.580 --> 00:05:09.540
+the study addressed the deep exploration of stroma immune and immune cell
+
+85
+00:05:09.600 --> 00:05:13.380
+interactions. So far, HTAN has led to more than
+
+86
+00:05:13.500 --> 00:05:17.460
+200 publications and preprints, with 20-plus primary atlas
+
+87
+00:05:17.520 --> 00:05:21.420
+publications and 50-plus new analytical and experimental
+
+88
+00:05:22.120 --> 00:05:22.620
+tools.
+
+89
+00:05:24.620 --> 00:05:26.530
+So the findings of the HTAN Phase I
+
+90
+00:05:28.060 --> 00:05:31.580
+drives the implementation of HTAN Phase II, which was
+
+91
+00:05:31.640 --> 00:05:35.040
+initiated in 2024 and is still ongoing.
+
+92
+00:05:35.560 --> 00:05:39.520
+It is complementary to HTAN Phase I with respect to the diversity of
+
+93
+00:05:39.560 --> 00:05:43.260
+the tumor types. It includes PCA as well as HTA
+
+94
+00:05:43.360 --> 00:05:46.960
+center. PCA is the Pre-Cancer Atlas centers, which include skin,
+
+95
+00:05:47.040 --> 00:05:50.960
+pancreas, brain, gastric, and myeloma, whereas the HTA centers
+
+96
+00:05:51.000 --> 00:05:54.400
+include prostate, colon, ovary, lymphoma, and pediatric solid
+
+97
+00:05:54.440 --> 00:05:58.272
+tumors.This is the general structure of the NCI
+
+98
+00:05:58.352 --> 00:06:02.232
+Human Tumor Atlas Network, comprising of five BCA centers, five
+
+99
+00:06:02.312 --> 00:06:06.032
+Human Tumor Atlas centers, the HTAN Data
+
+100
+00:06:06.132 --> 00:06:09.892
+Coordinating Center, which manages the data, as well as the HTAN
+
+101
+00:06:09.972 --> 00:06:12.972
+Steering Committee, which governs the program.
+
+102
+00:06:13.032 --> 00:06:15.782
+In addition, there are several subcommittees
+
+103
+00:06:17.112 --> 00:06:19.892
+and working group, including Precancer Atlas Subcommittee,
+
+104
+00:06:20.572 --> 00:06:24.492
+Advisory Committee for Data Coordination, Methods Working Group,
+
+105
+00:06:24.572 --> 00:06:27.992
+Visualization Working Group, Translational Working Group, and Outreach Working
+
+106
+00:06:28.052 --> 00:06:28.292
+Group.
+
+107
+00:06:29.892 --> 00:06:32.632
+HTAN is built on four core principles.
+
+108
+00:06:32.792 --> 00:06:36.152
+One is the community resource, complement approaches,
+
+109
+00:06:36.552 --> 00:06:39.892
+open communication, and data and resource sharing.
+
+110
+00:06:42.092 --> 00:06:45.652
+Here, I'm showing how the HTAN data sharing and community
+
+111
+00:06:45.712 --> 00:06:49.552
+engagement takes place. All these atlases, along with certain
+
+112
+00:06:49.592 --> 00:06:52.102
+cross-network projects, generate huge amount of data.
+
+113
+00:06:52.652 --> 00:06:56.552
+This data is then ingested by the Data Coordinating Center that uses their data
+
+114
+00:06:56.632 --> 00:07:00.222
+platform and provides standards, validation, management, and
+
+115
+00:07:00.312 --> 00:07:04.092
+governance. The data sharing is facilitated by HTAN portal,
+
+116
+00:07:04.212 --> 00:07:07.592
+Cancer Data Service, ISP's Cancer Gateway, and Seven Bridges.
+
+117
+00:07:09.032 --> 00:07:11.922
+Further, the DCC, the Data Coordinating Center,
+
+118
+00:07:13.292 --> 00:07:16.832
+facilitates the community engagement through user supports, manuals,
+
+119
+00:07:16.952 --> 00:07:19.732
+workshop, working groups, and data jamboree.
+
+120
+00:07:21.592 --> 00:07:24.672
+This is a snapshot of HTAN data portal.
+
+121
+00:07:25.472 --> 00:07:25.952
+Here is the
+
+122
+00:07:26.792 --> 00:07:30.472
+QR code, which you can scan if you want to get more information on the
+
+123
+00:07:30.532 --> 00:07:33.852
+various data and resources and tools available in the HTAN portal.
+
+124
+00:07:34.472 --> 00:07:38.272
+As you see, there are 14 atlases now, spanning across 20
+
+125
+00:07:38.352 --> 00:07:41.652
+organ types with 2,400 cases and
+
+126
+00:07:42.212 --> 00:07:44.312
+approximately 10,000 biospecimens.
+
+127
+00:07:46.572 --> 00:07:50.452
+HTAN is not alone. It is part of a broader atlasing ecosystem.
+
+128
+00:07:51.112 --> 00:07:54.832
+It is collaborating actively with the Human Protein Atlas, Chan
+
+129
+00:07:54.892 --> 00:07:58.552
+Zuckerberg Initiative, Human Cell Atlas, HuBMAP in
+
+130
+00:07:58.612 --> 00:08:02.392
+various ways, through a working group, workshops,
+
+131
+00:08:02.892 --> 00:08:06.852
+cross-consortium metadata, as well as spatial biology
+
+132
+00:08:06.912 --> 00:08:07.291
+meeting.
+
+133
+00:08:10.272 --> 00:08:13.852
+How can you be part of HTAN? So HTAN basically offers
+
+134
+00:08:14.072 --> 00:08:17.992
+researchers which are not currently funded by HTAN the opportunity to apply
+
+135
+00:08:18.492 --> 00:08:21.272
+to join the program as non-voting associate members.
+
+136
+00:08:22.292 --> 00:08:23.662
+If you want to be associate member,
+
+137
+00:08:24.492 --> 00:08:28.432
+you please contact the HTAN Data Coordinating Center, email is listed here.
+
+138
+00:08:28.882 --> 00:08:32.143
+And that way you will be able to engage in HTAN consortium
+
+139
+00:08:32.332 --> 00:08:36.241
+activities through working groups, annual meetings, and
+
+140
+00:08:36.252 --> 00:08:37.552
+developing collaborations.
+
+141
+00:08:39.752 --> 00:08:43.072
+Overall, in summary, the NCI's HTAN program
+
+142
+00:08:44.092 --> 00:08:47.472
+is addressing tumor evolution to accelerate cancer
+
+143
+00:08:47.512 --> 00:08:50.932
+discovery. It is built for scale and collaboration.
+
+144
+00:08:50.992 --> 00:08:54.932
+It's a NCI-funded network comprising of tumor atlas
+
+145
+00:08:54.952 --> 00:08:56.872
+as well as precancer atlas centers,
+
+146
+00:08:58.132 --> 00:09:01.852
+built by multidisciplinary teams, unified standards via Data
+
+147
+00:09:01.952 --> 00:09:05.672
+Coordinating Center. It answers the questions beyond the scope of single
+
+148
+00:09:05.752 --> 00:09:09.452
+study, addresses tumor heterogeneity and microenvironment at
+
+149
+00:09:09.472 --> 00:09:10.632
+single-cell resolution,
+
+150
+00:09:11.592 --> 00:09:14.992
+builds multidimensional atlas from precancer through metastasis,
+
+151
+00:09:15.652 --> 00:09:18.992
+help identify biomarkers of detection, prognosis, and treatment
+
+152
+00:09:19.052 --> 00:09:19.652
+response,
+
+153
+00:09:20.532 --> 00:09:23.732
+additionally generates new biological insights and hypothesis.
+
+154
+00:09:24.292 --> 00:09:28.152
+It also provides open data to the community, which they can
+
+155
+00:09:28.232 --> 00:09:30.452
+use today through HTAN data portal.
+
+156
+00:09:31.532 --> 00:09:35.052
+With that, I'll end my presentation here. Thank you so much.
+
+157
+00:09:40.052 --> 00:09:40.812
+Thank you, Indu.
+
+158
+00:09:41.672 --> 00:09:45.361
+And as I said, we did not build in time after Indu's talk, but if you do have
+
+159
+00:09:45.392 --> 00:09:48.992
+questions, you can come up and introduce yourself afterwards.
+
+160
+00:09:50.392 --> 00:09:53.532
+So my name is Hunter Shane, and I am one of the
+
+161
+00:09:53.552 --> 00:09:57.032
+co-PIs of one of the phase two atlases, the
+
+162
+00:09:57.492 --> 00:10:01.272
+precancer atlas of skin cancer. And I'm thrilled to also
+
+163
+00:10:01.352 --> 00:10:03.672
+chair this session and kick off the scientific
+
+164
+00:10:04.452 --> 00:10:08.372
+talks for today's session. So I will walk you
+
+165
+00:10:08.432 --> 00:10:12.412
+through the journey from a normal type of skin cell known as a
+
+166
+00:10:12.452 --> 00:10:16.432
+keratinocyte, to a common form of skin cancer known as cutaneous
+
+167
+00:10:16.442 --> 00:10:17.612
+squamous cell carcinoma.
+
+168
+00:10:19.392 --> 00:10:23.372
+These are my disclosures. And if you want to understand the evolution
+
+169
+00:10:23.492 --> 00:10:27.092
+of cutaneous squamous cell carcinoma, you need to first start by
+
+170
+00:10:27.172 --> 00:10:30.312
+understanding what are the somatic alterations in normal skin cells.
+
+171
+00:10:30.812 --> 00:10:33.682
+And I'll pose the thought experiment to the audience, and that's how might you do
+
+172
+00:10:33.712 --> 00:10:37.452
+that. Your reflexive reaction is probably to just sequence normal
+
+173
+00:10:37.472 --> 00:10:41.062
+skin, and this is not a bad idea. But the problem with this
+
+174
+00:10:41.092 --> 00:10:44.992
+approach is that it gives you an average signal from the complex mixture
+
+175
+00:10:45.052 --> 00:10:48.952
+of cells that are there. Now, to be sure, this has been used to great success
+
+176
+00:10:48.992 --> 00:10:52.832
+in the past. You can go all the way back to 1994 when Doug Brash's
+
+177
+00:10:52.892 --> 00:10:56.412
+group used this approach to show that there are p53
+
+178
+00:10:56.452 --> 00:10:59.552
+mutant patches of keratinocytes in normal human skin.
+
+179
+00:10:59.972 --> 00:11:03.572
+And then, of course, Inigo Martin-Carrena and colleagues really turbocharged this
+
+180
+00:11:03.632 --> 00:11:07.312
+approach in 2015 in a landmark paper, to show more
+
+181
+00:11:07.372 --> 00:11:11.112
+generally the mutational landscape of clonally related patches of
+
+182
+00:11:11.132 --> 00:11:13.232
+keratinocytes in human skin.
+
+183
+00:11:14.112 --> 00:11:17.892
+But I would argue the ideal
+
+184
+00:11:18.032 --> 00:11:20.672
+resolution to do this would be at single-cell resolution.
+
+185
+00:11:21.752 --> 00:11:25.512
+In my opinion, single-cell DNA sequencing technologies have come a
+
+186
+00:11:25.572 --> 00:11:28.912
+long way, but they still suffer from low levels of sensitivity and
+
+187
+00:11:28.952 --> 00:11:30.832
+specificity in their mutation calls.
+
+188
+00:11:31.452 --> 00:11:34.352
+And so to get around this challenge, our laboratory developed the following
+
+189
+00:11:34.432 --> 00:11:38.192
+workflow, where we start out by extracting a bulk population of skin cells,
+
+190
+00:11:38.652 --> 00:11:42.092
+and then we single-cell sort them so that there is now one cell per well in a
+
+191
+00:11:42.232 --> 00:11:45.912
+96-well plate. We clonally expand these cells as much as possible.
+
+192
+00:11:46.452 --> 00:11:50.322
+These are cells from normal tissue, so they have a limited replicative ability.
+
+193
+00:11:51.592 --> 00:11:55.221
+But it is easier to genotype from a starting point of, let's say, 100 cells than
+
+194
+00:11:55.292 --> 00:11:58.932
+one cell. But to finish the job, we would lyse these small colonies of
+
+195
+00:11:58.992 --> 00:12:02.732
+cells, releasing their genomic DNA and mRNA, and then
+
+196
+00:12:02.792 --> 00:12:05.632
+further amplify these nucleic acid populations in
+
+197
+00:12:05.712 --> 00:12:09.200
+vitro.And between the combination of ex vivo clonal
+
+198
+00:12:09.220 --> 00:12:12.670
+expansion, in vitro nucleic acid amplification,
+
+199
+00:12:13.220 --> 00:12:17.140
+and a heavy dose of bioinformatics that I'm not going to go into, we are able to
+
+200
+00:12:17.180 --> 00:12:20.820
+call somatic alterations in individual skin cells at nearly
+
+201
+00:12:21.000 --> 00:12:23.580
+100% sensitivity and specificity.
+
+202
+00:12:24.780 --> 00:12:28.460
+I think the value of this data is best exemplified with an example.
+
+203
+00:12:28.470 --> 00:12:31.680
+And shown here is a skin biopsy that measures three
+
+204
+00:12:31.720 --> 00:12:35.470
+millimeters in diameter. I hope you can appreciate
+
+205
+00:12:35.470 --> 00:12:39.149
+that for all intents and purposes, this is physiologically normal human skin.
+
+206
+00:12:39.740 --> 00:12:42.040
+It came from the back of a 75-year-old woman.
+
+207
+00:12:42.080 --> 00:12:45.630
+She did have a previous history of skin cancer, as well as
+
+208
+00:12:45.660 --> 00:12:48.730
+self-reported high levels of cumulative UV exposure.
+
+209
+00:12:49.520 --> 00:12:53.440
+But this is normal skin from which we genotype 10 individual
+
+210
+00:12:53.540 --> 00:12:57.520
+keratinocytes. And the first thing I want to point out to you is that
+
+211
+00:12:57.580 --> 00:13:01.540
+many of these so-called normal keratinocytes actually have mutations
+
+212
+00:13:01.580 --> 00:13:04.620
+known to drive keratinocyte carcinogenesis.
+
+213
+00:13:04.780 --> 00:13:08.440
+This trio of cells has a biallelic loss of function NOTCH1
+
+214
+00:13:08.480 --> 00:13:11.780
+mutations, as well as loss of function mutations affecting
+
+215
+00:13:11.820 --> 00:13:14.920
+p53, FAT1, PBRM1,
+
+216
+00:13:15.480 --> 00:13:19.400
+NOTCH2. And then two of these cells further acquired yet
+
+217
+00:13:19.420 --> 00:13:23.220
+another NOTCH1 mutation. And then one of these cells acquired yet
+
+218
+00:13:23.240 --> 00:13:26.780
+another NOTCH2 mutation. And so if you're keeping count,
+
+219
+00:13:27.540 --> 00:13:31.200
+these cells have up to eight pathogenic mutations in the same
+
+220
+00:13:31.260 --> 00:13:31.560
+cell.
+
+221
+00:13:32.380 --> 00:13:36.300
+Now, if you had done bulk cell sequencing, you might have gotten lucky and detected
+
+222
+00:13:36.360 --> 00:13:39.360
+some of these mutations, but you would have never recognized that they were
+
+223
+00:13:39.420 --> 00:13:41.220
+co-occurring within the same cell.
+
+224
+00:13:42.220 --> 00:13:45.640
+Cancer is thought to arise after the accumulation of four to five pathogenic
+
+225
+00:13:45.700 --> 00:13:49.360
+mutations, and so we were somewhat surprised that these cells can
+
+226
+00:13:49.400 --> 00:13:53.280
+tolerate up to eight driver mutations, and yet that is insufficient
+
+227
+00:13:53.340 --> 00:13:55.160
+to form a discernible neoplasm.
+
+228
+00:13:56.020 --> 00:13:59.620
+Now, the second thing I want to point out is that many of these cells are
+
+229
+00:13:59.680 --> 00:14:03.470
+clonally related. I cannot say with any degree of certainty how
+
+230
+00:14:03.500 --> 00:14:07.380
+these clonally related cells are spatially organized, but we have drawn
+
+231
+00:14:07.500 --> 00:14:10.900
+a schematic here of how they may have theoretically been organized.
+
+232
+00:14:11.400 --> 00:14:15.270
+And this is drawn to scale if you assume that the size of each clonally related
+
+233
+00:14:15.360 --> 00:14:19.120
+patch of keratinocytes is proportional to the number of cells within it.
+
+234
+00:14:19.860 --> 00:14:23.470
+A couple things to point out here. It's perhaps not surprising that the cells with
+
+235
+00:14:23.500 --> 00:14:27.460
+pathogenic mutations have formed a patch, but you'll see that there are also
+
+236
+00:14:27.500 --> 00:14:31.080
+these two patches of keratinocytes without any apparent
+
+237
+00:14:31.220 --> 00:14:35.100
+pathogenic mutations. And not only that, they are of a similar size,
+
+238
+00:14:35.680 --> 00:14:37.879
+and I'll circle back to that point in a couple of slides.
+
+239
+00:14:38.820 --> 00:14:42.320
+Now, the last thing I want to point out to you is the extraordinary range of
+
+240
+00:14:42.360 --> 00:14:46.110
+mutation burdens of these cells. And you might not have initially recognized this
+
+241
+00:14:46.160 --> 00:14:50.040
+because I had to introduce a break in the y-axis in order to plot all this data
+
+242
+00:14:50.060 --> 00:14:53.040
+on the same graph. But these three cells with pathogenic
+
+243
+00:14:53.100 --> 00:14:56.740
+mutations have 40 times as many mutations as their neighboring
+
+244
+00:14:56.840 --> 00:15:00.460
+cells without pathogenic mutations. So what's going on here?
+
+245
+00:15:01.620 --> 00:15:04.590
+What's shown here is more generally the landscape of somatic alterations from
+
+246
+00:15:04.640 --> 00:15:08.460
+individual keratinocytes. And exactly as I showed you in the previous slide,
+
+247
+00:15:09.140 --> 00:15:13.100
+somewhat paradoxically, most keratinocytes actually have somewhat low
+
+248
+00:15:13.120 --> 00:15:16.940
+mutation burdens with relatively low proportions of
+
+249
+00:15:17.000 --> 00:15:18.720
+UV radiation-induced DNA damage.
+
+250
+00:15:19.500 --> 00:15:23.360
+But there's this tail of keratinocytes with extraordinarily high mutation
+
+251
+00:15:23.420 --> 00:15:27.200
+burdens. And when you ask what's notable about them, every single one of
+
+252
+00:15:27.280 --> 00:15:31.240
+these has an underlying pathogenic mutation, typically in the p53
+
+253
+00:15:31.300 --> 00:15:33.060
+or Notch signaling pathway.
+
+254
+00:15:34.140 --> 00:15:37.620
+So this is another example where had you done bulk sequencing, you would have
+
+255
+00:15:37.680 --> 00:15:41.580
+correctly deduced that the average mutation burden per cell is
+
+256
+00:15:41.620 --> 00:15:44.920
+around five mutations per megabase, but you would have missed the fact
+
+257
+00:15:44.940 --> 00:15:48.880
+that this is actually a mixture of cells with one mutation
+
+258
+00:15:49.100 --> 00:15:52.840
+per megabase and some with up to 50 mutations per megabase.
+
+259
+00:15:53.680 --> 00:15:57.540
+Now, this is a classic example of a mutator phenotype, meaning that
+
+260
+00:15:57.560 --> 00:16:01.540
+these p53 and Notch pathway mutations are causing those cells to accumulate
+
+261
+00:16:01.580 --> 00:16:03.700
+mutations more rapidly than their neighboring cells.
+
+262
+00:16:04.360 --> 00:16:07.940
+But are they doing something else, such as inducing a proliferative advantage?
+
+263
+00:16:09.020 --> 00:16:12.980
+And I'm not so sure that they are. So shown here is the inferred surface
+
+264
+00:16:13.040 --> 00:16:16.960
+area of each clonally related patch of keratinocytes that we could detect in the
+
+265
+00:16:17.040 --> 00:16:20.960
+study. And you'll see here in red, some have pathogenic
+
+266
+00:16:21.020 --> 00:16:23.160
+mutations, but actually most of them don't.
+
+267
+00:16:23.620 --> 00:16:27.520
+And the ones with pathogenic mutations do not appear to be any larger
+
+268
+00:16:27.560 --> 00:16:29.500
+than those without pathogenic mutations.
+
+269
+00:16:30.300 --> 00:16:33.880
+You can go back to the Martin Krainak paper, and they too noticed with a completely
+
+270
+00:16:33.960 --> 00:16:37.900
+different technology that clones carrying driver mutations do not appear to
+
+271
+00:16:37.920 --> 00:16:39.700
+be much larger than those without them.
+
+272
+00:16:40.520 --> 00:16:42.700
+So I'd be curious to hear anyone's take on this, but my take
+
+273
+00:16:43.700 --> 00:16:47.680
+is that these p53 and Notch mutations are conferring a persistence
+
+274
+00:16:47.720 --> 00:16:51.330
+advantage, but not necessarily a strong proliferative advantage,
+
+275
+00:16:51.860 --> 00:16:55.780
+meaning that when a keratinocyte has one of these mutations, it is less likely
+
+276
+00:16:55.820 --> 00:16:59.580
+to undergo apoptosis in the face of high levels of UV radiation-induced
+
+277
+00:16:59.640 --> 00:17:02.940
+DNA damage, and that causes them to accumulate mutations more
+
+278
+00:17:02.980 --> 00:17:06.530
+rapidly. Maybe they'll passively expand in
+
+279
+00:17:06.580 --> 00:17:10.020
+the space occupied by neighboring cells that do die out, but they don't really have
+
+280
+00:17:10.040 --> 00:17:13.560
+a strong proliferative advantage relative to those other cells.
+
+281
+00:17:15.060 --> 00:17:18.780
+So I've brought you up to this point, what I like to call the pre-neoplastic phases
+
+282
+00:17:18.860 --> 00:17:22.661
+of progression. What follows next is the premalignant phase of progression,
+
+283
+00:17:23.060 --> 00:17:26.921
+and in the setting of skin, this is a benign neoplasm known as an
+
+284
+00:17:26.980 --> 00:17:28.100
+actinic keratosis.
+
+285
+00:17:28.980 --> 00:17:32.740
+And in rare cases, an actinic keratosis can further progress
+
+286
+00:17:32.800 --> 00:17:34.980
+into a cutaneous squamous cell carcinoma.
+
+287
+00:17:36.110 --> 00:17:39.840
+And so in order to better understand these phases of progression, we assembled a
+
+288
+00:17:39.900 --> 00:17:43.800
+cohort of informative cases where we could identify a cutaneous
+
+289
+00:17:43.840 --> 00:17:47.760
+squamous cell carcinoma at that moment in which it was ostensibly growing out of a
+
+290
+00:17:47.780 --> 00:17:50.420
+preexisting and still intact precancerous
+
+291
+00:17:50.460 --> 00:17:53.560
+neoplasm, such as this actinic keratosis shown
+
+292
+00:17:53.620 --> 00:17:57.460
+here. We would microdissect and sequence each region, allowing us to infer
+
+293
+00:17:57.520 --> 00:18:00.440
+the order in which somatic alterations accumulated.
+
+294
+00:18:00.480 --> 00:18:03.630
+And much to our surprise, more often than not, these
+
+295
+00:18:03.660 --> 00:18:06.230
+neoplasms were not phylogenetically related.
+
+296
+00:18:07.020 --> 00:18:10.568
+So that's indicated in the scatter plot.You can see that there's these mutations
+
+297
+00:18:10.668 --> 00:18:14.228
+hugging the X-axis here. These are exclusive to the actinic
+
+298
+00:18:14.268 --> 00:18:17.948
+keratosis region. And then you'll see these mutations hugging the Y-axis.
+
+299
+00:18:18.008 --> 00:18:20.408
+These are exclusive to the squamous cell carcinoma.
+
+300
+00:18:21.188 --> 00:18:24.848
+If these were related, we would have seen some mutations in the middle here with
+
+301
+00:18:24.868 --> 00:18:28.748
+high allele frequencies in both the actinic keratosis and the squamous cell
+
+302
+00:18:28.768 --> 00:18:29.308
+carcinoma.
+
+303
+00:18:30.268 --> 00:18:31.568
+So this is what we call a collision.
+
+304
+00:18:31.608 --> 00:18:35.128
+These are just two neoplasms that just so happen to be near each other, but they
+
+305
+00:18:35.168 --> 00:18:39.118
+are not genetically related. But we scraped and scratched and
+
+306
+00:18:39.168 --> 00:18:42.657
+clawed and spent a lot of money on uninformative neoplasms,
+
+307
+00:18:43.168 --> 00:18:46.188
+but eventually we started to find a handful of cutaneous squamous cell
+
+308
+00:18:46.208 --> 00:18:49.968
+carcinomas that did actually evolve from the adjacent
+
+309
+00:18:50.168 --> 00:18:53.868
+actinic keratosis. When these two neoplasms are next to one another,
+
+310
+00:18:54.468 --> 00:18:57.388
+it's only about 10% of the time that they are actually related.
+
+311
+00:18:57.938 --> 00:19:01.928
+And this is one of those examples where you can see here clearly that there
+
+312
+00:19:01.938 --> 00:19:05.928
+are mutations with high allele frequencies shared between both the actinic
+
+313
+00:19:05.948 --> 00:19:08.708
+keratosis and the cutaneous squamous cell carcinoma,
+
+314
+00:19:09.588 --> 00:19:13.228
+as well as some mutations that are exclusive to the cutaneous squamous cell
+
+315
+00:19:13.267 --> 00:19:17.228
+carcinoma. So you can draw a phylogenetic tree based on this distribution of
+
+316
+00:19:17.248 --> 00:19:20.668
+shared and unshared mutations to deduce the order in which they
+
+317
+00:19:20.688 --> 00:19:21.348
+accumulated.
+
+318
+00:19:22.308 --> 00:19:25.728
+And here the actinic keratosis is driven by loss of function
+
+319
+00:19:25.968 --> 00:19:29.868
+NOTCH1 and 2 mutations, as well as a loss of function
+
+320
+00:19:29.948 --> 00:19:33.068
+p53 mutation. This is not necessarily surprising.
+
+321
+00:19:33.668 --> 00:19:36.888
+We know these mutations are common in normal skin, and they would, of course,
+
+322
+00:19:37.588 --> 00:19:40.948
+likely be inherited in actinic keratosis that grow out of them.
+
+323
+00:19:41.908 --> 00:19:45.528
+But we also saw a TERT promoter mutation and a loss of function CDKN2A
+
+324
+00:19:45.588 --> 00:19:49.398
+alteration. These are not so common in normal skin and
+
+325
+00:19:49.488 --> 00:19:52.908
+probably are responsible for the formation of a discernible
+
+326
+00:19:53.008 --> 00:19:56.528
+neoplasm. As for what drove the transition to cutaneous squamous cell
+
+327
+00:19:56.568 --> 00:20:00.418
+carcinoma, that appears in this case to be driven by a loss of
+
+328
+00:20:00.468 --> 00:20:01.768
+function ARID2 mutation,
+
+329
+00:20:02.648 --> 00:20:05.448
+as well as a hotspot mutation affecting the SIBL oncogene.
+
+330
+00:20:06.048 --> 00:20:09.928
+This is a well-established RASopathy mutation, meaning that it is known
+
+331
+00:20:09.968 --> 00:20:13.348
+to activate the RTK RAS MAPK kinase signaling cascade.
+
+332
+00:20:14.248 --> 00:20:18.128
+So that was just one case, but if you look more broadly across all the
+
+333
+00:20:18.148 --> 00:20:21.668
+bonafide cases of cutaneous squamous cell carcinomas that we could identify
+
+334
+00:20:22.328 --> 00:20:26.288
+that did evolve from a neighboring actinic keratosis, these patterns largely
+
+335
+00:20:26.328 --> 00:20:26.767
+held up.
+
+336
+00:20:27.568 --> 00:20:31.538
+p53 and Notch pathway mutations occur early and often and are
+
+337
+00:20:31.568 --> 00:20:33.168
+present at all stages of neoplasia.
+
+338
+00:20:35.088 --> 00:20:38.248
+TERT promoter mutations and mutations that disable the G1S checkpoint,
+
+339
+00:20:38.648 --> 00:20:42.208
+typically loss of function CDKN2A mutations, these seem to
+
+340
+00:20:42.248 --> 00:20:46.198
+emerge in actinic keratosis and are retained in cutaneous
+
+341
+00:20:46.198 --> 00:20:49.128
+squamous cell carcinoma. And then this is not obligate.
+
+342
+00:20:49.968 --> 00:20:53.908
+Cutaneous squamous cell carcinoma does not have to have a MAP kinase pathway
+
+343
+00:20:53.988 --> 00:20:56.888
+mutation or a loss of function SWI/SNF mutation.
+
+344
+00:20:57.288 --> 00:21:01.188
+But when they occur, these most often mark the transition to
+
+345
+00:21:01.288 --> 00:21:02.827
+cutaneous squamous cell carcinoma.
+
+346
+00:21:04.388 --> 00:21:08.248
+Now, because it was so difficult to find these informative cases, as part of HTAN,
+
+347
+00:21:08.308 --> 00:21:11.408
+we're now layering on multi-omic assays whenever we do.
+
+348
+00:21:11.418 --> 00:21:14.448
+And this is one example where we've done spatial transcriptomics
+
+349
+00:21:14.888 --> 00:21:18.508
+on a case where we know that the cancer was
+
+350
+00:21:18.528 --> 00:21:20.378
+phylogenetically related to the pre-cancer.
+
+351
+00:21:20.888 --> 00:21:24.288
+And I thought this was an interesting example because you can see here in
+
+352
+00:21:24.308 --> 00:21:28.048
+blue, there's this band of immune infiltrate that's beneath both the
+
+353
+00:21:28.068 --> 00:21:31.728
+cutaneous squamous cell carcinoma and the actinic keratosis.
+
+354
+00:21:32.508 --> 00:21:35.608
+But these immune cells could not be in more different states.
+
+355
+00:21:36.368 --> 00:21:40.297
+As you can see here, the cutaneous squamous cell carcinoma cells are expressing
+
+356
+00:21:40.328 --> 00:21:44.308
+high levels of checkpoint ligands, and concomitantly, the lymphocytes
+
+357
+00:21:44.348 --> 00:21:47.998
+in their vicinity are expressing high levels of checkpoints,
+
+358
+00:21:48.888 --> 00:21:52.108
+whereas there's not much activity in the immune
+
+359
+00:21:53.188 --> 00:21:55.898
+cells and the actinic keratosis cells above them.
+
+360
+00:21:56.668 --> 00:22:00.498
+And so this suggests that one major tumor microenvironmental change that
+
+361
+00:22:00.528 --> 00:22:04.248
+marks the transition to malignancy is the engagement of
+
+362
+00:22:04.268 --> 00:22:08.238
+immune checkpoints. And our hope is that as we sequence more of these cases,
+
+363
+00:22:08.308 --> 00:22:11.588
+we can begin to connect these microenvironmental changes to
+
+364
+00:22:12.168 --> 00:22:15.088
+pathogenic mutations that coincide with them.
+
+365
+00:22:16.848 --> 00:22:20.268
+So I've brought you up to this point from the evolution of a normal skin cell to a
+
+366
+00:22:20.308 --> 00:22:24.218
+primary cutaneous squamous cell carcinoma, but these neoplasms are
+
+367
+00:22:24.248 --> 00:22:28.138
+not done evolving. Approximately 3% of patients who have a
+
+368
+00:22:28.138 --> 00:22:32.008
+primary cutaneous squamous cell carcinoma will eventually develop
+
+369
+00:22:32.048 --> 00:22:35.408
+metastatic disease. And I think you can look at this number from two different
+
+370
+00:22:35.448 --> 00:22:39.148
+perspectives. On the one hand, this is a relatively good
+
+371
+00:22:39.168 --> 00:22:42.408
+prognosis compared to many other cancer subtypes.
+
+372
+00:22:42.448 --> 00:22:45.688
+On the other hand, this still leads to a lot of sleepless nights where patients are
+
+373
+00:22:45.708 --> 00:22:49.648
+left wondering how aggressively should they treat their tumor in order to
+
+374
+00:22:49.688 --> 00:22:52.997
+avoid being in that 3% who will eventually develop metastatic
+
+375
+00:22:53.068 --> 00:22:56.628
+disease. And regrettably, we do not have high-quality
+
+376
+00:22:56.688 --> 00:23:00.108
+biomarkers to predict who will progress to metastatic disease.
+
+377
+00:23:01.288 --> 00:23:04.908
+And so to address this gap in knowledge, I began a collaboration with a
+
+378
+00:23:04.948 --> 00:23:07.758
+wonderful group from Erasmus University and
+
+379
+00:23:07.848 --> 00:23:09.668
+SkylineDX in Europe.
+
+380
+00:23:10.788 --> 00:23:13.168
+They had assembled what is called the DeSquam study.
+
+381
+00:23:13.548 --> 00:23:17.528
+This is a nationwide cohort of nearly 45,000 primary cutaneous squamous cell
+
+382
+00:23:17.568 --> 00:23:20.728
+carcinomas with detailed clinical and histopathologic
+
+383
+00:23:20.768 --> 00:23:24.738
+information, as well as outcome. And if you study another cancer,
+
+384
+00:23:24.828 --> 00:23:28.418
+maybe this doesn't impress you, but in the United States, we made the regrettable
+
+385
+00:23:28.508 --> 00:23:32.028
+decision to not include cutaneous squamous cell carcinoma in our SEER cancer
+
+386
+00:23:32.088 --> 00:23:35.928
+registry. And so I don't even think this study could have been done exclusively in
+
+387
+00:23:35.948 --> 00:23:36.508
+this country.
+
+388
+00:23:37.348 --> 00:23:40.768
+And we took a subset of these cases for molecular analyses.
+
+389
+00:23:41.448 --> 00:23:45.368
+We constructed this as a nested case control study where half of the
+
+390
+00:23:45.388 --> 00:23:48.908
+tumors or cases defined as primary cutaneous squamous cell
+
+391
+00:23:48.928 --> 00:23:52.568
+carcinomas that over the next 10 years eventually
+
+392
+00:23:52.608 --> 00:23:56.548
+progressed to metastatic disease and half were controls, meaning that they did not
+
+393
+00:23:56.568 --> 00:24:00.348
+progress to metastatic disease. And we made sure that the controls were matched for
+
+394
+00:24:00.388 --> 00:24:04.368
+clinical and histopathologic risk factors, thereby ensuring that if we do
+
+395
+00:24:04.468 --> 00:24:08.428
+see molecular differences, they are likely to be prognostic above and
+
+396
+00:24:08.488 --> 00:24:09.948
+beyond common staging systems.
+
+397
+00:24:10.768 --> 00:24:14.428
+We performed whole exome sequencing and whole transcriptomic sequencing on these
+
+398
+00:24:14.468 --> 00:24:18.404
+tumors.Now, the first thing we did is we established the landscape of driver
+
+399
+00:24:18.464 --> 00:24:22.084
+mutations in cutaneous squamous cell carcinoma.
+
+400
+00:24:22.464 --> 00:24:26.404
+Another regrettable decision was the Cancer Genome Atlas project did not include
+
+401
+00:24:26.424 --> 00:24:30.094
+cutaneous squamous cell carcinoma among its cancers that were
+
+402
+00:24:30.124 --> 00:24:30.604
+profiled.
+
+403
+00:24:31.464 --> 00:24:34.684
+Also, cutaneous squamous cell carcinoma has an extraordinarily high mutation
+
+404
+00:24:34.784 --> 00:24:38.654
+burden, which makes it difficult to recognize driver mutations amidst the numerous
+
+405
+00:24:38.764 --> 00:24:40.744
+passenger mutations within each tumor.
+
+406
+00:24:41.184 --> 00:24:44.564
+And so our field had not yet even settled on a consensus set of driver
+
+407
+00:24:44.604 --> 00:24:47.844
+mutations. So this is now the largest analysis available.
+
+408
+00:24:48.744 --> 00:24:52.704
+We used Intogen to identify genes under selection and propose
+
+409
+00:24:52.764 --> 00:24:56.584
+here this list of approximately 40 genes, which we
+
+410
+00:24:56.604 --> 00:24:59.204
+believe are the main drivers of cutaneous squamous cell carcinoma.
+
+411
+00:25:00.144 --> 00:25:03.964
+But the main advantage of our cohort is that we have metastatic
+
+412
+00:25:04.034 --> 00:25:08.004
+outcome data on these tumors. And so we could then ask, "Are any of these
+
+413
+00:25:08.044 --> 00:25:10.944
+mutations associated with poor metastatic outcome?"
+
+414
+00:25:11.764 --> 00:25:15.444
+And indeed, many were. Loss-of-function mutations affecting SwitchSNF,
+
+415
+00:25:16.264 --> 00:25:19.844
+gain-of-function mutations in the MAP kinase signaling cascade, and
+
+416
+00:25:19.904 --> 00:25:22.964
+loss-of-function mutations in the TGF-beta signaling cascade.
+
+417
+00:25:23.584 --> 00:25:26.524
+These were all associated with poor metastatic outcome.
+
+418
+00:25:27.444 --> 00:25:30.224
+Now, in addition to whole exome sequencing, we also performed the largest
+
+419
+00:25:30.304 --> 00:25:34.004
+transcriptomic analysis of cutaneous squamous cell carcinomas, and after
+
+420
+00:25:34.064 --> 00:25:35.184
+consensus clustering,
+
+421
+00:25:36.064 --> 00:25:39.403
+there were three sample clusters and six gene expression clusters.
+
+422
+00:25:40.124 --> 00:25:44.104
+It was encouraging that the sample clusters did correlate with
+
+423
+00:25:44.164 --> 00:25:47.904
+outcome, one with poor outcome, one with favorable outcome, and one with
+
+424
+00:25:47.984 --> 00:25:51.764
+intermediate outcome. And when you ask what is driving this clustering,
+
+425
+00:25:52.544 --> 00:25:56.244
+there's a few different signals, but the main signal is the differentiation
+
+426
+00:25:56.324 --> 00:26:00.084
+status of the keratinocytes. As a secondary signal, there was a
+
+427
+00:26:00.224 --> 00:26:01.664
+change in metabolism.
+
+428
+00:26:02.564 --> 00:26:06.424
+The favorable outcome tumors relied on lipid oxidation, whereas the poor outcome
+
+429
+00:26:06.524 --> 00:26:09.404
+tumors were more likely to rely on glycolysis.
+
+430
+00:26:10.124 --> 00:26:12.294
+We were somewhat surprised that we didn't see an immune signal.
+
+431
+00:26:13.024 --> 00:26:16.974
+Now, if you look at individual tumors, there are definitely differences
+
+432
+00:26:17.004 --> 00:26:20.634
+in the states of immune cells, but it did not
+
+433
+00:26:20.664 --> 00:26:24.124
+drive, at this higher level, the unsupervised hierarchical clustering.
+
+434
+00:26:25.284 --> 00:26:28.804
+So it's encouraging that we can risk-stratify tumors
+
+435
+00:26:28.844 --> 00:26:32.804
+with this thousand genes, but that's an unwieldy signature
+
+436
+00:26:32.864 --> 00:26:34.824
+if your goal was to bring this into the clinic.
+
+437
+00:26:35.504 --> 00:26:39.184
+And so we distilled the signature down into a simplified version of
+
+438
+00:26:39.364 --> 00:26:43.244
+23 genes using a Cox net model, and you can see the list of the 23
+
+439
+00:26:43.324 --> 00:26:43.864
+genes here.
+
+440
+00:26:44.744 --> 00:26:48.204
+Generally speaking, these genes are involved in keratinocyte
+
+441
+00:26:48.284 --> 00:26:51.854
+differentiation, which is not necessarily surprising because this was the strongest
+
+442
+00:26:51.884 --> 00:26:55.504
+signal observed in the unsupervised hierarchical clustering.
+
+443
+00:26:56.364 --> 00:26:59.674
+But the million-dollar question is: Is this better than
+
+444
+00:26:59.724 --> 00:27:03.144
+our alternatives? And the answer here is a resounding yes.
+
+445
+00:27:03.704 --> 00:27:06.824
+When we compared the ability of this 23-gene expression signature
+
+446
+00:27:06.924 --> 00:27:10.773
+to risk-stratify tumors in an independent validation
+
+447
+00:27:10.864 --> 00:27:14.384
+cohort, that's a key detail. This is not just circular reasoning on the same
+
+448
+00:27:14.404 --> 00:27:15.164
+discovery cohort.
+
+449
+00:27:16.084 --> 00:27:19.854
+It dramatically outperformed Brigham and Women's and Health in the AJCC staging
+
+450
+00:27:19.924 --> 00:27:23.764
+system, and even outperformed a more recent EMC
+
+451
+00:27:23.804 --> 00:27:27.784
+model that was developed by my colleagues from Erasmus University
+
+452
+00:27:27.844 --> 00:27:31.264
+that takes into account more clinical and histopathologic factors.
+
+453
+00:27:31.884 --> 00:27:34.144
+Not only that, it works well in biopsies and excisions.
+
+454
+00:27:34.184 --> 00:27:37.664
+That's always an important detail to ask for these gene expression predictors
+
+455
+00:27:37.704 --> 00:27:41.664
+because you don't want a gene expression predictor that is tied to
+
+456
+00:27:41.704 --> 00:27:44.304
+surgical procedure or microdissection technique.
+
+457
+00:27:45.504 --> 00:27:48.884
+So in conclusion, we performed whole exome and RNA sequencing on the largest cohort
+
+458
+00:27:48.924 --> 00:27:51.544
+to date of cutaneous squamous cell carcinomas linked to outcome.
+
+459
+00:27:52.124 --> 00:27:55.964
+I said there was no TCGA project for this cancer, so we're hoping that this
+
+460
+00:27:56.024 --> 00:27:59.324
+will effectively serve as that TCGA project that never happened.
+
+461
+00:28:00.184 --> 00:28:04.144
+We cataloged the driver mutations and found that there are some that
+
+462
+00:28:04.664 --> 00:28:05.964
+correlate with poor prognosis.
+
+463
+00:28:06.944 --> 00:28:10.053
+We also performed transcriptomic analyses showing that
+
+464
+00:28:10.744 --> 00:28:14.694
+tumors with poor differentiation gene expression signatures have
+
+465
+00:28:14.964 --> 00:28:18.684
+poor metastatic outcome, and this is captured quite well with a 23-gene
+
+466
+00:28:18.744 --> 00:28:22.144
+expression signature that outperforms common staging systems.
+
+467
+00:28:23.024 --> 00:28:26.964
+As part of H-Stand, we're now layering on additional omic assays, including spatial
+
+468
+00:28:27.004 --> 00:28:30.624
+transcriptomics, hoping that we can find yet even more biomarkers within this rich
+
+469
+00:28:30.704 --> 00:28:31.264
+data set.
+
+470
+00:28:32.344 --> 00:28:36.104
+So with that, I'd like to acknowledge everyone that made this work possible,
+
+471
+00:28:37.064 --> 00:28:40.344
+particularly Barbara Renteria-Pacheco, the trainee from
+
+472
+00:28:40.704 --> 00:28:44.124
+Erasmus University, who led these studies, as well as my
+
+473
+00:28:44.424 --> 00:28:48.084
+European colleagues, Luz Holestein, Marlies Swakhuis, and Domenico Bellomo.
+
+474
+00:28:48.473 --> 00:28:50.444
+And then for the earlier work
+
+475
+00:28:52.304 --> 00:28:55.204
+on normal keratinocytes, Vishal Tandekar and Delaney Diveltern.
+
+476
+00:28:56.384 --> 00:29:00.364
+So with that, we have time for questions if there are any, and if
+
+477
+00:29:00.404 --> 00:29:02.644
+you do have a question, please come up to one of these mics.
+
+478
+00:29:13.124 --> 00:29:14.244
+Could you explain the
+
+479
+00:29:15.244 --> 00:29:19.164
+mutational phenotype a little better and whether or not it could apply
+
+480
+00:29:19.204 --> 00:29:22.884
+to many other situations, particularly the MSI high
+
+481
+00:29:22.964 --> 00:29:26.044
+phenotype where the MSI is acquired
+
+482
+00:29:27.184 --> 00:29:30.624
+or is a second mutation if one is inherited where
+
+483
+00:29:31.524 --> 00:29:33.104
+you don't know which came first?
+
+484
+00:29:33.464 --> 00:29:33.624
+Yeah.
+
+485
+00:29:33.784 --> 00:29:37.164
+The MSI is driving mutation, the high mutational
+
+486
+00:29:37.444 --> 00:29:40.244
+burden, maybe with a mutational phenotype, is
+
+487
+00:29:40.924 --> 00:29:43.864
+actually producing the second MSI hit.
+
+488
+00:29:44.564 --> 00:29:48.304
+Yeah. So I'd love to do a similar study in the set of normal colonic
+
+489
+00:29:48.344 --> 00:29:52.324
+epithelial cells. But if you forced me to
+
+490
+00:29:52.404 --> 00:29:54.624
+ask what's coming first, the chicken or the egg,
+
+491
+00:29:56.364 --> 00:30:00.084
+I'm going to stay in my lane and say, I think that the p53 and Notch pathway
+
+492
+00:30:00.144 --> 00:30:03.924
+mutations, and this is probably true for the MSI genes
+
+493
+00:30:03.964 --> 00:30:07.524
+too, that those occur first, and then these cells accumulate
+
+494
+00:30:07.564 --> 00:30:11.544
+mutations more rapidly. And in my particular case, I think that's justified
+
+495
+00:30:11.644 --> 00:30:14.704
+because the neighboring cells
+
+496
+00:30:14.724 --> 00:30:18.264
+without the p53 and Notch pathway mutations tended to have low
+
+497
+00:30:18.344 --> 00:30:21.384
+mutation burdens. But it'd be fascinating to do that in a colon.
+
+498
+00:30:22.608 --> 00:30:23.988
+Thank you. Ricky Peters, Fred Hutch.
+
+499
+00:30:25.028 --> 00:30:26.068
+You showed that
+
+500
+00:30:27.688 --> 00:30:31.608
+your signature with 23 genes performed better than the
+
+501
+00:30:31.928 --> 00:30:34.168
+other models, like the EMC, but also you said...
+
+502
+00:30:34.648 --> 00:30:38.328
+I didn't see the difference so much with the EMC, with the other ones,
+
+503
+00:30:38.668 --> 00:30:40.367
+it showed better performance.
+
+504
+00:30:40.688 --> 00:30:40.808
+Yeah.
+
+505
+00:30:40.888 --> 00:30:41.828
+Maybe I missed something.
+
+506
+00:30:42.058 --> 00:30:45.928
+No, you have a very keen eye. In the slide I showed you, there was a slight
+
+507
+00:30:46.008 --> 00:30:49.928
+difference, but what I was not able to convey is
+
+508
+00:30:49.968 --> 00:30:53.428
+that it was also complementary to the EMC, so
+
+509
+00:30:53.828 --> 00:30:57.688
+ideally you would do both. But the other thing with the EMC model is that
+
+510
+00:30:58.708 --> 00:31:02.128
+it cannot be applied to biopsies. It needs to be applied to excisions.
+
+511
+00:31:03.268 --> 00:31:04.448
+It takes into account
+
+512
+00:31:05.528 --> 00:31:08.968
+a large number of factors that
+
+513
+00:31:09.308 --> 00:31:12.928
+sometimes if you just have a small shave biopsy, that you're not able to actually
+
+514
+00:31:12.938 --> 00:31:16.548
+use that model. So we do think that for that reason, that there will be more
+
+515
+00:31:16.588 --> 00:31:20.548
+utility. But I'm a big believer in both the EMC model and the
+
+516
+00:31:20.588 --> 00:31:21.168
+Jebb signature.
+
+517
+00:31:23.368 --> 00:31:27.128
+Heinz-Josef Lenz from USC. I think these data are incredibly exciting.
+
+518
+00:31:27.368 --> 00:31:30.908
+I was wondering because at least in colon cancer, when you have one
+
+519
+00:31:30.948 --> 00:31:34.588
+mutation of KRAS in one cells, it changes the tumor
+
+520
+00:31:34.648 --> 00:31:38.368
+microenvironment dramatically, one out of a thousand cells.
+
+521
+00:31:39.508 --> 00:31:42.848
+Did you have a chance to look at if certain
+
+522
+00:31:42.868 --> 00:31:46.388
+mutations or mutation signatures changes the
+
+523
+00:31:46.488 --> 00:31:50.278
+microenvironment? Because it looks like it's all patches and
+
+524
+00:31:50.348 --> 00:31:54.148
+regionally determined, but is there a field
+
+525
+00:31:54.188 --> 00:31:57.908
+effect on certain mutations, particularly in the MAP kinase signaling
+
+526
+00:31:58.008 --> 00:31:58.488
+pathway?
+
+527
+00:31:58.888 --> 00:31:59.248
+Yeah.
+
+528
+00:32:00.228 --> 00:32:02.988
+As part of HTAN, that's the next frontier.
+
+529
+00:32:03.788 --> 00:32:07.628
+Unfortunately, the assays in the data I showed you were destructive, meaning that
+
+530
+00:32:07.648 --> 00:32:09.708
+we had to take the skin and
+
+531
+00:32:11.408 --> 00:32:14.388
+disaggregate the cells in order to measure the mutations.
+
+532
+00:32:14.428 --> 00:32:18.008
+And so then it's hard to go back and see what was their local microenvironment.
+
+533
+00:32:18.028 --> 00:32:21.968
+But we've cooked up some ideas, I think, that we could in situ see where these
+
+534
+00:32:22.008 --> 00:32:24.368
+mutant cells are residing. So, it's a sharp question. Thank you.
+
+535
+00:32:25.688 --> 00:32:28.168
+Hi. Farah Abdullah from Caris Life Sciences.
+
+536
+00:32:28.568 --> 00:32:32.528
+I know the point of the work was to look at normal versus
+
+537
+00:32:32.608 --> 00:32:36.328
+premalignant versus malignant. How does this or are there any plans you
+
+538
+00:32:36.368 --> 00:32:40.008
+have to compare to hyperproliferative diseases like lupus
+
+539
+00:32:40.188 --> 00:32:41.388
+or reactive
+
+540
+00:32:42.188 --> 00:32:46.068
+actinic neoplasms that are not cancers or precancerous?
+
+541
+00:32:46.548 --> 00:32:47.028
+Yeah. Again,
+
+542
+00:32:48.168 --> 00:32:48.848
+I would love to
+
+543
+00:32:49.708 --> 00:32:53.628
+do that. But I'm probably personally going to stay in my lane, which is
+
+544
+00:32:53.948 --> 00:32:55.148
+skin cancer. But
+
+545
+00:32:56.888 --> 00:32:59.628
+if we can get a phase three of HTAN, let's do it.
+
+546
+00:33:02.268 --> 00:33:02.508
+Yes.
+
+547
+00:33:02.948 --> 00:33:04.928
+Patrick Meeker, Uppsala, Sweden.
+
+548
+00:33:05.388 --> 00:33:08.408
+I'm a pathologist, and therefore, I was surprised
+
+549
+00:33:08.488 --> 00:33:10.908
+that you
+
+550
+00:33:11.828 --> 00:33:15.748
+did not find a relation between the actinic keratosis and
+
+551
+00:33:15.828 --> 00:33:18.028
+the squamous cell cancer. That
+
+552
+00:33:18.908 --> 00:33:22.508
+seems for me, totally surprising and not logic.
+
+553
+00:33:22.568 --> 00:33:24.228
+What is your resume?
+
+554
+00:33:25.108 --> 00:33:27.228
+When I first saw it, I was surprised, but
+
+555
+00:33:29.068 --> 00:33:29.948
+people who get
+
+556
+00:33:30.788 --> 00:33:32.908
+squamous cell carcinoma, they have
+
+557
+00:33:33.788 --> 00:33:36.308
+so many actinic keratosis, and
+
+558
+00:33:37.248 --> 00:33:39.928
+I think that once your skin just gets so sun damaged,
+
+559
+00:33:42.168 --> 00:33:45.608
+it's almost like your whole face is just one big neoplasm, and they're all fighting
+
+560
+00:33:45.648 --> 00:33:47.108
+and competing against one another.
+
+561
+00:33:48.368 --> 00:33:50.868
+I'm starting to see this more in other
+
+562
+00:33:52.268 --> 00:33:55.488
+epithelial tumors. I've been paying attention, for instance, to the
+
+563
+00:33:55.928 --> 00:33:59.908
+pancreatic cancer, HTAN, and they too have seen that a lot of the PanIN
+
+564
+00:33:59.928 --> 00:34:03.668
+lesions that are next to a PDAC don't have necessarily the same
+
+565
+00:34:03.708 --> 00:34:04.808
+KRAS driver. And so
+
+566
+00:34:06.068 --> 00:34:09.768
+maybe that's an important takeaway for those of you that are not
+
+567
+00:34:09.778 --> 00:34:10.998
+necessarily studying skin cancer.
+
+568
+00:34:11.548 --> 00:34:15.537
+If you see a cancer and it is adjacent to a pre-cancer, it's
+
+569
+00:34:15.569 --> 00:34:17.278
+not safe to assume they're related.
+
+570
+00:34:17.308 --> 00:34:20.448
+They might be, but you need to genetically test that. Thank you for the question.
+
+571
+00:34:22.448 --> 00:34:26.308
+Okay. I think we're running up on the question time, but really appreciated
+
+572
+00:34:26.348 --> 00:34:27.988
+all those questions from everyone.
+
+573
+00:34:28.768 --> 00:34:32.368
+So our next speaker is Li Ding, right?
+
+574
+00:34:32.428 --> 00:34:35.037
+From Washington University, who will tell
+
+575
+00:34:35.868 --> 00:34:36.649
+us about
+
+576
+00:34:37.629 --> 00:34:40.688
+her HTAN atlas on prostate and breast cancer.
+
+577
+00:34:41.348 --> 00:34:41.968
+There you go, Li.
+
+578
+00:34:49.188 --> 00:34:50.508
+Thank you very much, Hunter.
+
+579
+00:34:53.468 --> 00:34:57.328
+Okay. Good afternoon, everyone, and glad to see you all here.
+
+580
+00:34:57.528 --> 00:35:01.258
+Great turnout. And today I'm going to talk about
+
+581
+00:35:01.408 --> 00:35:05.288
+from pre-cancer to metastasis: evolution and
+
+582
+00:35:05.428 --> 00:35:08.648
+microenvironment of breast and prostate tumor.
+
+583
+00:35:12.488 --> 00:35:12.748
+Mm-hmm.
+
+584
+00:35:14.468 --> 00:35:18.088
+Going? Yes. First, I will provide a quick
+
+585
+00:35:18.288 --> 00:35:21.828
+overview of genetic drivers of tumor evolution
+
+586
+00:35:21.968 --> 00:35:25.788
+discovered by bulk sequencing. Then I will touch
+
+587
+00:35:25.888 --> 00:35:29.048
+on advances in spatial technology and the
+
+588
+00:35:29.128 --> 00:35:32.608
+computational pipeline for allowing us to
+
+589
+00:35:32.688 --> 00:35:36.308
+study 2D and the 3D tumor evolution and the
+
+590
+00:35:36.388 --> 00:35:38.408
+pre-cancer to cancer transition.
+
+591
+00:35:39.508 --> 00:35:43.288
+Lastly, I want to tell you about our recent work
+
+592
+00:35:43.368 --> 00:35:47.028
+on metastatic breast and prostate tumor in the bone
+
+593
+00:35:47.088 --> 00:35:48.587
+marrow microenvironment.
+
+594
+00:35:51.008 --> 00:35:54.868
+So back in 2010, we launched a study
+
+595
+00:35:55.028 --> 00:35:58.188
+to understand the tumor evolution in acute myeloid
+
+596
+00:35:58.248 --> 00:36:01.828
+leukemia to identify genetic factors
+
+597
+00:36:01.908 --> 00:36:03.748
+driving AML relapse.
+
+598
+00:36:04.948 --> 00:36:08.908
+So we conducted a whole genome sequencing of eight primary
+
+599
+00:36:08.918 --> 00:36:12.878
+and relapse pairs and discovered several patterns of
+
+600
+00:36:12.968 --> 00:36:16.488
+tumor evolution. In this highlighted case here,
+
+601
+00:36:17.068 --> 00:36:20.468
+this small orange subclone in the
+
+602
+00:36:20.528 --> 00:36:24.328
+primary tumor survived the chemotherapy and
+
+603
+00:36:24.468 --> 00:36:28.428
+became the dominant clone in the relapse tumor by
+
+604
+00:36:28.508 --> 00:36:32.388
+gaining additional driver mutations in genes such
+
+605
+00:36:32.508 --> 00:36:36.076
+as ETVC.So the beautiful fish
+
+606
+00:36:36.176 --> 00:36:39.856
+plot became a standard illustration for tumor
+
+607
+00:36:39.916 --> 00:36:42.676
+evolution studies in the later years.
+
+608
+00:36:44.716 --> 00:36:48.516
+So this study, along with others, prompted us to
+
+609
+00:36:48.536 --> 00:36:52.436
+propose a model. Tumor evolution is a stepwise
+
+610
+00:36:52.456 --> 00:36:55.956
+process driven by mutations in the oncogenic
+
+611
+00:36:56.056 --> 00:36:59.876
+pathways, including the introduction of
+
+612
+00:36:59.976 --> 00:37:03.356
+the initial driver mutation, then the addition of
+
+613
+00:37:03.496 --> 00:37:07.476
+cooperating driver mutation, leading to the formation
+
+614
+00:37:07.535 --> 00:37:11.256
+of the initial tumor mass, and then the addition of
+
+615
+00:37:11.376 --> 00:37:15.176
+progression mutation leading to the formation of tumor sub
+
+616
+00:37:15.216 --> 00:37:15.676
+clones.
+
+617
+00:37:18.176 --> 00:37:22.056
+So with the advancement in single-cell technology
+
+618
+00:37:22.096 --> 00:37:25.976
+and the spatial technology, we now can study
+
+619
+00:37:26.036 --> 00:37:29.236
+tumor evolution in 2D and 3D space,
+
+620
+00:37:29.856 --> 00:37:32.276
+and at single-cell resolution.
+
+621
+00:37:33.336 --> 00:37:36.656
+So the Human Tumor Atlas Network was launched in
+
+622
+00:37:36.696 --> 00:37:40.155
+2018 to build a 3D tumor
+
+623
+00:37:40.276 --> 00:37:43.836
+atlas from pre-cancer to advanced disease.
+
+624
+00:37:45.636 --> 00:37:48.876
+So in October 2024, the
+
+625
+00:37:49.336 --> 00:37:52.876
+H10 Nature Bundle was released. At WashU
+
+626
+00:37:53.056 --> 00:37:56.376
+H10 Center, we analyzed over
+
+627
+00:37:56.416 --> 00:37:58.846
+130 transcriptomes from
+
+628
+00:37:59.896 --> 00:38:03.606
+six different cancer types to study tumor evolution and the
+
+629
+00:38:03.676 --> 00:38:07.476
+microenvironment interaction in the 2D and 3D space.
+
+630
+00:38:08.016 --> 00:38:11.096
+This work was published as part of the bundle.
+
+631
+00:38:13.016 --> 00:38:16.276
+So from this work and other studies, we formed a
+
+632
+00:38:16.336 --> 00:38:20.256
+consistent bioinformatic workflow for studying tumor
+
+633
+00:38:20.356 --> 00:38:23.955
+evolution. From isolating the tumor micro
+
+634
+00:38:24.016 --> 00:38:25.876
+region using MORF,
+
+635
+00:38:26.696 --> 00:38:30.436
+detecting spatial sub clones using Calico ST and
+
+636
+00:38:30.536 --> 00:38:34.216
+other tools, and studying tumor evolution by
+
+637
+00:38:34.316 --> 00:38:37.896
+using a variety of software tools, including Mushroom,
+
+638
+00:38:38.336 --> 00:38:42.276
+a 3D neighborhood analysis tool. So tumor
+
+639
+00:38:42.336 --> 00:38:46.256
+micro region represent spatial cancer cell
+
+640
+00:38:46.396 --> 00:38:49.856
+clusters that are separated by the stroma
+
+641
+00:38:49.896 --> 00:38:53.696
+component. So a group of tumor micro regions
+
+642
+00:38:53.756 --> 00:38:57.736
+sharing the common genetic alteration, as Hunter was talking about,
+
+643
+00:38:58.296 --> 00:39:00.636
+then will form spatial sub clones.
+
+644
+00:39:02.776 --> 00:39:06.036
+So we were able to detect spatial sub clone
+
+645
+00:39:06.116 --> 00:39:09.776
+mutations using a variety of technologies, including
+
+646
+00:39:09.836 --> 00:39:13.576
+Visium and Xenium. On the left-hand side, we were
+
+647
+00:39:13.656 --> 00:39:17.016
+able to map this LDHB mutation to
+
+648
+00:39:17.576 --> 00:39:21.286
+the green subclone two using the Visium sequencing
+
+649
+00:39:21.376 --> 00:39:23.456
+data. On the right,
+
+650
+00:39:24.576 --> 00:39:25.556
+we were able to
+
+651
+00:39:26.436 --> 00:39:30.396
+map the LDHB mutant probes carrying
+
+652
+00:39:30.436 --> 00:39:34.396
+the mutation to the spatial subclone two
+
+653
+00:39:34.496 --> 00:39:38.116
+again, and the wild type probe to both sub clones.
+
+654
+00:39:40.156 --> 00:39:44.096
+So how about spatial sub clones in 3D?
+
+655
+00:39:44.836 --> 00:39:48.556
+So we build a 3D structure using multiple 2D sections,
+
+656
+00:39:48.716 --> 00:39:51.635
+as illustrated in this cartoon on the left.
+
+657
+00:39:52.196 --> 00:39:56.096
+So we look at the two topological matrices, mostly,
+
+658
+00:39:56.636 --> 00:40:00.496
+connectivity and the loop. On the right, you are looking at
+
+659
+00:40:00.556 --> 00:40:04.436
+an experimental 3D model for breast cancer liver
+
+660
+00:40:04.556 --> 00:40:08.376
+metastasis. So here we are looking at the spatial
+
+661
+00:40:08.396 --> 00:40:12.286
+subclone one in pink with three different volumes,
+
+662
+00:40:12.596 --> 00:40:15.536
+but with maximum connectivity of only three.
+
+663
+00:40:15.976 --> 00:40:19.796
+But now you look at the spatial subclone two in
+
+664
+00:40:19.816 --> 00:40:23.636
+green color. It's a much bigger spatial subclone.
+
+665
+00:40:23.656 --> 00:40:27.336
+It has only single one volume, but with maximum
+
+666
+00:40:27.416 --> 00:40:28.996
+connectivity of eight.
+
+667
+00:40:33.556 --> 00:40:36.966
+So with the experimental tool and the
+
+668
+00:40:37.056 --> 00:40:41.036
+computational tool, now we can study pre-cancer to
+
+669
+00:40:41.076 --> 00:40:44.256
+cancer transition in breast and prostate.
+
+670
+00:40:44.276 --> 00:40:48.196
+You must be wondering, why do we bring these two cancer types together?
+
+671
+00:40:48.436 --> 00:40:51.956
+It's not because we studied breast cancer in phase one,
+
+672
+00:40:52.216 --> 00:40:56.096
+H10, and prostate in phase two. It's because breast
+
+673
+00:40:56.175 --> 00:41:00.166
+and prostate cancers share important biological features,
+
+674
+00:41:00.716 --> 00:41:03.976
+including sex hormone regulation, germline
+
+675
+00:41:04.016 --> 00:41:07.886
+predisposition, physiological function, and
+
+676
+00:41:08.116 --> 00:41:10.316
+tissue architecture. Let me show you.
+
+677
+00:41:11.856 --> 00:41:15.656
+So the loss of the basal layer marks pre-cancer to
+
+678
+00:41:15.816 --> 00:41:18.596
+cancer transition in both cancer types.
+
+679
+00:41:19.116 --> 00:41:23.006
+Now, the question would be, what molecules and features
+
+680
+00:41:23.156 --> 00:41:25.316
+drive this particular transition?
+
+681
+00:41:27.176 --> 00:41:30.756
+So we created a complementary stacked and native
+
+682
+00:41:30.996 --> 00:41:34.676
+3D data set for studying pre-cancer to cancer
+
+683
+00:41:34.756 --> 00:41:36.796
+transition for these two cancer types.
+
+684
+00:41:37.476 --> 00:41:38.336
+This work was
+
+685
+00:41:39.476 --> 00:41:42.016
+accepted yesterday. Now it's online
+
+686
+00:41:42.836 --> 00:41:46.745
+in Cancer Discovery. You can get access to this
+
+687
+00:41:46.856 --> 00:41:48.956
+paper through this QR code.
+
+688
+00:41:50.116 --> 00:41:52.556
+I'm going to stay here for a few seconds.
+
+689
+00:41:54.536 --> 00:41:58.256
+Okay, so this is an example serial section
+
+690
+00:41:58.376 --> 00:42:01.936
+workflow for a breast cancer sample with both
+
+691
+00:42:02.076 --> 00:42:05.716
+DCIS, the pre-cancer, and IDC, the
+
+692
+00:42:05.796 --> 00:42:09.156
+cancer. So we conducted
+
+693
+00:42:09.376 --> 00:42:12.276
+44 sections across 460
+
+694
+00:42:13.056 --> 00:42:16.996
+micron of distance, and then we assayed those
+
+695
+00:42:17.176 --> 00:42:20.196
+44 sections using a variety of technologies,
+
+696
+00:42:20.616 --> 00:42:23.456
+including Xenium Codex, H&amp;E,
+
+697
+00:42:24.096 --> 00:42:26.216
+Cosmic, and Visium HD.
+
+698
+00:42:28.136 --> 00:42:31.376
+So by expanding this approach to
+
+699
+00:42:31.456 --> 00:42:35.076
+multiple samples for both cancer types,
+
+700
+00:42:35.256 --> 00:42:38.956
+now we can map the pre-cancer to cancer 3D
+
+701
+00:42:39.056 --> 00:42:42.676
+transitional path. On top, you are looking at the
+
+702
+00:42:42.696 --> 00:42:46.176
+DCIS to IDC path for breast cancer.
+
+703
+00:42:46.636 --> 00:42:50.266
+At the bottom, you are looking at the normal gland to high-grade
+
+704
+00:42:50.376 --> 00:42:53.486
+PIN, then to the GP3 path for prostate
+
+705
+00:42:53.536 --> 00:42:57.246
+cancer.So native 3D night
+
+706
+00:42:57.346 --> 00:43:01.236
+sheet can help us highlight the complex structure and
+
+707
+00:43:01.406 --> 00:43:05.086
+connectivity of DCIS that can only be
+
+708
+00:43:05.166 --> 00:43:09.026
+inferred by stacked 3D. So the white
+
+709
+00:43:09.166 --> 00:43:13.006
+color indicate CK5 staining, and the red color
+
+710
+00:43:13.106 --> 00:43:16.826
+indicate pan-CK staining. As you can see, the
+
+711
+00:43:16.886 --> 00:43:19.786
+white DCIS dots are
+
+712
+00:43:19.866 --> 00:43:23.546
+embedded in the sea of the tumor.
+
+713
+00:43:25.826 --> 00:43:29.406
+So by combining the 2D and the 3D approaches,
+
+714
+00:43:30.106 --> 00:43:34.006
+now we can identify progression driver genes for this
+
+715
+00:43:34.186 --> 00:43:36.006
+pre-cancer to cancer transition.
+
+716
+00:43:37.286 --> 00:43:41.006
+We found some of the genes are enriched in the pre-cancer,
+
+717
+00:43:41.426 --> 00:43:44.106
+some of the genes are enriched in the cancer.
+
+718
+00:43:44.546 --> 00:43:48.286
+So those genes are involved in a variety of processes,
+
+719
+00:43:48.686 --> 00:43:51.706
+including tissue integrity, ECM
+
+720
+00:43:51.766 --> 00:43:55.086
+remodeling, metabolism, cell-cell
+
+721
+00:43:55.206 --> 00:43:56.786
+interaction, and so on.
+
+722
+00:43:58.746 --> 00:44:02.606
+So MGP, matrix gla protein, has been
+
+723
+00:44:02.786 --> 00:44:06.346
+found to be highly enriched in DCIS, the
+
+724
+00:44:06.466 --> 00:44:10.305
+pre-cancer, at both transcript and protein levels.
+
+725
+00:44:11.046 --> 00:44:14.326
+MGP binds directly to calcium and the
+
+726
+00:44:14.406 --> 00:44:17.806
+BMP2, preventing pathological
+
+727
+00:44:18.146 --> 00:44:21.826
+calcification of breast tissue.
+
+728
+00:44:22.406 --> 00:44:25.606
+So this function maintains the flexibility and the
+
+729
+00:44:25.706 --> 00:44:29.406
+integrity of the ECM, therefore preventing
+
+730
+00:44:29.466 --> 00:44:32.066
+transition to invasive morphologies.
+
+731
+00:44:34.066 --> 00:44:37.686
+So not surprisingly, when we lock down
+
+732
+00:44:38.126 --> 00:44:38.306
+on
+
+733
+00:44:39.246 --> 00:44:42.446
+MGP using shRNA, using a
+
+734
+00:44:42.526 --> 00:44:45.886
+DCIS cell line, we found enhanced
+
+735
+00:44:46.066 --> 00:44:48.526
+proliferation and wound healing.
+
+736
+00:44:51.946 --> 00:44:55.926
+So ERG has been overexpressed in a subset of
+
+737
+00:44:55.946 --> 00:44:59.046
+prostate cancer, as we all know. ERG
+
+738
+00:44:59.186 --> 00:45:01.766
+overexpression here has been found in
+
+739
+00:45:01.826 --> 00:45:05.515
+morphologically benign luminal epithelium cells.
+
+740
+00:45:06.046 --> 00:45:09.746
+In blue color, you can see the ERG expression
+
+741
+00:45:09.826 --> 00:45:13.226
+here. It's not surprising to see high ERG
+
+742
+00:45:13.286 --> 00:45:16.866
+expression in high-grade PIN and invasive cancer.
+
+743
+00:45:16.946 --> 00:45:20.706
+What does this tell us? This suggests TMPRSS2-ERG
+
+744
+00:45:20.846 --> 00:45:24.486
+fusion could happen way before we observe
+
+745
+00:45:24.506 --> 00:45:28.366
+morphological changes under the microscope, as
+
+746
+00:45:28.446 --> 00:45:31.326
+Hunter was indicating for skin cancer.
+
+747
+00:45:34.086 --> 00:45:38.046
+So in summary, we have identified unique and
+
+748
+00:45:38.166 --> 00:45:41.986
+common genes and the TME features associated
+
+749
+00:45:42.026 --> 00:45:45.566
+with pre-cancer to cancer transition for these two
+
+750
+00:45:45.666 --> 00:45:46.286
+cancers.
+
+751
+00:45:47.986 --> 00:45:51.086
+So the common one includes EPHA6,
+
+752
+00:45:51.266 --> 00:45:53.806
+GDF15, FASN, and MYC.
+
+753
+00:45:54.766 --> 00:45:58.126
+So due to time constraint, I will only be able to discuss
+
+754
+00:45:58.166 --> 00:46:01.946
+TME association with cancer transition, but you can get it
+
+755
+00:46:02.046 --> 00:46:03.266
+from the QR code.
+
+756
+00:46:04.766 --> 00:46:08.726
+So I want to use the rest of the time to talk about breast and
+
+757
+00:46:08.766 --> 00:46:11.205
+prostate bone metastasis.
+
+758
+00:46:12.366 --> 00:46:16.206
+So in addition of sharing the common biological
+
+759
+00:46:16.306 --> 00:46:20.166
+features, these two diseases tend to metastasize to
+
+760
+00:46:20.246 --> 00:46:20.806
+the bone.
+
+761
+00:46:21.886 --> 00:46:25.806
+90% of prostate metastasis are bone
+
+762
+00:46:25.846 --> 00:46:26.706
+metastasis.
+
+763
+00:46:28.566 --> 00:46:32.066
+To address this, we build a breast and prostate spatial
+
+764
+00:46:32.086 --> 00:46:35.106
+cohort for studying bone metastasis,
+
+765
+00:46:36.246 --> 00:46:39.735
+including both primary tumor and the metastatic
+
+766
+00:46:39.846 --> 00:46:40.326
+tumors.
+
+767
+00:46:42.066 --> 00:46:44.446
+So I want to draw your attention to this
+
+768
+00:46:45.346 --> 00:46:47.866
+linear plot here. So,
+
+769
+00:46:49.006 --> 00:46:52.826
+we can observe abundant tumor cells in pink
+
+770
+00:46:52.986 --> 00:46:56.626
+color, and we can observe abundant
+
+771
+00:46:56.766 --> 00:47:00.286
+fibroblast and macrophage in light
+
+772
+00:47:00.646 --> 00:47:04.206
+purple and blue color, and the
+
+773
+00:47:04.246 --> 00:47:07.526
+robust vasculature in the red color.
+
+774
+00:47:11.025 --> 00:47:14.106
+So when we compared the breast bone
+
+775
+00:47:14.145 --> 00:47:15.466
+metastasis to its
+
+776
+00:47:16.306 --> 00:47:20.146
+matching primary tumors, we found a subset of
+
+777
+00:47:20.166 --> 00:47:24.126
+bone metastasis show increased expression of this gene
+
+778
+00:47:24.186 --> 00:47:27.866
+called ACKR3. Another name is
+
+779
+00:47:27.966 --> 00:47:31.706
+CSR7. It is a regulator
+
+780
+00:47:31.846 --> 00:47:35.806
+of metastasis by interacting with CXCL12
+
+781
+00:47:36.306 --> 00:47:39.566
+to facilitate the tumor cell homing to the bone.
+
+782
+00:47:41.166 --> 00:47:44.866
+We have also found FGF receptor expression in both
+
+783
+00:47:45.486 --> 00:47:49.386
+the primary tumor and the metastasis, but with enhanced
+
+784
+00:47:49.506 --> 00:47:51.506
+expression in the bone metastasis.
+
+785
+00:47:53.566 --> 00:47:56.026
+So how about prostate bone metastasis?
+
+786
+00:47:56.406 --> 00:48:00.166
+We found enrichment of AR-driven program
+
+787
+00:48:00.426 --> 00:48:04.286
+as expected. You can see highly expressed AR
+
+788
+00:48:04.346 --> 00:48:07.566
+in the bone metastasis in comparison to the primary tumor.
+
+789
+00:48:08.126 --> 00:48:11.706
+We also observed FASN highly expressed in
+
+790
+00:48:12.346 --> 00:48:13.426
+bone metastasis,
+
+791
+00:48:14.366 --> 00:48:18.266
+enzyme involved in metabolism. And not
+
+792
+00:48:18.306 --> 00:48:21.686
+surprisingly, we found the canonical markers such as
+
+793
+00:48:21.786 --> 00:48:25.226
+PCA3 got lost in the bone metastasis.
+
+794
+00:48:27.766 --> 00:48:31.746
+So we are intrigued by the key steps of cancer metastasis
+
+795
+00:48:31.906 --> 00:48:35.726
+in the bone marrow microenvironment, including homing,
+
+796
+00:48:36.406 --> 00:48:39.946
+dormancy, colonization to expansion.
+
+797
+00:48:42.166 --> 00:48:46.066
+So when we compared the breast and the prostate
+
+798
+00:48:46.206 --> 00:48:49.946
+bone metastasis to the normal bone and to
+
+799
+00:48:50.086 --> 00:48:54.006
+MPN, a hematological disease, we found
+
+800
+00:48:54.106 --> 00:48:57.886
+the normal hematopoietic niche are replaced
+
+801
+00:48:58.026 --> 00:49:01.306
+by a tumor-associated microenvironment.
+
+802
+00:49:01.786 --> 00:49:04.866
+I want to draw your attention to the green box here.
+
+803
+00:49:05.266 --> 00:49:08.306
+You can see GMP, megakaryocyte,
+
+804
+00:49:08.746 --> 00:49:11.026
+MSC dramatically go
+
+805
+00:49:11.126 --> 00:49:14.966
+down.This is replaced by this
+
+806
+00:49:15.626 --> 00:49:19.426
+tumor-associated microenvironment, which I will discuss
+
+807
+00:49:19.506 --> 00:49:20.906
+in detail.
+
+808
+00:49:23.786 --> 00:49:26.646
+So we observed a significant increase in
+
+809
+00:49:26.706 --> 00:49:29.906
+osteoclast in breast bone metastasis
+
+810
+00:49:30.586 --> 00:49:34.546
+and osteoblast in prostate bone metastasis
+
+811
+00:49:34.726 --> 00:49:35.666
+as expected.
+
+812
+00:49:37.566 --> 00:49:40.706
+So then what's happening at the molecular level?
+
+813
+00:49:41.646 --> 00:49:41.906
+So
+
+814
+00:49:43.186 --> 00:49:46.746
+we found two very strong interactions
+
+815
+00:49:46.846 --> 00:49:50.526
+between tumor and osteoclast may
+
+816
+00:49:50.606 --> 00:49:54.546
+contribute to osteoclast activity in the
+
+817
+00:49:54.626 --> 00:49:58.406
+breast bone metastasis. PDGF-beta and
+
+818
+00:49:58.446 --> 00:50:01.765
+its receptor can promote osteoclast
+
+819
+00:50:01.806 --> 00:50:03.446
+precursor recruitment,
+
+820
+00:50:04.786 --> 00:50:07.226
+and TGF-beta I and
+
+821
+00:50:07.366 --> 00:50:10.406
+ITGB1 can also stimulate
+
+822
+00:50:10.606 --> 00:50:12.426
+osteoclast activity.
+
+823
+00:50:14.206 --> 00:50:17.986
+So when we look at the prostate bone metastasis, we found
+
+824
+00:50:18.086 --> 00:50:21.886
+SPP1 and the CD44 interaction and the
+
+825
+00:50:21.926 --> 00:50:24.946
+BMP signaling likely can strengthen
+
+826
+00:50:25.066 --> 00:50:28.706
+osteoblast niche in the prostate
+
+827
+00:50:28.826 --> 00:50:30.106
+bone metastasis.
+
+828
+00:50:31.966 --> 00:50:35.766
+So the SPP1 and the CD44 interaction can
+
+829
+00:50:35.806 --> 00:50:39.366
+enhance matrix adhesion, and the BMP
+
+830
+00:50:39.426 --> 00:50:43.326
+signaling can lead to osteogenic remodeling and
+
+831
+00:50:43.946 --> 00:50:46.026
+bone-forming activities.
+
+832
+00:50:48.126 --> 00:50:50.906
+So how about the vasculature and the fibroblast?
+
+833
+00:50:51.806 --> 00:50:54.826
+We observed a significant increase of the
+
+834
+00:50:54.896 --> 00:50:58.766
+vasculature in both bone metastasis, as
+
+835
+00:50:58.926 --> 00:51:02.446
+indicated here by comparison to normal bone and the
+
+836
+00:51:02.526 --> 00:51:03.206
+MPN.
+
+837
+00:51:04.306 --> 00:51:08.026
+We also observed a tremendous increase of fibroblast
+
+838
+00:51:08.126 --> 00:51:11.046
+in prostate and breast bone metastasis.
+
+839
+00:51:12.226 --> 00:51:15.046
+Most of those fibroblasts are MYCAF.
+
+840
+00:51:17.426 --> 00:51:20.066
+So we found in addition to the
+
+841
+00:51:20.306 --> 00:51:24.226
+well-established VEGF-A and the KDR interaction
+
+842
+00:51:24.306 --> 00:51:27.986
+for promoting angiogenesis, we found that
+
+843
+00:51:28.126 --> 00:51:31.906
+FGF signaling is also very strong in breast bone
+
+844
+00:51:31.966 --> 00:51:35.566
+metastasis, as indicated by the high
+
+845
+00:51:35.626 --> 00:51:39.266
+expression of FGFR2 in the tumor.
+
+846
+00:51:39.706 --> 00:51:42.926
+We believe this strong interaction might promote the
+
+847
+00:51:42.966 --> 00:51:45.626
+expansion of the breast bone metastasis.
+
+848
+00:51:47.706 --> 00:51:51.026
+So again, we observed this VEGF-A and
+
+849
+00:51:51.166 --> 00:51:53.866
+KDR interaction in prostate bone
+
+850
+00:51:53.946 --> 00:51:57.806
+metastasis. In addition to that, JAK1 and the Notch
+
+851
+00:51:58.026 --> 00:52:01.966
+3 and 4 interaction seems to be strong as
+
+852
+00:52:02.046 --> 00:52:05.906
+well, and this particular interaction can promote
+
+853
+00:52:05.926 --> 00:52:09.686
+angiogenic activation and vascular remodeling.
+
+854
+00:52:11.846 --> 00:52:15.446
+So now let's switch to talk about immuno cells.
+
+855
+00:52:15.966 --> 00:52:19.766
+We observed increased macrophage and limited T
+
+856
+00:52:19.866 --> 00:52:23.506
+cell infiltration in breast and prostate bone metastasis.
+
+857
+00:52:24.806 --> 00:52:28.286
+So when we look at the T cell stage, we found
+
+858
+00:52:28.646 --> 00:52:32.606
+cytotoxic T cells, although with exhaustion markers, are
+
+859
+00:52:32.646 --> 00:52:35.746
+more abundant in breast than prostate bone
+
+860
+00:52:35.806 --> 00:52:39.366
+metastasis. We observed comparable level of
+
+861
+00:52:39.406 --> 00:52:41.386
+Treg between these two.
+
+862
+00:52:44.406 --> 00:52:47.826
+So to fine map the TME and the tumor
+
+863
+00:52:47.866 --> 00:52:51.706
+relationship, we developed a density-based spatial
+
+864
+00:52:51.746 --> 00:52:55.326
+analysis strategy to locate the immuno and the
+
+865
+00:52:55.426 --> 00:52:59.366
+stroma cells from the peripheral of the tumor to the core
+
+866
+00:52:59.466 --> 00:53:00.326
+of the tumor.
+
+867
+00:53:04.026 --> 00:53:07.866
+So we found the increasing macrophage from the peripheral to the
+
+868
+00:53:07.926 --> 00:53:11.846
+core and the decreasing T cell from the peripheral to
+
+869
+00:53:11.906 --> 00:53:12.426
+the core.
+
+870
+00:53:14.946 --> 00:53:17.506
+When we dive deeper, we found that
+
+871
+00:53:18.646 --> 00:53:22.326
+breast bone metastasis were enriched with interfering
+
+872
+00:53:22.626 --> 00:53:24.766
+gamma positive macrophage,
+
+873
+00:53:25.846 --> 00:53:29.526
+suggesting a inflammatory microenvironment.
+
+874
+00:53:30.086 --> 00:53:33.005
+On the other hand, prostate bone metastasis
+
+875
+00:53:33.385 --> 00:53:36.966
+show the accumulation of SPP1 positive
+
+876
+00:53:37.106 --> 00:53:40.956
+macrophage suggesting a matrix remodeling and
+
+877
+00:53:41.086 --> 00:53:44.206
+bone associated immunosuppressive
+
+878
+00:53:44.306 --> 00:53:45.356
+microenvironment.
+
+879
+00:53:46.186 --> 00:53:49.506
+With that, I want to share with you a few thoughts.
+
+880
+00:53:50.886 --> 00:53:54.266
+Our study suggests potential new metastatic tumor
+
+881
+00:53:54.326 --> 00:53:58.126
+targets including FGFR2, fascin,
+
+882
+00:53:58.266 --> 00:54:02.206
+and others. Our study might also indicated
+
+883
+00:54:02.266 --> 00:54:05.526
+targeting some new interactions between tumor and the
+
+884
+00:54:05.566 --> 00:54:08.786
+vasculature could be a possible options.
+
+885
+00:54:09.306 --> 00:54:13.266
+In addition to the VEGF and the VEGF receptor
+
+886
+00:54:13.306 --> 00:54:17.246
+interaction in breast and prostate bone metastasis, we found
+
+887
+00:54:17.286 --> 00:54:20.216
+additional niche specific signals such as
+
+888
+00:54:20.346 --> 00:54:22.746
+JAK1/Notch 3/4 interaction.
+
+889
+00:54:23.586 --> 00:54:26.406
+A combined anti-angiogenic and a
+
+890
+00:54:26.466 --> 00:54:30.266
+macrophage-directed strategy is also
+
+891
+00:54:30.366 --> 00:54:33.866
+worth considering. Finally, immunoblocket
+
+892
+00:54:34.006 --> 00:54:37.706
+combined with macrophage-directed strategy could
+
+893
+00:54:37.826 --> 00:54:41.286
+represent another path forward. Breast bone
+
+894
+00:54:41.326 --> 00:54:44.886
+metastasis harbor an inflammatory immune
+
+895
+00:54:44.966 --> 00:54:48.766
+responsive niche while prostate bone metastasis
+
+896
+00:54:49.086 --> 00:54:52.086
+offer a immunosuppressive
+
+897
+00:54:52.266 --> 00:54:53.326
+microenvironment.
+
+898
+00:54:54.646 --> 00:54:58.526
+Breast bone metastasis may be more responsive to
+
+899
+00:54:58.546 --> 00:54:59.546
+immunotherapy,
+
+900
+00:55:00.406 --> 00:55:04.006
+checkpoint blockade, and macrophage reprogramming,
+
+901
+00:55:04.446 --> 00:55:07.686
+while prostate bone metastasis might require
+
+902
+00:55:07.786 --> 00:55:11.726
+strategies for targeting SPP1 positive macrophage
+
+903
+00:55:12.266 --> 00:55:15.882
+for improvingimmunotherapy
+
+904
+00:55:16.042 --> 00:55:19.902
+efficacy. With that, I want to thank my close
+
+905
+00:55:20.002 --> 00:55:23.202
+collaborators, Feng, Ben, Ryan, Russell,
+
+906
+00:55:23.702 --> 00:55:27.332
+Cassie, for their close collaboration for many years for
+
+907
+00:55:27.422 --> 00:55:31.142
+making this work possible. I want to thank my lab
+
+908
+00:55:31.242 --> 00:55:35.082
+members for their contribution to this study and to many other
+
+909
+00:55:35.202 --> 00:55:39.042
+work going on in the lab. Finally, I want to thank NCI
+
+910
+00:55:39.242 --> 00:55:42.482
+Human Tumor Atlas Network, H10, and
+
+911
+00:55:43.082 --> 00:55:46.942
+everyone here, Shami, Shannon, and my colleagues here,
+
+912
+00:55:47.322 --> 00:55:51.222
+Ying Du. And I want to thank CPTAC, PECDS,
+
+913
+00:55:51.402 --> 00:55:54.242
+and the Siteman Cancer Center at WashU. Thank you.
+
+914
+00:56:07.502 --> 00:56:07.982
+Hi, Ding.
+
+915
+00:56:09.422 --> 00:56:13.222
+I think the data are amazing. I'm a GI oncologist, as you know, but I wanted to
+
+916
+00:56:13.242 --> 00:56:17.002
+share with you some data we have generated on CSF1 receptor
+
+917
+00:56:17.442 --> 00:56:20.322
+as well as CD47. As you know, in colon cancer,
+
+918
+00:56:20.402 --> 00:56:24.322
+immunotherapy does not work in liver metastasis, but we
+
+919
+00:56:24.402 --> 00:56:28.382
+have shown that CD47, when you use that as well
+
+920
+00:56:28.422 --> 00:56:31.322
+as CSF1 receptor, you may overcome immune suppression.
+
+921
+00:56:31.662 --> 00:56:35.402
+So what you are seeing may be also applied for the tumor
+
+922
+00:56:35.442 --> 00:56:38.862
+immune suppressive environment in liver metastasis.
+
+923
+00:56:39.462 --> 00:56:43.362
+We have also data on FGF receptor 2 in colon cancer, which showed highly
+
+924
+00:56:43.382 --> 00:56:46.622
+predictive and prognostic features for outcome.
+
+925
+00:56:46.662 --> 00:56:50.462
+We have never looked for the association for bone mets because it's
+
+926
+00:56:50.522 --> 00:56:54.402
+very rare in colon cancer, but it's certainly linked to the
+
+927
+00:56:54.462 --> 00:56:57.422
+efficacy to each FGF receptor inhibitor.
+
+928
+00:56:57.542 --> 00:57:01.122
+So there are certainly interventions which have direct
+
+929
+00:57:01.162 --> 00:57:04.382
+implication for treatment, at least in colorectal cancer.
+
+930
+00:57:04.842 --> 00:57:07.082
+Yeah, that's fabulous. Thank you for the comments.
+
+931
+00:57:07.182 --> 00:57:07.762
+That's really
+
+932
+00:57:09.122 --> 00:57:12.862
+tell us about the commonality of different cancers.
+
+933
+00:57:14.042 --> 00:57:17.622
+Have you observed this interaction happening in the
+
+934
+00:57:17.642 --> 00:57:21.462
+colorectal cancer liver metastasis, although it doesn't go to the bone?
+
+935
+00:57:21.782 --> 00:57:24.951
+So there are data using a CD47 antibody that-
+
+936
+00:57:24.982 --> 00:57:25.132
+Uh-huh
+
+937
+00:57:25.142 --> 00:57:29.122
+... actually works in liver metastasis in combination with
+
+938
+00:57:29.242 --> 00:57:29.722
+immuno.
+
+939
+00:57:30.162 --> 00:57:31.701
+That's fantastic. Thank you.
+
+940
+00:57:35.882 --> 00:57:36.002
+Hello.
+
+941
+00:57:36.052 --> 00:57:36.752
+A very interesting-
+
+942
+00:57:36.802 --> 00:57:37.162
+Hi.
+
+943
+00:57:37.622 --> 00:57:38.421
+Oh, sorry.
+
+944
+00:57:39.002 --> 00:57:39.402
+No, go ahead.
+
+945
+00:57:41.182 --> 00:57:44.922
+Oh, I can go. So thank you very much, Li. Wonderful talk.
+
+946
+00:57:45.482 --> 00:57:45.882
+Thank you.
+
+947
+00:57:46.142 --> 00:57:49.132
+I was wondering, for those of us that are designing spatial studies,
+
+948
+00:57:49.942 --> 00:57:53.102
+should we do 44 different patients in 2D
+
+949
+00:57:54.062 --> 00:57:57.662
+or the same section 44 time-- I mean the same sample
+
+950
+00:57:57.742 --> 00:58:01.662
+44 times and build a 3D model? What do you think for a single
+
+951
+00:58:01.702 --> 00:58:05.582
+sample? Where do you think we're going to learn the most biology, through spreading
+
+952
+00:58:05.602 --> 00:58:09.482
+into the across many patients or building a huge 3D model of a
+
+953
+00:58:09.562 --> 00:58:10.122
+single sample?
+
+954
+00:58:11.602 --> 00:58:14.812
+I sense there are pros and cons for both, and
+
+955
+00:58:15.222 --> 00:58:18.962
+depending on what's your study design, if I'm
+
+956
+00:58:19.002 --> 00:58:20.762
+trying to figure out what are the
+
+957
+00:58:21.762 --> 00:58:22.882
+common drivers,
+
+958
+00:58:24.182 --> 00:58:27.922
+either tumor intrinsic or TME drivers for a
+
+959
+00:58:28.022 --> 00:58:31.962
+particular disease, I probably will do the 2D work spread
+
+960
+00:58:32.002 --> 00:58:35.822
+out for multiple samples. But if you are trying to
+
+961
+00:58:35.862 --> 00:58:39.562
+understand the cancer transitions, like what we are trying to do here,
+
+962
+00:58:40.162 --> 00:58:43.142
+a 3D model will be extremely helpful.
+
+963
+00:58:44.082 --> 00:58:44.382
+Thank you.
+
+964
+00:58:44.802 --> 00:58:45.282
+No problem.
+
+965
+00:58:46.252 --> 00:58:47.902
+Hi. Really interesting result on
+
+966
+00:58:48.722 --> 00:58:51.622
+your comparison between the gene expression between the
+
+967
+00:58:52.382 --> 00:58:54.142
+metastatic and the primary.
+
+968
+00:58:54.442 --> 00:58:54.502
+Mm-hmm.
+
+969
+00:58:54.582 --> 00:58:58.132
+You showed that-- I remember in the breast cancer, it seems it's
+
+970
+00:58:58.202 --> 00:59:01.332
+quite heterogeneous. Some patients upregulated
+
+971
+00:59:01.562 --> 00:59:03.932
+ACPR3, other patients upregulated
+
+972
+00:59:04.162 --> 00:59:06.562
+FGFR2, and still there are other
+
+973
+00:59:08.042 --> 00:59:11.742
+patterns. But for prostate cancer, it seems quite
+
+974
+00:59:12.522 --> 00:59:16.342
+homogeneous, or like everyone upregulated the
+
+975
+00:59:16.442 --> 00:59:18.692
+ER. And do you have explanation?
+
+976
+00:59:18.742 --> 00:59:21.762
+That's a great observation. You have really good eyes.
+
+977
+00:59:22.302 --> 00:59:22.502
+And
+
+978
+00:59:23.402 --> 00:59:27.182
+so indeed, we see more heterogeneity in
+
+979
+00:59:27.242 --> 00:59:30.502
+the breast cancer bone metastasis, although actually
+
+980
+00:59:31.402 --> 00:59:34.722
+for the breast project, we had the matching
+
+981
+00:59:35.102 --> 00:59:38.462
+primary tumor. And all of the breast tumors I'm talking about
+
+982
+00:59:38.882 --> 00:59:41.602
+here, they are ER-positive breast tumor.
+
+983
+00:59:42.382 --> 00:59:46.242
+So it's not like we are using different subtypes of breast tumor,
+
+984
+00:59:46.362 --> 00:59:49.542
+but we did observe this tremendous heterogeneity.
+
+985
+00:59:50.122 --> 00:59:53.602
+And for prostate bone metastasis, actually,
+
+986
+00:59:53.722 --> 00:59:57.142
+we have included both hormone sensitive and the
+
+987
+00:59:57.182 --> 01:00:00.942
+castration-resistant prostate bone metastasis.
+
+988
+01:00:01.002 --> 01:00:04.782
+We actually were expecting higher
+
+989
+01:00:04.802 --> 01:00:08.582
+heterogeneity from the prostate cohort, but we see uniform
+
+990
+01:00:09.862 --> 01:00:12.962
+expression for the genes I'm showing here.
+
+991
+01:00:13.102 --> 01:00:16.362
+But when you look deeply, though, when you look at the
+
+992
+01:00:16.422 --> 01:00:20.262
+interactions I'm showing you, I mean, I'm just showing you a subset of the
+
+993
+01:00:20.302 --> 01:00:24.092
+interactions, then you see tremendous heterogeneity in
+
+994
+01:00:24.102 --> 01:00:25.502
+prostate bone metastasis.
+
+995
+01:00:26.862 --> 01:00:27.142
+Thank you.
+
+996
+01:00:27.862 --> 01:00:28.302
+No problem.
+
+997
+01:00:29.462 --> 01:00:31.622
+Professor Ding, thank you for your wonderful talk.
+
+998
+01:00:32.302 --> 01:00:36.062
+The bone-directed therapies are commonly used in these two type of cancer, such
+
+999
+01:00:36.102 --> 01:00:39.702
+as Rank Ligand or RadioLigand therapy,
+
+1000
+01:00:39.822 --> 01:00:43.442
+radiotherapy plus. So how would you speculate the
+
+1001
+01:00:43.502 --> 01:00:47.142
+changes in the microenvironment TME or the tumor and these
+
+1002
+01:00:47.242 --> 01:00:49.152
+genomic signatures if the
+
+1003
+01:00:51.402 --> 01:00:53.362
+bone receive bone-directed therapies?
+
+1004
+01:00:53.422 --> 01:00:56.702
+How would you speculate the dynamic changes of these?
+
+1005
+01:00:57.122 --> 01:00:57.442
+Thank you.
+
+1006
+01:00:58.622 --> 01:01:02.442
+This is a tough question. There are
+
+1007
+01:01:02.602 --> 01:01:03.242
+always
+
+1008
+01:01:04.162 --> 01:01:07.762
+a lot of different possible combinations for
+
+1009
+01:01:07.782 --> 01:01:11.512
+treating bone metastasis because those
+
+1010
+01:01:11.542 --> 01:01:15.302
+patients have already developed a primary tumor
+
+1011
+01:01:15.762 --> 01:01:19.542
+and then develop metastasis. So they have already gone
+
+1012
+01:01:19.622 --> 01:01:23.022
+through a lot of therapies. At this point,
+
+1013
+01:01:24.122 --> 01:01:24.522
+I think
+
+1014
+01:01:25.362 --> 01:01:28.490
+a single strategy would not be... possible.
+
+1015
+01:01:28.930 --> 01:01:32.910
+And as the gentleman just indicated, how heterogeneous are
+
+1016
+01:01:32.950 --> 01:01:35.820
+breast tumor, breast cancer bone metastases
+
+1017
+01:01:36.850 --> 01:01:40.750
+are. So I think what you suggested,
+
+1018
+01:01:40.870 --> 01:01:44.610
+plus some of the options I'm proposing
+
+1019
+01:01:44.710 --> 01:01:45.650
+today, could
+
+1020
+01:01:47.230 --> 01:01:48.970
+all be used depending on
+
+1021
+01:01:50.050 --> 01:01:53.430
+patient-specific genetic alterations and the
+
+1022
+01:01:53.470 --> 01:01:56.730
+patient-specific microenvironment.
+
+1023
+01:01:56.770 --> 01:01:57.190
+Thank you.
+
+1024
+01:01:57.230 --> 01:01:59.990
+Two quick questions and two quick answers.
+
+1025
+01:02:00.450 --> 01:02:02.150
+Okay. I will try to be short.
+
+1026
+01:02:04.030 --> 01:02:06.930
+Thank you for your talk. I had a question about
+
+1027
+01:02:08.110 --> 01:02:11.770
+thinking also about the adipocytes within the bone marrow space.
+
+1028
+01:02:12.190 --> 01:02:15.830
+You show a lot of metabolic markers, like FASN, you show
+
+1029
+01:02:15.930 --> 01:02:18.570
+FGF2. So I was wondering if,
+
+1030
+01:02:19.730 --> 01:02:22.990
+looking at the interaction, you would also consider looking at the interaction
+
+1031
+01:02:23.030 --> 01:02:26.410
+between the tumor and the adipocyte, which is actually
+
+1032
+01:02:26.730 --> 01:02:30.710
+promoting and providing the lipids for the
+
+1033
+01:02:30.750 --> 01:02:31.150
+tumor.
+
+1034
+01:02:31.849 --> 01:02:35.530
+Yeah, that's a great point. Although we did see
+
+1035
+01:02:35.590 --> 01:02:39.430
+FASN, and to be enriched in
+
+1036
+01:02:40.030 --> 01:02:43.870
+invasive primary tumor as well, but I think, yes,
+
+1037
+01:02:43.990 --> 01:02:47.470
+the bone marrow microenvironment might further promote
+
+1038
+01:02:48.370 --> 01:02:50.890
+the overexpression of those genes.
+
+1039
+01:02:52.190 --> 01:02:55.990
+To be honest, we are still at the beginning phase of
+
+1040
+01:02:56.070 --> 01:02:59.990
+analyzing the data. What you suggested definitely will be the
+
+1041
+01:03:00.030 --> 01:03:01.450
+next step forward. Thank you.
+
+1042
+01:03:02.300 --> 01:03:03.610
+Yeah. Great talk. Thank you.
+
+1043
+01:03:03.670 --> 01:03:03.950
+Thank you.
+
+1044
+01:03:04.090 --> 01:03:05.830
+Matt Leventhal from Dana-Farber.
+
+1045
+01:03:07.110 --> 01:03:10.190
+Could you comment on the fact that, and I'm just curious what your perspective is,
+
+1046
+01:03:10.770 --> 01:03:14.670
+on prostate cancer being seen as a slow progressing disease, but AR is
+
+1047
+01:03:14.710 --> 01:03:17.350
+highly expressed and amplified throughout the life-
+
+1048
+01:03:17.470 --> 01:03:18.090
+Yeah
+
+1049
+01:03:18.330 --> 01:03:21.870
+... even pre-cancer. So, what do you think is going on with
+
+1050
+01:03:22.150 --> 01:03:25.330
+AR going from the pre-cancer state to the metastatic state?
+
+1051
+01:03:26.470 --> 01:03:30.360
+I need to answer that quickly. So, yes, AR has been
+
+1052
+01:03:30.410 --> 01:03:32.790
+critical all the way, but
+
+1053
+01:03:33.750 --> 01:03:36.970
+enhanced AR pathway really allow the bone
+
+1054
+01:03:37.030 --> 01:03:40.830
+metastasis to keep going and that's
+
+1055
+01:03:40.890 --> 01:03:44.550
+just the nature of the disease. And I will stop
+
+1056
+01:03:44.610 --> 01:03:47.430
+here because I'm way over time. Thank you for the question.
+
+1057
+01:03:47.770 --> 01:03:48.109
+Thank you.
+
+1058
+01:03:48.690 --> 01:03:49.070
+All right.
+
+1059
+01:03:51.310 --> 01:03:55.160
+Thank you, Li. I'd like to invite our last speaker, Irene Ghobrial, who is
+
+1060
+01:03:56.750 --> 01:04:00.340
+PI of the Multiple Myeloma Precancer Atlas from
+
+1061
+01:04:00.370 --> 01:04:01.830
+Dana-Farber Cancer Institute.
+
+1062
+01:04:05.250 --> 01:04:09.180
+All right. Thank you. I'd like to thank, of course, AACR for this wonderful
+
+1063
+01:04:09.290 --> 01:04:12.990
+time and, above all, NCI and H10, because this has been
+
+1064
+01:04:13.050 --> 01:04:17.000
+really a wonderful collaboration between all of the H10 members, and we've
+
+1065
+01:04:17.010 --> 01:04:19.830
+been learning a lot from all of the different cancers.
+
+1066
+01:04:19.870 --> 01:04:23.170
+So I'll take you through our multiple myeloma atlas and really
+
+1067
+01:04:23.210 --> 01:04:27.150
+understanding the transition from precancerous MGUS
+
+1068
+01:04:27.170 --> 01:04:30.270
+and smoldering myeloma to overt myeloma and how we can prevent it.
+
+1069
+01:04:30.970 --> 01:04:32.429
+These are my conflicts of interest.
+
+1070
+01:04:34.570 --> 01:04:38.050
+So if you think about multiple myeloma, it has two
+
+1071
+01:04:38.130 --> 01:04:40.750
+well-known transitions of precursor conditions.
+
+1072
+01:04:40.870 --> 01:04:44.830
+One is called MGUS, monoclonal gammopathy of undetermined significance, and the
+
+1073
+01:04:44.870 --> 01:04:48.670
+other one is smoldering myeloma. And they're very different because MGUS is
+
+1074
+01:04:48.750 --> 01:04:50.519
+very common in the general population.
+
+1075
+01:04:50.550 --> 01:04:54.420
+Anyone over the age of 50, it's about 3% to 5% of us walking around
+
+1076
+01:04:54.450 --> 01:04:57.830
+with it, and it increases more and more as we get older.
+
+1077
+01:04:57.930 --> 01:05:01.000
+Smoldering myeloma, which is defined by having
+
+1078
+01:05:01.030 --> 01:05:04.990
+10% plasma cells or cancer cells in your bone marrow, is the
+
+1079
+01:05:05.030 --> 01:05:08.600
+next transition of that. And in these patients,
+
+1080
+01:05:08.990 --> 01:05:12.910
+their chance of progression to overt myeloma to end organ damage is much
+
+1081
+01:05:12.930 --> 01:05:16.550
+higher. So instead of being only 1% per year, now
+
+1082
+01:05:16.690 --> 01:05:19.370
+it's 10% per year, so 10 times higher.
+
+1083
+01:05:19.790 --> 01:05:22.790
+And in some of those patients, when we see them, they have something called
+
+1084
+01:05:22.930 --> 01:05:26.790
+high-risk smoldering myeloma, meaning that they will go on to develop
+
+1085
+01:05:26.870 --> 01:05:30.700
+end organ damage or overt myeloma, 50% chance in two
+
+1086
+01:05:30.750 --> 01:05:34.650
+years. So when I sit down with a patient and I see them and I tell them,
+
+1087
+01:05:34.710 --> 01:05:38.390
+"You have high-risk smoldering myeloma," I'm basically telling them, "You have a
+
+1088
+01:05:38.670 --> 01:05:42.660
+50/50 chance of getting fractures in your bones, kidney failure,
+
+1089
+01:05:42.660 --> 01:05:46.529
+anemia in the next two years." And yet we do nothing about it.
+
+1090
+01:05:47.130 --> 01:05:51.050
+So we had a question, and part of the H10 was this: Can we be
+
+1091
+01:05:51.150 --> 01:05:54.510
+more precise in our definition of who is high risk in the
+
+1092
+01:05:54.630 --> 01:05:58.170
+population, and who are those patients who we should be treating early,
+
+1093
+01:05:58.530 --> 01:06:02.050
+while others who may never progress in their lifetime, we should leave them alone?
+
+1094
+01:06:02.490 --> 01:06:06.110
+And currently, the markers that we use are basically very clinical
+
+1095
+01:06:06.190 --> 01:06:10.050
+markers. How much tumor burden you have, how many plasma cells you have in
+
+1096
+01:06:10.130 --> 01:06:13.970
+your bone marrow, are they 20%? How much M spike you have, which is the
+
+1097
+01:06:13.990 --> 01:06:16.880
+protein we secrete in the blood or light chains.
+
+1098
+01:06:17.230 --> 01:06:19.630
+And these are really only tumor burden markers.
+
+1099
+01:06:19.670 --> 01:06:21.490
+They don't tell you anything about the biology.
+
+1100
+01:06:21.520 --> 01:06:24.750
+They don't tell you anything about the immune system or genomic alterations.
+
+1101
+01:06:26.190 --> 01:06:29.850
+So we asked the question, should we really intervene in those patients
+
+1102
+01:06:29.930 --> 01:06:33.690
+early? And we're trying to look basically like the solid tumor people, like breast
+
+1103
+01:06:33.770 --> 01:06:36.040
+cancer. In breast cancer, we screen early
+
+1104
+01:06:36.890 --> 01:06:39.690
+and we use mammography or colonoscopy in colon cancer.
+
+1105
+01:06:39.710 --> 01:06:43.630
+Yet I can tell you in multiple myeloma, a blood disease, we can
+
+1106
+01:06:43.690 --> 01:06:47.570
+use a very simple blood test called serum protein electrophoresis, and it's
+
+1107
+01:06:47.610 --> 01:06:50.910
+much easier to screen by a blood test than doing mammography or
+
+1108
+01:06:50.970 --> 01:06:54.950
+colonoscopy. And even when we find those patients with high-risk
+
+1109
+01:06:55.070 --> 01:06:58.820
+smoldering myeloma, which is very much like a malignancy, like a Stage 1 or
+
+1110
+01:06:58.910 --> 01:07:02.270
+Stage 2 breast cancer, we tell our patients, "Watch and wait.
+
+1111
+01:07:02.590 --> 01:07:06.310
+Do nothing until you have metastasis everywhere, basically." Just like metastatic
+
+1112
+01:07:06.370 --> 01:07:10.350
+breast cancer. Wait until you have fractures, bone disease,
+
+1113
+01:07:10.390 --> 01:07:13.310
+or kidney failure, and then I treat you. And that's a problem.
+
+1114
+01:07:13.350 --> 01:07:16.780
+That's basically saying to a patient with multiple myeloma, "Wait until you have
+
+1115
+01:07:16.830 --> 01:07:20.680
+advanced disease, and then I treat you." So the way we were thinking of this
+
+1116
+01:07:20.730 --> 01:07:24.180
+is can we diagnose those patients early and potentially treat them
+
+1117
+01:07:24.230 --> 01:07:27.350
+early and shift the way of thinking into an early
+
+1118
+01:07:27.390 --> 01:07:31.306
+interception?To do that, you need to be more precise
+
+1119
+01:07:31.346 --> 01:07:34.426
+in your risk stratification. So I'll show you some of the work that we've been
+
+1120
+01:07:34.466 --> 01:07:37.166
+doing with our H10 collaboration here.
+
+1121
+01:07:37.186 --> 01:07:40.706
+And the first one was trying to understand the genomic alterations that can be
+
+1122
+01:07:40.746 --> 01:07:42.986
+predictive of progression in our patients.
+
+1123
+01:07:43.446 --> 01:07:47.136
+So here we took 218 patients with MGUS and smoldering
+
+1124
+01:07:47.206 --> 01:07:50.826
+myeloma and compared it to patients who have already gone to overt
+
+1125
+01:07:50.866 --> 01:07:53.656
+multiple myeloma, and we did whole genome sequencing.
+
+1126
+01:07:53.926 --> 01:07:57.716
+And this is hard to do from peripheral blood or bone marrow cells, especially when
+
+1127
+01:07:57.726 --> 01:07:59.186
+you have very small numbers of cells.
+
+1128
+01:07:59.626 --> 01:08:03.046
+But we were able to find those alterations, and then we put them on a scale.
+
+1129
+01:08:03.146 --> 01:08:07.096
+We wanted to make this something that's clinically relevant for our patients, so I
+
+1130
+01:08:07.126 --> 01:08:11.106
+can tomorrow go to the clinic and tell them, "Here is your genomic score." And
+
+1131
+01:08:11.146 --> 01:08:14.936
+we call that the MM-like score. And it's a simple score of how
+
+1132
+01:08:14.966 --> 01:08:18.566
+many you have that are more MGUS-like, which is only 14, 16, or
+
+1133
+01:08:18.626 --> 01:08:22.257
+14, 20, and how many are myeloma-like, which, as you see here,
+
+1134
+01:08:22.427 --> 01:08:25.826
+NRAS, KRAS, 1q amplification, MYC alterations, and so on.
+
+1135
+01:08:26.266 --> 01:08:29.587
+And you balance them, and if you have more of the one, then you're more
+
+1136
+01:08:29.606 --> 01:08:32.946
+myeloma-like, and if you have more of the MGUS-like, then you're actually
+
+1137
+01:08:33.106 --> 01:08:36.186
+MGUS-like, even if you have a high tumor burden.
+
+1138
+01:08:36.206 --> 01:08:39.346
+And that's a critical one that we can now use in the clinic.
+
+1139
+01:08:40.286 --> 01:08:43.996
+But we said, "Well, that's not really using single-cell level information, and
+
+1140
+01:08:44.026 --> 01:08:47.616
+that's also not looking at the transcriptional changes that occur in the patients."
+
+1141
+01:08:47.967 --> 01:08:51.726
+We know that many patients may have a 14, 16, or a 1q amplification,
+
+1142
+01:08:52.047 --> 01:08:54.166
+and yet they don't progress to multiple myeloma.
+
+1143
+01:08:54.486 --> 01:08:57.826
+There is something more beyond the genomic alterations of those patients.
+
+1144
+01:08:58.257 --> 01:09:02.126
+So we decided to do single-cell sequencing with BCR sequencing
+
+1145
+01:09:02.186 --> 01:09:05.686
+so that we can truly look at the malignant plasma cells versus the normal plasma
+
+1146
+01:09:05.706 --> 01:09:08.346
+cells. And here we looked at 1.7 million
+
+1147
+01:09:09.146 --> 01:09:13.126
+cells from 226 patients. And this was a collaboration with
+
+1148
+01:09:13.206 --> 01:09:16.525
+Gary Guss at the Broad Institute, where we tried to ask the question
+
+1149
+01:09:16.566 --> 01:09:19.116
+transcriptionally, what's happening in those patients?
+
+1150
+01:09:19.427 --> 01:09:22.976
+But because those are the same patients, we also did whole-genome sequencing.
+
+1151
+01:09:23.007 --> 01:09:26.786
+Another question was, what can you define beyond the DNA level and
+
+1152
+01:09:26.806 --> 01:09:28.146
+beyond genomic alterations?
+
+1153
+01:09:29.366 --> 01:09:33.306
+Now, this was a hard thing to do because we're now comparing tumor to tumor, but
+
+1154
+01:09:33.387 --> 01:09:37.087
+also bone marrow plasma cells versus peripheral blood circulating tumor
+
+1155
+01:09:37.186 --> 01:09:40.427
+cells, and we're also looking at normal cells versus normal cells.
+
+1156
+01:09:40.726 --> 01:09:42.746
+And you can ask a lot of the questions here.
+
+1157
+01:09:43.306 --> 01:09:46.927
+The first one we wanted to do is, can we look at those transcriptional
+
+1158
+01:09:47.007 --> 01:09:50.666
+changes that occur during transition from a normal plasma
+
+1159
+01:09:50.766 --> 01:09:54.746
+cell to an MGUS cell to a more malignant transformed smoldering
+
+1160
+01:09:54.786 --> 01:09:58.346
+myeloma or myeloma cell. And you can see that we found 16
+
+1161
+01:09:58.366 --> 01:10:02.066
+transcriptional signatures that were defined in those populations,
+
+1162
+01:10:02.106 --> 01:10:05.466
+including cell cycle regulation, as you probably expect,
+
+1163
+01:10:05.866 --> 01:10:09.426
+MHC Class II, checkpoint regulation, and so on,
+
+1164
+01:10:09.526 --> 01:10:13.126
+circulatory capacity. But then we took those and went and tried to
+
+1165
+01:10:13.186 --> 01:10:16.926
+see which ones truly predict for you progression to multiple myeloma.
+
+1166
+01:10:17.315 --> 01:10:21.186
+And we found that six of those signatures were very critical for that
+
+1167
+01:10:21.206 --> 01:10:24.936
+progression from MGUS to smoldering myeloma to overt myeloma.
+
+1168
+01:10:25.456 --> 01:10:29.136
+And this is very critical, especially beta-2M, which is in the MHC Class
+
+1169
+01:10:29.346 --> 01:10:33.246
+I. And you can tell that this is critical because we use beta-2M as one
+
+1170
+01:10:33.266 --> 01:10:36.966
+of our predictors of progression in our patients, and the ISS
+
+1171
+01:10:37.046 --> 01:10:39.346
+classification of multiple myeloma.
+
+1172
+01:10:40.606 --> 01:10:43.246
+Now, we further validated that in the COMPASS data.
+
+1173
+01:10:43.286 --> 01:10:47.056
+This is a larger data set that has overt multiple myeloma from
+
+1174
+01:10:47.146 --> 01:10:50.886
+MMRF, and we indeed found that in the same signatures were
+
+1175
+01:10:50.926 --> 01:10:53.226
+found even if you have overt multiple myeloma.
+
+1176
+01:10:53.286 --> 01:10:57.006
+So this is not just the precursor conditions, but can also be applied in
+
+1177
+01:10:57.046 --> 01:11:00.086
+patients with overt myeloma, even when they receive therapy.
+
+1178
+01:11:01.266 --> 01:11:04.886
+Now, the next question we said is, well, that's good enough to have signatures, but
+
+1179
+01:11:04.926 --> 01:11:08.875
+let's try to find a classifier that can predict for me, if I take a patient with
+
+1180
+01:11:08.906 --> 01:11:12.815
+smoldering myeloma and I looked at their cells, I can tell where they
+
+1181
+01:11:12.886 --> 01:11:16.806
+are in their transition from normal to MGUS to smoldering to myeloma
+
+1182
+01:11:16.866 --> 01:11:20.586
+because the way that we classify our patients clinically may actually be wrong.
+
+1183
+01:11:20.886 --> 01:11:24.666
+I may be classifying some patients who have MGUS that truly have more smoldering
+
+1184
+01:11:24.706 --> 01:11:28.506
+myeloma in their transcriptional biological changes and vice versa.
+
+1185
+01:11:28.576 --> 01:11:32.526
+A patient with 10% plasma cells, so I call them smoldering myeloma, but
+
+1186
+01:11:32.566 --> 01:11:35.226
+they will never progress. They're behaving more like MGUS.
+
+1187
+01:11:35.626 --> 01:11:39.566
+So can I take your cell and by single-cell signatures, tell
+
+1188
+01:11:39.626 --> 01:11:43.546
+you where you stand in that transition period, and can I put it
+
+1189
+01:11:43.606 --> 01:11:45.306
+in the axis of progression?
+
+1190
+01:11:46.246 --> 01:11:50.225
+So here what we did is we tried to do a malignancy score and a disease score.
+
+1191
+01:11:50.546 --> 01:11:54.376
+Malignancy score just tells me, are you normal or a malignant plasma cell?
+
+1192
+01:11:54.526 --> 01:11:58.346
+And with 100% accuracy, we can tell at the single-cell level if this is a
+
+1193
+01:11:58.406 --> 01:12:00.486
+normal plasma cell or a malignant plasma cell.
+
+1194
+01:12:00.886 --> 01:12:04.746
+Then the next question is, what is the malignancy score as a
+
+1195
+01:12:04.806 --> 01:12:07.626
+disease progression from MGUS to smoldering to myeloma?
+
+1196
+01:12:08.016 --> 01:12:11.966
+And here we actually classified it from the MGUS and myeloma samples and then came
+
+1197
+01:12:12.046 --> 01:12:14.306
+back and looked at it in the smoldering samples.
+
+1198
+01:12:14.686 --> 01:12:18.576
+And we indeed found that you can create a score, we called it the MST score, that
+
+1199
+01:12:18.606 --> 01:12:22.326
+can predict for you progression, and it correlates, of course, with disease burden,
+
+1200
+01:12:22.406 --> 01:12:25.886
+with the light chain, with the M spike, but it can actually predict for you
+
+1201
+01:12:25.926 --> 01:12:29.666
+progression, not only in the MGUS and smoldering myeloma and myeloma
+
+1202
+01:12:29.766 --> 01:12:33.746
+patients, but also again in the COMPASS database, which is the overt myeloma
+
+1203
+01:12:33.786 --> 01:12:37.566
+patients. And that classifier is critical for us because again,
+
+1204
+01:12:37.646 --> 01:12:41.626
+beyond the DNA data, we can use it now in the clinic as a
+
+1205
+01:12:41.646 --> 01:12:45.346
+classifier to tell us at the transcriptional level what's happening to the patient.
+
+1206
+01:12:46.086 --> 01:12:50.026
+Now, the next question we asked is, can it add anything more beyond the DNA
+
+1207
+01:12:50.066 --> 01:12:53.986
+level? I already know that my patients have genomic signatures, which is
+
+1208
+01:12:54.026 --> 01:12:57.986
+the MM-like score. Should I add on it the RNA data, or is
+
+1209
+01:12:58.046 --> 01:13:00.526
+just reflecting what happened at the DNA level?
+
+1210
+01:13:00.926 --> 01:13:04.806
+And here what we did is we actually removed the DNA information because
+
+1211
+01:13:04.846 --> 01:13:08.826
+we found very weak correlation between RNA and DNA from the same patients, and we
+
+1212
+01:13:08.866 --> 01:13:12.786
+went back and said, "What is the transcriptional change that is occurring above
+
+1213
+01:13:12.806 --> 01:13:16.686
+and beyond what you have at the genomic level from the DNA mutations?" And
+
+1214
+01:13:16.726 --> 01:13:20.586
+you can find that the circulatory capacity, the ability of the cells to circulate
+
+1215
+01:13:20.606 --> 01:13:24.446
+in the peripheral blood, as well as histone chaperone proteins and genes, were
+
+1216
+01:13:24.506 --> 01:13:28.466
+critical for that transition, which tells you that there is a lot of work
+
+1217
+01:13:28.486 --> 01:13:32.446
+to be done beyond the DNA level to really tell us why those cells become
+
+1218
+01:13:32.486 --> 01:13:35.606
+more malignant, even in the early MGUS stages in our
+
+1219
+01:13:35.646 --> 01:13:39.282
+patients.Because circulatory capacity and because the
+
+1220
+01:13:39.362 --> 01:13:43.302
+CTCs, or circulating tumor cells, are so prognostic in our patients, and
+
+1221
+01:13:43.342 --> 01:13:47.302
+we know that by flow cytometry, we went back and said, "Then let's do a larger
+
+1222
+01:13:47.342 --> 01:13:51.002
+cohort of single-cell sequencing in the peripheral blood so that we can really
+
+1223
+01:13:51.042 --> 01:13:54.582
+define what's happening in the bone marrow, but only in the peripheral blood." Can
+
+1224
+01:13:54.722 --> 01:13:58.442
+I just use a blood sample from you and tell you if you have the
+
+1225
+01:13:58.502 --> 01:14:00.822
+genomic alterations that are in the bone marrow?
+
+1226
+01:14:00.842 --> 01:14:04.802
+And potentially, we can also stop doing bone marrow biopsies in
+
+1227
+01:14:04.842 --> 01:14:08.422
+our patients because they're very hard to do, and patients don't like to do it.
+
+1228
+01:14:08.842 --> 01:14:12.522
+So here, this is work that we did from 74 patients and 29 healthy
+
+1229
+01:14:12.762 --> 01:14:16.562
+control, where we looked at both the bone marrow biopsy and the peripheral blood
+
+1230
+01:14:16.942 --> 01:14:19.722
+over time, again, from healthy MGUS, smoldering, and myeloma.
+
+1231
+01:14:20.292 --> 01:14:24.022
+And what we did is, again, with 1.2 million cells, looking at single-cell
+
+1232
+01:14:24.142 --> 01:14:27.722
+BCR sequencing and transcriptional changes, looked at the tumor versus
+
+1233
+01:14:27.742 --> 01:14:29.752
+normal and peripheral blood versus bone marrow.
+
+1234
+01:14:30.382 --> 01:14:31.882
+But we asked a different question here.
+
+1235
+01:14:31.922 --> 01:14:35.622
+We said, "Can I predict what happens in the bone marrow on the
+
+1236
+01:14:35.662 --> 01:14:39.642
+FISH or whole genome sequencing data in a peripheral blood sample?" And here you
+
+1237
+01:14:39.682 --> 01:14:43.582
+can see with this confusion matrix, we were able to predict everything
+
+1238
+01:14:43.602 --> 01:14:47.262
+that you see in a bone marrow biopsy by FISH or whole genome sequencing in a
+
+1239
+01:14:47.282 --> 01:14:50.722
+peripheral blood sample, even in some of those samples that had
+
+1240
+01:14:51.282 --> 01:14:53.502
+some alterations that are not detected in the bone marrow.
+
+1241
+01:14:53.782 --> 01:14:56.712
+It was because they had a couple of clones that were different in the peripheral
+
+1242
+01:14:56.802 --> 01:15:00.382
+blood. And in fact, you can do that with only 10 cells.
+
+1243
+01:15:00.422 --> 01:15:04.102
+And that was the SwiftSeq method that we developed to try and predict
+
+1244
+01:15:04.112 --> 01:15:07.762
+progression in our patients, but also to give you value in a blood sample
+
+1245
+01:15:08.082 --> 01:15:09.902
+with 10 cells in the peripheral blood.
+
+1246
+01:15:11.382 --> 01:15:15.342
+Now, it's critical for us to think, as you always do, that tumor
+
+1247
+01:15:15.422 --> 01:15:19.382
+cells don't live alone, and they have an ecosystem of immune cells, non-immune
+
+1248
+01:15:19.422 --> 01:15:20.962
+cells, and the whole microenvironment.
+
+1249
+01:15:21.442 --> 01:15:25.182
+So we asked the question, can we look at the immune cell signatures, again, across
+
+1250
+01:15:25.242 --> 01:15:29.062
+time from MGUS to smoldering to myeloma, and what happens with an
+
+1251
+01:15:29.142 --> 01:15:32.882
+early myeloma cell interaction with immune cells, and can we harness
+
+1252
+01:15:32.942 --> 01:15:36.702
+that in the future for developing therapeutics, especially immune
+
+1253
+01:15:36.722 --> 01:15:39.042
+therapeutics, for our patients with smoldering myeloma?
+
+1254
+01:15:39.862 --> 01:15:43.422
+So here we took 877 tumor samples as well as
+
+1255
+01:15:43.902 --> 01:15:47.802
+immune cells and tried to do a large atlas, again, of immune
+
+1256
+01:15:47.862 --> 01:15:51.322
+cell signatures across the spectrum, healthy, MGUS, smoldering, myeloma.
+
+1257
+01:15:51.642 --> 01:15:55.362
+But because we also have the single-cell sequencing of the tumor cells, now we can
+
+1258
+01:15:55.402 --> 01:15:59.002
+look at the interaction between both of those types of
+
+1259
+01:15:59.062 --> 01:16:02.962
+cells. So we don't have time to go over all the data, but I'll show you some
+
+1260
+01:16:03.002 --> 01:16:05.102
+of the compositional and transcriptional changes.
+
+1261
+01:16:05.412 --> 01:16:08.862
+And over time, you can see that there is a lot of compositional changes that occur,
+
+1262
+01:16:09.182 --> 01:16:13.062
+including CD4 naive T cells, central memory T cells, including
+
+1263
+01:16:13.102 --> 01:16:16.582
+Tregs increasing over time as you go to myeloma, CD16
+
+1264
+01:16:16.622 --> 01:16:20.202
+monocytes, and you have less plasmacytoid dendritic cells and CD14
+
+1265
+01:16:20.422 --> 01:16:24.382
+monocytes. But what was interesting, because we have the tumor cells, we
+
+1266
+01:16:24.422 --> 01:16:28.322
+found a strong correlation between the cycling of the tumor cells and the
+
+1267
+01:16:28.342 --> 01:16:31.032
+granzyme B CD8 TEMs. And that was
+
+1268
+01:16:31.942 --> 01:16:35.562
+showing us that indeed, patients who are progressing from smoldering myeloma to
+
+1269
+01:16:35.602 --> 01:16:39.442
+overt myeloma are the ones who have more of those granzyme B CD8
+
+1270
+01:16:39.462 --> 01:16:39.742
+TEMs,
+
+1271
+01:16:40.582 --> 01:16:44.382
+sort of trying to respond to the tumor cells and trying to respond to them in a
+
+1272
+01:16:44.402 --> 01:16:47.602
+way that is basically exhausted despite being effector cells.
+
+1273
+01:16:49.042 --> 01:16:52.702
+If you look at the immune programs in those and actually try to look not only at
+
+1274
+01:16:52.742 --> 01:16:56.402
+the compositional changes but at the signatures across all of the immune cells,
+
+1275
+01:16:56.782 --> 01:17:00.602
+you find that interferon signaling was present not only in the tumor cells but
+
+1276
+01:17:00.662 --> 01:17:04.282
+across many of the immune cells, T cells, myeloid cells, and so on,
+
+1277
+01:17:04.602 --> 01:17:07.982
+as well as other signatures that were correlating with myeloid suppressive
+
+1278
+01:17:08.022 --> 01:17:11.562
+cells. And the other thing that we did was T cell
+
+1279
+01:17:11.642 --> 01:17:15.622
+receptor clonality, and we tried to look at the TCRs
+
+1280
+01:17:15.662 --> 01:17:19.522
+in those patients. And what we found is that as you progress to overt
+
+1281
+01:17:19.582 --> 01:17:23.242
+myeloma, you have less and less diversity because you have very specific
+
+1282
+01:17:23.322 --> 01:17:27.041
+sub-clones of T cells that are responding potentially to those tumor
+
+1283
+01:17:27.122 --> 01:17:30.942
+cells. And we're now trying to look at all of those TCR clones that are
+
+1284
+01:17:30.982 --> 01:17:33.242
+expanding and responding to the tumor cells.
+
+1285
+01:17:34.642 --> 01:17:38.102
+Now, what else are we doing with the spatial question with the H10?
+
+1286
+01:17:38.222 --> 01:17:41.392
+Here we're trying to take all of this information and take it at the spatial
+
+1287
+01:17:41.462 --> 01:17:43.582
+transcriptomic and proteomic level.
+
+1288
+01:17:43.622 --> 01:17:47.222
+And to understand that, as we know very well, the bone marrow biopsies that we do
+
+1289
+01:17:47.262 --> 01:17:51.022
+in our patients are very hard to actually look at them because we do
+
+1290
+01:17:51.062 --> 01:17:54.962
+decalcification, which actually messes up all of your DNA and RNA, and then we put
+
+1291
+01:17:54.982 --> 01:17:58.822
+them in paraffin-embedded, and then we try to say, "Let's try to do what the solid
+
+1292
+01:17:58.862 --> 01:18:02.622
+tumor people do." But it's very hard to do that in bone marrow biopsies.
+
+1293
+01:18:03.242 --> 01:18:07.202
+But bone marrow biopsies are very critical because all of the data I showed you
+
+1294
+01:18:07.462 --> 01:18:11.222
+in bone marrow aspirates, which is what we pull first from the first pull of our
+
+1295
+01:18:11.242 --> 01:18:13.822
+patients, does not reflect everything that's happening.
+
+1296
+01:18:13.842 --> 01:18:17.692
+It's not just the spatial localization of the cells and how they interact with
+
+1297
+01:18:17.722 --> 01:18:21.702
+each other. You're also missing a lot of the stromal cells, adipocytes, as
+
+1298
+01:18:21.762 --> 01:18:25.092
+we talked about, endothelial cells, and so many other
+
+1299
+01:18:25.142 --> 01:18:28.032
+architectural changes that occur in the bone marrow.
+
+1300
+01:18:28.902 --> 01:18:32.882
+So we spent a lot of time trying to develop a spatial proteomic method, and here
+
+1301
+01:18:32.962 --> 01:18:36.802
+we used IMC, which is imaging mass cytometry,
+
+1302
+01:18:37.242 --> 01:18:40.702
+and we developed 36 antibodies that would work on IMC that we
+
+1303
+01:18:40.722 --> 01:18:44.662
+validated by immunohistochemistry and immunofluorescence to make sure indeed
+
+1304
+01:18:44.702 --> 01:18:47.721
+they work on a decalcified bone marrow biopsy.
+
+1305
+01:18:48.012 --> 01:18:51.922
+And you can see here that we have CD3 and CD138, then you can classify it
+
+1306
+01:18:51.962 --> 01:18:55.482
+as T cells and myeloma and so on, and finally have enough
+
+1307
+01:18:55.562 --> 01:18:59.202
+signatures of all of your tumor cells and immune cells to ask those
+
+1308
+01:18:59.282 --> 01:19:03.182
+questions. So when you look at all of this data, we started seeing that
+
+1309
+01:19:03.222 --> 01:19:06.202
+adipocytes, actually, because you lose them a lot when you're doing all of those
+
+1310
+01:19:06.322 --> 01:19:10.222
+cuts and decalcification in your bone marrow, we couldn't even call
+
+1311
+01:19:10.342 --> 01:19:13.362
+the adipocytes, and we couldn't call megakaryocytes because they're too big.
+
+1312
+01:19:13.682 --> 01:19:17.662
+So we had to develop a new package, which is available, called the AdipoFinder,
+
+1313
+01:19:17.942 --> 01:19:21.602
+where you can actually recapitulate the data of the adipocytes,
+
+1314
+01:19:21.882 --> 01:19:25.242
+and now look at all the cell-to-cell interactions in those patients.
+
+1315
+01:19:26.282 --> 01:19:29.922
+And we decided to look in a study of 98 samples of
+
+1316
+01:19:30.302 --> 01:19:34.002
+CAR-T, either cell or silta cell, so patients with multiple
+
+1317
+01:19:34.042 --> 01:19:36.542
+myeloma who received the cellular therapy, CAR-T.
+
+1318
+01:19:36.582 --> 01:19:40.022
+If I take their sample before going on the CAR-T therapy, can I
+
+1319
+01:19:40.302 --> 01:19:42.882
+predict whether they will respond to therapy or not?
+
+1320
+01:19:43.182 --> 01:19:47.151
+And can I predict their toxicity? These are very critical questions
+
+1321
+01:19:47.222 --> 01:19:51.026
+for us clinically.So the first thing we did is we started to look at those
+
+1322
+01:19:51.086 --> 01:19:54.776
+cellular neighborhoods, cell-to-cell interaction between myeloma cells,
+
+1323
+01:19:54.886 --> 01:19:58.876
+immune cells, and others. And it's very important to show that
+
+1324
+01:19:58.926 --> 01:20:02.466
+indeed it's not just any change that occurs in the bone marrow.
+
+1325
+01:20:02.506 --> 01:20:06.016
+The cells actually do sit in very specific cellular neighborhoods,
+
+1326
+01:20:06.346 --> 01:20:09.186
+and it's very similar to what we see in solid tumors.
+
+1327
+01:20:10.106 --> 01:20:13.906
+So when we look at those cellular neighborhoods and put them together, we start
+
+1328
+01:20:13.946 --> 01:20:17.626
+seeing indeed that some of those neighborhoods are actually predicting not only a
+
+1329
+01:20:17.686 --> 01:20:21.306
+progression-free survival to CAR T, but also overall
+
+1330
+01:20:21.386 --> 01:20:25.126
+survival in our patients. And many of those signatures were not just about
+
+1331
+01:20:25.186 --> 01:20:29.126
+tumor burden, which is in red here, the plasma cells or the tumor cells, they were
+
+1332
+01:20:29.206 --> 01:20:32.486
+also about the mixture between the tumor cells and the immune cells.
+
+1333
+01:20:33.046 --> 01:20:36.666
+So here is an example of how a tumor and immune cell interaction
+
+1334
+01:20:36.726 --> 01:20:40.686
+occurs, and sometimes it gives you a very bad prognosis, and sometimes it gives you
+
+1335
+01:20:40.766 --> 01:20:44.506
+a very good prognosis, which are very different depending on the types of
+
+1336
+01:20:44.526 --> 01:20:48.386
+myeloid cells or tumors to immune cell interaction that are sitting
+
+1337
+01:20:48.426 --> 01:20:50.036
+in that cellular neighborhood.
+
+1338
+01:20:51.016 --> 01:20:54.666
+And finally, we said it's not just about response to therapy, but also the
+
+1339
+01:20:54.706 --> 01:20:58.286
+cytokine release syndrome and the prolonged cytopenias that we see with our
+
+1340
+01:20:58.306 --> 01:21:01.286
+patients. Many of them may not recover their counts for a long time.
+
+1341
+01:21:01.706 --> 01:21:05.566
+Can we look at that inflammation that occurs in the microenvironment, and can we
+
+1342
+01:21:05.606 --> 01:21:09.366
+predict with accuracy that those patients will have potentially that
+
+1343
+01:21:09.426 --> 01:21:13.326
+inflammation, CRS, or prolonged neutropenia because we can potentially
+
+1344
+01:21:13.346 --> 01:21:16.886
+prevent it? And indeed, you can find that specific interactions
+
+1345
+01:21:16.986 --> 01:21:18.586
+between myeloid cells,
+
+1346
+01:21:19.826 --> 01:21:23.746
+and dendritic cells can predict for us prolonged neutropenias in
+
+1347
+01:21:23.806 --> 01:21:24.426
+our patients.
+
+1348
+01:21:25.406 --> 01:21:27.436
+So finally, why do we do all of this?
+
+1349
+01:21:27.566 --> 01:21:29.826
+We do this because we want to treat our patients.
+
+1350
+01:21:30.196 --> 01:21:33.786
+And I can tell you finally, we have the first FDA-approved drug for
+
+1351
+01:21:33.846 --> 01:21:35.886
+smoldering myeloma, which is daratumumab.
+
+1352
+01:21:36.226 --> 01:21:38.406
+But that's the beginning, not the end.
+
+1353
+01:21:38.446 --> 01:21:41.716
+And in fact, we want to actually improve things by using
+
+1354
+01:21:41.746 --> 01:21:44.586
+immunotherapy in our patients with smoldering myeloma.
+
+1355
+01:21:44.596 --> 01:21:48.266
+And to do that, we've done two clinical trials as a proof of concept that
+
+1356
+01:21:48.326 --> 01:21:52.046
+indeed you can make a difference by treating early and by harnessing the immune
+
+1357
+01:21:52.146 --> 01:21:55.646
+system with cellular therapy or bispecific antibodies.
+
+1358
+01:21:55.686 --> 01:21:59.656
+So here with a bispecific antibody called teclistamab versus LenDex, which is
+
+1359
+01:21:59.726 --> 01:22:03.666
+our traditional way of treating smoldering myeloma, we compared those patients
+
+1360
+01:22:03.686 --> 01:22:06.796
+and treated them to see if truly our hypothesis is
+
+1361
+01:22:06.826 --> 01:22:10.306
+true that your immune system is better in the earlier
+
+1362
+01:22:10.366 --> 01:22:14.196
+stages, that your tumor burden and your clonal evolution is not as
+
+1363
+01:22:14.226 --> 01:22:18.186
+extensive as it is in overt myeloma, then you should probably have an amazing
+
+1364
+01:22:18.246 --> 01:22:22.006
+response if you use your best therapy, immunotherapy, as early as
+
+1365
+01:22:22.046 --> 01:22:25.886
+possible. So with that, we showed the first data of the first 12
+
+1366
+01:22:25.906 --> 01:22:29.026
+patients, but the study is completed, so hopefully we will show the rest of the
+
+1367
+01:22:29.086 --> 01:22:32.706
+data soon. But this shows you the first proof of concept that a
+
+1368
+01:22:32.766 --> 01:22:35.746
+bispecific antibody, a T-cell engager, showed us
+
+1369
+01:22:35.786 --> 01:22:39.426
+100% response rate, 100% MRD
+
+1370
+01:22:39.436 --> 01:22:43.396
+negative disease, which means there's no evidence of tumor cells in the first
+
+1371
+01:22:43.406 --> 01:22:47.286
+12 patients, and with less infections and less cytokine
+
+1372
+01:22:47.326 --> 01:22:50.546
+release syndrome compared to the overt multiple myeloma.
+
+1373
+01:22:50.555 --> 01:22:54.506
+And here is one of our patients. This was patient number two, and you can see his
+
+1374
+01:22:54.566 --> 01:22:56.206
+light chains were significantly high.
+
+1375
+01:22:56.226 --> 01:22:59.966
+And after just receiving the first few doses of teclistamab, you can see
+
+1376
+01:23:00.006 --> 01:23:03.746
+complete resolution of his lambda light chain, and it's still in an
+
+1377
+01:23:03.846 --> 01:23:06.786
+MRD negative disease three and a half years later.
+
+1378
+01:23:06.806 --> 01:23:10.156
+And he sent me this picture when he was bungee jumping in New Zealand, so I'm using
+
+1379
+01:23:10.186 --> 01:23:13.826
+this as the best quality of life measure for patients who are on a bispecific
+
+1380
+01:23:13.866 --> 01:23:14.406
+antibody.
+
+1381
+01:23:15.275 --> 01:23:19.066
+Now, the other study, which was also the hardest thing to do, was
+
+1382
+01:23:19.106 --> 01:23:22.806
+can we convince the FDA and pharmaceutical companies to give us
+
+1383
+01:23:22.906 --> 01:23:26.666
+cellular therapy, CAR T therapy, not in the relapse refractory
+
+1384
+01:23:26.686 --> 01:23:30.506
+setting, not in the newly diagnosed, but in smoldering, in asymptomatic patients.
+
+1385
+01:23:30.526 --> 01:23:34.106
+And I can tell you this will be a plenary session Monday morning, so please come
+
+1386
+01:23:34.126 --> 01:23:38.006
+and visit and hear us talking about it, of 20
+
+1387
+01:23:38.046 --> 01:23:41.606
+patients who Omar Nadeem will be presenting with CAR T.
+
+1388
+01:23:42.046 --> 01:23:45.746
+But we showed the first six patients a couple of years ago, or
+
+1389
+01:23:45.826 --> 01:23:48.166
+actually last year in the American Society of Hematology.
+
+1390
+01:23:48.586 --> 01:23:50.686
+And this is a teaser for what you're going to see Monday.
+
+1391
+01:23:50.986 --> 01:23:54.956
+But again, 100% MRD negative disease with one and done
+
+1392
+01:23:55.086 --> 01:23:58.946
+cellular therapy, which tells you again that the proof of concept matters if you
+
+1393
+01:23:59.006 --> 01:24:02.706
+use your best therapy or immunotherapy and you use your T-cell engagers
+
+1394
+01:24:02.766 --> 01:24:06.146
+early on. So with that, I hope I took you through a journey
+
+1395
+01:24:06.266 --> 01:24:09.686
+of precursor multiple myeloma. Can we diagnose them early?
+
+1396
+01:24:10.025 --> 01:24:13.726
+Can we risk stratify them with genomic, with immune, with single-cell
+
+1397
+01:24:13.806 --> 01:24:17.786
+sequencing, and spatial transcriptomics and proteomics to really
+
+1398
+01:24:17.826 --> 01:24:20.216
+define those patients who will benefit from therapy?
+
+1399
+01:24:20.526 --> 01:24:24.346
+And then can we apply our best therapeutics, especially immunotherapy, in
+
+1400
+01:24:24.366 --> 01:24:27.726
+those patients to potentially intercept and cure our patients with myeloma?
+
+1401
+01:24:28.146 --> 01:24:32.006
+With that, I'd love to thank, of course, our lab members, clinical members, all our
+
+1402
+01:24:32.066 --> 01:24:36.046
+funders, Gaddy Getz, who all our work we do it in collaboration with him.
+
+1403
+01:24:36.086 --> 01:24:39.486
+And above all, our patients. Thank you.
+
+1404
+01:24:51.106 --> 01:24:53.286
+Yeah, thank you for the talk. It was super nice.
+
+1405
+01:24:54.266 --> 01:24:58.166
+Well, you said that you had BCR data for
+
+1406
+01:24:58.206 --> 01:25:01.826
+the single-cell analysis, and as far as I know, this premalignant
+
+1407
+01:25:01.866 --> 01:25:05.286
+condition can be kind of oligoclonal from the BCR
+
+1408
+01:25:05.346 --> 01:25:08.716
+level. Have you looked at it? Do you observe this oligoclonality?
+
+1409
+01:25:08.946 --> 01:25:12.346
+And if you do so, do you see differences in these
+
+1410
+01:25:12.606 --> 01:25:14.886
+scores from progressing to myeloma?
+
+1411
+01:25:15.426 --> 01:25:18.726
+Yeah, great question. So yes, all of our samples have BCR sequencing.
+
+1412
+01:25:19.106 --> 01:25:22.946
+And in fact, the more you go towards malignancy, the more there is a major
+
+1413
+01:25:23.006 --> 01:25:26.536
+BCR clone. And this is true also when we do VDG sequencing for
+
+1414
+01:25:26.566 --> 01:25:30.446
+adaptive. You may have other subclones, smaller subclones, but most of
+
+1415
+01:25:30.486 --> 01:25:33.126
+the time it's a major one clone. But you're right.
+
+1416
+01:25:33.366 --> 01:25:37.076
+And we have other studies that I didn't show here called MGAP, which is the
+
+1417
+01:25:37.146 --> 01:25:41.046
+very early event of a change of monoclonality, and you
+
+1418
+01:25:41.086 --> 01:25:45.026
+do see those oligoclonal cells, and they compete with each other until one of them
+
+1419
+01:25:45.066 --> 01:25:46.546
+actually becomes the major clone.
+
+1420
+01:25:48.086 --> 01:25:50.506
+This was not a journey, this was a rollercoaster.
+
+1421
+01:25:51.526 --> 01:25:52.346
+It was incredible.
+
+1422
+01:25:53.506 --> 01:25:57.366
+I know that multiple myeloma is also classified by significant
+
+1423
+01:25:57.486 --> 01:26:01.026
+hypomethylation. So we heard about transcriptomics and DNA.
+
+1424
+01:26:01.726 --> 01:26:05.166
+What is methylation play a role in the characterization and
+
+1425
+01:26:05.246 --> 01:26:07.166
+outcome for multiple myeloma?
+
+1426
+01:26:07.306 --> 01:26:11.246
+Yeah, great question. I think we are deficient in a lot of the epigenetic
+
+1427
+01:26:11.306 --> 01:26:14.706
+regulation, methylation, and so on, and we do definitely need to do more.
+
+1428
+01:26:14.766 --> 01:26:17.946
+There has been many studies, but not enough and not at the single-cell level.
+
+1429
+01:26:18.026 --> 01:26:19.566
+So absolutely, we need to do that.
+
+1430
+01:26:26.026 --> 01:26:29.986
+Okay. If there are no more questions, I want to thank the speakers
+
+1431
+01:26:30.066 --> 01:26:33.366
+for keeping us on time and for these great talks, and thank you,
+
+1432
+01:26:33.766 --> 01:26:35.746
+audience, for all of your questions.
+
+1433
+01:26:36.486 --> 01:26:39.536
+If you have any questions that you were too shy to ask, you can feel free to come
+
+1434
+01:26:39.586 --> 01:26:43.366
+up and introduce yourself afterwards. That closes today's session. Thank you.

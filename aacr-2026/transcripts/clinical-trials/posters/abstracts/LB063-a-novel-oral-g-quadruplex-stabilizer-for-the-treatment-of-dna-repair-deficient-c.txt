@@ -1,0 +1,12 @@
+# A novel oral G-quadruplex stabilizer for the treatment of DNA repair-deficient cancers, including brain metastases
+
+**Poster #**: LB063
+**Session**: Late-Breaking Research: Experimental and Molecular Therapeutics 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Shuang Liu, Lei Zhang, Fanxin Zeng, Hong XuHexin Biotech (Changchun) Limited, Changchun, China
+
+---
+
+Despite decades of research, translating G-quadruplex (G4) targeting agents into the clinic remains a challenge. We present XY003, a first-in-class, orally bioavailable G4 stabilizer in Phase I clinical trial. Unlike intravenously administered legacy G4 drugs, XY003's oral delivery offers significant patient convenience. XY003 induces DNA damage at G4-rich genomic loci, eliciting synthetic lethality in cancers with homologous recombination (HRD) or non-homologous end joining (NHEJ) deficiencies. It demonstrates potent anti-tumor activity in vitro and in vivo, with a wide therapeutic window and no observed adverse events at efficacious and multi-fold higher doses. A favorable drug-drug interaction profile is confirmed by the absence of CYP450 enzyme induction or inhibition in human hepatocytes, supporting its potential for combination regimens. Preclinical GLP studies further validate its promising safety profile. Notably, XY003 is able to cross the blood-brain barrier, with observed enrichment at tumor sites. In an aggressive brain metastasis model, XY003 significantly extended overall survival and demonstrated synergistic efficacy with temozolomide. With its novel oral mechanism, potent and selective anti-tumor efficacy, and ability to target intracranial disease, XY003 represents a promising next-generation therapeutic for DNA repair-deficient cancers, potentially surpassing the limitations of current drugs in the clinic.

@@ -1,0 +1,12 @@
+# Anticancer efficacy of tricarbonylperrhenato(bathophen)rhenium(I) organometallic compound in pancreatic ductal adenocarcinoma
+
+**Poster #**: 985
+**Session**: Computational, Technological, and Mechanistic Advances
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Ishita Saha1, Cecilia Parpinelli2, Birsen Varisli3, Santosh Mandal3, Santanu Bhattacharya11Mayo Clinic Florida, Jacksonville, FL,2University of Central Florida, Orlando, FL,3Morgan State University, Baltimore, MD
+
+---
+
+Organometallic rhenium compounds have become powerful anticancer agents that show possibilities as a substitute for traditional platinum-based medications. While platinum-based chemotherapeutics like FOLFIRINOX and cisplatin are frequently used to treat pancreatic ductal adenocarcinoma (PDAC), they have a number of side effects, such as ototoxicity, neurotoxicity, nephrotoxicity, and peripheral neuropathy. Hepatotoxicity, cardiotoxicity, gastrointestinal toxicity, cytopenias, anaphylaxis, pain, alopecia, anorexia, cachexia, and asthenia are other commonly reported adverse effects.However, ligands based on rhenium have been shown to preferentially cause cytotoxicity in cancer cells while avoiding harm to healthy cells. This suggests that rhenium could be a safer and more effective cancer treatment option. Different rhenium compounds with different ligands have been produced by Mandal et al. for a range of medicinal uses. In this work, we assessed the therapeutic potential of tricarbonylperrhenato(bathophen)rhenium(I) (PR-6) in PDAC. The cytotoxic effects and IC₅₀ value of PR-6 were assessed in the metastatic pancreatic cancer cell line AsPC-1 using the MTS assay. The IC₅₀ value for PR-6 in AsPC-1 cells was determined to be 5.85 µM. PR-6 treatment significantly inhibited cell growth, migration, and survival at the IC₅₀ concentration, with a post-treatment survival rate of 2.3 ± 3.97%. Furthermore, PR-6 treatment led to the downregulation of phosphorylated MEK (pMEK) and phosphorylated P38 (pP38) protein expression, indicating its modulatory effect on the MAPK signaling pathway. According to our research, PR-6 has a great therapeutic promise for treating pancreatic cancer and efficiently alters the tumor microenvironment in PDAC cells.

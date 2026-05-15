@@ -1,0 +1,17 @@
+# Revealing fibroblast-mediated impacts to therapy response through spatially resolved drug response prediction in lung cancer
+
+**Poster #**: 2708
+**Session**: Integration of Clinical and Research Data
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Robert F. Gruener1, Weijie Zhang2, Lilin Wang2, Adam  M.  Lee2, R. Stephanie Huang3
+
+1University of Minnesota, College of Pharmacy, Minneapolis, MN,2University of Minnesota, Minneapolis, MN,3Asst. Professor, Dept. of Medicine, University of Minnesota, Minneapolis, MN
+
+---
+
+The tumor microenvironment (TME) can profoundly impact both the biology and drug sensitivity of surrounding cancer cells. There is currently no way to comprehensively evaluate the impact these interactions have on drug response across multitudes of drugs and patients. In this work, we developed a computational drug prediction approach to interrogate the effects of the TME on cancer drug response, identified fibroblast-mediated drug response associations in non-small cell lung cancer (NSCLC) patients, and validated these associations in co-culture models.
+Our approach leveraged information rich single-cell in situ RNA sequencing data combined with our previously established single-cell drug response prediction models (scIDUC). We obtained two independent NSCLC datasets - one sequenced using NanoString CosMx (n=8 slides) and the other sequenced using 10X Xenium (n=4 slides). Given cancer-associated fibroblasts (CAFs) make up the majority of the TME and are known to impact drug response for select agents, our primary focus was to examine the influence of local fibroblast density on the drug response of cancer cells. To this end, we identified CAF-drug associations for each patient individually, aggregated the results across patients and nominated consistent findings for validation.
+We used spatial windows of 100-nearest-neighbor and quantified the surrounding fibroblast density of every tumor cell. We applied scIDUC, which integrates the single-cell expression profiles with DepMap bulk expression and drug screening data to project drug response. Within each slide, we performed 100 bootstrap iterations of balanced random sampling of CAF-high and CAF-low tumor cells, predicted drug sensitivity for every tumor cell (independently for each of the 493 drugs response models), and then correlated predicted response with continuous fibroblast density. The results were then aggregated across the 100 bootstrap sampling. We observed drug-specific patterns where cancer cells were predicted to be made more sensitive, more resistant, or unchanged with increased fibroblast density. Among the most consistent results across patients were CAF-induced resistance to the HER2 inhibitor lapatinib and 5-fluorouracil as well as CAF-induced sensitization to the BRAF inhibitor dabrafenib. Experimental coculture assays using NSCLC lines (Calu-3, A549) and IMR-90 fibroblasts confirmed the predicted CAF-mediated resistance to lapatinib and 5-FU and CAF-mediated sensitization to dabrafenib.
+This work demonstrates a scalable approach for generating therapeutic hypotheses directly from spatial single-cell data and reveals drug-specific, microenvironment-dependent sensitivities that may inform precision treatment strategies and guide functional investigation of tumor-stroma interactions.

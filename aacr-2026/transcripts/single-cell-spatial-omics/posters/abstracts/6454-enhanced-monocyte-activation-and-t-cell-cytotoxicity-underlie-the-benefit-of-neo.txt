@@ -1,0 +1,17 @@
+# Enhanced monocyte activation and T cell cytotoxicity underlie the benefit of neoadjuvant durvalumab plus gemcitabine-cisplatin (D+GP) in localized biliary tract cancer (BTC): Phase 2 DEBATE study
+
+**Poster #**: 6454
+**Session**: Clinical Correlates of Immunotherapy
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Changhoon Yoo1, Hyung-Don Kim1, Chang Yeon Kim2, Joon Oh Park3, Hyehyun Jeong1, Kyu-Pyo Kim1, Jung Yong Hong4, Sang Hyun Shin4, Tae Jun Song1, Dongwook Oh1, Woohyung Lee1, Jae Hoon Lee1, Dae Wook Hwang1, Jeong Seok Lee5
+
+1University of Ulsan College of Medicine, Seoul, Korea, Republic of,2Seoul National University College of Medicine, Seoul, Korea, Republic of,3Associate Professor, Dept. of Hem./Onc., Samsung Medical Center, Seoul, Korea, Republic of,4Samsung Medical Center, Seoul, Korea, Republic of,5Korea Advanced Institute of Science and Technology, Daejeon, Korea, Republic of
+
+---
+
+Introduction: The prognosis of localized BTC remains poor despite surgery. The role of neoadjuvant therapy in BTC has not been well established.
+Methods: DEBATE is a multicenter, randomized, non-comparative phase 2 trial enrolling treatment-na&#239;ve patients (pts) with localized BTC. Pts were randomized (2:1) to receive 4 cycles of neoadjuvant D+GP or GP alone. Those undergoing surgery received 6 cycles of adjuvant durvalumab. The primary endpoint was the R0 resection rate. Biomarker analyses included single-cell RNA sequencing (scRNA-seq) of peripheral blood mononuclear cells (PBMCs), and plasma proteomics (baseline and cycle 1 day 8 [C1D8]).
+Results: A total of 45 pts were enrolled (D+GP, n=31; GP, n=14). Surgery was performed in 64.5% vs. 42.9%, and R0 resection rates were 48.4% vs. 42.9% in the D+GP and GP arms, respectively. In the D+GP group, the objective response rate was 38.7%, median PFS 19 months (1-sided 80% CI, 15-21), and OS 28 months (24-43), versus 14.3%, 6 months (3-11), and 30 months (23-44) in the GP group. Biomarker data were available in 98% (n=44). scRNA-seq showed a significant enrichment of classical monocytes with pro-inflammatory signatures in the D+GP group, especially among responders, along with increased CXCL10 expression in both scRNA-seq and plasma proteomics. Responders in the D+GP group also exhibited increased CD8+ T cell cytotoxicity, CD4+ Terminally differentiated effector memory T (TEMRA) cells, and IL12RB2 expression. TIGIT expression in CD4+ TEMRA cells decreased from baseline to C1D8 only in responders treated with D+GP.
+Conclusion: Neoadjuvant D+GP was feasible and demonstrated encouraging efficacy in localized BTC. Integrated biomarker analyses suggest that enhanced monocyte activation and T cell responses contribute to the added benefit of durvalumab. Current study provide the rationale of adding anti-TIGIT to D+GP in BTC (NCT04308174).

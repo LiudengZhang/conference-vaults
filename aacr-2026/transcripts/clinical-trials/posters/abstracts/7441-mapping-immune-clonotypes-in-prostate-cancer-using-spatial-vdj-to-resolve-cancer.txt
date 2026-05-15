@@ -1,0 +1,12 @@
+# Mapping immune clonotypes in prostate cancer using spatial V(D)J to resolve cancer vaccine response
+
+**Poster #**: 7441
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Eirik Høye1, Karishma Sajnani2, Reetta Nätkin2, Sini Hakkola2, Antti Kiviaho2, Thomas Cecchetto2, Anthony Mathelier1, Matti Nykter2, Wolfgang Lilleby3, Sini Eerola2, Alfonso Urbanucci2, Tapio Visakorpi2, Heini Kallio21Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), Nordic EMBL Partnership, University of Oslo, Oslo, Norway,2Faculty of Medicine and Health Technology, Tampere University and Tampere University Hospital Cancer Center, Tampere, Finland,3Department of Oncology, Oslo University Hospital, Oslo, Norway
+
+---
+
+Purpose: The prostate tumor microenvironment (TME) is immunologically “cold,” limiting the efficacy of immunotherapy. Vaccine-induced immune activation has shown promise, but the spatial distribution and function of immune clones within the TME remain poorly understood.Methods: We applied spatial V(D)J sequencing, combining long- and short-read analysis of the CDR3 region, to map T and B cell clonotypes alongside gene expression signatures directly in prostate tissue while preserving spatial context. Prior data from a phase 1/2a clinical trial (NCT01784913) of the telomerase (hTERT) peptide vaccine UV1, administered in combination with radiation therapy, used TCRseq to investigate changes in the TME and T cell repertoires before and after vaccination, as well as factors distinguishing the cancer vaccine non-responders from the responders who had a very favourable outcome.Results: TCRseq data revealed distinct profiles in tissue prior to vaccination that differentiated responders from non-responders. Notably, a T cell receptor motif signature in pre-vaccination tissue was associated with patients who mounted an early immune response to the vaccine. Differences in transcriptomic profiles and T cell repertoires were observed among patients with early, late, or no immune response, linking immune contexture to clinical outcomes.Conclusions: Our findings provide high-resolution insights into immune-tumor interactions in prostate cancer, demonstrating that specific immune clonotypes underlie effective vaccine responses and may inform future immunotherapy strategies, and that spatial V(D)J analysis can be leveraged to explore the spatial contexture of the prostate cancer tumor microenvironment.

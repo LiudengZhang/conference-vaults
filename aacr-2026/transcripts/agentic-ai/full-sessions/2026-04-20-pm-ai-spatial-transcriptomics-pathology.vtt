@@ -1,0 +1,6029 @@
+WEBVTT
+
+1
+00:00:00.100 --> 00:00:01.960
+Right. Hi, everyone. So,
+
+2
+00:00:02.780 --> 00:00:05.580
+thank you to everyone who came to our session,
+
+3
+00:00:06.340 --> 00:00:10.000
+and I'll be very, very brief. The session, as you can
+
+4
+00:00:10.140 --> 00:00:12.020
+see, is about AI and
+
+5
+00:00:12.940 --> 00:00:16.240
+the meeting point between AI and spatial transcriptomics,
+
+6
+00:00:17.800 --> 00:00:21.620
+to see if and to what extent we can predict spatial gene
+
+7
+00:00:21.680 --> 00:00:22.300
+expression
+
+8
+00:00:23.120 --> 00:00:26.880
+or any other interesting things that
+
+9
+00:00:26.980 --> 00:00:30.340
+one can think of predicting directly from the
+
+10
+00:00:30.460 --> 00:00:34.100
+histopathology slides. And we will have
+
+11
+00:00:34.440 --> 00:00:35.400
+three talks.
+
+12
+00:00:36.520 --> 00:00:39.640
+The first two talks will be by two
+
+13
+00:00:39.780 --> 00:00:42.260
+amazing superstar scientists
+
+14
+00:00:43.320 --> 00:00:46.850
+in this bridging field of AI, computational
+
+15
+00:00:46.920 --> 00:00:49.940
+biology, and spatial transcriptomics.
+
+16
+00:00:50.020 --> 00:00:52.360
+The first speaker will be Mingyao Li, Dr.
+
+17
+00:00:52.580 --> 00:00:56.500
+Mingyao Li from UPenn. I'm sure many of
+
+18
+00:00:56.540 --> 00:00:58.630
+you are aware of her cutting-edge
+
+19
+00:01:00.660 --> 00:01:04.140
+work. The second speaker is James Zou
+
+20
+00:01:04.460 --> 00:01:06.980
+from Stanford. A
+
+21
+00:01:07.960 --> 00:01:11.380
+general AI leader and so on, but James
+
+22
+00:01:11.540 --> 00:01:15.060
+regrettably is under the weather, but we have his talk
+
+23
+00:01:15.360 --> 00:01:18.860
+recorded. Then the third speaker will be
+
+24
+00:01:18.940 --> 00:01:21.080
+myself. And after that,
+
+25
+00:01:24.040 --> 00:01:27.520
+Mingyao and me, we will be happy to take questions and have
+
+26
+00:01:27.620 --> 00:01:30.600
+discussion. Also, if you can see the
+
+27
+00:01:30.760 --> 00:01:33.580
+barcode, or how is it called? I don't know.
+
+28
+00:01:34.180 --> 00:01:38.160
+The thing, the QR thing. You can scan
+
+29
+00:01:38.240 --> 00:01:40.180
+it, and then you can
+
+30
+00:01:41.080 --> 00:01:44.420
+put questions into that link,
+
+31
+00:01:44.960 --> 00:01:48.660
+and presumably, I'm supposed to see them
+
+32
+00:01:48.780 --> 00:01:52.500
+somewhere and answer. But if not, just raise your hand
+
+33
+00:01:52.580 --> 00:01:55.950
+because I'm technologically challenged. Okay, guys?
+
+34
+00:01:56.540 --> 00:02:00.420
+So without further ado, we will hopefully start on
+
+35
+00:02:00.540 --> 00:02:00.899
+time.
+
+36
+00:02:02.440 --> 00:02:05.420
+Dr. Li, please. Looking forward to your talk.
+
+37
+00:02:10.620 --> 00:02:14.600
+Thank you so much for the very kind introduction, and thank you for the
+
+38
+00:02:14.640 --> 00:02:17.320
+invitation. It's a great pleasure to be here.
+
+39
+00:02:17.960 --> 00:02:21.620
+So today, I'm going to share our recent work on digital tissue twins,
+
+40
+00:02:21.940 --> 00:02:25.900
+and in particular, how to turn histology into spatial omics at the population
+
+41
+00:02:25.980 --> 00:02:26.260
+scale.
+
+42
+00:02:29.640 --> 00:02:33.260
+Spatial omics technologies, including spatial transcriptomics and
+
+43
+00:02:33.380 --> 00:02:36.959
+spatial proteomics, have transformed our understanding of tumor
+
+44
+00:02:37.000 --> 00:02:40.640
+ecosystems. However, despite their power, the
+
+45
+00:02:40.700 --> 00:02:44.100
+current spatial technologies remain expensive and slow,
+
+46
+00:02:44.670 --> 00:02:48.480
+and this makes them difficult to scale across the full clinical
+
+47
+00:02:48.580 --> 00:02:49.180
+enterprise.
+
+48
+00:02:50.080 --> 00:02:53.980
+So for example, just mounting a small piece of tissue can easily cost you
+
+49
+00:02:54.000 --> 00:02:57.800
+a few thousand dollars. But on the other hand, many of the
+
+50
+00:02:57.840 --> 00:03:01.660
+spatial omics platforms allow the generation of a histology image from the
+
+51
+00:03:01.700 --> 00:03:05.520
+same tissue slice. And oftentimes, these histology images are
+
+52
+00:03:05.560 --> 00:03:09.380
+very high resolution, high quality, and importantly, these
+
+53
+00:03:09.500 --> 00:03:13.340
+histology images are very inexpensive, and indeed, they are already
+
+54
+00:03:13.400 --> 00:03:17.040
+routinely being generated for nearly every cancer patient in the
+
+55
+00:03:17.060 --> 00:03:17.520
+clinic.
+
+56
+00:03:18.460 --> 00:03:22.040
+So this highlights a fundamental data tradeoff issue in spatial
+
+57
+00:03:22.060 --> 00:03:25.800
+biology. On one hand, spatial omics is molecular
+
+58
+00:03:25.860 --> 00:03:29.440
+information-rich but is expensive and slow, difficult to
+
+59
+00:03:29.600 --> 00:03:29.880
+scale.
+
+60
+00:03:30.720 --> 00:03:34.600
+On the other hand, digital pathology is common, cheap, and fast, but
+
+61
+00:03:34.640 --> 00:03:36.109
+contains no molecular information.
+
+62
+00:03:37.020 --> 00:03:40.980
+So a central question that the field is facing right now is: how can we
+
+63
+00:03:41.000 --> 00:03:41.900
+bridge this gap?
+
+64
+00:03:42.880 --> 00:03:46.740
+And this central question has motivated our development of what I
+
+65
+00:03:46.840 --> 00:03:50.640
+call the digital tissue twins, where our goal is to transform
+
+66
+00:03:50.680 --> 00:03:54.360
+those routine H&amp;E slides into spatially resolved and
+
+67
+00:03:54.460 --> 00:03:58.400
+molecularly informed digital representation of human tissues at the
+
+68
+00:03:58.480 --> 00:04:01.620
+population scale so that we can link spatial biology,
+
+69
+00:04:02.020 --> 00:04:05.880
+AI, and clinical outcomes together to enable risk
+
+70
+00:04:06.000 --> 00:04:09.300
+prediction, patient stratification, and eventually
+
+71
+00:04:09.380 --> 00:04:11.000
+therapeutic decision-making.
+
+72
+00:04:12.220 --> 00:04:15.660
+So in the last few years, my lab has been developing this AI-powered
+
+73
+00:04:15.840 --> 00:04:19.700
+ecosystem to help us build what I call the digital tissue twins.
+
+74
+00:04:20.579 --> 00:04:23.380
+In this ecosystem, we start from H&amp;E stained
+
+75
+00:04:24.140 --> 00:04:27.700
+histology images. We have developed the tools that can conduct the
+
+76
+00:04:27.840 --> 00:04:31.600
+H&amp;E QC and the cellular resolution tissue masking,
+
+77
+00:04:31.800 --> 00:04:35.380
+and the cellular resolution histopathology image segmentation.
+
+78
+00:04:36.260 --> 00:04:40.230
+And leveraging these processed histology images, we also have developed
+
+79
+00:04:40.340 --> 00:04:43.980
+tools that can help researchers to automatically select the
+
+80
+00:04:44.040 --> 00:04:47.420
+most informative samples and the regions of interest for the
+
+81
+00:04:47.460 --> 00:04:49.600
+expensive spatial omics experiments.
+
+82
+00:04:50.340 --> 00:04:54.000
+And after the spatial omics data are generated, we can further leverage these
+
+83
+00:04:54.180 --> 00:04:58.040
+histology images to enhance the quality of the spatial omics data.
+
+84
+00:04:58.840 --> 00:05:02.480
+And after all of this data preparation is being done, we will build AI
+
+85
+00:05:02.500 --> 00:05:06.040
+models to virtually predict the spatial omics data at the
+
+86
+00:05:06.080 --> 00:05:09.760
+population scale. In the meantime, we also perform multi-modal
+
+87
+00:05:09.800 --> 00:05:12.800
+data integration so that we can have a comprehensive
+
+88
+00:05:12.940 --> 00:05:16.520
+representation of every single tissue section in every single
+
+89
+00:05:16.600 --> 00:05:16.960
+patient.
+
+90
+00:05:17.920 --> 00:05:21.460
+And throughout this inference and integration process, we use
+
+91
+00:05:21.840 --> 00:05:25.690
+rigorous statistical modeling to ensure that the AI models that
+
+92
+00:05:25.720 --> 00:05:27.900
+we build are reliable and are trustworthy.
+
+93
+00:05:29.140 --> 00:05:32.740
+So the core idea behind building digital tissue twins is teaching
+
+94
+00:05:32.800 --> 00:05:35.460
+AI to see molecules within a histology image.
+
+95
+00:05:36.130 --> 00:05:39.840
+And this is based on a simple but powerful observation that is
+
+96
+00:05:39.920 --> 00:05:42.800
+similar histology implies a similar molecular profile.
+
+97
+00:05:43.340 --> 00:05:47.020
+So this means that if we can ask the AI to learn this link,
+
+98
+00:05:47.500 --> 00:05:50.980
+then the histology images can become proxies of the spatial
+
+99
+00:05:51.100 --> 00:05:54.680
+molecular marvelous that people typically obtain in the expensive
+
+100
+00:05:54.740 --> 00:05:56.110
+spatial omics experiment.
+
+101
+00:05:57.070 --> 00:05:59.969
+So our work in this space started back in 2021.
+
+102
+00:06:00.500 --> 00:06:04.200
+We were among the first to treat the histology as a primary modality in
+
+103
+00:06:04.280 --> 00:06:07.810
+spatial omics analysis.And then later we developed the
+
+104
+00:06:07.880 --> 00:06:11.860
+iSTAR, where we used a hierarchical vision transformer to extract
+
+105
+00:06:12.100 --> 00:06:14.200
+image features out of a histology image.
+
+106
+00:06:14.740 --> 00:06:18.660
+And this mimics how a pathologist examines a histology slide under the
+
+107
+00:06:18.700 --> 00:06:19.300
+microscope.
+
+108
+00:06:20.290 --> 00:06:24.050
+And after the image features are extracted, we further leverage these
+
+109
+00:06:24.240 --> 00:06:27.680
+image features to enhance the spatial resolution of gene expression
+
+110
+00:06:27.740 --> 00:06:30.700
+data to single cell level. So for example,
+
+111
+00:06:31.380 --> 00:06:34.530
+medium does not provide a single cell resolution gene expression.
+
+112
+00:06:34.880 --> 00:06:38.540
+By using iSTAR, we can spatially enhance the resolution to single
+
+113
+00:06:38.580 --> 00:06:42.280
+cell level. So importantly, iSTAR demonstrated
+
+114
+00:06:42.320 --> 00:06:46.140
+that we can now turn a routinely obtained H&amp;E slide into
+
+115
+00:06:46.320 --> 00:06:49.960
+single cell resolution spatial omics profiles.
+
+116
+00:06:50.000 --> 00:06:53.520
+And building upon the success of iSTAR, we later developed the
+
+117
+00:06:53.620 --> 00:06:57.460
+iSCALE, which utilized the virtual prediction idea
+
+118
+00:06:57.470 --> 00:07:01.270
+to scale up spatial transcriptomics for larger sized tissues that
+
+119
+00:07:01.400 --> 00:07:05.340
+far exceed the capture areas of conventional spatial omics platforms.
+
+120
+00:07:05.980 --> 00:07:09.540
+And this framework is generic. It can be applied to any tissue types
+
+121
+00:07:09.860 --> 00:07:13.700
+of any size as long as you can measure a H&amp;E stained histology
+
+122
+00:07:13.800 --> 00:07:17.220
+image. So basically, by doing this innovative computational
+
+123
+00:07:17.320 --> 00:07:21.280
+analysis, we can turn a task that is experimentally impossible
+
+124
+00:07:21.620 --> 00:07:23.980
+into something that is computationally feasible.
+
+125
+00:07:24.940 --> 00:07:28.230
+So last year, we further leveraged the relationship between tissue
+
+126
+00:07:28.260 --> 00:07:32.160
+morphology and molecular profiles to develop this new tool
+
+127
+00:07:32.240 --> 00:07:35.880
+called i2Omics, where we wanted to use AI to assist
+
+128
+00:07:35.920 --> 00:07:39.910
+biologists to automatically select the most informative regions of
+
+129
+00:07:40.000 --> 00:07:42.520
+interest for the expensive spatial omics experiments.
+
+130
+00:07:42.970 --> 00:07:46.840
+So by doing so, we ensure that you can target
+
+131
+00:07:46.880 --> 00:07:50.800
+your expensive spatial omics experiment to the biologically most
+
+132
+00:07:50.940 --> 00:07:52.440
+important tissue area.
+
+133
+00:07:53.520 --> 00:07:57.500
+And since the development of these methods, my lab has been continuing trying
+
+134
+00:07:57.520 --> 00:08:00.980
+to push the field forward. Where our eventual goal is to turn
+
+135
+00:08:01.680 --> 00:08:05.540
+histology slides into single cell resolution spatial maps at the
+
+136
+00:08:05.580 --> 00:08:06.260
+population scale.
+
+137
+00:08:07.260 --> 00:08:11.200
+But when predicting gene expression directly from histology images, we're
+
+138
+00:08:11.240 --> 00:08:14.940
+facing a fundamental challenge. The challenge is that the gene expression is
+
+139
+00:08:15.080 --> 00:08:18.620
+highly dynamic. The dynamic range can substantially vary from one
+
+140
+00:08:18.720 --> 00:08:22.640
+person to the other. So when we directly predict a gene expression
+
+141
+00:08:22.720 --> 00:08:26.360
+from histology images alone, we don't really know the relevant
+
+142
+00:08:26.440 --> 00:08:30.220
+ranks of the dynamic ranges across the different people we are trying to
+
+143
+00:08:30.300 --> 00:08:34.201
+predict. And this leads to two fundamental issues that we have to consider.
+
+144
+00:08:34.680 --> 00:08:38.350
+The first issue is that when we do gene expression prediction at the population
+
+145
+00:08:38.461 --> 00:08:42.380
+scale, we wanted to make sure that the predicted gene expression magnitudes are
+
+146
+00:08:42.400 --> 00:08:44.980
+comparable across the different people we are predicting.
+
+147
+00:08:45.540 --> 00:08:49.440
+But if you only have the histology images as input, this dynamic range
+
+148
+00:08:49.500 --> 00:08:53.340
+is not available. The second risk is that when you only use
+
+149
+00:08:53.440 --> 00:08:57.400
+the histology images as input, you are risking the possibility of generating
+
+150
+00:08:57.420 --> 00:08:59.280
+a lot of false positive predictions.
+
+151
+00:08:59.709 --> 00:09:03.640
+And this is an issue that none of the existing methods that are addressing or
+
+152
+00:09:03.700 --> 00:09:07.680
+even talk about. But I think in order to apply these virtual predictions
+
+153
+00:09:07.860 --> 00:09:11.480
+in the clinical applications, it's very important to ensure that we are
+
+154
+00:09:11.520 --> 00:09:15.140
+reducing the false positive predictions from all of these AI
+
+155
+00:09:15.440 --> 00:09:19.180
+models. So to solve this question, we asked, "What if
+
+156
+00:09:19.360 --> 00:09:23.320
+we just provided the AI models a little bit of extra information, such
+
+157
+00:09:23.360 --> 00:09:27.320
+that the AI knows the relevant ranks of the dynamic ranges that
+
+158
+00:09:27.340 --> 00:09:31.250
+we are trying to predict?" It turns out bulk RNA-seq, which is
+
+159
+00:09:31.360 --> 00:09:35.160
+very inexpensive to obtain, can exactly provide this information we need.
+
+160
+00:09:35.700 --> 00:09:39.640
+And this motivated us to develop this AURORA model, where we
+
+161
+00:09:39.700 --> 00:09:43.640
+utilize bulk RNA-seq data as a constraint for the AI models
+
+162
+00:09:44.020 --> 00:09:47.880
+when doing the predictions. And in this process, we are trying to mimic
+
+163
+00:09:47.960 --> 00:09:50.780
+how a human look at a histology slide.
+
+164
+00:09:51.280 --> 00:09:54.960
+We gradually zoom into the tissue, and we progressively enhance the
+
+165
+00:09:55.000 --> 00:09:58.980
+spatial resolution of the gene expression prediction we make until we reach
+
+166
+00:09:58.989 --> 00:10:00.860
+to the final single cell resolution.
+
+167
+00:10:01.540 --> 00:10:05.400
+And throughout this process, we also generate cell type predictions at
+
+168
+00:10:05.540 --> 00:10:09.340
+every location we examine. So by the end of this analysis,
+
+169
+00:10:09.560 --> 00:10:13.520
+we are able to give you a single cell resolution spatial map that has a single
+
+170
+00:10:13.580 --> 00:10:16.880
+cell resolution spatial gene expression data across the whole transcriptome.
+
+171
+00:10:17.300 --> 00:10:21.220
+And we are also able to give you the cell type information at every
+
+172
+00:10:21.280 --> 00:10:23.520
+single location in the tissue of interest.
+
+173
+00:10:24.920 --> 00:10:27.660
+So now let me show you some of the evaluations that we have.
+
+174
+00:10:28.239 --> 00:10:32.120
+So in order to establish the reliability of AURORA, we need to
+
+175
+00:10:32.160 --> 00:10:35.000
+compare the predicted values versus the ground truth.
+
+176
+00:10:35.560 --> 00:10:39.510
+So in this analysis, we leverage the high quality spatial gene
+
+177
+00:10:39.540 --> 00:10:43.360
+expression data generated by my wonderful collaborators, Dr.
+
+178
+00:10:43.400 --> 00:10:46.920
+Houmam Akhdar and Lihua Wang's labs at MD Anderson.
+
+179
+00:10:47.500 --> 00:10:51.360
+So in this dataset, we have utilized twenty-three
+
+180
+00:10:51.720 --> 00:10:55.400
+lung adenocarcinoma patients, and we have the
+
+181
+00:10:55.460 --> 00:10:57.660
+medium gene expression data generated from all of them.
+
+182
+00:10:58.260 --> 00:11:02.180
+We spatially enhanced the resolution of this data into single cell level
+
+183
+00:11:02.220 --> 00:11:05.960
+by iSTAR. And in this analysis, we trained our virtual
+
+184
+00:11:06.020 --> 00:11:09.560
+prediction model using eighteen of the samples, and we virtually
+
+185
+00:11:09.640 --> 00:11:12.400
+predicted the gene expression to the remaining five.
+
+186
+00:11:12.800 --> 00:11:16.660
+And this allowed us to compare the predicted values and the
+
+187
+00:11:16.670 --> 00:11:19.420
+directly measured values in the original experiment.
+
+188
+00:11:20.180 --> 00:11:24.060
+And the lung tissue is particularly interesting, because in the lung tissue, there
+
+189
+00:11:24.080 --> 00:11:27.820
+is a lot of airspace. If you see positive predictions in the
+
+190
+00:11:27.860 --> 00:11:31.800
+airspace location, it means that you have false positive predictions.
+
+191
+00:11:32.320 --> 00:11:36.120
+So this dataset allows us to evaluate not only the Pearson correlation
+
+192
+00:11:36.180 --> 00:11:39.880
+between the predicted and the observed, but also allowed us to
+
+193
+00:11:39.940 --> 00:11:42.860
+evaluate the degree of false positive predictions.
+
+194
+00:11:43.460 --> 00:11:47.420
+So looking at the top right corner of the plot, you
+
+195
+00:11:47.460 --> 00:11:51.340
+can see that among all of the methods that we compared to, AURORA
+
+196
+00:11:51.350 --> 00:11:54.770
+achieved the highest Pearson correlation and the lowest false positive
+
+197
+00:11:54.820 --> 00:11:58.540
+rate. In contrast, many of the state-of-the-art methods that are
+
+198
+00:11:58.660 --> 00:12:02.160
+available out there, they generate false positive predictions.
+
+199
+00:12:02.660 --> 00:12:05.540
+So now let me show you how a false positive prediction looks like.
+
+200
+00:12:06.110 --> 00:12:10.100
+So in this tissue slide, you can see that we have a pathologist annotated blood
+
+201
+00:12:10.180 --> 00:12:13.840
+vessels, and at the bottom left, you can see the ground truth
+
+202
+00:12:13.960 --> 00:12:17.888
+measurement of gene MTH11.And if you compare the
+
+203
+00:12:17.908 --> 00:12:21.678
+predictions of different approaches with the ground truth, you can see that
+
+204
+00:12:21.988 --> 00:12:25.868
+AURORA achieved a high correlation and a very low false positive rate.
+
+205
+00:12:26.328 --> 00:12:30.168
+In contrast, two of the top competing methods, they generated a lot of
+
+206
+00:12:30.188 --> 00:12:34.148
+false positive signals. So this is just one of the many genes that we predicted.
+
+207
+00:12:34.448 --> 00:12:38.408
+In reality, if you wanted to utilize these AI models in the clinical
+
+208
+00:12:38.468 --> 00:12:42.408
+applications, you need to ensure that your predictions are reliable, you
+
+209
+00:12:42.448 --> 00:12:45.668
+are not simply predicting false positives.
+
+210
+00:12:45.708 --> 00:12:49.328
+So now after establishing the reliability of AURORA, we
+
+211
+00:12:49.368 --> 00:12:53.048
+next applied AURORA to generate the single-cell resolution spatial
+
+212
+00:12:53.108 --> 00:12:56.038
+maps on population cohort studies.
+
+213
+00:12:56.468 --> 00:13:00.268
+And here we utilized the data produced by
+
+214
+00:13:00.308 --> 00:13:04.268
+TCGA, and we virtually predicted a single-cell resolution spatial
+
+215
+00:13:04.328 --> 00:13:08.248
+maps on nearly 4,000 TCGA samples across different tumor
+
+216
+00:13:08.268 --> 00:13:11.248
+types. And in this talk, I'm going to focus on lung
+
+217
+00:13:11.328 --> 00:13:15.008
+adenocarcinoma, and we applied our virtual prediction model
+
+218
+00:13:15.228 --> 00:13:16.888
+trained on 18 medium samples
+
+219
+00:13:18.248 --> 00:13:22.068
+to this TCGA cohort. So in total, we predicted
+
+220
+00:13:22.468 --> 00:13:25.888
+885 TCGA lung adenocarcinoma slides.
+
+221
+00:13:26.348 --> 00:13:30.328
+And at the bottom, you can see one of the tissue samples that we predicted.
+
+222
+00:13:31.008 --> 00:13:34.328
+Although we don't really know the ground truth in TCGA, but we do know the
+
+223
+00:13:34.368 --> 00:13:38.288
+underlying pathology. So if you look at the KRT8 expression
+
+224
+00:13:38.348 --> 00:13:42.148
+that we predicted, you can see that the predicted expression pattern agreed
+
+225
+00:13:42.188 --> 00:13:44.648
+very well with the known tumor pathology.
+
+226
+00:13:45.708 --> 00:13:49.668
+So the real value of virtual prediction at the population scale lies
+
+227
+00:13:49.708 --> 00:13:53.468
+in the possibility to identify important and clinically
+
+228
+00:13:53.568 --> 00:13:56.388
+relevant spatial biomarkers for cancer.
+
+229
+00:13:56.968 --> 00:14:00.688
+So to this end, we conducted a tumor spatial niche
+
+230
+00:14:00.848 --> 00:14:04.808
+discovery. We utilized the cellular composition information
+
+231
+00:14:04.908 --> 00:14:08.328
+we inferred from AURORA to do this tumor microenvironment
+
+232
+00:14:08.508 --> 00:14:12.108
+analysis, and we identified quite a few interesting spatial
+
+233
+00:14:12.188 --> 00:14:15.408
+biomarkers. So for example, we were able to detect
+
+234
+00:14:15.708 --> 00:14:19.148
+TLS, which is well known to play an important role in antitumor
+
+235
+00:14:19.188 --> 00:14:22.768
+response. And due to the high-resolution information we predict,
+
+236
+00:14:23.128 --> 00:14:27.048
+we can also classify the TLS into early stage TLS
+
+237
+00:14:27.448 --> 00:14:31.368
+and mature stage TLS. And we can further utilize the mature
+
+238
+00:14:31.408 --> 00:14:35.268
+TLS that we identified to stratify the patients according to the areas of
+
+239
+00:14:35.348 --> 00:14:39.168
+the mature TLS. And interestingly, we found that those patients
+
+240
+00:14:39.208 --> 00:14:43.028
+that have a larger area of mature TLS, they tend to have
+
+241
+00:14:43.108 --> 00:14:44.528
+a better survival.
+
+242
+00:14:45.368 --> 00:14:48.568
+So after seeing this, we then asked a deeper question.
+
+243
+00:14:48.828 --> 00:14:50.868
+We wanted to ask, does the location matter?
+
+244
+00:14:51.448 --> 00:14:55.308
+So in this analysis, we looked at the co-localization between tumor
+
+245
+00:14:55.548 --> 00:14:59.468
+and the TLS, and we found out that those patients that have higher
+
+246
+00:14:59.548 --> 00:15:03.538
+degree of co-localization between tumor and the TLS, they tend to have
+
+247
+00:15:04.008 --> 00:15:07.948
+better cancer survival. So this example demonstrated that
+
+248
+00:15:08.248 --> 00:15:12.048
+by doing virtual predictions, we can even recover higher-order
+
+249
+00:15:12.268 --> 00:15:15.128
+spatial structure in the tumor samples.
+
+250
+00:15:16.128 --> 00:15:20.068
+And another interesting spatial biomarker we recovered in this
+
+251
+00:15:20.078 --> 00:15:22.388
+analysis is what I call the spatial cuff.
+
+252
+00:15:22.788 --> 00:15:26.568
+And in fact, this type of structure was first reported in the
+
+253
+00:15:26.578 --> 00:15:28.908
+"Cancer Cell" paper by Dr. Linghua Wang's group.
+
+254
+00:15:29.488 --> 00:15:30.368
+So in this paper,
+
+255
+00:15:31.648 --> 00:15:35.468
+Dr. Linghua Wang's group conducted a very sophisticated interesting spatial
+
+256
+00:15:35.528 --> 00:15:39.288
+analysis utilizing single-cell resolution spatial omics data
+
+257
+00:15:39.648 --> 00:15:43.328
+generated from Xenium, CosMx, Merscope MC, and
+
+258
+00:15:43.468 --> 00:15:47.417
+CODEX. And they discovered this structure called the
+
+259
+00:15:47.468 --> 00:15:51.368
+Eisman cuff, where you can see that you have the tumor cells in the center, and
+
+260
+00:15:51.448 --> 00:15:55.288
+they are surrounded by the cuffs. And this type of structure is conserved
+
+261
+00:15:55.348 --> 00:15:59.028
+across different tumor types. And more importantly, this
+
+262
+00:15:59.088 --> 00:16:02.568
+type of a spatial cuff leads to poor prognosis.
+
+263
+00:16:02.628 --> 00:16:06.448
+So if you look at the top plot, you can see that using
+
+264
+00:16:06.508 --> 00:16:10.288
+AURORA, we are able to recover and recapitulate this type of a
+
+265
+00:16:10.328 --> 00:16:14.228
+spatial cuff pattern, and we further stratify our patients in the
+
+266
+00:16:14.268 --> 00:16:17.917
+TCGA cohort according to how much this spatial cuff they
+
+267
+00:16:17.948 --> 00:16:21.917
+possess. And we see that patients that have a higher degree of this
+
+268
+00:16:22.028 --> 00:16:25.928
+spatial cuff tends to have a lower survival
+
+269
+00:16:26.168 --> 00:16:30.068
+outcome. So this example demonstrated that those findings
+
+270
+00:16:30.088 --> 00:16:34.068
+that you obtain from the expensive single-cell resolution spatial
+
+271
+00:16:34.107 --> 00:16:37.838
+omics experiments can be recovered, recapitulated using this
+
+272
+00:16:38.028 --> 00:16:39.508
+virtual prediction concept.
+
+273
+00:16:40.878 --> 00:16:44.617
+So while transcriptomics is informative and powerful, but we know that
+
+274
+00:16:44.748 --> 00:16:48.708
+biology is more than RNA. So in order to have a full picture of the tissue
+
+275
+00:16:48.728 --> 00:16:51.868
+that we study, we need to understand the other omic
+
+276
+00:16:52.068 --> 00:16:55.808
+modalities. So to solve this question, we recently developed a
+
+277
+00:16:55.848 --> 00:16:59.148
+tool called MISL, which allowed us to simultaneously
+
+278
+00:16:59.508 --> 00:17:03.068
+model multiple omic modalities together with histology image
+
+279
+00:17:03.168 --> 00:17:06.408
+information for very high-resolution tissue segmentation.
+
+280
+00:17:07.068 --> 00:17:10.808
+And using MISL, we were able to detect a very small structure called the
+
+281
+00:17:10.929 --> 00:17:14.108
+high endothelial venule in the TLS automatically.
+
+282
+00:17:15.128 --> 00:17:16.388
+Although MISL is powerful,
+
+283
+00:17:17.429 --> 00:17:20.998
+currently it's only limited to the analysis of one single tissue
+
+284
+00:17:21.048 --> 00:17:24.768
+section. But nowadays, in the real-world applications, we
+
+285
+00:17:24.848 --> 00:17:28.068
+often see diverse spatial omics datasets
+
+286
+00:17:28.368 --> 00:17:32.148
+generated from different tissue sections, either coming from the same patients
+
+287
+00:17:32.448 --> 00:17:36.288
+or coming from diverse patients. And ideally, we wanted to
+
+288
+00:17:36.388 --> 00:17:40.288
+have a technology that is able to simultaneously measure all
+
+289
+00:17:40.348 --> 00:17:43.148
+of the potential omic modalities on the same tissue size.
+
+290
+00:17:43.568 --> 00:17:47.348
+But realistically, this is almost impossible because as you're adding
+
+291
+00:17:47.388 --> 00:17:51.348
+additional omic modalities onto the same tissue size, you cannot avoid to
+
+292
+00:17:51.428 --> 00:17:55.398
+destroy the sample, meaning that the quality of the data you'll get is
+
+293
+00:17:55.448 --> 00:17:59.348
+going to be degraded. So in order to solve this challenge, we
+
+294
+00:17:59.388 --> 00:18:03.338
+recently developed another tool called Old Cozy, which allows us
+
+295
+00:18:03.368 --> 00:18:06.908
+to use a sophisticated graph-based approach to integrate
+
+296
+00:18:06.928 --> 00:18:10.698
+fragmented spatial omics data to virtually reconstruct what I
+
+297
+00:18:10.768 --> 00:18:14.728
+call the complete spatial omics. So the goal is that by the end
+
+298
+00:18:14.768 --> 00:18:18.728
+of this integration, we can do this virtual prediction and virtually predict
+
+299
+00:18:18.988 --> 00:18:22.908
+missing omic modalities, meaning that we can turn a task that
+
+300
+00:18:22.968 --> 00:18:26.448
+is experimentally impossible into something that is computationally
+
+301
+00:18:26.528 --> 00:18:30.488
+feasibleSo to demonstrate the power of COZEE, let me show
+
+302
+00:18:30.508 --> 00:18:33.988
+you an application again to this lung cancer study.
+
+303
+00:18:34.588 --> 00:18:37.628
+So in this analysis, we virtually integrated
+
+304
+00:18:38.928 --> 00:18:42.488
+three million cells obtained from four lung
+
+305
+00:18:42.548 --> 00:18:46.248
+adenocarcinoma patients. And you can see that the first two patients,
+
+306
+00:18:46.528 --> 00:18:48.248
+they have a histology image measure.
+
+307
+00:18:48.448 --> 00:18:50.918
+They also have a whole transcriptomic gene expression.
+
+308
+00:18:51.468 --> 00:18:54.878
+And the third patient has a histology image and the proteins.
+
+309
+00:18:55.348 --> 00:18:59.028
+And the fourth patient only has a histology image information available.
+
+310
+00:18:59.648 --> 00:19:03.308
+And by doing this integration and computational virtual
+
+311
+00:19:03.348 --> 00:19:07.308
+prediction, we are able to identify a small cluster
+
+312
+00:19:07.548 --> 00:19:09.178
+that is corresponding to macrophages.
+
+313
+00:19:09.638 --> 00:19:12.978
+And the reason that we are able to infer that this cluster is corresponding to
+
+314
+00:19:13.008 --> 00:19:16.738
+macrophages is because we're able to leverage the molecular information
+
+315
+00:19:16.748 --> 00:19:20.468
+provided by the previous three samples.
+
+316
+00:19:20.478 --> 00:19:24.218
+So after we identified the macrophages on patient four using their
+
+317
+00:19:24.368 --> 00:19:28.068
+HE as input only, we visualized our results
+
+318
+00:19:28.128 --> 00:19:32.028
+together with our pathologist collaborator, and the pathologist confirmed
+
+319
+00:19:32.127 --> 00:19:35.948
+that the cluster we identified in patient four indeed
+
+320
+00:19:35.988 --> 00:19:37.488
+corresponding to macrophages.
+
+321
+00:19:38.648 --> 00:19:41.008
+So here are the virtual predictions we produced.
+
+322
+00:19:41.368 --> 00:19:45.228
+You can see that our virtually predicted spatial gene expression profiles and the
+
+323
+00:19:45.288 --> 00:19:49.048
+protein expression profiles agreed with the direct measurements very
+
+324
+00:19:49.068 --> 00:19:49.288
+well.
+
+325
+00:19:50.548 --> 00:19:54.128
+And using COZEE, we can further integrate data in the 3D context.
+
+326
+00:19:54.568 --> 00:19:58.328
+So suppose you have zero tissue sections generated from a
+
+327
+00:19:58.468 --> 00:20:02.388
+3D tumor block, but in reality, it's very possible that you use different
+
+328
+00:20:02.588 --> 00:20:05.588
+spatial omics technologies using different tissue sections.
+
+329
+00:20:05.988 --> 00:20:09.628
+So using COZEE, we're able to integrate everything together into the same space.
+
+330
+00:20:10.038 --> 00:20:13.528
+And now you can visualize the multi-omic information in the real
+
+331
+00:20:13.688 --> 00:20:17.518
+3D tumor volume, and you can see some structures that
+
+332
+00:20:17.588 --> 00:20:20.768
+cannot be seen while you study the tissue sections in 2D.
+
+333
+00:20:21.248 --> 00:20:24.808
+So, for example, we were able to visualize the complex
+
+334
+00:20:24.948 --> 00:20:28.648
+TIAs network, and in addition, you can study the
+
+335
+00:20:28.708 --> 00:20:31.488
+spatial relationship between blood vessels and the
+
+336
+00:20:31.508 --> 00:20:35.068
+tumor. And in this analysis, in fact, we did
+
+337
+00:20:35.368 --> 00:20:37.808
+very, very comprehensive evaluations.
+
+338
+00:20:38.068 --> 00:20:41.737
+We considered almost all of the possible omic modalities, ranging from
+
+339
+00:20:41.768 --> 00:20:45.678
+histone modifications to chromatin accessibility, gene expression,
+
+340
+00:20:45.788 --> 00:20:47.728
+and protein abundance, and metabolites.
+
+341
+00:20:48.268 --> 00:20:51.998
+And we also considered almost all of the possible existing commercialized
+
+342
+00:20:52.148 --> 00:20:56.028
+spatial omics platforms out there, and we also considered many different
+
+343
+00:20:56.068 --> 00:20:58.908
+tissue types and disease contexts.
+
+344
+00:20:58.968 --> 00:21:02.668
+If you want to learn more about COZEE, you are welcome to read our recent archive
+
+345
+00:21:02.708 --> 00:21:03.028
+paper.
+
+346
+00:21:04.208 --> 00:21:07.868
+So to scale up this biological insight to the
+
+347
+00:21:07.908 --> 00:21:11.828
+broader field, we recently developed the Foundation model.
+
+348
+00:21:12.248 --> 00:21:15.408
+So here, we utilized the rich dataset produced by Dr.
+
+349
+00:21:15.588 --> 00:21:19.508
+Kadaris and Dr. Wong's labs. And we build our
+
+350
+00:21:19.608 --> 00:21:23.168
+Foundation model using 36 million cells
+
+351
+00:21:23.588 --> 00:21:26.968
+generated from 54 tissue sections.
+
+352
+00:21:27.028 --> 00:21:30.368
+And in this dataset, we have a rich spatial
+
+353
+00:21:30.588 --> 00:21:34.328
+annotation information obtained by the pathologist, and we also
+
+354
+00:21:34.388 --> 00:21:36.288
+have whole transcriptomic gene expression data.
+
+355
+00:21:36.688 --> 00:21:40.348
+We also have protein expression data across 35 proteins.
+
+356
+00:21:40.908 --> 00:21:44.768
+So by building this Foundation model, now the research community can simply
+
+357
+00:21:44.828 --> 00:21:48.288
+fit in your data into our Foundation model, and we are able to give you
+
+358
+00:21:48.408 --> 00:21:51.708
+comprehensive multi-modal information at a single-cell resolution.
+
+359
+00:21:52.248 --> 00:21:54.408
+We're able to give you the pathologist annotation.
+
+360
+00:21:54.728 --> 00:21:57.348
+We're able to give you the whole transcriptomic gene expression information.
+
+361
+00:21:57.668 --> 00:22:01.388
+We're able to give you the whole 35 protein spatial
+
+362
+00:22:01.398 --> 00:22:04.978
+proteomics information, all at the single-cell resolution level.
+
+363
+00:22:05.768 --> 00:22:09.508
+So now let me show you the application to the TCCCA cohort using COZEE
+
+364
+00:22:09.528 --> 00:22:13.508
+Foundation. So you can see that by applying the histology images
+
+365
+00:22:13.588 --> 00:22:16.968
+in the TCCCA cohort into COZEE Foundation, we're now able to
+
+366
+00:22:17.008 --> 00:22:20.898
+transfer the pathologist annotation in our training
+
+367
+00:22:20.968 --> 00:22:24.408
+dataset onto TCCCA. So now we have the annotation available.
+
+368
+00:22:24.828 --> 00:22:27.828
+Additionally, we are able to produce a whole transcript from spatial gene
+
+369
+00:22:27.888 --> 00:22:31.388
+expression and the protein expression for 35 proteins at a single-cell
+
+370
+00:22:31.408 --> 00:22:35.328
+resolution. And because the resolution is so high, this allows us
+
+371
+00:22:35.348 --> 00:22:37.598
+to automatically detect the tumor boundary.
+
+372
+00:22:38.048 --> 00:22:40.868
+So here are four representative samples in the TCCCA.
+
+373
+00:22:41.348 --> 00:22:45.088
+You can see that the boundary we detected is very fine-grained, and this
+
+374
+00:22:45.188 --> 00:22:49.108
+analysis is very fast. Imagine if you ask a pathologist to manually annotate the
+
+375
+00:22:49.128 --> 00:22:52.348
+tumor boundary in the TCCCA cohort, how long that is going to take.
+
+376
+00:22:52.657 --> 00:22:55.448
+And this analysis is totally unsupervised. It's super fast.
+
+377
+00:22:56.088 --> 00:22:59.848
+And this tumor boundary analysis further allowed us to conduct a tumor
+
+378
+00:22:59.968 --> 00:23:03.428
+interface analysis. So, for example, we can look at the cell type
+
+379
+00:23:03.508 --> 00:23:07.468
+compositions along the tumor edge, and we found that
+
+380
+00:23:07.748 --> 00:23:11.668
+those samples that have a higher proportion of lymphocytes along the tumor
+
+381
+00:23:11.788 --> 00:23:13.628
+edge, they tend to have a better survival.
+
+382
+00:23:14.248 --> 00:23:17.668
+And furthermore, we conducted this spatial gradient analysis.
+
+383
+00:23:18.208 --> 00:23:22.148
+We looked from the tumor edge into the tumor core, and we gradually
+
+384
+00:23:22.188 --> 00:23:26.008
+examined the proportions of lymphocytes from the tumor edge
+
+385
+00:23:26.288 --> 00:23:29.998
+down to the tumor core. And this allowed us to examine which patients
+
+386
+00:23:30.148 --> 00:23:34.108
+have a higher degree of lymphocyte infiltration as compared to the
+
+387
+00:23:34.168 --> 00:23:38.028
+other. And interestingly, we found out that those patients that have a
+
+388
+00:23:38.108 --> 00:23:41.888
+higher degree of lymphocyte infiltration into the tumor core,
+
+389
+00:23:42.288 --> 00:23:44.208
+they tend to have a better cancer survival.
+
+390
+00:23:45.548 --> 00:23:49.348
+So, so far I have demonstrated that virtual predictions can
+
+391
+00:23:49.428 --> 00:23:53.408
+help us produce a population scale spatial omics datasets,
+
+392
+00:23:53.768 --> 00:23:57.748
+and this can allow us to automatically detect the tumor boundary, tumor edge,
+
+393
+00:23:58.148 --> 00:24:02.088
+tumor interface, et cetera, and can help us identify potential
+
+394
+00:24:02.128 --> 00:24:05.768
+spatial biomarkers. But in order to utilize these virtual prediction
+
+395
+00:24:05.868 --> 00:24:09.728
+tools in the clinical setting, we wanted to make sure that the results we
+
+396
+00:24:09.748 --> 00:24:13.708
+produce are reliable. And the clinicians need to know where the model is certain,
+
+397
+00:24:14.128 --> 00:24:15.768
+where the model is just simply guessing.
+
+398
+00:24:16.808 --> 00:24:20.518
+So in order to address this real challenge, we developed another
+
+399
+00:24:20.548 --> 00:24:24.328
+tool called Utopia, where we wanted to use principle statistical
+
+400
+00:24:24.368 --> 00:24:28.338
+approaches to help people understand why we are
+
+401
+00:24:28.368 --> 00:24:32.164
+confident about our virtual predictionsSo Utopia is
+
+402
+00:24:32.304 --> 00:24:35.964
+based on a statistical technique called conformal learning, which means that
+
+403
+00:24:36.144 --> 00:24:39.444
+our model, our approach, is a prediction model
+
+404
+00:24:39.524 --> 00:24:43.384
+agnostic, meaning that this approach can be applied
+
+405
+00:24:43.484 --> 00:24:45.824
+to any virtual prediction models.
+
+406
+00:24:46.404 --> 00:24:50.284
+And using Utopia, we can give you a statistically calibrated
+
+407
+00:24:50.404 --> 00:24:51.204
+confidence score
+
+408
+00:24:52.904 --> 00:24:56.704
+depending on the spatial resolution you are considering and depending on the
+
+409
+00:24:57.104 --> 00:24:58.824
+biological target you are predicting.
+
+410
+00:24:59.224 --> 00:25:03.044
+So here we consider the different spatial resolutions ranging from lower
+
+411
+00:25:03.124 --> 00:25:07.024
+resolution to higher single-cell resolution, and we also consider the
+
+412
+00:25:07.044 --> 00:25:10.644
+different biological entities that we predict, ranging from a single
+
+413
+00:25:10.664 --> 00:25:14.194
+gene to a meta-gene, from by the combination of multiple genes,
+
+414
+00:25:14.544 --> 00:25:18.384
+and from a specific cell type to a more broadly defined cell class.
+
+415
+00:25:19.124 --> 00:25:21.544
+So here I want to show you a real-world application.
+
+416
+00:25:21.964 --> 00:25:25.934
+So in this analysis, we focused on the virtual prediction problem in
+
+417
+00:25:26.084 --> 00:25:29.924
+a sample that has gastric cancer. We built our
+
+418
+00:25:29.964 --> 00:25:33.884
+virtual prediction model using the molecular information obtained from
+
+419
+00:25:33.944 --> 00:25:37.444
+the two red boxes, the regions of interest we selected.
+
+420
+00:25:37.984 --> 00:25:41.684
+And after we built our virtual prediction model, we applied this virtual prediction
+
+421
+00:25:41.744 --> 00:25:45.664
+model to the rest of the tissue, only using the underlying historic image
+
+422
+00:25:45.704 --> 00:25:49.624
+information as input. So now you can see that across
+
+423
+00:25:49.724 --> 00:25:53.484
+the different spatial resolutions that we predict, lower resolutions are
+
+424
+00:25:53.544 --> 00:25:54.184
+much easier
+
+425
+00:25:55.284 --> 00:25:58.414
+to obtain a higher confidence than a higher resolution.
+
+426
+00:25:58.584 --> 00:26:02.464
+This makes a lot of sense. And we also see that predicting a single gene like
+
+427
+00:26:02.484 --> 00:26:06.164
+CD4 is a much harder task than predicting a meta-gene like a
+
+428
+00:26:06.184 --> 00:26:10.104
+TIS signature. And we also found that a continuous variable,
+
+429
+00:26:10.204 --> 00:26:14.024
+so the gene expression, is much harder to predict than a categorical
+
+430
+00:26:14.044 --> 00:26:17.424
+variable like a cell type. So basically, by doing this
+
+431
+00:26:17.434 --> 00:26:21.204
+analysis, we are able to give you a principle, a statistical
+
+432
+00:26:21.324 --> 00:26:25.044
+framework that can tell you where your virtual predictions are reliable,
+
+433
+00:26:25.284 --> 00:26:27.004
+where your virtual predictions are not reliable.
+
+434
+00:26:27.464 --> 00:26:30.974
+So this means that when we utilize virtual predictions in the clinical setting,
+
+435
+00:26:31.504 --> 00:26:35.324
+we know where is the tissue region that we should conduct
+
+436
+00:26:35.334 --> 00:26:37.484
+the real spatial omics experiment.
+
+437
+00:26:38.184 --> 00:26:41.994
+So to summarize, spatial omics is a powerful technology, but
+
+438
+00:26:42.124 --> 00:26:45.904
+currently, spatial omics is still too expensive to scale up in the
+
+439
+00:26:45.944 --> 00:26:49.624
+real-world applications. And in this talk, I have demonstrated
+
+440
+00:26:50.044 --> 00:26:53.904
+to you that by using innovative AI tools, we can now
+
+441
+00:26:54.044 --> 00:26:57.984
+turn histopathology data into digital tissue twins, where
+
+442
+00:26:58.064 --> 00:27:01.504
+every H&amp;E slide can now become a spatially
+
+443
+00:27:01.564 --> 00:27:04.344
+resolved and molecularly informed tissue map.
+
+444
+00:27:04.894 --> 00:27:08.344
+And this allows us to scale spatial omics across
+
+445
+00:27:08.384 --> 00:27:12.184
+diverse patient populations, and the resulting data will enable
+
+446
+00:27:12.304 --> 00:27:16.184
+us to do risk prediction, patient stratification, and also allows
+
+447
+00:27:16.224 --> 00:27:19.434
+us to bridge spatial biology, AI, and
+
+448
+00:27:19.464 --> 00:27:21.644
+therapeutic decision making together.
+
+449
+00:27:22.564 --> 00:27:26.404
+So before I finish, I wanted to thank the following members of my lab
+
+450
+00:27:26.704 --> 00:27:28.844
+who did much of the work I presented today.
+
+451
+00:27:29.284 --> 00:27:32.764
+I also wanted to thank my wonderful collaborators and my funding support.
+
+452
+00:27:32.974 --> 00:27:34.363
+Thank you very much for your attention.
+
+453
+00:27:38.104 --> 00:27:39.654
+Happy to take questions. Yeah.
+
+454
+00:27:39.784 --> 00:27:40.624
+Please, questions at the end.
+
+455
+00:27:40.684 --> 00:27:40.844
+Okay.
+
+456
+00:27:42.424 --> 00:27:42.884
+Yeah.
+
+457
+00:27:42.904 --> 00:27:44.224
+Thank you.
+
+458
+00:27:46.664 --> 00:27:49.204
+Thank you so much for this amazing talk.
+
+459
+00:27:49.524 --> 00:27:52.764
+And could you please put on the James Xu's
+
+460
+00:27:52.904 --> 00:27:54.264
+recording? Thank you.
+
+461
+00:28:13.924 --> 00:28:17.644
+Hi, everyone. I apologize that I'm not able to attend AACR in
+
+462
+00:28:17.714 --> 00:28:19.784
+person this year, but I'm happy to
+
+463
+00:28:21.224 --> 00:28:24.364
+present some of the work we've been doing around generative and agentic
+
+464
+00:28:24.444 --> 00:28:26.564
+AI for spatial omics.
+
+465
+00:28:29.884 --> 00:28:31.534
+So this presentation will have two parts.
+
+466
+00:28:31.704 --> 00:28:35.644
+In the first part, I want to present this AI method that we developed called
+
+467
+00:28:35.684 --> 00:28:39.144
+Rosie, which is an approach to generate in
+
+468
+00:28:39.204 --> 00:28:42.564
+silico spatial proteomic images from H&amp;E.
+
+469
+00:28:43.324 --> 00:28:47.224
+In the second part, I want to explore some of the applications in using these
+
+470
+00:28:47.263 --> 00:28:51.184
+kind of spatial and other single-cell omics data to
+
+471
+00:28:51.244 --> 00:28:53.464
+accelerate therapeutic development.
+
+472
+00:28:53.914 --> 00:28:57.184
+And we'll do this with AI agents, with the virtual biotech.
+
+473
+00:29:01.084 --> 00:29:04.014
+So there's been tremendous interest in generating very rich
+
+474
+00:29:05.124 --> 00:29:08.104
+spatial omics information from tissue samples,
+
+475
+00:29:09.044 --> 00:29:09.464
+and
+
+476
+00:29:10.564 --> 00:29:14.084
+spatial proteomics that leverages multiplex
+
+477
+00:29:14.124 --> 00:29:18.104
+immunofluorescence imaging has emerged as a particularly promising
+
+478
+00:29:18.114 --> 00:29:21.924
+approach. So methods like Codex can simultaneously
+
+479
+00:29:21.964 --> 00:29:25.444
+image 50 to 100 different protein markers in
+
+480
+00:29:25.484 --> 00:29:28.044
+parallel on the same tissue sections.
+
+481
+00:29:28.754 --> 00:29:32.684
+And this enables us then to be able to phenotype many more different cell types
+
+482
+00:29:32.724 --> 00:29:36.684
+at higher resolution, and also be able to understand some of
+
+483
+00:29:36.724 --> 00:29:40.344
+the better tumor microenvironments and cell-cell interactions.
+
+484
+00:29:43.944 --> 00:29:47.584
+However, generating such high dimensional single-cell
+
+485
+00:29:47.604 --> 00:29:50.904
+spatial omics data is quite
+
+486
+00:29:51.164 --> 00:29:55.124
+expensive, right? So here's sort of a comparison across different
+
+487
+00:29:55.164 --> 00:29:59.124
+methods. So with H&amp;E images, the molecular information we collect is
+
+488
+00:29:59.244 --> 00:30:03.204
+relatively sparse. It's mostly capturing morphologies, but the benefit
+
+489
+00:30:03.244 --> 00:30:04.044
+is that it's very
+
+490
+00:30:05.004 --> 00:30:07.444
+cheap and also can be collected in a few hours.
+
+491
+00:30:08.604 --> 00:30:12.244
+However, if we move towards this highly multiplexed immunofluorescence
+
+492
+00:30:12.324 --> 00:30:15.804
+imaging like Codex, which is now able to capture at
+
+493
+00:30:15.864 --> 00:30:19.484
+single-cell resolution, 50 plus different biomarkers,
+
+494
+00:30:20.124 --> 00:30:23.804
+but the cost is much more expensive, can be thousands of dollars per
+
+495
+00:30:23.924 --> 00:30:26.664
+slide and also takes multiple days to collect.
+
+496
+00:30:27.124 --> 00:30:30.944
+So there's this really several orders of magnitude increase in cost and
+
+497
+00:30:31.004 --> 00:30:34.924
+complexity when we go from H&amp;E to this highly multiplexed
+
+498
+00:30:35.204 --> 00:30:39.164
+spatial proteomics.So our goal here
+
+499
+00:30:39.284 --> 00:30:40.984
+is to see, can we actually use
+
+500
+00:30:42.064 --> 00:30:45.584
+this H&amp;E kind of images to help us to generate in
+
+501
+00:30:45.644 --> 00:30:48.324
+silico CODEX, in silico spatial omics?
+
+502
+00:30:49.304 --> 00:30:53.064
+And this is analogous in some ways to the ability of AI to try to
+
+503
+00:30:53.424 --> 00:30:56.864
+colorize black and white images into these more vivid
+
+504
+00:30:56.964 --> 00:31:00.904
+colors. Right, so in our case, we view the H&amp;E image as sort
+
+505
+00:31:00.924 --> 00:31:04.864
+of analogous to these black and white images, and we
+
+506
+00:31:04.904 --> 00:31:08.704
+want to essentially use AI to add these different colors to it so that it looks
+
+507
+00:31:08.724 --> 00:31:12.244
+more like this very rich kind of spatial omics, like a
+
+508
+00:31:12.424 --> 00:31:13.164
+CODEX data.
+
+509
+00:31:15.884 --> 00:31:19.684
+In order to do this, we need to build a trainer model that can impute
+
+510
+00:31:22.664 --> 00:31:23.204
+CODEX
+
+511
+00:31:24.564 --> 00:31:28.104
+proteomics data from H&amp;E images. And this
+
+512
+00:31:28.144 --> 00:31:31.884
+requires collecting a large paired data set where we have both H&amp;E
+
+513
+00:31:31.944 --> 00:31:35.824
+images and CODEX measurements that are measured on the exact same tissue
+
+514
+00:31:35.904 --> 00:31:36.424
+sections.
+
+515
+00:31:37.524 --> 00:31:41.484
+So to do this, we collaborated with our collaborators at
+
+516
+00:31:41.544 --> 00:31:45.504
+Enable Medicine, and we generated, at the time, the largest paired H&amp;E
+
+517
+00:31:45.604 --> 00:31:49.524
+and CODEX data sets. So this is the data set we collected for ROSI,
+
+518
+00:31:49.644 --> 00:31:53.404
+which has over 2,000 samples covering 30 million
+
+519
+00:31:53.504 --> 00:31:55.804
+cells from 16 different disease types.
+
+520
+00:31:56.534 --> 00:32:00.424
+And this is all done at sort of a high resolution at the individual pixel level.
+
+521
+00:32:01.164 --> 00:32:05.084
+And importantly here, the CODEX and H&amp;E images are coming from the same tissue,
+
+522
+00:32:05.164 --> 00:32:08.684
+so they're perfectly aligned. And this is orders of magnitude
+
+523
+00:32:08.724 --> 00:32:12.584
+larger than the data sets that we used in previous work from our
+
+524
+00:32:12.644 --> 00:32:14.164
+group, where we were able to
+
+525
+00:32:15.264 --> 00:32:18.764
+also do some of these imputations, but it was done on a much more limited set.
+
+526
+00:32:22.364 --> 00:32:23.434
+So leveraging this
+
+527
+00:32:24.424 --> 00:32:25.704
+large scale paired data set,
+
+528
+00:32:26.524 --> 00:32:30.124
+we developed ROSI, and here's sort of a brief overview of how it works.
+
+529
+00:32:30.904 --> 00:32:34.724
+So it takes input, the standard H&amp;E images, and the
+
+530
+00:32:34.764 --> 00:32:36.304
+algorithm will first
+
+531
+00:32:38.404 --> 00:32:40.704
+crop those images into these individual patches.
+
+532
+00:32:40.784 --> 00:32:43.604
+Each patch will be 128 by 128 pixels.
+
+533
+00:32:44.504 --> 00:32:47.683
+And then we have a deep learning model that takes that patch, right, and then try
+
+534
+00:32:47.724 --> 00:32:51.384
+to predict and to impute the proteomics
+
+535
+00:32:51.444 --> 00:32:55.044
+profiles for each of these 50 or more biomarkers
+
+536
+00:32:55.624 --> 00:32:58.704
+at a much smaller, higher resolution of eight by eight
+
+537
+00:32:58.804 --> 00:33:02.494
+pixels. And the benefit of doing this is that this
+
+538
+00:33:02.524 --> 00:33:06.044
+enables the model to be able to capture information from a broader,
+
+539
+00:33:06.184 --> 00:33:09.644
+larger context in order to predict and impute the
+
+540
+00:33:09.964 --> 00:33:13.904
+biomarkers at a smaller window. And we showed in our paper that this
+
+541
+00:33:13.944 --> 00:33:15.924
+is a more effective approach.
+
+542
+00:33:16.744 --> 00:33:20.604
+And after that imputation, then the algorithm would take these
+
+543
+00:33:20.704 --> 00:33:24.124
+imputed eight by eight patches and stitch them all back
+
+544
+00:33:24.204 --> 00:33:26.484
+together into this whole slide level,
+
+545
+00:33:27.404 --> 00:33:29.864
+generated spatial proteomic image.
+
+546
+00:33:29.944 --> 00:33:33.484
+That's the in silico CODEX output from the ROSI
+
+547
+00:33:33.544 --> 00:33:36.884
+algorithm. This in silico CODEX then will be perfectly
+
+548
+00:33:36.924 --> 00:33:39.464
+aligned with the original H&amp;E sample.
+
+549
+00:33:41.844 --> 00:33:45.444
+So with this approach, ROSI is able to predict in
+
+550
+00:33:45.664 --> 00:33:49.164
+silico CODEX for up to 50 different biomarkers.
+
+551
+00:33:49.744 --> 00:33:53.724
+So here's an example demonstration where we have these two H&amp;E images
+
+552
+00:33:53.744 --> 00:33:55.604
+that were given as input into the algorithm.
+
+553
+00:33:56.204 --> 00:33:59.224
+And in the second column, I show the generated
+
+554
+00:34:00.424 --> 00:34:03.084
+in silico data that's imputed
+
+555
+00:34:03.944 --> 00:34:07.304
+by ROSI algorithm. And this can take maybe
+
+556
+00:34:08.424 --> 00:34:09.225
+less than $1,
+
+557
+00:34:10.464 --> 00:34:13.234
+less than an hour of time. A few minutes.
+
+558
+00:34:14.044 --> 00:34:17.834
+And the third column corresponds to where we took multiple days and
+
+559
+00:34:17.904 --> 00:34:21.864
+thousands of dollars to perform the actual experiment to do this CODEX
+
+560
+00:34:21.904 --> 00:34:23.705
+multiplex immunofluorescent imaging.
+
+561
+00:34:24.584 --> 00:34:28.265
+And comparing the ROSI output with the experimental outcome, which is the ground
+
+562
+00:34:28.364 --> 00:34:32.225
+truth, we can see that the ROSI output actually captures a lot of the
+
+563
+00:34:32.544 --> 00:34:36.124
+key structures and cell types as you do from the actual
+
+564
+00:34:36.165 --> 00:34:40.004
+experiments. And this is orders of magnitude, I think,
+
+565
+00:34:40.084 --> 00:34:42.084
+over 1,000 times faster and cheaper.
+
+566
+00:34:45.084 --> 00:34:48.245
+And in order to show that the results are quite representative across different
+
+567
+00:34:48.364 --> 00:34:51.394
+samples, what I'm showing here is actually the different
+
+568
+00:34:51.504 --> 00:34:53.745
+percentiles of different input
+
+569
+00:34:54.644 --> 00:34:58.424
+histology H&amp;E images, where we rank
+
+570
+00:34:58.544 --> 00:35:02.404
+these different images by the Pearson correlation between
+
+571
+00:35:02.484 --> 00:35:03.644
+their imputed
+
+572
+00:35:05.104 --> 00:35:07.604
+CODEX with the actual experimentally measured CODEX.
+
+573
+00:35:08.224 --> 00:35:11.624
+So 99th percentile corresponds to the samples where the ROSI performed
+
+574
+00:35:11.664 --> 00:35:15.184
+better, and the 25th percentile corresponds to samples where our
+
+575
+00:35:15.224 --> 00:35:17.144
+algorithm performed relatively worse.
+
+576
+00:35:18.164 --> 00:35:21.734
+And what we can see here is that even if we look at the medium sample or the 25th
+
+577
+00:35:21.784 --> 00:35:25.324
+sample where the algorithm performed relatively worse, the output
+
+578
+00:35:25.624 --> 00:35:29.444
+from the in silico CODEX actually still matches a lot of the fine grain
+
+579
+00:35:29.524 --> 00:35:33.164
+structures that you see from the actual spatial CODEX measurements.
+
+580
+00:35:33.944 --> 00:35:37.444
+So this gives us more confidence that the algorithm can be quite
+
+581
+00:35:37.504 --> 00:35:40.824
+reliable. We also perform additional assessments
+
+582
+00:35:40.924 --> 00:35:44.804
+on data on H&amp;E images from other locations.
+
+583
+00:35:44.844 --> 00:35:48.684
+So here are data from three different external sites, and here the ROSI algorithm
+
+584
+00:35:48.804 --> 00:35:52.524
+is also able to impute and generate some of these fine grain
+
+585
+00:35:52.584 --> 00:35:56.404
+structures that we saw in these out-of-distribution external validation
+
+586
+00:35:56.444 --> 00:35:56.824
+sites.
+
+587
+00:36:02.184 --> 00:36:05.844
+And one benefit and one application of this approach was in silico
+
+588
+00:36:05.904 --> 00:36:06.824
+CODEX of ROSI,
+
+589
+00:36:07.644 --> 00:36:11.064
+is that we can actually then infer more granular tissue
+
+590
+00:36:11.164 --> 00:36:13.524
+structures directly from the H&amp;E images.
+
+591
+00:36:14.664 --> 00:36:17.604
+So here we're looking at three common kinds of tissue structures.
+
+592
+00:36:17.704 --> 00:36:21.344
+So in dark blue, it's the stroma, light blue is the more
+
+593
+00:36:21.444 --> 00:36:25.224
+tumor-like epithelium, and orange captures these more endothelium
+
+594
+00:36:25.304 --> 00:36:25.904
+structures.
+
+595
+00:36:27.044 --> 00:36:30.964
+And on the first column are the ground truth that we get from
+
+596
+00:36:31.084 --> 00:36:34.344
+when we actually do the expensive spatial proteomics
+
+597
+00:36:34.404 --> 00:36:38.184
+experimental measurements. We can capture these structures
+
+598
+00:36:38.224 --> 00:36:41.988
+very accurately.And the second column corresponds to if we use
+
+599
+00:36:42.228 --> 00:36:46.048
+Rosie to first impute the spatial proteomics and then do the
+
+600
+00:36:46.108 --> 00:36:50.068
+same kind of segmentations. We can see here we often capture very similar,
+
+601
+00:36:50.328 --> 00:36:53.948
+very precise imputed structures compared to the ground truth.
+
+602
+00:36:54.988 --> 00:36:58.608
+We also did a comparison where we took the original H&amp;E image itself
+
+603
+00:36:59.108 --> 00:37:02.888
+and extract morphology features from the H&amp;E image, and then trained
+
+604
+00:37:03.368 --> 00:37:07.148
+a deep learning model to directly predict these structures from the
+
+605
+00:37:07.308 --> 00:37:10.968
+H&amp;E image morphologies, and that actually performed much worse.
+
+606
+00:37:11.668 --> 00:37:15.588
+So I think this is kind of an interesting comparison that demonstrates the benefit
+
+607
+00:37:15.648 --> 00:37:19.608
+of this Rosie approach to first impute the high
+
+608
+00:37:19.848 --> 00:37:23.768
+multiplex proteomics structures and then use those proteomics information then
+
+609
+00:37:23.828 --> 00:37:26.828
+to classify the different tissue structures.
+
+610
+00:37:27.408 --> 00:37:31.088
+So that ends up being richer and more robust than directly trying to
+
+611
+00:37:31.968 --> 00:37:34.578
+classify the tissue structures from
+
+612
+00:37:34.668 --> 00:37:37.828
+the morphology information itself.
+
+613
+00:37:40.848 --> 00:37:44.328
+And then finally, one of the benefits of Rosie is that it's really able to make
+
+614
+00:37:44.368 --> 00:37:48.268
+these imputations at a single pixel resolution,
+
+615
+00:37:48.308 --> 00:37:51.308
+which corresponds to around 25 microns.
+
+616
+00:37:52.328 --> 00:37:55.608
+So this enables the algorithm then to capture a lot of the
+
+617
+00:37:55.768 --> 00:37:57.368
+sub-single-cell resolution,
+
+618
+00:37:58.408 --> 00:38:01.088
+spatial structures of different proteins.
+
+619
+00:38:01.628 --> 00:38:05.028
+So this enables richer kinds of sub-single-cell or subcellular
+
+620
+00:38:05.088 --> 00:38:05.768
+analysis.
+
+621
+00:38:07.878 --> 00:38:11.808
+So just to summarize, so with Rosie, we demonstrate
+
+622
+00:38:12.088 --> 00:38:15.728
+that from H&amp;E images, we can actually use AI to
+
+623
+00:38:15.788 --> 00:38:19.598
+infer protein expressions, cell types, structures
+
+624
+00:38:20.148 --> 00:38:23.888
+that typically required much more expensive multiplex
+
+625
+00:38:23.968 --> 00:38:25.608
+immunofluorescent imaging assays.
+
+626
+00:38:26.408 --> 00:38:30.328
+And this demonstrates the power and the promise of AI to help
+
+627
+00:38:30.388 --> 00:38:34.128
+us to bridge the gap between these more common and routinely available
+
+628
+00:38:34.228 --> 00:38:37.808
+assays and these much more experimental research-level
+
+629
+00:38:37.888 --> 00:38:41.508
+assays. And all of this can help us to enable
+
+630
+00:38:41.528 --> 00:38:42.748
+precision pathology.
+
+631
+00:38:45.768 --> 00:38:49.688
+So with Rosie, we see how with these kind of generative AI approaches, we can
+
+632
+00:38:50.128 --> 00:38:54.068
+enable us to make these spatial omics information more broadly
+
+633
+00:38:54.108 --> 00:38:58.028
+accessible by imputing them from H&amp;E images.
+
+634
+00:38:58.948 --> 00:39:02.768
+In the second part, I want to highlight some examples of how we can then take
+
+635
+00:39:02.808 --> 00:39:06.708
+these kinds of single-cell and spatial omics assays and help us
+
+636
+00:39:06.748 --> 00:39:08.088
+with therapeutic developments.
+
+637
+00:39:09.328 --> 00:39:13.268
+In a recent work, we created what we call a virtual biotech,
+
+638
+00:39:13.808 --> 00:39:17.788
+which is a large organization of different AI agents that can help us with
+
+639
+00:39:17.848 --> 00:39:19.288
+drug discovery and development.
+
+640
+00:39:20.228 --> 00:39:24.098
+In this virtual biotech, it's a team of tens of thousands of AI agents,
+
+641
+00:39:24.408 --> 00:39:28.198
+which is led by a chief scientist officer, or CSO agent, and
+
+642
+00:39:28.228 --> 00:39:31.848
+working under the CSO agent, we have these different divisions, which
+
+643
+00:39:31.857 --> 00:39:35.768
+corresponds to the standard cross-functional divisions of a
+
+644
+00:39:35.808 --> 00:39:38.547
+typical drug discovery organization.
+
+645
+00:39:38.588 --> 00:39:41.988
+So, for example, we have a division of agents that focuses on target
+
+646
+00:39:42.008 --> 00:39:45.508
+identification, another division of agents that look at safety,
+
+647
+00:39:45.948 --> 00:39:47.428
+clinical developments, and so on.
+
+648
+00:39:48.048 --> 00:39:51.668
+All of these divisions are operationalized by teams of AI agents
+
+649
+00:39:52.108 --> 00:39:54.288
+with different specializations for
+
+650
+00:39:55.688 --> 00:39:59.408
+specialized roles. For example, under the target ID division, we
+
+651
+00:39:59.468 --> 00:40:03.088
+actually have an AI agent who specializes in doing single-cell
+
+652
+00:40:03.148 --> 00:40:06.908
+analysis, another agent that's very good at doing all the statistical genetics
+
+653
+00:40:06.988 --> 00:40:10.668
+analysis, and also agents that specialize in doing these more spatial
+
+654
+00:40:11.688 --> 00:40:12.388
+analysis.
+
+655
+00:40:14.248 --> 00:40:17.528
+And behind the scenes, to enable these agents to
+
+656
+00:40:18.088 --> 00:40:21.488
+carry this very in-depth analysis, we created a
+
+657
+00:40:21.548 --> 00:40:25.488
+universe of different resources and tools that enables
+
+658
+00:40:25.588 --> 00:40:28.848
+agents then to do analysis from the raw data.
+
+659
+00:40:28.908 --> 00:40:32.048
+So this corresponds to hundreds of different MCPs that we've collected.
+
+660
+00:40:32.848 --> 00:40:36.648
+So, for example, we have created MCP so that enables the agents to
+
+661
+00:40:36.708 --> 00:40:40.408
+directly access and download single-cell atlas data that are
+
+662
+00:40:40.448 --> 00:40:44.148
+relevant for their analysis. They can also access all of these different histology
+
+663
+00:40:44.268 --> 00:40:45.137
+H&amp;E images
+
+664
+00:40:46.308 --> 00:40:50.148
+as well as data from genetics, from clinical trials, and from chemistry.
+
+665
+00:40:51.948 --> 00:40:55.268
+And the way that all of this work together is that
+
+666
+00:40:55.888 --> 00:40:59.568
+the user might have a specific query, and the query could be,
+
+667
+00:40:59.598 --> 00:41:03.388
+"Help me develop a therapeutic strategy for a particular kind
+
+668
+00:41:03.488 --> 00:41:07.108
+of disease target," for example. And then the CSO agent
+
+669
+00:41:07.528 --> 00:41:11.428
+would take that query and work with his chief of staff to come up with
+
+670
+00:41:11.508 --> 00:41:15.438
+a plan for the analysis. And then it would delegate that plan to the
+
+671
+00:41:15.468 --> 00:41:19.308
+different divisions of agents. All these agents then would proceed
+
+672
+00:41:19.348 --> 00:41:22.808
+in parallel. Maybe one agent will look at the histology images, another agent will
+
+673
+00:41:22.848 --> 00:41:26.808
+look at the genetics data. They can do all of these analysis in parallel.
+
+674
+00:41:26.828 --> 00:41:30.008
+We have a reviewer agent that reviews all of these intermediate results.
+
+675
+00:41:30.558 --> 00:41:33.868
+And then finally, all of these results will be synthesized by the CSO agent, then
+
+676
+00:41:33.888 --> 00:41:36.088
+presented back to the human user.
+
+677
+00:41:38.208 --> 00:41:41.868
+So I want to illustrate then a case study to demonstrate the
+
+678
+00:41:41.888 --> 00:41:43.648
+workings of this virtual biotech.
+
+679
+00:41:45.148 --> 00:41:48.908
+So a specific question we asked the biotech
+
+680
+00:41:49.128 --> 00:41:52.608
+agents is to help us to design therapeutic strategies for
+
+681
+00:41:52.668 --> 00:41:56.288
+CD276, also called B7H3, as a target in lung
+
+682
+00:41:56.368 --> 00:41:56.808
+cancer.
+
+683
+00:41:58.508 --> 00:42:02.188
+So this is a transmembrane checkpoint inhibitor
+
+684
+00:42:02.248 --> 00:42:06.208
+protein, which has emerged in recent years as a very exciting
+
+685
+00:42:06.268 --> 00:42:06.728
+target.
+
+686
+00:42:08.248 --> 00:42:11.258
+So the first thing that the virtual biotech agent did is that it started to look at
+
+687
+00:42:11.288 --> 00:42:12.428
+some genetics evidence
+
+688
+00:42:13.248 --> 00:42:16.978
+and actually found that there's really not very strong genetic evidence around this
+
+689
+00:42:17.008 --> 00:42:20.388
+target. But then the agents reasoned that that's okay
+
+690
+00:42:20.988 --> 00:42:24.868
+because this is a target that's more relevant in tumor cells, whereas a lot of the
+
+691
+00:42:24.888 --> 00:42:28.508
+genetics is looking at the germline mutations.
+
+692
+00:42:28.568 --> 00:42:31.628
+So then the agents pivoted and decided to look at single-cell data.
+
+693
+00:42:32.748 --> 00:42:33.848
+So it first pulled
+
+694
+00:42:35.088 --> 00:42:39.028
+single-cell data from different cell atlases from tissues that are relevant to lung
+
+695
+00:42:39.088 --> 00:42:39.508
+cancer.
+
+696
+00:42:40.428 --> 00:42:43.968
+And by analyzing those single-cell data, it found that this
+
+697
+00:42:44.008 --> 00:42:47.688
+target is particularly highly expressed in tumor-associated
+
+698
+00:42:47.748 --> 00:42:51.098
+fibroblastsRight? And based on that, the agents
+
+699
+00:42:51.318 --> 00:42:54.818
+came up with a hypothesis that
+
+700
+00:42:54.858 --> 00:42:57.978
+perhaps these tumor-associated fibroblasts are expressing this
+
+701
+00:42:58.938 --> 00:43:02.658
+checkpoint inhibitor, which then has the effect of suppressing the
+
+702
+00:43:02.698 --> 00:43:05.497
+immune response in their surrounding cells.
+
+703
+00:43:06.758 --> 00:43:10.538
+So to test that hypothesis, the agent next decided to perform a
+
+704
+00:43:10.578 --> 00:43:12.338
+cell-cell communication analysis.
+
+705
+00:43:13.178 --> 00:43:16.918
+By analyzing receptor ligand pairs, the agent actually found that
+
+706
+00:43:16.998 --> 00:43:20.328
+indeed, these tumor-associated fibroblasts have a lot of
+
+707
+00:43:20.398 --> 00:43:23.338
+communications with all the different major immune cell types.
+
+708
+00:43:24.178 --> 00:43:27.938
+But here is where the agent reasons that, okay, to really confirm
+
+709
+00:43:28.138 --> 00:43:31.788
+that in cell-cell communication, this will be really
+
+710
+00:43:31.788 --> 00:43:35.458
+useful to actually analyze spatial data to really sort of be able to
+
+711
+00:43:35.498 --> 00:43:38.238
+visualize these patterns of these
+
+712
+00:43:38.938 --> 00:43:40.158
+immune-suppressing effects.
+
+713
+00:43:41.318 --> 00:43:44.378
+And this is where the spatial analysis becomes really useful.
+
+714
+00:43:44.618 --> 00:43:47.598
+So to do this, the agent actually found and downloaded
+
+715
+00:43:47.878 --> 00:43:51.278
+these spatial transcriptomic datasets
+
+716
+00:43:52.038 --> 00:43:52.738
+from Visium.
+
+717
+00:43:53.858 --> 00:43:57.778
+And by analyzing this dataset, the agents actually showed
+
+718
+00:43:57.838 --> 00:44:00.958
+that indeed in areas where
+
+719
+00:44:01.698 --> 00:44:05.118
+these fibroblasts are expressing this P7H3
+
+720
+00:44:05.538 --> 00:44:08.858
+protein, the surrounding neighborhoods are systematically
+
+721
+00:44:08.898 --> 00:44:11.598
+depleted of different immune cell types.
+
+722
+00:44:12.108 --> 00:44:13.678
+So there's quite a significant effect.
+
+723
+00:44:14.398 --> 00:44:18.098
+So this actually really supports the agent's hypothesis
+
+724
+00:44:18.418 --> 00:44:22.178
+that indeed that these fibroblasts are expressing this target,
+
+725
+00:44:22.598 --> 00:44:25.917
+and then which has the effect of suppressing the immune response in their
+
+726
+00:44:25.958 --> 00:44:26.538
+neighborhoods.
+
+727
+00:44:27.858 --> 00:44:31.218
+And then finally, the agents are able to then connect all of this together with
+
+728
+00:44:31.278 --> 00:44:32.978
+human clinical cohorts.
+
+729
+00:44:33.838 --> 00:44:37.378
+So we look at cohorts of patients from lung cancer that are
+
+730
+00:44:37.778 --> 00:44:40.258
+expressing this target either at a high level or a low level.
+
+731
+00:44:40.318 --> 00:44:44.218
+And so by stratifying this target expression, the agents actually
+
+732
+00:44:44.298 --> 00:44:47.978
+found that patient cohorts that express these targets
+
+733
+00:44:48.038 --> 00:44:51.778
+highly are less responsive to different treatments, as
+
+734
+00:44:51.798 --> 00:44:55.398
+measured both in terms of overall survival and also disease-specific
+
+735
+00:44:55.478 --> 00:44:55.998
+survival.
+
+736
+00:44:57.098 --> 00:45:00.498
+So all of these different pieces of evidence come together, and it's all conducted
+
+737
+00:45:00.518 --> 00:45:04.498
+autonomously by the AI agents in the virtual biotech to form
+
+738
+00:45:04.578 --> 00:45:08.418
+a mechanistic story of how this target
+
+739
+00:45:08.498 --> 00:45:12.358
+in fibroblasts may have this kind of immune-suppressing effects, which
+
+740
+00:45:12.438 --> 00:45:15.218
+then leads to worse outcomes for patients.
+
+741
+00:45:18.078 --> 00:45:21.838
+Now, based on all of that information and by analyzing all of that data, especially
+
+742
+00:45:21.858 --> 00:45:25.598
+the spatial omics data, the agents actually then designed a
+
+743
+00:45:25.638 --> 00:45:29.138
+therapeutic strategy for CD276 in lung cancer.
+
+744
+00:45:29.778 --> 00:45:33.458
+So from its analysis, the agent said, "Okay, I recommend designing an
+
+745
+00:45:33.518 --> 00:45:37.358
+antibody-drug conjugate, or ADC, or a monoclonal antibody
+
+746
+00:45:37.418 --> 00:45:41.058
+that's targeting CD276." And this
+
+747
+00:45:41.078 --> 00:45:44.338
+antibody then will be linked to a chemotherapy payload,
+
+748
+00:45:44.478 --> 00:45:45.078
+DXd.
+
+749
+00:45:46.518 --> 00:45:46.818
+And this
+
+750
+00:45:47.738 --> 00:45:51.518
+is designed and proposed by the agents based on information available to it
+
+751
+00:45:51.978 --> 00:45:53.818
+before January 2025.
+
+752
+00:45:55.318 --> 00:45:59.098
+And what's really quite interesting is that several months later, in
+
+753
+00:45:59.178 --> 00:46:01.498
+August 2025, we have
+
+754
+00:46:02.878 --> 00:46:06.478
+the FDA had actually approved--
+
+755
+00:46:07.958 --> 00:46:11.538
+gave a breakthrough designation to Merck.
+
+756
+00:46:11.558 --> 00:46:15.178
+So Merck had actually independently converged onto a similar
+
+757
+00:46:15.238 --> 00:46:18.978
+strategy of ADC with the same antibody
+
+758
+00:46:19.018 --> 00:46:22.618
+targeting CD276. It's actually linked to the same chemotherapy
+
+759
+00:46:22.818 --> 00:46:26.778
+payload, DXd, and they showed quite promising results, which received
+
+760
+00:46:26.798 --> 00:46:28.858
+this breakthrough designation from the FDA.
+
+761
+00:46:30.018 --> 00:46:33.458
+I think this provides actually a very nice and exciting external independent
+
+762
+00:46:33.518 --> 00:46:37.498
+validation for how a therapeutic strategy from the agents which
+
+763
+00:46:37.558 --> 00:46:41.098
+came from leveraging all of these single-cell spatial analysis
+
+764
+00:46:41.538 --> 00:46:42.338
+can then be
+
+765
+00:46:43.338 --> 00:46:44.778
+supported by
+
+766
+00:46:45.738 --> 00:46:48.658
+clinical study results from third parties.
+
+767
+00:46:51.518 --> 00:46:55.498
+So another thing that the agent did more broadly that's
+
+768
+00:46:55.538 --> 00:46:59.298
+quite exciting is it has helped us to curate data from all these
+
+769
+00:46:59.318 --> 00:47:00.478
+different clinical trials.
+
+770
+00:47:01.718 --> 00:47:05.298
+So here we ask the agents to basically curate clinical trial outcomes
+
+771
+00:47:06.058 --> 00:47:09.638
+because all of these clinical trials are registered, but often the outcomes of what
+
+772
+00:47:09.718 --> 00:47:13.298
+happened in these clinical trials are spread out across different
+
+773
+00:47:13.678 --> 00:47:17.358
+sources, different papers, press releases, sometimes company
+
+774
+00:47:17.478 --> 00:47:17.998
+websites.
+
+775
+00:47:19.038 --> 00:47:22.488
+It will be very useful if we have a centralized database where all these clinical
+
+776
+00:47:22.558 --> 00:47:24.218
+trial informations are collected.
+
+777
+00:47:25.318 --> 00:47:29.018
+So here the virtual biotech spun out thirty-seven thousand clinical trial
+
+778
+00:47:29.118 --> 00:47:33.058
+agents. Each agent is responsible for annotating the outcomes
+
+779
+00:47:33.118 --> 00:47:35.878
+of one trial. So that agent then will go
+
+780
+00:47:36.838 --> 00:47:40.498
+for that trial to read all the things that happened in that trial and
+
+781
+00:47:40.758 --> 00:47:44.658
+look up all the papers, the news articles, websites
+
+782
+00:47:45.058 --> 00:47:48.838
+to find out what are all the endpoints and what happened to the endpoints.
+
+783
+00:47:49.158 --> 00:47:51.198
+If the trial had stopped, why did it stop?
+
+784
+00:47:51.778 --> 00:47:54.678
+Are there any side effects, adverse events, and so on.
+
+785
+00:47:55.678 --> 00:47:59.598
+So this creates a really nicely curated database of clinical trial
+
+786
+00:47:59.698 --> 00:48:02.338
+outcomes for fifty-six thousand trials.
+
+787
+00:48:04.538 --> 00:48:08.298
+And then based on that, we ask the agent, so can you find single-cell features
+
+788
+00:48:08.938 --> 00:48:12.778
+that's based on these molecular features that are actually strongly predictive of
+
+789
+00:48:12.838 --> 00:48:16.778
+clinical trial success? So that would be if we have features that can
+
+790
+00:48:16.818 --> 00:48:20.698
+predict trial success, then that's often a holy grail for the drug
+
+791
+00:48:20.758 --> 00:48:24.518
+development because then it can help them to prioritize different drug targets.
+
+792
+00:48:25.918 --> 00:48:29.738
+So here the agents actually came up with two interesting single-cell features
+
+793
+00:48:29.898 --> 00:48:31.078
+based on single-cell
+
+794
+00:48:32.658 --> 00:48:36.158
+transcriptomics information. The first is that the agent proposed
+
+795
+00:48:36.498 --> 00:48:40.338
+this tau cell type specificity score, which measures if you look at the
+
+796
+00:48:40.478 --> 00:48:44.158
+drug target, how selective is the expression of that drug target across different
+
+797
+00:48:44.238 --> 00:48:47.798
+cell types. The second feature measures the bimodality,
+
+798
+00:48:48.018 --> 00:48:51.857
+basically how on and off is that drug target across different
+
+799
+00:48:52.278 --> 00:48:56.270
+cell types.The agents reasoned that if this drug target
+
+800
+00:48:56.310 --> 00:49:00.240
+has a very distinct on/off switch pattern, then it's more controllable
+
+801
+00:49:00.250 --> 00:49:01.990
+and potentially a better drug target.
+
+802
+00:49:03.810 --> 00:49:07.670
+And then by collecting these single-cell molecular features with actual
+
+803
+00:49:07.710 --> 00:49:10.810
+clinical trial outcomes, the agent found that indeed,
+
+804
+00:49:11.510 --> 00:49:15.270
+drug targets that have these more cell
+
+805
+00:49:15.330 --> 00:49:19.030
+type-specific expressions are 48% more
+
+806
+00:49:19.050 --> 00:49:23.010
+likely to reach market, right? And overall, if we look at both
+
+807
+00:49:23.030 --> 00:49:26.870
+the tau score and the bimodality score, they're highly correlated
+
+808
+00:49:26.910 --> 00:49:30.690
+with better outcomes across phase two, phase three, phase four.
+
+809
+00:49:31.350 --> 00:49:34.870
+They're associated with better
+
+810
+00:49:35.070 --> 00:49:37.010
+chances of meeting the clinical
+
+811
+00:49:38.110 --> 00:49:41.270
+primary and secondary endpoints, and these trials are less likely to be
+
+812
+00:49:41.310 --> 00:49:45.250
+withdrawn for various reasons. So I think this is quite
+
+813
+00:49:45.270 --> 00:49:48.890
+exciting, in particular because these single-cell
+
+814
+00:49:48.930 --> 00:49:51.930
+features are actually orthogonal to genetic features.
+
+815
+00:49:52.040 --> 00:49:55.930
+So people have known for some time that drug targets with genetic evidence are more
+
+816
+00:49:55.970 --> 00:49:59.790
+likely to be successful. And here the agents actually showed that
+
+817
+00:50:00.070 --> 00:50:02.630
+even among drug targets that have no genetic support,
+
+818
+00:50:03.510 --> 00:50:07.090
+if they do have these single-cell evidence supporting it, then those are more
+
+819
+00:50:07.110 --> 00:50:08.250
+likely to be successful.
+
+820
+00:50:09.210 --> 00:50:12.870
+So I think this is an example of how these agents then can help to integrate
+
+821
+00:50:12.950 --> 00:50:16.330
+single-cell data and then help us to
+
+822
+00:50:16.370 --> 00:50:18.110
+prioritize different drug targets.
+
+823
+00:50:19.630 --> 00:50:23.330
+So I'll just stop here. I hope to show these two examples
+
+824
+00:50:23.410 --> 00:50:26.590
+illustrate how this generative and agentic AI
+
+825
+00:50:27.150 --> 00:50:28.350
+can both enable
+
+826
+00:50:30.090 --> 00:50:33.690
+spatial omics analysis and also leverage this analysis to help us
+
+827
+00:50:33.750 --> 00:50:36.550
+to improve our therapeutic developments.
+
+828
+00:50:37.190 --> 00:50:40.970
+I want to especially thank Eric Wu, who led the ROSI work, and
+
+829
+00:50:41.030 --> 00:50:43.410
+Harrison Jiang, who led the virtual biotech work.
+
+830
+00:50:44.090 --> 00:50:45.890
+Thank you very much for your time.
+
+831
+00:50:56.290 --> 00:50:57.130
+Okay, I'm just
+
+832
+00:50:57.990 --> 00:50:59.210
+timing myself.
+
+833
+00:51:00.610 --> 00:51:04.070
+Awesome. So I think the most
+
+834
+00:51:04.209 --> 00:51:08.050
+useful agent that we can possibly build
+
+835
+00:51:08.110 --> 00:51:11.450
+today would be a very simple agent, actually,
+
+836
+00:51:12.050 --> 00:51:15.930
+that just signs data-sharing agreements between
+
+837
+00:51:15.990 --> 00:51:19.910
+institutes. Just imagine that we can cut the
+
+838
+00:51:20.010 --> 00:51:23.650
+half a year nonsense lawyering up of
+
+839
+00:51:23.750 --> 00:51:27.510
+data-sharing agreements by two agents
+
+840
+00:51:27.610 --> 00:51:31.490
+that do that in one day. That would be a tremendous contribution to
+
+841
+00:51:31.910 --> 00:51:34.530
+cancer research. Okay. So
+
+842
+00:51:35.170 --> 00:51:38.530
+back to spatial
+
+843
+00:51:38.570 --> 00:51:42.400
+biology. I want to talk about towards fast and
+
+844
+00:51:42.510 --> 00:51:45.950
+accessible precision oncology, and I'll aim to do it in
+
+845
+00:51:46.230 --> 00:51:50.050
+20 minutes so we'll have time for discussion.
+
+846
+00:51:50.790 --> 00:51:54.590
+So these are my disclosures, and
+
+847
+00:51:55.490 --> 00:51:59.190
+this is published stuff that I
+
+848
+00:51:59.230 --> 00:52:02.570
+will not talk about, and I just want to explain
+
+849
+00:52:03.030 --> 00:52:05.270
+what is this dividing line.
+
+850
+00:52:06.190 --> 00:52:10.170
+So in this published work, my lab over the
+
+851
+00:52:10.230 --> 00:52:13.950
+last two or three years have developed
+
+852
+00:52:13.990 --> 00:52:17.930
+ways to infer molecular omics data bulk,
+
+853
+00:52:18.410 --> 00:52:21.430
+gene expression, methylation, what have you,
+
+854
+00:52:22.170 --> 00:52:25.970
+directly from the whole slide images and
+
+855
+00:52:26.030 --> 00:52:29.710
+then use that for clinical translational
+
+856
+00:52:29.770 --> 00:52:33.270
+applications. So, for example, when we infer
+
+857
+00:52:33.310 --> 00:52:37.090
+transcriptomics, we showed that we can use the
+
+858
+00:52:37.670 --> 00:52:40.970
+inferred bulk transcriptomics from the whole slide
+
+859
+00:52:41.130 --> 00:52:45.070
+images to infer patient survival and response
+
+860
+00:52:45.810 --> 00:52:49.170
+almost at the level that you could do from the
+
+861
+00:52:49.270 --> 00:52:50.630
+sequencing data.
+
+862
+00:52:51.450 --> 00:52:55.430
+And when we infer methylation, we focused on brain tumors
+
+863
+00:52:55.490 --> 00:52:59.310
+where methylation is used-- Sequencing
+
+864
+00:52:59.370 --> 00:53:02.770
+methylation is used as the gold standard for
+
+865
+00:53:02.890 --> 00:53:06.170
+classifying brain tumors at a high resolution.
+
+866
+00:53:06.690 --> 00:53:08.210
+We have shown
+
+867
+00:53:09.010 --> 00:53:12.530
+that we can actually do that at a level that is
+
+868
+00:53:12.550 --> 00:53:16.530
+practically indistinguishable from the sequence methylation.
+
+869
+00:53:16.590 --> 00:53:19.220
+We can do it from the inferred methylation.
+
+870
+00:53:20.010 --> 00:53:23.639
+And you can see publications from different years
+
+871
+00:53:24.390 --> 00:53:28.170
+just to show you that in a span of one
+
+872
+00:53:28.250 --> 00:53:31.820
+year or one year and a half, we can double and
+
+873
+00:53:31.910 --> 00:53:35.390
+triple the accuracy of the clinical
+
+874
+00:53:35.550 --> 00:53:39.430
+value that we can bring to the patients on the same tasks.
+
+875
+00:53:39.950 --> 00:53:43.120
+And that's whole bulk inference clinical
+
+876
+00:53:43.170 --> 00:53:45.410
+application from whole slide images.
+
+877
+00:53:45.830 --> 00:53:49.199
+And the reason that we can triple, quadruple
+
+878
+00:53:49.710 --> 00:53:53.210
+our accuracy is because we are
+
+879
+00:53:53.330 --> 00:53:56.990
+leaning on the advancements from other groups that are
+
+880
+00:53:57.030 --> 00:54:00.630
+building better and better foundation
+
+881
+00:54:00.670 --> 00:54:04.660
+models, and we also have better biological insights
+
+882
+00:54:04.660 --> 00:54:08.610
+and clinical insights and so on. But what I want to focus
+
+883
+00:54:08.770 --> 00:54:12.650
+today is on these types of
+
+884
+00:54:13.010 --> 00:54:16.870
+analysis where we move from inferring
+
+885
+00:54:17.090 --> 00:54:20.510
+bulk molecular data from the whole slides to
+
+886
+00:54:20.830 --> 00:54:24.090
+inferring spatial omics data
+
+887
+00:54:24.610 --> 00:54:27.590
+as Mingyao has shown so
+
+888
+00:54:27.650 --> 00:54:31.270
+nicely. And our goal is to
+
+889
+00:54:31.390 --> 00:54:34.730
+learn to teach the machines to learn to
+
+890
+00:54:34.790 --> 00:54:38.710
+infer spatial expression, spatial proteomics
+
+891
+00:54:39.370 --> 00:54:39.790
+at
+
+892
+00:54:40.610 --> 00:54:43.990
+any spot in the tumor, at any cell in the tumor,
+
+893
+00:54:44.130 --> 00:54:47.590
+automatically segment and annotate the
+
+894
+00:54:47.690 --> 00:54:51.170
+cells, and use that to define
+
+895
+00:54:51.430 --> 00:54:55.250
+and study and validate a conceptually
+
+896
+00:54:55.470 --> 00:54:59.462
+new typeOf clinical survival and response
+
+897
+00:54:59.482 --> 00:55:02.802
+biomarkers that are spatially grounded.
+
+898
+00:55:03.582 --> 00:55:07.382
+And that's a whole new arena that requires a lot
+
+899
+00:55:07.442 --> 00:55:10.222
+of thought and a lot to study, and
+
+900
+00:55:10.302 --> 00:55:14.162
+we are just making our first steps,
+
+901
+00:55:14.282 --> 00:55:17.922
+but I think that in the next two, three years, it will be
+
+902
+00:55:17.932 --> 00:55:21.542
+transformative and hopefully, reach the
+
+903
+00:55:21.622 --> 00:55:23.302
+clinic sometime soon.
+
+904
+00:55:24.842 --> 00:55:28.542
+So the first thing that I want to share with you is
+
+905
+00:55:28.582 --> 00:55:32.202
+this paper, which is to appear soon, which has been
+
+906
+00:55:32.342 --> 00:55:36.242
+led by Eldad Schulman and Emma Campanolo from my lab with
+
+907
+00:55:36.262 --> 00:55:38.462
+many collaborators, where we
+
+908
+00:55:39.242 --> 00:55:43.082
+taught machines to learn
+
+909
+00:55:43.122 --> 00:55:46.842
+visium data in breast cancer by training on visium
+
+910
+00:55:46.922 --> 00:55:47.322
+data.
+
+911
+00:55:48.342 --> 00:55:51.662
+And we then created maps,
+
+912
+00:55:52.702 --> 00:55:56.682
+inferred spatial visium maps of the
+
+913
+00:55:56.742 --> 00:56:00.542
+whole breast cancer TCGA compendium, which is
+
+914
+00:56:00.582 --> 00:56:04.062
+1,100 patient samples at a
+
+915
+00:56:04.182 --> 00:56:06.282
+detailed spatial resolution,
+
+916
+00:56:07.122 --> 00:56:07.362
+and
+
+917
+00:56:08.182 --> 00:56:12.062
+then we used that to characterize the TME
+
+918
+00:56:12.102 --> 00:56:15.902
+of these patients, find survival predictions, treatment response
+
+919
+00:56:15.962 --> 00:56:19.842
+predictions, and so on. And just to show you a bit
+
+920
+00:56:19.922 --> 00:56:23.822
+on that before I move to the really unpublished
+
+921
+00:56:23.882 --> 00:56:27.482
+data. So you can see here overall we can
+
+922
+00:56:27.942 --> 00:56:30.912
+robustly predict about 4,000 genes.
+
+923
+00:56:31.322 --> 00:56:34.402
+Here you can see the histograms of the
+
+924
+00:56:34.462 --> 00:56:38.402
+correlations between the measured and inferred genes across
+
+925
+00:56:39.022 --> 00:56:42.322
+the spots in each sample, and
+
+926
+00:56:43.002 --> 00:56:46.982
+we did extensive validations, and we can predict
+
+927
+00:56:47.062 --> 00:56:50.962
+about 4,000 genes. The spatial transcriptomics
+
+928
+00:56:51.022 --> 00:56:54.712
+of visium of 4,000 genes. So out of the 10 or
+
+929
+00:56:54.822 --> 00:56:58.282
+15,000, we can predict only 4,000.
+
+930
+00:56:58.722 --> 00:57:02.462
+But it's important to notice that these are not random genes.
+
+931
+00:57:02.842 --> 00:57:06.662
+These are highly enriched in the main cancer
+
+932
+00:57:06.722 --> 00:57:10.702
+hallmark pathways. It's interesting when you think about it, with
+
+933
+00:57:10.722 --> 00:57:12.942
+the inferable predictable genes,
+
+934
+00:57:13.862 --> 00:57:17.442
+that those are evident from the slides are actually those
+
+935
+00:57:17.842 --> 00:57:21.502
+that are belonging to the cancer drivers and hallmarks.
+
+936
+00:57:22.042 --> 00:57:25.582
+And as you know, one picture is worth a thousand words.
+
+937
+00:57:25.642 --> 00:57:29.222
+Here are three key genes in breast cancer,
+
+938
+00:57:29.342 --> 00:57:33.302
+ELK2, KI67, and MYC. And on the left
+
+939
+00:57:33.422 --> 00:57:36.372
+side of each pair, these are samples from patients.
+
+940
+00:57:36.732 --> 00:57:40.462
+This is the measured spatial visium transcriptomics, and this is the
+
+941
+00:57:40.502 --> 00:57:44.472
+inferred. Here is another patient sample, the measured and
+
+942
+00:57:44.542 --> 00:57:48.402
+the inferred, and so on. And you can look at it, each of you,
+
+943
+00:57:48.462 --> 00:57:51.002
+and get a sense of
+
+944
+00:57:52.042 --> 00:57:55.622
+how good it is by yourself. And of course, we are not
+
+945
+00:57:55.662 --> 00:57:59.562
+perfect, but you can form your own impression.
+
+946
+00:58:00.032 --> 00:58:03.322
+And just to show one last slide from that
+
+947
+00:58:04.302 --> 00:58:05.922
+topic because I really want to
+
+948
+00:58:06.722 --> 00:58:10.462
+leave ample time for discussion. So this
+
+949
+00:58:10.522 --> 00:58:10.762
+is
+
+950
+00:58:11.742 --> 00:58:14.322
+two AUC curves, patient survival.
+
+951
+00:58:14.402 --> 00:58:18.082
+This is a study, Samut et al. by Carlos Caldas' group,
+
+952
+00:58:18.442 --> 00:58:21.702
+published in "Nature" about two and a half years ago,
+
+953
+00:58:22.282 --> 00:58:25.882
+where for each breast cancer patient,
+
+954
+00:58:25.982 --> 00:58:26.382
+they
+
+955
+00:58:27.262 --> 00:58:29.742
+did whole exome sequencing, RNA sequencing.
+
+956
+00:58:29.802 --> 00:58:33.722
+They also built direct predictors from the whole slide images and also
+
+957
+00:58:33.802 --> 00:58:37.422
+from the clinical and lab data. And on the
+
+958
+00:58:38.362 --> 00:58:42.282
+green AUC curves is what they could get, actually, what
+
+959
+00:58:42.322 --> 00:58:45.982
+they publish in the "Nature" paper for these patients,
+
+960
+00:58:46.082 --> 00:58:49.922
+the AUCs for the
+
+961
+00:58:49.982 --> 00:58:53.882
+response to treatments, chemotherapy or chemotherapy and trastuzumab.
+
+962
+00:58:54.462 --> 00:58:58.362
+And the blue is what we do. So the green is
+
+963
+00:58:58.402 --> 00:59:02.092
+for about $10,000 per patient and many weeks of
+
+964
+00:59:02.202 --> 00:59:05.862
+work, and the purple is what we do just from the
+
+965
+00:59:05.922 --> 00:59:09.702
+image by spatial characterization of the tumor
+
+966
+00:59:09.802 --> 00:59:13.142
+microenvironment, and you can see for yourselves.
+
+967
+00:59:14.282 --> 00:59:17.762
+But where I want to take you now is to
+
+968
+00:59:18.161 --> 00:59:21.742
+completely new and unpublished data, where we are
+
+969
+00:59:21.782 --> 00:59:25.542
+performing an attempt to infer
+
+970
+00:59:25.622 --> 00:59:29.262
+spatial transcriptomics to automatically segment
+
+971
+00:59:29.482 --> 00:59:33.302
+each cell, infer its spatial transcriptomics on a
+
+972
+00:59:33.442 --> 00:59:33.942
+slide,
+
+973
+00:59:34.802 --> 00:59:35.482
+and then--
+
+974
+00:59:36.842 --> 00:59:40.802
+Oh, sorry. Before that, I want to take you to
+
+975
+00:59:40.862 --> 00:59:44.642
+a foray where we infer spatial tumor
+
+976
+00:59:44.702 --> 00:59:47.482
+hotness. So what is tumor hotness?
+
+977
+00:59:48.802 --> 00:59:51.722
+We have a paper on bioRxiv
+
+978
+00:59:52.402 --> 00:59:56.282
+where we found a signature of
+
+979
+00:59:56.342 --> 00:59:59.482
+the tumor immune activation. Again,
+
+980
+01:00:00.202 --> 01:00:04.062
+one number for each slide, okay? And that's
+
+981
+01:00:04.122 --> 01:00:07.402
+the tumor hotness, okay? And we
+
+982
+01:00:07.522 --> 01:00:11.302
+find that this one scholar,
+
+983
+01:00:11.462 --> 01:00:15.162
+the tumor hotness, across many different
+
+984
+01:00:15.242 --> 01:00:18.982
+cancer types, this one scholar is
+
+985
+01:00:19.082 --> 01:00:19.862
+actually,
+
+986
+01:00:20.942 --> 01:00:24.462
+in our hands, the best predictor that we have of
+
+987
+01:00:24.502 --> 01:00:28.302
+checkpoint immunotherapy response across different
+
+988
+01:00:28.442 --> 01:00:31.102
+cancer types, different clinical trials.
+
+989
+01:00:31.222 --> 01:00:34.862
+We never trained on them. So we just look at the
+
+990
+01:00:34.982 --> 01:00:38.672
+slide, we estimate the tumor hotness, one scholar
+
+991
+01:00:39.102 --> 01:00:43.042
+from zero to one, and this is the kinds of AUCs and
+
+992
+01:00:43.062 --> 01:00:46.262
+odds ratios you get. So the mean odds
+
+993
+01:00:46.362 --> 01:00:50.202
+ratio that you get across different test cohorts
+
+994
+01:00:50.662 --> 01:00:54.562
+is five. Well, if you aim to build a direct
+
+995
+01:00:54.682 --> 01:00:58.532
+predictor without automatically inferring this
+
+996
+01:00:58.582 --> 01:01:01.752
+hotness signature and so on, you get
+
+997
+01:01:02.502 --> 01:01:06.182
+much, much worse results. So it shows you
+
+998
+01:01:06.222 --> 01:01:10.182
+the power of inferring molecular data.
+
+999
+01:01:10.542 --> 01:01:14.242
+But this was, again, one hotness scholar,
+
+1000
+01:01:14.802 --> 01:01:18.382
+okay?For a whole slide.
+
+1001
+01:01:18.922 --> 01:01:22.862
+But we went on, and this is available on BioRxiv, and
+
+1002
+01:01:22.942 --> 01:01:26.802
+we'll soon submit it. But we went
+
+1003
+01:01:26.882 --> 01:01:30.302
+further, and we built, and when I say we, it's Tai
+
+1004
+01:01:30.362 --> 01:01:32.342
+Huang, we built
+
+1005
+01:01:32.702 --> 01:01:35.982
+predictors of the tumor immune
+
+1006
+01:01:36.022 --> 01:01:39.222
+activation, the tumor hotness at each
+
+1007
+01:01:39.902 --> 01:01:43.882
+spot on the H&amp;E. So it's a pan-cancer predictor
+
+1008
+01:01:43.942 --> 01:01:47.862
+trained on 12 cancer types and 208 slides
+
+1009
+01:01:47.922 --> 01:01:51.862
+and so on. And it achieves accuracies of larger
+
+1010
+01:01:51.922 --> 01:01:55.862
+than 0.8 in inferring the tumor immune
+
+1011
+01:01:55.922 --> 01:01:59.482
+activation in its spot. And if you think about it, it
+
+1012
+01:01:59.602 --> 01:02:02.762
+opens very interesting opportunities to
+
+1013
+01:02:02.842 --> 01:02:05.982
+systematically study the true cellular
+
+1014
+01:02:06.082 --> 01:02:07.682
+modulators of
+
+1015
+01:02:08.682 --> 01:02:12.462
+tumor hotness. And here again, you can see some pictures,
+
+1016
+01:02:13.102 --> 01:02:16.802
+and you can see a head and neck image, the H&amp;E slide.
+
+1017
+01:02:17.152 --> 01:02:19.362
+This is the matching Visium slide.
+
+1018
+01:02:19.442 --> 01:02:23.402
+So since we have the hotness signature, we can infer
+
+1019
+01:02:23.502 --> 01:02:27.282
+the signature on the measured H&amp;E.
+
+1020
+01:02:28.002 --> 01:02:30.642
+We call that the actual spatial hotness.
+
+1021
+01:02:30.962 --> 01:02:34.762
+And here is the totally inferred hotness just from the
+
+1022
+01:02:34.982 --> 01:02:38.462
+H&amp;E slide. And you can see, again,
+
+1023
+01:02:38.962 --> 01:02:42.852
+you form your own impression from these few examples on
+
+1024
+01:02:43.242 --> 01:02:46.882
+how accurate or inaccurate we are.
+
+1025
+01:02:46.902 --> 01:02:50.802
+And just to show you that, so we have taken, since this is a
+
+1026
+01:02:50.822 --> 01:02:54.722
+pan-cancer hotness predictor, okay, so we take the
+
+1027
+01:02:54.962 --> 01:02:58.242
+good old TCGA data. And, as
+
+1028
+01:02:58.302 --> 01:03:02.162
+you know, thousands of papers have built
+
+1029
+01:03:04.122 --> 01:03:07.962
+survival,
+
+1030
+01:03:08.022 --> 01:03:09.162
+Cox survival
+
+1031
+01:03:10.202 --> 01:03:12.582
+predictors based on the measured RNA.
+
+1032
+01:03:13.462 --> 01:03:17.322
+So that invests thousands of dollars in the bulk to do
+
+1033
+01:03:17.362 --> 01:03:18.982
+it for each patient and what have you.
+
+1034
+01:03:19.042 --> 01:03:20.542
+And here you can see
+
+1035
+01:03:21.982 --> 01:03:25.862
+how actually, quite surprisingly, the level of
+
+1036
+01:03:25.982 --> 01:03:29.482
+immune hotness, one scholar has
+
+1037
+01:03:29.622 --> 01:03:33.462
+inferred from this spatial analysis and
+
+1038
+01:03:33.522 --> 01:03:37.262
+summed up, I'm not going into the details, actually,
+
+1039
+01:03:37.442 --> 01:03:41.202
+the spatial hotness of a tumor in most of the different tumor
+
+1040
+01:03:41.262 --> 01:03:45.062
+types is much better predictor of patient
+
+1041
+01:03:45.182 --> 01:03:48.602
+survival than the RNA sequence data, the
+
+1042
+01:03:48.682 --> 01:03:51.982
+thousands of papers that use that.
+
+1043
+01:03:52.722 --> 01:03:56.702
+Okay, so now I'm coming to our efforts to
+
+1044
+01:03:56.782 --> 01:03:58.882
+develop these spatial
+
+1045
+01:04:00.042 --> 01:04:03.702
+predictors at the single cell, and I'll show you
+
+1046
+01:04:03.722 --> 01:04:07.622
+ongoing work in inferring Visium
+
+1047
+01:04:07.822 --> 01:04:11.712
+HD, inferring Codex data, and annotating
+
+1048
+01:04:11.862 --> 01:04:15.362
+cells based on these inferences.
+
+1049
+01:04:15.982 --> 01:04:17.252
+So again, one picture,
+
+1050
+01:04:18.862 --> 01:04:22.612
+just to give you an idea. This is a colon cancer data set or
+
+1051
+01:04:22.702 --> 01:04:26.222
+no colon, published last year in "Nature Genetics."
+
+1052
+01:04:26.862 --> 01:04:30.702
+Here is the original picture, the slide, the Visium HD of
+
+1053
+01:04:30.742 --> 01:04:34.631
+the authors, and you can see the different cell types that
+
+1054
+01:04:34.662 --> 01:04:37.982
+the authors have annotated. And here is the
+
+1055
+01:04:38.022 --> 01:04:38.862
+inferred
+
+1056
+01:04:40.182 --> 01:04:43.782
+annotations of the cells based on the inferred Visium
+
+1057
+01:04:43.902 --> 01:04:47.662
+data. This costs $10,000, and you have to wait
+
+1058
+01:04:47.822 --> 01:04:51.762
+weeks. This, you buy my fellows a cup of coffee, and you
+
+1059
+01:04:51.862 --> 01:04:55.712
+get it the next day. And you can decide where to invest your
+
+1060
+01:04:55.782 --> 01:04:56.042
+money,
+
+1061
+01:04:56.882 --> 01:04:58.822
+right? It's a free country still.
+
+1062
+01:05:00.422 --> 01:05:03.822
+And this is another slide. This is a normal
+
+1063
+01:05:03.982 --> 01:05:07.862
+colon. And you can see we are not perfect,
+
+1064
+01:05:08.022 --> 01:05:10.482
+right? Even my fellows are not perfect.
+
+1065
+01:05:10.882 --> 01:05:14.402
+So you can see here there is a measured, annotated
+
+1066
+01:05:14.682 --> 01:05:18.542
+something, red cell something, and we miss it here
+
+1067
+01:05:18.602 --> 01:05:22.562
+and so on. And if you look carefully in this slide, you can
+
+1068
+01:05:22.642 --> 01:05:25.262
+see that there is some false positive made.
+
+1069
+01:05:25.362 --> 01:05:29.202
+I don't see them, but trust me. So we make
+
+1070
+01:05:29.262 --> 01:05:32.101
+mistakes, and we are not perfect in both.
+
+1071
+01:05:33.022 --> 01:05:36.712
+And now I want to take you to predicting Codex data, what
+
+1072
+01:05:36.762 --> 01:05:38.051
+James has shown,
+
+1073
+01:05:38.882 --> 01:05:42.262
+except that he's not here, so I can say, but much better.
+
+1074
+01:05:42.982 --> 01:05:46.001
+Okay. That's the price of staying at home.
+
+1075
+01:05:47.142 --> 01:05:47.562
+So
+
+1076
+01:05:48.982 --> 01:05:52.762
+this is a pan-cancer
+
+1077
+01:05:52.982 --> 01:05:56.842
+Codex predictor. And you can see on the Y-axis,
+
+1078
+01:05:56.922 --> 01:06:00.822
+the correlation between the measured and inferred
+
+1079
+01:06:01.022 --> 01:06:04.722
+Codex level of each biomarker
+
+1080
+01:06:04.782 --> 01:06:07.502
+across each individual cell.
+
+1081
+01:06:08.302 --> 01:06:12.162
+And these are the top ones. There's other ones that I'm not showing
+
+1082
+01:06:12.402 --> 01:06:16.042
+that we do less. But overall, we do mean
+
+1083
+01:06:16.082 --> 01:06:19.902
+correlations of 0.4 to 0.6, depending on
+
+1084
+01:06:19.912 --> 01:06:23.252
+the indication. These are results in
+
+1085
+01:06:23.282 --> 01:06:27.192
+cross-validation in three cancer types on which we trained,
+
+1086
+01:06:27.522 --> 01:06:30.592
+but then we have an ensemble pan-cancer predictor.
+
+1087
+01:06:30.932 --> 01:06:34.402
+And these are actually test results on independent data sets.
+
+1088
+01:06:34.802 --> 01:06:38.242
+So you can pick your favorite markers, and again,
+
+1089
+01:06:38.522 --> 01:06:42.082
+you can see what one can do. So again, just to quickly
+
+1090
+01:06:42.222 --> 01:06:45.702
+show, here is, let's say you're interested in PD-L1 or
+
+1091
+01:06:45.762 --> 01:06:49.442
+CD833. Here is the original H&amp;E. Here is the measured
+
+1092
+01:06:49.882 --> 01:06:53.842
+matching sample of measured PD-L1, and here is the inferred
+
+1093
+01:06:53.922 --> 01:06:57.802
+PD-L1 in that sample. And here is CD48,
+
+1094
+01:06:58.202 --> 01:07:01.802
+the H&amp;E, the measured CD48, and the inferred
+
+1095
+01:07:02.182 --> 01:07:06.012
+CD48. And this is for two other markers, CD45,
+
+1096
+01:07:06.162 --> 01:07:09.782
+for example, and KI67. And these are not
+
+1097
+01:07:10.162 --> 01:07:13.442
+particularly good examples. These are really
+
+1098
+01:07:14.242 --> 01:07:17.062
+typical examples, and you can see the overall correlations.
+
+1099
+01:07:17.102 --> 01:07:20.778
+And based on thatYou can now, since we segment the
+
+1100
+01:07:20.838 --> 01:07:24.258
+cells and we have the
+
+1101
+01:07:24.338 --> 01:07:27.958
+markers inferred and so on, we can annotate the cells.
+
+1102
+01:07:28.358 --> 01:07:31.278
+We can't do it yet at a very high resolution.
+
+1103
+01:07:31.378 --> 01:07:35.348
+We can do it on a resolution of five or six cell types, and
+
+1104
+01:07:36.358 --> 01:07:37.178
+that still
+
+1105
+01:07:38.898 --> 01:07:42.778
+isn't as great as we should. But you can imagine that we
+
+1106
+01:07:42.878 --> 01:07:44.478
+can infer not also the
+
+1107
+01:07:45.498 --> 01:07:47.598
+markers, we can having
+
+1108
+01:07:48.538 --> 01:07:52.398
+predictors of Visium HD or Xenium HD,
+
+1109
+01:07:52.518 --> 01:07:56.418
+we can combine predictors. So we are going to improve
+
+1110
+01:07:56.538 --> 01:07:59.938
+that in the near future very much. But even so,
+
+1111
+01:08:00.618 --> 01:08:04.318
+we can infer tumor cells very accurately and
+
+1112
+01:08:04.378 --> 01:08:05.358
+other cell types,
+
+1113
+01:08:06.258 --> 01:08:09.708
+quite interesting. And I'll show you the importance and
+
+1114
+01:08:09.798 --> 01:08:13.038
+application of that. And what is important, as
+
+1115
+01:08:13.378 --> 01:08:17.338
+Mingyao mentioned, we have ways to estimate the confidence
+
+1116
+01:08:17.398 --> 01:08:21.098
+of our predictions. So if we are ready to give up and
+
+1117
+01:08:21.218 --> 01:08:25.178
+leave out some of the cells and focus on the more
+
+1118
+01:08:25.199 --> 01:08:28.998
+confident cells, then we can have very confident
+
+1119
+01:08:29.018 --> 01:08:31.779
+predictors. As I always tell my fellows, less is more.
+
+1120
+01:08:32.338 --> 01:08:36.119
+So just to show you, since we can predict cancer cells so
+
+1121
+01:08:36.678 --> 01:08:38.508
+accurately and annotate them,
+
+1122
+01:08:38.898 --> 01:08:42.218
+automatically, you give us a slide and we
+
+1123
+01:08:42.358 --> 01:08:46.119
+pinpoint with 97% accuracy or
+
+1124
+01:08:46.199 --> 01:08:49.998
+more every tumor cell on the slide.
+
+1125
+01:08:50.458 --> 01:08:54.079
+Just imagine that we put it on the pathologist's
+
+1126
+01:08:54.138 --> 01:08:57.938
+desktop. He puts on a slide, immediately gets
+
+1127
+01:08:57.978 --> 01:09:00.458
+all the tumor cells or what have you.
+
+1128
+01:09:01.119 --> 01:09:02.418
+So what can you do
+
+1129
+01:09:03.338 --> 01:09:07.178
+now the dream is happening? Okay. You
+
+1130
+01:09:07.258 --> 01:09:11.218
+can annotate confidently a large subset of the
+
+1131
+01:09:11.258 --> 01:09:15.159
+cells which you segment in each slide, just the H&amp;E
+
+1132
+01:09:15.199 --> 01:09:18.178
+in each tumor. So you can now start to
+
+1133
+01:09:18.279 --> 01:09:21.798
+systematically look for all the
+
+1134
+01:09:21.878 --> 01:09:25.838
+triads, quadruples, quantiples-- I don't know, my English is
+
+1135
+01:09:25.878 --> 01:09:29.797
+not good enough. All the spatial relations between
+
+1136
+01:09:29.918 --> 01:09:33.838
+different cell types and associate them, and that's what
+
+1137
+01:09:33.898 --> 01:09:37.418
+important, with patient survival and treatment
+
+1138
+01:09:37.478 --> 01:09:41.318
+response, because you can apply to large cohorts
+
+1139
+01:09:41.358 --> 01:09:44.298
+of hundreds of thousands of patients.
+
+1140
+01:09:44.558 --> 01:09:45.739
+All you need is love.
+
+1141
+01:09:46.579 --> 01:09:49.058
+All you need is the H&amp;E slides,
+
+1142
+01:09:50.318 --> 01:09:50.579
+right?
+
+1143
+01:09:51.558 --> 01:09:55.158
+So that's what, in a study led by Amos
+
+1144
+01:09:55.198 --> 01:09:58.918
+Temer and Tai Huang, they can systematically
+
+1145
+01:09:58.998 --> 01:10:02.298
+scan, this is ongoing work, all the triads.
+
+1146
+01:10:02.378 --> 01:10:06.278
+Very interestingly, we see that this is in breast
+
+1147
+01:10:06.378 --> 01:10:09.988
+cancer, that triads that involve lymphocytes and
+
+1148
+01:10:10.058 --> 01:10:13.418
+endothelial cells, lymphocytes emigrating from
+
+1149
+01:10:13.538 --> 01:10:14.258
+vascular
+
+1150
+01:10:17.618 --> 01:10:20.798
+blood vessels and so on, are highly
+
+1151
+01:10:20.818 --> 01:10:24.058
+associated with either increased
+
+1152
+01:10:26.598 --> 01:10:30.248
+hazard ratios in survival in breast cancer or decreased
+
+1153
+01:10:30.338 --> 01:10:34.328
+ones. So actually, the lymphocyte endothelial
+
+1154
+01:10:34.778 --> 01:10:38.178
+is associated with a decreased hazard ratio.
+
+1155
+01:10:38.738 --> 01:10:40.798
+And when you look at
+
+1156
+01:10:41.998 --> 01:10:45.478
+triads that are associated in chemotherapy and trastuzumab
+
+1157
+01:10:45.518 --> 01:10:49.238
+response, you find again that that
+
+1158
+01:10:49.318 --> 01:10:52.378
+triad of lymphocytes and endothelial cells
+
+1159
+01:10:52.778 --> 01:10:56.238
+is associated with this five
+
+1160
+01:10:56.378 --> 01:11:00.138
+times odds ratio. This is clinically very
+
+1161
+01:11:00.278 --> 01:11:03.998
+meaningful, if ever validated, of patients' response to
+
+1162
+01:11:04.098 --> 01:11:07.338
+trastuzumab. So in summary, to keep in time,
+
+1163
+01:11:08.218 --> 01:11:12.048
+we are developing a comprehensive suit of AI predictors
+
+1164
+01:11:12.078 --> 01:11:16.038
+at the single cell, at the Visium, at the transcriptomic level, at the bulk
+
+1165
+01:11:16.098 --> 01:11:20.018
+level, at the transcriptomic level, and at the single-cell level that
+
+1166
+01:11:20.078 --> 01:11:23.678
+predicts anything you want to know about what's
+
+1167
+01:11:23.738 --> 01:11:27.438
+happening in your slides. It's really a dream
+
+1168
+01:11:27.618 --> 01:11:31.338
+come true that is unfolding as we do it.
+
+1169
+01:11:31.978 --> 01:11:35.378
+And that gives rise to the possibility to
+
+1170
+01:11:36.058 --> 01:11:39.858
+questions that I couldn't think we could study one or two years ago.
+
+1171
+01:11:40.118 --> 01:11:43.978
+What are the mediators of tumor hotness and tumor immune
+
+1172
+01:11:44.018 --> 01:11:45.798
+activation at the cellular level?
+
+1173
+01:11:46.188 --> 01:11:49.178
+And a new type of spatially grounded biomarkers,
+
+1174
+01:11:49.858 --> 01:11:50.198
+and
+
+1175
+01:11:51.898 --> 01:11:55.618
+possibly a way to democratize precision oncology to really
+
+1176
+01:11:55.998 --> 01:11:59.918
+transform its accessibility to patients in
+
+1177
+01:11:59.978 --> 01:12:03.838
+many underserved regions in our nation and across the
+
+1178
+01:12:03.878 --> 01:12:06.978
+world. In principle, it could be developed in other disorders.
+
+1179
+01:12:07.018 --> 01:12:10.498
+And just at 1:00 pm, I was asked by the
+
+1180
+01:12:10.578 --> 01:12:14.238
+editors of Cancer Discovery, you can scan
+
+1181
+01:12:14.318 --> 01:12:18.158
+this thing, and at 1:00 pm, they said they
+
+1182
+01:12:18.318 --> 01:12:22.138
+published a paper, a prospective paper that we wrote in Cancer
+
+1183
+01:12:22.218 --> 01:12:23.538
+Discovery that
+
+1184
+01:12:24.998 --> 01:12:28.538
+further elaborates and describes this vision, which is close to my heart,
+
+1185
+01:12:28.938 --> 01:12:30.178
+of democratizing
+
+1186
+01:12:31.918 --> 01:12:33.998
+precision oncology. This is
+
+1187
+01:12:34.978 --> 01:12:38.678
+our lab from one or two years ago. This is my close friend, Ken
+
+1188
+01:12:38.738 --> 01:12:39.278
+Aldape,
+
+1189
+01:12:40.298 --> 01:12:44.138
+who was a partner in crime for all the methylation and brain
+
+1190
+01:12:44.178 --> 01:12:48.168
+work, and many of our fellows. This is actually the garden in our house,
+
+1191
+01:12:48.538 --> 01:12:51.078
+and now you may understand why I'm not moving in St.
+
+1192
+01:12:51.248 --> 01:12:52.878
+Louis and staying in Bethesda.
+
+1193
+01:12:54.118 --> 01:12:56.798
+So, thank you all so much. And
+
+1194
+01:12:57.598 --> 01:13:01.338
+Mingyao, would you like to join me, please, to answer questions?
+
+1195
+01:13:02.038 --> 01:13:04.918
+And I think there are questions on the right.
+
+1196
+01:13:05.558 --> 01:13:09.078
+And anyone can also ask us. So, thank you so much.
+
+1197
+01:13:09.238 --> 01:13:12.658
+We have 12 minutes. So
+
+1198
+01:13:17.958 --> 01:13:21.738
+I am not sure I know how to operate
+
+1199
+01:13:21.898 --> 01:13:25.318
+thatSo let's start from questions for the audience.
+
+1200
+01:13:25.398 --> 01:13:28.878
+Is that okay? Anyone wants to ask?
+
+1201
+01:13:30.078 --> 01:13:33.958
+Everyone is running away on the most interesting-- Because you
+
+1202
+01:13:33.998 --> 01:13:36.938
+need to go to other places. And yes, please.
+
+1203
+01:13:37.818 --> 01:13:38.258
+Yes.
+
+1204
+01:13:38.338 --> 01:13:38.878
+Hi, Eitan.
+
+1205
+01:13:39.278 --> 01:13:39.578
+Hey.
+
+1206
+01:13:40.758 --> 01:13:42.178
+Fantastic work as always.
+
+1207
+01:13:43.658 --> 01:13:46.038
+And I promised I would try to ask you a question that would
+
+1208
+01:13:49.458 --> 01:13:52.158
+bring on some more discussion and perhaps be a little controversial.
+
+1209
+01:13:53.558 --> 01:13:57.278
+So when we think about the evolution of tumors under
+
+1210
+01:13:57.298 --> 01:13:58.208
+therapeutic pressure,
+
+1211
+01:13:59.238 --> 01:14:02.818
+we have to sometimes disregard some of
+
+1212
+01:14:02.938 --> 01:14:03.278
+the
+
+1213
+01:14:04.578 --> 01:14:08.168
+preconceived assumptions about established gene
+
+1214
+01:14:08.218 --> 01:14:11.388
+networks. That certain patterns of gene upregulation and
+
+1215
+01:14:11.458 --> 01:14:15.178
+downregulation that are important in the establishment of a tumor are
+
+1216
+01:14:15.238 --> 01:14:18.218
+likely going to change under therapeutic pressure.
+
+1217
+01:14:18.358 --> 01:14:21.778
+In your spatial prediction models, how do you
+
+1218
+01:14:21.838 --> 01:14:23.478
+account for the
+
+1219
+01:14:25.318 --> 01:14:28.718
+likely heterogeneity and perturbation of
+
+1220
+01:14:28.758 --> 01:14:31.968
+predicted gene expression based on
+
+1221
+01:14:31.978 --> 01:14:35.938
+morphology when you've trained on a lot of untreated samples?
+
+1222
+01:14:37.058 --> 01:14:40.938
+Thank you so much. Mingqiao, would you like to answer, please?
+
+1223
+01:14:40.978 --> 01:14:43.198
+Or you want me or whatever. Please.
+
+1224
+01:14:44.558 --> 01:14:44.698
+I
+
+1225
+01:14:46.578 --> 01:14:50.558
+can try to answer, but I don't think I have a good solution for that, because
+
+1226
+01:14:50.998 --> 01:14:54.858
+as you can see in my training data, I don't have patients that
+
+1227
+01:14:54.878 --> 01:14:57.978
+have response to a therapy. So
+
+1228
+01:14:58.018 --> 01:14:59.438
+I think
+
+1229
+01:15:00.438 --> 01:15:01.638
+if you don't have the
+
+1230
+01:15:02.798 --> 01:15:06.698
+patient to have a response directly measured, I think the information you
+
+1231
+01:15:06.798 --> 01:15:08.718
+learn is also limited.
+
+1232
+01:15:09.538 --> 01:15:12.518
+As I mentioned in my Aurora work,
+
+1233
+01:15:13.418 --> 01:15:17.398
+we see that the dynamic range is a substantial variable from one person
+
+1234
+01:15:17.438 --> 01:15:21.038
+to the other. I think the same thing is true when a person is
+
+1235
+01:15:21.218 --> 01:15:24.358
+undergoing a therapy. Maybe the dynamic range is different.
+
+1236
+01:15:24.818 --> 01:15:28.738
+So if we have some type of training data available, I
+
+1237
+01:15:28.758 --> 01:15:30.858
+think that the model should be able to see that.
+
+1238
+01:15:30.897 --> 01:15:34.478
+But right now, if we don't have such training data, I think the ability to do that
+
+1239
+01:15:34.558 --> 01:15:36.858
+will be limited. But that is my guess. I don't really know.
+
+1240
+01:15:37.338 --> 01:15:40.818
+Right. And I think that, just as a quick follow-up, and then I'll step
+
+1241
+01:15:40.858 --> 01:15:44.618
+down, I would be interested in understanding or
+
+1242
+01:15:44.687 --> 01:15:46.578
+predicting mechanisms of resistance.
+
+1243
+01:15:47.338 --> 01:15:50.898
+And I think that's a challenge right now with any
+
+1244
+01:15:50.938 --> 01:15:54.078
+morphology-based approach because there's a near infinite
+
+1245
+01:15:54.178 --> 01:15:57.568
+combination of interactions between
+
+1246
+01:15:57.618 --> 01:16:01.508
+tissue acquired and whatever spatial data you have
+
+1247
+01:16:01.518 --> 01:16:04.578
+available and, of course, the therapies that are being tested.
+
+1248
+01:16:05.348 --> 01:16:08.838
+I feel like this is a very big challenge for our field, and I'm looking forward to
+
+1249
+01:16:09.178 --> 01:16:12.878
+great advances in this. And I'm curious whether you have any other thoughts on this
+
+1250
+01:16:14.298 --> 01:16:15.678
+very challenging issue.
+
+1251
+01:16:16.478 --> 01:16:16.738
+I-
+
+1252
+01:16:17.978 --> 01:16:18.258
+Go ahead.
+
+1253
+01:16:18.518 --> 01:16:21.918
+Okay. I can answer this question because I thought a lot about this.
+
+1254
+01:16:22.358 --> 01:16:24.778
+I don't think virtual prediction is able to solve everything.
+
+1255
+01:16:25.278 --> 01:16:28.998
+The only purpose, for me at least, why I do virtual prediction is I
+
+1256
+01:16:29.038 --> 01:16:33.018
+wanted to generate a virtual population cohort so that I can identify
+
+1257
+01:16:33.058 --> 01:16:35.398
+the important tissue regions for us to focus on.
+
+1258
+01:16:35.898 --> 01:16:39.317
+Because it's just not possible to generate the real spatial omics data for
+
+1259
+01:16:39.378 --> 01:16:43.158
+thousands of patients. However, we can use the virtual prediction as a start
+
+1260
+01:16:43.498 --> 01:16:46.828
+to localize which regions in the tissues are really
+
+1261
+01:16:46.898 --> 01:16:50.778
+important. And once we localize the proxy of the
+
+1262
+01:16:50.818 --> 01:16:54.278
+regions, we can conduct the real spatial omics experiment and
+
+1263
+01:16:54.398 --> 01:16:55.718
+investigate what is really going on.
+
+1264
+01:16:56.198 --> 01:16:58.198
+That is a method about doing virtual prediction.
+
+1265
+01:16:59.318 --> 01:17:00.138
+Yeah.
+
+1266
+01:17:00.198 --> 01:17:02.618
+Please. Thank you so much, Adam. Please.
+
+1267
+01:17:02.658 --> 01:17:04.558
+Hello. It's just a general question.
+
+1268
+01:17:04.678 --> 01:17:08.658
+So you showed that you did the enrichment analysis on the high
+
+1269
+01:17:08.738 --> 01:17:12.718
+correlation genes, but did you do the enrichment analysis on the
+
+1270
+01:17:12.758 --> 01:17:16.698
+low correlation genes as well? So which genes are badly predicted in
+
+1271
+01:17:16.738 --> 01:17:17.098
+general?
+
+1272
+01:17:17.498 --> 01:17:19.978
+All the genes which are not well predicted.
+
+1273
+01:17:20.218 --> 01:17:20.798
+Very good.
+
+1274
+01:17:22.058 --> 01:17:25.798
+No, I mean by default, we point to the
+
+1275
+01:17:25.858 --> 01:17:29.658
+main hallmarks, cancer hallmarks, that are well-predicted,
+
+1276
+01:17:29.898 --> 01:17:31.838
+but no. But I'll tell you what.
+
+1277
+01:17:32.958 --> 01:17:36.478
+There's some disappointing news here because a
+
+1278
+01:17:36.638 --> 01:17:40.278
+lot of the important immune genes that we would have
+
+1279
+01:17:40.418 --> 01:17:44.018
+loved to see in the predicted pathways are not
+
+1280
+01:17:44.078 --> 01:17:47.358
+necessarily inferable at the spatial
+
+1281
+01:17:47.618 --> 01:17:51.298
+resolution. And that is because they don't have a
+
+1282
+01:17:51.318 --> 01:17:54.918
+priori, a spatial variation, a large spatial
+
+1283
+01:17:54.958 --> 01:17:57.198
+variation. So think of the extreme case.
+
+1284
+01:17:57.278 --> 01:17:59.508
+If a gene has zero spatial variation,
+
+1285
+01:18:00.478 --> 01:18:02.808
+you cannot predict it. There's nothing to predict.
+
+1286
+01:18:02.808 --> 01:18:06.518
+There's no variation for the machines to predict upon.
+
+1287
+01:18:06.898 --> 01:18:09.418
+So there is no systematic comparison there then?
+
+1288
+01:18:09.758 --> 01:18:12.458
+It's like there is specific pathways that would be well predicted.
+
+1289
+01:18:12.858 --> 01:18:16.398
+For example, G2M checkpoint, like with the KI67, it's pretty well
+
+1290
+01:18:16.418 --> 01:18:20.258
+predicted. But let's say, I don't know, some other pathway like
+
+1291
+01:18:20.298 --> 01:18:21.018
+ME targets?
+
+1292
+01:18:22.378 --> 01:18:26.098
+So we know what is predictable and what is not, and that's the
+
+1293
+01:18:26.138 --> 01:18:30.018
+important thing, okay? Know your limitations, know where you are good,
+
+1294
+01:18:31.078 --> 01:18:32.698
+and work with that.
+
+1295
+01:18:32.738 --> 01:18:32.978
+Yeah.
+
+1296
+01:18:33.018 --> 01:18:33.998
+Think positive.
+
+1297
+01:18:34.238 --> 01:18:36.458
+Yeah. And just one suggestion, too.
+
+1298
+01:18:37.378 --> 01:18:41.158
+I would just reconsider the "path to hotness" name because I just
+
+1299
+01:18:41.218 --> 01:18:44.998
+Google and I'm afraid my IT team will ping me
+
+1300
+01:18:45.038 --> 01:18:45.358
+back.
+
+1301
+01:18:46.578 --> 01:18:47.758
+You afraid what? Sorry.
+
+1302
+01:18:47.898 --> 01:18:51.177
+So I Google "path to hotness" on Google.
+
+1303
+01:18:51.238 --> 01:18:51.478
+Yes.
+
+1304
+01:18:51.598 --> 01:18:53.238
+Google corrected for other stuff.
+
+1305
+01:18:54.078 --> 01:18:55.778
+Google corrected for?
+
+1306
+01:18:56.198 --> 01:18:59.998
+Like, just corrected. Like, it spelled it all other things.
+
+1307
+01:19:00.738 --> 01:19:02.357
+Okay. Thank you.
+
+1308
+01:19:02.428 --> 01:19:02.428
+Okay.
+
+1309
+01:19:02.798 --> 01:19:05.278
+Thank you so much. Yep. Thank you.
+
+1310
+01:19:06.558 --> 01:19:08.858
+Hey, how's it going? Kevin Boehm from Sloan Kettering. Great talks.
+
+1311
+01:19:09.618 --> 01:19:13.578
+My question is along the same lines around, I understand that
+
+1312
+01:19:13.598 --> 01:19:16.958
+you can identify cancer hallmarks, but to what extent can you identify subclonal
+
+1313
+01:19:17.478 --> 01:19:18.918
+determining phenotypic states?
+
+1314
+01:19:21.198 --> 01:19:23.350
+Do you want to answer, Mingqiao?Please.
+
+1315
+01:19:23.750 --> 01:19:25.330
+I don't think I can answer this question.
+
+1316
+01:19:25.710 --> 01:19:26.610
+Okay. So
+
+1317
+01:19:27.530 --> 01:19:30.770
+I do not know the answer. That remains to be studied.
+
+1318
+01:19:31.570 --> 01:19:34.830
+I think to understand the spatial
+
+1319
+01:19:34.850 --> 01:19:38.570
+organization of subclonal, you really need to be able to
+
+1320
+01:19:38.610 --> 01:19:42.380
+infer sequencing data on a spatial level,
+
+1321
+01:19:42.490 --> 01:19:44.830
+mutations, copy numbers, what have you.
+
+1322
+01:19:45.290 --> 01:19:49.250
+You can do it from spatial expression to some extent, but I'm not a
+
+1323
+01:19:49.330 --> 01:19:53.150
+big believer. So I think it's a very important question,
+
+1324
+01:19:53.250 --> 01:19:56.690
+but I don't think yet we have the means to answer it.
+
+1325
+01:19:56.990 --> 01:19:57.570
+Sweet. Thanks.
+
+1326
+01:19:58.010 --> 01:19:58.210
+Yeah.
+
+1327
+01:20:01.210 --> 01:20:03.850
+Jerry Lee from NCI. Nice to see you.
+
+1328
+01:20:04.190 --> 01:20:08.050
+That's a great talk. But the question is for Dr. Li.
+
+1329
+01:20:10.350 --> 01:20:13.510
+I may miss this. My question's about the
+
+1330
+01:20:14.110 --> 01:20:17.450
+models you developed. Were you able to
+
+1331
+01:20:17.510 --> 01:20:20.650
+distinguish different tumor cell
+
+1332
+01:20:20.710 --> 01:20:21.670
+populations
+
+1333
+01:20:22.590 --> 01:20:26.070
+with different genetic or epigenetic background
+
+1334
+01:20:26.130 --> 01:20:28.489
+without additional training data?
+
+1335
+01:20:29.770 --> 01:20:33.600
+So currently, the model is not able to distinguish that
+
+1336
+01:20:34.070 --> 01:20:37.730
+because, as you have seen in my talk, not all of the training data are obtained
+
+1337
+01:20:37.770 --> 01:20:41.350
+from spatial transcriptomics. So I do not have information on the
+
+1338
+01:20:41.370 --> 01:20:45.350
+epigenetic profiles. But all of the prediction models, I think, are very
+
+1339
+01:20:45.410 --> 01:20:49.380
+generic in nature. If we have spatial omics data that
+
+1340
+01:20:49.430 --> 01:20:53.070
+have the epigenetic information, we can do such training as
+
+1341
+01:20:53.130 --> 01:20:56.730
+well. So my lab has been collaborating with Dr.
+
+1342
+01:20:56.770 --> 01:21:00.210
+Yanxiang Dong at Penn, and Dr. Dong is an expert in
+
+1343
+01:21:00.270 --> 01:21:03.710
+developing spatial epigenetic technologies.
+
+1344
+01:21:03.760 --> 01:21:06.870
+And we have been applying our virtual prediction models to his
+
+1345
+01:21:07.350 --> 01:21:10.070
+datasets, and it works equally well.
+
+1346
+01:21:10.390 --> 01:21:13.900
+So we were able to computationally predict chromatin accessibility and
+
+1347
+01:21:13.970 --> 01:21:17.770
+epigenetic marks. But it's not at the population scale because the
+
+1348
+01:21:17.790 --> 01:21:19.890
+training data we have is still very limited at this point.
+
+1349
+01:21:21.330 --> 01:21:21.670
+Thanks.
+
+1350
+01:21:23.090 --> 01:21:26.930
+Thank you. If there's not, maybe we can still figure
+
+1351
+01:21:26.950 --> 01:21:29.370
+out. We have three minutes to answer questions.
+
+1352
+01:21:30.210 --> 01:21:31.930
+Where do I see the questions?
+
+1353
+01:21:32.229 --> 01:21:34.090
+They should be right on the monitor.
+
+1354
+01:21:34.730 --> 01:21:38.690
+But it's not. Oh, these
+
+1355
+01:21:38.730 --> 01:21:40.790
+are the questions. Oh my God, so many questions.
+
+1356
+01:21:42.070 --> 01:21:42.590
+Oh, God.
+
+1357
+01:21:43.570 --> 01:21:47.370
+Oh, here is something for you
+
+1358
+01:21:47.390 --> 01:21:48.610
+because I see TLSs.
+
+1359
+01:21:48.810 --> 01:21:49.290
+Oh, okay.
+
+1360
+01:21:49.430 --> 01:21:49.910
+I'm saved.
+
+1361
+01:21:50.910 --> 01:21:54.870
+So how do you know the detected aggregate of B and
+
+1362
+01:21:54.890 --> 01:21:58.870
+the T cells is TLS without IHC and
+
+1363
+01:21:59.230 --> 01:22:01.650
+IF for validation on the same sample?
+
+1364
+01:22:02.210 --> 01:22:05.110
+That is a good question. I don't think the
+
+1365
+01:22:05.950 --> 01:22:09.830
+calling of a TLS is accurate. I think a better name for it should
+
+1366
+01:22:09.870 --> 01:22:11.210
+be a lymphoid aggregate.
+
+1367
+01:22:12.410 --> 01:22:13.630
+That's another question.
+
+1368
+01:22:14.790 --> 01:22:15.810
+Or that's James?
+
+1369
+01:22:16.570 --> 01:22:17.450
+That is for me.
+
+1370
+01:22:17.590 --> 01:22:17.880
+Okay.
+
+1371
+01:22:17.880 --> 01:22:21.770
+COSY. So what is the resolution in map at which
+
+1372
+01:22:22.590 --> 01:22:26.030
+COSY operates? The resolution is eight micron.
+
+1373
+01:22:26.150 --> 01:22:27.970
+It's close to a single-cell resolution.
+
+1374
+01:22:30.290 --> 01:22:31.650
+Next one is also for me.
+
+1375
+01:22:31.750 --> 01:22:32.310
+Yes, go ahead.
+
+1376
+01:22:32.630 --> 01:22:36.010
+Can you extend your analysis to set pathological
+
+1377
+01:22:36.019 --> 01:22:38.630
+samples such as fine nodule
+
+1378
+01:22:39.770 --> 01:22:42.590
+aspirates and bone marrow peripheral
+
+1379
+01:22:43.250 --> 01:22:43.890
+smears?
+
+1380
+01:22:44.790 --> 01:22:48.550
+I have not tried that, so I don't have an answer for that question because I don't
+
+1381
+01:22:48.590 --> 01:22:50.190
+have access to this type of data.
+
+1382
+01:22:52.210 --> 01:22:54.430
+Did you consider these checkpoints?
+
+1383
+01:22:55.930 --> 01:22:56.830
+I have not.
+
+1384
+01:22:57.950 --> 01:23:01.910
+So yeah, we focused on PD-1, PD-L1, and then there is a question,
+
+1385
+01:23:02.370 --> 01:23:04.050
+and I think this will be the last one.
+
+1386
+01:23:04.490 --> 01:23:08.310
+Which spatial transcriptomic platforms is better
+
+1387
+01:23:08.370 --> 01:23:11.590
+to make an AI model? Would you like to?
+
+1388
+01:23:12.690 --> 01:23:16.110
+So I have experience working with all sorts of spatial omics platforms.
+
+1389
+01:23:16.550 --> 01:23:20.450
+And among all of the platforms I have tried so far, I prefer Xenium the best.
+
+1390
+01:23:21.390 --> 01:23:22.690
+I second that.
+
+1391
+01:23:22.810 --> 01:23:23.850
+You second that? Yeah.
+
+1392
+01:23:24.180 --> 01:23:27.050
+I second that, and I just want to say that now
+
+1393
+01:23:27.850 --> 01:23:31.270
+10x has released an all-gene Xenium
+
+1394
+01:23:31.350 --> 01:23:34.790
+platform, which I think should be amazing, and I'm
+
+1395
+01:23:34.830 --> 01:23:37.550
+nothing with 10x or anything,
+
+1396
+01:23:38.730 --> 01:23:40.730
+which I think could be extremely helpful.
+
+1397
+01:23:40.830 --> 01:23:44.190
+But in general, we found Xenium 5,000 to be
+
+1398
+01:23:44.290 --> 01:23:47.490
+a very powerful platform, and now with this
+
+1399
+01:23:47.970 --> 01:23:50.970
+new whole gene transcriptomic Xenium,
+
+1400
+01:23:52.470 --> 01:23:55.509
+that could be transformative. You want to see if there's any other question?
+
+1401
+01:23:55.530 --> 01:23:57.460
+I think there's one question for you, Doctor.
+
+1402
+01:23:57.510 --> 01:23:57.970
+Oh, for me?
+
+1403
+01:23:58.410 --> 01:23:58.590
+Yeah.
+
+1404
+01:23:58.790 --> 01:23:59.010
+Okay.
+
+1405
+01:23:59.470 --> 01:24:01.910
+How is the tumor hotness quantity
+
+1406
+01:24:03.050 --> 01:24:03.590
+defined?
+
+1407
+01:24:03.770 --> 01:24:04.070
+Okay.
+
+1408
+01:24:05.270 --> 01:24:09.170
+The tumor hotness or the tumor immune activation, we didn't invent the
+
+1409
+01:24:09.230 --> 01:24:13.090
+term hotness. Everyone talks about hot and cold tumors in the literature,
+
+1410
+01:24:13.210 --> 01:24:14.550
+right? So
+
+1411
+01:24:15.970 --> 01:24:19.910
+it's inferred by a level of enrichment of
+
+1412
+01:24:19.990 --> 01:24:23.830
+some immune activation signature, which we derived, and
+
+1413
+01:24:23.890 --> 01:24:25.650
+it's in this bio RV paper, and I
+
+1414
+01:24:26.710 --> 01:24:30.590
+didn't have time to explain. And the level of enrichment
+
+1415
+01:24:30.670 --> 01:24:34.510
+is normalized and calibrated to a scholar value between
+
+1416
+01:24:34.610 --> 01:24:36.890
+zero and one. Yes, please.
+
+1417
+01:24:37.330 --> 01:24:37.430
+Hi.
+
+1418
+01:24:38.050 --> 01:24:38.690
+Last question.
+
+1419
+01:24:39.170 --> 01:24:39.610
+So,
+
+1420
+01:24:40.510 --> 01:24:43.320
+just one comment and question. I think you said that
+
+1421
+01:24:45.270 --> 01:24:49.030
+predicting spatial expressions from H&amp;E is cheaper
+
+1422
+01:24:49.570 --> 01:24:53.270
+than doing molecular testing, but then on the other end, to
+
+1423
+01:24:53.310 --> 01:24:55.970
+produce that data, to even model that further-
+
+1424
+01:24:57.490 --> 01:24:58.460
+To produce that data?
+
+1425
+01:24:58.470 --> 01:24:59.430
+Produce that data-
+
+1426
+01:24:59.490 --> 01:24:59.630
+Yeah
+
+1427
+01:24:59.970 --> 01:25:03.950
+... using Xenium and Visium, it requires a lot of cost structure
+
+1428
+01:25:04.010 --> 01:25:05.810
+in place, funding, et cetera.
+
+1429
+01:25:06.770 --> 01:25:09.170
+How do you anticipate this whole technology
+
+1430
+01:25:09.970 --> 01:25:13.930
+of capturing the spatial transcriptomics or proteomics, first using
+
+1431
+01:25:14.170 --> 01:25:17.980
+Xenium or Visium, and then making models on top
+
+1432
+01:25:18.050 --> 01:25:18.450
+of it,
+
+1433
+01:25:20.070 --> 01:25:22.050
+being clinically translated in a
+
+1434
+01:25:23.290 --> 01:25:27.240
+cheaper way compared to just doing molecular testing?
+
+1435
+01:25:27.758 --> 01:25:31.658
+No, that's the whole idea, right? You only generate this
+
+1436
+01:25:31.778 --> 01:25:35.598
+training data once in principle. Well, you generate two
+
+1437
+01:25:35.638 --> 01:25:39.598
+free training data sets because you want to test and validate it, but then
+
+1438
+01:25:39.638 --> 01:25:42.938
+you're good to go for eternity just from the H&amp;E slides.
+
+1439
+01:25:43.038 --> 01:25:44.058
+That's the whole point.
+
+1440
+01:25:46.158 --> 01:25:49.978
+But would you be okay with just having it trained
+
+1441
+01:25:50.058 --> 01:25:51.058
+once and not
+
+1442
+01:25:51.898 --> 01:25:52.858
+trained again?
+
+1443
+01:25:54.098 --> 01:25:54.518
+That's okay.
+
+1444
+01:25:54.528 --> 01:25:54.528
+And-
+
+1445
+01:25:55.598 --> 01:25:58.638
+Of course, you can do that in a year or two or whatever,
+
+1446
+01:25:59.578 --> 01:26:03.438
+and it may be in different ethnic groups and things like that,
+
+1447
+01:26:03.538 --> 01:26:07.418
+but that's very cheap. You do it just once, and then you can
+
+1448
+01:26:07.478 --> 01:26:10.818
+run on thousands or ten thousands or whatever of
+
+1449
+01:26:11.758 --> 01:26:15.638
+patient slides, and you can get results in real-time with almost
+
+1450
+01:26:15.698 --> 01:26:19.538
+zero cost. There's no question that if you can do it, it's
+
+1451
+01:26:19.578 --> 01:26:23.238
+extremely valuable. We need to carefully understand the
+
+1452
+01:26:23.298 --> 01:26:26.478
+different population, different scanning machines, prospectively,
+
+1453
+01:26:26.878 --> 01:26:30.598
+whatever, how well we can do it. But if we can do it,
+
+1454
+01:26:30.798 --> 01:26:31.758
+that's huge.
+
+1455
+01:26:32.198 --> 01:26:35.678
+Right. So to scale the data to that level, to capture enough
+
+1456
+01:26:35.698 --> 01:26:39.538
+heterogeneity in each and every aspect that you mentioned, that
+
+1457
+01:26:39.578 --> 01:26:42.008
+requires a good amount of funding and-
+
+1458
+01:26:43.698 --> 01:26:43.948
+Of course
+
+1459
+01:26:44.257 --> 01:26:48.238
+... over the time it will pay off, but then how do we justify
+
+1460
+01:26:48.338 --> 01:26:48.998
+that to
+
+1461
+01:26:49.958 --> 01:26:50.658
+our community?
+
+1462
+01:26:52.538 --> 01:26:56.338
+I think it's a no-brainer. The value is
+
+1463
+01:26:56.358 --> 01:26:58.418
+tremendous. This is transformative.
+
+1464
+01:26:59.058 --> 01:27:02.358
+I'm not bothered at all by the ability to justify it.
+
+1465
+01:27:02.438 --> 01:27:02.918
+I'm just--
+
+1466
+01:27:03.818 --> 01:27:07.458
+Carefully, we need to test how good it will work.
+
+1467
+01:27:07.838 --> 01:27:11.638
+That's the thing. That we still need to study very carefully.
+
+1468
+01:27:12.078 --> 01:27:12.398
+Okay. Thank you.
+
+1469
+01:27:12.658 --> 01:27:15.838
+Oh, thank you. Last question, please.
+
+1470
+01:27:18.598 --> 01:27:20.898
+Hi, this is Ray from Inside. Very nice talk.
+
+1471
+01:27:21.338 --> 01:27:25.288
+So, I know when we're trying to train the AI model, we always make sure that the
+
+1472
+01:27:25.378 --> 01:27:26.738
+sample has a very good QC.
+
+1473
+01:27:27.798 --> 01:27:31.658
+But in the real clinical settings, so the sample QC is always at issue.
+
+1474
+01:27:32.198 --> 01:27:35.998
+So I want to know, have you had an understanding how the QC can affect-
+
+1475
+01:27:36.298 --> 01:27:36.438
+Yeah
+
+1476
+01:27:36.718 --> 01:27:38.378
+... the accuracy or the prediction?
+
+1477
+01:27:38.758 --> 01:27:41.718
+100%. I got you. I'm so sorry. Just because of the time.
+
+1478
+01:27:41.978 --> 01:27:44.718
+Would you like to answer first, or you want me to pitch in?
+
+1479
+01:27:45.088 --> 01:27:48.078
+Sure. I can answer this question because I thought a lot about that.
+
+1480
+01:27:48.518 --> 01:27:52.258
+If you remember my slide on the ecosystem of where I try to build, we start from
+
+1481
+01:27:52.378 --> 01:27:54.958
+QC of the pathology slides. That step is very
+
+1482
+01:27:55.018 --> 01:27:56.738
+important.
+
+1483
+01:27:56.778 --> 01:28:00.738
+And thank you so much, and I can only second and say that we
+
+1484
+01:28:00.858 --> 01:28:01.958
+also developed
+
+1485
+01:28:04.158 --> 01:28:07.998
+careful QC tools and measures. We show
+
+1486
+01:28:08.078 --> 01:28:11.928
+it in our upcoming Path to Space paper, which is--
+
+1487
+01:28:12.298 --> 01:28:16.278
+earlier versions are on bioRxiv, but the full version will come out in
+
+1488
+01:28:16.418 --> 01:28:18.438
+cell, I don't know, in two months or something.
+
+1489
+01:28:19.078 --> 01:28:22.558
+And if you look there, we have whole sections about
+
+1490
+01:28:22.778 --> 01:28:26.658
+QC measures, both on the slide quality
+
+1491
+01:28:26.738 --> 01:28:29.218
+scanning level and on the transcriptomics
+
+1492
+01:28:30.318 --> 01:28:30.738
+level
+
+1493
+01:28:31.758 --> 01:28:35.618
+and how they influence the quality
+
+1494
+01:28:35.678 --> 01:28:36.797
+of the prediction.
+
+1495
+01:28:38.038 --> 01:28:41.298
+Okay, so we did an in-depth study of that question.
+
+1496
+01:28:41.338 --> 01:28:43.538
+Thank you so much because it's very important.
+
+1497
+01:28:43.638 --> 01:28:43.868
+Thank you.
+
+1498
+01:28:44.198 --> 01:28:48.158
+So in reality, when patient slides come in, we will
+
+1499
+01:28:48.278 --> 01:28:52.178
+run QC and only if it's reasonable, we will aim
+
+1500
+01:28:52.218 --> 01:28:55.438
+to make predictions. If not, we'll say, "Guys, we are sorry.
+
+1501
+01:28:55.948 --> 01:28:59.718
+We can't trust our predictions on that and
+
+1502
+01:28:59.778 --> 01:29:03.178
+just do the sequencing or what have you." Okay?
+
+1503
+01:29:03.938 --> 01:29:04.678
+That's helpful. Thank you.
+
+1504
+01:29:05.158 --> 01:29:07.038
+Thank you so much. Thank you everyone.
+
+1505
+01:29:07.138 --> 01:29:10.598
+We are past the time and thanks to Dr.
+
+1506
+01:29:10.758 --> 01:29:11.077
+Zhu
+
+1507
+01:29:12.638 --> 01:29:14.688
+and yeah, Mingye

@@ -1,0 +1,17 @@
+# C-myc driven by differentiation factors in early-onset colorectal cancer (EOCRC)
+
+**Poster #**: 3326
+**Session**: Tumorigenesis Drivers
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Kazuaki Okamoto1, Yalda Naeini2, Anton Bilchik3, Dave Hoon1
+
+1Department of Translational Molecular Medicine, St. John’s Cancer Institute (SJCI), Providence St. John's Health Center (PSJHC), Santa Monica, CA,2Department of Surgical Pathology, PSJHC, Santa Monica, CA,3Department of Gastrointestinal and Hepatobiliary Surgery, PSJHC, Santa Monica, CA
+
+---
+
+Background: Early-onset colorectal cancer (EOCRC), patients diagnosed with CRC <50 yrs has become a rapidly increasing global threat in recent years. Generally, EOCRC is known for its high malignancy, characterized by advanced stages at diagnosis and often undifferentiated histological types. Despite numerous previous studies, its molecular pathological characteristics remain largely unexplored. The purpose of this study is to elucidate the progression mechanisms of EOCRC versus Late-onset CRC (LOCRC).
+Methods: To identify genes characteristic of EOCRC, an in silico analysis was conducted by comparing RNA-seq data from CRC patients aged aged &#8804;45 with those aged &#8805; 60 and using TCGA COAD/READ and GSE39582 CRC database. At the PSJHC, among patients who underwent primary tumor resection for CRC between 2018 and 2021, we then divided 30 patients into two groups using the cutoffs of 45 and 60 yrs of age, respectively. We then performed single-cell level spatial transcriptome analysis using Xenium(10X). Pathways were validated through these analyses using multiplex immunofluorescence (Akoya) staining and in vitro analysis with colon cancer cell lines.
+Results: In the in silico analysis, regulatory gene of cell differentiation exhibited significantly higher RNA expression in EOCRC patients compared to those with LOCRC. The expression levels of these genes are associated with poor overall survival. Furthermore, in vitro analysis demonstrated a significant increase in c-myc expression through the NF-&#954;B pathway and the promotion of tumor growth induced by the upregulation of the downstream differentiation factors. Additionally, it was demonstrated that the expression of differentiation factors and respective receptors are higher at the protein level in the EOCRC patients than the LOCRC patients (p<0.001). In multiplex immunofluorescence, significant correlation between the expression of differentiation factors and c-myc was observed.
+Conclusions: In EOCRC, differentiation factors were expressed at higher levels compared to LOCRC, suggesting that they upregulate c-Myc through the NF-&#954;B pathway. These differentiation factors may contribute to the poor prognosis observed in EOCRC versus LOCRC.

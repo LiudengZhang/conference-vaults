@@ -1,0 +1,17 @@
+# The copy number amplification of MYCL indicated activation of angiogenesis in small cell lung cancer
+
+**Poster #**: 1026
+**Session**: Biomarkers Predictive of Therapeutic Benefit 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Zihang Yuan, Jingwei Zhang, Yan Ju, Xingyuan Wu, Mantang Qiu, Xiao Li
+
+Department of Thoracic Surgery, Peking University People's Hospital, Beijing, China
+
+---
+
+Background: Amplification of MYC family genes (MYC/MYCN/MYCL), a common phenomenon in small cell lung cancer (SCLC), has been widely reported to promote tumor angiogenesis. However, previous studies mainly focused on MYC and MYCN, while the role of MYCL amplification remains largely unexplored due to relatively low frequency. Here we aim to characterize the distribution of MYCL amplification in SCLC and elucidate the potential mechanism related to angiogenesis.
+Methods: A total of 135 surgically resected SCLC patients with stage IA to IIIB were recruited from Peking University People&#8217;s Hospital. A triple-color MYC-paralogs FISH probe was used to assess amplification patterns of MYC family genes. The amplification status were defined in the samples with &#8805; 4 signals of each MYC-paralogs per cell in average. Immunohistochemistry (IHC, CD31/PAS) and multiplex IHC (mIHC, CD31/CD3/CD68/CD11b/PanCK/Ki67) were performed on tissue microarrays (TMA, n = 96) to quantify microvessel density (MVD) and endothelial cell proportion. Paired whole genome sequencing (WGS) and single-cell RNA sequencing (scRNA-seq) of SCLC patients (n = 20) were performed to define MYCL amplification status and cell proportion for functional analysis.
+Results: Among the 135 SCLC samples, a total of 9 samples were identified as MYCL-amplified samples (6.7%). A higher proportion of endothelial cells in MYCL-amplified samples (n = 7) were observed compared to non-amplified samples (n = 89, Mann-Whitney U test, p = 9.5&#215;10-3), as well as higher MVD in MYCL-amplified SCLC (p = 5.7&#215;10-3). To further explore potential mechanism, we performed scRNA-seq in MYCL-amplified (n = 6) and non-amplified (n = 14) SCLC samples based on WGS results. A total of 199,644 cells were clustered and annotated into 28 cell subtypes, and elevated vascular endothelial cell proportion were further confirmed in MYCL-amplified samples. Additionally, MYCL-amplified samples exhibited the activation of cell adhesion, endothelial cell migration and angiogenesis pathways, indicating the highly activated vasculature morphogenesis process associated with MYCL amplification. Meanwhile, we also found higher hypoxia signature scores in MYCL-amplified samples using AddModuleScore, as well as enhanced VEGF signaling-mediated communication from MYCL+ tumor cells to endothelial cells by CellChat, indicating that MYCL+ tumor cells may drive angiogenesis through the activated VEGF pathway in hypoxic tumor microenvironment.
+Conclusions: The amplification of MYCL exhibited higher endothelial proportion and elevated vascular density, potentially through activated interaction between hypoxic tumor and VEGF-induced angiogenesis, which may serve as potential biomarkers for anti-angiogenic therapy in SCLC.

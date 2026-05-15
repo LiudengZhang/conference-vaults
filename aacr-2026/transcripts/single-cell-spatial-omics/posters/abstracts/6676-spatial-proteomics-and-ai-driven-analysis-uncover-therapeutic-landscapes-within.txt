@@ -1,0 +1,14 @@
+# Spatial proteomics and AI-driven analysis uncover therapeutic landscapes within the glioblastoma microenvironment
+
+**Poster #**: 6676
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Nadine Nelson1, Hoyin Lai2, Sophie Struble2, Richard  A.  Heil-Chapdelaine2, Natasha  F.  Diaz Granados2, Arindam Bose2
+
+1Abcam, Cambridge, United Kingdom,2Leica Microsystems, Waltham, MA
+
+---
+
+Glioblastoma (GBM) is a highly aggressive and spatially heterogeneous brain tumor with limited treatment options and poor prognosis. Effective therapeutic targeting requires a deeper understanding of the tumor microenvironment (TME), particularly the spatial relationships between malignant, immune, and stromal compartments. To address this, we employed the Cell DIVE&#8482; multiplex immunofluorescence platform to perform high-plex spatial proteomic profiling of FFPE glioblastoma tissue section. A customized panel of directly conjugated recombinant antibodies from Abcam was optimized to interrogate markers relevant to tumor biology, immune modulation, and stromal architecture. Following iterative staining and imaging cycles, multi-channel, high-resolution images were analyzed using Aivia, an AI-powered image analysis platform. The workflow enabled accurate segmentation of tissue regions and quantification of spatial protein expression patterns across distinct anatomical zones within GBM. Spatial relationships among protein expression patterns revealed region-specific immune infiltration and phenotypic transitions at tumor-stromal interfaces. Co-localization and proximity analysis further identified potential immune evasion signatures and microenvironmental structures associated with resistance phenotypes. This integrative approach provides a scalable and clinically compatible method for spatially resolved proteomic analysis of complex tumor tissues. The combination of Cell DIVE&#8482; multiplex imaging, Abcam direct-conjugate antibodies, and Aivia-based analysis offers a powerful platform for dissecting the spatial biology of glioblastoma. The translational relevance of this study lies in its potential to inform biomarker development, guide spatially targeted therapies, and support precision medicine strategies in GBM. This methodology is well positioned for integration into clinical research workflows and large-scale translational studies, with potential to inform personalized treatment strategies across neuro-oncology and other solid tumors.

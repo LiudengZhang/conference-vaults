@@ -1,0 +1,18 @@
+# Spatial immune checkpoint profiling reveals predictive biomarkers of immunotherapy response in oral squamous cell carcinoma
+
+**Poster #**: 3932
+**Session**: Prognostic Biomarkers 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Shu-Han Yu1, Chih-Hung Ye1, Kah Yap Yi1, Thien-Long Le1, Le-Bao-Long Nguyen1, Patrick Chun Theng Chong1, Huai-Cheng Huang2, Ruey-Lomg Hong2
+
+1Institute of Biotechnology, National Taiwan University, Taipei, Taiwan,2Department of Oncology, National Taiwan University Hospital and College of Medicine, Taipei, Taiwan
+
+---
+
+Introduction: Oral squamous cell carcinoma (OSCC) remains a leading cause of cancer-related mortality in Taiwan. Despite the widespread use of surgery, radiotherapy, and chemotherapy, patient prognosis remains poor. Immunotherapy (IO) has demonstrated clinical benefit; however, only 15-20% of patients with recurrent or metastatic OSCC respond favorably. This underscores the urgent need for reliable biomarkers to guide patient selection and personalize treatment strategies.
+Methods: To investigate immune checkpoint dynamics associated with IO outcomes, we integrated single-cell RNA sequencing (scRNA-seq) to define immune signatures predictive of treatment response. These findings informed the design of a customized Opal multiplex immunohistochemistry (mIHC) panel to spatially map immune cell populations and checkpoint molecules within the OSCC tumor microenvironment. Paired pre- and post-IO tumor specimens from 18 OSCC patients treated with anti-PD-1 therapy were analyzed using this panel. Spatial data were subsequently processed with AI-assisted computational profiling to quantitatively assess immune cell infiltration and checkpoint expression patterns in situ.
+Results: Integrated analysis of scRNA-seq, mIHC, and AI-assisted spatial profiling identified seven immune checkpoint signatures significantly associated with improved survival, all representing distinct expression patterns within CD8&#8314; T-cell subsets. A risk scoring model integrating spatial immune cell densities with survival data successfully stratified patients into low- and high-risk groups, with the low-risk group demonstrating significantly longer overall survival (OS). Notably, the LAG-3&#8315;TIM-3&#8314;PD-1&#8314;CD8&#8314; T-cell population was enriched in high-risk patients and displayed an immune-desert phenotype prior to IO treatment.
+Conclusion: These results yield two key insights: (1) immune checkpoint signatures, not only PD-
+1/PD-L1 can be used to stratify OSCC patients with favorable survival outcomes, and (2) low-risk patients, they already have higher infiltrated T cells with the presence of co-inhibitory checkpoint molecules, whereas, the high-risk patients, post-IO treatment, they will have higher immune infiltation. Overall, our study highlights the prognostic value of integrated immune checkpoint expression profiling and supports the rationale for exploring combination immune checkpoint blockade strategies in OSCC.

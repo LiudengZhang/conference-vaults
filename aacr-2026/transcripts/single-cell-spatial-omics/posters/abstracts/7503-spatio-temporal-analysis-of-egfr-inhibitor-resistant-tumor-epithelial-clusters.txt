@@ -1,0 +1,18 @@
+# Spatio-temporal analysis of EGFR inhibitor resistant tumor epithelial clusters
+
+**Poster #**: 7503
+**Session**: Tumor Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Shuichi Watanabe1, Yoshiyuki Suehara1, Masachika Ikegami1, Soohwan Park1, Yo Kimura1, Toshihide Ueno1, Takuo Hayashi2, Hiroyuki Mano3, Kazuya Takamochi4, Shinji Kohsaka1
+
+1Division of Cellular Signaling, National Cancer Center Japan, Tokyo, Japan,2Department of Diagnostic Pathology, Juntendo University Hospital, Tokyo, Japan,3National Cancer Center Japan, Tokyo, Japan,4General Thoracic Surgery, Juntendo University Hospital, Tokyo, Japan
+
+---
+
+[Background]Drug-tolerant persister (DTP) cells are a reversible drug-insensitive tumor subpopulation implicated in minimal residual disease (MRD) and recurrence. However, their emergence mechanisms and therapeutic vulnerabilities remain unclear. We previously tracked clonal dynamics in vivo using genetic barcodes and showed that expansion of specific clones contributes to the resistance of EGFR inhibitors. Here, we analyzed non-small cell lung cancer treated with EGFR inhibitors to (1) identify treatment-resistant tumor cell populations and (2) elucidate spatial mechanisms underlying DTP cell emergence.
+[Methods]Tumor samples from the PIT3 trial (UMIN000026197) were analyzed before and after the neoadjuvant EGFR inhibitor therapy. Single-cell (sc) RNA-seq (n = 8) and Visium HD spatial transcriptomics (n = 10) were performed. Spatial datasets were processed using HueTracer (https://github.com/MANO-B/HueTracer), enabling extraction of single-cell-level expression profiles and integration with scRNA-seq.
+[Results]Integrated scRNA-seq analysis (8 specimens, 16,419 cells) identified multiple tumor epithelial clusters, including an EGFR-resistant subcluster enriched in poor responders. This subcluster showed a higher proportion of G1-phase cells, reduced EGFR, and elevated EMT-related genes, suggesting treatment-resistant phenotypes. Rare cells with similar transcriptional features were also detected in responders, indicating the presence of surviving DTP-like cells.
+Spatial transcriptomic analysis (20 specimens, 2,415,876 cells) identified tumor clusters and treatment-responsive regions characterized by island-like residual lesions with necrosis and desmoplasia. Small numbers of surviving cells were designated as DTP candidates and compared with other tumor epithelial cells. Across five cases, meta-analysis of differentially expressed genes revealed consistent upregulation of inflammation- and plasticity-related genes, including ILR-X, TF-X, LAMB3, and TXLNB (FDR < 0.05). GSEA showed enrichment of TNF-&#945;/NF&#954;B signaling, interferon response, EMT, and tissue remodeling pathways, indicating a shared inflammatory and plasticity-enhanced state in DTP candidates.
+[Conclusion]Single-cell and spatial analyses demonstrate that DTP-like cells persisting after EGFR inhibitor therapy exhibit a shared molecular phenotype characterized by heightened inflammation and epithelial plasticity. These features may underlie microscopic residual disease capable of driving post-treatment recurrence, supporting the concept of DTP cells as a potential therapeutic target.

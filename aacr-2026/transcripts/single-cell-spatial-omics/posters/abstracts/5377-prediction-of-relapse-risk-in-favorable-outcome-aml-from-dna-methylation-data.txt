@@ -1,0 +1,18 @@
+# Prediction of relapse risk in favorable outcome AML from DNA methylation data
+
+**Poster #**: 5377
+**Session**: Prognostic Biomarkers 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jamie Endicott1, Ruslan Strogantsev2, CRISTINA TOGNON2, Hisham Mohammed2, Elie  A.  Traer3
+
+1CEDAR, OHSU Knight Cancer Institute, Portland, OR,2OHSU Knight Cancer Institute, Portland, OR,3Instructor, Ctr. for Hematologic Malignancies, Oregon Health & Science University, Portland, OR
+
+---
+
+In patients diagnosed with acute myeloid leukemia (AML), several genetic profiles are designated as &#8216;favorable outcome&#8217; such as presence of NPM1 mutation or certain translocations. Despite sharing these genetic commonalities, many patients still relapse.
+Due in part to the high frequency of AML driver mutations occurring in genes involved in epigenetic regulation, we profiled genome wide DNA methylation for blood and bone marrow specimens from favorable risk AML patients at diagnosis, follow-up, remission, and relapse.
+We identified differentially methylated regions (DMRs) present at diagnosis and remission which separated patients on relapse outcome. These DMRs were enriched in biologically meaningful chromatin regions (e.g. association with certain modifications) and some overlap genes with previously demonstrated significance for patient outcome.
+Interestingly, many of the remission time point DMRs had effect sizes much greater than we would expect from minimal residual disease present in the bulk sample, suggesting a shift in normal cell populations or stem cell compartment between outcome groups. We further profiled DNA methylation in single cells to investigate cell state composition and heterogeneity across the course of disease.
+Further, we created a DNA methylation-based predictor of relapse risk that again separates patients at diagnosis and remission. Our findings have the potential for utility both in treatment strategy approaches and in better understanding the biology of relapse in AML.

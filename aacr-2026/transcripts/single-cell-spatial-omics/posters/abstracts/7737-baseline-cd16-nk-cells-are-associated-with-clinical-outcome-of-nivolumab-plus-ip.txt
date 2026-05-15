@@ -1,0 +1,18 @@
+# Baseline CD16+ NK cells are associated with clinical outcome of nivolumab plus ipilimumab immunotherapy in advanced hepatocellular carcinoma
+
+**Poster #**: 7737
+**Session**: Biomarkers Predictive of Therapeutic Benefit 6
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Hongjae Chon1, Narim Lee2, Hannah Yang1, Junho Kang3, Won Suk Lee1, So Jung Kong1, Beodeul Kang1, Jung Sun Kim1, Ho Yeong Lim1, Jung Kyoon Choi3, Chan Kim1
+
+1CHA Bundang Medical Center, Seongnam, Korea, Republic of,2CHA University, Seongnam, Korea, Republic of,3Department of Bio and Brain Engineering, KAIST, Daejeon, Korea, Republic of
+
+---
+
+Background: Combination immunotherapy of nivolumab plus ipilimumab (Nivo/Ipi) has shown durable responses in advanced hepatocellular carcinoma (HCC). However, reliable biomarkers predicting clinical benefit remain limited. CD16&#8314; (Fc&#947;RIIIa) NK cells mediate antibody-dependent cellular cytotoxicity (ADCC) and may influence the efficacy of Ipi, a human IgG1 monoclonal antibody. We investigated whether baseline peripheral CD16&#8314; NK cell levels correlate with clinical outcomes in advanced HCC patients receiving Nivo/Ipi.
+Method: Patients with advanced HCC were prospectively enrolled from 4 tertiary cancer centers in Korea from Mar 2020 to Aug 2023. Patients received Nivo 1 mg/kg plus Ipi 3 mg/kg every 3 weeks (4 cycles) followed by Nivo maintenance (240 mg every 2 weeks). Peripheral blood mononuclear cell samples were collected at baseline and on day 22 (Cycle 2 Day 1 [C2D1]) and analyzed by flow cytometry. Patients were classified into high and low CD16&#8314; NK groups based on a cut-point determined by maximally selected rank statistics. Single-cell RNA sequencing from 10 responders and 20 non-responders was performed to identify transcriptional correlates of treatment response.
+Results: 55 patients were enrolled and analyzed. Most patients were male (82%) with Hepatitis B virus infection (81.8%), and preserved liver function (Child-Pugh A 78.2%, B 21.8%). 74.5% had received &#8805;2 prior systemic therapies, and 23.6% were immunotherapy na&#239;ve. The median follow-up duration was 38.7 months (range, 18.3-50.1). Median progression-free survival (PFS) was 1.3 months (95% CI, 1.2-1.7), and median overall survival (OS) was 4.7 months (95% CI, 3.8-9.1). Although there were no differences in total NK cell numbers between responders and non-responders (p = 0.139), baseline CD16&#8314; NK cells were significantly higher in responders. The high CD16&#8314; NK group showed superior objective response rate (60% vs
+17.8%, p = 0.012), disease control rate (70% vs 26.7%, p = 0.023), and longer PFS (14.4 months, 95% CI 1.4-not reached [NR], p = 0.017) and OS (14.7 months, 95% CI 1.4-NR, p = 0.079). High baseline CD16+ NK cell proportion were associated with the decline of regulatory T cells at C2D1, suggesting enhanced ADCC by Ipi. Consistently, single cell analysis also revealed higher baseline CD16+ expression in NK cells at baseline in responders than non-responders. Independent validation of these findings is ongoing.
+Conclusion: Baseline peripheral CD16&#8314; NK cell levels were significantly associated with improved clinical outcomes in advanced HCC patients treated with Nivo/Ipi. High CD16&#8314; NK cell frequency correlated with higher response rates and prolonged survival, potentially through enhanced ADCC and suppression of regulatory T cells. These findings suggest that baseline CD16&#8314; NK cells may serve as a predictive biomarker for Nivo/Ipi in HCC, warranting further validation cohorts.

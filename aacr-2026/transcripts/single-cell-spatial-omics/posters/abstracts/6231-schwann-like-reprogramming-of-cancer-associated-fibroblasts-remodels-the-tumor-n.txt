@@ -1,0 +1,14 @@
+# Schwann like reprogramming of cancer associated fibroblasts remodels the tumor neural niche in pancreatic ductal adenocarcinoma
+
+**Poster #**: 6231
+**Session**: Tumor-Neuron Interactions and Neuro-Regulation of Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Liu YANG, Xinxing Cui, Shuangying Qiao, Yun HE, Zonghua Su, Zheng CHEN, Feng DING, Aiping LU, Fangfei Li
+
+Hong Kong Baptist University, Hong Kong, China
+
+---
+
+Pancreatic ductal adenocarcinoma (PDAC) has a significantly higher incidence of peripheral neuropathy compared to other cancers, which is associated with local recurrence and a poor prognosis for PDAC patients. Notably, Schwann cells, the principal glia of peripheral nerves, are critically involved in this process due to their multifaceted roles in tumorigenesis and neural remodeling. Nevertheless, the biological sources of the increased Schwann cell population and overall increased neuronal density in PDAC are still mainly unknown. Here by employing an integrative approach combining single-cell RNA sequencing, immunofluorescence, and functional assays, we revealed a novel neural reprogramming of cancer-associated fibroblasts (CAFs) in PDAC: the Fibroblast-Schwann Transition (FST), through which a subset of CAFs directly transdifferentiates into Schwann-like states. The FST was confirmed by pseudotime trajectory analysis, which showed a cell fate transition from CAFs to Schwann-like cells. Multiplex immunofluorescence of patient tumors identified transitional interface cells co-expressing canonical Schwann and CAF markers, which is consistent with the computational inference. Furthermore, in the co-culture of tumor cells and CAFs, CAFs developed Schwann-like features, with upregulation of Schwann-cell genes, highlighting their profound plasticity. To figure out the regulatory driver of this process, SCENIC analysis identified key fibroblast-specific transcription factors as critical regulators of the FST program. Additionally, a Schwann-like phenotype was induced in vitro by overexpressing the candidate transcription factor in CAFs, as evidenced by decreased CAF-associated gene expression and increased Schwann-cell markers.Overall, our findings suggest that the FST is a biological process associated with the increased neuronal density observed in PDAC. This study identifies a previously unknown cellular plasticity mechanism in the tumor microenvironment and proposes that targeting FST could be a potential therapeutic strategy for treating peripheral neuropathy in PDAC.This work is supported by the Hong Kong RGC Theme-based Research Scheme (No. T12-201/20-R, HongKong, China), Hong Kong General Research Fund (No. 12102722, HongKong, China), and the 2020 Guangdong Provincial Science and Technology Innovation Strategy Special Fund (No. 2020B1212030006, GuangDong, China).

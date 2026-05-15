@@ -1,0 +1,12 @@
+# Improve spatial transcriptomic data with integrated hybrid transformer and graph convolutional networks
+
+**Poster #**: 1476
+**Session**: Integrative Computational Approaches 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Steven Yan1, Limin Jiang1, Yan Guo21University of Miami Miller School of Medicine, Miami, FL,2University of Miami, Miami, FL
+
+---
+
+Spatial transcriptomics technologies have revolutionized genomics by enabling the measurement of gene expression while preserving the spatial context of cells within tissues. However, their utility is limited by restricted gene coverage and high operational costs. To overcome these challenges, we previously developed generative AI approaches for imputing gene expression [1] and DNA methylation [2]. Building on this foundation, we now present TransGCN, a hybrid neural network model that integrates transformer architectures with graph convolutional networks to enhance spatial transcriptomic datasets through high-fidelity gene expression imputation. For example, TransGCN can expand a 500-gene Xenium panel to more than 1,500 to 2,000 genes. We systematically evaluated TransGCN across three leading spatial transcriptomic platforms: 10x Genomics Visium HD, Xenium, and Bruker CosMx, and six tissue types, including lung, brain, breast, skin, colon, and ovarian. Beyond previously leveraged features (e.g., 3D chromatin interactions from Hi-C, biological pathways, transcription factor networks, and protein-protein interactions), we incorporated spatial and housekeeping features derived from scRNA-seq (19,363 cells) and bulk RNA-seq (418,074 samples). Compared with existing imputation tools, TransGCN consistently achieved higher accuracy while enabling the recovery of a broader gene set, thereby substantially extending the analytical power of spatial transcriptomics.References1. Yan, F.Y., et al., Reinventing gene expression connectivity through regulatory and spatial structural empowerment via principal node aggregation graph neural network. Nucleic Acids Research, 2024. 52(13).2. Yan, F., et al., Genome-wide methylome modeling via generative AI incorporating long- and short-range interactions. Sci Adv, 2025. 11(15): p. eadt4152.

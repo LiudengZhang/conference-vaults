@@ -1,0 +1,17 @@
+# Defining the intertumoral and intratumoral transcriptional heterogeneity of EWS::FLI1 in Ewing sarcoma
+
+**Poster #**: 635
+**Session**: Developmental Origins, Drivers, and Heterogeneity in Pediatric Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Rachael Hinshaw1, Zachary  P.  Tolstyka1, Susan M. Kitchen-Goosen2, Seneca Kinn-Gurzo3, Rebecca Kaufman3, Maggie Chasse3, Elizabeth Wilson3, Gretchen Lam1, Stephanie The1, Elissa Boguslawski1, Patrick  J.  Grohar1
+
+1Pediatrics, University of Michigan, Ann Arbor, MI,2Van Andel Institute (VAI), Grand Rapids, MI,3Children's Hospital of Philadelphia, Philadelphia, PA
+
+---
+
+Introduction: Ewing sarcoma (ES) is an aggressive pediatric bone and soft tissue cancer that is absolutely dependent on the EWS::FLI1 fusion transcription factor. Despite this dependency, ES tumors demonstrate substantial variability in EWS::FLI1 transcriptional activity both across tumors and within individual tumors. Here, we investigate the inter- and intra-tumoral heterogeneity of EWS::FLI1 and its functional importance.
+Methods: We established a highly optimized siRNA knockdown protocol for EWS::FLI1 in 6 preclinical ES cell line models to achieve equal levels of suppression and evaluate differences in induced and repressed transcriptional targets and DNA binding events of EWS::FLI1. In order to investigate underlying mechanisms driving resistance, we employed state-of-the-art techniques including Cleavage Under Target (CUT&#38;Tag), single nuclei RNA sequencing, and spatial transcriptomics of preclinical cell line models and ES patient samples to characterize the inter- and intra-tumoral heterogeneity of EWS::FLI1.
+Results: Differential expression analysis of 6 cell lines with knockdown of EWS::FLI1, revealed that each cell line exhibited as many unique induced targets as shared ones, and repressed targets were even more cell line specific. The heterogeneity was functionally important as cell migration and migration signatures varied among the 6 models. Knockdown of EWS::FLI1 resulted in increased migration in one cell line and impaired migration in other cell lines. Intratumoral heterogeneity was also evident in single cell data with multiple transcriptional clusters evident in different proportions across the models. These different clusters also appear to be functionally important as at least two clusters resisted suppression by the EWS::FLI1 targeted agent, trabectedin, in patient samples collected on a recent trial. The heterogeneity was rooted in a combination of cell line specific EWS::FLI1 DNA binding events determined by CUT&#38;Tag, cell specific copy number variants (CNV), and cofactor expression.
+Conclusion: Our data suggests that EWS::FLI1 exhibits highly unique transcriptional activity between models which leads to a heterogeneous representation of target genes. In patients, EWS::FLI1 heterogeneity leads to the expression of a high-risk population of cells resistant to EWS::FLI1 targeting. We are working to understand mechanisms driving the high-risk population of ES cells and identify new druggable targets for these transcriptionally distinct tumor cell populations.

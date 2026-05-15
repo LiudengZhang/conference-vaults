@@ -1,0 +1,14 @@
+# DDR2-CAR macrophages reprogram the tumor microenvironment and normalize vasculature to potentiate antitumor immunity
+
+**Poster #**: 7929
+**Session**: Tumor Microenvironment Modulators
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Dandan WANG
+
+Guangzhou Medical University, Guangzhou, China
+
+---
+
+The immunosuppressive extracellular matrix (ECM) of solid tumors is a major barrier to effective antitumor immunity, primarily by fostering immune exclusion. Targeting cancer-associated fibroblasts (CAFs), particularly via discoidin domain receptor 2 (DDR2), has emerged as a strategic avenue to overcome this barrier. Here, we engineered DDR2-targeted chimeric antigen receptor macrophages (DDR2-CAR-M) to leverage macrophage infiltration capacity and disrupt ECM-mediated immunosuppression. In vitro studies demonstrated robust DDR2-CAR adenoviral transduction efficiency (>95%) in primary mouse bone marrow-derived macrophages, with flow cytometry confirming M1 polarization within 48 hours post-transduction. In murine models, immunofluorescence and in vivo imaging revealed elevated DDR2 expression in the ECM of LLC subcutaneous tumor, MC-38 subcutaneous tumor, and U87MG orthotopic glioblastoma model. Tumor growth curves demonstrated significant suppression of lung and colorectal cancers following DDR2-CAR-M combination therapy. Mechanistic investigations using single-cell RNA sequencing, pathological analysis, and flow cytometry indicated a marked activation of immune-related signaling pathways in the CAR-M treatment group, characterized by a significant increase in CD8+ T cells and dendritic cells, suggesting that CAR-M-mediated targeting of CAFs can effectively convert immunologically "cold" tumors into "hot" ones. Furthermore, DDR2-CAR-M remodeled the tumor microenvironment by inhibiting aberrant angiogenesis and promoting vascular normalization, enhancing antigen presentation by macrophages, and promoting T-cell infiltration. These findings establish DDR2-CAR-M as a novel immunotherapeutic approach for solid tumors through stromal reprogramming and immune microenvironment optimization.

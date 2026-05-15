@@ -1,0 +1,17 @@
+# Deep learning reveals hidden pan-cancer drug signatures across the brain-gut axis through latent space modeling of 6.6 million single-cell perturbations
+
+**Poster #**: 5472
+**Session**: Deep Learning in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Noha Samir Ismail1, Kourosh Salehi-Ashtiani2
+
+1New York University-Abu Dhabi / New York University-New York, Abu-Dhabi, NY,2New York University-Abu Dhabi, Abu Dhabi, United Arab Emirates
+
+---
+
+The brain-gut axis represents a bidirectional communication network increasingly recognized in cancer pathogenesis, yet shared therapeutic vulnerabilities between brain and gastric cancers remain unexplored. We applied deep learning on massive single-cell data to discover the drugperturbation signatures that elicit concordant responses across both tumor types.
+We trained a Compositional Perturbation Autoencoder (CPA) on 6.6 million single-cell RNA-sequencing profiles from four cancer cell lines: two brain glioblastomas (A-172, H4) and two gastric carcinomas (KATO III, SNU-1), treated with 332 drugs from the Tahoe-100M dataset. The model compressed high-dimensional transcriptional responses into 128-dimensional latentrepresentations, capturing the complex drug-specific transcriptional perturbation signatures while removing confounders through adversarial training. We computed cross-tissue similarity scores between brain and gastric cancer responses in a learned latent space, capturing complex nonlinear patterns. Additionally, non-Negative Matrix Factorization (NMF) was applied todiscover data-driven pathway modules, and Gene Set Enrichment Analysis (GSEA) validated biological convergence using MSigDB pathway databases.
+The model achieved a validation R&#178; of 0.74 for gene expression prediction, with effective disentanglement of biological and technical confounders. We identified 49 pan-cancer drug candidates exhibiting high cross-tissue concordance (similarity > 0.7), including FDA-approved agents and investigational compounds. Top candidates included Erythromycin (similarity 0.752), Lonafarnib (0.747), and Capmatinib (0.742), exhibiting pathway module similarity of (0.78- 0.79). Furthermore, NMF revealed 15 latent pathway modules, with modules 7 and 15 significantly enriched in pan-cancer candidates (Spearman &#961; = 0.118, p < 0.05). GSEAconfirmed convergence on inflammatory (NF-&#954;B/IL-6), proliferation (RAS/MAPK), and survival (MET/mTOR) pathways (FDR < 0.05).
+This work establishes a framework for discovering shared therapeutic vulnerabilities across anatomically distinct cancers in the brain-gut axis. The identified pan-cancer signatures provide mechanistically validated candidates for repurposing and rational combination therapy development in both brain and gastric malignancies. Deep learning enabled critical capabilities impossible with traditional bioinformatics:(1) automatic confounder removal via adversarial training, (2) discovery of functional drug similarity in compressed latent space capturing nonlinear response patterns, (3) unsupervised pathway module identification from learned representations. This enables mechanism-agnostic discovery of clinically validated pan-cancer therapeutics. AI tools were used in data analysis and editing this abstract.

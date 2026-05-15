@@ -1,0 +1,17 @@
+# Smad deficiency impacts chemotherapeutic responses through alterations in immuno-stromal microenvironment of pancreatic adenocarcinoma
+
+**Poster #**: 1048
+**Session**: Biomarkers Predictive of Therapeutic Benefit 2
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Chih Chieh Yen1, Ying Jui Chao2, Ping Jui Su2, Ting Kai Liao2, Wei Hsun Lu2, Zhe Wei Hsu3, Chien Jui Huang4, I Ting Liu1, Wen Yen Huang5, Yan Shen Shan2, Chia Jui Yen1
+
+1Department of Oncology, National Cheng Kung University Hospital, Tainan, Taiwan,2Department of Surgery, National Cheng Kung University Hospital, Tainan, Taiwan,3Department of Pathology, National Cheng Kung University Hospital, Tainan, Taiwan,4Division of Gastroenterology and Hepatology, Department of Internal Medicine, National Cheng Kung University Hospital, Tainan, Taiwan,5Institute of Clinical Medicine, National Cheng Kung University, Tainan, Taiwan
+
+---
+
+Background: Pancreatic adenocarcinoma (PDAC) is a devastating cancer with a dismal prognosis. Preoperative chemotherapy (PreOP_CT) has reshaped the treatment paradigm. However, factors influencing therapeutic responses and immune/stromal alterations have not been established. Smad family exerts pivotal biological actions through transforming growth factor-&#946; (TGF&#946;) axis and affects tumor microenvironment (TME), yet the correlation with therapeutic responses has not been fully explored.
+Methods: We explored a prospective cohort of patients with resectable PDAC who received PreOP_CT. Genomic aberrations of the Smad family in the TGF&#946; axis were assessed and compared for clinical outcomes. Single-cell RNA sequencing delineated the immuno-stromal alterations in Smad-deficient vs. -proficient tumors.
+Results: Fifteen of 106 patients had Smad-deficient tumors and showed reduced tumor regression, higher metastatic progression and adverse survival as compared with -proficient ones. SMAD4 or TGFBR2/3 mutations were observed in Smad-deficient tumors. Smad deficiency correlated with different enrichments of tumor-infiltrating immune cells (TIMCs) and cancer-associated fibroblasts (CAFs). Collectively, inflammatory and antigen-presenting CAFs were distinctive in the deficient tumors and presented with immune evasive actions.
+Conclusion: Smad deficiency influences therapeutic and surgical outcomes in PreOP_CT-treated PDAC. The Smad family potentially affects TIMCs and CAFs, potentiating an immune evasive and profibrotic TME. The results provide insight into a putative biomarker for PreOP therapies in PDAC.

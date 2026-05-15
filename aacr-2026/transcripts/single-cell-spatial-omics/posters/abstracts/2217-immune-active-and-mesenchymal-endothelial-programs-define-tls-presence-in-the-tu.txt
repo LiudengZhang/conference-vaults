@@ -1,0 +1,17 @@
+# Immune-active and mesenchymal endothelial programs define TLS presence in the tumor microenvironment
+
+**Poster #**: 2217
+**Session**: Tertiary Lymphoid Structures in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Shoko Kure1, Giorgia Brambilla Pisoni1, Saba Tabasum1, Xiaoyu Li1, Jingjing Li1, Yao Yu Yeo2, Sizun Jiang2, Harrison Olszewski3, Nicholas  C.  Weaver3, Kathleen  L.  Pfaff3, Jason  L.  Weirather4, Ian  D.  Dryg4, Scott  J.  Rodig5, Frank  S.  Hodi1
+
+1Medical Oncology, Dana-Farber Cancer Institute, Boston, MA,2Center for Virology and Vaccine Research, Beth Israel Deaconess Medical Center, Boston, MA,3Tissue Biomarker Lab, Dana-Farber Cancer Institute, Boston, MA,4Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA,5Department of Pathology, Brigham & Women's Hospital, Boston, MA
+
+---
+
+Introduction: Tertiary lymphoid structures (TLSs) are ectopic lymphoid formations. In cancer, they promote antitumor immunity by supporting B-cell maturation, antibody production, and sustained T-cell activation. TLSs can convert immunologically non-inflamed tumors into inflamed ones. However, the vascular and molecular cues that govern TLS induction in human tumors remain poorly defined.
+Methods: Formalin-fixed paraffin-embedded tissue sections from twelve primary lung adenocarcinomas were analyzed. Tumor-associated vasculature was histologically annotated and stratified into three categories based on TLS status: (1) noTLS (absence of TLS), (2) iTLS (presence of immature TLS), and (3) mTLS (presence of mature TLS). GeoMx spatial transcriptomics was performed on endothelial regions. Protein-level validation was conducted using sequential immunofluorescence on the COMET platform.
+Results: Endothelial cells in noTLS regions showed high expression of COL5A1, COL3A1, FN1, ERRFI1, COL1A1, IFI6, SPP1, MDK, and BGN, whereas CXCL13 and CCL19 were enriched in mTLS. Gene-set analyses revealed that noTLS endothelium exhibited a myofibroblast-like, extracellular matrix-producing, EndoMT-associated program consistent with a fibrotic, immunosuppressive microenvironment. In contrast, mTLS endothelium displayed immune-activated signatures aligned with lymphoid organogenesis and fibroblastic reticular cell-like function. Receptor-ligand analysis showed preferential Wnt signaling in noTLS, while chemokine signaling dominated in mTLS. COMET immunofluorescence confirmed that FN1 was highly expressed in noTLS regions, whereas CXCL13 was highly expressed in mTLS.
+Conclusion: Tumor endothelial cells display striking context-dependent plasticity. noTLS vasculature undergoes EndoMT and adopts a matrix-producing, immunosuppressive phenotype that may actively suppress TLS formation. Conversely, mTLS endothelium acquires immune-organizing properties that favor TLS maturation and lymphoid compartmentalization. These findings identify endothelial reprogramming as a potential therapeutic strategy to induce TLSs and enhance response to immune checkpoint blockade.

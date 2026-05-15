@@ -1,0 +1,14 @@
+# Targeting OSMR signaling networks for precision oncology
+
+**Poster #**: 3300
+**Session**: RTK-ERBB-PI3K and New Targets in Therapeutic Resistance
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Pradeep Chaluvally-Raghavan
+
+Medical College of Wisconsin, Milwaukee, WI
+
+---
+
+Oncostatin M (OSM) is a member of the IL-6 cytokine subfamily that binds to the Oncostatin M receptor (OSMR) and activates JAK/STAT-mediated oncogenic signaling. Our single-cell RNA sequencing (scRNA-seq) revealed that OSMR is highly expressed in tumor epithelial cells, whereas its ligand, OSM, is predominantly produced by tumor-associated macrophages. Our data established that OSM-induced STAT3 activation was markedly more robust than that induced by other IL-6 family ligands, leading to enhanced OSMR-driven cellular invasion, migration, and tumor growth. Overall, our findings highlight OSMR signaling as a promising therapeutic vulnerability in ovarian cancer. To address the lack of OSMR-targeted treatments, this study aims to develop a monoclonal antibody that blocks OSMR signaling in cancer cells without harming normal epithelial, stromal, or immune cells. We employed sc-RNA seq, clinical samples and signaling pathway analysis to characterize how OSMR serves as a signaling addiction mechanism in cancer cells. To elucidate the mechanism of actions, we performed live-cell image analysis, receptor dimerization assays, in-cell Western analyses and in vivo tumor growth assays.Our data shows that anti-OSMR antibody effectively blocked the binding of the ligand OSM to OSMR and subsequently inhibited OSMR dimerization with IL6ST. We also observed that OSMR antibody induced internalization and cytoplasmic degradation of OSMR, resulting in a marked reduction in STAT3 activation, tumor cell invasion, tumor growth, and metastasis. Transcriptome-based analyses, along with in vitro and functional assays, further revealed that cisplatin-resistant ovarian cancer cells express significantly higher levels of OSMR compared to cisplatin-sensitive cells, and that these resistant cells depend on OSMR signaling for aggressive tumor growth. Consistently, the treatment of anti-OSMR antibodies sensitized cancer cells to cisplatin therapy both in vitro and in vivo.In sum, our studies demonstrate that OSMR represents a therapeutically targetable driver of highly aggressive and chemo-resistant ovarian cancers. We also observed an elevated expression of OSMR in pancreatic cancer, glioblastoma, and stomach adenocarcinoma, suggesting a broader clinical applicability of OSMR therapy. Based on the promise of our anti-OSMR therapy in vivo, we are actively developing antibody-drug conjugates (ADCs) and bispecific T-cell engagers (BiTEs) of OSMR antibody to further enhance its antitumor efficacy.

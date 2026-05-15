@@ -1,0 +1,17 @@
+# Tumor-associated CD207+ cDC2 drives TLS formation via TNF family cytokines in non-small cell lung cancer
+
+**Poster #**: 2221
+**Session**: Tertiary Lymphoid Structures in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Youngtaek Kim1, Gang-Taik Lee2, Dong Kwon Kim2, JuHyeon Lee2, So Young Park2, Jae Hwan Kim3, Hyun Jung Yoo2, Byoung Chul Cho3
+
+1Yonsei University College of Medicine, Seoul, Korea, Republic of,2Department of Research Support, Yonsei Biomedical Research Institute, Seoul, Korea, Republic of,3Yonsei New Il Han Institute for Integrative Lung Cancer Research, Seoul, Korea, Republic of
+
+---
+
+Background: Dendritic cells (DCs) are specialized antigen-presenting cells that orchestrate innate and adaptive immunity, and within the tumor microenvironment (TME) they extend their function to modulate anti-tumor immune responses. The heterogeneity of DCs underlies their diverse immune functions, with conventional type 2 DCs (cDC2s) showing particularly high phenotypic and functional complexity, which enables context-dependent immune modulation. However, the characteristics and functions of tumor-associated DCs remain incompletely defined. Elucidating how these subsets arise and function could broaden our understanding of tumor immunity and contribute to the development of effective cancer immunotherapies.
+Methods: Tumor tissues (n=35) and adjacent normal tissues (n=24) from treatment-na&#239;ve, EGFR-wildtype NSCLC patients were enzymatically dissociated and subjected to single-cell RNA sequencing using the 5&#8242; Chromium platform (10x Genomics). Trajectory and SCENIC analyses were performed to delineate cDC2 lineage programs. Functional validation included differentiation of CD207+ DCs from human monocytes, co-culture with HUVECs, and multiplex IHC (mIHC) on FFPE tumor slides from NSCLC patients. Deconvolution analyses of TCGA-LUAD and an in-house immunotherapy bulk RNA-seq cohort were conducted to assess clinical relevance.
+Results: We identified 10 transcriptionally distinct DC subtypes and found that CD207+ cDC2s were markedly enriched in tumors. Trajectory analysis defined CD207+ cDC2s as a distinct TME-enriched lineage characterized by reduced NF-&#954;B signaling, chemotaxis, and T cell-regulatory programs, while enhanced TNF superfamily cytokine production and retinoic acid metabolism. SCENIC analysis implicated RARA/RXRA as key regulators of CD207+ cDC2 differentiation. CD207+ cDC2 frequency correlated with higher immune cell infiltration, especially CXCL13+ T cells. Consistently, LTB expression in CD207+ cDC2 correlated with high endothelial venule (HEV) and tertiary lymphoid structure (TLS) gene signatures, suggesting a role in lymphoid organization. Functionally, monocyte-derived CD207+ DCs induced adhesion molecules in endothelial cells in vitro, and mIHC confirmed that their co-localization with HEVs and increased TLS density. Higher CD207+ cDC2 abundance was associated with improved survival and immunotherapy response, highlighting their specialized role within TME in supporting lymphoid structuring and favorable outcomes in EGFR-wildtype NSCLC.
+Conclusion: CD207+ cDC2s constitute a distinct TME-enriched DC subtype that mediates endothelial activation and drives HEV and TLS formation via LTB. Their enrichment in tumors correlates with improved survival and enhanced immunotherapy response, indicating that CD207+ cDC2s promote lymphoid organization and favorable immune outcomes in EGFR-wildtype NSCLC.

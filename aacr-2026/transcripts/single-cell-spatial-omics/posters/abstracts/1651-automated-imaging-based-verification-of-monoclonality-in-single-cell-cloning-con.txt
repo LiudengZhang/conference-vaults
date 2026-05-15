@@ -1,0 +1,17 @@
+# Automated imaging-based verification of monoclonality in single-cell cloning confirms higher efficiency of the Pala single cell sorter and dispenser compared to limiting-dilution assays
+
+**Poster #**: 1651
+**Session**: Antibody Technologies and Platforms 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Ahmed Shaaban1, Benjamin Werdelmann2, Anna Willms2, Matthias Pirsch2, Sebastian Kollenda2, Aleks Guledani2, Ankit Vaghasiya2, Susanne Sebens3, Ryan McComb1, Reinhild Geisen2
+
+1Bio-Techne, San Jose, CA,2Synentec GmbH, Elmshorn, Germany,3Institute for Experimental Cancer Research and University Hospital Schleswig-Holstein Campus Kiel, Kiel, Germany
+
+---
+
+Establishing monoclonal cell lines is a common process in cancer research and drug discovery, ensuring genetic uniformity and reproducibility in functional assays, therapeutic antibody production, and clinical manufacturing. However, isolating single cells and confirming their monoclonal origin remain major bottlenecks due to the low efficiency and high hands-on time of conventional limiting-dilution assays (LDA). We therefore assessed a workflow combining the Pala Single Cell Sorter and Dispenser (Bio-Techne) with SYNENTEC&#8217;s automated imaging system for reliable, traceable proof of monoclonality and compared it to LDA.
+One cell per well was dispensed into 10 &#215; 96-well plates using Pala, and parallel LDA controls were prepared at 0.5 cells/well. We used CHO-K1 cells as the main production cell line as a robust cell model for process validation, before testing the system with cancer cell lines. Wells were automatically imaged on days &#8722;1, 0, 1, 4, and 8 using SYNENTEC&#8217;s high-throughput imaging system. Automated segmentation, clone tracking, and confluence analysis were performed with YT-SOFTWARE&#174;. Wells were classified as clonal, non-clonal, empty, or &#8216;ghost&#8217; based on initial and subsequent images. Single-cell dispensing efficiency, colony formation rate, and growth kinetics were compared between methods.
+Pala dispensing yielded 828 monoclonal colonies versus 329 from LDA, representing a >2.5-fold increase. The average number of monoclonal wells per 96-well plate was higher (71.2 vs. 32.8), while the number of non-clonal (7.2 vs. 13.4) and empty wells (16.6 vs. 49.5) was reduced. Average clonal outgrowth per single cell (89.8&#8239;% vs. 78.4&#8239;%) and growth rate (0.86 vs. 0.83) were higher for Pala, indicating gentle handling and improved viability. The automated workflow reduced hands-on time and provided clear documentation for regulatory compliance.
+Combining Pala single-cell dispensing with SYNENTEC&#8217;s automated imaging enhances clonal yield, efficiency, and traceability while reducing resource consumption. This approach accelerates the establishment of standardized, reproducible cell models and supports high-throughput biotherapeutic and translational oncology research.

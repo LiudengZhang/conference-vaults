@@ -1,0 +1,17 @@
+# Spatially resolved lineage and microenvironmental remodeling define metastatic progression in oral squamous cell carcinoma
+
+**Poster #**: 3768
+**Session**: Circulating Tumor Cells, Metastasis, and Dissemination Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Chung Ji LIu1, Hui-Wen Cheng2, Li-Han Lin2, Kuo-Wei Chang3
+
+1Department of Oral and Maxillofacial Surgery, Mackay Memorial Hospital, Taipei, Taiwan,2Department of Medical Research, Mackay Memorial Hospital, Taipei, Taiwan,3School of Denstry, National Yang Ming Chiao Tung University, Taipei, Taiwan
+
+---
+
+Background: Lymph node metastasis is the strongest prognostic factor in oral squamous cell carcinoma (OSCC), yet the spatially coordinated cellular programs that drive metastatic evolution remain insufficiently defined. Conventional bulk and single-cell transcriptomic methods cannot preserve tissue architecture or resolve how malignant, stromal, and immune compartments interact in situ.
+Methods: We performed Visium spatial transcriptomics on 20 OSCC tissue specimens, including normal epithelium, primary tumors without nodal metastasis (N&#8315;), primary tumors with nodal metastasis (N&#8314;), and metastatic lymph nodes. SpatialCpie was used to estimate intra-spot cellular composition, CellChat to infer intercellular signaling networks, and Monocle3 to reconstruct epithelial lineage trajectories across the metastatic continuum.
+Results: Spatial mapping revealed that invasive tumor fronts contained mixed malignant epithelial, fibroblast, and immune populations, distinguishing them from more homogeneous tumor cores. Pseudotime analysis demonstrated a continuous epithelial lineage progression from normal to metastatic states, accompanied by increased epithelial plasticity and downregulation of differentiation-associated markers. Stromal profiling showed a shift toward matrix-remodeling fibroblast phenotypes positioned adjacent to invasive epithelial regions. Metastatic lymph nodes exhibited reduced cytotoxic T-cell signatures and expansion of B-lineage populations, indicating immune suppression within the metastatic niche. Integrated signaling analysis revealed a coordinated communication axis linking epithelial state transition, stromal activation, and immune remodeling during metastatic progression.
+Conclusions: This spatially resolved framework identifies metastatic OSCC as a dynamically evolving multicellular ecosystem shaped by epithelial plasticity, stromal reprogramming, and immune adaptation. These findings provide mechanistic insight into the development of nodal metastasis and highlight microenvironmental features with potential biomarker and therapeutic relevance.

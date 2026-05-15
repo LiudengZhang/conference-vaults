@@ -1,0 +1,12 @@
+# Single-cell liquid biopsy profiling in mCRPC receiving PSCA-targeted CAR-T cell therapy
+
+**Poster #**: 3746
+**Session**: Biomarkers Predictive of Therapeutic Benefit 4
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Doanna Minh Pham1, Stephanie Nicole Shishido1, Saul  J.  Priceman2, Tanya  B.  Dorff3, Peter Kuhn41USC - University of Southern California, Los Angeles, CA,2University of Southern California, Los Angeles, CA,3City of Hope Comprehensive Cancer Ctr., Los Angeles, CA,4Assoc. Professor, Dept. of Cell Bio., University of Southern California, Los Angeles, CA
+
+---
+
+Metastatic castration-resistant prostate cancer (mCRPC) represents an aggressive, treatment-refractory stage of prostate cancer with limited treatment options and poor prognosis. Chimeric antigen receptor (CAR)-T cell therapy has demonstrated success in hematological malignancies, but its efficacy in solid tumors is limited by tumor microenvironment (TME) barriers and tumor cell heterogeneity. In this study, we applied a single-cell enrichment-free liquid biopsy platform to monitor disease progression and CAR-T cell response in mCRPC patients enrolled in a Phase 1 clinical trial (NCT03873805). Using fluorescent whole-slide imaging (fWSI), we analyzed peripheral blood (PB) and bone marrow aspirate (BMA) from eight patients (four responders and four nonresponders) collected longitudinally before, during, and after therapy. Two key findings emerged: 1) lymphodepletion mobilized circulating tumor cells (CTCs) from bone marrow into PB, altering compartment-specific cellularity regardless of response, and 2) clearance of clonal CTCs after CAR-T cell infusion occurred in responders but not in nonresponders. Single-cell analyses further revealed that PB and BMA captured distinct CTC subtypes, underscoring the complementary value of both compartments for monitoring. This multi-omic analysis leverages high-resolution single-cell liquid biopsies to characterize circulating rare cells, such as CTCs and their subtypes, to correlate them with clinically observed responses to CAR-T cell therapy in mCRPC.

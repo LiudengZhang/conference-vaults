@@ -1,0 +1,17 @@
+# Methodology and clinical validation of a centrifugation-free microfluidic isolation platform for circulating tumor cell clusters in cancer patients
+
+**Poster #**: 3776
+**Session**: Circulating Tumor Cells, Metastasis, and Dissemination Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Jason Chia-Hsun Hsieh1, Pei-Hung Chang2, Tzu Keng Chiu3
+
+1Chang Gung Memorial Hospital at Linkou, Taoyuan, Taiwan,2Chang Gung Memorial Hospital at Keelung, Taipei City, Taiwan,3Chang Gung University, Taoyuan, Taiwan
+
+---
+
+BACKGROUND: Circulating tumor cell (CTC) clusters are aggregates of tumor cells found in the peripheral blood and are typically linked to unfavorable clinical outcomes. However, current technologies capable of isolating, counting, or culturing these clusters without prior blood processing remain limited.
+METHODS: We developed a microfluidic single-cell-picking system that enables isolation of cells without sample preparation or centrifugation, thereby preserving their native morphology and viability. Unlike conventional centrifugation or bead-based enrichment&#8212;which often compromises fragile clusters&#8212;this platform combines real-time fluorescence-activated droplet extraction with coordinate-guided picking to selectively retrieve single cells and intact clusters for downstream multi-omics investigation.
+RESULTS: The system demonstrated a linear recovery efficiency of 93% (R&#178; = 0.9985) and sustained higher levels of cell viability and metabolic function compared with magnetic bead-based techniques. In clinical testing, it distinguished cancer patients from healthy individuals based on CTC and CTC-cluster counts, underscoring its value for liquid biopsy applications and precision oncology.
+CONCLUSION: This proof-of-concept work indicates that a gentle, preprocessing-free microfluidic strategy can effectively isolate and characterize both single cells and intact clusters, offering insights into metastatic biology and enhancing the potential of clinical diagnostic tools.

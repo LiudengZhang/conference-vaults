@@ -1,0 +1,14 @@
+# Dosage-dependent adaptations to Complex I mutations in cancer cell lines
+
+**Poster #**: 2680
+**Session**: Application of Bioinformatics to Cancer Biology 3
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Neil Ruthen1, Ziad El Bakouny2, Amy Shepherd3, Sonia Boscenco1, Benan Nalbant2, Caleb Lareau2, Payam Gammage4, Ed Reznik2
+
+1Weill Cornell Grad. School of Medical Sci., New York, NY,2Memorial Sloan Kettering Cancer Center, New York, NY,3Cancer Research UK Scotland Institute, Glasgow, United Kingdom,4Payam Gammage (Individual), Glasgow, United Kingdom
+
+---
+
+Chemical or genetic perturbations of the electron transport chain can evoke profound changes in cellular state. However, whether heteroplasmic mtDNA mutations, which are positively selected in cancer cells and present only in a fraction of the total mtDNA pool, promote dosage-dependent transcriptional or epigenetic adaptations is unknown. To characterize how such mutations impact cancer cell phenotypes, we performed single-cell DOGMA-seq profiling of nine murine cancer cell lines representing five tissue types engineered with m.12426G>A Complex I mutations using TALE-ddBCEs. Each cell line exhibits a full range of heteroplasies, enabling the application of continuous models to describe the quantitative relationship between gene expression or accessibility and heteroplasmy. Using meta-analysis techniques, we identified genes that show consistent, statistically significant transcriptional adaptation with increasing heteroplasmy across cell lines. Two pathways were particularly enriched for lineage-agnostic transcriptional adaptations: glycolysis and iron-response transcriptional elements. Given that non-monotonic, threshold-triggered gene expression patterns have been reported in cells with large mtDNA deletions, we asked whether gene expressions varied non-linearly with respect to heteroplasmic Complex I mutations and whether threshold-triggered effects were conserved across cell lines. Leveraging segmented regression techniques, we identified hundreds of threshold-triggered genes, of which the overwhelming majority are transcribed more frequently when heteroplasmy levels exceed the inferred threshold. These results imply the existence of conserved adaptations to Complex I mutation heteroplasmy and describe bona fide mitochondrial threshold effects.

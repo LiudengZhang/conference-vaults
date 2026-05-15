@@ -1,0 +1,21 @@
+# Spatial Transcriptomics reveals core resistance niches distinguishing non-MPR from MPR in NSCLC after neoadjuvant chemoimmunotherapy
+
+**Poster #**: 4952
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Seo Hye Park1, Jeongbin Park1, Hongyoon Choi1, Jaemoon Koh2, Taeyoung Yun3, Jihyeon Park3, Bubse Na3, Samina Park3, In Kyu Park3, Chang Hyun Kang3, Young Tae Kim3, Kwon Joong Na1
+
+1Portrai, Inc., Seoul, Korea, Republic of,2Department of Pathology, Seoul National University Hospital, Seoul, Korea, Republic of,3Department of Thoracic and Cardiovascular Surgery, Seoul National University Hospital, Seoul, Korea, Republic of
+
+---
+
+Background
+Neoadjuvant chemoimmunotherapy (nCIT) is increasingly used in NSCLC. Major pathologic response (MPR) is a robust prognostic marker, yet bulk or single&#8209;cell assessments of residual tumor do not capture how spatially heterogeneous TMEs yield non&#8209;MPR. Using FFPE Visium CytAssist spatial transcriptomics, we defined tissue&#8209;scale core resistance niches distinguishing MPR from non&#8209;MPR after nCIT and asked whether these niches delineate spatially targetable compartments.
+Methods
+FFPE resections from 10 nCIT&#8209;treated patients were profiled; MPR status followed IASLC criteria. Blocks were selected by residual tumor burden (MPR 5-10%; non&#8209;MPR 70-90%). We compared global programs (DEG, GSEA/Reactome, cell&#8209;cycle), inferred cell composition (cell2location), analyzed context&#8209;specific ligand-receptor and metabolic states, and spatially mapped resistance axes (DDR, NRF2/ferroptosis, MDR/ABC) and TACSTD2 (TROP2).
+Results
+Non&#8209;MPR activated cell&#8209;cycle/transcription/DNA&#8209;repair programs and showed a proliferative landscape, whereas MPR was ECM/immune&#8209;enriched and quiescent. Deconvolution mapped deep T&#8209;cell/myeloid infiltration into MPR cores/borders, while non&#8209;MPR cores remained epithelial&#8209;dense. Ligand-receptor mapping showed immune&#8209;recruiting ECM-integrin/syndecan and CX3CL1-ITGAV at MPR boundaries but LGALS9-HAVCR2, MIF-CD74, and TIMP1-CD63 within non&#8209;MPR cores, extending into peritumor tissue. Non&#8209;MPR exhibited hyper&#8209;metabolic, antioxidant&#8209;buffered states (glycolysis, OXPHOS/TCA, glutathione), with differences attenuating in cancer&#8209;only analyses, implicating TME contribution; resistance axes were higher in non&#8209;MPR and formed contiguous core hotspots. TROP2 was core&#8209;enriched in a subset and often overlapped NRF2/MDR&#8209;high niches with low signal in adjacent non&#8209;tumor, although TROP2&#8209;independent resistant cores were also observed.
+Conclusion
+Spatial transcriptomics defined non&#8209;MPR by a core&#8209;centered, resistance&#8209;rich TME that is proliferative, immune&#8209;suppressive, and metabolically flexible, contrasting with the immune&#8209;permissive, quiescent landscape of MPR. Dismantling core resistance niches, restoring immune access, and tempering metabolic buffering emerge as organizing principles for overcoming residual disease. TROP2&#8209;aligned cores represent a compartment&#8209;selective subset, whereas TROP2&#8209;independent cores argue for complementary strategies.

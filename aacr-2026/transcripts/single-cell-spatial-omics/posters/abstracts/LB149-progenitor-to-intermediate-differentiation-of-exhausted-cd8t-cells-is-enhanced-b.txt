@@ -1,0 +1,14 @@
+# Progenitor-to-intermediate differentiation of exhausted CD8+T cells is enhanced by HPK1 inhibition during anti-PD-1 therapy
+
+**Poster #**: LB149
+**Session**: Late-Breaking Research: Immunology 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Yong Joon Lee1, Seung Hyuck Jeon2, Seungmook Lim3, Minwoo Jeon1, Heejin Nam4, A Yeong Park3, Boeun Gu3, Jee Ye Kim5, Seung Il Kim5, Jeon Yeob Jang6, Chul-Ho Kim6, Shin Hwang7, Gi-Won Song7, Jae-Ho Cheong5, Byung Soh Min5, Su-Hyung Park4, Seong Il Seo8, Jinhwa Lee3, Minyong Kang8, Jae Eun Kim3, Eui-Cheol Shin9
+
+1CHA Bundang Medical Center, Seongnam, Korea, Republic of,2Seoul National University Bundang Hospital, Seongnam, Korea, Republic of,31ST Biotherapeutics, Inc., Yongin, Korea, Republic of,4Korea Advanced Institute of Science and Technology, Daejeon, Korea, Republic of,5Severance Hospital, Seoul, Korea, Republic of,6Ajou University School of Medicine, Suwon, Korea, Republic of,7Asan Medical Center, Seoul, Korea, Republic of,8Samsung Medical Center, Seoul, Korea, Republic of,9Korea Advanced Institute of Science and Technology, Deajeon, Korea, Republic of
+
+---
+
+Cancer treatment has been transformed by immunotherapies that enhance anti-tumor T-cell responses. Here we demonstrate that highly selective inhibition of the intracellular immune checkpoint HPK1 improves the efficacy of anti-PD-1/PD-L1 blockade. Single-cell profiling of ex vivo antigen-stimulated T cells reveals that HPK1 inhibition expands tumor-specific clones that substantially overlap with those responsive to PD-1 blockade. HPK1 inhibition induces progenitor exhausted CD8+ T cells (TPEX cells) to differentiate and acquire phenotypic and functional features of intermediate exhausted CD8+ T cells (TIEX cells). In a mouse tumor model, HPK1 inhibition enhances TPEX cell expansion in tumor-draining lymph nodes and migration to tumors during PD-1 blockade. Moreover, HPK1 inhibition promotes lymph node TPEX cells&#8217; differentiation into tumor TIEX cells during PD-1 blockade, highlighting an underappreciated immunotherapy mechanism. Our findings reveal that HPK1 inhibition induces progenitor-to-intermediate differentiation of exhausted CD8+ T cells, enhancing the efficacy of anti-PD-1/PD-L1 blockade.

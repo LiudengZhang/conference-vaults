@@ -1,0 +1,17 @@
+# Tumor Treating Fields (TTFields) potentiate antitumor and immune responses to standard immunochemotherapy in non-small cell lung cancer models
+
+**Poster #**: 4456
+**Session**: Drug Combinations, Repurposing, and Differentiation
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Boris Brant1, Yiftah Barsheshet1, Tali Voloshin1, Tal Kan1, Tharwat Haj Khalil1, Simona Zisman-Rozen1, Lilach Koren1, Avital Vorontsov1, Bella Koltun1, Cfir David1, Anat Klein-Goldberg1, Efrat Zemer-Tov1, Adi Haber1, Moshe Giladi1, Uri Weinberg2, Yoram Palti1
+
+1Novocure Ltd, Haifa, Israel,2Novocure GmbH, Baar, Switzerland
+
+---
+
+Introduction: Tumor Treating Fields (TTFields) are low-intensity alternating electric fields that disrupt mitotic processes in cancer cells, promoting downstream immunogenic cell death (ICD), and leading to activation of antitumor immunity. TTFields are approved for treatment of metastatic non-small cell lung cancer (NSCLC) following progression on platinum-based chemotherapy, together with immune checkpoint inhibitors (ICIs) or docetaxel. The ongoing LUNAR-2 trial (NCT06216301) is evaluating first-line TTFields with the anti-PD-1 pembrolizumab and platinum-based chemotherapy in metastatic NSCLC. The present study assessed the therapeutic efficacy and immunological effects of TTFields administered alongside anti-PD-1, cisplatin, and pemetrexed (PCP) in preclinical NSCLC models.
+Methods: Human A549 NSCLC cells were exposed to TTFields (150 kHz, 1.7 V/cm RMS, 72 h) with or without cisplatin and pemetrexed (CP; 1.5 and 6.3 &#181;M, respectively). Cell count, apoptosis (assessed by annexin V/7-AAD staining), and ICD markers surface calreticulin exposure and ATP depletion (quinacrine staining) were evaluated by flow cytometry In vivo, C57Bl/6 mice were orthotopically implanted with LL/2 lung carcinoma cells and allowed seven days for tumor establishment. The mice were then randomized into four groups: control, TTFields, anti-PD-1/cisplatin/pemetrexed (PCP), or TTFields + PCP. Treatment included continuous TTFields (150 kHz) or sham (heat) for 10 days and intraperitoneal injections of anti-PD-1 (10 mg/kg), cisplatin (1 mg/kg), and pemetrexed (6 mg/kg) or vehicle every 72 hours (three doses). Tumor localization was confirmed by MRI at study initiation, and at study end tumors were measured (MRI and weight) and processed to single cell suspensions for flow cytometric analysis of tumor-infiltrating lymphocytes. IFN-&#947; and granzyme B expression in CD8&#8314; T cells were assessed following PMA/ionomycin stimulation.
+Results: Chemotherapy at the tested doses exerted minimal cytotoxic or pro-apoptotic effects on A549 cells and negligibly induced ICD. TTFields exposure reduced cell counts, increased apoptosis, and enhanced ICD markers, including calreticulin exposure and ATP depletion; however to a higher extent in the presence of CP chemotherapy. In vivo, TTFields or PCP each limited tumor growth compared with controls, while the concomitant regimen resulted in the smallest tumor volumes. Both PCP and TTFields + PCP increased tumor infiltration of CD3&#8314; T cells, particularly CD8+. The TTFields + PCP group showed the highest proportion of IFN-&#947;- and granzyme B-producing CD8&#8314; T cells, indicating an elevated cytotoxic immune response.
+Conclusions: TTFields enhanced the antitumor and immunostimulatory effects of standard immunochemotherapy in NSCLC preclinical models, supporting its therapeutic potential as an immune-modulating modality.

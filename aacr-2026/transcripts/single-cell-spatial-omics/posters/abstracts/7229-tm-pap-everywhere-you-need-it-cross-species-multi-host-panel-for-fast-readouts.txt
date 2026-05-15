@@ -1,0 +1,14 @@
+# TM-PAP, everywhere you need it: Cross-species, multi-host panel for fast readouts
+
+**Poster #**: 7229
+**Session**: Tumor Diagnostics, Prognostics, and Therapeutic Outcomes
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yue Huang, Xiaomeng Gou, Yao Peng, Jinying Ning, Feng Hao
+
+Kyinno Biotechnology Co., LTD, Beijing, China
+
+---
+
+Prostatic acid phosphatase (PAP, a.k.a. ACP3) is a convenient, druggable antigen for rapid assay development when displayed on the cell surface as TM-PAP (membrane-localized PAP). Compared with ad-hoc antigen systems, a standardized, cross-species TM-PAP panel enables reliable head-to-head testing of antibody and small-molecule formats across hosts and species barriers. Such models accelerate mechanism confirmation (binding, internalization), effector biology (ADCC/ADCP/CDC), payload delivery (ADC, RIC), and analytical assays (qFACS titering, IHC controls), while providing clean negative controls via isogenic ACP3-KO backgrounds.We assembled 15 engineered models spanning four species variants (human, mouse, rat, cynomolgus) across eight host lineages: human cancer and producer lines (LNCaP, VCaP [pools], PC3, HT-1080, 293T) plus bioproduction/rodent oncology backbones (CHO-K1, MC38, CT26). The panel includes LNCaP-ACP3-KO (isogenic negative control); human TM-PAP in PC3, HT-1080, 293T, CHO-K1, MC38, and CT26; ortholog panels in 293T/CHO-K1 for mouse, rat, and cynomolgus TM-PAP; and LNCaP-ACP3 and VCaP-ACP3 for rapid screening when single-cell cloning is unnecessary. The platform now supports both in vitro and in vivo workflows: multiple hosts (e.g., LNCaP, PC3, HT-1080, MC38, CT26) are established for murine xenograft/syngeneic studies, and the remaining lines are compatible with in-vivo deployment or serve as system controls, enabling end-to-end evaluation from binding/internalization to pharmacology and efficacy.Species-matched TM-PAP cDNAs were integrated to generate stable lines (clones or pools), with expression verified by flow cytometry (FACS) and routine QC (mycoplasma-free, STR-authenticated where applicable). The ACP3-KO line was created by CRISPR/Cas9. Typical readouts include high-throughput binding EC&#8325;&#8320;, pH-sensitive internalization, and Fc-mediated functions using human or rodent effectors, plus analytic controls for IHC/ELISA. This panel lets teams (i) standardize antigen-centric screening across species, (ii) de-risk cross-reactivity and matrix effects before animal work, and (iii) compress assay setup time from weeks to days&#8212;bringing &#8220;TM-PAP, everywhere you need it&#8221; to early discovery, CMC-adjacent analytics, and translational method development.

@@ -1,0 +1,17 @@
+# Itaconate promotes memory CD8+ T cell development by epigenetic modification and glucose flux redirection in viral infection and cancer
+
+**Poster #**: 159
+**Session**: Immune Cell Biology and Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Xiao Yang, Mengyao Su, Jiacheng Wang, Yue Deng, Lingyi Kong, Kunyu Yang, Chao Wan
+
+Huazhong University of Science and Technology, Wuhan, China
+
+---
+
+Background: Coordinated metabolic alterations and epigenetic remodeling are known to critically influence T cell fate decisions and functional states. However, the specific extrinsic metabolic signals that guide CD8+ T cell memory differentiation remain to be fully elucidated.
+Methods: Na&#239;ve CD45.1&#8314; OT-I CD8&#8314; T cells were adoptively transferred into Listeria monocytogenes-infected CD45.2 mice to track in vivo differentiation trajectories. Tumor-infiltrating CD8&#8314; T cells were analyzed by single-cell RNA sequencing to delineate T cell subclusters. Mechanistically, we profiled global chromatin accessibility of CD8&#8314; T cells under itaconate treatment using ATAC-seq, revealing its epigenetic remodeling effects. Through a combination of surface plasmon resonance (SPR) and complementary biochemical assays, we demonstrated that itaconate directly binds to lysine demethylase 5B (KDM5B) and functionally antagonizes &#945;-ketoglutarate (&#945;-KG). Furthermore, metabolic flux analyses, along with direct measurements of NADPH and GSH levels, confirmed that itaconate drives metabolic reprogramming in CD8&#8314; T cells to sustain redox balance and memory differentiation capacity.
+Results: We found that itaconate, induced during immune responses, is a critical promoter of memory T cell (TM) differentiation. Mechanistically, itaconate directly binds to KDM5B and acts as an &#945;-KG antagonist, competitively inhibiting KDM5B-dependent demethylation of H3K4me3. This inhibition leads to increased chromatin accessibility at genes essential for TM cell differentiation. Furthermore, itaconate redirects glucose flux from glycolysis to the PPP, thereby ensuring high levels of NADPH and glutathione in TM cells to alleviate oxidative stress.
+Conclusions: Our results identify itaconate as a key immunometabolic regulator that promotes durable immune memory in viral infections and cancer by concurrently modulating epigenetic programming and metabolic fitness. This machinery presents a potential therapeutic target to enhance the stem-like phenotype and persistence of CAR T cells.

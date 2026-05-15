@@ -1,0 +1,17 @@
+# Senescent cancer-associated fibroblasts drive perineural invasion and pain in pancreatic ductal adenocarcinoma
+
+**Poster #**: 6221
+**Session**: Tumor-Neuron Interactions and Neuro-Regulation of Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Jinpeng Lu1, Ziyi Tu1, Shuncang Zhu1, Hongyi Lin1, Yinhao Chen1, Yiting Chen2, Zuwei Wang1, Haoxiang Zhang1, Shi Chen1
+
+1Shengli Clinical Medical College of Fujian Medical University, Fuzhou, China,2College of Biological Science and Engineering, Fuzhou University, Fuzhou, Fujian 350108, People's Republic of China, Fuzhou, China
+
+---
+
+Background Pain in pancreatic ductal adenocarcinoma (PDAC) correlates with perineural invasion (PNI), severely impairs quality of life, and predicts poor prognosis. The mechanisms driving this PNI-pain axis, particularly the role of senescent cancer-associated fibroblasts (senCAFs), and effective therapies remain elusive.
+Methods We correlated pain scores (NRS) with PNI (IHC/IF) in two PDAC cohorts. Single-cell/spatial transcriptomics and lipidomics were performed and cross-validated with external datasets. Human/murine senCAFs were co-cultured with tumor cells, dorsal root ganglion (DRG) neurons, and patient-derived organoids (PDOs), with neuronal activity assessed via patch-clamp electrophysiology. In vivo studies utilized orthotopic models with fibroblast-specific knockouts, evaluated by behavioral and nociceptive analyses.
+Results Higher pain grades strongly correlated with increased PNI, nerve density, and poor prognosis. scRNA-seq and spatial analyses revealed p16+ senCAFs enriched near nerves, confirmed by flow cytometry in painful tumors. Orthotopic co-inoculation with senCAFs induced nociceptive hypersensitivity prior to differences in tumor burden. Mechanistically, senCAFs activated an IL-6-JAK2/STAT3 feedback loop, sensitizing DRG neurons. JAK2 blockade normalized neuronal excitability and reduced pain behaviors. This neural-stromal crosstalk was bidirectional: senCAFs sensitize DRGs via IL-6-JAK2/STAT3, while activated DRGs release ATP, triggering P2RX7-mediated tumor cell depolarization to promote invasion. This loop is stabilized by tumor-derived, SPHK2-dependent S1P signaling via S1PR2 on CAFs, reinforcing the senescent phenotype. In vivo, JAK2 inhibition combined with nab-paclitaxel/gemcitabine significantly improved pain control and overall survival.
+Conclusion p16+ senCAFs orchestrate a vicious cycle by activating the IL-6-JAK2/STAT3 pathway, enhancing neuronal firing and pain; this in turn amplifies ATP/P2RX7-driven tumor cell depolarization and progression. This cycle is stabilized by tumor-derived sphingolipid reprogramming of CAFs. Targeting this senCAF-driven neural-stromal axis via JAK2 inhibition, combined with standard chemotherapy, provides a translationally potent therapeutic strategy for PDAC-related pain.

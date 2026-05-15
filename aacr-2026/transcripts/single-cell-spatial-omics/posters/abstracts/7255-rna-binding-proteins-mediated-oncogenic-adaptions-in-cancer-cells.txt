@@ -1,0 +1,17 @@
+# RNA binding proteins mediated oncogenic adaptions in cancer cells
+
+**Poster #**: 7255
+**Session**: Chromatin Architecture and Regulatory Landscapes
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Jasmine George, Pradeep Chaluvally Raghavan
+
+Medical College of Wisconsin, Wauwatosa, WI
+
+---
+
+Introduction: Ovarian cancer remains a major contributor to cancer-related deaths in women, underscoring the urgent need for novel therapeutic strategies. Fragile X-related protein 1 (FXR1), frequently amplified and overexpressed in ovarian and other malignancies, plays a central role in driving oncogenesis through translational regulation of multiple cancer-promoting genes. We have determined that the oncogene c-MYC is a direct target of FXR1 both in ovarian cancer cells and in cells within the tumor microenvironment. Tumor-derived extracellular vesicles (EVs) are known to play a critical role in reprogramming the tumor microenvironment (TME). We observed that FXR1 mRNA enriched EVs are taken up by surrounding stromal and immune cells, where they modulate protein translation in ways that promote tumor progression. Building on this background, we aim to investigate the mechanism by which FXR1 mRNA is incorporated into EVs and to elucidate its functional impact on the TME.
+Methods: We performed a Surface Sensing of Translation (SUnSET) assay to demonstrate that FXR1 enhances global protein translation in cancer cells. RNA electrophoretic mobility shift assays (REMSA) and proximity ligation assays were conducted to show that FXR1 binds to the AU rich elements (ARE) within the 3&#8242;UTR of c-MYC. Intriguingly, we found that FXR1 mRNA is packaged into EVs derived from ovarian cancer cells. RNA immunoprecipitation assays also showed that FXR1 interacts with the exosomal markers TSG101 and CD63. Finally, flow cytometry-based immunophenotyping and single-cell RNA sequencing (scRNA-seq) of tumor-derived ascites from mice were performed to characterize how FXR1 influences overall translation in tumor cells and reshapes the TME.
+Results: Our previous data demonstrated that FXR1 plays a crucial role as an oncoprotein and is significantly involved in the pathophysiology of ovarian cancer. We identified that FXR1 stabilizes cMYC mRNA by binding to specific sequences of AREs within its 3&#8242;UTR. We further demonstrated that FXR1 mRNA is highly enriched in tumor-derived exosomes, which are transferred into macrophages in the TME. In a corollary, FXR1 enriched EVs resulted into the reprogramming of cells in the tumor microenvironment, favoring tumor growth by inducing macrophage polarization and T-cell inactivation.
+Conclusion: Our studies have identified that FXR1 promotes oncogenic translation in cancer cells and in the cells in tumor microenvironment. Our data suggest that FXR1 mediated macrophage polarization and T-cell inactivation is an important mechanism for cancer growth and metastasis.

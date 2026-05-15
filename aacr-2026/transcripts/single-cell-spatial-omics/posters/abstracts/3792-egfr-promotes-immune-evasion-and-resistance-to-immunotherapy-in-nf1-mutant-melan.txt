@@ -1,0 +1,17 @@
+# EGFR promotes immune evasion and resistance to immunotherapy in NF1 mutant melanoma
+
+**Poster #**: 3792
+**Session**: Combination Immunotherapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Milad Ibrahim1, Irineu Illa-Bochaca2, Tara Muijlwijk1, Ines Delclaux2, KATHERINE VENTRE2, George Jour2, Shi Qiu3, Agrima Dutt1, Paola Angulo salgado1, Amanda W. Lund4, Markus Schober12, Iman Osman2
+
+1NYU Langone Medical Center, New York, NY,2NYU Langone Health, New York, NY,3NYU Langone Health, NYU Langone Health, NY,4NYU Langone Health Perlmutter Cancer Ctr., New York, NY
+
+---
+
+Background: Immune checkpoint inhibitors (ICIs) have greatly improved survival rates in melanoma patients, including those with melanomas driven by deactivating mutations in the NF1 tumor suppressor gene. However, primary or secondary resistance occurs in 50-60% of cases. Moreover, NF1-mutant melanoma patients with co-occurring BRAF or NRAS mutations generally do not respond to BRAF and/or MEK inhibitors, leaving them without effective treatment options. Gaining a better understanding of the mechanisms behind ICI resistance in NF1-mutant melanomas, along with identifying more effective treatment strategies, remains an unmet clinical need.
+Methods: We compared melanoma cells and their surrounding cell types in 22 NF1-mutant and 20 NF1 wild-type human melanoma tissues using single-cell spatial transcriptomics and highly multiplexed immunohistochemistry. We inferred communication networks between melanoma cells and the microenvironment using Cell-Chat. Finally, we tested how EGFR inhibitors affect the tumor growth and the immune microenvironment in syngeneic mouse models using flow cytometry.
+Results: NF1-mutant melanoma cells are enriched in pathways related to epithelial-to-mesenchymal transition and immune evasion pathways mediated by significantly increased expression of EGFR, NGFR, VEGFA, TGFB1, and TGFB3. These cells are more closely associated with cancer-associated fibroblasts (CAFs), and their microenvironment contains significantly more inflammatory CAFs that are enriched in EGF signaling. Conversely, there was less CXCL9 signaling from CAFs to T cells in NF1-mutant melanoma microenvironment. This NF1-mutant immunosuppressed microenvironment results in significantly less infiltration of T cells which were also less proliferative and exhibit lower cytotoxic activity compared to NF1 wild-type melanoma, possibly due to the reduced expression of HLA antigens on the surface of NF1-mutant melanoma cells. Higher levels of EGFR were detected in ICI resistant NF1-mutant melanoma patients and correlated with reduced antigen presentation and T cells infiltration. Pharmacological inhibition of EGFR restored antigen presentation and immune cell responses in NF1-mutant melanoma syngeneic mouse model, both alone and in combination with anti-PD1 antibodies.
+Conclusion: Our results reveal that hyperactive EGFR signaling promotes immune evasion and immunotherapy resistance in NF1-mutant melanoma patients and suggest that EGFR inhibitors may improve ICI treatment outcomes in NF1-mutant melanomas with increased EGFR activity.

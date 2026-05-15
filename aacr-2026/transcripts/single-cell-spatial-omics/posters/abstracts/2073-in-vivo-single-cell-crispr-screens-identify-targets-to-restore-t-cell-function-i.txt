@@ -1,0 +1,14 @@
+# In vivo single-cell CRISPR screens identify targets to restore T cell function in aged tumors
+
+**Poster #**: 2073
+**Session**: Aging and Host Determinants of Tumor Progression: The Macroenvironmental Axis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Alex C. Y. Chen, Keely Ji, Cansu Yerinde, Daniela Martinez, Thomas  J.  LaSalle, Kazuhiro Taguchi, Marc A. Schwartz, Maria Zschummel, Thorsten R. Mempel, Nir Hacohen, Debattama R. Sen
+
+MGH/Harvard Medical School, Boston, MA
+
+---
+
+Aging brings significant changes to the immune system, which slow down the immune response and make it less effective at detecting and fighting cancer. However, the mechanisms behind this are not fully understood. To address this open question, we focus on studying CD8+ T cells, a type of immune cell that specifically recognizes and kills tumor cells, to understand how aging alters their antitumor function. Here, we demonstrated that the aged tumor microenvironment in older individuals has a stronger effect in weakening these T cells than the intrinsic aging impacts on these T cells. Even when young, healthy, naive T cells were transferred into older hosts, they quickly lost their ability to fight tumors, indicating that therapies relying on replenishing new T cells, such as adoptive T cell transfer therapy or CAR-T cell therapy, may not be effective if the aged environment drives them toward dysfunction. One strategy to further identify candidate genes associated with T cell dysfunction is to perform in vivo single-cell CRISPR screening. To achieve this, we designed a CRISPR library pool targeting genes encoding transcriptional regulators in Cas9+ OT-1 CD8+ T cells, with 6 sgRNAs targeting each gene to maximize statistical confidence. After transducing T cells with vectors containing the library pool and mAmetrine marker, these successfully transduced mAmetrine+ naive T cells were sorted and transferred into aged mice one day before B16-OVA tumor inoculation. After 15 days, T cells were sorted from aged B16-OVA tumors and tumor-draining lymph nodes for Perturb-seq analysis. We found T cells lacking Bcl6, Dusp4, Dusp5, Ets1, Ikzf2, Irf2bp2, Prdm1, or Zfp219 showed better T cell expansion and persistence in aged tumors and lymph nodes. Notably, Dusp5 acts as a negative feedback regulator of the ERK1/2 pathway. Dusp5 deletion promotes T cell proliferation and effector-like T cell differentiation, resulting in enhanced tumor control and survival benefit. Overall, our work fills a critical knowledge gap in the field of immune aging and cancer therapy, establishing Dusp5 as a novel and promising therapeutic target to restore T cell antitumor responses, particularly in older cancer patients.

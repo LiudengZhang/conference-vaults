@@ -1,0 +1,17 @@
+# Cell type-specific somatic variants captured from single-cell RNA sequencing underlie transcriptional programs in pre-malignant blood
+
+**Poster #**: 1462
+**Session**: Integrative Computational Approaches 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Jasmine Ryu Won Kang1, Mawusse Agbessi2, June Kim1, Ido Nofech-Mozes1, Marie-Julie Fave3, Philip Awadalla4
+
+1University of Toronto, Toronto, ON, Canada,2Ontario Institute for Cancer Research, Toronto, ON, Canada,3Concordia University, Montreal, QC, Canada,4University of Oxford, Oxford, United Kingdom
+
+---
+
+Background: Somatic variants in blood and their prognostic potential in hematological malignancy are well-established in the context of clonal hematopoiesis (CH), but their functional impacts on global gene expression and transcriptional programs remain understudied. We conducted associations between frequently occurring somatic variants, both within and outside of known cancer driver genes, and transcriptional programs to understand phenotypic consequences of genetic mosaicism in blood at the molecular level.
+Methods: Single-cell RNA sequencing (scRNAseq), bulk ATAC-sequencing (ATAC-seq), and RipTide whole-genome sequencing (WGS) were conducted on a cohort of 400 samples within the Ontario Health Study. These samples were stratified according to age (<45 or >65 years) and the Intermountain Risk Score (low-risk or high-risk), which is strongly correlated with all-cause mortality. Somatic variants were identified per cell type in each sample with scRNAseq, filtering out germline variants identified with ATAC-seq and RipTide WGS. Cell type-specific gene expression modules were extracted using Hotspot, and pseudobulk profiles were scored for the usage of each module. Linear regressions were conducted to predict module scores for each cell type given somatic variant carrier status and adjusted for covariates.
+Results: We identified 6 somatic variants in B cells and 10 in naive T cells which occurred at least 15 times across the cohort. In B cells, somatic variants in AFF3 and IL3RA associated with an upregulation of Module I (AFF3: OR=1.26, adj(p)=0.067; IL3RA: OR=1.26, adj(p)=0.076), which is increased in low-risk samples compared to high-risk (adj(p)=0.020). The variant allele frequency (VAF) of AFF3 somatic variants in B cells was correlated with an upregulation of Module C (&#961;=0.510, p=0.0055), which is enriched for heat shock response terms with gene set enrichment analysis. In Naive T cells, MIR4426 VAF correlated with an upregulation of Module H (&#961;=0.694, p=4.8e-4), which is increased in young samples compared to aged samples (adj(p)=4.7e-29).
+Conclusions: We described how somatic variants shape the landscape of cell type-specific transcriptional programs in blood across 400 individuals. Interestingly, we identified hits in AFF3, of which gene fusion events are well-described in acute lymphoblastic leukemia, and in IL3RA, whose increased expression is an established feature of acute myeloid leukemia. Further work is needed to correlate transcriptional program usage with incident hematological malignancy outcomes.

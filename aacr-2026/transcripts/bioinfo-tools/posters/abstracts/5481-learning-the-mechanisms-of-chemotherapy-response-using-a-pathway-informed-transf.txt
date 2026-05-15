@@ -1,0 +1,12 @@
+# Learning the mechanisms of chemotherapy response using a pathway-informed transformer
+
+**Poster #**: 5481
+**Session**: Deep Learning in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Zach Wallace1, Ingoo Lee2, Nicole  M.  Mattson2, Sungjoon Park3, Akshat Singhal4, Xiaoyu Zhao2, Trey Ideker21UC San Diego, La Jolla, CA,2University of California San Diego - UCSD, La Jolla, CA,3UC San Diego School of Medicine, La Jolla, CA,4UCSD Medical Ctr., San Diego, CA
+
+---
+
+Predicting how a cancer patient will respond to chemotherapy remains challenging, as the molecular determinants of drug sensitivity and resistance are incompletely understood. Advances in interpretable AI and transformer-based modeling offer an opportunity to improve prediction while revealing deeper mechanistic insight. Here, we introduce the Drug Response Pathway-Informed Transformer (DRPT), a hierarchical graph transformer that accurately predicts and explains response to 12 replication-stress-inducing chemotherapies. DRPT learns signals beyond broad genomic burdens such as copy-number alteration load and tumor mutation burden, identifying 37 systems and 206 genetic alterations that govern drug response. Prominent drivers include transcriptional regulation (ASXL1, DNMT3B, TOP1, ZNF217), cell-cycle control (AURKA, CDKN2B, CDK6), and DNA-damage response (CDKN2A, PMS2, TP53), alongside unexpected contributors in extracellular matrix organization (FGF10, DMD), particularly for topoisomerase inhibitors such as doxorubicin, etoposide, and camptothecin. Using patient cohorts from TCGA and MSK-CHORD, we validate DRPT’s predictive power, demonstrating significant stratification of survival outcomes across pan-cancer and subtype-specific settings. Overall, this work shows that pathway-informed graph transformers can both reliably predict chemotherapy response and reveal mechanistic biomarkers that may guide precision oncology.

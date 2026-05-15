@@ -1,0 +1,17 @@
+# Histologic stratification of hepatocellular carcinoma using deep learning informed by spatial transcriptomics
+
+**Poster #**: 90
+**Session**: Digital Pathology 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Tyler  M.  Yasaka1, Chang Kyung (Joanna) Kim1, Po-Yuan Chen1, Rebekah  E.  Dadey1, Riyue Bao1, Satdarshan Pal  S.  Monga2, Yu-Chiao Chiu3
+
+1University of Pittsburgh, Pittsburgh, PA,2Associate Professor of Pathology & Med., University of Pittsburgh, Pittsburgh, PA,3UPMC Hillman Cancer Center, Pittsburgh, PA
+
+---
+
+Introduction: Hepatocellular carcinoma (HCC) is a leading cause of cancer-related mortality. Although multiple classification systems have been developed, their clinical utility remains limited. With the increasing use of tissue biopsies in targeted therapy trials, there is an opportunity to advance both molecular and histologic approaches for HCC stratification.
+Methods: Publicly available spatial transcriptomics data with paired hematoxylin and eosin (H&#38;E) images from 10 HCC slides were used to train deep learning models to predict Hoshida subtype (S1, S2, S3) signatures within spatial transcriptomics spots from corresponding H&#38;E tiles. Models were evaluated using an 80/20 training/test split and subsequently applied to H&#38;E whole-slide images from The Cancer Genome Atlas (TCGA; n=340) as well as an in-house validation cohort (n=48). Tile-level predictions were aggregated to generate patient-level histologic scores, which were then clustered into three subclasses (A, B, and C), which were then assessed for unique clinical and molecular characteristics.
+Results: Models achieved holdout AUROCs of 0.93 (S1), 0.92 (S2), and 0.94 (S3). In TCGA, subclasses predicted overall survival (A vs B, p<0.0001; A vs C, p<0.0001), disease-free interval (A vs B, p<0.001; A vs C, p<0.0001), and progression-free interval (A vs B, p<0.01; A vs C, p<0.0001). Histologic subtypes were independently prognostic when considered alongside clinical variables via stepwise Cox proportional hazards (A vs B, p=0.008; A vs C, p=0.001). Each cluster associated with distinct clinical features (e.g. cluster A with early pathologic stage and HBV etiology, and cluster B with late stage), mutations, and enriched pathways (cluster A with metabolic pathways, cluster B with cell cycle pathways, and cluster C with immune pathways). Cluster C was also enriched for a signature of anti-PD-1 response in HCC (p<1x10-10). In the validation cohort, overall survival trends were maintained (A vs B, p=0.121, A vs C, p=0.005).
+Conclusions: Using a deep learning model which predicts spatial subtype signatures from H&#38;E whole slide images, we developed a histology-based stratification with improved prognostic power compared to existing HCC subtypes. The associated clinical and molecular features suggest that these subtypes exhibit not only distinct phenotypes (metabolic, proliferative, and immune) but also potentially pathogenesis, supporting the potential of H&#38;E to guide patient stratification in clinical trials and inform personalized therapeutic strategies.

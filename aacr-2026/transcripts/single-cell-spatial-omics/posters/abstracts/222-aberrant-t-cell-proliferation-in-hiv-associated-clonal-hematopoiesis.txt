@@ -1,0 +1,17 @@
+# Aberrant T cell proliferation in HIV associated clonal hematopoiesis
+
+**Poster #**: 222
+**Session**: Virology and Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Haocong Katherine Ma1, Tsung-Chih Chen1, Alokkumar Jha2, Benjamin A. Youngblood3, Jennifer  M.  Kwan1, Irini Sereti4, Ya-Chi Ho1
+
+1Yale School of Medicine, New Haven, CT,2Weill Cornell Medicine, New York, NY,3St. Jude Children's Research Hospital, Memphia, TN,4National Institutes of Health, Bethesda, MD
+
+---
+
+Introduction: Clonal hematopoiesis (CH) is a precursor for acute myeloid leukemia (AML) and predictor of the development of hematologic cancers. Despite suppressive antiretroviral therapy, people living with HIV (PLWH) have higher incidence of clonal hematopoiesis, particularly mutations in DNMT3A. While DNMT3A mutations increase inflammation in myeloid cells and increase CD8+ T cell proliferation, the role of DNMT3A mutations in CD4+ T cells remain elusive. Given that CD4+ T cells are the major HIV reservoir, we postulate that HIV-induced systemic inflammation increases DNMT3A mutation, accelerates CD4+ T cell proliferation, and thus promotes HIV persistence in CD4+ T cells.
+Methods: To examine the impact of DNMT3A on CD4+ T cell proliferation, we spiked in HIV- and DNMT3A-specific primers in single-cell ECCITE-seq (GoT-seq) and paired HIV- and DNMT3A-targeted long-read sequencing (MAS-ISO-Seq) on peripheral blood CD4+ T cells from four strata (HIV+CH+, HIV+CH-, HIV-CH+, and HIV-CH-). We simultaneously captured HIV RNA, cellular transcriptome, surface proteins, T cell clonality, and DNMT3A mutations in the same single cell.
+Results: After QC, we captured 420,837 CD4+ T cells from 27 participants (7 HIV+CH+, 7 HIV+CH-, 5 HIV-CH+, and 8 HIV-CH-). Short-read scRNA-seq detected DNMT3A RNA in 32,554 cells (10.3%), while Long-read sequencing captured DNMT3A in 19,898 cells (8.6%), reflecting low DNMT3A expression levels in peripheral blood CD4+ T cells. Importantly, we overcame the 5&#8217; sequencing bias of short-read sequencing and captured 767 cells carrying single nucleotide polymorphisms (SNPs) within the DNMT3A. For HIV, short reads identified 170 RNA+ cells (0.055%), whereas long reads detected 3,842 HIV-infected cells, representing a 22-fold increase in sensitivity, and resolved 98 intact proviruses. TCR analysis reconstructed 22,648 unique T cell clones from 76,819 cells having mapped CDR3 region. Larger CD4+ T cell clones were enriched in cytotoxic CD4+ T cells expressing high GZMB/GZMH. Notably, we identified 100 HIV-infected cells (58.8%) in T cell clones. Clone sizes were greater in CD4+ T cells from HIV- CH+ than HIV-CH- donors, consistent with CH-driven T cell proliferation. Importantly, CD4+ T cells from HIV+ CH+ patients exhibited significantly greater clonal expansion and larger clones than those from HIV+CH- patients, suggesting CH mutations also promotes the proliferation of HIV-infected cells. Of note, age distributions did not differ across groups, which excluded age as a confounder for clonal expansion.
+Conclusion: Paired single-cell multi-omics with long-read genotyping reveal CH mutations drive the aberrant CD4+ T cell proliferation and promote HIV persistence, highlighting virus-host interaction that elevates cancer risk despite suppressive antiretroviral therapy.

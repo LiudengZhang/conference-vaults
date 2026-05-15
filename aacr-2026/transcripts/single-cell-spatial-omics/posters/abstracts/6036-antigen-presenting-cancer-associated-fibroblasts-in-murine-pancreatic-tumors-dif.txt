@@ -1,0 +1,14 @@
+# Antigen-presenting cancer-associated fibroblasts in murine pancreatic tumors differentially control regulatory T cell phenotype and function via CCL22
+
+**Poster #**: 6036
+**Session**: Fibroblasts as Architects of the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Saumya Maru1, Meredith Wetzel2, Jacob Mitchell2, Nicole Gross2, Lalitya Andaloori3, Kathryn Howe3, Emma Kartalia4, Guanglan Mo3, James Leatherman4, Won Jin Ho2, Elana Judith Fertig5, Luciane Tsukamoto Kagohara6, Edward J. Pearce4, Elizabeth  M.  Jaffee4
+
+1Fox Chase Cancer Center, Philadelphia, PA,2Convergence Institute, Johns Hopkins University School of Medicine, Baltimore, MD,3Department of Oncology, Johns Hopkins University School of Medicine, Baltimore, MD,4Johns Hopkins University School of Medicine, Baltimore, MD,5University of Maryland School of Medicine, Baltimore, MD,6Johns Hopkins University, Baltimore, MD
+
+---
+
+Pancreatic ductal adenocarcinoma (PDAC) is characterized by an immunosuppressive tumor microenvironment (TME), where cancer-associated fibroblasts (CAFs) play pivotal roles in shaping therapeutic responses. Among these, MHC-II-expressing antigen-presenting CAFs (apCAFs) modulate CD4 T cell activity, yet their contribution to the antitumor immune response remains unclear. Using tumor clones of the KPC murine PDAC model differing in sensitivity to immune checkpoint blockade (ICB), we show that immunosensitive (sKPC) tumors exhibit greater apCAF infiltration than resistant (rKPC) tumors. Depletion of apCAFs in sKPC tumors impaired responsiveness to ICB, highlighting their role in mediating effective antitumor immunity. Ex vivo assays revealed that apCAFs from both models activate CD4 T cells and induce regulatory T cell (Treg) differentiation. However, single-cell transcriptomics revealed that rKPC apCAFs promote Tregs with heightened immunosuppressive signatures, driven by distinct chemokine signaling. Notably, we identified elevated CCL22 expression and signaling in rKPC-derived apCAFs as a contributor to enhanced Treg-mediated suppression. Functional blockade of CCL22 reduced TGF&#946; secretion by rKPC apCAF-induced Tregs, supporting a mechanistic role for this pathway in fostering an immunosuppressive TME. These findings position apCAFs as regulators of CD4 T cell antitumor immunity in PDAC, and suggest that modulating apCAF-T cell interactions could offer strategies to enhance immunotherapy efficacy.

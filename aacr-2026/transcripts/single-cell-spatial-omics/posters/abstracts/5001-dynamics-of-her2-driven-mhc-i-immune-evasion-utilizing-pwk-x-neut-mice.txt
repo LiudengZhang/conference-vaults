@@ -1,0 +1,14 @@
+# Dynamics of HER2-driven MHC I immune evasion utilizing PWK x NeuT mice
+
+**Poster #**: 5001
+**Session**: Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Ryann Ray1, Hui-En Chou2, WEI-ZEN WEI3, Jennifer Jacob1
+
+1Michigan State University, East Lansing, MI,2Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI,3Oncology, Wayne State University Karmaos Cancer Institute, Detroit, MI
+
+---
+
+Loss of Major Histocompatibility Complex I (MHC I) is a critical immune evasion mechanism in breast cancer, often associated with aggressive disease and reduced response to immunotherapy. Given the known inverse correlation between HER2/neu expression and MHC I levels, we sought to develop a model to study the kinetics of this immune-editing process. We crossed the spontaneous HER2/neu-expressing BALB NeuT model onto a Diversity Outbred (DO) background and identified that the PWK background strain significantly accelerates tumor onset. PWKxNeuT mice developed tumors at an average of 11.5 weeks of age, substantially earlier than the parental BALB NeuT (17 weeks, p = 0.0001). Paradoxically, single cell RNA sequencing (scRNA-Seq) revealed that PWKxNeuT tumors harbored an increased immune infiltrate (8% CD3+ T cells) compared to BALB NeuT (2% CD3+ T cells). FFPE tumor tissue from NeuT and PWKxNeuT was analyzed using proteomics in collaboration with the iDEA Proteomics Core (Little Rock, Arkansas) using the label-free DIA approach. tumor tissue showed significant down-regulation of proteins essential for antigen processing and presentation, including tapasin, TAP1, and TAP2 (p = 0.0003), indicative of a systemic reduction in functional MHC I and II levels and resolving the paradox. Furthermore, we confirmed that the increased immune infiltrate in PWKxNeuT mice was functional. PWKxNeuT and BALB NeuT mice were vaccinated with DNA encoding HER2/neu together with pGM-CSF (im, ep) three times beginning at 8 weeks of age. Sera was collected to assess antibody production and peripheral blood was collected to determine T cell response by ELISPOT. Mice receiving control DNA developed tumors at an average of 11 weeks of age, compared with an average of 17 weeks for vaccinated mice, with some mice protected to 23.5 weeks of age (p = 0.007). Neu-specific T cells were identified in PWK background mice as were significantly increased neu antibodies compared with BALB NeuT mice. Thus, the PWKxNeuT model simultaneously displays accelerated HER2-driven tumorigenesis and a profound defect in the MHC presentation pathway, making it an ideal, genetically defined system to kinetically dissect how HER2 signaling drives the loss of MHC I during breast cancer progression. Current work is identifying changes in MHC levels and infiltrates over time in BALB NeuT and PWKxNeuT mice.

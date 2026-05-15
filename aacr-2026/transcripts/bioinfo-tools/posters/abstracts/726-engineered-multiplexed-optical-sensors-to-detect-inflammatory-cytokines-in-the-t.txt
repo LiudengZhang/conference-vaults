@@ -1,0 +1,12 @@
+# Engineered multiplexed optical sensors to detect inflammatory cytokines in the tumor microenvironment
+
+**Poster #**: 726
+**Session**: Molecular Pathology
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Ryan  M.  Williams1, Amelia Ryan2, Syeda Rahman2, Atara Israel21Medicine, Stony Brook University, Stony Brook, NY,2Biomedical Engineering, City College of New York, New York, NY
+
+---
+
+Inflammation is a hallmark of cancer development as well as a consequence of cancer progression. Chronic inflammatory pathways promote solid tumor growth, metastasis, and immune evasion. Indeed, chronic signaling of several inflammatory cytokines that lead to tumor formation include TNF-alpha, while persistent IL-6 signaling drives cell survival and proliferation as well as angiogenesis. IL-12, however, is a powerful anti-tumor cytokine, which promotes macrophage and T-cell cytotoxicity in addition to inhibiting angiogenesis. Despite their importance, it is difficult to model and monitor real-time inflammatory cytokine signaling in the tumor microenvironment during cancer initiation and progression. The ability to do so non-invasively in animal tumor models would allow for a better understanding of the key drivers of this important cancer hallmark, while the ability to do so in a patient could be a diagnostic and prognostic tool.To this end, we have engineered a multiplexed optical sensor platform for inflammatory cytokines TNF-alpha, IL-6, and IL-12. Individual sensors are synthesized from species-sorted single-walled carbon nanotubes (SWCNT), which exhibit tissue-transparent near-infrared fluorescence. For each cytokine, we non-covalently attached an antibody or ssDNA aptamer to SWCNT, allowing for molecularly-specific detection and a change in emission spectra upon biomarker binding. We found that sensor performance was quantitative with a limit of detection in the clinical range following inhibition of non-specific surface adsorption with passivation agent polymers and proteins. Further, we demonstrated the ability to detect IL-6 and IL-12, key pro-tumor and anti-tumor cytokines respectively, simultaneously in solution, as well as IL-6 excreted by macrophages in response to pro-inflammatory stimuli. Together, we anticipate further deployment of these inflammatory cytokine monitoring sensors in vivo and translation to patient diagnostic and prognostic profiling.

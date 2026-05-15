@@ -1,0 +1,17 @@
+# Multiomic profiling reveals endothelial cell plasticity in metastatic osteosarcoma
+
+**Poster #**: 640
+**Session**: Developmental Origins, Drivers, and Heterogeneity in Pediatric Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Ying Wu, Julian Burks, Demond Williams, Carly Sayers, Vidhur Daulatabad, Neeraja Syed, John  F.  Shern, Troy A. McEachron
+
+Pediatric Oncology Branch, National Cancer Institute, Bethesda, MD
+
+---
+
+Metastatic osteosarcoma is an aggressive malignant bone tumor that primarily affects pediatric, adolescent, and young adult populations and represents an understudied disease with significant unmet medical need. Recent research has increasingly focused on understanding the complex biology of the osteosarcoma microenvironment. While prior studies have primarily examined the roles of macrophages, lymphocytes, and, to a lesser extent, fibroblasts, the tumor vasculature has received comparatively little attention.
+To address this critical gap, we performed single-nuclei multiome (RNA+ATAC) sequencing on a cohort of 24 human metastatic osteosarcoma specimens. Our data reveal that endothelial cells within the metastatic microenvironment adopt a hybrid transcriptional state indicative of endothelial-to-mesenchymal transition (EndMT). Leveraging our multimodal dataset, joint copy number analysis identified a subset of tumor cells that cluster with endothelial cells, demonstrating that osteosarcoma cells engage in vascular mimicry. Further investigation of gene regulatory networks revealed a subset of endothelial cells undergoing endothelial-to-osteoblastic conversion and confirmed endothelial-specific regulatory programs in the osteosarcoma vascular mimics. Analysis of immunosuppressive gene expression suggests that endothelial cells in metastatic osteosarcoma also function in an immunoregulatory capacity.
+Both in vitro and in vivo functional assays were employed to validate these findings. Modified transwell co-culture assays demonstrated that osteosarcoma-derived factors induce osteoblastic gene expression programs in lung microvascular endothelial cells. Additionally, using endothelial lineage-tracing mice in combination with GFP+ syngeneic murine osteosarcoma cells, we provide in vivo evidence that endothelial cells can be reprogrammed into osteoblast-like cells that integrate into malignant osteoid, while osteosarcoma cells themselves are capable of vascular mimicry.
+Collectively, these findings highlight the remarkable plasticity and lineage infidelity of both endothelial and tumor cells, provide novel insights into the functional role of endothelial cells in the metastatic osteosarcoma microenvironment, and challenge current understanding of osteosarcoma biology.

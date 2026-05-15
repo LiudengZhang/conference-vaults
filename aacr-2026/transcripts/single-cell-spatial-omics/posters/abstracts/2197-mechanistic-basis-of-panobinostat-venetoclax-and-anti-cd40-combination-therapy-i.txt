@@ -1,0 +1,14 @@
+# Mechanistic basis of panobinostat, venetoclax, and anti-CD40 combination therapy in the immune elimination of cancer stem cells
+
+**Poster #**: 2197
+**Session**: Metabolic and Transcriptional Control of Cancer Stem Cell Plasticity
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Yishu Xu1, Juraj Jakubik2, Leoni Moldaner1, Gautami Atul Gaidhani1, Zuzana Tatarova1
+
+1DKFZ German Cancer Research Center, Heidelberg, Germany,2Georg-Speyer-Haus, Frankfurt, Germany
+
+---
+
+Resistance in breast cancer treatment drives the search for new therapies. Cancer stem cells (CSCs) contribute to metastasis, recurrence, and therapy resistance. Our data suggest that combining panobinostat, venetoclax, and anti-CD40 (aCD40) immunotherapy effectively eliminates CSCs through immune modulation. This triple combination showed superior outcomes in three breast cancer mouse models, though its precise mechanism remains unclear. To dissect these mechansims, we use a multiplex implantable microdevice assay (MIMA) for precise drug delivery, cyclic immunofluorescence for tumor microenvironment characterization, and computational analyses to investigate treatment response and resistance. Single-cell RNA sequencing and multiplex tissue imaging map drug-induced cellular changes. Our results demonstrate that the panobinostat and venetoclax combination (PV) increase intratumoral immune infiltration, recruiting neutrophils, macrophages, and dendritic cells (DCs). Spatial analysis reveals APOE+ myeloid cells accumulating in PV-treated regions. Systemic PVaCD40 treatment enhances tumor killing, reduces CSCs, and improves antigen presentation by activating DCs and macrophages. Mechanistically, macrophages upregulate interferon-induced genes, boosting antigen presentation, while DCs regulate T cell migration and also increase antigen presentation. Interactions between CSCs and DCs/macrophages are elevated, and ligand-receptor analyses indicate that Mif-Cd74 and App-Cd74 signaling mediate CSC-immune cell communication. Collectively, these results provide a mechanistic framework for how Panobinostat-Venetoclax-Anti-CD40 triple combination therapy remodels the tumor microenvironment to eliminate breast CSCs and potentiate antitumor immunity.

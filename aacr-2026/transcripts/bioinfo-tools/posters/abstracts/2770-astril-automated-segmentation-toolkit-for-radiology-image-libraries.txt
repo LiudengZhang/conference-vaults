@@ -1,0 +1,12 @@
+# astril: Automated segmentation toolkit for radiology image libraries
+
+**Poster #**: 2770
+**Session**: Radiomics and AI in Medical Imaging
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Alexander L. Ling1, C. Zoe Linke1, Christopher M. Jannotta1, Data Science Teamlab2, E. Antonio Chiocca11Mass General Brigham, Boston, MA,2Break Through Cancer, Boston, MA
+
+---
+
+Volumetric tumor segmentation improves patient monitoring vs. standard radiological assessment and is often needed for extracting radiomic features. Despite this, widespread implementation of such analyses into clinical and scientific studies is hindered by the time-intensive nature of scan curation and segmentation, and by the significant computational expertise required to process large imaging datasets. To overcome these barriers, we created a python package (astril - https://github.com/Alexander-Ling/astril) that enables fully automated pre-processing, segmentation, and quantification of radiology images using simple command line arguments, starting from unprocessed DICOM directories. astril also supports the training and application of new segmentation algorithms.The first pipeline implemented in astril is for segmenting recurrent glioblastoma (GBM) MRI images, enabling users to automatically pre-process (verify integrity, parse metadata, select optimal series, de-identify, co-align, skull strip, and normalize) and segment (tumor, peritumoral edema, and necrosis) volumes, starting from raw DICOM directories and ending with tabulated volumetric statistics. The built-in CNN segmentation algorithm was trained on manually segmented images from a recurrent GBM patient cohort, enabling the algorithm to correctly handle artefacts such as resection cavities, scar tissue, and low-enhancing tumor. Automated segmentation volumes with astril are highly correlated with manual segmentations and are associated with patient clinical outcomes.This provides a robust platform for rapid, standardized, and automated processing of radiology imaging libraries, and it enables simplified training and distribution of new segmentation algorithms.

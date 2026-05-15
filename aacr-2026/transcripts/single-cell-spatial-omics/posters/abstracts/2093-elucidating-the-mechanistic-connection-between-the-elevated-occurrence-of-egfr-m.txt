@@ -1,0 +1,14 @@
+# Elucidating the mechanistic connection between the elevated occurrence of EGFR mutation in Hispanic/Latinx lung adenocarcinoma patients
+
+**Poster #**: 2093
+**Session**: Aging and Host Determinants of Tumor Progression: The Macroenvironmental Axis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Jonathan Castillo1, William  D.  Wallace2, Leonidas Arvanitis3, Dan Raz4, Crystal  N.  Marconett1
+
+1Department of Integrative Translational Sciences, City of Hope, Duarte, CA,2Department of Pathology, USC Keck School of Medicine, Los Angles, CA,3Department of Pathology, City of Hope, Duarte, CA,4Division of Thoracic Surgery, Department of Surgery, City of Hope, Duarte, CA
+
+---
+
+Hispanic/Latinx (H/L) patients with lung adenocarcinoma have higher rates of epidermal growth factor receptor (EGFR) mutation than those who identify as non-H/L White. Although the overall survival outcome of H/L patients is better than non-H/L White patients, the subset of H/L patients with EGFR mutations have poorer survival outcomes. Immunotherapy has improved survival outcomes for lung adenocarcinoma, but their role in EGFR-mutant lung adenocarcinoma has been underwhelming, as EGFR-mutant tumors are often associated with an immunosuppressive tumor microenvironment and non-response to immunotherapy. Understanding how EGFR mutations and race/ethnicity shape the tumor immune microenvironment is critical to close gaps in health disparities. To address this, we utilized spatial transcriptomics (Visium HD) on lung adenocarcinoma patients from H/L and non-H/L patients stratified by EGFR status and sex (n=4 per group, n=24 total) to characterize spatial patterns of immune infiltration, immune cell composition, and changes to signaling pathways within the tumor-immune microenvironment. To validate and extend these findings to a larger population, bulk RNA-seq data (n=237) from a diverse cohort will be used to quantify immune-cell composition via cell deconvolution (CIBERSORT). In addition, associations between EGFR mutational status, race/ethnicity, and clinical variables including survival, smoking history, and therapy response are also considered. We hypothesize that EGFR-mutant tumors in H/L patients display distinct spatially organized immune-suppressive, resulting in the observed poorer survival outcomes. Taken together, this work integrates spatial and bulk transcriptomic approaches with EMR chart records to uncover mechanistic, race/ethnicity-specific immune features associated with EGFR mutation prevalence in H/L lung adenocarcinoma patients, with the goal of bridging the gaps in health outcomes.

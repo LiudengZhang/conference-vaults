@@ -1,0 +1,17 @@
+# Evaluation of chemo-radiation therapy&#8217;s effect on the senescence status of tumor microenvironment of HNSCC
+
+**Poster #**: 7418
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Lan Gao1, Alanna Sun1, Ruomin Xin1, Daniel John1, Wei Tse Li2, Weg  M.  Ongkeko1
+
+1University of California San Diego, San Diego, CA,2University of California San Francisco, San Francisco, CA
+
+---
+
+Background: Cellular senescence is a stress-induced, irreversible arrest of cell proliferation accompanied by a senescence-associated secretory phenotype (SASP), which may impair the immune system&#8217;s ability to detect and eliminate cancer cells. Chemotherapy and radiation therapy (RT) are standard treatments for head and neck squamous cell carcinoma (HNSCC) by inducing DNA damage. Despite their therapeutic utility, studies have shown that chemotherapy and RT-induced DNA damage may also cause immune cell senescence in other cancers. The effect of these therapies on the senescence state of the tumor microenvironment (TME) in HNSCC has not been elucidated. We hypothesized that chemoradiation treatment results in the immunosenescence of TME in HNSCC. In this study, we analyzed how chemotherapy and radiation therapy influence the senescence-associated gene programs in the TME of HNSCC.
+Methods: Bulk immune-targeted RNA sequencing data were obtained from 30 HNSCC patients before and after chemoradiotherapy (GSE193445 from GEO). Single-cell RNA sequencing data were obtained from oral cancer tumor samples of 4 patients with HNSCC (GSE280982) at 3 time points of RT treatment. Filtering, normalization, integration, and clustering were performed on the sequencing data. Generative AI was used for assistance in debugging analyses.
+Results: Gene Set Enrichment Analysis (GSEA) of bulk RNA-seq data shows that, post-chemoradiation, myeloid cell activation involved in immune response was upregulated (NES = +1.93, padj = 0.0056), while cytokinesis was downregulated (NES = -2.32, padj = 0.0037). Differential expression analysis identified interferon-stimulated genes ISG15 (log2FC = -1.48, padj = 4.9e-07) and IFI6 (log2FC = -1.46, padj = 2.2e-07) were strongly downregulated after chemoradiation. Additional immune-modulatory genes expression such as IGFBP3 (log2FC = -1.56, padj = 6.0e-08) and GAGE family genes (log2FC = -1.79, padj = 0.022) also decreased post-treatment. Single-cell RNA-Seq data show that in individual cell clusters after RT, in CD8+ T cells, the p53 pathway was upregulated (NES = 1.8, padj = 0.0038) and IL-2/STAT5 signaling pathway was suppressed (NES = -1.8, padj = 0.02). In B cells, TNF&#945; signaling (NES = 2.6, padj = 4.1e-07) and apoptosis pathway (NES = 1.66, padj = 0.03) is upregulated. In Tregs, oxidative phosphorylation (NES = 2.6, padj = 6.1e-05) and MYC signaling is upregulated in Tregs (NES = 3.2, padj = 2.5e-08).
+Conclusion: Preliminary data suggest that innate immune pathways in the TME of HNSCC were suppressed after chemoradiation therapy; the proliferative and survival pathways of CD8+ T cells, B cells, and Tregs are altered as a response to RT.

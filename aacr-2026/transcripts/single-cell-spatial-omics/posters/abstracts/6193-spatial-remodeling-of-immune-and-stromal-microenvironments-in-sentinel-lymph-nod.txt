@@ -1,0 +1,16 @@
+# Spatial remodeling of immune and stromal microenvironments in sentinel lymph nodes during melanoma progression
+
+**Poster #**: 6193
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Shankar Suman1, Wendy  K.  Nevala1, Noah  A.  Stueven1, Raymond  M.  Moore1, Chathu  L.  Atherton1, Jeffrey E. Johnson1, Ray Guo2, James  W.  Jakub2, Svetomir  N.  Markovic1
+
+1Mayo Clinic, Rochester, MN,2Mayo Clinic, Jacksonville, FL
+
+---
+
+The sentinel lymph node (SLN) is often the first site of melanoma spread and a critical immune checkpoint that determines local tumor dissemination to systemic metastasis. Although lymph nodes are central to antitumor immunity, the mechanisms that render them permissive to metastasis remain poorly understood. This study used spatial imaging to characterize immune and stromal phenotypic alteration in tumor-negative SLNs (SLN&#8315;) and tumor-positive SLNs (SLN&#8314;) from patients with cutaneous melanoma, compared to non-melanoma-associated normal lymph nodes (NLN).
+We performed multiplex immunofluorescence (MxIF) analysis of formalin-fixed, paraffin-embedded lymph node tissues from patients with cutaneous melanoma and control subjects, including two subjects per group (NLN, SLN&#8315;, and SLN&#8314;). Furthermore, quantitative single-cell segmentation and classification using QuPath generated median fluorescence intensities for immune, stromal, and tumor markers across LN, SLN&#8315; and SLN&#8314; regions of interest. In addition to the initial analysis, we employed spatial neighborhood analysis to characterize markers expression profiles surrounding target immune population. This approach quantified local microenvironment based on marker normalized intensity-based co-expression pattern and stromal remodeling signatures. We grouped these markers based on the functional panels representing T-cell activation and exhaustion, myeloid polarization, tumor interaction, stromal remodeling, and apoptosis pathways providing insights into how prometastatic niche evolve within SLN.
+Normalized data, via centered log ratio (CLR) transformation and Gaussian Mixture Model (GMM) gating was analyzed using principal component analysis, UMAP/tSNE embedding, and hierarchical clustering in in python. Progressive immune remodeling was observed from normal NLN to SLN&#8314;, including expansion of regulatory T cells, enrichment of exhausted T cells as well as myeloid-derived suppressor cells (MDSC), and transition toward an M2-like macrophage phenotype. The spatial data from SLN&#8315; samples showed an early sign of immune suppression, with reduced cytotoxic capacity. These results show that SLN gets features of peripheral immune tolerance for melanoma early, prior to pathological dissection of metastatic spread supporting the existence of a pre-metastatic niche that facilitates lymphatic colonization of tumor cells. This work provides insights into early immune escape and may inform strategies for immunotherapy and early intervention in melanoma.

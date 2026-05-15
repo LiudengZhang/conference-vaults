@@ -1,0 +1,12 @@
+# Translational development of NEU-002: Engineered therapeutic elastases demonstrate systemic anti-tumor activity via intraperitoneal and intravenous administration
+
+**Poster #**: 310
+**Session**: Innovative Therapeutic Modalities and Translational Platforms
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Maria Fumagalli, Chang Cui, Ravindra Gujar, Nicole Martinez, Peter Haberz, Court Turner, Lev BeckerOnchilles Pharma Inc, San Diego, CA
+
+---
+
+NEU-002 is a systemically deliverable engineered elastase targeting the ELANE pathway and is under development for solid tumors. To advance NEU-002 toward clinical translation, two optimized candidates, N17474 and N17482, were generated through rational sequence engineering. This optimization strategy focused on preserving elastase activity in blood by protection from serine protease inhibitors, as evaluated using a range of biochemical assays. Furthermore, we show that NEU-002 program compounds maintained robust anti-tumor efficacy in the CT26 colon cancer model following intravenous administration, demonstrating that essential functional properties were retained during optimization. In addition, we explored a new intraperitoneal route of administration to expand delivery options for NEU-002 and observed reductions in tumor burden in orthotopic colon cancer mouse models, supporting the feasibility of accessing tumors within visceral compartments. Collectively, these findings establish a strong translational foundation for NEU-002 and, together with planned pharmacokinetic studies in non-human primates, will directly inform the selection of the final development candidate for advancement toward clinical evaluation in solid tumor indications.Generative artificial intelligence was used to assist in drafting text for this abstract.

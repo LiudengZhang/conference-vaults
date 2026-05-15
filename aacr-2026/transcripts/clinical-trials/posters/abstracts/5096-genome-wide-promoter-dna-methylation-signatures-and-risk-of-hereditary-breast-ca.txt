@@ -1,0 +1,12 @@
+# Genome-wide promoter DNA methylation signatures and risk of hereditary breast cancer in Korea: A pilot study for phase II validation
+
+**Poster #**: 5096
+**Session**: Early Detection and Interception
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Sue Kyung Park, Sangjun LeeDepartment of Preventive Medicine, Seoul National University College of Medicine, Seoul, Korea, Republic of
+
+---
+
+Breast cancer remains one of the leading causes of cancer-related mortality among women worldwide. Epigenetic dysregulation, particularly DNA methylation of CpG islands, can modulate the transcriptional activity of genes involved in cell proliferation, differentiation, and apoptosis. Aberrant methylation in promoter regions has been increasingly recognized as a promising biomarker for early and non-invasive detection of breast cancer. This pilot study, designed as the initial phase for a Phase II validation project, aimed to identify genome-wide methylation signatures associated with hereditary breast cancer. We analyzed DNA methylation profiles using the Illumina HumanMethylation BeadChip in 16 hereditary breast cancer patients and 28 normal controls. A total of 775,008 CpG sites were examined across the genome. Of these, 217,366 CpGs showed significant differential methylation (min p = 6.87×10⁻⁹; min FDR = 0.003), and 136 CpGs remained significant after batch correction (min p = 5.98×10⁻⁹; min FDR = 4.63×10⁻³). Within promoter regions (164,796 CpGs), 32 sites were significant at FDR  0.05 in the pilot discovery set will be retained for a Phase II analysis involving 400 BRCA1/2 hereditary breast cancer patients and 400 matched controls, using targeted methylation assays. This extended cohort will allow validation of borderline and novel CpG loci and evaluation of promoter methylation as a precision biomarker for early detection and risk prediction. Collectively, our results suggest that promoter methylation signatures reflect a reproducible and biologically meaningful epigenetic pattern in hereditary breast cancer and warrant large-scale validation in independent populations. This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. RS-2024-00345260) and the National R&D Program for Cancer Control, Ministry of Health & Welfare, Republic of Korea (1420190).

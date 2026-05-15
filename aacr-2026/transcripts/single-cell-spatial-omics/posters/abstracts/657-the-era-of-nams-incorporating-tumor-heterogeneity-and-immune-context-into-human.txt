@@ -1,0 +1,18 @@
+# The era of NAMS, incorporating tumor heterogeneity and immune context into human-relevant patient avatar cancer models
+
+**Poster #**: 657
+**Session**: Ex Vivo Systems: Patient-Derived, Patient-Specific Tumor Cultures
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: W. Gregory Sawyer, Ryan Smolchek, Duy Nguyen, Alfonso Pepe, Diego Pedro, Erin George, Roger Li
+
+Moffitt Cancer Center, Tampa, FL
+
+---
+
+Patient-derived microtumor avatars are at the forefront of NAMs (New Approach Methodologies) that recapitulate intratumoral heterogeneity and incorporate the full immune cell tumor microenvironment. To address ongoing challenges in translational cancer modeling, we developed a platform enabling secondary addition of tumor-infiltrating lymphocytes (TILs), CAR T-cells, PBMCs, checkpoint blockade agents (aPD1), antibody-drug conjugates, and conventional chemotherapies to these microtumor systems. Using validated models from ovarian, pancreatic, bladder, colorectal, and endometrial cancers, we have demonstrated high-fidelity assessment of therapeutic response and immune dynamics. High-resolution time-lapse imaging reveals spatiotemporal kinetics of tumor clearance by immune effectors at single-cell resolution, and additional movies demonstrate mechanisms of immune-mediated tumor eradication. These findings benchmark the robustness and translational potential of microtumor avatars for preclinical immuno-oncology research and mechanistic testing.
+Purpose: To evaluate the use of microtumor avatars in cancer research, focusing on the integration of tumor heterogeneity and immune context for faithful translational models in NAMs.
+Methods: NAMs viability was regularly assessed via immunofluorescence imaging using LIVE/DEAD cell imaging and a Nikon AXR and Multiphoton confocal microscope outfitted with the NSPARC super-resolution detector. Characterization of the patient microtumors was performed using a variety of stains for nuclei, Ki67 activity, Collagen Type I, EpCAM, E-Cadherin, N-Cadherin, VE-Cadherin, Vimentin, CD45, CD3, Trop-2, Nectin-4, and others. Following long duration time-lapse experiments, super-resolution microscopy was performed using our typical fixation and permeabilization protocols.
+Results: Patient-derived microtissues were maintained in culture for extended periods and exhibited sustained viability and diverse cellular composition, as confirmed by the above imaging techniques. Proliferative activity, dynamic tissue architecture, and variable marker expression were revealed using immunofluorescence across all microtumors. Drug response studies using targeted agents, immune checkpoint inhibitors, and broad-spectrum cytotoxics demonstrated in vitro outcomes concordant with patient therapies, including both sensitivity and resistance patterns in solid tumor models. Furthermore, functional assays with engineered immune cells such as CAR T-cells and TILs confirmed robust immune-mediated tumor killing within these microtumor platforms.&#8203;
+Conclusions: These results support that advanced patient-derived microtissue NAMs now enable robust opportunities for increased precision in translational cancer research and therapeutic discovery.

@@ -1,0 +1,12 @@
+# TNMplot 2.0: Stage-resolved and pan-cancer transcriptomic analytics for target discovery in oncology
+
+**Poster #**: 5523
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Aron Baratha, Balazs GyorffySemmelweis University, Budapest, Hungary
+
+---
+
+BACKGROUND. TNMplot.com is a web-based resource that integrates RNA-Seq and gene-chip data from 56,938 samples, enabling differential gene expression analysis among normal, primary tumor, and metastatic tissues across 22 cancer types. Here, an updated version of the TNMplot database was established featuring new capabilities that advance pharmacological and translational oncology research.METHODS. We implemented a stage-based expression module using 4,521 tumors from breast (n=2,331), colorectal (n=648), lung (n=1,399), skin (n=82), and prostate (n=61) cancer. We added pan-cancer dot-matrix visualization and extended multi-gene tools including density analyses, correlation matrices, correlation profiling, signature evaluation, and targetgram analysis. Using the integrated database, we performed parallel RNA-seq and microarray validation to identify druggable candidates.RESULTS. The stage module was used to evaluate isolated genes linked to tumor progression and therapeutic timing. Multi-gene and pan-cancer functions enabled rapid mapping of druggable pathways and co-expression structures. Cross-platform filtering highlighted MET (p = 5.1e-69), FGFR4 (p = 1.59e-49), and EZH2 (p = 1.08e-54) as robust progression-associated candidates for repurposing in advanced colon cancer. A separate screening of dysregulated colon cancer genes identified 16 FDA-approved drug targets through ≥2-fold expression changes and ChEMBL matching, with LY6E and CDK1 each surpassing a 3-fold differential threshold. The complete combined database was integrated into our analysis platform available at www.tnmplot.com.CONCLUSIONS. The upgraded TNMplot platform provides a unified, high-fidelity environment for progression analysis, biomarker discovery, and pharmacological target prioritization across multiple cancers. A unique feature of the database is the parallel analysis of RNA-seq and gene array cohorts, enabling robust cross-platform validation of candidate biomarkers.

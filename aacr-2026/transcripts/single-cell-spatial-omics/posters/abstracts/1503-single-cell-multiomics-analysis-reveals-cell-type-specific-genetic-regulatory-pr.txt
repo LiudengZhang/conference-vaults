@@ -1,0 +1,15 @@
+# Single-cell multiomics analysis reveals cell type-specific genetic regulatory programs underlying immunotherapy resistance in hepatocellular carcinoma
+
+**Poster #**: 1503
+**Session**: Sequence Analysis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Siyuan Huang, Xiaohang Long, Stephen Lam Chan, Alfred Sze-Lok Cheng
+
+The Chinese University of Hong Kong, Hong Kong, China
+
+---
+
+Although outcomes for patients with advanced hepatocellular carcinoma (HCC) have improved with the advent of immune-checkpoint inhibitor (ICI)-based therapies, only approximately 30% of patients achieve an objective response. With the rapid development of single-cell technologies, increasing attention has been paid to immunosuppressive cell types in the tumor microenvironment (TME) from a transcriptomic perspective; however, the contribution of genetic variation to immunotherapy resistance remains largely unexplored. Here, we employed single-cell multiomics of 14 treatment-na&#239;ve and ICI-resistant HCC patients to investigate cell type-specific genetic regulation underlying chromatin accessibility and gene expression within the HCC TME. High-quality single-cell ATAC-seq data were generated for 155,700 cells and annotated into 11 major cell types, including B cells, CAFs, CD4&#8314; T cells, CD8&#8314; T cells, dendritic cells, endothelial cells, macrophages, monocytes, NK cells, Tregs, and tumor cells. Leveraging genotype information inferred from single-cell ATAC-seq, RASQUAL systematically mapped 23,329 chromatin accessibility-associated quantitative trait loci (caQTLs) across all cell types. We found a wide range of cell number-normalized caQTLs in different cell types (0.01 to 0.22). Notably, tumor cells exhibited the highest frequency of caQTLs, suggesting greater genetic susceptibility within their regulatory landscape. Colocalization with liver cancer-related GWAS signals, combined with peak-to-gene association analyses, identified enhancer-like regulatory elements that may modulate genes involved in tumor progression and immunotherapy resistance. In summary, our study delineates the cell type-specific genetic control and regulatory architecture of HCC TME and provides mechanistic insights into the molecular basis of immunotherapy resistance.
+Acknowledgement: This study is supported by Li Ka Shing Foundation and CUHK Strategic Seed Funding for Collaborative Research Scheme.

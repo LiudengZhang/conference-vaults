@@ -1,0 +1,12 @@
+# Development of polyHis-targeting chimeras (HisTACs) for targeted protein degradation
+
+**Poster #**: 997
+**Session**: Computational, Technological, and Mechanistic Advances
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Annan Sun1, Dong Zhu2, Hui Chen1, Monica Billitti2, Lingtao Jin3, Dongwen Lyu2, Guangrong Zheng11Department of Medicinal Chemistry, University of Florida, Gainesville, FL,2Department of Cellular Biology and Anatomy, Augusta University, Augusta, GA,3Department of Molecular Medicine, University of Texas Health San Antonio, San Antonio, TX
+
+---
+
+Induced-proximity degraders hold great promise for oncology, yet their utility remains constrained by the need for high-affinity ligands for each protein of interest. Tag-based degrader systems provide ligand-independent surrogates but are limited by large tag size, risk of tag-driven ubiquitination, and difficulty of engineering substantial tags into endogenous genes. To address these challenges, we developed a polyhistidine-directed degrader platform (HisTAC) that uses Ni²⁺-nitrilotriacetic acid (Ni²⁺-NTA) to engage His-tagged proteins and recruit CRBN or VHL E3 ligases.Cellular uptake was first confirmed with a fluorescent His₆-CPP/Ni-NTA probe, which exhibited rapid entry and widespread intracellular distribution. We then generated a HeLa cell line with endogenously His₆-HiBiT-tagged BRD4 and screened a panel of Ni²⁺-NTA-based degraders. Constructs containing two Ni²⁺-NTA groups displayed the highest potency, yielding >50% BRD4 loss at micromolar levels. MG-132 co-treatment fully blocked BRD4 depletion, confirming proteasome dependence. Immunoblotting further revealed preferential degradation of BRD4 long isoform, with moderate reduction of the short isoform. VHL-recruiting HisTACs also induced potent, isoform-selective BRD4 degradation with sub-micromolar efficacy toward the long isoform.To test the generalizability of this platform, we engineered a polyHis-HiBiT-tagged PSPC1 cell line—an RNA-binding protein lacking tractable ligands. Both CRBN- and VHL-based HisTAC degraders induced rapid, dose-dependent PSPC1 degradation, demonstrating the applicability of Ni²⁺-NTA-guided proximity to traditionally “undruggable” targets.Together, these results establish HisTAC degraders as a versatile, ligand-independent strategy for probing challenging cancer targets and accelerating degrader discovery and mechanistic studies in cancer research.

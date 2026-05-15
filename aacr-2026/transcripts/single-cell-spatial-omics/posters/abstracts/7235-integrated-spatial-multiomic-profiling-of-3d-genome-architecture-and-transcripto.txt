@@ -1,0 +1,14 @@
+# Integrated spatial multiomic profiling of 3D genome architecture and transcriptome-wide gene expression in breast cancer models
+
+**Poster #**: 7235
+**Session**: Chromatin Architecture and Regulatory Landscapes
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yi Cui1, Huy Nguyen2, Andrea Floris2, David King2, Serdar Tulu2, David Castillo2, Shanshan He1, Shyamtanu Chattoraj2, Jude Dunne2, Mirko Corselli1, John Lyssand1, Joseph  M.  Beechem1
+
+1Bruker Spatial Biology, Seattle, WA,2Bruker Spatial Genomics, San Jose, CA
+
+---
+
+Disruption of 3D genome organization profoundly influences gene expression, driving disease and cancer progression. Mechanisms such as oncogene amplification, deletion, and chromatin domain misfolding are key contributors to tumorigenesis. However, conventional approaches like whole-genome sequencing (WGS), RNA-seq, and Hi-C typically assess these changes at the bulk level, masking cell-to-cell heterogeneity. To dissect these mechanisms with single-cell and spatial resolution, we leverage the PaintScape&#8482; system to visualize 3D genome architecture in situ, within single cells. We then correlate changes in genome structure to gene expression and phenotype measured in parallel samples using a spatial multiomic assay on the CosMx&#174; Spatial Molecular Imager (SMI) to generate a comprehensive multi-modal dataset. Using normal (MCF10a) and cancerous (MCF7) breast cell lines, the PaintScape assay enabled high-resolution visualization of chromosomal territories and gene regions involved in cancer-associated pathways, including cell cycle regulation, apoptosis, and chromatin remodeling. We identified cell type-specific structural alterations such as translocations, extrachromosomal DNA (ecDNA) formation, locus copy number variation and shifts in topologically associating domain (TAD) boundaries. Parallel CosMx SMI multiomic imaging revealed transcriptome-wide signatures and subcellular localization patterns of key molecular markers. Upon exposure to Estradiol, an estrogen receptor (ER) agonist, we observed transcriptional upregulation of MYC, CCND1, and E2F1 in ER+ MCF7 cells, contrasting with minimal response in ER- MCF10a cells. PaintScape profiling further revealed spatial clustering of distant estrogen response elements (DEREs) near Chr17q and Chr20q, while CosMx SMI quantified local transcriptional activation, highlighting complementary insights from the two platforms. Together, the PaintScape system and CosMx SMI enable an integrated, single-cell, and spatially resolved interrogation of genome architecture, transcriptomics, and proteomics. This multi-modal approach uncovers cell populations with distinct genomic and phenotypic states, offering a powerful framework to elucidate how 3D genome organization and transcriptional regulation jointly drive cancer heterogeneity and progression.

@@ -1,0 +1,17 @@
+# MCT4-driven lactate shuttle in the irradiated tumor microenvironment upregulates neutrophils PD-L1 expression for immunosuppression in lung cancer
+
+**Poster #**: 6603
+**Session**: Radiation and Photodynamic Therapy Response Modifiers
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Wenqian Yuan1, Yijun Wang1, Lingyi Kong1, Minqi Zhou1, Yuhan Sheng2, Yajie Sun1, Kunyu Yang1
+
+1Cancer Center, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China,2OHSU Knight Cancer Institute, Portland, OR
+
+---
+
+Purposes: Although tumor metabolic heterogeneity is known to shape tumor microenvironments (TME), the metabolic consequences of radiotherapy remain poorly defined. Thus, this study aims to elucidate the radiation-induced metabolic alterations in the TME, delineate their functional roles in radioresistance, and identify targetable metabolic vulnerabilities.
+Methods: Metabolic perturbations were investigated through metabolomic profiling of lung cancer patients serum 5 days after radiotherapy and tumor interstitial fluid collected at 48h post-irradiation. Glycolytic flux was assessed via 13C6-glucose-based metabolic flux analysis. Lactate dynamics were assessed through extracellular acidocation rate (ECAR) measurements. Spatial scRNA sequencing was conducted on tumors from Lewis models. All the histone modification antibodies available were used to identify the lactylation site of neutrophils. Cut&#38;Tag assay was performed to elucidate the downstream genes.
+Results: Metabolomic profiling of patients serums and irradiated tumors revealed a significantly elevation of lactate. Subsequent functional analyses demonstrated that radiation induces metabolic reprogramming in NSCLC cells, characterized by amplified glycolytic flux, elevated ECAR, and enhanced lactate secretion. Proteomic screening identified MCT4 as the most prominently upregulated glycolytic regulators post-irradiation. MCT4 blockade attenuated radiation-induced glycolytic potentiation and suppressed lactate efflux. Further investigation into the regulatory mechanism revealed that radiation triggers RAB3B expression, which competes with HSC70 for binding to MCT4, inhibiting the HSC70-mediated autophagy of MCT4. In vivo, Gene depletion of Mct4 reversed radiation-induced lactate-enriched TME. Spatial scRNA sequencing further revealed that irradiation induced an immunosuppressive neutrophil phenotype, which was effectively reversed by MCT4 inhibition. Mechanistically, tumor-derived lactate was internalized by neutrophils via MCT1, driving histone H4 lysine 5 lactylation, which subsequently promoted PD-L1 transcription and impaired CD8+ T cells functions. Blocking lactate efflux from tumor reversed histone lactylation and PD-L1 expression in neutrophils, thereby potentiating radiotherapy efficacy.
+Conclusion: Our study demonstrates that radiation reprograms tumor metabolism by enhancing glycolytic capacity and lactate efflux. This lactate surge drives PD-L1 expression of neutrophils and suppress the activity of CD8+ T cells. Our findings propose that targeting MCT4 exerts dual therapeutic effects: reversing radiation-induced metabolic adaptation and disrupting immunosuppressive neutrophil remodeling, thereby providing a strategy to amplify radiotherapy efficacy.

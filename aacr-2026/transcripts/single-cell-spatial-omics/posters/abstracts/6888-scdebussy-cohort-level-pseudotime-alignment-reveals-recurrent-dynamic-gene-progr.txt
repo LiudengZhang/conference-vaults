@@ -1,0 +1,17 @@
+# scDeBussy: Cohort-level pseudotime alignment reveals recurrent dynamic gene programs in histological transformation
+
+**Poster #**: 6888
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Meng Wang1, Jose Meza-Llamosas2, Xinjun Wang3, Joseph Chan1
+
+1Human Oncology & Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY,2Tri-Institutional PhD Program in Computational Biology & Medicine, New York, NY,3Department of Epidemiology & Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY
+
+---
+
+Introduction: Lineage plasticity and histological transformation are key drivers of therapeutic resistance in cancer. However, recurrent dynamic transcriptional programs are hard to model across patients due to intertumoral heterogeneity and uneven cell-state representation. Existing trajectory alignment methods rely on pairwise comparisons, predefined topologies, or batch correction, limiting detection of shared cohort-level transitions. To address this, we developed scDeBussy, a cohort-level trajectory alignment method that identifies shared dynamic gene programs across samples.
+Methods: scDeBussy uses dynamic time-warping barycenter averaging to derive a unified reference trajectory from patient-specific probabilistic pseudotime, enabling cross-sample comparison of gene trends. We modeled aligned pseudotime with generalized additive models, clustered gene trends into early, intermediate, and late transcriptional modules, and quantified recurrence across patients while controlling for clinical covariates. Latent-Factor Multi-Output Gaussian Process simulations show scDeBussy recovers the global latent pseudotime and aligns cells derived from patients sampled at disparate stages of the underlying trajectory. We applied scDeBussy to new and published single-cell RNA-seq datasets of histological transformation, including lung adenocarcinoma (LUAD) to small cell lung cancer (SCLC) and lung adenosquamous cancer, to identify recurrent transcriptional dynamics of lineage plasticity.
+Results: scDeBussy aligned patient-specific trajectories despite heterogeneous sampling. In LUAD-to-SCLC neuroendocrine (NE) transformation, it revealed a reproducible continuum from alveolar/secretory states through basal/mesenchymal intermediates to terminal NE states. Early module was enriched for JAK/STAT inflammatory signaling, intermediate module for basal and squamous programs marking a stem-like bottleneck, and late module for NE commitment. In lung adenosquamous cancer, scDeBussy inferred a continuous adeno-to-squamous transition, with early module enriched for LUAD-associated transcription factors (FOS, FOXA1/2) and late module dominated by LUSC drivers (TP63, E2F). Projecting matched scATAC-seq profiles onto pseudotime uncovered epigenetic priming events along the transition, including signatures of epigenetic reprogramming (EZH2), stemness (KLF4, JUN/FOS), and EMT (ZEB1, SMAD2-4).
+Conclusion: scDeBussy enables cohort-level pseudotime alignment to detect recurrent dynamic gene programs underlying state transitions. Applied to LUAD-to-SCLC and adeno-to-squamous transformation, it reveals key transitional modules toward distinct terminal fates. By resolving these conserved dynamics, it offers a generalizable approach to dissecting disease processes marked by plasticity and divergent lineage outcomes.

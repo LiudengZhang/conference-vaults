@@ -1,0 +1,17 @@
+# Baseline peripheral blood scRNA-seq AI estimator framework predicts solid-tumor response and adverse events via molecular foundation models and cell-to-patient learning
+
+**Poster #**: 4212
+**Session**: Machine Learning Approaches for Cancer Prediction
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Pablo Moreno1, Marta Milo1, Ricardo Miragaia1, Alex Proutski1, Virginia Savova2, Ikbel Achour3
+
+1Astrazeneca, Cambridge, United Kingdom,2Astrazeneca, Waltham, MA,3Astrazeneca, Gaithersburg, MD
+
+---
+
+Introduction: Accurately identifying patients likely to benefit from therapy and at risk of adverse events from baseline blood samples, is an unmet need in oncology. We developed a translational AI estimator framework that predicts treatment response, adverse events (AEs), and molecular signatures from baseline PBMC single-cell RNA-seq, for solid tumors. We used baseline PBMC scRNA-seq counts (with optional cell-type annotations), pre-trained molecular foundation models (FMs) (scGPT v1.0 [1], scFoundation [2]), cell-to-patient Multi-Instance Learning (MIL) [3] with RECIST labels (CR/PR Responders; SD/PD Non-Responders), to predict responses. We fine-tuned downstream tasks, applied scVI-based data augmentation [4] to improve stability and generalization, with an interpretability layer linking predictions to cell types and gene programs.
+Results: Using baseline PBMC scRNA-seq from patients with solid tumor treated with immunotherapy (103 patients, ~12,000 cells/patient), the estimator predicts treatment response from baseline blood across FM backbones and identifies an optimal downstream architecture. We used scFoundation with and without hierarchical attention and scGPT. For scFoundation without hierarchical attention, we observe learning with substantial loss reduction, discrimination of classes with AUC just below 0.8 and F1 scores &#8776; 0.78. For scFoundation with hierarchical attention we observe similar performance with slightly worse accuracy with AUC &#8776; 0.75 and F1 &#8776; 0.70 . For scGPT, we observe learning (loss reduction), good discrimination of classes with AUC &#8776; 0.75 and F1 scores just over 0.7. Validation scores are slightly worst in all cases. Results we reported so far are reflecting the ability of our framework to generalize, show competitive performance with differences attributable to hierarchical vs non-hierarchical aggregation. Data augmentation to improve training stability and preliminary AE risk modeling, prioritizing grade &#8805;3 events, are showing encouraging results. Molecular signatures are used to support mechanistic insight and biomarker explaining predictions.
+Conclusions: Baseline blood single-cell signals combined with FM embeddings and cell-to-patient learning can predict treatment response in solid tumors and provide a path to AE stratification and signature discovery. Improvements can be made with larger dataset and interpretable biological rationales can be facilitated by this framework.
+References: 1.Cui H. et al. Nature Methods, 21:1470-1480 (2024).2.Hao M. et al. Nature Methods, 21:1481-1491 (2024).3.Do C et al. Bioinformatics, 41: i96-i104 (2025).4.Lopez R. et al. Nature Methods, 15:1053-1058 (2018).

@@ -1,0 +1,17 @@
+# Characterization of high plasticity cell states in cutaneous squamous cell carcinoma in response to chemotherapy and immune checkpoint inhibitor treatments
+
+**Poster #**: 3104
+**Session**: Overcoming Chemotherapy Resistance
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Ramin Farhad1, Di Wu1, Mark A. Taylor1, Allan Balmain2, Rosemary J. Akhurst3
+
+1Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA,2Department of Biochemistry and Biophysics, University of California, San Francisco, San Francisco, CA,3Department of Anatomy, University of California, San Francisco, San Francisco, CA
+
+---
+
+Therapeutic resistance and cancer recurrence in cutaneous squamous cell carcinoma (cSCC) are strongly driven by genetic heterogeneity and phenotypic plasticity. Tumor cells that enter high-plasticity, low-proliferative states often evade cytotoxic therapies, including mitotic-targeting chemotherapeutics, yet the molecular mechanisms enabling these transitions and maintaining these states under therapeutic pressure remain poorly defined. Here, we seek to identify, characterize, and ultimately destabilize these therapy-refractory cell states across multiple treatment modalities.
+We developed a chemically induced cSCC model in FVB mice using a single initiating dose of DMBA followed by 20 weeks of biweekly TPA promotion. Once tumors reached approximately one cubic centimeter, cohorts were assigned to distinct therapeutic regimens, including anti-PD1 immune checkpoint blockade, cisplatin, paclitaxel, and combination strategies incorporating the Pp2a inhibitor LB100 to test whether pharmacologic perturbation can drive mitotically silent tumor cells back into a proliferative, therapy-responsive state.
+Normal skin, papillomas, lymph nodes, and carcinomas were collected and approximately 900,000 cells were profiled using the 10x Genomics single-cell RNA-sequencing platform to map the full spectrum of malignant, stromal, and immune programs across various treatment groups. Ongoing analysis aims to resolve transcriptional signatures associated with high-plasticity states, identify treatment-induced and treatment-specific state transitions, and define potential therapy-evading intermediates that arise under drug pressure. A major focus is the discovery of metagene signatures that correlate with high-plasticity phenotypes and the evaluation of whether these molecular programs can be modulated or therapeutically targeted to re-sensitize tumors to conventional or immune-based therapies. In parallel, we are also examining how immune cell abundance, activation states, and lineage-specific gene expression profiles shift across treatment arms, particularly in response to anti-PD1 therapy, to uncover how the tumor immune microenvironment contributes to or counteracts the emergence of resistant high-plasticity cell states.
+This work seeks to establish a unified mechanistic framework describing how plasticity-driven resistance emerges in cSCC and to identify points of therapeutic vulnerability that may improve responses to chemotherapy and immunotherapy both within and beyond this disease context.

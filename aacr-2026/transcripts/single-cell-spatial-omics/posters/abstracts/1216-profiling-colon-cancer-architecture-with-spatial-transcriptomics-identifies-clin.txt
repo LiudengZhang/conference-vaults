@@ -1,0 +1,14 @@
+# Profiling colon cancer architecture with spatial transcriptomics identifies clinically relevant stromal ecotypes
+
+**Poster #**: 1216
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Antoine Cazelles1, Camilla Pilati1, Delphine Le Corre1, Gadea Cabrejas1, Marine Sroussi1, Claire Mulot1, Claire Gallois1, Gilles Manceau1, Mehdi Karoui1, Isaias Hernández-Verdin1, Antoine Bougoüin1, Wolf-Herman Fridman1, Aurélien de Reyniès1, Côme Lepage2, Thierry Andre3, Jean-François Emile4, Théo  Z.  Hirsch1, Julien Taieb1, Pierre Laurent-Puig1, Sophie Mouillet-Richard1
+
+1Centre de Recherche des Cordeliers, Paris, France,2University of Burgundy and Franche Comté, Dijon, France,3Hôpital Saint-Antoine, Paris, France,4Ambroise-Paré Hospital, Boulogne, France
+
+---
+
+Despite progress in the understanding of intra-tumor heterogeneity in colon cancer, the spatial organization of the cell types and states that compose colon tumors remains to be fully delineated. We constructed a large spatial transcriptomic atlas of 48 stage III colon cancers and identified recurrent, biologically relevant spatial ecosystems, including tumor and stromal ecotypes. Analysis of recurrence-associated profiles revealed a stromal-specific upregulation of a set of genes that includes the regenerative/revival-stem cell (REC/RSC) marker ANXA1. Disease recurrence was accompanied by stromal-specific enrichment of REC/RSC and YAP activation signatures, together with increased associations between levels of ANXA1 and those of collagen-expressing genes. Dissection of the stromal compartment uncovered hidden heterogeneity and sub-cluster-specific enrichment in ANXA1 and related markers in patients with relapse. Further profiling at single cell resolution with Visium HD allowed spotting ANXA1-expressing tumor cells within an environment marked by abundant collagen-producing cancer-associated fibroblasts (CAFs). Finally, we translated these findings to bulk transcriptomics by performing univariate and multivariate analyses and demonstrated the prognostic value of gene signatures derived from the spatial ecotypes and stromal sub-clusters across three independent cohorts comprising >3,500 stage II and stage III colon cancer patients. By mapping cellular ecosystems in localized colon cancer, this work lays the foundation to elucidate mechanisms of disease recurrence and inform therapeutic strategies. The validation of the spatially-derived prognostic signatures in bulk transcriptomic data paves the way for their potential integration into clinical practice to improve patient stratification.

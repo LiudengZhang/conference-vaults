@@ -1,0 +1,12 @@
+# Alnodesertib (ART0380) in combination with irinotecan is highly efficacious in preclinical models of ATM null pancreatic cancer
+
+**Poster #**: 1738
+**Session**: DNA Damage and Repair 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Helen  M.   R.  Robinson, Elias Elinati, Eeson Rajendra, Paula Costales, Aurora Cerutti, Lerin Geo, Emily Graham, Kirsty Lawrence, Joana  F.  B. P. Neves, Marina Roy-Luzarraga, Ozgun Ozer, Vera Grinkevich, Jayesh  B.  Majithiya, Ian Smith, Graeme  C.  SmithArtios Pharma, Cambridge, United Kingdom
+
+---
+
+Ataxia telangiectasia mutated (ATM) and Ataxia telangiectasia and Rad3-related (ATR) proteins function in concert to regulate the cellular response to both intrinsic and extrinsic factors that induce replication stress such as oncogene activation and DNA damaging agents. Data from the ongoing STELLA Phase II clinical trial (NCT04657068), exploring the safety and efficacy of the ATR inhibitor, alnodesertib (ART0380), in combination with low-dose irinotecan in an ATM negative setting has shown promising response rates of up to 50% across eight different tumor types*. This data has highlighted the effectiveness of a three pronged approach of targeting ATR via alnodesertib in a replication stress high background e.g. ATM loss, with an agent that induces further replication stress e.g. topoisomerase I inhibition. Here, mechanistic preclinical evidence is provided for this novel therapeutic approach across a range of in vitro and in vivo ATM negative pancreatic cancer models. In all of the CDX and PDX models studied, the combination of alnodesertib and irinotecan induced tumor stasis or regression. Our data highlights that PDAC may represent a highly sensitive tumor type for further development of this new treatment modality exploiting cancer cell specific replication stress* Ulahannan et al. Cancer Res (2025) 85 (8_Supplement_2): CT267

@@ -1,0 +1,12 @@
+# AI-based detection and scoring of TROP2 expression in IHC-stained NSCLC specimens
+
+**Poster #**: 4162
+**Session**: Digital Pathology 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jeff Lock, Adam Hsiung, Kevin Gallagher, Harry Nunns, Nam Tran, Ben Ovadia, Arezoo Hanifi, Qingyan AuNeogenomics Laboratories, Inc., Aliso Viejo, CA
+
+---
+
+Lung cancer is the leading cause of cancer-related deaths in the United States and non-small cell lung cancer (NSCLC) accounts for approximately 85 percent of all lung cancer cases1,2. Trophoblast cell-surface antigen 2 (TROP2), a transmembrane glycoprotein that normally serves as a Ca2+ signal transducer linked to cell growth, proliferation, and migration, is frequently observed in NSCLC and elevated expression levels are associated with increased metastatic risks and poor prognostic outcomes. Due to the adverse effects of TROP2 on NSCLC, as well as on many other common cancers, strategies such as antibody-drug conjugates (ADCs) and CAR-NK cells targeting TROP2 expressing tumors have emerged as areas of active investigation and therapeutic development. To serve these efforts, we present an end-to-end workflow for the quantification of TROP2 expression in NSCLC specimens that consists of an IHC staining assay optimized for the detection of TROP2 in FFPE tissue sections together with AI-based image analysis routine for the automated scoring of TROP2 tumor expression in whole-slide image (WSI) specimens. Our analysis algorithms were highly concordant to manual interpretation by pathologists when evaluated using Pearson’s correlation coefficient, demonstrating both accurate tumor identification and TROP2 expression scores. By integrating our TROP2 IHC assay with algorithmic image analytics, we offer a comprehensive, scalable solution for discovery-based research efforts and clinical drug trials focused on TROP2 in NSCLC.References1) American Cancer Society. Facts & Figures 2025. American Cancer Society. Atlanta, Ga. 2025.2) Siegel, R. L., Kratzer, T. B., Giaquinto, A. N., Sung, H., & Jemal, A. (2025). Cancer statistics. 2025. CA: A Cancer Journal for Clinicians, 75(1). https://doi.org/10.3322/caac.21871

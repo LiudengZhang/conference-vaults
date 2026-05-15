@@ -1,0 +1,12 @@
+# A Phase II chemo/immunotherapy study using metronomic gemcitabine, doxorubicin, docetaxel and nivolumab for advanced angiosarcoma (NCT04535713): An interim analysis
+
+**Poster #**: CT256
+**Session**: Phase II Clinical Trials
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Samantha Jeffrey, Piya Mann, Oliver Davidorf, Anmol Dia Agarwal, Sarah Lande, Mihir Chawla, Neal Chawla, Ania Moradkhani, Ted Kim, Victoria Chua-Alcala, Sant Chawla, Erlinda GordonSarcoma Oncology Center, Santa Monica, CA
+
+---
+
+Background: Advanced angiosarcoma is a rare and aggressive sarcoma which is most often fatal, with a median progression free survival of 4-6 months on standard therapy. Therefore, innovative treatment regimens are urgently needed.Methods:Endpoints: Primary: Progression Free Survival; Secondary: Best overall response; Overall Survival; Incidence and severity of adverse events.Eligibility: > 18 years, confirmed diagnosis of advanced angiosarcoma, acceptable hematologic and organ function.Treatment Schedule: Gemcitabine (600 mg/m2; max:1000 mg), doxorubicin (18 mg/m2; max: 32 mg), docetaxel (25 mg/m2; max:42 mg) on Days 1 and 8, and nivolumab (240 mg) on Day 1 of a 3-week cycle.Results: Median prior regimens = 1 (range 0-9).Efficacy: 7 of 9 patients who completed at least 2 treatment cycles and follow-up imaging (modified ITT population) were evaluated for: Median PFS: 9.4 months (95% CI: 8.224 to 9.441; 7 events, 0 censored); Best response: Confirmed 1 CR, 3 PR, 3 SD; ORR = 57%; DCR = 100%. Nine patients who received at least one dose of each chemotherapy agent (ITT population) were evaluated for: Median OS: 28.4 months (95% CI: 0.724 to 31.217; 5 events, 4 censored).Safety: 8 of 9 (89%) patients experienced a ≥ Grade 3 TRAE: leukopenia (n=6), thrombocytopenia (n=4), neutropenia (n=5), anemia (n=2), lymphopenia (n=2), fatigue (n=1), dec. LVEF (n=1), periorbital edema (n=1), limb edema (n=1) and worsening hypothyroidism (n=1). There were no Grade 5 nor unexpected adverse events.Conclusion: This metronomic chemo/immunotherapy regimen may be a synergistic and effective therapy for advanced angiosarcoma with manageable toxicity.

@@ -1,0 +1,14 @@
+# Single cell functional characterization of cancer mutations and their cellular phenotype
+
+**Poster #**: 5918
+**Session**: Genetic and Transcriptomic Dissection of Cancer Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Huiyun Sun, Dongin Lee, HoJoon Lee, Susan M. Grimes, Raegan Wood, Hanlee P. Ji
+
+Stanford University, Stanford, CA
+
+---
+
+Many cancer driver mutations lead to proteins with amino acid substitutions which dramatically affect their function. This class of cancer mutations play a critical biological role in cancer progression and maintenance of nearly all malignancies. However, the effect of substitution mutations is mostly inferred computationally rather than functionally tested. As a result, there is practically no biological information about their functional consequences for these substitutions except for a small number.We developed a high-throughput single cell approach to systematically investigate the functional effects of reported cancers substitutions. This system provides parallel, highly scalable testing of many cancer mutations across multiple genes in a single experiment. It uses CRISPR base editors to introduce specific cancer mutations into the genome, identifies the newly introduced mutation genotype among individual cells and determines each mutation&#8217;s transcriptional phenotype per a given cell. Specifically, long-read targeted sequencing is applied to single cell cDNAs. Single cell long read sequencing identifies the presence of an engineered mutation in each cDNA assigned to an individual cell. To determine phenotype of the mutation, we integrate the short-read transcriptome profile from the same single cells. This integrative approach enables single-cell direct genotyping of the introduced genetic variant and matching phenotype from the same cell.We chose a set of mutations that occur with high frequency as reported in the TCGA&#8217;s pan-cancer atlas. All the possible gRNAs were designed based on the location of the C/A bases in the oncogenic mutations&#8217; sequence context. We detected the engineered mutations by linking actual mutation genotype determined by long-read sequencing with corresponding transcriptome change detected by short-read sequencing in one single experiment.These results demonstrate how combining single cell genomics and direct genome engineering method increase the scale for characterizing diverse cancer-associated mutations. In the future, we will evaluate in parallel large sets of different cancer mutations, how they alter gene expression and changes in the cellular states. Importantly, characterizing the function of novel oncogene mutations may lead to the discovery of new targeted therapeutics for cancers.

@@ -1,0 +1,14 @@
+# Decoding single-cell protein interactomes of CAR T cells with the Proximity Network Assay
+
+**Poster #**: LB041
+**Session**: Late-Breaking Research: Chemistry
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Filip Karlsson, Michele Simonetti, Christina Galonska, Hanna van Ooijen, Tomasz Kallas, Divya Thiagarajan, Maud Schweitzer, Ludvig Larsson, Vincent van Hoef, William Love, Jerell Aguila, Simon Fredriksson, Michael Forster
+
+Pixelgen Technologies, Stockholm, Sweden
+
+---
+
+Proteins on the cell surface are key determinants of the cellular function in the adaptive immune system. The Proximity Network Assay (PNA) is a sequencing-based platform that resolves protein organization at single-cell resolution. Using DNA-barcoded antibodies and proximity-dependent ligation, PNA simultaneously measures the abundance, clustering, and colocalization of 155 immune proteins, generating nanoscale surface maps comprising ~50,000 molecular positions per cell without the use of optics. This spatially resolved readout enables systematic analysis of the membrane proteome across thousands of cells. We demonstrate the utility of PNA by identifying the proxiome of the CD19 CAR receptor at steady state and revealing dynamic proteomic remodeling during tumor cell encounter, including key phenomena such as trogocytosis and cell-cell conjugate formation that are key for CAR T cell function in vivo. By integrating spatial context with multiplex protein profiling at scale, PNA provides a powerful platform for protein interactomics, biomarker discovery, and mechanistic insights for cellular immunotherapies currently under clinical evaluation.

@@ -1,0 +1,19 @@
+# A spontaneous CTNNB1 driver mutation reversion in a primary ovarian clear cell carcinoma
+
+**Poster #**: 2000
+**Session**: Genomic Drivers of Cancer Pathogenesis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Rania Bassiouni1, Yuxin Jin1, Lee D. Gibbs2, Jing Qian2, Solomon O. Rotimi2, Heather Miller2, Michelle G. Webb2, David W. Craig1, Javier Arias-Stella1, Lynda Roman2, John D. Carpten1
+
+1City of Hope, Duarte, CA,2University of Southern California, Los Angeles, CA
+
+---
+
+Ovarian clear cell carcinoma (OCCC) is a histologically and clinically distinct subtype of epithelial ovarian cancer that typically demonstrates genomic instability and recurrent copy number (CN) alterations.
+Here, we describe an OCCC case from a 46-year-old patient. The primary tumor, staged IIIC, was surgically removed prior to administration of adjuvant treatment. We subjected a fresh-frozen specimen of the primary tumor to nuclear isolation and single cell whole genome sequencing. For single cell CN analysis, sequencing data was processed with the Cell Ranger DNA pipelines (10x Genomics). Following stringent quality filtering, cells were clustered by CN to resolve clonal mixtures.
+In addition to diploid cells (cluster 1), the sample contained two clones with distinct CN profiles (clusters 2 and 3), each comprised of additional subclones. The two clones shared some identical CN alterations, suggesting a common ancestor. To determine the order of clone emergence, we performed CN-based phylogenetic analysis, which identified cluster 3 as the earlier clone. This was supported by single cell loss of heterozygosity (LOH) determination, which revealed that LOH in cluster 2 equaled and exceeded that of cluster 3.
+Using the diploid component of the sample as a matched germline, we performed somatic variant calling to identify consequential mutations. The two clones shared several hundred somatic passenger mutations, supporting a shared lineage. However, only one candidate driver mutation was identified, a heterozygous CTNNB1 S37C activating mutation. Interestingly, only cluster 3 - the early clone - harbored the mutation. Examination of B-allele frequencies revealed LOH on chromosome 3, encompassing CTNNB1, in cluster 2. Haplotype determination confirmed the loss of the B-allele and a duplication of the wild-type A-allele in cluster 2. Thus, the evidence suggests that the CTNNB1 driver mutation was lost via a copy-neutral LOH event that retained the wild-type allele.
+To determine whether this reversion was reflected in gene expression programs, we performed spatial transcriptomics (10x Genomics) on a formalin-fixed, paraffin embedded specimen of the primary tumor. We identified regions of the tumor corresponding to both clones by positional gene set enrichment. The clones occupied spatially discrete locations and were histologically and transcriptionally distinct. Gene set enrichment analysis confirmed that regions corresponding to cluster 3 were enriched in programs reflecting WNT/&#946;-catenin signaling and epithelial-mesenchymal transition, consistent with an activating CTNNB1 mutation. Conversely, cluster 2 was enriched in programs for TNFA signaling, hypoxia, and KRAS signaling.
+This is the first evidence of an oncogenic driver mutation reversion in an untreated primary tumor and reflects a surprising consequence of chromosomal instability on intra-tumoral heterogeneity.

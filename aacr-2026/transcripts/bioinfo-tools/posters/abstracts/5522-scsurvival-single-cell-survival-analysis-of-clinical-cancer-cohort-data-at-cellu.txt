@@ -1,0 +1,12 @@
+# scSurvival: Single-cell survival analysis of clinical cancer cohort data at cellular resolution
+
+**Poster #**: 5522
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Tao Ren1, Faming Zhao2, Canping Chen1, Lingyun Wu3, Gordon B. Mills2, Lisa M. Coussens4, Zheng Xia11Oregon Health & Science University, Portland, OR,2OHSU Knight Cancer Institute, Portland, OR,3Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China,4OHSU Knight Cancer Institute, Lake Oswego, OR
+
+---
+
+Survival analysis is fundamental to cancer research. Advances in technology have enabled an increasing number of cohort-level cancer studies to incorporate single-cell sequencing while collecting clinical survival data. However, no effective strategy currently exists for directly modeling survival outcomes from single-cell data. To address this gap, we present scSurvival, an attention-based multiple-instance Cox regression framework that models each patient as a bag of cells to predict survival outcomes at both the patient and single-cell levels. To handle high dimensionality, sparsity, and batch effects, scSurvival integrates a variational autoencoder-based feature extraction module with generative modeling to enhance feature robustness and cross-batch generalizability. Comprehensive simulations demonstrate scSurvival’s superior performance and scalability. In melanoma and liver cancer scRNA-seq cohorts, scSurvival accurately predicts patient outcomes and identifies the cell subpopulations most critical to survival. Overall, scSurvival enables robust prediction of patient survival while uncovering survival-associated cell subpopulations, advancing single-cell survival analysis in cancer research.

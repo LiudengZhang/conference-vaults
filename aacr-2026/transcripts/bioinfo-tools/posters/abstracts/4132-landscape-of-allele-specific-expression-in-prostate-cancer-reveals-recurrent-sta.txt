@@ -1,0 +1,12 @@
+# Landscape of allele-specific expression in prostate cancer reveals recurrent, stage-specific events in AR signaling and resistance pathways
+
+**Poster #**: 4132
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Margaret Tsui1, Kevin Hu1, Hanbing Song2, Sarah Hsu1, Rebecca Chen1, Lorraine Nuniz1, Julia Pham1, Chih-Hao Chang1, Keliana Hui1, David Quigley3, Jingjing Li4, Franklin Huang11Division of Hematology and Oncology, Dept. of Medicine, University of California San Francisco, San Francisco, CA,2University of California San Francisco, San Francisco, CA,3Urology, University of California San Francisco, San Francisco, CA,4Neurology, University of California San Francisco, San Francisco, CA
+
+---
+
+The effects of cis-regulatory alterations in prostate cancer (PCa) are insufficiently characterized, presenting an opportunity to discover driver genes and therapeutic targets. To comprehensively study these effects, we identify genes undergoing allele-specific expression (ASE) in localized PCa and metastatic castration-resistant PCa (mCRPC) samples. By defining recurrent ASE events across prostate tissue and tumor-enriched ASE, we develop CASEDI, a computational framework for prioritizing cancer drivers by integrating ASE and clinical data. CASEDI reveals genes showing recurrent ASE and altered expression in PCa, including AR-regulated and oncogenic ACSM1. mCRPC samples show enrichment of ASE in DNA repair, resistance pathways, and oncogenes and increased frequency of monoallelic expression (MAE) compared to localized tumors. We define an mCRPC gene signature based on MAE status that identifies a subgroup of localized patients with worse prognosis. Using ASE analysis, we expand the landscape of cis-regulatory events in PCa to inform the identification of additional therapeutic targets.

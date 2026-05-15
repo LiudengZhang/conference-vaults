@@ -1,0 +1,17 @@
+# Neighborhood analyses in nerve fiber-associated tumor regions in hereditary diffuse gastric cancer
+
+**Poster #**: 6229
+**Session**: Tumor-Neuron Interactions and Neuro-Regulation of Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Idania Carolina Lubo Julio1, Yunhe Liu1, Sharia Hernandez1, Alejandra G Serrano1, Wei Lu1, Larisa Kostousov1, Sean Barnes1, Khaja Khan1, Karen Colbert1, Yanshuo Chu1, Yang Liu1, Rebecca Waters1, Jeremy  L.  Davis2, Paul F. Mansfield1, Linghua Wang1, Luisa Maren Solis Soto1
+
+1UT MD Anderson Cancer Center, Houston, TX,2University of Maryland School of Medicine, Baltimore, MD
+
+---
+
+Background: In carcinomas, perineural invasion and tumor-nerve niches are increasingly recognized as associated with cancer progression. In Hereditary Diffuse Gastric Cancer (HDGC), the molecular programs behind these interactions are not fully understood. In this study, we aim to depict multicellular neighborhoods and spatial transcriptomics programs associated with tumor-nerve interactions in patients with HDGC.
+Methods: Six FFPE specimens from five patients with invasive HDGC were sectioned at 5-um thickness. Histological sections from &#8805;T3 tumors were analyzed using Spatial Gene Expression of a capture area of 11 x 11 mm. Histological spot-level annotations were performed to identify niches enriched for nerve fibers. Granular annotations identifying tumor cells and their microenvironment (TME) were conducted. Tumor cells were categorized by morphology as signet-ring, intermediate-stage, moderately differentiated/tubular and undifferentiated cells. Immune cells, connective tissue, smooth muscle, and vessels were annotated to define the TME. Integration with markers of both nerve tissue and potentially altered genes was conducted. Using identified nerve tissue as epicenter we measured the distance between spots (approximately 900 um). We then conducted comprehensive analysis of these areas for cell type enrichment, gene profile and intercellular crosstalk in the nerve neighboring tumor region.
+Results: The spatial mapping of nerve fibers showed that they were distributed in the submucosa and predominantly in myenteric layers; nerve-enriched niches were highly associated with undifferentiated, and moderately differentiated cells/tubular patterns. Non-nerve niches were enriched with signet ring cells or intermediate-stage cells. Connective tissue, smooth muscle, and vessels were not enriched in nerve-niches. Differential gene expression (DGE) analysis of tumor cells in the nerve-niches showed upregulation of genes related to cell integrity (MYOC, CLDN17), metabolic programs (ADIPOQ, PLIN1), cell cycle regulation (FAM83D), and inflammatory response (CCL3). Also, transcription factors related to neural survival were upregulated (NR4A1, NR4A2, NR4A3, EGR2). Importantly, DGE in the TME annotations showed that nerve-niches had upregulation of immune enriched pathways associated with chemokines, immune cell adhesion and immune cell migration (CXCL13, CXCL14, ITGB2, ITGB4, ITGB6, ITGBP6, ITGBP7, CD46, CD79B, CD14, XRCC6, CCL5, CD74).
+ Conclusions: Spatial transcriptomic profiling in HDGC delineated distinct morphological domains and transcriptomic signatures linked to tumor-associated nerve niches pointing to tumor-nerve-TME interaction programs that may act as critical modulators of cancer aggressiveness, offering novel insights into vulnerabilities that could be leveraged to impede gastric cancer progression.

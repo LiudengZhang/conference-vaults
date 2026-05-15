@@ -1,0 +1,14 @@
+# High content CRISPR activation screens identified synthetically lethal RNA-based mechanisms to sensitize cancer cells to targeted T cell cytotoxicity
+
+**Poster #**: 506
+**Session**: Genomic Dissection to Define Novel Therapeutic Strategies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Jeehyun Yoe, Reece V. Akana, Olivia Laveroni, Chang Sun, Young-Min Kim, Livnat Jerby
+
+Department of Genetics, Stanford University, Stanford, CA
+
+---
+
+T cells recognize cancer (neo)antigens via T cell receptor (TCR) and selectively eliminate the target cancer cells, yet cancer cells often evolve evasion mechanisms or lack sensitizing cues that limit the efficacy of immunotherapy. While cancer CRISPR knockout screens have revealed genes whose loss drives immune evasion, far less is known about gain-of-function mechanisms capable of restoring tumor susceptibility to targeted T cell cytotoxicity. To address this gap, we developed an integrated framework combining CRISPR activation (CRISPRa), single-cell transcriptomics, and a new optical pooled high-content screening approach to uncover RNA-based mechanisms that sensitize cancer cells to TCR-specific cytotoxicity. In melanoma cells, CRISPRa screens uncovered functionally diverse regulators of T-cell killing, including the chromatin remodeler SAFB and additional sensitizing genes that restore susceptibility in cancer and virally infected cells. To decode how these regulators act within the native tumor context, we developed in situ Perturb-seq, a pooled optical genetic screening platform that enables single-molecule spatial transcriptomic readouts directly in intact tissues. In situ Perturb-seq, together with Perturb-seq, revealed that sensitizing perturbations converge on shared cell-autonomous and intercellular programs involving stemness-differentiation axes, cytokine networks, and ligand-receptor circuits. Notably, Wnt ligands that were found as sensitizing hits in cancer cells significantly enhanced T-cell effector functions, demonstrating how tumor-intrinsic gain-of-function perturbations can identify new modalities to reprogram and engineer T cells. Together, this work introduces a scalable platform to identify RNA-based immunomodulators and resolve their multicellular mechanisms across scales. By coupling CRISPRa screens with in situ Perturb-seq, we establish a broadly applicable framework for discovering and mechanistically defining gene activations that re-sensitize tumors to cytotoxic immune attack - including applicability beyond T cells to innate cytotoxic lymphocytes such as natural killer (NK) cells - and across distinct solid tumor types, thus opening avenues for RNA-based immunotherapies for disease treatment and prevention.

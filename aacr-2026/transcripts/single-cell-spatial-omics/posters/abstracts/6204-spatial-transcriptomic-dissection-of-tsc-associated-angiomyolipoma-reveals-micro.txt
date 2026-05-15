@@ -1,0 +1,21 @@
+# Spatial transcriptomic dissection of TSC-associated angiomyolipoma reveals microenvironmental programs driven by mTORC1 dysregulation
+
+**Poster #**: 6204
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Ryuta Watanabe1, Kensuke Shishido1, Shota Nobumori1, Naoya Sugihara1, Keigo Nishida1, Haruna Arai1, Takatora Sawada1, Shunsuke Haga1, Osuke Arai1, Tomoya Onishi1, Kenichi Nishimura1, Tstsuya Fukumoto1, Noriyoshi Miura1, Mie Kurara2, Riko Kitazawa3, Yuki Miyauchi1, Tadahiko Kikugawa1, Takashi Saika1
+
+1Department of Urology, Ehime University Graduate School of Medicine, Toon, Japan,2Department of Analytical Pathology, Ehime University Graduate School of Medicine, Toon, Japan,3Division of Diagnostic Pathology, Ehime University Hospital, Toon, Japan
+
+---
+
+Background
+Tuberous sclerosis complex-associated angiomyolipoma (TSC-AML) frequently presents in young patients with multifocal and large tumors, leading to clinical complications such as hemorrhage and renal dysfunction. Although mTORC1 activation due to TSC1/TSC2 loss is recognized, the spatially organized transcriptional architecture and differences from sporadic AML remain unclear. This study applied spatial transcriptomics to characterize molecular features underlying TSC-AML structure.
+Methods
+Formalin-fixed, paraffin-embedded sections from one case each of TSC-AML, sporadic AML, and renal cell carcinoma (RCC) were analyzed using the 10x Genomics CytAssist Visium platform. Clustering, differential expression, and pathway analyses were performed to identify spatial transcriptional patterns and TSC-AML-specific signatures.
+Results
+Spatial gene expression maps showed that TSC-AML and sporadic AML shared the classic triphasic architecture of vascular, smooth muscle, and adipose components, consistent with a PEC lineage origin, whereas RCC displayed a distinct epithelial profile.TSC-AML demonstrated reduced TSC1/TSC2 expression with mild upregulation of MTOR, MLST8, and RPTOR, indicating mTORC1 pathway dysregulation.Comparative analysis identified 42 genes specifically upregulated in TSC-AML, including neurodevelopment-related (GRIA2, ASTN1), lipid metabolism-associated (FABP4, APOC1), structural (LDB3, SYNM), and immune-regulatory (IL33, ABCC8) genes. These transcriptional differences represent potential molecular features distinguishing TSC-AML from sporadic AML.Spatial mapping further highlighted intratumoral heterogeneity and structural component-dependent variation in gene expression.
+Conclusions
+Despite the single-case limitation, this study provides a detailed spatial transcriptomic profile of TSC-AML, revealing transcriptional programs linked to TSC1/TSC2 dysfunction and identifying TSC-AML-specific gene signatures. These findings offer candidate biomarkers and therapeutic targets and establish a foundation for future multi-case studies aimed at refining molecular characterization and improving clinical management of TSC-associated renal tumors.

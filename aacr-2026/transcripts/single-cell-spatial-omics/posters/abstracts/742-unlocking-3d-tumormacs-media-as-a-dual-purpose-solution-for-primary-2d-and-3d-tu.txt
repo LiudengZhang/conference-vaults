@@ -1,0 +1,17 @@
+# Unlocking 3D: TumorMACS media as a dual-purpose solution for primary 2D and 3D tumor organoid cultures
+
+**Poster #**: 742
+**Session**: Noninvasive Imaging and Analysis of Animal and Tissue Models
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Lea Eich, Marla Schneider, Olaf Hardt, David Agorku, Benjamin Theek
+
+Miltenyi Biotec B.V. & Co. KG, Bergisch Gladbach, Germany
+
+---
+
+Background: 3D cell culture models are gaining more and more interest in cancer research by more accurately mimicking the in vivo tumor environment compared to traditional 2D cultures. These models provide critical insights into tumor biology, including cell-cell interactions, drug resistance, and gene expression profiles. By offering a more physiologically relevant context, 3D cultures enhance the predictive power of preclinical studies, facilitating the development of more effective cancer therapies. As such, the demand for versatile, reproducible, and efficient media that support both 2D and 3D growth is increasingly important in advancing cancer research and drug discovery. Traditional media often lack the versatility required for seamless transitions between 2D and 3D cultures, posing challenges in workflow efficiency.
+Methods: We initially cultivated primary colon, lung and breast cancer cells in 2D using the respective TumorMACS media. These cells were transferred into 3D cultures by generating 4x10^5 cells/ml growth factor reduced Matrigel domes (embedded culture) or using 2x10^4 cells/ml TumorMACS medium with 2%(v/v) Matrigel (suspension culture). For each cell line the entity specific TumorMACS media was supplemented with StemMACS Y-27632 and used for bi-weekly media changes, for up to 14 days of culture. Mature tumoroids were dissociated into single cells for doubling time calculations and surface marker analysis using the MACSQuant Analyzer.
+Results: The transition from 2D to 3D cultures was successful across all cell cultures evaluated. Embedded cultures showed doubling times of approximately 3 days for colon and breast cells, and 4 days for lung cells. Although static suspension cultures exhibited similar doubling times, they presented greater variability. The higher uniformity in size of tumoroids grown in embedded cultures suggest improved consistency, which is critical for reliable assay results. However, next to the expansion of cells in 2D, suspension cultures can be an attractive alternative to scale cell numbers more efficiently before the assay start.
+Conclusion: TumorMACS media's dual-purpose capability enables seamless transitions between 2D and 3D cultures, enhancing research efficiency and accelerating the development of cancer therapies. Its use simplifies experimental workflows and offers a cost-effective alternative to specialized tumoroid media.

@@ -1,0 +1,14 @@
+# Profiling osteosarcoma convergent evolution and molecular adaptations through patient-derived organoid drug-screening
+
+**Poster #**: 5703
+**Session**: Mechanisms of Anticancer Drug Action
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Kailee  A.  Rutherford, Jonathan  N.  Levi, Summer Norris, Alice Soragni
+
+Department of Orthopaedic Surgery, David Geffen School of Medicine, University of California Los Angeles, CA, USA, Los Angeles, CA
+
+---
+
+Osteosarcoma is the most common primary bone malignancy in children and young adults, yet accounts for only 2% of cancers in this age group. Its rarity and extensive molecular heterogeneity have hindered biomarker discovery and therapeutic development for more than three decades. Chromosome instability (CIN) is a defining feature of osteosarcoma and contributes to both intratumoral and intertumoral genetic heterogeneity. Emerging evidence suggests that chromosome instability can promote convergent evolution, where distinct genetic alterations arise within shared pathways across subpopulations and may have common druggable vulnerabilities. Drug treatments impose selective pressures that may further influence convergence, although the resulting adaptations remain poorly understood. To investigate how therapeutics shape molecular evolution, we utilize our established high throughput patient-derived tumor organoid (PDO) drug screening platform. This system leverages unpassaged sarcoma organoids that retain all characteristics of the original tumor and shows promising concordance with clinical drug responses (Al Shihabi et al, Cell Stem Cell 2024). Our expanding osteosarcoma biobank comprises multi-sampled osteosarcomas from the same individuals across distinct clinical sites and timepoints, creating a rare resource to study evolutionary trajectories under drug exposure. To improve drug screen interpretability, we developed a quantitative PDO Response Integrated Scoring Model (PRISM) that integrates multiple viability metrics to classify sensitive and resistant phenotypes and allows reproducible comparisons across hundreds of compounds. Drugs are grouped by shared molecular targets and analyzed through pathway enrichment approaches to identify convergent patterns associated with resistance and vulnerability. We further perform single-cell RNA sequencing of organoids persisting post-treatment to directly characterize molecular profiles of resistant cells. Together, this work will establish a scalable map of adaptive molecular states and convergent vulnerabilities in osteosarcoma. Our goal is to define the pathways repeatedly selected under treatment pressure, identify resistant cell states that emerge and uncover molecular dependencies that can be targeted through rational drug combinations. This framework is intended to guide future precision medicine strategies for patients with osteosarcoma.

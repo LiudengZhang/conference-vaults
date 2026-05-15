@@ -1,0 +1,14 @@
+# Spatial whole transcriptomic profiling of breast cancer tissue with CosMx Spatial Molecular Imager
+
+**Poster #**: 3967
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Megan Hopkins, Oliver De Sa, Dan Dion, Vida Talebian, Jane Bayani, Melanie Spears
+
+Ontario Institute for Cancer Research, Toronto, ON, Canada
+
+---
+
+Spatial transcriptomics provides an opportunity to investigate the relationship between gene expression and tissue architecture, revealing new insights into cell-to-cell interactions that promote tumorigenesis, immune evasion, and other disease mechanisms. Here we employ the CosMx SMI Whole Transcriptome assay to profile 87 cores from a tissue microarray (TMA) of 25 breast cancer blocks spanning molecular subtypes. A single 5-micron section was stained following Bruker&#8217;s published protocol (MAN-10184-06) with the Human Whole Transcriptome Panel (WTX), 19K-plex, utilizing 37,872 imaging barcodes to capture over 18,000 genes in the human protein-coding transcriptome. We analyzed 154,213 cells and identified 18,934 genes overall, with mean transcripts per cell of 926, and in the 90th percentile identifying 2,060 transcripts per cell. Cells were assessed for quality control, normalized and cell-typed using InSituType with a reference profile of well-defined breast epithelial, stromal, and immune cells. We compared molecular subtyping of the cancer epithelium as assigned by InSituType with subtyping by histology, finding a high overall concordance between core-level subtype assignment and spatial single-cell assignments. Strikingly, basal cell types were present at high levels across all cores regardless of subtype, making up 98%, 64%, 50%, and 30% of triple negative, Luminal A, HER2, and Luminal B cores, respectively. HER2 enriched cells were the most unique, making up ~45% of HER2 core cells and <1% of cells in other cores. These results display the heterogeneity of tumor cell composition and emphasize the value of single-cell resolution in molecular subtyping when designing targeted therapeutics. We next investigated immune cell compositions of all cores and found Myeloid lineages to be the most dominant, followed by T and B cells. Immune cells were similar in composition across different subtypes, however, varied by their spatial distribution in the tumor, with the triple negative subtype displaying the highest level of tumor infiltration. In ongoing work, we continue to characterize inter- and intra- core heterogeneity to further understand how local immune niches and the surrounding microenvironment shape the initiation or suppression of tumorigenic programs.

@@ -1,0 +1,17 @@
+# Spatial transcriptomic dissection of microenvironmental drivers of NMIBC progression
+
+**Poster #**: 3950
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Jacob Alltucker1, Yiling Shen2, Suhyeon Choi1, Pavithra Nedumaran1, Andrew Martinez1, Joseph Lownik1, Huihui Ye1, Hideki Furuya1, Dan Theodorescu3, Simon Knott1
+
+1Cedars-Sinai Medical Center, Los Angeles, CA,2Tsinghua University, Beijing, China,3University of Arizona, Tucson, AZ
+
+---
+
+Background: High&#8208;grade non-muscle invasive bladder cancer (NMIBC) is an aggressive malignancy characterized by a high rate of progression to muscle-invasive bladder cancer (MIBC). Once muscle-invasive, the disease is associated with significantly worse overall survival. Thus, novel strategies for identifying therapeutic targets and biomarkers of progression are urgently needed. We utilized spatial transcriptomics to elucidate the tumor microenvironment states and cellular interactions that underlie progressive NMIBC. We hypothesized that progressive NMIBC is defined by distinct molecular and architectural compositions that converge on an MIBC-like phenotype.
+Methods: We constructed tissue microarrays using transurethral resection specimens from 18 high-grade NMIBC patients who progressed to MIBC within 5 years and 27 risk-matched non-progressors, along with 52 MIBC cystectomy specimens. We then performed Xenium in situ expression analysis using a 5,000-gene panel with an additional 100 genes focused on stromal and immune signaling. Data were analyzed using single-cell variational inference with Leiden clustering-based cell typing, custom neighborhood (&#8220;niche&#8221;) evaluation, and computational workflows to characterize cellular interactions, transcriptional programs, and ligand-receptor signaling across progressor status and disease states.
+Results: We generated a single-cell-resolution spatial transcriptomic atlas of over 4 million cells spanning NMIBC and MIBC tissues. Preliminary analysis revealed substantial intra- and inter-patient heterogeneity in both tumor-intrinsic transcriptional programs and microenvironment composition. Non-progressor tumors demonstrated increased immune activation signatures and enrichment of cytotoxic CD8+ T cells, while progressors showed enrichment of tumoral mTOR signaling and other oncogenic pathways. Ongoing work aims to define spatial niches and cellular interaction networks that differentiate progressive versus non-progressive disease and evaluate their alignment with MIBC-like architecture.
+Conclusions: This study establishes the first single-cell spatial transcriptomic analysis directly comparing NMIBC progressors and non-progressors, providing a framework to define microenvironmental trajectories underlying progression to invasion. By leveraging high-resolution spatial transcriptomics to identify candidate biomarkers and potential drivers of invasion, this work may inform early risk stratification and microenvironment-targeted therapeutics aimed at preventing transition to MIBC.

@@ -1,0 +1,21 @@
+# Actionable resistance mechanisms in osteosarcoma uncovered by the elucidate spatial biomarker platform
+
+**Poster #**: 6671
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Gulpreet Kaur1, Jason Weirather1, James Perna1, Sizun Jiang2, Will Singleterry1
+
+1Elucidate Bio, Medford, MA,2Harvard Medical School, Cambridge, MA
+
+---
+
+Same-slide spatial multiomics enables comprehensive characterization of the tumor microenvironment (TME) by integrating high-plex spatial proteomics and whole-transcriptome on the same slide. For patients whose tumors have progressed or metastasized despite standard-of-care therapies, understanding the specific mechanisms active within their tumor becomes essential for guiding next-line treatment decisions. This requires resolving cell identity, state, morphology, and the organization of immune-tumor interactions within spatial neighborhoods. A systematic, multimodal approach is therefore necessary to reveal clinically actionable mechanisms of resistance directly within intact tissue architecture.
+Methods
+We developed the Elucidate Biomarker Platform using a same-slide spatial multiomics workflow combining 50-plex spatial proteomics and whole-transcriptome spatial transcriptomics. Model-guided annotation was applied for high-fidelity cell detection, quality control, and neighborhood-level analysis. Proteomic data identified phenotypic and spatial features associated with therapeutic response, while transcriptomic profiling on the same slide elucidated molecular pathways underlying these tissue-level patterns.
+Results
+Application of this platform to an osteosarcoma patient sample uncovered two actionable mechanisms of therapeutic resistance:
+1.FAP-mediated T-cell exclusion: Excess fibroblast activation protein (FAP) expression on tumor-associated stromal cells formed a physical and immunoregulatory barrier preventing T-cell infiltration. Clinical treatment of the patient with a FAP-targeted radioligand inhibitor resulted in a positive therapeutic outcome.
+2.CD163&#8314; macrophage survival pathway: Same-slide multiomic analysis identified a survival mechanism specific to CD163&#8314; tumor-associated macrophages via PAQR6, which was targetable using mifepristone, suggesting a second actionable therapeutic avenue.
+These findings demonstrate that same-slide spatial multiomics, combined with model-guided annotation, delivers a systematic approach for revealing clinically actionable biomarkers and therapeutic targets to guide precision therapy and drug development.

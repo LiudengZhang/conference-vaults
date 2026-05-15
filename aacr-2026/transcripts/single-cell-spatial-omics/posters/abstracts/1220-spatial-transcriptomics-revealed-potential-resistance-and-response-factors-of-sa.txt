@@ -1,0 +1,17 @@
+# Spatial transcriptomics revealed potential resistance and response factors of sacituzumab govitecan in metastatic breast cancer
+
+**Poster #**: 1220
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Mengni He1, Charles  J.  Robbins2, Julia Benanto2, Thazin Nwe Aung2, Yalai Bai2, Ian  E.  Krop2, David L. Rimm2
+
+1Yale University, New Haven, CT,2Yale School of Medicine, New Haven, CT
+
+---
+
+Background: Sacituzumab govitecan (SG) is a TROP2-targeting antibody-drug conjugated that is approved in metastatic and locally advanced hormone-receptor positive HER2 negative and triple negative breast cancer. Its clinical trials showed significant improvement in clinical benefits, but the reported objective response rates were about 30%. Biomarkers associated with response or resistance to SG are poorly understood.
+Methods: GeoMx&#174; DSP was performed on tissue transfer arrays generated from 17 biopsies of SG-treated metastatic breast cancer patients. Patients with long time-on-treatment (&#8805; 10 cycles) were considered responders (N = 7) whereas patients with short time-on-treatment (&#8804; 4 cycles) were considered non-responders (N = 10). Expression of the whole human transcriptome represented by over 18,000 genes were profiled within the cytokeratin labeled tumor segments and stroma segments. Differentially expressed genes between responders and non-responders were calculated using the linear mixed model with Benjamini-Hochberg procedure. Gene set enrichment analysis (GSEA) was performed using the Reactome pathway database.
+Results: Over 10,000 gene targets in 117 segments passed the quality control pipeline and therefore used for analysis. In the tumor segments, 7 genes were upregulated in responders including immunoglobin heavy chain genes IGHG2, IGHG3, and IGHG4. 25 genes were upregulated in non-responders, including genes encoding for extracellular matrix (ECM) proteins (TNC, MMP11, MMP14, COL1A, FKBP10, and POSTN). GSEA indicated that ECM organization and proteoglycan regulating pathways are highly expressed in non-responders whereas eukaryotic translation termination pathways, regulation of ornithine decarboxylase, and mitotic G1 phase and G1/S phase transition pathways are upregulated in responders. In the stroma segments, 6 genes were upregulated in the responders including immune related genes (C7, IGHG2, IGHG3, and IGHG4) and lipid metabolism regulating gene APOC1. 11 genes were upregulated in the non-responders, including ECM protein encoding genes (MMP11, COL11A1, COL12A1, and CA2) and immune related genes (HLA-DQA1, PIP, and TSPAN1). GSEA also showed that ECM organization pathways and elastic fiber formation pathways are upregulated in non-responders whereas eukaryotic translation termination, interferon &#945;/&#946; signaling, B cell related signaling, and plasma lipoprotein assembly, remodeling and clearance pathways are upregulated in responders in the stroma segments.
+Conclusions: Our study identified differential expressed genes between SG-responding and -resistance tumors. Specifically, the upregulation of immune-related genes is associated with response and upregulation of ECM organizations and remodeling are associated with resistance. Validation of these observations is underway.

@@ -1,0 +1,18 @@
+# RNA structure-targeted inhibition suppresses glioblastoma growth in human cerebral organoids
+
+**Poster #**: LB296
+**Session**: Late-Breaking Research: Molecular/Cellular Biology and Genetics 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Maria-Ancuta Jurj1, Michael A. Attathikhun1, Sanjay Kumar Singh1, Meng Chen1, Venkata Narayana Vidadala2, Frederick Lang1, Gabriele Varani2, George A. Calin1
+
+1UT MD Anderson Cancer Center, Houston, TX,2University of Washington, Seattle, WA
+
+---
+
+Introduction: Glioblastoma (GBM) is characterized by profound molecular heterogeneity and resistance to current therapies, underscoring the need for innovative strategies that target noncanonical oncogenic mechanisms. Emerging evidence indicates that structured RNA elements, particularly precursor microRNAs, represent functionally critical and pharmacologically tractable regulators of tumor progression. Among these, miR-10b is consistently overexpressed in GBM and contributes to tumor aggressiveness through repression of key tumor suppressor pathways.
+Methods: Integrative analysis of TCGA datasets and independent patient-derived samples identified miR-10b as a highly upregulated microRNA in GBM. To interrogate the therapeutic potential of RNA structure-directed inhibition, patient-derived glioblastoma stem-like cells were evaluated in 2D cultures and in 3D human cerebral organoids derived from induced pluripotent stem cells. An RNA structure-targeting inhibitor designed to bind the precursor hairpin of miR-10b and disrupt its maturation was applied to GBM models. Molecular and phenotypic effects were assessed by RT-qPCR, immunoblotting, immunofluorescence, and high-content imaging. Single-cell RNA sequencing (scRNA-seq) was used to define transcriptomic remodeling and tumor-neuron interactions within the organoid context.
+Results: RNA structure-targeted inhibition selectively reduced mature miR-10b levels by blocking precursor processing, leading to reactivation of the tumor suppressors PTEN and HOXD10. This molecular reprogramming resulted in significant suppression of GBM cell proliferation and invasive behavior. In human cerebral organoids, treatment markedly limited tumor expansion while preserving neuronal viability and synaptic marker expression. scRNA-seq analysis revealed attenuation of oncogenic signaling pathways and restoration of differentiation-associated transcriptional programs, without perturbation of global miRNA biogenesis or neuronal cell states.
+Discussion: These findings demonstrate that structured RNA intermediates represent actionable therapeutic targets in glioblastoma. Targeting miRNA precursor architecture enables selective suppression of oncogenic networks while sparing normal neural tissue, addressing a central challenge in brain cancer therapy.
+Conclusions: RNA structure-targeted inhibition effectively suppresses glioblastoma growth in human cerebral organoids by disrupting miR-10b maturation and restoring tumor suppressor signaling. This work establishes RNA structural elements as a novel therapeutic vulnerability in GBM and supports their further exploration in translational neuro-oncology.

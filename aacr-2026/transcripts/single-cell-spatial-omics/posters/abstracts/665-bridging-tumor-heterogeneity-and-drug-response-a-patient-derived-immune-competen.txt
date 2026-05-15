@@ -1,0 +1,14 @@
+# Bridging tumor heterogeneity and drug response: A patient-derived immune-competent 3D spheroid model for translational oncology
+
+**Poster #**: 665
+**Session**: Ex Vivo Systems: Patient-Derived, Patient-Specific Tumor Cultures
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Charlotte Veser, Zuzanna Kotkowska, Irina Agarkova, Sue Grepper, Madhu Nag-LAL, Laure-Anne Ligeon
+
+Insphero, Schlieren, Switzerland
+
+---
+
+The tumor microenvironment (TME) and immune context are critical determinants of therapeutic outcome. Further, inter-patient variability in cellular composition and immune activity drive differential responses to therapy. However, the majority of preclinical models depend on epithelial monocultures and lack stromal and immune components. This failure to capture multicellular interactions limits their translational relevance for drug development and patient stratification.To address these limitations, we established a patient-derived immune-competent 3D tumor spheroid platform. This platform preserves patient-specific cellular diversity and microenvironmental interactions while maintaining compatibility with high-throughput applications. We demonstrate the pipeline's capabilities using patient samples from cases of breast, colorectal, and non-small cell lung cancer.Patient tumor resections were dissociated into single-cell suspensions and subsequently re-aggregated under defined conditions to form uniform3D tumor spheroids. The single-cell suspensions are analyzed to identify different cell types, such as epithelial, stromal, endothelial, and immune cells, and to assess patient-specific tumor and stromal marker expression. Flow cytometry and high-content imaging confirmed retention and self-organization of diverse cell populations within aggregated spheroids. Functional assays revealed patient-specific responses to standard-of-care and targeted therapies, reflecting patient heterogeneity observed in the clinic. Parallel isolation of autologous peripheral blood mononuclear cells (PBMCs) enabled immune co-culture assays reflecting autologous tumor-immune interactions and cytokine secretion.This platform offers a robust and scalable approach to modelling the complex tumor- immune microenvironment across multiple solid cancers in a patient-specific manner. This approach enables more predictive preclinical testing and supports precision oncology.

@@ -1,0 +1,18 @@
+# Dual targeting of HER2 and AXL by an eKiH-engineered bispecific ADC to overcome resistance in solid tumors
+
+**Poster #**: 1727
+**Session**: Antibody-Drug Conjugates and Linker Engineering 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Kyoung-Ho Pyo1, Seong-Hyun Park1, Dongsop Lee2, Haneol Kim2, Younggyu Kong2, Younggeun Lee1, Hojin Yeom1, Sowon Aum1, Sun Hee Park1, Huijo Oh1, Cheyeon Kim1, Hyeonseok Jin2, Aera Lee2, Hojeong Hong2, Ju Hwan Kim1, Hyungseok Choi2, Mi-Kyung Kim2, Taedong Han1
+
+1AbTis  Co., Ltd, Yongin, Korea, Republic of,2Dong-A ST Research Headquarter, Yongin, Korea, Republic of
+
+---
+
+Background: AXL signaling is a key mediator of drug resistance, metastasis, and immune modulation in solid tumors. Its activation drives epithelial-mesenchymal transition (EMT) and promotes tumor aggressiveness, underscoring its role in therapeutic resistance.
+HER2, a clinically validated ADC target, is similarly associated with oncogenic signaling and metastatic progression. Dual targeting of HER2 and AXL offers a rational approach to suppress complementary resistance pathways and overcome tumor heterogeneity, particularly in patients refractory to standard therapies. We therefore developed a HER2&#215;AXL bispecific ADC using Dong-A ST BsAb platform with an enhanced knob-into-hole (eKiH) interface to improve heavy-chain pairing fidelity and bispecific assembly.
+Methods: Lead HER2 and AXL antibodies were selected for high affinity and improved internalization; the AXL lead outperformed benchmark anti-AXL antibodies in binding and internalization assays. Bispecifics were assembled using Dong-A ST BsAb platform and site-selectively conjugated to monomethyl auristatin E (MMAE), exatecan (a topoisomerase-I inhibitor), or dual-payload configurations. Single-cell RNA-seq (scRNA-seq) datasets from lung, breast, and gastric cancers were analyzed to profile HER2 heterogeneity and AXL-associated epithelial-mesenchymal transition (EMT) signatures. Multiplex immunohistochemistry (mIHC) on tissue microarrays quantified spatial co-expression and heterogeneity. Combination potential with immune checkpoint inhibitors (ICIs) was explored via immune-correlative analyses and ongoing co-treatment studies.
+Results: scRNA-seq revealed pronounced intra- and inter-tumoral HER2 heterogeneity across indications, while AXL-high tumors exhibited elevated EMT-related markers. mIHC confirmed mosaic/cluster-type co-expression and heterogeneous distribution of HER2 and AXL across multiple tumor types. HER2xAXL BsAb retained high-affinity binding to both targets and efficient internalization, with preliminary in-vitro cytotoxicity observed in HER2-high, AXL-high, and co-expressing models using MMAE, exatecan, and dual-payload ADCs. Immune-correlative data support the mechanistic rationale for ICI combinations, and formal co-treatment evaluations are in progress.
+Conclusions: HER2xAXL is a rationally engineered HER2&#215;AXL bispecific ADC designed to mitigate target heterogeneity and therapy resistance. These preclinical data support investigation in HER2-expressing solid tumors&#8212;including lung, breast, and gastric cancers&#8212;particularly in patients who have failed standard first-/second-line regimens.

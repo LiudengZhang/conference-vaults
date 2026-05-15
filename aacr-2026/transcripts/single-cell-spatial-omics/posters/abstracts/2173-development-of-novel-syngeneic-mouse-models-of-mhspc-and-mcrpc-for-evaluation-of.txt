@@ -1,0 +1,17 @@
+# Development of novel syngeneic mouse models of mHSPC and mCRPC for evaluation of radiopharmaceuticals on the immune tumor microenvironment (TME)
+
+**Poster #**: 2173
+**Session**: In Vivo Models 1: Mouse, Zebrafish, and Alternative Species
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Brian Ragaishis1, Andrei Molotkov2, Shruti Bansal1, Krishan Saini1, Maierdan Palihati1, Chelsea Rahiman2, Courtney Buress1, Jasleen Kaur Virk1, Mikhail Doubrovin2, Catherine Spina2
+
+1Radiation Oncology, Columbia University Irving Medical Center, New York, NY,2Columbia University Irving Medical Center, New York, NY
+
+---
+
+Introduction Radiopharmaceutical therapy (RPT) offers a safe and effective treatment for metastatic castrate resistant prostate cancer (mCRPC), however little is known about the differential impact of &#945;- and &#946;-emitters at the single cell level and on the immune tumor microenvironment (TME). This investigation aims to design novel mHSPC and mCRPC syngeneic mouse models to compare the therapeutic efficacy of &#945;- and &#946;-emitting RPTs and understand how different RPTs influence immune cell dynamics within the TME.
+Methods We developed two novel murine PC cell lines that over express FOLH1/PSMA, MyC-CaPPSMA+ and MyC-CaPHER2+PSMA+ (HER2 serving as a tumor antigen to quantify anti-tumor immune responses). Cell lines were developed by lentiviral transduction using EGFP+ as a positive selection marker. Transduction stability was confirmed by EGFP positivity by flow cytometry. We characterized expression of FOLH1 (the gene encoding PSMA) and PSMA by qPCR and western blot (WB), respectively, and quantified uptake of 68Ga-PSMA-11 in vitro. In immunocompetent FVB/NJ mice, MyC-CaP and MyC-CaPPSMA+ growth kinetics were evaluated and tumor PSMA expression was quantified by qPCR and WB. In vivo, we conducted biodistribution studies with 177Lu-PSMA-617 in mice bearing bilateral subcutaneous MyC-CaP and MyC-CaPPSMA+ tumors. After delivery of 3-5MBq, tumor and normal tissues were collected at 4 timepoints post-treatment (1h, 24h, 72h, 168h) and activity in the tumor and normal tissues was estimated using a HIDEX gamma-counter. Tumor and tissue percent injected dose per gram (%ID/g) was calculated. Mice bearing single flank 200mm3 MyC-CaPPSMA+ tumors were chemically castrated with degarelix (25mg/kg body weight) to generate a mCRPC model.
+Results MyC-CaPPSMA+ and MyC-CaPHER2+PSMA+ showed a 10x increase in FOLH1 gene and protein expression compared to parent MyC-CaP and MyC-CaPHER2+. In our in vitro uptake assay, we demonstrated a 30-50x increase in 68Ga-PSMA-11 uptake by transduced cell lines. In vivo, MyC-CaPPSMA+ tumors showed 1000x increase in expression of FOLH1 compared to parent MyC-CaP tumors. However, compared to in vitro, FOLH1 expression decreased by 10-fold in 33-day old tumors, likely due to immunoediting. Biodistribution studies demonstrated tumor MyC-CaPPSMA+ %ID/g was 33x higher compared to MyC-CaP tumors, with a Tumor/Kidney absorption ratio of 0.39, on par with other well-characterized models of mHSPC. 100% of MyC-CaPPSMA+ tumors treated with degarelix regressed for 20 days before rebounding.
+Conclusion Here we reveal translationally relevant models of mHSPC and mCRPC for mechanistic investigations of &#945;- and &#946;-emitting RPTs. Leveraging these tools, we aim to study DNA damage and immune responses to generate foundational data to guide the development of combination therapies to improve outcomes of RPT for patients with mHSPC and mCRPC.

@@ -1,0 +1,18 @@
+# Tumor Treating Fields (TTFields) may weaken glioblastoma network connectivity, with implications for malignancy
+
+**Poster #**: 3000
+**Session**: Molecular Targets 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Julius Beichert1, Jonas A. Kretz2, Jena Kim1, Xiaoyu Ma3, Daniel Dominguez Azorín2, Andreas E. Moor2, Haikun Liu3, Miriam Ratliff1
+
+1Department of Neurosurgery, University Hospital Mannheim, Medical Faculty Mannheim, University of Heidelberg and German Cancer Research Center (DKFZ), Mannheim, Heidelberg, Germany,2Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland,3Molecular Neurogenetics, German Cancer Research Center (DKFZ), Heidelberg, Germany
+
+---
+
+Background: Glioblastoma malignancy is strongly driven by the formation of tumor microtubes (TMs), which promote intercellular connectivity and calcium (Ca&#178;&#8314;) wave propagation. The mechanisms by which Tumor Treating Fields (TTFields) influence these TM-mediated processes remain incompletely understood.
+This study aims to elucidate the effects of TTFields on the structural and functional organization of tumor cell networks and to assess potential frequency-dependent modulation of signaling pathways, including NF-&#954;B.
+  Methods: A comprehensive set of biological model systems is being utilized, including 2D glioblastoma cell monolayers, 3D brain organoids, and in vivo, awake, head-fixed mouse models with chronic cranial windows for longitudinal imaging. Live-cell imaging with confocal and multiphoton microscopy enables real-time observation of morphological and functional tumor dynamics. Quantification of Ca&#178;&#8314; signaling is being performed using Cellpose-based segmentation and custom Python analysis pipelines. Immunohistochemistry and spatial transcriptomics (Visium HD) are currently employed to dissect molecular mechanisms; COMET-based immunofluorescence and RNAscope FISH are planned to enable spatially resolved multi-omics.
+Results: TTFields induced a marked disruption of glioblastoma network architecture and function. Specifically, treatment resulted in >50% reduction in global GCaMP8s-mediated Ca&#178;&#8314; activity, a decrease in pacemaker-like cell populations, and significant reductions in synchronization and Ca&#178;&#8314; co-activity within S24 glioblastoma cells in both 2D and 3D models.
+  Conclusion &#38; Outlook: TTFields disrupt glioblastoma network integrity and Ca&#178;&#8314; signaling, potentially reducing tumor aggressiveness. Preliminary data from 3D brain tumor organoids and in vivo models support our previous in vitro results regarding TTFields-induced activity changes. Parallel studies in patient-derived organoids explore frequency-dependent signaling effects - including NF-&#954;B and MAPK pathways - via spatial transcriptomic profiling. Together, these efforts aim to further elucidate the mechanistic underpinnings of TTFields action and their impact on glioblastoma plasticity and network organization.

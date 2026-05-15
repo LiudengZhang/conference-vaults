@@ -1,0 +1,17 @@
+# Integrated single-cell analysis identifies biomarkers associated with clinical benefit in patients with PD-L1 positive, advanced NSCLC treated with SBRT followed by atezolizumab plus tiragolumab
+
+**Poster #**: 3788
+**Session**: Combination Immunotherapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Jii Bum Lee1, Dong Kwon Kim2, Sang Hoon Lee2, Kyung Hwan Kim1, Su-Jin Choi2, Min Hee Hong1, Byoung Chul Cho1, Sun Min Lim1
+
+1Yonsei Cancer Center, Yonsei University College of Medicine, Seoul, Korea, Republic of,2Yonsei University College of Medicine, Seoul, Korea, Republic of
+
+---
+
+Background: Prior studies have shown that the addition of SBRT to immunotherapy in oligometastatic non-small cell lung cancer (NSCLC) may improve clinical outcomes. SKYROCKET is a single-center, single-arm phase II study that evaluated whether SBRT combined with atezolizumab plus tiragolumab enhances anti-tumor efficacy in PD-L1-positive oligometastatic NSCLC.
+Methods: Patients initially received SBRT to all oligometastatic sites, and subsequently received a fixed dose of 1200 mg IV of atezolizumab and 600 mg of tiragolumab every 3 weeks on day 1 of each 21-day cycle within 7 days of SBRT. The primary endpoint was investigator-assessed progression-free survival (PFS) from the start of SBRT. Secondary endpoints included PFS in PD-L1 high subset, objective response rate (ORR), overall survival (OS) and safety profile. Exploratory endpoints included characterization of immune remodeling and stromal dynamics via single-cell RNA sequencing (scRNA-seq) obtained from tumor biopsies at baseline (BL) and on-treatment (OT), and were further characterized as clinical benefit (CB, PR or SD &#8805;6 months) and no clinical benefit (NCB, PD or SD <6 months).
+Results: A total of 41 patients were enrolled. At a median duration of follow-up of 9.8 months (IQR, 6.3-15.8), the median PFS at the start of SBRT was 9.3 months (95% CI, 6.0-NR). In patients with PD-L1 high (> 50%), the median PFS was 11.4 months compared to 6.4 months in patients with PD-L1 low (<50%) expression (P = 0.029, HR, 0.39, 95% CI, 0.16-0.95). Of the 39 patients with measurable lesion, the ORR and DCR was 56% and 92%, respectively. No new safety adverse events were seen with the addition of SBRT to atezolizumab plus tiragolumab. ScRNA-seq of paired BL and OT (n=3) and single-time point (n=2) identified CD8 progenitor-exhausted (TPEX) and terminally exhausted (TEX) subsets. CD8 TPEX cells markedly expanded after treatment, with target engagement evidenced by high TIGIT and PD-1 expression in CD8 TPEX/TEX subsets. Pathway analyses showed enhanced T-cell activation and TCR signaling. CD4 Tregs were reduced in the CB group but increased in the NCB group. Pseudotime analysis showed TEM cells in CB preferentially transitioned into CXCL13&#8314; helper states, while NCB skewed toward Treg differentiation. The CB group showed reduced Treg suppression and NECTIN-TIGIT signaling, whereas NCB maintained proliferative CTLA4high/TIGIThigh Tregs supported by ICAM/Galectin-CTLA4 pathways.
+Conclusion: In PD-L1 positive oligometastatic NSCLC, atezolizumab plus tiragolumab after completion of SBRT improves PFS with manageable safety profile. Combination therapy boosts cytotoxic/helper T-cell programs in CB, whereas persistent ICAM/Galectin-CTLA4-driven Tregs underlie resistance to treatment.

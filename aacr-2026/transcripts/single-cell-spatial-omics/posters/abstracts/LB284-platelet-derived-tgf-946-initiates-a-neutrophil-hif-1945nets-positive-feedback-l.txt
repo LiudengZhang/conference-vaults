@@ -1,0 +1,17 @@
+# Platelet-derived TGF-&#946; initiates a neutrophil HIF-1&#945;/NETs positive feedback loop driving osteosarcoma intratumoral hypoxia and lung metastasis
+
+**Poster #**: LB284
+**Session**: Late-Breaking Research: Molecular/Cellular Biology and Genetics 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Qianyu Shi1, Tao Ji2
+
+1Beijing Jishuitan Hospital, Capital Medical University, Beijing, China,2Peking University Third Hosiptal, Beijing, China
+
+---
+
+Background: Osteosarcoma (OS) is the most common primary malignant bone tumor in children and adolescents, with 30%-40% of cases developing lung metastasis. Intratumoral hypoxia is a well-established risk factor for poor prognosis and lung metastasis in OS patients. Previously, hypoxia was considered a largely passive consequence of tumor growth exceeding nutrient supply. This largely passive process has traditionally been considered non-targetable. However, recent evidence reveals it can be regulated by dynamic cellular processes. We therefore investigated the mechanism driving intratumoral hypoxia in OS.
+Experimental design: High metastatic tumor thrombi from OS patients were collected alongside primary tumor samples (N=18). Single-cell RNA sequencing (scRNA-seq) was performed on paired tumor thrombus and primary tumor samples. The interplay between platelet-derived TGF-&#946;, neutrophil HIF-1&#945;, and neutrophil extracellular traps (NETs) was analyzed in vitro and in vivo. Neutrophil related experiments used primary neutrophils from healthy donors and DMSO-induced neutrophil-like HL-60 (dHL-60) cells. Clinical OS data were collected for validation.
+Results: scRNA-seq revealed significantly increased neutrophil infiltration in tumor thrombi compared with primary tumors. Neutrophils in tumor thrombi exhibited markedly elevated TGF-&#946;, HIF-1&#945;, and NETs signalings compared to those in primary tumors. In vivo lung colonization and metastasis models confirmed neutrophils promote OS lung metastasis. In vitro experiments demonstrated that platelet-derived TGF-&#946; triggers NET formation via HIF-1&#945; upregulation under normoxia. During NETosis, neutrophils consumed oxygen, inducing intratumoral hypoxia and amplifying HIF-1&#945; signaling. Thus, platelet-derived TGF-&#946; initiates a neutrophil HIF-1&#945;/NETs positive feedback loop that drives OS intratumoral hypoxia under normoxia. Targeting the TGF-&#946;/HIF-1&#945;/NETs axis significantly suppressed lung metastasis and alleviated intratumoral hypoxia in vivo. Patients with elevated HIF-1&#945; and NETs expression had significantly poorer prognosis.
+Conclusions: Together, these findings provide novel insights into the mechanism of intratumoral hypoxia in OS, highlighting hypoxia is not a passive process but is actively driven by the TGF-&#946;/HIF-1&#945;/NETs axis between platelets and neutrophils.

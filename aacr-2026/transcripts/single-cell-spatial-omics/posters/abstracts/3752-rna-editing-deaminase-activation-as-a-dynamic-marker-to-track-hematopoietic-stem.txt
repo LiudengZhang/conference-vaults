@@ -1,0 +1,15 @@
+# RNA editing deaminase activation as a dynamic marker to track hematopoietic stem cell fitness and leukemia evolution
+
+**Poster #**: 3752
+**Session**: Biomarkers Predictive of Therapeutic Benefit 4
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Inge van der Werf1, Jessica Pham1, Neha Katragadda1, Kendale Wirtjes1, Athena Mohebbi1, Emma Klacking1, Thomas Whisenant2, Ludmil  B.  Alexandrov2, Sheldon Morris1, Catriona Jamieson1
+
+1Sanford Stem Cell Institute, La Jolla, CA,2UC San Diego, La Jolla, CA
+
+---
+
+Myeloproliferative neoplasms (MPNs) are clonal hematopoietic stem cell-derived disorders that can evolve into acute myeloid leukemia (AML) at variable rates. Although JAK2 inhibitor therapies have improved outcomes, and variant allele frequency (VAF) monitoring informs therapeutic response, predicting if pre-leukemic stem cells will acquire self-renewal and transform into malignant leukemia stem cells (LSCs) remains a critical challenge. Our recent studies identified inflammatory responsive RNA-editing enzymes, ADAR1 and APOBEC3C as contributors of pre-leukemic stem cell (LSC) evolution. Given that MPNs are stem cell-driven disorders, we hypothesize that RNA-editing signatures mediated by these enzymes could serve as real-time indicators to track disease progression. This study aims to integrate driver mutation VAF, ADAR1 and APOBEC3C gene expression, and RNA-editing patterns into a comprehensive biomarker tool to evaluate MPN progression, predict therapeutic response, guide clinical decision making, and prevent transformation to leukemia.
+We performed longitudinal 150-gene next-generation sequencing (NGS) analyses for 129 MPN patients with a median follow-up time of 958 days (range 0-4214). From this cohort, we selected four patients who were treated with the JAK2 inhibitors, progressed to sAML, underwent stem cell transplantation, and had cryopreserved peripheral blood and bone marrow mononuclear cells stored in our biorepository. For these patients, we had 15, 17, 24, and 31 sequential time points collected between 2013 and 2025. qPCR was performed on CD34&#8314; immunomagnetic bead-selected cells to measure ADAR1, APOBEC3C, STAT3, and JAK2 expression levels. During treatment, we observed dynamic changes in ADAR1, APOBEC3C, JAK2, and STAT3 expression levels. Notably, while VAF remained stable, both lactate dehydrogenase (LDH) and ADAR1 expression levels increased. Survival and self-renewal assays comparing time points with relatively low versus high ADAR1 expression revealed significantly increased colony counts at the high-expression time points. These findings suggest that ADAR1 expression may serve as a dynamic marker for both disease progression. Further single-cell RNA sequencing studies will delineate differences in HSCs and HPCs at sequential time points for four MPN patients that progressed to sAML.

@@ -1,0 +1,14 @@
+# Single-cell transcriptomics identifies distinct EPCAM-low and EPCAM-negative epithelial populations with aggressive phenotypes in hormone-receptor positive breast cancer
+
+**Poster #**: 7505
+**Session**: Tumor Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Élise Di Lena1, Alyssa Victoria Francis2, Atilla Omeroglu1, Sarkis Meterissian1, Luke McCaffrey1
+
+1McGill University, Montréal, QC, Canada,2Medicine, McGill Univ. Goodman Cancer Ctr., Montreal, QC, Canada
+
+---
+
+The intra-tumoral heterogeneity of hormone-receptor positive (HR+) breast cancers is incompletely known. The purpose of this study was to perform an unbiased characterization of the epithelial landscape in untreated, early-stage hormone-receptor positive (HR+) breast cancers. We performed single-cell RNA sequencing on over 60,000 unsorted cells from 6 primary HR+ tumors. A standardized bioinformatic pipeline was used for clustering, differential gene expression, and pathway analysis. Key findings were validated spatially using multiplexed immunofluorescence and Imaging Mass Cytometry. Our unbiased analysis revealed a complex epithelial landscape. The EPCAM-high cells, representing the largest luminal compartment, were highly heterogeneous and clustered into multiple patient-specific ("private") phenotypes that were strongly ER-positive and made up a tumor fingerprint unique to each patient. In contrast, we identified two distinct "public" phenotypes, present across multiple patients, with significantly reduced or absent EPCAM expression. The first population (EPCAM-low) expressed a unique pro-inflammatory signature enriched for interferon-gamma response and KRAS signaling pathways. The second population (EPCAM-negative) clustered distantly from all other epithelial cells and was enriched for aggressive, stem-like pathways, including TNF-alpha signaling via NF-kB and Hedgehog signaling. Both EPCAM-low/negative populations were hormone-receptor low. The EPCAM-high compartment is a heterogeneous mix of patient-specific populations, while the EPCAM-low/negative compartment contains distinct, shared populations with aggressive, non-targetable phenotypes. These findings reveal a pre-existing cellular reservoir that may drive de novo resistance to endocrine therapy and contribute to late recurrence. This work also highlights that common marker-based epithelial sorting methods may fail to capture the full heterogeneity of HR+ breast cancer.

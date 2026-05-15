@@ -1,0 +1,12 @@
+# Metabolic transition analysis from dormancy to awakening in breast cancer
+
+**Poster #**: 4142
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Javier Villela Castrejon1, Herbert Levine2, Jason  T.  George31Translational Cancer Research, Texas A&M University, Houston, TX,2Northeastern University, Boston, MA,3Texas A&M University, Houston, TX
+
+---
+
+Dormancy and late relapse remain pressing challenges in ER+ breast cancer. Mechanistically, dormancy can reflect a cellular quiescence of micrometastatic cells or tumor-mass dormancy constrained by angiogenic or immune bottlenecks. A long-standing hypothesis is that dormant disseminated tumor cells (DTCs) reside in a glycolysis-high, mesenchymal-like state, whereas successful awakening requires a transition toward an epithelial, OXPHOS-dependent phenotype.Here, we test this hypothesis using a catabolic-anabolic AMPK/HIF-1/MYC regulatory model with four phenotypic states (OXPHOS, Warburg, hybrid W/O, and glutamine-reliant Q), each with distinct metabolic signatures. We integrated these signatures with longitudinal experimental and relevant clinical intervention datasets, including viral infection-induced awakening model, clinical endocrine-therapy time courses, and dormancy models. In addition, three complementary epithelial-mesenchymal transition (EMT) metrics were integrated to assign a consensus epithelial, hybrid, or mesenchymal phenotype to each sample to connect the intrinsic relationship of EMT with metabolic phenotype and dormancy status. Across models, we uncover marked metabolic diversity during cancer awakening, including transitions from quiescent, glycolysis-dependent or mesenchymal-biased states toward hybrid W/O metabolic configurations characterized by coordinated changes of AMPK and HIF-1, altered ROS source balance, and re-engagement of epithelial and proliferative signaling pathways. These metabolic and transcriptional transitions reveal the molecular features associated with dormancy exit and may provide new opportunities to therapeutically prevent awakening and late metastatic relapse.

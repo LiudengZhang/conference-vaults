@@ -1,0 +1,17 @@
+# Spatial profiling identifies tumor-associated stroma enrichment and MIF as potential immunotherapy targets in primary Ewing sarcomas
+
+**Poster #**: 7816
+**Session**: Immunotherapies in Pediatric Cancers
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Christopher Kuo1, Krinio Giannikou1, Nuoya Wang2, Mikako Warren1, Andrew E. Goodspeed3, Nick Shillingford1, Mas Hayashi4, Micha  S.  Raredon2, James Amatruda1
+
+1Children's Hospital Los Angeles, Los Angeles, CA,2Yale School of Medicine, New Haven, CT,3University of Colorado Cancer Center,, Aurora, CO,4The University of Colorado School of Medicine, Aurora, CO
+
+---
+
+Objective: To date, the response rate of immunotherapy in Ewing sarcoma (EwS) has been poor. The vast majority of children with metastatic or relapsed EwS die despite current intensive, multimodal therapy. The tumor immune microenvironment (TME) has a vital role in cancer survival and progression with implications in drug resistance and immune escape. However, there is a lack of understanding of the TME of EwS. Although recent single-cell RNA sequencing of EwS and immune cells have revealed a heterogenous transcriptional landscape with distinct subsets of immune cell populations in EwS, little is known about the spatial organization and spatial microenvironmental niches of the TME of EwS.
+Methods: We performed Spatial Transcriptomics (ST) on 16 primary treatment na&#239;ve EwS tumor biopsies from patients with localized EwS (L-EwS) or with metastatic EwS (M-EwS), complemented by high-plex spatial proteomic analysis.
+Results: Integrated analysis revealed inter- and intra-tumoral heterogeneity. We inferred the stromal regions of tumors transcriptionally and noted that tumors from L-EwS had significantly more stromal signature than M-EwS (p-value <2.2e-16). Gene set enrichment analysis using Hallmark gene sets revealed that L-EwS tumors were enriched in epithelial mesenchymal transition (EMT) and inflammatory signatures (adjusted p-value <0.05) and M-EwS tumors were enriched in proliferative signatures (adjusted p-value <0.05). We identified a set of 46 unique genes enriched in L-EwS that overlapped with genes in EMT hallmark pathways and were predominantly extracellular matrix related (ECM-r) genes such as COL3A1, COL1A2, ITGB1, MMP2, ACTA2, TNC, TGFB1. These ECM-r genes spatially overlapped with the stromal regions of individual tumors. Through spatial ligand-receptor analysis, we showed that the stromal enriched regions harbor unique extracellular matrix related cytokines, immune recruitment and proinflammatory microenvironmental signals, implying EwS stroma may play an anti-tumor role by acting as an immune recruitment center. All EwS tumors expressed pro-tumorigenic MIF-CD74 immune signaling connectivity, suggesting a potential immune-evasive mechanism.
+Conclusion: L-EwS tumors are enriched in ECM and ECM-related microenvironmental signals compared to M-EwS. Spatial cellular microenvironmental signals reveal the potential immune recruitment role of tumor-associated stroma, our findings provide spatial insight into the TME of EwS and provide a rationale for the preclinical investigation of MIF as a potential target for EwS immunotherapy.

@@ -1,0 +1,14 @@
+# GRN deficiency loosens stromal barriers and enhances MHC-II signaling yet reduces MHC-I driven cytotoxic immunity
+
+**Poster #**: 2910
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Feng Guo, Boping Jing, Tadahito Yasuda, Mayu Yasuda, Hudie Li, Fabio  N.  de Mello, Alan  Y.  Wang
+
+Brown Center for Immunotherapy, Indiana University School of Medicine, Indianapolis, IN
+
+---
+
+Progranulin (GRN) is a multifunctional regulator of tissue remodeling and myeloid biology. Although neuroprotective in the CNS, increasing evidence indicates that GRN supports a fibrotic and immune suppressive tumor microenvironment.We investigated whether host GRN restrains anti-tumor immunity and whether its inhibition could be therapeutically leveraged. Using C57BL/6J Grn-/- mice across three syngeneic models (KPC pancreatic ductal adenocarcinoma, B16-F10 melanoma, MC38 colorectal carcinoma), GRN loss consistently delayed tumor growth, with the most pronounced effect in KPC subcutaneous tumors, indicating a substantive but incomplete contribution of host GRN to tumor control.Single-cell RNA-seq and cell-cell interaction analyses of KPC tumors revealed coordinated rewiring of antigen presentation and stromal programs in Grn-/- hosts: MHC-II signaling predominantly B to T was increased, whereas MHC-I inputs decreased. Cancer-associated fibroblasts exhibited downregulation of chemokine/GPCR sensing, ER-phagosome and complement pathways. CAF composition shifted toward iCAF expansion with mCAF/vCAF reduction, and fibroblast&#8594;tumor ECM adhesion pairs (COL/FN1/LAM&#8594;CD44/SDC) were diminished, consistent with a loosened stromal matrix.In T cells, CD4&#8314;/CD8&#8314; central or resident memory compartments expanded, while cytotoxic and exhausted CD8&#8314; populations declined; pseudotime analyses demonstrated attenuated progression from memory toward cytotoxic or exhausted endpoints.Collectively, these data indicate that host GRN sustains a myeloid-CAF program that strengthens stromal tension and supports MHC-I driven T-cell terminal differentiation. GRN loss relaxes this circuit, reducing MHC-I availability while enhancing B-T MHC-II engagement, which shifts T cells toward memory states and limits cytotoxic output. These findings identify GRN blockade as a TME reprogramming strategy that should be paired with agents restoring CD8&#8314; signal-1 (MHC-I) to convert enlarged memory pools into durable cytotoxic control in PDAC.

@@ -1,0 +1,6237 @@
+WEBVTT
+
+1
+00:00:01.080 --> 00:00:04.140
+Okay. Thank you everyone, and welcome to this
+
+2
+00:00:04.960 --> 00:00:08.880
+both technology and biology-focused session on spatial
+
+3
+00:00:08.940 --> 00:00:11.760
+and single-cell genomics at scale.
+
+4
+00:00:11.800 --> 00:00:15.620
+And it's really a session focused on, I think you'll see, decoding the
+
+5
+00:00:15.660 --> 00:00:17.500
+ecosystem of tumors.
+
+6
+00:00:18.320 --> 00:00:22.200
+And I think many of you guys will appreciate that there's been a wealth of
+
+7
+00:00:22.240 --> 00:00:23.560
+new technologies
+
+8
+00:00:24.700 --> 00:00:28.500
+that have really recently come to bear on the ability to
+
+9
+00:00:28.580 --> 00:00:30.900
+measure transcripts at scale within tissues.
+
+10
+00:00:31.540 --> 00:00:34.720
+I'm a big science fiction fan, and Arthur C.
+
+11
+00:00:34.880 --> 00:00:38.860
+Clarke has these three laws, and one of them is, "To discover the limits
+
+12
+00:00:38.900 --> 00:00:42.490
+of what's possible, you have to venture into the impossible." And
+
+13
+00:00:42.960 --> 00:00:46.580
+you might be able to tell that many of these technologies that we have, being able
+
+14
+00:00:46.600 --> 00:00:50.120
+to measure the whole transcriptome within cells and tissues would have been maybe
+
+15
+00:00:50.160 --> 00:00:53.200
+impossible to consider just maybe a decade ago.
+
+16
+00:00:53.210 --> 00:00:55.520
+And so it's my pleasure to
+
+17
+00:00:56.700 --> 00:00:57.769
+chair this session and
+
+18
+00:00:58.980 --> 00:01:02.720
+introduce myself. I'm from the Broad, Dana
+
+19
+00:01:03.060 --> 00:01:07.010
+from Sloan Kettering, and then Itay from Weizmann, who will talk about three
+
+20
+00:01:07.060 --> 00:01:10.920
+different aspects of this. And actually, unfortunately, due to some of
+
+21
+00:01:10.960 --> 00:01:14.890
+the geopolitical circumstances, Itay couldn't make it out here, but he pre-recorded
+
+22
+00:01:14.920 --> 00:01:18.380
+his talk. All right. So we'll just dive right in.
+
+23
+00:01:19.240 --> 00:01:20.720
+If I can move...
+
+24
+00:01:28.580 --> 00:01:29.520
+Okay, great.
+
+25
+00:01:30.700 --> 00:01:31.140
+Yeah. So,
+
+26
+00:01:32.820 --> 00:01:36.380
+my lab has really been focused on developing tools and technologies and thinking
+
+27
+00:01:36.420 --> 00:01:40.399
+about what questions we can answer with these technologies, especially
+
+28
+00:01:40.460 --> 00:01:43.880
+with respect to measuring the transcriptome within tumor
+
+29
+00:01:43.960 --> 00:01:47.820
+ecosystems. And one, we've both been interested in the
+
+30
+00:01:47.860 --> 00:01:49.980
+spatial context and the temporal context.
+
+31
+00:01:50.660 --> 00:01:54.570
+And this is going to be clear to many of us, but cells really only
+
+32
+00:01:54.580 --> 00:01:58.360
+make sense in context. For example, this is a zoomed-in H&amp;E image of one cell,
+
+33
+00:01:58.780 --> 00:02:01.120
+and you might be able to see some features.
+
+34
+00:02:01.260 --> 00:02:03.320
+It has this funny-looking nuclei.
+
+35
+00:02:04.060 --> 00:02:04.620
+But really,
+
+36
+00:02:05.820 --> 00:02:09.081
+it isn't until you see it in the context of the tissue, for example, this is the
+
+37
+00:02:09.120 --> 00:02:10.140
+Hodgkin lymphoma's
+
+38
+00:02:11.060 --> 00:02:14.300
+tissue H&amp;E specimen, you might appreciate that it's this large,
+
+39
+00:02:14.400 --> 00:02:17.660
+multi-nucleated cell surrounded by many other cells of the
+
+40
+00:02:17.700 --> 00:02:21.620
+microenvironment. And what we've been doing in genomics for a long time
+
+41
+00:02:21.660 --> 00:02:25.160
+is a little bit like zooming in to that cell and looking at each cell in its
+
+42
+00:02:25.220 --> 00:02:29.200
+individual context. And it's been focused on dissociated cells.
+
+43
+00:02:29.240 --> 00:02:32.890
+And it's only been recently that we've been able to bring the full power of
+
+44
+00:02:32.920 --> 00:02:36.320
+molecular measurements directly within the context of tissues.
+
+45
+00:02:37.000 --> 00:02:39.580
+The other thing I would just say is that
+
+46
+00:02:39.600 --> 00:02:42.720
+these measurements are snapshots.
+
+47
+00:02:42.760 --> 00:02:46.720
+You have to kill the sample, or maybe the sample's already dead, when you
+
+48
+00:02:46.760 --> 00:02:50.060
+make the measurement, and they're destructive snapshots.
+
+49
+00:02:50.080 --> 00:02:53.700
+But in fact, to really understand maybe mechanisms, you
+
+50
+00:02:53.740 --> 00:02:57.670
+might need to understand the progression and the cellular history to understand how
+
+51
+00:02:57.680 --> 00:03:01.400
+we arrived at the present state. For example, this Hodgkin's lymphoma sample might
+
+52
+00:03:01.420 --> 00:03:05.240
+have been a healthy lymph node in the past, but there are some evolution of
+
+53
+00:03:05.300 --> 00:03:07.840
+lineage and exposure that arose this.
+
+54
+00:03:07.890 --> 00:03:11.640
+And we really have also been quite interested in developing tools to measure
+
+55
+00:03:12.060 --> 00:03:15.049
+this cellular history directly in the context of tissue.
+
+56
+00:03:15.440 --> 00:03:17.640
+So I'll touch on both of these in my talk.
+
+57
+00:03:18.520 --> 00:03:18.880
+And
+
+58
+00:03:19.760 --> 00:03:22.960
+we've been building a variety of technologies for bringing genomics to tissues,
+
+59
+00:03:23.080 --> 00:03:26.680
+including ways to measure transcriptomes, genomes, and analysis
+
+60
+00:03:26.760 --> 00:03:29.980
+tools. I won't talk about this. I just want to say
+
+61
+00:03:30.880 --> 00:03:34.700
+one thing. A class of these technologies have been built on these
+
+62
+00:03:34.720 --> 00:03:37.480
+bar-coded arrays. You can see that here.
+
+63
+00:03:37.940 --> 00:03:41.440
+And this is pretty old now. This is something we
+
+64
+00:03:41.460 --> 00:03:43.660
+developed six or seven years ago,
+
+65
+00:03:45.440 --> 00:03:49.290
+actually eight years ago, where we put tissues onto these
+
+66
+00:03:49.340 --> 00:03:52.960
+arrays that have bar-coded beads, and the beads have XY
+
+67
+00:03:53.300 --> 00:03:57.000
+locations that are encoded by DNA barcodes, and RNA or
+
+68
+00:03:57.040 --> 00:03:58.940
+DNA can be captured onto these beads.
+
+69
+00:03:59.240 --> 00:04:01.280
+And then you know where
+
+70
+00:04:02.300 --> 00:04:05.220
+those RNA and DNA came from by the DNA barcodes.
+
+71
+00:04:05.250 --> 00:04:08.400
+And this, obviously, many of you guys have used technologies.
+
+72
+00:04:08.880 --> 00:04:11.260
+Takara has commercialized this under
+
+73
+00:04:13.400 --> 00:04:16.959
+this seeker technology we call the Slide-Seq, and then
+
+74
+00:04:17.140 --> 00:04:18.529
+Visium HD is very similar.
+
+75
+00:04:19.570 --> 00:04:23.409
+But most recently, a couple of years ago, I feel like we've developed a
+
+76
+00:04:23.420 --> 00:04:27.260
+version of this technology that we use regularly, and I want to just briefly touch
+
+77
+00:04:27.270 --> 00:04:31.000
+upon it today, called Slide Tags. And we think it has many
+
+78
+00:04:31.020 --> 00:04:34.380
+advantages. In fact, we think of it as a kind of a universal
+
+79
+00:04:34.440 --> 00:04:38.200
+platform to move any single-cell measurement, whether that
+
+80
+00:04:38.280 --> 00:04:42.000
+is DNA, RNA, epigenomes, directly into the
+
+81
+00:04:42.020 --> 00:04:44.900
+spatial context. And so how does Slide Tags work?
+
+82
+00:04:45.380 --> 00:04:49.280
+It works by using these same bar-coded arrays, but instead of
+
+83
+00:04:49.300 --> 00:04:52.800
+trying to capture the molecules onto the arrays, we invert the
+
+84
+00:04:52.820 --> 00:04:56.720
+process. Now, we put the tissue onto these arrays, and these
+
+85
+00:04:56.760 --> 00:05:00.300
+beads have photo-cleavable DNA barcodes.
+
+86
+00:05:00.640 --> 00:05:04.070
+And then when you cleave these DNA barcodes, they diffuse into the tissue,
+
+87
+00:05:04.480 --> 00:05:08.260
+allowing these barcodes to be associated with the nuclei.
+
+88
+00:05:08.720 --> 00:05:10.160
+And this is a little bit like
+
+89
+00:05:11.320 --> 00:05:15.120
+GPS for cells, because each cell picks up more than one
+
+90
+00:05:15.380 --> 00:05:18.140
+barcode. It picks up a distribution of barcodes nearby.
+
+91
+00:05:18.560 --> 00:05:21.920
+And with that, we can localize the cell with very high precision, actually higher
+
+92
+00:05:21.960 --> 00:05:24.020
+than the 10-micron resolution of the beads.
+
+93
+00:05:24.680 --> 00:05:27.180
+And it's true single-cell resolution.
+
+94
+00:05:27.220 --> 00:05:30.920
+We can encode basically the location of each cell that we
+
+95
+00:05:30.960 --> 00:05:34.400
+sequence with an XY, or the majority of cells we sequence with an XY
+
+96
+00:05:34.440 --> 00:05:37.590
+location. And it's compatible with any single-cell approach.
+
+97
+00:05:37.640 --> 00:05:41.540
+And so a lot of the data that I'll show today is with 10X, either Phi Prime
+
+98
+00:05:41.600 --> 00:05:42.160
+or Flex.
+
+99
+00:05:43.040 --> 00:05:46.620
+And so here you can see this fancy UMAP,
+
+100
+00:05:47.300 --> 00:05:50.840
+where each individual cell in this UMAP, this is from mouse
+
+101
+00:05:50.880 --> 00:05:53.570
+hippocampus, is placed into the context of space.
+
+102
+00:05:54.400 --> 00:05:56.360
+And what does this really give you?
+
+103
+00:05:56.600 --> 00:06:00.400
+Well, one thing is it gives you really high-quality, true single-cell
+
+104
+00:06:00.460 --> 00:06:03.820
+data. You don't have to deal with segmentation or other
+
+105
+00:06:04.300 --> 00:06:07.784
+sorts of things thatLike result in mixing of
+
+106
+00:06:07.824 --> 00:06:11.184
+cells. And actually, this is comparisons between
+
+107
+00:06:11.544 --> 00:06:14.384
+single-cell RNA-seq or single-nucleus RNA-seq and Slide-Tags, and you can see the
+
+108
+00:06:14.404 --> 00:06:18.004
+cell type proportions, the number of molecules, which is in the thousands, and the
+
+109
+00:06:18.024 --> 00:06:21.684
+counts are all the same. And most importantly,
+
+110
+00:06:23.304 --> 00:06:25.704
+this technology has been commercialized by Tecan Tecara.
+
+111
+00:06:25.764 --> 00:06:29.394
+I don't have any financial interest into Tecara, but they licensed the technology,
+
+112
+00:06:29.864 --> 00:06:33.844
+and they've made it compatible with FFP through 10x Flex.
+
+113
+00:06:34.404 --> 00:06:38.304
+And we've just been consistently very impressed by the
+
+114
+00:06:38.344 --> 00:06:39.144
+data from
+
+115
+00:06:39.984 --> 00:06:43.524
+this Flex in this spatial tagging of
+
+116
+00:06:43.644 --> 00:06:46.704
+FFP samples. Here is a melanoma specimen.
+
+117
+00:06:47.054 --> 00:06:50.964
+And on the exact same paired specimen, we ran it on Visium HD, and
+
+118
+00:06:51.004 --> 00:06:54.644
+you can here see the median UMIs per cell, and genes per cell,
+
+119
+00:06:55.304 --> 00:06:57.844
+for the single-cell technology versus,
+
+120
+00:06:58.904 --> 00:07:02.364
+well, Flex versus Visium HD. And I think you can really
+
+121
+00:07:02.404 --> 00:07:06.264
+appreciate that the true single-cell resolution in
+
+122
+00:07:06.324 --> 00:07:10.104
+combination with molecular resolution gives you much, much better separation
+
+123
+00:07:10.144 --> 00:07:11.364
+between cell types and states.
+
+124
+00:07:12.924 --> 00:07:14.344
+That's all I'll say about the technology.
+
+125
+00:07:15.064 --> 00:07:18.494
+We've been using this as a
+
+126
+00:07:18.524 --> 00:07:22.164
+workhorse and it's readily available for you all.
+
+127
+00:07:23.604 --> 00:07:27.514
+And so, I think a question that many of us, and you'll see in this
+
+128
+00:07:27.514 --> 00:07:31.424
+series of talks we'll try to answer is, how are tumor cells
+
+129
+00:07:31.444 --> 00:07:34.134
+and immune cells organized and shaped by their microenvironment?
+
+130
+00:07:34.644 --> 00:07:38.564
+We're quite interested in how cell-intrinsic states are shaped by their
+
+131
+00:07:38.644 --> 00:07:42.084
+neighborhood and the niche of the cells that they live in.
+
+132
+00:07:42.184 --> 00:07:46.134
+And for example, tumor cells obviously have some dynamic evolution through the
+
+133
+00:07:46.164 --> 00:07:49.754
+course of the tumor, whether that's genomic evolution through genetic and
+
+134
+00:07:49.844 --> 00:07:53.564
+epigenetic means, as well as transcriptomic adaptations to their local
+
+135
+00:07:53.604 --> 00:07:57.524
+environment. And that evolution is actually, through the course of the tumor,
+
+136
+00:07:57.584 --> 00:08:01.174
+is in some equilibrium with the environment, right?
+
+137
+00:08:01.204 --> 00:08:04.684
+It's driven in many part by the immune cells and stromal cells.
+
+138
+00:08:04.724 --> 00:08:05.124
+And
+
+139
+00:08:06.044 --> 00:08:09.004
+many of you guys here know this and are appreciative of this because it's very
+
+140
+00:08:09.024 --> 00:08:12.744
+therapeutically relevant. Because many of our ways of modulating the immune
+
+141
+00:08:12.824 --> 00:08:16.604
+system actually needs to take advantage of what our understanding of
+
+142
+00:08:16.844 --> 00:08:20.544
+this equilibrium and evolution. Also targeted therapies as well.
+
+143
+00:08:21.604 --> 00:08:25.344
+And so for example, response to checkpoint blockade in melanoma is
+
+144
+00:08:25.404 --> 00:08:28.024
+highly bimodal, and it's really
+
+145
+00:08:29.104 --> 00:08:31.704
+unclear what drives this bimodality.
+
+146
+00:08:31.764 --> 00:08:35.534
+We speculate it is something to do with the immune microenvironment.
+
+147
+00:08:35.595 --> 00:08:39.424
+There are many papers around it. But how do we actually understand
+
+148
+00:08:39.704 --> 00:08:43.044
+if cell states within the cancer are associated with the
+
+149
+00:08:43.084 --> 00:08:46.824
+microenvironment? And so we've been looking at spatial
+
+150
+00:08:46.884 --> 00:08:49.534
+niches within the melanoma microenvironment,
+
+151
+00:08:50.484 --> 00:08:53.944
+in particular in metastatic melanoma, using Slide-Tags.
+
+152
+00:08:53.964 --> 00:08:56.424
+We actually did this in our original Slide-Tags paper.
+
+153
+00:08:56.464 --> 00:08:59.934
+I'll show you one tissue as an example, and then I'll
+
+154
+00:08:59.944 --> 00:09:03.444
+generalize these observations over many samples.
+
+155
+00:09:03.484 --> 00:09:04.434
+So here is
+
+156
+00:09:05.604 --> 00:09:07.724
+one of our first Slide Tag specimens on a melanoma.
+
+157
+00:09:08.144 --> 00:09:09.774
+You can see there are these
+
+158
+00:09:11.284 --> 00:09:14.024
+two histological regions of the tumor.
+
+159
+00:09:14.944 --> 00:09:18.364
+And when you perform single-cell RNA-seq, here is the UMAP.
+
+160
+00:09:18.424 --> 00:09:21.564
+You can see very fine-grained resolution of cell states, and then you can place the
+
+161
+00:09:21.604 --> 00:09:24.544
+majority of these cells back into space here.
+
+162
+00:09:24.564 --> 00:09:28.304
+And actually, if you just look at, this is tumor cells, you can see that they
+
+163
+00:09:28.324 --> 00:09:31.804
+adopt a couple of transcriptionally distinct states that are also
+
+164
+00:09:31.924 --> 00:09:35.894
+spatially distinct. And actually, these distinct transcriptional
+
+165
+00:09:35.984 --> 00:09:39.954
+states, they turned out to actually also have kind of different CNVs
+
+166
+00:09:40.004 --> 00:09:43.894
+that represent different evolutionary histories of these two clones, and they
+
+167
+00:09:43.894 --> 00:09:45.764
+have very distinct cellular neighborhoods.
+
+168
+00:09:46.104 --> 00:09:49.584
+Here's just a very, very simple analysis where blue represents
+
+169
+00:09:49.624 --> 00:09:50.124
+the
+
+170
+00:09:51.404 --> 00:09:55.344
+kind of depletion of cell types in the local microenvironment, while red represents
+
+171
+00:09:55.354 --> 00:09:59.264
+the enrichment. And you can see generally, tumor cells in state one
+
+172
+00:09:59.304 --> 00:10:03.234
+are relatively depleted in immune cells in their neighborhood, and
+
+173
+00:10:03.244 --> 00:10:07.174
+then there's a particular enrichment in T cells in tumor cells with
+
+174
+00:10:07.244 --> 00:10:07.723
+state two.
+
+175
+00:10:08.584 --> 00:10:12.544
+And actually, you can go and use, here we used 10x Phi
+
+176
+00:10:12.664 --> 00:10:16.624
+Prime to map the TCR sequences in single cell, but now
+
+177
+00:10:16.644 --> 00:10:19.364
+we have the spatial localizations of those TCR sequences.
+
+178
+00:10:19.724 --> 00:10:23.594
+And you can see here this particular T cell clone that's actually driving this
+
+179
+00:10:23.624 --> 00:10:26.983
+enrichment to state two and depletion in state one.
+
+180
+00:10:27.663 --> 00:10:28.024
+Here, the
+
+181
+00:10:28.864 --> 00:10:32.814
+gray represents all T cells in this spatial context, and purple represents this
+
+182
+00:10:32.824 --> 00:10:34.304
+particular clone.
+
+183
+00:10:35.464 --> 00:10:38.704
+And you can, without any statistics, you can just see by eye that there's this
+
+184
+00:10:38.764 --> 00:10:42.704
+strong tumor state and T cell clone association.
+
+185
+00:10:42.744 --> 00:10:46.684
+So what's driving both this clone dependence and this T cell
+
+186
+00:10:47.064 --> 00:10:50.864
+depletion? And we had a couple theories,
+
+187
+00:10:50.904 --> 00:10:54.324
+one of which is that melanoma
+
+188
+00:10:54.334 --> 00:10:58.144
+dedifferentiates during the course of progression, and
+
+189
+00:10:58.184 --> 00:11:01.944
+as along to this more mesenchymal-like or neural crest-like
+
+190
+00:11:01.964 --> 00:11:05.584
+phenotype. And along the way, then it can lose both its
+
+191
+00:11:05.684 --> 00:11:09.064
+endogenous antigens or maybe it can drive a more immunosuppressive
+
+192
+00:11:09.104 --> 00:11:12.744
+niche. And you can kind of already see that in the H&amp;E.
+
+193
+00:11:12.764 --> 00:11:15.404
+And this is something that clinicians see all the time that
+
+194
+00:11:16.964 --> 00:11:20.784
+melanomas are often pigmented before treatment, but during treatment
+
+195
+00:11:20.824 --> 00:11:24.304
+they lose their pigment. But in this particular sample, you can see that the two
+
+196
+00:11:24.344 --> 00:11:27.884
+lobes, histological lobes of this metastasis actually have
+
+197
+00:11:27.904 --> 00:11:31.444
+differential pigmentation. And indeed, when you look
+
+198
+00:11:31.504 --> 00:11:35.244
+at just the transcriptome scoring for these mesenchymal-like states,
+
+199
+00:11:35.444 --> 00:11:39.304
+you see this difference where tumor one has adopted this more
+
+200
+00:11:39.384 --> 00:11:42.424
+mesenchymal-like state and lost endogenous antigens.
+
+201
+00:11:43.484 --> 00:11:43.844
+And so,
+
+202
+00:11:45.064 --> 00:11:46.804
+this is just one sample. We've then
+
+203
+00:11:47.764 --> 00:11:51.344
+have been systematically profiling many metastatic
+
+204
+00:11:51.924 --> 00:11:55.284
+biopsies, 27 or approximately 30 so far actually
+
+205
+00:11:55.344 --> 00:11:56.384
+now. And
+
+206
+00:11:57.684 --> 00:12:01.524
+I'm skipping a lot of the analysis and data, and I just want to show you two
+
+207
+00:12:01.604 --> 00:12:04.714
+highlights for what we see. One is that
+
+208
+00:12:05.184 --> 00:12:08.964
+this dedifferentiation trajectory actually promote
+
+209
+00:12:09.004 --> 00:12:12.764
+different niches correlated with the cancer cell state.
+
+210
+00:12:13.384 --> 00:12:17.234
+Here you can see-On the rows of this heat
+
+211
+00:12:17.274 --> 00:12:20.714
+map, different states of tumor cells, whether they're
+
+212
+00:12:20.734 --> 00:12:24.564
+melanocytic or this neural crest transitory phenotype, and I
+
+213
+00:12:24.614 --> 00:12:26.354
+haven't shown the fully undifferentiated here.
+
+214
+00:12:26.814 --> 00:12:30.794
+But in particular, we observe that the neural crest transitory state is strongly
+
+215
+00:12:30.834 --> 00:12:34.454
+associated with a particular immune suppressive
+
+216
+00:12:34.514 --> 00:12:38.434
+neighborhood consisted of this SPP1 positive macrophage
+
+217
+00:12:38.454 --> 00:12:41.554
+and this fibroblast that's post-N positive.
+
+218
+00:12:41.794 --> 00:12:42.244
+So this is
+
+219
+00:12:43.934 --> 00:12:45.914
+an immunosuppressive
+
+220
+00:12:47.094 --> 00:12:48.354
+macrophage population, and then
+
+221
+00:12:49.814 --> 00:12:50.354
+a
+
+222
+00:12:51.334 --> 00:12:53.274
+tumor-associated fibroblast population.
+
+223
+00:12:53.614 --> 00:12:56.234
+And association with this is exactly
+
+224
+00:12:56.254 --> 00:13:00.134
+anti-correlated with many, basically effector
+
+225
+00:13:00.214 --> 00:13:03.754
+CD8 T cells and also associated macrophage
+
+226
+00:13:03.814 --> 00:13:06.644
+populations that we term an immune effector population.
+
+227
+00:13:07.034 --> 00:13:10.724
+And when you're next to an immune effector population, we see that the cancer cells
+
+228
+00:13:10.754 --> 00:13:13.934
+generally actually are interferon stimulated and dying.
+
+229
+00:13:13.974 --> 00:13:17.854
+So, basically de-differentiation to this neural crest state
+
+230
+00:13:18.134 --> 00:13:21.134
+causes this association with this
+
+231
+00:13:21.194 --> 00:13:23.494
+immunosuppressive niche that also
+
+232
+00:13:24.874 --> 00:13:27.174
+is anti-correlated with the effector status.
+
+233
+00:13:27.854 --> 00:13:31.164
+And actually, not only is it anti-correlated with these cell types,
+
+234
+00:13:31.534 --> 00:13:34.994
+the T cell clones are suppressed in the niche associated with
+
+235
+00:13:35.054 --> 00:13:38.864
+SPP1 max and post-N fibroblasts. So, in
+
+236
+00:13:38.914 --> 00:13:42.384
+those niches, if you look at T cell clonality, most T cells are
+
+237
+00:13:42.434 --> 00:13:43.394
+singletons,
+
+238
+00:13:44.574 --> 00:13:48.374
+or many more are singletons versus inside of this effector niche,
+
+239
+00:13:48.934 --> 00:13:52.254
+many more are expanded, meaning they're dividing.
+
+240
+00:13:53.154 --> 00:13:55.674
+Okay. And so what's going on with this?
+
+241
+00:13:56.414 --> 00:14:00.094
+Well, we know SPP1 is one of these wound-associated
+
+242
+00:14:00.154 --> 00:14:03.634
+macrophage factors, and it's probably a wound-healing
+
+243
+00:14:03.754 --> 00:14:06.994
+program that also suppresses the local immune
+
+244
+00:14:07.034 --> 00:14:10.894
+response. And we did some functional interrogation of...
+
+245
+00:14:11.594 --> 00:14:13.424
+These are secreted factors, right?
+
+246
+00:14:13.774 --> 00:14:16.694
+So post-N is a secreted factor from this fibroblast.
+
+247
+00:14:16.744 --> 00:14:20.624
+And you actually see that in in vitro, melanocytic cell line, when
+
+248
+00:14:20.674 --> 00:14:24.533
+you apply post-N to these cell lines, it de-differentiates them to a more
+
+249
+00:14:24.554 --> 00:14:27.054
+neural crest/undifferentiated state.
+
+250
+00:14:27.734 --> 00:14:31.574
+And in addition, actually when you add SPP1 to
+
+251
+00:14:31.614 --> 00:14:35.534
+cells, it seems to also protect, only in the neural crest
+
+252
+00:14:35.574 --> 00:14:38.874
+cell line state, it protects cells from interferon and
+
+253
+00:14:38.914 --> 00:14:42.594
+TNF cytokine killing. So it could be that there's
+
+254
+00:14:42.654 --> 00:14:46.614
+this de-differentiation driven by this fibroblast
+
+255
+00:14:46.624 --> 00:14:50.494
+secreted factor, and then SPP1 both protects the cells and then also,
+
+256
+00:14:50.754 --> 00:14:54.194
+I haven't taught you about maybe some immune suppression, but it also
+
+257
+00:14:54.414 --> 00:14:57.774
+prevents the cancer cells from being killed directly by immune cytokines.
+
+258
+00:14:58.594 --> 00:14:58.914
+And so
+
+259
+00:15:00.314 --> 00:15:04.034
+there's this model of these two niches where
+
+260
+00:15:04.734 --> 00:15:08.574
+actually there's this positive feedback where post-N
+
+261
+00:15:08.634 --> 00:15:12.174
+fibroblasts might actually drive cells into this neural crest state,
+
+262
+00:15:12.634 --> 00:15:13.394
+which then
+
+263
+00:15:17.054 --> 00:15:20.834
+positively interacts with SPP1 max and prevents those cells from being
+
+264
+00:15:20.874 --> 00:15:24.754
+killed by cytokines. And then I didn't talk about the immune effector
+
+265
+00:15:24.774 --> 00:15:28.724
+niches, but these are places where you get the right coordination
+
+266
+00:15:28.754 --> 00:15:32.184
+of immune cells to kill the melanocytic or maybe other
+
+267
+00:15:32.214 --> 00:15:35.234
+interferon-stimulated cells. All right.
+
+268
+00:15:36.294 --> 00:15:38.074
+So that's kind of
+
+269
+00:15:39.914 --> 00:15:41.994
+measuring what's happening at a snapshot.
+
+270
+00:15:42.434 --> 00:15:46.214
+We'd like to also understand, this is a clear example of one of
+
+271
+00:15:46.274 --> 00:15:50.194
+these de-differentiation trajectories where you see one
+
+272
+00:15:50.234 --> 00:15:54.094
+lobe of the tumor is melanocytic and one lobe has
+
+273
+00:15:54.574 --> 00:15:58.414
+lost the melanocytic identity. But how did it arrive there?
+
+274
+00:15:58.494 --> 00:16:02.014
+And how do you record the history of basically the
+
+275
+00:16:02.074 --> 00:16:05.404
+evolution of this tumor and its interactions with cells?
+
+276
+00:16:06.294 --> 00:16:07.854
+And so we've been thinking about this a lot.
+
+277
+00:16:07.894 --> 00:16:11.714
+And you can imagine that you can do this through
+
+278
+00:16:11.734 --> 00:16:15.274
+genomics. It turns out that genomes, transcriptomes,
+
+279
+00:16:15.354 --> 00:16:19.054
+epigenomes, and genomes provide three complementary windows in the past.
+
+280
+00:16:19.634 --> 00:16:23.204
+DNA might really be a good way to read out lineage and clonal structure.
+
+281
+00:16:23.664 --> 00:16:27.144
+The epigenome might read out exposure and gene regulation.
+
+282
+00:16:27.254 --> 00:16:30.924
+And the transcriptome can tell you something about the path transcriptional
+
+283
+00:16:30.994 --> 00:16:34.914
+state in a local timescale. And we've actually been building methods to read
+
+284
+00:16:34.953 --> 00:16:38.794
+out all three, but today I'll just tell you about lineage and clonal structure.
+
+285
+00:16:39.514 --> 00:16:39.694
+So,
+
+286
+00:16:41.534 --> 00:16:45.214
+for a long time, we've been wondering, can we use DNA to infer the lineage context
+
+287
+00:16:45.254 --> 00:16:48.984
+directly within tissues? And, obviously, as
+
+288
+00:16:49.114 --> 00:16:52.504
+cells divide, they can accumulate single nucleotide variants or chromosomal
+
+289
+00:16:52.514 --> 00:16:56.314
+aberrations. In normal cells, actually, you can use
+
+290
+00:16:56.354 --> 00:17:00.114
+DNA divisions. Divisions between cells actually still accumulate
+
+291
+00:17:00.154 --> 00:17:00.794
+approximately
+
+292
+00:17:01.794 --> 00:17:05.734
+tens to hundreds of single nucleotide variants per division, although that
+
+293
+00:17:05.774 --> 00:17:09.674
+might be challenging to read out. We actually thought that CNVs and chromosomal
+
+294
+00:17:09.734 --> 00:17:13.055
+number alterations would be very easy to read out with these spatial genomic
+
+295
+00:17:13.094 --> 00:17:16.815
+technologies. And so many years back, actually, we adapted
+
+296
+00:17:16.835 --> 00:17:20.734
+these beads to measure DNA directly through tagmentation,
+
+297
+00:17:22.374 --> 00:17:25.374
+and then capturing the tagmented fragments using these arrays.
+
+298
+00:17:25.835 --> 00:17:27.874
+And using that, you can actually
+
+299
+00:17:29.194 --> 00:17:33.114
+directly visualize CNVs from chromosomes within
+
+300
+00:17:33.434 --> 00:17:35.434
+tissues. Here you can see
+
+301
+00:17:36.874 --> 00:17:40.444
+a capture in H&amp;E of a tumor, and then we've
+
+302
+00:17:40.834 --> 00:17:44.794
+actually captured this onto the array, but instead of capturing RNA, we
+
+303
+00:17:44.854 --> 00:17:46.514
+captured DNA. And
+
+304
+00:17:47.634 --> 00:17:50.954
+these heat maps represent relative amplifications and gains, for example, a
+
+305
+00:17:50.974 --> 00:17:54.714
+chromosome 8q amplification here, and then loss of
+
+306
+00:17:54.774 --> 00:17:58.654
+15. And you can see that these chromosome 20 might highlight
+
+307
+00:17:58.714 --> 00:18:02.574
+a subclone of these tumor cells. And in
+
+308
+00:18:02.614 --> 00:18:05.604
+fact, when we do simple PCA, we can assign within
+
+309
+00:18:05.634 --> 00:18:09.624
+this very small region of the tissue, these cells
+
+310
+00:18:09.634 --> 00:18:13.306
+to different subclonal assignments.And we proceeded to
+
+311
+00:18:13.346 --> 00:18:17.135
+examine in this paper how the environment is
+
+312
+00:18:17.166 --> 00:18:21.086
+associated with clonal identity, which I won't have time to talk about.
+
+313
+00:18:21.106 --> 00:18:24.946
+But I just want to say that these CNVs show that tumor clones
+
+314
+00:18:25.026 --> 00:18:29.006
+are coupled to extracellular contexts, but the clonal resolution
+
+315
+00:18:29.066 --> 00:18:33.046
+is low. And so in parallel, we've been using these engineered
+
+316
+00:18:33.166 --> 00:18:34.106
+barcodes in
+
+317
+00:18:36.206 --> 00:18:40.026
+synthetic systems to enable higher resolution lineage tracing,
+
+318
+00:18:40.586 --> 00:18:44.546
+and we've been collaborating with Jonathan Weissman's lab and Fernando Carmago's
+
+319
+00:18:44.586 --> 00:18:48.426
+lab, where they have these approaches to introduce Cas9
+
+320
+00:18:48.466 --> 00:18:51.566
+to edit parts of the genome to increase
+
+321
+00:18:51.626 --> 00:18:55.526
+the mutation rate within those regions, and then you can
+
+322
+00:18:55.586 --> 00:18:59.406
+read those regions out via RNA or DNA sequencing to
+
+323
+00:18:59.466 --> 00:19:00.986
+assess the
+
+324
+00:19:03.006 --> 00:19:06.716
+lineage of cells. And so, in collaboration with Jonathan's lab, we've been doing
+
+325
+00:19:06.766 --> 00:19:10.236
+this with this KP tracer model where you can
+
+326
+00:19:10.266 --> 00:19:12.236
+induce tumor formation in the lung,
+
+327
+00:19:13.066 --> 00:19:16.606
+using pre-recombination of KP. And then you can
+
+328
+00:19:16.645 --> 00:19:20.436
+put these onto slide tags or slide seek arrays and
+
+329
+00:19:20.466 --> 00:19:24.246
+capture both the cell state as well as the lineage information with higher
+
+330
+00:19:24.306 --> 00:19:26.386
+resolution. And
+
+331
+00:19:27.666 --> 00:19:31.446
+this allows us to ask basically how does lineage map to the cell state
+
+332
+00:19:31.486 --> 00:19:34.826
+context beyond just the clones that you observed in the snapshot.
+
+333
+00:19:35.246 --> 00:19:36.526
+And then we were also curious about,
+
+334
+00:19:38.206 --> 00:19:40.646
+are the clones which seed metastasis in this model,
+
+335
+00:19:41.546 --> 00:19:45.166
+are they related in cellular neighborhood to the
+
+336
+00:19:45.206 --> 00:19:45.786
+primary?
+
+337
+00:19:46.686 --> 00:19:49.926
+And so, this sort of thing generates very cool data.
+
+338
+00:19:50.566 --> 00:19:54.446
+Here is spatial data of where we've -- each tumor shot is
+
+339
+00:19:54.466 --> 00:19:56.846
+a cell in space, and we've marked,
+
+340
+00:19:57.566 --> 00:20:00.796
+basically by colors, the primary clones.
+
+341
+00:20:00.866 --> 00:20:02.446
+These are the initial seeded clones.
+
+342
+00:20:02.526 --> 00:20:06.206
+But within this red clone of a tumor,
+
+343
+00:20:06.486 --> 00:20:10.266
+you can derive a lineage tree from those mutations and
+
+344
+00:20:10.346 --> 00:20:14.106
+actually find sub-degradations of the lineage tree actually reveal, for
+
+345
+00:20:14.166 --> 00:20:17.886
+example, the subclonal spatial heterogeneity of the
+
+346
+00:20:18.046 --> 00:20:20.026
+evolution of this particular primary.
+
+347
+00:20:20.506 --> 00:20:24.246
+And you can see, for example, that there's spatial coherence in these
+
+348
+00:20:24.306 --> 00:20:27.746
+subclones, although there's also some slight intermixing.
+
+349
+00:20:28.606 --> 00:20:31.586
+Beyond just looking at where the subclones are, you can use the
+
+350
+00:20:31.706 --> 00:20:35.576
+tree to ask how fast the tumor cells are
+
+351
+00:20:35.576 --> 00:20:39.446
+expanding. Right? Because if they're expanding more, you have a different shape
+
+352
+00:20:39.486 --> 00:20:43.096
+of the tree than if it's static. And you can see here we've
+
+353
+00:20:43.106 --> 00:20:45.446
+marked regions of this particular--
+
+354
+00:20:47.606 --> 00:20:51.586
+These are three primary tumor regions that are seeded, and
+
+355
+00:20:51.666 --> 00:20:55.476
+only over here are there really, basically cells that are really actively
+
+356
+00:20:55.506 --> 00:20:59.246
+expanding. And if you look in that neighborhood, these are macrophage
+
+357
+00:20:59.266 --> 00:21:02.786
+populations. There's a particular tumor-associated macrophage,
+
+358
+00:21:02.846 --> 00:21:06.446
+Arg1-positive macrophages. These are actually very similar to the SPP1
+
+359
+00:21:06.486 --> 00:21:10.206
+population that's associated with these expanding
+
+360
+00:21:10.246 --> 00:21:14.106
+regions. And actually, when you perform differential expression, you find
+
+361
+00:21:14.206 --> 00:21:18.136
+many markers of immunosuppressive macrophages in these actively
+
+362
+00:21:18.186 --> 00:21:22.086
+expanding regions. And in particular, you also find that associated with
+
+363
+00:21:22.126 --> 00:21:26.066
+hypoxia. So there are these hypoxic cores that are associated with these
+
+364
+00:21:26.106 --> 00:21:29.756
+suppressive macrophages in regions with high rates of
+
+365
+00:21:29.806 --> 00:21:30.466
+expansion.
+
+366
+00:21:31.566 --> 00:21:32.926
+The other cool experiment that we
+
+367
+00:21:33.006 --> 00:21:36.946
+did, actually, with this is that we
+
+368
+00:21:37.086 --> 00:21:40.946
+sampled from one lung, many
+
+369
+00:21:41.466 --> 00:21:45.446
+sections so that we can capture basically all of the primary tumors.
+
+370
+00:21:45.906 --> 00:21:48.266
+And then we also sequenced the metastases.
+
+371
+00:21:48.846 --> 00:21:52.146
+And so, then we can map on the
+
+372
+00:21:52.186 --> 00:21:55.206
+primaries what their distance to the metastases are.
+
+373
+00:21:55.246 --> 00:21:59.186
+So areas with low allelic distance to the metastases are where the
+
+374
+00:21:59.206 --> 00:22:02.675
+metastases came from. And so you can see here that,
+
+375
+00:22:03.226 --> 00:22:07.136
+basically, the metastases that seeded in this animal all came from this particular
+
+376
+00:22:07.166 --> 00:22:10.675
+tumor in this region. Not even this clone, but this
+
+377
+00:22:10.786 --> 00:22:13.486
+subclone within tumor one.
+
+378
+00:22:14.326 --> 00:22:17.206
+And if you look at gene expression signatures of the neighborhood
+
+379
+00:22:18.386 --> 00:22:22.246
+next to the seeding metastasis versus the mets
+
+380
+00:22:22.266 --> 00:22:26.106
+themselves, you can actually find these other regions are the other regions of the
+
+381
+00:22:26.206 --> 00:22:30.046
+same primary. They have a different gene expression profile within the tumor
+
+382
+00:22:30.106 --> 00:22:32.846
+cells and nearby compared to the seeding
+
+383
+00:22:32.886 --> 00:22:36.526
+metastasis. But the seeding metastasis shares some key
+
+384
+00:22:36.586 --> 00:22:40.426
+microenvironmental factors, such as this hypoxic
+
+385
+00:22:40.666 --> 00:22:43.586
+signature and this carryover of this immunosuppressive
+
+386
+00:22:44.206 --> 00:22:46.966
+macrophage into the environment of the met.
+
+387
+00:22:47.426 --> 00:22:51.206
+And then you can see that the met subsequently has much more
+
+388
+00:22:51.266 --> 00:22:54.546
+fibrosis and collagen-rich signature.
+
+389
+00:22:54.626 --> 00:22:56.026
+So it's actually quite interesting.
+
+390
+00:22:56.126 --> 00:22:59.726
+You can see that these metastasis-initiating lineages actually share tissue
+
+391
+00:22:59.786 --> 00:23:01.486
+contacts with the seeding
+
+392
+00:23:02.406 --> 00:23:02.786
+clone,
+
+393
+00:23:03.626 --> 00:23:04.906
+carries this over.
+
+394
+00:23:05.826 --> 00:23:06.746
+Okay, so,
+
+395
+00:23:07.626 --> 00:23:09.236
+just to summarize this history section,
+
+396
+00:23:10.206 --> 00:23:12.466
+I'm happy to talk about
+
+397
+00:23:13.506 --> 00:23:15.646
+epigenetic state and stored transcriptomes as well.
+
+398
+00:23:15.766 --> 00:23:17.906
+So these are things that we're quite excited about.
+
+399
+00:23:17.946 --> 00:23:21.676
+And one thing that I think history might be important is that differences in
+
+400
+00:23:21.726 --> 00:23:25.486
+past state might create natural perturbations that allow you to separate
+
+401
+00:23:25.586 --> 00:23:29.546
+cause from consequence. That's often how we infer causality in the
+
+402
+00:23:29.566 --> 00:23:32.586
+real world. We observe something happened in the past, then see the consequences in
+
+403
+00:23:32.626 --> 00:23:36.366
+the future. So that's why we're particularly interested in being able to
+
+404
+00:23:36.406 --> 00:23:38.366
+measure past history.
+
+405
+00:23:39.286 --> 00:23:42.846
+Okay, so for the last one minute, I just want to say something we're
+
+406
+00:23:43.146 --> 00:23:44.106
+quite excited about
+
+407
+00:23:45.446 --> 00:23:49.186
+how this sort of data can be used. So
+
+408
+00:23:49.706 --> 00:23:53.526
+I think what we've got now, we have these measurements that allow us to measure
+
+409
+00:23:53.546 --> 00:23:57.026
+both the space and temporal context inside of tissues.
+
+410
+00:23:57.066 --> 00:23:58.026
+But what we really need
+
+411
+00:23:58.846 --> 00:24:02.806
+are ways-- These generate hypotheses, but we need ways to systematically
+
+412
+00:24:02.886 --> 00:24:06.746
+test hypotheses in vivo. And we're doing that through
+
+413
+00:24:06.786 --> 00:24:10.586
+CRISPR screens. I think that's a very powerful way, but we're also thinking about
+
+414
+00:24:10.646 --> 00:24:14.502
+ways where we can pair down-These hypotheses
+
+415
+00:24:14.542 --> 00:24:18.382
+through in silico simulation. And in that vein, we've been
+
+416
+00:24:18.422 --> 00:24:22.142
+trying to build tissue simulators, things that can simulate a
+
+417
+00:24:22.182 --> 00:24:24.562
+tissue through time. And
+
+418
+00:24:25.562 --> 00:24:29.062
+we drew some inspiration from self-supervised generative AI,
+
+419
+00:24:29.662 --> 00:24:33.082
+the things that, for example, behind DALL-E or
+
+420
+00:24:34.202 --> 00:24:35.882
+ChatGPT. And here
+
+421
+00:24:36.902 --> 00:24:40.742
+they're trained by basically self-supervision, by filling
+
+422
+00:24:40.882 --> 00:24:42.722
+in masked
+
+423
+00:24:43.782 --> 00:24:46.962
+inputs. And that's a very scalable way to train the data.
+
+424
+00:24:47.411 --> 00:24:51.082
+And so we've been doing that with tissues, basically making
+
+425
+00:24:51.142 --> 00:24:54.822
+generative models of tissues, using some basically
+
+426
+00:24:55.622 --> 00:24:59.192
+state-of-the-art transformer models from computer vision,
+
+427
+00:24:59.562 --> 00:25:03.432
+where now we can mask the locations of cells or
+
+428
+00:25:03.442 --> 00:25:06.102
+transcriptome states, and we ask the model to fill it back in.
+
+429
+00:25:06.262 --> 00:25:10.142
+So like train it in the same way that maybe DALL-E or ChatGPT
+
+430
+00:25:10.182 --> 00:25:14.082
+are trained. And this is interesting and useful in
+
+431
+00:25:14.122 --> 00:25:17.882
+many ways. One, you can get tissue representations and learn tissue
+
+432
+00:25:17.962 --> 00:25:21.522
+niches, but we're particularly interested in this generative
+
+433
+00:25:21.602 --> 00:25:25.462
+aspect, where it can simulate new effects
+
+434
+00:25:25.502 --> 00:25:29.422
+of perturbations. And so, this is pretty early days, but
+
+435
+00:25:29.502 --> 00:25:32.402
+here we've actually... This is a piece of
+
+436
+00:25:33.302 --> 00:25:37.162
+colitis. This is a healthy colon epithelium, but we've
+
+437
+00:25:37.202 --> 00:25:40.721
+tried to get it to simulate the cell type changes that will get it to...
+
+438
+00:25:43.222 --> 00:25:45.162
+Okay, well, actually, the video won't play. This is interesting.
+
+439
+00:25:45.222 --> 00:25:48.222
+So that will get it to advance to colitis.
+
+440
+00:25:48.262 --> 00:25:51.782
+If the video was playing, you would see that the model can simulate
+
+441
+00:25:51.842 --> 00:25:55.282
+changes in adaptations of cell types that actually
+
+442
+00:25:55.642 --> 00:25:58.882
+capture the disease progression from
+
+443
+00:25:59.322 --> 00:26:02.682
+healthy to inflamed. And actually, from that model, you can
+
+444
+00:26:03.262 --> 00:26:07.182
+measure the effect of perturbing any given cell type
+
+445
+00:26:07.242 --> 00:26:10.802
+on the effect of cell type compositions and signaling of all these other cell
+
+446
+00:26:10.842 --> 00:26:14.662
+types. And so the simulation isn't perfect, but it allows us to rapidly test and
+
+447
+00:26:14.702 --> 00:26:18.522
+generate new hypotheses in silico for these
+
+448
+00:26:18.562 --> 00:26:21.471
+sorts of high throughput CRISPR-based screens.
+
+449
+00:26:22.342 --> 00:26:26.262
+And so, I think the view is that, in the past, we had classical
+
+450
+00:26:26.282 --> 00:26:29.162
+genomics where we can measure molecules.
+
+451
+00:26:29.522 --> 00:26:33.002
+Now we are already at the state where we can measure the organization,
+
+452
+00:26:33.042 --> 00:26:36.522
+interaction, and history of cells directly within tissues.
+
+453
+00:26:36.791 --> 00:26:40.282
+And we're quite excited about these tissue simulators and perturbations
+
+454
+00:26:40.922 --> 00:26:42.382
+that will allow us to
+
+455
+00:26:43.422 --> 00:26:46.082
+modulate these tissue circuits and test these hypotheses.
+
+456
+00:26:46.502 --> 00:26:50.482
+And with that, I'll thank the lab and funding and you guys
+
+457
+00:26:50.522 --> 00:26:51.632
+for being patient and listening.
+
+458
+00:26:58.702 --> 00:27:02.502
+Okay. And so for questions, since I'm moderating the questions as
+
+459
+00:27:02.562 --> 00:27:06.262
+well, you need to use these mics, so that people online can hear
+
+460
+00:27:06.402 --> 00:27:06.622
+you.
+
+461
+00:27:09.542 --> 00:27:13.422
+Guess I'll go first. Hi, Fei. Wonderful talk. I really enjoyed it.
+
+462
+00:27:13.522 --> 00:27:16.862
+I wonder if you could tell us a little bit more about how you could estimate the
+
+463
+00:27:16.942 --> 00:27:20.862
+actively expanding areas, and did that correlate with proliferation markers like
+
+464
+00:27:20.902 --> 00:27:23.042
+Ki-67 and other things that you would typically stain for?
+
+465
+00:27:23.422 --> 00:27:27.302
+Yes. The second part is, yes, it does correlate with Ki-67.
+
+466
+00:27:27.902 --> 00:27:31.002
+What we did was, actually, Dan Landau has this
+
+467
+00:27:32.762 --> 00:27:36.362
+graph algorithm to infer actively expanding
+
+468
+00:27:36.402 --> 00:27:39.162
+areas from the shape of the lineage graph.
+
+469
+00:27:40.162 --> 00:27:44.062
+And I think there's some mathematics behind it, but maybe I'll talk about that with
+
+470
+00:27:44.102 --> 00:27:45.982
+you offline. But we used his algorithm.
+
+471
+00:27:48.062 --> 00:27:51.982
+Hi. Super cool talk. I was wondering about those T cell clones
+
+472
+00:27:52.042 --> 00:27:54.812
+that are associated with specific tumor sub clones.
+
+473
+00:27:55.242 --> 00:27:58.392
+Have you been looking at the T cell receptors and what
+
+474
+00:27:58.422 --> 00:28:02.322
+they recognize?
+
+475
+00:28:02.362 --> 00:28:06.202
+And are you able to track the T cell clones together with the
+
+476
+00:28:06.242 --> 00:28:06.912
+tumor sub clones?
+
+477
+00:28:07.362 --> 00:28:11.182
+Yeah, so that's a great question. So can we figure out what these T cell
+
+478
+00:28:11.222 --> 00:28:12.762
+receptors recognize?
+
+479
+00:28:14.362 --> 00:28:16.162
+I think we would love to be able to do that.
+
+480
+00:28:17.102 --> 00:28:20.862
+It is probably still challenging in the
+
+481
+00:28:20.902 --> 00:28:24.642
+sense that we've been trying.
+
+482
+00:28:25.762 --> 00:28:27.942
+We've been collaborating a lot with Cathy Wu on that.
+
+483
+00:28:28.342 --> 00:28:31.731
+There's computational predictions of the antigens, and
+
+484
+00:28:31.782 --> 00:28:35.722
+then in models where we know what the antigens
+
+485
+00:28:35.802 --> 00:28:36.142
+are,
+
+486
+00:28:36.962 --> 00:28:39.142
+you can use the computational predictions
+
+487
+00:28:40.662 --> 00:28:44.042
+to nominate them, and then you have tetramers, and you can validate.
+
+488
+00:28:44.082 --> 00:28:47.802
+But in human samples, it's much more challenging, because the
+
+489
+00:28:47.822 --> 00:28:51.442
+computational prediction models aren't that great, and we don't quite have a good
+
+490
+00:28:51.482 --> 00:28:52.762
+sense of what all the antigens are.
+
+491
+00:28:54.522 --> 00:28:56.682
+And it's HLA dependent on all these things.
+
+492
+00:28:56.742 --> 00:29:00.442
+But it would be very interesting, for example, if you could
+
+493
+00:29:00.642 --> 00:29:04.442
+use the clone information and the local
+
+494
+00:29:05.442 --> 00:29:09.222
+mutational profile to try to nominate what the pairs are.
+
+495
+00:29:09.942 --> 00:29:13.402
+We'll see if that's science fiction or reality in the future.
+
+496
+00:29:13.442 --> 00:29:13.662
+Thank you.
+
+497
+00:29:15.022 --> 00:29:17.382
+That's great work. I also have a question. Hi.
+
+498
+00:29:17.392 --> 00:29:19.602
+I also have a question on the tissue simulation.
+
+499
+00:29:20.042 --> 00:29:23.582
+So, did you put a hypothetical factor there to
+
+500
+00:29:23.622 --> 00:29:24.662
+try to
+
+501
+00:29:25.762 --> 00:29:29.342
+simulate the gene expression network and then the tissue dynamics?
+
+502
+00:29:29.422 --> 00:29:29.602
+Or
+
+503
+00:29:30.762 --> 00:29:34.442
+basically, you have a history
+
+504
+00:29:34.542 --> 00:29:37.122
+of the colitis process, and you simulate?
+
+505
+00:29:37.582 --> 00:29:41.282
+So how we're doing the simulation is that we train the model on many
+
+506
+00:29:41.322 --> 00:29:45.082
+different observations of what the tissues look like, both inflamed and
+
+507
+00:29:45.722 --> 00:29:49.682
+not inflamed. And so it has learned some cell-cell interactions.
+
+508
+00:29:50.162 --> 00:29:50.692
+And then,
+
+509
+00:29:51.742 --> 00:29:53.242
+basically, we
+
+510
+00:29:54.082 --> 00:29:56.362
+self-supervised train it by masking different parts of the tissue.
+
+511
+00:29:56.762 --> 00:29:59.062
+And then when we simulate it, the
+
+512
+00:30:01.682 --> 00:30:05.522
+model makes certain perturbations by deleting or adding certain
+
+513
+00:30:05.582 --> 00:30:09.262
+cell types, and then it models what the effect of that perturbation is
+
+514
+00:30:09.622 --> 00:30:12.822
+by adding or deleting other new cell types.
+
+515
+00:30:13.162 --> 00:30:16.102
+So currently, it is a cell type simulation.
+
+516
+00:30:16.982 --> 00:30:20.562
+But then, coupled with the cell types is their underlying gene expression, and
+
+517
+00:30:20.602 --> 00:30:24.072
+that's how we get these receptor ligand profiles that are associated
+
+518
+00:30:24.102 --> 00:30:27.174
+with the simulation.Is this
+
+519
+00:30:27.894 --> 00:30:29.374
+two minutes and 40...
+
+520
+00:30:31.974 --> 00:30:32.694
+Okay, great.
+
+521
+00:30:33.634 --> 00:30:36.094
+Thank you so much for that riveting talk.
+
+522
+00:30:36.994 --> 00:30:38.914
+My question is more of a theoretical one.
+
+523
+00:30:39.894 --> 00:30:43.314
+So you have a tissue section that's about six millimeter, right?
+
+524
+00:30:43.384 --> 00:30:43.384
+Yeah.
+
+525
+00:30:43.394 --> 00:30:45.294
+That you use for your spatial transcriptomics.
+
+526
+00:30:45.714 --> 00:30:46.494
+How do you
+
+527
+00:30:47.354 --> 00:30:49.834
+generalize that data that's so limited?
+
+528
+00:30:50.934 --> 00:30:54.304
+How do you square that with the intra-tumoral heterogeneity-
+
+529
+00:30:55.194 --> 00:30:55.204
+Yeah
+
+530
+00:30:55.414 --> 00:30:56.374
+... of most tumors?
+
+531
+00:30:56.814 --> 00:31:00.414
+Yeah. So I think this is a question that comes up a lot.
+
+532
+00:31:00.494 --> 00:31:02.774
+It's a question about sampling. And,
+
+533
+00:31:03.914 --> 00:31:07.334
+in single cell, when we dissociate the whole tumor, like with a lot of
+
+534
+00:31:07.734 --> 00:31:11.574
+tissue, then you're sampling the heterogeneity in
+
+535
+00:31:11.634 --> 00:31:14.214
+some way, even though your sampling might be shallow.
+
+536
+00:31:15.034 --> 00:31:17.204
+When you take sections, you only have
+
+537
+00:31:18.254 --> 00:31:21.954
+a thin cross-section, but you might actually be able to have a large
+
+538
+00:31:22.014 --> 00:31:23.694
+area. And,
+
+539
+00:31:24.994 --> 00:31:28.914
+I think the answer has got to be like, you empirically learn from the set of
+
+540
+00:31:28.954 --> 00:31:32.694
+many samples and also single cell what the distribution of states
+
+541
+00:31:32.794 --> 00:31:36.434
+is, and then you can answer if you've actually sampled that distribution of
+
+542
+00:31:36.454 --> 00:31:38.794
+states in these sections.
+
+543
+00:31:39.594 --> 00:31:40.074
+Thank you.
+
+544
+00:31:42.194 --> 00:31:44.584
+Okay. I guess one last question.
+
+545
+00:31:44.654 --> 00:31:47.614
+So, I was wondering... That was wonderful.
+
+546
+00:31:48.114 --> 00:31:52.074
+I was wondering whether in your simulations
+
+547
+00:31:52.734 --> 00:31:53.694
+for the clones,
+
+548
+00:31:54.954 --> 00:31:58.874
+have you considered any biomechanical or biochemical-
+
+549
+00:31:59.054 --> 00:31:59.064
+Yeah
+
+550
+00:31:59.064 --> 00:32:02.794
+... local cues into your niches,
+
+551
+00:32:03.434 --> 00:32:05.474
+and are you interested in doing that?
+
+552
+00:32:05.714 --> 00:32:08.414
+We haven't done that on the simulation side.
+
+553
+00:32:08.454 --> 00:32:12.234
+We are very interested in measuring those things and seeing how that
+
+554
+00:32:12.294 --> 00:32:16.134
+changes. For example, like post N is a ECM
+
+555
+00:32:16.194 --> 00:32:17.534
+factor, and it probably is...
+
+556
+00:32:18.914 --> 00:32:22.774
+There was this talk this morning. It probably is manipulating Yap/TAZ signaling,
+
+557
+00:32:23.254 --> 00:32:26.734
+for example, for dedifferentiating those cells.
+
+558
+00:32:26.754 --> 00:32:30.654
+And so we're quite interested in being able to make those measurements in
+
+559
+00:32:30.694 --> 00:32:31.724
+combination. I
+
+560
+00:32:33.734 --> 00:32:35.634
+think it's a great area for technology development.
+
+561
+00:32:35.714 --> 00:32:36.083
+So we're-
+
+562
+00:32:36.874 --> 00:32:39.854
+So could you infer on those based on the
+
+563
+00:32:40.794 --> 00:32:43.514
+transcriptional signatures of the local stroma?
+
+564
+00:32:45.434 --> 00:32:49.294
+I think you could. Yeah, I think you could, but you
+
+565
+00:32:49.334 --> 00:32:51.614
+need the ground truth. You need to measure a bunch of
+
+566
+00:32:52.454 --> 00:32:56.254
+mechanics in combination, and I don't think we have the ground truth to
+
+567
+00:32:56.334 --> 00:33:00.114
+train it. So that's maybe the call to action if
+
+568
+00:33:00.234 --> 00:33:01.134
+folks want to do that.
+
+569
+00:33:02.254 --> 00:33:03.354
+Okay, I think we'll have to...
+
+570
+00:33:04.294 --> 00:33:05.254
+Okay, one last question.
+
+571
+00:33:05.294 --> 00:33:08.924
+Thank you so much. So one follow-up question regarding
+
+572
+00:33:08.994 --> 00:33:09.394
+sampling.
+
+573
+00:33:11.034 --> 00:33:11.474
+During those
+
+574
+00:33:12.874 --> 00:33:15.594
+simulation works, do you have a magic number?
+
+575
+00:33:15.734 --> 00:33:18.074
+What's the range of a sample size that...
+
+576
+00:33:18.694 --> 00:33:20.474
+And have you experienced when you have a
+
+577
+00:33:20.814 --> 00:33:24.634
+good amount of sample or compared to little
+
+578
+00:33:24.694 --> 00:33:27.674
+amount, do you see the changing of the landscape and the-
+
+579
+00:33:27.724 --> 00:33:27.724
+Yeah
+
+580
+00:33:27.724 --> 00:33:28.814
+... changing of the interpretation?
+
+581
+00:33:29.394 --> 00:33:32.734
+Yeah. I think it's going to be really dependent on the sample you're simu-
+
+582
+00:33:32.903 --> 00:33:32.903
+Mm
+
+583
+00:33:32.903 --> 00:33:34.104
+... like the amount of heterogeneity-
+
+584
+00:33:34.374 --> 00:33:34.434
+Mm-hmm
+
+585
+00:33:34.454 --> 00:33:36.123
+... in the process you're simulating.
+
+586
+00:33:36.123 --> 00:33:39.804
+There, we do certain number of measurements, and then we have a lot of
+
+587
+00:33:39.854 --> 00:33:43.634
+held-out, unseen samples. And we can down-sample the
+
+588
+00:33:43.654 --> 00:33:47.574
+measurements to understand how many measurements we actually need to see before
+
+589
+00:33:47.594 --> 00:33:50.454
+we get accurate, and it's not a lot.
+
+590
+00:33:51.354 --> 00:33:55.274
+But to generalize the totally unseen tissues, for example, it might be
+
+591
+00:33:55.284 --> 00:33:56.714
+many. And so,
+
+592
+00:33:57.734 --> 00:33:59.294
+it's a nuanced answer, I think.
+
+593
+00:34:00.174 --> 00:34:00.284
+Thank you.
+
+594
+00:34:00.874 --> 00:34:02.614
+All right. And next, yeah.
+
+595
+00:34:03.934 --> 00:34:06.574
+That's it for me. And so now we have Dana
+
+596
+00:34:07.754 --> 00:34:08.034
+Pe'er-
+
+597
+00:34:10.574 --> 00:34:10.574
+...
+
+598
+00:34:13.314 --> 00:34:16.634
+from Sloan Kettering Institute. And she's going to talk about
+
+599
+00:34:16.955 --> 00:34:20.544
+de-coding tissue architecture in the context of
+
+600
+00:34:20.554 --> 00:34:20.955
+tumors.
+
+601
+00:34:27.134 --> 00:34:29.114
+Good afternoon. Thanks for being here.
+
+602
+00:34:29.515 --> 00:34:30.394
+For a while, we
+
+603
+00:34:31.794 --> 00:34:32.314
+have been
+
+604
+00:34:33.194 --> 00:34:37.134
+really talking about technologies and technologies, and now I really want to see,
+
+605
+00:34:37.294 --> 00:34:41.274
+can we get these technologies to do something and understand biology?
+
+606
+00:34:41.354 --> 00:34:45.174
+Oh, God, this screen is huge, so I can't see all these lovely people on that
+
+607
+00:34:45.234 --> 00:34:46.185
+side really well.
+
+608
+00:34:47.044 --> 00:34:50.674
+And so really, cancer was always a disease of
+
+609
+00:34:50.714 --> 00:34:54.254
+mutations, but cancer is really also a disease of the
+
+610
+00:34:54.274 --> 00:34:57.734
+microenvironment. You see benign neoplasia versus
+
+611
+00:34:57.914 --> 00:35:00.574
+full-blown PDAC. It looks completely different.
+
+612
+00:35:00.974 --> 00:35:04.654
+The tissue completely rewires. And this new
+
+613
+00:35:04.694 --> 00:35:07.194
+rewiring of the tissue, that is function.
+
+614
+00:35:07.854 --> 00:35:11.054
+So how can we decode that? And here, this is a really
+
+615
+00:35:11.154 --> 00:35:15.054
+striking image where you see how these pre-malignant
+
+616
+00:35:15.094 --> 00:35:18.954
+cells, particularly these progenitor-like pre-malignant cells that are
+
+617
+00:35:19.354 --> 00:35:23.214
+grabbing stuff and stealing regenerative programs, how
+
+618
+00:35:23.234 --> 00:35:25.174
+they completely change their morphology.
+
+619
+00:35:25.214 --> 00:35:28.114
+These red cells look disorganized and are
+
+620
+00:35:28.174 --> 00:35:31.954
+completely different. So we need to understand this changed
+
+621
+00:35:32.014 --> 00:35:35.074
+morphology, this changed microenvironment, and how
+
+622
+00:35:35.934 --> 00:35:38.314
+does the progenitor cell environment look like?
+
+623
+00:35:38.394 --> 00:35:42.214
+So we dive deep into 10x. This was
+
+624
+00:35:42.294 --> 00:35:45.954
+from a while ago. And one of the most important things when you're using
+
+625
+00:35:46.014 --> 00:35:49.834
+10x, if you really want to get real biology, is to design your own panel
+
+626
+00:35:49.874 --> 00:35:52.014
+and pack it with the genes that matter.
+
+627
+00:35:52.674 --> 00:35:56.594
+But then even a simple task of assigning transcripts to a cell, what's called
+
+628
+00:35:56.634 --> 00:36:00.114
+segmentation, we realized that's not really working well.
+
+629
+00:36:00.134 --> 00:36:01.914
+And in cancer, this really matters.
+
+630
+00:36:02.014 --> 00:36:05.794
+You don't want to give all sorts of epithelial transcripts to your immune
+
+631
+00:36:05.894 --> 00:36:08.894
+cells. And we don't even have a ground truth because
+
+632
+00:36:09.494 --> 00:36:11.994
+cancers are promiscuous in their expression.
+
+633
+00:36:12.494 --> 00:36:14.594
+So we really want to be able to do this accurately.
+
+634
+00:36:15.174 --> 00:36:18.894
+So I'm going to dive in and sort of interweave a little bit of an
+
+635
+00:36:18.954 --> 00:36:22.634
+explanation of some of the methodologies we build to actually get
+
+636
+00:36:22.674 --> 00:36:24.414
+biology from these rich data sets.
+
+637
+00:36:24.454 --> 00:36:28.394
+And this is SEGER, our solution to assigning transcripts to
+
+638
+00:36:28.494 --> 00:36:29.414
+cells from any
+
+639
+00:36:30.394 --> 00:36:34.102
+spatial transcriptomics data set.And here's the
+
+640
+00:36:34.142 --> 00:36:37.802
+fundamental issue. It's not a geometric
+
+641
+00:36:37.862 --> 00:36:41.842
+problem. Here we have this sort of boundary between stroma
+
+642
+00:36:41.902 --> 00:36:43.642
+to epithelial, and
+
+643
+00:36:44.582 --> 00:36:45.082
+right here,
+
+644
+00:36:45.922 --> 00:36:49.382
+we have contamination. And all these purple
+
+645
+00:36:49.562 --> 00:36:53.522
+genes, they are stromal genes deep into the epithelium,
+
+646
+00:36:53.542 --> 00:36:55.282
+and you could just see how far they go.
+
+647
+00:36:55.852 --> 00:36:59.502
+And likewise, the other way around, we have clearly epithelial
+
+648
+00:37:00.182 --> 00:37:04.142
+transcripts into the stroma. We're just not going to solve this by
+
+649
+00:37:04.222 --> 00:37:06.342
+using a boundary, by using segmentation.
+
+650
+00:37:06.662 --> 00:37:10.382
+This is not a draw boundary. No membrane staining is going to
+
+651
+00:37:10.462 --> 00:37:14.282
+save you here. So our approach is to basically say, "Okay, what do we
+
+652
+00:37:14.342 --> 00:37:18.202
+have?" We have nucleuses. We can look at the transcription of the nucleuses,
+
+653
+00:37:18.282 --> 00:37:21.942
+we can look at their X, Y positions and build this local graph.
+
+654
+00:37:22.322 --> 00:37:25.662
+But what's really important is we're not just going to look at the geometry, we're
+
+655
+00:37:25.702 --> 00:37:29.362
+going to look at the biology, we're going to look at the features of these cell
+
+656
+00:37:29.482 --> 00:37:33.362
+states. We're going to look at the features of these genes and try and
+
+657
+00:37:33.382 --> 00:37:36.842
+take the biology of it and use that to drive our
+
+658
+00:37:36.882 --> 00:37:40.862
+assignment. Specifically, we're going to take this graph that we build
+
+659
+00:37:40.922 --> 00:37:44.732
+and try and use this sort of AI business.
+
+660
+00:37:45.182 --> 00:37:47.522
+But really, we're going to tell it to do something very specific.
+
+661
+00:37:47.582 --> 00:37:51.362
+We're going to build an embedding where a cell, it's close to the
+
+662
+00:37:51.402 --> 00:37:52.802
+transcripts that
+
+663
+00:37:53.702 --> 00:37:57.522
+belong to it. So we're going to teach the AI to know which transcript belongs to
+
+664
+00:37:57.542 --> 00:38:01.262
+which cell. We're going to use this sort of noisy, the nucleus
+
+665
+00:38:01.382 --> 00:38:03.842
+also has misassigned transcripts.
+
+666
+00:38:03.882 --> 00:38:07.702
+It also has this diffusion and 3D stuff going on, but it's close
+
+667
+00:38:07.762 --> 00:38:11.502
+enough. So that's going to sort of teach it the biology of what
+
+668
+00:38:12.262 --> 00:38:14.382
+transcripts belong to what cell states.
+
+669
+00:38:15.442 --> 00:38:17.642
+And then we're going to use that to link everything else.
+
+670
+00:38:18.622 --> 00:38:21.462
+And really what we're going to infuse the full biology.
+
+671
+00:38:21.902 --> 00:38:25.762
+Our AI is going to understand the phenotypic manifold, cell states, how they relate
+
+672
+00:38:25.802 --> 00:38:29.202
+to each other, how they exist, not cell types, but the full rich
+
+673
+00:38:29.422 --> 00:38:32.962
+manifold and how these genes belong to this.
+
+674
+00:38:33.582 --> 00:38:36.822
+And this really gives you a much cleaner thing and better components.
+
+675
+00:38:37.202 --> 00:38:40.862
+You have a third decontamination of 10X
+
+676
+00:38:40.902 --> 00:38:44.882
+nucleus and just as much capture of transcripts
+
+677
+00:38:44.922 --> 00:38:45.602
+as 10X cell.
+
+678
+00:38:46.842 --> 00:38:48.802
+So taking this, I'm going to show a similar
+
+679
+00:38:50.022 --> 00:38:53.802
+animation. We have this spatial data now mapped to cell
+
+680
+00:38:53.902 --> 00:38:57.722
+states, to the UMAP that we're used to, and it's not just
+
+681
+00:38:57.782 --> 00:39:00.522
+cell types, it's the full rich continuum.
+
+682
+00:39:00.842 --> 00:39:04.382
+We really captured pretty much anything you'd capture in single-cell RNA-seq with
+
+683
+00:39:04.442 --> 00:39:07.182
+this. Here's a QR code for the software.
+
+684
+00:39:07.742 --> 00:39:11.442
+And so again, looking at these epithelial cancer
+
+685
+00:39:11.482 --> 00:39:13.682
+premalignant cells, they're not quite cancer yet.
+
+686
+00:39:14.122 --> 00:39:17.762
+We see this continuous axis of a gastric to progenitor
+
+687
+00:39:17.862 --> 00:39:21.262
+state and this continuous axis, it's not cell types, it's
+
+688
+00:39:21.322 --> 00:39:25.242
+continuous. We have continuous change of gene expression along this
+
+689
+00:39:25.362 --> 00:39:28.562
+axis, which is why discretizing cell states isn't enough.
+
+690
+00:39:29.042 --> 00:39:31.082
+But we have this in the spatial context.
+
+691
+00:39:31.142 --> 00:39:35.082
+So we map rich mapping of cell state with
+
+692
+00:39:35.142 --> 00:39:38.662
+exactly the cell and what cells surround it, and we
+
+693
+00:39:38.722 --> 00:39:42.622
+basically take its environment, its nearest neighbors, its environment of K near
+
+694
+00:39:42.662 --> 00:39:46.562
+cells or radius R near cells and see what do we have
+
+695
+00:39:46.602 --> 00:39:50.522
+in that environment. And if we look at what we have in that environment, the yellow
+
+696
+00:39:50.602 --> 00:39:54.362
+cells are these anchor cells. We see that actually cell types don't change
+
+697
+00:39:54.462 --> 00:39:57.862
+that much along this continuum. Again, really pushing against the cell
+
+698
+00:39:57.962 --> 00:40:00.222
+type approach to analyzing data.
+
+699
+00:40:01.382 --> 00:40:05.242
+But we see that actually the stroma, the immune cells, everything
+
+700
+00:40:05.282 --> 00:40:08.902
+else changed dramatically. So what we have along this
+
+701
+00:40:08.922 --> 00:40:12.882
+continual axis of gastric to progenitor-like cells is a
+
+702
+00:40:12.892 --> 00:40:16.782
+pseudo-time trajectory of niches, a cancer cell
+
+703
+00:40:16.862 --> 00:40:19.422
+state, and its surrounding microenvironment.
+
+704
+00:40:19.462 --> 00:40:23.222
+And again, we see that the microenvironment, in this case, the fibroblasts, are
+
+705
+00:40:23.302 --> 00:40:27.282
+changing continuously between these different cancer cell or
+
+706
+00:40:27.342 --> 00:40:28.822
+premalignant epithelial states.
+
+707
+00:40:29.262 --> 00:40:31.942
+And this matches the axis of variation in fibroblasts.
+
+708
+00:40:32.502 --> 00:40:34.282
+Likewise, the progenitor niche
+
+709
+00:40:35.522 --> 00:40:39.202
+is rich in these myeloid cells, and these are immunosuppressive
+
+710
+00:40:39.242 --> 00:40:43.082
+myeloid cells, very, very different than the myeloid cells around the
+
+711
+00:40:43.122 --> 00:40:43.882
+gastric cells.
+
+712
+00:40:44.962 --> 00:40:48.402
+And really, if you want to see it, it really resembles the
+
+713
+00:40:48.442 --> 00:40:52.162
+immunosuppressive fibrotic nasty thing of
+
+714
+00:40:52.231 --> 00:40:55.842
+full-blown PDAC. This is a progenitor niche in a premalignant settling versus
+
+715
+00:40:55.942 --> 00:40:56.402
+PDAC.
+
+716
+00:40:57.562 --> 00:41:01.022
+And we really see this fibrotic TNC and these
+
+717
+00:41:01.042 --> 00:41:04.982
+immunosuppressive macrophages, and this maps all the way
+
+718
+00:41:05.022 --> 00:41:08.822
+to human, where we see a premalignant niche looking exactly with the same
+
+719
+00:41:08.902 --> 00:41:10.322
+features in human.
+
+720
+00:41:11.482 --> 00:41:15.222
+So what I'm going to show you really quickly is that p53 loss
+
+721
+00:41:15.802 --> 00:41:19.482
+enables this nasty fibrotic environment to stay after
+
+722
+00:41:19.562 --> 00:41:23.422
+injury. Usually, these progenitor-like cells clear the tissue,
+
+723
+00:41:25.082 --> 00:41:25.402
+but
+
+724
+00:41:26.862 --> 00:41:28.882
+so that's cleared versus not cleared.
+
+725
+00:41:28.962 --> 00:41:32.482
+You see these yellow premalignant cells just remaining three weeks after,
+
+726
+00:41:33.462 --> 00:41:37.332
+it hasn't been cleared. You see how many more of these premalignant cells there
+
+727
+00:41:37.402 --> 00:41:41.342
+are, and not only do they remain in the tissue with p53
+
+728
+00:41:41.382 --> 00:41:45.242
+loss, they actually become more progressed, more
+
+729
+00:41:45.342 --> 00:41:47.602
+EMT-like with expressing more vim.
+
+730
+00:41:48.122 --> 00:41:52.002
+So really p53 is keeping this progenitor state, this
+
+731
+00:41:52.102 --> 00:41:53.622
+plastic progenitor state in bay.
+
+732
+00:41:54.682 --> 00:41:58.582
+And by knocking it down with KRAS inhibition, the
+
+733
+00:41:58.682 --> 00:42:02.482
+state that's highly dependent on KRAS, we can really see that we
+
+734
+00:42:02.522 --> 00:42:04.982
+return and lose this premalignant
+
+735
+00:42:06.202 --> 00:42:07.402
+progenitor-like state
+
+736
+00:42:08.562 --> 00:42:10.982
+and the environment which it builds.
+
+737
+00:42:11.722 --> 00:42:15.142
+And so really you have this KRAS mutant progenitor-like states which
+
+738
+00:42:15.182 --> 00:42:18.302
+orchestrates this environment, this cancer-like
+
+739
+00:42:18.342 --> 00:42:20.622
+immunosuppressive fibrotic environment.
+
+740
+00:42:21.402 --> 00:42:25.262
+Activation of either p53 or KRAS inhibition removes
+
+741
+00:42:25.282 --> 00:42:28.042
+these progenitor cells and thus dismantles the niche.
+
+742
+00:42:28.542 --> 00:42:32.242
+Therefore, p53 is really the guardian of plasticity,
+
+743
+00:42:32.442 --> 00:42:36.286
+not just the guardian of the genome.So really, I want to dive
+
+744
+00:42:36.366 --> 00:42:37.686
+into how these
+
+745
+00:42:38.586 --> 00:42:42.086
+cells are organized into space. I showed you one example of how a
+
+746
+00:42:42.326 --> 00:42:46.146
+really, really brilliant postdoc really pieced it apart with
+
+747
+00:42:46.406 --> 00:42:49.346
+these methods in a joint collaboration with Scott.
+
+748
+00:42:50.146 --> 00:42:53.886
+But not everyone is as brilliant as Jose, and we want
+
+749
+00:42:53.926 --> 00:42:57.846
+to generalize these tools. So we need to be able to take
+
+750
+00:42:57.886 --> 00:43:01.626
+many of the units and many of the reasoning, which I just showed you, and
+
+751
+00:43:01.726 --> 00:43:04.906
+try and automate it. And that's what we've been thinking about it a lot.
+
+752
+00:43:05.976 --> 00:43:09.486
+And the critical thing to do any reasoning about these tissues, about these
+
+753
+00:43:09.566 --> 00:43:12.886
+neighborhoods, about how they change under condition, for example,
+
+754
+00:43:13.406 --> 00:43:17.266
+KRAS inhibition or P53 knockdown or
+
+755
+00:43:17.366 --> 00:43:21.346
+before and after therapy, is we have to find a
+
+756
+00:43:21.406 --> 00:43:24.066
+good way to represent spatial units.
+
+757
+00:43:24.666 --> 00:43:28.106
+We're really good about representing cells, the sort of UMAP, the phenotypic
+
+758
+00:43:28.186 --> 00:43:31.506
+manifold, all these things. That's why we've got so much out of single-cell.
+
+759
+00:43:32.026 --> 00:43:32.166
+But,
+
+760
+00:43:32.986 --> 00:43:36.676
+for neighborhoods, we really haven't figured it out yet.
+
+761
+00:43:36.756 --> 00:43:40.716
+And I'm not claiming that this is the be all, end all, but this is something that
+
+762
+00:43:40.766 --> 00:43:42.206
+we really need to solve.
+
+763
+00:43:43.386 --> 00:43:46.746
+And so this is work by Dorum, really trying to think what is a good
+
+764
+00:43:46.826 --> 00:43:48.606
+representation for these niches?
+
+765
+00:43:49.646 --> 00:43:53.486
+And again, most of the current approaches out there, because it's so complicated,
+
+766
+00:43:53.566 --> 00:43:55.506
+because you have these little
+
+767
+00:43:56.906 --> 00:44:00.526
+neighborhoods, you have an entire neighborhood in the tissue of rich
+
+768
+00:44:00.906 --> 00:44:04.446
+transcriptomes. I showed you a data set with 10X with
+
+769
+00:44:04.746 --> 00:44:06.466
+480 transcripts.
+
+770
+00:44:07.666 --> 00:44:11.426
+Current technologies are measuring 5,000 and 6,000
+
+771
+00:44:11.466 --> 00:44:15.306
+transcripts. So to pay all that money to measure 6,000
+
+772
+00:44:15.346 --> 00:44:19.166
+transcripts and then collapse it all to cell type, which is what most approaches
+
+773
+00:44:19.206 --> 00:44:20.446
+are doing because it's easy,
+
+774
+00:44:21.406 --> 00:44:23.026
+really loses most of the information.
+
+775
+00:44:23.166 --> 00:44:26.946
+I hope I showed you just how rich the information is, how continuous it
+
+776
+00:44:27.026 --> 00:44:29.396
+is, and how we cannot collapse the cell type.
+
+777
+00:44:29.886 --> 00:44:33.776
+So we need to do something else. So we want something
+
+778
+00:44:33.826 --> 00:44:37.286
+where we actually capture the full richness, the full transcriptome.
+
+779
+00:44:38.046 --> 00:44:41.646
+But the reason that's hard is that these matrices are complicated
+
+780
+00:44:42.706 --> 00:44:46.086
+entities. And for example, these two matrices are
+
+781
+00:44:46.146 --> 00:44:46.756
+identical.
+
+782
+00:44:48.046 --> 00:44:50.606
+Really, they are just a permutation of one of another.
+
+783
+00:44:50.706 --> 00:44:54.626
+I swapped around the row. And so you need to be able to reason
+
+784
+00:44:54.666 --> 00:44:58.106
+for that. And this type of computation is actually really heavy.
+
+785
+00:44:58.546 --> 00:45:02.466
+So to have a representation of this matrix that understands
+
+786
+00:45:02.526 --> 00:45:06.496
+and is invariant to permutation becomes a computationally heavy
+
+787
+00:45:06.626 --> 00:45:07.046
+problem.
+
+788
+00:45:08.226 --> 00:45:12.186
+And one way to try and overcome that partially, is
+
+789
+00:45:12.246 --> 00:45:14.106
+to do something called optimal transport.
+
+790
+00:45:14.426 --> 00:45:18.386
+And the simple way to think about optimal transport is how much would it take
+
+791
+00:45:18.446 --> 00:45:22.206
+to move one matrix to the other if I pay some type
+
+792
+00:45:22.246 --> 00:45:26.126
+of cost to move each and every transcript from one to the next,
+
+793
+00:45:26.666 --> 00:45:30.156
+but I'm allowed to permute the rows in any which way I want.
+
+794
+00:45:30.586 --> 00:45:34.086
+So take the best permutation that you have and then move
+
+795
+00:45:34.166 --> 00:45:37.946
+around transcripts to get a perfect match, and an optimal
+
+796
+00:45:38.006 --> 00:45:41.626
+transport allows you to do that in a pretty
+
+797
+00:45:41.826 --> 00:45:42.426
+powerful way.
+
+798
+00:45:43.646 --> 00:45:46.246
+But even that takes two weeks for
+
+799
+00:45:46.326 --> 00:45:50.126
+50,000 cells. The data set I showed you from Jose
+
+800
+00:45:50.286 --> 00:45:53.066
+is 16 million cells, so this doesn't scale.
+
+801
+00:45:53.686 --> 00:45:57.466
+And that's one of the reasons people resort to cell types, scalability.
+
+802
+00:45:58.226 --> 00:46:02.126
+So here we use the awesome power of AI in order to actually
+
+803
+00:46:02.206 --> 00:46:04.606
+create scalability for the function that we want.
+
+804
+00:46:05.026 --> 00:46:08.986
+We take these complex niches, these complex matrices, and we send
+
+805
+00:46:09.026 --> 00:46:12.826
+them through something called a transformer, which is actually a very, very, very
+
+806
+00:46:12.946 --> 00:46:16.086
+powerful way to learn very, very, very complicated
+
+807
+00:46:17.526 --> 00:46:21.306
+functions. And the specific function that we want to learn in this
+
+808
+00:46:21.366 --> 00:46:24.806
+case is we want to learn a
+
+809
+00:46:24.846 --> 00:46:28.826
+representation where the distance in Euclidean
+
+810
+00:46:28.866 --> 00:46:32.286
+space, in this really easy to work with geometry,
+
+811
+00:46:33.266 --> 00:46:36.766
+is similar or as close as possible to this rich,
+
+812
+00:46:36.906 --> 00:46:40.486
+complicated, hard to compute, heavy to compute optimal
+
+813
+00:46:40.526 --> 00:46:44.006
+transport distance that actually captures this biologically
+
+814
+00:46:44.086 --> 00:46:46.526
+meaningful distance between a cell.
+
+815
+00:46:47.346 --> 00:46:51.245
+And because we can train a transformer to build this new latent, and
+
+816
+00:46:51.286 --> 00:46:55.245
+we can do it in a very efficient way, that's the power of AI, what we have
+
+817
+00:46:55.286 --> 00:46:57.326
+at the end is a latent
+
+818
+00:46:58.446 --> 00:46:59.706
+similar to your UMAP,
+
+819
+00:47:00.886 --> 00:47:04.406
+but now this is a latent over not cells, but niches.
+
+820
+00:47:04.526 --> 00:47:08.346
+And we could take this latent and now do all the things we love to do
+
+821
+00:47:08.366 --> 00:47:11.946
+on cells, trajectories, comparing conditions, looking
+
+822
+00:47:12.026 --> 00:47:15.926
+for archetypical averages and typical behaviors.
+
+823
+00:47:16.286 --> 00:47:20.166
+Everything we once did with single-cell RNA-seq, now we have a UMAP-like
+
+824
+00:47:20.586 --> 00:47:24.446
+representation for niches where all this geometry now holds.
+
+825
+00:47:25.606 --> 00:47:27.906
+And so here we took Jose's data,
+
+826
+00:47:28.726 --> 00:47:31.486
+applied now automatically this Wormhole.
+
+827
+00:47:31.546 --> 00:47:34.686
+This is not engineering. It didn't know what progenitor is.
+
+828
+00:47:34.726 --> 00:47:38.586
+It didn't know what gastric is. We did this completely automatic and said, what
+
+829
+00:47:38.626 --> 00:47:41.686
+is the strongest axis of variation through this data?
+
+830
+00:47:42.376 --> 00:47:46.206
+And once we had the strongest axis of variation through the data
+
+831
+00:47:46.266 --> 00:47:49.846
+into this Wormhole transformer, without even
+
+832
+00:47:50.266 --> 00:47:53.766
+knowing any biology, it could pick up that the gastric to progenitor
+
+833
+00:47:53.926 --> 00:47:57.706
+axis and the resulting niches is the strongest signal of the
+
+834
+00:47:57.786 --> 00:48:01.486
+data. And I put it here in a tissue that you could sort of see these
+
+835
+00:48:01.646 --> 00:48:05.086
+organized, nice, round, well-behaved gastric niches
+
+836
+00:48:05.186 --> 00:48:08.746
+are colored as gastric. And these disorganized, like from the first
+
+837
+00:48:08.846 --> 00:48:12.046
+slide, progenitor niches are these disorganized mess.
+
+838
+00:48:12.446 --> 00:48:15.166
+But this was found now more automatically.
+
+839
+00:48:16.026 --> 00:48:19.866
+And really what matters is you want the embedding to encode
+
+840
+00:48:19.886 --> 00:48:23.866
+meaningful biology. And the thing that is similar
+
+841
+00:48:23.906 --> 00:48:27.866
+between the Seger algorithm and the Wormhole algorithm is that the
+
+842
+00:48:27.906 --> 00:48:31.546
+latent matters. We want latents that are a
+
+843
+00:48:31.606 --> 00:48:35.466
+microscope, that encode biology, that teach us biology, not just a
+
+844
+00:48:35.486 --> 00:48:37.526
+black box. So in order to get
+
+845
+00:48:37.706 --> 00:48:41.606
+valueFrom these things, we don't want black
+
+846
+00:48:41.646 --> 00:48:45.325
+box AI. We want to build latents that encode biology, in this
+
+847
+00:48:45.386 --> 00:48:47.606
+case, encodes meaningful
+
+848
+00:48:48.526 --> 00:48:51.966
+spatial distances and meaningful spatial
+
+849
+00:48:52.026 --> 00:48:55.786
+representation of all these small spatial units of neighborhoods
+
+850
+00:48:55.826 --> 00:48:56.786
+in the tissues.
+
+851
+00:48:57.706 --> 00:49:01.686
+So now we're going to try and use this approach to really try and
+
+852
+00:49:01.746 --> 00:49:05.666
+interpret awesome data. This is collaboration with Thomas, who's
+
+853
+00:49:05.706 --> 00:49:09.486
+hiding in the back, and a really stellar, hardworking group.
+
+854
+00:49:09.546 --> 00:49:13.086
+It's actually mostly Thomas's group with Anu, Kate, and Young,
+
+855
+00:49:13.646 --> 00:49:15.646
+and Sam from my lab trying to
+
+856
+00:49:16.766 --> 00:49:20.166
+compute on all the fire hose of data that these guys generate--
+
+857
+00:49:20.386 --> 00:49:24.215
+gals generate for him. And so what really powers this
+
+858
+00:49:24.266 --> 00:49:26.826
+is this, what I call the supermouse.
+
+859
+00:49:26.906 --> 00:49:30.786
+And the supermouse is really taking genetic mouse engineering to the
+
+860
+00:49:31.046 --> 00:49:34.606
+next level and putting this cassette in a very
+
+861
+00:49:34.666 --> 00:49:38.586
+specific way. So now we have moved to
+
+862
+00:49:38.626 --> 00:49:40.946
+understand full-blown, nasty
+
+863
+00:49:41.766 --> 00:49:44.876
+PDAC. We're no longer in this progenitor situation.
+
+864
+00:49:44.906 --> 00:49:48.506
+We want to know what drives full-blown, nasty, fully
+
+865
+00:49:48.626 --> 00:49:52.366
+formed, fully advanced pancreatic cancer, and
+
+866
+00:49:53.006 --> 00:49:55.586
+the basal cells, they are the bad guys.
+
+867
+00:49:55.726 --> 00:49:59.146
+And so we want to understand what their role is in
+
+868
+00:49:59.566 --> 00:50:00.006
+PDAC.
+
+869
+00:50:01.056 --> 00:50:03.906
+And so we, the royal we, put the cassettes
+
+870
+00:50:04.546 --> 00:50:08.286
+specifically in these basal cells, allowing us to visualize these
+
+871
+00:50:08.346 --> 00:50:12.246
+basal cells, allowing us to lineage trace and see what happens to
+
+872
+00:50:12.286 --> 00:50:15.226
+them and how much plastic they are and how they respond to therapy.
+
+873
+00:50:15.686 --> 00:50:19.146
+And I won't go in it, but indeed these basal cells are insanely
+
+874
+00:50:19.206 --> 00:50:22.346
+plastic and do all sorts of crazy things with and without therapy.
+
+875
+00:50:22.986 --> 00:50:26.886
+But the thing I'm going to focus on is we can kill them with DTR, so
+
+876
+00:50:26.926 --> 00:50:30.866
+we can send them a suicide signal and just at once or close
+
+877
+00:50:30.906 --> 00:50:34.846
+to at once remove all the basal cells from the tumor and see what happens to a
+
+878
+00:50:34.866 --> 00:50:36.806
+tumor that no longer has basal cells.
+
+879
+00:50:37.646 --> 00:50:41.346
+And here we see right at the beginning, four hours after this DT
+
+880
+00:50:41.426 --> 00:50:44.686
+kill signal, there's lots of apoptosis going on.
+
+881
+00:50:44.726 --> 00:50:47.966
+The basal cells are indeed dying. This system works.
+
+882
+00:50:48.006 --> 00:50:51.635
+This magic powerful mouse actually does what
+
+883
+00:50:51.866 --> 00:50:52.826
+Thomas said it would do.
+
+884
+00:50:54.306 --> 00:50:58.226
+But what is really amazing is two days later, we've
+
+885
+00:50:58.286 --> 00:51:02.006
+killed all the basal cells. There's no more basal cells left in there.
+
+886
+00:51:02.086 --> 00:51:04.926
+Nevertheless, cells continue to die.
+
+887
+00:51:04.986 --> 00:51:08.526
+Now the classical cells die. Other cells die as well.
+
+888
+00:51:09.366 --> 00:51:12.726
+And in fact, the entire tumor collapses.
+
+889
+00:51:13.186 --> 00:51:16.896
+So we sent a kill signal to the basal cells,
+
+890
+00:51:17.426 --> 00:51:17.866
+and boom,
+
+891
+00:51:18.666 --> 00:51:21.066
+there is a collapse of the entire tumor
+
+892
+00:51:22.306 --> 00:51:24.206
+nearly five days, seven days later.
+
+893
+00:51:25.166 --> 00:51:28.826
+And this is remarkable because the cancer cells are about 20% of the tissue,
+
+894
+00:51:30.046 --> 00:51:33.366
+but the basal cells, they're only 4% of the tissue mass.
+
+895
+00:51:33.926 --> 00:51:37.866
+So we send a kill signal to only 4% of the tumor
+
+896
+00:51:37.926 --> 00:51:38.226
+cells,
+
+897
+00:51:39.086 --> 00:51:41.926
+and the whole entire rest of the tumor cells are dying.
+
+898
+00:51:43.106 --> 00:51:43.506
+And so
+
+899
+00:51:44.546 --> 00:51:45.826
+how can this happen?
+
+900
+00:51:47.026 --> 00:51:49.266
+And so we asked, is it unique to the basal cells?
+
+901
+00:51:49.846 --> 00:51:53.346
+So Thomas and his team built the magic mouse now for the classical cells.
+
+902
+00:51:53.426 --> 00:51:57.016
+So we have the entire system of visualization, ablation, and
+
+903
+00:51:57.066 --> 00:52:00.686
+tracing in classical cells, and so we can ablate the classical cells.
+
+904
+00:52:00.726 --> 00:52:02.746
+And when you ablate the classical cells, well,
+
+905
+00:52:03.786 --> 00:52:07.386
+some stuff dies, but really nothing really
+
+906
+00:52:07.426 --> 00:52:10.526
+happens. You still have plenty of tumor left.
+
+907
+00:52:10.566 --> 00:52:13.906
+And only in the basal state do we have this entire collapse.
+
+908
+00:52:15.786 --> 00:52:19.586
+So basal cells really build and sustain
+
+909
+00:52:19.926 --> 00:52:22.806
+this tumor-suppressive, protective niche.
+
+910
+00:52:23.386 --> 00:52:26.366
+The tumor really depends on them. So how and why?
+
+911
+00:52:26.806 --> 00:52:30.166
+So that's, again, understanding the tissue, understanding the how and why is where
+
+912
+00:52:30.586 --> 00:52:32.126
+spatial transcriptomics comes in.
+
+913
+00:52:32.486 --> 00:52:34.746
+And here we see time point zero, the nasty
+
+914
+00:52:35.906 --> 00:52:39.846
+full-blown PDAC. And we see indeed this highly
+
+915
+00:52:39.886 --> 00:52:43.346
+tumor-suppressive Arg1 macrophage environment really
+
+916
+00:52:43.626 --> 00:52:47.586
+there. This TNC fibroblast, this same state that we saw built
+
+917
+00:52:47.666 --> 00:52:51.186
+early on in the talk, it's still there in advanced
+
+918
+00:52:51.466 --> 00:52:51.946
+PDAC.
+
+919
+00:52:52.906 --> 00:52:56.466
+But five days later, we see that the immunosuppressive
+
+920
+00:52:56.545 --> 00:53:00.186
+macrophages are gone. This TNC
+
+921
+00:53:00.346 --> 00:53:03.786
+fibroblast and the ECM that it deposited
+
+922
+00:53:04.026 --> 00:53:05.186
+nearly melted away.
+
+923
+00:53:06.146 --> 00:53:09.626
+And what's really remarkable is suddenly we see T
+
+924
+00:53:09.706 --> 00:53:13.306
+cells and NK cells and other lymphocytes just
+
+925
+00:53:13.426 --> 00:53:14.166
+infiltrating
+
+926
+00:53:15.006 --> 00:53:18.786
+the tumor. So there was absolutely no yellow
+
+927
+00:53:18.926 --> 00:53:22.386
+cells in the top, in the control, and suddenly you see
+
+928
+00:53:22.806 --> 00:53:25.546
+these lymphocytes infiltrating the tumor.
+
+929
+00:53:27.446 --> 00:53:31.366
+And so what recruits the immunosuppressive macrophages is the first
+
+930
+00:53:31.746 --> 00:53:32.226
+question.
+
+931
+00:53:33.206 --> 00:53:37.066
+So here we want to look at this sort of baseline, time point
+
+932
+00:53:37.146 --> 00:53:41.046
+zero, and really build and look at these sort of niches
+
+933
+00:53:41.146 --> 00:53:42.926
+and these spatial neighborhoods.
+
+934
+00:53:43.466 --> 00:53:47.366
+And we're going to really look at these heterogeneous niches, and we really want to
+
+935
+00:53:47.386 --> 00:53:51.306
+map their difference. And we're going to take wormhole here, and
+
+936
+00:53:51.506 --> 00:53:55.166
+this is, as I said, it's a UMAP. But what's critical is
+
+937
+00:53:55.226 --> 00:53:58.946
+each dot in this UMAP is not a cell, it's an entire
+
+938
+00:53:59.146 --> 00:54:03.046
+spatial neighborhood. It's an entire niche of about 100 cells.
+
+939
+00:54:03.706 --> 00:54:07.206
+And you can see differences. The biggest variation, the biggest
+
+940
+00:54:07.406 --> 00:54:09.946
+diffusion component that changes along
+
+941
+00:54:10.806 --> 00:54:14.206
+data that's colored is the classical to basal
+
+942
+00:54:14.386 --> 00:54:18.286
+component. Up at the top right here, this is actually
+
+943
+00:54:18.306 --> 00:54:22.046
+hypoxic cells. So we can really map different regions where hypoxia
+
+944
+00:54:22.166 --> 00:54:24.926
+acts, where the basal cells are, where the
+
+945
+00:54:26.826 --> 00:54:27.926
+classical cells are, but
+
+946
+00:54:29.266 --> 00:54:32.146
+we didn't need all this fancy stuff to do that.
+
+947
+00:54:32.506 --> 00:54:36.286
+But now that we have an organization of our
+
+948
+00:54:36.446 --> 00:54:39.826
+niche space that we can really compute in, we can build
+
+949
+00:54:39.866 --> 00:54:43.666
+trajectories in it and ask what are the strongest signaling
+
+950
+00:54:43.766 --> 00:54:47.554
+featuresThat are associated with the basal niche and change
+
+951
+00:54:47.614 --> 00:54:50.274
+along this structure. And so we can look at all the
+
+952
+00:54:50.934 --> 00:54:54.554
+cytokines and receptors that are changing on this
+
+953
+00:54:54.714 --> 00:54:58.554
+niche axis, and we see that CSF2 is the
+
+954
+00:54:58.814 --> 00:55:02.234
+strongest one, and it's very, very, very specific.
+
+955
+00:55:02.294 --> 00:55:06.134
+You see how red it is in the basal end of the thing,
+
+956
+00:55:06.274 --> 00:55:08.494
+and then it just very quickly disappears.
+
+957
+00:55:08.904 --> 00:55:11.994
+And you could look at these trends to see how both the myeloid
+
+958
+00:55:12.094 --> 00:55:15.074
+compartments, and specifically,
+
+959
+00:55:16.234 --> 00:55:16.594
+both
+
+960
+00:55:18.094 --> 00:55:21.874
+the CSFR receptor, the CSF ligand, and
+
+961
+00:55:22.514 --> 00:55:26.494
+the sort of arginase nasty tumor-suppressive macrophage
+
+962
+00:55:26.504 --> 00:55:30.474
+are all very unique to this basal niche.
+
+963
+00:55:30.534 --> 00:55:30.654
+So,
+
+964
+00:55:32.974 --> 00:55:36.174
+the CSF2 might be doing something here.
+
+965
+00:55:36.184 --> 00:55:40.044
+But how do classical cells die? Because
+
+966
+00:55:40.094 --> 00:55:43.254
+we sent this kill signal only to the basal cells.
+
+967
+00:55:43.294 --> 00:55:46.814
+And I showed you some hints because you see there's no more protective
+
+968
+00:55:47.034 --> 00:55:48.894
+myeloid cells. There's the T cells.
+
+969
+00:55:48.934 --> 00:55:51.894
+But really, we want to understand what happens.
+
+970
+00:55:51.994 --> 00:55:55.934
+So now this is, again, a Wormhole latent, the same type of latent, but now
+
+971
+00:55:55.944 --> 00:55:59.664
+we're doing it for the entire seven-day time series.
+
+972
+00:56:00.534 --> 00:56:04.154
+And now you can actually see this animation of how the time
+
+973
+00:56:04.194 --> 00:56:05.574
+series changes in
+
+974
+00:56:06.714 --> 00:56:10.614
+microenvironment space. So this is how
+
+975
+00:56:10.654 --> 00:56:13.394
+the niches are remodeling over time.
+
+976
+00:56:13.434 --> 00:56:17.154
+This is niche remodeling. This is an embedding of 10 million
+
+977
+00:56:17.534 --> 00:56:20.294
+spatial niches and how they remodel over time.
+
+978
+00:56:21.074 --> 00:56:24.514
+And now we can again look at a temporal response trajectory of this
+
+979
+00:56:24.574 --> 00:56:28.464
+remodeling. We're going to really focus on the classical cells because we want
+
+980
+00:56:28.474 --> 00:56:31.014
+to know what happens with classical cells.
+
+981
+00:56:31.034 --> 00:56:34.864
+And you can really see that this embedding really captures a temporal time
+
+982
+00:56:34.914 --> 00:56:35.534
+point signal,
+
+983
+00:56:36.454 --> 00:56:38.054
+as you can see from this diffusion component.
+
+984
+00:56:38.174 --> 00:56:41.884
+As you could see, we really have, again, there's asynchrony,
+
+985
+00:56:42.294 --> 00:56:45.154
+so this is not a perfect thing, but you could really see that within the
+
+986
+00:56:45.214 --> 00:56:49.044
+asynchrony, we're capturing a temporal cascade.
+
+987
+00:56:50.094 --> 00:56:53.734
+And we could ask what, again, are the big things that are changing along this
+
+988
+00:56:53.774 --> 00:56:57.494
+temporal cascade? We see the cancer cells are expressing all sorts of
+
+989
+00:56:57.534 --> 00:57:01.314
+chemokines, these stress chemokines, these interferon-induced
+
+990
+00:57:01.394 --> 00:57:02.224
+chemokines,
+
+991
+00:57:03.134 --> 00:57:06.574
+and importantly, this is exactly what the
+
+992
+00:57:06.594 --> 00:57:08.654
+lymphocytes are trained to sense.
+
+993
+00:57:09.134 --> 00:57:13.054
+The lymphocytes, the NK cells, and the T cells have the receptors for
+
+994
+00:57:13.114 --> 00:57:13.794
+exactly
+
+995
+00:57:14.614 --> 00:57:16.334
+these chemokines,
+
+996
+00:57:17.394 --> 00:57:20.394
+and they emit the interferon signature.
+
+997
+00:57:20.834 --> 00:57:24.814
+And interferon gamma really hypercharges this entire thing, really
+
+998
+00:57:24.854 --> 00:57:27.994
+bringing in the T cells and the NK cells.
+
+999
+00:57:29.014 --> 00:57:29.394
+So now,
+
+1000
+00:57:30.234 --> 00:57:34.054
+Thomas didn't want to stop there. It's like, let's push
+
+1001
+00:57:34.114 --> 00:57:35.134
+our functional mice
+
+1002
+00:57:35.934 --> 00:57:39.754
+even crazier. So I don't know how to explain this
+
+1003
+00:57:39.794 --> 00:57:43.634
+crazy cassette, but Thomas is back there, so don't ask me questions
+
+1004
+00:57:43.694 --> 00:57:47.374
+about this. But I know what it can do for me, and what it can
+
+1005
+00:57:47.434 --> 00:57:50.514
+do is my dream. It can take the basal
+
+1006
+00:57:50.574 --> 00:57:54.334
+cell and do a CRISPR for a specific gene
+
+1007
+00:57:54.434 --> 00:57:58.344
+just in the basal cell. So we're taking in vivo, and we're saying let's
+
+1008
+00:57:58.354 --> 00:58:02.174
+limit ourselves to that 4% of basal cells and remove
+
+1009
+00:58:02.274 --> 00:58:06.014
+CSF2 just from that 4% of cells in vivo
+
+1010
+00:58:06.094 --> 00:58:06.974
+inside a tissue.
+
+1011
+00:58:07.934 --> 00:58:11.774
+And lo and behold, this phenocopies the entire
+
+1012
+00:58:12.474 --> 00:58:16.314
+basal ablation phenotype. So just CRISPRing out CSF2
+
+1013
+00:58:16.474 --> 00:58:19.354
+just in the basal cells phenocopies
+
+1014
+00:58:19.814 --> 00:58:22.374
+collapsing and killing the basal cells.
+
+1015
+00:58:23.014 --> 00:58:24.274
+And lo and behold,
+
+1016
+00:58:25.374 --> 00:58:29.314
+we have suddenly CD3s coming in if
+
+1017
+00:58:29.374 --> 00:58:33.354
+we remove this CSF2 signal and just
+
+1018
+00:58:33.414 --> 00:58:36.294
+remove that specific signal from the basal cells,
+
+1019
+00:58:37.154 --> 00:58:40.994
+collapsing the tumor by either removing the basal cells
+
+1020
+00:58:41.094 --> 00:58:45.054
+or disrupting their CSF signaling, that really builds
+
+1021
+00:58:45.074 --> 00:58:49.034
+this immunosuppressive niche. So our model is this basal cell, the
+
+1022
+00:58:49.134 --> 00:58:52.154
+master architect of the tumor niche, that
+
+1023
+00:58:53.234 --> 00:58:57.034
+PDAC is so well known for, and that pushes all therapy away.
+
+1024
+00:58:57.424 --> 00:59:01.093
+It calls the proliferative MYCAFs that really
+
+1025
+00:59:01.114 --> 00:59:04.914
+protect it, the fibrotic one, the immunosuppressive myeloid cells,
+
+1026
+00:59:05.254 --> 00:59:06.754
+and T cells cannot enter.
+
+1027
+00:59:08.394 --> 00:59:12.074
+The basal cell goes away, the immunosuppressive niche goes away,
+
+1028
+00:59:12.654 --> 00:59:16.554
+and in come these hero lymphocytes to clear the
+
+1029
+00:59:16.574 --> 00:59:16.854
+tumor.
+
+1030
+00:59:18.434 --> 00:59:22.194
+And so across both early and late disease, malignancy
+
+1031
+00:59:22.294 --> 00:59:24.793
+is really sustained by these plastic states.
+
+1032
+00:59:25.494 --> 00:59:29.394
+The oncogenes tumor charge the plasticity, but it's really the plastic
+
+1033
+00:59:29.494 --> 00:59:33.254
+states that organize and maintain the tumor ecosystem that makes
+
+1034
+00:59:33.314 --> 00:59:36.354
+cancer the nasty thing it is. So finally,
+
+1035
+00:59:36.814 --> 00:59:39.814
+acknowledgments. The first story was Jose and
+
+1036
+00:59:40.394 --> 00:59:40.874
+Scott.
+
+1037
+00:59:41.934 --> 00:59:44.634
+Andrew built SEGER, and I recommend you use it.
+
+1038
+00:59:44.794 --> 00:59:45.574
+Doron built
+
+1039
+00:59:47.034 --> 00:59:49.494
+Wormhole, and we're using it, and we love it.
+
+1040
+00:59:50.034 --> 00:59:53.764
+Sam did the computation in my lab with the amazing team from
+
+1041
+00:59:53.974 --> 00:59:57.804
+Thomas's lab, and Sail in our lab really helps collect all this amazing
+
+1042
+00:59:57.874 --> 00:59:58.614
+data. And thank you.
+
+1043
+01:00:06.614 --> 01:00:08.294
+Hi there. Impressive methods and results.
+
+1044
+01:00:08.374 --> 01:00:12.194
+So I have one question about the cellular neighborhood map you're
+
+1045
+01:00:12.214 --> 01:00:16.174
+showing, the latent plots where you mention one dot is one cellular
+
+1046
+01:00:16.214 --> 01:00:16.654
+neighborhood.
+
+1047
+01:00:16.994 --> 01:00:17.004
+Mm-hmm.
+
+1048
+01:00:17.154 --> 01:00:20.954
+So I have a two-part question. First is that how is each dot
+
+1049
+01:00:21.014 --> 01:00:24.444
+being... So like for example, for a cell neighborhood, are you
+
+1050
+01:00:24.454 --> 01:00:28.324
+separating, for example, 100 cells, grouping 100 cells, and
+
+1051
+01:00:28.354 --> 01:00:29.734
+then call that as a cell neighborhood?
+
+1052
+01:00:30.034 --> 01:00:33.634
+Or are you looking at one cell and the 100 cells around
+
+1053
+01:00:33.694 --> 01:00:35.694
+it to be considered as a neighborhood?
+
+1054
+01:00:35.704 --> 01:00:37.314
+Yeah. One cell and 100 cells around it.
+
+1055
+01:00:37.654 --> 01:00:41.214
+And I'm not collapsing at the cell type, so I'm basically
+
+1056
+01:00:41.354 --> 01:00:43.154
+imagine having a matrix.
+
+1057
+01:00:43.254 --> 01:00:43.354
+Mm.
+
+1058
+01:00:44.054 --> 01:00:47.894
+A little sub-matrix of 100 cells-By
+
+1059
+01:00:48.314 --> 01:00:51.974
+all their transcripts, so 100 cells by 480 transcripts.
+
+1060
+01:00:52.634 --> 01:00:56.434
+There's a little bit of collapsing to gene programs, but 100 cells by their rich
+
+1061
+01:00:56.534 --> 01:00:58.984
+gene expression, a little mini matrix.
+
+1062
+01:00:59.034 --> 01:01:02.894
+And as I showed in the wormhole algorithm, we are reasoning about that
+
+1063
+01:01:02.954 --> 01:01:06.134
+entire unit at once without losing the information.
+
+1064
+01:01:06.514 --> 01:01:10.314
+Yes. So in that case, if two cells are similar or close to each
+
+1065
+01:01:10.354 --> 01:01:13.114
+other, will those two, the neighborhood overlapping then?
+
+1066
+01:01:13.914 --> 01:01:16.834
+So the neighborhood, yes, there is some overlapping features in these
+
+1067
+01:01:16.874 --> 01:01:19.914
+neighborhoods, but that gives robust statistical signal.
+
+1068
+01:01:20.634 --> 01:01:24.214
+As people who've used spatial transcriptomics knows, these things
+
+1069
+01:01:24.294 --> 01:01:27.914
+are very sparse. So actually having many similar units
+
+1070
+01:01:29.154 --> 01:01:30.934
+gives a little bit more robustness.
+
+1071
+01:01:31.034 --> 01:01:33.814
+But yes, this is not completely
+
+1072
+01:01:34.754 --> 01:01:38.434
+disassociated neighborhoods. But basically, we have an anchor cell, and
+
+1073
+01:01:38.714 --> 01:01:42.574
+much of our analysis, we actually reason about, here is the anchor cell, here's its
+
+1074
+01:01:42.634 --> 01:01:46.534
+neighborhood. And of course, many of these neighborhoods overlap because,
+
+1075
+01:01:47.674 --> 01:01:48.454
+just the math of it.
+
+1076
+01:01:48.934 --> 01:01:49.514
+Got you. Thank you.
+
+1077
+01:01:51.254 --> 01:01:53.134
+Hey, Donna. A very interesting talk.
+
+1078
+01:01:53.334 --> 01:01:57.124
+I had a question about the wormhole data you showed on the gastric tissues, where
+
+1079
+01:01:57.154 --> 01:02:00.554
+you estimated the progenitor cells and the more differentiated cells.
+
+1080
+01:02:01.114 --> 01:02:04.394
+So differentiated cells were more in the ducts, the circular structures.
+
+1081
+01:02:04.694 --> 01:02:07.894
+But the progenitor cells were in the ducts, and they were also out in the stromal
+
+1082
+01:02:08.054 --> 01:02:10.694
+areas. And so I was wondering what you thought about those distributions.
+
+1083
+01:02:11.414 --> 01:02:12.234
+So again,
+
+1084
+01:02:13.214 --> 01:02:16.414
+I discretized it and said progenitor and gastric
+
+1085
+01:02:16.454 --> 01:02:19.994
+because unlike computers that can learn complex functions, we're
+
+1086
+01:02:20.054 --> 01:02:23.884
+humans, and I can't say in one word, "Here is
+
+1087
+01:02:24.054 --> 01:02:27.774
+all the continuum of cell states." But within the progenitor cells
+
+1088
+01:02:28.194 --> 01:02:31.994
+and within the gastric cells, there's a very rich
+
+1089
+01:02:32.354 --> 01:02:36.074
+variation, and that's why I'm really pushing for this continuous
+
+1090
+01:02:36.134 --> 01:02:39.524
+representation. And we learn a lot from the continuous
+
+1091
+01:02:39.594 --> 01:02:42.674
+representation. And we actually played a bit, and we said, "What happens if we
+
+1092
+01:02:42.714 --> 01:02:46.374
+discretize the data to progenitor cells and gastric cells?"
+
+1093
+01:02:46.834 --> 01:02:50.414
+And that doesn't cut it. You really need this continuum, and I just
+
+1094
+01:02:50.454 --> 01:02:53.054
+can't talk continuum, so I give it names.
+
+1095
+01:02:54.354 --> 01:02:54.574
+Okay.
+
+1096
+01:02:58.554 --> 01:03:02.184
+Hi. Really great talk. And just to, a little bit of clarification,
+
+1097
+01:03:02.334 --> 01:03:06.254
+when you present a matrix for the niches, you said only the
+
+1098
+01:03:06.274 --> 01:03:07.934
+rows are permutated, right?
+
+1099
+01:03:08.634 --> 01:03:08.814
+Yeah.
+
+1100
+01:03:09.674 --> 01:03:13.514
+So would it be helpful to consider the SVD-based methods to
+
+1101
+01:03:14.354 --> 01:03:17.474
+do the reduction instead of doing optimal transport?
+
+1102
+01:03:18.594 --> 01:03:20.374
+Well, again, any way you
+
+1103
+01:03:22.494 --> 01:03:26.254
+try and collapse it-- And you could do SVD with inside each
+
+1104
+01:03:26.294 --> 01:03:30.014
+row, but if you try and do SVD for the entire matrix, you
+
+1105
+01:03:30.074 --> 01:03:33.943
+lose the cell identities. Anything that sort of averages
+
+1106
+01:03:33.974 --> 01:03:37.744
+across cell identities and collapses and says,
+
+1107
+01:03:37.764 --> 01:03:41.663
+"Okay, let's take an average of a myeloid cell, a fibroblast, and a T cell,"
+
+1108
+01:03:41.734 --> 01:03:44.844
+there's some people in this audience which would not be happy if I tried to do
+
+1109
+01:03:44.954 --> 01:03:45.094
+that.
+
+1110
+01:03:46.274 --> 01:03:46.814
+Thank you so much.
+
+1111
+01:03:51.334 --> 01:03:55.014
+Hi. I was just curious if you had benchmarked SEGER against other transcript-aware
+
+1112
+01:03:55.054 --> 01:03:56.694
+methods like PROSEG, for example.
+
+1113
+01:03:57.334 --> 01:04:00.394
+We've benchmarked it like crazy. I want to give you the intuition.
+
+1114
+01:04:00.554 --> 01:04:03.674
+And so one, in performance, it
+
+1115
+01:04:04.254 --> 01:04:06.114
+performs better by the metrics you care.
+
+1116
+01:04:06.654 --> 01:04:10.334
+But also, PROSEG, for example, it's
+
+1117
+01:04:10.774 --> 01:04:11.694
+the second best.
+
+1118
+01:04:12.554 --> 01:04:14.934
+It still tries to solve a geometric problem.
+
+1119
+01:04:14.974 --> 01:04:18.694
+It still tries to find a boundary. So you look at the PROSEG cell
+
+1120
+01:04:18.774 --> 01:04:22.694
+membranes, and you have all these deep notches that goes like this to try
+
+1121
+01:04:22.734 --> 01:04:26.174
+and avoid including transcripts in these-- It looks
+
+1122
+01:04:26.654 --> 01:04:30.634
+like a macrophage that's just trying to pull this thing to pull that transcript.
+
+1123
+01:04:30.874 --> 01:04:33.074
+It's really psychopathically shaped.
+
+1124
+01:04:33.094 --> 01:04:36.854
+And PROSEG is pretty good because it actually uses a lot of very
+
+1125
+01:04:36.994 --> 01:04:40.443
+similar reasoning to us about learning cell states and what genes go together,
+
+1126
+01:04:40.974 --> 01:04:43.754
+but it still insists on drawing a boundary.
+
+1127
+01:04:43.774 --> 01:04:47.694
+And we just say forget the boundary, assign transcripts to cells as
+
+1128
+01:04:47.774 --> 01:04:49.474
+link assignment, and that's our big difference.
+
+1129
+01:04:49.934 --> 01:04:52.154
+But actually, PROSEG works really well.
+
+1130
+01:04:52.934 --> 01:04:56.914
+We work better, but PROSEG gets a lot of good marks, except for the
+
+1131
+01:04:56.974 --> 01:04:57.474
+fact that it
+
+1132
+01:04:58.414 --> 01:05:00.074
+has psychopathically shaped cells.
+
+1133
+01:05:01.854 --> 01:05:04.934
+Hi there, and thank you very much for your talk. Always inspirational.
+
+1134
+01:05:05.233 --> 01:05:08.434
+So my question is a bit naive maybe, so apologies for this.
+
+1135
+01:05:09.014 --> 01:05:12.814
+I really like this concept of working in this embedding
+
+1136
+01:05:12.974 --> 01:05:15.274
+space with niches, no longer cells.
+
+1137
+01:05:15.814 --> 01:05:19.574
+So I was wondering, if we want to go from cells to patients,
+
+1138
+01:05:20.114 --> 01:05:23.874
+does it make sense to
+
+1139
+01:05:23.914 --> 01:05:27.394
+think in the embedding space for patients where we start
+
+1140
+01:05:27.694 --> 01:05:31.254
+even to use the geometry and do some clustering
+
+1141
+01:05:31.334 --> 01:05:34.874
+according to these common niches, to ways that these
+
+1142
+01:05:35.274 --> 01:05:38.814
+patients possibly get together, not in the
+
+1143
+01:05:38.834 --> 01:05:42.154
+canonical imagination that we have at the single
+
+1144
+01:05:42.574 --> 01:05:43.534
+biomarker level?
+
+1145
+01:05:43.674 --> 01:05:47.034
+So I'll give a quick answer to that, even though I have a longer answer because
+
+1146
+01:05:48.514 --> 01:05:51.834
+Faye is trying to pull me off the stage. Multiscale is the answer.
+
+1147
+01:05:52.254 --> 01:05:56.014
+You have small niches, you have entire lesions, you have entire
+
+1148
+01:05:56.054 --> 01:05:58.074
+tissues, and you have entire humans.
+
+1149
+01:05:58.114 --> 01:06:02.014
+And I think the way we need to build embeddings is these multiscale thing
+
+1150
+01:06:02.314 --> 01:06:06.174
+where you also have an embedding at the level of a patient-- But this
+
+1151
+01:06:06.274 --> 01:06:10.214
+patient is a multiscale embedding that you could go deep into finer
+
+1152
+01:06:10.234 --> 01:06:13.634
+and finer spatial resolution. We're working on that,
+
+1153
+01:06:14.234 --> 01:06:15.454
+but not quite ready with that.
+
+1154
+01:06:15.974 --> 01:06:16.394
+Thank you.
+
+1155
+01:06:23.654 --> 01:06:24.754
+Thank you.
+
+1156
+01:06:25.734 --> 01:06:29.594
+And last but not least, we have Itay Tirosh joining us
+
+1157
+01:06:29.634 --> 01:06:33.504
+from virtually. And
+
+1158
+01:06:33.934 --> 01:06:37.394
+he's going to talk about spatial transcriptomes and single-cell
+
+1159
+01:06:37.434 --> 01:06:38.694
+transcriptomes in head and neck
+
+1160
+01:06:39.494 --> 01:06:43.374
+cancer. And he's very sad that he can't make
+
+1161
+01:06:43.414 --> 01:06:46.234
+it today, but due to the geopolitical climate.
+
+1162
+01:06:58.384 --> 01:07:02.364
+Hi, my name is Itay Tirosh, and first I want to apologize that I was
+
+1163
+01:07:02.424 --> 01:07:06.184
+unable to come to San Diego and present this in person.
+
+1164
+01:07:06.704 --> 01:07:09.944
+But I want to thank the organizers for both inviting me and for the
+
+1165
+01:07:09.984 --> 01:07:12.984
+flexibility to allow me to record this talk.
+
+1166
+01:07:13.563 --> 01:07:17.284
+So I will tell you about our work on using spatial approaches to
+
+1167
+01:07:17.304 --> 01:07:21.264
+understand the organization of tumors, both in glioma and in head and neck
+
+1168
+01:07:21.274 --> 01:07:21.804
+cancer.
+
+1169
+01:07:22.904 --> 01:07:26.603
+And we are generally quite interested in the diversity of cells
+
+1170
+01:07:26.864 --> 01:07:30.684
+within tumors, trying to understand the entire ecosystem, but
+
+1171
+01:07:30.744 --> 01:07:34.514
+in particular, we are focused on the states of the cancer cells.
+
+1172
+01:07:35.304 --> 01:07:38.924
+And after doing a lot of single-cell RNAseq analysis to define those
+
+1173
+01:07:38.984 --> 01:07:42.744
+states, we've been working in the last few years to better understand how these
+
+1174
+01:07:43.044 --> 01:07:46.544
+cells are organized in the tumor. This allows us to better understand what
+
+1175
+01:07:46.604 --> 01:07:50.464
+generates the different states and perhaps also to start to
+
+1176
+01:07:50.524 --> 01:07:52.564
+understand their functions.
+
+1177
+01:07:53.604 --> 01:07:55.144
+And we are using two main technologies.
+
+1178
+01:07:55.204 --> 01:07:58.524
+The first one is Visium, spatial transcriptomics.
+
+1179
+01:07:59.084 --> 01:08:02.984
+Here we have a glass slide in which each spot has its own unique
+
+1180
+01:08:03.004 --> 01:08:03.524
+barcode.
+
+1181
+01:08:04.324 --> 01:08:08.284
+And this is producing very good data,
+
+1182
+01:08:08.334 --> 01:08:12.164
+and we learned a lot from it. But of course, one important challenge is
+
+1183
+01:08:12.204 --> 01:08:15.814
+that the size of the spots is still 55
+
+1184
+01:08:15.844 --> 01:08:19.724
+microns in the first version, which means that in a
+
+1185
+01:08:19.744 --> 01:08:22.804
+given spot, we have somewhere between 5 to 20 cells.
+
+1186
+01:08:22.985 --> 01:08:23.224
+So
+
+1187
+01:08:24.164 --> 01:08:27.744
+understanding the pattern within a spot is still quite challenging.
+
+1188
+01:08:29.284 --> 01:08:33.124
+The second technology that we've been using is spatial proteomics, the
+
+1189
+01:08:33.164 --> 01:08:36.864
+CODEX platform, also known as PhenoCycler, and this is
+
+1190
+01:08:36.924 --> 01:08:40.704
+highly complementary to the Visium, both because it gives us the
+
+1191
+01:08:40.744 --> 01:08:44.724
+protein information, but also because this produces
+
+1192
+01:08:44.824 --> 01:08:46.945
+a real single-cell resolution.
+
+1193
+01:08:48.284 --> 01:08:52.164
+Now, this is antibody-based, and so we've constructed a
+
+1194
+01:08:52.264 --> 01:08:56.105
+specific antibody panel for glioma, as you see here, as well
+
+1195
+01:08:56.144 --> 01:08:58.364
+as another panel for carcinoma.
+
+1196
+01:08:59.914 --> 01:09:03.224
+And we've been using both of these technologies to understand the
+
+1197
+01:09:03.264 --> 01:09:06.985
+organization of both gliomas and head and neck cancers.
+
+1198
+01:09:07.454 --> 01:09:09.744
+And I'll start with glioblastoma.
+
+1199
+01:09:11.164 --> 01:09:14.964
+So in glioblastoma, our single-cell analysis in the past
+
+1200
+01:09:15.025 --> 01:09:18.605
+have shown that in a given tumor, there's typically four different
+
+1201
+01:09:18.704 --> 01:09:22.565
+states of cancer cells. And many of the cells are somewhere in the middle,
+
+1202
+01:09:22.664 --> 01:09:26.424
+but the diversity is really captured by these four different cell
+
+1203
+01:09:26.485 --> 01:09:30.405
+states. And these cell states recapitulate many patterns
+
+1204
+01:09:30.464 --> 01:09:34.054
+from development of the brain. So some of the cells, one
+
+1205
+01:09:34.224 --> 01:09:37.964
+state resembles neural progenitors, another resembles
+
+1206
+01:09:37.985 --> 01:09:41.204
+oligodendrocytes progenitors, a third state
+
+1207
+01:09:41.584 --> 01:09:45.485
+resembles astrocytes as well as their progenitors, and finally, we
+
+1208
+01:09:45.525 --> 01:09:49.324
+have a state that resembles mesenchymal-like cells, and this is the
+
+1209
+01:09:49.424 --> 01:09:52.464
+state that is the most responsive to the microenvironment.
+
+1210
+01:09:52.544 --> 01:09:55.564
+So we've shown in the past that this
+
+1211
+01:09:55.924 --> 01:09:59.904
+mesenchymal-like state can be induced by macrophages as well
+
+1212
+01:09:59.944 --> 01:10:03.904
+as by hypoxia. And when we see cells in a mesenchymal
+
+1213
+01:10:04.164 --> 01:10:05.044
+state that also
+
+1214
+01:10:06.104 --> 01:10:10.064
+express many hypoxia response markers, we call this mesenchymal
+
+1215
+01:10:10.084 --> 01:10:13.604
+hypoxia, and we know that this indicates that the cells are in
+
+1216
+01:10:13.664 --> 01:10:14.784
+hypoxic regions.
+
+1217
+01:10:16.624 --> 01:10:18.444
+So we recently applied
+
+1218
+01:10:19.364 --> 01:10:23.164
+Visium as well as CODEX to 32 glioblastoma
+
+1219
+01:10:23.244 --> 01:10:25.544
+samples, and here you see two of them.
+
+1220
+01:10:26.024 --> 01:10:29.624
+In this data, we can identify all of the major
+
+1221
+01:10:29.684 --> 01:10:32.404
+expression programs that we saw in the single-cell data.
+
+1222
+01:10:32.884 --> 01:10:36.724
+So you can see on the left all of the programs that we defined.
+
+1223
+01:10:36.764 --> 01:10:40.664
+The bold ones correspond to the cancer cell states, and the
+
+1224
+01:10:40.744 --> 01:10:42.724
+others correspond to the microenvironment.
+
+1225
+01:10:43.424 --> 01:10:47.204
+And we can assign each spot in the Visium to the main signal
+
+1226
+01:10:47.264 --> 01:10:51.204
+that we see in that spot, and this is how two of those tumors look like.
+
+1227
+01:10:51.764 --> 01:10:55.464
+But of course, there was still this challenge with the resolution of the spots.
+
+1228
+01:10:55.504 --> 01:10:59.324
+So each spot contains approximately 10 cells, and we
+
+1229
+01:10:59.364 --> 01:11:02.864
+wanted to better understand what is happening within those spots.
+
+1230
+01:11:03.484 --> 01:11:04.544
+So to address this, we
+
+1231
+01:11:05.444 --> 01:11:08.954
+went into the CODEX data to see what
+
+1232
+01:11:09.064 --> 01:11:12.824
+happens within a given spot. And what we saw is that
+
+1233
+01:11:12.924 --> 01:11:16.684
+even though a typical spot is indeed a combination of
+
+1234
+01:11:16.724 --> 01:11:19.964
+multiple cell states or cell types, typically,
+
+1235
+01:11:20.584 --> 01:11:24.304
+and more specifically in 64% of the spots, we see that
+
+1236
+01:11:24.504 --> 01:11:28.344
+one cell state or one cell type controls the vast majority of
+
+1237
+01:11:28.384 --> 01:11:31.264
+the cells in a given spot.
+
+1238
+01:11:32.264 --> 01:11:35.964
+So the Visium data still gives us a good amount of
+
+1239
+01:11:36.004 --> 01:11:39.944
+information about the main signal in a given spot, which is often
+
+1240
+01:11:39.984 --> 01:11:43.584
+sufficient to really understand the organization of the tumor.
+
+1241
+01:11:44.704 --> 01:11:48.284
+This also tells us a lot about the biology of glioma, that the cells are really
+
+1242
+01:11:48.344 --> 01:11:49.554
+clustering together.
+
+1243
+01:11:50.524 --> 01:11:53.744
+And we wanted to better understand to what degree the cells are clustering, not
+
+1244
+01:11:53.764 --> 01:11:57.484
+just within one specific spot, but in larger areas than
+
+1245
+01:11:57.524 --> 01:11:57.824
+that.
+
+1246
+01:11:58.764 --> 01:12:02.424
+So we expanded from analyzing individual spots to looking at
+
+1247
+01:12:02.484 --> 01:12:06.424
+adjacent spots, and we defined this measure of spatial coherence,
+
+1248
+01:12:06.984 --> 01:12:10.944
+which is basically asking, after we assign each spot to the dominant
+
+1249
+01:12:11.024 --> 01:12:14.524
+state, how many of the neighboring spot for one
+
+1250
+01:12:14.584 --> 01:12:18.524
+specific spot are still dominated by the same state?
+
+1251
+01:12:19.804 --> 01:12:23.644
+So we see variation in spatial coherence between different
+
+1252
+01:12:23.784 --> 01:12:27.704
+cell states, for example, higher coherence for this mesenchymal hypoxia
+
+1253
+01:12:27.784 --> 01:12:31.744
+state in yellow. We see variation between different regions of the
+
+1254
+01:12:31.804 --> 01:12:35.424
+same sample, and we see a lot of variability between
+
+1255
+01:12:35.484 --> 01:12:39.364
+different samples. And surprisingly, this was actually the strongest effect that we
+
+1256
+01:12:39.424 --> 01:12:39.724
+saw.
+
+1257
+01:12:40.704 --> 01:12:44.384
+So there were some samples in which overall, we saw high spatial
+
+1258
+01:12:44.424 --> 01:12:48.284
+coherence. So almost wherever you look in this particular sample,
+
+1259
+01:12:48.844 --> 01:12:52.584
+you see that spots are surrounded by other spots, often with the same
+
+1260
+01:12:52.684 --> 01:12:55.204
+color. This is what we call a structured sample.
+
+1261
+01:12:56.184 --> 01:12:59.884
+And in other samples, we see very limited spatial coherence.
+
+1262
+01:12:59.924 --> 01:13:03.740
+This is what we call a disorganized sample.And
+
+1263
+01:13:03.860 --> 01:13:07.760
+overall, we could divide the vast majority of the samples to either
+
+1264
+01:13:08.040 --> 01:13:11.860
+mostly structural or mostly disorganized, and there were very
+
+1265
+01:13:12.000 --> 01:13:15.660
+few cases that showed both of these behaviors within one
+
+1266
+01:13:15.720 --> 01:13:16.260
+sample.
+
+1267
+01:13:17.640 --> 01:13:21.500
+So we next wanted to better understand what is creating this dichotomy
+
+1268
+01:13:21.520 --> 01:13:23.500
+of structured versus disorganized.
+
+1269
+01:13:23.960 --> 01:13:27.820
+And the main difference that we saw between those samples was, again, the
+
+1270
+01:13:27.860 --> 01:13:30.460
+presence of this mesenchymal hypoxia state.
+
+1271
+01:13:31.220 --> 01:13:34.200
+And this suggests that whenever we have a high degree of
+
+1272
+01:13:34.480 --> 01:13:38.440
+hypoxia, not only the immediate cells in that region
+
+1273
+01:13:38.500 --> 01:13:42.480
+are affected and express this mesenchymal hypoxia state, but
+
+1274
+01:13:42.540 --> 01:13:46.260
+also the entire tissue becomes more organized, suggesting that
+
+1275
+01:13:46.300 --> 01:13:50.080
+hypoxia might have a long-range effect on the organization of the
+
+1276
+01:13:50.140 --> 01:13:53.930
+tissue. So to better understand the organization that
+
+1277
+01:13:53.980 --> 01:13:57.740
+emerges in these cases, we next asked what
+
+1278
+01:13:57.960 --> 01:14:01.760
+was the colocalization between pairs of cell states or
+
+1279
+01:14:01.820 --> 01:14:02.460
+cell types.
+
+1280
+01:14:03.460 --> 01:14:07.180
+So in this graph, each node is a cell state or a
+
+1281
+01:14:07.240 --> 01:14:11.140
+cell type, and the edges corresponds to a significant degree
+
+1282
+01:14:11.180 --> 01:14:14.060
+of colocalization across all of the data sets.
+
+1283
+01:14:15.040 --> 01:14:15.800
+And as you can see,
+
+1284
+01:14:16.720 --> 01:14:20.550
+this analysis divides all the cell states and cell types into five different
+
+1285
+01:14:20.580 --> 01:14:24.480
+groups or five different layers, such that all the edges are either
+
+1286
+01:14:24.540 --> 01:14:28.100
+within a given layer or between adjacent layers.
+
+1287
+01:14:28.120 --> 01:14:32.100
+And this, again, is consistent with the role of hypoxia in organizing
+
+1288
+01:14:32.140 --> 01:14:36.000
+the tissue. So the first layer is where we see the actual mesenchymal
+
+1289
+01:14:36.040 --> 01:14:39.640
+hypoxia spots and also the necrotic spots, the necrotic
+
+1290
+01:14:39.740 --> 01:14:40.200
+regions.
+
+1291
+01:14:41.140 --> 01:14:44.940
+The second layer corresponds to other mesenchymal states and inflammatory
+
+1292
+01:14:44.980 --> 01:14:48.700
+macrophages that are adjacent to the hypoxic regions.
+
+1293
+01:14:49.440 --> 01:14:52.580
+Then in the third layer, we see a lot of vascular cells,
+
+1294
+01:14:52.720 --> 01:14:56.480
+macrophages that secrete VEGF, and so
+
+1295
+01:14:56.580 --> 01:15:00.060
+this appears to be the layer that is trying to resolve the hypoxia.
+
+1296
+01:15:00.560 --> 01:15:04.400
+And then in the fourth layer, we see many more of the cancer
+
+1297
+01:15:04.500 --> 01:15:07.840
+cells in a neurodevelopmental state that is
+
+1298
+01:15:07.860 --> 01:15:10.240
+presumably more dependent on oxygen.
+
+1299
+01:15:10.800 --> 01:15:14.140
+Finally, in the fifth layer, the furthest away from the hypoxia,
+
+1300
+01:15:14.820 --> 01:15:18.740
+we begin to see the infiltration of the tumor to the normal brain, where
+
+1301
+01:15:18.780 --> 01:15:22.580
+there are many normal brain parenchymal cells, like oligodendrocytes,
+
+1302
+01:15:22.680 --> 01:15:26.580
+astrocytes, and neurons. So this suggests a model
+
+1303
+01:15:26.640 --> 01:15:30.380
+for the organization of GBM that consists of five different
+
+1304
+01:15:30.460 --> 01:15:34.000
+layers. Of course, we are not suggesting that they are very clean
+
+1305
+01:15:34.020 --> 01:15:37.860
+layer. It's more of a probabilistic shift in the abundance of
+
+1306
+01:15:37.920 --> 01:15:40.340
+different cell types and cell states.
+
+1307
+01:15:40.360 --> 01:15:44.140
+And here you see an example of this from the Codex data, where we
+
+1308
+01:15:44.160 --> 01:15:47.880
+start in the left from a region that is highly hypoxic with
+
+1309
+01:15:47.920 --> 01:15:51.760
+this mesenchymal hypoxia state. And then gradually, we see
+
+1310
+01:15:51.820 --> 01:15:55.560
+more of the other mesenchymal state, macrophages,
+
+1311
+01:15:55.640 --> 01:15:59.090
+vascular cells, and towards the end, we begin to see more of the
+
+1312
+01:15:59.180 --> 01:16:01.800
+neurodevelopmental cell states and the normal cells.
+
+1313
+01:16:03.360 --> 01:16:07.230
+So overall, what we see is that in GBM, there are many regions that
+
+1314
+01:16:07.260 --> 01:16:10.740
+are quite disorganized, but as we get close to the hypoxic
+
+1315
+01:16:10.800 --> 01:16:14.620
+regions, we begin to see more structure emerging, both
+
+1316
+01:16:14.700 --> 01:16:18.350
+in terms of cells being surrounded by cells that are similar to them,
+
+1317
+01:16:18.880 --> 01:16:22.500
+as well as this approximate structure of five different
+
+1318
+01:16:22.880 --> 01:16:23.340
+layers.
+
+1319
+01:16:24.920 --> 01:16:28.660
+So this work in GBM was already published, and after finishing this,
+
+1320
+01:16:29.100 --> 01:16:32.860
+we began to look at the second major type of glioma,
+
+1321
+01:16:33.420 --> 01:16:37.400
+which are IDH mutant glioma. And so we
+
+1322
+01:16:37.440 --> 01:16:39.850
+profiled both by Codex and by Visium,
+
+1323
+01:16:40.660 --> 01:16:43.920
+34 IDH mutant samples covering both
+
+1324
+01:16:44.040 --> 01:16:47.700
+astrocytomas and oligodendrogliomas of different grades.
+
+1325
+01:16:48.660 --> 01:16:52.320
+And when we analyze the degree of structure in those samples,
+
+1326
+01:16:52.880 --> 01:16:56.420
+we see that there's overall less structure in the IDH mutant
+
+1327
+01:16:56.520 --> 01:17:00.340
+cases than in the GBMs, and there is more structure
+
+1328
+01:17:00.440 --> 01:17:02.660
+in the high-grade cases,
+
+1329
+01:17:03.740 --> 01:17:07.260
+which are more similar to GBM compared to the mid-grade cases.
+
+1330
+01:17:07.700 --> 01:17:11.280
+So this is still very consistent with the role of hypoxia, because
+
+1331
+01:17:11.440 --> 01:17:14.200
+hypoxia occurs mostly in the high-grade cases.
+
+1332
+01:17:14.900 --> 01:17:18.640
+And so far, this is quite consistent with what we saw in the GBM
+
+1333
+01:17:18.680 --> 01:17:22.380
+work. But what then surprised us is that when we looked at
+
+1334
+01:17:22.600 --> 01:17:26.550
+low-grade cases, we saw much more structure than
+
+1335
+01:17:26.580 --> 01:17:29.080
+the mid-grade and even the high-grade cases.
+
+1336
+01:17:29.560 --> 01:17:33.440
+And in the low-grade cases, there was almost no hypoxia and almost no
+
+1337
+01:17:33.480 --> 01:17:37.340
+necrosis, suggesting that something else is driving the
+
+1338
+01:17:37.360 --> 01:17:39.080
+organization of these samples.
+
+1339
+01:17:40.940 --> 01:17:44.660
+So in high-grade IDH mutant glioma, as well as in GBM,
+
+1340
+01:17:45.200 --> 01:17:48.940
+we see these approximate layers in which,
+
+1341
+01:17:49.120 --> 01:17:52.760
+as you can see in the bottom, the tumor really consists of these small
+
+1342
+01:17:52.800 --> 01:17:56.420
+patches that are dominated by specific cell
+
+1343
+01:17:56.500 --> 01:18:00.320
+states or cell types. In mid-grade cases, we begin to lose
+
+1344
+01:18:00.340 --> 01:18:03.900
+this organization. There is still some degree of organization, but much
+
+1345
+01:18:03.940 --> 01:18:04.340
+lower.
+
+1346
+01:18:05.200 --> 01:18:09.080
+And then in the low-grade cases, again, we see more structure, but it's not
+
+1347
+01:18:09.260 --> 01:18:12.120
+the same structure. We don't see again those patches.
+
+1348
+01:18:12.900 --> 01:18:16.780
+Rather, we see pairs of cell states that are correlated in
+
+1349
+01:18:16.860 --> 01:18:20.420
+their localization. So there's a different type of structure,
+
+1350
+01:18:20.960 --> 01:18:24.280
+and we are trying to understand what is driving this structure, which
+
+1351
+01:18:24.920 --> 01:18:28.760
+it probably not hypoxia. And what we are starting to
+
+1352
+01:18:28.820 --> 01:18:32.530
+see is that in those low-grade cases, the normal
+
+1353
+01:18:32.680 --> 01:18:36.420
+structures of the brain are still maintained to a large degree.
+
+1354
+01:18:36.500 --> 01:18:40.340
+These normal structures have been eroded in the high-grade
+
+1355
+01:18:40.600 --> 01:18:44.320
+cases, but in low-grade, they are still there, and they appear to
+
+1356
+01:18:44.720 --> 01:18:47.080
+influence the organization of the tumor.
+
+1357
+01:18:47.620 --> 01:18:49.290
+And I'm going to show you one example of this,
+
+1358
+01:18:50.320 --> 01:18:54.260
+which is the division of the tumor to white matter, gray matter,
+
+1359
+01:18:54.520 --> 01:18:58.080
+and the junction between them. So the normal brain is divided
+
+1360
+01:18:58.120 --> 01:19:01.100
+into white and gray matter, as well as other regions.
+
+1361
+01:19:02.500 --> 01:19:06.240
+And in the tumor, we can still see that division
+
+1362
+01:19:06.320 --> 01:19:08.630
+quite nicely in the case of low-grade
+
+1363
+01:19:08.760 --> 01:19:12.752
+tumors.Not only do we see white and gray matter, we also
+
+1364
+01:19:12.832 --> 01:19:16.472
+see a very sharp junction that separates them.
+
+1365
+01:19:16.502 --> 01:19:19.652
+And the fact that this is such a clean and sharp
+
+1366
+01:19:20.512 --> 01:19:24.452
+structure suggests that this has been maintained despite the
+
+1367
+01:19:24.492 --> 01:19:25.472
+growth of the tumor.
+
+1368
+01:19:26.412 --> 01:19:29.992
+So next, we wanted to see how this influences the
+
+1369
+01:19:30.052 --> 01:19:33.642
+cells around that junction. So we counted the number of cells
+
+1370
+01:19:34.852 --> 01:19:38.432
+moving from the white matter through the junction and to
+
+1371
+01:19:38.472 --> 01:19:42.312
+the gray matter, and we saw that this actually serves as a
+
+1372
+01:19:42.371 --> 01:19:44.192
+barrier for the growth of the tumor.
+
+1373
+01:19:44.652 --> 01:19:48.552
+So the density of cells drops dramatically as we
+
+1374
+01:19:48.612 --> 01:19:50.752
+switch from the white matter to the gray matter.
+
+1375
+01:19:51.382 --> 01:19:55.212
+And this was surprising for us to see because in the context of glioma, we
+
+1376
+01:19:55.272 --> 01:19:59.032
+normally think about tumors that diffuse in the brain and that
+
+1377
+01:19:59.072 --> 01:20:01.352
+expand almost with no interruption.
+
+1378
+01:20:01.832 --> 01:20:05.472
+And here we see that this junction between white and gray matter is
+
+1379
+01:20:05.532 --> 01:20:08.451
+in fact a barrier for the growth of the tumor.
+
+1380
+01:20:09.832 --> 01:20:13.432
+So not only the overall density of cells dropped at this
+
+1381
+01:20:13.492 --> 01:20:17.012
+junction, but also the fraction of cells that are
+
+1382
+01:20:17.052 --> 01:20:20.892
+malignant further dropped, suggesting that this is
+
+1383
+01:20:20.932 --> 01:20:22.831
+really stopping the growth of the tumor.
+
+1384
+01:20:23.352 --> 01:20:26.012
+At the same time, there are changes in the microenvironment.
+
+1385
+01:20:26.272 --> 01:20:29.332
+We see, of course, many more neurons in the gray matter,
+
+1386
+01:20:30.012 --> 01:20:34.002
+and we see almost no macrophages as we pass from
+
+1387
+01:20:34.032 --> 01:20:36.032
+the white matter to the gray matter.
+
+1388
+01:20:37.352 --> 01:20:41.272
+We can go deeper into this and ask not just about the overall
+
+1389
+01:20:41.312 --> 01:20:44.812
+amount of malignant cells, but about the specific states of the
+
+1390
+01:20:44.852 --> 01:20:48.592
+malignant cells. And we see that as we go through the junction,
+
+1391
+01:20:49.132 --> 01:20:52.792
+we see an enrichment of OPC-like cells, a
+
+1392
+01:20:53.392 --> 01:20:56.232
+further depletion of astrocyte-like cells.
+
+1393
+01:20:56.712 --> 01:21:00.432
+And just around the junction, we see some enrichment of
+
+1394
+01:21:00.572 --> 01:21:01.992
+undifferentiated cells.
+
+1395
+01:21:02.852 --> 01:21:06.712
+And even for the state that is enriched after the junction, the
+
+1396
+01:21:06.772 --> 01:21:10.292
+OPC-like cells, we can go deeper into this and look at specific
+
+1397
+01:21:10.392 --> 01:21:13.952
+markers, and we see that almost all of them are changing
+
+1398
+01:21:14.032 --> 01:21:17.612
+significantly. So even for a given cell state,
+
+1399
+01:21:18.072 --> 01:21:21.652
+we see more subtle changes in the degree of differentiation
+
+1400
+01:21:22.132 --> 01:21:25.052
+as cells move from the white matter to the gray matter.
+
+1401
+01:21:26.512 --> 01:21:30.032
+And so to summarize the analysis in glioma, we see two different
+
+1402
+01:21:30.072 --> 01:21:33.692
+behaviors. We see in high-grade cases, as well as in GBM,
+
+1403
+01:21:34.112 --> 01:21:37.352
+that hypoxia and necrosis appear to organize the tumor.
+
+1404
+01:21:37.932 --> 01:21:41.672
+But in low-grade cases where there is almost no hypoxia and necrosis,
+
+1405
+01:21:42.212 --> 01:21:45.772
+it seems like residual brain parenchymal structures are
+
+1406
+01:21:45.852 --> 01:21:49.532
+organizing the tumor. And specifically, this junction
+
+1407
+01:21:49.572 --> 01:21:52.452
+between the white and gray matter serves
+
+1408
+01:21:53.692 --> 01:21:56.092
+as a barrier for the growth of the tumor.
+
+1409
+01:21:56.152 --> 01:21:59.792
+And around this barrier we see significant changes in the
+
+1410
+01:21:59.812 --> 01:22:03.392
+composition of cell types and cell states, and specifically the
+
+1411
+01:22:03.452 --> 01:22:07.372
+OPC-like cells are the ones that appear to be most capable
+
+1412
+01:22:07.412 --> 01:22:08.412
+of migrating
+
+1413
+01:22:09.292 --> 01:22:13.042
+along this border, which is very consistent with the ability of
+
+1414
+01:22:13.092 --> 01:22:16.492
+OPC-like cells to migrate during development.
+
+1415
+01:22:19.712 --> 01:22:23.472
+So now I want to switch from glioma to head and neck cancer.
+
+1416
+01:22:23.792 --> 01:22:27.712
+So also in head and neck cancer, we see specific cell states that are
+
+1417
+01:22:27.772 --> 01:22:29.672
+commonly observed in many tumors.
+
+1418
+01:22:29.732 --> 01:22:32.232
+Here I'm showing just one tumor as an example.
+
+1419
+01:22:33.132 --> 01:22:36.512
+These main cell states include cell cycle related states,
+
+1420
+01:22:36.832 --> 01:22:40.192
+stress states, states reflecting epithelial
+
+1421
+01:22:40.252 --> 01:22:41.752
+differentiation and senescence.
+
+1422
+01:22:42.132 --> 01:22:45.692
+And one state that I'm going to come back to because it's particularly
+
+1423
+01:22:45.712 --> 01:22:49.692
+important clinically is a state that resembles epithelial
+
+1424
+01:22:49.732 --> 01:22:53.032
+to mesenchymal transition with dementin,
+
+1425
+01:22:53.112 --> 01:22:56.332
+podoplanin, TGF-beta responsive genes, and others.
+
+1426
+01:22:56.872 --> 01:22:59.332
+Now, this is a very partial form of EMT.
+
+1427
+01:22:59.412 --> 01:23:02.912
+The cells do not lose expression of epithelial markers.
+
+1428
+01:23:03.012 --> 01:23:06.792
+They also do not gain expression of canonical EMT
+
+1429
+01:23:06.872 --> 01:23:09.752
+factors like SNAI, ZEB, and Twist.
+
+1430
+01:23:10.932 --> 01:23:13.832
+But this partial EMT is still
+
+1431
+01:23:13.892 --> 01:23:17.632
+associated with metastasis as well as
+
+1432
+01:23:17.712 --> 01:23:19.772
+with poor overall survival.
+
+1433
+01:23:21.772 --> 01:23:25.332
+So we applied Visium as well as Codex to
+
+1434
+01:23:25.532 --> 01:23:28.752
+28 head and neck cancer samples covering different
+
+1435
+01:23:29.812 --> 01:23:31.692
+sites and different genetic classes.
+
+1436
+01:23:32.372 --> 01:23:35.672
+And again, with the Visium data, we are able to
+
+1437
+01:23:35.712 --> 01:23:39.512
+identify all of the main patterns that we expect to see in those
+
+1438
+01:23:39.592 --> 01:23:42.452
+tumors directly from the Visium data.
+
+1439
+01:23:42.492 --> 01:23:46.352
+We divide the spots into the malignant spots, those where we see
+
+1440
+01:23:46.432 --> 01:23:50.312
+a strong signal for chromosomal aberrations, and to the
+
+1441
+01:23:50.352 --> 01:23:52.692
+non-malignant spots where we don't see this signal.
+
+1442
+01:23:53.732 --> 01:23:57.392
+And again, overall, we see high consistency between the single-cell
+
+1443
+01:23:57.472 --> 01:24:01.432
+data and the spatial data. But there was one interesting exception,
+
+1444
+01:24:01.992 --> 01:24:05.492
+which is that in the malignant spots, we see a
+
+1445
+01:24:05.532 --> 01:24:09.292
+program that we call the inflammatory response that
+
+1446
+01:24:09.312 --> 01:24:13.132
+consists primarily of genes that are often
+
+1447
+01:24:13.172 --> 01:24:17.152
+cytokines and chemokines that we know from the single-cell data are
+
+1448
+01:24:17.192 --> 01:24:20.772
+expressed not by the cancer cells, but actually by myeloid cells,
+
+1449
+01:24:20.992 --> 01:24:23.132
+either macrophages or neutrophils.
+
+1450
+01:24:24.682 --> 01:24:28.532
+So this indicates, and we can validate this with the Codex data,
+
+1451
+01:24:28.572 --> 01:24:32.472
+that there is a strong colocalization of cancer cells with
+
+1452
+01:24:32.572 --> 01:24:36.541
+myeloid cells that are active and produce many cytokines and
+
+1453
+01:24:36.612 --> 01:24:37.272
+chemokines.
+
+1454
+01:24:38.452 --> 01:24:41.232
+And I will get back to this program later on.
+
+1455
+01:24:42.232 --> 01:24:46.162
+So next, we wanted to better understand the organization of head and
+
+1456
+01:24:46.162 --> 01:24:49.832
+neck tumors. So again, we asked about the colocalization of these
+
+1457
+01:24:49.872 --> 01:24:52.232
+different cell states and cell types.
+
+1458
+01:24:52.312 --> 01:24:56.252
+And what we saw, unlike glioma, is a global division into
+
+1459
+01:24:56.352 --> 01:25:00.132
+immune-rich compartments, stromal-rich compartment, and cancer-rich compartment.
+
+1460
+01:25:00.212 --> 01:25:04.052
+Again, with this exception of inflammatory response of myeloid
+
+1461
+01:25:04.112 --> 01:25:07.892
+cells embedded in the region that is mostly cancer-rich.
+
+1462
+01:25:09.232 --> 01:25:12.952
+And next, we wanted to better understand the organization within the cancer
+
+1463
+01:25:13.032 --> 01:25:16.812
+compartment. So we defined another analysis that we called
+
+1464
+01:25:17.192 --> 01:25:20.888
+a zonation analysis.In this case, every spot
+
+1465
+01:25:21.028 --> 01:25:25.008
+that is dominated by immuno stromal cells is considered
+
+1466
+01:25:25.408 --> 01:25:29.328
+in the non-epithelial zone. After that, all the spots that
+
+1467
+01:25:29.348 --> 01:25:32.928
+are dominated by cancer cells but are bordering the
+
+1468
+01:25:32.968 --> 01:25:36.148
+non-epithelial zone are considered as the tumor edge.
+
+1469
+01:25:36.908 --> 01:25:40.768
+The spots that are dominated by cancer cells and that then border
+
+1470
+01:25:40.988 --> 01:25:44.948
+the tumor edge are the mid-tumor. And finally, the spots
+
+1471
+01:25:45.008 --> 01:25:48.808
+dominated by cancer cells that are only bordering the mid-tumor are
+
+1472
+01:25:48.868 --> 01:25:52.108
+called the core of the tumor. And so basically, we are
+
+1473
+01:25:52.128 --> 01:25:55.988
+dividing all the spots based on how far away they are
+
+1474
+01:25:56.228 --> 01:26:00.088
+from the stromal regions. And here you see an example
+
+1475
+01:26:00.128 --> 01:26:02.388
+of how it applies to one specific tumor.
+
+1476
+01:26:04.108 --> 01:26:08.088
+So we apply this to all of the tumors, and then we can ask for every cell state,
+
+1477
+01:26:08.168 --> 01:26:10.958
+how is it distributed across these different zones.
+
+1478
+01:26:11.288 --> 01:26:15.188
+And I'm going to focus on the analysis of this partial EMT that I
+
+1479
+01:26:15.248 --> 01:26:18.988
+highlighted a few slides ago.
+
+1480
+01:26:19.168 --> 01:26:22.828
+So here you see in black the overall pattern of partial
+
+1481
+01:26:22.908 --> 01:26:26.448
+EMT across all samples, and the thinner lines in the background
+
+1482
+01:26:26.528 --> 01:26:28.608
+correspond to individual tumors.
+
+1483
+01:26:28.748 --> 01:26:32.328
+So you can see that the average pattern doesn't really reflect what's happening
+
+1484
+01:26:32.748 --> 01:26:36.388
+in individual tumors. And the individual tumors can actually
+
+1485
+01:26:36.468 --> 01:26:39.228
+be separated into two main patterns.
+
+1486
+01:26:39.468 --> 01:26:43.448
+In some samples, we see EMT enriched at the edge of the tumor,
+
+1487
+01:26:43.668 --> 01:26:46.648
+and this is consistent with a lot of literature about EMT.
+
+1488
+01:26:47.128 --> 01:26:51.088
+But then in other samples, we see EMT mostly enriched
+
+1489
+01:26:51.108 --> 01:26:55.028
+at the core of the tumor. And we could validate this by staining for
+
+1490
+01:26:55.068 --> 01:26:58.668
+LAMC2, which is a top marker for this partial EMT
+
+1491
+01:26:58.678 --> 01:27:02.128
+program. And importantly, when we analyze multiple
+
+1492
+01:27:02.608 --> 01:27:06.328
+samples of the same tumor, we see that this result is
+
+1493
+01:27:06.368 --> 01:27:10.268
+highly consistent. If a tumor has EMT at the edge in one sample,
+
+1494
+01:27:10.348 --> 01:27:14.068
+it's usually going to have the same pattern in other samples of the same
+
+1495
+01:27:14.108 --> 01:27:14.428
+tumor.
+
+1496
+01:27:15.928 --> 01:27:17.848
+So this suggests that we are seeing two different
+
+1497
+01:27:18.768 --> 01:27:22.728
+subtypes of tumors. And so we asked what else is different between them.
+
+1498
+01:27:23.218 --> 01:27:26.548
+And some of the main differences that we saw include more
+
+1499
+01:27:26.588 --> 01:27:30.548
+lymphocytes in tumors with EMT at the edge and
+
+1500
+01:27:30.608 --> 01:27:34.328
+more of this inflammatory response, more of these myeloid
+
+1501
+01:27:34.368 --> 01:27:38.288
+cells in tumors where EMT is at the core of the tumor.
+
+1502
+01:27:38.808 --> 01:27:42.768
+And this suggests that perhaps this inflammatory response might be
+
+1503
+01:27:42.788 --> 01:27:45.948
+inducing partial EMT at the core of the tumor.
+
+1504
+01:27:46.528 --> 01:27:47.648
+So to ask this, we
+
+1505
+01:27:48.948 --> 01:27:52.668
+went back to this colocalization analysis, but now we
+
+1506
+01:27:52.768 --> 01:27:55.748
+cleaned each of the edges based on whether this
+
+1507
+01:27:56.008 --> 01:27:59.828
+colocalization is seen in all samples or whether it's seen
+
+1508
+01:27:59.908 --> 01:28:03.108
+only in cases where EMT is at the core or at the edge.
+
+1509
+01:28:03.768 --> 01:28:07.198
+And what we see is that partial EMT actually has two opposing
+
+1510
+01:28:07.268 --> 01:28:10.968
+interactions. When the EMT is located at the edge of the
+
+1511
+01:28:10.988 --> 01:28:14.948
+tumor, it's colocalized with the fibroblast, as you see with the
+
+1512
+01:28:15.008 --> 01:28:18.988
+yellow edge. And when partial EMT is located at the core of
+
+1513
+01:28:19.028 --> 01:28:22.788
+the tumor, it's instead colocalized with this inflammatory
+
+1514
+01:28:22.828 --> 01:28:26.808
+response. And this suggests that there might be two different mechanisms
+
+1515
+01:28:26.908 --> 01:28:30.768
+for microenvironment-based induction of partial
+
+1516
+01:28:30.788 --> 01:28:34.408
+EMT. And we search for potential ligand receptor
+
+1517
+01:28:34.468 --> 01:28:36.228
+interaction that might explain this.
+
+1518
+01:28:37.288 --> 01:28:41.068
+The top prediction from the fibroblast was TGF-beta, which is, of
+
+1519
+01:28:41.148 --> 01:28:44.108
+course, a well-known inducer of partial EMT.
+
+1520
+01:28:44.908 --> 01:28:48.498
+And for the inflammatory response, the top prediction was oncostatin M.
+
+1521
+01:28:50.088 --> 01:28:53.928
+So next, we treated two different head and neck cancer cell lines with
+
+1522
+01:28:53.968 --> 01:28:57.748
+both oncostatin M and TGF-beta. And we saw that
+
+1523
+01:28:57.808 --> 01:29:01.788
+both of these cytokines indeed are able to induce many
+
+1524
+01:29:01.828 --> 01:29:03.328
+of the partial EMT genes.
+
+1525
+01:29:04.208 --> 01:29:07.988
+Now, TGF-beta was more effectively inducing partial EMT in
+
+1526
+01:29:08.108 --> 01:29:11.848
+this in vitro analysis. But in vivo,
+
+1527
+01:29:12.008 --> 01:29:15.988
+we see the same partial EMT program when it's at the core and
+
+1528
+01:29:16.008 --> 01:29:19.908
+at the edge, suggesting that perhaps there are other mechanism and that
+
+1529
+01:29:19.948 --> 01:29:23.108
+there is convergence to the same partial EMT program.
+
+1530
+01:29:25.408 --> 01:29:28.828
+So to summarize, we see in head and neck cancer a global division to
+
+1531
+01:29:28.868 --> 01:29:32.828
+immune-rich, stroma-rich, and cancer-rich compartment with this exception
+
+1532
+01:29:32.908 --> 01:29:35.908
+of myeloid cells in the cancer-rich compartment.
+
+1533
+01:29:37.308 --> 01:29:39.488
+We see two main patterns of partial EMT.
+
+1534
+01:29:39.968 --> 01:29:43.448
+At the edge, it seems to be induced by fibroblasts, and at the core of the
+
+1535
+01:29:43.488 --> 01:29:47.017
+tumor, we believe that this might be induced by the myeloid cells and
+
+1536
+01:29:47.128 --> 01:29:50.728
+specifically by oncostatin M. And in those
+
+1537
+01:29:50.788 --> 01:29:54.528
+cases, we see an even lower amount of T cells and B
+
+1538
+01:29:54.608 --> 01:29:58.548
+cells, suggesting that perhaps EMT at the core of the tumor might
+
+1539
+01:29:58.608 --> 01:30:01.468
+have a stronger effect of immunosuppression.
+
+1540
+01:30:02.988 --> 01:30:06.768
+So right now we are trying to better understand what determines the separation
+
+1541
+01:30:06.828 --> 01:30:10.668
+into patients with EMT at the edge and those with EMT at the core,
+
+1542
+01:30:11.228 --> 01:30:13.728
+and whether that would have any clinical implications.
+
+1543
+01:30:13.788 --> 01:30:14.528
+For example,
+
+1544
+01:30:15.328 --> 01:30:18.818
+it's easy to imagine that EMT at the core might have a stronger
+
+1545
+01:30:18.968 --> 01:30:22.608
+immunosuppressive effect, going back to what I mentioned about
+
+1546
+01:30:22.748 --> 01:30:25.718
+lower amount of lymphocytes. And perhaps EMT at the
+
+1547
+01:30:26.088 --> 01:30:30.058
+edge might be more clearly linked to invasion and
+
+1548
+01:30:30.088 --> 01:30:33.808
+metastasis. So this is some of the questions that we are trying to answer now.
+
+1549
+01:30:35.968 --> 01:30:39.048
+So finally, I want to thank everyone that contributed to this work.
+
+1550
+01:30:39.608 --> 01:30:43.258
+In my lab, the glioma work was led by Alisa, Reuven, and
+
+1551
+01:30:43.308 --> 01:30:47.188
+Noam, and this was a great collaboration with Mario
+
+1552
+01:30:47.268 --> 01:30:49.568
+Suva's lab and specifically with Chris Mount.
+
+1553
+01:30:50.448 --> 01:30:50.728
+And
+
+1554
+01:30:51.588 --> 01:30:55.328
+the work on head and neck cancer was led by Dor Simkin in my lab,
+
+1555
+01:30:55.768 --> 01:30:59.268
+together with Sid Pouram's lab and specifically with Tom
+
+1556
+01:30:59.328 --> 01:31:01.788
+Barrett. And thank you again for listening.
+
+1557
+01:31:07.948 --> 01:31:09.168
+All right. Thank you.
+
+1558
+01:31:11.368 --> 01:31:14.508
+Well, I guess you can email your questions to Yitai,
+
+1559
+01:31:15.428 --> 01:31:17.748
+and thank you for joining this session.

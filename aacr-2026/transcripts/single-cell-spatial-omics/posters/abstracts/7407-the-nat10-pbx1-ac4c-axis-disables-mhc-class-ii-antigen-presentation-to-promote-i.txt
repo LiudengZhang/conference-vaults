@@ -1,0 +1,17 @@
+# The NAT10-PBX1 ac4C axis disables MHC Class II antigen presentation to promote immune&#8209;cold cholangiocarcinoma
+
+**Poster #**: 7407
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Kai Luo1, Yuhan Fang2, Yinzhao Chen2, Yuting Zhao2, Jialin Qu3, Dong Shang3, Caiming Xu4, Guixin Zhang1
+
+1The Second Hospital of Dalian Medical University, Dalian, China,2Institute (College) of Integrative Medicine, Dalian Medical University, Dalian, China,3The First Affiliated Hospital of Dalian Medical University, Dalian, China,4Beckman Research Institute of The City of Hope, Monrovia, CA
+
+---
+
+Background: Intrahepatic cholangiocarcinoma (ICC) is an aggressive malignancy with poor prognosis, partly driven by an inherently immune-cold tumor microenvironment. N4-acetylcytidine (ac4C) is a conserved RNA modification that regulates RNA stability and translation, and NAT10-mediated ac4C remodeling has been implicated in tumor metastasis and immune cell infiltration. Here, we investigate how ac4C modification promotes ICC progression and immune evasion to identify potential therapeutic vulnerabilities.
+Methods: We quantified ac4C modification and NAT10 expression in ICC using publicly available cohorts and clinical tissue samples, and performed single-cell transcriptomic profiling to investigate the impact of NAT10 expression on immune cell infiltration. CRISPR-Cas9-based genetic manipulation of NAT10 in ICC cell lines and mouse models enabled functional interrogation of its contribution to tumor initiation and progression. Mechanistic insights were obtained through an integrated multi-omics and molecular approach, including RNA-seq, acRIP-seq, CUT&#38;Tag, RIP, ChIP, FISH, dual-luciferase reporter assays and RNA stability assays.
+Results: We found that both ac4C modification and NAT10 expression were significantly elevated in ICC tissues compared with adjacent non-tumor tissues (P < 0.05). Clinically, high NAT10 expression was associated with shorter mOS (17.3 vs 26.7 months; log-rank P = 0.021). In cellular models, NAT10 knockdown reduced ac4C levels and ICC cell proliferation (EdU-positive HUCCT1 and RBE cells decreased by 11.7% and 15.6%, respectively) and impaired invasion and metastasis, with Transwell migration reduced by 45.2% and 38.7%. In vivo, NAT10 knockout suppressed tumor growth in murine xenografts; tumor volumes were reduced by 67% (P < 0.05). Mechanistically, NAT10 knockdown diminished ac4C modification on PBX1 mRNA, leading to reduced mRNA stability and downregulation of PBX1 protein. PBX1 was identified as a transcriptional repressor of CIITA: NAT10 silencing increased CIITA expression via PBX1 downregulation, subsequently elevating transcript and protein levels of MHC class II genes. Conversely, PBX1 overexpression reversed these effects. Single-cell transcriptomic analysis demonstrated that ICC tumors with high NAT10 expression exhibited reduced infiltration levels of CD4&#8314;/CD8&#8314; T cells, which was validated by multiplex immunofluorescence and flow cytometry in murine models.
+Conclusion: Our study reveals that NAT10 promotes ICC progression and immune exclusion by ac4C-modifying PBX1 to repress the CIITA-MHC class II pathway, thereby limiting T-cell infiltration. Targeting NAT10 may restore antigen presentation and improve immunotherapy responsiveness in ICC.

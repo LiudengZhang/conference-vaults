@@ -1,0 +1,18 @@
+# CTHRC1-TGFb crosstalk between myofibroblasts and tumors drives invasion in early-stage lung adenocarcinoma
+
+**Poster #**: 6047
+**Session**: Fibroblasts as Architects of the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Abhilasha Sinha, SEUNGYEUL YOO, Nanzeeba Faraby, Thinh Nguyen, Hideo Watanabe, Alexander Tsankov, Jun Zhu, Charles A. Powell
+
+Icahn School of Medicine at Mount Sinai, New York, NY
+
+---
+
+Background Despite significant improvements in lung cancer detection, lung cancer remains leading cause of cancer related deaths in both men and women in United States. This is due to high heterogeneity in tumor microenvironment (TME). Cancer associated Fibroblasts (CAFs) are essential components of TME and are associated with tumor progression. Recently, single-cell RNA profiling of LUAD tumors has identified heterogenous CAF subpopulations. However, their role in early-stage tumor invasion is largely unclear.
+Methods We performed unsupervised clustering of 53 esLUAD tumors and examined their association with invasiveness. We investigated enrichment of pro-invasive and indolent signatures and key drivers of the invasive subnetworks (Sinha and Yoo 2022) in different cell populations from 3 LUAD scRNA seq datasets and spatial gene expression dataset from Kras/TP53 (KP) tumors. We co-cultured conditioned media (CM) from human lung fibroblasts (HLF) and LUAD cells (HCC78 and HCC2209) and used techniques such as immunofluorescence, ELISA, co-culture migration/invasion assay, neutralization assays and bulk RNA sequencing to investigate crosstalk between cancer cells and myofibroblasts.
+Results Unsupervised clustering of 53 esLUAD tumors identified four groups (G1-G4), capturing a linear progression of invasiveness which correlated with their histology. Key drivers of COL1A2 subnetwork, COL1A1 and CTHRC1, were significantly upregulated in G2 (LPA) vs G1 (AIS/MIA), indicating early ECM activation. Invasiveness programs were localized to tS2 tumor cells and myofibroblast subsets. Within fibroblasts, CTHRC1+ CAFs exhibited higher COL1A2 subnetwork scores than CTHRC1- CAFs and normal fibroblasts in all 3 LUAD scRNA seq datasets. Spatial analysis of KP tumors displayed focal Cthrc1 and high pro-invasion/COL1A2 programs in Tgfbr2-KO. Our in vitro data revealed that exposure to LUAD cells CM transforms fibroblasts into myofibroblasts leading to elevated CTHRC1 secretion. The CM from myofibroblasts induced significant increase in migration and invasion phenotype in LUAD cells, which was attenuated on blocking TGFb signaling. Our RNA seq data revealed that exposure to CM from
+myofibroblasts induces EMT signature in LUAD cells. Additionally, exposure to recombinant CTHRC1 to HCC78 LUAD induced increased migration and invasion phenotype and enrichment of Wnt/ b-Catenin signaling.
+Conclusion Taken together, our data indicates that Tgfb-CTHRC1 crosstalk between LUAD tumors and myofibroblast plays important role in development of invasive features in esLUAD tumors. This data suggests the clinical importance of myofibroblast in LUAD invasiveness and potential value of CTHRC1 as target for combination therapy for invasive esLUAD tumors.

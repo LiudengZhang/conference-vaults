@@ -1,0 +1,16 @@
+# Identification of oncohistone-dependent changes in chromatin accessibility and the tumor microenvironment in a new inducible and reversible H3.3K27M mouse model of diffuse midline glioma (DMG)
+
+**Poster #**: 199
+**Session**: Inflammation and Cancer Progression
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Mostafa M. H. Ibrahim1, Niloofar Khairkhah1, Sienna L. Galban2, Megan Faunce1, Yue Zhao3, Stefanie Galban1
+
+1Department of Radiology, University of Michigan Medical School, Ann Arbor, MI,2Davidson School of Chemical Engineering, Purdue University, West Lafayette, IN,3Gilbert S. Omenn Department of Computational Medicine and Bioinformatics, University of Michigan Medical School, Ann Arbor, MI
+
+---
+
+Tumor recurrence remains a major obstacle to the successful clinical management of H3K27M-altered diffuse midline glioma (DMG), a pediatric high-grade tumor arising in the brain stem. Currently available therapies do not prevent tumor recurrence, observed in nearly all treated patients. A desperate need remains to understand epigenetically, H3K27M-driven gene expression and the remodeling of the tumor immune/stromal microenvironment to prevent tumor recurrence.
+Here, we introduce new inducible and reversible H3.3 and H3.1K27M cell and mouse models of DMG that enable the evaluation of the biological effects on tumor growth and recurrence of oncohistone expression, and at the same time, the characterization of changes in the microenvironment and epigenome upon H3K27M activation, inactivation and re-activation. Tetracycline-inducible and reversible PiggyBac-based expression vectors for H3.3K27M and H3.1K27M were utilized to engineer patient- and murine-derived DMG cell and in vivo models. Inducibility and reversibility of H3K27M in cells and tumors was validated by live cell flow cytometry for fluorescent marker expression and intracellular flow cytometry and western blotting for expression of the oncohistone. We detected characteristic morphological changes and repression of astrocytic markers upon H3K27M re-expression in KO cells. Furthermore, decrease in tumor growth upon oncohistone expression was observed in DMG in vivo models using bioluminescence imaging, providing proof-of-concept for inhibiting oncohistone expression in progressing tumors. In addition, we demonstrated changes in chromatin accessibility between ON, OFF and OFF-ON cells and importantly, identified mechanisms of immunosuppression through regulation of PD1 in the ON and OFF-ON groups, providing rationale for future targeted therapies. Single-cell RNA sequencing (scRNA-seq) of tumors in ON and OFF groups showed a complex TME that is modulated by expression of the oncohistone.
+In conclusion, these newly developed iH3.3 and H3.1K27M cell and mouse models are ideal to study oncohistone dependent pathobiological consequences, as they allow controlled expression of the oncohistone in physiologically relevant and immune proficient settings. Furthermore, they lend themselves to comparative studies between H3.3 and H3.1 expression in DMG. Our studies will provide future strategies for targeting immune and stromal compartments with the potential to prevent tumor recurrence and inform the feasibility of future CRISPR editing strategies for targeting the oncohistone directly.

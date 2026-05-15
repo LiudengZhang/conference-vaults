@@ -1,0 +1,12 @@
+# Targetable gene dependencies in Ewing sarcoma subtypes
+
+**Poster #**: 1413
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Dusan Pesic1, Josh Nash1, Timmy Wen1, Pedro Lemos Ballester1, Livia Garzia2, Olivier Delattre3, David Malkin1, Adam Shlien11Dept. of Genetics & Genome Bio., The Hospital for Sick Children, Toronto, ON, Canada,2McGill University, Montreal, QC, Canada,3Institute Curie, Paris, France
+
+---
+
+Ewing sarcoma (EwS) is a bone and soft tissue cancer primarily driven by a FET::ETS fusion protein, most commonly EWS::FLI1. While localized tumors have a five-year survival rate of 70-80% with multimodal treatment, the prognosis for relapsed or metastatic disease remains dismal, with survival rates below 30%. This underscores the urgent need for improved prognostic markers and innovative therapeutic strategies. Using an unsupervised hierarchical clustering approach - RACCOON - we identified three distinct transcriptional subtypes of EwS: EWS::FLI1-high, mesenchymal-like, and muscle-like. The muscle-like group, potentially arising from myofiber infiltration, formed a separate cluster, while the remainder of the cohort was distributed along a continuum of transcriptional states between the EWS::FLI1-high and EWS::FLI1-low/mesenchymal extremes. The same variability in these two transcriptional programs was observed at single-cell resolution and across commonly used preclinical EwS models. Subtype classification in clinical cohorts revealed significant survival differences, with mesenchymal-like tumors showing the poorest prognosis (<35% five-year overall survival) and the highest metastatic potential. An in vivo experiment in patient-derived xenografts (PDXs) reinforced these findings, as mesenchymal-like tumors exhibited significantly greater metastatic potential. Additionally, functional genomics data from CRISPR-screened cell lines identified subtype-specific gene dependencies - the Fanconi anemia pathway emerged as a promising therapeutic target for EWS::FLI1-high tumors, while mesenchymal-like tumors showed reliance on distinct transcriptional regulators. By integrating transcriptomic profiling with functional genomics, this study highlights the biological and clinical heterogeneity of EwS, offering novel insights into its molecular underpinnings and paving the way for personalized treatment strategies tailored to specific transcriptional subtypes.

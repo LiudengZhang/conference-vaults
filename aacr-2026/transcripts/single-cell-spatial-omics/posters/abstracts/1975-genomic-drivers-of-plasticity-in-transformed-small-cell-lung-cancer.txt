@@ -1,0 +1,21 @@
+# Genomic drivers of plasticity in transformed small cell lung cancer
+
+**Poster #**: 1975
+**Session**: Genomic Drivers of Cancer Pathogenesis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Swanand Rakhade, Mamie Wang, Lena Morrill Gavarró, Emmanuel Spanos, Alvaro Quintanal-Villalonga, Amin Sabet, Parvathy Manoj, Rishika Giri, Ronan Chaligné, Xinjun Wang, Helena A. Yu, Esther Redin, Dana Pe'er, Charles M. Rudin, Joseph Chan
+
+Memorial Sloan Kettering Cancer Center, New York, NY
+
+---
+
+Background:
+An emerging mechanism of resistance to targeted therapies in lung cancer is the lineage switch from lung adenocarcinoma (LUAD) to a neuroendocrine (NE) histology, the most aggressive subtype being small cell lung cancer (SCLC). In EGFR-mutant tumors, concurrent TP53/RB1mutations are enriched in transformed tumors, but the mechanisms underlying transformation remain poorly defined. We present a single-cell atlas of transformed (T)-SCLC and identify genomic and transcriptional drivers of NE transformation.
+Methods:
+We curated a cohort of 97 T-SCLC, 777 de novo SCLC, and 10,140 LUAD patients from a single institution, with mutational profiling performed using MSK-IMPACT. A subset of 47 tumors from 24 patients with transformed or admixed LUAD-SCLC histology underwent 10x single-cell RNA sequencing compared to 10 EGFR/TP53/RB1-mutant LUAD (triple-mut), 17 de novo SCLC, and 4 normal lung samples, yielding ~140,000 cells. Analysis was performed using scanpy, scVI, CellRank, Palantir, SPECTRA, and GSEApy.
+Results:
+Among stage IV patients, we observed worse median overall survival (OS) in EGFR-wt T-SCLC (9.70 mos) and de novo SCLC (10.22 mos) compared to EGFR-wt LUAD (19.33 mos) and EGFR-mut T-SCLC (27.58 mos). T-SCLC showed a higher mean mutational burden (12.4 mut/Mb) compared to LUAD (6.7 mut/Mb) and de novo SCLC (9.0 mut/Mb). TP53 and RB1 were the most common mutations in both T-SCLC and de novo SCLC. Only 38% of T-SCLC had EGFR mutations. Mutation enrichment differed by genotype. EGFR-mut tumors displayed higher rates of NFKB1, NKX2-1, FOXA1, CARD11, ELF3, RRAS2, and MDM4 mutations. EGFR-wt T-SCLC tumors were enriched in MYC, KRAS, KEAP1, CDKN2A, SF3B1, CCND1, and FGF3 mutations. PI3K/AKT pathway alterations were enriched across both EGFR-wt and EGFR-mut T-SCLC compared to de novo SCLC. Single-cell analysis revealed enrichment of MYC, PI3K/AKT, chromatin remodeling, and stemlike gene programs in T-SCLC, especially early in transformation. We identified a basal-like signature highly active in LUAD immediately prior to transformation that was previously unrecognized in patients. The basal-like signature persisted in T-SCLC samples that had the highest intratumoral heterogeneity. A subset of triple-mut LUAD also expressed the basal-like signature, indicating a potential &#8216;pre-transformation&#8217; stage. We observed trajectories leading to alternative squamous and mesenchymal fates as well.
+Discussion:
+Our data show that NE transformation is shaped by interplay between genotype and underlying transcriptional rewiring. While EGFR-mut and EGFR-wt tumors display differential mutational patterns, they converge on PI3K/AKT activating mutations and a shared basal-like precursor state, which primes tumors for transformation to NE, squamous, and mesenchymal fates. Our study underscores the clinical need to better understand NE transformation and highlights potential therapeutic vulnerabilities.

@@ -1,0 +1,14 @@
+# Delineating genomic instability dynamics in breast cancer by bulk and single-cell whole genome sequencing
+
+**Poster #**: 1992
+**Session**: Genomic Drivers of Cancer Pathogenesis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Konstantinos L. Georgiadis, Sen Li, Thomas Hatschek, Theodoros Foukakis, Nicola Crosetto
+
+Karolinska Institutet, Stockholm, Sweden
+
+---
+
+The aim of this study is to chart the evolution of genomic instability in response to treatment in hormone receptor-positive/HER2-negative (HR+/HER2-) breast cancer, the most prevalent breast cancer subtype, comprising approximately 70% of cases. Copy number alterations (CNAs) are a hallmark of aggressive HR+/HER2- tumors and have been proposed as prognostic biomarkers; however, their temporal dynamics during therapy remain insufficiently characterized. Here, we utilized tissue biopsies collected in the context of the PREDIX Luminal B clinical trial (NCT02603679), which aims to evaluate the role of paclitaxel chemotherapy versus the combination of endocrine treatment with the CDK4/6 inhibitor palbociclib in the neoadjuvant setting. We conducted bulk whole genome sequencing (WGS), whole exome sequencing (WES) and RNA sequencing of tissue biopsies (n = 169 patients) collected before and after treatment. In a subset of the study cohort, we also performed single-cell WGS (n = 15 patients, 8,387 cells) on samples before and after each treatment modality. Bulk sequencing data analysis and correlation with clinical outcomes indicated candidate genomic regions linked to therapeutic response, including arm-level gains and losses selectively enriched in post-treatment samples of patients who responded to treatment. Integration with RNA-sequencing data revealed gene-dosage relationships on amplified or deleted chromosomal regions and highlighted genes with potential functional impact. Moreover, single-cell WGS further resolved the subclonal architecture of these tumors, indicating that most patients exhibit limited subclonal complexity. Neoadjuvant treatment reshaped the tumor genomic landscape through expansion or contraction of pre-existing subclones rather than emergence of new subclones. Correlation of response to treatment with subclonal shift patterns demonstrated that non-responding tumors display pronounced alterations in their subclonal composition whereas responding tumors present heterogeneous patterns of subclonal dynamics. Our findings suggest that interpatient variability in treatment response is driven by clonal remodeling of pre-existing subclones rather than de novo subclone generation, and that recurrent CNAs may serve as predictive biomarkers of neoadjuvant treatment efficacy.

@@ -1,0 +1,12 @@
+# Morphology-aware profiling of highly multiplexed tissue images using variational autoencoders
+
+**Poster #**: 5500
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Gregory J. Baker1, Edward Novikov1, Shannon Coy2, Yu-An Chen1, Clemens Hug1, Zergham Ahmed1, Sebastian A. Cajas Ordonez3, Siyu Huang3, Clarence Yapp1, Gaurav N. Joshi4, Fumiki Yanagawa4, Artem Sokolov1, Hanspeter Pfister3, Sandro Santagata2, Peter K. Sorger11Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA,2Harvard Medical School/Brigham and Women's Hospital, Boston, MA,3Harvard John A. Paulson School of Engineering and Applied Sciences, Harvard University, Boston, MA,4Nikon Instruments, Inc., Cambridge, MA
+
+---
+
+Spatial proteomics (highly multiplexed tissue imaging) provides unprecedented insight into the types, states, and spatial organization of cells within preserved tissue environments. To enable single-cell analysis, high-plex images are typically segmented using algorithms that assign marker signals to individual cells. However, conventional segmentation is often imprecise and susceptible to signal spillover between adjacent cells, interfering with accurate cell type identification. Segmentation-based methods also fail to capture the morphological detail that histopathologists rely on for disease diagnosis and staging. Here, we present a method that combines unsupervised, pixel-level machine learning using autoencoders with traditional segmentation to generate single-cell data that captures information on protein abundance, morphology, and local neighborhood in a manner analogous to human experts while overcoming the problem of signal spillover. The result is a more accurate and nuanced characterization of cell types and states than segmentation-based analysis alone. We demonstrate the generality of this technique by applying it to a range of whole-slide, highly multiplexed human tissues acquired using platforms such as cyclic immunofluorescence (CyCIF), Lunaphore COMET, and Akoya PhenoCycler, and show that it can learn histological features across multiple spatial scales.

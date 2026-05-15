@@ -1,0 +1,17 @@
+# Genetic characterization of disseminated tumor cells of historical cryo-preserved bone marrow samples from primary breast cancer patients
+
+**Poster #**: 3762
+**Session**: Circulating Tumor Cells, Metastasis, and Dissemination Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Anne Rohloff1, Rui Pedro Lousa Das Neves1, Christiane Driemel1, Daniel Doerr2, Oliver Hoffmann3, Rainer Kimmig3, Nikolas Hendrik Stoecklein1, Sabine Kasimir-Bauer3
+
+1Department of General, Visceral and Pediatric Surgery, University Hospital Duesseldorf, Duesseldorf, Germany,2Department of Endocrinology and Diabetology, University Hospital Duesseldorf, Duesseldorf, Germany,3Department of Gynecology and Obstetrics, University Hospital Essen, Essen, Germany
+
+---
+
+Background: Metastatic relapse is the leading cause of death in patients with hormone receptor-positive, HER2-negative primary breast cancer (BC). While some patients experience late relapse after more than 10 years, others relapse within 3-7 years, yet the biological mechanisms underlying this variability remain poorly understood. Disseminated tumor cells (DTCs) in the bone marrow (BM) are hypothesized to represent a clinically occult reservoir driving metastatic progression. In this study we characterized genomic alterations of DTCs to define their clonal relationship to matched primary tumors (PTs) and distinguish genomic features contributing to early versus late relapse.
+Methods: Our study is based on a cohort of cryopreserved BM samples collected at diagnosis from 600 BC patients treated between 2006 and 2012 with more than 12 years of follow-up. From this cohort, we selected BM samples previously diagnosed as DTC-positive using a standardized immunocytochemistry assay. For this study, we established a workflow to detect and isolate DTCs from cryopreserved BM using the CellSearch&#174; system. After thawing, up to 20 Mio mononuclear cells per sample were processed with CellSearch&#174; for the detection of EpCAM&#8314;/DAPI&#8314;/CK&#8314;/CD45&#8315; DTCs (CS-DTCs). Individual CS-DTCs were subsequently isolated, and their whole genomes were amplified using adapter-linker PCR. Low-pass next-generation sequencing (NGS) was performed to assess copy-number alterations (CNAs).
+Results: Thus far, we detected and isolated CS-DTCs in 31/35 BM samples previously diagnosed as DTC-positive. In our initial CNA analysis, 75% of CS-DTCs displayed aberrant copy-number profiles characteristic of BC, whereas matched white blood cells showed normal genomic profiles. In one patient analyzed to date, we isolated 16 CS-DTCs demonstrating a shared clonal CNA pattern, however, individual CS-DTCs also harbored private CNAs. Additional BM samples and the corresponding PTs are currently being processed to enable direct comparison of DTCs with their matched primaries.
+Conclusions: Our preliminary results demonstrate that this CellSearch&#174;-based workflow enables reliable detection, isolation, and genomic characterization of single DTCs from long-term cryopreserved BM samples. This approach provides a robust platform for exploring clonal relationships between DTCs and PTs. The overall aim is to uncover mechanisms underlying minimal residual disease and relapse in BC.

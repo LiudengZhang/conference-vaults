@@ -1,0 +1,17 @@
+# Patient-derived uveal melanoma organoids reveal HLA-I-restricted tumor antigens and tumor-reactive T cells
+
+**Poster #**: 6982
+**Session**: Novel Models of Immunotherapy Response
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Alexander Lim, Wei Tian, Zhuoning Li, Mara Monetti, Alexander Noor Shoushtari, James Smithy, Samuel Tischfield, Mark Donoghue, David A. Scheinberg, Chenyang Zhan
+
+Memorial Sloan Kettering Cancer Center, New York, NY
+
+---
+
+Background: Uveal melanoma (UM) is a rare but aggressive melanoma subtype with limited response to immune checkpoint inhibitors. Identifying tumor-specific or associated antigens and tumor-reactive T cells is critical to advancing precision immunotherapy. Patient-derived tumor organoids (PDOs) offer a physiologically relevant ex vivo model to study tumor-immune interactions and to uncover novel therapeutic targets.
+Methods: PDOs were established from fine-needle aspiration biopsies of five patients with metastatic UM. HLA-I-restricted immunopeptidomes were successfully characterized in three PDOs through immunoprecipitation of HLA-peptide complexes followed by mass spectrometry (MS). Identified peptides were matched against the UniProt human reviewed database. Dissociated tumor cells from one PDOs were treated with IFN-&#947; to enhance antigen presentation and then co-cultured with autologous peripheral blood mononuclear cells (PBMCs) for sequential stimulations over four weeks. After a third stimulation, CD8&#8314; T cells were analyzed by flow cytometry and subjected to single-cell RNA and paired V(D)J sequencing using the 10x Genomics platform to define phenotypes and clonotypes of activated T cells. Tumor-reactive TCR clonotypes were identified, and their CDR3&#946; sequences were analyzed using the TCRMatch tool in the IEDB database to assess sequence homology and potential antigen specificity.
+Results: Immunopeptidomic analysis identified 3,628, 6,735, and 10,407 unique 8-11mer peptides across three PDOs. Shared tumor-associated antigens (TAAs) included CSPG4, TYRP1, SLC45A2, OCA2, PMEL, TYR, MLANA, and SOX10. T-cell activation assays demonstrated that 12.3% of CD8&#8314; T cells exhibited HLA-I-dependent activation upon restimulation with autologous PDOs, which was abrogated by HLA-I blockade. Single-cell RNA sequencing of CD8&#8314; T cells in the co-culture revealed activated cytotoxic clusters unique in the restimulated cells, characterized by high expression of CD137, GZMH, MIR155HG, PKM, and LAG3. TCR clonotype analysis using TCRMatch identified candidate tumor-reactive TCRs possibly recognizing PMEL, MART-1, and MAGEA10.
+Conclusions: This study demonstrates the feasibility of using PDOs from metastatic UM to define the HLA-I-restricted immunopeptidome and to identify tumor-reactive T-cell clonotypes through autologous PDO-PBMC co-culture. The integration of immunopeptidomics with single-cell RNA/TCR sequencing provides a robust framework for mapping patient-specific tumor-immune interactions. Identified TAAs and tumor-reactive TCRs represent potential biomarkers and targets for next-generation precision immunotherapies, including personalized tumor vaccines and TCR-based adoptive cell therapies.

@@ -1,0 +1,12 @@
+# 6-thio-dG enhances standard-of-care radiation therapy by reprogramming the tumor microenvironment in glioblastoma multiforme
+
+**Poster #**: 7191
+**Session**: Targeted Radiopharmaceuticals and Combination Strategies in Cancer Therapy
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Anthony Alexander Grichuk1, Merve Yilmaz1, Summer Barron1, Priya Darbha1, Shannon  M.  McCabe2, Jerry  W.  Shay3, Kristin Huntoon41Cell Biology, UTSW, Dallas, TX,2Neurosurgery, University of Arizona, Tucson, AZ,3Professor, Dept. of Cell Biology, UT Southwestern Medical Ctr., Dallas, TX,4UA faculty member, Neurosurgery, University of Arizona, Tucson, AZ
+
+---
+
+Background/Objectives - Glioblastoma multiforme (GBM) remains highly lethal, with a five-year survival rate of only 6.9%. Standard-of-care treatments such as ionizing radiation (IR) and temozolomide frequently fail to produce durable responses due to poor drug penetration across the blood-brain barrier (BBB) and the immunosuppressive tumor microenvironment (TME). 6-thio-2′-deoxyguanosine (6-thio-dG) is a telomerase-mediated telomere-targeting guanine analog that induces telomeric DNA damage selectively in telomerase-positive tumor cells. This process activates the cGAS-STING pathway, triggers innate and adaptive immune responses and has previously resensitized resistant tumors to immunotherapy in a Phase 2 NSCLC clinical trial. We hypothesized that 6-thio-dG penetrates the BBB and enhances the therapeutic efficacy of IR by reprogramming the GBM TME.Methods - GBM models were treated with 6-thio-dG alone, IR alone, or sequential 6-thio-dG followed by IR. Immune signaling, microglia/macrophage phenotypes, and tumor responses were assessed via molecular, histological, and functional analyses.Results - Sequential 6-thio-dG + IR treatment significantly increased type I interferon (IFN-I) activation and shifted microglia/macrophages toward a pro-inflammatory M1 phenotype. This TME reprogramming resulted in a statistically significant anti-tumor effect relative to monotherapy.Conclusions - 6-thio-dG enhances IR efficacy in GBM by inducing telomere-driven immune activation and promoting an anti-tumor TME. These findings support 6-thio-dG as a promising adjuvant to standard-of-care and justify further investigation of telomere-targeted combination strategies.

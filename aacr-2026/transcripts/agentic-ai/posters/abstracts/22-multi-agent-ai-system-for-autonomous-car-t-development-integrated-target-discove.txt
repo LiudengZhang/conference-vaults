@@ -1,0 +1,12 @@
+# Multi-agent AI system for autonomous CAR-T development: Integrated target discovery, toxicity prediction, and rational molecular design for cancer immunotherapy
+
+**Poster #**: 22
+**Session**: Agentic AI in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Yi Ni, Liwei ZhuBio LIMS INC, Boston, MA
+
+---
+
+Background: Chimeric antigen receptor T-cell (CAR-T) therapy has achieved remarkable success in hematologic malignancies, yet only 6 products have gained FDA approval since 2017, with target selection and toxicity remaining critical bottlenecks. Conventional pipelines require 8-12 years with 40-60% failure rates due to inadequate validation or safety liabilities. Notable clinical setbacks underscore urgent need for autonomous systems predicting safety risks before costly trials.Methods: We developed Bio AI Agent, a multi-agent AI system powered by large language models enabling autonomous CAR-T development. The architecture comprises six agents: (1) Target Selection for antigen prioritization, (2) Toxicity Prediction integrating tissue atlases and pharmacovigilance databases, (3) Molecular Design for modular CAR engineering, (4) Patent Intelligence for freedom-to-operate analysis, (5) Clinical Translation for regulatory guidance, and (6) Decision Orchestration for multi-agent coordination. Agents communicate through shared knowledge base with vector database and natural language interfaces.Results: Retrospective validation demonstrated autonomous capabilities across key stages. Target assessment streamlined 3-4 month workflows to rapid processing. Toxicity prediction accurately identified problematic targets through expression profiling and adverse event analysis. Patent intelligence flagged infringement risks enabling compliant design strategies. Molecular design demonstrated systematic optimization with real-time prediction. Decision orchestration generated comprehensive roadmaps spanning validation, pathway development, and clinical translation.Conclusions: Bio AI Agent addresses critical CAR-T development gaps through intelligent collaboration across target discovery, safety prediction, and molecular optimization. Autonomous identification of liability targets with mitigation strategies demonstrates potential for reducing attrition and improving safety. Multi-agent architecture enables parallel processing and specialized reasoning superior to monolithic systems. As CAR-T expands into solid tumors, autonomous platforms will be essential for accelerated precision oncology.

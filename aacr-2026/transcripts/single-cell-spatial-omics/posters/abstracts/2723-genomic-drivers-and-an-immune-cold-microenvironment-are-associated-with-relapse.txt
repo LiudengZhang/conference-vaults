@@ -1,0 +1,20 @@
+# Genomic drivers and an immune-cold microenvironment are associated with relapse in Chinese pediatric B-ALL
+
+**Poster #**: 2723
+**Session**: Integration of Clinical and Research Data
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Dan Yu1, Yanni Hu2, Xue Tang3, Junlin Wang1, Junwen Wang1, Jianwen Xiao2
+
+1Faculty of Dentistry, The University of Hong Kong, Hong Kong, Hong Kong,2Department of Haematology and Oncology, Children's Hospital, Chongqing Medical University, Chongqing, China,3Department of Hematology and Oncology, Shenzhen Children's Hospital, Affiliated to Shantou University Medical College, Shenzhen, China
+
+---
+
+Background: Relapse remains a major challenge in pediatric B-cell Acute Lymphoblastic Leukemia (B-ALL). This study aims to identify the specific genomic and cellular markers that drive treatment failure and are associated with relapse and poor Event-Free Survival (EFS) in Chinese pediatric B-ALL patients.
+Methods: We performed an integrated multi-omic analysis on a cohort of 105 Chinese pediatric B-ALL patients, including 13 EFS Event (relapse plus died) cases. The cohort was profiled using ultra-deep gene panel sequencing (N=87), single-cell RNA-sequencing (scRNA-seq, N=52), and VDJ-sequencing (N=40). We integrated genomic, transcriptomic, and immune repertoire data to identify biomarkers associated with relapse and EFS. Associations were tested using Fisher's Exact Test, the Wilcoxon rank-sum test, and Cox regression.
+Results: Our scRNA-seq and VDJ-seq analyses revealed the cellular landscape of relapse. We found a positive correlation between B-ALL blast proportion and BCR clonality and a negative correlation between T-cell proportion and TCR clonality (p=0.041). Notably, relapsed patients showed a higher BCR clonality but a highly polyclonal TCR repertoire, suggesting immune failure.
+We identified that mutations in a curated panel of ALL-Drivers was significantly associated with relapse status (p=0.033) and a higher B-ALL blast percentage (p=0.013). And the higher ALL-Drivers VAF burden phenotype correlates with relapse status (p=0.006).
+The non-relapse patients were found exhibited an &#8220;immune-hot" phenotype, characterized by significantly higher T-cell exhaustion and cytotoxicity scores (p<0.001). This state of active immune engagement is associated with PD-1/PD-L1 pathway. Relapse was associated with an "immune-cold" state, lacking this active T-cell engagement.
+Finally, survival analysis and KM plot confirmed the prognostic significance of these findings. The presence of an ALL-Driver is significantly associated with poor Event-Free Survival (p=0.021).
+Conclusion: Our findings reveal a biological pathway to poor prognosis. ALL-Drivers are linked to a high B-ALL blasts burden. This high-risk state is strongly correlated with patient relapse and is characterized by an "immune-cold" microenvironment, defined by the absence of the PD-L1 mediated T-cell exhaustion and cytotoxicity signature seen in non-relapsed patients.

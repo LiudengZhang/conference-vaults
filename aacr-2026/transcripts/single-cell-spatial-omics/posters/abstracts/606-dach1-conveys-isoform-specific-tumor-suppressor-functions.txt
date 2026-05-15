@@ -1,0 +1,19 @@
+# DACH1 conveys isoform specific tumor suppressor functions
+
+**Poster #**: 606
+**Session**: Tumor Suppressors
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kenneth  A.  Iczkowski1, Zhiping Li2, HIdetoshi Mori3, Danni Li2, Samiha Nasser4, Csaba Kerepesi5, Andras Benczur5, Hallgeir Rui6, Ritika Harish2, Xuanmao Jiao2, Fred Saad7, Richard  G.  Pestell2
+
+1Pathology and Laboratory Medicine, University of California- Davis, Sacramento, CA,2Pennsylvania Cancer and Regenerative Medicine Research Center, Baruch S. Blumberg Institute, Wynnewood, PA,3University of California-Davis, Davis, CA,4The Ohio State University Wexner Medical Center, Columbus, OH,5Institute for Computer Science and Control (SZTAKI), Hungarian Research Network (HUN-REN), Budapest, Hungary,6Thomas Jefferson University, Philadelphia, PA,7University of Montreal, Montreal, ON, Canada
+
+---
+
+Introduction. DACH1 is expressed in renal glomerular podocytes and distal tubules. DACH1 has been described as either a tumor suppressor or oncogene, with increased or decreased abundance depending upon the tissue type. Recent studies showed that poor outcome of prostate cancer was correlated with the deletion of the DACH1 gene, within the 13q21 region, and prostate-specific deletion promoted prostatic intraepithelial neoplasia in prostate onco-mice. DACH1 generates several splice variant isoforms with a common carboxyl (C) terminus that cross-reacts with commercially available antibodies.
+Methods. We characterized the function of three DACH1 isoforms. We developed a DACH1a isoform-specific antibody. We assessed DACH1a variant vs. DACH1 common C terminal immune reactivity in prostate cancer. Analysis included patient gene expression, tumor histology, tissue culture, and tissue-specific gene knockout transgenic mice.
+Findings. Expression of DACH1a inhibited AR activity. DACH1a inhibited DNA synthesis and indicators of EMT, contrasting with the effects of DACH1b and DACH1c.
+Compared to normal tissue, DACH1 expression was reduced in urogenital cancer (kidney cancer (chromophobe, clear cell, papillary) and testicular germ cell), sarcomas, and lung cancer, but increased in acute leukemia, lymphoma, colon and ovarian tumors. The relative levels of expression of the three isoforms of DACH1 (DACH1a, 1b, 1c), however, varied substantially between cancer types. The C terminal antibody cross-reacted with each isoform-generated DACH1 protein.
+Monoclonal DACH1a specific antibody, which detected DACH1a in the kidney glomerular podocyte and distal tubule, showed a substantially different subcellular distribution to C terminal antibody immune reactivity in benign prostate vs. cancer. We conducted quantitative immunofluorescence at a single cell level using the opal multi-fluorophore technology, using the DACH1a specific antibody and additional DACH1a candidate interactors. Immunofluorescent staining of DACH1a showed reduced staining in prostate cancer compared to adjacent benign tissue.
+Conclusions. Functional analysis shows DACH1 conveys isoform-specific tumor suppressor functions. Since the DACH1a isoform conveys specific and distinct functions, compared to other DACH1 isoforms, DACH1a isoform specific analysis may be required to predict patient outcome.

@@ -1,0 +1,14 @@
+# Resolving telomere length dynamics in breast cancer evolution through single-cell DNA sequencing
+
+**Poster #**: 1920
+**Session**: Cell Cycle
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Nicolaas Baudoin, Lei Yang, Chenling Tang, Hanghui Ye, Kaile Wang, Jianzhuo Li, Yun Yan, Nicholas E. Navin
+
+UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Telomeres serve as a critical tumor-suppressive barrier by limiting the accumulation of genomic mutations through two checkpoints: replicative senescence and telomere crisis. Cells that bypass senescence and enter telomere crisis experience rampant chromosomal instability driven by end-to-end fusions and mitotic defects, which typically results in cell death. Rare cells that activate a telomere maintenance mechanism (e.g., telomerase) can re-lengthen telomeres, escape crisis, and stabilize their genome while potentially leveraging transient instability to fuel punctuated copy number evolution and tumorigenesis. Despite their importance in replicative mortality and maintaining genomic stability, the dynamics of telomere length during tumor evolution remain poorly understood due to limited longitudinal patient samples and technical challenges in telomere measurement, which often require large input material and lack compatibility with multiomic profiling. To overcome these barriers, we developed a method to infer telomere length from single-cell DNA sequencing and multiomic data. We validated this approach in cell lines and applied it to study the telomere length dynamics in ER-positive (N = 7) and ER-negative (N = 14) breast tumors with unprecedented resolution. Our analysis revealed substantial telomere length changes during subclonal diversification, highlighting telomere dynamics as a key feature of breast tumor evolution. Phylogenetic reconstruction uncovered tumor-specific patterns of telomere length evolution, which may have clinical implications. Furthermore, we found that telomere length variation among subclones was associated with differences in fitness and telomere maintenance pathway activity. This work introduces a powerful tool to interrogate telomere biology directly in patient tumors at single-cell resolution, providing new insights into the role of telomere dynamics in cancer evolution and laying the foundation for future studies to clarify the biological and clinical significance of telomere regulation in cancer

@@ -1,0 +1,14 @@
+# Fibroblast-driven IGF1 signaling suppresses CD44 and promotes tumor cell senescence at the invasive front of colorectal cancer
+
+**Poster #**: 6007
+**Session**: Senescence and Cell Stress
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Tae Jun Park1, Hee Young Kang1, Jang Hee Kim1, Seok Yun Kang1, Hyun Woo Lee1, Sang Wun Kim2, Hong Seok Kim3, Soon Sang Park1
+
+1Ajou University School of Medicine, Suwon, Korea, Republic of,2Yonsei University College of Medicine, Seoul, Korea, Republic of,3Inha University School of Medicine, Incheon, Korea, Republic of
+
+---
+
+Senescent tumor cells are cancer cells that undergo cell-cycle arrest in response to diverse intrinsic and extrinsic stresses. In our previous study, we observed that senescent tumor cells are preferentially enriched at the invasive front of colorectal cancer, where they display a marked global reduction in CD44 expression&#8212;including both standard and variant isoforms&#8212;an important hyaluronic-acid receptor associated with stress tolerance and redox resistance. Single-cell RNA-seq-based ligand-receptor interaction analysis revealed that senescent tumor cells are highly active in both sending and receiving intercellular signals. Among these, IGF1-IGF1R signaling between fibroblasts and senescent tumor cells was prominently upregulated.Mechanistically, activation of IGF1R triggered downstream AKT signaling, which suppressed CD44 transcription in tumor cells. Loss of CD44, a major regulator of cellular oxidative stress buffering, led to increased intracellular ROS levels. Elevated ROS subsequently downregulated DNMT1 expression, resulting in reduced methylation of the p16INK4a promoter and robust induction of p16INK4a, thereby driving tumor cells into a senescent state. Consistent with this mechanism, in vitro treatment with recombinant human IGF1 or co-culture with fibroblasts induced AKT activation, decreased CD44 levels, increased ROS, and ultimately promoted p16 expression.Together, these findings identify a previously unrecognized tumor-stromal crosstalk in which fibroblast-derived IGF1 activates the IGF1R-AKT-CD44-ROS-DNMT1-p16INK4a axis to promote tumor cell senescence at the invasive front. This stromal-driven process suggests that the invasive front is not merely a region of physical invasion but an active signaling niche where fibroblasts dictate tumor cell fate. Our study highlights this signaling cascade as a key regulatory mechanism shaping senescence, redox biology, and phenotypic plasticity in colorectal cancer progression.

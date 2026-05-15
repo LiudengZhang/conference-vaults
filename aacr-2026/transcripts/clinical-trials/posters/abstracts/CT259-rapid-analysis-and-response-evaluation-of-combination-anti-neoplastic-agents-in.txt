@@ -1,0 +1,12 @@
+# Rapid analysis and response evaluation of combination anti-neoplastic agents in rare tumors (RARE CANCER) trial (RARE 3): Tiragolumab + Atezolizumab
+
+**Poster #**: CT259
+**Session**: Phase II Clinical Trials
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Amanda Walker1, Naoko Takebe2, Murielle Hogu2, Sarah  J.  Shin2, Jared Foster3, Andre De Souza2, Lamin Juwara4, Katherine  V.  Ferry-Galow5, Ralph  E.  Parchment5, Laura Kuhlmann2, Helen  X.  Chen6, James  H.  Doroshow2, Alice  P.  Chen2, Jibran Ahmed21National Heart, Lung & Blood Institute, National Institutes of Health, Bethesda, MD,2Division of Cancer Treatment and Diagnosis, National Cancer Institute, National Institutes of Health, Bethesda, MD,3Biometric Research Program, National Cancer Institute, National Institutes of Health, Bethesda, MD,4Clinical Research Directorate Frederick National Laboratory for Cancer Research, Frederick, MD,5Leidos Biomedical Research, Inc., Frederick National Laboratory for Cancer Research, Frederick, MD,6Cancer Therapy Evaluation Program Division of Cancer Treatment and Diagnosis, National Cancer Institute, National Institutes of Health, Bethesda, MD
+
+---
+
+Background: Rare tumors (incidence 1.25 standard deviation increase from baseline.Results: Twelve pts were enrolled from 9/26/23 to 8/18/25. Median age was 60.5 years (range 19-71); pt population was 75% female, 83.3% White, and median number of prior systemic therapies was 3 (range 0-9). As of 11/3/25, the highest treatment-emergent adverse events (AEs), reported in 9 pts, were grade 3. Treatment-related AEs included lymphopenia, Guillain-Barré syndrome, pruritus, maculopapular rash, myositis, and diarrhea. Nine pts were assessed for response including stable disease (SD) in 6 pts (50%) (3 with SD ≥6 cycles; including adrenocortical carcinoma, chromophobe renal carcinoma, perivascular epithelioid cell tumor), and progressive disease in 3 pts. One pt discontinued treatment for clinical progression; 2 were not evaluable due to not starting treatment and consent withdrawal after 1 cycle. Median PFS was 4.29 months (interquartile range, 2.29-8.97). Eight paired biopsies are currently being assessed.Conclusion: The study closed early due to sponsor decision. There was no unexpected toxicity. Ongoing analyses are assessing the impact of treatment on intratumoral CD8⁺ T cells and other PD markers, and their association with clinical activity to inform future studies. Funded by NCI Contract No. HHSN261201500003I.

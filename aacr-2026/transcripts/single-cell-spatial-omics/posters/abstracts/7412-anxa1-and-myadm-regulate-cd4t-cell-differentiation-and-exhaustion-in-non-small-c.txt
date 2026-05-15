@@ -1,0 +1,17 @@
+# ANXA1 and MYADM regulate CD4+T cell differentiation and exhaustion in non-small cell lung cancer (NSCLC)
+
+**Poster #**: 7412
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Minyeop Kim1, Youwon Lee1, Seung Yeon Oh2, Eun Ji Lee1, Ji Ae Ko1, Jihyoung Mun1, Byoung Chul Cho1, Mi Ran Yun1
+
+1Yonsei University College of Medicine, Seoul, Korea, Republic of,2Yonsei University College of Medicine SBSI, Seoul, Korea, Republic of
+
+---
+
+Introduction: CD4+ T cells have primarily been known for their helper function with the tumor microenvironment (TME), and recent studies have demonstrated their ability to directly exert cytotoxic activity against tumor cells. Despite this functional potential, their cytotoxic activity can be compromised by exhaustion within the immunosuppressive TME. Therefore, preventing CD4+ T cell exhaustion may be critical for promoting an anti-tumor immune responses. In this study, we aimed to identify potential target that contribute to CD4+ T cell exhaustion in the TME.
+Method: To analyze CD4+ T cell in NSCLC, we performed single-cell RNA sequencing (scRNA-seq) on samples from 83 lung adenocarcinoma (LUAD) patients using the 10X genomic platform. After excluding B cells, lymphoid populations were annotated by canonical marker genes as CD8&#8314; T cells, CD4&#8314; T cells, NK cells, and proliferating cells. Subsequently, CD4&#8314; T cells were re-clustered to identify functional subtypes. Differential gene expression and pathway analyses were than performed to characterize the molecular feature of each cluster.
+Result: CD4+ T cells were identified as 10 distinct clusters and further categorized into early, intermediate, and late states based on state-specific marker gene expression. Clusters within the same state showed high transcriptional similarity. Interestingly, the tissue-resident memory (TRM) cluster (intermediate state), and ITGAE+ Tfh-like clusters (late state) exhibited notable transcriptional similarity despite representing different functional states. Pathway enrichment analysis revealed that both clusters share certain effector and adhesion-related features, with TRM displaying stronger effector functions. In contrast, ITGAE&#8314; Tfh-like cells appeared more exhausted. Consistent with this, TRM cells were enriched in normal tissues, whereas ITGAE+ Tfh-like cells predominated in tumors, reflecting activation- versus suppression- associated profiles. Trajectory analysis further revealed differentiation pathway from TRM cells to ITGAE&#8314; Tfh-like T cells. This transition was accompanied by reduced inflammatory response and regulation of T cell proliferation pathways, indicating progression toward an exhausted state. Notably, ANXA1, SMAD7, and MYADM were identified as key genes potentially regulating these processes, with ANXA1 and MYADM especially showing positive correlations with the T cell activation pathway as well as with each other.
+Conclusion: These findings suggest a potential differentiation of TRM into ITGAE+ Tfh like T cells, accompanied by transcriptional and functional changes indicative of progressive exhaustion. Such alterations likely contribute to the formation of an immunosuppressive TME. ANXA1 and MYADM play pivotal roles in regulating this process and may serve as potential targets for modulating T cell function in the tissue microenvironment.

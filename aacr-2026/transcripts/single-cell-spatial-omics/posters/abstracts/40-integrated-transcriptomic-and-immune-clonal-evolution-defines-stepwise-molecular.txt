@@ -1,0 +1,17 @@
+# Integrated transcriptomic and immune-clonal evolution defines stepwise molecular progression in lung adenocarcinoma
+
+**Poster #**: 40
+**Session**: Application of Bioinformatics to Cancer Biology 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kang Qin1, An Qin2, John V. Heymach3
+
+1University of TEXAS, MD Anderson Cancer Center, Houston, TX,2Loyola University of Chicago, Chicago, IL,3UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Background: Progressive immune remodeling is a hallmark of early lung adenocarcinoma (LUAD) evolution, yet the integrated transcriptional and clonal trajectories underlying this process remain poorly defined.
+Methods: Single-cell RNA sequencing (scRNA-seq) data from GSE189357 and HDAC000630 were analyzed across 33 lung samples, spanning normal to invasive adenocarcinoma. After quality control (200 < genes < 5,000; mitochondrial < 10%), 187,880 high-quality cells were processed in Seurat with Harmony integration, PCA, and clustering (resolution = 0.3). Cell types were annotated using canonical markers and CellMarker 2.0. Matched single-cell and bulk T-cell receptor (TCR) repertoires (87 samples from GSE164789) were analyzed in scRepertoire to quantify clonal expansion, diversity (Shannon, Simpson, D50), overlap, CDR3 length, rare-clone contribution, and TRBV/TRBJ gene usage.
+Results: Single-cell transcriptomics resolved 15 major cell types and revealed progressive microenvironmental remodeling. Epithelial, fibroblast, and endothelial lineages expanded from atypical adenomatous hyperplasia (AAH) to invasive adenocarcinoma (IAC), whereas cytotoxic, NK, and dendritic cells declined, indicating immune attenuation and fibrovascular dominance. Stage-specific transcriptional programs showed sequential activation of extracellular-matrix organization, angiogenesis, immune suppression, and oxidative metabolism, capturing the molecular evolution of invasion. Integrated single-cell TCR analysis revealed stage-specific immune compartmentalization and progressive loss of repertoire diversity. UMAP visualization highlighted enrichment of CD8&#8314; cytotoxic and FOXP3&#8314; regulatory T-cell clones with hyperexpanded clonotypes in advanced lesions. Clonal distributions shifted from polyclonal equilibrium in normal tissue to oligoclonal dominance in IAC. Bulk TCR profiling confirmed reduced Shannon and inverse Simpson diversity indices and expansion of high-frequency clonotypes. Clonal overlap analysis demonstrated minimal sharing across lesions, suggesting localized antigen-driven responses. Progressive CDR3 shortening and biased V-J recombination indicated convergent clonal selection along the LUAD continuum.
+Conclusions: Integrated single-cell transcriptomic and TCR analyses define a unified trajectory of LUAD evolution driven by transcriptional reprogramming, stromal expansion, and progressive immune restriction. The convergence of epithelial remodeling with oligoclonal T-cell expansion delineates early immunologic bottlenecks and highlights potential therapeutic windows for immune interception.

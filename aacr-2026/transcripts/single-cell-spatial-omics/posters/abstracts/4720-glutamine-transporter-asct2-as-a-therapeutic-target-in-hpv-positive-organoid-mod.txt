@@ -1,0 +1,17 @@
+# Glutamine transporter ASCT2 as a therapeutic target in HPV positive organoid models of HNSCC
+
+**Poster #**: 4720
+**Session**: Metabolic Alterations in Colorectal and Gastrointestinal Cancers
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Shu-Yun Cheng, Ella Jackert, Liyang Tang, Daniel Kwon, Niels Kokot, Uttam Sinha, Yang Chai, Albert  Y.  Han
+
+University of Southern California, Los Angeles, CA
+
+---
+
+Background: Head and neck squamous cell carcinoma (HNSCC) is the sixth most common cancer worldwide, with Human Papillomavirus (HPV) - 16 infections being a cause. Previous studies have shown that glutamine is a crucial amino acid that provides carbon and nitrogen for proliferating cells. In particular, some cancer cells increase the uptake of glutamine through metabolic reprogramming. However, our understanding of glutamine metabolism and transport remains limited in HNSCC. In this study, we will be investigating glutamine transport, specifically ASCT2, in patient-derived normal tonsil organoid and HPV16-positive tonsil organoids.
+Methods: Tonsil tissue is obtained from tonsillectomy and process for organoid generation. Through mechanical and enzymatic dissociation, tonsil tissue is dissociated into single cell suspension and plated in extracellular matrices. HPV16 lentivirus is used to infect tonsil organoids and used as premalignant HPV16-positive HNSCC model. RNA of the normal tonsil and HPV+ organoids were extracted for qPCR analysis. V-9302, an ASCT2 competitive antagonist, was treated to the organoids for IC50.
+Results: In this study, the glutamine transporter, ASCT2, was investigated in patient-derived normal tonsil organoid and HPV16-positive tonsil organoids. Both organoid models exhibit ASCT2 through qPCR analysis, with HPV16-positive tonsil organoids exhibiting less ASCT2 (FC 0.64 p<0.00) than normal tonsil organoids. To see if ASCT2 can be a therapeutic target, V-9302 was treated to normal tonsil organoids and HPV16-positive tonsil organoids. V-9302 IC50 of the organoids were obtained, with HPV16-positive organoids being more sensitive (IC50: 15.37 &#956;M) than normal tonsil organoids (IC50: 20.50 &#956;M).
+Conclusion: Glutamine is an essential amino acid for cell growth and proliferation, especially in fast growing tumors. With V-9302 being more sensitive to HPV16-positive organoids, V-9302 shows the potential to be used as a therapeutic drug for HNSCC treatment. Future studies will focus on V-9302 sensitivity in patient-derived HNSCC tumor organoids.

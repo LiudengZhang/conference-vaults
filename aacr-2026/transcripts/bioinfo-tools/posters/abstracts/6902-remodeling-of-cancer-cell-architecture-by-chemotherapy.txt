@@ -1,0 +1,12 @@
+# Remodeling of cancer cell architecture by chemotherapy
+
+**Poster #**: 6902
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Gege Qian1, Xiaoyu Zhao2, Leah V. Schaffer3, Kyung-Mee Moon2, Jiahao Gao2, Emma Lundberg4, Leonard Foster2, Trey Ideker51UC San Diego School of Medicine, La Jolla, CA,23University of California San Diego - UCSD, San Diego, CA,4Schools of Engineering and Medicine, Stanford University, Stanford, CA,5UC San Diego, La Jolla, CA
+
+---
+
+How chemotherapy reshapes tumor cells—and how these changes influence outcomes such as drug resistance—remains largely unclear. Here, we present a multimodal, global characterization of tumor subcellular organization and its reorganization by chemotherapy. We use self-supervised learning to encode protein coordinates across four orthogonal data modalities: proteome-wide size-exclusion chromatography fractionation (before and after treatment with cisplatin or vorinostat), native-state immunofluorescence imaging, affinity purification, and primary sequence information covering 7,579 proteins. This integrated map resolves 174 subcellular components, spanning molecular assemblies from protein complexes to organelles across a size range of ~10-9 to10-5nm. 58 components undergo significant remodeling upon treatment, recapitulating known mechanisms of action and revealing previously unrecognized alterations in pathways such as cytoskeletal organization and metabolic rewiring. We systematically validate these “chemotherapy-response assemblies” using genome-wide CRISPR knockout drug-sensitivity profiling, identifying which assemblies confer drug sensitivity versus resistance. Chemotherapy-remodeled components serve as convergence points for cancer mutations that predict therapeutic response—including those involved in homologous recombination repair, chromatin remodeling, and double-strand break repair.

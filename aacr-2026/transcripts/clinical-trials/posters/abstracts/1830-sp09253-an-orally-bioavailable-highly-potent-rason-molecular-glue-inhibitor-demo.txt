@@ -1,0 +1,12 @@
+# SP09253, an orally bioavailable, highly potent RAS(ON) molecular glue inhibitor demonstrates robust anti-tumor activity in KRAS-mutant tumors
+
+**Poster #**: 1830
+**Session**: Quantitative Pharmacology and Translational Modeling
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Zherong Zhang, Xiaoyu Di, Qiming SunHefei Shengpu Pharmaceutical Co., Ltd., Hefei, Anhui, China
+
+---
+
+KRAS is the most frequently mutated cancer driver gene. Approximately 30% of human tumors harbor KRAS mutations, with particularly high prevalence in pancreatic, colorectal, and non-small cell lung cancers (NSCLC), among others. Patients carrying KRAS mutations often exhibit poor efficacy and low response to current clinical therapeutics. Although KRASG12C mutant-selective inhibitors have shown success in treating patients with G12C mutations, more than 85% of other “undruggable” KRAS mutations still lack effective treatment options. Next-generation KRAS inhibitors that target multiple oncogenic RAS variants while sparing wild-type RAS hold the potential to address broader indications and patient population. SP09253 is an orally bioavailable, highly potent pan-RAS molecular glue inhibitor that demonstrates robust activity against key RAS mutations including KRAS G12C, G12D, G12V, G13D, while exhibiting high selectivity over wild-type KRAS. Importantly, SP09253 exhibits more favorable ADME and PK profiles compared to positive control, and the in vivo anti-tumor efficacy of SP09253 is superior to that of a positive control, a first-in-class pan-RAS molecular glue currently undergoing Phase III clinical trial.SP09253 is a potent pan-RAS molecular glue that has been proven to selectively inhibits KRAS mutants but spares wild type KRAS. SP09253 potently inhibits ERK phosphorylation and cellular viability in KRAS mutantt cell lines in vitro. SP09253 demonstrates robust in vivo efficacy in KRAS mutant xenografts harboring different mutant types, including G12C, G12D, G12V, etc., while showcasing a favorable PK profile and oral bioavailability.

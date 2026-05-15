@@ -1,0 +1,12 @@
+# Mechanism-based trial matching reveals a 54% target alignment gap in ovarian cancer: Quantifying the precision-eligible ovarian cancer patients
+
+**Poster #**: LB340
+**Session**: Late-Breaking Research: Clinical Research 3
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Fahad KianiCrisPRO.ai, Brooklyn, NY
+
+---
+
+**Background:** Phase 2 oncology trials fail 71% of the time, partly because patients without targetable vulnerabilities are enrolled alongside those with mechanism-aligned features, diluting trial signal. Current trial navigation relies on eligibility filters (histology, stage) but does not quantify mechanism alignment between tumor profiles and drug mechanisms of action. We quantified this gap using 7-dimensional mechanism vectors (DDR, MAPK, PI3K, VEGF, HER2, IO, efflux) to represent both patient tumor profiles and trial drug mechanisms.**Methods:** Trial drugs (n=59) were manually curated with mechanism of action annotations. Patient vectors were computed from somatic mutations and pathway aggregation. Mechanism fit was calculated using magnitude-weighted similarity `(patient_vector · trial_vector) / ||trial_vector||` to prevent false positives in low-burden patients. We validated (1) mechanism discrimination using a high-DDR reference patient profile and (2) matchability prevalence in a real ovarian cancer cohort (TCGA-OV, n=585).**Results:** In a DDR-high reference profile, DDR-targeting trials (n=31) achieved mean fit of **0.874** compared to **0.038** for non-DDR trials (n=17), yielding a 23-fold discrimination ratio (Δ=0.836). Applied to 585 ovarian cancer patients (TCGA-OV), **314 patients (53.7%) lacked strong mechanism alignment** despite meeting traditional eligibility criteria—a "precision-ineligible majority." Only **271 patients (46.3%)** possessed targetable vulnerabilities aligned with current trials. Survival outcomes did not differ between groups (HR=1.122, p=0.288), as expected—TCGA patients were not enrolled via mechanism matching, validating matchability prevalence but not treatment benefit.**Conclusions:** This work reveals a **critical drug development gap**: 54% of ovarian cancer patients lack mechanism-aligned trial options. Three urgent actions: (1) **Target discovery** for underserved pathway profiles, (2) **Mechanism-based enrollment** to prevent futile trials, (3) **Transparent counseling** when fit is low. This framework protects 314 patients from wasted time, toxicity, and psychological burden while exposing a systemic pipeline deficiency.

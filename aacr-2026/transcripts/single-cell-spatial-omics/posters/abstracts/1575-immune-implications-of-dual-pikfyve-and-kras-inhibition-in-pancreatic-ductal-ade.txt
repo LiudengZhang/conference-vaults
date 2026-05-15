@@ -1,0 +1,17 @@
+# Immune implications of dual PIKfyve and KRAS inhibition in pancreatic ductal adenocarcinoma
+
+**Poster #**: 1575
+**Session**: Combination Immunotherapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Jasmine  P.  Wisniewski1, Caleb Cheng1, Rüya Pakkan1, Sydney Peters1, Gabriel Cruz2, Yuanyuan Qiao2, Costas  A.  Lyssiotis3, Arul  M.  Chinnaiyan2
+
+1University of Michigan, Ann Arbor, MI,2Pathology, University of Michigan, Ann Arbor, MI,3Molecular and Integrative Physiology, University of Michigan, Ann Arbor, MI
+
+---
+
+BackgroundPancreatic Ductal Adenocarcinoma remains one of the deadliest cancers, with an overall 5 year survival rate of 13 percent. The majority of PDAC cases are driven by mutations in KRAS, making it a critical therapeutic target. Although many KRAS inhibitors have been developed and show promise in preclinical and clinical settings as single agents, the emergence of resistance and adaptive mechanisms has highlighted the need for combinatorial therapies. We recently demonstrated that the concurrent targeting of KRAS-MAPK and the lipid kinase PIKfyve disrupts lipid homeostasis in PDAC and has potent antitumor effects, curing the majority of mice in a syngeneic orthotopic mouse model. Interestingly, PIKfyve and KRAS-MAPK inhibition independently increase MHC Class 1 surface expression and enhance effectiveness of anti-PD-1 therapy. Thus, building on these findings, we hypothesized that dual inhibition of PIKfyve and KRAS-MAPK signaling modulates the immune landscape of PDAC.
+Methods &#38; ResultsUsing a syngeneic orthotopic PDAC model, mice underwent 19 days of treatment with PIKfyve inhibitor ESK981 in combination with RAS inhibitor RMC-6236. Those that achieved a complete cure at the end-point were left untreated for 2 months, and it was observed that tumors grew back for all mice, highlighting the need for additional therapy. Notably, PIKfve or KRAS-MAPK inhibition alone increased expression of immune signaling markers MHC Class I and PD-L1, suggesting that the addition of anti-PD-1 therapy could further enhance efficacy.
+To investigate the effect of PIKfyve and RAS inhibition on the PDAC tumor microenvironment, we performed single-cell RNA sequencing on tumors harvested after 5 days of treatment with ESK981 and RMC-6236. The combination therapy resulted in an increased proportion of immune cells, particularly T and B cells, along with a decreased proportion of epithelial cells and fibroblasts, which are associated with immune evasion. These suggest that PIKfyve and RAS inhibition alter immune function and prime the microenvironment for immune therapy.
+Together, our preliminary findings suggest that the combined inhibition of PIKfyve and KRAS-MAPK exerts both direct antitumor effects and enhances the immune response in PDAC. Our goal is to build upon this strategy by leveraging its immune-enhancing effects, particularly with the addition of immune checkpoint blockade.

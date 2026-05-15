@@ -1,0 +1,16 @@
+# TLX3 represses IKZF2 to activate PI3K/AKT signaling: A novel transcriptional axis driving leukemia initiation
+
+**Poster #**: 626
+**Session**: Developmental Origins, Drivers, and Heterogeneity in Pediatric Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Gisele Rodrigues, Julie Hixon, Hila Winer, Timothy Gower, Francisco Lobo, Nathan Wong, Erica Matich, Steven Hsu, Emma Wachter, Elijah Edmondson, Maggie Cam, Caroline Andrews, Sarah Cramer, Wenqing Li, Scott Durum
+
+NIH-NCI, Frederick, MD
+
+---
+
+Background/Methods: Despite major therapeutic advances, current treatment protocols for acute lymphoblastic leukemia (ALL) remain limited by toxicity and relapse, driving efforts to develop safer and more selective therapeutic strategies. We have shown that oncogenic IL7R&#945; mutations (mutIL7R) occur in approximately 10 percent of ALL cases but require cooperating lesions to induce transformation. In a related context, IL-7R signaling pathway components are also recurrent in mixed phenotype acute leukemia (MPAL), where they frequently coincide with TLX3 dysregulation. However, the mechanism by which TLX3 cooperates with mutIL7R remains unknown.
+Results: In this study, we first show that co-expression of TLX3 and mutIL7R in murine double-negative thymocytes induces aggressive mixed-lineage leukemia within three weeks following transplantation into Rag1 knockout mice. We then integrated single-cell RNA-seq, CITE-seq, and TCR beta repertoire analysis and observed that Helios (IKZF2) is specifically downregulated by TLX3. Mechanistically, TLX3-mediated repression of IKZF2 amplifies PI3K/AKT signaling. Enforced IKZF2 expression suppressed AKT phosphorylation, whereas IKZF2 knockdown enhanced it, establishing IKZF2 as a key regulator that limits PI3K/AKT signaling downstream of TLX3 and mutant IL7R. Leukemia serial transplantation further demonstrated increasing disease aggressiveness and a lineage shift from mixed T or myeloid to B-like phenotypes, recapitulating the plasticity observed in patient MPAL.
+Conclusions: Our data identify TLX3 and mutant IL7R as cooperative drivers that reprogram transcriptional and signaling landscapes, linking lineage plasticity with oncogenic PI3K/AKT activation. Taken together, our results define the IL7R-TLX3 leukemogenic program, revealing a targetable vulnerability in TLX3-positive and mutIL7R-positive leukemias and providing a strong rationale for PI3K pathway-directed therapeutic intervention.

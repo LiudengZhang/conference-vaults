@@ -1,0 +1,14 @@
+# WREm6A Prism: Single-cell sequencing of m6A methylation expression signatures and its clinical translation in esophageal squamous cell carcinoma
+
+**Poster #**: 3200
+**Session**: Epigenetic Changes as Molecular Markers of Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Yuan Li, Zhuya Xiao, Qian Mo, Qian Wang, Caiyutian Zhang, Tian Tang
+
+RenMin Hospital of Wuhan University, Wuhan, Hubei, China
+
+---
+
+Single-cell sequencing and m6A methylation have emerged as focal points in the life sciences. Their convergence&#8212;single-cell m6A methylation sequencing&#8212;has opened a fresh vantage point, yet comprehensive characterization and translational exploitation remain limited. Leveraging existing platforms, we have devised an integrative strategy that translates the dynamic m6A circuitry into disease-oriented research. m6A methylation is catalyzed by Writers, interpreted by Readers and erased by Erasers. The steady-state abundance of the modification is therefore dictated by the balanced expression of these three determinants. We have translated this ternary logic into a visualization framework&#8212;the WREm6A Prism&#8212;by projecting Writer/Reader/Eraser transcriptomes onto a ternary phase diagram. Analogous to a prism that disperses white light into a spectrum, the Prism has decomposed single-cell m6A landscapes into interpretable, color-coded maps that integrate multi-omics dimensions. In the context of esophageal squamous-cell carcinoma (ESCC), we have generated and mapped >68 000 malignant and 21 000 micro-environmental cells onto the WREm6A Prism. Primarily, identified three conserved m6A-modulation archetypes: W-high (stem-like), R-high (differentiated), E-high (inflamed/stressed). These archetypes have been independently validated in two external cohorts using both bulk and single-cell data. Prism coordinates have proven more predictive of response to treatment than conventional expression signatures, showing promising application in the prospective selection of patients for targeted or immune combination therapy. Thus, the WREm6A Prism has been established as an intuitive, quantitative and clinically actionable model for interrogating ternary regulatory systems. It has provided a fresh perspective on ESCC biology and has offered immediate translational utilities that are now being extended to other tumour types.

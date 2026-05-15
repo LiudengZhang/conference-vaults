@@ -1,0 +1,14 @@
+# High-throughput pooled CRISPR screening with high-capacity single cell analysis of the protein kinome using a dual inducible Cas9 system
+
+**Poster #**: 490
+**Session**: Genomic Dissection to Define Novel Therapeutic Strategies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Clarence Mills1, Anna Sheydina2, Jesse Stombaugh1, Emily Feldman1, Josien Levenga1, Kevin Taylor2
+
+1Revvity, Lafayette, CO,2Revvity, San Diego, CA
+
+---
+
+Kinases are critical regulators of cellular processes such as proliferation, survival, and apoptosis. Dysregulation of kinase activity is implicated in a wide range of diseases, including autoimmune disorders, inflammatory conditions, and cancer, making kinases highly valuable therapeutic targets. Identifying clinically relevant drug targets is a foundational yet complex step in drug discovery. Genomic screening using CRISPR technology addresses this challenge by offering deep genetic insights. Traditional pooled CRISPR screens with phenotypic readouts are often limited to detecting changes that confer a fitness advantage or disadvantage or to sorting cells using proteins or intracellular components labeled with fluorescent dyes, reporters, or antibodies. Here we developed a unique, dual transcriptionally and post-translationally regulated inducible Cas9 system for rapid small-molecule induction of Cas9 with minimal background expression in the &#8220;OFF&#8221; state, allowing for precise temporal control of gene editing. We then transduced two cancer cell lines expressing the system with a guide RNA library targeting the protein kinome and employed a microfluidics-free, single cell workflow for unbiased analysis of transcriptional changes resulting from kinase-regulated signaling pathways and protein-protein interactions. This massively scalable approach facilitated the screening of 760 known protein kinases, with 99% of the guide RNA library recovered in the sequencing analysis and a median of >5000 transcribed genes detected per cell. Critically, it enabled the characterization of many kinases whose knockout do not elicit pronounced growth phenotypes. This proof of concept demonstrates the efficacy of high-throughput combinatorial CRISPR screening with high-capacity single cell analysis for kinase activity in cancer cell lines.

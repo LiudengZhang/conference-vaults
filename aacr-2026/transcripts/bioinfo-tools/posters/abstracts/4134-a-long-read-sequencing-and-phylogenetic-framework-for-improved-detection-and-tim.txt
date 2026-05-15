@@ -1,0 +1,12 @@
+# A long-read sequencing and phylogenetic framework for improved detection and timing of overlapping and repetitive somatic structural variations
+
+**Poster #**: 4134
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Anton Goretsky1, Yuelin Liu1, Ayse Keskus1, Tanveer Ahmad1, Chi-Ping Day2, Erin  K.  Molloy3, Mikhail Kolmogorov11Cancer Data Science Laboratory, National Cancer Institute, National Institutes of Health, Bethesda, MD,2National Cancer Institute, National Institutes of Health, Bethesda, MD,3Department of Computer Science, University of Maryland, College Park, College Park, MD
+
+---
+
+Despite their accuracy in identifying single nucleotide variants (SNVs), current short-read sequencing technologies struggle to resolve repetitive regions and complex structural variants (SVs), as the reads are simply too short to span such challenging genomic segments. Mapping issues in homologous regions, the high barrier to accurate phasing, and other limitations increasingly point to long-read sequencing as a method to overcome these challenges. Here we develop a computational framework for harmonization and joint analysis of different variant types in the evolutionary context. We particularly focus on structural variants, as they have significant functional consequences and play a large role in driving cancer initiation and progression. As such, we explore the application of long-reads to improve precision breakpoint calling for structural variants in highly repetitive regions, demonstrating their efficacy in resolving complex structural variants. We use this framework to profile 23 subclones of a mouse melanoma cell line, characterized with distinct growth phenotypes and treatment responses. Uniquely, our framework reveals recurrent amplifications of putative driver genes across different lineages caused by independently acquired structural variants, suggesting parallel evolution. In addition, our approach revealed gradual and lineage-specific methylation changes associated with aggressive clonal phenotypes. We show our set of phylogeny-constrained variant calls along with openly released sequencing data can be a valuable resource for the development of new computational methods.

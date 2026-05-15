@@ -1,0 +1,16 @@
+# Label-free spatial profiling of the melanoma tumor microenvironment using metasurface-enhanced Raman spectroscopy
+
+**Poster #**: 697
+**Session**: Methods to Measure Tumor Evolution and Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kai Chang1, Mamatha Serasanambati1, Feven Naba1, Priyanuj Bordoloi1, Antony Georgiadis1, Emma Wagner1, Hamish Carr Delgado1, Chih-Yi Chen1, Varun Dolia1, Baba Ogunlade1, Remi Dado1, Ariel Stiber1, Jack Hu2, Amanda R. Kirane3, Jennifer Dionne1
+
+1Stanford University, Stanford, CA,2Pumpkinsed Technologies, Inc., Palo Alto, CA,3Stanford University School of Medicine, Stanford, CA
+
+---
+
+The spatial organization of the tumor immune microenvironment (TIME) is a critical determinant of cancer progression and response to precision therapies. Understanding this complex ecosystem holds immense potential for developing diagnostics and immunotherapies. Current spatial omics methods, including transcriptomics and proteomics, however, have limited translational and clinical adoption. These methods require invasive or destructive, time-intensive protocols, are expensive, and may not always capture structural or post-translational modifications driving tumor behavior. Here, we propose a high-throughput, label-free spatial profiling method combining metasurface-driven surface-enhanced Raman spectroscopy (mSERS) and machine learning (ML) that enables holistic cell phenotyping in melanoma TIME.
+Our metasurfaces are composed of dielectric (high-index silicon nitride) nanoresonators on microscope slides optimized for 785 nm laser excitation. These slides localize Raman scattering in uniform and discretized sub-wavelength &#8220;hot-spots&#8221; that can span full tissue surface areas, all while minimizing cell heating damage. On these slides, we collect subcellular SERS maps across monoculture of TIME-relevant melanoma and immune cell lines and simplified TIME cocultures of two cell types (YUMM1.7, RAW264.7). We compare Raman spectral features against brightfield and fluorescence imaging and develop cell segmentation algorithms to isolate single-cell spectral maps. For a small cohort of FFPE patient tumors with complete, partial, and non-responses to immune checkpoint inhibitor PD-1 (nivolumab), we image and construct a melanoma tumor atlas with co-registered Raman, spatial transcriptomics, and multiplex immunofluorescence (mIF) data.
+We show enhancements of >105 over non-SERS at 10 nm above the surface and across the cell membrane. We achieve >96% differentiation accuracy across cell types and confirm spectral features associated with subcellular features (e.g. nucleus, membrane). Our segmentation algorithm correctly labels coculture cells in agreement with co-registered mIF. In our patient tumor data, we show unique nivolumab-relevant biomarkers identifiable by mSERS and not by other modalities in isolation. By extending our findings to tumor FFPE and historical clinical specimens, the implications of our all-optical approach have the potential to advance cancer knowledge, clinical biomarker efforts, and impact precision treatment decisions for cancer patients.

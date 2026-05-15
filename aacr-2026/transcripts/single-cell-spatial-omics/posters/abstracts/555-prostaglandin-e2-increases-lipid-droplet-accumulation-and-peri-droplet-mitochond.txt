@@ -1,0 +1,15 @@
+# Prostaglandin E2 increases lipid droplet accumulation and peri-droplet mitochondria population in acute lymphoblastic leukemia
+
+**Poster #**: 555
+**Session**: Targeting Mitochondria and Metabolic Vulnerabilities for Cancer Therapy
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Byourak Shabane, Cristiane Beninca, Michael Cohen, Nikole Scillitani, Ugochukwu Ihenacho, Orian Shirihai, Steven  D.  Mittelman
+
+University of California, Los Angeles, Los Angeles, CA
+
+---
+
+Acute lymphoblastic leukemia (ALL) is the most prevalent childhood cancer, representing approximately 70% of all pediatric malignancies. While some patients attain remission following intensive chemotherapy regimens, multiple demographical and biological factors have been identified that worsen treatment outcomes. Obesity, clinically defined by body mass index (BMI), has been strongly associated with reduced survival rates, increased toxicity from chemotherapy, and increased risk of relapse. Our laboratory has previously demonstrated that adipose tissue supplies free unsaturated fatty acids and amino acids to ALL cells and protects the cells from chemotherapy. To identify the mechanisms by which adipose tissue alters the metabolism of ALL, we previously performed a single-cell RNA sequencing experiment on mice to compare the gene expression profiles of ALL cells between adipose tissue and bone marrow. This experiment uncovered a potential link between adipose tissue prostaglandin E2 (PGE2) synthesis and ALL cell lipid droplet maturation. To explore this, we cocultured human BV173 and RS4-11 ALL cells in transwell inserts above human visceral adipose tissue explants obtained from UCLA&#8217;s Translational Pathology Core. Coculture with adipose tissue increased ALL cell lipid droplet-associated proteins perilipin (PLIN) 2 and 5 gene and protein expression (n=4-8). We next treated ALL cells with PGE2 (200ng/mL) and observed increased gene and protein expression in PLIN2 and PLIN5 (n=3-4). Confocal imaging confirmed that PGE2 induced lipid droplets in human ALL cell lines, along with peri-droplet mitochondria, a specialized subset of mitochondria known to promote lipid droplet synthesis. We hypothesize that adipose tissue PGE2 induces ALL cell lipid droplet accumulation and peri-droplet mitochondria formation and that these may contribute to protecting ALL cells from cytotoxicity.
+PLIN5 and PLIN2 gene and protein expression in human ALL cells cocultured w human adipose explantsBV173BV173BV173RS4;11RS4;11RS4;11mean +/- SD P-value nmean +/- SDP-valuenPLIN5 gene3.6±2.0 <0.0001 6 3.6±2.8 0.03 4 PLIN2 gene1.2±0.3 n.s 6 1.9±0.8n.s 4 PLIN5 protein1.3±0.2 0.01 7 1.5±0.5 0.02 8 PLIN2 protein2.3±0.6 0.002 6 2.0±0.8 0.02 8

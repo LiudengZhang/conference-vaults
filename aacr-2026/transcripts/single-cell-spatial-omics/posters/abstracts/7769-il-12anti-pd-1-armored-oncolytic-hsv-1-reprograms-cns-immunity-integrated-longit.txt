@@ -1,0 +1,17 @@
+# IL-12/anti-PD-1 armored oncolytic HSV-1 reprograms CNS immunity: Integrated longitudinal immune, genomic, and metabolic CSF profiling in the MVR-C5252 PuMP Trial
+
+**Poster #**: 7769
+**Session**: Immune Response to Therapies
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Elizabeth Owens, Kelly Hotchkiss, Stevie Threatt, Justin  T.  Low, Monika Anand, Julia Louw, Melody Goldston, Margaret  O.  Johnson, Claire Bradbury, James  E.  Herndon, Gerry  A.  Grant, David  M.  Ashley, Anoop  P.  Patel, Annik Desjardins, Michael  C.  Brown, Mustafa Khasraw
+
+Duke University School of Medicine, Durham, NC
+
+---
+
+Introduction/Rationale: Glioblastoma (GBM) remains refractory to immunotherapy and exhibits low basal IL-12 and IFN-&#947; levels relative to other solid tumors, reflecting an immunologically quiescent microenvironment. MVR-C5252 is a replication-competent HSV-1 engineered to deliver IL-12 and an anti-PD-1 antibody fragment, coupling oncolysis with Th1 polarization and localized checkpoint blockade to overcome this resistance.
+Methods: Stage 1 of PuMP (NCT06126744) assessed safety in six adults with recurrent IDH-wildtype GBM treated with a single convection-enhanced intratumoral infusion (5&#215;10&#8310; or 1&#215;10&#8312; PFU). An Ommaya reservoir enabled CSF sampling at baseline, 1 hour, and 28 days. Serial CSF single-cell RNA sequencing (scRNA-seq) assessed immune cells, and whole-genome sequencing (WGS) quantified ctDNA and viral kinetics. Liquid chromatography-mass spectrometry (LC-MS)-based metabolomics interrogated IFN-&#947;-linked tryptophan/kynurenine and arginine/NO pathways. Stage 2 (ongoing) incorporates repeat dosing via an implanted pump, and Stage 3 delivers 12 doses in a Bayesian Optimal Interval (BOIN) dose-escalation design, with the selected dose and schedule planned for expansion in Stage 4.
+Results: Six patients (3M/3F; 50-59 years; KPS 90 in 5, 80 in 1; MGMT unmethylated in 5) were treated in Stage 1. Median PFS was three months and median OS was 6.1 months, with two patients alive at last follow-up. MVR-C5252 was well tolerated (grade 1-2 only) with no PCR-detectable shedding in urine or saliva. scRNA-seq in four patients with CSF from all three timepoints yielded 14,049 high-quality cells and diverse T-cell and myeloid populations. CD8&#8314; subsets included cytotoxic and exhausted states, while CD4&#8314; subsets spanned na&#239;ve, memory, effector, and regulatory states. TAM-like microglia and macrophages were also identified. Rapid early IFN-driven activation and monocyte/dendritic-cell recruitment were observed, followed by sustained cytotoxic and myeloid remodeling at 28 days. CD8&#8314; populations showed increased effector states and fewer exhausted cells, while CD4&#8314; T-cell states spanned na&#239;ve and helper lineages. Tumor and viral genome kinetics were characterized by WGS, immune-metabolic pathways were quantified by LC-MS-based metabolomics, and integrated CSF-tumor-blood analyses will be presented.
+Conclusions: Stage 1 demonstrates safety and immunobiological activity of MVR-C5252, with a single infusion inducing immune remodeling that was not sustained. Meaningful antitumor activity is expected to require repeated intratumoral dosing, as planned in Stages 2-4. These findings establish a mechanistic human model in which localized IL-12/anti-PD-1 virotherapy shifts the tumor microenvironment from a quiescent to a Th1-polarized, cytotoxic state, providing a foundation for next-phase efficacy evaluation.

@@ -1,0 +1,21 @@
+# Spatial single-cell transcriptomic profiling reveals distinct immune and stromal landscapes across TIL/PD-L1-defined TNBC subtypes
+
+**Poster #**: 4129
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Kyungsoo Kim1, Soong June Bae2, Yoonjin Cha2, Yoonwon Kook2, Ah Yoon Kim2, Jee Hung Kim2, Sung Gwe Ahn2, Joon Jeong2
+
+1Yonsei University, Seoul, Korea, Republic of,2Gangnam Severance Hospital, Seoul, Korea, Republic of
+
+---
+
+Purpose:
+Triple-negative breast cancer (TNBC) displays marked heterogeneity in immune contexture, influencing response to immune checkpoint blockade. We aimed to characterize spatial and cellular differences among TNBC subtypes stratified by tumor-infiltrating lymphocytes (TILs) and PD-L1 expression using single-cell spatial transcriptomics.
+Experimental Procedures:
+We analyzed 36 TNBC cores using the Xenium platform (~5,000 genes per cell) and annotated major cell populations, including epithelial, fibroblast, and immune cells. Each core was classified into four TIL/PD-L1 subtypes (TIL&#8314;PD-L1&#8314;, TIL&#8314;PD-L1&#8315;, TIL&#8315;PD-L1&#8314;, and TIL&#8315;PD-L1&#8315;) based on histologic TIL density (&#8805;30%) and PD-L1 CPS (&#8805;10). Pairwise intercellular distances between tumor and stromal/immune cells were computed within a 50-&#956;m radius to quantify spatial immune exclusion and stromal remodeling.
+Results:
+Distinct spatial and transcriptional profiles were observed among subtypes. TIL&#8314;PD-L1&#8314; tumors exhibited dense immune infiltration and upregulation of antigen-presentation and T-cell activation genes in both CD4&#8314; and CD8&#8314; subsets. In contrast, TIL&#8314;PD-L1&#8315; tumors showed prominent desmoplastic stroma and reduced immune-cell proximity, accompanied by fibroblast enrichment of POSTN, FBLN1, and SFRP2, suggesting extracellular-matrix remodeling that may hinder immune infiltration. Epithelial cells in TIL&#8314;PD-L1&#8315; cores displayed higher expression of XBP1, FOXA1, and MLPH, indicating epithelial plasticity and potential immune evasion. Spatial mapping further revealed that tumor margins in TIL&#8314;PD-L1&#8315; cores contained more aggressive epithelial phenotypes than corresponding cores in TIL&#8314;PD-L1&#8314; tumors.
+Conclusions:
+Single-cell spatial transcriptomics delineated distinct immune and stromal architectures across TIL/PD-L1-based TNBC subtypes. The TIL&#8314;PD-L1&#8314; subtype represents an immune-active microenvironment, whereas the TIL&#8314;PD-L1&#8315; subtype demonstrates stromal-driven immune exclusion. These findings provide spatial evidence that combined assessment of TILs and PD-L1 can stratify TNBC patients by their potential responsiveness to immunotherapy.

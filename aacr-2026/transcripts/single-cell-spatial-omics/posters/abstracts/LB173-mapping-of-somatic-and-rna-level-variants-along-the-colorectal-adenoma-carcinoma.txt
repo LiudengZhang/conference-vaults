@@ -1,0 +1,14 @@
+# Mapping of somatic and RNA-level variants along the colorectal adenoma-carcinoma progression
+
+**Poster #**: LB173
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Dongkwan Shin, Jonghyun Lee, Juyeon Cho, Seok-Won Jang
+
+National Cancer Center - Korea, Goyang-si, Gyeonggi-do, Korea, Republic of
+
+---
+
+Colorectal cancer arises through stepwise progression of normal mucosa to adenoma and carcinoma, driven by accumulating somatic mutations and epigenetic regulation. Bulk DNA sequencing catalogs driver variants, but how they are translated at the RNA level&#8212;through allele-specific expression and RNA editing&#8212;remains unclear. Single-cell long-read RNA sequencing captures full-length, phased transcripts, enabling direct interrogation of these processes across stages.We applied scVarID, a transcript-aware framework, to single-cell long-read RNA sequencing data from normal, adenoma, and cancer colorectal tissues. Candidate variant sites were identified from long-read alignments using DeepVariant. scVarID then mapped these externally called sites onto individual molecules and cells, generating per-cell matrices of reference/alternate allele counts across isoforms. Using an RNA editing database, we annotated canonical editing events and separated likely genomic variants from RNA-level modifications.After filtering known RNA-editing sites, adenoma and carcinoma compartments exhibited stepwise accumulation of variant transcripts, and a subset of histologically normal epithelial cells already carried these adenoma-carcinoma lesions, including the known driver TMSB10. Recurrent variants showed heterogeneous transcriptional penetrance with shifts in allelic balance between premalignant and malignant epithelium, revealing stage- and cell-type-specific allele preferences in cancer-relevant genes.These analyses show that scVarID, combined with DeepVariant and RNA editing annotation, resolves how somatic and RNA variants are expressed along colorectal tumorigenesis. The framework highlights precursor epithelial states with emerging immune evasion signatures and clarifies when key mutations become transcriptionally dominant, informing studies of early tumor evolution and precision prevention.

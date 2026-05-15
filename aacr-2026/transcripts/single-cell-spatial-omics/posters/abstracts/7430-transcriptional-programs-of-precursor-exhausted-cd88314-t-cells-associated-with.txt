@@ -1,0 +1,14 @@
+# Transcriptional programs of precursor-exhausted CD8&#8314; T cells associated with checkpoint blockade response in NSCLC
+
+**Poster #**: 7430
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Ethan Daniel Littlestone, Md Roungu Ahmmad, Xiaoli Zhang
+
+University of South Florida, Tampa, FL
+
+---
+
+Immune checkpoint blockade (ICB) benefits only a subset of patients with non-small cell lung cancer (NSCLC), and the immune determinants of major pathologic response (MPR) remain incompletely defined. Recent studies suggest that precursor-exhausted CD8&#8314; T cells (Tpex) are critical for sustaining anti-tumor immunity and generating the effector pool reinvigorated by PD-1 blockade. Although Tpex cells tend to be enriched in responders, the mechanisms by which they contribute to improved therapeutic outcomes remain unclear. In this study, we profiled Tpex transcriptional states in patients with MPR versus non-responders using a publicly available single-cell RNA-sequencing dataset (GSE243013). Differential gene expression analysis revealed that Tpex cells from responders showed upregulated expression of genes involved in metal-ion homeostasis (e.g., MT2A) and adaptive stress tolerance (e.g., MTRNR2L12, SLPI, ITGA6). In contrast, Tpex cells from non-responders preferentially expressed interferon-stimulated and proliferative-stress programs (e.g., TYMS, HMOX1, LINC01480). Pathway enrichment analysis supported these findings, identifying metallothionein-associated processes in responders and enriched cytokine/interferon signaling in non-responders. Cox proportional hazard regression modeling of Tpex differentially expressed genes further demonstrated that MYB proto-oncogene like 2 (MYBL2), which was upregulated in non-responders, was associated with poorer recurrence-free survival (HR &#8776; 1.28; 95% CI: 1.12-1.44; adjusted P = 0.016). Additional genes linked to proliferative or interferon-driven dysfunction (RRM2, GEM, PKMYT1, ISG15) showed nominal associations with adverse outcomes, reinforcing the presence of a cycling, IFN-high, shift towards terminal exhaustion in patients who experienced recurrence. Taken together, our study provides important information for linking Tpex functional states to therapeutic response and disease recurrence, with potential implications for refining immunotherapy strategies in NSCLC. Generative AI assistance was used and limited to improving clarity of methodological descriptions.

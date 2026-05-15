@@ -1,0 +1,17 @@
+# Enabling transcriptome-wide single cell RNA sequencing from FFPE tissues with Evercode WT combinatorial barcoding
+
+**Poster #**: 4937
+**Session**: Novel Experimental Platforms and Causal Inference
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Aisling Sinclair, Ajay Sapre, Alec Salvino, Guillermo Gallareta-Olivares, Vuong Tran, Joey Pangallo, Gokhan Demirkan, Sam You, Charles Roco, Alexander Rosenberg
+
+Parse Biosciences, Inc., Seattle, WA
+
+---
+
+Formalin-fixed, paraffin-embedded (FFPE) tissues represent a vast and underutilized resource of patient data for retrospective and translational research. While FFPE enables long-term preservation of valuable clinical specimens, RNA degradation and fragmentation have historically hindered its compatibility with single cell RNA sequencing (scRNA seq). Currently, researchers have relied on probe-based FFPE profiling approaches and are limited to predefined target sets, restricting transcriptome coverage and discovery potential.
+Here, we introduce a novel split-pool combinatorial barcoding method for FFPE tissue that captures the full transcriptome through dual priming with both poly dT and random hexamer reverse transcription primers. This workflow extends the scalability of Parse&#8217;s single-cell technology to FFPE tissues, enabling unbiased transcriptome-wide analysis of millions of cells and hundreds of samples within a single experiment. By capturing a broad range of RNA biotypes, this approach delivers deeper insights into cellular function and disease mechanisms.
+As a proof of concept, FFPE tissues from multiple organs, including kidney, brain, lymph node, liver, and breast tumor, were processed using our novel Evercode Whole Transcriptome (WT) for FFPE assay. The resulting single cell datasets demonstrated high-resolution identification of cell types across diverse tissue types. Comparative analyses between FFPE and matched fresh frozen samples revealed concordance in gene expression patterns and cell type proportions, validating the approach&#8217;s complete capture of sample biology. In cancer samples, complex cellular biology was captured from the detection of tumor infiltrating lymphocytes to cancer associated fibroblasts.
+By enabling transcriptome wide scRNA-seq from thousands to millions of cells from FFPE-preserved tissues across hundreds of samples simultaneously, this method greatly expands access to single cell analyses of archival specimens, offering a powerful platform for translational oncology, biomarker discovery, and precision medicine research.

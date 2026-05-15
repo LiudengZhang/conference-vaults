@@ -1,0 +1,14 @@
+# Decoding the archetypes and ecotypes of triple-negative breast cancer in responses to chemotherapy
+
+**Poster #**: 6188
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yun Yan1, Yiyun Lin1, Tapsi Kumar1, Shanshan Bai1, Aatish Thennavan1, Jianzhuo Li1, Tuan Tran1, Min Hu1, Mitchell Rao1, Anna Casasent1, Elizabeth Ravenberg1, Gaiane Margishvili Rauch1, Alyson Clayborn1, Debu Tripathy1, Alastair Thompson2, Bora Lim1, Lei Huo1, Lei Huo1, Stacy Moulder1, Clinton Yam1, Nicholas E. Navin1
+
+1UT MD Anderson Cancer Center, Houston, TX,2Baylor College of Medicine, Dan L. Duncan Cancer Center, Houston, TX
+
+---
+
+Triple-negative Breast Cancer (TNBC) is an aggressive subtype of breast cancer. The pillar of treatment is chemotherapy, but only half of the patients have a complete response and good survival. To resolve inter- and intra-tumoral heterogeneity and determine their clinical associations, we performed single-cell RNA-sequencing and spatial transcriptomics experiments (including Xenium, Visium HD, and Visium) on treatment-na&#239;ve samples of TNBC patients in the ARTEMIS clinical trial. We find that TNBC is classified into 4 major archetypes at patient level: luminal secretory-like, basal-like, interferon responsive, and androgen receptor-enriched. At cell level, cancer cells exhibited intratumoral heterogeneity in 13 gene expression metaprograms. The TNBC tumor microenvironment (TME) consisted of 49 distinct immune and stromal cell states, many of which were reprogrammed relative to normal breast tissues from disease-free women. We further identified 8 ecotypes of cancer cells and TME cell states that co-occurred among patients and were associated with specific archetypes and chemotherapy response groups. Using the Xenium data, we identified 10 distinct spatial niches based on the co-localization of cancer and TME cells, including the tertiary lymphoid structure (TLS) niche, the immune-&#8216;hot&#8217; niche enriched for interferon signaling, and the EMT-associated niche characterized by the angiogenic and ECM-remodeling macrophages together with the hypoxic, EMT-related cancer cells. In contrast to previous work on T-cells, our data showed the importance of macrophage cell states and cancer cell metaprograms for interferon signaling, HLA expression and cell cycle activity that were associated with chemotherapy response. To facilitate a clinical application, we developed a 13-gene-based model of response prediction, which was validated using public TNBC cohorts. Collectively, this study provides new insights into the natural biology of untreated TNBC tumors and their association with chemotherapy response.

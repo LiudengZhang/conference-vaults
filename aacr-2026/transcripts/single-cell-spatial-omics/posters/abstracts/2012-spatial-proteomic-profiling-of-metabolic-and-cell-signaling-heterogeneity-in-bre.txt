@@ -1,0 +1,18 @@
+# Spatial proteomic profiling of metabolic and cell signaling heterogeneity in breast cancer tumor microenvironment using imaging mass cytometry
+
+**Poster #**: 2012
+**Session**: Metabolic Regulation in Breast and Gynecologic Cancers
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Qanber Raza, Nick Zabinyakov, Liang Lim, Christina Loh
+
+Standard BioTools, Markham, ON, Canada
+
+---
+
+The tumor microenvironment (TME) is a complex ecosystem of tumor and immune cells with dysregulated metabolic and signaling pathways that drive tumor heterogeneity, progression and differential treatment response. Targeting these pathways has emerged as a promising strategy to enhance immunotherapy efficacy. Imaging Mass Cytometry&#8482; (IMC&#8482;) systems, leveraging CyTOF&#8482; technology, enable simultaneous detection of >40 markers, providing scalable, high-throughput spatial characterization of the TME with true dynamic range, free from spectral overlap and autofluorescence limitations inherent to fluorescence-based approaches.
+We applied IMC technology to interrogate metabolic and signaling programs in human breast cancer using integrated antibody panels: the Human Immuno-Oncology IMC Panel (PN 201509) combined with either the Human Cell Metabolism (PN 201521) or Human Cell Signaling (PN 201522) IMC Panels. This approach enabled simultaneous assessment of energy production, cellular homeostasis and mitogenic signaling. Whole tissue sections were initially imaged in Preview Mode, followed by high-resolution analysis of regions of interest using Cell Mode or Tissue Mode to phenotype tumor and immune cells and evaluate immune activation.
+IMC technology revealed spatial heterogeneity in metabolic and signaling states within breast tumors. Tumor regions demonstrated differential energy utilization: Immune cells predominantly infiltrated areas enriched for fatty acid oxidation, whereas tumor regions with anaerobic or aerobic glycolysis corresponded to immune-excluded zones. Signaling pathway activity also varied by cell type. Elevated glycolysis and mTOR activation indicated adaptation to hypoxic and anabolic demands. Wnt signaling and PTEN expression were enriched in tumor cells, whereas MAP kinase signaling was localized primarily to stromal compartments. Unsupervised pixel-clustering and hierarchical analysis using MCD&#8482; SmartViewer further resolved region-specific metabolic and signaling heterogeneity.
+IMC systems enable comprehensive spatial profiling of metabolism and signaling in breast cancer, revealing tumor-immune interactions and intratumoral heterogeneity. This high-dimensional spatially resolved approach provides a powerful framework for identifying clinically relevant targets, informing prognostic assessments and guiding development of personalized therapeutic strategies.
+For Research Use Only. Not for use in diagnostic procedures.

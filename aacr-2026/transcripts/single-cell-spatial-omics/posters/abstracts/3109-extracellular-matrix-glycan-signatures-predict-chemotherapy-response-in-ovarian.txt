@@ -1,0 +1,17 @@
+# Extracellular matrix glycan signatures predict chemotherapy response in ovarian cancer
+
+**Poster #**: 3109
+**Session**: Overcoming Chemotherapy Resistance
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Erica  J.  Peterson1, Ryan  J.  Weiss2, James D. Hampton1, Ava  R.   S.  Beaudin1, Thomas  M.  Clausen3, Joseph  B.   M.  Turner1, Amrita Basu2, Bin Hu1, Jennifer  E.  Koblenski1, Nicholas  P.  Farrell1, Larisa Litovchick1
+
+1Virginia Commonwealth University, Richmond, VA,2University of Georgia, Athens, GA,3University of Hawaii, Honolulu, HI
+
+---
+
+Background: Ovarian cancer (OC) is a highly lethal gynecologic malignancy, most often diagnosed at advanced stages and prone to recurrence after platinum-based chemotherapy. Nearly 30% of patients exhibit platinum-resistant or refractory disease, with aggressive tumors recurring within six months. Emerging evidence implicates glycosaminoglycans (GAGs) as regulators of tumor progression and treatment response, yet their structural complexity limits accurate assessment by transcriptomic or proteomic methods alone.
+Methods: To define how GAGs influence OC biology and platinum sensitivity, we analyzed single-cell RNA sequencing and spatial transcriptomic datasets from normal ovary, primary ovarian/fallopian tube tumors, and metastatic abdominal and colonic lesions. CRISPR/Cas9 XYLT1/2 knockout was used to deplete GAGs in ovarian cancer cells, which were evaluated for morphology, proliferation, migration/invasion, and in vivo tumor behavior. To directly quantify tumor GAG composition, glycan reductive isotope labeling mass spectrometry was performed on OC patient-derived xenografts ( with known carboplatin response profiles. Complementary pharmacology studies evaluated efficacy and drug distribution of carboplatin and Triplatin, a GAG-targeting platinum agent.
+Results: Single-cell analysis revealed that fibroblasts are the predominant source of proteoglycan gene expression within the tumor microenvironment. Spatial transcriptomics analysis of precursor and invasive lesions showed these changes occur in the later stages of ovarian cancer development. XYLT1/2 knockout cells showed a shift from mesenchymal to epithelial morphology, decreased migration/invasion potential, reduced tumor dissemination and absence of ascites, and increased sensitivity to carboplatin associated with higher drug penetration into the tumor. GRIL-MS profiling of four OC PDX models identified chondroitin-4-sulfate (C4S) as the dominant tumor-associated GAG motif, with high C4S strongly correlating with carboplatin resistance. Importantly, elevated C4S reduced carboplatin efficacy but enhanced Triplatin uptake and antitumor activity. A C4S expression threshold stratified tumors by predicted response, and analysis of patient tissue microarrays showed that 40-83% of OC tumors exceed this cut-off depending on subtype.
+Conclusions: GAGs play a central role in ovarian cancer progression, dissemination, and platinum resistance. C4S is a mechanistically grounded biomarker capable of predicting differential sensitivity to carboplatin and Triplatin, supporting its integration into precision-medicine strategies and the clinical evaluation of Triplatin for patients with C4S-high, platinum-resistant ovarian cancer.

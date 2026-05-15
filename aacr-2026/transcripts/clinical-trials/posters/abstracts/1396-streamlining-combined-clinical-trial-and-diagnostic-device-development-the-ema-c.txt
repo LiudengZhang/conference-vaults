@@ -1,0 +1,12 @@
+# Streamlining combined clinical trial and diagnostic device development: The EMA COMBINE Project Pilot
+
+**Poster #**: 1396
+**Session**: Regulatory Science and Policy
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Louis-Guillaume MarquierBiotrial, Rennes, France
+
+---
+
+The EMA’s COMBINE project, is a new pilot initiative designed to streamline the regulatory assessment of trials that combine a medicinal product with an in vitro diagnostic (IVD), such as a companion diagnostic. Currently, these trials must comply with two separate EU regulatory frameworks, the Clinical Trials Regulation (CTR) for medicines and the In Vitro Diagnostic Regulation (IVDR) for diagnostics. This results in duplicative submissions, misaligned timelines, and a substantial administrative burden for sponsors. COMBINE introduces a coordinated, “all-in-one” assessment, enabling sponsors to submit one single submission through the CTIS and to receive unified information requests and approvals from EU authorities. The aim of the pilot is to evaluate whether a harmonized approach can shorten review timelines, enhance cross-country alignment between regulators and ethics committees, and to support a more efficient development of drug-diagnostic combinations. Observations generated through the pilot phase will help shape the future expansion of other possible integrated trial assessments within the EU regulatory framework. This poster provides an overview of the COMBINE project and highlights the core objectives: reducing regulatory submission complexity, supporting integrated precision-medicine development, and improving patient access to innovative therapies and diagnostics.

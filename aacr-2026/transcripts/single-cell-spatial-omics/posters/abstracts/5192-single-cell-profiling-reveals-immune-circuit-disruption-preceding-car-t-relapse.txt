@@ -1,0 +1,14 @@
+# Single-cell profiling reveals immune circuit disruption preceding CAR-T relapse in B-ALL
+
+**Poster #**: 5192
+**Session**: Adoptive Cell Therapy 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Zhouting Zhu1, Na Li2, Zhaoyang Jia2, Yufei Deng2, Lujing Wu2, Hui Hui2, Victor Wong3, Tariq M. Rana2
+
+1Graduate School of Biomedical Sciences, Sanford Burnham Prebys Institute, La Jolla, CA,2Department of Cellular and Molecular Medicine, University of California San Diego, La Jolla, CA,3Rady Children's Hospital, San Diego, CA
+
+---
+
+Chimeric antigen receptor T (CAR-T) cell therapy has transformed treatment outcomes for B-cell acute lymphoblastic leukemia (B-ALL), yet disease relapse remains a major clinical challenge. To elucidate mechanisms underlying relapse, we analyzed longitudinal single-cell RNA-seq profiles from peripheral blood mononuclear cells (PBMCs) of five B-ALL patients treated with CAR-T cells. Within total T cells, MHCII&#8314; CD8&#8314;T cells were markedly reduced at relapse, whereas naive-like CD8&#8314; T cells were enriched. Trajectory reconstruction revealed that antigen-processing and antigen-presentation pathways are critical for the transition from naive-like to MHCII&#8314; CD8&#8314; T cells. In relapsed patients, MHCII&#8314; CD8&#8314; T cells exhibited impaired progression along this trajectory and remained transcriptionally similar to the naive-like state. Within the monocyte lineage, antigen-presenting monocytes in relapsed patients skewed toward a non-classical phenotype, characterized by enhanced chemotaxis, taxis, and oxidative phosphorylation, whereas a patient who maintained remission to day 360 displayed antigen-processing, antigen-presentation, and type I interferon activation signatures. Analysis of B-ALL cells revealed that relapsed leukemic cells exhibit increased stemness, &#8220;don&#8217;t-eat-me&#8221; signaling, and immaturity scores, along with reduced mature B-cell differentiation signatures. Together, our multi-patient single-cell analysis reveals a coordinated dysregulation of monocytes, CD8&#8314; T-cell antigen presentation, and intrinsic leukemic cell states during CAR-T relapse, highlighting a potential B-ALL-monocyte-T-cell axis that may drive immune evasion and inform strategies to prevent or treat CAR-T failure.

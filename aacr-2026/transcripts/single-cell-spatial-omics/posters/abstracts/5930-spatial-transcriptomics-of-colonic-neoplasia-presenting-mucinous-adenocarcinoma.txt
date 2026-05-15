@@ -1,0 +1,14 @@
+# Spatial transcriptomics of colonic neoplasia presenting mucinous adenocarcinoma with genetically-engineered mouse model
+
+**Poster #**: 5930
+**Session**: Genetic and Transcriptomic Dissection of Cancer Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Haruki Sada1, Hiroaki Niitsu2, Hikaru Nakahara2, Masashi Miguchi3, Hirotaka Tashiro1, Hideki Ohdan4, Takao Hinoi2
+
+1Surgery, NHO Kure medical center, Kure, Japan,2Clinical and Molecular Genetics, Hiroshima University Hospital, Hiroshima, Japan,3Department of Gastroenterological Surgery, Hiroshima Prefectural Hospital, Hiroshima, Japan,4Gastroenterological and Transplant Surgery, Hiroshima University,, Hiroshima, Japan
+
+---
+
+Background: We previously established a genetically engineered mouse model in which Apc and Tgfbr2 are specifically knocked out in the colonic epithelium (CDX2P-G19Cre; Apcflox/+; Tgfbr2flox/flox). In this model, 40% of mice developed mucinous adenocarcinoma (MAC) in the colon, while 25% exhibited non-mucinous high-grade dysplasia with the same genotype. The mucinous tumors invaded beyond the muscularis mucosae, and nuclear localization of &#946;-catenin was observed in the deep invasive lesion. To elucidate the mechanisms underlying the development of mucinous colorectal carcinoma, we previously performed transcriptomic analysis comparing MAC and non-mucinous dysplasia. In the present study, we conducted spatial transcriptomic analysis to characterize the spatial distribution of gene expression, cellular composition, and cell-cell interactions within MAC tissues.Methods: Tumors diagnosed as MAC by H&#38;E staining were obtained from CDX2P-G19Cre; Apcflox/+; Tgfbr2flox/flox mice. FFPE tissue blocks were sectioned to prepare libraries and sequencing was performed using the NovaSeq platform. Data were analyzed using Space Ranger software and visualized in Loupe Browser (10x Genomics).Results: Spatial transcriptomic profiling revealed heterogeneous tumor microenvironments within the same MAC lesion. In the deepest invasive lesion, increased infiltration of SPP1 (secreted phosphoprotein 1)-positive macrophages was identified, suggesting the presence of a localized immunomodulatory niche associated with invasion.Conclusions: Spatial transcriptomic analysis demonstrated distinct intratumoral regions characterized by unique cellular compositions and gene expression profiles. These findings provide novel insights into the spatial heterogeneity and progression mechanisms of mucinous colorectal carcinoma, potentially informing future therapeutic strategies.

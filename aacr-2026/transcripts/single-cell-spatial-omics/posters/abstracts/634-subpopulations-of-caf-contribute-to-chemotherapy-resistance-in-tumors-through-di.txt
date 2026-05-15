@@ -1,0 +1,14 @@
+# Subpopulations of CAF contribute to chemotherapy resistance in tumors through different MYCN-dependent and independent mechanisms
+
+**Poster #**: 634
+**Session**: Developmental Origins, Drivers, and Heterogeneity in Pediatric Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kevin Louault1, Laurence Sarte1, Liron  D.  Grossmann2, Bruce Pawel1, John M. Maris3, Shahab Asgharzadeh1, Yves Albert DeClerck1
+
+1Children's Hospital Los Angeles, Los Angeles, CA,2Edmond and Lily Safra Children's Hospital, Tel-Hashomer, Israel,3Children's Hospital of Philadelphia, Philadelphia, PA
+
+---
+
+Cancer-associated fibroblasts (CAF) are among the most prevalent non-malignant cell subtypes in the tumor microenvironment (TME) of neuroblastoma (NB). CAF cooperate with tumor-associated macrophages to promote therapeutic escape in many cancers including NB. CAF are heterogeneous and several subpopulations have been described based on specific transcriptomic signatures. In recent work, we show by single cell (sc)RNA sequencing the presence of different subpopulations of CAF in human NB tumors, including myofibroblasts (myCAF), inflammatory (i)CAF, dividing (d)CAF and vascular (v)CAF. However, the specific functions of these sub-populations are not entirely known because of difficulties in isolating CAF subpopulations. Here, we have isolated by flow cytometry and characterized two subpopulations of CAF from human NB tumors based on their expression of the receptor for platelet-derived growth factor-beta (PDGF-R&#946;) and CD29 (Integrin &#946;1). We show that these sub-populations maintain a stable phenotype in vitro (for at least 31 days) allowing to study their specific function. According to their gene and protein expression, PDGF-R&#946;+/CD29- cells were identified as myCAF and CD29+/PDGF-R&#946;- cells as iCAF. myCAF secreted TGF-&#946;1 and activated a TAK1/NF-&#954;B signalling pathway in NB cells, whereas iCAF secreted interleukin (IL)-6 and IL-8 and activated STAT3 in NB. We discovered that both subpopulations enhanced resistance to doxorubicin and etoposide but through different paracrine mechanisms. myCAF increased the expression of multi-drug resistance proteins MRP1 and MDR1 via a TGF-&#946;/TAK1/NF-&#954;B signalling pathway, and iCAF increased the expression of anti-apoptotic proteins BCL-xL and BCL2 via an IL-6/STAT3 signalling pathway. Furthermore, myCAF also activated an autocrine IL-6/STAT3 pathway in NB cells in a MYCN-dependent mechanism. A multiplex immunochemistry analysis of human NB revealed the presence of myCAF expressing PDGF-R&#946; and iCAF expressing CD29 in TME-rich tumors but an absence of myCAF in TME-poor tumors. Our data highlights differences in the contribution of CAF subtypes to drug resistance and points to a potentially critical role of CAF in the emergence of therapeutic resistance.

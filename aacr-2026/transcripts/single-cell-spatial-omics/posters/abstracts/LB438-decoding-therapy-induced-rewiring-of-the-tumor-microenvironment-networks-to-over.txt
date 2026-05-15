@@ -1,0 +1,14 @@
+# Decoding therapy-induced rewiring of the tumor microenvironment networks to overcome drug resistance through multiscale mechanistic pathway crosstalk analysis
+
+**Poster #**: LB438
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Minsoo Choi
+
+PanolosBioscience, Gyeonggi-do, Korea, Republic of
+
+---
+
+Therapy resistance in pancreatic cancer is driven by multicellular pathway crosstalks within the tumor microenvironment (TME) that amplify desmoplasia and immune dysfunction. The TME networks that mediate these crosstalks are rewired under therapeutic pressure, but how this rewiring contributes to variable therapy resistance remains poorly defined. To tackle this challenge, we developed a multiscale mechanistic framework that integrates intercellular ligand&#8211;receptor signaling with intracellular signaling pathways to decode TME network rewiring. Using a single-cell RNA-seq dataset from control, gemcitabine, and gemcitabine with PD-L1/VEGF-A/PlGF co-inhibition, we reconstructed ligand&#8211;receptor communication across TME cell types and propagated signals to downstream pathway activities. We quantified rewiring with a crosstalk score (pathway coupling) and bypass score (compensatory signaling paths), revealing distinct signaling-flow patterns by condition. Under gemcitabine treatment, cancer-associated fibroblast (CAF)-linked stromal activation crosstalk intensified and the bypass score increased, indicating strengthened compensatory resistance routes. To further dissect this resistance rewiring, we performed in silico perturbation simulations that mimic drug treatments (from single agent to triple combinations). Our results identified a PlGF-driven, VEGF-A&#8211;independent bypass that persists under gemcitabine with PD-L1/VEGF-A co-inhibition and predicted improved suppression of resistance-associated signaling-flow patterns by adding PlGF blockade. Experimentally, PD-L1/VEGF-A/PlGF co-inhibition improved in vivo efficacy with concordant TME remodeling compared with PD-L1/VEGF-A co-inhibition. Our study demonstrates that an integrative computational framework for pathway crosstalk analysis, incorporating in silico perturbation simulations, dissects explainable resistance circuitry and provides a quantitative basis for rational multi-target treatment strategies.

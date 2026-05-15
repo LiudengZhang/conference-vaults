@@ -1,0 +1,12 @@
+# Large language model-based triage of Hematology/Oncology patient messages: Performance, safety, and clinical implications
+
+**Poster #**: 2741
+**Session**: Large Language Models in the Clinic
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Dinh Nguyen, Sinjin Lee, Brett Anwar, Mason Kellogg, Ronil Synghal, Khang NguyenSCPMG, Pasadena, CA
+
+---
+
+Background: Patient portal messages are a major source of real-time symptom reports in Hematology/Oncology, but manual review is labor-intensive and may delay identification of urgent issues. Large language models (LLMs) can process free text at scale, yet their safety and performance for triage in cancer care are uncertain.Methods: We conducted a retrospective study of adult patients with hematologic malignancies receiving care at a single center within Southern California Permanente Medical Group, the care delivery arm of Kaiser Permanente, from November 2024 to November 2025. All patient-initiated messages to the Hematology/Oncology clinical team were extracted from the electronic health record portal. A stratified sample of messages was annotated by clinicians for urgent and non-urgent categories. Messages labeled as urgent reflected symptoms warranting prioritized clinician review within 24-48 hours. We developed an LLM-based classifier using few-shot learning that generates a label populating the “Topic” column in the receiving clinician’s inbox. Primary outcomes included discriminative performance metrics such AUROC, sensitivity, specificity, and F1 score for classifying urgent messages.Results: A total of 10,683 messages from 2,287 unique patients were processed by our model; 433 messages were labeled as urgent. For urgent message classification, the few-shot LLM achieved an AUROC, sensitivity, specificity, and F1 score of 91.05% (95% CI, 85.69%-96.42%), 97.62% (95% CI, 92.50%-99.89%), 84.48% (95% CI, 74.60%-93.34%), and 89.13% (95% CI, 81.82%-95.74%) respectively.Conclusions: An LLM-based triage system reliably categorized patient messages into urgent and non-urgent categories and has the potential to facilitate timelier action for urgent symptoms within a Hematology/Oncology department. The system’s practical utility highlights its relevance for departments seeking to leverage NLP to improve message management in cancer care.

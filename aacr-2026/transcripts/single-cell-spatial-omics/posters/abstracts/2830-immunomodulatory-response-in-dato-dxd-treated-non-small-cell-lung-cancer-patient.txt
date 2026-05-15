@@ -1,0 +1,17 @@
+# Immunomodulatory response in Dato-DXd-treated non-small cell lung cancer patient-derived organotypic tumor spheroids (pDOTS)
+
+**Poster #**: 2830
+**Session**: Immune Mechanisms Invoked by Other Therapies and Exposures
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Satoru Yasuda1, Patrick Hall Lizotte2, Elena Ivanova2, Zhaorong Li2, Yui Tanaka1, Daisuke Okajima3, Minh Ha2, David  A.  Barbie2, Cloud P. Paweletz2
+
+1Daiichi Sankyo Inc, Baskin Ridge, NJ,2Dana-Farber Cancer Institute, Boston, MA,3Daiichi Sankyo Co. Ltd., Tokyo, Japan
+
+---
+
+Background: Datopotamab deruxtecan (Dato-DXd, DATROWAY) is a TROP2-directed ADC with a highly potent Topo I inhibitor payload, which is approved for HR+ breast cancer and EGFR-mutated NSCLC in the US and is being investigated in several registrational phase 3 trials, including 1L NSCLC, 2L+ TNBC, and urothelial carcinoma. While the cytotoxic payload-induced apoptotic effect of DXd is well investigated, its immunomodulatory effect is less characterized. Here we analyze tumor cell-intrinsic immunological response to Dato-DXd using short-term microfluidic culture of patient-derived organotypic tumor spheroids (pDOTS) in non-small cell lung cancer (NSCLC) samples.
+Methods: Four surgical NSCLC cases collected from Brigham and Women&#8217;s Hospital under an IRB-approved protocol were studied. TROP2 antigen density on EpCAM+ cells was assessed by quantitative flow cytometry and immunofluorescence; baseline immune profile was assessed by flow. Ex vivo response to vehicle, unconjugated Datopotamab, IgG-DXd, and Dato-DXd were assessed by live/dead imaging endpoint analysis. Modulation of tumor cell immunogenicity at 24hr and 72hr was analyzed by 10x single cell RNA sequencing (scRNAseq).
+Results: Four NSCLC explants with high tumor cell content and high TROP2 expression (3+ by IF) were studied. Response to drug treatment was measured by change in raw live cell area compared to control samples. Unexpectedly, EpCAM+TROP2+ tumor cells from all four samples at both timepoints exhibited negative pathway enrichment scores for Hallmark TNF-&#945; Signaling via NF&#954;B and Inflammatory Response when comparing Dato-DXd to control-treated. Individual gene level analysis revealed significant downregulation of myeloid-associated cytokines (IL-23a, IL-6) and chemokines (CSF1/2, CXCL1/2/3, CCL2, CCL20, IL-8), indicating possible reduced recruitment of myeloid-derived suppressor cells (MDSCs) and tumor-associated macrophages (TAMs). Investigation of tumor cell immunogenic cell death in response to Dato-DXd treatment revealed inconsistent induction of pro-inflammatory signaling.
+Conclusions: Our results indicate clear and consistent immunomodulation of NSCLC tumor cells when treated with Dato-DXd, principally downregulation of myeloid-associated inflammation. Statistically significant differential expressions of CSF1/2, CXCL1/2/3, and IL-8 (CXCL8) chemokines reveal a potentially unappreciated mechanism underlying ADC therapeutic efficacy: reduced recruitment of pro-tumoral myeloid cells by tumor cells.

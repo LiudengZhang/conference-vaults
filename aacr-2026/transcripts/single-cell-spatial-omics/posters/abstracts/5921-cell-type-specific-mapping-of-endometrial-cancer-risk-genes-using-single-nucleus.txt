@@ -1,0 +1,14 @@
+# Cell type-specific mapping of endometrial cancer risk genes using single-nucleus multi-omics
+
+**Poster #**: 5921
+**Session**: Genetic and Transcriptomic Dissection of Cancer Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Preety Bajwa, Carly Chapman, Dylan Glubb, Tracy O'Mara
+
+QIMR Berghofer Medical Research Institute, Brisbane, Australia
+
+---
+
+Endometrial cancer is a common gynecological malignancy with more than 410,000 new cases diagnosed worldwide in 2020. Endometrial cancer genome-wide association study (GWAS) have identified 21 robust susceptibility regions, most of which lie in non-coding regions and are presumed to act through cell type-specific regulatory elements. However, bulk tissue and cell-line models cannot fully resolve these regulatory programs. This project uses single-nucleus multi-omic (RNA+ATAC) profiling, enabling simultaneous measurement of chromatin accessibility and gene expression within the same nucleus, to generate cell type-specific enhancer-gene maps in endometrial tumors. By integrating these maps with GWAS data, we aim to identify a comprehensive set of candidate endometrial cancer risk genes. We used the 10X Multimodal GEX+ATAC single nucleus sequencing kit to map open chromatin and gene expression profiles in archival endometrial tumors available through the Australian National Endometrial Cancer Study (ANECS), a population-based case-control study of endometrial cancer with extensive clinical data. Libraries were sequenced on the NextSeq2000 platform before data processing using Cell Ranger, Seurat and Signac for cell-type-resolved enhancer-gene mapping. Exploratory enhancer-gene mapping was performed using co-accessibility and gene expression correlation analysis in Signac. Credible risk variants from 21 endometrial cancer GWAS loci were intersected with enhancers to identify candidate causal risk variants and corresponding target genes. Approximately 25,000 nuclei were successfully profiled and clustered into major endometrial cell types, including epithelial (ciliated and unciliated), fibroblast and immune cells. Initial enhancer-gene mapping using Signac co-accessibility analysis identified endometrial cancer risk variants at the 13q22.1 locus residing within epithelial cell enhancers that correlate with KLF5 expression. We have generated the first single-nucleus multimodal map of endometrial cancer, enabling direct linkage of endometrial cancer risk variants to cell type-specific regulatory elements and target genes, including KLF5, a transcription factor that regulates uterine epithelial remodeling and promotes endometrial cancer cell proliferation in experimental models. This work represents an ongoing pilot study, with further tumors and loci being analyzed to reveal cell type-specific endometrial cancer risk genes.

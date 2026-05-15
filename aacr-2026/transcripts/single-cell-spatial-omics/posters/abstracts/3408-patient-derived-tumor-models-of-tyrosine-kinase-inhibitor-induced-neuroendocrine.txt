@@ -1,0 +1,17 @@
+# Patient-derived tumor models of tyrosine kinase inhibitor-induced neuroendocrine-transformed lung carcinoma
+
+**Poster #**: 3408
+**Session**: In Vitro Models 1: 2D and 3D
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Matthew Djan1, Sebastiao N. Martins-Filho2, Nhu-An Pham3, Nikolina Radulovich3, Quan Li3, Ming Li3, Geoffrey Liu3, Ming Sound Tsao3
+
+1Medical Biophysics, University of Toronto, Toronto, ON, Canada,2Laboratory Medicine and Pathology, University of Alberta, Edmonton, AB, Canada,3UHN Princess Margaret Cancer Centre, Toronto, ON, Canada
+
+---
+
+Background: Lung cancer is the leading cause of cancer-related deaths worldwide, with non-small cell lung cancer (NSCLC) comprising 85% of cases and small cell lung cancer (SCLC) 15%. Tyrosine kinase inhibitors (TKIs) are the frontline therapy for EGFR-mutant and ALK-fusion adenocarcinomas, yet most patients develop resistance. In 5-10% of TKI-resistant cases, adenocarcinomas (ADC) undergo lineage switching to aggressive neuroendocrine (NE) carcinomas, including LCNEC and SCLC; these patients lack effective therapies and have poor clinical outcomes. To better study NE-transformed tumors, we established clinically relevant patient-derived xenograft (PDX) and xenograft-derived organoid (XDO) models to identify novel therapeutic vulnerabilities and elucidate mechanisms underlying NE transformation.
+Methods: Patient biopsy tissues were subcutaneously engrafted into NOD-SCID mice to generate nine NE-transformed PDX models, and six matched long-term XDOs (>10 passages) were established using organoid culture protocol. PDXs/XDOs were characterized by H&#38;E and immunohistochemistry, whole-exome sequencing, and bulk RNA-sequencing. For in vivo therapeutic profiling, donor PDX tumors were expanded and randomized into four arms: vehicle, Osimertinib (25 mg/kg, QDx5), chemotherapy [Cisplatin (3 mg/kg, QW) + Etoposide (8 mg/kg, TIW)], or combination. For in vitro drug testing, XDOs were dissociated into single cells, seeded into 384-well plates, and treated with Osimertinib, Cisplatin, or Etoposide across a 21-point dilution series (1 nM-10 &#956;M), with viability measured on Day 7 using CellTiter-Glo 3D.
+Results: Paired PDXs/XDOs retained key genetic drivers, including EGFR, TP53, and RB1 mutations, along with recurrent alterations in the NOTCH signaling pathway. Histologically, the models recapitulated patient tumor phenotypes, including three SCLC-transformed, two LCNEC-transformed (one ADC-like, one NE-like), and one mixed ADC/SCLC case. Notably, the mixed-histology model maintained both ADC and SCLC components in long-term XDO culture, preserving intratumoral heterogeneity. In vivo therapeutic testing revealed minimal response to Osimertinib, chemotherapy, or combination therapy in NE-high tumors, whereas an ADC-like LCNEC PDX exhibited sensitivity to these treatment arms, consistent with clinical observations. XDO drug responses were highly concordant with their matched PDXs, demonstrating resistance to Osimertinib and chemotherapy (IC50 > 1 &#956;M). Preliminary high-throughput screening of XDOs with a 58-compound epigenetic probe library identified a candidate therapeutic target to be presented.
+Conclusion: Our NE-transformed models preserve patient tumor molecular features, histopathology, and therapeutic response, providing robust platforms to identify novel therapeutic strategies and dissect mechanisms driving lung NE transformation.

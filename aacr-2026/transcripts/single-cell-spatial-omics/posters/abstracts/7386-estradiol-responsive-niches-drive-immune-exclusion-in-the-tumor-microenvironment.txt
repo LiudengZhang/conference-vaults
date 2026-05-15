@@ -1,0 +1,14 @@
+# Estradiol-responsive niches drive immune exclusion in the tumor microenvironment
+
+**Poster #**: 7386
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Minsung Kim1, Kwanghwan Lee2, Hyun Ju Kang2, Jin-Ku Lee1
+
+1Department of Biomedical Sciences, Seoul National University, Seoul, Korea, Republic of,2Genomic Medicine Institute, Medical Research Center, Seoul National University, Seoul, Korea, Republic of
+
+---
+
+Epithelial ovarian cancer (EOC) presents marked molecular diversity, which is largely influenced by the tumor microenvironment (TME). However, the specific factors driving this diversity remain unclear. We established a multi-omics platform integrating growth factor-omics profiling with transcriptomic analysis of patient-derived ovarian tumor tissues. Using samples from 31 EOC patients, we identified the responsiveness of 128 factor combinations and analyzed through integrated bulk and single-cell RNA sequencing. Two main clusters were identified, one responsive to estradiol and Wnt and the other to R-spondin. These results were further validated by a pan-cancer analysis of 11,000 TCGA tumors across 33 cancer types, confirming the conservativeness and clinical relevance of this response program. Estradiol exposure induced robust proliferation characterized by mesenchymal and stem cell-associated transcriptional signatures, leading to tumor growth. Single-cell analysis identified two estradiol-responsive niches: a malignant PDCD5+ subtype and a TNFSF10-expressing fibroblast population, both of which increased after estradiol stimulation. MAL.PDCD5 cells exhibited impaired antigen presentation and metabolic suppression via reduced oxidative phosphorylation, whereas FB.TNFSF10 fibroblasts exhibited increased TGF-beta and CAF.S1 signaling, consistent with immunosuppressive reprogramming. Spatial transcriptomic analysis revealed a distinct spatial segregation between FB.TNFSF10 fibroblasts and T/NK cells, providing direct evidence for hormone-induced immune exclusion. Across various tumor types, elevated FB.TNFSF10 expression correlated with elevated stromal cell and regulatory T cell scores and was an independent predictor of reduced response to immune checkpoint blockade, independent of PD-L1 expression or tumor mutation burden. These findings demonstrate a preserved estradiol-responsive architecture that remodels the tumor microenvironment, preventing immune infiltration. These findings suggest novel biomarkers and therapeutic targets that could enhance the efficacy of immunotherapy across diverse cancers.

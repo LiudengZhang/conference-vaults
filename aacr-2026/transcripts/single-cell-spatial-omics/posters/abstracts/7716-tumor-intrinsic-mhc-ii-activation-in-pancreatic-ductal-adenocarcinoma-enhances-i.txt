@@ -1,0 +1,14 @@
+# Tumor-intrinsic MHC-II activation in pancreatic ductal adenocarcinoma enhances immune response and treatment efficacy
+
+**Poster #**: 7716
+**Session**: Biomarkers Predictive of Therapeutic Benefit 6
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Canping Chen1, Kyle P. Gribbin2, Xi Li3, Tugba Ozmen4, Furkan Ozmen4, Shamilene Sivagnanam2, James Kim2, Katie E. Blise5, Xinxing Yang1, Yi Zhang2, Dove Keith5, Mara H. Sherman6, Mushui Dai7, Lisa M. Coussens8, Charles D. Lopez9, Rosalie C. Sears7, Gordon B. Mills10, Katelyn T. Byrne7, Zheng Xia10
+
+1Biomedical Engineer, Oregon Health & Science University, Portland, OR,2Department of Cell, Developmental and Cancer Biology, Oregon Health & Science University, Portland, OR,3Medical, Huazhong University of Science and Technology, Wuhan, China,4Division of Oncological Sciences, Knight Cancer Institute, Oregon Health & Science University, Portland, OR,5Brenden-Colson Center for Pancreatic Care, Oregon Health & Science University, Portland, OR,6Memorial Sloan Kettering Cancer Center, New York, NY,7OHSU, Portland, OR,8OHSU Knight Cancer Institute, Lake Oswego, OR,9Assoc. Professor, Div. of Hemat./Onc., Oregon Health & Science University, Portland, OR,10OHSU Knight Cancer Institute, Portland, OR
+
+---
+
+Pancreatic ductal adenocarcinoma (PDAC) is characterized by an immunosuppressivetumor microenvironment (TME) and poor prognosis. While major histocompatibility complexclass II (MHC-II) expression is traditionally associated with professional antigen-presentingcells, its role in PDAC malignant cells remains underexplored. Herein, we utilized single-cellRNA sequencing (scRNA-seq), spatial transcriptomics, bulk RNA sequencing, multipleximmunohistochemistry (mIHC) and ex vivo studies in culture with both human and murinemodels to investigate the prognostic relevance of MHC-II expression in malignant PDACcells. Elevated MHC-II expression in malignant cells was strongly associated with increasedinfiltration of CD4+ T and CD8+ T cells in human PDAC, and pronounced co-localization withplasma cells, indicative of an antigen-activated immune microenvironment. In the KPCmouse model of PDAC, pharmacologic induction of MHC-II expression by cobimetinibtreatment in malignant epithelial cells significantly enhanced the therapeutic response toimmune checkpoint blockade (ICB). These findings highlight the role of malignant cell-intrinsic MHC-II expression in promoting antigen presentation and fostering an anti-tumorimmune microenvironment. Our results position MHC-II as a promising prognostic biomarkerand therapeutic target in PDAC, paving the way for novel immunomodulatory strategies.

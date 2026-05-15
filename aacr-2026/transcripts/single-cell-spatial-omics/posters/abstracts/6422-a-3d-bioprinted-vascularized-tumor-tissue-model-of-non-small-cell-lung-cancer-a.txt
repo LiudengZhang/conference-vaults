@@ -1,0 +1,14 @@
+# A 3D bioprinted vascularized tumor tissue model of non-small cell lung cancer: A model for drug screening
+
+**Poster #**: 6422
+**Session**: Screening and Technology Advances for Probe and Drug Discovery
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Fahimeh Shahabipour1, Yuchi Chen1, Yen-Ting Tung2, Min Jae Song2, Marc Ferrer3
+
+1NIH-NCATS (National Center for Advancing Translational Sciences), Bethesda, MD,2NIH-NCATS (National Center for Advancing Translational Sciences), Rockville, MD,3NCAT/NIH, Rockville, MD
+
+---
+
+Lung cancer remains the leading cause of cancer-related death worldwide, with non-small cell lung cancer (NSCLC) accounting for 80-85% of all cases. There is therefore a need for new, effective treatments for lung cancer. A major challenge in preclinical drug development is the lack of assay platforms that accurately recapitulate the tumor microenvironment (TME), thereby enabling the investigation of cell-cell interactions between the tumor and surrounding stroma cells. To address this gap, we have developed a 3D-bioprinted vascularized lung cancer tissue model in a 96-well format that incorporates human NSCLC cells within a physiologically relevant TME. The TME tissue model includes GFP-expressing lung endothelial cells, pericytes, and fibroblasts that form a vascular network, surrounded by RFP-expressing NSCLC cells (A549, H1975, or H460). Using this platform, we conducted quantitative fluorescence cell imaging to assess vascular morphology, including angiogenesis and tumor growth. Our results revealed distinct tumor morphologies for each of the three NSCLC cell lines used, with H1975 cells showing migration toward the vessels and forming irregular tumor shapes. In contrast, H460 cells formed spheroidal tumors, with no migration to the vessels. We are currently conducting single-cell RNA sequencing on these tissue models and will apply a pharmacogenomics approach to identify novel therapeutic targets based on cancer cell-tumor microenvironment (TME) interactions. This engineered 3D lung cancer model provides a scalable, clinically relevant approach to discovering new treatments for NSCLC patients.

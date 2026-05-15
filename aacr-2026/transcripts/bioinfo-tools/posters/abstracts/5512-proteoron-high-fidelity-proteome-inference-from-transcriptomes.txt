@@ -1,0 +1,12 @@
+# ProteoRon: High-fidelity proteome inference from transcriptomes
+
+**Poster #**: 5512
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Kaiqiang Hu, Wanyu Tao, Ye Yuan, Zhe Li, Yuxin Zhang, Pengwei Pan, Fang HePharmaron Beijing Co., Ltd., Beijing, China
+
+---
+
+Transcriptome profiling has become a routine and relatively low-cost component of drug discovery. In contrast, direct proteome measurement—although invaluable for assessing drug target engagement and pathway activity at the protein level—remains far less accessible, thereby limiting its use in high-throughput screening assays. To bridge this gap between transcriptome and proteome, we proposed ProteoRon, a deep learning model for proteome prediction. To support this transformation, we generated a foundational dataset of more than 800 cancer cell lines with paired transcriptome and proteome profiles using our in-house Illumina and Orbitrap Astral platforms. This internally curated resource encompasses expression data for more than 20,000 genes and the abundances of over 8,000 proteins. Building on our high-quality internal data and further augmented by public resources such as CPTAC and CCLE, ProteoRon functions as an accessible in silico surrogate for proteomics. Its architecture incorporates residual layers that explicitly model how post-transcriptional regulation modulates the quantitative relationship between baseline mRNA and its cognate protein. To evaluate ProteoRon’s functional utility, we applied GSVA to both ProteoRon-predicted proteins and raw RNA-seq for drug response modeling. The ProteoRon-based features yielded significantly higher prediction accuracy, indicating a superior ability to capture functional pathway states. The model also correctly predicts the ISR-induced increase in ATF4 protein abundance despite minimal changes in its corresponding mRNA levels, underscoring its ability to capture non-transcriptional regulatory logic. Taken together, ProteoRon unlocks the latent proteomic potential of routine transcriptome data, thereby enabling deeper biological insight from existing RNA-seq resources.

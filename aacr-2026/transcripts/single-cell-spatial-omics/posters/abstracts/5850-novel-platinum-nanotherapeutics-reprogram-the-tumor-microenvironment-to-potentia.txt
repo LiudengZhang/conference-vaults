@@ -1,0 +1,17 @@
+# Novel platinum nanotherapeutics reprogram the tumor microenvironment to potentiate cancer immunotherapy
+
+**Poster #**: 5850
+**Session**: Tumor Microenvironment, Multispecifics, and Immunomodulation
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yongbin Liu1, Xueying Ge2, Busra Akay Hacan1, Dongfang Yu1, Junjun Zheng3, Roderic  I.  Pettigrew4, Ping-Ying Pan3, Shu-Hsia Chen3, Junhua Mai5
+
+1Nanomedicine, Houston Methodist Academic Institute, Houston, TX,2School of Engineering Medicine/ENMED, Texas A&M University, Houston, TX,3Center for Immunotherapy Research, Houston Methodist Research Institute, Houston, TX,4School of Engineering Medicine, Texas A&M University, Houston, TX,5Houston Methodist Research Institute, Houston, TX
+
+---
+
+Background: Immune checkpoint inhibitors (ICIs)-based immunotherapy has transformed cancer treatment, but its efficacy is often limited by immune suppressive cells in the tumor microenvironment (TME), such as tumor-associated macrophages (TAMs). We recently developed a novel platinum therapeutic (carrier-Pt) that can induce cancer cell death through triggering rapid and robust intracellular reactive oxygen species (ROS) storm. Interestingly, ROS production was found to enhance anti-cancer immunity by inducing immunogenic cell death (ICD) and reprograming immunosuppressive TAMs. Thus, we aim to investigate its underlying mechanisms and potential synergy with immunotherapy.
+Methods: CT26 and PyMT-N cells were inoculated into immunocompetent and immunodeficient nude mice, and tumor growth was compared. Immune cell populations were analyzed by imaging mass cytometry (IMC). CT26 cells were treated with carrier-Pt to assess ICD markers (CRT by flow cytometry, ATP by luminescence), while bone marrow-derived macrophages were evaluated for CD80/CD206 (flow cytometry) and TNF-&#945; (ELISA). CT26 tumor-bearing mice received carrier-Pt alone or in combination with anti-PD-1 therapy, and tumor growth was monitored to evaluate therapeutic efficacy.
+Results: Carrier-Pt at 4 mg(Pt)/kg significantly inhibited CT26 and PyMT-N tumor growth compared with the untreated group in both immunocompetent and immunodeficient nude mice (P < 0.0001). Notably, in immunocompetent mice, 3 out of 10 animals became tumor-free, whereas in immunodeficient nude mice, all tumors continued to grow, although at a slower rate, after carrier-Pt treatment. Carrier-Pt administration significantly increased the infiltration of CD8&#8314; T cells and macrophages in CT26 tumors (P < 0.05), with Pt signals predominantly enriched in macrophage and fibroblast populations within TME (P<0.05). Notably, carrier-Pt treatment also showed a trend toward increasing the frequency of CD8&#8314;PD-1&#8314; T cells. M2 macrophages treated with carrier-Pt exhibited a marked upregulation of TNF-&#945; and CD80 (P < 0.0001), indicating a shift toward the M1 phenotype. Additionally, CT26 cells exposed to carrier-Pt displayed elevated surface exposure of calreticulin and ATP release (P < 0.0001), indicative of ICD. Finally, the combination of carrier-Pt with anti-PD-1 therapy synergistically suppressed CT26 tumor growth compared with either treatment alone.
+Conclusion: Carrier-Pt can reprogram the TME by repolarizing immunosuppressive TAMs toward an M1 phenotype and inducing ICD of tumor cells, thereby increasing CD8&#8314; T cell infiltration and enhancing the efficacy of anti-PD-1 immunotherapy. These findings position carrier-Pt as a promising nanotherapeutic to potentiate cancer immunotherapy.

@@ -1,0 +1,17 @@
+# Gadolinium-based nanocomposite as a theranostic agent for triple-negative breast cancer: Synergistic radiosensitization, immune modulation, and image-guided therapy
+
+**Poster #**: 6379
+**Session**: Drug Delivery
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yue Wang, Jiazhuo Yan, Yihan Xu, Zhengkun Cai, Zhiyong Yuan
+
+Tianjin Medical Univ. Cancer Inst. & Hospital, Tianjin, China
+
+---
+
+Purpose: Triple-negative breast cancer (TNBC) is an aggressive malignancy with limited therapeutic options and frequent radiotherapy (RT) resistance. This study developed a novel gadolinium-based nanocomposite (GdB) with dual functions&#8212;radiosensitization and immune modulation&#8212;to establish a diagnostic-therapeutic integrated approach for precision RT in TNBC.
+Methods: GdB nanoparticles were characterized structurally (TEM, XRD, EELS) and functionally (peroxidase-like activity). Cytotoxicity and radiosensitization were assessed in vitro using CCK-8, colony formation assays, apoptosis (flow cytometry, JC-1 staining), ROS generation, and DNA damage (&#947;-H2AX immunofluorescence and Western blot). Biocompatibility was evaluated in vivo using blood biochemistry, histopathology, and fluorescence imaging. The mechanism of immune activation was verified by measuring immunogenic cell death markers (CRT, ATP, HMGB1 release) and identifying activated pathways through transcriptomic analysis and qPCR. Immune responses were tracked in vitro (co-culture, cytokine secretion) and in vivo. Immune cell infiltration, cytokine levels (ELISA), and the immune landscape of primary and distant tumors were comprehensively analyzed using flow cytometry and single-cell RNA sequencing.
+Results: GdB formed uniform spherical crystalline nanoparticles exhibiting excellent peroxidase-like activity. Mechanistically, GdB significantly enhanced radiosensitivity by promoting DNA damage and apoptosis. GdB induces ICD and activates the cGAS-STING pathway, leading to Type I interferon production, providing a robust basis for immune enhancement. GdB demonstrated excellent biocompatibility in vivo at experimental doses. Functionally, GdB served as an MRI contrast agent, enhancing tumor contrast for precise GTV delineation and facilitating real-time monitoring of tumor response to RT. Therapeutically, the combination of GdB with RT markedly inhibited tumor growth by reprogramming the tumor microenvironment from an immunosuppressive "cold" state to an immune-activated "hot" state. This conversion was marked by increased infiltration of key effector immune cells and elevated levels of anti-tumor cytokines. Crucially, the combination treatment generated a systemic anti-tumor immune response, resulting in the inhibition of distant metastases.
+Conclusion: GdB is a highly effective theranostic platform for precision radiotherapy in TNBC, as its dual functions of radiosensitization and cGAS-STING pathway-mediated immune modulation substantially enhance RT efficacy and systemic anti-tumor response. Furthermore, its function as an MRI contrast agent integrates precise diagnosis with enhanced therapeutic outcomes, supporting its strong potential for clinical translation in image-guided radiotherapy.

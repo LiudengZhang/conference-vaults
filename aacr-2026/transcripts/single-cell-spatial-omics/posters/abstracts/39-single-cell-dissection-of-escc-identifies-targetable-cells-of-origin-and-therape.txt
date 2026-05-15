@@ -1,0 +1,14 @@
+# Single-cell dissection of ESCC identifies targetable cells-of-origin and therapeutic vulnerabilities in early tumorigenesis
+
+**Poster #**: 39
+**Session**: Application of Bioinformatics to Cancer Biology 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kyung Pil Ko1, Jie Zhang1, Sohee Jun1, Jae-Il Park2
+
+1UT MD Anderson Cancer Ctr., Houston, TX,2Asst. Professor, Exp. Radiation Oncology, UT MD Anderson Cancer Ctr., Houston, TX
+
+---
+
+Identifying the cells of origin is critical for overcoming therapy resistance and improving early intervention strategies in esophageal squamous cell carcinoma (ESCC). Despite advances in genomic profiling and lineage-trajectory studies, the cellular hierarchies and molecular programs that initiate ESCC remain poorly defined. To address this gap, we applied machine-learning-guided single-cell trajectory analysis to carcinogen (4NQO)-induced ESCC, genetically engineered organoid models, and their normal esophageal counterparts, enabling reconstruction of lineage relationships during early tumorigenesis. Integrating these data with gene regulatory network analysis allowed us to pinpoint transcriptional drivers of tumor initiation, and a transcriptome-based drug repurposing strategy identified candidate compounds capable of targeting these early malignant populations. Our multimodal analyses revealed several distinct epithelial clusters that likely act as cells of origin for ESCC, each exhibiting unique stem- or progenitor-like transcriptional states. Regulatory network analysis highlighted activation of key programs, including PRRX2 and CEBP&#946;, across these initiating populations. In parallel, the drug repurposing screen identified five candidate compounds, four of which were potent cyclin-dependent kinase (CDK) inhibitors. Correspondingly, CDK inhibitors robustly suppressed ESCC cell proliferation, underscoring their therapeutic potential. Together, these findings define the putative cells of origin in ESCC and their core regulatory networks, establishing a single-cell-driven framework that exposes actionable vulnerabilities in tumor-initiating populations.

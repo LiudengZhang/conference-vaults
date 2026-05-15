@@ -1,0 +1,12 @@
+# Improved mutation detection in duplex sequencing data with sample-specific error profiles
+
+**Poster #**: LB446
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yuhe Cheng1, Shuvro  P.  Nandi1, Luka Culibrk2, Audrey Kristin1, Isabella Stuewe1, Shams Al-Azzam1, Mia Petljak2, Ludmil  B.  Alexandrov11University of California San Diego, La Jolla, CA,2New York University Grossman School of Medicine, New York, NY
+
+---
+
+Duplex sequencing enables highly accurate detection of rare somatic mutations, but existing variant callers often rely on protocol-specific heuristics that limit sensitivity, reproducibility, and cross-study comparability. We present DupCaller, a probabilistic variant caller that builds sample-specific error profiles and applies a strand-aware statistical model for mutation detection. Across 50 synthetic datasets, DupCaller identified 1.25-fold more single-base substitutions (SBSs) and 1.41-fold more indels than a state-of-the-art method, while exhibiting equal or better precision. In three duplex-sequenced cell lines treated with aristolochic acid, it recovered expected mutational signatures while detecting 3.5-fold more SBSs and 2.8-fold more indels. In 93 tissue samples—including neurons, cord blood, sperm, saliva, and blood—DupCaller showed consistent gains, detecting 1.21- to 2.7-fold more mutations. Sensitivity scaled with sample duplication rate, yielding approximately 1.5-fold more mutations under optimal conditions and over 3-fold more in low-duplication samples where other tools falter. These results establish DupCaller as a robust and scalable solution for somatic mutation profiling in duplex sequencing across diverse biological and technical contexts.

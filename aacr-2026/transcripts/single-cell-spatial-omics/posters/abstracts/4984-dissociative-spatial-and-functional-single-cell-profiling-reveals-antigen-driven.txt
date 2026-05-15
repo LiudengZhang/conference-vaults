@@ -1,0 +1,17 @@
+# Dissociative, spatial, and functional single-cell profiling reveals antigen-driven exhaustion and chemotactic failure of tumor-reactive T cells in HPV-negative HNSCC
+
+**Poster #**: 4984
+**Session**: Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Joseph Zenga1, Musaddiq Awan1, Fumou Sun1, Stuart  J.  Wong1, Abdullah Memon1, Tyce Kearl1, Ean Norenberg1, Margaret L. Hoang2, Joseph  M.  Beechem3, Eric Hobbs4, Ashley Heck2, Rachel Liu2, Daniel McGuire2, Erin Piazza2, Peiman Hematti1, Heather Himburg1
+
+1Medical College of Wisconsin, Milwaukee, WI,2Bruker Spatial Biology, Seattle, WA,3Bruker Spatial Biology, Piedmont, CA,4Bruker Cellular Analysis, Emeryville, CA
+
+---
+
+Introduction: HPV-negative head and neck squamous cell carcinoma (HNSCC) remains highly lethal, and even the recent KEYNOTE-689 trial showed limited response to PD-1 blockade. To clarify mechanisms of immunoresistance, we performed multi-omic single-cell profiling of HPV-negative HNSCC to define the states, clonotypes, and spatial niches of tumor-reactive T cells.
+Methods: Two patients with untreated HPV-negative HNSCC underwent surgical tumor sampling. Biopsies were allocated for dissociative single-cell RNA and TCR sequencing, for single-cell spatial whole transcriptome imaging with TCR add-in on the Bruker CosMx platform, and for functional co-culture of autologous tumor cells and tumor-infiltrating lymphocytes (TILs) on the Bruker Beacon system with robotic retrieval of reactive clones followed by single-cell TCR sequencing.
+Results: Dissociative and spatial datasets were high quality, and dissociative clustering guided spatial annotation. Two tumor-reactive TIL populations emerged: a transcriptionally reactive population marked by terminal exhaustion and clonal hyper-expansion, and a functionally reactive population identified on the Beacon platform through tumor-killing and IFN&#947; secretion. Neither appeared in adjacent normal mucosa. Spatial projection showed functionally reactive clonotypes progressing along a pseudotime continuum from minimally exhausted stromal states toward a deeply exhausted yet proliferative state within malignant epithelial islands. Transcriptionally reactive TILs shared this exhausted-proliferative phenotype and primarily localized within tumor islands. Conversely, Tregs and immunosuppressive macrophages were confined to stromal regions and showed minimal spatial overlap with tumor-reactive T cells. Malignant epithelium strongly enriched CXCL14 (> ten-fold over stroma), yet tumor-reactive TILs remained rare, with a tumor-to-reactive T cell ratio greater than 20 to 1.
+Conclusions: This is the first study to integrate dissociative, spatial, and functional single-cell analytics to define tumor-reactive TIL biology in solid tumors. We find that tumor-reactive T cells can infiltrate malignant epithelial islands, and that their deepest infiltration corresponds to the most exhausted states, indicating that chronic antigen stimulation is the primary driver of dysfunction. The confinement of suppressive cells to stromal niches suggests that their influence is exerted through maintenance of a restrictive barrier stroma rather than through proximity-based inhibition. Together, these findings highlight insufficient chemotactic recruitment of tumor-reactive T cells as a central barrier to effective antitumor immunity. The strong epithelial enrichment of CXCL14 positions it as a promising candidate for enhancing tumor-directed T cell migration.

@@ -1,0 +1,14 @@
+# Mapping and targeting spatial heterogeneity in CRC through patient-derived organoids
+
+**Poster #**: 667
+**Session**: Ex Vivo Systems: Patient-Derived, Patient-Specific Tumor Cultures
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Maxim Norkin1, Jonathan Bac1, Louis McConnel1, Sylvie Andre1, Marina Alexandra Gaveta1, Joerg Huelsken2, Marianna Rapsomaniki1, Raphael Gottardo1, Krisztian Homicsko1
+
+1Oncology, CHUV, Centre hospitalier universitaire vaudois, Lausanne, Switzerland,2EPFL, Lausanne, Switzerland
+
+---
+
+Inter- and intra-patient heterogeneity, as well as spatial heterogeneity of cancer cells and the tumor microenvironment (TME), is a formidable barrier for cancer therapies. Ex vivo, patient-derived organoids (PDOs) hold promise as better platforms for drug development and can be applied in personalized medicine. Previous work has shown that genomic and clonal heterogeneity of tumors, as well as expression heterogeneity, can be maintained in PDOs. However, it remains unclear whether PDOs preserve the same degree of spatial expression heterogeneity observed in the original tumors. We propose an analytical pipeline combining spatial transcriptomic and phenotypic analysis of PDOs that can capture and track spatial heterogeneity across multiple assays, including during drug treatment.We have developed an organoid multi-embedding platform that allows parallel analysis of multiplex organoid cultures using imaging-based spatial transcriptomics. We validate the platform by comparison to non-spatial single-cell transcriptomic and donor tumor spatial transcriptomic analyses. With that, we have analyzed 40 CRC (colorectal cancer) PDOs and 16 CRC PDO-tumor pairs by spatial transcriptomics (Xenium 10x), including drug treatments, organoid developmental trajectories, and co-culture experiments. We have discovered intra- and inter-patient heterogeneity in tumors and PDOs and linked gene expression to organoid shapes. We further distinguished different expression programs in CRC and linked them to the spatial positioning of malignant cells in tumors. Finally, we have identified and analyzed dormant organoids in heterogeneous PDO cultures and compared them to the original tumors.The combination of ex vivo PDOs and spatial transcriptomics could open novel avenues for drug development selectively targeting spatial subsets of cancer cells and the TME.

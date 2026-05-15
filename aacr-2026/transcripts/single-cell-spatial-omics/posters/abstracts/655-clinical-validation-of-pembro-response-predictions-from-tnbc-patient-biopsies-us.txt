@@ -1,0 +1,18 @@
+# Clinical validation of pembro response predictions from TNBC patient biopsies using E slices
+
+**Poster #**: 655
+**Session**: Ex Vivo Systems: Patient-Derived, Patient-Specific Tumor Cultures
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kyuson Yun1, Viridiana  L.  Leyva-Aranda2, Claire Yun2, Nourhan ABDELFATTAH1, Clinton Yam3, Fransisca Leonard1, Reece Kang1, Jangsoon Lee4, Naoto Ueno4
+
+1Houston Methodist Research Institute & Weill Cornell Medical College, Houston, TX,2EMPIRI, Houston, TX,3UT MD Anderson Cancer Center, Houston, TX,4U Hawaii Cancer Center, Honolulu, HI
+
+---
+
+The efficacy of immunotherapies depends on complex and dynamic interactions among immune cells, stromal cells, and cancer cells. Currently, no functional precision medicine assays can accurately predict individual patient responses to immunotherapies in a clinically actionable timeframe. The E-slice platform is a proprietary 3D human tumor tissue culture system that enables rapid, personalized drug sensitivity testing in 8-12 days from the time of tumor biopsies or surgical resections.E-slices are distinct from other 3D human model systems in multiple, critical ways. E-slices are:
+1) never dissociated or reconstituted or expanded ex vivo; therefore, the platform maintains individual patient tumors' histoarchitecture, cellular composition including tumor-infiltrating immune cells, and the spatial relationships among different cell types, enabling evaluation of immunotherapies (antibody drugs, ADCs, cell therapies, oncolytic virus, etc.) in intact human tumor tissues;
+2) cultured in serum-free, chemically defined medium, preventing artificial activation or altering of immune and cancer cell states;
+3) validated at single-cell RNA-sequencing level to maintain tumor associated immune cells ex vivo for at least 8 days, not only in numbers but also in their activation states;
+4) scalable and can be generated from needle biopsy cores to inform clinical trials or patient care as well as surgical samples for multi-dimensional analyses; 5) compatible with all major solid tumor types in human, and 6) compatible with all anti-cancer treatment modalities, including biologics, small molecules, cell based therapies, and virotherapies.Here, we report two retrospective and one prospective clinical studies that demonstrate that E-slices are highly accurate in predicting patient responses to anti-cancer agents. Two small retrospective studies, using colorectal cancer patient PDX tumors, demonstrated that E-slices can accurately predict patients&#8217; responses to chemo + targeted therapy combinations with 100 percent Specificity and sensitivity. An interim analysis of an ongoing prospective clinical study using TNBC patient biopsy cores (n=10) shows that E-slice can accurately predict patient responses to the KEYNOTE-522 regimen, which includes pembrolizumab plus chemotherapies with Specificity at 100 percent and Sensitivity at 87.5 percent. Furthermore, this platform enables treatment response to Pembo alone ex vivo, which showed 14 percent response rate from the first 14 patients, which is remarkably similar to the benefit reported in the KEYNOTE-522 study (13.6%). In summary, we report a novel 3D human tumor culture system that can accurately predict patient responses to immunotherapy in a clinically actionable time frame and can provide deep molecular and cellular insights to accelerate immunotherapy testing and development.

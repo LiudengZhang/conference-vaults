@@ -1,0 +1,17 @@
+# Tumor exosome-initiated neutrophil IRG1/itaconate axis awakens dormant tumor cells and promotes lung metastasis
+
+**Poster #**: 6143
+**Session**: Metastatic Niches and Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yue Deng, Jialin Lu, Xiao Yang, Lingyi Kong, Chao Wan, Kunyu Yang
+
+Cancer Center, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China
+
+---
+
+Purpose/Objective(s): Tumor cell dormancy and metabolic reprogramming are critical events in metastatic relapse. However, the mechanisms, particularly how the lung pre-metastatic niche and its associated metabolic alterations awaken dormant disseminated tumor cells (DTCs), remain elusive. This study aims to decipher the cascade from primary tumor-derived exosomes to DTC reactivation in the pre-metastatic lung, specifically identifying the key metabolite-mediated pathway driving this process.
+Materials/Methods: We employed multiple mouse models of spontaneous lung metastasis (e.g., B16-F10, Lewis). To comprehensively profile the pre-metastatic niche, we performed untargeted metabolomics on lung tissues to identify differentially enriched metabolites, and single-cell RNA sequencing (scRNA-seq) to delineate the cellular source of Irg1. Other key techniques included: in vivo imaging and H&#38;E staining for metastasis tracking; generation of Irg1flox/flox mice with Mrp8-Cre for neutrophil-specific Irg1 deletion; RNA-seq of sorted alveolar macrophages; co-immunoprecipitation and Western blotting for itaconate-mediated LATS2 alkylation validation; chromatin immunoprecipitation (ChIP) for YAP1 nuclear translocation.
+Results: We delineated a sequential pathway driving metastatic reactivation in the lung. Initially, primary tumor-derived exosomes educated SPP1+ alveolar macrophages to bolster the production of CXCL2 and ensue neutrophil recruitment. Subsequently, these lung-infiltrating neutrophils specifically expressed Irg1, resulting in a marked accumulation of the metabolite itaconate within the pre-metastatic niche. Mechanistically, itaconate directly alkylated dormant DTCs at the C910 and C911 site of the key upstream kinase LATS2 in the Hippo pathway. This modification inhibited the LATS2&#8217;s capacity to phosphorylate YAP1, thereby promoting the nuclear translocation of unphosphorylated YAP1 to activate a pro-proliferative transcriptional program, forcing DTCs to exit dormancy. Crucially, this entire axis was disrupted by either neutrophil-specific genetic ablation of Irg1 or pharmacological inhibition of CXCR2, both of which significantly reduced tumor lung metastasis.
+Conclusions: Our work unveils a novel paradigm in which the tumor exosome-neutrophil axis drives metastatic reactivation via metabolite-mediated protein alkylation. We pinpoint the neutrophil-IRG1-itaconate axis as a pivotal signaling cascade in this process, and our findings demonstrate that therapeutic targeting of this axis, either upstream at CXCR2 or at the metabolite itaconate, represents a viable strategy to prevent tumor lung metastasis.

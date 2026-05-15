@@ -1,0 +1,14 @@
+# Obesity shapes a reversible immune microenvironment that fosters breast cancer growth
+
+**Poster #**: 6572
+**Session**: Inflammation, Immunity, and Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Tao Zhang1, Shimeng Liu1, Yi Zhang2, Alva Yijia Jiang1, Zachary Sandusky1, Na Zhang1, Tara Akhshi1, Nicole Traphagen1, Jack Yueyang Wang1, Lucas Tian1, Esme Wheeler1, Yingtian Xie1, Rong Li1, Buraq Ahmed1, Genevra Kuziel1, Capucine Heraud1, Mohammed Mutaher1, Henry Long1, Kornelia Polyak1, Myles A. Brown1
+
+1Dana-Farber Cancer Institute, Boston, MA,2Duke University, Durham, NC
+
+---
+
+Obesity is linked to breast cancer risk and severity, yet the underlying mechanisms remain unclear. Using single-cell RNA sequencing, we identified a role for C1q+ macrophages in mammary tumors and adipose tissues in mouse obesity and breast cancer models. Macrophage-derived C1q promotes the clearance of obesity-associated apoptotic adipocytes, enhancing lipid metabolism and leading to an immunosuppressive tumor microenvironment via the production of prostaglandin E2 (PGE2). Moreover, the tumor-associated macrophages (TAMs) engage tumor cells in a feedforward loop by inducing the production of monocyte-recruiting cytokines further suppressing the anti-tumor immune response. Blockade of C1q, TNF-&#945;, and PGE2 synthesis reduced tumor growth in obese mice. Importantly, weight loss via dietary changes or glucagon-like peptide-1 receptor (GLP-1R) agonism decreased C1q expression and suppressed obesity-driven tumor growth. Interference with the immunosuppressive environment and the feedforward loop may be viable strategies for improving the outcomes of breast cancer patients with obesity.

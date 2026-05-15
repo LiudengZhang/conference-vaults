@@ -1,0 +1,12 @@
+# A user-friendly, no-code, application for HIPAA-compliant automated analysis of tabular data at scale
+
+**Poster #**: 5507
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Paraic  A.  KennyGundersen Medical Foundation, La Crosse, WI
+
+---
+
+Much research in clinical settings involves review of large quantities of often unstructured data in electronic medical records, which is time consuming and requires an educated workforce of clinical research coordinators, residents and/or fellows. Large language models, such as ChatGPT, have demonstrable capabilities for efficiently analyzing and summarizing large volumes of text, offering the potential to greatly accelerate chart review-based research in clinical settings. Concerns regarding leakage of personal health information (PHI) sharply limit the potential to utilize commercial chatbots for this purpose. Secure, fire-walled in-house LLM chatbots in a well-governed system can solve concerns related to PHI leakage. Although processing data for large studies one-prompt-at-a-time may offer substantial efficiency gains versus prior human-only processes, far greater efficiencies can be achieved by automating the prompt submission and retrieval process.To address these concerns, we developed a user-friendly application for processing any form of tabular data at scale using an in-house implementation of ChatGPT 4o-mini on Emplify Health’s Azure cloud environment. The application imports tabular data (in excel or text format), guides the user through a straightforward prompt engineering process and then automatically submits the data, row-by-row, to the LLM and retrieves and tabulates the returning data in the manner specified by the user.The application was initially developed with the goal of rapidly reasoning through thousands of pathology reports to identify those which correspond to cancer cases and, for those cases, automatically extracting multiple cancer-related parameters. Following this early success, we developed a completely generalized data agnostic application which has found widespread utility within our research institute, being deployed on diverse data sources such as cancer registries, cardiology CT reports, imaging narratives and clinical encounter notes. In this way, the application has substantially accelerated research projects by dramatically reducing the time needed to retrieve data, enabling our personnel to spend more time on higher yield activities such as data analysis.

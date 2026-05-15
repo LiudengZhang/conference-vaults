@@ -1,0 +1,17 @@
+# Single-cell intercellular CRISPR screen reveals stromal regulators of colorectal cancer plasticity
+
+**Poster #**: 4913
+**Session**: Novel Experimental Platforms and Causal Inference
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Corinne Molyneux, Rhianna O'Sullivan, Alistair Wilkinson, Nick Li, Shauna Crampsie, Petra Vlckova, Aurelie Dobric, Chris Tape
+
+Cancer Institute, University College London, London, United Kingdom
+
+---
+
+Colorectal cancer (CRC) displays high levels of non-genetic phenotypic plasticity, enabling cancer cells to dynamically shift between distinct functional states, resulting in therapy evasion and disease progression. This plasticity is driven by both intrinsic transcriptional programmes within epithelial cancer cells and extrinsic cues from the tumour microenvironment.
+To explore the molecular mechanisms underlying this process, we performed single-cell transcriptomic profiling of ten CRC patient-derived organoid (PDO) models co-cultured with or without cancer-associated fibroblasts (CAFs). Across all CRC PDOs, we observed varying admixtures of proliferative colonic stem cells (proCSC) and slow-cycling, onco-foetal, revival colonic stem cells (revCSC). In response to stromal cues some PDOs underwent pronounced transcriptional reprogramming towards the chemoresistant revCSC state. However, this CAF-induced epithelial plasticity was highly patient-specific with some PDOs maintaining an intrinsic stem cell equilibrium. We identified the transcriptional regulator DACH1 as a defining marker of CRC cells with high stromal responsiveness and this factor was consistently downregulated upon CAF interaction.
+To functionally identify the stromal signals mediating this stem cell reprogramming, we developed an arrayed CRISPR screening platform to systematically perturb the CAF secretome during direct PDO-CAF co-culture. Perturbed co-cultures were assessed via multiplexed mass cytometry to capture the PDO response to the genetically-edited CAF population at single cell resolution. This approach revealed the key regulators of proCSC-to-revCSC transdetermination with prostaglandin E2 (PGE2) emerging as the primary effector of stromal-induced CRC plasticity changes.
+These findings demonstrate that CRC phenotypic plasticity is regulated by cell-intrinsic transcriptional states and stromal-derived signals, provide new mechanistic insight into therapy failure and describe a potential therapeutic intervention strategy to overcome plasticity driven chemoresistance.

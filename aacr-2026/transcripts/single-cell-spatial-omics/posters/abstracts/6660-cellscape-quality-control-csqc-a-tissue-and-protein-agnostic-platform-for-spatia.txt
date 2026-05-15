@@ -1,0 +1,17 @@
+# CellScape Quality Control (CSQC): A tissue- and protein-agnostic platform for spatial proteomics quality assessment
+
+**Poster #**: 6660
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Daniel Jimenez-Sanchez1, Brian  J.  Lane1, Matthew  H.  Ingalls1, Charles Eldon Jackson1, Steven  T.  Lott1, Adam Northcutt1, Arne Christians2, Anke Brix2, Jennifer Brooks2, Oliver Braubach1
+
+1Bruker Spatial Biology, St. Louis, MO,2Bruker Spatial Biology, Hanover, Germany
+
+---
+
+Introduction: Spatial proteomics is an emerging diagnostic tool for precision oncology, yet data reproducibility across tissue sections and batches remains a major obstacle towards achieving robust biomarker discovery and clinically actionable results. Variability in tissue quality, tissue preparation, antibody performance, and imaging conditions all introduce artifacts that compromise quantitative accuracy. Manual quality control of imaging data is thus essential, but it is very time consuming and subjective. A standardized, automated, and quantitative quality control framework is therefore essential to support realistic adoption of spatial proteomic workflows in precision oncology.
+Methods: We developed CellScape Quality Control (CSQC), a machine learning-based framework for automated stain quality assessment and tissue vetting. CSQC was trained on >100 samples from >20 tissue types from ten CellScape&#8482; precise spatial phenotyping instruments across laboratories. The dataset included more than 50 biomarkers representing nuclear, membrane, and cytoplasmic targets across multiple antibody clones, stain protocols, and imaging magnifications (10x and 20x). Expert annotations were used as ground truth for model training and validation.
+Results: CSQC achieved a mean IoU >0.7 for background, artifact, and usable tissue detection, showing strong concordance with expert annotations. The system automatically flagged suboptimal staining and batch-level artifacts, thereby enabling harmonization across instruments and sites. The deployment of CSQC reduced manual review time from several hours to minutes per sample, and thereby allowed rapid scaling of downstream analyses to dozens of slides and proteins analyzed by a single operator in a given time frame. In addition, we observed a noticeable improvement in downstream marker quantification and reproducibility following CSQC vetting.
+Conclusion: CSQC provides a standardized, quantitative, and scalable approach to stain and tissue quality control, supporting robust multisite spatial proteomics workflows on the CellScape precise spatial phenotyping platform. This framework facilitates assay harmonization, benchmarked reproducibility, and reliable spatial biomarker discovery for clinical translation.

@@ -1,0 +1,17 @@
+# A comprehensive single-cell atlas of head and neck squamous cell carcinoma defines malignant cell states and enables deconvolution of legacy bulk transcriptomic cohorts
+
+**Poster #**: 2715
+**Session**: Integration of Clinical and Research Data
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Yuanyuan Shen, Tingyi Li, Roger Li, Xuefeng Wang, Xiaoqing Yu
+
+Moffitt Cancer Center, Tampa, FL
+
+---
+
+Background: Head and neck squamous cell carcinoma (HNSCC) is characterized by intratumor heterogeneity driven by diverse malignant cell states and a complex tumor microenvironment influenced by HPV infection and tobacco exposure. Previous studies have used single-cell RNA sequencing (scRNAseq) to explore this complexity, none has delivered a large-scale, integrated, rigorously curated, and systematically validated atlas with high-resolution cell subtype annotation. Existing scRNAseq resources lack direct links to large legacy bulk transcriptomic cohorts that contain deep clinical characterization and long-term outcomes.
+Methods: We curated, annotated,integrated scRNAseq datasets from 7 HNSCC studies, comprising 137 individuals across all disease stages. After stringent quality control and batch correction, cells were classified into major cell type and cell states. Epithelial cells were then subclustered to define transcriptional cell states and associated hallmark pathway activities. Using these atlas-derived malignant and microenvironmental states, we constructed a Bayesian model to predict cellular composition within individual cell types. This model was then applied for deconvolution of 1705 samples in 24 bulk transcriptomic HNSCC cohorts, enabling estimation of cell-state proportions and associations with HPV status, alcohol and tobacco exposure, and clinical outcomes.
+Results: Clustering of 368,842 high-quality cells identified 63 cell states across 16 major cell types. Within the malignant epithelial population, we defined 12 distinct states including chromatin remodeling, cilia, E2F targets, EMT-II, cell cycle phases, and stress responses. Deconvolution of bulk cohorts using the BayesPrism approach recapitulated these altas-defined signatures and uncovered reproducible clinical association across datasets. Lower EMT-II (p=0.02), higher glutathione (p=0.038), increased cDC3 (p=0.024), and elevated IFN-TAM (p=0.0153) were associated with improved survival. HPV status demonstrated significant associations with distinct cell states including CD4 Tcm, CD8 Temra, proliferative fibroblast, G2M epithelial cells, myofibroblasts, and TNFRSF9+ Treg cells.
+Conclusions: This study establishes a comprehensive single-cell atlas for HNSCC and introduces a BayesPrism-powered framework for projecting malignant and microenvironmental cell states onto heterogeneous bulk transcriptomic datasets. By linking high-resolution cellular profiles with large, clinically annotated cohorts, our work provides a scalable and robust strategy to decode the ecosystem heterogeneity of HNSCC.

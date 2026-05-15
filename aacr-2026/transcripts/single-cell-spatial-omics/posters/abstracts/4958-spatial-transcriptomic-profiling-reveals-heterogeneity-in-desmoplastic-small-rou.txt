@@ -1,0 +1,14 @@
+# Spatial transcriptomic profiling reveals heterogeneity in desmoplastic small round cell tumor
+
+**Poster #**: 4958
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Elana Sverdlik1, Jeffrey Quinn2, Jiayi Fan2, Christopher Tosh2, Tamar Feinberg2, Melania Franchini3, Jovana Pavisic2, Shanita Li2, Andoyo Ndengu2, Glorymar Ibanez Sanchez2, Emily Stockfisch2, Filemon Dela Cruz2, Andrew  L.  Kung4, Joshua Honeyman2, Emily Slotkin2, Wesley Tansey2
+
+1Gerstner Sloan Kettering - Graduate School of Biomedical Sciences, New York, NY,2Memorial Sloan Kettering Cancer Center, New York, NY,3Herbert Irving Comprehensive Cancer Ctr., New York, NY,4Chief, Division of Pediatric Hematology/, Memorial Sloan Kettering Cancer Center, New York, NY
+
+---
+
+Desmoplastic small round cell tumor (DSRCT) is a rare, aggressive soft tissue sarcoma driven by the chimeric fusion protein EWSR1-WT1 that modulates oncogenic gene expression programs in DSRCT tumor cells. Despite this defined molecular driver, treatment response and survival outcomes vary substantially between DSRCT patients (5-year survival ~ 15%). We hypothesize that treatment outcome variability reflects heterogeneity in tumor cell phenotypic states, microenvironmental architecture, and signaling networks. Here we profiled seven peritoneal and lymph node metastatic tumor sites across four DSRCT patients using Xenium 5K spatial transcriptomics on tissue microarrays (1,383,406 cells). We integrated snRNA-seq data from 15 DSRCT samples (251,087 cells) for cell type annotation, identifying patient-specific tumor subtypes through per-patient Leiden clustering (resolution=0.2) and CAF subtypes through marker gene scoring. This revealed 14 patient-specific tumor subtypes (3-4 per patient), three CAF subtypes (apCAFs, myCAFs, iCAFs), macrophages, T cells, and endothelial cells.

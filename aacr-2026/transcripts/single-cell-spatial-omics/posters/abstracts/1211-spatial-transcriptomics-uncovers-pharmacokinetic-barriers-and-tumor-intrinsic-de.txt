@@ -1,0 +1,17 @@
+# Spatial transcriptomics uncovers pharmacokinetic barriers and tumor-intrinsic determinants of resistance to trastuzumab deruxtecan in breast cancer
+
+**Poster #**: 1211
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Changhee Park1, Minki Choi2, Jiwon Koh3, Sungwoo Bae4, Hongyoon Choi4, Kwon Joong Na4, Dae-Won Lee1, Kyung-Hun Lee1, Han Suk Ryu3, Seock-Ah Im1
+
+1Seoul National University Hospital, Seoul, Korea, Republic of,2Pathology, Asan Medical Center, Seoul, Korea, Republic of,3Pathology, Seoul National University Hospital, Seoul, Korea, Republic of,4Portrai Inc., Seoul, Korea, Republic of
+
+---
+
+Introduction: Trastuzumab deruxtecan (T-DXd) is an antibody-drug conjugate (ADC) that is effective for both HER2-positive and HER2-low metastatic breast cancers (MBC). While correlation between HER2 expression levels and response to T-DXd was identified, effective biomarkers and mechanisms of sensitivity or resistance remain elusive, partly due to complex pharmacokinetics of T-DXd. Our goal is to delineate spatial transcriptomic (ST) features which is associated with therapeutic response and resistance to T-DXd.
+Methods: We performed ST with the 10x Genomics Visium HD on formalin-fixed paraffin-embedded tumor tissues from patients with MBC treated with T-DXd. Responders to T-DXd were defined as patients who experienced objective response or stable disease for more than 6 months, and non-responders were defined as otherwise. Fragments of pre-treatment biopsy samples from patients classified as responders were designated as "sensitive fragment&#8221; while that of pre-treatment biopsy samples from non-responders or post-progression biopsy samples from responders were defined as &#8220;resistant fragment&#8221;. Various transcriptome analyses were performed including the compartment modeling-based methods for estimating antibody and payload concentrations from T-DXd pharmacokinetic profiles.
+Results: A total of 20 tumor tissues from 13 patients were available including matched pre- and post-treatment biopsied in 5 patients. After quality check, 11 T-DXd-sensitive (19 fragments) and 7 resistant tissue samples (27 fragments) were included for analysis. Utilizing autocorrelation-related indices, spatial heterogeneity of ERBB2 gene expression influenced outcomes, with more dispersed ERBB2 gene expression distributions by cancer cells correlating with improved response. In HER2-positive tumors, resistant fragments showed downregulation of ERBB2 gene expression and activation of PI3K and EGFR pathways, with autocrine amphiregulin-EGFR signaling emerging as a candidate resistance mechanism. In HER2-low tumors, resistance was notably associated with pharmacokinetic barriers: resistant fragments exhibited increased cancer-vessel distance, reduced colocalization of ERBB2 expression with cathepsin linker-cleaving enzymes and diminished predicted tumor-to-non-tumor payload concentration ratio. Exploratory longitudinal analyses of paired pre- and post-treatment samples revealed temporal increases in vessel-cancer distance at resistance.
+Conclusion: These findings highlight potential determinants of T-DXd efficacy. Our study demonstrates the utility of ST for uncovering ADC response mechanisms in clinical samples and potential novel therapeutic strategies.

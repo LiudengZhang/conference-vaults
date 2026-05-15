@@ -1,0 +1,14 @@
+# WRN under the scalpel: Helicase-domain hotspot &#38; splice-site knock-ins in HCT116 and RKO
+
+**Poster #**: 1806
+**Session**: Mechanisms of Drug Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Yue Huang, Xiaomeng Gou, Jinying Ning, Feng Hao
+
+Kyinno Biotechnology Co., LTD, Beijing, China
+
+---
+
+The WRN helicase is a synthetic-lethal vulnerability in microsatellite-instability-high (MSI-H) tumors, yet allele-specific resistance is a foreseeable risk as small-molecule WRN inhibitors advance. Endogenous point-mutation models, built in the native regulatory context, more faithfully capture drug-target engagement and pathway compensation than overexpression systems. Such models enable rigorous mechanism-of-action confirmation, resistance-liability mapping, chemotype backup selection, patient-stratification/biomarker hypotheses, and faster SAR and combination design.Across isogenic HCT116 and RKO models, two WRN-targeting chemotypes diverged at specific liability nodes. WT HCT116 was highly sensitive (VVD-214 48.47 nM; HRO761 86.89 nM), and baseline RKO remained responsive (366/720 nM). C727 dictated VVD-214 resistance: C727A drove VVD-214 to >10 &#181;M while preserving near-WT HRO761 (153-179 nM); C727S pushed HRO761 to 2.1-3.5 &#181;M and VVD-214 to >10 &#181;M; in RKO-C727S, both exceeded 10 &#181;M. I852F showed the reciprocal pattern&#8212;VVD-214 stayed potent (62-77 nM) but HRO761 was inactive (>10 &#181;M). G729D and F730L caused bilateral right-shifts, larger for HRO761 (VVD-214 0.71-1.34 &#181;M; HRO761 2.9-8.0 &#181;M); combining G729D+I852F abolished HRO761 (>10 &#181;M) while VVD-214 remained sub-&#181;M (0.78-0.82 &#181;M). The splice variant c.1577-1G>C was hypersensitive to VVD-214 (36-37 nM) yet right-shifted for HRO761 (~1.11 &#181;M). Collectively, C727 &#8594; VVD-214 resistance and I852 &#8594;HRO761 resistance, while G729/F730/splice confer a broader HRO761 bias&#8212;guiding chemotype switching and backup selection.Alleles were introduced by CRISPR-Cas9 HDR using ~200-nt ssODN donors; single-cell clones were sequence-verified (Sanger/NGS), STR-authenticated, and mycoplasma-free banked. Dose-response viability assays (72-96 h, 10-point curves) were fit with four-parameter logistic models to derive IC&#8325;&#8320;; each clone included n&#8805;2-3 biological replicates. This WRN allele panel is immediately deployable to (1) build allele-resolved resistance maps, (2) prioritize chemotype backups based on the C727/I852 complementarity, (3) generate patient-selection/biomarker hypotheses for MSI-H settings, and (4) accelerate SAR and combination strategies&#8212;thereby front-loading chemical and clinical derisking for VVD-214- and HRO761-class WRN inhibitors.

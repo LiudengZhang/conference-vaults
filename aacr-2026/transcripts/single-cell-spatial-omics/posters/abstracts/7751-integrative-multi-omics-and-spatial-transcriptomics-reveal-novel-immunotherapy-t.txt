@@ -1,0 +1,17 @@
+# Integrative multi-omics and spatial transcriptomics reveal novel immunotherapy targets in hepatocellular carcinoma
+
+**Poster #**: 7751
+**Session**: Immune Response to Therapies
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Zihui Zhao1, Xiaohang Long2, Siyuan HUANG2, Yan Liu3, Alfred S. l. Cheng4
+
+1School of Biomedical Science, Chinese University of Hong Kong (CUHK), Hong Kong, Hong Kong,2CUHK, NT, Hong Kong,3The Chinese University of Hong Kong, Shatin, NT,4Chinese University of Hong Kong (CUHK), Hong Kong, Hong Kong
+
+---
+
+Background: Immunotherapy has transformed the management of hepatocellular carcinoma (HCC), yet most patients fail to achieve durable responses. The underlying single-cell-level gene-regulatory mechanisms shaping immune evasion remain poorly understood. To uncover previously unknown therapeutic vulnerabilities, we integrated single-cell multiomic profiling with spatial transcriptomics in a 25-patient HCC immunotherapy cohort.
+Methods: Tumor samples underwent 10x multiome sequencing, enabling simultaneous scATAC-seq and scRNA-seq from the same cells using shared barcodes. This allowed cell-resolved mapping of chromatin accessibility, transcriptional states, and gene-regulatory relationships. We identified differentially accessible regions and gene-expression changes associated with clinical immunotherapy outcomes. To contextualize these regulatory programs in situ, spatial transcriptomic profiling was performed to map target-gene expression and immune-cell localization within the tumor microenvironment.
+Results: Joint scATAC-scRNA integration revealed previously unrecognized regulatory circuits distinguishing responders from non-responders, including chromatin-primed dysfunctional CD8&#8314; T cells and TREM2+ macrophage programs not detectable by single-modality assays. Multiomic analysis identified novel candidate immune-regulatory targets, defined by coordinated shifts in chromatin accessibility and transcriptional activation at the single-cell level. Spatial mapping demonstrated that these targets are enriched in discrete immune-excluded regions and at tumor-myeloid interfaces, revealing new spatially orchestrated mechanisms of immune suppression. Several ligand-receptor pairs and non-canonical transcriptional regulators emerged as high-confidence targets for therapeutic intervention.
+Conclusions: By combining shared-barcode single-cell multiomics with spatial transcriptomics, we provide a comprehensive, mechanistic view of gene-regulatory changes driving immunotherapy resistance in HCC. This study uncovers novel, spatially validated immune-regulatory targets and highlights previously unknown cell-state transitions that may be leveraged to improve immunotherapy efficacy. Acknowledgements This research was supported by Li Ka Shing Foundation and internal funding from The Chinese University of Hong Kong. We thank all lab members for their contributions.

@@ -1,0 +1,12 @@
+# ELEVATE: Axis-coupled mapping of co-varying gene programs in single-cell transcriptomic data
+
+**Poster #**: 6896
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Kourosh Kouhmareh1, Richard L. Klemke21UC San Diego School of Medicine, La Jolla, CA,2UCSD Moores Cancer Center, La Jolla, CA
+
+---
+
+Differential expression analysis has long been the standard for identifying genes that distinguish one condition from another. However, it is inherently binary and static (comparing X vs Y, high vs low), offering only a snapshot of differences rather than revealing how expression programs develop. Pseudotime algorithms address this by reconstructing inferred trajectories that model temporal progression, yet these paths are manifold driven rather than anchored to a defined biological axis, which can allow for dominant sources of variation to mask processes of interest. To directly interrogate how a gene or gene set is upregulated and which associated processes rise alongside it, we developed ELEVATE (Expression LEVEL-based Variational Analysis of Transcriptional Evolution), a trajectory-agnostic framework that orders cells by an anchor gene or signature, partitions them into equal, ascending single-cell Variational Inference (scVI) expression-based percentile bins, and performs sequential adjacent-rising comparisons to identify genes that rise or decline monotonically with the anchor. We additionally define an inflection bin, the percentile interval where anchor gene induction triggers the largest aggregate transcriptomic shift. Applying this framework to single-cell RNA-sequencing data from primary human tumors, we show that ELEVATE-based profiling provides finer resolution than discrete clustering, disentangling genes that rise continuously with the anchor from those that don’t fully contribute to the end-state expression profile. ELEVATE provides actionable, pathway-level insights clarifying how expression programs evolve, and prioritizes candidate drivers and targets for experimental validation.

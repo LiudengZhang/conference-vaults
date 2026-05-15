@@ -1,0 +1,12 @@
+# Unbiased cell type identification and biological interpretation of spatial molecular data
+
+**Poster #**: 6913
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Filippo Pullara1, Raymond Yan1, Brian Falkenstein1, A. Burak Tosun1, S. Chakra Chennubhotla21PredxBio, Inc., Pittsburgh, PA,2PredxBio, Inc. / University of Pittsburgh, Pittsburgh, PA
+
+---
+
+Background: While pre-defined, or biased, phenotyping algorithms are a popular approach for analyzing spatial molecular data, offering ready biological interpretation (e.g., CD8+ T-cells, CD68+PD-L1+ macrophages) and reproducibility across labs with consistent threshold choices, they suffer from subjectivity, coarseness, and an inability to capture emergent biology. Conversely, unbiased phenotyping algorithms have the potential to address these limitations, but they currently lack straightforward biological interpretability.Methods: Our SpaceIQ™ multi-omics platform performs recursive cell typing (RCT) instead of standard hierarchical clustering and other graph-based algorithms for unbiased cell identification. RCT leverages the wide dynamic range (variance) in spatial proteomics, transcriptomics, and morphology data, driven by protein abundance and other technical factors, as biologically insightful. Unlike normalized standard methods, RCT allows markers with larger variances to drive early differentiation, with smaller-variance markers defining subsequent subpopulations.Results: We demonstrate the broad applicability of RCT using the SpaceIQ™ platform across three publicly available spatial datasets, including proteomics, transcriptomics, and brightfield pathology. To facilitate biological interpretation of the resulting unbiased cell populations, RCT approach: (i) identifies discriminatory biomarker signatures for annotating each RCT; (ii) calculates the probability of pre-defined phenotypes within any unbiased cell type; and (iii) generates a minimal marker panel that can approximate any given unbiased cell type with high probability.Conclusions: Unbiased cell typing, achieved through RCT, is critical in cancer research. This approach ensures the representation of all cell states—rare, abundant, positive, negative, and transitional—regardless of antigen expression. By not relying on extensive cell-type specific training, it is uniquely suited to capture the full spectrum of cellular heterogeneity.

@@ -1,0 +1,12 @@
+# Identification and structural characterization of a novel PCNA-interacting small molecule scaffold
+
+**Poster #**: 5124
+**Session**: New Ligands and Inhibitors
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jennifer Jossart1, Ning Ma2, Pouya Haratipour2, Caroline Li3, Long Gu3, Terrence O'Brien4, Nagarajan Vaidehi5, Linda H. Malkas3, Robert Hickey1, Jeff  J.  Perry61Cancer Biology and Molecular Medicine, Beckman Research Institute of The City of Hope, Duarte, CA,2Beckman Research Institute of the City of Hope, Duarte, CA,3Beckman Research Institute of The City of Hope, Duarte, CA,4Atomwise, San Francisco, CA,5City of Hope National Medical Center, Duarte, CA,6Beckman Research Institute at the City of Hope, Duarte, CA
+
+---
+
+Proliferating cell nuclear antigen (PCNA) plays essential roles in DNA replication, repair, transcription, and cell-cycle regulation, making it an attractive yet historically difficult target in cancer therapy. Building on our development of AOH1996, a first-in-class small molecule currently in Phase I clinical evaluation for solid and liquid tumors, we sought to identify additional PCNA-interacting chemotypes that could expand therapeutic opportunities and inform next-generation inhibitor design. Using an artificial intelligence-guided computer-aided drug discovery workflow, we screened more than ten million drug-like compounds and prioritized candidates through differential scanning fluorimetry. This approach led to the identification of COH005, a previously unreported small-molecule scaffold that binds PCNA. X-ray crystallography demonstrated that COH005 engages the major PCNA-interacting-protein (PIP)-box binding pocket, a critical interface for PCNA-mediated protein-protein interactions. Cellular thermal shift assays (CETSA) validated direct COH005-PCNA engagement in cells similar to clinical IND, AOH1996. To assess selectivity, we performed protein-structure frustration analysis comparing COH005 interactions with PCNA against an unrelated anti-target, revealing energetically favorable binding unique to PCNA. Together, these studies establish COH005 as a novel PCNA-interacting scaffold with strong potential for therapeutic development. This work provides a structural and mechanistic foundation for designing next-generation PCNA-targeted agents with improved specificity and pharmacological properties.

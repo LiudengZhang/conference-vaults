@@ -1,0 +1,12 @@
+# AI based explainable survival modeling for advanced non small cell lung cancer
+
+**Poster #**: 4229
+**Session**: Machine Learning Approaches for Cancer Prediction
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Kang Qin1, An Qin2, John  V.  Heymach11MD Anderson cancer center, Houston, TX,2Loyola University Chicago, Chicago, IL
+
+---
+
+Background: Accurate individualized prognostication in advanced non-small cell lung cancer (NSCLC) is hindered by nonlinear interactions among clinical and biological variables. Integrating interpretable artificial intelligence (AI) with classical survival modeling may enhance predictive precision while preserving transparency.Methods: A real-world cohort of 62 608 advanced NSCLC patients with 52782 observed death events was analyzed. Prognostic variables significantly associated with overall survival (OS) were identified using univariate Cox proportional-hazards regression (p  0.9).Conclusions: A transparent Cox-LASSO-LightGBM-SHAP framework established a robust, biologically consistent 20-factor prognostic signature for advanced NSCLC. The model achieved high predictive accuracy, clinical calibration, and interpretability, revealing treatment modality, metastatic extent, and temporal therapeutic progress as principal survival drivers. This interpretable AI framework enables credible, individualized survival prediction and bridges data-driven modeling with clinical oncology.

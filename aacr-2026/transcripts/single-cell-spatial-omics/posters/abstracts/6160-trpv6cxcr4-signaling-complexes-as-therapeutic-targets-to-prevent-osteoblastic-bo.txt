@@ -1,0 +1,17 @@
+# TRPV6/CXCR4 signaling complexes as therapeutic targets to prevent osteoblastic bone metastasis in castration-resistant prostate cancer
+
+**Poster #**: 6160
+**Session**: Metastatic Niches and Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Clement Cordier1, Aurélien Haustrate1, Adriana Mihalache2, Erika Duval2, Emilie Desruelles1, Corentin Spriet3, Lofti Slimani4, Baptiste Casel4, Laurent Allart1, Pierre Gosset2, Natalia Prevarskaya1, V'yacheslav Lehen'kyi1
+
+1Inserm U1003, Phycel, Physiology Cellulaire, University of Lille, France, Lille, France,2Pathology Department, Saint Vincent de Paul Hospital, Hospital Group of Catholic Institute of Lille (GHICL), Lille, France, Lille, France,3University of Lille, CNRS, Inserm, CHU Lille, Institut Pasteur of Lille, US 41 - UAR 2014 - PLBS, Lille, France, Lille, France,4University of Paris Cité and Sorbonne Paris Nord, Inserm UMR1333, Oral Health, Montrouge, France, Lille, France
+
+---
+
+Background: Bone metastasis is a leading cause of morbidity and mortality in advanced prostate cancer, affecting up to 90% of patients with castration-resistant prostate cancer (CRPC). Around 85% of these lesions are osteoblastic. The calcium channel TRPV6 is absent in healthy prostate tissue but produced de novo during malignant transformation, with higher expression in advanced and castration-resistant stages. TRPV6 regulates calcium influx and downstream signalling pathways that promote proliferation, invasion and survival. Previous studies have shown that TRPV6 promotes epithelial-mesenchymal transition (EMT), migration, invasion and metastatic dissemination, particularly to bone, and forms functional complexes with the chemokine receptor CXCR4, a key mediator of tumour cell homing to bone. Here, we investigated how the TRPV6-CXCR4 axis contributes to osteoblastic bone metastases and whether its pharmacological inhibition could be therapeutically beneficial.
+Methods: TRPV6 and CXCR4 expression and co-localization were analyzed in human prostate cancer tissues and bone metastases. Functional assays using TRPV6-overexpressing or TRPV6-knockout cells evaluated osteoblast-mediated migration, invasion and activation. In vivo studies assessed the effect of targeting TRPV6 and CXCR4, individually or in combination, with monoclonal antibodies on metastatic burden and bone lesion phenotype.
+Results: TRPV6 expression strongly correlated with tumor aggressiveness and metastatic progression in clinical samples. TRPV6 activation triggered CaMK2 phosphorylation, NF-&#954;B nuclear translocation and upregulation of EMT-associated transcription factors (Twist, Snail, Slug), enhancing migratory and invasive phenotypes. Concurrently, TRPV6 promoted stable CXCR4-TRPV6 complex formation, amplifying pro-metastatic signalling. In co-culture assays, TRPV6-expressing cells markedly increased osteoblast activation markers (ALP, RUNX2, OPN) and matrix mineralisation, indicating functional tumour-osteoblast crosstalk driving osteoblastic niche formation. In vivo, TRPV6-positive tumors primarily produced osteoblastic bone lesions, and dual targeting of TRPV6 and CXCR4 reduced the incidence of metastases, attenuated pathological bone remodeling, and prolonged overall survival.
+Conclusions: These results highlight the TRPV6-CXCR4 complex as a key regulator of osteoblastic bone metastasis in CRPC. Dual targeting of TRPV6 and CXCR4 provides a proof-of-concept therapeutic strategy to prevent or limit bone metastasis in prostate cancer.

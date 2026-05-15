@@ -1,0 +1,20 @@
+# Inferring tissue element identities from sample-level compositional data in cancer
+
+**Poster #**: 5488
+**Session**: Machine Learning for Image Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Georgios Asimomitis1, Kevin  M.  Boehm1, Konstantinos Liosis1, Armaan Kohli1, Tom Pollard1, Andrew Aukerman1, Arfath Pasha1, Anika Begum1, Lora  H.  Ellenson2, Jinru Shia2, Hong  A.  Zhang2, Nikolaus Schultz1, Sohrab  P.  Shah1, Francisco Sanchez-Vega1
+
+1Halvorsen Center for Computational Oncology, Memorial Sloan Kettering Cancer Center, New York, NY,2Department of Pathology & Laboratory Medicine, Memorial Sloan Kettering Cancer Center, New York, NY
+
+---
+
+The relative abundance of cellular and structural components in cancer tissues reflects disease biology and outcomes. High-throughput technologies, e.g., digital pathology and single-cell transcriptomics (scRNA-seq), profile tissue regions or cells, revealing the heterogeneous building blocks (elements) that comprise bulk phenotypes. Yet, translational applications increasingly demand that models not only infer sample-level distributions but also provide element-level characterizations (e.g., of specific histology regions, cells) that explain tumor macroscopic behavior. Achieving such granularity from sample-level compositional data without laborious annotations remains a challenge, requiring models capable of connecting local properties to global phenotypes.
+Existing methods, using attention to weight element contributions to sample-level predictions, lack probabilistic grounding and biological interpretability; thus, have limited utility in clinical settings. Here, we explicitly model sample-level compositional constraints with element-level assignments using Optimal Transport (OT). Particularly, we introduce Composer, a domain-agnostic dual-task machine learning model trained without element-level annotations to 1) estimate sample-level compositions, and, 2) importantly infer element labels as interpretable compositional allocations.
+The model's performance was evaluated across data modalities, cancer types, and tasks. We highlight 3 concepts:
+a) Tissue type classification on whole-slide images (WSIs): On 60 hematoxylin &#38; eosin (H&#38;E) WSIs from high-grade serous ovarian cancer (HGSOC, Boehm et al. 2022), Composer predicted the overall WSI tissue composition (Jensen-Shannon divergence (JSD): 0.26; mean absolute error: 0.11), classifying correctly (AUROC 0.98) the tissue type (tumor, stroma, necrosis, adipose, other) of individual regions within WSIs without training on regional annotations.
+b) Tumor segmentation on WSIs: On 185 H&#38;E WSIs spanning HGSOC, breast, and colorectal cancers (MSKCC), Composer estimated the overall tumor fraction per WSI (JSD 0.12; MAE 0.15), distinguishing efficiently tumor from non-tumor regions (AUROC 0.91) within WSIs.
+c) Single-cell type annotation in scRNA-seq: Using 156 scRNA-seq HGSOC samples (Vazquez-Garcia et al. 2022), Composer not only inferred bulk cell type distributions (JSD: 0.15; MAE: 0.06), but also accurately classified (AUROC: 0.97) individual cells to their designated type (T cells, monocytes, fibroblasts, cancer cells, other).
+In summary, the proposed OT-based weakly supervised framework provides an effective approach for linking element-level representations to sample-level compositional profiles in cancer. Its applicability across data analyses empowers spatial and molecular characterization of tumor ecosystems, biomarker quantification, and potential applications to precision oncology.

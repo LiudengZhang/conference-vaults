@@ -1,0 +1,12 @@
+# A modular in silico triage pipeline for multi omic evaluation of surface protein targets across indications
+
+**Poster #**: 4185
+**Session**: Integrative Computational Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Satyajit Rajapurkar, Lena Eismann, Mariana Pereira, Theodore Groth, Mugdha Khaladkar, Kathrin Jansen, Edward Curry, Marica SperanzaGSK, Collegeville, PA
+
+---
+
+Antibody-Drug Conjugates (ADCs) have revolutionized oncology by coupling cytotoxic payloads with antibodies that selectively target malignant cells. However, balancing efficacy with toxicity continues to be a major challenge, especially when off-target expression in healthy tissues leads to adverse side effects. To address these limitations, we have developed a modular in silico triage pipeline that integrates multi-modal, multi-omic datasets to systematically evaluate candidate surface proteins for targeted bispecific therapy.Our pipeline evaluates candidate antigens based on their MS-based tissue protein expression patterns across diverse cell populations and tissues, enabling the identification of markers that are predominantly upregulated in cancer cells while maintaining low mRNA expression in critical normal tissues. This comprehensive approach supports the rational design of bispecific antibodies that can further enhance specificity by binding to two distinct antigens simultaneously. By streamlining the target selection process, this strategy promises to accelerate the development of more effective and safer therapeutic modalities across a range of cancer indications.Here, we detail the design, implementation, and validation of our in silico framework, providing a robust platform for rapid and flexible evaluation of potential surface protein targets for ADCs and beyond.

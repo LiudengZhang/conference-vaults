@@ -1,0 +1,14 @@
+# Multi-omic spatial analysis reveals a distinct pattern of cellular neighborhood in gastric cancer
+
+**Poster #**: 810
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Takashi Semba, Huaitao Wang, Atsuko Yonemura, Yilin Tong, Takatsugu Ishimoto
+
+Japanese Foundation for Cancer Research, Tokyo, Japan
+
+---
+
+The tumor microenvironment (TME) consists of diverse cells, and recent studies suggest that their spatial relationships may be crucial for cellular function. However, the spatial organization of the gastric cancer (GC) TME remains poorly understood. In this study, we performed spatial analysis of the GC TME using multiplex immunohistochemistry (IHC) and spatial transcriptomics on paraffin blocks from 10 advanced gastric cancer cases. From more than 30-plex IHC images obtained using the RePROBE method, which we recently developed, we annotated each cell as fibroblasts, immune cells, etc., based on marker expression levels. We then performed cellular neighborhood (CN) analysis based on the annotated cell location information. This resulted in the identification of eight distinct CN meta-clusters. Furthermore, spatial transcriptomics analysis revealed the intercellular interactions occurring within spots. For example, an intercellular communication analysis based on a ligand-receptor database showed that within the CN primarily composed of fibroblasts, signals related to collagen and the extracellular matrix were intensely active. We also identified the transforming growth factor beta (TGF-&#946;) and mitogen-activated protein kinase (MAPK) pathways as the driving pathways for this activity. Moreover, when we scored gastric cancer cases from The Cancer Genome Atlas cohort using gene signatures derived from differentially expressed genes in each CN, we found that cases with high scores for the fibroblast-dominant CN showed significantly poorer prognosis. In addition, graph-based cell network analysis revealed that poor lymphocyte network formation was associated with fewer progenitor-like exhausted CD8 T cells, and fibrotic TME may inhibit the formation of lymphocyte networks. These results highlight the immunosuppressive role of fibrotic TME and its potential as a therapeutic target.

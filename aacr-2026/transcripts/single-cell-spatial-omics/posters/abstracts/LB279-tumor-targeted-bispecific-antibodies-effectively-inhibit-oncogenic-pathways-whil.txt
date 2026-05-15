@@ -1,0 +1,14 @@
+# Tumor-targeted bispecific antibodies effectively inhibit oncogenic pathways while minimizing toxicity
+
+**Poster #**: LB279
+**Session**: Late-Breaking Research: Molecular/Cellular Biology and Genetics 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Yvonne  T.  Kschonsak
+
+Genentech, Inc., South San Francisco, CA
+
+---
+
+Oncogenic signaling pathways are key drivers of cancer progression, but their inhibition has been difficult due to dose-limiting toxicities in normal tissues. Aberrant Wnt signaling, a major oncogenic pathway in colorectal cancer (CRC) and pancreatic ductal adenocarcinoma (PDAC), remains clinically challenging to target due to its essential role in intestinal homeostasis. To address this, we engineered bispecific antibodies that selectively inhibit oncogenic signaling in tumor cells while sparing normal tissues. Using single-cell transcriptomic analyses, we identified tumor-associated surface receptors&#8212;such as TROP2&#8212;that are absent in Wnt-dependent normal epithelial cells. A TROP2-targeted anti-Frizzled bispecific antibody achieved potent Wnt pathway inhibition and tumor growth suppression in preclinical models with minimal intestinal toxicity. Extending this approach, we developed additional tumor-selective bispecific antibodies targeting FGFR1 and EGFR signaling. Together, these findings demonstrate a broadly applicable strategy for designing tumor-targeted biologics that enhance therapeutic specificity and tolerability across multiple oncogenic pathways.

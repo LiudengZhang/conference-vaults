@@ -1,0 +1,17 @@
+# A neoantigen mRNA vaccine generates antitumor immunity in a murine model of intrahepatic cholangiocarcinoma
+
+**Poster #**: LB272
+**Session**: Late-Breaking Research: Immunology 3
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Mantang Qiu1, Jiacheng Lu2, Xinghan Wu1, Yang Liu1, Guoming Shi2
+
+1Xinyi Pharma (Hangzhou) Co., Ltd., Hangzhou, China,2Zhongshan Hospital, Fudan University, Shanghai, China
+
+---
+
+Background: Intrahepatic cholangiocarcinoma (iCCA) is an aggressive malignancy with limited therapeutic options and poor prognosis. Personalized cancer vaccines hold great promise for eliciting tumor-specific T-cell responses; however, their efficacy in iCCA remains incompletely defined. Here, we evaluated PNT01, an AI-guided personalized mRNA cancer vaccine developed using our in-house antigen discovery platform (EchoNeo 1.0), for antitumor efficacy, immune response, and safety in a murine iCCA model.
+Methods: A syngeneic subcutaneous iCCA model was established by implanting a proprietary iCCA cell line developed at Zhongshan Hospital, Fudan University, into C57BL/6 mice. Neoantigens were predicted using EchoNeo 1.0, a deep learning-based immunogenicity prediction framework leveraging multidimensional features. The neoantigen-encoding mRNA sequences were codon-optimized and encapsulated in lipid nanoparticles (LNPs) to generate the personalized cancer vaccine PNT01. Antitumor efficacy was assessed in the iCCA model across a dose range of PNT01 (10, 20, or 30 &#956;g per mouse; every 3 days, 7 times in total), administered as monotherapy or in combination with anti-PD-L1 antibody (200 &#956;g per mouse; every 3 days, 7 times in total). Tumor immune remodeling was profiled by single-cell RNA sequencing (scRNA-seq). Safety was assessed via hematology, serum biochemistry, and histopathology, with in vivo imaging to assess biodistribution and pharmacokinetics.
+Results: Tumor growth analyses demonstrated dose-dependent tumor control following repeated PNT01 vaccination. PNT01 monotherapy (30 &#956;g) significantly suppressed tumor growth compared with dose-matched empty LNP controls (P = 0.0339; tumor growth inhibition [TGI], 23.7%). Notably, PNT01 (30 &#956;g) in combination with anti-PD-L1 antibody elicited the most robust antitumor activity, significantly outperforming anti-PD-L1 antibody monotherapy (P = 0.0021; TGI, 50.5%) and PNT01 monotherapy (P = 0.0057; TGI, 40.1%). scRNA-seq immune profiling showed that PNT01 (30 &#956;g) combined with anti-PD-L1 antibody increased the proportion of intratumoral CD8&#8314;T cells relative to dose-matched empty LNP control (P = 0.0172) and anti-PD-L1 antibody monotherapy (P = 0.0036). Acute toxicity evaluation showed no significant alterations in hematologic or serum biochemical parameters, nor any treatment-related histopathologic abnormalities, at a single 54 &#956;g dose of PNT01.
+Conclusions: PNT01, an EchoNeo 1.0-designed personalized mRNA cancer vaccine, exhibited potent, durable antitumor activity and synergized with anti-PD-L1 in a murine iCCA model. scRNA-seq showed a higher intratumoral CD8+T-cell proportion with PNT01 combined with anti-PD-L1 than with anti-PD-L1 monotherapy. Collectively, these findings provide a strong rationale for advancing PNT01 toward clinical evaluation in iCCA.

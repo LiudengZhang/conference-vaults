@@ -1,0 +1,17 @@
+# Development of a CyTOF panel for macrophage polarization and functional assessment under treatment conditions
+
+**Poster #**: 4931
+**Session**: Novel Experimental Platforms and Causal Inference
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Poornima Gourabathini1, Rachel Weil2, Kimberly Q. McKinney3, Jeffrey  S.  Huo1, Kenzie Wells4, Kaitlyn Smith5, David  M.  Loeb2, Javier Oesterheld4
+
+1Atrium Health Wake Forest Baptist Comprehensive Cancer Center, Charlotte, NC,2Albert Einstein College of Medicine, Bronx, NY,3Pediatric Oncology Research Laboratory, Atrium Health Wake Forest Baptist Comprehensive Cancer Center, Charlotte, NC,4Atrium Health Levine, Charlotte, NC,5Wake Forest Baptist Health, Winston Salem, NC
+
+---
+
+Purpose: Tumor associated macrophages (TAMs) are prevalent in the sarcoma tumor microenvironment, and often contribute to immune suppression, angiogenesis, and tumor progression. TAMs exhibit a spectrum of polarization states, ranging from anti-tumor (M1) to tumor-supportive (M2) functions. Mass cytometry (CyTOF) enables high-dimensional single-cell profiling, making it ideal for dissecting the presence and abundance of various macrophage phenotypes within a tumor. This study aimed to design and validate a CyTOF panel targeting macrophages and associated immune markers, to characterize macrophage polarization states and evaluate treatment induced changes in macrophage subtypes.
+Methods:  A mouse macrophage-focused CyTOF panel was developed comprised of 40 markers, including lineage markers, activation markers, and cytokine-associated proteins relevant to M1/M2 phenotypes and other immune cell populations. For optimization of antibody titration and staining conditions, macrophage polarization was performed in vitro using the commercially available mouse-derived macrophage cell line RAW 264.7. Macrophage polarization states were induced under standard conditions: M1: LPS + IFN-&#947; and M2a: IL-4 + IL-13, M2b- OVA, Anti-OVA IgG, M2c- IL-10, and M2d-NECA stimuli. Following validation, the panel was applied to a mouse model of orthotopically implanted osteosarcoma cells treated with a novel compound to quantify the TAM polarization and associated immune networks. Tumor tissue samples were dissociated into single cell suspensions, stained using the CyTOF panel, and analyzed using dimensionality reduction (UMAP) and clustering algorithms.
+Results: The 40-marker CyTOF panel was successfully used to identify and characterize macrophage subtype populations in vitro as well as in mouse xenograft tumors. In vitro polarization of mouse RAW264.7 cells showed distinct phenotypic clusters corresponding to M1 and M2 subtypes. These results also enabled effective antibody titration. Treatment of orthotopically implanted osteosarcoma tumors with the novel compound resulted in increased expression of M1 markers and a reduction in M2-associated markers compared to vehicle control, indicating a shift in macrophage polarization induced by this compound.
+Conclusion: The developed CyTOF panel provides a robust platform for high-resolution analysis of macrophage polarization and treatment-induced phenotypic changes, offering more detailed investigation of immune modulation strategies. This panel could be applied as a tool for future investigations focused on macrophage subpopulations and their functional roles and will allow for further dissection of the tumor immune microenvironment, advancing the understanding of immunological variability in response to treatment.

@@ -1,0 +1,14 @@
+# Simultaneous spatial transcriptome and methylation profiling in fresh frozen and FFPE tissues
+
+**Poster #**: 818
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Katelyn Noronha, Molly Wetzel, Jennifer M. Garbarino, Jiaying Chen, Jeffrey Sabina, Colin Ng
+
+AtlasXomics Inc., New Haven, CT
+
+---
+
+Epigenetic regulation via DNA cytosine methylation is a key determinant of transcriptional programs, lineage specification, and cancer evolution as well as a prognostic indicator for certain cancer types at well characterized loci. Although spatial transcriptomics and chromatin profiling have expanded our understanding of gene-regulatory microenvironments, direct spatial mapping of the methylome in intact tissues has remained elusive. Spatial co-profiling of the transcriptome and DNA methylome bridges this gap by directly linking transcriptional output to epigenetic regulation within the tissue microenvironment. The AtlasXomics platform, built on the Deterministic Barcoding in Tissue for Spatial Omics Sequencing (DBiT-seq) assay, enables simultaneous capture of the whole transcriptome and genomic DNA fragments within defined spatial pixels, termed Spatial-DMT. RNA is reverse-transcribed with barcoded primers, while genomic DNA is processed by an enzymatic methyl-seq workflow that detects native cytosine methylation without bisulfite degradation. The paired libraries yielded co-registered maps of gene expression and DNA methylation in human medullablastoma and glioblastoma at 10&#181;m resolution. Integration of methylome and transcriptome data delineated tissue architecture, lineage trajectories, and region-specific epigenetic states undetectable by transcriptomics alone. Implemented on the commercial AtlasXomics spatial barcoding platform, Spatial-DMT offers a standardized, scalable workflow compatible with frozen and FFPE specimens. This adaptability positions the method for translational studies of tumor heterogeneity, epigenetic reprogramming, and therapy response. By integrating methylation and gene expression within intact tissue architecture, Spatial-DMT bridges discovery-stage research and clinical pathology. Spatial DNA methylation and whole transcriptome profiling establish a powerful tool for spatial cancer epigenomics, enabling discovery of spatial epigenetic biomarkers, tumor-stroma interactions, and therapeutic response patterns. By uniting spatial methylome and transcriptome in clinical specimens, this technology advances precision oncology and bridges molecular profiling with clinical pathology.

@@ -1,0 +1,19 @@
+# Surgery-induced expansion of myeloid-derived suppressor cells and loss of cytotoxic lymphocyte function predict poor survival in pancreatic cancer
+
+**Poster #**: 6464
+**Session**: Clinical Correlates of Immunotherapy
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Olivia Johnsson1, Malin  S.  Nilsson1, Roberta Kiffin1, Johan Bourghardt Fagman2, Caroline Vilhav2, Svein Olav Bratlie2, Peter L J Naredi2, Kristoffer Hellstrand3, Anna Martner1
+
+1TIMM Laboratory, Sahlgrenska Center for Cancer Research, Department of Microbiology and Immunology, Institute of Biomedicine, University of Gothenburg, Gothenburg, Sweden,2Department of Surgery, Institute of Clinical Sciences, University of Gothenburg, Gothenburg, Sweden,3TIMM Laboratory, Sahlgrenska Center for Cancer Research, Department of Infectious Diseases, Institute of Biomedicine, University of Gothenburg, Gothenburg, Sweden
+
+---
+
+Pancreatic cancer remains a highly lethal malignancy, with high recurrence rates even after curative-intent resection. Evidence suggests that surgical stress triggers inflammation and immunosuppression, potentially facilitating tumor recurrence. Myeloid-derived suppressor cells (MDSCs) and dysfunctional natural killer (NK) cells are mediators of this process. We hypothesized that surgery-induced immune dysregulation, driven by NOX2-derived reactive oxygen species, impairs immunity and worsens outcomes.
+Peripheral blood mononuclear cells from 33 pancreatic cancer patients enrolled in the IPEP trial (ethical no. 057-18) were collected pre- and postoperatively (days 1 and 3-5). Single-cell multiomic profiling (BD Rhapsody) was used to characterize immune populations and activation. Frequencies of immune cells and surface receptor expression were analyzed longitudinally and correlated with patient outcome.
+Analysis of 445,152 cells revealed major postoperative shifts in circulating leukocytes (Table 1). NOX2+ monocytic MDSCs (M-MDSCs) expanded markedly on postoperative day 1 and remained elevated through day 3-5. Conversely, cytotoxic T and NK cells significantly declined after surgery, and postoperative NK cells showed reduced expression of the activating receptor NKp30. High postoperative M-MDSC frequencies were associated with poorer overall survival (P = 0.017, n=29, log-rank test).
+Pancreatic cancer surgery induces profound immune remodeling characterized by M-MDSC expansion and cytotoxic lymphocyte suppression. These changes associate with adverse outcomes, suggesting that postoperative immune dysfunction may promote recurrence. Targeting NOX2-dependent immunosuppressive pathways may help preserve antitumor immunity and improve postoperative survival.
+1Mean &#177; SD2Median CLR-normalized protein expression3Mixed-effects model with &#352;&#237;d&#225;k correction. P values compared with pre-op.
+Table 1. Perioperative immune cell subsets in healthy donors and pancreatic cancer patients.Healthy donor (n=13)Pre-op. (n=33)Post-op. day 1 (n=29)3Post-op. day 3-5 (n=29)3M-MDSC (% of all cells)10.3 ± 0.62.7 ± 3.323.3 ± 12.6 (P < 0.0001)20.2 ± 12.2 (P < 0.0001)CD8+ T cells (% of all cells)116.5 ± 12.120.5 ± 17.514.8 ± 14.5 (P < 0.01)14.9 ± 12.3 (P < 0.05)NK cells (% of all cells)118.9 ± 12.314.2 ± 10.56.3 ± 7.4 (P < 0.001)7.9 ± 6.6 (P < 0.001)NKp302 on NK cells10.4 ± 0.20.5 ± 0.20.3 ± 0.2 (P < 0.001)0.4 ± 0.2

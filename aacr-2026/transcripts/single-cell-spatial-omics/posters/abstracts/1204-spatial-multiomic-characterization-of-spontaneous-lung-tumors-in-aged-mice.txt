@@ -1,0 +1,17 @@
+# Spatial multiomic characterization of spontaneous lung tumors in aged mice
+
+**Poster #**: 1204
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Adam Thiesen1, Sema Akkurt1, Javad Noorbakhsh1, Te-Chia Wu2, Andrew Salner3, Peter Yu3, Susan Airhart4, Olga Anczukow1, Ron Korstanje4, Karolina Palucka5, Jeffrey  H.  Chuang5
+
+1The Jackson Laboratory for Genomic Medicine, Farmington, CT,2Jackson Laboratory, Farmington, CT,3Hartford Hospital, Hartford, CT,4The Jackson Laboratory, Bar Harbor, ME,5The Jackson Laboratory, Farmington, CT
+
+---
+
+Introduction: Lung cancer is one of the most common malignancies and is the leading cause of cancer related deaths worldwide. While lung cancer incidence has decreased over time with the success of smoking and tobacco cessation campaigns, a significant burden of disease remains among non or never-smokers. Advancing age is a key risk factor for lung cancer, with incidence escalating most steeply in the fifth decade. Here we show that laboratory mice also spontaneously develop lung tumors with age. Additionally, we show that these tumors are often malignant adenocarcinomas as opposed to the adenomas traditionally described. Using spatial transcriptomic and proteomic approaches we aimed to study whether the adenocarcinomas that develop spontaneously in aged mice were similar to human never-smoking tumors.
+Methods: Diversity Outbred (DO) and UM-HET3 mice were housed and aged to 24 months. At 24 months, necropsies were performed on more than 600 mice, and all tissues were examined for the presence of tumors. The identified lung lesions were annotated by pathologists on hematoxylin and eosin (H&#38;E)-stained sections to assess tumor type. Those annotated as adenocarcinomas were assessed for 2mm diameter regions of interest (ROIs) to be incorporated into Tissue Microarrays for downstream Xenium spatial transcriptomics and Codex spatial proteomic profiling. The Spacec package was used for codex and Scanpy was generally used for Xenium analysis. These data were compared against publicly available TCGA bulk RNA-seq as well as Xenium data collected from patients at local hospitals.
+Results: About 40% of mice developed lung lesions, with 30% of those being adenocarcinomas. Unsupervised leiden clustering of the Xenium single cell data revealed a common signature between mouse epithelial tumors defined by inflammatory markers (Chil1). Other clusters associated more aggressive tumor progressions. Codex analysis revealed tumors with pockets of high P21 protein expression distributed throughout the tumor but found closer to the stromal boundary compared to the interior (p < 0.05). When we compared aggressive mouse tumor signatures to TCGA bulk RNA-seq signatures these patients have worse survival outcomes. CD2AP was a shared transcript significantly up-regulated in both mouse and human tumors (P < 0.05). Additionally, the microenvironment of these aggressive tumors often contained p21 positive potentially senescent dendritic cells, which colocalize with T cells.
+Conclusion: Genetically diverse mice develop spontaneous lung adenocarcinomas that can develop into higher grade states. Multimodal analysis has revealed common pathways between spontaneously occurring mouse and human adenocarcinomas.

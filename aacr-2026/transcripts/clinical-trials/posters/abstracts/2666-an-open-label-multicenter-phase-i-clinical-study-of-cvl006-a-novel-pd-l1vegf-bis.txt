@@ -1,0 +1,12 @@
+# An open-label, multicenter Phase I clinical study of CVL006, a novel PD-L1/VEGF bispecific antibody, in advanced solid tumors
+
+**Poster #**: 2666
+**Session**: Targeted Antigen Therapies and Immunity
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Jin Li1, Ning Li2, Shuhang Wang2, Ye Guo3, Kai Yao4, Yanjie Zhu5, Feng Ye6, Hao Zeng7, Steve Shen8, Jin Zhang51Shanghai GoBroad Cancer Hospital China Pharmaceutical University, Shanghai, China,2Cancer Hospital Chinese Academy of Medical Sciences, Beijing, China,3Shanghai East Hospital, Shanghai, China,4Sun Yat-sen University Cancer Center, Guangzhou, China,5Renji Hospital, Shanghai Jiao Tong University School of Medical, Shanghai, China,6The First Affiliated Hospital of Xiamen University, Xiamen, China,7West China Hospital, Sichuan University, Chengdu, China,8Convalife Pharmaceuticals, Shanghai, China
+
+---
+
+Background: CVL006 is a novel bispecific antibody designed for synergic antitumor activity by simultaneously blocking two mechanistically distinct pathways VEGF/VEGFR signaling and the PD-L1/PD-1 axis. In this Open-label, Multicenter Phase I Clinical Study of CVL006, Safety, pharmacokinetics (PK) and preliminary efficacy will be assessed in adult subjects with advanced solid tumors, and, thus, the recommended phase II dose (RP2D) will be established (NCT06621615).Method: All subjects in this study received CVL006 every 2 weeks (Q2W). Primary objectives were to evaluate safety, tolerability, and clinical efficacy by objective response rate (ORR).Results: As of the data cutoff date of Nov 14, 2025, 29 subjects with various advanced solid tumors received CVL006 at 0.03-20 mg/kg, 12 subjects in phase Ia, 7 subjects in phase Ib and 10 subjects in phase Ic. Phase Ia and phase Ib were completed and Phase Ic is ongoing. Phase Ia results show that CVL006 is well-tolerate, MTD has not reached, and RP2D is 20 mg/kg. All these AEs were recovered after symptomatic treatment. In the 20 mg/kg dose group, CVL006 showed linear pharmacokinetics and a low incidence of ADA positivity.18 subjects had at least one efficacy assessment. In the 10 mg/kg dose group (N=3), 2 stable disease (SD) cases with lesion shrinkage first appeared. At dose of 20 mg/kg, 9 subjects with different tumour types, were evaluated for efficacy and 6 of 9 subjects had a response : 4 SD and 2 partial response (PR).Conclusion: CVL006 monotherapy appeared to be well tolerated and had encouraging preliminary efficacy in patients with advanced solid tumors, warranting further investigation.

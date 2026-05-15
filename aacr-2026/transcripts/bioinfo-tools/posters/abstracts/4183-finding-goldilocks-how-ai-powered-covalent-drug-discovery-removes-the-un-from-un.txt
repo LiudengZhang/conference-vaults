@@ -1,0 +1,12 @@
+# Finding Goldilocks: How AI-powered covalent drug discovery removes the “un” from “undruggable”
+
+**Poster #**: 4183
+**Session**: Integrative Computational Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Johannes  C.  Hermann, Robert Everley, Han Wool Yoon, Rohan Varma, Karsten Krug, Daniel Erlanson, Chris Varma, Kevin  R.  WebsterFrontier Medicines, South San Francisco, CA
+
+---
+
+Covalent drugs offer a path to drugging hard targets to provide urgently needed novel cancer medications. Starting from small covalent fragments is efficient in principle but difficult in practice due to challenges distinguishing generic from specific reactivity and the influence of the reactive warhead on all other chemical properties. The Frontier™ Platform and covalent AI as a key pillar overcomes these challenges. Focused super large-scale experimental data generation relevant to covalent drug discovery has enabled the development of several powerful covalent AI algorithms. Their application falls into two different fields, firstly the better understanding of the proteome and proteins and potential covalent binding sites and secondly in advancing covalent chemistry. We detail strategic data generation through chemoproteomics experiments, quantum mechanics, experimental chemical property determination, and the leveraging of these data to inform covalent drug discovery for hard-to-drug targets. This includes the AI-driven characterization of covalent binding sites across nearly the complete human proteome. Covalent fragment hits have been identified for multiple difficult cancer targets including KEAP1, ADAR, DHX9, PTPN11, MYC, and many others (>75% of important cancer driver genes). Furthermore, we will highlight several novel AI covalent chemistry applications. We will present an algorithmically designed covalent fragment library for screening, covalent chemical property prediction algorithms, and details of our highly specialized AI-driven covalent drug design engine that autonomously ingests all relevant data for a given project and suggests optimized compounds to be synthesized. We show the impact of this approach for a historically undruggable transcription factor and cancer driver as an example. Undruggable targets across a variety of cancer target classes have become druggable leaning on advanced covalent drug discovery methods.

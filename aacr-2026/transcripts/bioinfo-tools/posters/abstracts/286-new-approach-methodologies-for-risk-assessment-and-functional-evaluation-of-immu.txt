@@ -1,0 +1,12 @@
+# New approach methodologies for risk assessment and functional evaluation of immuno-oncology drug candidates
+
+**Poster #**: 286
+**Session**: Innovative Therapeutic Modalities and Translational Platforms
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Christoph Schifflers, Martijn Vlaming, Sofie PattynIQVIA Laboratories, Gosselies, Belgium
+
+---
+
+Functional screening as well as safety and toxicity assessment of new drug candidates has routinely involved animal research. These models often involve time-consuming experiments and are associated with ethical concerns and high costs. New Approach Methodologies (NAM) are alternative methods for accelerated and cost-effective lead selection based on functionality and predictive risk assessment. Thereby, NAM further contribute to efforts to Replace, Reduce and Refine animal research. In this context, a variety of customized in vitro bioassays were developed to evaluate the risk of unwanted immunogenicity of immuno-oncology drug candidates as well as their potency. Drug candidates include biologics as well as small molecules and cell or gene therapy products. These in vitro assays are based on well-characterized high-quality primary immune cells from >1300 healthy donors. In addition, variants using non-lethal blood collections of animals such as cynomolgus monkeys, dogs, pigs etc. were established for functional and risk assessment screenings. These assays characterize the phenotype and function as well as secretions of a multitude of lymphoid and myeloid populations in cell type specific cultures or complex co-culture systems using multiplex Flow Cytometry, ELISA/Luminex Assays as well as Live-Cell Imaging.Thus, customized in vitro bioassays contribute to NAM, reducing animal requirement for drug development and promoting cost-effective lead selection.

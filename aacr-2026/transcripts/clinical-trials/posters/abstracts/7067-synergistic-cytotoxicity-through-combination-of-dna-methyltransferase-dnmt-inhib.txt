@@ -1,0 +1,12 @@
+# Synergistic cytotoxicity through combination of DNA methyltransferase (DNMT) inhibitors in cancer cells
+
+**Poster #**: 7067
+**Session**: Epigenetic Modulators 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Angelo B. A. Laranjeira1, Dat Nguyen1, Michael Difilippantonio2, Alice P. Chen3, Sherry X. Yang1, James H. Doroshow41Division of Cancer Treatment and Diagnosis, National Cancer Institute, Bethesda, MD,2NCI/NIH, Bethesda, MD,3National Cancer Institute, Bethesda, MD,4NCI Division of Cancer Treatment and Diagnosis, Bethesda, MD
+
+---
+
+A new class of DNA methyltransferase inhibitors (DNMTi) including 4’-thio-5-aza-2’-deoxycytidine (aza-TdC) and 4’-thio-2’-deoxycytidine (TdC) demonstrated anti-tumor activity, with IC50s largely in the nanomolar range in DNMTi-sensitive cancer cells, and single to two-digit micromolar spans in DNMTi-resistant cells. In an aza-TdC phase I clinical trial of patients with solid tumors, a best response of stable disease was achieved in eleven (78.6%) of the 14 patients evaluable for response (J Clin. Oncol. Vol 39, No15_suppl). Adverse effect and low clinical activity against human solid tumors remain the limiting factors for their progress in clinical development and application. To overcome the limitations, we investigated synergistic anti-tumor activity by combining either aza-TdC or TdC with a fixed low dose of another DNMTi and antimetabolite - 5-fluoro-2'-deoxycytidine (FdC) - in colorectal and ovarian cancer cells. IC50 by aza-TdC, TdC or FdC alone was >10 µM, >10 µM or ~10 µM in DNMTi-resistant/DNMT1 knockout colorectal HCT116 cells. In the presence of 0.5 µM FdC, the cytotoxicity of aza-TdC and TdC was dramatically potentiated, showing IC50 of 0.24 µM for aza-TdC and <0.001µM for TdC in the DNMTi-resistant cells. The IC50 by aza-TdC, TdC or FdC alone was 0.8 µM, 6.29 µM or 0.67 µM in ovarian cancer OVCAR3 cells. The cytotoxicity of aza-TdC and TdC in the presence of 0.5 µM FdC was similarly enhanced, and IC50s were about 0.001 µM for aza-TdC and < 0.001 µM for TdC. In addition, the synergistic potentiation through the combination of 0.5 µM FdC with either aza-TdC or TdC was also observed in other colorectal and ovarian cancer cell lines such as parental HCT116 and SKOV3 cells. Thus, low dose FdC substantially potentiated the cytotoxic effects of novel DNMT inhibitors in DNMTi-resistant and DNMTi-sensitive cancer cells. It warrants to investigate the underlying mechanism of this type of cytotoxic synergy.

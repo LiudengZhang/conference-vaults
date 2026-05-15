@@ -1,0 +1,14 @@
+# Spatially resolved transcriptomic analysis revealed the molecular characteristics of the worst pattern of invasion in oral squamous cell carcinomas
+
+**Poster #**: 2120
+**Session**: Characterization of Metastases by Imaging and Profiling
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Seungeun Lee1, Yeonbi Han2, Dohoon Kim3, Sumin Lee3, Amos Chungwon Lee3, Wonjae Cha4, Jin-Ku Lee5
+
+1Biomedical Sciences, Seoul National University, Seoul, Korea, Republic of,2Seoul National University Bundang Hospital, Gyeonggi-do, Korea, Republic of,3Meteor Biotech, Seoul, Korea, Republic of,4Otorhinolaryngology-Head & Neck Surgery, Seoul National University Bundang Hospital, Seoul, Korea, Republic of,5Department of Anatomy and Cell Biology, Department of Biomedical Sciences, Seoul National University, Seoul, Korea, Republic of
+
+---
+
+Worst pattern of invasion (WPOI), defined by the presence of dispersed satellite nodules &#8805;1 mm from the primary tumor, is strongly associated with LNM; however, the molecular features that functionally link invasive histopathology to metastasis are not fully characterized. We aimed to elucidate the relationship between histopathology invasion pattern and metastatic progression at the molecular level, and to determine whether invasion patterns share early metastatic features. Accordingly, we performed full-length single-cell mRNA sequencing using Spatially resolved Laser Activated Cell Sorting (SLACS), which isolates regions of histologically interest from Hematoxylin and Eosin (H&#38;E) stained tissue slides and obtains transcriptomic and genomic while preserving pathological context. A total of 849 spatially annotated regions of interest (5-10 cells/ROI) were captured from matched tumor, WPOI, tumor-stromal interface, and lymph node metastasis sites from five OSCC patients. Integration of single-cell transcriptomic and genomic features revealed heterogeneous tumor characteristics associated with distinct pathological patterns. We identified a WPOI-associated malignant subpopulation (Cluster 2) characterized by upregulation of IQCE and SMPD2 and an elevated partial epithelial-to-mesenchymal transition (p-EMT) phenotype, indicative of invasive plasticity. In contrast, LNM-enriched populations exhibited re-acquisition of epithelial differentiation programs, including increased expression of CRNN and SPRR3, suggesting epithelial resurging following metastatic colonization. These findings support a dynamic invasion-metastasis continuum in OSCC, especially WPOI represents an intermediate state enabling metastasis in molecular level. We are ongoing reconstruct the evolutionary trajectories. A molecular understanding of pathological invasion patterns such as WPOI may inform precision stratification and guide personalized surgical and adjuvant strategies for OSCC patients.

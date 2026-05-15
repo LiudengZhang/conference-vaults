@@ -1,0 +1,14 @@
+# Single cell cloning iPSCs with the Pala single cell sorter preserves colony stemness and cell viability for high-throughput cell line engineering workflows
+
+**Poster #**: 839
+**Session**: Stem Cell Plasticity and Lineage Reprogramming in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Bhamini Purandare, Francisco Ramirez, Ryan McComb, Chris Heger
+
+Bio-Techne, San Jose, CA
+
+---
+
+Stable cell line development is a critical process for developing and manufacturing biologics, generating disease relevant cellular models, and creating the next generation of cell &#38; gene therapies. The utility of new cell models (patient derived iPSCs), the development of new genome editing technologies (CRISPR) and the deployment of automation and AI for high-throughput screening are creating a greater demand for scaling cell line development capabilities and workflows. Bio-Techne has developed the Pala single cell sorter and dispenser that incorporates microfluidics, flow cytometry, and liquid dispensing in a portable, easy to use, and gentle device for generating high rates of single cell derived clones for enhancing cell line engineering workflows. Here, Pala is compared to traditional limiting dilution (LD) to dispense induced Pluripotent Stem Cells (iPSCs) for single cell cloning and colony outgrowth. Single dissociated iPSCs from two different lineages were dispensed in matrix coated 96-well plates or hand pipetted at 0.4 cells/well using LD. Colony health and stemness are compared between each method using clone area and TRA-1-60 immunofluorescence staining. Pala, on average, generated ~3-fold greater numbers of single cells deposited and colonies generated than LD. Additionally, colony health showed equivalence between the two methods demonstrating that Pala derived clones are as healthy as clones derived with LD. This work demonstrates the gentleness and efficiency of Pala for use in stem cell/gene editing workflows for enhancing throughput of single cell cloning.

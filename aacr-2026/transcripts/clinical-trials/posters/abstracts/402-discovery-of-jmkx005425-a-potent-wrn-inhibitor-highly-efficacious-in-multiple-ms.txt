@@ -1,0 +1,12 @@
+# Discovery of JMKX005425, a potent WRN inhibitor highly efficacious in multiple MSI-H gastric cancer models
+
+**Poster #**: 402
+**Session**: Novel Antitumor Agents 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Liyan Yue, Xiaoqin Lin, Xinfeng Liu, Yangyang Qiu, Shurong Yang, Dongdong Li, Wei Chen, Taylor  B.  Guo, Jianbiao PengShanghai Jeyou Pharmaceutical Co., Ltd., Shanghai, China
+
+---
+
+The Werner Syndrome Helicase (WRN) plays an important role in DNA repair and the maintenance of genome integrity. Recent studies have validated WRN as a promising synthetic lethal target for microsatellite instability-high (MSI-H) tumors, which have the highest prevalence in colorectal (CRC), gastric (GC) and endometrial cancers (EC). While WRN inhibitors as monotherapy in MSI-H CRC have showed promising efficacy, their therapeutic potential in MSI-H GC needs to be further evaluated. JMKX005425 is a clinical-stage, oral WRN inhibitor developed by JeYou to treat MSI-H cancers. JMKX005425 potently inhibited WRN activity and showed selective anti-proliferative effects against various MSI-H CRC, GC and EC cells but not microsatellite stable cancer cells. JMKX005425 also caused DNA damage response as measured by γH2AX induction and WRN degradation in MSI-H cells. In vivo, JMKX005425 monotherapy was highly efficacious in multiple MSI-H Cell Line-Derived Xenografts (CDX) and Patient-Derived Xenografts (PDX) models, including those from heavily-treated, immunotherapy-refractory patients. Notably, in a panel of MSI-H GC PDX (n=14), daily oral administration of JMKX005425 led to significant tumor regression, defined as tumor growth inhibition (TGI) over 100%, in over 50% of the models after 4 weeks of treatment, and all but two of the models showed a TGI over 65% (range: 68.2% to 118.8%). Furthermore, low dose of JMKX005425 in combination with irinotecan completed suppressed tumor growth in an MSI-H CDX model. Last, whole-genome CRISPR screens in MSI-H cells identified several modifiers of sensitivity to JMKX005425 treatment, which may provide information for further studies of drug resistance or patient selection. In conclusion, JMKX005425 is a potent, selective WRN inhibitor and shows high efficacy in multiple MSI-H models, especially in GC PDX models, highlighting its potential as a promising treatment for MSI-H gastric cancer. JMKX005425 is current in a phase I dose escalation study in patients with advanced MSI-H/dMMR solid tumors in China (CTR20253477).

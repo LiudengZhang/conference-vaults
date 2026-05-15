@@ -1,0 +1,17 @@
+# Immunosuppressive role of DKK1 and cancer-associated fibroblasts across molecular subtypes of endometrial cancer
+
+**Poster #**: 6044
+**Session**: Fibroblasts as Architects of the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Alessandro Canella1, Danielle Glassman1, Keith Brownewell1, Caprice Eisele2, Aharon Gideon Freud2, Casey Cosgrove1
+
+1Division of Gynecologic Oncology, Department of Obstetrics and Gynecology, The Ohio State University Wexner Medical Center, James Cancer Hospital and Solove Research Institute, Columbus, OH,2Department of Pathology, The James Cancer Hospital and Solove Research Institute, The Ohio State University, Columbus, OH
+
+---
+
+BACKGROUND. Endometrial Cancer (EC) is the most diffuse and leading cause of gynecologic cancer-related mortality in the United States. Unlike many other cancers, EC mortality has continued to rise over the past two decades. Although recent advances in immunotherapy, particularly immune checkpoint inhibitors, most EC patients have limited or modest responses to current immunotherapies. The TCGA classification stratifies EC into four molecular subtypes: POLE-mutated, mismatch repair-deficient (MMRd), no specific molecular profile (NSMP), and p53-abnormal (p53abn). Each subgroup differs in tumor biology, immune cell infiltration, and prognosis. A deeper understanding of immune evasion across these subtypes and tumor grades is critical for improving targeted immunotherapies. Dickkopf-1 (DKK1), a secreted inhibitor of the canonical WNT pathway, has emerged as a key immunosuppressive regulator in several solid tumors. High DKK1 levels correlate with increased infiltration of myeloid-derived suppressor cells (MDSCs) and suppression of CD8+ T and NK cell cytotoxicity in breast and colorectal cancer. A recent study in breast cancer identified stromal fibroblasts as major contributors to extracellular DKK1, leading to suppression of NK cell cytotoxicity.
+METHODS. We analyzed fresh and FFPE tumor samples across molecular subtypes from newly diagnosed, ICI-na&#239;ve EC patients who underwent surgical staging at The Ohio State University. Total RNA was extracted and analyzed using bulk RNAseq, single-cell RNAseq (scRNAseq), GSEA, and immune deconvolution. The tumor immune and stromal microenvironment was investigated by immunofluorescence (IF), multiplex IF, and DSP.
+RESULTS. High-grade EC tumors showed significant upregulation of genes and pathways associated with tumor proliferation, invasion, WNT signaling, immunosuppression, and stromal fibroblasts proliferation. DKK1 expression was significantly higher in the tumor microenvironment (TME) of high-grade EC tumors, with spatial colocalization of DKK1 and perivascular CAF polarization. No DKK1 expression was detected in EC cells. scRNAseq confirmed exclusive upregulation of DKK1 in CAFs. Analysis of the TCGA-UCEC dataset confirmed significant upregulation of DKK1, and a positive correlation between DKK1+CAFs, immunosuppressive myeloid cells, and exhausted NK cells.
+CONCLUSIONS. Our findings highlight CAF-derived DKK1 as a key immunosuppressive factor in high-grade and aggressive EC, suggesting that targeting DKK1 may enhance cytotoxic immune cell activation and improve immunotherapeutic outcomes.

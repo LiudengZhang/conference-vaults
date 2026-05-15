@@ -1,0 +1,17 @@
+# The myCAF and ECM landscape in KRAS-mutated cancer: Utilizing liquid biomarkers to track KRAS-induced fibrosis and KRAS inhibitor efficacy
+
+**Poster #**: 2441
+**Session**: Biomarkers Predictive of Therapeutic Benefit 3
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Martin Birkmose Rasmussen1, Rasmus Sund Pedersen2, Nicholas Willumsen2, Morten Karsdal2
+
+1Oncology, Nordic Bioscience, Copenhagen, Denmark,2Nordic Bioscience, Copenhagen, Denmark
+
+---
+
+Background: KRAS-driven cancer represents ~25% of cancers, with high rates in pancreatic cancer (PDAC), colorectal cancer (CRC), and non-small cell lung cancer (NSCLC). Mutated KRAS and TGF-&#946; signaling activate cancer-associated fibroblasts (CAFs), creating a fibrotic extracellular matrix (ECM). The fibrotic ECM promotes immunosuppression and tumor growth but is potentially reversible with KRAS inhibitors (KRASi). We have recently demonstrated that myofibroblast CAFs (myCAFs) in KRAS-mutated PDAC express high levels of collagens III, V, VIII, XI, and XII. In this study, we investigated the landscape of KRAS-induced myCAF activation and ECM change across KRAS-mutated cancers. We utilized these changes to identify biomarkers for KRASi efficacy.
+Methods: Patients with KRAS-mutated PDAC (n=141), CRC (n=223), or NSCLC (n=74) were evaluated for collagen expression and gene-set variation analysis (GSVA) was used for hallmark KRAS and TGF-&#946; signaling. Correlations of KRAS and TGF-&#946; signaling, and collagen expressions across cancers, were evaluated using Spearman correlation. Single-cell RNA-seq data from KRASi treated KPPC mice was analyzed using Seurat. CAFs were subclustered and subtypes identified from marker genes (myCAF, inflammatory CAF, and antigen-presenting CAF). CAF subtype and collagen expression were compared between KRASi and vehicle with Fisher&#8217;s exact test and Wilcoxon rank-sum test, respectively. Biomarkers for formation of collagens I (PRO-C1), III (PRO-C3), V (PRO-C5), VIII (PRO-C8), XI (PRO-C11), and XII (PRO-C12) were measured in serum from healthy controls and patients with PDAC, CRC, or NSCLC. Differences between cancer and control were evaluated by Wilcoxon rank-sum test.
+Results: KRAS signaling was significantly correlated with TGF-&#946; signaling and expression of COL3A1, COL5A2, and COL8A1 across patients with KRAS-mutated PDAC, CRC, and NSCLC (R>0.4, p<0.05). Significantly increased expression of Col3a1, Col5a2, Col8a1, Col11a1, and Col12a1 was observed from fibroblasts in KRASi treated PDAC compared to vehicle (p<0.001). Significantly fewer myCAFs in KRASi treated PDAC (p<0.001) suggested reduced myCAF-derived ECM with KRAS inhibition. Serum biomarkers for formation of myCAF collagens (PRO-C3, PRO-C5, PRO-C8, PRO-C11, and PRO-C12) were significantly upregulated in patients with PDAC, CRC, and NSCLC compared to healthy controls (p<0.001). Type I collagen formation was unaffected (PRO-C1, p=0.37), suggesting KRAS-specific collagen formation.
+Conclusion: KRAS-mutated tumors have a myCAF-enriched microenvironment with a unique collagen expression profile that is altered by KRAS inhibition. Non-invasive myCAF-derived collagen biomarkers that are elevated in serum from patients with KRAS-driven cancers, can potentially quantify KRAS signaling and track KRASi efficacy to guide clinical decision-making.

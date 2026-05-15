@@ -1,0 +1,12 @@
+# From undruggable to actionable: Transcriptomic discovery of small-molecule modulators of oncogenic transcription factors
+
+**Poster #**: 284
+**Session**: Innovative Therapeutic Modalities and Translational Platforms
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Arianna Sabò, QUANTRO's TeamQUANTRO Therapeutics GmbH, Wien, Austria
+
+---
+
+Transcription factors (TFs) and their associated signaling networks remain among the most challenging and underexplored targets in oncology drug discovery. To address this gap, QUANTRO Therapeutics has developed a Transcriptomic Discovery Platform that measures cellular transcriptional activity by detecting changes in nascent RNA synthesis as early as one hour after cellular perturbation. Unlike conventional RNA-seq approaches, which capture only steady-state mRNA abundance with limited temporal resolution, this platform directly quantifies immediate transcriptional responses, providing a high-fidelity readout of TF activity.The QUANTRO platform currently comprises three complementary assays—QUANTROsens, QUANTROseq, and QUANTROslam—that together enable the identification, confirmation, and mechanistic characterization of transcriptional modulators. In particular, QUANTROseq enables high-throughput generation of dynamic transcriptional “fingerprints” induced by small molecules, which can be directly compared with signatures resulting from acute, controlled degradation of specific target proteins. By correlating these profiles, the platform precisely distinguishes compounds acting directly on TFs or cofactors from those exerting indirect effects through upstream pathways. As a demonstration of its capabilities, we present a systematic re-evaluation of published MYC inhibitors, revealing how traditional transcriptomic or reporter-based assays can misclassify indirect modulators as direct MYC inhibitors.Leveraging this technology, QUANTRO has initiated screening campaigns targeting key oncogenic drivers such as c-MYC and YAP/TEAD, leading to the identification of multiple high-quality hit clusters with clear on-target activity and minimal off-target effects. Collectively, these studies demonstrate the power of dynamic transcriptomic profiling to expand the druggable target space, accelerate discovery of first-in-class therapeutics, and illuminate transcriptional control mechanisms underlying cancer progression.

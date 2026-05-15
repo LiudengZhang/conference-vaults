@@ -1,0 +1,14 @@
+# Tumor extracellular vesicles prime B cells which promote tumor control and epitope spreading to T cell neoantigens
+
+**Poster #**: 4252
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Georgia Lattanzi1, Zihan Guo2, Kendrick Nguyen1, Ferdinando Pucci2, Daniel Hollern1
+
+1Salk Institute For Biological Studies, La Jolla, CA,2Oregon Health & Science University, Portland, OR
+
+---
+
+Advanced solid malignancies are still a major clinical challenge due to their high lethality and limited response to existing therapies. Effective cancer immunotherapy requires T cell recognition of tumor neoantigens, and generation of a durable and robust cytotoxic response Recent studies demonstrate that B cells play a critical and previously underappreciated role in shaping anti-tumor immune responses in neoantigens-rich tumors by coordinating with T cells. However, how B cells respond to tumor neoantigens and regulate T cell responses are still not fully elucidated. By using engineered tumor cell lines expressing neoantigens with different affinity for cognate B cells either on tumor extracellular vesicles (tEVs) or as soluble proteins, we showed that tEVs and neoantigen-specific B cells are required for tumor control. We observed that tEVs-neoantigens are brought into the tumor draining lymph node where they bind and activate B cells. Using single cell RNA-sequencing and flow cytometry we showed that tEVs-neoantigens promote cognate B cells activation either through a germinal center reaction or through extrafollicular response. Notably, activated B cells not only mount direct anti-tumor responses, but also promote epitope spreading to linked T cell neoantigens, thereby broadening the immune response and improving tumor clearance. Epitope spreading consists of the diversification of tumor neoantigens recognized by the immune system and holds significant promise for improving cancer therapies. By co-expressing B and T cell neoantigens on the same tEV we observed extensive and prolonged B-T cells interaction using intravital microscopy, increased activation of CD4 T follicular cells, maintenance of progenitor CD8 T cells and tumor clearance. Thus, B cell response to co-expressed tEV neoantigens enhances the breadth of immune responses by facilitating specific anti-tumor T cell responses. By elucidating how B cells contribute to epitope spreading and tumor control, this research reveals new immunological principles and sets the base for next-generation cancer immunotherapies that harness both humoral and cellular arms of the immune system, offering new strategies to overcome tumor heterogeneity and therapy resistance.

@@ -1,0 +1,17 @@
+# A biologically grounded predictor of neoadjuvant breast cancer therapy response from tumor transcriptomics and histopathology
+
+**Poster #**: 3729
+**Session**: Biomarkers Predictive of Therapeutic Benefit 4
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Thomas Cantore1, Danh-Tai Hoang2, Lipika Ray1, Amos Stemmer3, Tiangen Chang1, Saugato Rahman Dhruba2, Eldad David Shulman1, Emma  M.  Campagnolo3, Joo Sang Lee3, Salomon M. Stemmer4, Stephen-John Sammut3, Yuan Yuan5, Stan Lipkowitz6, Sheila Rajagopal3, Carlos M. Caldas7, Nishanth Ulhas Nair6, Eytan Ruppin8
+
+1NIH-NCI, Bethesda, MD,2National Cancer Institute - Cancer Data Science Laboratory (CDSL), Bethesda, MD,34Rabin Medical Ctr. Inst. of Oncology, Petach Tikva, Israel,5Cedars-Sinai, Los Angeles, CA,6National Cancer Institute, Bethesda, MD,7University of Cambridge, London, United Kingdom,8National Cancer Institute, Rockville, MD
+
+---
+
+Background. While expression-based signatures inform adjuvant therapy in breast cancer (BC), no approved molecular biomarkers exist for the neoadjuvant setting, where early prediction of response could guide treatment. Identifying such biomarkers is challenging given the molecular heterogeneity of breast cancer, where multiple malignant subtypes may coexist within a tumor and influence therapy response.
+Methods. We developed BRIDGE, a computational framework that deconvolves the pretreatment bulk tumor transcriptome to estimate molecular subtype composition and predict pathological complete response (pCR) to neoadjuvant therapy. BRIDGE was trained on 9 transcriptomics datasets and tested on 23 independent ones spanning different subtypes, composing one of the most variable multi-cohort validations to date. Six additional datasets with pre-treatement H&#38;E slides and response data were analyzed to evaluate histology-based predictions.
+Results. Analyzing measured BC transcriptomics, BRIDGE outperformed surrogate implementations of established commercial signatures (Oncotype DX, MammaPrint, RORS) in ER+/HER2&#8722; tumors, where these assays are clinically approved in the adjuvant setting. It also outperforms other transcriptomic signatures in subtypes where validated predictive biomarkers are limited. In ER+/HER2&#8722; patients, it yields an ROC-AUC of 0.79 with a high Odds Ratio (OR = 7.4); in HER2+ disease, an AUC of 0.78 (OR = 7.2); and in TNBC, an AUC of 0.71 (OR = 4.4). We further developed BRIDGE-Slide, which applies BRIDGE to pre-treatment histopathology slides via deep learning-inferred transcriptomics. BRIDGE-Slide outperforms direct slide-to-response models, underscoring its potential as a first-of-its-kind, fast, low-cost biomarker. Finally, spatial transcriptomics shows that BRIDGE-derived subtype assignments form spatially cohesive regions aligned with canonical molecular features, reinforcing its biological interpretability.
+Conclusions. BRIDGE is a biologically grounded framework for neoadjuvant BC response prediction, validated on a rich set of diKerent patients cohorts. Its histopathology based version opens the door for fast and low cost prediction in the neoadjuvant setting, upon further prospective testing and validation.

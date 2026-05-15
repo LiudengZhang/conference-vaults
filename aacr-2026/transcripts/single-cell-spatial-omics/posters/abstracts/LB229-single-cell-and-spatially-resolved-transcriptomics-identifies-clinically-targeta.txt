@@ -1,0 +1,14 @@
+# Single-cell and spatially resolved transcriptomics identifies clinically targetable myeloid niches in fibrolamellar carcinoma
+
+**Poster #**: LB229
+**Session**: Late-Breaking Research: Tumor Biology 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Jason Carter1, Andreas Stephanou2, Sheela R. Damle1, Kristin E. Goodsell1, Lindsay K. Dickerson1, Heidi  L.  Kenerson1, Xiuyun Jiang1, Raymond S. Yeung1, Ian N. Crispe1, Praveen Sethupathy3, Venu Pillarisetty1
+
+1University of Washington, Seattle, WA,2Cornell Univeristy, Ithaca, NY,3Cornell University, Ithaca, NY
+
+---
+
+Fibrolamellar carcinoma (FLC) is a rare form of liver cancer that arises in otherwise healthy young adults with few effective options for systemic therapy. Immunotherapy holds particular promise for patients with advanced disease; however, most FLC patients mount weak intrinsic anti-tumor immune responses despite expression of a conserved an immunogenic DNAJB1-PRKACA fusion oncogene. Our recent work has highlighted both immune checkpoint mediated T cell exhaustion and CXCR4 mediated T cell exclusion as independent immunosuppressive mechanisms in the FLC tumor immune microenvironment (TIME). The specific underlying immune interactions that drive these exhausted phenotypes, and how they can be therapeutically targeted, however, remain poorly characterized. We therefore performed an integrated analysis of existing bulk and single-nuclear transcriptomic data, revealing profound immune dysregulation in both primary and metastatic FLC tumors, notably including a shift from progenitor exhausted to terminally exhausted T cells and regulatory T cell (Treg) differentiation. Examining more than 2.5 million individual cells using high-plex spatial transcriptomics with single-cell resolution, we identified that the density of immune cells in the tumor core is nearly an order of magnitude less than in surrounding stromal bands. As T cells migrate from parenchyma to stroma to tumor margin and ultimately into the tumor core, expression of terminal exhaustion markers significantly increases, while progenitor exhausted markers significantly decrease. We further identify 15 distinct immune cell centered niches that were conserved across disease sites, including immunosuppressive niches characterized by interactions between mature dendritic cells enriched in immunoregulatory molecules (mregDCs) and Tregs with high levels of immune checkpoint signaling. In contrast, we also identify distinct immune-activating niches defined by frequent conventional DC 1 (cDC1)-cytotoxic T cell (CTL) interactions. Collectively, these findings demonstrate the importance of intratumoral cell-cell interactions in shaping immune activation and exhaustion in FLC and highlight specific molecular interactions that can be targeted to rationally design combination immunotherapy.

@@ -1,0 +1,17 @@
+# Spatial trajectories and niche rewiring from ground&#8209;glass to solid transition in lung adenocarcinoma
+
+**Poster #**: 2264
+**Session**: Tumorigenesis and Early Microenvironmental Trajectories
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Kwon Joong Na, Hongyoon Choi, Jaemoon Koh, Taeyoung Yun, Jihyeon Park, Bubse Na, Samina Park, In Kyu Park, Chang Hyun Kang, Young Tae Kim
+
+Seoul National University Hospital, Seoul, Korea, Republic of
+
+---
+
+BackgroundGround&#8209;glass nodules (GGNs) are frequently detected by screening, yet how they acquire invasion in situ is unclear. We asked how epithelial states, stromal architecture, and immune circuits reorganize during the GGN&#8209;to&#8209;solid transition.
+MethodsWe generated paired spatial transcriptomes (10x Visium, fresh&#8209;frozen) from GGN&#8209;predominant and solid&#8209;predominant regions of three resected stage I LUADs. Cell composition and epithelial states (tS1-tS3) were inferred using a single&#8209;cell reference. We quantified ligand-receptor (L-R) communication, inferred pathway activities (PROGENy; Hallmark), and constructed diffusion&#8209;based spatial trajectories within sections to model the preinvasive&#8209;to&#8209;invasive continuum.
+ResultsTwo tumors converged on an epithelial&#8209;high, fibroblast&#8209;low, myeloid&#8209;inflamed solid region, while one showed a stroma&#8209;dominant solid phenotype; myeloid influx was shared across all cases. The malignant&#8209;potential epithelial state (tS2) expanded in 2/3 tumors (the third was approximately flat), whereas benign&#8209;like states receded focally. Fibroblast programs consistently showed myofibroblast enrichment, supporting early ECM stiffening. T&#8209;cell lineages shifted toward exhaustion (CD8&#8314;; modest Tfh) with variable Treg increases, yielding an inflamed&#8209;but&#8209;immunosuppressed niche. Spatial L-R maps highlighted strengthening of complement-B&#8209;cell axes (C3-CR2/CD19) and ECM&#8209;anchored signals (SDC4-TGM2, FN1-TNFRSF11B), with contraction of NK/T&#8209;cell&#8209;supportive interactions (HLA&#8209;E-KLRD1; IL&#8209;7-IL7R). Pathway scores corroborated a state of EGFR and hypoxia upshift with glycolytic/fatty&#8209;acid programs increased, apical junction and E2F programs reduced&#8212;compatible with proliferation under metabolic stress rather than indiscriminate cell&#8209;cycle acceleration. In a case spanning adjacent normal-GGN-solid, spatial trajectories captured early endothelial/fibroblast loss between normal and GGN, followed by consolidation of invasion marked by tS2 gain, myofibroblast accumulation, and monocyte/DC recruitment toward the solid core.
+ConclusionsPaired spatial transcriptomes indicate that the GGN&#8209;to&#8209;solid shift is assembled by coordinated epithelial state change, stromal myofibroblast enrichment, and immune rewiring toward exhaustion with myeloid influx. L-R and pathway profiles converge on complement&#8209;biased, ECM&#8209;anchored signaling with attenuated NK/T&#8209;cell support, nominating candidate axes for risk stratification of GGNs and prospective validation in larger cohorts.

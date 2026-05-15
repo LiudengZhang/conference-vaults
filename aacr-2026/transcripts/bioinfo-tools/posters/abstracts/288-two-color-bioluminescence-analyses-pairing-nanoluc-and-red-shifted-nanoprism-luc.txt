@@ -1,0 +1,12 @@
+# Two-color bioluminescence analyses pairing NanoLuc® and red-shifted NanoPrism™ luciferases​
+
+**Poster #**: 288
+**Session**: Innovative Therapeutic Modalities and Translational Platforms
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Juliano Alves, Karilyn Porter, Mike Killoran, Robin Hurst, Mark Klein, Debayan De Bakshi, Rahele Esmatpour, James J. Cali, Thomas Machleidt, Rachel  F.  Ohana, Hicham ZegzoutiPromega Corporation, Madison, WI
+
+---
+
+NanoLuc® luciferase (NLuc) and its complementation technologies, including the NanoBiT® LgBiT/HiBiT system, are widely applied in functional biology because of their exceptional brightness, broad dynamic range, and suitability for monitoring real-time cellular processes. Despite their versatility, NLuc-based reporters emit primarily at a single, blue-shifted wavelength (~460 nm), restricting their use in multiplexed assays where independent spectral channels are required. To overcome this limitation, we developed NanoPrism™ luciferases, engineered NLuc variants that employ highly efficient intramolecular energy transfer to red-shift the emission. Building on BRET-based strategies, we inserted circularly permuted NLuc or LgBiT into a surface loop of HaloTag®, enabling optimal positioning to covalently bound fluorophores and achieving exceptional BRET efficiency (~90%). By pairing these red-shifted NanoPrism™ reporters with unmodified NLuc® or NanoBiT®, we created a robust two-color bioluminescent platform with strong signal intensities and >100 nm spectral separation. This dual-channel system allows simultaneous monitoring of two proteins or cellular events, such as targeted protein degradation, signaling dynamics, or internal control measurements - in real time within a single experimental context.

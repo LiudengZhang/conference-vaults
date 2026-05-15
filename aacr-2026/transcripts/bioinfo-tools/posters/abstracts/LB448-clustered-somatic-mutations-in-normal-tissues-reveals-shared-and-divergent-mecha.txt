@@ -1,0 +1,12 @@
+# Clustered somatic mutations in normal tissues reveals shared and divergent mechanisms with cancer
+
+**Poster #**: LB448
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Erik Bergstrom, Rongjie Wu, Mousumy Kundu, Lumdil AlexandrovUniversity of California, San Diego, San Diego, CA
+
+---
+
+Somatic mutations arise throughout human tissues, yet a subset occur in spatial clusters, termed clustered mutations, that reflect localized bursts of mutagenesis. These events range in complexity and span from doublet (DBS) and multi-nucleotide (MNS) substitutions to larger mutational showers such as omikli and kataegis, which can extend across tens to thousands of bases. Although well-characterized in cancer, the prevalence, origins, and biological roles of clustered mutations in normal tissues remain unclear. Here, we present the first comprehensive pan-tissue analysis of 3,859 whole-genome-sequenced normal samples spanning 11 human tissues. Using statistical modeling to detect major subclasses of clustered events, we identify extensive tissue-specific and shared clustered mutational signatures, including UV light-, tobacco-, AID-, and APOBEC-associated processes, along with several previously undescribed signatures including a novel psoralen-associated signature in skin, and a novel DBS signature in cirrhotic livers. Furthermore, we discover that clustered mutations vary markedly across different types of tissues, increase with pathological severity for tissues such as livers and lungs, and show enrichment for protein-altering consequences relative to non-clustered mutations. Notably, we uncover a previously unrecognized transcription-coupled form of APOBEC mutagenesis in normal tissues, characterized by enrichment in early-replicating, highly expressed genomic regions and occurring independently of structural variants. This process also persists in a subset of human cancers, indicating that APOBEC-driven mutagenesis can originate prior to tumorigenesis and evolve during disease progression. Together, our findings reveal clustered mutagenesis as a widespread feature of normal human somatic genomes, shaped by both endogenous and exogenous processes, with implications for early cancer evolution and somatic variation in health and disease.

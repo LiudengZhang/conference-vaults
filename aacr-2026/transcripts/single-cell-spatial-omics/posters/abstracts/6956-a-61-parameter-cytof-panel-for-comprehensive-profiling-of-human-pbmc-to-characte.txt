@@ -1,0 +1,14 @@
+# A 61-parameter CyTOF panel for comprehensive profiling of human PBMC to characterize immune activation, checkpoint expression and cytokine signatures with applications in cancer immunology
+
+**Poster #**: 6956
+**Session**: High-Dimensional Immune Profiling and Preclinical Modeling for Cancer Immunotherapy
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Michael Cohen, Stephen Li, Lauren Janette Tracey, Katrina Thomson, Christina Loh
+
+Standard BioTools, Markham, ON, Canada
+
+---
+
+Understanding the complexity of immune responses in cancer is critical for developing effective immunotherapies and predicting patient outcomes. High-parameter cytometric analysis enables deep profiling of immune cell phenotypes and functional states, revealing mechanisms of tumor immune evasion and therapeutic resistance. CyTOF&#8482; technology is a single-cell analysis platform that uses metal-tagged antibodies to resolve 50-plus markers in a single tube. Unlike fluorescence-based cytometry, spectral unmixing and single-stain controls are not required. Therefore, it is uniquely possible with CyTOF technology to rapidly design high-parameter panels enabling simultaneous assessment of lineage, activation, exhaustion and intracellular signaling pathways. This study aimed to design a 61-parameter CyTOF panel optimized for functional immune profiling of human PBMC to support cancer immunology research. The panel incorporates lineage markers for major immune subsets and an extensive set of T cell phenotyping targets including activation, differentiation, immune checkpoints (for example, PD-1, CTLA-4, TIGIT) and intracellular cytokines relevant to tumor immunity. Untreated and stimulated PBMC were barcoded, pooled and stained. Samples were cryopreserved and later acquired using a CyTOF XT PRO system to minimize technical variation. High-dimensional analysis of stimulated PBMC demonstrated the panel&#8217;s ability to resolve extensive immuno-functional diversity at the single-cell level. Co-expression patterns of activation markers, immune checkpoints and intracellular cytokines were detected across effector, memory, cytotoxic, regulatory and exhausted immune cell subsets. These findings highlight the panel&#8217;s potential to uncover signatures relevant to tumor immunity and immunotherapy response when applied to cancer patient samples or tumor-associated immune cells. CyTOF systems enable the highest number of simultaneous measurements in a single panel, allowing for comprehensive immune profiling alongside high resolution of intracellular targets to interrogate functional potential. Overall, studying functional immunology using CyTOF technology can elucidate the complex nature of immune responses to provide an understanding of how they relate to disease and treatments. For Research Use Only. Not for use in diagnostic procedures.

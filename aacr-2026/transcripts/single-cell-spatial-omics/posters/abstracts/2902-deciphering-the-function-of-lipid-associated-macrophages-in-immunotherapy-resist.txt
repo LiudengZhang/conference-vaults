@@ -1,0 +1,18 @@
+# Deciphering the function of lipid-associated macrophages in immunotherapy resistance of hepatocellular carcinoma
+
+**Poster #**: 2902
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Xiaohang Long1, Yaxian Wang1, Siyuan HUANG1, Joaquim Si Long VONG1, Joseph Jao-Yiu Sung2, Lam, Stephen CHAN3, Alfred Sze-Lok Cheng1
+
+1School of Biomedical Sciences, The Chinese University of Hong Kong, Hong Kong, Hong Kong,2Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore, Singapore, Singapore,3Department of Clinical Oncology, The Chinese University of Hong Kong, Hong Kong, Hong Kong
+
+---
+
+Background:Hepatocellular carcinoma (HCC) is a leading cause of cancer-related mortality globally. While immune-checkpoint blockade (ICB) has transformed oncology, its efficacy in HCC is limited by an immunosuppressive tumor microenvironment (TME) and diverse disease etiologies, yielding response rates below 30%. Our prior work identified several key transcriptional and epigenetic drivers of immune exclusion and myeloid-mediated immunosuppression underlying ICB resistance in preclinical models (Gut 2018, 2020, 2023, Sci Transl Med 2021). To develop precise immunotherapies, it is critical to identify the central regulatory nodes within the TME of ICB-resistant patients.
+Methods:We applied single-cell RNA sequencing (scRNA-seq), single-cell Assay for Transposase-Accessible Chromatin using sequencing (scATAC-seq), and spatial transcriptomics to investigate the TME of HCC patients resistant to ICBs (from trial NCT05873244), with treatment-na&#239;ve patients serving as controls.
+Results:Multi-omics analysis uncovered a subcluster of tumor-associated macrophages (TAMs) characterized by high levels of lipid-associated genes. Bioinformatics analysis of open chromatin regions identified a transcription factor (MTF) that was significantly up-regulated in TAMs from ICB-resistant HCCs but not in treatment-na&#239;ve tumors. Spatial transcriptomic profiling and multiplex immunohistochemistry confirmed the co-localization of MTF with the lipid-associated macrophages (LAMs) in patient tumors. Chromatin immunoprecipitation-sequencing in THP-1 cells revealed that MTF binding was enriched in phagocytosis-related genes. Functional studies in macrophage cell lines demonstrated that knockdown or overexpression of MTF modulated phagocytic capacity. Integrated RNA sequencing and Cut&#38;Tag analysis further delineated its downstream targets and involvement in phagocytic pathways.
+Conclusions:This study identifies a novel key transcriptional regulator and provides mechanistic evidence for its role in modulating macrophage phagocytosis and lipid metabolism in HCC ICB resistance. Our findings uncover critical epigenetic and transcriptional alterations within the immunosuppressive myeloid landscape and highlight promising therapeutic targets to overcome ICB resistance. These insights lay the groundwork for targeting the immunometabolic axis as a new strategy to counteract ICB resistance in HCC.
+Acknowledgment: This study is supported by the General Research Fund (14120621, 14119023 and 14112525) CUHK Research Committee-Direct Grants (504643107) and the Li Ka Shing Foundation.

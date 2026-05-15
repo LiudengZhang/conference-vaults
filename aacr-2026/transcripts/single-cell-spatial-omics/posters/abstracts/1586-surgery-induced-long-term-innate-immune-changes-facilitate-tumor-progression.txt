@@ -1,0 +1,17 @@
+# Surgery-induced long term innate immune changes facilitate tumor progression
+
+**Poster #**: 1586
+**Session**: Innate Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Zhengyi He, Hamza  O.  Yazdani, Tony Haykal, Ruiqi Yang, Celine Tohme, Rihito Kanamaru, Krish Wasson, Anthony Gebran, Silvia Liu, David  A.  Geller, Jian-Hua Luo, Samer Tohme
+
+University of Pittsburgh, Pittsburgh, PA
+
+---
+
+Introduction: Surgical intervention is crucial in managing cancer patients, yet it can increase tumor recurrence risk due to pro-tumorigenic innate immunity. We hypothesized that surgical stress can induce prolonged rewiring of bone marrow cells that can differentiate into a pro-tumorigenic phenotype upon stimulation.
+Methods: Wild type C57BL/6J mice were subject to surgical stress including laparotomy, liver ischemia reperfusion and hepatectomy. Sham surgery includes anesthesia without further manipulation. MC38 (murine colorectal cancer cells) were subcutaneously inoculated 1- or 3-weeks post-surgery. Neutrophil depletion is done by anti-Ly6G monoclonal antibodies administration.
+Results: Wild type mice subjected to different surgical stress showed significantly increased tumor volumes when tumor was inoculated subcutaneously 1- or 3-weeks post-surgery. However, neutrophil-depleted mice subjected to surgical stress showed no significant increase of cancer growth compared to wild type mice. These findings are correlated with transcriptomic analysis on tumor-associated neutrophils which exhibited enhanced production of pro-inflammatory factors that promote tumor growth. Circulating neutrophils after surgical stress also showed similar pro-inflammatory markers persistently upregulated after surgery in the absence of cancer. Furthermore, mice showed increased tumor volume when received bone marrow cells from surgery-preconditioned mice compared to sham mice. Analysis on bone marrow progenitor cells specifically showed enhanced proliferation of granulocyte-monocyte progenitors (GMPs) after surgery compared to sham mice. Additionally, proliferation of GMPs is enhanced in surgery-preconditioned mice compared to sham mice in response to cancer inoculation. Single-cell analysis of bone marrow progenitor cells revealed persistent transcriptomic changes post-surgery, while transcriptional factor enrichment revealed CCAAT/enhancer binding proteins (C/EBP) to be potential drivers of these persistent changes. Analysis of post-surgical plasma revealed acute increase of IL-1&#946; and HMGB1 post-surgery. In vitro short-term (3 days) treatment of bone marrow progenitor cells with IL-1&#946; or HMGB1 resulted in enhanced proliferation of GMPs and persistent upregulation of pro-tumorigenic gene markers in induced neutrophils.
+Conclusions: Surgery-induced IL-1&#946; and HMGB1 can induce persistent changes in bone marrow progenitor cells that can produce pro-tumorigenic neutrophils in response to cancer cells. IL-1&#946; and HMGB1 can serve as targets to improve cancer patient prognosis after surgical resection.

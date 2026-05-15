@@ -1,0 +1,14 @@
+# Targeted modulation of the blood-tumor barrier enhances drug delivery and survival in glioblastoma models
+
+**Poster #**: 7178
+**Session**: Role of the Microenvironment in Therapeutic Response
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Philippa  C.  Vaughn-Beaucaire1, William Hawkins2, Jasmine S. Clark2, Jorge Luis Jimenez Macias3, Bin Wu4
+
+1Pathology and Laboratory Medicine, Brown University, Providence, RI,2Legorreta Cancer Center at Brown University, Providence, RI,3Brown University, Providence, RI,4Cytodigm, Natick, MA
+
+---
+
+Efficient drug delivery in glioblastoma (GBM) remains a major therapeutic challenge due to the restrictive properties of the blood-brain and blood-tumor barriers (BBB/BTB). We previously identified a BTB-associated transcriptional signature highlighting CDH5 (vascular endothelial cadherin) as a critical regulatory molecule highly expressed in GBM vasculature. Using bulk RNA sequencing and spatial transcriptomics, we confirmed that CDH5 and its associated genes are selectively enriched in tumor-associated endothelial cells compared with healthy brain tissue. Mechanistically, we show that the indirubin derivative 6-bromoindirubin acetoxime (BIA) significantly downregulates CDH5 and additional BTB-signature genes, including ACVRL1, ENG, and CD93. This molecular modulation disrupts endothelial barrier integrity, demonstrated by reduced trans-endothelial electrical resistance and increased dextran permeability in vitro, as well as enhanced intratumoral sodium fluorescein and cisplatin accumulation in vivo in murine GBM xenograft models. BIA treatment further augments cisplatin efficacy by increasing DNA damage, resulting in significantly extended survival compared with monotherapy. To investigate underlying mechanisms, we are assessing the effects of BIA on transcription factors involved in BBB regulation (including CREB and ERG) and on cytoskeletal dynamics. Given that BIA is a broad-spectrum kinase inhibitor with limited translational potential, we are actively evaluating FDA-approved kinase inhibitors, such as dasatinib. as clinically viable alternatives for rapid translation. Preliminary data indicate that dasatinib similarly disrupts BTB integrity and enhances chemotherapeutic penetration into GBM tumors. Ongoing studies are testing dasatinib&#8217;s preclinical efficacy, specifically its impact on drug delivery, safety, and therapeutic effectiveness. Collectively, these findings position targeted BTB modulation as a promising therapeutic strategy. Leveraging both novel agents such as BIA and repurposed FDA-approved drugs like dasatinib may significantly enhance drug delivery, improve therapeutic outcomes, and ultimately benefit patients with GBM.

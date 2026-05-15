@@ -1,0 +1,12 @@
+# NeonDisco: A Nextflow orchestration framework for in silico discovery and prioritization of recurrent neoantigen candidates
+
+**Poster #**: 6861
+**Session**: Network Biology and Precision Medicine
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Mohd Suffian Azizan, Min Hui Tan, Jia Wern Pan, Sok Ching CheongCancer Research Malaysia, Subang Jaya, Malaysia
+
+---
+
+Neoantigen-based cancer immunotherapy necessitates discovery of tumor-specific antigens that elicit clinically observable response in patients. Advances in bioinformatics have allowed in silico predictions of neoantigens, yet cancer vaccine development have been limited by low discovery rate of immunogenic neoantigens. This is primarily due to the restricted search space from which neoantigens are predicted, namely single-nucleotide variations (SNVs) or insertion-deletion mutations (indels), the prevalence of which also varies across different cancer types. Therefore, expanding the neoantigen landscape beyond SNVs/indels is imperative, both to improve novel neoantigen detection and to make universal, off-the-shelf cancer vaccine development possible. We have implemented NeonDisco, a multimodal bioinformatics pipeline in Nextflow to facilitate discovery of recurrent, immunogenic neoantigens from RNA-seq data. The pipeline incorporates state-of-the-art bioinformatics tools, with a focus on modularity to enable predictions from expanded neoantigen sources. We have prototyped a gene fusion neoantigen discovery module in NeonDisco and analyzed RNA-seq libraries of 990 patient samples from the Malaysian breast cancer cohort, MyBrCa. We identified 96 recurrent fusion breakpoints found across 208 unique samples out of 886 fusion-positive samples, translating to a cohort coverage of 23%. Neopeptide prediction part of the pipeline identified 2,827 unique neoepitope sequences predicted to have IC50 <500 nM to 5% top common MHC-I alleles in the MyBrCa cohort. Future works would focus on extending the discovery modules into alternative-splicing-derived and RNA-editing-derived neoantigen search space, as well as validating gene fusion prediction shortlist in vitro. NeonDisco attempts to consolidate innovative neoantigen discovery algorithms into one streamlined, automated pipeline, and this effort constitute our first step in an optimized strategy to develop off-the-shelf cancer vaccines.

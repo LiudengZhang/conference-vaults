@@ -1,0 +1,14 @@
+# Metabolic correlates of measurable residual disease following high dose melphalan conditioning for autologous stem cell transplant in multiple myeloma
+
+**Poster #**: 7431
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Qualia Hooker, Timothy Triche
+
+Van Andel Institute (VAI), Grand Rapids, MI
+
+---
+
+In Multiple Myeloma (MM) high dose melphalan (HDM) conditioning followed by autologous stem cell transplant (ASCT) yields durable remissions, but measurable residual disease (MRD) is the strongest predictor of early relapse. Metabolic plasticity of malignant plasma cells and immune subsets are emerging as key determinants of MRD, potentially contributing to differences in transplant outcomes. However, the metabolic programs that separate MRD+ from MRD- patients remain poorly understood. As an alkylator, HDM induces oxidative stress and DNA damage that selects for malignant plasma cells with enhanced metabolic features, while simultaneously impairing reconstitution of protective T-cell subsets. Importantly, germline genetic variation may prime for distinct metabolic fates and immune reconstitution post-ASCT. Thus, we posit that MRD reflects the dual pressure of metabolically adapted MM clones and impaired immune recovery. We performed a retrospective analysis of paired 5&#8242; scRNA-seq and TCR-seq from CD138- bone marrow aspirates of 28 MM patients (progressors n=13 vs. non-progressors n=15 and MRD-positive n=17 vs. MRD-negative n=11) collected pre- and post-ASCT. MRD status was independent of progression. BCR analysis revealed clonal restriction patterns in plasmablasts consistent with biochemical relapse. We used METAflux to analyze B-cell flux activities and determined that MRD is correlated with oxidative stress (OR:1.62, 95% CI:1.06-2.48), while progression was linked to upregulation of oxidative and biosynthetic metabolism pathways. Plasmablasts from MRD+ progressors exhibited enhanced proliferative metabolism signatures consistent with active MM clones. Progression in the T cell compartment was strongly linked to oxidative phosphorylation (OR:2.46, 95% CI:1.44-4.20), while there were no significant MRD associations. However, MRD+ progressors displayed clonal restriction patterns in CD8+ T cells signifying defective immune reconstitution. This study identifies cell-type specific metabolic alterations distinguishing MRD-positive from MRD-negative patients post-ASCT. Enrichment of antioxidant metabolism in B-cells coupled with altered T-cell metabolism and recovery demonstrates dual vulnerabilities: metabolic plasticity and immune deficits. These results identify potential immunometabolic dependencies that may serve as therapeutic targets that can be used to eliminate MRD and improve transplant outcomes.

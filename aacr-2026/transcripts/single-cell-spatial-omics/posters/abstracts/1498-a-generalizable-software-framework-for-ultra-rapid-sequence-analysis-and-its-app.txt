@@ -1,0 +1,17 @@
+# A generalizable software framework for ultra-rapid sequence analysis and its application in enabling 1 day deep multi-omic data analysis turnaround for brain cancer precision oncology
+
+**Poster #**: 1498
+**Session**: Sequence Analysis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Anders Pitman1, David Bean2, Yi Qiao2
+
+1Human Genetics, University of Utah School of Medicine, Salt Lake City, UT,2Biomedical Informatics, University of Utah School of Medicine, Salt Lake City, UT
+
+---
+
+BACKGROUND: Pediatric brain cancer patients in relapse lack standard-of-care options and experience poor clinical outcome; and adult glioblastoma is simultaneously the most commonly diagnosed central nervous system malignancy and the most deadly. While they stand to benefit the most from precision-guided, personalized therapy selection supported by multi-omic tumor profiling, they also experience an extremely short post-surgery window-of-opportunity to identify and acquire likely effective drugs. This short clinical timeframe precludes clinical trials utilizing next generation sequencing (NGS) tumor profiling techniques from being designed, as the vast amount of data produced by tumor-normal pair whole genome DNA sequencing and tumor single cell RNA sequencing cannot be analyzed in time using current prevailing methods.
+METHODS: We look towards graphics processing unit (GPU) accelerated computation to significantly speed up sequence analysis. We utilize both existing acceleration efforts (most notably the GPU version of BWA-MEM and STAR alignment algorithms as part of the NVIDIA Parabrick package) as well as accelerated versions of software we developed for which no GPU versions currently exist (FreeBayes short variant and FACETS copy number variant calling algorithms). We focus both on result equivalency to the unaccelerated versions, as well as code reusability so that additional software can be ported to GPU platforms by others with ease.
+RESULTS: Using the HG008 tumor normal pair from Genome In A Bottle as a test case (2x150bp Illumina NovaSeq 6000, 150X normal and 190X tumor nominal coverage), our pipeline spent < 2 hours in sequence alignment, and < 30 minutes in variant calling and annotation using readily available computer hardware. As a result, the entire sequence analysis workflow can be finished within 1 working day, and produces an annotated variant call set ready for expert review, molecular tumor board discussion, and therapy selection. We further tested our approach on an in-house pediatric brain dataset consisting of 16 patients and both DNA and scRNA sequencing data, and observed similar results.
+CONCLUSION: We have developed a generalizable approach to adopting GPU accelerated computation to sequence analysis, and how they can significantly expand the possibilities of applying NGS-based precision oncology approaches to adult / pediatric brain cancer by offering 1 day analysis turnaround. Coupled with logistic optimization at sequencing facilities (e.g. using dedicated flow cells and priority queues), we have achieved <1 week surgery-to-insight turnaround. Our work serves as building blocks for designing next general precision oncology clinical trials that rely on NGS to prioritize treatment options for brain cancer patients.

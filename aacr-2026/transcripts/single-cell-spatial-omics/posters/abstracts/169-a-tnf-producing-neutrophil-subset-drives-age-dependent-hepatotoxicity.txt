@@ -1,0 +1,14 @@
+# A TNF-producing neutrophil subset drives age-dependent hepatotoxicity
+
+**Poster #**: 169
+**Session**: Immune Cell Biology and Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Jin Lee1, Yiming Gao1, Yufei Zhang1, Aaron Havas2, Peter Adams2, Gerald S. Shadel3, Susan M. Kaech3, Gen-Sheng Feng1
+
+1University of California San Diego - UCSD, La Jolla, CA,2Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA,3Salk Institute for Biological Studies, La Jolla, CA
+
+---
+
+The mechanisms by which aging contributes to the detrimental effect of cancer therapy remain poorly understood. Herein we show that while a synthetic dsRNA (polyIC) effectively suppresses liver tumors in young mice, it induces lethal liver necrosis in aged mice. Single-cell and functional analyses unearthed a CD14&#8314; neutrophil subset featured by robust TNF&#945; induction by polyIC exclusively in the aged liver. Impaired NR3C1 expression and elevated NF-&#954;B and AP-1 signaling drive a skewing toward Tnf&#8314; over Saa1&#8314; neutrophils in the aged liver. TNF neutralization rescued polyIC-induced mortality, while also enhancing its antitumor effect in aged mice. Bioinformatic analysis revealed significant association of a Tnf&#8314;Saa1&#8315; neutrophil gene signature with reduced survival in liver cancer patients over 60. This study uncovers a previously unknown detrimental mechanism in the aged liver, which is undetectable under basal conditions. We provide a new strategy to improve therapeutic outcomes in elderly patients by mitigating treatment-associated toxicity.

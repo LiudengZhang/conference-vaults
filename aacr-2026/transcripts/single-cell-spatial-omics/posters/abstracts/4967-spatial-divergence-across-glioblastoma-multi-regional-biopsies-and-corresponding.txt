@@ -1,0 +1,18 @@
+# Spatial divergence across glioblastoma multi-regional biopsies and corresponding neurosphere cultures
+
+**Poster #**: 4967
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Roberto Salatino1, Jacob Geisberg2, Arantxa Romero Toledo1, Benjamin Oakes1, Dobeen Hwang1, Cristina Vincentelli3, Oszkar Szentirmai4, Thomas  O.  McDonald2, Franziska Michor2, Michalina Janiszewska1
+
+1The Wertheim UF Scripps Institute, Jupiter, FL,2Dana-Farber Cancer Institute, Boston, MA,3Mount Sinai Medical Center, Miami Beach, FL,4Cleveland Clininc Martin Health, Port St. Lucie, FL
+
+---
+
+Glioblastoma (GBM), the most aggressive brain tumor, remains an unmet medical need, as only 6.8% of patients survive 5 years post diagnosis. Lack of effective treatment for GBM is largely driven by high level of intratumor heterogeneity, which is poorly captured by the current models of the disease used for drug discovery. Several recent studies demonstrated that spatial organization of the GBM tumor tissue is another highly heterogeneous aspect of this disease. Despite these observations, and availability of imaging-guided surgical navigation that allows for tumor-wide sampling to account for variation between distant regions of the tumor, typical drug screening is performed on cell lines derived from a single biopsy and does not account for GBM heterogeneity.
+Here, we profiled matching MRI-guided multi-region primary tumor biopsies from 6 GBM cases (n=40 biopsies) and corresponding neurosphere cultures (n=30) derived from these spatially distinct tumor samples. The tumors represented all three GBM subtypes, with some biopsies classifying as a different subtype than the rest. Whole exome sequencing-based clonal analysis of the tumor samples confirmed their heterogenous nature, with 3-5 clones found in each biopsy.
+Interestingly, the neurosphere cultures derived from different areas of the same tumor retained their diversity with respect to metabolism of 5-ALA, used in fluorescence-guided tumor resection, varying proliferative capacity and distinct transcriptional programs. Tumor periphery, which is thought to harbor cells driving local recurrence after surgery, gave rise to neurospheres with higher expression of cell cycle and DNA repair genes. The lines representing tumor periphery and not accumulating 5-ALA had high levels of MYC activity.
+Since these cells are thought to drive local recurrence, targeting these tumor subpopulations could have a significant clinical benefit. To inhibit these pathways, we selected a panel of 7 drugs based on their recent evaluation in clinical trials for GBM patients, and tested their ability to affect proliferation of our neurosphere lines. We found that the responses to these drugs were variable between the neurospheres derived from distinct regions of the same tumor. Unexpectedly, we found that the cellular composition of the original tumor sample, predicted based on bulk transcriptomic data, can be linked to drug response outcomes derived from respective neurosphere line.
+Our study demonstrates that the tumor-wide diversity of phenotypes of GBM can be propagated in vitro. Our results suggest that, at least in part, the transcriptional programs retained by GBM cells in vitro reflect their history of selection in distinct microenvironments in the tumor.

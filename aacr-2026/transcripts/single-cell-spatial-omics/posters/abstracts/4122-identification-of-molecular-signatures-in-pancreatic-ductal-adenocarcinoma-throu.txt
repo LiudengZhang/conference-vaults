@@ -1,0 +1,14 @@
+# Identification of molecular signatures in pancreatic ductal adenocarcinoma through multiomics
+
+**Poster #**: 4122
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Benjamin Miao1, Tung-Shing Mamie Lih2, Yingwei Hu2, Hui Zhang2
+
+1Johns Hopkins Univeristy, Baltimore, MD,2Johns Hopkins University School of Medicine, Baltimore, MD
+
+---
+
+Pancreatic ductal adenocarcinoma (PDAC) is among the deadliest malignancies, with a dismal five-year survival rate. Despite continuous efforts to study its molecular signatures, the high degree of tumor-associated cellular heterogeneity in PDAC introduces extraneous microenvironmental components that complicate analysis. In recent years, multi-omics approaches have shown promise in deconvoluting cellular composition and enabling more specific, comprehensive cancer profiling. To better characterize PDAC, in this study, we analyzed transcriptomic and proteomic data from 140 tumor tissues with 67 paired normal adjacent tissues, along with single-cell RNA sequencing data from 73 tumor tissues. Using this integrative approach, we successfully attributed molecular signatures to distinct cell-type populations. Overall, we found 59 tumor-cell derived PDAC molecular signatures and evaluated them for functional relevance, prognostic value, and potential therapeutic implications. Among these, we identified molecular targets associated with increased tumorigenic activity and immunosuppression. Moreover, survival analysis of protein phosphorylation and overall expression informed prognostic significance for potential targets. Notably, we found that several phosphorylation changes correlate with poor patient survival, suggesting potential paths for therapeutic intervention by targeting protein post-translational modifications. Our study provides a detailed understanding of PDAC through characterization of key tumor-specific signatures that could serve as potential targets to help improve clinical outcomes for this disease.&#8239;

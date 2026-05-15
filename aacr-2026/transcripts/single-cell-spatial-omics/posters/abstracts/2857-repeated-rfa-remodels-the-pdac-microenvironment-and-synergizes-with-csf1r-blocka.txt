@@ -1,0 +1,18 @@
+# Repeated RFA remodels the PDAC microenvironment and synergizes with CSF1R blockade and checkpoint inhibition to enhance anti-tumor immunity
+
+**Poster #**: 2857
+**Session**: Immune Mechanisms Invoked by Other Therapies and Exposures
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Lincoln Strickland1, Wendao Liu2, Casey Van Kirk1, Shwetapadma Dash1, MacKenzie Demmel1, Alyssa Waller1, Nicolette  R.  Mardik3, Jesse Cox1, Curtis J. Wray4, Zhongming Zhao5, Nirav Thosani6, Jennifer Bailey-Lundberg1
+
+1University of Nebraska Medical Center, Omaha, NE,2The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, TX,3The University of Texas Health Science Center, Houston, TX,4Assistant Professor, Dept. of Surgery, UT Health Science Ctr. at Houston, Houston, TX,5Assoc. Professor, Biomedical Informatics and Cancer Bio., University of Texas Health Science Center at Houston, Houston, TX,6University of Texas Health Science Center at Houston, Houston, TX
+
+---
+
+Background: Pancreatic ductal adenocarcinoma (PDAC) is defined by a profoundly immunosuppressive tumor microenvironment (TME). In the majority of cases, treatment is palliative as there are few effective therapeutic options shown to improve clinical outcomes. We previously demonstrated that a single radiofrequency ablation (RFA) session is safe, induces tumor necrosis, enhances immune cell infiltration, including an abscopal effect, and synergizes with immune checkpoint blockade (ICB) to further suppress tumor growth.
+Hypothesis: We proposed that repeated RFA sessions would more effectively restrain tumor progression, amplify immune cell recruitment, and enhance responsiveness to immunotherapy.
+Methods: Using a bilateral tumor-bearing KrasG12D;Trp53R172H/+;Pdx1:Cre syngeneic PDAC model, we compared tumor responses following single versus 3 repeated RFA sessions. Single-cell RNA sequencing and cytokine profiling were used to characterize TME remodeling. Given our prior findings with a single RFA session + ICB, we evaluated repeated RFA in combination with ICB and tested whether adding CSF1R blockade (PLX3397) could counteract RFA-induced myeloid immune suppression.
+Results: Repeated RFA significantly reduced tumor growth rates and increased tumor necrosis in both treated and contralateral lesions compared to a single RFA session. scRNA-seq and cytokine analysis revealed that repeated RFA elevated Csf1 levels, promoting differentiation of immune suppressive Csf1r+ M2-like macrophages via the Csf1/Csf1r axis. While repeated RFA combined with ICB improved tumor control compared with either therapy alone, the addition of CSF1R inhibition further enhanced efficacy. The triple combination (repeated RFA + ICB + anti-CSF1R) produced the greatest reduction in tumor volume and weight and yielded the most pronounced remodeling of the TME.
+Conclusions: Repeated RFA intensifies tumor necrosis, suppresses tumor progression, and remodels the PDAC TME, but concurrently induces a compensatory Csf1/Csf1r-driven M2-like macrophage response. Macrophage reprogramming through CSF1R blockade enhances both RFA- and ICB-mediated anti-tumor immunity. These findings support integrating repeated local ablative therapy with myeloid-targeting agents and checkpoint blockade to improve immunologic control of pancreatic cancer.

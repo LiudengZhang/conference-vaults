@@ -1,0 +1,14 @@
+# High-throughput discovery of MART1-specific TCR-peptide interactions using a Jurkat NFAT Reporter-K562 antigen-presenting cell system and single-cell adaptive immune receptor profiling
+
+**Poster #**: 4249
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Alex Chenchik1, Debbie Deng1, Kitt Paraiso1, Guido Stadler2, Ben Yellen2
+
+1Cellecta, Inc., Mountain View, CA,2Celldom, San Carlos, CA
+
+---
+
+In this study, we developed a high-throughput workflow for identifying MART1-specific T cell receptor (TCR)-peptide interactions relevant to melanoma immunotherapy. Jurkat NFAT-GFP reporter cells expressing individual candidate MART1-TCRs (n=10 to 20) were co-cultured with K562 artificial antigen-presenting cells (APCs) engineered to express a MART1 120-peptide, tumor-associated library in a single-chain trimer (peptide-B2M-HLA-A) format. TCR activation was quantified using the CellDom Microwell EliSpot platform, where GFP expression and IL-2 secretion signaled productive antigen engagement. Cells from positive wells were harvested, and DriverMap adaptive immune receptor (AIR) bulk and single-cell TCR-Seq assays and subsequent NGS analysis were performed to identify the cognate TCR epitopes.To improve epitope presentation, we introduced a G2C substitution in the G4S linker of the single-chain trimer, which enhanced HLA surface expression and increased Jurkat activation compared with the wild-type construct. MART1-TCRs showed differential reactivity across the MART peptide panel, enabling ranking of functional affinity and identification of cross-reactive peptide candidates. Both the bulk AIR DNA and bulk AIR RNA assays show clonotypes that are expanded in MART1 vs Day 0 (control) or DMSO control. On Day 9, approximately 12 clonotypes are expanded at 250x compared to Day 0 in the MART1-stimulated sample. With the single-cell AIR assay, the MART1-stimulated samples showed overrepresentation of clones, whereas there was no clonal overrepresentation in the DMSO control plate.This end-to-end platform shows TCR-peptide interactions with bulk and &#38; single-cell NGS readout, which could enable identification of therapeutic TCR candidates, and provide a scalable method for characterizing antigen specificity for cancer immunotherapy applications.

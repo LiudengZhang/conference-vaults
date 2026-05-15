@@ -1,0 +1,14 @@
+# TP53 dysfunction drives immunometabolic rewiring via mTORC1 activation and autophagy suppression in colorectal cancer
+
+**Poster #**: 4191
+**Session**: Integrative Computational Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Eunseuk Lee, Dana Al-Assi, Randy Rueda-Rivera
+
+RWJ Barnabas Health Community Med. Ctr., Toms River, NJ
+
+---
+
+The tumor suppressor protein p53 regulates both metabolism and immunity through its control of the mTORC1-autophagy axis; yet the mechanistic consequences of TP53 dysfunction in microsatellite-stable colorectal cancer (MSS CRC) remain unclear. We used an integrative transcriptomic approach that combined bulk RNA-seq (GSE146009), TCGA-COAD/READ (n = 647), and single-cell RNA-seq data (GSE108989), to investigate how TP53 loss alters metabolic-immune coupling in CRC. While p53 and autophagy were activated together in wild-type tumors, mTORC1 signaling remained restrained. This pattern preserved metabolic stability and supported a favorable CD8&#8314;/FOXP3&#8314; immune ratio. In contrast, TP53-mutant and null tumors exhibited a decoupling of p53 from mTORC1, leading to sustained anabolic signaling, autophagy suppression, and upregulation of pro-inflammatory cytokines (IL1B, IFNG), which coincided with enrichment of FOXP3&#8314; regulatory T-cells and immune exclusion. Single-cell profiling confirmed that mTORC1 and autophagy remain co-activated across major T-cell subsets. However, immune-metabolic coordination was weaker in exhausted and regulatory populations. Principal-component and correlation analyses revealed two distinct axes, metabolic intensity and immune polarity, that describe TP53-dependent immunometabolic divergence.Taken together, the results suggest that TP53 dysfunction promotes linked metabolic and immune reprogramming through mTORC1 activation and autophagy suppression, resulting in a FOXP3-dominant, immune-cold tumor microenvironment.. This mechanistic insight provides a rationale for combining mTORC1 and autophagy inhibition with immune-checkpoint blockade in TP53-deficient MSS CRC.

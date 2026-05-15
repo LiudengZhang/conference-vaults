@@ -1,0 +1,17 @@
+# Spatial archetypes of conserved and cancer-specific immune-stromal niches
+
+**Poster #**: 1203
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Tian Chu1, Jimin Min2, Yunhe Liu1, Yang Liu1, Yibo Dai3, Kyung Serk Cho3, Xueshuai Han3, Kai Yu3, Fuduan Peng3, Anirban Maitra4, Humam Kadara3, Linghua Wang3
+
+1Genomic Medicine, UT MD Anderson Cancer Center, Houston, TX,2Medicine, New York University Grossman School of Medicine, New York, NY,3UT MD Anderson Cancer Center, Houston, TX,4Department of Pathology, New York University Grossman School of Medicine, New York, NY
+
+---
+
+Background: Spatially organized immune-stromal interactions critically shape tumor progression, yet a systematic characterization of conserved and cancer-specific microenvironmental architectures across human tumors remains limited. Recent advances in high-resolution spatial transcriptomics provide an exceptional opportunity to define these spatial niches, characterize cellular neighborhoods in situ, and delineate their clinical relevance as potential diagnostic or prognostic biomarkers.
+Methods: We performed single-cell spatial profiling using the Xenium 5K platform on 40 cancer tissues across eight cancer types and paired uninvolved normal tissues, generating a spatial atlas of over ten million cells. By integrating transcriptional similarity, spatial proximity, and cellular composition, we defined spatial niches using an unsupervised framework. We then dissected the structural and functional characteristics of tumor microenvironments (TME). Association between transcriptional signatures and TME were further validated using public spatial-omics datasets.
+Results: We identified 31 spatial niches (SNs), including both tumor-associated and tissue-specific niches. Some SNs were conserved across multiple cancer types, whereas others were enriched in organ-specific tissues and cancers, suggesting both universal and context-dependent TME programs. Spatial heterogeneity was most pronounced at tumor-stroma interfaces, where niche diversity markedly increased. Several niches were enriched for distinct CAF subsets or myeloid populations such as macrophages and neutrophils, indicating diverse stromal remodeling dynamics across tumors. CD8&#8314; T cell-enriched niches exhibited distinct spatial localization and transcriptional features, with CD8&#8314; T cell states ranging from activated to terminally exhausted, illustrating how cytotoxic responses are shaped by local context. These immune niches differed not only in CD8&#8314; T cell states but also in their surrounding cellular ecosystems, such as co-enrichment with regulatory T cells or chemotactic myeloid cells. Notably, in two immunotherapy cohorts, higher baseline abundance of SN11&#8212;a niche characterized by strong CD8-tumor interactions&#8212;was associated with better response to immune checkpoint blockade.
+Conclusions: This study presents a large-scale spatial framework to characterize immune and stromal compartments across tumors. We define conserved and cancer-specific microenvironmental architectures, including spatially distinct immune niches with potential clinical relevance. The distinct spatial and cellular compositions of these niches highlight their potential as spatially resolved biomarkers of immune state, tumor progression, and therapeutic response, with implications for early detection and patient stratification in oncology.

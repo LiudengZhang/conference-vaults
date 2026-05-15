@@ -1,0 +1,14 @@
+# CCL3+ tumor cells orchestrate immune equilibrium and stemness maintenance in ESCC via IDE+ M2 macrophages and CCR3+ CAFs
+
+**Poster #**: 6586
+**Session**: Inflammation, Immunity, and Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Beilei Liu1, Licheng Tan2, Jiayi Huang2, Bowen Yao2, Shuang Zhang3, Mengsu Yang4, Xin-Yuan Guan5
+
+1City University of Hong Kong, Hong Kong, China,2the university of hong kong, the department of clinical oncology, China,3University of Hong Kong, Shenzhen Hospital, Shenzhen Shi, China,4city university of hong kong, BMS, China,5The University of Hong Kong, Hong Kong
+
+---
+
+Immune regulation plays a crucial role in tumor occurrence and development, yet the underlying mechanisms remain largely unclear. By constructing a mouse model to track tumor immune status and utilizing single-cell sequencing technology to dissect the interactions between tumor cells and the tumor microenvironment at different stages, we found that ESCC tumor progression undergoes four key phases: &#9312; immune recognition phase (enhanced CXCL10/H2-K1 antigen presentation signaling); &#9313; immune equilibrium phase (enrichment of PD-1 T cells/CD44 dormant tumor cells); &#9314; immune escape phase (proliferation of PD-L1+ EMT tumor cells); &#9315; immune suppression phase (dominated by M2 TAMs/Tregs). Cell communication analysis revealed that intercellular interactions in the tumor primarily occur among tumor cells, macrophages, fibroblasts, and T cells, with tumor cells serving as the core regulatory factor. Further GO analysis of tumor cell subtypes showed enrichment in keratin-reinforced type (Cnfn+), enhanced autophagy type (Plk5+), immunosuppressive type (Ccl3+), and metastasis-enhanced type (Krt8+). Among them, Ccl3+ tumor cells are highly enriched in the immune equilibrium phase and interact with Ide M2 macrophages and Ccr3+ CAFs. In vitro co-culture studies confirmed that tumor cells overexpressing Ccl3 can regulate macrophage polarization toward M2 and promote T cell exhaustion; however, these functions no longer change after knocking down the Ide gene in macrophages. On the other hand, when tumor cells overexpressing Ccl3 are co-cultured with Ccr3-knockout CAFs and control CAFs, the control group significantly enhances the stemness of Ccl3+ tumor cells. These studies confirm that Ccl3+ tumor cells remodel the tumor microenvironment through Ide M2 macrophages and Ccr3+ fibroblasts, thereby regulating stemness and surviving in the immune equilibrium phase. In vivo, neutralizing antibodies targeting Ccl3 effectively inhibit subcutaneous tumor formation and enhance immune effects. This study reveals the key regulatory role of Ccl3 in the immune evolution of ESCC tumors, providing an important molecular basis and potential clinical strategies for overcoming immunotherapy resistance and developing novel targeted therapies.

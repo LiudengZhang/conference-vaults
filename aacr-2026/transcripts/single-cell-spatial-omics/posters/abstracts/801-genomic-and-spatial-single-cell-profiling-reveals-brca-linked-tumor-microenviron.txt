@@ -1,0 +1,17 @@
+# Genomic and spatial single-cell profiling reveals BRCA-linked tumor microenvironment signatures in high-grade serous ovarian carcinoma
+
+**Poster #**: 801
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Jue young Kim, Hayeon Shin, Yoon Joo Kim, Yookyung Lee, Jae-Hoon Kim
+
+Department of Obstetrics and Gynecology, Gangnam Severance Hospital, Yonsei University College of Medicine, Seoul, Korea, Republic of
+
+---
+
+Background: High-grade serous ovarian carcinoma (HGSOC) is the most aggressive and lethal subtype of ovarian cancer, accounting for more than 70% of ovarian cancer-related deaths. Because most cases are diagnosed at advanced stages with distant metastasis, early detection and effective treatment strategies remain a major challenge. Although PARP inhibitors benefit patients with BRCA mutations or homologous recombination deficiency (HRD), many still develop therapeutic resistance. This study investigates how BRCA-associated immune activation and tumor microenvironment (TME) features influence treatment outcomes using spatial single-cell transcriptomic profiling.
+Methods: A total of 89 HGSOC samples were obtained from the Korea Gynecologic Cancer Bank (KGCB) with comprehensive clinicopathological annotation. Whole genome sequencing (WGS) was performed using tumor samples matched with peripheral blood mononuclear cells (PBMCs) to identify somatic and germline genomic alterations. Tissue microarrays (TMAs) were constructed and analyzed using NanoString&#8217;s spatial single-cell RNA sequencing platform (Human Discovery Panel, 6,000 genes) to characterize spatial heterogeneity within the TME.
+Results: WGS profiling revealed distinct genomic alteration patterns associated with BRCA mutation status, highlighting differences in key cancer-related pathways. Spatial single-cell analysis demonstrated heterogeneous tumor-immune-stromal interactions and identified BRCA-linked TME remodeling patterns. BRCA-mutated patients showed higher chemosensitivity (p=0.045) and significantly longer progression-free interval (PFI, p=0.018), recurrence-free survival (RFS, p=0.022), and overall survival (OS, p=0.032) compared with BRCA wild-type patients. Kaplan-Meier analysis confirmed significant OS differences according to BRCA mutation status (p=0.009), and chemotherapy resistance strongly affected both RFS and OS (p=0.000).
+Conclusion: BRCA mutations in HGSOC are strongly associated with enhanced chemosensitivity and improved survival outcomes. Integrated WGS and spatial single-cell analysis revealed BRCA-related genomic features and TME remodeling patterns that shape therapeutic response. These findings highlight the potential of combining BRCA status, genomic profiling, and spatial TME analysis as predictive biomarkers for prognosis and personalized treatment strategies in HGSOC.

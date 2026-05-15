@@ -1,0 +1,14 @@
+# Machine learning-based plasma proteomic signatures for diagnosis and prognosis of cholangiocarcinoma
+
+**Poster #**: 7697
+**Session**: Proteomics: Biomarker Discovery and Signaling Networks
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Chongming Zheng1, Yi Wang2, Gang Chen1
+
+1The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China,2Wenzhou Medical University, Wenzhou, China
+
+---
+
+Background: Cholangiocarcinoma (CCA) lacks reliable non-invasive biomarkers for early diagnosis and individualized prognostic assessment. Circulating proteomic profiling offers an opportunity to develop clinically actionable molecular signatures.Methods: A total of 320 plasma samples were collected across two centers, including patients with CCA, benign biliary disease, and healthy controls. Proteins were quantified using the Olink Explore Oncology II panel. Machine-learning pipelines integrating LASSO feature selection and ensemble classifiers were used to construct diagnostic and prognostic models. Model robustness and discrimination were evaluated in independent test cohorts. Integration with bulk RNA sequencing and single-cell datasets was performed to determine the cellular origins and tumor microenvironment context of candidate proteins.Results: A five-protein diagnostic classifier (5-PCM) accurately distinguished CCA from non-CCA controls, achieving AUCs of 0.917-0.930 across cohorts and outperforming conventional serum biomarkers. A seven-protein prognostic model (7-PPC) stratified overall survival with concordance indices of 0.726 and 0.853 in the derivation and validation cohorts, respectively. Multi-omics analyses demonstrated that these diagnostic and prognostic proteins were enriched in malignant epithelial cells, immune subsets, or stromal compartments, supporting their biological relevance in CCA.Conclusions: Plasma proteomics combined with machine learning enables accurate, non-invasive diagnosis and prognostic stratification of CCA. These protein signatures show strong translational potential for early detection and precision clinical management of cholangiocarcinoma.

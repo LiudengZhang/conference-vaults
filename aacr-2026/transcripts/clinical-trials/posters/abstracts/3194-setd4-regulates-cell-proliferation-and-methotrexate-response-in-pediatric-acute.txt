@@ -1,0 +1,12 @@
+# SETD4 regulates cell proliferation and methotrexate response in pediatric acute lymphoblastic leukemia
+
+**Poster #**: 3194
+**Session**: Epigenetic Changes as Molecular Markers of Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Mariana  B.  de Loyola, Ana Cristina Moura Gualberto, Brunna Santana, Fabio Pittella-SilvaUniversity of Brasilia, Brasilia, Brazil
+
+---
+
+Acute lymphoblastic leukemia (ALL) is the most common malignancy in the pediatric population and presents high remission rates. However, relapse persists as a major concern and the disease remains a leading cause of mortality among children and adolescents. Methotrexate (MTX) is widely used in ALL treatment, although resistance is frequently observed in relapsed patients. Leukemogenesis and treatment response are influenced by alterations in gene expression and epigenetic regulation. SETD4 is a histone lysine methyltransferase that modulates chromatin structure and transcriptional programs linked to oncogenesis. In this study, we investigated its role in leukemogenesis. In our cohort of 83 Brazilian pediatric ALL patients, we observed SETD4 overexpression, a finding supported by the BloodSpot Leukemia MILE Study cohort, in which SETD4 upregulation was particularly evident among patients with the t(12;21) translocation. We further analyzed TCGA RNA-seq data from the TARGET-ALL Phase II study, stratifying patients by SETD4 expression levels. High SETD4 was associated with enrichment of proliferation-related pathways, including E2F, MYC, G2M checkpoint and DNA repair, which drive accelerated cell-cycle progression and increased leukemic cell survival. To validate these findings, we upregulated SETD4 in the low-expressing Nalm-6 cell line and knocked down SETD4 in the high-expressing REH line using siRNA. SETD4 overexpression increased proliferation in Nalm-6 at 24h (FC= 1.7, p < 0.01), 48h (FC= 1.6, p < 0.01) and 72h (FC= 2.0, p < 0.001), whereas SETD4 silencing reduced proliferation in REH at 24h (FC= 0.8, p < 0.05) and 48h (FC= 0.7, p < 0.05). Both systems demonstrated direct association between SETD4 levels and leukemic cell proliferation. Since methotrexate targets proliferative processes, we investigated whether SETD4 also influences treatment sensitivity. Higher SETD4 levels increased sensitivity to MTX (FC= 1.4, p < 0.0001), whereas SETD4 silencing reduced sensitivity (FC= 0.7, p < 0.001). Together, these results highlight SETD4 as a promising biomarker candidate for leukemic burden and treatment response in pediatric ALL.

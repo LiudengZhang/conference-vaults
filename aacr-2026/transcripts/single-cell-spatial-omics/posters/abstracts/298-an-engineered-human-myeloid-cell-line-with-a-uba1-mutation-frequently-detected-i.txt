@@ -1,0 +1,15 @@
+# An engineered human myeloid cell line with a UBA1 mutation frequently detected in VEXAS syndrome is sensitive to the proteasome inhibitor bortezomib
+
+**Poster #**: 298
+**Session**: Innovative Therapeutic Modalities and Translational Platforms
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Hina Yazawa1, Youhei Sasaki2, Norihiko Kawamata3
+
+1Medical Technology, School of Health Sciences, Tokyo University of Technology, Tokyo, Japan,2Hematology, Showa Medical University, Tokyo, Japan,3Hematology, Sasaki Institute/Tojun Medical Plaza Hospital, Tokyo, Japan
+
+---
+
+VEXAS syndrome is a systemic inflammatory disorder caused by somatic point mutations ofthe UBA1 gene in hematopoietic progenitor cells. Myelodysplastic syndrome (MDS) is oneof hematologic malignancies, in which hematopoietic stem cells have genetic mutations,without curable drugs. The same types of point mutations of the UBA1 gene as detected inVEXAS syndrome are occasionally detected in MDS. Reagents targeting mutated UBA1proteins may be able to eradicate the abnormal cells with the UBA1 point mutations.To examine this hypothesis, we have established a model cell line with the UBA1 mutationand analyzed drug-sensitivity of the mutated cells. First, we employed AI-based predictionanalyses to find the most reliable target sites and enzymes for introduction of the mutationinto the UBA1 gene. Second, we introduced the point mutation into the second start codonof the UBA1 gene, which is often detected in VEXAS syndrome, using a modifiedCRISPR/Cas9 method, adenosine-base-editing (ABE) enzyme and a targeting sgRNAconstruct. Third, we introduced the mutation into 293T cells using polyethyleneimine andconfirmed the base-change of the target site and absence of non-specific base-changes aroundthe target site. Fourth, we also introduced the UBA1 mutation into a human myeloid cell line,K562, using electroporation and found massive cell death of the introduced cells afterbortezomib treatment (ED&#8325;&#8320; of wild-type cells was 15.7nM and ED&#8325;&#8320; of the introduced cellswas 3.8nM), which inhibits proteasome activity.UBA1 plays an important role in ubiquitin/proteasome pathway to destroy degraded proteins.The mutation of the UBA1 gene leads to accumulation of degraded proteins in the abnormalcells. Further accumulation of degraded proteins by inhibition of the ubiquitin/proteasomepathway with bortezomib may have killed the mutated cells.Of note, since only 30-40% of K562 cells had the base-change by this method, cells with thebase-conversion may have secreted cytotoxic cytokines/chemokines, killing neighboring cellswithout the base-conversion, causing the massive cell death.We successfully isolated single cells with the base-conversion and evaluated effects of a drug,
+bortezomib, which is frequently used at bedside for treatments of multiple myeloma, for thecells with the mutation of UBA1 gene.The engineered cell line we have established would help clinicians to find new drugs effectivefor MDS patients with the UBA1 mutations.

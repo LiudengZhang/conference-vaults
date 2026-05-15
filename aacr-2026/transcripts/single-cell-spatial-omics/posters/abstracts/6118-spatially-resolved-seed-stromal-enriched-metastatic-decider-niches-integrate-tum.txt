@@ -1,0 +1,18 @@
+# Spatially resolved SEED (stromal-enriched metastatic decider) niches integrate tumor, stromal, and immune ecosystems to enable lymph node dissemination in LUAD
+
+**Poster #**: 6118
+**Session**: Metastasis and Organ-Specific Microenvironmental Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Junghan Oh1, Hoyeon Jeong1, Yoon La Choi2, Donggun Lee1, Misook Lee1
+
+1Samsung Advanced Institute of Technology, Seoul, Korea, Republic of,2Samsung Advanced Institute for Health Sciences and Technology, Seoul, Korea, Republic of
+
+---
+
+Purpose Lung adenocarcinoma (LUAD) displays substantial intratumoral heterogeneity, but the precise primary-tumor subregions that give rise to lymph-node metastasis remain unclear. We aimed to identify metastasis-competent SEED regions and characterize their microenvironmental context using paired single-cell-resolution spatial transcriptomics.
+Methods Formalin-fixed tissues from 17 LUAD patients were profiled using the 10x Genomics Xenium 5K panel, generating paired datasets from primary tumors and matched lymph-node metastases. Spatial and transcriptional integration was performed using Seurat and SpatialData, and metascores and differential expression analyses were computed with Scanpy.
+Results Integrated primary-lymph node analysis revealed a recurrent tumor-cell cluster whose transcriptional state aligned most closely with lymph-node profiles, representing a metastasis-competent SEED population. SEED regions showed elevated metascores and enrichment of invasion and hypoxia-associated programs, including robust HIF1A upregulation. The surrounding microenvironment was spatially distinct: fibroblasts immediately adjacent to seed clusters exhibited high POSTN expression, forming a dense stromal shell, while CXCR4-high B-cell aggregates accumulated peritumorally. In contrast, T-cell distribution remained relatively uniform across regions, indicating that SEED-associated remodeling was driven by specific stromal and B-cell interactions rather than general immune infiltration. Together, these spatially coordinated patterns delineate a niche in which HIF1A-high tumor cells interface with POSTN-rich fibroblasts and CXCR4-expressing B cells to support metastatic competence.
+Conclusions Paired single-cell spatial mapping identifies discrete metastasis-prone SEED niches within LUAD primary tumors. These niches are defined by HIF1A-high tumor cells embedded in a POSTN-rich stromal compartment and surrounded by CXCR4-high B-cell aggregates. This spatial ecosystem provides a mechanistic framework for how only specific primary-tumor regions acquire the capacity for lymph-node dissemination and suggests niche-level targets for metastasis interception.
+AI Disclosure (AACR-required) This abstract includes text revised with the assistance of generative AI.

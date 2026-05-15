@@ -1,0 +1,17 @@
+# AI analysis agent to accelerate end-to-end spatial biology analysis for MERSCOPE
+
+**Poster #**: 21
+**Session**: Agentic AI in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Harihara Muralidharan1, Cheng-Yi Chen2, Friedrich Preusser2, Ruben Cardenes2, Kenny Workman1, Hannah Le1, Alfredo Andere1, Lorenz Rognoni2
+
+1LatchBio, San Francisco, CA,2Vizgen, Cambridge, MA
+
+---
+
+Background: Spatial biology assays on the MERSCOPE platform enable subcellular mapping of RNA transcripts and proteins within the tumor architecture. However, these assays generate terabyte-scale datasets that require complex computational workflows. Post-acquisition analysis including cell segmentation, cell typing, and spatial domain detection remains computationally intensive and requires specialized bioinformatics expertise. This can limit accessibility for many cancer biology laboratories. To overcome these barriers, Vizgen and LatchBio have developed an AI-driven workflow powered by large language model (LLM) agents, designed to streamline and simplify end-to-end spatial biology analysis for MERSCOPE in oncology research.
+Methods: We implemented an LLM-driven agent tailored to the Vizgen data ecosystem. The agent (1) parses MERSCOPE outputs (multi-channel z-stack images, transcript coordinate files, metadata) and launches optimized GPU-accelerated workflows for image segmentation and transcript assignment; (2) presents an interactive notebook interface (Markdown, plots, widgets) so users can specify downstream questions in natural language (e.g., &#8220;Identify Cytotoxic T-Cells within tumor border regions&#8221;); (3) triggers bioinformatics pipelines for clustering, cell-type annotation, spatial domain detection, and differential expression/regulation; and (4) integrates with LatchBio&#8217;s scalable compute/storage infrastructure for large-scale runs (>1 TB per dataset). We validated performance on breast cancer and colorectal cancer samples processed on MERSCOPE.
+Results: The agent successfully handled large-scale, multi-sample MERFISH spatial transcriptomics datasets. It performed end-to-end analysis (cell re-segmentation, unsupervised clustering, spatial domain detection, and differential expression in selected cell populations) within a single run. Outputs were delivered as interactive, reproducible notebooks for a rapid review of cell-type-annotated clusters, spatial domain maps, and differential expression summaries. Compared with a conventional manually scripted workflow, the agent completed full analyses in ~6 hours (vs ~72 h traditionally). In end-user testing, it reduced manual scripting and dependency management efforts by ~60&#8201;% and decreased downstream errors, improving pipeline reliability.
+Conclusions: The Vizgen-LatchBio AI-agentic workflow provides a scalable, user-friendly solution for advanced MERSCOPE data analysis, enabling spatial biology labs to self-serve complex computational tasks. By abstracting computational complexity and embedding domain-specific logic, this system empowers biologists to focus on biological insights rather than technical tool-chaining. Consequently, it shortens time-to-insight and facilitates high-throughput workflows across drug discovery, disease research, and academic studies.

@@ -1,0 +1,14 @@
+# Proteomic analysis of immune synapses by high-precision microscopy-guided photo-biotinylation
+
+**Poster #**: 7692
+**Session**: Proteomics: Biomarker Discovery and Signaling Networks
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Jung-Chi Liao, Chantal Hoi Yin Cheung, Weng-Man Chong, Harry Huang, Hsiao-Jen Chang, Chia-Wen Chung
+
+Syncell Inc., Taipei City, Taiwan
+
+---
+
+An immune synapse (IS) is essential for lymphocyte recognition and cytotoxic response against tumor cells. Although numerous proteins involved in IS formation, stability, and signaling pathways have been characterized, the complete proteomic composition of the synapse remains unknown. A significant challenge involves the purification of proteins at a nanoscale organization with adequate specificity and sensitivity. In this context, we employed an integrated workflow using Syncell&#8217;s Microscoop&#174; Mint platform, an advanced technology integrating microscopy-guided automated photo-biotinylation, pulldown, and mass spectrometry to isolate and identify proteins localized between T-lymphocytes (Jurkat) and B cells (Raji B). IS formation between T-B cells was recognized using a convolutional neural network-based deep learning algorithm based on CD3 (T-lymphocyte surface marker) signal at the T-B cell synapses. Automated photo-induced biotinylation was performed across thousands of fields of view so that sufficient proteins were biotinylated for the subsequent pulldown and LC-MS/MS-based proteome identification. We precisely identified canonical proteins linked to critical components of T-cell receptor (TCR) signaling pathways, including the TCR/CD3 complex, Src and Tec family tyrosine kinases, and essential NF-kB signaling molecules, thereby validating the specificity of our spatial proteomics methodology. Furthermore, we observed enrichment of proteins not previously associated with the T-B cell immune generating testable hypotheses for advancing the functional dissection of the immunological synapse. Microscoop couples optics and proteomics to enable the precise enrichment of the IS proteins at the Raji-Jurkat interface, and can be readily applied to studies of other types of ISs or ISs from patient tissue samples. Together, these data demonstrate that resolving the nanoscale proteomic architecture of the IS is essential for uncovering how lymphocytes recognize and sometimes fail to recognize tumor cells. By enabling precise, unbiased enrichment of IS proteins, this approach opens new avenues to identify immune-evasion mechanisms and novel therapeutic targets in cancer.

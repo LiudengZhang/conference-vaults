@@ -1,0 +1,21 @@
+# PSMA-expressing tumor vasculature in renal cell carcinoma: spatial, functional, and therapeutic implications
+
+**Poster #**: 4788
+**Session**: Angiogenesis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Ryuta Watanabe1, Keito Kagimoto1, Mami Chosei2, Tomohisa Sakaue3, Mie Kurata4, Noriyoshi Miura1, Riko Kitazawa5, Tadahiko Kikugawa1, Shigeki Higashiyama6, Takashi Saika1
+
+1Department of Urology, Ehime University Graduate School of Medicine, Toon, Japan,2Department of Biochemistry and Molecular Genetics, Ehime University Graduate School of Medicine, Toon, Japan,3Department of Cardiovascular and Thoracic Surgery, Ehime University Graduate School of Medicine, Toon, Japan,4Department of Analytical Pathology, Ehime University Graduate School of Medicine, Toon, Japan,5Division of Diagnostic Pathology, Ehime University Hospital, Toon, Japan,6Department of Oncogenesis and Growth Regulation, Osaka International Cancer Institute, Osaka, Japan
+
+---
+
+Background
+Prostate-specific membrane antigen (PSMA) is an established diagnostic and therapeutic target in prostate cancer, widely utilized in PSMA-PET imaging and PSMA-directed radioligand therapy. Beyond prostate cancer, PSMA has also been reported in the tumor-associated vasculature of several solid tumors, suggesting its potential as a vascular marker and therapeutic target. In renal cell carcinoma (RCC), PSMA-positive vessels have been described, yet their spatial distribution, mechanisms of induction, contribution to angiogenesis, and therapeutic relevance remain insufficiently defined.
+Methods
+Spatial transcriptomic analysis (10x Genomics Visium) was performed to characterize the spatial localization of FOLH1 (PSMA) expression and associated transcriptional changes within RCC tissues. Immunohistochemistry for PSMA and CD31 was conducted on 45 RCC cases to evaluate associations with recurrence and venous invasion. Endothelial cells were exposed to RCC-derived conditioned medium and differential centrifugation fractions to assess PSMA induction, angiogenic activity, and transcriptional alterations. A Caki1 xenograft model was used to investigate the therapeutic effect of the PSMA inhibitor 2-PMPA.
+Results
+Spatial analysis showed that FOLH1 expression was concentrated within peritumoral vascular regions and overlapped with areas exhibiting increased expression of angiogenesis-related genes. Immunohistochemistry confirmed that PSMA expression was restricted to tumor-associated vessels, and strong PSMA expression was significantly associated with recurrence and venous invasion. Among RCC-derived fractions, only the 10,000 g pellet robustly induced endothelial PSMA expression, enhanced tube formation, and activated angiogenesis-related transcriptional programs. In vivo, treatment with 2-PMPA significantly reduced tumor growth and microvessel density.
+Conclusions
+PSMA-positive vasculature in RCC represents an endothelial phenotype induced by tumor-derived vesicles and functionally contributes to angiogenesis. The association between strong PSMA expression and aggressive clinicopathologic features, together with the anti-angiogenic effect of PSMA inhibition, highlights PSMA-positive vessels as a promising therapeutic target in RCC. These findings provide a molecular basis for extending PSMA-targeted imaging and therapeutic strategies&#8212;well established in prostate cancer&#8212;to PSMA-positive RCC.

@@ -1,0 +1,17 @@
+# Prognostic and predictive value of the Clearseq1-4 tumor microenvironment classification in localized and metastatic clear-cell renal cell carcinoma
+
+**Poster #**: 3876
+**Session**: Molecular Classification and Tumor Biology in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Benoit Beuselinck1, Lisa Kinget2, Edward Mctaggart3, Octavie Demeulenaere3, Edouard Roussel4, Bram Boeckx5, Jessica Zucman-Rossi6, Gabrielle Couchy6, Henri Vandermeulen7, Liesbeth De Wever7, Marcella Baldewijns8, Agnieszka Wozniak9, Diether Lambrechts10, Stefan Naulaerts11, Abhishek  D.  Garg9, Annelies Verbiest12, Maarten Albersen4
+
+1UZ Leuven, Leuven, Flemish Brabant, Belgium,2General Medical oncology, UZ Leuven, Leuven, Flemish Brabant, Belgium,3Oncology, KULeuven, Leuven, Flemish Brabant, Belgium,4Urology, UZ Leuven, Leuven, Flemish Brabant, Belgium,5VIB, KULeuven, Leuven, Belgium,6INSERM, Paris, France,7Radiology, UZ Leuven, Leuven, Flemish Brabant, Belgium,8Pathology, UZ Leuven, Leuven, Flemish Brabant, Belgium,9KU Leuven, Leuven, Belgium,10Catholic University of Leuven, Leuven, Belgium,11Oncology, KULeuven, Leuven, Belgium,12UZ Antwerpen, Antwerpen, Belgium
+
+---
+
+PURPOSE: The ccrcc1-4 transcriptomic subtypes were previously identified on fresh frozen clear-cell renal cell carcinoma (ccRCC) samples and have proven their prognostic value post-nephrectomy/metastasectomy and predictive value for first-line vascular endothelial growth factor receptor-tyrosine kinase inhibitors (VEGFR-TKIs). We aimed to extend and validate the ccrcc1-4 classifier on formalin-fixed paraffin-embedded (FFPE) tissues and to validate its prognostic and predictive value across the RCC treatment landscape.
+EXPERIMENTAL DESIGN: RNA sequencing of tumoral FFPE tissue was performed. A classifier called Clearseq was designed to determine ccrcc1-4 subtypes. Subtypes were correlated with outcome after surgical and systemic therapies. External validation was pursued as well as characterization at single-cell transcriptomic level.
+RESULTS: A total of 668 tumoral samples (337 primary tumors and 331 metastases) from 364 patients were assigned into ccrcc1, ccrcc2, ccrcc3 and ccrcc4-tumors. The angiogenic ccrcc2-subtype had a favorable prognosis after nephrectomy in localized setting, after cytoreductive nephrectomy and upon metastasectomy with curative intent and was correlated with improved outcome on first-line VEGFR-TKIs. Ccrcc4-tumors were enriched for sarcomatoid features and had the largest treatment benefit on immune checkpoint blockade (ICB) treatment in any line, resulting in overall survival outcomes comparable to those of less aggressive subtypes. These findings were corroborated in a post-nephrectomy cohort, and external cohorts of metastatic patients treated with ICB and/or angiogenesis inhibitors.
+CONCLUSIONS: We validated the Clearseq classifier to predict ccrcc1-4 molecular subtype on FFPE tissues and confirmed its performance with respect to previous biomarker findings for both surgical and systemic treatment approaches.

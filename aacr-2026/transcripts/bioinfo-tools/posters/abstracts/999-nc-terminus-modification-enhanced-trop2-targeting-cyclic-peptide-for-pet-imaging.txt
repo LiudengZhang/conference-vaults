@@ -1,0 +1,12 @@
+# N/C-terminus modification: enhanced TROP2-targeting cyclic peptide for PET imaging
+
+**Poster #**: 999
+**Session**: Computational, Technological, and Mechanistic Advances
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: JONGMIN AN1, Nisi Zhang2, Marian Awadalla1, SPENCER TUMBALE3, Marina Raie3, Basit Jan3, Katherine W. Ferrara41Stanford University School of Medicine, Stanford, CA,2Stanford University School of Medicine, Palo Alto, CA,3Stanford University School of Medicine, Stanford, Palo Alto, CA,4Stanford University, Palo Alto, CA
+
+---
+
+Trophoblast cell surface antigen 2 (TROP2) has emerged as a compelling target in cancer therapy because it is highly overexpressed in many epithelial-derived malignancies while showing relatively low expression in normal tissues. To exploit this target, several modalities have been developed, including small molecules (e.g., Bruceine D) and antibody-based therapeutics (e.g., Sacituzumab govitecan). Despite these advances, challenges related to cost, specificity, and selectivity remain. In this flow, cyclic peptides have gained attention as attractive alternatives to conventional approaches due to their reduced conformational entropy and favorable biocompatibility.In this study, we report a chemically modified cyclic peptide designed for the visualization of TROP2 overexpression in cancer via PET/CT imaging. The peptide was modified at the N/C-terminus to promote π-π or cation-π interactions, thereby enhancing key biological properties such as binding affinity and stability. Each cyclic peptide was synthesized through Fmoc-based solid-phase peptide synthesis using HBTU/collidine-mediated amide coupling, and the final products were validated by mass spectrometry. The impact of the chemical modifications was assessed using circular dichroism (CD) spectroscopy, bio-layer interferometry (BLI), LogP analysis, and serum/glutathione stability assays. Radiolabeling with 68Ga and 64Cu demonstrated the preclinical capacity of this cyclic peptide. This strategy provides a versatile framework for the rational modification of cyclic peptides and supports the development of clinically relevant theragnostic agents.

@@ -1,0 +1,2931 @@
+WEBVTT
+
+NOTE AT02 Marinka Zitnik — Empowering Cancer Research with AI Scientists (+closing)
+
+1
+00:49:00.000 --> 00:49:01.294
+And so, I'm very delighted to present the
+
+2
+00:49:02.534 --> 00:49:03.774
+final talk in this session.
+
+3
+00:49:04.954 --> 00:49:08.474
+So I will speak about empowering cancer research with
+
+4
+00:49:08.794 --> 00:49:12.774
+AI scientists, and will highlight several projects throughout
+
+5
+00:49:12.794 --> 00:49:16.374
+this presentation that are all fully open science
+
+6
+00:49:16.454 --> 00:49:20.194
+academic research, and linked from our lab website with a number of tutorials and
+
+7
+00:49:20.254 --> 00:49:24.134
+examples of usage.So our overall vision is
+
+8
+00:49:24.174 --> 00:49:27.734
+to move science from human-only science to human-AI
+
+9
+00:49:27.774 --> 00:49:31.674
+co-science. And as many in this session and
+
+10
+00:49:31.754 --> 00:49:35.304
+in this conference, we're thinking about agents or AI
+
+11
+00:49:35.414 --> 00:49:38.914
+scientists or AI co-scientists as conversational AI
+
+12
+00:49:38.974 --> 00:49:42.774
+systems that can work collaboratively alongside cancer
+
+13
+00:49:42.794 --> 00:49:46.493
+researchers to help generate refined hypothesis, analyze
+
+14
+00:49:46.534 --> 00:49:48.594
+biological data, and design experiments.
+
+15
+00:49:49.394 --> 00:49:52.974
+Now, in order to take a regular chatbot, a large
+
+16
+00:49:53.014 --> 00:49:56.894
+language model, a reasoning model, and lift it up to
+
+17
+00:49:56.934 --> 00:50:00.714
+become an AI co-scientist or AI scientist, what do we need?
+
+18
+00:50:01.494 --> 00:50:04.354
+So then fundamentally, we need to think about two questions.
+
+19
+00:50:04.394 --> 00:50:08.014
+The first one is that of an AI co-scientist need to be
+
+20
+00:50:08.114 --> 00:50:12.074
+able to use the kind of tools cancer researchers already use in their
+
+21
+00:50:12.094 --> 00:50:15.774
+everyday work, meaning they should be able to query research data,
+
+22
+00:50:15.954 --> 00:50:19.134
+clinical data, scientific literature, execute,
+
+23
+00:50:19.354 --> 00:50:23.014
+perform, and compose new computational biology workflows,
+
+24
+00:50:23.323 --> 00:50:25.974
+query machine learning models, and so on.
+
+25
+00:50:26.074 --> 00:50:29.934
+Second, they need to work collaboratively with human researchers,
+
+26
+00:50:30.094 --> 00:50:33.334
+meaning that we need to think about appropriate human AI collaboration
+
+27
+00:50:33.474 --> 00:50:34.114
+strategies
+
+28
+00:50:35.054 --> 00:50:38.654
+that allow human researchers to steer, guide,
+
+29
+00:50:38.774 --> 00:50:42.714
+control, provide oversight, as well as feedback to
+
+30
+00:50:42.774 --> 00:50:44.574
+the analysis these agents perform.
+
+31
+00:50:45.074 --> 00:50:48.454
+And ultimately, that feedback might also come from broader
+
+32
+00:50:48.514 --> 00:50:52.434
+environment, such as experimental and platforms or clinical
+
+33
+00:50:52.514 --> 00:50:53.234
+research tools.
+
+34
+00:50:54.514 --> 00:50:58.154
+As we know that a rising tide lift all
+
+35
+00:50:58.194 --> 00:51:01.494
+boats, the question that we're asking in my group is
+
+36
+00:51:02.034 --> 00:51:05.774
+what can we do to help all biomedical AI agents
+
+37
+00:51:06.074 --> 00:51:09.854
+and lift them up to go from agents to actual co-scientists?
+
+38
+00:51:10.994 --> 00:51:13.654
+So we have developed a Tool Universe.
+
+39
+00:51:13.914 --> 00:51:17.754
+Tool Universe is an integrated harness or scientific
+
+40
+00:51:18.114 --> 00:51:22.034
+environment of 2,000 scientific tools
+
+41
+00:51:22.734 --> 00:51:25.994
+that is available at aiscientists.tools, and it'll allow
+
+42
+00:51:26.114 --> 00:51:29.814
+anyone to build a co-scientist from their favorite model
+
+43
+00:51:31.134 --> 00:51:33.154
+agent reasoning model.
+
+44
+00:51:33.994 --> 00:51:37.624
+How does this work? There are really just two big steps that you need to
+
+45
+00:51:38.414 --> 00:51:42.034
+implement. One is a user select a large language
+
+46
+00:51:42.094 --> 00:51:45.914
+model of their choice. We're doing that in a fully transparent manner,
+
+47
+00:51:46.414 --> 00:51:50.114
+meaning that a large language model can be a close to us form
+
+48
+00:51:50.494 --> 00:51:54.354
+frontier LLM. It can be a reasoning model, or it can be an
+
+49
+00:51:54.474 --> 00:51:58.294
+open weight large language model that in your settings believe
+
+50
+00:51:58.374 --> 00:52:00.684
+might work the best for your use cases.
+
+51
+00:52:01.494 --> 00:52:05.223
+Second, Tool Universe specifies an AI tool interaction
+
+52
+00:52:05.334 --> 00:52:09.314
+protocols, novel ways for AIs to communicate with each
+
+53
+00:52:09.414 --> 00:52:09.734
+other
+
+54
+00:52:10.834 --> 00:52:14.554
+in order to connect that LLM to a 2,000
+
+55
+00:52:14.614 --> 00:52:18.574
+scientific tools that allow an LLM to now query experimental
+
+56
+00:52:18.654 --> 00:52:21.734
+data, computational models, and scientific tools.
+
+57
+00:52:22.334 --> 00:52:26.134
+And that makes AI co-scientists ready for your use.
+
+58
+00:52:27.454 --> 00:52:31.234
+We have seen from November 25 until February
+
+59
+00:52:31.374 --> 00:52:35.194
+26, Tool Universe being used for over 200,000 analysis
+
+60
+00:52:35.274 --> 00:52:39.254
+by users across 113 countries, 60 installations just
+
+61
+00:52:39.314 --> 00:52:43.094
+in the last month alone. It has been selected as an official connector by
+
+62
+00:52:43.104 --> 00:52:46.674
+Anthropic, so those who might be using Claude models to do various
+
+63
+00:52:46.734 --> 00:52:50.574
+scientific work, you're likely already using Tool Universe without being aware of
+
+64
+00:52:50.614 --> 00:52:54.474
+it. And there are many, many other open science biomedical agents that are
+
+65
+00:52:54.514 --> 00:52:55.954
+powered by Tool Universe.
+
+66
+00:52:56.874 --> 00:53:00.434
+This allows now you to also build your own agent by
+
+67
+00:53:00.514 --> 00:53:04.494
+specifying a set or a subset of those 2,000 tools that are
+
+68
+00:53:04.614 --> 00:53:08.234
+relevant for your research, spanning from molecular, to cellular, to
+
+69
+00:53:08.274 --> 00:53:08.754
+clinical
+
+70
+00:53:10.714 --> 00:53:14.214
+domains, and build AI agents and scientists for your
+
+71
+00:53:14.674 --> 00:53:15.414
+applications.
+
+72
+00:53:16.774 --> 00:53:20.434
+What I want to do in the rest of my presentation is highlight a few
+
+73
+00:53:20.514 --> 00:53:24.384
+agents that are powered by Tool Universe and show how
+
+74
+00:53:24.414 --> 00:53:27.494
+we can use them to empower biomedical discovery.
+
+75
+00:53:28.394 --> 00:53:30.374
+So here is an example of such an agent.
+
+76
+00:53:30.414 --> 00:53:34.354
+We call it Medea, and Medea is an AI agent that takes as input
+
+77
+00:53:34.394 --> 00:53:37.874
+an omics-based objective for a task that it has to
+
+78
+00:53:37.954 --> 00:53:41.133
+complete that's specified in natural language prompt.
+
+79
+00:53:41.174 --> 00:53:45.084
+It might be a task that human researcher would describe to an agent that
+
+80
+00:53:45.134 --> 00:53:46.044
+it has to complete.
+
+81
+00:53:46.954 --> 00:53:50.334
+Researcher might also provide broad experimental instruction
+
+82
+00:53:50.374 --> 00:53:53.454
+that an agent has to do. And then what this
+
+83
+00:53:54.054 --> 00:53:57.714
+co-scientist powered by Tool Universe will do, it will create a
+
+84
+00:53:57.754 --> 00:54:01.414
+research plan with a step-by-step analysis of what
+
+85
+00:54:01.614 --> 00:54:04.594
+datasets it will query and how it will analyze them.
+
+86
+00:54:05.094 --> 00:54:08.974
+It will defer to human researcher to get a thumbs up approval or
+
+87
+00:54:09.034 --> 00:54:11.534
+iterate with human researcher on the research plan.
+
+88
+00:54:12.194 --> 00:54:14.054
+When the research plan is confirmed, it will
+
+89
+00:54:15.374 --> 00:54:18.814
+be passed to an analysis module that will write the code,
+
+90
+00:54:18.994 --> 00:54:22.254
+debug, and execute it to complete that research analysis.
+
+91
+00:54:22.854 --> 00:54:25.114
+What will happen in parallel is that agent will
+
+92
+00:54:26.754 --> 00:54:30.284
+also consolidate scientific literature in order to collect
+
+93
+00:54:30.454 --> 00:54:33.754
+evidence from the scientific literature relevant for the objective to be
+
+94
+00:54:33.794 --> 00:54:37.174
+completed. And so the outputs of these two parallel
+
+95
+00:54:37.294 --> 00:54:40.774
+tracks, analysis of primary research data together with
+
+96
+00:54:40.814 --> 00:54:44.734
+analysis of published scientific literature, will all then
+
+97
+00:54:44.794 --> 00:54:48.474
+be passed into a broader overall roundtable discussion module
+
+98
+00:54:48.894 --> 00:54:52.754
+with the goal to, A, consolidate the evidence from different
+
+99
+00:54:52.834 --> 00:54:53.814
+resources, B,
+
+100
+00:54:54.894 --> 00:54:58.714
+model and understand the fact that sometimes the evidence might be conflicting,
+
+101
+00:54:58.874 --> 00:55:02.714
+inconsistent, or not aligned with each other, and then produce the
+
+102
+00:55:02.754 --> 00:55:06.344
+final output to human experts in a contextually relevant manner,
+
+103
+00:55:06.874 --> 00:55:10.774
+even potentially being able to say, "I don't know," which those who develop AI
+
+104
+00:55:10.784 --> 00:55:14.154
+models might appreciate. It's actually very hard to technically achieve
+
+105
+00:55:14.614 --> 00:55:17.534
+these models to say, "I don't know," because they would always like to make a
+
+106
+00:55:17.594 --> 00:55:19.826
+prediction.And so
+
+107
+00:55:19.846 --> 00:55:23.256
+this MedEA agent can take now a
+
+108
+00:55:23.306 --> 00:55:27.056
+variety of open-ended omics-based objectives, and it will
+
+109
+00:55:27.086 --> 00:55:30.646
+perform analysis of data in order to generate
+
+110
+00:55:30.746 --> 00:55:34.086
+useful insights. What can those insights
+
+111
+00:55:34.106 --> 00:55:37.766
+be? So here is an example of those where we challenged
+
+112
+00:55:37.806 --> 00:55:39.846
+MedEA to analyze
+
+113
+00:55:40.666 --> 00:55:44.526
+two more microenvironment profiles from patients that were
+
+114
+00:55:44.566 --> 00:55:46.496
+considered to put on an immunotherapy.
+
+115
+00:55:46.656 --> 00:55:50.606
+And specifically, the user task for a given patient looked
+
+116
+00:55:50.616 --> 00:55:54.226
+like the one shown on the right part of the slide, where there was a tumor
+
+117
+00:55:54.266 --> 00:55:58.246
+microenvironment profile provided to the MedEA agent
+
+118
+00:55:58.286 --> 00:56:02.246
+in the form of an actual file that contains the RNA
+
+119
+00:56:02.286 --> 00:56:05.806
+expression level readouts, together with some of the clinical
+
+120
+00:56:05.826 --> 00:56:09.016
+information about that patient, such as information about
+
+121
+00:56:09.946 --> 00:56:10.706
+cancer type,
+
+122
+00:56:11.846 --> 00:56:15.286
+background demographic information, tumor mutational burden, and so on.
+
+123
+00:56:15.726 --> 00:56:18.796
+And so the big question was, is it possible to analyze this
+
+124
+00:56:20.886 --> 00:56:24.606
+TME profile of a patient jointly with understanding
+
+125
+00:56:24.686 --> 00:56:28.466
+of predictions made by established biomarkers based on
+
+126
+00:56:28.506 --> 00:56:32.266
+this clinical and demographic data to estimate whether a patient would
+
+127
+00:56:32.286 --> 00:56:34.906
+likely respond to this specific therapy?
+
+128
+00:56:35.506 --> 00:56:39.165
+And so what we can see here on the right, this MedEA box that I'm showing on the
+
+129
+00:56:39.206 --> 00:56:42.646
+right part of the slide is the kind of output of MedEA agent.
+
+130
+00:56:42.686 --> 00:56:46.116
+It will actually query a number of different machine learning models,
+
+131
+00:56:46.206 --> 00:56:49.786
+computational databases such as human base, literature
+
+132
+00:56:49.846 --> 00:56:53.456
+search agents. Here, it decided to query Semantic
+
+133
+00:56:53.606 --> 00:56:57.446
+Scholar, OpenAlex agent. It would consolidate
+
+134
+00:56:57.506 --> 00:57:01.066
+inquiry model that can analyze tumor microenvironment
+
+135
+00:57:01.146 --> 00:57:04.586
+profile to ultimately make a prediction for this patient.
+
+136
+00:57:05.016 --> 00:57:08.926
+And what you can see in the bottom of the right slide is performance
+
+137
+00:57:09.006 --> 00:57:12.606
+of this agent shown as two bars in
+
+138
+00:57:12.706 --> 00:57:13.026
+blue,
+
+139
+00:57:14.266 --> 00:57:18.086
+relative to other models, specifically chatbots that would
+
+140
+00:57:18.106 --> 00:57:20.846
+be just prompted to solve a specific problem.
+
+141
+00:57:21.176 --> 00:57:24.966
+And we can see clear lift in performance in these models, in these agents
+
+142
+00:57:25.046 --> 00:57:28.926
+being able to identify and accurately predict those
+
+143
+00:57:28.986 --> 00:57:32.806
+who might respond from considering only pretreatment
+
+144
+00:57:32.846 --> 00:57:36.486
+data. And the accuracy here is particularly impressive given the
+
+145
+00:57:36.546 --> 00:57:36.966
+relative
+
+146
+00:57:37.786 --> 00:57:40.766
+high imbalance data set that these clinical
+
+147
+00:57:41.486 --> 00:57:45.346
+cohorts come from. Importantly, the reason why you see two bars here is
+
+148
+00:57:45.366 --> 00:57:49.186
+because this agent can be powered by any large language model or reasoning model
+
+149
+00:57:49.266 --> 00:57:52.826
+of your choice. That's the flexibility of easily swapping the
+
+150
+00:57:52.906 --> 00:57:54.366
+backbone and going from there.
+
+151
+00:57:56.386 --> 00:58:00.286
+So not only these agents can make predictions, but
+
+152
+00:58:00.366 --> 00:58:04.146
+leveraging variety of tools that exist within their toolbox, they
+
+153
+00:58:04.206 --> 00:58:07.746
+can query the data to
+
+154
+00:58:07.846 --> 00:58:11.326
+analyze, in this case, patients' tumor microenvironment more
+
+155
+00:58:11.946 --> 00:58:15.806
+deeply and specifically generate interpretable maps such as those
+
+156
+00:58:16.026 --> 00:58:19.346
+two maps that are shown on this slide that shows
+
+157
+00:58:19.706 --> 00:58:23.506
+how the agent has created an internal
+
+158
+00:58:23.606 --> 00:58:27.006
+representation that go from the raw expression levels of
+
+159
+00:58:27.066 --> 00:58:28.806
+individual genes in the TME
+
+160
+00:58:29.946 --> 00:58:33.246
+and map that through internal gene scores, gene
+
+161
+00:58:33.386 --> 00:58:37.326
+pathways, and then broader immunological signatures on which it
+
+162
+00:58:37.366 --> 00:58:41.326
+then relied on to making a specific prediction about that patient being
+
+163
+00:58:41.406 --> 00:58:45.206
+responder or non-responder. And all that was possible because
+
+164
+00:58:45.226 --> 00:58:49.146
+this AI scientist is not only querying what exists in parametric
+
+165
+00:58:49.186 --> 00:58:52.826
+memory of an LLM, but instead uses a very broad toolbox.
+
+166
+00:58:53.226 --> 00:58:56.816
+Here are just some of the tools that this agent is using, and one of the tools that
+
+167
+00:58:56.926 --> 00:59:00.646
+I want to briefly highlight here is this COMPASS model, which is a machine
+
+168
+00:59:00.706 --> 00:59:04.066
+learning model, foundation model specifically for analyzing
+
+169
+00:59:04.126 --> 00:59:08.026
+TMEs that is in Tool Universe. And so I
+
+170
+00:59:08.066 --> 00:59:11.906
+want to just walk you through what it entails developing the model and then vetting
+
+171
+00:59:12.046 --> 00:59:15.866
+such a model that becomes a tool in Tool Universe that others can then
+
+172
+00:59:15.946 --> 00:59:16.146
+use.
+
+173
+00:59:17.146 --> 00:59:20.566
+So COMPASS specifically is a transformer-based
+
+174
+00:59:21.166 --> 00:59:25.066
+model. Specifically, it's a concept bottleneck transformer, which is
+
+175
+00:59:25.106 --> 00:59:28.986
+a type of transformer architecture with certain specific properties that make
+
+176
+00:59:29.046 --> 00:59:30.106
+it appealing for
+
+177
+00:59:31.226 --> 00:59:34.746
+performing well in settings where the amount of label data is very
+
+178
+00:59:34.786 --> 00:59:38.686
+minimal. And so we do pre-train COMPASS on a
+
+179
+00:59:38.726 --> 00:59:42.466
+large through self-supervised learning on a pan-cancer dataset for
+
+180
+00:59:42.546 --> 00:59:43.306
+patients that were
+
+181
+00:59:44.346 --> 00:59:47.806
+treated with variety of cancer therapies, followed by
+
+182
+00:59:48.246 --> 00:59:51.986
+fine-tuning that pre-trained model on a small
+
+183
+00:59:52.026 --> 00:59:55.736
+patient datasets for specific cancer types,
+
+184
+00:59:55.846 --> 00:59:59.696
+indications, and immunotherapies, with the goal of then this model being
+
+185
+00:59:59.766 --> 01:00:03.316
+able to predict treatment outcomes to help with a
+
+186
+01:00:05.026 --> 01:00:08.986
+variety of analysis that agents using this model can do.
+
+187
+01:00:09.046 --> 01:00:12.766
+So it's been pre-trained on 10,000 tumors across 33 cancer types.
+
+188
+01:00:13.386 --> 01:00:17.106
+The concept bottleneck transformers can ground this foundation
+
+189
+01:00:17.186 --> 01:00:21.026
+model in prior knowledge from immunology through 120
+
+190
+01:00:21.046 --> 01:00:24.406
+immunological concepts. And then to vet COMPASS model
+
+191
+01:00:24.526 --> 01:00:28.006
+before it becomes a tool in Tool Universe, we
+
+192
+01:00:28.266 --> 01:00:31.666
+validate it across 16 clinical cohorts with treatment-naive time
+
+193
+01:00:31.706 --> 01:00:33.966
+transcriptomes and downstream treatment response
+
+194
+01:00:34.866 --> 01:00:38.426
+results. And so what we can see here on this analysis, this
+
+195
+01:00:38.446 --> 01:00:42.406
+show so-called leave one cohort out type of experiment where
+
+196
+01:00:42.566 --> 01:00:46.506
+COMPASS sees the data from 15 cohorts, and then it has to
+
+197
+01:00:46.726 --> 01:00:50.686
+make predictions about patients in the left out 16 cohort that
+
+198
+01:00:50.726 --> 01:00:52.606
+has never been encountered before.
+
+199
+01:00:52.626 --> 01:00:56.586
+And we can repeat that for each and every cohort to really see how well this
+
+200
+01:00:57.366 --> 01:01:00.866
+model can generalize from one cohort to the other, which is
+
+201
+01:01:00.926 --> 01:01:04.706
+important to ensure in order for this model to be
+
+202
+01:01:04.786 --> 01:01:08.706
+added as a tool to agents, which we can assume will be applied
+
+203
+01:01:08.746 --> 01:01:12.546
+to variety of cohort types. And relative to 22 other
+
+204
+01:01:12.986 --> 01:01:16.946
+standard immuno biomarkers of treatment response as well as
+
+205
+01:01:17.026 --> 01:01:20.514
+ML models, it performs very favorably.It can also
+
+206
+01:01:20.554 --> 01:01:23.754
+generalize across cancer indications or specific
+
+207
+01:01:23.774 --> 01:01:27.574
+cancer subtypes when it is presented
+
+208
+01:01:27.674 --> 01:01:31.544
+with patients with those cancer diagnoses that were never encountered
+
+209
+01:01:32.434 --> 01:01:34.114
+in the training and development time.
+
+210
+01:01:34.474 --> 01:01:38.094
+And it can compare favorably against TMB PD-L1
+
+211
+01:01:38.114 --> 01:01:39.704
+immune phenotypes being used
+
+212
+01:01:40.674 --> 01:01:44.434
+as a way to cluster patients into subtypes in informing survival
+
+213
+01:01:44.614 --> 01:01:48.034
+certification. So this is just one tool and how it's
+
+214
+01:01:48.054 --> 01:01:51.653
+developed, vetted before it's added to Tool Universe.
+
+215
+01:01:51.693 --> 01:01:55.294
+And there are 12,000 of those tools in Tool Universe that would
+
+216
+01:01:55.314 --> 01:01:59.284
+broadly cover probably almost all aspects of biology that
+
+217
+01:01:59.314 --> 01:02:02.794
+you can think of. How do we evaluate these type of
+
+218
+01:02:04.254 --> 01:02:08.014
+models in a prospective manner? So we have made this
+
+219
+01:02:08.054 --> 01:02:11.534
+agent available to our collaborators across 29
+
+220
+01:02:11.574 --> 01:02:15.434
+organizations throughout United States that are part
+
+221
+01:02:15.474 --> 01:02:18.714
+of Chan Zuckerberg Initiative's Rare ASONE network.
+
+222
+01:02:18.794 --> 01:02:21.794
+And we ask disease experts from those
+
+223
+01:02:22.074 --> 01:02:25.874
+institutions to ask a number of questions
+
+224
+01:02:25.914 --> 01:02:29.134
+and pose objectives to these agents.
+
+225
+01:02:29.174 --> 01:02:29.554
+And then
+
+226
+01:02:30.434 --> 01:02:33.884
+these type of questions or objectives were passed to the agent to solve,
+
+227
+01:02:34.474 --> 01:02:36.444
+and the agent produced the final response.
+
+228
+01:02:36.574 --> 01:02:40.354
+Might be response number A, and another competing model
+
+229
+01:02:40.374 --> 01:02:44.234
+produced also response number B. And these disease experts have seen
+
+230
+01:02:44.294 --> 01:02:48.274
+the two responses from the two competing models and were asked to
+
+231
+01:02:48.294 --> 01:02:50.674
+score and evaluate them. Which one is better?
+
+232
+01:02:50.874 --> 01:02:54.394
+How do the two compare? And they didn't really know which one
+
+233
+01:02:54.874 --> 01:02:58.534
+is the agent that we just discussed and which one is just a competing model.
+
+234
+01:02:58.594 --> 01:03:02.054
+So this was a blinded experiment. And so what we have found is
+
+235
+01:03:02.114 --> 01:03:06.054
+that when we look at AI scientists in green dots relative to
+
+236
+01:03:06.394 --> 01:03:09.394
+a reference model in gray dots across eight
+
+237
+01:03:09.674 --> 01:03:11.934
+evaluations measures including cognitive
+
+238
+01:03:11.974 --> 01:03:15.874
+traceability, clinical relevance, accuracy of content,
+
+239
+01:03:15.954 --> 01:03:19.814
+completeness and alignment, and task success, performance of
+
+240
+01:03:20.114 --> 01:03:23.934
+this green model, in this case, our AI scientist was scored
+
+241
+01:03:24.054 --> 01:03:27.834
+much favorably over a reference model, which would be a state-of-the-art
+
+242
+01:03:27.974 --> 01:03:30.014
+LLM without having the ability to use tools.
+
+243
+01:03:30.814 --> 01:03:34.494
+Just final note about how we can go from retrospective to then
+
+244
+01:03:34.534 --> 01:03:38.414
+increasingly more important real-world evaluations with human-in-the-loop and
+
+245
+01:03:38.454 --> 01:03:40.074
+then to prospective evaluations.
+
+246
+01:03:40.794 --> 01:03:43.984
+We connected this agent with a system of
+
+247
+01:03:44.234 --> 01:03:47.954
+5.4 million electronic health records and ask it to
+
+248
+01:03:47.994 --> 01:03:51.443
+generate potential novel hypothesis about whether
+
+249
+01:03:51.514 --> 01:03:55.314
+specific patient populations might be a higher or lower risk for
+
+250
+01:03:55.374 --> 01:03:59.314
+adverse events or outcomes in the cases when they are on very complex
+
+251
+01:03:59.414 --> 01:04:03.054
+patient treatment regimens. And so here the AI scientists
+
+252
+01:04:03.094 --> 01:04:06.794
+generate those predictions, and we apply the novelty filter to
+
+253
+01:04:06.814 --> 01:04:10.734
+filter out those predictions that correspond to what is already known about
+
+254
+01:04:10.774 --> 01:04:14.344
+the efficacy and safety of these drugs based on drug labels or
+
+255
+01:04:14.434 --> 01:04:15.484
+clinical guidelines.
+
+256
+01:04:16.494 --> 01:04:20.414
+So what we can do then next is when we can generate bank of those
+
+257
+01:04:20.454 --> 01:04:24.294
+hypothesis, of which we then have another auxiliary arm to the
+
+258
+01:04:24.354 --> 01:04:28.194
+agent that sample hypothesis from that bank
+
+259
+01:04:28.694 --> 01:04:32.634
+and then emulate clinical trials using real world evidence data
+
+260
+01:04:32.674 --> 01:04:36.634
+from 5.4 million EHR records. So here the agent
+
+261
+01:04:36.654 --> 01:04:40.294
+predicted that individuals with diabetes, with ischemic heart disease as the
+
+262
+01:04:40.354 --> 01:04:44.174
+comorbidity who might be taking DPP-4 inhibitors might be high in risk
+
+263
+01:04:44.214 --> 01:04:48.054
+of hepatocell carcinoma. And then we perform a variety of real
+
+264
+01:04:48.134 --> 01:04:51.954
+world analysis with causal inference adjustments to see whether
+
+265
+01:04:51.974 --> 01:04:55.854
+this is a phenotype that is seen often in real
+
+266
+01:04:55.914 --> 01:04:58.314
+world populations and could not be explained otherwise.
+
+267
+01:04:58.914 --> 01:05:02.734
+Here's another example around decreased risk for squamous cell carcinoma that could
+
+268
+01:05:02.814 --> 01:05:06.754
+not be explained by any of the adjusted confounders
+
+269
+01:05:07.274 --> 01:05:10.834
+for patient populations that would be defined by only
+
+270
+01:05:10.894 --> 01:05:14.784
+subsets of individuals who might have a primary disease or comorbidity,
+
+271
+01:05:15.154 --> 01:05:18.974
+medication, et cetera. And we can test and validate that
+
+272
+01:05:19.014 --> 01:05:21.974
+against a set of negative controls and positive controls.
+
+273
+01:05:23.014 --> 01:05:26.914
+So with that, I'll stop here and make a final note on thinking
+
+274
+01:05:26.934 --> 01:05:30.704
+of the future as we see it, where agentic collaboration does
+
+275
+01:05:30.794 --> 01:05:34.274
+not only happen for individual tasks or objective to be
+
+276
+01:05:34.314 --> 01:05:37.973
+completed, but really where agents can collaborate over a very extended
+
+277
+01:05:38.034 --> 01:05:39.074
+period of time.
+
+278
+01:05:39.934 --> 01:05:43.274
+We know that science is iterative, where ideas can improve through exchange,
+
+279
+01:05:43.354 --> 01:05:44.954
+through criticism and refinement.
+
+280
+01:05:45.314 --> 01:05:48.094
+That has led to tremendous progress in human
+
+281
+01:05:49.254 --> 01:05:52.874
+science, so we believe that similar can be achieved in human AI coscience as
+
+282
+01:05:52.994 --> 01:05:56.634
+well. And so if you're interested in learning more about this, I very much
+
+283
+01:05:56.674 --> 01:05:59.794
+encourage you to check out our Open Scientist
+
+284
+01:06:00.434 --> 01:06:04.074
+AI initiative. That is an open science community where we are
+
+285
+01:06:04.154 --> 01:06:07.974
+running AI agents continually to solve big problems
+
+286
+01:06:07.994 --> 01:06:11.694
+through iterative multi-round experimental lab-in-the-loop campaigns.
+
+287
+01:06:12.654 --> 01:06:16.493
+And I'd be happy to chat more and take more questions about that.
+
+288
+01:06:17.474 --> 01:06:20.954
+So with that, I'll end my presentation here.
+
+289
+01:06:21.114 --> 01:06:24.974
+There is a final part of this R session, which is that
+
+290
+01:06:25.094 --> 01:06:27.894
+of broader general discussions
+
+291
+01:06:28.714 --> 01:06:30.034
+with questions and answers.
+
+292
+01:06:31.034 --> 01:06:31.254
+So
+
+293
+01:06:32.134 --> 01:06:36.054
+I'll invite my two co-speakers for this session to come back, and
+
+294
+01:06:36.114 --> 01:06:38.514
+we'll take questions from the audience.
+
+295
+01:06:49.454 --> 01:06:52.154
+Okay, great. Let's start there.
+
+296
+01:06:52.654 --> 01:06:56.054
+Hi. Yeah, thank you for the interesting
+
+297
+01:06:56.314 --> 01:07:00.054
+talks. I'm Alicia with Merck. And I was just
+
+298
+01:07:00.094 --> 01:07:04.034
+wondering, so I think the part of establishing trust in what an
+
+299
+01:07:04.094 --> 01:07:07.574
+AI agent tells you is proper and thorough benchmarking,
+
+300
+01:07:07.754 --> 01:07:08.574
+right? And
+
+301
+01:07:09.474 --> 01:07:13.434
+for benchmarking, you need also kind of well-defined
+
+302
+01:07:13.474 --> 01:07:16.664
+ground truths, which I guess for fields like digital pathology,
+
+303
+01:07:16.754 --> 01:07:20.324
+arguably, you do have more information of, let's say, better
+
+304
+01:07:20.354 --> 01:07:23.488
+annotated-... digital images and things like that.
+
+305
+01:07:23.598 --> 01:07:27.458
+But for problems like recommending what kind of treatments for certain
+
+306
+01:07:27.498 --> 01:07:31.118
+patients, we may not have thorough
+
+307
+01:07:31.178 --> 01:07:34.988
+information in it, right? So I was kind of wondering, is there a structured and
+
+308
+01:07:35.018 --> 01:07:38.888
+systematic way for benchmarking the reasoning capability of AI agents at
+
+309
+01:07:38.938 --> 01:07:41.058
+this point? And related to that,
+
+310
+01:07:42.258 --> 01:07:46.218
+are there caveats to how we should interpret and interact with these
+
+311
+01:07:46.258 --> 01:07:47.978
+AI agents in different applications?
+
+312
+01:07:51.438 --> 01:07:52.558
+Happy to start. So,
+
+313
+01:07:53.498 --> 01:07:57.198
+it's such an important question. There are a number of computational
+
+314
+01:07:57.278 --> 01:08:00.238
+academic benchmarks that have been developed over the last
+
+315
+01:08:00.998 --> 01:08:04.978
+several years. One common strategy for benchmarking these type of agents
+
+316
+01:08:05.098 --> 01:08:08.318
+is with so-called arena style evaluations,
+
+317
+01:08:08.818 --> 01:08:12.758
+where there is a notion of an arena in
+
+318
+01:08:12.798 --> 01:08:16.458
+which there are a handful of agents competing with each
+
+319
+01:08:16.538 --> 01:08:16.798
+other,
+
+320
+01:08:17.779 --> 01:08:21.758
+and then producing, solving task, generating outputs, and then
+
+321
+01:08:21.838 --> 01:08:25.607
+human experts evaluate them, and the identity of
+
+322
+01:08:25.638 --> 01:08:28.768
+those agents who generated the outputs is blinded.
+
+323
+01:08:29.279 --> 01:08:32.838
+And so that allows for effectively human in the loop type of
+
+324
+01:08:32.898 --> 01:08:36.818
+evaluations by comparing the outputs from different agents to each
+
+325
+01:08:36.918 --> 01:08:37.159
+other.
+
+326
+01:08:38.438 --> 01:08:42.239
+This arena style evaluation was, for example, the evaluation that
+
+327
+01:08:42.318 --> 01:08:46.119
+I just showed in this past presentation.
+
+328
+01:08:46.718 --> 01:08:50.558
+I think there is beyond that also an opportunity to not only evaluate agents in
+
+329
+01:08:50.598 --> 01:08:54.398
+retrospective manner, but also prospectively with
+
+330
+01:08:54.478 --> 01:08:58.378
+lab-in-the-loop type of approach or active learning strategies, where
+
+331
+01:08:58.418 --> 01:09:02.239
+the agent generate hypothesis and then they are evaluated on
+
+332
+01:09:02.279 --> 01:09:05.898
+data sets that were left out from model training or they're
+
+333
+01:09:05.958 --> 01:09:09.838
+generated by new data being generated experimentally in a
+
+334
+01:09:09.878 --> 01:09:13.838
+wet lab or in clinical research. So the emulation clinical trials that
+
+335
+01:09:13.898 --> 01:09:17.659
+I showed is an example of such, where evaluation data in
+
+336
+01:09:17.699 --> 01:09:21.418
+particularly HR system and was
+
+337
+01:09:21.458 --> 01:09:25.338
+institutionally guarded, so we can guarantee that none of that information
+
+338
+01:09:25.418 --> 01:09:28.898
+was leaked into the training or development of the
+
+339
+01:09:28.958 --> 01:09:32.279
+underlying large language models that are powering these agents.
+
+340
+01:09:32.739 --> 01:09:36.369
+But certainly evaluation using publicly available data set is particularly
+
+341
+01:09:36.398 --> 01:09:40.088
+challenging, because largely the backbone large language models powering
+
+342
+01:09:40.138 --> 01:09:43.858
+agents might have encountered and seen everything that's accessible over the
+
+343
+01:09:43.898 --> 01:09:44.458
+internet.
+
+344
+01:09:46.239 --> 01:09:49.598
+Yeah, I can only second that. We are also actively working on
+
+345
+01:09:49.758 --> 01:09:53.058
+benchmarking these models and developing new benchmark
+
+346
+01:09:54.818 --> 01:09:57.578
+data sets, particularly designed for pathology.
+
+347
+01:09:57.998 --> 01:09:58.358
+We have
+
+348
+01:09:59.858 --> 01:10:03.078
+currently in the process of putting something together, which is called Pathology's
+
+349
+01:10:03.158 --> 01:10:06.758
+Last Exam, that is really looking at really, really
+
+350
+01:10:06.778 --> 01:10:07.498
+difficult
+
+351
+01:10:08.498 --> 01:10:12.438
+diagnoses. And we are actively pursuing this as well
+
+352
+01:10:12.478 --> 01:10:14.278
+because it's so important. Yes.
+
+353
+01:10:14.958 --> 01:10:18.578
+Yeah, I'll just add from the clinical side, we often have a challenge where
+
+354
+01:10:19.218 --> 01:10:22.518
+there is so much ambiguity in a label that
+
+355
+01:10:24.038 --> 01:10:27.398
+you can't rely, certainly not on a single expert human label.
+
+356
+01:10:27.478 --> 01:10:30.808
+For example, with the adverse events, you can very reasonably argue that a patient
+
+357
+01:10:30.858 --> 01:10:32.678
+may have a Grade 2 versus Grade 3 event.
+
+358
+01:10:32.718 --> 01:10:36.558
+Two clinicians will label it differently, reasonably, but if
+
+359
+01:10:36.618 --> 01:10:36.758
+you
+
+360
+01:10:39.318 --> 01:10:42.998
+systematically use only one preference, you'll get very different outcomes in your
+
+361
+01:10:43.038 --> 01:10:46.947
+trial. So it's really important to evaluate how the
+
+362
+01:10:47.218 --> 01:10:49.958
+rate of agreement between your expert oncologists.
+
+363
+01:10:50.368 --> 01:10:52.918
+And then with the agents, as they become more performant,
+
+364
+01:10:53.918 --> 01:10:57.738
+we are going to increasingly run into an issue that they may be doing tasks
+
+365
+01:10:57.798 --> 01:11:01.308
+that we don't have human experts who can oversee it,
+
+366
+01:11:01.598 --> 01:11:05.578
+and that's where I think it's going to become even more
+
+367
+01:11:05.598 --> 01:11:08.838
+important to evaluate the
+
+368
+01:11:08.978 --> 01:11:11.618
+stepwise breakdown of the agentic workflows.
+
+369
+01:11:11.738 --> 01:11:15.698
+It might be easier to say, "Okay, did it query the right database for
+
+370
+01:11:15.718 --> 01:11:18.038
+the question?" than it is for an
+
+371
+01:11:19.138 --> 01:11:21.558
+human to say, "Is the final outcome correct?"
+
+372
+01:11:24.358 --> 01:11:25.178
+We'll take one there.
+
+373
+01:11:26.798 --> 01:11:29.378
+Mark Mulkin, neuro-oncologist at the Cleveland Clinic.
+
+374
+01:11:29.878 --> 01:11:30.698
+So for a year,
+
+375
+01:11:31.698 --> 01:11:35.558
+we've been using an artificial intelligence scribe, Ambience
+
+376
+01:11:35.938 --> 01:11:37.408
+is the product,
+
+377
+01:11:38.258 --> 01:11:42.158
+to create clinic notes. The first
+
+378
+01:11:42.198 --> 01:11:45.858
+time we meet a patient, or if it's an established
+
+379
+01:11:45.918 --> 01:11:49.398
+patient, the first time we're meeting them where we haven't used this before,
+
+380
+01:11:50.078 --> 01:11:53.848
+I take a minute to explain that we're going to record this on my
+
+381
+01:11:53.938 --> 01:11:54.238
+phone.
+
+382
+01:11:55.378 --> 01:11:59.298
+It means that I can pay attention to you, and I don't have to be writing notes that
+
+383
+01:11:59.358 --> 01:12:00.178
+I can't read later.
+
+384
+01:12:01.398 --> 01:12:04.978
+That I will answer all your questions, so you don't have to write down the
+
+385
+01:12:05.078 --> 01:12:07.568
+answers, because they will be in your after-visit summary,
+
+386
+01:12:08.478 --> 01:12:12.338
+and that when I move the conversation from
+
+387
+01:12:12.348 --> 01:12:13.568
+my phone to the computer,
+
+388
+01:12:15.018 --> 01:12:18.628
+your private health information is no longer on my
+
+389
+01:12:18.638 --> 01:12:22.498
+phone. So if I lose my phone, it's not out there.
+
+390
+01:12:22.508 --> 01:12:23.068
+Do you know
+
+391
+01:12:25.478 --> 01:12:29.158
+how many people in the last year refused to let me do that?
+
+392
+01:12:31.218 --> 01:12:31.538
+One
+
+393
+01:12:32.718 --> 01:12:34.298
+out of hundreds of patients.
+
+394
+01:12:35.818 --> 01:12:39.798
+99+% uptake. So I'm puzzled by your
+
+395
+01:12:39.838 --> 01:12:43.418
+last slide that showed that for that kind of
+
+396
+01:12:43.538 --> 01:12:46.678
+category, only
+
+397
+01:12:46.818 --> 01:12:50.458
+55% of patients in the survey
+
+398
+01:12:50.538 --> 01:12:54.358
+answered, "Yes, you can do that." And I wonder whether it's the
+
+399
+01:12:54.398 --> 01:12:58.138
+design of the survey or whether the minute that I
+
+400
+01:12:58.198 --> 01:13:01.398
+spend educating the patient about this new
+
+401
+01:13:01.458 --> 01:13:04.118
+technology is really the key to the uptake.
+
+402
+01:13:05.138 --> 01:13:06.288
+Yeah, I think it's a great question.
+
+403
+01:13:07.738 --> 01:13:09.728
+I don't
+
+404
+01:13:11.558 --> 01:13:15.078
+want to speak too much to how that survey was administered by Cancer Nation.
+
+405
+01:13:15.438 --> 01:13:18.818
+I think there's something, though, very different than when you're sitting in front
+
+406
+01:13:18.938 --> 01:13:22.758
+of your physician who you trust, who is, as you just
+
+407
+01:13:22.998 --> 01:13:24.178
+beautifully described
+
+408
+01:13:25.450 --> 01:13:29.290
+explaining why the benefits of using this technology,
+
+409
+01:13:29.330 --> 01:13:32.090
+how the risks, for example, to patient privacy are being
+
+410
+01:13:32.130 --> 01:13:35.790
+mitigated is enormously beneficial in engendering
+
+411
+01:13:35.850 --> 01:13:39.690
+trust. So I think it is one thing to say, "We're using AI to
+
+412
+01:13:39.750 --> 01:13:42.930
+respond to your questions." Patients might push back on that.
+
+413
+01:13:43.170 --> 01:13:47.110
+But just having a conversation and having a moment of shared decision-making
+
+414
+01:13:48.190 --> 01:13:52.060
+might get us 90% of the way to
+
+415
+01:13:52.110 --> 01:13:56.030
+a more trustworthy relationship with AI, both for healthcare
+
+416
+01:13:56.090 --> 01:13:57.230
+providers and the patients.
+
+417
+01:13:59.510 --> 01:14:01.070
+Thank you. We'll take a question there.
+
+418
+01:14:01.870 --> 01:14:02.130
+Hi.
+
+419
+01:14:03.050 --> 01:14:06.730
+Logan Nye. I am an MD turned computer scientist, so now I build
+
+420
+01:14:06.790 --> 01:14:10.640
+AI for oncology full-time. I have
+
+421
+01:14:10.670 --> 01:14:14.590
+two questions, both inspired by the last presentation, but I'd be
+
+422
+01:14:15.170 --> 01:14:17.810
+interested to hear what each of you thinks about this.
+
+423
+01:14:18.230 --> 01:14:20.090
+The first is about the notion of causality.
+
+424
+01:14:20.310 --> 01:14:21.310
+You mentioned in the last
+
+425
+01:14:23.050 --> 01:14:25.650
+presentation that you used causal inference to
+
+426
+01:14:26.710 --> 01:14:28.570
+quantify certain clinical effects.
+
+427
+01:14:28.750 --> 01:14:32.000
+What role do you think causal inference will start to take in
+
+428
+01:14:32.050 --> 01:14:34.860
+medical applications or clinical applications?
+
+429
+01:14:35.750 --> 01:14:39.530
+And then the second question has to do with world models, especially as it
+
+430
+01:14:39.570 --> 01:14:40.870
+pertains to AI for science.
+
+431
+01:14:42.950 --> 01:14:45.890
+What role do you think world models are going to play in terms of building up this
+
+432
+01:14:45.930 --> 01:14:49.710
+representation of cancer and cancer biology therapeutic
+
+433
+01:14:49.770 --> 01:14:52.930
+response? How do you think that that's going to come into play when we start
+
+434
+01:14:52.950 --> 01:14:54.070
+deploying these in the clinic?
+
+435
+01:14:55.310 --> 01:14:59.150
+Yeah, both are great questions. Regarding the first one, which is that of causal
+
+436
+01:14:59.230 --> 01:15:02.850
+inference, I think fundamentally in science as it is
+
+437
+01:15:02.950 --> 01:15:06.890
+about pushing the boundaries of knowledge beyond what we currently know,
+
+438
+01:15:07.390 --> 01:15:11.150
+it requires and we aspire to be
+
+439
+01:15:11.190 --> 01:15:14.450
+able to distill some of predictions and insights into
+
+440
+01:15:14.510 --> 01:15:15.230
+more
+
+441
+01:15:16.150 --> 01:15:18.350
+useful mechanism understanding.
+
+442
+01:15:18.380 --> 01:15:22.090
+And so I showed two examples that go in that direction.
+
+443
+01:15:22.550 --> 01:15:26.450
+One was that of Compass creating these type of personalized
+
+444
+01:15:26.490 --> 01:15:29.890
+maps that are generated through counterfactual inference,
+
+445
+01:15:29.990 --> 01:15:33.979
+where an agent is effectively asking what if questions
+
+446
+01:15:34.010 --> 01:15:37.790
+and specifically saying, "Well, what if the value of a specific
+
+447
+01:15:37.830 --> 01:15:41.530
+gene would be flipped? How would that change the downstream
+
+448
+01:15:41.630 --> 01:15:45.510
+prediction and the output that the agent produces?" So you can think of that as
+
+449
+01:15:45.550 --> 01:15:49.370
+some form of in silico perturbation on the TME profiling of those
+
+450
+01:15:49.410 --> 01:15:53.150
+genes to arrive at... And it does so systematically,
+
+451
+01:15:53.970 --> 01:15:56.510
+in order to then identify a set of core
+
+452
+01:15:57.310 --> 01:16:01.270
+genes, maps to gene sets, to ontological gene signatures, and finally the
+
+453
+01:16:02.250 --> 01:16:06.150
+output it generated that the agent relied on the most when
+
+454
+01:16:06.210 --> 01:16:07.530
+making such a prediction.
+
+455
+01:16:08.380 --> 01:16:12.110
+And so that can be helpful because it becomes a human interpretable,
+
+456
+01:16:12.210 --> 01:16:16.170
+distilled version of the internal process of reasoning
+
+457
+01:16:16.210 --> 01:16:16.830
+that the agent
+
+458
+01:16:17.950 --> 01:16:21.170
+went through, through this multi-step analysis as generating the
+
+459
+01:16:21.230 --> 01:16:24.990
+output. The second example that I showed was an
+
+460
+01:16:25.050 --> 01:16:28.850
+example where an agent uses a variety of established,
+
+461
+01:16:28.910 --> 01:16:31.650
+vetted tools from causal inference analysis.
+
+462
+01:16:31.730 --> 01:16:35.720
+This is incredibly rich field that has advanced
+
+463
+01:16:35.750 --> 01:16:39.310
+so much over many decades of research in understanding about
+
+464
+01:16:39.430 --> 01:16:43.310
+adjusting for confounders in appropriate manner and do that analysis
+
+465
+01:16:43.350 --> 01:16:47.330
+very thoughtfully. And so here the agent that is crawling electronic
+
+466
+01:16:47.370 --> 01:16:51.210
+health record system, then generating hypothesis, is putting them in the bank,
+
+467
+01:16:51.570 --> 01:16:54.810
+retrieving them from the bank, and running causal inference analysis on them,
+
+468
+01:16:55.950 --> 01:16:59.650
+that creates an opportunity for one how can marry
+
+469
+01:16:59.990 --> 01:17:03.970
+very rigorous, well-established principles of causal inference
+
+470
+01:17:04.150 --> 01:17:04.650
+that are
+
+471
+01:17:05.450 --> 01:17:09.150
+presented to an agent as tools that agent can
+
+472
+01:17:09.210 --> 01:17:13.180
+follow as protocols and tools that it can follow and query, and
+
+473
+01:17:13.210 --> 01:17:17.160
+then evaluate this novel hypothesis through, in this case, real world evidence
+
+474
+01:17:17.410 --> 01:17:20.990
+type of analysis. So I see an important opportunity here
+
+475
+01:17:21.050 --> 01:17:24.490
+to, A, both equip agents with ability to
+
+476
+01:17:25.070 --> 01:17:28.290
+use advanced strategies in interpretability and
+
+477
+01:17:28.330 --> 01:17:32.250
+explainability to create these data-derived mechanisms that can
+
+478
+01:17:32.350 --> 01:17:34.570
+be further investigated, and B,
+
+479
+01:17:35.670 --> 01:17:39.370
+use established or techniques from causal
+
+480
+01:17:39.410 --> 01:17:41.590
+inference and make them available to agents as tools.
+
+481
+01:17:41.970 --> 01:17:44.090
+The second question relate to world models.
+
+482
+01:17:44.370 --> 01:17:48.290
+I think world models are just a phenomenal new class of AIs
+
+483
+01:17:48.370 --> 01:17:52.190
+that are concerned that fundamentally have two, for
+
+484
+01:17:52.210 --> 01:17:55.330
+those in the audience who might not be familiar with them, have two modules, which
+
+485
+01:17:55.370 --> 01:17:58.690
+is a unified representation learning module that is typically a
+
+486
+01:17:58.810 --> 01:18:02.610
+multi-model that can take different types of patient or
+
+487
+01:18:02.650 --> 01:18:05.430
+molecular data and generate embeddings from them.
+
+488
+01:18:05.470 --> 01:18:09.250
+And then second, which is this action module that makes a world
+
+489
+01:18:09.310 --> 01:18:12.350
+model really an effective simulator of specific
+
+490
+01:18:13.550 --> 01:18:14.090
+type of
+
+491
+01:18:15.390 --> 01:18:17.710
+experiments that can be done in silico.
+
+492
+01:18:17.850 --> 01:18:18.920
+And then see whether
+
+493
+01:18:20.010 --> 01:18:23.890
+if these world models would be successful if one could perform certain in
+
+494
+01:18:23.910 --> 01:18:27.710
+silico simulations of the experiments that would be sequential in nature
+
+495
+01:18:28.130 --> 01:18:29.990
+before they are done in real world.
+
+496
+01:18:30.270 --> 01:18:33.470
+So I think it's very exciting to see the promise of world models.
+
+497
+01:18:33.590 --> 01:18:36.950
+There is tremendous success that world models have achieved in robotics and
+
+498
+01:18:36.990 --> 01:18:40.750
+autonomous driving. The big challenge for their success in
+
+499
+01:18:40.770 --> 01:18:44.390
+biology is really domains for which the data is sufficiently
+
+500
+01:18:44.430 --> 01:18:48.110
+abundant to be able to train world models and endow
+
+501
+01:18:48.390 --> 01:18:52.350
+them with some understanding of the spatial physical world in which these
+
+502
+01:18:52.370 --> 01:18:55.930
+world models operate. I think spatial biology, for example, might be
+
+503
+01:18:56.350 --> 01:19:00.270
+with multi-model patient data might be one domain worthwhile exploring
+
+504
+01:19:00.330 --> 01:19:00.690
+first.
+
+505
+01:19:01.550 --> 01:19:02.330
+Any comments?
+
+506
+01:19:02.460 --> 01:19:04.890
+That was an excellent answer. I have nothing more to add.
+
+507
+01:19:05.010 --> 01:19:06.090
+I would second that as well, yes.
+
+508
+01:19:06.690 --> 01:19:08.390
+All right. Thank you.
+
+509
+01:19:09.070 --> 01:19:10.370
+We'll take one from that end.
+
+510
+01:19:11.850 --> 01:19:14.570
+Hello. Deepen Sangro Decker from KSQ Therapeutics.
+
+511
+01:19:15.170 --> 01:19:18.930
+First of all, I'd like to thank all the presenters for the fantastic presentations
+
+512
+01:19:18.990 --> 01:19:20.390
+and contributions to this field.
+
+513
+01:19:21.270 --> 01:19:22.380
+This question is primarily for Dr.
+
+514
+01:19:22.570 --> 01:19:24.930
+Sitnik, but please feel free to chime in
+
+515
+01:19:26.030 --> 01:19:26.810
+for the entire panel.
+
+516
+01:19:27.610 --> 01:19:31.514
+So,Oftentimes when we see examples
+
+517
+01:19:31.554 --> 01:19:35.154
+of prompts to these agentic tools, the questions are
+
+518
+01:19:35.174 --> 01:19:39.014
+very simple. Or what's the context of the gene in a
+
+519
+01:19:39.194 --> 01:19:43.054
+particular disease? However, as we know, there is no question
+
+520
+01:19:43.074 --> 01:19:46.614
+that exists in a vacuum unless you are completely new to the field or testing a
+
+521
+01:19:46.654 --> 01:19:50.514
+model. All the questions exist in a broad context of previous work being
+
+522
+01:19:50.554 --> 01:19:53.004
+done in that research group, in that
+
+523
+01:19:53.814 --> 01:19:57.544
+department, and so on. So how do we provide that
+
+524
+01:19:57.574 --> 01:20:01.514
+context to the agents itself so that the agents understand
+
+525
+01:20:01.533 --> 01:20:04.594
+the full context of the question behind that question, right?
+
+526
+01:20:04.674 --> 01:20:06.054
+So as an example,
+
+527
+01:20:07.014 --> 01:20:10.714
+previous experiments that have been done in the lab for 10 years
+
+528
+01:20:11.054 --> 01:20:14.654
+leads to that question that is being fed to the agent, and the agentic tools and
+
+529
+01:20:14.694 --> 01:20:18.224
+the external databases have no awareness of that data or understanding.
+
+530
+01:20:18.804 --> 01:20:22.014
+So of course, you can say that you can build tools and feed your data into
+
+531
+01:20:22.074 --> 01:20:25.484
+RAG databases and have the tools be aware of
+
+532
+01:20:25.554 --> 01:20:29.394
+that. But is there a balance between
+
+533
+01:20:29.414 --> 01:20:33.364
+providing that context as a very extended prompt to the frontier LLMs and
+
+534
+01:20:33.474 --> 01:20:34.793
+have it reason through the questions?
+
+535
+01:20:35.434 --> 01:20:39.194
+Or should the frontier model delegate it to specialized
+
+536
+01:20:39.234 --> 01:20:43.174
+agents and databases trained on your internal data for
+
+537
+01:20:43.214 --> 01:20:47.134
+a better answer? So, have you done any sensitivity analysis to see which
+
+538
+01:20:47.194 --> 01:20:50.514
+gives a more informed answer, whether it's better prompts, prompt
+
+539
+01:20:50.574 --> 01:20:54.094
+engineering, or tools are trained on your internal data sets?
+
+540
+01:20:54.454 --> 01:20:55.134
+Thank you.
+
+541
+01:20:55.154 --> 01:20:57.374
+Yeah. That's such a great question.
+
+542
+01:20:57.454 --> 01:20:58.474
+So we have done
+
+543
+01:20:59.274 --> 01:21:02.354
+quite a bit of benchmarking and sensitivity analysis across
+
+544
+01:21:03.314 --> 01:21:07.214
+all frontier models and then also some of the leading
+
+545
+01:21:07.294 --> 01:21:10.794
+open science models. And generally, what we found is that prompt
+
+546
+01:21:10.854 --> 01:21:14.814
+engineering can only get you that far, and beyond that, the
+
+547
+01:21:14.874 --> 01:21:17.194
+biggest gap is that of context generalization.
+
+548
+01:21:17.294 --> 01:21:21.134
+Simply knowing what is the strategy in
+
+549
+01:21:21.194 --> 01:21:25.114
+the lab, what are experiments are
+
+550
+01:21:25.234 --> 01:21:28.254
+possible to do, what is experimental feasibility of the lab
+
+551
+01:21:29.054 --> 01:21:32.414
+that would, for example, test hypothesis generated by AI agents.
+
+552
+01:21:32.794 --> 01:21:36.664
+So the way we think about this now is effectively think about an AI agent or
+
+553
+01:21:36.714 --> 01:21:40.594
+co-scientist as a digital member of your group,
+
+554
+01:21:40.794 --> 01:21:44.554
+of your lab. And similarly, as you might have a new postdoc, PhD student,
+
+555
+01:21:44.674 --> 01:21:46.374
+research scientist joining the lab,
+
+556
+01:21:47.234 --> 01:21:50.934
+it might take a bit of time in the beginning for that new
+
+557
+01:21:50.974 --> 01:21:54.594
+person to familiarize with the resources, the data
+
+558
+01:21:54.734 --> 01:21:58.674
+sets, the style of asking questions, the approach
+
+559
+01:21:58.694 --> 01:22:01.784
+that a research group takes to answer those questions,
+
+560
+01:22:02.394 --> 01:22:05.334
+strategies to validate and evaluate
+
+561
+01:22:05.374 --> 01:22:09.064
+hypothesis. That part of onboarding
+
+562
+01:22:09.154 --> 01:22:13.044
+process is also relevant for agents as
+
+563
+01:22:13.074 --> 01:22:16.914
+they are becoming potentially or being evaluated as
+
+564
+01:22:16.934 --> 01:22:20.014
+being some form of digital research assistants or digital
+
+565
+01:22:20.054 --> 01:22:21.454
+members of
+
+566
+01:22:22.814 --> 01:22:26.694
+a lab and a group. And so the way this can be
+
+567
+01:22:26.734 --> 01:22:30.434
+achieved nowadays, in spring of 2026,
+
+568
+01:22:30.534 --> 01:22:34.294
+predominant use is to think about developing tools that can be
+
+569
+01:22:34.334 --> 01:22:37.114
+trained on public or combinations of private data.
+
+570
+01:22:37.634 --> 01:22:41.514
+There is an emerging area concerned with the notion of memory or memory
+
+571
+01:22:41.523 --> 01:22:45.174
+modules, where it is possible to create transferable memory
+
+572
+01:22:45.254 --> 01:22:46.294
+modules that
+
+573
+01:22:47.834 --> 01:22:51.344
+can store more information than the size of the
+
+574
+01:22:51.434 --> 01:22:54.334
+context in LLMs through prompt engineering.
+
+575
+01:22:54.683 --> 01:22:58.454
+And then those memory modules can contain some of those tacit knowledge that
+
+576
+01:22:58.494 --> 01:23:02.354
+exists in the group and can be transferred around
+
+577
+01:23:02.394 --> 01:23:06.234
+with agents so that the agent can generate hypothesis that can
+
+578
+01:23:06.314 --> 01:23:10.014
+be feasibly tested, for example, in the lab, or can
+
+579
+01:23:10.074 --> 01:23:14.054
+query the data that is relevant for the specific type of
+
+580
+01:23:14.094 --> 01:23:16.474
+research questions that the labs are asking.
+
+581
+01:23:16.834 --> 01:23:20.694
+I think those are great questions and just quite a bit of research
+
+582
+01:23:20.704 --> 01:23:21.414
+to be done
+
+583
+01:23:22.274 --> 01:23:26.114
+to pushing the current state-of-the-art on biomedical AI agents in this direction.
+
+584
+01:23:27.634 --> 01:23:29.114
+Want to add anything?
+
+585
+01:23:30.194 --> 01:23:31.834
+I think that's an excellent answer.
+
+586
+01:23:32.154 --> 01:23:35.974
+We observe similar things, that it's not that
+
+587
+01:23:36.034 --> 01:23:39.934
+important how you prompt the model, but the quality of the data that
+
+588
+01:23:39.974 --> 01:23:43.494
+you provide the agent with is more important. Similar thing.
+
+589
+01:23:43.914 --> 01:23:44.994
+Okay. We'll take one there.
+
+590
+01:23:46.254 --> 01:23:49.394
+Hello. I am from a cancer clinic in a Norwegian hospital,
+
+591
+01:23:50.114 --> 01:23:53.934
+and I was very interested in this example of using agents
+
+592
+01:23:54.174 --> 01:23:57.954
+as monitoring adverse events. But I'm just wondering, for
+
+593
+01:23:57.994 --> 01:24:01.594
+the agents to access the multimodal data that
+
+594
+01:24:01.654 --> 01:24:05.454
+they are dependent on to predict, they have to be in the environment,
+
+595
+01:24:05.954 --> 01:24:07.594
+and this data is highly regulated.
+
+596
+01:24:07.674 --> 01:24:10.774
+So how do we solve this conflicting interest?
+
+597
+01:24:14.094 --> 01:24:17.474
+Perhaps I can start concretely responding to this question
+
+598
+01:24:17.514 --> 01:24:21.334
+about in the context of the study I presented, and it's such a great
+
+599
+01:24:21.394 --> 01:24:22.073
+question. And so
+
+600
+01:24:22.934 --> 01:24:26.734
+when I think the kind of environments that do not
+
+601
+01:24:26.774 --> 01:24:30.734
+tie an agent to a specific fixed set of tools or fixed
+
+602
+01:24:30.834 --> 01:24:33.914
+large language model powering the agent is quite an important
+
+603
+01:24:33.954 --> 01:24:37.874
+consideration. So in this specific example that I illustrated,
+
+604
+01:24:38.614 --> 01:24:39.214
+we
+
+605
+01:24:40.554 --> 01:24:43.654
+have run evaluations in two different ways.
+
+606
+01:24:43.714 --> 01:24:47.374
+So one is in subset of sites in which evaluations were
+
+607
+01:24:47.394 --> 01:24:51.204
+done. We were fortunate to have private instances of frontier large
+
+608
+01:24:51.274 --> 01:24:53.534
+language models that could power an agent.
+
+609
+01:24:53.594 --> 01:24:57.484
+And there were certain sites where that was just not allowed or
+
+610
+01:24:57.494 --> 01:24:59.974
+not possible because of the institutional restrictions.
+
+611
+01:25:00.554 --> 01:25:00.854
+And so
+
+612
+01:25:01.774 --> 01:25:03.024
+to address that,
+
+613
+01:25:03.954 --> 01:25:07.794
+our approach was to just change the backbone large language
+
+614
+01:25:07.894 --> 01:25:11.674
+model for the agent and experiments done on that
+
+615
+01:25:11.734 --> 01:25:15.274
+site so that the backbone was not a frontier LLM.
+
+616
+01:25:15.474 --> 01:25:17.494
+It was an open weight large language model
+
+617
+01:25:18.434 --> 01:25:22.234
+for those hospital sites that was then locally
+
+618
+01:25:22.294 --> 01:25:26.074
+installed at that site, and none of the data from those
+
+619
+01:25:26.114 --> 01:25:29.742
+hospital sites left the hospital itself.And so the
+
+620
+01:25:29.822 --> 01:25:33.442
+advantage of creating these type of shared environments is
+
+621
+01:25:33.562 --> 01:25:36.482
+that where there is flexibility to connect the
+
+622
+01:25:36.522 --> 01:25:40.382
+scientific environment with a variety of different large
+
+623
+01:25:40.442 --> 01:25:44.242
+language models can accommodate for some of the constraints
+
+624
+01:25:44.282 --> 01:25:47.602
+regarding sensitivity of the data, that
+
+625
+01:25:48.922 --> 01:25:51.382
+is a big question at specific institutions.
+
+626
+01:25:52.782 --> 01:25:56.592
+And so for our adverse event monitoring system, we are running
+
+627
+01:25:56.662 --> 01:26:00.622
+it within our clinical environment, which is, of course, as
+
+628
+01:26:00.662 --> 01:26:01.942
+you mentioned, highly regulated.
+
+629
+01:26:02.302 --> 01:26:05.822
+Our institution has a HIPAA-compliant
+
+630
+01:26:06.462 --> 01:26:09.822
+OpenAI inference point, so that's why we're able to use GPT.
+
+631
+01:26:10.202 --> 01:26:13.482
+We also have created versions with open source models for institutions that don't
+
+632
+01:26:13.522 --> 01:26:17.462
+have access. But what you said is such a great point, and I think it
+
+633
+01:26:17.582 --> 01:26:21.522
+speaks to the challenge that what we found is developing the
+
+634
+01:26:21.722 --> 01:26:25.302
+models and the technical methods
+
+635
+01:26:25.342 --> 01:26:26.022
+was
+
+636
+01:26:27.402 --> 01:26:28.992
+only one-fifth of the challenge.
+
+637
+01:26:29.902 --> 01:26:33.562
+Most of the time that we spent getting that model up and running in our
+
+638
+01:26:33.602 --> 01:26:37.402
+clinical system was tackling those other four
+
+639
+01:26:37.412 --> 01:26:37.852
+points,
+
+640
+01:26:39.222 --> 01:26:43.042
+integrating the agentic system within our data
+
+641
+01:26:43.142 --> 01:26:45.892
+warehouse, networking that ensures
+
+642
+01:26:48.102 --> 01:26:49.922
+data security and privacy protection,
+
+643
+01:26:51.022 --> 01:26:54.182
+in some cases establishing the appropriate governance boards,
+
+644
+01:26:55.102 --> 01:26:58.422
+creating associated monitoring and oversight
+
+645
+01:26:58.462 --> 01:27:02.042
+mechanisms. That really took a lot of time, and I think speaks to
+
+646
+01:27:02.082 --> 01:27:05.002
+the need right now for almost
+
+647
+01:27:05.162 --> 01:27:08.722
+the science of implementing these
+
+648
+01:27:08.782 --> 01:27:12.702
+systems. It's not worked out. There's no one size
+
+649
+01:27:12.822 --> 01:27:16.562
+fits all. And it takes a lot of
+
+650
+01:27:16.582 --> 01:27:19.802
+interdisciplinary effort between computer scientists, the clinicians,
+
+651
+01:27:21.882 --> 01:27:22.502
+IT,
+
+652
+01:27:23.382 --> 01:27:25.602
+legal, governance committees,
+
+653
+01:27:27.262 --> 01:27:30.802
+the whole host of people who have a
+
+654
+01:27:30.942 --> 01:27:34.812
+stake and have expertise in the different challenges
+
+655
+01:27:34.842 --> 01:27:38.482
+to safely implement these really, really new systems that have both clinical
+
+656
+01:27:38.522 --> 01:27:41.712
+implementation, safety, and legal implications, and regulatory implications.
+
+657
+01:27:42.742 --> 01:27:46.322
+Yeah, 20, 80% sounds about right. So I think this is a universal
+
+658
+01:27:46.422 --> 01:27:48.082
+constant, and maybe it's comforting
+
+659
+01:27:49.302 --> 01:27:52.601
+that this is a common problem that we're also facing as well.
+
+660
+01:27:54.682 --> 01:27:56.342
+We have time for another question there.
+
+661
+01:27:56.842 --> 01:28:00.742
+Okay. Thank you, for your talks from these
+
+662
+01:28:00.862 --> 01:28:04.631
+three presenters. And I'm a PhD student from Peking
+
+663
+01:28:04.662 --> 01:28:05.182
+University.
+
+664
+01:28:06.202 --> 01:28:06.662
+I study
+
+665
+01:28:07.922 --> 01:28:10.512
+computational spatial biology. And,
+
+666
+01:28:11.802 --> 01:28:15.602
+since the professor just mentioned the spatial biology,
+
+667
+01:28:15.762 --> 01:28:18.882
+and I wonder how can you
+
+668
+01:28:19.522 --> 01:28:20.622
+integrate the spatial
+
+669
+01:28:21.762 --> 01:28:25.342
+multiomics and even pathology into
+
+670
+01:28:25.402 --> 01:28:28.942
+the media? And, do you think it
+
+671
+01:28:29.002 --> 01:28:32.902
+can contribute greatly to the spatially informed
+
+672
+01:28:32.942 --> 01:28:36.582
+biomarker discovery and the response
+
+673
+01:28:36.742 --> 01:28:37.222
+prediction?
+
+674
+01:28:39.222 --> 01:28:42.552
+Yes, this was also a question, how much of the tools
+
+675
+01:28:43.442 --> 01:28:46.442
+in the tool universe are pathology related?
+
+676
+01:28:47.142 --> 01:28:51.082
+I actually checked that before this seminar. Around 200.
+
+677
+01:28:51.242 --> 01:28:51.362
+Wow.
+
+678
+01:28:52.622 --> 01:28:56.362
+And so there are already some of the tools that relate to
+
+679
+01:28:56.402 --> 01:28:59.362
+spatial biologies, computational biology in particular.
+
+680
+01:28:59.402 --> 01:29:01.982
+And if you go there, you can see different categories of tools.
+
+681
+01:29:02.022 --> 01:29:05.082
+So you can quickly navigate which are that exist there.
+
+682
+01:29:05.102 --> 01:29:08.842
+That said, this is also a very fast-moving and fast-advancing field with new
+
+683
+01:29:08.862 --> 01:29:12.122
+data being generated across different platforms.
+
+684
+01:29:13.262 --> 01:29:17.002
+And then that leads to several foundation models, for
+
+685
+01:29:17.062 --> 01:29:20.962
+example, including multi-model foundation models being trained and developed, which
+
+686
+01:29:21.002 --> 01:29:24.522
+can then be made available to agents as
+
+687
+01:29:24.602 --> 01:29:28.262
+tools. And I think Sebastian kind of highlighted a
+
+688
+01:29:28.362 --> 01:29:31.082
+few of those that are in the literature.
+
+689
+01:29:32.342 --> 01:29:35.962
+Okay. And my second question is about how can media
+
+690
+01:29:37.162 --> 01:29:38.902
+handle the contradictory
+
+691
+01:29:39.722 --> 01:29:40.762
+signals? For example,
+
+692
+01:29:41.722 --> 01:29:45.282
+if the transcriptomics predict good response, while
+
+693
+01:29:46.321 --> 01:29:48.982
+pathology or the spatial biology indicates
+
+694
+01:29:49.321 --> 01:29:52.322
+immunosuppressive microenvironment.
+
+695
+01:29:53.142 --> 01:29:55.322
+So how can media
+
+696
+01:29:56.562 --> 01:29:59.662
+metrics these two contradictory
+
+697
+01:30:00.342 --> 01:30:00.822
+signals?
+
+698
+01:30:02.442 --> 01:30:06.022
+Yeah, so in the example of that agent, the way it can handle contradictory
+
+699
+01:30:06.142 --> 01:30:10.102
+signals that might come from different data modalities or from
+
+700
+01:30:11.542 --> 01:30:15.302
+research data and published literature, is that through each
+
+701
+01:30:15.402 --> 01:30:19.062
+step of a multi-step analysis, the model is tracking uncertainty
+
+702
+01:30:19.222 --> 01:30:23.022
+associated with the data and uncertainty associated
+
+703
+01:30:23.142 --> 01:30:26.832
+with the model assumptions that are being made about the
+
+704
+01:30:26.902 --> 01:30:30.841
+data. And so when that uncertainty would reach or exceed
+
+705
+01:30:30.982 --> 01:30:34.802
+specific threshold specified as false discovery rates
+
+706
+01:30:34.862 --> 01:30:35.862
+by the user,
+
+707
+01:30:37.082 --> 01:30:40.542
+then the model would stop with its
+
+708
+01:30:40.782 --> 01:30:44.622
+reasoning process, and it would defer to human researcher,
+
+709
+01:30:45.582 --> 01:30:49.242
+to then provide additional input or guidance or
+
+710
+01:30:49.262 --> 01:30:52.962
+bring in additional information that would resolve the conflict.
+
+711
+01:30:53.322 --> 01:30:56.782
+If that is not feasible, the model abstains from making a
+
+712
+01:30:56.922 --> 01:31:00.382
+prediction and therefore would not
+
+713
+01:31:00.422 --> 01:31:03.822
+definitively predict a label or say yes and no, but it would
+
+714
+01:31:04.282 --> 01:31:07.782
+bring out a kind of what are lines of evidence for and against a
+
+715
+01:31:07.862 --> 01:31:09.702
+specific conclusion that
+
+716
+01:31:10.722 --> 01:31:13.702
+would then need to be deferred to human to
+
+717
+01:31:14.382 --> 01:31:18.022
+investigate further or resolve it based on their level
+
+718
+01:31:18.082 --> 01:31:20.122
+of their expertise and goals.
+
+719
+01:31:20.922 --> 01:31:21.562
+Thank you so much.
+
+720
+01:31:21.742 --> 01:31:25.642
+Okay, thank you. Since we are kind of one minute after
+
+721
+01:31:26.082 --> 01:31:28.802
+the end session, I see there might be a few more questions.
+
+722
+01:31:28.882 --> 01:31:32.022
+I would encourage those questions and discussions to
+
+723
+01:31:33.002 --> 01:31:36.792
+continue during the break. I would love to
+
+724
+01:31:36.902 --> 01:31:40.742
+thank our great presenters, Sebastian
+
+725
+01:31:40.782 --> 01:31:44.682
+Forster and Daniela Bitterman, for sharing their research with
+
+726
+01:31:44.782 --> 01:31:47.342
+us, everyone here for attending our session.
+
+727
+01:31:47.982 --> 01:31:49.062
+I hope that you have
+
+728
+01:31:49.902 --> 01:31:53.772
+learned new things and were inspired by just the
+
+729
+01:31:53.822 --> 01:31:55.902
+wonderful research that was presented.
+
+730
+01:31:56.362 --> 01:31:58.142
+And with that, we'll conclude this session.
+
+731
+01:31:58.202 --> 01:32:00.982
+Thank you everyone for attending, and enjoy the rest of your day.
+
+732
+01:32:04.222 --> 01:32:04.562
+Thank you.

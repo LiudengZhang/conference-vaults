@@ -1,0 +1,14 @@
+# Eric Medina
+
+**Poster #**: 2257
+**Session**: Tumorigenesis and Early Microenvironmental Trajectories
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Eric  F.  Medina1, Jacob  I.  Rodriguez1, Alyssa Bujnak2, Devon Lawson1, Kai Kessenbrock1
+
+1Biological chemistry, University of California, Irvine, Irvine, CA,2University of Chicago, Chicago, IL
+
+---
+
+Most high-grade serous carcinomas are thought to originate from the fallopian tube epithelium and progress through pre-malignant states that are more susceptible to transformation in BRCA1/2 mutation carriers. However, the early epithelial and stromal programs that arise during transformation remain poorly defined. To address this gap, we analyzed 49 FFPE scRNA-seq samples from 28 patients, including normal ovary and fallopian tube tissues, BRCA1/2 pre-malignant tissues, and matched primary ovarian tumors and metastatic lesions. FASTQ files were aligned to GRCh38 with the Cell Ranger pipeline, followed by doublet removal. Integration was performed using reciprocal principal component analysis separately for normal and pre-malignant ovary or fallopian tube samples, and primary tumor and metastatic samples. Cell type annotation was guided by a custom reference derived from publicly available human fallopian tube scRNA-seq datasets and validated using canonical marker genes. Across samples, we identified major epithelial, immune, and stromal compartments, including distinct secretory and ciliated epithelial populations. Early analyses revealed that malignant epithelial cells from both primary tumor and metastatic lesions overwhelmingly mapped to secretory epithelial lineages, with minimal contribution from ciliated cells. Normal and BRCA1/2 pre-malignant ovary tissues similarly showed a strong enrichment for secretory cells, whereas fallopian tube tissue displayed a more balanced secretory-ciliated distribution. In addition, primary and metastatic samples displayed markedly increased immune infiltration compared with normal and pre-malignant tissues. This comprehensive single-cell dataset provides new insight into early epithelial and microenvironmental changes associated with BRCA1/2 mutation status. Ongoing analyses aim to determine whether specific stromal cell states, such as fibroblast subpopulations, emerge in pre-malignant tissues and persist into malignant and metastatic lesions, suggesting the presence of early tumor-promoting stromal phenotypes. Overall, this study establishes a framework for discovering early microenvironmental drivers of ovarian carcinomas initiation.

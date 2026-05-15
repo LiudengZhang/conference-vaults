@@ -1,0 +1,17 @@
+# Extracellular viscosity modulates spheroid formation in SMARCB1-deficient brain tumor cells
+
+**Poster #**: 642
+**Session**: Developmental Origins, Drivers, and Heterogeneity in Pediatric Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Yihsuan Chen1, Long-Sheng Lu2, Yu-Chun Lin1
+
+1Graduate School of Advanced Technology, National Taiwan University, Taipei, Taiwan,2Graduate Institute of Biomedical Materials and Tissue Engineering, Taipei Medical University, Taipei City, Taiwan
+
+---
+
+Background  In the developing pediatric brain, the viscosity of the tissue microenvironment changes dynamically with tissue maturation, providing a unique mechanical microenvironment that may influence cellular behavior through mechanotransduction. SMARCB1 deficiency causes the most aggressive pediatric central nervous system malignancies, which have high tissue specificity, extremely early onset, epigenetic dysregulation, and altered metabolic states. Despite this unique biological context, whether extracellular viscosity interacts with SMARCB1 loss to alter tumor cell behavior has never been explored.
+Methods To investigate how extracellular viscosity affects SMARCB1-deficient brain tumor cells, gellan gum (GG), a biocompatible viscosity modifier, was incorporated into culture medium to generate viscosities of 2.2 (0%), 10 (0.01%), and 34 (0.03%) mPa&#183;s at 37 &#176;C. SMARCB1-deficient Re1P6 cells (c.157>T mutation and established from a patient-derived xenograft) were compared with SMARCB1-proficient glioma cell lines (T98G). Single-cell suspensions were seeded on ultra-low attachment plates and cultured in media of increasing viscosities to monitor cell growth and spheroid formation. Pre-formed spheroids were also transferred into media with varying viscosities to evaluate spheroid stability and dispersion. Changes in stemness markers and other cellular phenotypes were further examined under each condition.
+Results We found that elevated extracellular viscosity selectively modulates spheroid formation in SMARCB1-deficient Re1P6 cells but not in SMARCB1-proficient glioma cells. Re1P6 exhibited a nonlinear response to viscosity, forming the most uniform spheroids (~200 &#956;m in diameter) with increased cell growth (~30-fold) at 10 mPa&#183;s, whereas spheroid formation was almost suppressed and proliferation remained unchanged at 34 mPa&#183;s. SMARCB1-proficient glioma cells showed minimal changes in spheroid formation or cell growth across the same viscosity conditions. Pre-formed Re1P6 spheroids developed irregular boundaries at higher viscosity, suggesting viscosity-dependent disruption of spheroid cohesion. High-viscosity conditions also appeared tp decrease SOX2 and increase vimentin expression. Overall, Re1P6 cells exhibited greater phenotypic modulation in response to viscosity-dependent microenvironments than SMARCB1-proficient controls.
+Conclusion  Our early findings suggest a potential link between extracellular viscosity and the malignant behavior of pediatric SMARCB1-deficient tumors. Future work will investigate whether the viscosity-dependent response is linked to mechanosensing signaling pathway and metabolic-epigenetic changes, providing new insights into their tissue-specificity.

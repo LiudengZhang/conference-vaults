@@ -1,0 +1,14 @@
+# The role of KRT10 in cancer brain metastasis
+
+**Poster #**: 3780
+**Session**: Circulating Tumor Cells, Metastasis, and Dissemination Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Bo Chen1, Liyang Zhang2, Karrie M. Kiang3, Gilberto Ka Kit Leung4
+
+1The University of Hong Kong, Hong Kong, Hong Kong,2Xiangya Hospital Central South University, Hong Kong, Hong Kong,3The University of Hong Kong, Hong Kong, China,4Univ. of Hong Kong, Hong Kong, Hong Kong
+
+---
+
+KRT10 is a keratin family protein that regulates epithelial structure and cellular differentiation. While the role of KRT10 in cancer metastasis has been previously reported, the specific mechanisms underlying its involvement remain unclear. In this study, we applied an integrated multi-omics strategy&#8212;including spatial transcriptomics and metabolomics&#8212;combined with in vitro assays to investigate the mechanism of KRT10 in non-small cell lung cancer (NSCLC) brain metastasis. We observed elevated KRT10 expression in NSCLC relative to normal tissues. Silencing KRT10 markedly reduced NSCLC cell migration and invasion. We then examined the tumor microenvironment and identified metastatic niches where KRT10 was concentrated. NSCLC cells interacted with pro-metastatic neutrophil extracellular trap (NET) DNA via KRT10, and the specific DNA sequences involved were subsequently confirmed. The predictive ability of KRT10 in metastasis was also explored. Overall, inhibiting KRT10 could serve as a potential therapeutic strategy to inhibit NSCLC cell brain metastasis.

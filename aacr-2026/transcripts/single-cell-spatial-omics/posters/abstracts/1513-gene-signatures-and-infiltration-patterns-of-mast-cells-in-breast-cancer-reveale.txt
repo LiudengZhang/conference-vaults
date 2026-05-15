@@ -1,0 +1,17 @@
+# Gene signatures and infiltration patterns of mast cells in breast cancer revealed by integrated bulk and single-cell RNA sequencing Analyses
+
+**Poster #**: 1513
+**Session**: Sequence Analysis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Eva Liu, Benjamin Jin, Cindy Hu, Qian Wang
+
+iLab Research Institute, Mountain View, CA
+
+---
+
+Background: Breast cancer is one of the leading cancers in women, caused by uncontrolledcell growth in breast tissue. Mast cells, a type of immune cell generally responsible forinflammation and allergic reactions, have emerged as key immune players within the tumormicroenvironment. However, the functions of these cells in breast cancer remain incompletelyunderstood and sometimes controversial. This study investigated mast cell infiltration and geneexpression profiles across three breast cancer subtypes by using integrated bulk and single-cellRNA-seq analyses.
+Methods: Publicly available transcriptomic datasets GSE45419, GSE254991 were downloadedfrom NCBI and reanalyzed with standard pipelines. Differentially expressed genes (DEGs) wereidentified with |logFC| > 0.2 and FDR < 0.05. UMAPs and Heatmaps were generated tovisualize the data. Gene Ontology (GO) enrichment analysis was subsequently performed toidentify significantly enriched biological pathways.
+Results: Bulk RNA-seq data analysis of GSE45419 revealed significant upregulations of mastcell marker genes (KIT, FCER1A, MS4A2, CPA3, HDC and TPSAB1) in ER+, HER2+, TN+(triple negative) breast cancers compared with benign breast lesions (Figure 1). Expressions ofthese genes were the highest in ER+, intermediate in HER2+, lower in TN+, and minimal inbenign breast lesions. Reanalysis of single-cell RNA-seq dataset GSE254991 identified 13clusters of cells in both cancer and adjacent tissues, including a distinct mast cell clusterexpressing canonical markers (KIT, FCER1A, MS4A2, CPA3, HDC and TPSAB1). Theproportion of mast cells is higher in tumor tissue (4.59%) than in paired normal breast tissue(2.89%) from the same patient. Cross-comparison of mast cell gene expression profilesbetween cancerous and adjacent regions identified the core DEGs enriched in mast cellsassociated with breast cancer. GO analysis indicated the significantly up-regulated pathways inbreast cancer including antigen processing and presentation of peptide antigen, antigen binding,MHC Class I and II protein complex assembly, leukocyte mediated immunity and cell-celladhesion, response to type II interferon.
+Conclusion: Integrated bulk and single-cell transcriptomic data analysis revealed increasedmast cell infiltration and distinct transcriptional reprogramming in three subtypes of breastcancer. These findings provide new insights into potential immunoregulatory roles of mast cellsin tumor progression and may inform the development of novel therapies targeting mast cells tofight for breast cancer.

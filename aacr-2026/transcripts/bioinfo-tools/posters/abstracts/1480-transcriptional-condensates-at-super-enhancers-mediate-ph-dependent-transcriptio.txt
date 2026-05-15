@@ -1,0 +1,12 @@
+# Transcriptional condensates at super-enhancers mediate pH-dependent transcriptional control in innate immunity
+
+**Poster #**: 1480
+**Session**: Integrative Computational Approaches 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Shengyuan Wang1, Zhongyang Wu2, Zhe Zhong3, Zhenjia Wang1, Xu Zhou2, Chongzhi Zang11University of Virginia, Charlottesville, VA,2Boston Children's Hospital, Boston, MA,3Harvard University, Boston, MA
+
+---
+
+Tissue acidification is a common feature of hypoxia, inflammation and solid tumor. Acidic pH regulates innate immune response in macrophages by weakening BRD4-containing transcriptional condensates. Yet how disruption of transcriptional condensates leads to gene-specific regulation of immune programs remain unclear. Here, we integrated ATAC-seq, ChIP-seq, and RNA-seq of primary murine macrophages and performed integrative epigenomics analyses to identify transcriptional regulators (TRs) with pH-sensitive regulatory potential and association to BRD4-dependent transcriptional condensates. We determined pH-dependent super-enhancers (SEs) based on dynamic extended profiles of BRD4 binding and H3K27ac marks under pH perturbation. We found RELA, IRF family, and STAT family as candidate TRs enriched at BRD4-associated, pH-sensitive SE regions, particularly in response to LPS stimulation in macrophages. RELA and IRF3 preferentially occupied BRD4-associated and pH-sensitive SEs, and displayed markedly reduced binding under acidic conditions, aligning with BRD4 occupancy change. Correspondingly, immune-response genes within BRD4-associated, pH-sensitive SE regions, including Ch25h, Il20rb, Slc2a6, and Ifit family, were significantly higher expressed at pH 7.4 than at pH 6.5. Additionally, analysis of TCGA data for colorectal cancer revealed that chromatin accessibility at potential RELA or IRF binding sites within SEs had significantly elevated association with patient survival, indicating the clinical relevance of TR binding at transcriptional condensates in human cancer. Together, these results reveal a set of TRs involved in BRD4-associated, pH-sensitive transcriptional condensates that coordinate macrophage gene activation under physiological conditions, providing mechanistic insight into how acidic stress modulates transcriptional condensates in immune responses and tumor microenvironment.

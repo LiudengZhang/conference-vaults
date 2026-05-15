@@ -1,0 +1,15 @@
+# Single-cell transcriptomic and CNV profiling reveal distinct circulating tumor cell signatures in pancreatic ductal adenocarcinoma
+
+**Poster #**: 117
+**Session**: Liquid Biopsy: Multi-Analyte and Multi-Omic
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Se-Eun Choi1, Jihyun Lee2, Hyunjung Kee3, Moon Jae Chung4, Jungwon Kim2, Semin Lee1
+
+1Department of Biomedical Engineering, Ulsan National Institute of Science and Technology, Ulsan, Korea, Republic of,2CytoGen, Inc., Seoul, Korea, Republic of,3Institute of Gastroenterology Research, Yonsei University College of Medicine, Seoul, Korea, Republic of,4Department of Internal Medicine, Yonsei University College of Medicine, Seoul, Korea, Republic of
+
+---
+
+Pancreatic ductal adenocarcinoma (PDAC) is an aggressive malignancy with poor prognosis and limited early detection methods. Circulating tumor cells (CTCs) provide a minimally invasive opportunity to investigate tumor heterogeneity and disease progression, yet their reliable identification among peripheral blood cells remains challenging. In this study, peripheral blood samples were collected from PDAC patients and healthy controls. CTCs were enriched using CytoGen&#8217;s Smart Biopsy&#8482; Platform, and the CTC-enriched fractions were analyzed using single-cell RNA sequencing (Cell Ranger 8.0.1). Low-quality and doublet cells were filtered (nFeature_RNA > 500, percent.mt < 10, doublet score < 0.25). Dimensional reduction and clustering (resolution 0.8) enabled cell type annotation, and copy number variation (CNV) profiles were inferred at the subcluster level (k=5) to assess potential malignant characteristics. Consequently, Distinct cell clusters exhibiting PDAC-associated transcriptional signatures were identified. CNV pattern analyses revealed that certain clusters displayed genomic variability distinct from typical immune and blood cell populations. Comparison with TCGA-PAAD reference data indicated partial resemblance to tumor-like CNV profiles. Moreover, CNV-based stratification tended to distinguish PDAC-derived CTC-enriched clusters from those observed in healthy blood, suggesting potential diagnostic utility. Overall, these integrative single-cell transcriptomic and CNV analyses provide valuable insights into CTC heterogeneity in PDAC and suggest that CNV-informed profiling may enhance the identification of putative CTC populations and facilitate future biomarker development for liquid biopsy-based cancer monitoring.
+Acknowledgement: This work is supported by the National Research Foundation of Korea (NRF) funded by the Ministry of Science and ICT (RS-2023-00261820).

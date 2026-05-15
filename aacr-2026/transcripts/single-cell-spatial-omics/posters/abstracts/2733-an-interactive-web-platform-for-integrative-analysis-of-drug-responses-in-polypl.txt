@@ -1,0 +1,14 @@
+# An interactive web platform for integrative analysis of drug responses in polyploid giant cancer cells
+
+**Poster #**: 2733
+**Session**: Integration of Clinical and Research Data
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Li-Ju Wang, Hsiao-Chun Chen, Chien-Hung Shih, Yuan Zhang, Huikang Ye, Ying-Ju Lai, Yushu Ma, Tiffany Habib, Hsi-Chun Wang, Yu-Chih Chen, Yu-Chiao Chiu
+
+UPMC Hillman Cancer Center, Pittsburgh, PA
+
+---
+
+Polyploid giant cancer cells (PGCCs), typically arising from whole-genome duplication, are major drivers of therapeutic resistance and tumor recurrence. Building on our recently published high-throughput single-cell drug screening platform and ongoing efforts to profile PGCC responses across multiple cell lines representing diverse cancer lineages, we developed an interactive web-based platform that enables integrative analysis and visualization of these data. The platform integrates high-throughput PGCC drug screening results with multi-omic features curated from public cancer data resources, including somatic mutations, copy number alterations, gene expression profiles, and pathway activity scores. It supports two primary analysis modules: (1) a gene- or pathway-centric module that identifies compounds whose anti-PGCC efficacy is influenced by specific molecular features, and (2) a compound-centric module that identifies genes or pathways associated with the efficacy of a selected compound. Statistical comparisons, interactive visualizations, and annotations from external knowledgebases enable users to explore drug-feature relationships and generate new hypotheses. The platform facilitates systematic investigation of PGCC vulnerabilities through data-driven exploration. Example analyses demonstrate that compounds targeting oxidative stress response and cytoskeletal remodeling pathways preferentially suppress PGCC-enriched cell populations, consistent with their structural plasticity and adaptive signaling. Integration with baseline pharmacogenomic datasets further distinguishes PGCC-selective inhibitors from broadly cytotoxic agents, supporting the prioritization of therapeutic candidates. In summary, this interactive web resource provides an accessible and scalable framework for analyzing the molecular and pharmacologic landscape of PGCCs. By integrating our prior and ongoing high-throughput datasets with multi-omic data, it accelerates the discovery of biomarkers and therapeutic strategies to overcome treatment resistance driven by genome-doubled tumor populations.

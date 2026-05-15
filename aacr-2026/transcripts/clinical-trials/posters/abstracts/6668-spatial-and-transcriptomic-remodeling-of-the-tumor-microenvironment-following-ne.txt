@@ -1,0 +1,12 @@
+# Spatial and transcriptomic remodeling of the tumor microenvironment following neoadjuvant atezolizumab in urothelial carcinoma: Insights from the ABACUS Study
+
+**Poster #**: 6668
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Robbin Nameki1, Jennifer Kinong1, Chao-Hui Huang1, Michelle Saul1, Aakash Sur1, Mehmet Tekman1, Alexander Trageser1, Wenjing Yang1, Daniel Chawla1, Greg Szeto1, Arne Schmidt2, Alberto Megina Gonzalo2, Srishti Munjal Mehta2, Nina Kozar-Gillan2, Rosemarie Krupar2, Sophie Laturnus2, Cornelius Bohm2, Marija Pezer2, Gloria H.Y. Lin1, Diane Fernandez1, Keith Ching1, Jadwiga  R.  Bienkowska1, Thomas Powles3, Craig  B.  Davis11Pfizer, Inc., San Diego, CA,2Aignostics, Berlin, Germany,3Experimental Cancer Medicine Centre, Barts Cancer Institute, London, United Kingdom
+
+---
+
+The ABACUS study was a single-arm, phase II trial evaluating neoadjuvant atezolizumab in operable urothelial carcinoma. Paired baseline and post-treatment tumor specimens were analyzed to identify biomarkers associated with treatment response. Initial bulk transcriptomic and immunohistochemistry analyses suggested links between immune activation, tissue remodeling and resistance pathways were associated with clinical outcome. To further characterize spatial and phenotypic changes at high resolution, artificial intelligence-assisted digital image analysis of hematoxylin & eosin sections and Visium spatial transcriptomics were performed on paired samples. Post-treatment specimens showed extensive remodeling of the tumor microenvironment with marked immune infiltration, stromal expansion, and altered endothelial-tumor proximity. Such alterations were associated with distinct clinical outcomes between stable disease and relapse. These findings indicate that atezolizumab reshapes the tumor microenvironment by enabling immune infiltration and remodeling stromal architecture; however, robust tumor and endothelial activity may sustain immune exclusion and drive resistance despite immune expansion. Spatial and phenotypic biomarkers identified here may inform rational combination strategies for immune checkpoint inhibitor-refractory urothelial carcinoma.

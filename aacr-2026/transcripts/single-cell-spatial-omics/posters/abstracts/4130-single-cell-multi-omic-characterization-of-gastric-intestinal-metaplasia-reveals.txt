@@ -1,0 +1,14 @@
+# Single-cell multi-omic characterization of gastric intestinal metaplasia reveals potential genetic, epigenetic and isoform signatures of lesions at high risk for GC progression
+
+**Poster #**: 4130
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Dongin Lee1, Xiangqi Bai1, Sue Grimes1, Kyungtae Lee1, Yan Wang1, Charlotte Wong1, Anuja Sathe1, Ignacio Wichmann1, Youlim Kim2, Rithika Meka1, Renee Long1, Allison Im1, Billy Lau1, Robert Huang1, Hanlee P. Ji1
+
+1Medicine, Stanford University School of Medicine, Stanford, CA,2Microbiology and Immunology, Stanford University School of Medicine, Stanford, CA
+
+---
+
+Worldwide, gastric cancer (GC) is the fifth most common malignancy and the third leading cause of cancer-related deaths. Gastric intestinal metaplasia (GIM) is a precursor lesion of GC. However, only a small number of GIM lesions progress to GC. A key challenge is identifying the genomic, molecular and cellular features of GIM that predict their risk of becoming invasive cancer. Once these features are identified, one could &#8220;intercept&#8221; patients at high risk for developing GC. We conducted a single-cell multi-omic analysis of endoscopic biopsies of GIM lesions. These patients underwent GC risk evaluation using a two-biopsy approach. We used the pathology results to determine a clinical risk stage based on the Operative Link on Gastric Intestinal Metaplasia Assessment (OLGIM). Clinical stages include I and II which are low risk versus III and IV which are high risk. Each biopsy underwent single cell RNA-seq and single cell assay for transposase accessibility of chromatin (ATAC). Therefore, we had both of these genomic readouts for each cell. In addition, we used single cell long read sequencing to identify transcript isoforms and mutations. Overall, we obtained the following single cell cell features of GIM which included: (1) gene expression, (2) chromatin accessibility, (3) copy number aberrations, (4) somatic variants, and (5) isoform expression. We compared the single cell genomics features between high-risk and low-risk groups. For example, we observed that key genes specifically expressed in intestinal-like stem cells, which are linked to potential gastric cancer-initiating cells&#8212;such as CDH17, SI and CPS1&#8212;were more highly expressed among the high-risk group, which also exhibited increased chromatin accessibility at the same genes. Furthermore, we detected differential isoform usage of gastric-related genes between the two groups, which implies that isoform changes are related to GC progression. These findings provide genomic, molecular and cellular features of GIMs that are associated with high risk of developing GC.

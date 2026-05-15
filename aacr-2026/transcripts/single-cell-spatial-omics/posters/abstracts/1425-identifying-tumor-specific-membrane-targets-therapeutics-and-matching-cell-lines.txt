@@ -1,0 +1,14 @@
+# Identifying tumor-specific membrane targets, therapeutics, and matching cell lines for experimental validation with the Multiomics2Targets2 workflow
+
+**Poster #**: 1425
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Anna  I.  Byrd, Lily  D.  Taub, Avi Ma'ayan
+
+Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY
+
+---
+
+Rapid advancements in the multi-omics profiling of tumors from cancer patients have opened up a range of possibilities for personalized target identification. To this end, we previously developed Multiomics2Targets, a platform that identifies tumor-specific membrane proteins. The tumor-specific membrane targets are highly expressed in the input RNA-seq tumor samples while lowly expressed in hundreds of normal tissues and cell types based on transcriptomics profiling atlases created from GTEx, Tabula Sapiens, and ARCHS4. To further prioritize the identified targets for conducting in-vitro and in-vivo experiments, we upgraded the Multiomics2Targets workflow with data from the Cancer Cell Line Encyclopedia (CCLE) and the Cancer Dependency Map (DepMap). From CCLE we identify correlated cell lines that also express the identified targets, and from DepMap we examine the effects of the identified targets on cell line proliferation when knocked down. We also added to the workflow drug predictions by integrating Connectivity Mapping resources from six databases. Additionally, the updated Multiomics2Targets workflow can be applied to single cell RNA-seq data, or bulk RNA-seq samples can be deconvoluted into single-cell-like profiles. The upgraded workflow also applies the tools ChEA-KG and Enrichr to identify enriched transcription factor regulatory subnetworks, pathways, associated phenotypes, and other enriched terms. The resulting figures and tables are compiled into an automatically generated report which includes introduction, methods, results, and conclusions. We demonstrate the utility of the upgraded workflow by discovering tumor subtype-specific cell-surface targets, enriched pathways, down-regulating chemical perturbations, and most similar cell lines for pancreatic adenocarcinoma tumors from the Clinical Proteomic Tumor Analysis Consortium 3 project. We validate several highly ranked targets and chemical perturbations by literature search, as well as suggest novel targets, therapeutics, and cell lines for future in-vitro and in-vivo validation experiments. The updated drug and target discovery workflow is encoded into a new software application called Multiomics2Targets2 (M2T2).

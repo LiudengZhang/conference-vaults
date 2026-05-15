@@ -1,0 +1,12 @@
+# OncoGraphDB: Rapid projections of patient-level multimodal graph database facilitates efficient exploration of tumor subtypes and identifies new combinatorial biomarkers of patient outcomes and gene essentiality
+
+**Poster #**: 4195
+**Session**: Integrative Computational Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jacob Pfeil1, Amber Tse2, Severiano Villarruel1, Emily Rossi3, Liqian Ma1, Xi Zhao1, Josue Samayoa3, Kyle Halliwill11AbbVie Bay Area, South San Francisco, CA,2Former AbbVie Bay Area Employee, South San Francisco, CA,3AbbVie Inc., North Chicago, IL
+
+---
+
+Cancer ‘omics data are often analyzed in isolation of other related data modalities despite the potential for added benefit when analyzing a multimodal model. One strategy is to include all available data, but this approach may obfuscate the underlying signal if data modalities exist in the model that do not significantly contribute to the analysis. To enable efficient exploration of multimodal data, we developed the OncoGraphDB framework to rapidly project subgraphs of a larger, all inclusive, cancer omics knowledge graph. This enabled us to identify subspaces that maximally separate patients of interest using a user-defined metric (i.e. patient survival, drug response, or predicted gene essentiality). We found that across cancer indications, gene expression data provided the most single-mode information, which is consistent with several recently published studies. However, performance was improved when predicting prognosis and shared gene essentiality scores when additional data modalities were included in the analysis, including somatic mutation signatures and DNA methylation profiles. Agentic AI was then applied to the Neo4j graph framework to support interactive interrogation of the cancer -omics knowledge graph providing domain experts an exploratory data portal for hypothesis generation. Finally, we describe the gene expression and image classifiers for projecting new patient samples onto the graph to support N-of-1 reverse translation studies. The OncographDB platform facilitates efficient exploration of complex cancer databases and provides data analysis solutions for precision medicine applications.All Authors were or are employees of AbbVie. The design, study conduct, and financial support for this research were provided by AbbVie. AbbVie participated in the interpretation of data, review, and approval of the publication. No honoraria or payments were made for authorship.

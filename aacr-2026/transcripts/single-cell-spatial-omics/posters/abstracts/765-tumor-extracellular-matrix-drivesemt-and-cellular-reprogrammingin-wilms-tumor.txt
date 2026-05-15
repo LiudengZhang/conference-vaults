@@ -1,0 +1,17 @@
+# Tumor extracellular matrix drivesEMT and cellular reprogrammingin Wilms tumor
+
+**Poster #**: 765
+**Session**: Physicochemical Modulation of Cancer Ecosystems: Mechanical Forces, Hypoxia, and Acidosis
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Wilson Yeung1, Matthew  E.  Thornton2, Hripsime Chomoyan1, David Koos1, Justin Sunwoo1, Brendan  H.  Grubbs2, Roger  E.  De Filippo3, Stefano Da Sacco3, Laura Perin3, Astgik Petrosyan3
+
+1Children's Hospital Los Angeles, Los Angeles, CA,2Keck School of Medicine of USC, Los Angeles, CA,3Children's Hospital Los Angeles/Keck School of Medicine of USC, Los Angeles, CA
+
+---
+
+Introduction: The extracellular matrix (ECM) is a dynamic component of the tumor microenvironment (TME) that orchestrates cancer progression, invasion, metastasis, and therapy resistance. Wilms tumor (WT), a pediatric renal malignancy, presents an altered ECM architecture. We investigated how WT ECM influences cellular behavior and transcriptional programs compared to normal kidney ECM.
+Methods: Spatial transcriptomics and immunohistochemistry mapped ECM localization in WT and normal kidneys. Decellularization protocols were established to completely remove cellular materials while preserving the fibrillar ECM architecture and embedded soluble matrix proteins, as validated by second-harmonic generation imaging and ECM-associated proteins profiling using a cancer biomarker antibody array. Moreover, cancer and normal cells were cultured on decellularized ECM (dECM) scaffolds of WT and normal kidney for 21 days. Cellular dynamics were monitored via two-photon microscopy, and transcriptional changes were assessed by bulk RNA sequencing.
+Results: WT ECM exhibited disorganized collagen networks and elevated levels of inflammatory markers, cytoskeletal proteins, and epithelial-mesenchymal transition (EMT) regulators. Cancer cells cultured on WT dECM upregulated EMT-related genes (e.g., FOXC2, TGFB2) and ECM remodeling enzymes (e.g., ADAMTS5), while downregulating cell cycle and integrin-associated genes. Normal cells seeded on WT dECM also adopted cancer-like transcriptional profiles, including increased expression of survival and proliferation genes (e.g., AKT3, BCL2) and decreased integrin-related gene expression.
+Conclusion: WT ECM is structurally and molecularly distinct from normal kidney ECM and actively promotes EMT, stemness, and tumor-supportive reprogramming. These findings underscore the ECM as a crucial driver of cancer progression and highlight ECM-targeted strategies as a promising therapeutic approach for combating aggressive cancers.

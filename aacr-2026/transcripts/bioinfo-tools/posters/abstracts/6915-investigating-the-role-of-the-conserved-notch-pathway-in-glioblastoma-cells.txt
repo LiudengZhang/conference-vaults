@@ -1,0 +1,12 @@
+# Investigating the role of the conserved notch pathway in glioblastoma cells
+
+**Poster #**: 6915
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Larissa Barroso1, Megan E. Keniry21University of Texas Rio Grande Valley - UTRGV, Edinburg, TX,2University of Texas Rio Grande Valley, Edinburg, TX
+
+---
+
+Glioblastoma (GBM) remains the most aggressive primary brain cancer, representing nearly 50% of all brain malignancies, with a median survival of less than 15 months. Our lab has identified a role for the FOXO4 transcription factor in maintaining a stem-like phenotype in GBM. To further investigate this novel role, we performed RNA sequencing on FOXO4 knockout U87MG cells generated in our laboratory using CRISPR Cas9 mutagenesis. We found that loss of FOXO4 in U87MG cell lines altered the expression of NOTCH3 and its downstream targets, such as CCND1. Furthermore, exogenous NOTCH3 induced CCND1 expression in U87MG cells. These preliminary findings suggest that FOXO4 transcriptional activity may influence glioblastoma aggressiveness at least in part by modulation of NOTCH3 activation. Ongoing studies aim to confirm whether the FOXO4–NOTCH3 axis is essential for maintaining stem-like states in GBM cells. Elucidating this interaction could uncover novel molecular targets for therapeutic intervention and advance our understanding of GBM pathogenesis.

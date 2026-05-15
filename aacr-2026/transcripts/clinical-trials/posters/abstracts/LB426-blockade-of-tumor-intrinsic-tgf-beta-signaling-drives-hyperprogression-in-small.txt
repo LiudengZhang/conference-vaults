@@ -1,0 +1,12 @@
+# Blockade of tumor-intrinsic TGF-beta signaling drives hyperprogression in small cell lung cancer
+
+**Poster #**: LB426
+**Session**: Late-Breaking Research: Clinical Research 4
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Anish Thomas, Brett Schroeder, Chirayu Mohindroo, Anna-Lena Meinhardt, Nobuyuki Takahashi, Rajesh Kumar, Yang Zhang, Ajit Kumar SharmaNational Cancer Institute, Bethesda, MD
+
+---
+
+Therapeutic strategies targeting TGF-beta signaling are increasingly combined with immune checkpoint blockade to overcome stromal immunosuppression, yet the tumor-intrinsic consequences of this approach remain poorly defined. We evaluated bintrafusp alfa, a bifunctional fusion protein targeting PD-L1 and TGF-beta, in a clinical trial of patients with small cell lung cancer (SCLC). Among 37 treated patients, 34 were evaluable for response: six (18 percent) achieved partial responses, seven (20 percent) had stable disease, and 21 (62 percent) experienced progressive disease. Notably, 13 of 21 patients with progression (38 percent) met criteria for hyperprogressive disease. Integrated analyses of peripheral blood, circulating tumor DNA, and pretreatment tumor biopsies revealed that clinical responses were associated with an inflamed tumor microenvironment, whereas hyperprogression was characterized by systemic immune suppression, impaired cytotoxic immune function, and unexpectedly, tumor-intrinsic activation of TGF-beta signaling and stem-like transcriptional programs. Functional studies demonstrated that intact TGF-beta receptor 2 signaling constrains tumor proliferation, indicating a context-dependent tumor-suppressive role for TGF-beta in SCLC. These findings highlight a previously underappreciated risk of tumor acceleration with TGF-beta-targeted immunotherapies and support the need for biomarker-driven patient selection as TGF-beta-directed agents continue to advance in oncology.

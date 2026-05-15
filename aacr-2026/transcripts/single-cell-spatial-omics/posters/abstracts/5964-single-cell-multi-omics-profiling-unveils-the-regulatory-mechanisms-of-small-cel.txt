@@ -1,0 +1,14 @@
+# Single-cell multi-omics profiling unveils the regulatory mechanisms of small cell lung cancer
+
+**Poster #**: 5964
+**Session**: Mechanisms and Dynamics of Gene Expression
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Charny Park1, Namhee Yu1, Jung-Hyun Kim1, Sehwa Hong1, Mihwa Hwang1, Bo Ram Song1, Sunshin Kim1, Soo Young Cho2, Beung-Chul Ahn1, Ji-Youn Han3
+
+1National Cancer Center - Korea, Goyang-si, Korea, Republic of,2Hanyang University, Seoul, Korea, Republic of,3National Cancer Center - Korea, Goyang-Si, Korea, Republic of
+
+---
+
+Small cell lung cancer (SCLC) is a highly aggressive lung cancer with an extremely poor prognosis. The mechanisms underlying its tumor progression and therapeutic strategies remain poorly understood. To address this clinical challenge, we utilized single-cell ATAC-RNA multiomic profiling to investigate clonal progression and its regulatory mechanisms. Patient-derived cells (n=73,546) were collected from pleural effusions (n=22) and categorized into tumor, stromal, lymphoid, and myeloid populations. Tumor cells exhibited progression along two clonal trajectories, characterized by ASCL1+ and NEUROD1+ subtypes. ASCL1+ cells, derived from KEAP1-mutated patients, activated the NRF2-KEAP1 pathway and ferroptosis. Notably, patients with KEAP1 mutations were diagnosed with both large-cell neuroendocrine carcinoma and SCLC. In contrast, NEUROD1+ cell evolution was associated with upregulation of G protein signaling and Rho GTPase pathways, along with neuronal development. Tumor progression regulators were identified in both ASCL1+ (FOXA1, KLF2, NR2C1, NRF1) and NEUROD1+ (PITX1, RORB) subtypes. The mechanisms of these transcription factors identified target genes, which consistently reflected tumor cell progression along distinct trajectories. Among TME cells, exhausted T cells and TREM2+ macrophages were more prevalent in longer-survival and post-treatment patients. Cell-cycle-associated cancer fibrosis was abundant in progression and shorter-survival patients. When investigating cell-cell interactions, ASCL1+ tumor clusters predominantly interacted with myeloid and stromal cells through the GAS6 and SPP1 signaling networks, while NCAM and NEGF pathways enhanced the function of NEUROD1+ tumor cells by promoting communication within neuroendocrine tumor cells. This study delineates distinct clonal trajectories in SCLC, with ASCL1+ and NEUROD1+ subtypes driving tumor progression through specific regulatory pathways. Key transcription factors were identified as pivotal drivers of tumor evolution. Immune and stromal profiles suggest that immune exhaustion and fibrosis significantly impact patient survival, underscoring potential targets for therapeutic strategies and post-treatment interventions.

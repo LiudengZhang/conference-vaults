@@ -1,0 +1,14 @@
+# Single-cell multiome sequencing reveals distinct transcriptional programs associated with ecDNA amplifications in medulloblastoma
+
+**Poster #**: 2689
+**Session**: Application of Bioinformatics to Cancer Biology 3
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Hui Hui1, Yan Yuen Lo2, Jessica Wang2, Rishaan Kenkre3, Jon D. Larson2, Sunita Sridhar4, Owen Chapman5, Lukas Chavez6
+
+1Sanford Burnham Prebys Med. Discovery Inst., La Jolla, CA,2Sanford Burnham Prebys Medical Discovery Institute, San Diego, CA,3Sanford Childrens Health Research Center, San Diego, CA,4Rady Children's Hospital, San Diego, CA,5Nagoya City University, Nagoya, Japan,6Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA
+
+---
+
+Extrachromosomal DNA (ecDNA) is a key driver of intratumoral heterogeneity and has been linked to therapeutic resistance and poor patient outcomes. However, technical limitations in identifying, isolating, and analyzing ecDNA at the single-cell level have hindered our understanding of its role in tumor development and treatment response. We have previously developed a single-cell multiome(RNA + ATAC) sequencing approach that enables the simultaneous analyses of ecDNA and its gene expression profiles. Initial application of this method in a medulloblastoma tumor of the sonic hedgehog subgroup revealed distinct transcriptional signatures in ecDNA-positive compared to ecDNA-negative and non-malignant cells. Building on these findings, we performed multiome single-cell sequencing in an additional cohort of medulloblastoma specimens harboring ecDNA amplifications. Initial analyses revealed distinct functional characteristics between ecDNA-positive and ecDNA-negative tumor cells. For example, ecDNA-positive tumor cells show up-regulation of DNA replication, recombination, and damage repair pathways, while ecDNA-negative cells demonstrated increased expression of synaptic activity, cell signaling, and morphogenesis pathways. Our ongoing analysis focuses on further defining the transcriptional programs that distinguish ecDNA-positive from ecDNA-negative tumor cells, ultimately informing future functional genetic and pharmacological studies targeting transcriptional dependencies in ecDNA-driven medulloblastoma tumors.

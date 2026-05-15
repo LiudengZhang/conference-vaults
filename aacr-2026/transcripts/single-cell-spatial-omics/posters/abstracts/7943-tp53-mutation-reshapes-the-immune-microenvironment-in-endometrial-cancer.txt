@@ -1,0 +1,14 @@
+# TP53 mutation reshapes the immune microenvironment in endometrial cancer
+
+**Poster #**: 7943
+**Session**: Tumor Microenvironment Modulators
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Konrad Snioch, Mahima Rasquinha, Dmitriy Zamarin
+
+The Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY
+
+---
+
+Gynecologic cancers account for almost 40% of all cancer cases and more than 30% of cancer-related deaths in women globally, with endometrial cancer (EC) being the most prevalent gynecological cancer in the US. Four principal molecular subtypes of EC include POLE-ultramutated, mismatch repair-deficient (dMMR), MMR-proficient (pMMR) copy-number (CN)-low cancers (TP53-wild type), and pMMR CN-high cancers (TP53 mutant). Despite the emergence of immune checkpoint blockade (ICB)as a promising treatment for many cancers, in EC only the first two subtypes (POLE and dMMR) are susceptible to immunotherapy, whereas pMMR CN-low and CN-high cancers are largely resistant. One key problem in understanding the reduced effectiveness and mechanism of action of ICB in EC is the lack of immunocompetent preclinical models that accurately recapitulate the genetics and biology of human ECs. To address this problem, we developed organoids from mice bearing conditional (LoxP-controlled) expression of the mutant genes most frequently mutated in human ECs, representative of CN-Low (PTEN-/-PIK3CAH1047R) and CN-high (PTEN-/-PIK3CAH1047Rp53R172H and PTEN-/-PIK3CAH1047Rp53-/-) endometrial cancer subtypes. Using cyclic immunofluorescence (CyCIF), we performed spatially resolved, multiplex profiling of immune populations in TP53-mutant and TP53-wild-type EC samples.TP53-mutant tumors exhibited a myeloid-enriched microenvironment, with abundant macrophages and neutrophils, while lymphoid populations were comparatively sparse. PD-L1 expression was high in these tumors, whereas PD-1 expression was minimal or absent, suggesting an immunosuppressive environment. In contrast, TP53-wild-type tumors showed a more balanced immune composition, with higher lymphoid infiltration. These results indicate that TP53 mutation is associated with a myeloid-dominant, lymphoid-poor, and PD-L1-high immune landscape in EC, highlighting potential mechanisms of immune evasion and possible targets for combination immunotherapy.

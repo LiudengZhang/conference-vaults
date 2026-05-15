@@ -1,0 +1,12 @@
+# Scientific justification for setting up an appropriate specification of residual solvent based on ICH guideline
+
+**Poster #**: 290
+**Session**: Innovative Therapeutic Modalities and Translational Platforms
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Zhanxiang Sun1, Jianqiang Li2, Lynn Wang2, Xudong Wei31Payload-Linker Department, WuXi XDC, Cranbury, NJ,2Payload-linker Department, WuXi XDC, Cranbury, NJ,3WuXi XDC, Cranbury, NJ
+
+---
+
+Residual solvents present in payload-linkers, critical intermediates in antibody-drug conjugate (ADC) manufacturing, can be challenging to fully remove during process development. This may lead to levels exceeding ICH Q3 guidelines at the payload-linker stage. To address this, XDC conducted a comprehensive scientific assessment considering toxicological data from ICH Q3C(R8), process clearance capabilities, clinical safety requirements, and conjugation reaction conditions. Based on this evaluation, scientifically justified extensions of residual solvent limits were proposed to ensure both product safety and process feasibility. Assuming certain solvents cannot be completely eliminated during manufacturing and purification, a justification framework was developed to calculate appropriate specification limits for each residual solvent. This approach incorporates safety factors and regulatory guidance to establish scientifically sound limits. The outcome provides a practical solution for cases where complete removal is technically challenging, ensuring compliance with safety standards while supporting efficient ADC development.

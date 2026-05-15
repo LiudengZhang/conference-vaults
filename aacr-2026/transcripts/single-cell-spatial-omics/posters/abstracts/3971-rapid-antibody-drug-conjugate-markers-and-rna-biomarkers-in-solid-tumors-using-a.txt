@@ -1,0 +1,17 @@
+# Rapid antibody drug conjugate markers and RNA biomarkers in solid tumors using a hybrid Ultivue InSituPlex and Protease-Free RNAscope Workflow
+
+**Poster #**: 3971
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Patrick Savickas1, AKASH PARVATIKAR2, Jack Casey2, Anushka Dikshit3, AMAN TYAGI2
+
+1Histowiz, New York, NY,23Bio-Techne Corporation, Newark, CA
+
+---
+
+Introduction: The spatial relationships between tumor cells, immune infiltrates, and the surrounding stroma&#8212;characterized by both protein expression and transcriptional activity&#8212;are critical determinants of therapeutic response and disease prognosis. Traditional spatial profiling approaches often require serial sections, compromising exact cellular co-localization, or utilize harsh processing steps that degrade target integrity. There is an urgent need for robust, high-throughput, single-slide methods to co-detect protein and RNA with high fidelity.
+Methods: We developed and validated a novel, streamlined hybrid workflow combining Ultivue&#8217;s highly multiplexed InSituPlex technology (protein detection) with Advanced Cell Diagnostics&#8217; (ACD) newly developed protease-free capability with RNAscopeTM in situ hybridization (ISH) workflow. This pairing is crucial: the protease-free ISH step prevents the degradation of critical cell surface epitopes required for robust downstream multiplex immunofluorescence (mIF) protein staining. A comprehensive panel was rapidly assembled, including key immuno-oncology protein markers for antibody drug conjugates (ex. HER2) via InSituPlex, co-detected with relevant transcriptional targets (e.g., cytokine mRNA, therapeutic target transcripts) via ISH. The assay was applied to FFPE tissue sections from Non-Small Cell Lung Cancer (NSCLC), Triple-Negative Breast Cancer (TNBC), and Gastric Cancer (GC) to demonstrate broad applicability.
+Results: We successfully achieved simultaneous, high-resolution co-localization of up to 5 protein markers and 3 RNA transcripts within a single tissue section across all three heterogeneous cancer types. The protease-free pre-treatment maintained optimal tissue and epitope morphology, enabling exceptional signal-to-noise ratios for both protein and RNA channels. Critically, this combined multi-omic readout allowed for the precise spatial phenotyping of cell populations (e.g., CD8+ T cells co-expressing specific cytokine mRNA) and the assessment of spatial proximity between cells defined by combined protein/transcriptional signatures. The modularity of the Ultivue assay allowed for rapid assembly and substitution of antibody panels, enabling high-speed assay optimization.
+Conclusion: This innovative, combined Ultivue InSituPlex and protease-free ACD ISH assay provides a powerful, single-slide platform for spatially resolved multi-omic analysis. It overcomes the technical limitations of traditional sequential staining, offering a high-throughput, high-fidelity tool that can be rapidly deployed for complex biomarker validation, detailed tumor microenvironment characterization, and improved patient stratification strategies in translational oncology and clinical trials.

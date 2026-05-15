@@ -1,0 +1,14 @@
+# Spatial metabolic gradients drive epigenetic reprogramming in human glioblastoma
+
+**Poster #**: 816
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Sankha Subhra Chakrabarty1, Yilin Xu1, Shannon Coy1, Jia-Ren Lin2, Dimitrius Tansini Pramio3, Pilar Baldominos4, Clement Bodineau5, Nathalie  Y.   R.  Agar6, Judith Agudo7, Marcos Simoes-Costa8, Keith  L.  Ligon9, Peter Karl Sorger2, Sandro Santagata1
+
+1Laboratory of Systems Pharmacology/Pathology, Harvard Medical School/Brigham and Women's Hospital, Boston, MA,2Harvard Medical School, Boston, MA,3Harvard Medical School/Boston Children's Hospital, Boston, MA,4Harvard Medical School/Dana-Farber Cancer Institute, Boston, MA,5Harvard Medical School/Brigham and Women's Hospital, Boston, MA,6Department of Neurosurgery, Harvard Medical School/Brigham and Women's Hospital, Boston, MA,7Dana-Farber Cancer Institute, Boston, MA,8Systems Biology/Pathology, Harvard Medical School/Boston Children's Hospital, Boston, MA,9Assistant Professor of Path., Dept. of Med. Onc., Dana-Farber Cancer Institute, Boston, MA
+
+---
+
+Human glioblastoma (GBM) contains sharp spatial transitions in oxygen tension, metabolism, and lineage organization, yet how these microenvironmental cues become epigenetically encoded at the chromatin level remains poorly understood. Using cyclic immunofluorescence (CyCIF) on human IDH-wildtype GBM specimens enriched for necrosis, we mapped tumor cell lineages and histone H3K18 lactylation (H3K18la) at single-cell resolution. Necrotic and hypoxic regions displayed distinct lineage organization and elevated H3K18la, consistent with increased glycolytic flux and lactate accumulation under oxygen deprivation. In patient-derived GBM cell lines, hypoxia-mimetic treatment with deferoxamine (DFX) recapitulated this epigenetic response. RNA-sequencing and CUT&#38;RUN profiling revealed that H3K18la associates with activation of hypoxia and epithelial-to-mesenchymal transition-related transcriptional programs, along with repression of cell-cycle and mitotic regulators. Together, these findings demonstrate how spatial metabolic gradients shape chromatin states and transcriptional networks in GBM, highlighting lactylation as a mechanism by which microenvironmental stress becomes epigenetically encoded and manifested as lineage-specific transcriptional adaptation.

@@ -1,0 +1,22 @@
+# Advancing high-plex spatial proteomics using cleavable fluorophores and automated multiplex cycling
+
+**Poster #**: 4165
+**Session**: Digital Pathology 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Alyssa Hernandez, Danielle Fails
+
+Bethyl Laboratories, Inc., Montgomery, TX
+
+---
+
+Introduction:
+Understanding the spatial distribution of proteins within tissue microenvironments is essential for studying immune responses, tissue organization, and disease processes. High-plex spatial proteomics enables detailed mapping of multiple biomarkers on a single tissue section, but traditional methods can be limited by spectral overlap and fluorophore stability. Parahelia&#8217;s automated staining workflow delivers a gentle heating step designed to maintain tissue structure over multiple staining rounds.
+Methods:
+Human formalin-fixed paraffin-embedded (FFPE) tissues were used to develop a high-plex workflow integrating Spatomics&#8217; CFP technology with automated staining and imaging by using the Parhelia Spatial Station and the Phenoimager HT. Numerous protein targets can be stained using CFPs, which generates strong, localized fluorescence through an HRP-catalyzed reaction between the CFT and nearby residues. After imaging, the fluorescent tags are efficiently cleaved and HRP is deactivated, allowing repeated cycles without compromising tissue quality or antigenicity. The Parhelia Spatial Station enables multiple samples to be processed simultaneously, automating fluid handling and antibody staining through gentle capillary laminar flow to standardize workflow and minimize variability, while the Phenoimager provides high-resolution, quantitative imaging across cycles.
+Results:
+Iterative staining and cleavage cycles produced clean signal reset between rounds with consistent biomarker detection maintained throughout the workflow. Imaging confirmed distinct signals for all targets, supporting the robustness and reproducibility of the workflow. The combined use of Spatomics&#8217; CFP chemistry, the Parhelia Spatial Station, and the Phenoimager HT enabled repeated staining and imaging on the same FFPE section, allowing a diverse set of protein markers to be visualized within a single slide. Consolidating multiple cycles into one tissue section reduced the number of slides required and increased the amount of spatial information obtainable from limited samples.
+Conclusion:
+This study demonstrates combining Spatomics&#8217; CFP patented chemistry with automated staining and high-resolution imaging. This workflow maintains tissue integrity, sensitivity, and reproducibility, offering a robust platform for spatial biomarker discovery and translational oncology research.
+References: Pham, T., Nazaroff, C., Labaer, J., &#38; Guo, J.* Ultrasensitive and multiplexed protein imaging with cleavable fluorescent tyramide and antibody stripping. Int J Mol Sci. 2021;22:8644. Pham, T., Liao, R., Labaer, J., &#38; Guo, J.* Multiplexed in situ protein profiling with high-performance cleavable fluorescent tyramide. Molecules. 2021;26:2206. Nadezhda, N., et al. Validation of an automated PhenoCycler-Fusion slide staining protocol on the Parhelia Spatial Station&#8482;. 2024.

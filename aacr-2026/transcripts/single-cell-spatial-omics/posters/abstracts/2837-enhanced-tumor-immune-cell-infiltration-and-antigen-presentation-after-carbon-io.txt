@@ -1,0 +1,15 @@
+# Enhanced tumor immune cell infiltration and antigen presentation after carbon ion radiotherapy correlates with curative outcomes
+
+**Poster #**: 2837
+**Session**: Immune Mechanisms Invoked by Other Therapies and Exposures
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Matilde Recusani1, Sarah Meister1, Federica Ciamarone1, Julian Schlegel1, Ralph Sinn2, Carmen Klein3, Jennifer Furkel1, Aoife Gahlawat1, Christel Herold-Mende4, Max Knoll1, Michael Breckwoldt2, Dirk Jaeger5, Juergen Debus6, Amir Abdollahi1
+
+1Translational Molecular Radiooncology, DKFZ, Heidelberg, Germany,2Neuroradiology Department, University Hospital Heidelberg, Heidelberg, Germany,3Translational Radiation Oncology, NCT, Heidelberg, Germany,4Neurosurgical Research, University Hospital Heidelberg, Heidelberg, Germany,5Dir.,  Dept. of Medical Onc., Heidelberg University Hospital (UKHD), Heidelberg, Germany,6Heidelberg Ion-Beam Therapy Center (HIT), Heidelberg, Germany
+
+---
+
+Limited immune cell infiltration and deficient presentation of neoepitopes and tumor-associated antigens (TAA) via major histocompatibility complex class I (MHC-I) represent key barriers to effective immunotherapy. This study investigates whether particle radiotherapy (RT) can modulate tumor antigen presentation and T cell recruitment. By evaluating protons, helium, carbon, and oxygen ions, we assessed how distinct biophysical properties&#8212;particularly ionization density (linear energy transfer, LET)&#8212;influence immune priming. To this end, we evaluated the induction of MHC-I expression in a comprehensive panel of human tumor cell lines (CaSki, SK-MEL-37, A549, PC3, LNCaP), as well as in B16-F1 melanoma, GL261 and 005 genetically engineered glioblastoma models in syngeneic C57BL/6 mouse. Flow cytometry revealed MHC-I upregulation is time-, dose-, and LET-dependent. The role of the cGAS-STING pathway was confirmed using isogenic STING-KO B16 cells, which exhibited reduced RT-induced MHC-I expression. In vivo, high-LET carbon ion irradiation (CIRT) resulted in enhanced tumor MHC-I expression and increased intratumoral infiltration of CD3&#8314; and CD8+ T cells. Adoptive transfer of Superparamagnetic Iron Oxide Nanoparticles (&#8220;SPION&#8221;)-labeled T cells, followed by high-field MRI tracing, confirmed enhanced intratumoral influx after fractionated (5 &#215; 3 Gy) and single ultra-High Dose Rate (uHDR, FLASH) CIRT. Further characterization of tumor-infiltrating lymphocyte (TIL) composition and immunological memory was performed using single-cell RNA sequencing and mass cytometry (CyTOF). Collectively,
+these data indicate that modulating RT quality can improve neoantigen expression, MHC-I presentation, and T cell recruitment, highlighting the potential of particle radiotherapy to reprogram the tumor immune microenvironment.

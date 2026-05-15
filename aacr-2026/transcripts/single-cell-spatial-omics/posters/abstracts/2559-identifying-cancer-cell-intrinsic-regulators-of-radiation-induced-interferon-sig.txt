@@ -1,0 +1,14 @@
+# Identifying cancer cell intrinsic regulators of radiation-induced interferon signaling
+
+**Poster #**: 2559
+**Session**: Immunomodulatory Effects of Targeted Therapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Olivia Kaneko1, Bon Ham Yip1, Arnav Mehta2, Nir Hacohen2, Ryan J. Park1
+
+1Experimental Radiation Oncology, MD Anderson Cancer Center, Houston, TX,2Broad Institute, Cambridge, MA and Massachusetts General Hospital, Charlestown, MA, Charlestown, MA
+
+---
+
+Induction of anti-tumor immunity by radiation therapy (RT) has been observed in multiple preclinical models and in selected patients and can lead to durable systemic tumor regression. Modulation of anti-tumor immunity by RT is thought to act primarily via cGAS-STING activation leading to type I interferon (IFN) response pathways, which coordinate T cell priming and recruitment and adaptive resistance such as PD-L1 induction. Individual studies have demonstrated both immune activating and immune suppressive effects of RT in various contexts, and the determinants of this wide variability are poorly understood. Discovering divergent and convergent mechanisms of type I IFN response to RT across diverse cancer cell states may thus define biomarkers and treatment strategies to enhance RT-driven immune activation. We treated 100 human cancer cell lines with 2 Gy or 8 Gy RT or the STING agonist DiABZI and performed single cell RNA sequencing. We scored cell lines using a composite of IFN response genes as well as individual IFN response genes including ISG15, MX1, CXCL10 and IFNB. We then selected four cell lines with high radiation-induced IFN response for mechanistic studies: two derived from pancreatic ductal adenocarcinoma and two from breast carcinoma. We observed distinct kinetics of ISG15 and MX1 activation between 2 Gy and 8 Gy RT and DiABZI as well as between cell lines. Notably, knockout of STING abrogated DiABZI response but paradoxically increased ISG15 induction by radiation in MDA-MB-231, but not SUIT-2. Our study highlights wide variability among cancer cell states in modulation of IFN response signatures by radiation and emphasizes the need to elucidate mechanisms of radiation-induced immune activation and suppression across diverse cancer types.

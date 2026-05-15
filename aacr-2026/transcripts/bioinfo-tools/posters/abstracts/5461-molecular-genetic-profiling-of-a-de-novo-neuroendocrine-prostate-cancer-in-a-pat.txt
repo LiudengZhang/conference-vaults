@@ -1,0 +1,12 @@
+# Molecular genetic profiling of a de novo neuroendocrine prostate cancer in a patient-derived xenograft (PDX) and organoid model from an African ancestry patient
+
+**Poster #**: 5461
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Tej Sharma, Surendra Gulla, Sasikumar Ponnusamy, Abbas Jawadwala, Ephraim Gardner, Roberto Pili, Maddie Aust, John Bodkin, John Tomaszewski, Remi-adelaya OgalaJacobs School of Medicine and Biomedical Sciences, Buffalo, NY
+
+---
+
+Patient-derived xenograft (PDX) and organoid (PDO) models are powerful tools to study how prostate cancer (PCa) develops and responds to treatment, especially in populations that are often underrepresented. In this study, we report the first de novo neuroendocrine prostate cancer (NEPC) case from an African American male who had localized disease with no prior treatment before surgery. The tumor was classified as pT2N0, Gleason score 7 (4+3), and had a PSA level of 3.6. A portion of the patient's tumor tissue was used to generate PDX and PDO models, and another portion was used for downstream molecular analyses. To identify genetic changes driving aggressive tumor behavior, we performed whole-exome sequencing on DNA from the primary tumor and the first passage of the associated PDX model generated (p0) using the Illumina Exome Kit and the Twist Biosciences Exome Panel 2.0. Bioinformatic analysis was performed using Nextflow pipelines (nf-core/sarek) to detect somatic single-nucleotide variants (SNVs), mutations, structural variants, and copy number variations (using CNVkit). Our results reveal variant annotation links of genetic changes associated with PCa progression. Western blot analysis and immunohistochemistry (IHC) demonstrated increased expression of neuroendocrine markers, SYP. Furthermore, we observed similar mutations and copy number changes in genes previously reported in NEPCs. Moreover, novel markers provide deeper insight into molecular drivers of prostate cancer and could guide the development of targeted treatments for aggressive, high-risk localized PCa.

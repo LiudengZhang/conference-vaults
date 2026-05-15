@@ -1,0 +1,12 @@
+# GenerAItive: An AI system for interpretation of gene expression analyses in cancer
+
+**Poster #**: 19
+**Session**: Agentic AI in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Muiz Khan, Alan Carbajo, Sorin DraghiciComputer Science, Wayne State University, Detroit, MI
+
+---
+
+High-throughput cancer studies are increasingly generating transcriptomic datasets of substantial size and complexity, prompting the adoption of systems biology approaches in medical research. Because transcriptomics analyses can yield thousands of differentially expressed genes (DEGs), enriched gene-sets, pathways, and associated regulators, pinpointing drivers of important biological processes is often time-consuming and challenging. To address this, we developed GenerAItive, an agent-based artificial intelligence (AI) that interprets gene expression analyses from iPathwayGuide, a widely used bioinformatics platform that reveals statistically significant downstream gene-sets, pathways, diseases, and upstream regulators. Our system retrieves iPathwayGuide output data and iteratively analyzes each result layer—including top DEGs, enriched gene sets (MSigDB, Gene Ontology), impacted pathways (KEGG), predicted upstream regulators (genes, miRNAs, chemicals), and associated diseases—using task-specific reasoning agents. These AI agents can investigate and interpret results that are most relevant in biological context, retrieving supporting evidence from literature and pathway analyses, and synthesizing them through large-language model reasoning to produce clear mechanistic explanations of how gene expression changes affect cancer-related processes. In testing, our system produced accurate, literature-supported interpretations of pathway activation, predicted regulators, and downstream effects. It also reproduced established findings in cancer datasets without prior exposure to those studies. These results suggest that generative AI can aid in interpretation of transcriptomic data, reduce overlooked relationships, and help researchers understand complex biological signals more quickly.

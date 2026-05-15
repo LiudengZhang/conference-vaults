@@ -1,0 +1,14 @@
+# Interplay between HIF-1&#945; and HIF-2&#945; modulates TNBC phenotypes
+
+**Poster #**: 7310
+**Session**: Hypoxic and Proteotoxic Stress Response
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Aleksandra  K.  Kurowska, Long Chi Nguyen, Madeline Henn Bungert, Marsha Rich Rosner
+
+The University of Chicago, Chicago, IL
+
+---
+
+Hypoxia-driven adaptation is a central feature of triple-negative breast cancer (TNBC) and contributes to its aggressive behavior. TNBC lacks ER, PR, and HER2 expression, which limits targeted treatment options. Hypoxia-inducible factors (HIFs), particularly the HIF-1&#945; and HIF-2&#945; isoforms, orchestrate the transcriptional response to low oxygen to maintain survival and metabolic programs, making them attractive therapeutic targets. HIF-1&#945; is the main hypoxic responder in TNBC, but efforts to target it have failed in the clinic. The FDA approval of the HIF-2&#945; inhibitor belzutifan for kidney cancer makes it urgent to determine whether inhibition may be effective in other solid tumors. Although HIF-1&#945; and HIF-2&#945; share some targets, their functions vary by cancer type, and the significance of HIF-2&#945; in TNBC remains unclear. To address this, we investigated the individual and combined contributions of HIF-1&#945; and HIF-2&#945; in TNBC. Here, we show that HIF-2&#945; is an important regulator in TNBC, in part due to previously unrecognized redundant or compensatory interactions between the two isoforms. Dual knockout of HIF-1&#945; and HIF-2&#945; did not further inhibit tumor growth compared to single knockouts, indicating functional overlap. Notably, HIF-2&#945; acted antagonistically to HIF-1&#945; and limited pro-metastatic effects, as HIF-2&#945; knockout tumors showed increased metastatic burden in a syngeneic mouse model. This phenotype was supported by scRNA-seq analysis, which revealed elevated EMT hallmark signatures in HIF-2&#945;-deficient xenograft tumors, and by in vitro observations where HIF-2&#945;-deficient cells displayed a more invasive morphology. Some HIF-2&#945; functions are context-specific and further shaped by the tumor microenvironment. Together, our findings reveal that HIF-1&#945; and HIF-2&#945; engage in redundant, compensatory, or antagonistic interactions dependent on the specific pathway. Thus, both factors contribute to stress responses, but HIF-2&#945; also exhibits cancer-intrinsic functions that may potentially counteract the pro-metastatic effects of HIF-1&#945;. Overall, these findings reveal the nuanced roles of HIF isoforms in tumor progression and highlight the need for careful consideration of HIF-2&#945; targeting in TNBC therapy.

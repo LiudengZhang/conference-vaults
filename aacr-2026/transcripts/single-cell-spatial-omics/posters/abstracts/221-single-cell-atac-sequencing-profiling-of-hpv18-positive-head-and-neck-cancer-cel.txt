@@ -1,0 +1,17 @@
+# Single-cell ATAC-sequencing profiling of HPV18 positive head and neck cancer cells reveals heterogeneity of HPV18 genome accessibility and its association with cancer progression
+
+**Poster #**: 221
+**Session**: Virology and Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Chongwen Cao1, Weiyi Gong2, Haichang Li2, Bo Zhao3, Qingqing Wu2, Priyanka Bhateja2, Dukagjin Blakaj2, Jenny Li2, Xuefeng Liu1
+
+1The Ohio State University, Columbus, OH,2The Ohio State University College of Medicine, Columbus, OH,3Brigham and Women's Hospital, Boston, MA
+
+---
+
+Background: HPV is a major oncogenic driver of head and neck cancers (HNC). However, the epigenomic heterogeneity of the HPV genome&#8212;particularly single-cell chromatin accessibility patterns&#8212;and its relevance to cancer progression remain unclear. This study characterizes the chromatin-accessibility landscape of patient-derived HPV positive HNC cells to identify regulatory signatures associated with tumor heterogeneity and potential aggressive subpopulations.
+Methods: Primary HPV18&#8314; HNC cells were generated using the conditional reprogramming cell method from patient tumor biopsies. Single-cell ATAC-sequencing was performed to assess chromatin accessibility using a combined human-HPV18 reference genome. Accessibility patterns across the HPV18 genome were encoded by a binary peak matrix. We applied UMAP on genome-wide accessibility profiles and used kernel density estimation to examine the distribution of cells with distinct HPV18 peaks. Differential accessibility, peak-to-gene linkage, and pathway-enrichment were performed across HPV18 accessibility groups.
+Results: We identified three major accessible peaks within the HPV18 genome. Cells positive for Peak 1 or Peak 3 showed a dispersed, unbiased distribution on UMAP, whereas Peak 2-positive cells were strongly enriched in discrete clusters, suggesting that accessibility of this peak represents a key marker of intratumoral heterogeneity. We also observed heterogeneous HPV18 integration linking different HPV18 peaks to distinct human genomic loci across cells from the same patient, associated with locus-specific accessibility changes. Sequencing-depth analysis confirmed that differences in HPV18 peak patterns were biological rather than technical artifacts. Peak-to-gene linkage analysis revealed that UGGT1 and COL5A1 transcription start sites were more accessible in the Peak-2-positive subpopulation. Both genes correlate with poor prognosis in cervical cancer and HNC based on TCGA data. Pathway enrichment demonstrated activation of programs associated with neuron migration, epithelial morphogenesis, and tissue morphogenesis, indicating that this subpopulation may possess enhanced invasiveness and stemness features.
+Conclusions: This study provides the first single-cell chromatin accessibility map of patient-derived HPV18&#8314; HNC cells and reveals substantial heterogeneity within the HPV18 viral genome. A specific HPV18-accessible peak (Peak 2) marks a distinct, potentially aggressive cellular subpopulation characterized by accessibility of poor-prognosis-associated genes and stemness-related pathways. These findings highlight a novel viral-epigenomic marker that may contribute to HNC progression and could be explored for prognostic or therapeutic applications.

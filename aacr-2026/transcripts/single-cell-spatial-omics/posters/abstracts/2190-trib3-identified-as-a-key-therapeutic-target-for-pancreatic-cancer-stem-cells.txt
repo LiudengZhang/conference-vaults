@@ -1,0 +1,18 @@
+# Trib3 identified as a key therapeutic target for pancreatic cancer stem cells
+
+**Poster #**: 2190
+**Session**: Metabolic and Transcriptional Control of Cancer Stem Cell Plasticity
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Nirjhar M. Aloy1, Kyle McAndrews2, Adam Zulli1, Kathryn Baldwin1, Kristine Von Maltzan1, Sarah Thayer1
+
+1Surgery, LSU Health Shreveport (LSUHS), Shreveport, LA,2University of Nebraska Medical Center, Omaha, NE
+
+---
+
+Background: Pancreatic ductal adenocarcinoma (PDAC) is among the most lethal cancers, exhibiting early dissemination and chemoresistance. These features are attributed to a specialized subpopulation of cancer stem cells (CSCs). Our lab has defined the cell of origin for PDAC within the pancreatic duct gland (PDG) stem cell compartment, a region crucial for epithelial renewal. Creation and maintenance of the CSC pool is hypothesized to underlie aggressive tumor biology, but transcriptional networks in this compartment remain poorly characterized.
+Objective: To define molecular pathways unique to pancreatic cancer stem cells (CSCs) that can be exploited as targeted therapies to eradicate CSCs while sparing normal pancreatic stem cells.
+Methods: Genetically engineered mouse models and single-cell RNA sequencing were used to trace and compare CSC-enriched (TTKS) and normal (TT) PDG organoids. Key findings were validated in other mouse and human PDAC models.
+Results: Single-cell analysis revealed broad upregulation of stem cell and CSC markers (Mthfd2, Slc7a5, Gadd45a), supporting conserved stem-like signatures in CSCs. Twelve genes were uniquely upregulated in PDAC CSCs, revealing new CSC-selective pathways. Trib3 was most strongly and widely upregulated among these, with multiple downstream regulators (&#946;-catenin, FOXO1, ATF4) also enriched, indicating robust Trib3-driven network activation.
+Conclusion: Identification of a discrete PDG stem cell origin for PDAC enables detailed interrogation of CSC biology. Our model demonstrates that PDAC CSCs activate unique survival and adaptation pathways, with Trib3 emerging as a central regulator. Collectively, this provides new mechanistic insight and positions Trib3 as a compelling CSC-targeted therapeutic candidate.&#8203;&#8203; Work is going on to understand the biological role of Trib3 in progression of CSCs in PDAC.

@@ -1,0 +1,17 @@
+# Spatial transcriptomic features associated with response to neoadjuvant therapy in triple-negative breast cancer
+
+**Poster #**: 3968
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Shiqing Liao, Teia Noel, Joseph Lownik, Pavithra Nedumaran, Yoona Yang, Richard Mebane, Aagam Shah, Andrew Martinez, Akil  A.  Merchant, Simon Knott
+
+Cedars-Sinai Medical Center, Los Angeles, CA
+
+---
+
+Background: The KEYNOTE-522 trial established pembrolizumab plus neoadjuvant chemotherapy as a standard for early-stage triple-negative breast cancer (TNBC) by significantly improving pathologic complete response (pCR) and event-free survival. Yet biomarkers predicting response and the biology underlying residual disease&#8212;particularly the divergent outcomes observed among patients with residual cancer burden class 2 (RCB2) from chemotherapy only and chemotherapy plus immunotherapy&#8212;remain poorly defined. We hypothesized that spatial cellular architectures at diagnosis, and their longitudinal remodeling with therapy, govern TNBC treatment response and resistance.
+Methods: We performed single-cell resolution spatial transcriptomic profiling on 131 diagnostic biopsies, 161 resection specimens, and 38 metastatic lesions from patients treated with neoadjuvant chemotherapy with or without pembrolizumab, including 50 paired pre/post-treatment samples for longitudinal analysis. A 60-marker spatial proteomic panel provided cross-modality validation. Spatial features, including cell-type abundance, co-localization, tumor-immune interface structure, and niche organization, were evaluated across pCR versus non-pCR groups, RCB classes (0-3), and longitudinal transitions within each therapeutic arm.
+Results: Across 6 pathologist-annotated histologic regions, we resolved 17 major cell types, 72 gene-defined subtypes, and 96 spatial communities. Early analyses highlight contrasting CD8&#8314; T-cell spatial states: intra-tumoral CD8&#8314; infiltration characterizes responders, whereas stromal-restricted CD8&#8314; localization, together with CD33&#8314; myeloid programs, marks non-response and T-cell exclusion. Additional cohort-specific variation was observed in fibroblast density, stromal architecture, and myeloid-lymphoid proximities. Integrating diagnostic and longitudinal spatial features, we are developing an interpretable spatial risk score to distinguish treatment response and RCB class.
+Conclusions: This study represents one of the largest integrated spatial transcriptomic and proteomic analyses of TNBC neoadjuvant therapy to date. Emerging patterns suggest that cytotoxic T-cell access to tumor nests marks effective anti-PD-1 response, whereas fibroblast-driven stroma and myeloid-mediated exclusion underlie resistance. These insights provide a roadmap for designing combination therapies to overcome stromal and myeloid barriers to neoadjuvant immunotherapy.

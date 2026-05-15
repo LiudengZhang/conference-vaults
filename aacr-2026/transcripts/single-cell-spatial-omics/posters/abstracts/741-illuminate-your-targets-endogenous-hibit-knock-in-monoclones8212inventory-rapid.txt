@@ -1,0 +1,16 @@
+# Illuminate your targets: Endogenous HiBiT knock-in monoclones&#8212;inventory + rapid custom
+
+**Poster #**: 741
+**Session**: Noninvasive Imaging and Analysis of Animal and Tissue Models
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Xiaomeng Gou, Yue Huang, Yu Wang, jinying Ning, Feng Hao
+
+Kyinno Biotechnology Co., LTD, Beijing, China
+
+---
+
+Background &#38; significance &#8212; applications HiBiT is an 11-aa tag that complements LgBiT to reconstitute NanoLuc, delivering a bright, linear bioluminescent readout that scales with target protein abundance. Compared with Western blot-centric workflows, endogenous HiBiT knock-ins enable real-time, quantitative kinetics under native regulation, accelerating mechanism confirmation, potency ranking, SAR, and combination design across modalities&#8212;PROTACs, molecular glues, LYTACs, and AbTACs.
+Kyinno case series &#8212; what&#8217;s in the panel (representative scope) Kyinno has established a broad, ready-to-run portfolio of HiBiT-KI monoclonal cell lines covering more than 30 endogenously tagged genes across diverse biological categories&#8212;oncogenic signaling, kinases, transcription factors, and E3-amenable targets. These include representative nodes such as KRAS, CDK family members, PRMT5, EGFR, AR, BRD family proteins, EZH2, STATs, and so on. The panel thus provides comprehensive coverage of major target classes relevant to targeted protein degradation, signal transduction, and transcriptional regulation. Rapid custom knock-in (N- or C-terminal) further extends the platform to program-specific targets and variants, allowing teams to start immediately with inventory models or quickly obtain bespoke constructs.
+Methods &#38; deployment &#8212; how it works now We implement a dual-stable system: (i) genome-integrated LgBiT to minimize signal drift, and (ii) CRISPR-Cas9 HDR to precisely insert HiBiT at endogenous loci while preserving gene dosage and protein function. Single-cell clones are sequence-verified, STR-authenticated, and mycoplasma-free. Standardized NanoLuc assays (10-point curves, 72-96 h or live kinetic) output quantitative degradation/turnover trajectories with plate-to-plate comparability. This platform compresses assay setup from weeks to days, unifies readouts across targets and hosts, and provides a scalable path from hit triage to translational method transfer&#8212;bringing HiBiT quantitation everywhere you need it.

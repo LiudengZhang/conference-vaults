@@ -1,0 +1,14 @@
+# Tumor-intrinsic miR-21a orchestrates Treg-mediated immunosuppression through Pag-1 repression
+
+**Poster #**: 7402
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yufei Deng1, Wenyan Han2, Zhaoyang Jia2, Lujing Wu2, Na Li2, Lingling Wang2, Tariq M. Rana2, Zhouting Zhu3
+
+1Cancer and Cell Biology program, Graduate School of Biomedical Science, Baylor College of Medicine, Houston, TX,2Department of Cellular and Molecular Medicine, University of California San Diego, La Jolla, CA,3Graduate School of Biomedical Sciences, Sanford Burnham Prebys Institute, La Jolla, CA
+
+---
+
+Immune checkpoint blockades (ICBs) such as anti-PD-1 and anti-CTLA-4 achieve durable responses in some cancers but fail in many patients, highlighting the need for additional immune modulators. Through comparative small RNA profiling of ICB-treated mouse tumors, we identified miR-21a as highly upregulated during combination immunotherapy. To define its tumor-intrinsic function, we generated CRISPR-Cas9 miR-21a knockout (KO) models in melanoma (B16F10, YUMM1.7), colorectal (MC38, CT26), and triple-negative breast cancer (4T1). Despite unchanged in vitro proliferation, miR-21a KO tumors exhibited markedly reduced growth in vivo, even without anti-PD-1 therapy, demonstrating its broad pro-tumorigenic role across cancer types. Single-cell RNA sequencing of MC38 KO tumors revealed reprogramming of regulatory T cells (Tregs) toward a less suppressive phenotype. Mechanistically, Pag-1 (phosphoprotein associated with glycosphingolipid microdomains 1) was identified as a direct target of miR-21a, and its de-repression in KO tumors contributed to enhanced immune activation. These findings uncover miR-21a as a conserved tumor-intrinsic immune regulator that orchestrates Treg-mediated immunosuppression through Pag-1, providing a promising therapeutic axis to improve immunotherapy efficacy.

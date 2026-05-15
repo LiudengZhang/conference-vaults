@@ -1,0 +1,6033 @@
+WEBVTT
+
+1
+00:00:00.140 --> 00:00:02.360
+Good morning, everyone. I think we'll go ahead and get started.
+
+2
+00:00:02.400 --> 00:00:06.300
+Thanks for grabbing your coffees and getting here early for this 8:00 AM session.
+
+3
+00:00:06.340 --> 00:00:07.400
+We appreciate it. This is
+
+4
+00:00:08.440 --> 00:00:11.940
+Educational Session Two, Senescence in Cancer. I'll be your chair.
+
+5
+00:00:12.000 --> 00:00:15.400
+I'm Marcus Versetti, coming from UMass Chan Medical School.
+
+6
+00:00:15.480 --> 00:00:19.020
+Just to go over some logistics, this is a 90-minute session broken into
+
+7
+00:00:19.100 --> 00:00:22.860
+30-minute increments. Each speaker will have 20 minutes presentation,
+
+8
+00:00:22.960 --> 00:00:26.820
+10 minutes for question. And we encourage a lot of discussion, so please either
+
+9
+00:00:26.860 --> 00:00:30.760
+come up to the mics for the question, or you can scan this QR code
+
+10
+00:00:30.780 --> 00:00:33.920
+or use the app and we can read your questions online as well.
+
+11
+00:00:34.000 --> 00:00:36.820
+So we encourage you to have a great discussion with us.
+
+12
+00:00:38.300 --> 00:00:39.580
+One little hiccup, so unfortunately,
+
+13
+00:00:40.440 --> 00:00:43.660
+Jennifer, who was our first speaker, had an issue with her flight, so she can't
+
+14
+00:00:43.700 --> 00:00:47.420
+make it in person, but luckily, she was able to record her talk.
+
+15
+00:00:47.480 --> 00:00:51.380
+So you'll see her recorded talk. And Drew Pardal, one of her colleagues,
+
+16
+00:00:51.420 --> 00:00:53.040
+will be answering questions for her.
+
+17
+00:00:53.120 --> 00:00:55.700
+So we really appreciate Drew stepping in.
+
+18
+00:00:56.940 --> 00:01:00.160
+And I'm also joined by my colleague, Clement Smith, as well.
+
+19
+00:01:01.220 --> 00:01:04.901
+Just a quick intro to senescence. We know the field has really
+
+20
+00:01:04.940 --> 00:01:07.740
+changed dramatically over the last 20 years.
+
+21
+00:01:07.880 --> 00:01:11.620
+First described as a cell cycle arrest pathway, we know it to be a
+
+22
+00:01:11.740 --> 00:01:15.040
+potent tissue remodeler, immune remodeler with both pro and
+
+23
+00:01:15.100 --> 00:01:18.320
+anti-tumorigenic effects in cancer.
+
+24
+00:01:18.420 --> 00:01:21.460
+The development of single-cell and spatial technologies now, and also senescence
+
+25
+00:01:21.520 --> 00:01:25.400
+reporter mice, have really allowed us to dive in to this heterogeneity where we can
+
+26
+00:01:25.440 --> 00:01:28.120
+find basically any cell in the body can undergo senescence
+
+27
+00:01:29.180 --> 00:01:32.820
+from stresses we get every day or stresses that accumulate over a lifetime,
+
+28
+00:01:33.400 --> 00:01:35.840
+and they can impact cancer therapies as well.
+
+29
+00:01:36.000 --> 00:01:39.800
+So our hope is that dissecting the mechanisms by which senescent cells contribute
+
+30
+00:01:39.860 --> 00:01:43.420
+to progression or clearance, we can design rational therapies you might have heard
+
+31
+00:01:43.540 --> 00:01:47.400
+of called senolytics or senomorphics to target senescence to make it
+
+32
+00:01:47.420 --> 00:01:48.420
+more tumor suppressive.
+
+33
+00:01:49.560 --> 00:01:52.280
+As you'll see from the speakers today, I think it also takes a lot of
+
+34
+00:01:52.340 --> 00:01:55.620
+multidisciplinary approaches from different cancer spaces to really
+
+35
+00:01:55.680 --> 00:01:58.460
+tackle this complex question of
+
+36
+00:01:58.480 --> 00:02:00.660
+senescence in cancer.
+
+37
+00:02:01.680 --> 00:02:04.300
+So we will get started with our first talk today from Dr.
+
+38
+00:02:04.520 --> 00:02:08.480
+Jennifer Elisseeff, who is Professor of Biomedical Engineering at John Hopkins
+
+39
+00:02:08.539 --> 00:02:12.480
+University. Her talk will be a great intro to our
+
+40
+00:02:12.520 --> 00:02:16.260
+session on defining senescence and implications for cancer.
+
+41
+00:02:20.880 --> 00:02:23.740
+Good morning. I'm sorry I'm not there in person.
+
+42
+00:02:24.000 --> 00:02:27.540
+I had some flight challenges on the last flights
+
+43
+00:02:28.620 --> 00:02:32.400
+heading from East Coast. So, unfortunately, I'm
+
+44
+00:02:32.420 --> 00:02:36.220
+recording, not there in person, but I did plant a collaborator
+
+45
+00:02:36.400 --> 00:02:37.080
+in the audience
+
+46
+00:02:38.000 --> 00:02:40.020
+to answer any questions that may come up.
+
+47
+00:02:40.700 --> 00:02:42.620
+But I'm really happy to be able to share
+
+48
+00:02:43.540 --> 00:02:45.480
+our work today in the field of senescence.
+
+49
+00:02:46.600 --> 00:02:50.480
+Here are my current conflicts and previous conflicts,
+
+50
+00:02:52.800 --> 00:02:54.160
+partially related to the presentation.
+
+51
+00:02:55.700 --> 00:02:58.580
+So I'd like to present a little bit of background first,
+
+52
+00:02:59.420 --> 00:03:01.600
+our approaches in tissue engineering,
+
+53
+00:03:02.660 --> 00:03:05.620
+because they really influence how we approach senescence.
+
+54
+00:03:06.580 --> 00:03:10.220
+And then talk about our work in senescence in articular
+
+55
+00:03:10.280 --> 00:03:13.220
+trauma and arthritis and fibrosis.
+
+56
+00:03:13.740 --> 00:03:17.660
+And from that experience, how it led us to look at ways
+
+57
+00:03:17.700 --> 00:03:21.540
+we can better define what is a senescent cell and the concept of
+
+58
+00:03:21.620 --> 00:03:22.380
+senotypes.
+
+59
+00:03:23.320 --> 00:03:23.880
+And finally,
+
+60
+00:03:24.680 --> 00:03:28.600
+I'll discuss senescence and what we've learned in those other models and
+
+61
+00:03:28.640 --> 00:03:30.390
+the potential implications in cancer.
+
+62
+00:03:32.140 --> 00:03:35.300
+So I come from the tissue engineering field, as I mentioned,
+
+63
+00:03:35.940 --> 00:03:39.829
+and we spent many years looking at biomaterials that could serve as
+
+64
+00:03:39.920 --> 00:03:43.870
+scaffolds for things like stem cells, and that we could
+
+65
+00:03:43.920 --> 00:03:46.780
+integrate biological signals into these materials.
+
+66
+00:03:46.800 --> 00:03:50.700
+And I mention particular stem cells because that really has guided a lot our
+
+67
+00:03:50.740 --> 00:03:54.160
+concept of cell states and proliferation versus
+
+68
+00:03:54.200 --> 00:03:57.560
+differentiation. A cell that's proliferating
+
+69
+00:03:58.040 --> 00:04:01.470
+usually doesn't differentiate, and when we think of a senescent cell
+
+70
+00:04:02.220 --> 00:04:06.060
+that's secreting actively lots of factors, it's really in a
+
+71
+00:04:06.100 --> 00:04:07.200
+differentiated state.
+
+72
+00:04:08.620 --> 00:04:12.290
+So we translated technologies in the area of cartilage and
+
+73
+00:04:12.420 --> 00:04:13.520
+soft tissue fillers,
+
+74
+00:04:14.440 --> 00:04:17.780
+and these experiences in the clinic really guided us to the immune system
+
+75
+00:04:18.380 --> 00:04:20.921
+and the concept of regenerative immunotherapies.
+
+76
+00:04:22.480 --> 00:04:25.920
+So today, we think of tissue engineering as manipulating immune stromal
+
+77
+00:04:26.020 --> 00:04:29.540
+networks that are sensing and regulating tissue structure,
+
+78
+00:04:30.010 --> 00:04:33.600
+and you'll see that senescence plays a role here, and we think it's an interesting
+
+79
+00:04:33.680 --> 00:04:37.050
+node and a hub for these
+
+80
+00:04:37.100 --> 00:04:40.820
+interactions. So we first started characterizing what is a
+
+81
+00:04:40.840 --> 00:04:44.730
+natural immune response after tissue injury, and
+
+82
+00:04:44.760 --> 00:04:48.620
+what does it look like in a healing wound versus a non-healing wound
+
+83
+00:04:48.900 --> 00:04:52.870
+characterized by fibrosis and inflammation, and can we use this information
+
+84
+00:04:52.900 --> 00:04:56.170
+to redirect that non-healing wound to a healing environment?
+
+85
+00:04:57.020 --> 00:05:00.480
+And this has applications in cartilage and fibrosis,
+
+86
+00:05:00.980 --> 00:05:01.260
+and
+
+87
+00:05:02.340 --> 00:05:06.180
+we recognize that the tumor was described many years ago as
+
+88
+00:05:06.280 --> 00:05:07.540
+a non-healing wound.
+
+89
+00:05:08.900 --> 00:05:12.120
+In a healing wound, we can look at things like muscle and pro-regenerative
+
+90
+00:05:12.180 --> 00:05:15.900
+therapies that are stimulating repair, but then work has shown
+
+91
+00:05:16.000 --> 00:05:19.840
+that tumors that are responsive to therapies such as
+
+92
+00:05:19.880 --> 00:05:23.140
+immune checkpoint blockade have a phenotype of
+
+93
+00:05:23.580 --> 00:05:26.220
+wound healing and wound resolution.
+
+94
+00:05:30.760 --> 00:05:34.480
+So if we look at wound healing and kinetics, the wound-healing process has been
+
+95
+00:05:35.240 --> 00:05:39.180
+well-characterized in the context of the immune system, stem
+
+96
+00:05:39.280 --> 00:05:42.040
+cell mobilization, wound closure.
+
+97
+00:05:42.780 --> 00:05:46.540
+But senescence is also a part of the wound-healing
+
+98
+00:05:46.640 --> 00:05:47.300
+process.
+
+99
+00:05:48.200 --> 00:05:49.420
+So in a healing wound,
+
+100
+00:05:50.320 --> 00:05:54.240
+you'll have senescence initially increase and then decrease.
+
+101
+00:05:54.640 --> 00:05:58.380
+But in a non-healing wound or a wound characterized by chronic
+
+102
+00:05:58.440 --> 00:06:02.220
+inflammation, senescence or markers of senescence remain
+
+103
+00:06:02.280 --> 00:06:05.856
+high.So senescence in hard-to-repair
+
+104
+00:06:05.866 --> 00:06:09.516
+tissues. As I mentioned, we started in cartilage repair for a tissue
+
+105
+00:06:09.536 --> 00:06:13.196
+engineering application, but we recognized even if we had a
+
+106
+00:06:13.236 --> 00:06:16.096
+perfect therapy to rebuild tissues, if there was inflammation,
+
+107
+00:06:16.956 --> 00:06:20.256
+such as interleukin-1 beta, it would not repair very well.
+
+108
+00:06:21.096 --> 00:06:22.696
+The tissue engineering wouldn't work.
+
+109
+00:06:22.736 --> 00:06:24.436
+At the same time, collaborators
+
+110
+00:06:25.376 --> 00:06:29.196
+Nat David had recognized that senescent cells could be an interesting
+
+111
+00:06:29.356 --> 00:06:31.336
+therapeutic target
+
+112
+00:06:32.196 --> 00:06:35.876
+for a number of applications, in particular osteoarthritis, where
+
+113
+00:06:35.916 --> 00:06:39.876
+senescent cells had been seen in cartilage explants being taken
+
+114
+00:06:40.136 --> 00:06:42.976
+from patients undergoing knee or hip replacement.
+
+115
+00:06:44.356 --> 00:06:48.036
+So what is a senescent cell? Well, the history of the field
+
+116
+00:06:48.156 --> 00:06:51.196
+has really looked at senescence in
+
+117
+00:06:51.296 --> 00:06:53.996
+vitro. So first looking at the Hayflick
+
+118
+00:06:54.816 --> 00:06:56.536
+limit and replicative senescence.
+
+119
+00:06:57.376 --> 00:07:01.016
+So after cells have been cultured for a long time, they stop
+
+120
+00:07:01.056 --> 00:07:03.396
+proliferating, as is connected with
+
+121
+00:07:03.996 --> 00:07:06.296
+decrease in telomeres.
+
+122
+00:07:07.136 --> 00:07:10.916
+It was also recognized there was stress-induced senescence that could
+
+123
+00:07:10.956 --> 00:07:14.556
+be stimulated by oxidative stress, genotoxic, and
+
+124
+00:07:14.616 --> 00:07:18.336
+oncogenic stress, and the proliferative stress being
+
+125
+00:07:18.376 --> 00:07:22.356
+another mechanism. But much of this has been studied
+
+126
+00:07:22.396 --> 00:07:23.016
+in vitro.
+
+127
+00:07:24.216 --> 00:07:27.936
+So these cells were characterized with a number of markers.
+
+128
+00:07:28.396 --> 00:07:28.656
+So
+
+129
+00:07:29.696 --> 00:07:31.216
+beta-gal, for example,
+
+130
+00:07:32.656 --> 00:07:36.056
+HMGB1, movement from the nucleus to the
+
+131
+00:07:36.096 --> 00:07:39.176
+cytoplasm, and p16,
+
+132
+00:07:39.976 --> 00:07:40.616
+cell cycle
+
+133
+00:07:42.116 --> 00:07:45.456
+related gene, was seen to be upregulated in some cells,
+
+134
+00:07:45.636 --> 00:07:48.556
+although well recognized to be an imperfect marker.
+
+135
+00:07:49.536 --> 00:07:52.616
+But many of the tools are built around p16.
+
+136
+00:07:53.096 --> 00:07:56.876
+So these cells are in growth arrest, but they are secreting a
+
+137
+00:07:56.936 --> 00:07:59.536
+senescence-associated secretary phenotype.
+
+138
+00:08:00.056 --> 00:08:04.046
+This SASP is what is implicated in the function of
+
+139
+00:08:04.046 --> 00:08:07.596
+these cells to increase tumor
+
+140
+00:08:07.636 --> 00:08:11.296
+production or related to the
+
+141
+00:08:11.576 --> 00:08:15.136
+diseases associated with aging, such as heart disease, diabetes,
+
+142
+00:08:15.876 --> 00:08:19.696
+and arthritis, as I mentioned. However, these cells are also
+
+143
+00:08:19.716 --> 00:08:23.296
+recognized to be an important part of embryological development and tissue
+
+144
+00:08:23.316 --> 00:08:26.556
+repair. So how are these cells both good and bad?
+
+145
+00:08:27.636 --> 00:08:31.576
+Well, research has shown that senescent cells are a part of wound
+
+146
+00:08:31.596 --> 00:08:32.005
+healing,
+
+147
+00:08:32.896 --> 00:08:36.576
+and that is through secretion of PDGF,
+
+148
+00:08:36.906 --> 00:08:38.656
+platelet-derived growth factor.
+
+149
+00:08:38.687 --> 00:08:42.066
+And then our work on senescence as an example where
+
+150
+00:08:42.116 --> 00:08:45.856
+the accumulation of senescence is associated with
+
+151
+00:08:45.896 --> 00:08:48.636
+disease in the joint and arthritis.
+
+152
+00:08:49.536 --> 00:08:51.016
+So from the arthritis perspective,
+
+153
+00:08:51.876 --> 00:08:55.616
+we looked at an injury, anterior cruciate ligament
+
+154
+00:08:56.336 --> 00:08:59.956
+transection, where the cartilage lining the
+
+155
+00:09:00.016 --> 00:09:03.606
+surface of the joints degenerates after that injury.
+
+156
+00:09:03.916 --> 00:09:04.876
+It's a chronic wound.
+
+157
+00:09:05.856 --> 00:09:08.856
+Senescent cells, as I mentioned, were recognized to be a part of
+
+158
+00:09:09.796 --> 00:09:13.616
+the arthritis process. And when we did
+
+159
+00:09:13.676 --> 00:09:17.656
+senolysis or removal of senescent cells, either through molecules
+
+160
+00:09:17.836 --> 00:09:21.136
+or through transgenic animals, we could
+
+161
+00:09:21.196 --> 00:09:24.936
+restore the cartilage. And we
+
+162
+00:09:24.976 --> 00:09:28.756
+observed reduction of SASP factors, reduction of pain, and we were very
+
+163
+00:09:28.836 --> 00:09:32.716
+surprised, we also saw an increase in tissue repair when those
+
+164
+00:09:32.736 --> 00:09:34.176
+senescent cells were removed.
+
+165
+00:09:35.476 --> 00:09:39.316
+Now, luckily, I had an immunology collaborator who recognized some of these
+
+166
+00:09:39.376 --> 00:09:43.285
+SASP markers, IL-6 and IL-1 beta, and told us,
+
+167
+00:09:43.336 --> 00:09:47.096
+"Well, these molecules are connected to T cell differentiation."
+
+168
+00:09:48.236 --> 00:09:51.876
+So we looked in that same model and saw increases in
+
+169
+00:09:52.016 --> 00:09:54.436
+IL-17, both in the joint and
+
+170
+00:09:55.316 --> 00:09:57.376
+in the draining lymph nodes,
+
+171
+00:09:58.356 --> 00:10:00.376
+increasing with injury and disease.
+
+172
+00:10:00.726 --> 00:10:04.676
+And when senolytics were added in both young and aged animals, a
+
+173
+00:10:04.716 --> 00:10:08.516
+decrease in IL-17. So there seemed to be a connection between
+
+174
+00:10:08.556 --> 00:10:12.336
+senescence and IL-17. So to further explore this, we
+
+175
+00:10:12.396 --> 00:10:16.356
+induced senescence artificially in vitro and cultured
+
+176
+00:10:16.366 --> 00:10:20.196
+these cells next to naive T cells. And in the presence
+
+177
+00:10:20.276 --> 00:10:24.096
+of TGF-beta, we see a significant increase in IL-17
+
+178
+00:10:24.106 --> 00:10:25.695
+production by these T cells.
+
+179
+00:10:27.476 --> 00:10:29.396
+We also took Th17 cells
+
+180
+00:10:30.336 --> 00:10:34.296
+that we skewed in vitro and cultured them next to healthy fibroblasts and saw
+
+181
+00:10:34.356 --> 00:10:37.836
+an increase in p16 and SASP factors, including
+
+182
+00:10:37.936 --> 00:10:38.596
+IL-6.
+
+183
+00:10:39.676 --> 00:10:43.596
+And we phenotyped these cells a little bit more and have
+
+184
+00:10:43.636 --> 00:10:47.376
+a signature of an inflammatory-induced senescence from this in
+
+185
+00:10:47.416 --> 00:10:50.006
+vitro model. So we can use inflammation as an
+
+186
+00:10:50.976 --> 00:10:54.836
+additional mechanism for induction of senescence that may
+
+187
+00:10:54.876 --> 00:10:58.696
+be more physiologically relevant than some of the others that I
+
+188
+00:10:58.736 --> 00:10:59.496
+listed before.
+
+189
+00:11:00.436 --> 00:11:04.216
+So again, when we think of tissue structure, this communication between the immune
+
+190
+00:11:04.296 --> 00:11:08.036
+system and the stroma that's regulating the matrix
+
+191
+00:11:08.256 --> 00:11:12.016
+and vascularity, senescent cells are playing a big role in that
+
+192
+00:11:12.276 --> 00:11:13.916
+interaction.
+
+193
+00:11:15.076 --> 00:11:18.716
+Now, continuing on the matrix discussion of tissue
+
+194
+00:11:18.796 --> 00:11:22.036
+structure, senescence is associated with fibrosis
+
+195
+00:11:23.116 --> 00:11:26.036
+in murine models and in human tissues.
+
+196
+00:11:26.716 --> 00:11:30.276
+These are markers for p16 and p21,
+
+197
+00:11:30.836 --> 00:11:33.356
+so associated with fibrotic diseases in these tissues.
+
+198
+00:11:34.716 --> 00:11:37.576
+And we can see in other fibrosis models, this is
+
+199
+00:11:38.656 --> 00:11:41.916
+a fibrosis around breast implant,
+
+200
+00:11:42.576 --> 00:11:46.516
+and p16 is in pink here, and we can see p16 cells
+
+201
+00:11:46.526 --> 00:11:49.436
+stretched out with a fibroblastic
+
+202
+00:11:49.456 --> 00:11:52.416
+morphology. We also see p16 cells
+
+203
+00:11:52.496 --> 00:11:56.376
+around the vasculature that is adjacent
+
+204
+00:11:56.386 --> 00:11:57.796
+to this fibrosis.
+
+205
+00:11:59.696 --> 00:12:03.656
+So we're interested in this network and understanding what a senescent cell is,
+
+206
+00:12:03.916 --> 00:12:06.556
+and we're a part of the SenNet program at NIH
+
+207
+00:12:07.396 --> 00:12:11.136
+that's looking to define what a senescent cell is in vivo
+
+208
+00:12:11.416 --> 00:12:12.116
+in tissues,
+
+209
+00:12:12.916 --> 00:12:16.478
+in both mouse and human tissues.So we first
+
+210
+00:12:16.608 --> 00:12:20.368
+used the biomaterial model to study fibrosis,
+
+211
+00:12:20.868 --> 00:12:24.568
+and this is a nice reproducible model where we can get consistent
+
+212
+00:12:24.608 --> 00:12:28.538
+fibrosis. We have the same inflammation and abnormal vascularity.
+
+213
+00:12:29.068 --> 00:12:33.058
+And you can see here that we have red p16 positive cells sort
+
+214
+00:12:33.088 --> 00:12:35.118
+of adjacent to macrophages
+
+215
+00:12:35.928 --> 00:12:39.488
+associated with the
+
+216
+00:12:39.528 --> 00:12:41.968
+fibrosis stretched out again like a myofibroblast.
+
+217
+00:12:42.568 --> 00:12:46.468
+But then we also see some associated with vascular structures, and you'll
+
+218
+00:12:46.508 --> 00:12:47.928
+see that this is a common theme.
+
+219
+00:12:49.568 --> 00:12:49.788
+So,
+
+220
+00:12:51.088 --> 00:12:54.528
+yes, single cell, of course, is popular, and sometimes you can see
+
+221
+00:12:54.568 --> 00:12:58.328
+p16 expression in single cell, particularly with the
+
+222
+00:12:58.368 --> 00:12:58.748
+newer
+
+223
+00:13:00.308 --> 00:13:04.048
+techniques. But in general, it can be hard to find p16, and again, as I
+
+224
+00:13:04.108 --> 00:13:05.008
+mentioned, it's not
+
+225
+00:13:06.508 --> 00:13:09.888
+a completely accurate model of marker for senescence.
+
+226
+00:13:10.528 --> 00:13:12.108
+So in these fibrosis models,
+
+227
+00:13:13.008 --> 00:13:13.428
+we can
+
+228
+00:13:14.748 --> 00:13:16.608
+look at the cell types there.
+
+229
+00:13:17.968 --> 00:13:21.868
+But in order to really capture p16 cells,
+
+230
+00:13:21.948 --> 00:13:23.448
+we used a genetic model
+
+231
+00:13:24.648 --> 00:13:28.508
+developed by Jan van Deursen and Darren Baker, p16 Cre.
+
+232
+00:13:29.168 --> 00:13:32.748
+And with our biomaterial model, we could see that, number one,
+
+233
+00:13:33.048 --> 00:13:36.748
+as it's recognized in the field, a small number of senescent cells
+
+234
+00:13:37.508 --> 00:13:40.708
+are present. And when we look further at
+
+235
+00:13:41.388 --> 00:13:45.188
+which cell types are senescent, we see a lot of stromal cells
+
+236
+00:13:46.048 --> 00:13:48.558
+that are senescent, CD45 negative and
+
+237
+00:13:48.608 --> 00:13:52.248
+CD29 positive and CD31
+
+238
+00:13:52.288 --> 00:13:55.488
+negative. There are also some I'll show you later
+
+239
+00:13:56.888 --> 00:13:59.208
+in the tumor model that are CD31 positive.
+
+240
+00:14:00.288 --> 00:14:03.588
+So when we pull out and sort just that subset of senescence,
+
+241
+00:14:03.788 --> 00:14:07.258
+CD29 positive, we can perform bulk sequencing
+
+242
+00:14:07.828 --> 00:14:10.428
+and get a signature which we call senescence signature.
+
+243
+00:14:11.258 --> 00:14:14.728
+And when we look at what's there, we saw a lot of markers,
+
+244
+00:14:15.248 --> 00:14:17.728
+enrichment in vascular-associated
+
+245
+00:14:18.648 --> 00:14:21.588
+genes, but also chondrocyte differentiation genes.
+
+246
+00:14:21.628 --> 00:14:24.948
+And while we worked on cartilage before, this is not a cartilage environment.
+
+247
+00:14:26.928 --> 00:14:30.608
+When we look at how we can capture and identify senescence in
+
+248
+00:14:30.708 --> 00:14:34.248
+single cell, we use transfer learning to then look at that
+
+249
+00:14:34.308 --> 00:14:36.488
+signature, and in each cell, is that
+
+250
+00:14:38.148 --> 00:14:39.668
+cell similar or different
+
+251
+00:14:40.728 --> 00:14:44.408
+to that signature? So we can see senesc positive cells.
+
+252
+00:14:45.048 --> 00:14:48.498
+This is the fibroblast population here, both activated and
+
+253
+00:14:48.528 --> 00:14:52.308
+myofibroblasts. And then we see pericytes, a smooth
+
+254
+00:14:52.368 --> 00:14:54.648
+muscle cell population that's also senescent.
+
+255
+00:14:55.908 --> 00:14:59.188
+If we look at markers of these cells, in particular
+
+256
+00:15:00.468 --> 00:15:04.108
+SAS factors in these subtypes, we can start getting phenotypic
+
+257
+00:15:04.188 --> 00:15:07.608
+information of the activated fibroblasts versus the
+
+258
+00:15:07.728 --> 00:15:11.588
+myofibroblasts. There's also an inflammatory fibroblast and a
+
+259
+00:15:11.628 --> 00:15:15.068
+perivascular senescent cell or pericyte, which each
+
+260
+00:15:15.428 --> 00:15:17.548
+senescent cell is expressing different markers.
+
+261
+00:15:19.208 --> 00:15:19.468
+But
+
+262
+00:15:21.628 --> 00:15:25.328
+single cell and the clustering is a way to bin cells into a
+
+263
+00:15:25.508 --> 00:15:26.488
+certain phenotype,
+
+264
+00:15:27.368 --> 00:15:29.248
+but it doesn't tell us much about patterns.
+
+265
+00:15:29.348 --> 00:15:32.388
+So working with Ilana Furtak, we used her CO-GAPS
+
+266
+00:15:32.488 --> 00:15:36.228
+program using non-negative matrix factorization to
+
+267
+00:15:36.288 --> 00:15:39.888
+instead look for patterns of gene expression that can
+
+268
+00:15:39.968 --> 00:15:43.688
+cross these cell identification clustering.
+
+269
+00:15:44.808 --> 00:15:48.488
+And so we see patterns of gene expression within those senescent
+
+270
+00:15:48.788 --> 00:15:51.568
+cell types, and we can connect that
+
+271
+00:15:52.508 --> 00:15:55.768
+with spatial data to start seeing these niches
+
+272
+00:15:56.248 --> 00:15:56.688
+where
+
+273
+00:15:58.548 --> 00:16:01.848
+the senescent cells are and which cells are around there.
+
+274
+00:16:01.888 --> 00:16:05.158
+So we have a fibrotic niche, a vascular niche, and an immune niche.
+
+275
+00:16:05.748 --> 00:16:09.408
+And the cartilage niche is in the fibrosis, but it's
+
+276
+00:16:09.448 --> 00:16:13.188
+expressing markers that are typically associated with cartilage and tendon
+
+277
+00:16:13.248 --> 00:16:16.788
+tissue, which is avascular, similar to fibrosis.
+
+278
+00:16:18.008 --> 00:16:20.508
+So just to give a summary, and
+
+279
+00:16:21.388 --> 00:16:25.288
+this will be a preprint soon, we can look at transcription
+
+280
+00:16:25.368 --> 00:16:29.088
+factors, cell surface markers that might be unique to these
+
+281
+00:16:29.108 --> 00:16:33.068
+different subtypes of senescent cells, and SAS factors
+
+282
+00:16:33.128 --> 00:16:36.417
+that can be associated with extracellular matrix,
+
+283
+00:16:36.808 --> 00:16:37.948
+matrix degradation,
+
+284
+00:16:38.868 --> 00:16:41.808
+immune factors, and growth factors
+
+285
+00:16:42.688 --> 00:16:44.868
+of these different senescent cells or senotypes.
+
+286
+00:16:45.728 --> 00:16:48.168
+Now we're very interested in how these cells are communicating.
+
+287
+00:16:48.398 --> 00:16:52.148
+So senescent cells are a particular node
+
+288
+00:16:52.228 --> 00:16:55.088
+in the network of cell communication.
+
+289
+00:16:56.048 --> 00:16:59.868
+So we use a program that we developed called Domino Signal,
+
+290
+00:17:00.388 --> 00:17:03.348
+which looks at transcription factor activation
+
+291
+00:17:03.888 --> 00:17:07.798
+associated with receptors, and then connecting
+
+292
+00:17:07.848 --> 00:17:11.388
+that with ligand expression. So a little bit moving backwards compared to some
+
+293
+00:17:11.429 --> 00:17:13.488
+other standard receptor ligand programs.
+
+294
+00:17:14.469 --> 00:17:18.429
+Now if we look at this in a muscle repair model, so good repair in a young
+
+295
+00:17:18.548 --> 00:17:22.408
+animal versus poor repair in an old model.
+
+296
+00:17:23.028 --> 00:17:27.018
+If we look in a young animal at communication, here's our senescent subtypes down
+
+297
+00:17:27.108 --> 00:17:30.268
+here, we can see communication through a number of
+
+298
+00:17:32.168 --> 00:17:32.888
+cell types,
+
+299
+00:17:33.888 --> 00:17:36.948
+the immune cells, vascular cells.
+
+300
+00:17:37.188 --> 00:17:41.008
+But in the old animal, it's really taken over by T cells, and
+
+301
+00:17:41.048 --> 00:17:44.608
+this cartilage-like are really highly fibrotic cell types.
+
+302
+00:17:44.688 --> 00:17:48.088
+So the senescent cell type and its communication is
+
+303
+00:17:48.148 --> 00:17:48.748
+important.
+
+304
+00:17:50.728 --> 00:17:52.508
+Now finally, interest here
+
+305
+00:17:53.348 --> 00:17:57.328
+with tumors, the tumor microenvironment being characterized as a non-healing
+
+306
+00:17:57.388 --> 00:18:01.028
+wound. Matt Wolf has done work looking at,
+
+307
+00:18:01.808 --> 00:18:05.608
+for example, the lung tumor biopsy where we can see p16
+
+308
+00:18:05.668 --> 00:18:08.948
+positive cells in the stroma where there's
+
+309
+00:18:09.248 --> 00:18:13.088
+fibrosis, so the pink cells here. And these are different than, of
+
+310
+00:18:13.128 --> 00:18:15.568
+course, the tumor-associated senescence, which has
+
+311
+00:18:16.508 --> 00:18:16.848
+been
+
+312
+00:18:18.488 --> 00:18:22.064
+studied.And here's a close-up of these fibroblasts.
+
+313
+00:18:22.104 --> 00:18:25.864
+But we still see these vascular-associated cells.
+
+314
+00:18:26.184 --> 00:18:29.784
+And in the tumor model, we do see some senescent
+
+315
+00:18:29.824 --> 00:18:32.324
+endothelial cells and pericytes.
+
+316
+00:18:33.704 --> 00:18:37.104
+But I'm going to talk about something a little bit different.
+
+317
+00:18:38.644 --> 00:18:40.804
+We see senescence also in fibroids,
+
+318
+00:18:41.824 --> 00:18:45.624
+where we, again, have the fibroblast, vascular-associated
+
+319
+00:18:46.284 --> 00:18:50.084
+in combination. So it's important when we talk about senescence in the tumor
+
+320
+00:18:50.124 --> 00:18:52.304
+environment, that there are multiple senotypes.
+
+321
+00:18:53.064 --> 00:18:56.644
+And the matrix these cells produce is important for
+
+322
+00:18:56.784 --> 00:19:00.424
+enhancing tissue mechanics. For example, a fibroid is much stiffer
+
+323
+00:19:01.404 --> 00:19:05.394
+with that increased senescence. And you're up-regulating
+
+324
+00:19:05.424 --> 00:19:07.724
+mechanosensing related transcription factors.
+
+325
+00:19:08.664 --> 00:19:12.564
+So we can build this model with our networks to look at communication.
+
+326
+00:19:12.624 --> 00:19:16.224
+This is an example in the fibroid of senescence immune
+
+327
+00:19:16.344 --> 00:19:19.584
+factors that are modulating the immune system and bringing in the immune cells,
+
+328
+00:19:20.384 --> 00:19:23.264
+vascular-associated factors, again, contributing to both
+
+329
+00:19:23.364 --> 00:19:26.644
+fibrosis and to the immune cell
+
+330
+00:19:26.704 --> 00:19:27.364
+migration.
+
+331
+00:19:29.364 --> 00:19:33.264
+But I mentioned early on, can senescence be beneficial,
+
+332
+00:19:33.924 --> 00:19:35.264
+and what are the implications here?
+
+333
+00:19:35.704 --> 00:19:36.004
+So,
+
+334
+00:19:37.204 --> 00:19:41.004
+we looked at senescence in the context of different
+
+335
+00:19:41.024 --> 00:19:44.434
+wounds and its association with immunotherapy response.
+
+336
+00:19:45.184 --> 00:19:48.774
+So cancer immunotherapy has clearly been transformative,
+
+337
+00:19:49.244 --> 00:19:53.144
+but many patients do not respond. So understanding
+
+338
+00:19:53.224 --> 00:19:56.924
+why these patients don't respond and the mechanisms of resistance
+
+339
+00:19:57.384 --> 00:20:00.904
+may help guide us in improving the
+
+340
+00:20:00.944 --> 00:20:02.654
+impact of immunotherapies.
+
+341
+00:20:03.804 --> 00:20:07.044
+So we were interested, coming from the wound healing tissue engineering
+
+342
+00:20:07.104 --> 00:20:11.024
+perspective, how different injuries might impact the response of
+
+343
+00:20:11.064 --> 00:20:14.754
+a distal tumor to immunotherapy. We looked, for
+
+344
+00:20:14.784 --> 00:20:18.664
+example, at a muscle wound. That's a preprint that is available.
+
+345
+00:20:18.784 --> 00:20:22.324
+So muscle wound will increase tumor growth and decrease
+
+346
+00:20:22.444 --> 00:20:23.804
+responsiveness to immunotherapy.
+
+347
+00:20:24.474 --> 00:20:27.964
+And the other wound model that we know how to do in the laboratory, as you know, is
+
+348
+00:20:28.404 --> 00:20:31.424
+an arthritis model. So we tear the ACL
+
+349
+00:20:32.444 --> 00:20:35.944
+at various time points before injecting a tumor.
+
+350
+00:20:35.964 --> 00:20:39.944
+And what we found that opposite to the muscle wound, that
+
+351
+00:20:40.024 --> 00:20:41.984
+the articular injury
+
+352
+00:20:43.164 --> 00:20:46.584
+decreases tumor growth a little bit, but actually has a
+
+353
+00:20:46.654 --> 00:20:50.504
+significantly great increase in response to immunotherapy.
+
+354
+00:20:51.044 --> 00:20:53.024
+So a B16 tumor model,
+
+355
+00:20:53.904 --> 00:20:57.694
+you see the tumor growth curve. When we have that articular
+
+356
+00:20:57.844 --> 00:20:59.824
+injury and arthritis development,
+
+357
+00:21:00.884 --> 00:21:04.214
+we see a significant reduction in tumor volume and
+
+358
+00:21:04.724 --> 00:21:06.184
+increase in survival.
+
+359
+00:21:07.604 --> 00:21:10.324
+How does this happen? Well, we first looked just at T cells.
+
+360
+00:21:11.164 --> 00:21:12.824
+So this model is not very
+
+361
+00:21:14.024 --> 00:21:14.924
+immunogenic. So
+
+362
+00:21:15.824 --> 00:21:18.384
+in standard tumor model, we do not see many T cells.
+
+363
+00:21:18.864 --> 00:21:22.604
+But when we have that articular injury, we see more T cells in that
+
+364
+00:21:23.624 --> 00:21:26.084
+tumor environment. And these
+
+365
+00:21:28.304 --> 00:21:31.444
+CD8 cells are tumor-specific using the
+
+366
+00:21:31.484 --> 00:21:33.744
+B16-OVA model.
+
+367
+00:21:35.544 --> 00:21:36.984
+When we look at
+
+368
+00:21:37.924 --> 00:21:41.684
+vascular changes, we see some interesting differences
+
+369
+00:21:41.764 --> 00:21:45.444
+here. So the tumor vasculature in the ACL wound,
+
+370
+00:21:45.924 --> 00:21:48.064
+we looked at pericytes and endothelial cells,
+
+371
+00:21:48.884 --> 00:21:52.484
+and you can see they're tightly associated with the
+
+372
+00:21:52.504 --> 00:21:56.384
+arthritis. Without the arthritis, we have a gap and
+
+373
+00:21:56.904 --> 00:22:00.644
+sort of a different stabilization or structure of that vessel.
+
+374
+00:22:01.764 --> 00:22:05.504
+And we see more P-selectin in those
+
+375
+00:22:05.544 --> 00:22:06.704
+vascular structures.
+
+376
+00:22:07.584 --> 00:22:10.684
+So this obviously connects with that increased T cell infiltration.
+
+377
+00:22:11.384 --> 00:22:15.104
+Now, we did look if the draining lymph node was required, and it wasn't.
+
+378
+00:22:15.204 --> 00:22:18.794
+So then we further analyzed the serum with and without that
+
+379
+00:22:18.844 --> 00:22:22.204
+arthritic injury and the tumor, and we
+
+380
+00:22:22.244 --> 00:22:26.194
+saw significant increases in pathways associated with
+
+381
+00:22:26.644 --> 00:22:30.544
+extracellular matrix organization, in particular vascular development and tissue
+
+382
+00:22:30.664 --> 00:22:31.344
+development.
+
+383
+00:22:33.504 --> 00:22:36.504
+When we look at single-cell analysis
+
+384
+00:22:36.604 --> 00:22:38.784
+of these
+
+385
+00:22:41.243 --> 00:22:45.204
+tumors, we were surprised that the P16
+
+386
+00:22:45.244 --> 00:22:48.314
+positive cells were not the ones that
+
+387
+00:22:49.124 --> 00:22:53.104
+were positive for P-selectin. So this again shows the importance of
+
+388
+00:22:53.144 --> 00:22:56.544
+communication here, where P16 positive cells
+
+389
+00:22:57.564 --> 00:23:01.364
+were the senescent cells,
+
+390
+00:23:01.664 --> 00:23:02.664
+but were activating
+
+391
+00:23:03.784 --> 00:23:07.704
+a subpopulation. And this is true for both the endothelial
+
+392
+00:23:07.764 --> 00:23:10.444
+cells and the mature pericytes.
+
+393
+00:23:11.324 --> 00:23:14.504
+So that communication is important, and we have a number of candidates that might
+
+394
+00:23:14.544 --> 00:23:15.864
+be responsible for this.
+
+395
+00:23:17.404 --> 00:23:21.264
+If we look at the vascular structure more broadly, you can
+
+396
+00:23:21.284 --> 00:23:21.584
+see
+
+397
+00:23:23.004 --> 00:23:26.224
+the vessels are larger and more stable with that arthritic injury,
+
+398
+00:23:26.924 --> 00:23:30.804
+and we have increased P16. So the red here,
+
+399
+00:23:30.884 --> 00:23:31.844
+hopefully, you can see,
+
+400
+00:23:33.304 --> 00:23:36.844
+with the pericytes and the endothelial cells, none really
+
+401
+00:23:36.884 --> 00:23:40.764
+associated in the tumor itself, but really associated
+
+402
+00:23:40.804 --> 00:23:44.614
+with the vasculature. And in the no surgery, just
+
+403
+00:23:44.684 --> 00:23:47.844
+regular B16 tumor, you see very few vessels,
+
+404
+00:23:48.504 --> 00:23:50.344
+less structure, and no senescence.
+
+405
+00:23:50.914 --> 00:23:54.804
+And what's interesting, if we look at the perivascular cells and the
+
+406
+00:23:54.844 --> 00:23:55.864
+endothelial cells
+
+407
+00:23:56.844 --> 00:24:00.584
+with and without the arthritis, without arthritis, we
+
+408
+00:24:00.664 --> 00:24:04.284
+have lots of genes associated with hypoxia and vascular
+
+409
+00:24:04.324 --> 00:24:07.984
+development, VEGF production. So these cells are giving the signals,
+
+410
+00:24:08.544 --> 00:24:10.404
+but the vessels just are not forming.
+
+411
+00:24:11.384 --> 00:24:14.204
+And then in the perivascular and endothelial cells,
+
+412
+00:24:15.024 --> 00:24:16.004
+we see the senescence
+
+413
+00:24:16.524 --> 00:24:20.514
+upregulation.Now, looking up
+
+414
+00:24:20.554 --> 00:24:23.554
+closely, you can see better here the pericytes
+
+415
+00:24:23.674 --> 00:24:26.634
+and endothelial cells that are senescent.
+
+416
+00:24:27.234 --> 00:24:31.014
+If we use the Incatak model to genetically delete senescent
+
+417
+00:24:31.074 --> 00:24:34.274
+cells, you can see we lose the phenotype of
+
+418
+00:24:35.294 --> 00:24:39.274
+the vessel structure, and we lose the phenotype of
+
+419
+00:24:40.874 --> 00:24:44.474
+the T cell infiltration and P-selectin, and our
+
+420
+00:24:44.534 --> 00:24:45.534
+tumors are
+
+421
+00:24:46.774 --> 00:24:49.254
+no longer responding to immunotherapy.
+
+422
+00:24:51.014 --> 00:24:54.574
+So I think I've reached my time limit, and I know virtual presentations
+
+423
+00:24:54.734 --> 00:24:58.354
+are not quite as fun as in person. So I'd like to summarize that
+
+424
+00:24:58.814 --> 00:25:02.714
+senescent cells can have many phenotypes, and the field and SenNet
+
+425
+00:25:02.794 --> 00:25:05.854
+community is terming this senotypes.
+
+426
+00:25:06.274 --> 00:25:09.894
+There'll be a review on this coming out in Nature Aging from the SenNet
+
+427
+00:25:09.914 --> 00:25:13.594
+Consortium soon. These senotypes reside in different niches
+
+428
+00:25:14.594 --> 00:25:18.124
+that help regulate tissue structure, and that tissue structure
+
+429
+00:25:18.214 --> 00:25:21.534
+connects with the extracellular matrix production
+
+430
+00:25:21.834 --> 00:25:25.753
+and things like fibrosis, but also the vascular structure and immune.
+
+431
+00:25:26.294 --> 00:25:28.014
+And depending on the senotype,
+
+432
+00:25:29.124 --> 00:25:32.574
+these cells can be beneficial
+
+433
+00:25:33.214 --> 00:25:36.874
+or detrimental to many different things, wound healing
+
+434
+00:25:37.334 --> 00:25:41.274
+and tumor biology and response. In addition to the senotype, it's also the
+
+435
+00:25:41.314 --> 00:25:45.234
+kinetics. So, early on in a wound, for example, you do need
+
+436
+00:25:45.274 --> 00:25:49.034
+some matrix production to rebuild the tissue, but chronic presence of those
+
+437
+00:25:49.074 --> 00:25:52.394
+cells is associated with that fibrosis and disease.
+
+438
+00:25:53.334 --> 00:25:56.074
+And I just wanted to mention one thing, bringing in sort of an
+
+439
+00:25:56.134 --> 00:25:58.174
+interdisciplinary perspective.
+
+440
+00:25:58.434 --> 00:26:00.014
+There's an interesting article that came out
+
+441
+00:26:01.434 --> 00:26:05.024
+a number of years ago. You could see it took a little while to come out, 2021, it's
+
+442
+00:26:05.024 --> 00:26:08.954
+a 2025 publication. And this article describes the
+
+443
+00:26:08.974 --> 00:26:10.494
+pivot penalty in research
+
+444
+00:26:11.414 --> 00:26:13.264
+when you change fields. And
+
+445
+00:26:14.214 --> 00:26:15.314
+we often think about
+
+446
+00:26:16.594 --> 00:26:20.374
+interdisciplinary work and innovation happening at the intersection of
+
+447
+00:26:20.454 --> 00:26:20.924
+fields,
+
+448
+00:26:21.874 --> 00:26:25.254
+and we need that to have discoveries, but there's a
+
+449
+00:26:25.294 --> 00:26:26.354
+penalty with that,
+
+450
+00:26:27.333 --> 00:26:29.434
+with publication citations, and
+
+451
+00:26:30.554 --> 00:26:31.694
+grant funding, and things like that.
+
+452
+00:26:31.794 --> 00:26:35.034
+So, let's consider as we bring in all these different perspectives.
+
+453
+00:26:36.034 --> 00:26:37.014
+Many people to thank
+
+454
+00:26:37.974 --> 00:26:41.194
+for the hard work on this, and collaborators,
+
+455
+00:26:41.814 --> 00:26:45.514
+and in particular, the SenNet program, which
+
+456
+00:26:45.594 --> 00:26:45.994
+has
+
+457
+00:26:48.594 --> 00:26:52.084
+generated a lot of collaborations and interest in the field of
+
+458
+00:26:52.094 --> 00:26:55.754
+senescence. So, thank you for the opportunity to
+
+459
+00:26:55.774 --> 00:26:57.014
+present, and
+
+460
+00:26:57.834 --> 00:27:01.774
+I hope you have a wonderful rest of the session, and feel free to reach out by
+
+461
+00:27:01.834 --> 00:27:02.094
+email
+
+462
+00:27:03.114 --> 00:27:04.654
+if you have any other specific questions.
+
+463
+00:27:05.054 --> 00:27:07.914
+So, thank you very much for your attention.
+
+464
+00:27:12.414 --> 00:27:16.094
+All right. So we have about five minutes for questions that I mentioned.
+
+465
+00:27:16.414 --> 00:27:17.414
+Drew Pardal,
+
+466
+00:27:18.374 --> 00:27:21.854
+Jennifer's collaborator, is willing to come up and answer some of those questions,
+
+467
+00:27:21.954 --> 00:27:25.834
+but I think Clemens and I could also answer some senescence questions as
+
+468
+00:27:25.914 --> 00:27:26.634
+well, if you have them.
+
+469
+00:27:30.274 --> 00:27:34.254
+Instead of answering questions to Jennifer's talk, I would like to ask the
+
+470
+00:27:34.314 --> 00:27:35.114
+first question-
+
+471
+00:27:36.114 --> 00:27:37.564
+... while you are still going to the microphones.
+
+472
+00:27:38.054 --> 00:27:41.614
+Drew, the last point was truly interesting and a bit
+
+473
+00:27:41.634 --> 00:27:45.394
+provocative. Can you give us more insights what it's
+
+474
+00:27:45.574 --> 00:27:48.674
+needed on the osteoarthritis side in terms of
+
+475
+00:27:48.914 --> 00:27:51.754
+inflammation versus senescent cells?
+
+476
+00:27:52.334 --> 00:27:55.674
+And on the other side, seeing that there is an enrichment of
+
+477
+00:27:55.774 --> 00:27:59.734
+neoantigen-specific T cells in the tumor now equipped with
+
+478
+00:27:59.834 --> 00:28:03.814
+more angiogenesis, do the endothelial cells now serve
+
+479
+00:28:03.954 --> 00:28:07.834
+as cross-presenters of that neoantigen in the tumor?
+
+480
+00:28:12.194 --> 00:28:13.734
+So this is one of the elements that I
+
+481
+00:28:15.054 --> 00:28:15.854
+can speak to.
+
+482
+00:28:20.314 --> 00:28:21.014
+So
+
+483
+00:28:22.134 --> 00:28:23.714
+this is still very
+
+484
+00:28:25.194 --> 00:28:25.614
+early,
+
+485
+00:28:26.994 --> 00:28:27.914
+but this is
+
+486
+00:28:29.414 --> 00:28:32.034
+what we know and also what we don't know relative to these questions.
+
+487
+00:28:32.094 --> 00:28:32.294
+So,
+
+488
+00:28:34.214 --> 00:28:34.634
+what
+
+489
+00:28:35.854 --> 00:28:39.474
+Jennifer didn't show in the interest of time was
+
+490
+00:28:40.134 --> 00:28:43.534
+that if one uses a genetic
+
+491
+00:28:43.834 --> 00:28:47.314
+senescence deletion model, so deleting
+
+492
+00:28:47.334 --> 00:28:50.834
+P16-positive cells that can be induced
+
+493
+00:28:51.414 --> 00:28:52.834
+by a drug,
+
+494
+00:28:54.834 --> 00:28:58.734
+the anti-tumor effects of checkpoint blockade are
+
+495
+00:28:59.454 --> 00:29:00.334
+mitigated. So,
+
+496
+00:29:01.874 --> 00:29:05.834
+at least based on the definition, imperfect as it
+
+497
+00:29:05.914 --> 00:29:09.014
+is, but not bad, of a senescent cell,
+
+498
+00:29:09.874 --> 00:29:12.054
+that is certainly necessary.
+
+499
+00:29:14.274 --> 00:29:18.134
+One also sees, of course, in this OA model
+
+500
+00:29:18.174 --> 00:29:21.994
+and in human OA, senescent cells in the
+
+501
+00:29:22.074 --> 00:29:22.554
+joint.
+
+502
+00:29:23.534 --> 00:29:25.294
+And so one of the
+
+503
+00:29:26.634 --> 00:29:30.354
+questions that's not resolved is if you eliminate senescent cells, how much of
+
+504
+00:29:30.454 --> 00:29:34.254
+that is that you eliminate SASP
+
+505
+00:29:34.414 --> 00:29:35.774
+components produced
+
+506
+00:29:37.374 --> 00:29:39.954
+by the senescent cells in the joint versus
+
+507
+00:29:41.294 --> 00:29:44.233
+components produced by the senescent
+
+508
+00:29:44.294 --> 00:29:48.174
+pericytes in the tumor that are driving
+
+509
+00:29:48.234 --> 00:29:48.494
+this
+
+510
+00:29:50.414 --> 00:29:52.134
+normalization of vasculature
+
+511
+00:29:54.174 --> 00:29:57.154
+P-select activation, P-selectin
+
+512
+00:29:57.794 --> 00:30:01.654
+upregulation, and that translates into about a
+
+513
+00:30:01.714 --> 00:30:05.694
+five to eightfold increase in traffic
+
+514
+00:30:05.814 --> 00:30:09.764
+of lymphocytes out of the vasculature and
+
+515
+00:30:09.894 --> 00:30:13.524
+into the tumor. Interestingly, the transcriptional
+
+516
+00:30:13.654 --> 00:30:16.214
+programs of those lymphocytes
+
+517
+00:30:17.214 --> 00:30:21.134
+in the tumor aren't that different between ACLT versus
+
+518
+00:30:21.194 --> 00:30:24.974
+non-ACLT. So it really looks like a numbers game
+
+519
+00:30:25.014 --> 00:30:28.914
+related to these alterations in the vasculature.
+
+520
+00:30:29.354 --> 00:30:32.854
+But what the relative role is of SASP components versus other
+
+521
+00:30:33.834 --> 00:30:34.794
+inflammatory
+
+522
+00:30:34.974 --> 00:30:38.870
+componentsStill not worked out, and
+
+523
+00:30:38.890 --> 00:30:40.930
+that's obviously a major
+
+524
+00:30:42.570 --> 00:30:44.310
+area moving forward.
+
+525
+00:30:45.830 --> 00:30:47.790
+Also, Jennifer didn't show
+
+526
+00:30:48.690 --> 00:30:50.570
+an analysis of some of the Hopkins
+
+527
+00:30:52.610 --> 00:30:56.170
+checkpoint blockade clinical databases.
+
+528
+00:30:56.370 --> 00:30:58.350
+And certainly,
+
+529
+00:31:01.330 --> 00:31:05.170
+if you have OA going into your anti-PD-1
+
+530
+00:31:05.210 --> 00:31:08.980
+therapy, actually your
+
+531
+00:31:09.050 --> 00:31:10.710
+outcomes are dramatically better
+
+532
+00:31:11.530 --> 00:31:15.350
+than if you don't. So this is good for somebody who has OA in their
+
+533
+00:31:15.430 --> 00:31:19.270
+hips. This is the first positive thing associated with
+
+534
+00:31:19.670 --> 00:31:19.930
+that.
+
+535
+00:31:21.090 --> 00:31:22.390
+We'll take a question over here.
+
+536
+00:31:22.930 --> 00:31:24.450
+Yeah. Thank you so much. This was a great talk.
+
+537
+00:31:25.210 --> 00:31:28.910
+My question is regarding the integration of senotypes,
+
+538
+00:31:29.290 --> 00:31:32.310
+as they're called, and temporality with SASP.
+
+539
+00:31:32.990 --> 00:31:36.410
+So is it such that different senotypes have
+
+540
+00:31:36.430 --> 00:31:40.390
+different temporal evolutions? I mean, canonically, the
+
+541
+00:31:40.410 --> 00:31:44.010
+understanding is that in the early stages of SASP, you have a much more
+
+542
+00:31:44.090 --> 00:31:47.710
+acute inflammatory sort of response versus this chronic
+
+543
+00:31:48.470 --> 00:31:52.370
+inflammatory state that may be less beneficial in the context
+
+544
+00:31:52.450 --> 00:31:56.090
+of tumor progression and response to therapy.
+
+545
+00:31:56.130 --> 00:31:59.770
+So is there an integration between senotypes and that temporal evolution?
+
+546
+00:32:01.230 --> 00:32:04.650
+Yeah. So this is a great question, and I
+
+547
+00:32:06.130 --> 00:32:09.730
+think there's still relatively little that's known.
+
+548
+00:32:09.810 --> 00:32:13.130
+So the variables are
+
+549
+00:32:14.250 --> 00:32:18.200
+the cell that is producing the SASP, and different cell types,
+
+550
+00:32:18.710 --> 00:32:21.430
+clearly different senotypes, call them.
+
+551
+00:32:22.030 --> 00:32:25.770
+There are core components. So IL-6 and
+
+552
+00:32:25.850 --> 00:32:27.890
+IL-8 are examples of--
+
+553
+00:32:28.810 --> 00:32:32.710
+They're fairly core to senescent cells of
+
+554
+00:32:32.930 --> 00:32:36.090
+different types. And then there are also very
+
+555
+00:32:36.190 --> 00:32:37.150
+distinct
+
+556
+00:32:38.670 --> 00:32:41.150
+SASP elements that are cell type specific.
+
+557
+00:32:41.190 --> 00:32:41.590
+So there's
+
+558
+00:32:42.410 --> 00:32:45.150
+cell type. There is location.
+
+559
+00:32:47.650 --> 00:32:48.750
+Some of these factors
+
+560
+00:32:50.050 --> 00:32:53.960
+really can have systemic effects, but others of them,
+
+561
+00:32:54.030 --> 00:32:55.940
+like IL-6 as an example,
+
+562
+00:32:57.150 --> 00:33:00.950
+is a cytokine that acts relatively locally
+
+563
+00:33:01.090 --> 00:33:03.810
+in that the concentration by the time you're
+
+564
+00:33:03.830 --> 00:33:07.590
+eight to 10 cell diameters away from the cell
+
+565
+00:33:07.670 --> 00:33:08.370
+producing it,
+
+566
+00:33:09.290 --> 00:33:13.010
+that concentration is too low to be triggering the IL-6
+
+567
+00:33:13.070 --> 00:33:13.730
+receptor.
+
+568
+00:33:15.710 --> 00:33:17.230
+And then there's time.
+
+569
+00:33:18.690 --> 00:33:18.870
+And
+
+570
+00:33:20.970 --> 00:33:24.920
+again, they're interrelated because one of the things that in some of
+
+571
+00:33:24.950 --> 00:33:28.530
+these models that Jennifer sees is that the
+
+572
+00:33:28.630 --> 00:33:32.170
+change in SASP with time is associated
+
+573
+00:33:32.250 --> 00:33:35.880
+with ultimately loss of certain
+
+574
+00:33:35.910 --> 00:33:39.630
+populations of senescent cells and other population, other senotypes
+
+575
+00:33:40.170 --> 00:33:40.670
+coming up.
+
+576
+00:33:41.790 --> 00:33:44.730
+So I think this is a hugely
+
+577
+00:33:46.030 --> 00:33:49.930
+ripe area for the next 5 years of-- 10
+
+578
+00:33:49.970 --> 00:33:50.330
+years
+
+579
+00:33:51.210 --> 00:33:54.690
+of investigation. And as Jennifer mentioned,
+
+580
+00:33:55.950 --> 00:33:56.090
+there
+
+581
+00:33:57.010 --> 00:33:59.070
+are actually some really
+
+582
+00:34:00.210 --> 00:34:02.070
+impressive mouse tools,
+
+583
+00:34:03.370 --> 00:34:05.410
+genetically modified mouse tools,
+
+584
+00:34:06.390 --> 00:34:07.980
+that are available to be able
+
+585
+00:34:09.091 --> 00:34:10.250
+to assess these questions.
+
+586
+00:34:11.031 --> 00:34:11.571
+Excellent. Thank you.
+
+587
+00:34:12.190 --> 00:34:14.470
+So we just have time for one quick question over here.
+
+588
+00:34:15.250 --> 00:34:18.910
+I think mine is quick. I'm coming from outside this field, and what I wondered is
+
+589
+00:34:19.571 --> 00:34:22.850
+whether the senescent signatures that are being generated give us
+
+590
+00:34:22.910 --> 00:34:25.450
+improved markers to use in in vitro
+
+591
+00:34:25.490 --> 00:34:27.230
+systems.
+
+592
+00:34:29.330 --> 00:34:31.150
+So this is about can we
+
+593
+00:34:32.031 --> 00:34:33.750
+develop better senescence markers?
+
+594
+00:34:33.910 --> 00:34:36.870
+Yeah. And I wondered if that had emerged from the signatures.
+
+595
+00:34:38.011 --> 00:34:38.810
+Yeah. So,
+
+596
+00:34:40.250 --> 00:34:40.970
+absolutely. And
+
+597
+00:34:43.071 --> 00:34:43.611
+certainly,
+
+598
+00:34:45.130 --> 00:34:48.230
+in looking at senescent cells by single
+
+599
+00:34:48.370 --> 00:34:52.210
+cell, really signatures composed of multiple
+
+600
+00:34:52.770 --> 00:34:56.011
+components and this transfer learning approach of
+
+601
+00:34:56.890 --> 00:34:58.609
+defining signatures
+
+602
+00:34:59.410 --> 00:35:02.850
+in the mouse and looking at correlative cell types
+
+603
+00:35:03.310 --> 00:35:04.690
+and settings in the human,
+
+604
+00:35:06.470 --> 00:35:10.070
+I think that's going to be something that takes us a lot further than just
+
+605
+00:35:10.110 --> 00:35:11.690
+p16, for sure.
+
+606
+00:35:13.630 --> 00:35:15.010
+All right. We're going to move on to the next talk.
+
+607
+00:35:15.050 --> 00:35:18.850
+Let's thank Drew for answering our questions and being a real trooper there.
+
+608
+00:35:23.510 --> 00:35:27.130
+As you'll see, you'll have time for other questions as we go through some of these
+
+609
+00:35:27.190 --> 00:35:28.050
+other talks. So
+
+610
+00:35:28.910 --> 00:35:32.470
+Jennifer really gave a nice background on senotypes, introduced this
+
+611
+00:35:32.510 --> 00:35:35.980
+concept of the senescence-associated secretory phenotype, or SASP.
+
+612
+00:35:36.610 --> 00:35:40.330
+In my talk, I'm going to dig deeper into the SASP, particularly how it affects both
+
+613
+00:35:40.350 --> 00:35:44.190
+cytotoxic lymphocytes as well as myeloid cells in both immune
+
+614
+00:35:44.710 --> 00:35:46.310
+supporting and suppressive ways.
+
+615
+00:35:46.390 --> 00:35:49.790
+And by understanding that regulation of the SASP, can we design therapies
+
+616
+00:35:49.850 --> 00:35:53.410
+called senomorphics to remodel the SASP to get better immune
+
+617
+00:35:53.450 --> 00:35:56.340
+responses and immunotherapy responses in cancer?
+
+618
+00:35:57.150 --> 00:35:59.530
+These are my disclosures, though they're not relevant to this talk.
+
+619
+00:36:00.770 --> 00:36:04.440
+So as Jennifer had alluded to, senescence goes beyond just aging, what Hayflick and
+
+620
+00:36:04.450 --> 00:36:06.590
+Moorhead first defined it as. It's really a
+
+621
+00:36:06.670 --> 00:36:10.290
+conserved physiological stress response to damage.
+
+622
+00:36:10.910 --> 00:36:14.550
+There are a number of stimuli that can induce it, telomere shortening, DNA
+
+623
+00:36:14.630 --> 00:36:18.350
+damage, reactive oxygen species, common oncogenes such as
+
+624
+00:36:18.430 --> 00:36:22.400
+RAS, and common conventional cancer therapies like chemo and
+
+625
+00:36:22.430 --> 00:36:26.330
+radiotherapy. The first really solid intrinsic hallmark that
+
+626
+00:36:26.410 --> 00:36:30.110
+I think most of us are aware of is this stable cell cycle arrest that's
+
+627
+00:36:30.150 --> 00:36:34.030
+mediated by these two tumor suppressor pathways, p53 driving p21
+
+628
+00:36:34.730 --> 00:36:38.350
+and p16 by inhibiting CDK4/6 kinase activity,
+
+629
+00:36:38.510 --> 00:36:41.990
+activating Rb to both transcriptionally and epigenetically
+
+630
+00:36:42.070 --> 00:36:46.006
+repress cell cycle genes.In addition to these cells being arrested, they're
+
+631
+00:36:46.106 --> 00:36:49.846
+also persistent because they're resistant to cell
+
+632
+00:36:49.866 --> 00:36:53.526
+death, such as apoptosis, by upregulating anti-apoptotic
+
+633
+00:36:53.586 --> 00:36:56.346
+pathways such as BCL2 family members.
+
+634
+00:36:57.166 --> 00:37:00.596
+Given these cells don't proliferate and they upregulate tumor suppressors, it was
+
+635
+00:37:00.626 --> 00:37:04.226
+first surmised that this is a tumor-suppressive process.
+
+636
+00:37:04.346 --> 00:37:07.986
+Indeed, there are a number of landmark studies in 2005, including from Dr.
+
+637
+00:37:08.226 --> 00:37:12.136
+Smith's lab. They really were able to identify markers of oncogene-induced
+
+638
+00:37:12.146 --> 00:37:15.286
+senescence in non-proliferative premalignant lesions.
+
+639
+00:37:15.366 --> 00:37:19.326
+So what do we mean by that? So here's an example, KRAS-driven lung cancer from
+
+640
+00:37:19.366 --> 00:37:22.826
+Manu Serrano's group. So on the right here, we have an adenoma.
+
+641
+00:37:22.866 --> 00:37:25.466
+This is a premalignant lesion, hasn't become invasive yet.
+
+642
+00:37:25.526 --> 00:37:29.306
+On the left here, we have an adenocarcinoma, which is considered malignant.
+
+643
+00:37:29.386 --> 00:37:32.986
+Using this canonical marker of senescence, senescence-associated beta-gal,
+
+644
+00:37:34.006 --> 00:37:37.926
+we can see the premalignant lesion stains beautifully for SA-beta-gal, but
+
+645
+00:37:37.986 --> 00:37:40.986
+as the tumor progresses, it loses this senescence marker.
+
+646
+00:37:42.206 --> 00:37:46.126
+And there's been really nice mouse models here from the Pandolfi lab in a different
+
+647
+00:37:46.186 --> 00:37:49.716
+model here in prostate cancer losing PTEN to activate the
+
+648
+00:37:49.786 --> 00:37:53.206
+PI3K pathway in these premalignant intraepithelial
+
+649
+00:37:53.246 --> 00:37:56.626
+neoplasias, again, staining beautifully for beta-gal, and then
+
+650
+00:37:57.126 --> 00:38:01.116
+having the need for additional tumor suppressor loss to bypass senescence,
+
+651
+00:38:01.166 --> 00:38:04.806
+suggesting this might be a barrier to full malignancy.
+
+652
+00:38:05.766 --> 00:38:09.746
+However, as we went into the 2010s and beyond, the development of a number of
+
+653
+00:38:09.786 --> 00:38:13.416
+mouse models using two of our most canonical markers of senescence,
+
+654
+00:38:13.546 --> 00:38:17.416
+p16 and p21, to track these to temporarily and
+
+655
+00:38:17.466 --> 00:38:21.106
+spatially deplete them, and development of drugs called senolytic
+
+656
+00:38:21.206 --> 00:38:24.886
+drugs to target these anti-apoptotic pathways or
+
+657
+00:38:24.906 --> 00:38:28.326
+P53 pathways that allow senescent cells to persist,
+
+658
+00:38:28.826 --> 00:38:32.496
+showed the exact opposite, that actually senolysis or removal of
+
+659
+00:38:32.586 --> 00:38:36.226
+senescence can block tumor progression and relapse after therapy.
+
+660
+00:38:36.906 --> 00:38:39.046
+So how can senescence have this paradoxical role?
+
+661
+00:38:39.146 --> 00:38:40.986
+So there could be a number of reasons.
+
+662
+00:38:41.046 --> 00:38:42.106
+As Jennifer alluded to,
+
+663
+00:38:43.246 --> 00:38:46.686
+perhaps cells other than tumor cells are undergoing senescence and they're
+
+664
+00:38:46.946 --> 00:38:49.866
+causing tumor promotion, and I'll get to that towards the end of my talk.
+
+665
+00:38:50.406 --> 00:38:54.246
+You'll hear from Dr. Smith perhaps senescent cells aren't totally
+
+666
+00:38:54.705 --> 00:38:58.046
+irreversibly arrested and could eventually proliferate again.
+
+667
+00:38:58.066 --> 00:39:02.046
+But what my talk will focus on is the SAS, the ability of these damaged
+
+668
+00:39:02.086 --> 00:39:05.366
+cells to convey their damage signals to the microenvironment.
+
+669
+00:39:06.486 --> 00:39:10.046
+And the reason why the SAS might induce this paradoxical role of
+
+670
+00:39:10.086 --> 00:39:12.286
+senescence, it has a lot of pleiotropy.
+
+671
+00:39:12.466 --> 00:39:16.356
+There are a lot of different types of factors included in this secretome.
+
+672
+00:39:17.106 --> 00:39:20.806
+These include proinflammatory cytokines, IL-1 alpha-beta, IL-6,
+
+673
+00:39:21.386 --> 00:39:24.606
+chemokines like CCL2, but also growth factors
+
+674
+00:39:25.526 --> 00:39:28.806
+and matrix metalloproteases that degrade the extracellular matrix,
+
+675
+00:39:29.746 --> 00:39:33.366
+angiogenic factors such as VEGF, PDGFs, and
+
+676
+00:39:33.426 --> 00:39:35.846
+also prostaglandins and other lipid species.
+
+677
+00:39:36.555 --> 00:39:39.706
+And it's important to note that in addition to these secreted factors, senescent
+
+678
+00:39:39.726 --> 00:39:43.656
+cells upregulate immunomodulatory receptors and ligands on
+
+679
+00:39:43.666 --> 00:39:46.646
+their surface that can have immune consequences.
+
+680
+00:39:46.706 --> 00:39:50.386
+For instance, activating NK cell ligands, activate NK cell surveillance,
+
+681
+00:39:51.106 --> 00:39:55.066
+MHC class II expression of antigens that activate CD8 T cells, but
+
+682
+00:39:55.126 --> 00:39:58.366
+also immunoevasive molecules such as PD-L1.
+
+683
+00:39:59.626 --> 00:40:03.186
+And the SAS is regulated dynamically by the number of different transcription
+
+684
+00:40:03.286 --> 00:40:06.666
+factors listed here. My talk, I'll focus on two of the more
+
+685
+00:40:06.706 --> 00:40:10.366
+inflammatory ones, NF-kappa B and c-Gas, seeing the drive
+
+686
+00:40:10.406 --> 00:40:12.835
+downstream IRFs and type I interferon signaling.
+
+687
+00:40:13.606 --> 00:40:17.346
+We also know that there's also epigenetic regulation and enhancer remodeling to
+
+688
+00:40:17.426 --> 00:40:21.176
+open up these loci as well as increase protein translation to drive the
+
+689
+00:40:21.226 --> 00:40:21.586
+SAS.
+
+690
+00:40:22.786 --> 00:40:25.286
+And so really, Judy Campisi, I believe, is the one who coined SAS as this
+
+691
+00:40:25.466 --> 00:40:29.306
+double-edged sword in cancer. On the one hand, as Jennifer
+
+692
+00:40:29.346 --> 00:40:33.106
+alluded to, the SAS can lead to fibrosis resolution, it can lead to wound
+
+693
+00:40:33.146 --> 00:40:33.566
+closure,
+
+694
+00:40:34.386 --> 00:40:37.486
+and it can also lead to attracting immune cells that come in and clear out that
+
+695
+00:40:37.526 --> 00:40:41.176
+damage. But as the SAS lingers, for instance, during aging or other
+
+696
+00:40:41.226 --> 00:40:45.076
+chronic diseases, that inflammation can be inherently immunosuppressive.
+
+697
+00:40:45.555 --> 00:40:49.506
+It can also drive angiogenesis as well as invasion and proliferation of adjacent
+
+698
+00:40:49.586 --> 00:40:50.146
+tumor cells.
+
+699
+00:40:51.186 --> 00:40:54.966
+And so we really think this gets into this idea of acute versus chronic SAS.
+
+700
+00:40:55.046 --> 00:40:58.686
+If you can acutely activate an immune response with a SAS that come in and clear
+
+701
+00:40:58.726 --> 00:41:01.326
+out that damage, this can be tumor suppressive.
+
+702
+00:41:01.366 --> 00:41:05.025
+But if this lingers, eventually the SAS can give rise to progression.
+
+703
+00:41:05.186 --> 00:41:08.676
+So what I'll give you now is a few vignettes from my work and other works
+
+704
+00:41:09.286 --> 00:41:12.606
+alluding to these tumor-suppressive and promoting aspects of the SAS, and then dig
+
+705
+00:41:12.666 --> 00:41:16.646
+into how my lab has sort of looked into how the SAS is regulated and how
+
+706
+00:41:16.686 --> 00:41:20.046
+we can push this response more to being tumor suppressive.
+
+707
+00:41:21.726 --> 00:41:25.486
+So a number of works, particularly in hepatocellular carcinoma, have really shown
+
+708
+00:41:25.626 --> 00:41:29.416
+us that senescent cells can be immunogenic, capable of both innate and
+
+709
+00:41:29.446 --> 00:41:33.326
+adaptive immune surveillance. This is a work from Wen Xu, Lars
+
+710
+00:41:33.346 --> 00:41:35.266
+Zeuner when they were in Scott Lowe's group.
+
+711
+00:41:35.306 --> 00:41:39.086
+This is a model of HCC where P53 can be turned on or off with an
+
+712
+00:41:39.186 --> 00:41:43.046
+shRNA. Reactivating P53 in the context of RAS
+
+713
+00:41:43.106 --> 00:41:46.086
+mutations can induce senescence, as shown here by beta-gal.
+
+714
+00:41:46.886 --> 00:41:50.746
+This can regress the tumors. And they showed that this was due to, at
+
+715
+00:41:50.786 --> 00:41:54.586
+least here, innate immune activation, neutrophils, macrophages,
+
+716
+00:41:54.646 --> 00:41:58.486
+and NK cells, induced in part by these SAS molecules shown here.
+
+717
+00:41:59.206 --> 00:42:02.866
+So this SAS can induce innate immune surveillance to regress
+
+718
+00:42:02.946 --> 00:42:06.396
+established tumors. More recently, Scott Lowe's group has looked
+
+719
+00:42:06.526 --> 00:42:10.506
+actually not at the secretome, but at the surfaceome of senescent cells, what is
+
+720
+00:42:10.566 --> 00:42:12.126
+on their surface that's upregulated.
+
+721
+00:42:12.606 --> 00:42:16.126
+They found the interferon gamma receptor is highly upregulated on
+
+722
+00:42:16.146 --> 00:42:18.686
+senescent cells. Why that's of consequence?
+
+723
+00:42:18.826 --> 00:42:21.616
+Because interferon gamma in the microenvironment can bind these
+
+724
+00:42:21.646 --> 00:42:25.506
+receptors and activate increased MHC-1, which can
+
+725
+00:42:25.526 --> 00:42:29.486
+lead to better antigen presentation in the tumor, reprogram macrophages
+
+726
+00:42:29.526 --> 00:42:33.326
+and also dendritic cells to be more antigen-presenting, and thereby also
+
+727
+00:42:33.406 --> 00:42:36.846
+activating adaptive CD8 T cell surveillance.
+
+728
+00:42:37.636 --> 00:42:41.606
+And a back-to-back paper that came out from Manu Serrano's group even showed
+
+729
+00:42:42.066 --> 00:42:46.006
+that you could inject these senescent cells as a vaccine
+
+730
+00:42:46.066 --> 00:42:49.806
+into mice as a prophylactic. So if you injected these cells, then
+
+731
+00:42:49.866 --> 00:42:52.046
+transplanted a tumor, the tumor never formed.
+
+732
+00:42:52.746 --> 00:42:56.006
+Again, showing that senescent cells can be inherently
+
+733
+00:42:56.066 --> 00:42:59.406
+immunogenic.And there's also the context of acute
+
+734
+00:42:59.446 --> 00:43:02.886
+therapy-induced senescence from many different types of therapies.
+
+735
+00:43:02.926 --> 00:43:06.746
+So this is really nice work from Jim Jackson's group looking at chemotherapy in
+
+736
+00:43:06.826 --> 00:43:10.726
+breast cancer models. They showed that downstream of NF-kappa B
+
+737
+00:43:11.226 --> 00:43:14.646
+and IRFs, a number of immunomodulatory receptors upregulating,
+
+738
+00:43:14.746 --> 00:43:17.546
+including a number of different immune checkpoints.
+
+739
+00:43:17.586 --> 00:43:21.306
+And they found by combining chemotherapy with
+
+740
+00:43:21.346 --> 00:43:25.286
+anti PD-1 plus anti-CTLA4, which
+
+741
+00:43:25.326 --> 00:43:28.986
+are immune checkpoints, they can get better tumor responses in this breast
+
+742
+00:43:29.046 --> 00:43:29.626
+cancer model.
+
+743
+00:43:31.066 --> 00:43:34.526
+I also showed similar things when I was a postdoc in Scott Lowe's group in the
+
+744
+00:43:34.566 --> 00:43:36.586
+setting of RAS-driven pancreas cancer.
+
+745
+00:43:36.686 --> 00:43:40.226
+We found that a combination of palbociclib, a CDK4/6
+
+746
+00:43:40.266 --> 00:43:44.206
+inhibitor, and trametinib, a MEK inhibitor, could potently inhibit downstream
+
+747
+00:43:44.266 --> 00:43:48.166
+RAS signaling to induce an Rb-mediated version of senescence.
+
+748
+00:43:49.366 --> 00:43:50.546
+Interesting and similar to
+
+749
+00:43:51.806 --> 00:43:55.766
+Jennifer's talk, we actually found the SAS in pancreas cancer was very angiogenic.
+
+750
+00:43:56.266 --> 00:43:59.046
+There are lots of VEGFs, PDGFs secreted.
+
+751
+00:43:59.466 --> 00:44:03.386
+This lead not only to increased vasculature, but better endothelial activation
+
+752
+00:44:03.446 --> 00:44:07.326
+marked by P-selectin, VCAM, increased MHC II, that
+
+753
+00:44:07.386 --> 00:44:09.966
+led to the increased infiltration of CD8 T cells.
+
+754
+00:44:10.926 --> 00:44:12.586
+However, those T cells weren't really active.
+
+755
+00:44:12.666 --> 00:44:16.506
+They upregulated PD-1 and the senescent cells themselves, though
+
+756
+00:44:16.586 --> 00:44:19.886
+upregulating MHC I also simultaneously upregulated
+
+757
+00:44:19.906 --> 00:44:23.766
+PD-L1 checkpoint. And we found that combining TP to induce
+
+758
+00:44:23.786 --> 00:44:26.906
+senescence with anti PD-1 could at least lead to partial regressions
+
+759
+00:44:27.806 --> 00:44:28.326
+in this model.
+
+760
+00:44:29.696 --> 00:44:33.586
+So that's with acute senescence. But if we go back to this acute
+
+761
+00:44:33.606 --> 00:44:37.556
+versus chronic scenario, I think it's a good example to look
+
+762
+00:44:37.586 --> 00:44:39.366
+in the setting of oncogene-induced senescence.
+
+763
+00:44:39.426 --> 00:44:42.306
+So this has really been work by Lars Zender's group here.
+
+764
+00:44:42.806 --> 00:44:46.226
+They overexpress NRAS in hepatocytes to induce senescence.
+
+765
+00:44:46.286 --> 00:44:49.536
+You can see these are senescent at day six. By day 16, they're gone.
+
+766
+00:44:50.206 --> 00:44:53.766
+And they found that a combination of macrophages and CD4 T cells could
+
+767
+00:44:53.826 --> 00:44:57.726
+eradicate these hepatocytes that are senescent before they can go
+
+768
+00:44:57.786 --> 00:45:01.186
+on to form tumors. And from SAS profiling, they found that
+
+769
+00:45:01.226 --> 00:45:04.646
+CCL2 seemed to be a main driver, particularly of the
+
+770
+00:45:04.706 --> 00:45:05.946
+macrophage phenotype.
+
+771
+00:45:07.026 --> 00:45:10.366
+But in later work from the Zender group, they also looked in more established
+
+772
+00:45:10.526 --> 00:45:14.506
+HCC. And this is just a schematic describing that actually that chronic
+
+773
+00:45:14.606 --> 00:45:18.426
+CCL2 that initially led to clearance early on,
+
+774
+00:45:18.546 --> 00:45:22.366
+actually promoted the infiltration of immature myeloid cells, what some may
+
+775
+00:45:22.466 --> 00:45:26.025
+call MDSCs, that actually inhibit macrophage
+
+776
+00:45:26.086 --> 00:45:28.616
+differentiation and inhibited NK cells.
+
+777
+00:45:28.655 --> 00:45:32.646
+So I think this is a good example of how chronic SAS can eventually
+
+778
+00:45:32.686 --> 00:45:33.616
+be tumor promoting.
+
+779
+00:45:34.826 --> 00:45:38.346
+And others have shown this. Really nice work from Sheila Stewart and others have
+
+780
+00:45:38.366 --> 00:45:42.106
+shown particularly fibroblasts can secrete what I would call more of this
+
+781
+00:45:42.146 --> 00:45:46.046
+pro-myeloid SAS, CCL2, IL-6, CXCL1
+
+782
+00:45:46.066 --> 00:45:49.906
+and 2, that promote these suppressive myeloid cells that can be tumor
+
+783
+00:45:49.926 --> 00:45:50.366
+promoting.
+
+784
+00:45:51.166 --> 00:45:54.586
+A nice example is here in the setting of prostate cancer from Andre Almonte's
+
+785
+00:45:54.646 --> 00:45:58.046
+group. In this model, either of oncogene-induced senescence or
+
+786
+00:45:58.206 --> 00:46:02.186
+chemo-induced senescence, the SAS heavily upregulated
+
+787
+00:46:02.286 --> 00:46:06.266
+CXCL2, which drove in the infiltration of TAMS and
+
+788
+00:46:06.326 --> 00:46:10.006
+also MDSCs expressing its receptor CXCR2.
+
+789
+00:46:10.926 --> 00:46:13.986
+And Johan de Bono in the UK turned this into a clinical trial.
+
+790
+00:46:14.126 --> 00:46:17.926
+So he looked at this high neutrophil to lymphocyte ratio, which is
+
+791
+00:46:17.986 --> 00:46:21.446
+usually a marker of poor treatment outcomes and immune suppression.
+
+792
+00:46:21.926 --> 00:46:25.486
+He found that high neutrophil to lymphocyte ratios correlated with different
+
+793
+00:46:25.646 --> 00:46:29.346
+SAS markers, NF-kappa B, CXCL2, amongst
+
+794
+00:46:29.426 --> 00:46:33.386
+others, and even enrolled patients with castration-resistant prostate
+
+795
+00:46:33.426 --> 00:46:37.346
+cancer, which is the most aggressive form in hormone refractory portion
+
+796
+00:46:37.386 --> 00:46:41.106
+of the disease with CXCR2 inhibitors and can get responses.
+
+797
+00:46:41.146 --> 00:46:45.046
+So this is just SAS chronically can exist even beyond
+
+798
+00:46:45.086 --> 00:46:49.026
+oncogene-induced senescence and could be targeted as a xenomorphic approach.
+
+799
+00:46:50.435 --> 00:46:53.435
+And so when I started my lab in 2020, we were interested in really understanding
+
+800
+00:46:53.466 --> 00:46:57.236
+this dichotomy of SAS, how it's regulated, how can we harness it
+
+801
+00:46:57.266 --> 00:47:01.146
+for cancer immunotherapy. So some questions we were
+
+802
+00:47:01.226 --> 00:47:04.906
+after that I'll get to in my talk. One, which SAS factors are actually
+
+803
+00:47:04.926 --> 00:47:08.206
+important for antitumor immune responses? Here are just some of them.
+
+804
+00:47:08.286 --> 00:47:12.236
+Some of them I mentioned implicated in activating NK cells and T cells,
+
+805
+00:47:12.386 --> 00:47:15.966
+other myeloid cells. Ones in gray are very pleiotropic, they can do
+
+806
+00:47:16.026 --> 00:47:18.206
+multiple things depending on the context.
+
+807
+00:47:18.236 --> 00:47:21.806
+And can we harness just the SAS to activate, in particular, these cytotoxic
+
+808
+00:47:21.866 --> 00:47:25.626
+lymphocytes, NK cells, and CD8 T cells that we know are important for
+
+809
+00:47:25.706 --> 00:47:26.626
+antitumor immunity?
+
+810
+00:47:28.046 --> 00:47:30.635
+Second, how is the SAS transcriptionally regulated?
+
+811
+00:47:30.726 --> 00:47:33.836
+I mentioned NF-kappa B and STING are two of these more pro-inflammatory
+
+812
+00:47:34.286 --> 00:47:36.786
+transcriptional regulators, but there have been many implicated.
+
+813
+00:47:37.246 --> 00:47:40.346
+For instance, P38 MAPKs known to inhibit interferon signaling.
+
+814
+00:47:40.806 --> 00:47:44.406
+Notches are known to drive a more TGF-beta-rich
+
+815
+00:47:44.806 --> 00:47:48.746
+ECM remodeling SAS. In addition to the transcriptional regulation, we know
+
+816
+00:47:48.786 --> 00:47:52.486
+that there's also dynamic epigenetic regulation as well
+
+817
+00:47:52.726 --> 00:47:53.706
+that's worth exploring.
+
+818
+00:47:55.106 --> 00:47:58.806
+And finally, how does the senescence inducer, meaning, for instance, the type of
+
+819
+00:47:58.846 --> 00:48:02.635
+therapy or oncogene-induced senescence, the cell type,
+
+820
+00:48:02.666 --> 00:48:06.386
+whether it's a tumor or non-tumor cell, and the resident microenvironment
+
+821
+00:48:06.466 --> 00:48:09.566
+impact the SAS, and from that, its impact on immunity?
+
+822
+00:48:10.346 --> 00:48:13.286
+So to get at that latter question, we did this interesting experiment where we
+
+823
+00:48:13.346 --> 00:48:13.746
+treated
+
+824
+00:48:14.626 --> 00:48:17.346
+mice with the same drug, but in different cancer contexts.
+
+825
+00:48:17.926 --> 00:48:21.066
+So we went back to this trametinib, which is a MEK inhibitor palbociclib
+
+826
+00:48:21.106 --> 00:48:23.686
+CDK4/6 inhibitor-induced senescence.
+
+827
+00:48:23.746 --> 00:48:25.926
+We did this in KRAS-driven lung cancer models.
+
+828
+00:48:26.586 --> 00:48:29.946
+Saw this nice NK cell response mediated by SAS factors like
+
+829
+00:48:29.986 --> 00:48:33.786
+CCL2 and IL-15 that could attract NK cells, that could
+
+830
+00:48:33.826 --> 00:48:37.576
+bind to the cell adhesion molecule ICAM-1 upregulated on senescent
+
+831
+00:48:37.586 --> 00:48:40.966
+cells, leading to regressions that could be reversed by giving an
+
+832
+00:48:41.066 --> 00:48:44.986
+NK1.1 blocking antibody. We also tested in a
+
+833
+00:48:45.046 --> 00:48:48.806
+very similar genetic model, still KRAS, mutant and PD3 deficient, but now
+
+834
+00:48:48.846 --> 00:48:49.686
+pancreas cancer.
+
+835
+00:48:50.726 --> 00:48:53.686
+But we did not see the same inflammatory SAS induced.
+
+836
+00:48:53.746 --> 00:48:57.186
+We did not see the same NK cell responses, and we did not see tumor
+
+837
+00:48:57.226 --> 00:49:01.046
+regressionSo we're curious about this phenotype and digging deeper into
+
+838
+00:49:01.126 --> 00:49:05.026
+that. First postdoc in my lab, Lo, really did this really cool
+
+839
+00:49:05.046 --> 00:49:06.766
+experiment to try to address this question.
+
+840
+00:49:07.386 --> 00:49:11.106
+She took mouse tumor cells that were from pancreas cancer, lung cancer, and she
+
+841
+00:49:11.166 --> 00:49:12.845
+injected them into different organ sites.
+
+842
+00:49:12.886 --> 00:49:16.786
+So she either injected them into the pancreas or tail vein injected these to form
+
+843
+00:49:16.826 --> 00:49:20.586
+tumors in the lung, sorted out just the GFP tumor cells, looked at the
+
+844
+00:49:20.626 --> 00:49:24.026
+SAS profile and found in this setting where pancreas
+
+845
+00:49:24.186 --> 00:49:27.906
+tumors are grown in the pancreas microenvironment, they did
+
+846
+00:49:27.986 --> 00:49:30.585
+not have the same SAS as seen in other organs.
+
+847
+00:49:31.045 --> 00:49:34.816
+IL-15 and 18 that are important for NK and T cell activity, and
+
+848
+00:49:34.886 --> 00:49:37.656
+CXCL10 and 11 that are important for their chemotaxis.
+
+849
+00:49:38.426 --> 00:49:42.106
+Digging deeper in doing transcription factor motif analysis, she found of the
+
+850
+00:49:42.146 --> 00:49:45.666
+differentially expressed genes in the pancreas, EZH2 was a top
+
+851
+00:49:45.706 --> 00:49:49.666
+regulator. And EZH2 forms this PRC2 complex that
+
+852
+00:49:49.706 --> 00:49:53.406
+leads to H3K27 trimethylation, which is a repressive
+
+853
+00:49:53.446 --> 00:49:57.396
+chromatin mark. So could EZH2 upregulation of the pancreas lead to SAS
+
+854
+00:49:57.406 --> 00:49:59.586
+suppression and hence NK cell inhibition?
+
+855
+00:50:01.046 --> 00:50:04.226
+So she used shRNAs to knock down EZH2 in the tumor cells.
+
+856
+00:50:04.266 --> 00:50:07.326
+We injected them, treated with these drugs, induced senescence.
+
+857
+00:50:07.366 --> 00:50:10.786
+Now massive upregulation of the SAS, including many of these
+
+858
+00:50:10.846 --> 00:50:14.546
+chemokines here that I mentioned are usually not induced in the pancreas
+
+859
+00:50:14.626 --> 00:50:18.526
+microenvironment. With that, better NK cell infiltration, early activation
+
+860
+00:50:18.606 --> 00:50:22.426
+markers. Here, six out of seven mice had complete responses now with
+
+861
+00:50:22.486 --> 00:50:26.126
+knocking down EZH2 that could be completely reversed by
+
+862
+00:50:26.226 --> 00:50:29.876
+depleting NK cells. So this we found was a way by taking off this
+
+863
+00:50:29.906 --> 00:50:33.316
+epigenetic break to activate this inflammatory SAS, particularly
+
+864
+00:50:33.346 --> 00:50:35.936
+chemokines, to activate NK cell immunity.
+
+865
+00:50:36.786 --> 00:50:38.126
+But we're interested in the other side of the coin.
+
+866
+00:50:38.166 --> 00:50:40.526
+What's so different about lung cancer compared to pancreas?
+
+867
+00:50:41.106 --> 00:50:44.606
+Not surprisingly, some of the top transcription factor bindings were from RelA,
+
+868
+00:50:44.686 --> 00:50:48.626
+which is the p65 subunit of NF-kappa B, and a number of IRFs
+
+869
+00:50:48.666 --> 00:50:50.766
+that can drive downstream interferon signaling.
+
+870
+00:50:51.286 --> 00:50:54.666
+So we thought, could we find a way to activate interferon signaling that's induced
+
+871
+00:50:54.706 --> 00:50:56.106
+in the lung but not in the pancreas?
+
+872
+00:50:57.086 --> 00:51:00.886
+To do that, we collaborated with Pravana Teegala Raleigh's group at UMass Amherst.
+
+873
+00:51:01.406 --> 00:51:05.286
+They had made a lipid nanoparticle containing CDGMP, a
+
+874
+00:51:05.306 --> 00:51:08.646
+STING agonist, and MPLA, a TLR4 agonist.
+
+875
+00:51:09.186 --> 00:51:12.166
+She had previously shown the combination of these two pathways could
+
+876
+00:51:12.206 --> 00:51:15.126
+synergistically activate IRF3
+
+877
+00:51:15.706 --> 00:51:18.686
+downstream to drive this type I interferon response.
+
+878
+00:51:20.146 --> 00:51:23.326
+This is just showing that we can actually deliver these nanoparticles by tail vein
+
+879
+00:51:23.386 --> 00:51:26.906
+injection and deliver them into the pancreas microenvironment.
+
+880
+00:51:27.456 --> 00:51:31.266
+And with that, these orange bars indicate the combination of inducing senescence
+
+881
+00:51:31.286 --> 00:51:35.275
+and activating IRFs could induce more interferon beta, IL-15,
+
+882
+00:51:35.366 --> 00:51:37.826
+and other chemokines usually repressed.
+
+883
+00:51:38.406 --> 00:51:42.006
+We also did long-term treatment responses in genetically engineered mouse models of
+
+884
+00:51:42.046 --> 00:51:44.726
+pancreas cancer that form spontaneous tumors.
+
+885
+00:51:45.266 --> 00:51:49.246
+While we did see some NK cell activity, we saw more of actually a CD8 T
+
+886
+00:51:49.326 --> 00:51:51.466
+cell-driven response, as shown here.
+
+887
+00:51:52.246 --> 00:51:55.486
+And while each modality alone could increase survival, we saw massive survival
+
+888
+00:51:55.526 --> 00:51:59.436
+increases combining TP to induce senescence with these STING TLR4
+
+889
+00:51:59.486 --> 00:52:03.236
+agonist nanoparticles, including two complete responses that unfortunately
+
+890
+00:52:03.246 --> 00:52:07.226
+relapsed off of drug, but still driving the proof of concept
+
+891
+00:52:07.266 --> 00:52:11.126
+that activating the SAS, particularly the type I interferon arm, could be
+
+892
+00:52:11.146 --> 00:52:14.126
+a way to lead to durable immune responses in pancreas cancer.
+
+893
+00:52:14.776 --> 00:52:18.746
+And indeed, using an IFNAR antibody, which blocks a type I interferon receptor,
+
+894
+00:52:18.826 --> 00:52:21.126
+we could reverse the T cell activity.
+
+895
+00:52:22.526 --> 00:52:25.376
+So to summarize this portion, we know many different drugs can induce senescence,
+
+896
+00:52:25.446 --> 00:52:27.146
+but they don't all induce the same SAS.
+
+897
+00:52:27.626 --> 00:52:31.606
+We found that targeting EZH2 to take off the epigenetic brakes or targeting
+
+898
+00:52:31.746 --> 00:52:35.346
+STING TLR4 agonists to activate the type I interferon arm
+
+899
+00:52:35.826 --> 00:52:39.596
+of the SAS could activate both NK cells and CD8 T cells
+
+900
+00:52:40.106 --> 00:52:43.486
+in pancreas cancer, leading to tumor regressions in this very
+
+901
+00:52:43.506 --> 00:52:45.466
+immunologically excluded tumor type.
+
+902
+00:52:46.626 --> 00:52:49.766
+But we're also interested in how different classes of therapies could
+
+903
+00:52:50.326 --> 00:52:54.066
+modulate the SAS. So Lynn Joe, a former postdoc in my lab,
+
+904
+00:52:54.236 --> 00:52:56.266
+did this in the setting of prostate cancer.
+
+905
+00:52:56.826 --> 00:53:00.006
+This is just showing the different types of inhibitors she used, not only CDK and
+
+906
+00:53:00.046 --> 00:53:03.786
+MEK inhibitors, but also a number of DNA-damaging agents, PARP
+
+907
+00:53:03.806 --> 00:53:07.166
+inhibitor, aurora kinase, and conventional chemotherapies.
+
+908
+00:53:07.846 --> 00:53:10.866
+What I hope you appreciate here is TP can induce some senescence, but these
+
+909
+00:53:10.906 --> 00:53:14.706
+DNA-damaging agents seem to induce a much more robust
+
+910
+00:53:15.745 --> 00:53:19.546
+senescence phenotype as shown by assay beta-gal, and also a much more
+
+911
+00:53:19.606 --> 00:53:23.086
+robust SAS, both quantitatively and also
+
+912
+00:53:23.146 --> 00:53:26.546
+qualitatively different, driving more of what I would call this pro-myeloid
+
+913
+00:53:26.946 --> 00:53:30.826
+SAS of CSF, CXCL1, and CXCL2, particularly with
+
+914
+00:53:30.846 --> 00:53:31.086
+this
+
+915
+00:53:31.946 --> 00:53:33.606
+chemotherapy known as docetaxel.
+
+916
+00:53:34.686 --> 00:53:37.706
+Doing RNA-seq, she dug deeper into this and actually found an addition to
+
+917
+00:53:38.166 --> 00:53:42.146
+inflammatory signaling pathways being upregulated with DNA-damaging
+
+918
+00:53:42.226 --> 00:53:46.166
+agents versus CDK inhibitors. Also ECM remodeling SAS,
+
+919
+00:53:46.486 --> 00:53:50.276
+including MMPs, TGF-beta, that are known to remodel the
+
+920
+00:53:50.286 --> 00:53:53.926
+ECM, but also drive what's known as EMT, which is a driver of
+
+921
+00:53:53.966 --> 00:53:57.546
+invasion and metastasis. And indeed, in mouse prostate cancer
+
+922
+00:53:57.646 --> 00:54:01.626
+models, docetaxel, which can induce senescence, can decrease primary
+
+923
+00:54:01.646 --> 00:54:04.726
+tumor growth, but it has no effect on metastasis.
+
+924
+00:54:05.396 --> 00:54:07.626
+And so she looked at what was upregulated with docetaxel.
+
+925
+00:54:07.706 --> 00:54:11.546
+Not surprisingly, as I mentioned, BCL2 is this anti-apoptotic protein
+
+926
+00:54:11.926 --> 00:54:15.166
+upregulated in senescence, but also IAP, inhibitor of
+
+927
+00:54:15.206 --> 00:54:19.186
+apoptosis. And so she used these senolytic approaches to target these
+
+928
+00:54:19.246 --> 00:54:23.026
+pro-survival pathways. This is showing we can induce
+
+929
+00:54:23.386 --> 00:54:26.576
+cell death and decrease the p16 burden with these
+
+930
+00:54:26.606 --> 00:54:30.076
+approaches. But interestingly, she found the mechanism of action was a little bit
+
+931
+00:54:30.106 --> 00:54:34.006
+different between these senolytic approaches, with IAP antagonists
+
+932
+00:54:34.026 --> 00:54:37.806
+not only inducing apoptosis, but an inflammatory version of cell death
+
+933
+00:54:37.866 --> 00:54:41.706
+known as necroptosis. And with that in particular, she can not only reduce this
+
+934
+00:54:41.746 --> 00:54:45.716
+myeloid chemokines, but actually also induce some of these
+
+935
+00:54:45.746 --> 00:54:48.906
+pro-lymphocyte chemokines with that immunogenic cell death.
+
+936
+00:54:49.746 --> 00:54:53.406
+And with that, with these senolytic approaches, activate more T
+
+937
+00:54:53.486 --> 00:54:56.786
+cells, reduce immature myeloid cells, enhance
+
+938
+00:54:57.686 --> 00:55:01.206
+antigen presentation by DCs, and now reduce metastasis.
+
+939
+00:55:01.246 --> 00:55:04.818
+So this shows us that senolytic approaches could takeCare of this sort of
+
+940
+00:55:04.878 --> 00:55:08.478
+ECM remodeling SASP by removing those senescent cells, and also
+
+941
+00:55:08.518 --> 00:55:12.238
+suggests that the type of cell death induced by senolytic might induce
+
+942
+00:55:12.278 --> 00:55:14.748
+different immune responses downstream of the SASP.
+
+943
+00:55:15.868 --> 00:55:19.428
+And finally, we wanted to also get at how the cell type undergoing
+
+944
+00:55:19.518 --> 00:55:22.558
+senescence also impacts the SASP.
+
+945
+00:55:22.618 --> 00:55:26.498
+So Lynn, in a work published earlier this year, in her early model
+
+946
+00:55:26.538 --> 00:55:30.178
+of prostate cancer, this oncogene-induced senescence, she found that p16 and
+
+947
+00:55:30.218 --> 00:55:33.518
+p21 that we typically use interchangeably as senescence
+
+948
+00:55:33.618 --> 00:55:37.518
+markers actually marked different senescence populations.
+
+949
+00:55:37.558 --> 00:55:41.058
+p16 really marking epithelial tumor cells in the
+
+950
+00:55:41.078 --> 00:55:44.558
+glandular structure, but p21 marking more stromal cells.
+
+951
+00:55:45.818 --> 00:55:49.798
+Collaborating with my former PhD mentor, Hong Wu, we did single-cell analysis
+
+952
+00:55:50.338 --> 00:55:53.738
+and found that CDKN2A, which encodes p16, was really in the
+
+953
+00:55:53.758 --> 00:55:57.638
+epithelium, but p21 was expressed more broadly, including in
+
+954
+00:55:57.678 --> 00:56:01.228
+myeloid cells and fibroblasts. And just to break down this busy
+
+955
+00:56:01.358 --> 00:56:04.818
+figure, what we found by looking at the SASP was the epithelial compartment really
+
+956
+00:56:04.838 --> 00:56:08.758
+wasn't expressing much. Fibroblasts, a little bit of TGF-beta and VEGF,
+
+957
+00:56:08.838 --> 00:56:12.668
+but really it was the myeloid cells secreting predominantly this
+
+958
+00:56:12.698 --> 00:56:16.518
+SASP. So senescing cells in the microenvironment might induce a different
+
+959
+00:56:16.598 --> 00:56:18.138
+SASP, it might be tumor-promoting.
+
+960
+00:56:18.718 --> 00:56:22.498
+To prove that functionally, we did this experiment where we transplanted a
+
+961
+00:56:22.618 --> 00:56:26.438
+syngeneic prostate cancer cell line into this p21-RTTA
+
+962
+00:56:26.478 --> 00:56:28.818
+model developed by Sundeep Khosla's lab here.
+
+963
+00:56:29.298 --> 00:56:32.918
+p21 drives an inducible caspase VIII that allows you to give this
+
+964
+00:56:32.938 --> 00:56:36.598
+pro-drug to remove any p21 cell. But because we're
+
+965
+00:56:36.618 --> 00:56:39.698
+injecting a tumor cell line that doesn't have that allele, we'll only get rid of
+
+966
+00:56:39.718 --> 00:56:42.998
+p21 in the microenvironment, not on the tumor per se.
+
+967
+00:56:43.498 --> 00:56:47.308
+And with that, we can activate T cells, reduce immature myeloid cells,
+
+968
+00:56:47.798 --> 00:56:51.538
+leads to tumor growth suppression, and importantly, block the SASP.
+
+969
+00:56:51.658 --> 00:56:55.598
+We think the microenvironment SASP, perhaps because it's chronic, perhaps because
+
+970
+00:56:55.618 --> 00:56:58.238
+it's more pro-myeloid, seems to be tumor promoting.
+
+971
+00:56:59.118 --> 00:57:01.268
+And I'll just mention, we're not the only ones who have shown this.
+
+972
+00:57:01.318 --> 00:57:05.098
+There are many in the field to look at this sort of non-tumor senescence.
+
+973
+00:57:05.158 --> 00:57:09.118
+Darren Baker's group has shown this nicely in macrophages in lung cancer.
+
+974
+00:57:09.578 --> 00:57:12.937
+Sheila Stewart's group has shown this in fibroblasts in breast cancer.
+
+975
+00:57:12.958 --> 00:57:16.698
+And Andrea Alanti has shown this in neutrophils in prostate cancer.
+
+976
+00:57:17.338 --> 00:57:19.798
+So there are many different cell types that can undergo senescence.
+
+977
+00:57:19.838 --> 00:57:23.408
+This has really changed our thinking of senescence beyond the tumor and thinking
+
+978
+00:57:23.458 --> 00:57:27.378
+about, could this stromal senescence be a link between stress, chronic
+
+979
+00:57:27.438 --> 00:57:30.658
+inflammation, and cancer? Especially if you think of an aging individual
+
+980
+00:57:30.938 --> 00:57:34.578
+accumulating senescent cell, could the senescent cell accumulation
+
+981
+00:57:34.818 --> 00:57:38.338
+in benign tissues during aging create a soil for tumor
+
+982
+00:57:38.418 --> 00:57:39.038
+propagation?
+
+983
+00:57:40.278 --> 00:57:43.278
+So that's a nice thought, but we need a number of next steps in the field to really
+
+984
+00:57:43.318 --> 00:57:46.018
+get to this point. We need better biomarkers to
+
+985
+00:57:46.078 --> 00:57:49.978
+distinguish these senotypes, but also these different flavors
+
+986
+00:57:50.018 --> 00:57:53.958
+of SASP. And from that, we'll need to design more specific senolytic and
+
+987
+00:57:53.998 --> 00:57:57.098
+also senomorphic targets to target this pathological
+
+988
+00:57:57.658 --> 00:58:01.608
+senescence. And we'll also acquire deeper characterization of how senescence
+
+989
+00:58:01.618 --> 00:58:05.238
+and immune cells interact, particularly in niches, in particular at a spatial
+
+990
+00:58:05.258 --> 00:58:05.518
+level.
+
+991
+00:58:06.698 --> 00:58:10.318
+So to summarize the key points, what we found is that innate adaptive immune
+
+992
+00:58:10.398 --> 00:58:14.218
+system can mediate potent clearance of senescent premalignant as well as
+
+993
+00:58:14.258 --> 00:58:17.698
+established tumors through the SASP, through things like chemokine
+
+994
+00:58:17.778 --> 00:58:21.318
+CXCL9 and 10, interleukins, interferons, but also have
+
+995
+00:58:21.378 --> 00:58:25.178
+regulation of ligands that can activate NK cells and MHC class
+
+996
+00:58:25.278 --> 00:58:29.198
+I molecules. We also know a chronic SASP can lead to myeloid-mediated immune
+
+997
+00:58:29.218 --> 00:58:32.798
+suppression through factors such as IL-6 and CXCL1 and 2.
+
+998
+00:58:33.558 --> 00:58:37.118
+And that SASP-mediated immune responses in cancer are dependent on a number of
+
+999
+00:58:37.178 --> 00:58:37.498
+things.
+
+1000
+00:58:38.518 --> 00:58:40.958
+The resident makeup of the tumor microenvironment,
+
+1001
+00:58:42.018 --> 00:58:45.678
+the chromatin landscape of the tumor cells, particularly these marks that
+
+1002
+00:58:45.758 --> 00:58:47.098
+regulate enhancer remodeling,
+
+1003
+00:58:48.158 --> 00:58:51.318
+and the SASP transcriptional programs. I mentioned a few of these.
+
+1004
+00:58:51.378 --> 00:58:54.518
+We looked at pro-angiogenic that induce blood vessel formation,
+
+1005
+00:58:54.958 --> 00:58:58.738
+pro-lymphocyte that activate NK and T cells, pro-myeloid, and also
+
+1006
+00:58:58.778 --> 00:59:01.798
+ECM remodeling that could potentially drive metastasis.
+
+1007
+00:59:02.538 --> 00:59:06.158
+And it's also dependent on the therapy, whether we're talking about a cytostatic
+
+1008
+00:59:06.218 --> 00:59:09.918
+CDK inhibitor or cytotoxic chemotherapy can induce different
+
+1009
+00:59:10.018 --> 00:59:13.858
+SASP, and whether this is in a tumor cell or whether this is a stromal or
+
+1010
+00:59:13.898 --> 00:59:16.598
+immune cell undergoing senescence. And I'll leave you with this.
+
+1011
+00:59:16.678 --> 00:59:20.538
+I think senomorphic approaches to enhance type I interferon
+
+1012
+00:59:20.578 --> 00:59:24.258
+arm of SASP while suppressing the pro-myeloid SASP will maximize
+
+1013
+00:59:24.297 --> 00:59:27.598
+immunogenicity of senescence for cancer immunotherapy.
+
+1014
+00:59:28.558 --> 00:59:31.388
+So I'll just stop there and really acknowledge our lab, our great collaborators,
+
+1015
+00:59:31.538 --> 00:59:35.398
+mentors, and we're hiring at all levels if anyone's interested in joining our
+
+1016
+00:59:35.458 --> 00:59:37.088
+group, and I'm happy to take questions. Thanks.
+
+1017
+00:59:37.088 --> 00:59:37.178
+Thanks.
+
+1018
+00:59:46.038 --> 00:59:47.438
+Thanks, Marcus. That's not on?
+
+1019
+00:59:47.858 --> 00:59:48.458
+I don't know.
+
+1020
+00:59:48.638 --> 00:59:50.937
+Okay. Thanks, Marcus, for a great presentation.
+
+1021
+00:59:50.978 --> 00:59:53.638
+We have time for one or two quick questions.
+
+1022
+00:59:54.918 --> 00:59:57.898
+Hi, good morning, Marcus. My name is Jelani Zarif from Johns Hopkins.
+
+1023
+00:59:58.358 --> 01:00:01.758
+Great talk. I was wondering about your experiments using the MycAP
+
+1024
+01:00:01.838 --> 01:00:02.598
+models.
+
+1025
+01:00:02.638 --> 01:00:02.778
+Yeah.
+
+1026
+01:00:03.038 --> 01:00:06.018
+Were those animals-- And then you used the MP10.
+
+1027
+01:00:06.078 --> 01:00:08.958
+Were they castrated after tumor
+
+1028
+01:00:09.278 --> 01:00:11.838
+implantation? Those are castration sensitive.
+
+1029
+01:00:12.178 --> 01:00:15.898
+That's a great question. P10 we did, and that was a reviewer question.
+
+1030
+01:00:15.938 --> 01:00:17.068
+It might've been you. But we did it.
+
+1031
+01:00:17.078 --> 01:00:18.658
+No. It wasn't me.
+
+1032
+01:00:18.978 --> 01:00:22.818
+It's in the paper. So we actually had a better phenotype when we castrated the P10
+
+1033
+01:00:22.858 --> 01:00:26.258
+model. But they're de novo resistant. They'll start growing immediately.
+
+1034
+01:00:26.318 --> 01:00:27.018
+So there's not a
+
+1035
+01:00:27.838 --> 01:00:30.448
+dip in a growth. They just keep growing. But they do even better.
+
+1036
+01:00:30.798 --> 01:00:34.358
+MycAP we didn't because we're a little bit afraid because if you remove
+
+1037
+01:00:34.398 --> 01:00:36.978
+androgen, you're going to also inhibit Myc, right?
+
+1038
+01:00:37.098 --> 01:00:40.218
+So I try to stay away from castrating the MycAP model.
+
+1039
+01:00:40.558 --> 01:00:43.998
+And then on top of that, you used the ABT inhibitor,
+
+1040
+01:00:44.998 --> 01:00:46.358
+I think in the MycAP model.
+
+1041
+01:00:46.438 --> 01:00:46.578
+Mm-hmm.
+
+1042
+01:00:48.078 --> 01:00:51.958
+Have you all combined that with the anti-PD-1 therapy,
+
+1043
+01:00:52.518 --> 01:00:56.418
+given that you saw a large influx of cytotoxic T cells based
+
+1044
+01:00:56.438 --> 01:00:57.018
+on your staining?
+
+1045
+01:00:57.998 --> 01:01:01.458
+Yeah, we haven't done that yet. That would be a really cool thing to do, but we
+
+1046
+01:01:01.478 --> 01:01:02.238
+haven't. Yeah.
+
+1047
+01:01:02.258 --> 01:01:02.898
+Great. Thank you.
+
+1048
+01:01:02.958 --> 01:01:03.178
+Yeah.
+
+1049
+01:01:03.458 --> 01:01:03.748
+Sheila
+
+1050
+01:01:05.514 --> 01:01:09.434
+Hey, Marcus. A great talk. So I understand this is a loaded question before I ask
+
+1051
+01:01:09.474 --> 01:01:13.224
+it, but when we think about P21 versus P16 senescence, admitting there's
+
+1052
+01:01:13.234 --> 01:01:17.174
+probably many more, do you think that it's more about
+
+1053
+01:01:17.254 --> 01:01:19.554
+cell specificity and/or temporally?
+
+1054
+01:01:20.234 --> 01:01:21.764
+Like one comes before the other-
+
+1055
+01:01:22.094 --> 01:01:22.154
+Ooh.
+
+1056
+01:01:22.164 --> 01:01:23.494
+... like in a GEM model.
+
+1057
+01:01:24.314 --> 01:01:27.634
+My guess is temporal. My guess is that either
+
+1058
+01:01:27.814 --> 01:01:31.224
+tumor-secreted factors or SAS, I think P21 is a secondary
+
+1059
+01:01:31.834 --> 01:01:35.554
+senescent. I think it's secondary induced by acute
+
+1060
+01:01:35.674 --> 01:01:37.673
+stress, and they become hyper-inflammatory.
+
+1061
+01:01:38.054 --> 01:01:39.934
+It could also be induced by the microenvironment.
+
+1062
+01:01:39.954 --> 01:01:42.374
+They're getting into a hypoxic microenvironment.
+
+1063
+01:01:42.474 --> 01:01:46.314
+So my hypothesis would be that it's temporal, but we haven't proven
+
+1064
+01:01:46.374 --> 01:01:46.674
+that yet.
+
+1065
+01:01:47.534 --> 01:01:48.874
+Very last question, Barry.
+
+1066
+01:01:48.934 --> 01:01:48.994
+Yeah.
+
+1067
+01:01:49.014 --> 01:01:49.354
+Quick, please.
+
+1068
+01:01:49.574 --> 01:01:52.874
+Beautiful talk. I'm an immunologist, and this is new to me, so my brain is just-
+
+1069
+01:01:52.884 --> 01:01:52.884
+Mm-hmm
+
+1070
+01:01:52.884 --> 01:01:53.634
+... going crazy now.
+
+1071
+01:01:54.484 --> 01:01:58.314
+And I was just wondering, beautiful mouse models, but have you kind of
+
+1072
+01:01:58.354 --> 01:02:01.954
+put the pieces together to look in the cancer atlas in
+
+1073
+01:02:02.014 --> 01:02:05.834
+patients to kind of understand where the jump is in
+
+1074
+01:02:05.894 --> 01:02:08.354
+terms of how much we could harness in patients here?
+
+1075
+01:02:09.234 --> 01:02:12.514
+I see. So translating what we're doing in the mouse model to the patients.
+
+1076
+01:02:12.574 --> 01:02:13.294
+Yeah.
+
+1077
+01:02:13.414 --> 01:02:16.154
+Yeah. We're wanting to do that. It's a little bit tricky.
+
+1078
+01:02:16.254 --> 01:02:18.334
+Some of the therapies like chemo, we can do.
+
+1079
+01:02:18.454 --> 01:02:22.414
+I think Clemens has really been the pioneer in the field of translating this
+
+1080
+01:02:22.454 --> 01:02:24.914
+into patients, so I think he can speak more to that.
+
+1081
+01:02:24.974 --> 01:02:28.474
+Maybe he will during his talk. But we haven't been able to yet.
+
+1082
+01:02:28.514 --> 01:02:30.064
+It's really hard to, I think--
+
+1083
+01:02:31.114 --> 01:02:32.934
+Some of these markers are difficult to stain for.
+
+1084
+01:02:33.454 --> 01:02:37.324
+It's also hard to know fixed sections, where the signals
+
+1085
+01:02:37.334 --> 01:02:39.354
+are coming from, and how they change over time.
+
+1086
+01:02:40.054 --> 01:02:43.694
+So we would love to get there and love any suggestions from anyone in the audience,
+
+1087
+01:02:43.794 --> 01:02:47.194
+but I think Clemens is probably the best person to answer that.
+
+1088
+01:02:47.234 --> 01:02:48.334
+Maybe he will during his talk.
+
+1089
+01:02:48.994 --> 01:02:49.214
+Thank you.
+
+1090
+01:02:49.254 --> 01:02:49.414
+Yep.
+
+1091
+01:02:54.824 --> 01:02:55.274
+All
+
+1092
+01:02:56.074 --> 01:02:59.674
+right. So we'll move on to- Our third and final talk
+
+1093
+01:03:00.054 --> 01:03:03.994
+from Dr. Clemens Schmidt, who's professor at Charité University of Berlin, Max
+
+1094
+01:03:04.054 --> 01:03:07.974
+Delbrück Center of Molecular Medicine in Berlin, and Johann Kepler University in
+
+1095
+01:03:08.034 --> 01:03:11.134
+Linz. And we're looking forward to your talk. Thanks.
+
+1096
+01:03:11.314 --> 01:03:15.034
+All right. Thanks very much. Let me start off by thanking the ACR, the organizers,
+
+1097
+01:03:15.094 --> 01:03:18.974
+for selecting a presentation from my lab
+
+1098
+01:03:19.014 --> 01:03:22.654
+for this highly informative educational session on
+
+1099
+01:03:22.714 --> 01:03:23.994
+cellular senescence.
+
+1100
+01:03:24.934 --> 01:03:28.894
+So here are my disclosures. And I can only thank the previous
+
+1101
+01:03:28.994 --> 01:03:32.454
+speakers for so well introducing the topic that
+
+1102
+01:03:33.394 --> 01:03:35.354
+there's not much to add, but a little bit.
+
+1103
+01:03:35.814 --> 01:03:39.124
+In the clinic, we often don't know whether we look at a wound or
+
+1104
+01:03:39.314 --> 01:03:43.183
+cancer. So as obviously as we learned from the previous presentations, an
+
+1105
+01:03:43.934 --> 01:03:46.954
+intimate relationship between derailed wound healing and
+
+1106
+01:03:47.034 --> 01:03:50.463
+cancer. So senescent cells, as we all know, are an
+
+1107
+01:03:50.514 --> 01:03:54.034
+intrinsic component of the multicellularity of
+
+1108
+01:03:54.114 --> 01:03:57.834
+cancer as an organ. But I like to make the point, although it was
+
+1109
+01:03:57.894 --> 01:04:00.254
+pointed out by my previous colleagues,
+
+1110
+01:04:01.054 --> 01:04:04.694
+that in an acute fashion, senescent cells in wound
+
+1111
+01:04:04.734 --> 01:04:08.194
+healing are an essential component for proper wound healing.
+
+1112
+01:04:08.754 --> 01:04:12.714
+So the components listed here following the tissue injury,
+
+1113
+01:04:13.374 --> 01:04:17.314
+primary senescence, then SAS-mediated secondary senescence
+
+1114
+01:04:17.374 --> 01:04:20.974
+to take care of all damaged cells, not to
+
+1115
+01:04:21.034 --> 01:04:24.634
+propagate any more and to contribute to the parenchymal
+
+1116
+01:04:24.674 --> 01:04:27.214
+cellularity, is followed by
+
+1117
+01:04:27.314 --> 01:04:31.054
+SASP-called immune cell invasion to
+
+1118
+01:04:31.194 --> 01:04:35.174
+clear up the injured site. But there's also
+
+1119
+01:04:35.254 --> 01:04:38.154
+translational reprogramming into
+
+1120
+01:04:38.214 --> 01:04:41.984
+senescence-associated stemness, which sounds paradoxical,
+
+1121
+01:04:42.374 --> 01:04:45.934
+but in proper wound healing, it's the senescent cells which
+
+1122
+01:04:46.054 --> 01:04:49.854
+therefore may contribute to replenish cellularity
+
+1123
+01:04:50.274 --> 01:04:52.714
+once stresses have been resolved.
+
+1124
+01:04:52.754 --> 01:04:55.434
+And with this in mind, we may now look at
+
+1125
+01:04:55.494 --> 01:04:59.154
+senescence-promoted cancer features with some different
+
+1126
+01:04:59.214 --> 01:05:02.974
+perspective. In particular, looking at senescent cells not only
+
+1127
+01:05:03.054 --> 01:05:05.754
+as the source of SAS, but also being
+
+1128
+01:05:06.294 --> 01:05:09.954
+reprogrammed latent stem cells. And if this
+
+1129
+01:05:09.994 --> 01:05:13.654
+happens hijacked by a tumor, they may become de
+
+1130
+01:05:13.694 --> 01:05:17.634
+novo cancer stem cells. So with this, that's already obvious,
+
+1131
+01:05:17.714 --> 01:05:21.284
+I think, to this audience, there is, in an acute fashion, in
+
+1132
+01:05:21.354 --> 01:05:25.054
+response to activated oncogenes or in response
+
+1133
+01:05:25.114 --> 01:05:28.764
+to antineoplastic therapy, a beneficial
+
+1134
+01:05:28.874 --> 01:05:31.584
+tumor-suppressive form of senescence.
+
+1135
+01:05:31.714 --> 01:05:35.614
+But if those therapy-exposed senescent
+
+1136
+01:05:35.654 --> 01:05:39.414
+cells or oncogene-activated cells persist, then they may
+
+1137
+01:05:39.434 --> 01:05:42.374
+drive derailed wound healing inflammation.
+
+1138
+01:05:42.434 --> 01:05:45.074
+They are reprogrammed as stem cells.
+
+1139
+01:05:45.084 --> 01:05:48.974
+And if they get permission to occasionally re-enter the
+
+1140
+01:05:49.014 --> 01:05:52.494
+cell cycle, they may exert their stem-like function.
+
+1141
+01:05:53.334 --> 01:05:55.934
+There's immunogenic plasticity, immune evasion.
+
+1142
+01:05:55.984 --> 01:05:58.334
+We heard about this, and therefore, there are
+
+1143
+01:05:58.894 --> 01:06:02.074
+possible therapeutic interventions.
+
+1144
+01:06:02.154 --> 01:06:05.594
+We heard about senomorphics to limit, in particular, inflammation, and
+
+1145
+01:06:05.634 --> 01:06:09.554
+senolytics to actually catch the senescent
+
+1146
+01:06:09.594 --> 01:06:12.334
+cells at their root and eliminate them.
+
+1147
+01:06:12.394 --> 01:06:15.954
+I'd like to make a point which, in my view, is obvious but is
+
+1148
+01:06:15.974 --> 01:06:19.834
+not really deeply discussed. Senescence is not a binary
+
+1149
+01:06:19.954 --> 01:06:23.034
+state. It's not in or out of senescence.
+
+1150
+01:06:23.074 --> 01:06:26.514
+There is a pro-senescent trigger driving a cell into
+
+1151
+01:06:26.554 --> 01:06:30.434
+senescence. And actually, it may matter over time how
+
+1152
+01:06:30.534 --> 01:06:34.494
+long, how strong, and in what kind of trigger this trigger is
+
+1153
+01:06:34.534 --> 01:06:38.114
+applying to cause maybe initial senescence, light
+
+1154
+01:06:38.214 --> 01:06:42.014
+senescence, actual senescence, and perhaps something like
+
+1155
+01:06:42.134 --> 01:06:45.854
+super senescence. I'm not showing data on this, but I like to make this
+
+1156
+01:06:45.954 --> 01:06:49.914
+point that the depth of senescence, particularly at the level
+
+1157
+01:06:50.014 --> 01:06:53.974
+of epigenomic reprogramming, chromatin remodeling, in particular, the
+
+1158
+01:06:54.054 --> 01:06:57.274
+senescence-associated heterochromatin foci
+
+1159
+01:06:57.854 --> 01:07:01.834
+may decide about the quality of senescence and
+
+1160
+01:07:01.974 --> 01:07:05.934
+its depth, and in other words, what was already quoted before,
+
+1161
+01:07:05.944 --> 01:07:09.414
+reversibility of senescence. I would not claim
+
+1162
+01:07:09.554 --> 01:07:13.104
+senescence is reversible. I believe it's neither reversible
+
+1163
+01:07:13.214 --> 01:07:17.054
+nor irreversible, but there is a state beyond senescence.
+
+1164
+01:07:17.134 --> 01:07:21.114
+I like to share that with you. We have data why we believe this is not
+
+1165
+01:07:21.154 --> 01:07:24.374
+philosophical, so that if senescence is
+
+1166
+01:07:24.474 --> 01:07:27.434
+reversible, it was not senescence.
+
+1167
+01:07:27.934 --> 01:07:31.444
+If you have a cell deeply in senescence, and here's the
+
+1168
+01:07:31.474 --> 01:07:34.954
+machinery inaugurated by Monsieur Shin Narita in Scott Lowe, the
+
+1169
+01:07:34.974 --> 01:07:38.586
+SAFmachinery. E2F target genes are
+
+1170
+01:07:38.626 --> 01:07:42.426
+deeply silenced by an histone H3
+
+1171
+01:07:42.486 --> 01:07:44.706
+lysine 9 trimethylated mechanism.
+
+1172
+01:07:44.926 --> 01:07:48.516
+We concluded if we would provide in senescence a
+
+1173
+01:07:48.726 --> 01:07:52.686
+demethylase activity, we may be able to
+
+1174
+01:07:52.726 --> 01:07:55.866
+drive cells out of senescence. That's what you see on the right side.
+
+1175
+01:07:55.906 --> 01:07:59.266
+If we induce Jumonji D2C, these firmly
+
+1176
+01:07:59.286 --> 01:08:03.226
+RAS-induced senescent cells can level off, become
+
+1177
+01:08:03.306 --> 01:08:06.306
+pS2 beta negative, and can reproliferate.
+
+1178
+01:08:06.446 --> 01:08:08.035
+And the mechanism behind is
+
+1179
+01:08:09.066 --> 01:08:12.426
+turnover of nucleosomes. This has to be
+
+1180
+01:08:12.486 --> 01:08:16.387
+permanently reestablished. So we allowed an H3
+
+1181
+01:08:16.467 --> 01:08:20.166
+arginine 9 mutant to compete with H3 lysine
+
+1182
+01:08:20.406 --> 01:08:24.346
+9, and you see it takes a while, but after a while there
+
+1183
+01:08:24.406 --> 01:08:28.326
+is an overtake of the R9 mutant, which can
+
+1184
+01:08:28.467 --> 01:08:32.366
+obviously not lysine 9 trimethylate, and that's sufficient to
+
+1185
+01:08:32.706 --> 01:08:36.547
+allow, again, senescent cells to get out of senescence.
+
+1186
+01:08:36.626 --> 01:08:40.346
+And you see these senescent cells have now a reduced load of
+
+1187
+01:08:40.526 --> 01:08:44.387
+H3 lysine 9 tri-methylation. We
+
+1188
+01:08:44.406 --> 01:08:48.007
+heard a lot about heterogeneity of senescence, and I think that's super important
+
+1189
+01:08:48.047 --> 01:08:51.686
+because the field is moving into single-cell omics
+
+1190
+01:08:51.766 --> 01:08:55.306
+technologies and tries to describe the various
+
+1191
+01:08:55.346 --> 01:08:59.326
+facets and types of senescence. I like to discuss with you whether
+
+1192
+01:08:59.366 --> 01:09:02.906
+there might be rather one full-featured uniform
+
+1193
+01:09:03.087 --> 01:09:06.626
+program that provides
+
+1194
+01:09:06.726 --> 01:09:09.596
+certain aspects in different contexts.
+
+1195
+01:09:09.887 --> 01:09:13.467
+So it's more or less the same senescence program, which is
+
+1196
+01:09:13.507 --> 01:09:17.406
+associated with key functionalities in given cellular
+
+1197
+01:09:17.526 --> 01:09:20.986
+context. Other features are present but less relevant.
+
+1198
+01:09:21.346 --> 01:09:25.186
+Or whether there are indeed multiple or many distinct types
+
+1199
+01:09:25.246 --> 01:09:29.146
+of senescence characterized by different lead functions where other
+
+1200
+01:09:29.206 --> 01:09:33.186
+features are less present. I'm not concluding either
+
+1201
+01:09:33.246 --> 01:09:37.047
+of the two is right. I guess it's a spectrum in between, but
+
+1202
+01:09:37.547 --> 01:09:40.587
+it's important for therapeutic interventions.
+
+1203
+01:09:41.066 --> 01:09:44.906
+So there is a core senescence machinery and a specialized
+
+1204
+01:09:44.986 --> 01:09:48.646
+machinery, which would mean if you look at a rather uniform senescence
+
+1205
+01:09:48.726 --> 01:09:50.846
+program, it's driven by the core machinery.
+
+1206
+01:09:51.366 --> 01:09:54.826
+If it's more a specialized program, it's driven by these
+
+1207
+01:09:54.906 --> 01:09:58.506
+additional lead functions. Core senescence markers we
+
+1208
+01:09:58.566 --> 01:10:02.546
+know, it's complicated enough to detect them or to determine
+
+1209
+01:10:02.566 --> 01:10:06.226
+whether a cell fulfills a sufficient amount of these
+
+1210
+01:10:06.266 --> 01:10:10.026
+markers or is positive for certain signatures, as we heard
+
+1211
+01:10:10.086 --> 01:10:13.976
+today. So this is complicated. But if we look at the more
+
+1212
+01:10:14.106 --> 01:10:16.866
+specialized senescence markers, we would have
+
+1213
+01:10:17.246 --> 01:10:20.966
+type-specific senescence vulnerabilities as compared
+
+1214
+01:10:21.026 --> 01:10:24.486
+to targeting the core machinery in terms of a shared
+
+1215
+01:10:24.526 --> 01:10:28.206
+senescence vulnerability. So the more uniform
+
+1216
+01:10:28.226 --> 01:10:31.966
+program is good and bad senescence throughout the body, while the
+
+1217
+01:10:32.126 --> 01:10:36.066
+more diverse or multiple types of senescence may
+
+1218
+01:10:36.106 --> 01:10:39.566
+give you specific senescence functions and you may argue, I
+
+1219
+01:10:39.646 --> 01:10:43.626
+understand that from a clinical perspective, you want to target the bad
+
+1220
+01:10:43.746 --> 01:10:46.206
+ones and want to leave the good ones intact.
+
+1221
+01:10:46.526 --> 01:10:49.766
+Whether that's achievable, that's a different question.
+
+1222
+01:10:49.946 --> 01:10:53.486
+I'm not making an argument for either point, but
+
+1223
+01:10:53.626 --> 01:10:57.246
+I like to go for the second half of the talk through an
+
+1224
+01:10:57.266 --> 01:11:01.146
+intense analytic approach where I share with you the addressing
+
+1225
+01:11:01.246 --> 01:11:05.126
+of a rather uniform aspect of cellular senescence and what
+
+1226
+01:11:05.166 --> 01:11:06.926
+the consequences of this might be.
+
+1227
+01:11:06.966 --> 01:11:07.915
+Before we get to this,
+
+1228
+01:11:08.886 --> 01:11:11.486
+looking at senolytics, what will happen?
+
+1229
+01:11:11.546 --> 01:11:15.446
+In acute senescence, or senescence in
+
+1230
+01:11:15.486 --> 01:11:18.946
+an acute fashion, I think we agree on this, is rather a beneficial
+
+1231
+01:11:19.066 --> 01:11:22.946
+program, and there is stemness associated with
+
+1232
+01:11:23.026 --> 01:11:26.526
+senescence in wound healing. There is immunosurveillance of
+
+1233
+01:11:26.546 --> 01:11:30.406
+senescent cells. But if senescence gets chronic, it's typically
+
+1234
+01:11:30.446 --> 01:11:33.446
+detrimental. I already referred to cancer
+
+1235
+01:11:33.926 --> 01:11:37.646
+cell-associated stemness, loss of functional parenchyma,
+
+1236
+01:11:37.766 --> 01:11:39.946
+and others before have
+
+1237
+01:11:41.306 --> 01:11:45.286
+talked about organ fibrosis. So if we eliminate
+
+1238
+01:11:45.326 --> 01:11:47.706
+the beneficial acute senescence, we may
+
+1239
+01:11:48.566 --> 01:11:51.526
+have problems. We may impair stem cell compartments.
+
+1240
+01:11:51.586 --> 01:11:54.906
+We compromise regeneration or may attenuate immunity.
+
+1241
+01:11:55.105 --> 01:11:59.046
+That needs to be seen. In the chronic detrimental senescence,
+
+1242
+01:11:59.106 --> 01:12:02.486
+that's obviously the space in which we like to eliminate
+
+1243
+01:12:02.546 --> 01:12:06.066
+senescent cells in order to see anti-aging
+
+1244
+01:12:06.126 --> 01:12:09.206
+effects, fibrolytic effects, and anti-cancer effects.
+
+1245
+01:12:09.486 --> 01:12:13.286
+So if I could choose, I would try to optimize
+
+1246
+01:12:13.346 --> 01:12:16.126
+dose scheduling in order to leave
+
+1247
+01:12:16.546 --> 01:12:20.366
+senescence beneficial in the first place and
+
+1248
+01:12:20.426 --> 01:12:24.206
+apply senolysis in a scenario where I can eliminate
+
+1249
+01:12:24.216 --> 01:12:27.406
+those which dictate unwanted disease
+
+1250
+01:12:27.466 --> 01:12:31.106
+pathologies. So that's what we aim for, to control
+
+1251
+01:12:31.246 --> 01:12:31.766
+cancer,
+
+1252
+01:12:32.566 --> 01:12:36.186
+actually even prevent cancer, and attenuate aging by
+
+1253
+01:12:36.406 --> 01:12:39.806
+pan-senolytic approach. And I'd like to share with you how we
+
+1254
+01:12:39.886 --> 01:12:43.846
+harness the redox imbalance in senescent cells for
+
+1255
+01:12:43.866 --> 01:12:47.006
+senolysis and what the clinical effects in
+
+1256
+01:12:47.026 --> 01:12:50.486
+preclinical models might be. For this, we teamed up with a
+
+1257
+01:12:50.546 --> 01:12:54.436
+medicinal chemist from the Free University in Berlin, Jörg Rademann,
+
+1258
+01:12:54.546 --> 01:12:58.326
+and colleagues, and set up a redox-based drug screen
+
+1259
+01:12:58.366 --> 01:13:01.966
+because we came across metabolic
+
+1260
+01:13:02.306 --> 01:13:05.486
+imbalances in senescent cells driven by
+
+1261
+01:13:05.626 --> 01:13:09.606
+NADH as a background, which could allow us to
+
+1262
+01:13:09.666 --> 01:13:13.546
+screen for an oxidative activation of candidate
+
+1263
+01:13:13.706 --> 01:13:17.606
+drugs in order to produce further oxidative stress to
+
+1264
+01:13:17.646 --> 01:13:20.346
+selectively eliminate senescent cells.
+
+1265
+01:13:20.646 --> 01:13:24.326
+So get a dual selectivity of an agent, which is now called
+
+1266
+01:13:24.406 --> 01:13:27.286
+Senlytic, for the elimination of senescent cells.
+
+1267
+01:13:27.756 --> 01:13:31.706
+So this agent we retrieved from the drug screen, Senlytic, is
+
+1268
+01:13:31.746 --> 01:13:35.366
+indeed activated by NADH. You see the higher the
+
+1269
+01:13:35.506 --> 01:13:38.954
+NADH we provide, the higher thePeroxide
+
+1270
+01:13:39.194 --> 01:13:42.624
+H2O2 output is, and this is countered by
+
+1271
+01:13:42.734 --> 01:13:46.254
+GSH. So in conclusion, high NADH, low
+
+1272
+01:13:46.294 --> 01:13:49.354
+GSH levels would activate this agent.
+
+1273
+01:13:49.904 --> 01:13:53.734
+And since it's producing peroxide, if we overexpress catalase,
+
+1274
+01:13:53.874 --> 01:13:57.374
+we reduce peroxide production, and we limit
+
+1275
+01:13:57.414 --> 01:14:01.254
+the cytotoxic efficacy of this agent.
+
+1276
+01:14:01.774 --> 01:14:05.594
+We made a derivative which is no longer activated by
+
+1277
+01:14:05.714 --> 01:14:09.634
+NADH. It's the de-Senlyt, the blue line, and you see this
+
+1278
+01:14:09.694 --> 01:14:13.134
+has no senolytic potential as compared to the original
+
+1279
+01:14:13.234 --> 01:14:14.674
+compound, the red line.
+
+1280
+01:14:15.754 --> 01:14:19.524
+Here you look at a number of senescent scenarios, therapy-induced,
+
+1281
+01:14:19.634 --> 01:14:22.374
+oncogene-induced, oncogene inhibition-induced senescence.
+
+1282
+01:14:22.774 --> 01:14:26.314
+And the common feature of all these senescent types is
+
+1283
+01:14:26.374 --> 01:14:29.734
+this altered NADH/GSH
+
+1284
+01:14:29.874 --> 01:14:32.574
+ratio across the cell types.
+
+1285
+01:14:34.794 --> 01:14:38.694
+Notice that senescent cells have an elevated pool
+
+1286
+01:14:38.774 --> 01:14:42.594
+of labile iron, and this LIP can be
+
+1287
+01:14:42.613 --> 01:14:46.074
+measured by Ferro-Orange. And you see that across
+
+1288
+01:14:46.154 --> 01:14:48.974
+different senescence inductions, we see this
+
+1289
+01:14:49.954 --> 01:14:53.514
+elevated pool. But senescent cells are protected from
+
+1290
+01:14:53.534 --> 01:14:56.274
+ferroptosis. We are coming to this in a second.
+
+1291
+01:14:56.334 --> 01:14:59.994
+If we provide a chelator here, Desferrioxamine, we can
+
+1292
+01:15:00.074 --> 01:15:04.034
+reduce these lipid iron pools. So if we
+
+1293
+01:15:04.114 --> 01:15:05.534
+use Senlyt, we can,
+
+1294
+01:15:06.334 --> 01:15:09.734
+in a dose-dependent manner, increase reactive oxygen
+
+1295
+01:15:09.794 --> 01:15:13.364
+species. You see in the upper left the lysosomal ROS or
+
+1296
+01:15:13.774 --> 01:15:17.394
+right, the mitochondrial ROS. It's the red lines to focus on for
+
+1297
+01:15:17.514 --> 01:15:21.274
+now. And lipid peroxidation increases or
+
+1298
+01:15:21.394 --> 01:15:24.614
+is increased, as I said, in senescent cells, and that can be
+
+1299
+01:15:24.714 --> 01:15:28.514
+utilized on the lower right by Senlyt to kill
+
+1300
+01:15:28.614 --> 01:15:30.934
+these cells out of this
+
+1301
+01:15:32.254 --> 01:15:36.214
+latent ferroptotic state. If we use another
+
+1302
+01:15:37.274 --> 01:15:40.994
+iron chelator here, B-pyridone, BIPI, the blue
+
+1303
+01:15:41.054 --> 01:15:44.534
+lines you see we reduce ROS production in
+
+1304
+01:15:44.594 --> 01:15:47.774
+response to Senlyt. We get less lipid
+
+1305
+01:15:47.814 --> 01:15:50.554
+peroxidation, and we don't see a senolytic effect.
+
+1306
+01:15:50.934 --> 01:15:54.494
+So this concludes that Senlyt helps to utilize
+
+1307
+01:15:54.614 --> 01:15:58.394
+iron in the so-called Fenton reaction to produce
+
+1308
+01:15:58.454 --> 01:16:02.434
+OH radicals and to kill. But I like to mention
+
+1309
+01:16:02.514 --> 01:16:06.194
+that another arm of killing by Senlyt is
+
+1310
+01:16:06.234 --> 01:16:09.734
+via classic apoptosis, as blockable here
+
+1311
+01:16:09.794 --> 01:16:13.474
+by cVAD-fmk. But in conclusion, we
+
+1312
+01:16:13.954 --> 01:16:17.914
+use two modes of cell death, ferroptosis and apoptosis,
+
+1313
+01:16:18.254 --> 01:16:22.214
+and even strongly apoptotically compromised tumor cells can
+
+1314
+01:16:22.374 --> 01:16:25.014
+still be killed via the ferroptotic pathway.
+
+1315
+01:16:25.974 --> 01:16:28.494
+Senlyt has high senescent selectivity.
+
+1316
+01:16:28.554 --> 01:16:32.534
+You look at four scenarios, non-malignant settings or tumor settings
+
+1317
+01:16:32.574 --> 01:16:34.754
+in the mouse or in the human species.
+
+1318
+01:16:34.774 --> 01:16:37.854
+And you can see from all these graphs that there is a huge
+
+1319
+01:16:38.734 --> 01:16:42.703
+senolytic index and great advantage to selectively
+
+1320
+01:16:42.734 --> 01:16:45.954
+kill senescent cells as compared to proliferating cells.
+
+1321
+01:16:45.994 --> 01:16:49.874
+That's reiterated here. It's difficult to read curve, sorry
+
+1322
+01:16:49.934 --> 01:16:53.294
+about this, but what it tells us is that
+
+1323
+01:16:53.394 --> 01:16:57.374
+Senlyt is at least as good or better, obviously,
+
+1324
+01:16:57.494 --> 01:17:01.354
+than other established senolytics in killing at low
+
+1325
+01:17:01.474 --> 01:17:04.894
+concentration senescent cells, but with limited
+
+1326
+01:17:04.994 --> 01:17:08.434
+toxicity to their proliferating counterparts.
+
+1327
+01:17:08.774 --> 01:17:11.874
+And there's a genetic senescence dependency if we test
+
+1328
+01:17:12.034 --> 01:17:15.714
+p53-proficient versus p53-deficient cells.
+
+1329
+01:17:16.134 --> 01:17:19.984
+It's the proficient and senescence-capable, but not the senescence-incapable
+
+1330
+01:17:20.154 --> 01:17:24.014
+cells we can kill by this agent. Just to go through
+
+1331
+01:17:24.024 --> 01:17:27.914
+a few more vignettes, this is replicative senescence in a
+
+1332
+01:17:27.994 --> 01:17:31.814
+setting where we have cells arresting after a certain number
+
+1333
+01:17:31.894 --> 01:17:34.674
+of divisions as compared to HTERT positive cells.
+
+1334
+01:17:34.714 --> 01:17:37.414
+It's only the RS cells which can be killed.
+
+1335
+01:17:37.854 --> 01:17:39.654
+We look at virus-induced senescence.
+
+1336
+01:17:39.734 --> 01:17:43.094
+Some cells can undergo virus-induced senescence. You see that on the left.
+
+1337
+01:17:43.434 --> 01:17:47.034
+Others don't, and only those which undergo this are
+
+1338
+01:17:47.074 --> 01:17:50.734
+susceptible to Senlyt. That might be the most important slide of the
+
+1339
+01:17:50.754 --> 01:17:54.574
+presentation for Senlyt, because you look at virtually all kinds of
+
+1340
+01:17:54.634 --> 01:17:58.574
+cellular senescence we tested, and whenever we achieve to
+
+1341
+01:17:59.034 --> 01:18:02.134
+drive cells into senescence, you see a blue
+
+1342
+01:18:02.994 --> 01:18:06.554
+square to depict senescence. And it's only in those
+
+1343
+01:18:06.634 --> 01:18:10.514
+settings where dose-dependent application of Senlyt will
+
+1344
+01:18:10.634 --> 01:18:13.814
+result in profound cell death.
+
+1345
+01:18:14.614 --> 01:18:18.454
+We can eliminate aged cells. Here, this is an example of
+
+1346
+01:18:18.514 --> 01:18:22.124
+lung fibrosis in old mice. Again, to remind you, there is
+
+1347
+01:18:22.694 --> 01:18:26.374
+equally an altered GSH/NADH ratio in
+
+1348
+01:18:26.474 --> 01:18:30.214
+these aged lungs. The aged lungs are characterized by
+
+1349
+01:18:30.294 --> 01:18:33.394
+high-level p16-positive cells and H3K9
+
+1350
+01:18:33.434 --> 01:18:37.134
+trimethylation-positive cells, and these cells account for
+
+1351
+01:18:37.194 --> 01:18:39.454
+collagen cuffs around the bronchioli.
+
+1352
+01:18:40.054 --> 01:18:44.044
+And if we apply Senlyt to those aged animals, we not
+
+1353
+01:18:44.094 --> 01:18:47.934
+only remove the senescent cells, which is nice to see
+
+1354
+01:18:47.994 --> 01:18:51.834
+inside you, we also reduce the collagen cuffs, which
+
+1355
+01:18:51.874 --> 01:18:55.714
+is interesting because apparently you can eliminate senescent cells, and by
+
+1356
+01:18:55.774 --> 01:18:59.654
+the endogenous fibrolytic activity of the body, you
+
+1357
+01:18:59.854 --> 01:19:03.554
+even reduce collagen cuffs. So that's a demonstration of in
+
+1358
+01:19:03.594 --> 01:19:05.634
+vivo clearance of senescent cells.
+
+1359
+01:19:07.354 --> 01:19:11.274
+Senlyt is of very limited toxicity, to say the
+
+1360
+01:19:11.334 --> 01:19:13.514
+least. We don't see differences in body weight.
+
+1361
+01:19:13.574 --> 01:19:17.194
+We don't see differences across major cardinal
+
+1362
+01:19:17.294 --> 01:19:20.134
+lab or cell blood cell parameters.
+
+1363
+01:19:20.854 --> 01:19:24.834
+We can use Senlyt as an augmentative or consolidative
+
+1364
+01:19:25.054 --> 01:19:28.954
+agent upon chemotherapy. You look here at chemotherapy or
+
+1365
+01:19:28.994 --> 01:19:32.744
+TIS in a lymphoma model where only
+
+1366
+01:19:32.774 --> 01:19:36.334
+p53-proficient lymphoma cells with an apoptotic block
+
+1367
+01:19:36.394 --> 01:19:40.330
+underwent cellular senescence.And if we take those cells, apply
+
+1368
+01:19:40.470 --> 01:19:43.650
+senlytic, we kill the senescent, but not the equally treated
+
+1369
+01:19:43.690 --> 01:19:47.590
+p53-deficient cells. And we can test that in vivo.
+
+1370
+01:19:47.630 --> 01:19:51.330
+We administer lymphoma cells, lymphomas grow in
+
+1371
+01:19:51.410 --> 01:19:55.330
+recipient fully immune competent mice, and then we first
+
+1372
+01:19:55.370 --> 01:19:57.980
+apply chemotherapy and second senlytic.
+
+1373
+01:19:57.980 --> 01:20:00.970
+And it's senlytic which in senescent lymphomas,
+
+1374
+01:20:01.810 --> 01:20:05.450
+extends survival of the mice in virtually all settings.
+
+1375
+01:20:05.530 --> 01:20:09.230
+But if we use p53 null lymphomas, the addition of a second
+
+1376
+01:20:09.240 --> 01:20:11.410
+drug here, senlytic, is ineffective.
+
+1377
+01:20:12.330 --> 01:20:15.430
+We can look at oncogene-induced senescence, first in vitro.
+
+1378
+01:20:15.530 --> 01:20:18.570
+We take MEFs from LSL,
+
+1379
+01:20:20.050 --> 01:20:23.770
+MEFs and activate their BRAF. Then they turn
+
+1380
+01:20:23.830 --> 01:20:26.570
+senescent, and we can eliminate them by senlytic.
+
+1381
+01:20:27.070 --> 01:20:30.830
+We can do this in vivo in these very same mice, in which
+
+1382
+01:20:30.890 --> 01:20:34.750
+we activate BRAF by provision of
+
+1383
+01:20:35.490 --> 01:20:39.430
+hydroxy tamoxifen, CRE is activated, BRAF is on, we
+
+1384
+01:20:39.450 --> 01:20:42.670
+get nevus cell nevi pigmented skin lesions.
+
+1385
+01:20:42.729 --> 01:20:46.570
+You see that in the middle. And if we provide senlytic, we can
+
+1386
+01:20:46.610 --> 01:20:49.170
+reduce these p16-positive lesions.
+
+1387
+01:20:49.190 --> 01:20:52.910
+That is particularly nice to look at the ears of these mice, you see these
+
+1388
+01:20:53.510 --> 01:20:56.730
+dark spots in the ear, and if you provide senlytic, they
+
+1389
+01:20:57.130 --> 01:21:00.690
+disappear again. So another example for in vivo
+
+1390
+01:21:00.810 --> 01:21:04.750
+clearance of senescent cells. We can drive this a step further,
+
+1391
+01:21:04.760 --> 01:21:06.730
+and that's a pretty interesting model.
+
+1392
+01:21:07.250 --> 01:21:10.170
+Based on tamoxifen, we can turn on BRAF.
+
+1393
+01:21:10.250 --> 01:21:13.770
+But we can use tamoxifen in addition in this compound mouse
+
+1394
+01:21:14.450 --> 01:21:17.850
+containing two p53 ER alleles
+
+1395
+01:21:18.590 --> 01:21:22.270
+to restore functional wild-type
+
+1396
+01:21:22.370 --> 01:21:26.350
+similar p53 levels. In this setting, we get the same result as
+
+1397
+01:21:26.390 --> 01:21:29.730
+you just saw, but we have the opportunity to remove
+
+1398
+01:21:29.810 --> 01:21:33.090
+tamoxifen at some point in time, which means that there are
+
+1399
+01:21:33.130 --> 01:21:36.690
+BRAF-positive lesions now no longer with active
+
+1400
+01:21:36.730 --> 01:21:40.350
+p53, therefore on their way to form melanomas.
+
+1401
+01:21:40.380 --> 01:21:42.190
+And that's indeed what's happening in this model.
+
+1402
+01:21:42.230 --> 01:21:44.470
+You see the lesion at the back of the mouse.
+
+1403
+01:21:44.530 --> 01:21:48.510
+You see the skin tumor, and you can even see metastasis to inguinal
+
+1404
+01:21:48.529 --> 01:21:51.870
+lymph nodes in the lung. But if we now in this window of
+
+1405
+01:21:51.950 --> 01:21:55.790
+opportunity where we have only OIS nevus lesions
+
+1406
+01:21:55.810 --> 01:21:58.910
+provide senlytic, the result is the following.
+
+1407
+01:21:58.990 --> 01:22:02.740
+We see delayed and reduced melanoma genesis in
+
+1408
+01:22:02.790 --> 01:22:04.590
+this model due to senlytic.
+
+1409
+01:22:06.110 --> 01:22:09.330
+We can also target RAS senescent cells.
+
+1410
+01:22:09.450 --> 01:22:13.350
+This is simply retroviral provision of oncogenic
+
+1411
+01:22:13.390 --> 01:22:17.290
+RAS. And you see on the left, we can provide senlytic and eliminate
+
+1412
+01:22:17.330 --> 01:22:20.490
+those cells. If we do RAS activation in
+
+1413
+01:22:20.530 --> 01:22:24.190
+p53-deficient cells, there is no effect of senlytic.
+
+1414
+01:22:24.530 --> 01:22:27.950
+The interesting point is now using an old-fashioned
+
+1415
+01:22:28.330 --> 01:22:32.150
+chemical cancerogene, NMU, N-methyl-N-nitrosourea,
+
+1416
+01:22:32.450 --> 01:22:36.110
+because that causes RAS mutations from endogenous
+
+1417
+01:22:36.190 --> 01:22:39.930
+alleles. The result is same. We see senescence in
+
+1418
+01:22:39.970 --> 01:22:43.690
+response to NMU, and this senescence can be eliminated
+
+1419
+01:22:43.730 --> 01:22:47.690
+by senlytic only in p53 proficient cells.
+
+1420
+01:22:48.310 --> 01:22:51.310
+Now we took this to the next level and did this in vivo.
+
+1421
+01:22:51.410 --> 01:22:55.210
+So we treated mice, normal C57 black 6 mice with
+
+1422
+01:22:55.390 --> 01:22:58.770
+NMU. We get, among other things, RAS
+
+1423
+01:22:58.870 --> 01:23:02.770
+activating mutations. And all these mice will succumb to
+
+1424
+01:23:02.810 --> 01:23:06.670
+T-cell lymphomas in a limited period of time, as
+
+1425
+01:23:06.710 --> 01:23:10.370
+you can see. If you use a background here, Suva
+
+1426
+01:23:10.490 --> 01:23:14.470
+minus mice, which can no longer establish this H3K9
+
+1427
+01:23:14.530 --> 01:23:18.350
+trimethylation mark. So they get instantly with no tumor
+
+1428
+01:23:18.360 --> 01:23:21.470
+blocking senescence, these T-cell lymphomas.
+
+1429
+01:23:21.750 --> 01:23:24.780
+If you do this in wild-type mice, it's much less
+
+1430
+01:23:24.830 --> 01:23:28.110
+impressive. About half of the mice will get over time
+
+1431
+01:23:28.810 --> 01:23:31.630
+T-cell lymphomas because there's a senescence barrier.
+
+1432
+01:23:31.710 --> 01:23:35.630
+But if you now provide senlytic after NMU provision to
+
+1433
+01:23:35.650 --> 01:23:39.410
+these mice, you virtually prevent tumor formation
+
+1434
+01:23:39.570 --> 01:23:43.090
+from incipient RAS lesions in
+
+1435
+01:23:43.150 --> 01:23:47.110
+this animal. So with this, let me conclude that we look
+
+1436
+01:23:47.190 --> 01:23:51.070
+at senlytic as a novel compound class that is activated
+
+1437
+01:23:51.110 --> 01:23:54.790
+by and kills via senescence-associated oxidative
+
+1438
+01:23:55.009 --> 01:23:58.810
+stress. It has senolytic activity across virtually all types
+
+1439
+01:23:58.910 --> 01:24:02.250
+of senescence with no obvious systemic
+
+1440
+01:24:02.330 --> 01:24:05.810
+toxicity. It extends lifespan, I didn't show that, and
+
+1441
+01:24:05.850 --> 01:24:08.030
+attenuates age-related pathologies.
+
+1442
+01:24:08.230 --> 01:24:12.070
+Prolonged survival after debulking chemotherapy, limits the
+
+1443
+01:24:12.110 --> 01:24:15.530
+progression of BRAF positive nevi to full-blown
+
+1444
+01:24:15.590 --> 01:24:19.470
+melanoma, eliminates OIS restored melanoma.
+
+1445
+01:24:19.650 --> 01:24:22.470
+I didn't show that, but you see the bullet point here.
+
+1446
+01:24:22.500 --> 01:24:26.190
+And it prevents RAS-driven tumor formation by eliminating
+
+1447
+01:24:26.270 --> 01:24:30.170
+incipient OIS lesions. So in summary, what does it mean for
+
+1448
+01:24:30.230 --> 01:24:32.310
+senolysis and pre-cancer?
+
+1449
+01:24:33.330 --> 01:24:37.010
+We can target an universal core feature of senescent
+
+1450
+01:24:37.030 --> 01:24:40.570
+cells here, and metabolic imbalance by an pan-senolytic
+
+1451
+01:24:40.770 --> 01:24:44.450
+that's feasible and effective. And using a short pulse dose
+
+1452
+01:24:44.550 --> 01:24:47.670
+schedule achieves clearance of senescent cells in vivo,
+
+1453
+01:24:49.050 --> 01:24:52.730
+whose proof is in clinical routine, certainly not trivial.
+
+1454
+01:24:53.370 --> 01:24:56.430
+Pan-senolysis covers multiple detrimental features
+
+1455
+01:24:56.990 --> 01:25:00.930
+of senescence, and I'm not seeing an advantage
+
+1456
+01:25:00.990 --> 01:25:04.870
+of a more selective senolytic approach, and that's of course open to a
+
+1457
+01:25:04.950 --> 01:25:06.250
+controversial discussion.
+
+1458
+01:25:07.070 --> 01:25:10.750
+Cancer preventive and aging attenuation treatments may require
+
+1459
+01:25:10.850 --> 01:25:14.830
+repetitive applications, and I can't tell you today, but I expect that
+
+1460
+01:25:14.890 --> 01:25:18.510
+in the range of every 6 to 12 months to be needed.
+
+1461
+01:25:18.930 --> 01:25:22.770
+No overt toxicity was observed, but long-term effects need to
+
+1462
+01:25:22.810 --> 01:25:26.150
+be monitored, especially upon repeated applications.
+
+1463
+01:25:26.490 --> 01:25:29.750
+With this, I think I have mentioned in particular the colleagues who
+
+1464
+01:25:29.790 --> 01:25:33.690
+contribute to this work, and like to finish my presentation
+
+1465
+01:25:33.730 --> 01:25:34.850
+to this double-edged
+
+1466
+01:25:35.810 --> 01:25:39.430
+session that it's maybe not so double-edged if we
+
+1467
+01:25:39.550 --> 01:25:43.390
+just eliminate in tight windows senescent cells
+
+1468
+01:25:43.470 --> 01:25:45.149
+once in a while. Thanks for your attention.
+
+1469
+01:25:50.840 --> 01:25:52.880
+Thanks, Clemens, for the very thought-provoking talk.
+
+1470
+01:25:52.940 --> 01:25:56.740
+The senlyt is super exciting. I guess I'll ask the
+
+1471
+01:25:56.780 --> 01:26:00.100
+first question. You've proven that it can eradicate senescent cells in so
+
+1472
+01:26:00.180 --> 01:26:04.120
+many scenarios. If you took it into the clinic, what indication would
+
+1473
+01:26:04.220 --> 01:26:05.420
+you first try, and why?
+
+1474
+01:26:06.880 --> 01:26:10.720
+So we are at the level where we try to push
+
+1475
+01:26:10.740 --> 01:26:12.340
+this agent through
+
+1476
+01:26:13.300 --> 01:26:17.200
+pharmacokinetics and different species, and are close to
+
+1477
+01:26:17.280 --> 01:26:19.760
+consider early testing in cancer settings.
+
+1478
+01:26:20.320 --> 01:26:22.860
+I'm grateful for the question since we are at the AACR,
+
+1479
+01:26:23.720 --> 01:26:27.700
+and heard about osteoarthritis. There are many diseases, age-related
+
+1480
+01:26:27.760 --> 01:26:31.640
+pathologies, where senolysis or SAS modulation
+
+1481
+01:26:31.700 --> 01:26:35.460
+may be very important. But we also talk about to bring those
+
+1482
+01:26:35.540 --> 01:26:36.580
+candidate agents
+
+1483
+01:26:37.520 --> 01:26:41.100
+actually at the bedside, bring it to clinical registration.
+
+1484
+01:26:41.140 --> 01:26:44.800
+And I believe as an oncologist hematologist, that
+
+1485
+01:26:44.860 --> 01:26:48.360
+probably the cancer space is the fastest way to
+
+1486
+01:26:48.400 --> 01:26:52.120
+demonstrate efficacy and bring these agents to the clinic, and then
+
+1487
+01:26:52.160 --> 01:26:54.940
+potentially into non-cancer settings.
+
+1488
+01:26:56.280 --> 01:26:57.320
+I will take a question here.
+
+1489
+01:26:57.500 --> 01:26:59.800
+Can I? Hi, wonderful talk. Thank you.
+
+1490
+01:27:00.240 --> 01:27:00.250
+Thank you.
+
+1491
+01:27:00.920 --> 01:27:04.680
+My question is maybe a naive question, but what about in
+
+1492
+01:27:04.720 --> 01:27:08.460
+cancer heterogeneity, the probability to select
+
+1493
+01:27:08.980 --> 01:27:12.940
+the most proliferative cells by using a senolytic drug?
+
+1494
+01:27:14.820 --> 01:27:18.300
+This possibility is given since we will be targeting
+
+1495
+01:27:18.380 --> 01:27:22.280
+obviously the senescent cells. But if I may say
+
+1496
+01:27:22.360 --> 01:27:26.220
+so from changing the perspective, one of the most
+
+1497
+01:27:26.380 --> 01:27:29.260
+critical problems in cancer is therapy
+
+1498
+01:27:30.260 --> 01:27:33.660
+surviving persister cells, and these persisters are
+
+1499
+01:27:33.720 --> 01:27:37.620
+typically low to non-proliferating cells, dormant
+
+1500
+01:27:37.700 --> 01:27:41.200
+cancer cells with overlapping features to cellular senescence.
+
+1501
+01:27:41.620 --> 01:27:45.460
+If we would get a handle on those cells by a senolytic
+
+1502
+01:27:45.540 --> 01:27:48.640
+approach, we would probably make a major achievement.
+
+1503
+01:27:48.650 --> 01:27:51.880
+And I'm certainly not arguing that this is all what it
+
+1504
+01:27:51.960 --> 01:27:55.200
+takes to eliminate potentially
+
+1505
+01:27:55.240 --> 01:27:59.080
+relapse-promoting cells. You might be very right, but I think the
+
+1506
+01:27:59.120 --> 01:28:02.410
+therapy surviving slow to no proliferating
+
+1507
+01:28:02.520 --> 01:28:05.280
+persisters are a central problem to target.
+
+1508
+01:28:06.240 --> 01:28:06.620
+Thank you.

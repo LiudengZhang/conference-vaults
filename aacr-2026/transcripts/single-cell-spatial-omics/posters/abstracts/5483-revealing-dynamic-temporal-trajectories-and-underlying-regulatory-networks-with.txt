@@ -1,0 +1,14 @@
+# Revealing dynamic temporal trajectories and underlying regulatory networks with Cflows
+
+**Poster #**: 5483
+**Session**: Deep Learning in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Shabarni Gupta1, Xingzhi Sun2, Alexander Tong2, Manik Kuchroo2, Dhananjay Bhaskar2, Chen Liu2, Aarthi Venkat2, Beatriz  P.  San Juan1, Laura Rangel1, Vanina Rodriguez1, John  G.  Lock3, Christine Louise Chaffer1, Smita Krishnaswamy2
+
+1Garvan Institute of Medical Research, Darlinghurst, Australia,2Yale University, New Haven, CT,3University of New South Wales, Sydney, Australia
+
+---
+
+While single-cell technologies provide snapshots of tumor states, building continuous trajectories and uncovering causative gene regulatory networks remains a significant challenge. We present Cflows, an AI framework that combines neural ODE networks with Granger causality to infer continuous cell state transitions and gene regulatory interactions from static scRNA-seq data. In a new 5-time point dataset capturing tumorsphere development over 30 days, Cflows reconstructs two types of trajectories leading to tumorsphere formation or apoptosis. Trajectory-based cell-of-origin analysis delineated a novel cancer stem cell profile characterized by CD44hiEPCAM+CAV1+, and uncovered a cell cycle-dependent enrichment of tumorsphere-initiating potential in G2/M or S-phase cells. Cflows uncovers ESRRA as a crucial causal driver of the tumor-forming gene regulatory network. Indeed, ESRRA inhibition significantly reduces tumor growth and metastasis in vivo. Cflows offers a powerful framework for uncovering cellular transitions and dynamic regulatory networks from static single-cell data.

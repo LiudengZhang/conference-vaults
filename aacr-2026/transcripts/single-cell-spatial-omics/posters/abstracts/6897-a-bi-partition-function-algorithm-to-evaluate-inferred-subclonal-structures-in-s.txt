@@ -1,0 +1,17 @@
+# A bi-partition function algorithm to evaluate inferred subclonal structures in single-cell sequencing data
+
+**Poster #**: 6897
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Farid Rashidi Mehrabadi1, Erfan Sadeqi Azer2, John  D.  Bridgers3, Teresa  M.  Przytycka3, Salem Malikic1, Funda Ergun4, Cenk Sahinalp1
+
+1National Cancer Institute, National Institutes of Health, Bethesda, MD,2Google LLC, Sunnyvale, CA,3National Library of Medicine, National Institutes of Health, Bethesda, MD,4Computer Science Department, Indiana University, Bloomington, IN
+
+---
+
+Clonal evolution of cancer results in intratumor heterogeneity, making treatment and cure challenging. Single-cell sequencing has advanced our understanding of intratumor heterogeneity, but tracing subclonal evolution using mutational profiles of cells is limited by scale and noise. Moreover, available tumor progression tree inference methods usually offer a single tree to explain the progression of a tumor, and do not inform about alternative evolutionary scenarios.
+We introduce the bi-partition function for a tumor progression tree, to assess the reliability of any proposed subclonal structure in a single-cell sequenced tumor. By using the bi-partition function, we calculate the probability that any given subset R of mutation-profiled single cells from a tumor forms a clade rooted by a specified mutation &#961; across all possible tumor progression trees. This provides the means to evaluate whether R forms a subclone with &#961; as a possible subclonal driver, which is especially useful if the cells of R are biologically or clinically significant, e.g., have aggressive growth, therapy resistance, or metastatic potential.
+We also introduce an algorithm to estimate the bi-partition function, which treats the ground truth as a probability distribution derived from mutational profiles of single cells and samples a tumor progression tree from this distribution independently in each iteration. We prove that our algorithm&#8217;s estimate of the bi-partition function asymptotically approaches the ground truth and demonstrate its accuracy on simulated data.
+Applying our algorithm to the tumor progression tree inferred from single-cell-derived melanoma sublines revealed that, while major clades and their root mutations are robust, (i) the placement of one clade in the tree is unreliable, which we later observed to be a result of Loss of Heterozygosity, and (ii) some of the mutations identified as false positives in the tree are unreliable, which later turned out to be the result of a doublet - a subline which has contamination from another subline. Interestingly, bootstrapping, a technique commonly employed for species trees, failed to point out any of these issues. After correcting the input data for these issues, the reliability of the progression tree improved substantially, demonstrating how our bi-partition function algorithm can aid studies on tumor evolution and intratumor heterogeneity.

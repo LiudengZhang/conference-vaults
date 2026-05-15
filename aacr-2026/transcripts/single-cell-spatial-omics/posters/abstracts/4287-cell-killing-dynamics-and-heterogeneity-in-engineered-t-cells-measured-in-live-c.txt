@@ -1,0 +1,14 @@
+# Cell killing dynamics and heterogeneity in engineered T-cells measured in live CellCage enclosures
+
+**Poster #**: 4287
+**Session**: CAR T Cell Functional Enhancement
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Shawn Levy1, Richard Yau1, Shreya Deshmukh1, JangKeun Kim2, Jiwoon Park2, Yanping Yang3, Makenzie Sacca1, Shan Sabri1, Christopher  E.  Mason2, Moonsoo M. Jin3
+
+1Cellanome, Inc., Redwood City, CA,2Weill Cornell Medicine, New York, NY,3Houston Methodist Research Institute, Houston, TX
+
+---
+
+Predicting CAR-T clinical efficacy remains a central challenge to the cell therapy field. Existing potency assays generally rely on bulk endpoints and may fail to capture cellular heterogeneity and dynamic interactions governing in vivo efficacy. We developed a technology to reveal CAR-T functional heterogeneity at single-cell resolution. Using CellCage Enclosures&#8482;, we encapsulated thousands of CAR-T cells at single-cell density with NALM-6, HeLa, and A549 targets across 1:10 and 25:1 E:T ratios in one experiment, enabling parallel cytotoxicity assessment under diverse conditions. Studies with AIC100, a preclinical ICAM1 CAR-T product, revealed striking heterogeneity: individual CAR-T cells exhibited killing at 55% compared to 80% with multiple cells working together. Optimal activity required both CD4+ and CD8+ CAR-T cells within the same microenvironment, suggesting critical cooperative mechanisms, which were product-specific, and impactful to clinical efficacy. A second CD19-targeting CAR-T product against NALM6 targets showed individual cells could kill effectively (50-60%), though cytotoxicity still improved to more than 80% with multiple effectors&#8212;but at different E-T ratios. Interestingly, CD8+ CAR-T killing was enhanced ~30% by non-transduced CD4+ T-cells lacking the CAR construct entirely, demonstrating that therapeutic potency can be modulated by cell-extrinsic factors independent of antigen recognition or cytokine secretion. This approach profiles thousands of cellular interactions per experiment, revealing that CAR-T activity emerges from complex cell-intrinsic properties and microenvironment factors unpredictable from bulk measurements. Each product exhibits unique cellular dynamics requiring individual optimization. The CellCage platform enables identification of potent CAR-T subpopulations and quantification of functional heterogeneity, providing a path toward predictive potency assays and rational optimization of cellular therapeutics.

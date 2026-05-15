@@ -1,0 +1,17 @@
+# Combining SUMO inhibition and irinotecan increases pancreatic cancer cytotoxicity
+
+**Poster #**: 5767
+**Session**: Multi-Axis Antineoplastic Agents
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Asimina Courelli, Leonie Ren, Herve Tiriac, Yuan Chen, Andrew Lowy
+
+University of California, San Diego, La Jolla, CA
+
+---
+
+Introduction: Pancreatic cancer (PDAC) has a transient response to chemotherapy, motivating the need for improved treatment options. Irinotecan (IRI) is a standard of care agent for both 1st and 2nd line PDAC therapy. SUMOylation is a post translational modification on topoisomerase 1 (Top-1) that modulates its DNA binding. We hypothesized that combining IRI with Subasumstat (SST&#8212;a SUMOi agent) would synergize in reducing Top-1 efficacy, leading to augmented apoptosis.
+Methods: Human single cell RNA sequencing (scRNASeq): using the Human Pancreatic Cancer Single-Cell Atlas to identify SUMO2/3 expressing cancer cells after FOLFIRNINOX. In Vitro Synergy: KPC46, FC1245, FC1245-Gem Resistant murine PDAC cells treated with IRI and/or SST (1nM-500nM, 24hrs); viability assessed with cell titer glo; synergy plots generated using Combenefit. Western Blots (WB): KPC46 and FC1245 cells treated with SST and/or IRI (100nM) for 24 hours; probed for Top-1 (chromatin protein fraction), &#947;-H2AX, and cleaved caspase-3 to validate apoptosis. Survival Experiments: NSG mice underwent orthotopic KPC46 cell injections&#8212;IP injections with SST (15mg/kg q48h) and/or IRI (12.5mg/kg qwkly); tumor volume (TV) assessed with ultrasound. Human PDAC Cultures: patient tumor slices incubated in 200nM SST and/or IRI for 5 days; flow Cytometry (FC) conducted for EPCAM and PanCK PDAC cell markers.
+Results: scRNASeq showed SUMO2/3 is highly expressed PDAC primary tumor cells as compared to adjacent normal tissue and that SUMO2/3 expressing cancer cells persist after FOLFIRINOX treatment. Significant in vitro synergy between SST+IRI occurred as low as 50nM. WB showed the greatest increase in chromatin bound Top-1, total cell &#978;- H2AX, and cleaved caspase 3 (Band Intensity: IRI: 0.1, SST:0.15, SST+IRI: 0.52; p=0.009) occurred for SST+IRI. Synergistic cytotoxicity of SST+IRI treatment in vivo resulted in significantly improved survival (IRI:16, SST:17, SST+IRI=24 days; p=0.008) and reduced TV (after 2 wk-treatment; AvgTV: IRI=358mm3, SST [all mice dead], SST+IRI=132mm3; p=0.001). In human PDAC slices, SST+IRI treatment yielded the greatest decrease in PANCK+ and EPCAM+ cells (IRI:24.4%, SST:15.5%, SST+IRI:9.5%).
+Conclusion: SST+IRI constitutes a promising combination treatment for PDAC with synergistic PDAC cytotoxicity observed in both murine and human models. Clinically, SST could serve as an adjunct to FOLFIRINOX or SST+IRI could be an alternative 2nd line treatment with potential to include a RAS inhibitor.

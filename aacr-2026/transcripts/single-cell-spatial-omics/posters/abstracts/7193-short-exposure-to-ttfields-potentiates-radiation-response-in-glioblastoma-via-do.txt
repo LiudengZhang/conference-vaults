@@ -1,0 +1,17 @@
+# Short exposure to TTFields potentiates radiation response in glioblastoma via downregulation of DNA repair pathways
+
+**Poster #**: 7193
+**Session**: Targeted Radiopharmaceuticals and Combination Strategies in Cancer Therapy
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Anat Klein-Goldberg1, Tali Voloshin1, Aviv Meir1, Efrat Zemer-Tov1, Hila Ene1, Lena Lifshitz1, Kerem Wainer-Katsir1, Adi Haber1, Moshe Giladi1, Uri Weinberg2, Yoram Palti1
+
+1Novocure Ltd, Haifa, Israel,2Novocure GmbH, Baar, Switzerland
+
+---
+
+Background: Tumor Treating Fields (TTFields) therapy, which delivers low-intensity, alternating electric fields to disrupt cellular processes crucial for cancer cell division, is an FDA-approved modality for patients with newly diagnosed and recurrent glioblastoma (GBM). Beyond its established antimitotic effects, TTFields have been shown to interfere with DNA damage repair pathways, suggesting potential synergy with radiation therapy (RT). In this study, we explored whether brief exposure to TTFields can sensitize GBM cells to radiation.
+Methods: U87-MG GBM cells were exposed to 2 Gy radiation, to TTFields (200 kHz, 2h), or to TTFields followed by radiation, and colony formation was tested. RNA extracts from control and TTFields-treated cells were examined by PCR for changes in DNA damage response genes. Western blot analyses assessed changes in protein levels of DNA repair genes FANCD2, FANCJ, FANCA, FANCB, BRCA1, and BRCA2. C57BL/6 mice were intracranially implanted with GL261-mCherry glioma cells and tumor growth was confirmed by MRI on day 17 post-implantation. Mice were then randomized into treatment groups receiving TTFields (200 kHz), RT (6 Gy) or the two modalities together with various sequencing: TTFields pre-RT, TTFields post-RT, or TTFields both pre- and post-RT. Tumors were harvested for single-cell suspension preparation, and DNA damage was quantified by flow cytometry using &#947;H2AX staining.
+Results: Short exposure to TTFields alone was insufficient to reduce colony formation of the cells. However, when TTFields were applied prior to RT, colony formation was decreased relative to that for RT alone. The TTFields-treated cells demonstrated downregulation of genes and proteins associated with DNA damage repair. In mice, while TTFields post-RT had negligible effects on tumor DNA damage levels relative to application of RT alone, TTFields prior to RT resulted in increased DNA damage and reduced expression of DNA repair protein within tumor cells, with no elevation of DNA damage in tumor infiltrating immune cells. When TTFields were applied both pre- and post-RT, increased DNA damage was demonstrated in the tumor.
+Conclusions: Our findings demonstrate that GBM can be radiosensitized by short exposure to TTFields, and that timing and sequencing are important for maximizing the effect.

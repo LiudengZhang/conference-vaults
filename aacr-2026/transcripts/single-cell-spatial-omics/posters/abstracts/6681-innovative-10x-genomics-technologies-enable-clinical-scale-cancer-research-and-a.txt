@@ -1,0 +1,21 @@
+# Innovative 10x Genomics technologies enable clinical-scale cancer research and AI-driven biomarker discovery
+
+**Poster #**: 6681
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Hiroshi  M.  Sasaki1, Seayar  H.  Mohabbet2, Ian  T.  Fiddes3, Francesca Meschi1, 10x Genomics Development Team
+
+1Spatial Biology, 10x Genomics, Inc., Pleasanton, CA,2Histopathology Core, 10x Genomics, Inc., Pleasanton, CA,3Computational Biology, 10x Genomics, Inc., Pleasanton, CA
+
+---
+
+Background:
+Spatial and single-cell omics are transforming cancer research, offering unprecedented resolution into tumor heterogeneity and microenvironment dynamics. However, the adoption of these powerful tools for large-scale clinical studies and subsequent integration into AI-driven diagnostic pipelines remains hampered by persistent challenges, including high cost, complex workflows, low sensitivity and specificity, and limited scalability and throughput. Addressing these bottlenecks is critical for accelerating the identification and validation of robust cancer biomarkers, especially for early detection.
+Methods:
+We introduce technology innovations that address the historic compromises inherent in existing spatial and single-cell technologies. These approaches are designed to deliver superior specificity, sensitivity and plex at significantly reduced cost and with streamlined, high-throughput workflow capabilities. Leveraging a novel integration of advanced chemistry and computational analysis, these technologies enable simultaneous, single-cell resolution profiling of both tissue morphology and gene expression signatures across clinically relevant sample scales.
+Results:
+Application of the technology innovations to clinically archived tumor specimens demonstrates their potential for clinical-scale studies. We achieved robust, high-plex molecular profiling with unprecedented efficiency. Critically, the data generated is inherently low-noise, high-resolution, and scalable, making it immediately amenable to machine learning and AI algorithms. Preliminary analysis highlights its utility in identifying novel biomarkers predictive of therapeutic response and supporting early detection. The simplified workflow dramatically reduces time-to-result, positioning this solution as a key enabler for population-scale cancer research.
+Conclusion:
+These technology innovations overcome major workflow, cost, and sensitivity limitations, paving the way for the clinical-scale deployment of spatial and single-cell omics. By generating high-quality, AI-ready data across large cohorts, this solution will accelerate biomarker discovery, drive the next generation of early cancer detection strategies, and fully support the ongoing AI revolution in cancer research.

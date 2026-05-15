@@ -1,0 +1,1791 @@
+WEBVTT
+
+NOTE AT02 Chair Intro + Danielle Bitterman — Agentic AI for clinical development in oncology
+
+1
+00:00:00.040 --> 00:00:03.340
+Hello everyone. Welcome to ACR
+
+2
+00:00:03.420 --> 00:00:07.010
+session on agentic AI as the cancer researcher
+
+3
+00:00:07.540 --> 00:00:09.540
+autonomous discovery in oncology.
+
+4
+00:00:11.240 --> 00:00:15.160
+AI agents are really an exciting new type and class of
+
+5
+00:00:15.180 --> 00:00:19.140
+artificial intelligence systems that can contribute to cancer research as
+
+6
+00:00:19.240 --> 00:00:23.140
+partners to human researchers. These systems can plan multi-step
+
+7
+00:00:23.200 --> 00:00:26.620
+analysis, potentially retrieve, organize cancer
+
+8
+00:00:26.720 --> 00:00:27.200
+research
+
+9
+00:00:28.060 --> 00:00:31.620
+and clinical data sets, use various kinds of tools and
+
+10
+00:00:31.680 --> 00:00:35.520
+analysis, and adapt their actions based on human
+
+11
+00:00:35.580 --> 00:00:37.220
+feedback and experimental results.
+
+12
+00:00:37.260 --> 00:00:41.000
+And so in this role, they can help researchers explore
+
+13
+00:00:41.120 --> 00:00:42.640
+large hypothesis spaces,
+
+14
+00:00:43.800 --> 00:00:47.420
+gather and connect evidence across different data sets, and support iterative
+
+15
+00:00:47.520 --> 00:00:49.560
+cycles of analysis and experimentation.
+
+16
+00:00:50.200 --> 00:00:53.720
+In this session in particular, we will examine agentic AI
+
+17
+00:00:53.780 --> 00:00:57.720
+systems in cancer research. We will also discuss some of
+
+18
+00:00:57.760 --> 00:01:01.670
+key challenges for their use in practice, including how to
+
+19
+00:01:01.720 --> 00:01:05.500
+apply agents to real-world data for clinical trials, what
+
+20
+00:01:05.540 --> 00:01:09.100
+regulatory considerations are necessary for autonomous AI
+
+21
+00:01:09.160 --> 00:01:12.660
+discoveries, and translational research aspects of
+
+22
+00:01:12.670 --> 00:01:16.540
+agentic AI with a focus on pathology and a few other data
+
+23
+00:01:16.580 --> 00:01:20.160
+modalities and translational aspects of agentic AI
+
+24
+00:01:20.600 --> 00:01:24.400
+in cancer research. The first speaker will
+
+25
+00:01:24.440 --> 00:01:27.840
+be Dr. Daniela Bittermann from Brigham and Women's
+
+26
+00:01:27.900 --> 00:01:31.440
+Hospital. Dr. Bittermann is physician scientist at the
+
+27
+00:01:31.460 --> 00:01:35.160
+Dana-Farber Cancer Institute in Boston and Brigham and Women's
+
+28
+00:01:35.180 --> 00:01:38.910
+Hospital, with unique expertise in AI and natural language processing.
+
+29
+00:01:39.320 --> 00:01:43.180
+Her research is dedicated to incorporating technological advances in AI
+
+30
+00:01:43.940 --> 00:01:47.450
+into intelligent electronic health record systems to improve
+
+31
+00:01:47.450 --> 00:01:50.220
+data-driven cancer care. And in her talk, Dr.
+
+32
+00:01:50.520 --> 00:01:54.170
+Bittermann will focus on late-stage discovery, touching on
+
+33
+00:01:54.320 --> 00:01:58.300
+agents applied to real-world data and clinical trials, and she will also discuss
+
+34
+00:01:58.740 --> 00:02:02.320
+some of regulatory considerations for autonomous AI discoveries as
+
+35
+00:02:02.440 --> 00:02:05.580
+part of her topic. So I'll now welcome Dr.
+
+36
+00:02:05.660 --> 00:02:09.539
+Bittermann to present on agentic AI for clinical development in
+
+37
+00:02:09.560 --> 00:02:10.940
+oncology. Thank you.
+
+38
+00:02:15.780 --> 00:02:19.680
+Thank you so much, Dr. zitnick, and thank you everyone for
+
+39
+00:02:20.080 --> 00:02:23.900
+being here and the opportunity to present.
+
+40
+00:02:24.720 --> 00:02:25.820
+Here are my disclosures.
+
+41
+00:02:30.440 --> 00:02:34.210
+So as likely most people in the audience know,
+
+42
+00:02:34.680 --> 00:02:38.140
+there have been persistent bottlenecks to oncology clinical
+
+43
+00:02:38.150 --> 00:02:41.300
+development. There is a massive amount of
+
+44
+00:02:41.340 --> 00:02:44.590
+investment upfront by biopharmaceutical
+
+45
+00:02:44.620 --> 00:02:47.240
+companies in research and development.
+
+46
+00:02:48.320 --> 00:02:52.100
+But as you go from initial investment to the pre-clinical
+
+47
+00:02:52.200 --> 00:02:56.060
+phase, early phase one, phase two, phase three, you
+
+48
+00:02:56.140 --> 00:03:00.070
+ultimately get to a point where only about 10% of compounds that
+
+49
+00:03:00.100 --> 00:03:03.710
+enter a clinical trial advance to FDA approval.
+
+50
+00:03:04.430 --> 00:03:08.420
+And each time a drug fails to make it successfully
+
+51
+00:03:08.440 --> 00:03:12.380
+from phase two to phase three, we lose an opportunity to
+
+52
+00:03:12.420 --> 00:03:15.840
+improve care for patients. The patients who've enrolled on those trials
+
+53
+00:03:17.120 --> 00:03:21.080
+would not have had the opportunity to be a part of a potentially
+
+54
+00:03:21.120 --> 00:03:25.070
+more successful trial, and all of the investment that
+
+55
+00:03:25.080 --> 00:03:28.280
+went into that one drug ends up being
+
+56
+00:03:29.380 --> 00:03:33.180
+lost because it was diverted away from other potentially promising compounds.
+
+57
+00:03:34.380 --> 00:03:38.300
+And so if we could advance this whole process, improve the efficiency, improve the
+
+58
+00:03:38.340 --> 00:03:41.780
+likelihood that we can either
+
+59
+00:03:42.200 --> 00:03:45.300
+rapidly identify that a drug is unlikely to
+
+60
+00:03:45.620 --> 00:03:49.450
+demonstrate benefit in a phase three trial or
+
+61
+00:03:49.480 --> 00:03:53.240
+improve the efficiency with which we're able to conduct a phase three trial, we'll
+
+62
+00:03:53.380 --> 00:03:54.920
+really accelerate the
+
+63
+00:03:57.580 --> 00:03:58.320
+pace of
+
+64
+00:04:00.500 --> 00:04:01.970
+improving management in cancer care.
+
+65
+00:04:02.880 --> 00:04:06.460
+And so there are multiple bottlenecks that contribute to this process.
+
+66
+00:04:06.860 --> 00:04:10.420
+Here I'm highlighting just a few key points.
+
+67
+00:04:11.100 --> 00:04:12.860
+One is patient selection.
+
+68
+00:04:13.900 --> 00:04:17.680
+We tend to take a fairly blunt approach to
+
+69
+00:04:17.740 --> 00:04:20.560
+identifying cohorts for clinical trials.
+
+70
+00:04:21.180 --> 00:04:24.800
+This is due to limitations in our ability to risk
+
+71
+00:04:24.880 --> 00:04:26.650
+stratify patients based on
+
+72
+00:04:28.060 --> 00:04:30.060
+pre-clinical data and real-world evidence.
+
+73
+00:04:30.380 --> 00:04:33.680
+This leads to diluted signal and limited information to drive
+
+74
+00:04:33.760 --> 00:04:37.460
+go/no-go decisions. If we're able to more precisely select
+
+75
+00:04:37.500 --> 00:04:41.460
+patients, we can potentially run a clinical trial
+
+76
+00:04:41.520 --> 00:04:45.320
+with fewer patients due to improved signal-to-noise ratio.
+
+77
+00:04:45.380 --> 00:04:49.040
+Another challenge is access. Many clinical trials are run at large
+
+78
+00:04:49.100 --> 00:04:52.560
+academic medical centers that don't necessarily
+
+79
+00:04:52.600 --> 00:04:56.060
+reach all of the patients that are treated every day in cancer
+
+80
+00:04:57.500 --> 00:05:01.490
+in the community. If we're able to unlock all of the community sites where the
+
+81
+00:05:03.120 --> 00:05:07.090
+full diversity of cancer patients receive care, we'll
+
+82
+00:05:07.090 --> 00:05:09.760
+have a much broader base to recruit from.
+
+83
+00:05:09.800 --> 00:05:11.420
+Execution is a challenge.
+
+84
+00:05:12.860 --> 00:05:15.420
+It takes multiple weeks to start up a
+
+85
+00:05:15.460 --> 00:05:18.560
+study at a clinical site.
+
+86
+00:05:19.120 --> 00:05:22.990
+Activation and staffing all delay studies and require a lot of resources,
+
+87
+00:05:23.300 --> 00:05:26.030
+which is challenging in an increasingly resource-limited setting.
+
+88
+00:05:27.020 --> 00:05:30.800
+And finally, there's bottlenecks in our ability to rapidly
+
+89
+00:05:30.900 --> 00:05:34.620
+access clinical data, both for real-world evidence generation to
+
+90
+00:05:34.760 --> 00:05:38.520
+guide development decision-making, as
+
+91
+00:05:38.560 --> 00:05:42.500
+well as to proactively and rapidly identify signal
+
+92
+00:05:42.540 --> 00:05:46.500
+for our clinical trials. This is because clinical data are highly fragmented in
+
+93
+00:05:46.510 --> 00:05:47.520
+silos.
+
+94
+00:05:49.040 --> 00:05:52.980
+Patients are treated at many different sites, and it's very
+
+95
+00:05:53.000 --> 00:05:56.910
+difficult to integrate technologies to extract information from
+
+96
+00:05:56.940 --> 00:06:00.380
+EHR warehouses, and get that
+
+97
+00:06:00.420 --> 00:06:02.880
+information that's documented on patients
+
+98
+00:06:02.960 --> 00:06:06.460
+to the clinical
+
+99
+00:06:06.500 --> 00:06:11.210
+monitorsSo
+
+100
+00:06:11.230 --> 00:06:14.870
+there's a lot of potential of AI in general to improve clinical development
+
+101
+00:06:14.880 --> 00:06:17.450
+processes and in particular agentic AI.
+
+102
+00:06:17.930 --> 00:06:21.270
+So I'm just going to take a quick step back and define what I'm talking about when
+
+103
+00:06:21.370 --> 00:06:24.850
+I say agentic AI, because there are multiple different
+
+104
+00:06:24.890 --> 00:06:25.850
+definitions of it.
+
+105
+00:06:27.910 --> 00:06:28.470
+And I'd like to
+
+106
+00:06:31.710 --> 00:06:34.210
+highlight a really wonderful paper by Dr.
+
+107
+00:06:34.490 --> 00:06:37.770
+Truin that goes through the differences
+
+108
+00:06:37.790 --> 00:06:39.270
+between single
+
+109
+00:06:40.790 --> 00:06:44.630
+LLM, single AI, all the way to autonomous agentic workflows.
+
+110
+00:06:45.390 --> 00:06:49.010
+So we're all likely familiar with the standard large language
+
+111
+00:06:49.050 --> 00:06:50.650
+model approach, where
+
+112
+00:06:51.650 --> 00:06:54.450
+a human puts in a query into a large language model.
+
+113
+00:06:54.890 --> 00:06:57.250
+This could be a question, what is a
+
+114
+00:06:58.810 --> 00:07:00.750
+high value drug to
+
+115
+00:07:01.610 --> 00:07:05.190
+proceed to clinical trial? Or it can be, can you tell me what this note says about
+
+116
+00:07:05.230 --> 00:07:07.010
+a patient? And there's a single output.
+
+117
+00:07:07.550 --> 00:07:11.230
+You can use this to answer questions, summarize text, or draft new
+
+118
+00:07:11.310 --> 00:07:11.690
+text.
+
+119
+00:07:13.470 --> 00:07:17.350
+Sometimes you can extend this a little bit further where you have a large language
+
+120
+00:07:17.390 --> 00:07:21.320
+model iteratively interact with a human in a conversational setting, and
+
+121
+00:07:21.370 --> 00:07:25.350
+that human might be able to access tools or instruct the language model to
+
+122
+00:07:25.430 --> 00:07:25.770
+use
+
+123
+00:07:26.770 --> 00:07:29.470
+tools. This can allow a system
+
+124
+00:07:29.570 --> 00:07:32.770
+to perform
+
+125
+00:07:33.570 --> 00:07:37.520
+more complex tasks, but still requires quite a lot of human input and
+
+126
+00:07:37.550 --> 00:07:40.730
+is not fully automated, still presenting
+
+127
+00:07:40.740 --> 00:07:43.110
+challenges with efficiencies.
+
+128
+00:07:45.150 --> 00:07:48.950
+An autonomous LLM agent is where a
+
+129
+00:07:48.990 --> 00:07:52.690
+large language model, or it can be other machine learning models,
+
+130
+00:07:53.850 --> 00:07:57.800
+plans multi-step tasks, execute tasks, iterates, refines,
+
+131
+00:07:57.850 --> 00:08:01.810
+and determines whether or not a tool is needed to be called so that it can
+
+132
+00:08:01.850 --> 00:08:05.470
+explore an environment with agency to answer an
+
+133
+00:08:05.530 --> 00:08:09.490
+input query. This allows these models to solve much more
+
+134
+00:08:09.530 --> 00:08:10.420
+complex tasks,
+
+135
+00:08:11.390 --> 00:08:15.060
+with a lot more clinical nuance, because you can more rapidly embed clinical
+
+136
+00:08:15.090 --> 00:08:18.750
+information into these environments that these agents
+
+137
+00:08:18.790 --> 00:08:22.170
+interact within. So really a high potential for
+
+138
+00:08:22.590 --> 00:08:23.370
+general
+
+139
+00:08:24.170 --> 00:08:27.310
+clinical oncology automation and in particular clinical development.
+
+140
+00:08:29.270 --> 00:08:32.650
+So why is agentic AI particularly exciting for the clinical development workflow?
+
+141
+00:08:33.410 --> 00:08:36.530
+And I think this is because a lot of our challenges is not just challenges with our
+
+142
+00:08:36.550 --> 00:08:40.451
+ability to access data or collect data, but really there are
+
+143
+00:08:40.490 --> 00:08:44.430
+multi-step workflow challenges that require really deep coordination and
+
+144
+00:08:44.450 --> 00:08:48.370
+iteration across many different fragmented systems that hold
+
+145
+00:08:48.390 --> 00:08:52.170
+different data types. As I previously mentioned, clinical data are
+
+146
+00:08:52.190 --> 00:08:56.030
+fragmented, non-standardized, and require a high level of clinical
+
+147
+00:08:56.070 --> 00:08:59.730
+reasoning to reason over effectively.
+
+148
+00:09:00.850 --> 00:09:04.750
+Decisions regarding clinical development must keep pace with a really rapidly
+
+149
+00:09:04.830 --> 00:09:08.570
+evolving biomedical literature base, and relying only
+
+150
+00:09:08.690 --> 00:09:12.550
+on human review makes it challenging to ensure that you're, for
+
+151
+00:09:12.570 --> 00:09:12.990
+example,
+
+152
+00:09:14.010 --> 00:09:17.550
+selecting the most appropriate comparator for your experiments.
+
+153
+00:09:19.010 --> 00:09:22.870
+Clinical development workflows are multi-step inherently and require a lot of
+
+154
+00:09:22.930 --> 00:09:25.290
+coordination, so are a natural fit for agentic AI.
+
+155
+00:09:26.070 --> 00:09:29.600
+And insights to clinical development are not a one-stop kind of,
+
+156
+00:09:30.250 --> 00:09:33.850
+we found this finding, and this is the answer, but it actually triggers timely
+
+157
+00:09:33.950 --> 00:09:37.250
+action. So, for example, you have an insight where you have a patient that's
+
+158
+00:09:37.270 --> 00:09:40.170
+developing early signal of an adverse event.
+
+159
+00:09:41.150 --> 00:09:44.070
+You don't just stop saying this patient's having early signal of adverse event.
+
+160
+00:09:44.170 --> 00:09:45.570
+Ideally, you have an action where
+
+161
+00:09:46.550 --> 00:09:50.510
+the clinical trialist then acts on that
+
+162
+00:09:50.570 --> 00:09:52.150
+adverse event per protocol.
+
+163
+00:09:57.570 --> 00:10:01.450
+Agentic AI can play a lot of roles throughout the clinical development continuum.
+
+164
+00:10:01.490 --> 00:10:04.010
+Here I'm highlighting just a few examples.
+
+165
+00:10:05.870 --> 00:10:09.510
+Agentic AI is really critical
+
+166
+00:10:09.610 --> 00:10:13.470
+to use currently human expertise to define
+
+167
+00:10:13.510 --> 00:10:15.260
+the goals to go after when
+
+168
+00:10:17.810 --> 00:10:21.370
+triggering an agentic investigation into a
+
+169
+00:10:21.410 --> 00:10:21.920
+challenge.
+
+170
+00:10:23.270 --> 00:10:27.190
+Agentic AI can be used to help develop the evidence
+
+171
+00:10:27.309 --> 00:10:29.670
+base to guide clinical development decisions.
+
+172
+00:10:29.749 --> 00:10:33.650
+You can use AI to rapidly assess prior
+
+173
+00:10:33.750 --> 00:10:36.850
+literature of the
+
+174
+00:10:36.890 --> 00:10:40.730
+standard of care and predictors. You can use it to generate real-world
+
+175
+00:10:40.850 --> 00:10:42.850
+evidence, and you can use it to
+
+176
+00:10:43.890 --> 00:10:46.570
+develop biomarkers for better patient selection.
+
+177
+00:10:47.110 --> 00:10:51.090
+That can then go to inform clinical development strategy ranging from what is
+
+178
+00:10:51.110 --> 00:10:55.070
+the optimal trial design, what patient stratification options can
+
+179
+00:10:55.130 --> 00:10:58.790
+be used, what endpoints should be selected, and what's the appropriate regulatory
+
+180
+00:10:58.890 --> 00:11:00.390
+pathway for your clinical trial.
+
+181
+00:11:01.250 --> 00:11:05.010
+Then moving to execution, agents can then take the evidence and
+
+182
+00:11:05.130 --> 00:11:08.970
+strategy and automatically draft a protocol or
+
+183
+00:11:09.090 --> 00:11:10.230
+regulatory submission
+
+184
+00:11:12.550 --> 00:11:13.190
+pre-drafts.
+
+185
+00:11:14.410 --> 00:11:18.010
+Agentic AI in the future with high integration with
+
+186
+00:11:18.590 --> 00:11:22.050
+clinical sites can be used to automate site activation, for example,
+
+187
+00:11:22.190 --> 00:11:25.830
+to automatically help set up EDCs for a given
+
+188
+00:11:25.890 --> 00:11:26.260
+trial.
+
+189
+00:11:27.390 --> 00:11:30.990
+Patient matching has received a lot of attention with agentic AI,
+
+190
+00:11:31.390 --> 00:11:34.810
+and agentic AI can be used to automatically monitor patients for outcomes that need
+
+191
+00:11:34.890 --> 00:11:38.740
+action. All of this can go to inform decision-making about the dosing
+
+192
+00:11:38.830 --> 00:11:42.000
+schedule, eligibility criteria, safety adverse events, and
+
+193
+00:11:42.070 --> 00:11:45.990
+go/no-go decisions to accelerate clinical development.
+
+194
+00:11:46.990 --> 00:11:49.190
+And ideally, all of this works in a
+
+195
+00:11:50.250 --> 00:11:54.070
+cycle where agentic insights then
+
+196
+00:11:54.130 --> 00:11:57.920
+go into inform what is the next evidence that we need
+
+197
+00:11:57.950 --> 00:11:59.870
+to further refine our trial design or
+
+198
+00:11:59.910 --> 00:12:03.550
+further refine our next drug
+
+199
+00:12:03.570 --> 00:12:05.410
+decisions.
+
+200
+00:12:06.990 --> 00:12:10.390
+Now I'm going to quickly go into an example of how my lab has been using agentic
+
+201
+00:12:10.450 --> 00:12:13.819
+AI for one part of this workflow, which is
+
+202
+00:12:14.110 --> 00:12:17.290
+monitoring of adverse events in real time from electronic health
+
+203
+00:12:17.330 --> 00:12:20.620
+records.So a current
+
+204
+00:12:21.040 --> 00:12:25.000
+bottleneck for real-world data abstraction as well as for clinical
+
+205
+00:12:26.180 --> 00:12:26.600
+trial
+
+206
+00:12:28.200 --> 00:12:32.060
+curation is that we currently rely largely on manual abstraction
+
+207
+00:12:32.120 --> 00:12:34.710
+for a lot of the information that's documented in the EHR.
+
+208
+00:12:35.100 --> 00:12:38.540
+This is because all data in the EHR tend to be highly
+
+209
+00:12:38.580 --> 00:12:41.860
+non-standardized, and a lot of it's entered in the clinical notes, which
+
+210
+00:12:42.880 --> 00:12:45.680
+require manual review historically.
+
+211
+00:12:46.320 --> 00:12:49.900
+And it requires providers to pore through
+
+212
+00:12:50.020 --> 00:12:50.380
+large
+
+213
+00:12:51.580 --> 00:12:54.800
+amounts of clinical records to determine what happened to a patient at a given
+
+214
+00:12:54.880 --> 00:12:55.600
+point in time.
+
+215
+00:12:57.120 --> 00:13:00.960
+This is time-intensive, expertise-intensive, costly,
+
+216
+00:13:01.460 --> 00:13:03.540
+and has a high degree of
+
+217
+00:13:05.340 --> 00:13:07.220
+inter-annotator agreement, where two
+
+218
+00:13:08.040 --> 00:13:11.740
+expert oncologists might disagree on whether the same event occurred on a given
+
+219
+00:13:11.780 --> 00:13:12.200
+patient.
+
+220
+00:13:14.660 --> 00:13:18.520
+To address this challenge, we developed an agentic AI system
+
+221
+00:13:18.580 --> 00:13:20.760
+that takes in clinical notes and
+
+222
+00:13:22.120 --> 00:13:25.440
+extracts adverse events, specifically immunotherapy-related adverse
+
+223
+00:13:25.480 --> 00:13:29.430
+events, from those notes. It first determines whether
+
+224
+00:13:29.440 --> 00:13:31.160
+an event is present in a clinical note,
+
+225
+00:13:32.120 --> 00:13:35.460
+grades the severity of the notes according to
+
+226
+00:13:35.500 --> 00:13:39.260
+CTCAE definitions, determines whether that adverse
+
+227
+00:13:39.320 --> 00:13:43.110
+event is attributed to the immunotherapy, and
+
+228
+00:13:43.140 --> 00:13:46.540
+determines the certainty with which that adverse event is
+
+229
+00:13:47.300 --> 00:13:49.040
+attributed to the immunotherapy.
+
+230
+00:13:50.300 --> 00:13:54.260
+This leads to a pipeline that goes from a fully unstructured clinical
+
+231
+00:13:54.270 --> 00:13:58.000
+note that historically would have required human review to structured
+
+232
+00:13:58.080 --> 00:14:00.360
+output in a JSON file
+
+233
+00:14:01.880 --> 00:14:05.840
+that clearly delineates whether an IRE is present, the grade attribution,
+
+234
+00:14:05.980 --> 00:14:09.740
+and the underlying clinical evidence for the attribution.
+
+235
+00:14:11.160 --> 00:14:14.140
+Our system achieved a macro F1 of 0.93.
+
+236
+00:14:14.520 --> 00:14:18.250
+It takes a human 10 minutes to do the careful curation for all
+
+237
+00:14:18.400 --> 00:14:21.240
+adverse events present in a clinical document, and it takes
+
+238
+00:14:21.260 --> 00:14:25.230
+our LLM system two cents to review a note for all
+
+239
+00:14:25.320 --> 00:14:25.940
+this evidence.
+
+240
+00:14:29.679 --> 00:14:33.360
+Because our agentic system is able to extract the underlying text
+
+241
+00:14:33.740 --> 00:14:37.460
+that provides evidence for the adverse event, as well as provide a reasoning
+
+242
+00:14:37.500 --> 00:14:40.740
+summary for why the determination was made, we're able to develop
+
+243
+00:14:40.800 --> 00:14:44.640
+an interactive system that our research staff
+
+244
+00:14:44.680 --> 00:14:48.540
+can use to oversee the system and make edits if needed.
+
+245
+00:14:48.600 --> 00:14:52.360
+Our research staff found that highlighting this text was particularly helpful in
+
+246
+00:14:52.380 --> 00:14:55.950
+guiding their review and saving
+
+247
+00:14:56.060 --> 00:14:57.260
+time in the process.
+
+248
+00:14:59.320 --> 00:15:03.170
+We conducted a randomized user effect study where we randomized clinical
+
+249
+00:15:03.240 --> 00:15:07.160
+research staff to using our agentic system versus manual curation
+
+250
+00:15:07.620 --> 00:15:11.340
+and found that using our system reduced the time needed to curate adverse
+
+251
+00:15:11.380 --> 00:15:12.540
+events by 40%.
+
+252
+00:15:13.440 --> 00:15:14.590
+It led to similar
+
+253
+00:15:15.720 --> 00:15:19.140
+accuracy in adverse event determination compared to an expert
+
+254
+00:15:19.200 --> 00:15:19.950
+oncologist,
+
+255
+00:15:20.760 --> 00:15:24.400
+and I think really importantly, significantly improved the
+
+256
+00:15:24.440 --> 00:15:28.260
+inter-annotator agreement or consistency with which two research
+
+257
+00:15:28.340 --> 00:15:30.800
+staff will agree on the adverse event.
+
+258
+00:15:30.840 --> 00:15:34.380
+So we are making this process more
+
+259
+00:15:34.400 --> 00:15:38.260
+efficient. We're not leading to decrements
+
+260
+00:15:38.300 --> 00:15:42.060
+in accuracy or data quality, and actually we're improving the consistency,
+
+261
+00:15:42.280 --> 00:15:44.680
+so reducing noise in adverse event determinations.
+
+262
+00:15:48.220 --> 00:15:52.180
+So we found this to be really promising, and just as kind of
+
+263
+00:15:52.260 --> 00:15:55.840
+a step back, where could we go from here in terms of using an
+
+264
+00:15:55.860 --> 00:15:59.670
+agentic system, focus on adverse event detection to really
+
+265
+00:15:59.680 --> 00:16:03.400
+better understand the role of adverse event and predict adverse
+
+266
+00:16:03.460 --> 00:16:05.150
+events to guide clinical development.
+
+267
+00:16:05.960 --> 00:16:06.220
+So
+
+268
+00:16:09.520 --> 00:16:13.440
+drawing back from our adverse event extraction system, you can imagine
+
+269
+00:16:13.480 --> 00:16:17.340
+a much broader system that, for example, uses real-world data
+
+270
+00:16:17.740 --> 00:16:17.860
+and
+
+271
+00:16:18.960 --> 00:16:22.890
+AI-assisted literature review to allow us to better anticipate
+
+272
+00:16:22.890 --> 00:16:25.950
+adverse event rates and determine imaging or
+
+273
+00:16:26.040 --> 00:16:27.120
+biomarker-based
+
+274
+00:16:28.480 --> 00:16:32.140
+predictors of adverse event risk to better guide patient selection.
+
+275
+00:16:33.020 --> 00:16:36.830
+This could then inform a strategy into risk-adapted cohorts to improve the
+
+276
+00:16:36.940 --> 00:16:40.880
+signal-to-noise ratio and allowing for a more
+
+277
+00:16:40.920 --> 00:16:44.420
+precise determination of who is most likely to benefit with the fewest
+
+278
+00:16:44.540 --> 00:16:45.060
+risks
+
+279
+00:16:46.000 --> 00:16:48.780
+for a given treatment strategy.
+
+280
+00:16:49.800 --> 00:16:51.460
+Moving on to execution, I think
+
+281
+00:16:51.920 --> 00:16:55.700
+using our system just to extract those
+
+282
+00:16:55.760 --> 00:16:59.500
+adverse events more reliably and faster would really make it easier for clinical
+
+283
+00:16:59.540 --> 00:17:02.380
+sites to run these clinical trials.
+
+284
+00:17:03.200 --> 00:17:06.600
+An agentic workflow could also pre-position adverse event management
+
+285
+00:17:06.780 --> 00:17:10.590
+in the SOPs and allow for continuous
+
+286
+00:17:10.700 --> 00:17:14.260
+monitoring for early intervention of an adverse event to reduce the
+
+287
+00:17:14.681 --> 00:17:18.340
+risk that an early adverse event progresses to a grade three or four or five
+
+288
+00:17:18.401 --> 00:17:18.739
+event.
+
+289
+00:17:19.881 --> 00:17:22.700
+Finally, this could improve decision-making about clinical development.
+
+290
+00:17:23.720 --> 00:17:27.220
+By improving detection of an emerging adverse event signal, you could
+
+291
+00:17:29.300 --> 00:17:33.260
+facilitate grade triggered holds and more precise causality assessment,
+
+292
+00:17:33.300 --> 00:17:35.020
+which is a really persistent challenge in
+
+293
+00:17:35.980 --> 00:17:39.710
+determining the risks and benefits of a new management strategy,
+
+294
+00:17:40.020 --> 00:17:43.920
+especially as patients are treated with many modalities over long
+
+295
+00:17:44.000 --> 00:17:45.630
+periods of time as patients are living longer
+
+296
+00:17:46.660 --> 00:17:49.720
+and longer after their initial cancer diagnosis.
+
+297
+00:17:52.720 --> 00:17:56.680
+Now, there's one really persistent challenge with using large language models
+
+298
+00:17:56.720 --> 00:18:00.600
+in general and agentic systems in particular
+
+299
+00:18:00.680 --> 00:18:04.420
+in any high-risk critical setting and any
+
+300
+00:18:04.680 --> 00:18:08.260
+highly regulated site setting, such as clinical development, of course.
+
+301
+00:18:09.300 --> 00:18:13.240
+Our current standard approaches for evaluating the performance of
+
+302
+00:18:13.280 --> 00:18:16.860
+these large language models largely relies on types of
+
+303
+00:18:16.920 --> 00:18:19.660
+multi-choice question answer exams that
+
+304
+00:18:20.540 --> 00:18:23.960
+can be automatically assessed. You ask a
+
+305
+00:18:24.120 --> 00:18:24.780
+question of
+
+306
+00:18:25.700 --> 00:18:29.380
+an agentic system and give it multiple options to select from,
+
+307
+00:18:29.860 --> 00:18:32.660
+and it can choose the right answer, and then you can calculate the
+
+308
+00:18:32.720 --> 00:18:36.604
+accuracy.The challenge is this does not
+
+309
+00:18:36.664 --> 00:18:40.204
+necessarily reflect the type of real-world applications that we would
+
+310
+00:18:40.504 --> 00:18:42.964
+really want to use these agentic AI systems in.
+
+311
+00:18:43.274 --> 00:18:45.864
+And we don't know if performance in these
+
+312
+00:18:46.784 --> 00:18:50.664
+multi-choice question answer settings really translates
+
+313
+00:18:50.724 --> 00:18:53.304
+to similar performance in real-world applications.
+
+314
+00:18:53.814 --> 00:18:57.684
+Real-world applications, like this example showing here, are often
+
+315
+00:18:57.784 --> 00:19:01.554
+have generative output and rely on
+
+316
+00:19:02.344 --> 00:19:06.163
+faithful reasoning steps across agentic systems and reliable
+
+317
+00:19:06.173 --> 00:19:08.804
+extraction from the correct evidence base.
+
+318
+00:19:08.884 --> 00:19:12.673
+All of that requires a much higher level of coordination of
+
+319
+00:19:12.704 --> 00:19:15.554
+monitoring and benchmarking strategies themselves.
+
+320
+00:19:17.164 --> 00:19:21.084
+Sound scientific judgment and multi-step reasoning abilities are
+
+321
+00:19:21.124 --> 00:19:24.204
+currently not covered by our evaluation strategy, which I think is a really high
+
+322
+00:19:24.304 --> 00:19:28.064
+priority for future research in order to ensure
+
+323
+00:19:28.084 --> 00:19:31.864
+that agentic insights that inform clinical trial design and
+
+324
+00:19:31.904 --> 00:19:35.004
+determinations are fully auditable and reportable
+
+325
+00:19:36.624 --> 00:19:40.544
+when presenting ultimately to regulatory bodies.
+
+326
+00:19:43.784 --> 00:19:47.584
+Now, a lot of focus with large language models and agentic
+
+327
+00:19:47.644 --> 00:19:50.754
+AI systems currently is on retrospective
+
+328
+00:19:50.764 --> 00:19:51.884
+performance
+
+329
+00:19:52.904 --> 00:19:56.684
+on prior data sets. We have models that really do
+
+330
+00:19:56.724 --> 00:20:00.144
+perform impressively well. Like the agentic system I previously showed, it got an
+
+331
+00:20:00.224 --> 00:20:01.864
+F1 of 0.93 that's
+
+332
+00:20:03.124 --> 00:20:07.104
+very, very high sensitivity and positive predictive value
+
+333
+00:20:07.164 --> 00:20:10.534
+for determining and fully phenotyping adverse events documented in
+
+334
+00:20:10.564 --> 00:20:14.514
+EHRs. But that doesn't necessarily mean that these systems are
+
+335
+00:20:15.884 --> 00:20:19.504
+ready to just turn on and use to extract information or
+
+336
+00:20:19.544 --> 00:20:22.924
+provide high-value insights for clinical development.
+
+337
+00:20:23.584 --> 00:20:27.064
+That's because currently the challenge with agentic systems is not the
+
+338
+00:20:27.084 --> 00:20:29.264
+performance of the models, in my opinion.
+
+339
+00:20:29.304 --> 00:20:32.624
+It's all the other work that has to go into making agentic systems a
+
+340
+00:20:32.684 --> 00:20:36.584
+reality. Data integration with agentic systems is super
+
+341
+00:20:36.604 --> 00:20:39.664
+important. You can think of agentic systems like
+
+342
+00:20:42.304 --> 00:20:42.684
+workers
+
+343
+00:20:43.564 --> 00:20:47.484
+using tools on a conveyor belt. The workers need to be able to anticipate
+
+344
+00:20:47.524 --> 00:20:51.424
+what type of data that they are pulling from in order to
+
+345
+00:20:51.464 --> 00:20:54.844
+do their job. If you don't have high-quality data integration, standardization,
+
+346
+00:20:54.944 --> 00:20:58.604
+harmonization, that conveyor belt approach is going to fall apart really
+
+347
+00:20:58.704 --> 00:21:02.224
+rapidly. You need to ensure value to
+
+348
+00:21:02.284 --> 00:21:06.124
+demonstrate the need
+
+349
+00:21:06.304 --> 00:21:06.644
+and
+
+350
+00:21:07.644 --> 00:21:09.704
+return on investment of
+
+351
+00:21:10.664 --> 00:21:11.364
+building the
+
+352
+00:21:12.624 --> 00:21:15.904
+agentic workflows and its surrounding governance approach.
+
+353
+00:21:16.884 --> 00:21:20.724
+Monitoring model drift and data drift, as I previously mentioned, is
+
+354
+00:21:20.784 --> 00:21:24.424
+really important for any highly regulated setting, in particular this, and
+
+355
+00:21:24.544 --> 00:21:28.004
+governance bodies need to be set up to ensure that
+
+356
+00:21:28.364 --> 00:21:31.864
+the ethical approach and
+
+357
+00:21:32.344 --> 00:21:32.864
+safety are
+
+358
+00:21:33.684 --> 00:21:35.424
+being governed in a responsible way.
+
+359
+00:21:35.504 --> 00:21:39.294
+All of this requires a lot, currently the lion's
+
+360
+00:21:39.324 --> 00:21:42.684
+share of effort for implementing agentic AI in clinical systems.
+
+361
+00:21:46.344 --> 00:21:47.004
+And finally,
+
+362
+00:21:48.024 --> 00:21:51.564
+patients are really the core of what we do and need to be
+
+363
+00:21:51.684 --> 00:21:55.464
+deeply engaged in any conversation about clinical research and
+
+364
+00:21:55.524 --> 00:21:56.364
+clinical trials,
+
+365
+00:21:57.284 --> 00:22:00.964
+including the use of AI in clinical trials and clinical development.
+
+366
+00:22:01.764 --> 00:22:05.584
+This is a survey that was run by Cancer Nation of cancer survivors
+
+367
+00:22:05.944 --> 00:22:09.294
+assessing their comfort and trust in AI as part of their
+
+368
+00:22:11.584 --> 00:22:15.464
+cancer care. Here, they bucketed
+
+369
+00:22:15.604 --> 00:22:17.324
+responses by age group.
+
+370
+00:22:18.544 --> 00:22:22.144
+Overall, a minority of patients for any use case were very
+
+371
+00:22:22.184 --> 00:22:24.404
+comfortable with AI being used in their care
+
+372
+00:22:25.644 --> 00:22:29.584
+and were predominantly comfortable with the use of AI for administrative
+
+373
+00:22:29.644 --> 00:22:32.464
+tasks, much less comfortable with the use of AI
+
+374
+00:22:32.524 --> 00:22:36.144
+for clinical tasks.
+
+375
+00:22:37.164 --> 00:22:38.364
+Clinical trials must
+
+376
+00:22:40.184 --> 00:22:40.744
+engage
+
+377
+00:22:42.824 --> 00:22:46.544
+our patients in the conversation of using AI to
+
+378
+00:22:46.624 --> 00:22:46.904
+ensure
+
+379
+00:22:49.204 --> 00:22:52.863
+conduct and trust and ongoing patient participation and engagement in trials.
+
+380
+00:22:56.844 --> 00:22:59.584
+There are risks of both hype and underestimating
+
+381
+00:23:00.644 --> 00:23:03.974
+any technology, and there's a lot of hype about agentic AI right
+
+382
+00:23:04.024 --> 00:23:06.424
+now. There are risks of moving too fast.
+
+383
+00:23:06.784 --> 00:23:09.604
+You can't move fast and break things in healthcare.
+
+384
+00:23:09.684 --> 00:23:13.584
+That's a cliché. But there are also risks of not moving fast enough.
+
+385
+00:23:13.604 --> 00:23:17.484
+Premature adoption and overpromising will cause backlash when performance falls
+
+386
+00:23:17.544 --> 00:23:20.964
+short, and therefore unrealized benefits due to
+
+387
+00:23:22.804 --> 00:23:25.924
+backlash and slower long-term uptake and inadequate
+
+388
+00:23:26.324 --> 00:23:27.124
+implementation.
+
+389
+00:23:28.004 --> 00:23:31.184
+On the flip side, dismissing innovation and having unrealistic performance
+
+390
+00:23:31.244 --> 00:23:35.184
+requirements slows progress and can potentially push people
+
+391
+00:23:35.244 --> 00:23:38.944
+to using AI inappropriately and in non-regulated settings.
+
+392
+00:23:43.124 --> 00:23:46.914
+So to summarize, agentic AI has potential to accelerate and augment evidence
+
+393
+00:23:46.924 --> 00:23:50.304
+generation, strategy, operational execution, and decision-making in clinical
+
+394
+00:23:50.344 --> 00:23:54.304
+development. Near-term use cases include biomarker development, patient
+
+395
+00:23:54.344 --> 00:23:58.324
+stratification, patient matching, automated outcome monitoring, and document
+
+396
+00:23:58.384 --> 00:23:59.124
+preparation.
+
+397
+00:24:00.484 --> 00:24:04.084
+Data integration, infrastructure monitoring, and governance require upfront
+
+398
+00:24:04.264 --> 00:24:07.944
+effort but will compound value as models continue to advance.
+
+399
+00:24:09.004 --> 00:24:12.944
+And rigorous evaluation, benchmarking, and scalable oversight strategies
+
+400
+00:24:12.984 --> 00:24:16.784
+are top priorities for responsible, safe, and regulatory-grade deployment of
+
+401
+00:24:16.864 --> 00:24:18.704
+these systems in clinical development.
+
+402
+00:24:20.744 --> 00:24:23.144
+So I'd like to thank my collaborators and my funders,
+
+403
+00:24:24.084 --> 00:24:26.584
+and thank you for the opportunity to present here today.
+
+404
+00:24:33.064 --> 00:24:35.964
+Thank you, Dr. Peterman. We have time for one question.
+
+405
+00:24:44.334 --> 00:24:45.354
+Does it work? Yep.
+
+406
+00:24:45.394 --> 00:24:45.734
+Go ahead.
+
+407
+00:24:46.174 --> 00:24:48.504
+Hi. Very nice talk. I was wondering,
+
+408
+00:24:49.734 --> 00:24:52.174
+clinical trials are really multifactorial.
+
+409
+00:24:52.234 --> 00:24:54.054
+You have many things you have to do to make them happen.
+
+410
+00:24:54.084 --> 00:24:57.674
+I was wondering, you mentioned in one of your slides that you were working on
+
+411
+00:24:57.734 --> 00:25:01.634
+matching patients to trials, so kind of probably use agentic AI to
+
+412
+00:25:01.654 --> 00:25:05.294
+improve accrual. I was wondering if you could comment on your
+
+413
+00:25:05.334 --> 00:25:06.354
+progress on that side.
+
+414
+00:25:07.534 --> 00:25:11.254
+So, my group is not working on agentic AI for trial
+
+415
+00:25:11.354 --> 00:25:15.274
+matching. There is a lot of ongoing effort in this space on trial
+
+416
+00:25:15.334 --> 00:25:18.834
+matching. I will say our immune-related adverse event project, which is focused
+
+417
+00:25:18.874 --> 00:25:19.194
+really on
+
+418
+00:25:21.414 --> 00:25:25.154
+more accurately collecting adverse events, is
+
+419
+00:25:25.214 --> 00:25:29.014
+currently being prospectively tested by evaluating whether it improves
+
+420
+00:25:29.054 --> 00:25:33.014
+accrual to an immune-related adverse event biobank, in which, in that case,
+
+421
+00:25:33.094 --> 00:25:36.974
+that special case, the immune-related adverse event is an
+
+422
+00:25:36.994 --> 00:25:40.754
+eligibility criteria. But that's a fairly simple protocol with
+
+423
+00:25:41.874 --> 00:25:43.054
+only a few
+
+424
+00:25:44.454 --> 00:25:47.984
+eligibility criteria. It's performing really
+
+425
+00:25:48.014 --> 00:25:48.674
+well.
+
+426
+00:25:49.534 --> 00:25:53.354
+But there's many other groups that are tackling this challenge of
+
+427
+00:25:53.394 --> 00:25:57.294
+patient matching. It's really hard in oncology because we have these really
+
+428
+00:25:57.374 --> 00:26:00.854
+lengthy, complex eligibility criteria that are written in
+
+429
+00:26:01.834 --> 00:26:05.264
+a non-standardized way. I think to really accelerate this,
+
+430
+00:26:05.974 --> 00:26:09.954
+kind of upfront standardizing eligibility criteria will really make it
+
+431
+00:26:09.974 --> 00:26:12.434
+much easier to implement. And there's a lot of great work, I see my colleagues out
+
+432
+00:26:12.494 --> 00:26:16.364
+here, coming out of the NCI and CBIT in standardizing eligibility
+
+433
+00:26:16.454 --> 00:26:19.354
+criteria to make that a more realistic reality.
+
+434
+00:26:19.414 --> 00:26:19.754
+Thank you.
+
+435
+00:26:22.774 --> 00:26:26.754
+Thank you. We'll have a bit more time for the general discussion at the
+
+436
+00:26:26.814 --> 00:26:30.284
+end of this session, but for now, we need to proceed with the next speaker,
+
+437
+00:26:30.814 --> 00:26:34.594
+and this will be Dr. Sebastian Firsch from University Medical
+
+438
+00:26:34.794 --> 00:26:35.274
+Center
+
+439
+00:26:36.174 --> 00:26:40.074
+Mainz in Germany. Dr. Firsch is physician, scientist, and pathologist
+
+440
+00:26:40.154 --> 00:26:43.634
+at the Institute of Pathology at University Medical Center Mainz.
+
+441
+00:26:43.664 --> 00:26:47.414
+His research focuses on applying AI to digital pathology,
+
+442
+00:26:47.594 --> 00:26:51.534
+particularly for cancer diagnosis, prognosis, and clinical decision
+
+443
+00:26:51.974 --> 00:26:55.604
+support. And in his talk, he will present on translational clinical
+
+444
+00:26:55.694 --> 00:26:59.274
+research aspects of agentic AI with a particular
+
+445
+00:26:59.314 --> 00:27:00.694
+focus on pathology.
+
+446
+00:27:01.594 --> 00:27:03.714
+Okay, I look forward to this presentation.
+
+447
+00:27:09.754 --> 00:27:10.000
+Yeah. Thank you so much for the kind introduction and also

@@ -1,0 +1,14 @@
+# High-throughput, 96-well plate-based single-cell TCR sequencing for scalable chain-pairing and immunophenotyping of cancer-associated T cells
+
+**Poster #**: 6515
+**Session**: Diagnostic Biomarkers 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Alex Chenchik, Tianbing Liu, Dongfang Hu, Kitt Paraiso, Lester Kobzik, Khadija Ghias, Paul Diehl
+
+Cellecta, Inc., Mountain View, CA
+
+---
+
+We present a streamlined, plate-based single-cell adaptive immune receptor (AIR) profiling technology that enables the discovery and detailed characterization of disease-relevant TCR clonotypes in cancer-associated T cells. Using a scalable 96-well plate workflow, flow-sorted single cells are individually isolated for multiplex RT-PCR of TCR &#945; &#946; chains together with 36 immunophenotyping genes, followed by Illumina NextSeq sequencing. The approach leverages MiXCR and RCEM software pipelines to deliver full-length paired TCR sequences, high-resolution clonotype frequency data, and a profile of key gene expression markers. Applied to longitudinal samples from T-cell large granular lymphocytic leukemia (T-LGL) patients, this method identified both dominant and rare clonotypes--with functional annotation--across multiple timepoints, including a case with a single expanded cytotoxic effector-memory T-cell clone (n=35 wells, with elevated NKG7 and CCL5 levels). High-throughput, &#8220;mini-bulk&#8221; configurations (approx. 100 cells/well) allow broader repertoire screening of ~10,000 cells/plate, detecting thousands of unique &#946; chains and &#945; &#946; pairs, and facilitating the identification of rare, disease-associated clonotypes missed by bulk or lower-throughput methods.This rapid, cost-effective (<$0.10/cell), single-day workflow supports large-scale translational studies, providing direct access to paired receptor and phenotypic signatures from a variety of samples without reliance on microfluidics platforms or complex barcoding techniques. The technology significantly expands capacity for immunogenomic discovery and functional immunophenotyping, making it suited for biomarker validation, immunotherapy development, and real-time immune monitoring in cancer research.

@@ -1,0 +1,21 @@
+# Pilot study of an implantable microdevice for in situ evaluation of drug response in patients with pancreatic cancer
+
+**Poster #**: CT090
+**Session**: Phase I Clinical Trials in Progress
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Oliver Standring1, Julien Hohenleithner1, Daniel King1, Oliver Jonas2, Sepideh Gholami1, Danielle DePeralta1, Arvind Rishi1, David Tuveson3, Matthew Weiss1
+
+1Northwell Health, New Hyde Park, NY,2Department of Radiology, Brigham and Women's Hospital, Boston, MA,3Cold Spring Harbor Laboratory, Huntington, NY
+
+---
+
+Background
+Standard of care for both early and late-stage pancreatic ductal adenocarcinoma (PDAC) depends in part on effective multi-agent chemotherapy, yet fewer than half of patients respond to their therapy. Although gene expression profiling has identified transcriptomic subsets of PDAC with differential chemotherapy sensitivity, there are currently no in vivo tests to derive patient-specific drug response data. Implantable microdevices (IMDs) address this gap by allowing for the delivery of up to 18 wells containing microdoses of therapeutics directly to the tissue, separated sufficiently such the effect of each well can be analyzed and provide rapid pharmacodynamic readouts without systemic toxicity. IMDs have been evaluated in other solid tumors but never in PDAC. This investigator-initiated clinical trial aims to establish the safety and feasibility of IMD implantation and retrieval during pancreatectomy and to generate individualized drug sensitivity profiles.
+Trial Design
+This single-institution pilot study will enroll 10 chemotherapy-na&#239;ve patients with resectable PDAC. Each patient will undergo intra-operative placement of the IMD and 4-hour incubation period before resection of the tumor/device en-bloc. The IMD contains triplicate reservoirs of the 5 standard chemotherapy agents for PDAC: gemcitabine, nab-paclitaxel, oxaliplatin, 5-fluorouracil, and SN-38 (active metabolite of Irinotecan) as well as 1 poly-ethylene glycol control well and 2 doxorubicin wells, which allows for confirmation of drug diffusion via autofluorescence. The primary endpoint is safety, defined as the occurrence of any serious adverse event or &#8805;2 grade 3-4 adverse events constituting individual patient safety failure. Secondary endpoints include the feasibility of IMD placement, retrieval, and processing such that >50% of the drug wells are of sufficient quality for histopathologic assessment and the ability to create an apoptotic/proliferation ratio for each drug in >50% of patients.
+Exploratory Analysis
+IMD-derived in vivo drug response profiles will be directly compared with high-throughput drug sensitivity screening performed using patient-derived organoids, an emerging platform for individualized chemotherapy testing that requires prolonged ex vivo culture. In parallel, tissue exposed directly to chemotherapeutic agents will undergo comprehensive correlative analyses, including spatial transcriptomics and proteomics. These integrated, spatially resolved analyses are designed to identify biomarkers of drug response, elucidate mechanisms of therapeutic resistance, and characterize tumor-intrinsic and microenvironmental determinants of chemotherapy sensitivity.
+Conclusion
+This first-in-human study evaluates the use of implantable microdevices in PDAC and establishes a novel in vivo platform for rapid, patient-specific therapeutic profiling within the native tumor microenvironment. The trial is currently open and enrolling (NCT07254091).

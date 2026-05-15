@@ -1,0 +1,12 @@
+# Optimizing fludarabine exposure in pediatric CAR T-cell patients through an adaptive dosing approach
+
+**Poster #**: LB327
+**Session**: Late-Breaking Research: Clinical Research 3
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Emma Barlow1, Su Han Lum2, Geoff Shenton2, Denise Bonney3, Rachael Hough4, Sophie Hambleton2, Gareth Veal1, Shelby Barnett11Newcastle University, Newcastle upon Tyne, United Kingdom,2Newcastle upon Tyne Hospital NHS Foundation Trust, Newcastle upon Tyne, United Kingdom,3Manchester University NHS Foundation Trust, Manchester, United Kingdom,4University College London Hospitals NHS Foundation Trust, London, United Kingdom
+
+---
+
+Background: B-cell acute lymphoblastic leukemia (B-ALL) is the most common cancer in children and young adults. While initial response rates are high (~90%), 15-20% of patients relapse within 2 years, and outcomes for relapsed or refractory (r/r) disease are poor. CD19-directed CAR T-cell therapy offers a potential cure for r/r B-ALL, but relapse currently occurs in approximately 50% of patients. Lymphodepletion with fludarabine (Flu) and cyclophosphamide is essential for CAR T-cell expansion and efficacy, with recent data showing that Flu exposure strongly correlates with outcome. Cumulative area under the curve (cAUC) values 20mg.h/L, increasing risk of drug toxicity. Three patients underwent additional TDM to validate dose adjustments, with final cAUCs within 6% of target exposures. Model-predicted exposures were significantly different from exposure predictions incorporating concentration-time data, with exposures outside the therapeutic window predicted in 47% of patients using MBD alone.Conclusions: Preliminary data indicate considerable interpatient variability in Flu exposure in r/r B-ALL patients receiving CAR T-cell therapy. BSA-based dosing and MBD approaches may be inadequate, demonstrating the need for adaptive dosing. TDM is feasible with Flu dosed across 4 days and leads to accurate target exposure attainment.

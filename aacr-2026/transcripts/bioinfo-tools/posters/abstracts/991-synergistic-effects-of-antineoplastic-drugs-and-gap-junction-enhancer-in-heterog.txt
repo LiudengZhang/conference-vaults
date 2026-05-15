@@ -1,0 +1,12 @@
+# Synergistic effects of antineoplastic drugs and gap junction enhancer in heterogenous colorectal cancer
+
+**Poster #**: 991
+**Session**: Computational, Technological, and Mechanistic Advances
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Tomas Lugo1, Annelise Nguyen21Texas Tech University, Lubbock, TX,2Texas Tech University, Amarillo, TX
+
+---
+
+Fibroblast tumor cell crosstalk, particularly through gap junction mediated signaling, is increasingly recognized as a modifier of colorectal cancer drug response. To test whether restoring gap junction function can enhance chemotherapy, we used co-culture spheroids composed of CCD-112 CoN fibroblasts and colorectal cancer cells (SW620, SW480, HT-29, or Caco-2) in a 1:1 ratio in 96-well plates. Doxorubicin, erlotinib, nilotinib, and cediranib were tested across multiple concentrations, alone and in combination with the gap junction enhancer, PQ, and drug interactions were quantified using the ZIP model, analytic tool and visualized using gigamap approach. For the combination treatment of doxorubicin and PQ, ZIP analysis revealed both antagonistic and synergistic regions. PQ alone and low concentrations of doxorubicin were predominantly antagonistic, with ZIP scores ranging from approximately 0.2 to −17.19. In contrast, high concentrations of both chemicals produced marked synergy, with a maximal ZIP score of 44.05 and an overall global ZIP synergy score of 4.53. On the 2D heatmap, this appears as largely additive to mild antagonistic effects at low to intermediate doses, with a distinct red hot spot of synergy in the upper-right corner (high [PQ]/high [Doxorubicin]). Consistently, the 3D surface plot shows a ridge of positive zip scores that increases with rising concentrations of both drugs. Together, these findings indicate that PQ enhances doxorubicin efficacy in a concentration dependent manner, with synergy restricted to a specific high-dose window rather than across all dose combinations. Similarly, the BCR-ABL targeted therapy nilotinib displayed a biphasic response in combination with PQ, characterized by two synergistic peaks at low and high concentrations separated by an antagonistic valley at intermediate doses. In conclusion, these results highlight both the synergistic and antagonistic properties of PQ with commonly used antineoplastic agents and support the approach of combinational treatment for colorectal cancer.

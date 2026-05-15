@@ -1,0 +1,19 @@
+# Visualization and analysis of cancer genomics data using UCSC Xena
+
+**Poster #**: 5524
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Mary Goldman1, Brian Craft1, Cally Lin2, Jingchun Zhu1, David Haussler3
+
+1UC Santa Cruz Genomics Institute, Santa Cruz, CA,2Stanford University, San Francisco, CA,3Investigator/Distinguished Professor, Ctr. For Bio. Sci. & Eng., UC Santa Cruz, Santa Cruz, CA
+
+---
+
+UCSC Xena (http://xena.ucsc.edu/) is a web-based visual integration and exploration tool for both bulk and single-cell multi-omic data, and associated clinical and phenotypic annotations. Researchers can easily view and explore public data, their own private data (bulk only), or both using the Xena Browser. Private data are kept on the researcher's computer and are never uploaded to our public servers. We support Mac, Windows, and Linux.
+Questions Xena can help you answer:* Is overexpression of this gene associated with survival differences?* What genes are differentially expressed between these two groups of samples?* What is the relationship between mutation, copy number, expression, etc for this gene?
+Xena visualizes seminal cancer genomics datasets from TCGA, the Pan-Cancer Atlas, GDC (a complete update from 2024, including new data from CPTAC3 and HCMI), PCAWG, ICGC, and more; a total of more than 1500 datasets across 50 cancer types. We support virtually any type of functional genomics data: SNPs, INDELs, copy number variation, gene expression, ATAC-seq, DNA methylation, exon-, transcript-, miRNA-, lncRNA-expression and structural variants. We also support clinical data such as phenotype information, subtype classifications and biomarkers. All of our data is available for download via python or R APIs, or using our URL links.
+Our signature Visual Spreadsheet view shows multiple data types side-by-side enabling discovery of correlations across and within genes and genomic regions. We also have dynamic Kaplan-Meier survival analysis, powerful filtering and subgrouping, differential gene expression analysis, GSEA, charts, statistical analyses, genomic signatures, and the ability to generate URLs to live views.
+We now visualize single-cell data, primarily gene, transcript, and protein expression, from spatially-resolved and disassociated single cell datasets. Using Xena, researchers can visualize 2D or 3D embedding views, such as tSNE and UMAP as well as the spatial imaging views, such as H&#38;E, multiplex immunofluorescence, and co-registration of both. Crucially, we overlay genomic data &#8212; such as gene and protein expression, genomic signature scores, cell annotations, and label transfer information &#8212; on top of these images dynamically. We support a diverse range of data modalities ranging from 10x Chromium and Smartseq2 platforms for scRNA-seq and 10x scATAC-seq, to spatial transcriptomics platforms of Visium, Visium HD, Xenium, CosMx, and MERFISH/Vizgen, to imaging proteomics such as t-CycIF, CODEX, and MIBI-TOF. We showcase data from the HTAN data portal.
+If you use us please cite our publication in Nature Biotechnology: https://www.nature.com/articles/s41587-020-0546-8

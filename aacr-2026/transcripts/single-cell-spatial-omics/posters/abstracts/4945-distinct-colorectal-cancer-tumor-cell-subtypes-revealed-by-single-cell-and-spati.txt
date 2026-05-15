@@ -1,0 +1,17 @@
+# Distinct colorectal cancer tumor cell subtypes revealed by single-cell and spatial transcriptomics
+
+**Poster #**: 4945
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Ji Hye Choi1, Yeong Hak Bang2, Kyung Yeon Han3, Woong-Yang Park4
+
+1Sungkyunkwan University, Seoul, Korea, Republic of,2University of Ulsan College of Medicine, Seoul,3Translational Genomics Center, Seoul, Korea, Republic of,4GENINUS, Seoul, Korea, Republic of
+
+---
+
+Background: Colorectal cancer is highly heterogeneous, exhibiting diverse tumor characteristics. However, studies focusing on the epithelial cell compartment remain limited. Here, we aimed to comprehensively profile CRC epithelial cells, define tumor-specific subtypes, and explore their spatial distributions and prognostic implications.
+Method: We performed single-cell RNA sequencing of 65 primary CRC samples, along with 13 liver metastasis, 33 colon normal, and 8 liver normal controls. Epithelial cell clusters were classified using non-negative matrix factorization. After characterizing their transcriptional and developmental features, we mapped the subtypes to spatial transcriptomic data to assess spatial localization patterns within the tumor.
+Results: We analyzed a total of 273,711 cells including 64,911 epithelial cells. Among these epithelial cells, 14 tumor-associated epithelial clusters were identified after excluding low-quality and normal-like clusters. Of these, seven clusters consistently abundant across multiple samples were selected for further analyses: C1 (inflamed), C2 (ribosomal), C3 (epithelial-mesenchymal transition; EMT), C4 (goblet-like), C5 (MHC II), C6 (oxidative phosphorylation), and C8 (proliferating). C1 and C3 were enriched in advanced-stage tumors and associated with poor prognosis in TCGA data. Trajectory inference suggested a developmental continuum from C8 toward C1 and C3, indicating potential tumor cell evolution toward EMT and inflamed states. Spatial transcriptomic analysis using both Visium and Xenium datasets revealed distinct localization patterns: C2, C6 and C8 were concentrated in the tumor core, whereas C1 and C3 were predominantly enriched at the tumor margin. Interestingly, tumor budding regions were predominantly composed of these C3 clusters, consistent with the EMT-like characteristics of tumor buds. Notably, co-localization analysis revealed subtype-specific epithelial-immune-stromal niches, in which myofibroblastic cancer-associated fibroblasts and SPP1&#8314; macrophages were spatially associated with C3 clusters, suggesting potential crosstalk that may promote tumor invasion and immune modulation.
+Conclusions: We profiled colorectal cancer epithelial cells and identified distinct tumor cell subtypes with unique transcriptional and spatial characteristics. These subtypes exhibited dynamic interactions with the surrounding tumor microenvironment, suggesting that epithelial plasticity and spatial crosstalk may collectively drive tumor progression and immune evasion.

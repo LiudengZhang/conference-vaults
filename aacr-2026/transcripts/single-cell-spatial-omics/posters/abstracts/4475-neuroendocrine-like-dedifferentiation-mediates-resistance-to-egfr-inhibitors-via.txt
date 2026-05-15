@@ -1,0 +1,14 @@
+# Neuroendocrine-like dedifferentiation mediates resistance to EGFR inhibitors via the NRG1/HER3 axis
+
+**Poster #**: 4475
+**Session**: Drug Combinations, Repurposing, and Differentiation
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Alessandra Morselli1, Chiara Miroglio1, William Kothalawala2, Donatella Romaniello, Idan Lahat3, Paola Cecchi1, Davide Zilio1, Michelangelo Fiorentino4, Andrea Ardizzoni1, Yosef Yarden5, Yaara Oren3, Balazs Gyorffy6, Mattia Lauriola1
+
+1University of Bologna, Bologna, Italy,2Budapest, Hungary, Semmelweis University, Hungary,3Tel Aviv University, Tel AViv, Israel,4Pathologist, Istituto Oncologico Addarii, University of Bologna, Bologna, Italy,5Weizmann Institute of Science, Rehovot, Israel,6Semmelweis University, Budapest, Hungary
+
+---
+
+Non-small cell lung cancer (NSCLC) patients with activating EGFR mutations, such as exon 19 deletions (del746-750) and the L858R point mutation in exon 21, respond well to third-generation tyrosine kinase inhibitors (TKIs) like osimertinib. However, resistance inevitably emerges, limiting the long-term efficacy of these therapies. In this study, we investigated non-genomic mechanisms that enable drug tolerant persister cells to survive and cycle under EGFR inhibition, likely by exploiting alternative signaling routes. One such mechanism involves the upregulation of HER3. However, the precise molecular and cellular basis for HER3 dependency in NSCLC patients who progress on TKI therapy remains poorly understood. We employed a combination of immortalized and patient-derived cell lines, alongside advanced single-cell sequencing technologies, to elucidate the underlying biology. Our findings reveal that EGFR/HER3 axis upregulation dependency represents an early mechanism of response to TKI treatment, specifically enriched in pulmonary alveolar type I and II cancer cells. This dependency is driven and maintained by paracrine signaling involving secreted factors, with neuregulin-1 (NRG1) playing a central role. NRG1 is primarily secreted by the tumor stroma and by cancer cells undergoing neuroendocrine (NE)-like dedifferentiation, contributing to the resistance mechanisms, leading to invasiveness and metastatic progression. Notably, animal studies demonstrated that the combination of an NRG1-neutralizing antibody with a dual EGFR blockade, achieved through a TKI and an anti-EGFR antibody, eradicated tumors in vivo. These results highlight the critical role of HER3 signaling and its interplay with EGFR and the tumor microenvironment in mediating TKI resistance, and suggest a compelling therapeutic strategy for overcoming resistance in NSCLC.

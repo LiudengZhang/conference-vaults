@@ -1,0 +1,14 @@
+# The mesenchymal state drives stemness and limits differentiation in glioblastoma
+
+**Poster #**: 2200
+**Session**: Metabolic and Transcriptional Control of Cancer Stem Cell Plasticity
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Emanuele Filiberto Rosatti, Denise Sighel, Anna Veronese, Toma Tebaldi, Alessandro Quattrone
+
+Department of Cellular, Computational and Integrative Biology, University of Trento, Trento, Italy
+
+---
+
+Glioblastoma is a highly heterogeneous and lethal brain cancer with limited therapeutic options. Recent single-cell omics studies have emphasized the importance of the proneural-mesenchymal axis and strengthened the link between glioblastoma and neurodevelopment, yet the identity and regulatory drivers of glioblastoma stem cells remain poorly defined. In this work, we combined published single-cell datasets with in vitro models to investigate glioblastoma stemness and the tumor&#8217;s response to differentiation cues. Through integrative analysis of single-cell RNA sequencing and single-nucleus ATAC sequencing, we refined the landscape of glioblastoma cellular states. Comparison with human subventricular zone profiles reveals a striking similarity between a mesenchymal-like subpopulation and adult radial glia. We further established a comprehensive differentiation assay incorporating phenotypic, transcriptomic, and proteomic readouts. Using this system, we show that glioblastoma cells exhibit heterogeneous responses to differentiation signals and that mesenchymal-like cells, in particular, display pronounced resistance to lineage commitment. Together, these findings highlight the mesenchymal state as a key barrier to differentiation in glioblastoma and lay the groundwork for targeting its underlying drivers to restore differentiation capacity and potentially improve therapeutic outcomes.

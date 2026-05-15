@@ -1,0 +1,21 @@
+# Ontology-guided hierarchical cell typing with large language models for analyzing tumor microenvironment
+
+**Poster #**: 2753
+**Session**: Large Language Models in the Clinic
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Jeongbin Park, Yuchang Seong, Hongyoon Choi
+
+Portrai, Inc., Seoul, Korea, Republic of
+
+---
+
+Background
+Due to the emergence of a vast amount of single-cell RNA sequencing (scRNA-seq) and single-cell resolution spatial transcriptomics (ST), there has been a demand for cell type annotation pipelines that are reproducible, scalable, and capable of functioning as end-to-end solutions. Reference-dependent cell typing may be compromised due to a labor-intensive preparation step for scRNA-seq data matching the data to be labeled and the algorithm. Also, reference-free pipelines couldn&#8217;t provide appropriate human-interpretable labels for each deconvoluted cell type, limiting their comparison with the existing literature. Furthermore, many algorithms often overlook the hierarchical structure of cell type annotations.
+Method
+We developed hierarchy-aware LLM-aided cell type annotator using cell type ontology tree. LLM can be any type, but we focused on gpt-4o and gpt-oss-20b. Step 1, we first excluded cell ontologies not relevant to the context, reducing ~2,300 entries to about 400-500. Step 2, terms were processed in batches of 150 using the context and an LLM; the curated list was then reprocessed by the LLM, yielding fewer than 40 cell-type terms. Step 3, we elicited context-specific marker genes with the LLM in five independent runs and aggregated the results into a single list. Step 4, we clustered single cells using highly variable genes to obtain cluster labels, restricted the data to the Step 3 markers, and computed differentially expressed genes (DEGs). Using the top 20 DEGs for each cell, we queried the Step 2 term list to assign a cell-type label. We then retrieved the Cell Ontology tree and performed unsupervised hierarchical clustering on cluster centroids to infer relationships; aligning these with the ontology enabled hierarchical cell-type labeling for each cell.
+Results
+We applied the agentic workflow using LLM (gpt-oss-20b) to 40,000 lung cancer single-cell samples. A continuous hierarchy was reconstructed from &#8220;cell&#8221; (level 1) to T follicular helper cell (level 10). To assess performance, we compared Adjusted Rand Index (ARI) values between four ground-truth levels and the 10-level predicted hierarchy. We observed a maximum of 0.86 (Level 2 ground truth vs. Level 5 predicted label). Overall, the pipeline completed annotation efficiently, requiring approximately 40 minutes for ontology filtering and 20 minutes for all subsequent steps, demonstrating scalability for large-scale single-cell datasets.
+Conclusion
+Our pipeline provides scalable cell-type annotation to meet the recent surge of scRNA-seq data. Moreover, by leveraging the flexibility and memory capabilities of LLMs, it enables typing of minor cell types; by using existing cell-type ontology trees, it supports hierarchy-aware cell typing; and by constraining selections to the established cell ontology, it reduces hallucinations and yields human-interpretable cell typing.

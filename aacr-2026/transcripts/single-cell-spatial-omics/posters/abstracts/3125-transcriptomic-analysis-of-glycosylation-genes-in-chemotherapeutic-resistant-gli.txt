@@ -1,0 +1,14 @@
+# Transcriptomic analysis of glycosylation genes in chemotherapeutic-resistant glioma cells
+
+**Poster #**: 3125
+**Session**: Overcoming Chemotherapy Resistance
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Vi  P.  Dang, Nicole  S.  Lav, Alan  Y.   L.  Jiang, Jaclyn  N.  Hanamoto, Daniela  A.  Bota, Lisa  A.  Flanagan
+
+University of California, Irvine, Irvine, CA
+
+---
+
+The purpose of this study was to characterize the glycosylation gene signature of chemotherapeutic-resistant glioma cells derived from dielectrophoresis-based sorting. Glioblastoma, astrocytoma, and oligodendroglioma comprise a class of aggressive and deadly brain tumors called diffuse gliomas. Around 20,000 glioma cases are diagnosed yearly in the US alone. The current standard chemotherapy treatment, temozolomide (TMZ), is insufficient as the 5-year survival rate of glioblastoma patients is as low as 8%. This is due to the presence of TMZ-resistant cells within tumors that lead to chemotherapeutic resistance and tumor recurrence. Thus, it is critical to characterize the molecular profile of TMZ-resistant cells to determine means of targeting them for more effective treatment. Preliminary data from our lab show that glycosylation could be an important dynamic regulator of TMZ resistance. Glycosylation, the post-translational addition of glycans (sugars) to proteins and lipids, regulates the function of many membrane proteins including drug transporters, growth factor receptors, and adhesion proteins. Our lab has developed an innovative dielectrophoresis-based method to sort cells based on electrophysiological membrane properties that are influenced by glycosylation. We used this method to successfully enrich TMZ-resistant populations from various glioma types and patient-derived tumors for downstream transcriptomic characterization using glycosylation gene microarrays, qRT-PCR, and single-cell and bulk RNA sequencing. Our study concluded that TMZ-resistant glioma cells exhibit transcriptomic differences in glycosylation genes, suggesting that these cell-surface sugars may serve as novel biomarkers or targets for glioma treatment. These results could enable the development of effective treatment strategies through targeting glioma cell glycosylation to ultimately improve patient outcomes.

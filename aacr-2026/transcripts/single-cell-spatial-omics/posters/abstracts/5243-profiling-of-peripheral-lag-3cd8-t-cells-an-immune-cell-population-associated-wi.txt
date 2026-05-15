@@ -1,0 +1,17 @@
+# Profiling of peripheral LAG-3+CD8+ T cells: An immune cell population associated with immunotherapy resistance
+
+**Poster #**: 5243
+**Session**: Biomarkers Predictive of Therapeutic Benefit 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Ariel Kogan Zajdman1, Cory  A.  Brennick1, Kayla  J.  Foster1, Sydney  A.  Riddick1, Tatiana Shcheglova1, Matthew Adamow2, Jasme Lee3, Ronglai Shen3, Katherine  S.  Panageas3, Xiyu Peng4, Margaret  K.  Callahan1
+
+1Department of Immunology and Neag Comprehensive Cancer Center, University of Connecticut School of Medicine, Farmington, CT,2Immune Monitoring Facility, Memorial Sloan Kettering Cancer Center, New York City, NY,3Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York City, NY,4Department of Statistics, Texas A&M University, College Station, TX
+
+---
+
+Despite the success of immune checkpoint blockade (ICB), many patients fail to respond, highlighting a need for predictive biomarkers. We previously identified pre-treatment differences in peripheral blood mononuclear cells (PBMCs) from patients treated with ICB using an 11-color flow cytometry panel. These differences grouped patients into 3 distinct immune phenotypes, or immunotypes (Shen et al Sci Trans Med, 2021). Immunotype 1 (IT-1) was characterized by higher numbers of LAG-3+CD8+ T cells and associated with poor response and overall survival (OS) after anti-PD-1 therapy. IT-2 was characterized by lower LAG-3+CD8+ and better outcomes; IT-3, by the presence of additional cell populations not present in IT-1 or IT-2. Here, we aim to establish a deeper understanding of LAG-3+CD8+ T cells, the defining cell population of the IT-1 phenotype.
+We analyzed banked pre-treatment PBMC samples from patients with melanoma (n=30) and urothelial carcinoma (UC, n=48) previously assessed to have IT-1, IT-2, or IT-3, using a 28-color spectral flow cytometry assay, with single-cell RNA sequencing of a representative IT-1 sample.
+Compared with LAG-3-CD8+ cells, LAG-3+CD8+ T cells displayed higher expression of cytotoxic, terminal differentiation markers (GzmB, CD57, T-bet, Eomes) and lower expression of homing (CCR4, CXCR5, CCR7) and costimulatory molecules (ICOS, CD27, CD28, CD127). Consistent with our flow cytometry data, transcriptomic profiling revealed upregulation of GZMB, B3GAT1, TBX21, and EOMES, as well as downregulation of CCR4, CCR7, ICOS, CD27, CD28, and IL7R. These findings were further validated in an independent melanoma scRNA-seq dataset (Huuhtanen et al J. Clin. Invest, 2023). Finally, we evaluated samples from patients with the IT-2/3 phenotypes, confirming this pattern to be unique to IT-1.
+Our results reveal a distinct phenotypic signature defining LAG-3+CD8+ T cells, the hallmark of IT-1. These findings refine the definition of IT-1, highlight immune-phenotype differences between the IT-1 and IT-2/3, and suggest mechanisms, such as altered costimulation and trafficking, that underlie ICB resistance.

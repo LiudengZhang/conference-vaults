@@ -1,0 +1,17 @@
+# Integrated genomic and spatial analyses elucidate the origins and vulnerabilities of urachal carcinoma
+
+**Poster #**: 499
+**Session**: Genomic Dissection to Define Novel Therapeutic Strategies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Toru Imai1, Tatsunori Shimoi2, Akiko Maeshima3, Jumpei Kashima3, Ibuki Tsuru1, Hisashi Hashimoto1, Jun Takahashi1, Eijiro Nakamura4, Yoshiyuki Matsui4, Hiroyuki Mano1, Kan Yonemori2, Yosuke Tanaka1
+
+1Division of Cellular Signaling, National Cancer Center Research Institute, Tokyo, Japan,2Department of Medical Oncology, National Cancer Center Hospital, Tokyo, Japan,3Department of Diagnostic Pathology, National Cancer Center Hospital, Tokyo, Japan,4Department of Urology and Retroperitoneal Surgery, National Cancer Center Hospital, Tokyo, Japan
+
+---
+
+Introduction: Urachal carcinoma (UrC) is a rare and aggressive malignancy arising from the urachal remnant, an embryonic remnant located at the bladder dome. Despite its anatomic location, its pathological features&#8212;predominantly adenocarcinoma&#8212;resemble those of gastrointestinal adenocarcinomas. Due to its rarity, the molecular basis of UrC and the precise mechanisms underlying its carcinogenesis from the urachal remnant remain insufficiently understood, hindering the development of effective therapies. These gaps have limited therapeutic progress. To address this, we performed an integrated multi-omics and spatial analysis to delineate the molecular landscape, cellular origins, and evolutionary trajectory of UrC.
+Methods: We conducted a comprehensive analysis of 53 UrC and 39 non-malignant urachal remnant samples. The multi-modal investigation included whole-exome sequencing (WES), RNA sequencing, spatial transcriptomics, and immunohistochemical analysis. To specifically investigate the pre-cancerous state, epithelial cells from urachal remnants were isolated using laser microdissection (LMD) for subsequent genomic analysis.
+Results: Genomic analysis identified mutations in the RTK/RAS/MAPK pathway in approximately 60% of the tumor cases. The most frequent driver mutations were identified in TP53, KRAS, and SMAD4. The mutational profile was distinct from both colorectal and bladder cancers, establishing UrC as a unique molecular entity. While transcriptomic analyses clearly distinguished the pathological subtypes, investigation of cell clonality demonstrated shared ancestry among these different subtypes, implicating significant tumor plasticity. Importantly, our investigation into the tumor's origin revealed that urachal remnants undergo intestinal metaplasia, losing native urothelial characteristics while activating gastrointestinal-specific genes. We confirmed that UrC directly originates from these remnants through spatial trajectory analysis, and that genomic analysis of LMD-isolated epithelium identified shared clonal mutations between the precursor lesion and the adjacent tumor. Furthermore, spatial transcriptomics successfully characterized the unique tumor microenvironment (TME) of UrC.
+Conclusion: We have elucidated key aspects of the molecular basis and origins of UrC, demonstrating that its diverse subtypes arise from a common ancestry within precursor lesions that undergo metaplasia and clonal expansion. Moreover, the characterization of the TME provides new insights into tumor biology. These findings may ultimately inform strategies for novel therapeutic intervention and the prevention of this lethal cancer.

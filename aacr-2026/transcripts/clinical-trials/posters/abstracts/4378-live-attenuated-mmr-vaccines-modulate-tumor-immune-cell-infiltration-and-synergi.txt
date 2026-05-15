@@ -1,0 +1,12 @@
+# Live attenuated MMR vaccines modulate tumor immune cell infiltration and synergize with standard of care to prolong survival in preclinical HCC models
+
+**Poster #**: 4378
+**Session**: Vaccine Platforms and Target Identification
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Mulu Z. Tesfay1, Aleksandra Cios2, Khandoker Usran Ferdous3, Randal  S.  Shelton3, Isabelle Miousse3, Camila  C.  Simoes3, Alexei Basnakian3, Rangaswamy Govindarajan3, Martin Cannon3, Mitesh  J.  Borad4, Bolni M Nagalo21UAMS Winthrop P. Rockefeller Cancer Institute, Little Rock, AR,2Department of Pharmacology and Physiology, University of Maryland School of Medicine, Baltimore, MD,3University of Arkansas for Medical Sciences, Little Rock, AR,4Director Phase I Drug Dev, Dept. of Hemat./Onco., Mayo Clinic Arizona, Scottsdale, AZ
+
+---
+
+Hepatocellular carcinoma (HCC) is a leading cause of cancer-related death worldwide, thus, there is an urgent need to develop more effective therapeutic options for this dismal condition. Tumor-infiltrating lymphocytes (TILs) are associated with improved response to immune checkpoint blockade in HCC, but their low abundance in most cases limits their therapeutic efficacy. Here, we demonstrate, in mice, that low-dose intratumoral immunovirotherapy with the trivalent measles, mumps, and rubella vaccine (MMR) induces superior tumor-growth delay and extended host survival compared to individually administered vaccines for measles, mumps, or rubella viruses. Further, our results show that MMR therapy synergizes with PD-1 and CTLA-4 blockade to reprogram the tumor microenvironment, resulting in increased CD8+ TIL infiltration and reduced PD-1 expression on TILs, among other effects. These changes in the immunological landscape translated into greater survival and more durable tumor-specific and memory immune responses for hosts. Comprehensive toxicology analysis revealed no evidence of MMR-induced liver or kidney toxicity after intrahepatic administration. This work reinforces an unrecognized role of MMR plus ICB in reprogramming the immune landscape in HCC through multimodal immune activation, providing a strong rationale for further development of MMR-based therapies for HCC.

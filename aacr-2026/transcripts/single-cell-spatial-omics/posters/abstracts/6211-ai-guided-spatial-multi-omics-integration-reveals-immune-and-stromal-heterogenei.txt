@@ -1,0 +1,14 @@
+# AI-guided spatial multi-omics integration reveals immune and stromal heterogeneity underlying population disparities in prostate cancer.
+
+**Poster #**: 6211
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Samuel Mwakisha Mwamburi, Jevon Layne, Niki Talebian, Ezra G. Baraban, Ashley Kiemen, Clayton C. Yates
+
+Pathology, Johns Hopkins University School of Medicine, Baltimore, MD
+
+---
+
+Prostate cancer disproportionately affects African American (AA) men, who experience higher incidence and mortality rates than European American (EA) men. The purpose of this study was to develop and apply an artificial intelligence (AI)-based framework to investigate biological mechanisms contributing to these disparities through spatial characterization of the tumor microenvironment (TME). We employed CODA, a computational method that reconstructs large tissues at subcellular resolution from serially sectioned hematoxylin and eosin (H&#38;E)-stained slides, for histological segmentation and multi-omics integration.CODA was trained on 600 H&#38;E-stained prostate tumor sections from AA and EA patients using a deep convolutional neural network optimized for pixel-level classification of nine compartments, including tumor, stroma, vasculature, and inflammation. Model performance, evaluated using a confusion matrix, achieved over 90% classification accuracy and generalized robustly across cohorts. CODA segmentation maps were aligned with 10x Genomics Visium HD spatial transcriptomic data to generate biologically annotated domains such as luminal secretory, stromal, inflammatory epithelial, and immune regions.Functional analysis revealed distinct TME niches, including adaptive immune, myeloid-rich, cytotoxic, fibroblast, and luminal-epithelial compartments. AA tumors demonstrated higher immune infiltration and inflammatory activity than EA tumors, characterized by dense lymphoid aggregates and cytokine signaling enrichment. Integration with spatial proteomics data from the AKOYA IO60 panel (60 immune and stromal markers) confirmed immune clusters (CD20+, CD3e+, CD68+, CD8+) and revealed a level of discordance between transcript expression and protein signaling, suggesting context-dependent regulation.Three-dimensional reconstructions from serially sectioned tumors (one AA, one EA) visualized compartment continuity and immune-stromal interfaces. Collectively, these findings provide new evidence of population-specific immune and stromal heterogeneity that may contribute to prostate cancer disparities and demonstrate the utility of AI-guided spatial multi-omics for advancing equitable precision oncology.

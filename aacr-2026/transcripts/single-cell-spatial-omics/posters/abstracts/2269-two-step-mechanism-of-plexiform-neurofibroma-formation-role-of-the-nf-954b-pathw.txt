@@ -1,0 +1,17 @@
+# Two-step mechanism of plexiform neurofibroma formation: Role of the NF-&#954;B pathway in neurofibroma formation
+
+**Poster #**: 2269
+**Session**: Tumorigenesis and Early Microenvironmental Trajectories
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Ramya Ravindran1, Noemi Kedei2, Eui-Kyung Youn1, Kwangmin Choi1, Avery Volz1, Jay Pundavela1, David A. Largaespada3, Jack  F.  Shern4, Nancy Ratner1
+
+1Division of Experimental Hematology and Cancer Biology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH,2Collaborative Protein Technology Resource, OSTP, Center for Cancer Research, National Institutes of Health, Bethesda, MD,3Departments of Pediatrics and Genetics, Cell Biology, and Development, University of Minnesota, Minneapolis, MN,4Pediatric Oncology Branch, Center for Cancer Research, National Institutes of Health, Bethesda, MD
+
+---
+
+Rationale: NF1-/- Schwann cells are the cells of origin in plexiform neurofibroma (PNF). This benign tumor formation occurs long after Nf1 loss in mouse models of the disease, suggesting that Schwann cells undergo secondary changes during tumor formation. However, additional genetic hits are not observed in this tumor type. Single cell RNA-sequencing implicated NF-&#954;B signaling as upregulated in established tumor formation. Consistent with the idea that NF-&#954;B signaling is a tumor driving signal, in human and mouse neurofibromas p-65 was nuclear (active) in neurofibroma cells, some of which were Schwann cells (Kershner et al., 2022).
+Methods: To test if activation of NF-&#954;B signaling is a second step in neurofibroma formation we used a combination of multiplexed antibody staining, flow cytometry and RNA sequencing in tumors over their development. In vitro assays were utilized to determine the effect of NF-&#954;B pathway modulation in Nf1-/- Schwann cells. Finally, we tested if blocking IKK2 activity in vivo reduces tumor formation or growth.
+Results: We identified markers of Schwann cells, fibroblasts and immune cells in PNF by multiplex imaging and flow cytometry. Tumor Schwann cells, but not pre-tumor Schwann cells in the same mice, expressed the cell surface markers CD44 and CD49f; cultured Nf1-/- Schwann cells upregulate these markers and nuclear (active) p65 when exposed to stressors known to activate NF-&#954;B signaling, including prolonged serum depletion, Poly I:C, IL1&#946;, and TNF&#945;, or when infected with activated IKK2, which activates the NF-&#954;B pathway; these Schwann cells increased secretion of cytokines that are immune cell chemoattracts. Concurrent increases in EMT genes were observed in vivo and in vitro. Treatment of DhhCre;Nf1fl/fl mice with the NF-&#954;B pathway inhibitor BAY 11-7082 combined with MEK inhibitor Mirdametinib reduced the CD44+ CD49f+ Schwann cell population, tumor cell proliferation, the tumor immune cell population, and tumor cytokines.
+Conclusion: A two-step process to PNF formation is proposed, with Nf1 loss in Schwann cells an initiating step and the formation of an inflammatory microenvironment via activation of the NF-&#954;B pathway and Schwann cell reprogramming as a second step. (Supported by DOD-HT9425-1-0435 (to NR and JS), NIH NS115438R01 (to DAL and NR) and a Children&#8217;s Tumor Foundation Young Investigator Award to RR)

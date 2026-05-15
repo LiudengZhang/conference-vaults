@@ -1,0 +1,12 @@
+# HDM2024: A novel EGFR and HER3 bispecific antibody-drug conjugate exhibits superior antitumor activity and favorable toxicological profile
+
+**Poster #**: 6945
+**Session**: Antibody-Drug Conjugates 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Qingyu Shu, Yan Xia, Zhaofeng Qin, Shengxing Zhao, Yang Chen, Rongrong He, Hao Pan, Hongwen Li, Dongzhou Jeffrey LiuHuadong Medicine Co., Ltd., Hangzhou, China
+
+---
+
+Introduction:The epidermal growth factor receptor (EGFR) and human epidermal growth factor receptor 3 (HER3) are frequently co-expressed in a variety of solid tumors and play crucial roles in driving tumor growth, therapeutic resistance, and metastasis. To overcome the limitations of single-target approaches, we developed a novel bispecific antibody-drug conjugate simultaneously targeting EGFR and HER3.Methods:HDM2024 was engineered using single-valency design, consists of a clinically validated HER3 antibody paired with an EGFR-targeting VHH antibody. The antibody was conjugated with exatecan via a cleavable linker, drug-antibody ratio (DAR) is 4. The efficacy and safety of HDM2024 were tested in xenograft and patient derived xenograft (PDX) models and monkeys, respectively.Results:HDM2024 was designed with balanced affinity towards EGFR and HER3 antigen. In vitro, HDM2024 demonstrated high-affinity binding to both EGFR and HER3 expressing tumor cells, efficient internalization, and potent cytotoxicity across a panel of cancer cell lines with varying expression levels of EGFR and HER3. In vivo, HDM2024 exhibited robust antitumor efficacy in multiple xenograft and patient-derived xenograft (PDX) models, achieving complete or durable tumor regressions at well-tolerated doses. In GLP toxicity study, HDM2024 showed favorable safety with the highest non-severely toxic dose (HNSTD) reaching up to 40mg/kg administered every 2weeks (Q2W) for three cycles.Conclusion:Collectively, these results support HDM2024 as a promising therapeutic candidate for solid cancer treatment. A differentiated ADC drug design endows HDM2024 with enhanced pharmacological efficacy and safety advantages, giving it the potential to become a best-in-class drug candidate. HDM2024 is expected to start the clinical trial in Mar 2026.

@@ -1,0 +1,14 @@
+# IL-33-mediated control of myeloid immunity in glioblastoma progression
+
+**Poster #**: 7457
+**Session**: Therapeutic Modulation of the Tumor Microenvironment: New Targets and Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Tala-Maria Mouannes, Shyam  V.  Menon, Peipei Zeng, Jianbo Zhang, Isabelle Carrier, Eduardo Diez, Stephen  M.  Robbins, Donna  L.  Senger
+
+Lady Davis Institute at Jewish General Hospital, Montréal, QC, Canada
+
+---
+
+Glioblastoma (GB) is the most lethal primary brain cancer in adults, characterized by a profoundly immunosuppressive microenvironment dominated by tumor&#8209;associated macrophages and microglia (TAMs). We previously identified Interleukin&#8209;33 (IL&#8209;33), a dual&#8209;function cytokine with nuclear and extracellular roles, as a key modulator of this innate immune landscape. While full-length IL-33 accelerates GB progression by recruiting immunosuppressive myeloid cells, a nuclear-deficient variant lacking the nuclear localization sequence (ND-IL-33) potently halts tumor growth and prolongs survival. This growth-restrictive state is marked by the emergence of a distinct pro-inflammatory, anti-tumor myeloid population. Secretome profiling reveals that ND-IL-33-expressing glioma cells produce a unique repertoire of immune-stimulatory factors, consistent with enhanced innate immune activation, suggesting that loss of IL-33 nuclear activity reshapes tumor-intrinsic signaling to drive myeloid reprogramming. The clinical relevance of this biology is supported in patient-derived GB specimens, where high IL-33 expression is associated with increased immunosuppressive TAM infiltration and reduced overall survival. Ongoing bulk and single-cell RNA sequencing, integrated with functional co-culture assays, aims to define the transcriptional programs that distinguish tumor-inhibiting from tumor-promoting myeloid populations and to uncover therapeutic pathways capable of inducing this anti-tumor state. Together, these findings position IL-33 activity as a targetable regulator of myeloid plasticity in GB and offers a promising avenue to leverage innate immunity for improved therapeutic outcomes in glioblastoma.

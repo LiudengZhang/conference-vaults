@@ -1,0 +1,17 @@
+# Immune and pharmacodynamic effects of sotorasib plus panitumumab in KRAS G12C-mutant colorectal cancer: Paired biopsy results from CodeBreaK 101
+
+**Poster #**: 2929
+**Session**: Cellular Responses to Anticancer Drugs
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: David Hong1, Lata Mukundan2, Abraham Anderson3, Emily Chan3, Dorothy French2, Linnea Haeggblom2, Daniel Lu2, Toshiki Masuishi4, Rona Yaeger5, Yuliya Katlinskaya3
+
+1UT MD Anderson Cancer Center, Houston, TX,2Amgen Inc., San Francisco, CA,3Amgen Inc., Thousand Oaks, CA,4Aichi Cancer Center Hospital, Nagoya, Japan,5Memorial Sloan Kettering Cancer Center, New York, NY
+
+---
+
+Background: Sotorasib, a KRAS G12C inhibitor, plus panitumumab is approved for use in chemorefractory metastatic colorectal cancer (mCRC) . Yet, early effects on the tumor microenvironment (TME) in clinical samples are not well understood. In preclinical models, sotorasib potently suppresses MAPK signaling and promotes a pro-inflammatory TME characterized by CD8&#8314; T cell infiltration and increased IFN-&#947; activity, implicating adaptive immunity in tumor control. We investigated if these pharmacodynamic and immunologic effects are observed clinically in patients (pts) treated with sotorasib plus panitumumab.
+Methods: Paired biopsies before and after 3-4 weeks of sotorasib plus panitumumab treatment were available from 12 pts in Cohort A of CodeBreaK 101 (NCT04185883). We performed whole-transcriptome RNA sequencing (n=12), pERK immunohistochemistry (n=8), spatial analysis of H&#38;E-stained sections using digital pathology (n=10), and single-cell spatial transcriptomics (n=2). Analyses were primarily descriptive, and Wilcoxon signed-rank tests and summary statistics were used to characterize differences between paired biopsies.
+Results: Transcriptomic profiling revealed robust suppression of MAPK signaling, shown by an approximate 4-fold reduction in median MAPK Pathway Activity Score with consistent downregulation of cell cycle-related genes. Key MAPK targets were downregulated, including ETV4 (&#8722;6.9-fold), EPHA2 (&#8722;2.8-fold), and DUSP6 (&#8722;2.0-fold), while EPHA4 was largely unchanged. pERK immunohistochemistry showed an approximately 1.8-fold reduction in H-score and a 2.0-fold decrease in proportion of pERK&#8314; tumor nuclei among profiled pts, consistent with effective MAPK pathway inhibition. Immune activation was reflected by a 1.9-fold increase in the Tumor Inflammation Signature score and upregulation of chemokines and antigen-presentation genes (CXCL9, CCL5, HLA-DPA1). Digital pathology analysis of H&#38;E images showed increased immune cell clustering in the TME, mirroring immune remodeling observed in RNA-seq data. Single-cell spatial confirmed presence of CXCR6&#8314; CD8&#8314; T cells and macrophage derived CXCL10 in the tumor and associated stroma suggesting cytotoxic T cell recruitment and activation. Comprehensive pathway analysis showed upregulation of PI3K-AKT, HER2, and TGF&#946; signaling in some pts, suggesting compensatory survival mechanisms and a potential rationale for combinatorial strategies.
+Conclusion: Paired biopsy analysis revealed potent MAPK inhibition and immune remodeling, providing mechanistic insight into the role of the immune TME in early response to sotorasib plus panitumumab and underscoring opportunities for rational combination strategies in mCRC.

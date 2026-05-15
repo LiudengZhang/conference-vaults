@@ -1,0 +1,18 @@
+# Spatial transcriptomics identifies a suppressive T-cell excluded tumour microenvironment in extramedullary multiple myeloma
+
+**Poster #**: 1223
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Nicholas  E.  Bingham1, Julie  R.  Boiko2, Daniel  C.  Jones3, Daniel Wong1, Tiffany Khong1, Sridurga Mithraprabhu1, Kathleen  S.  Ensbey2, Anna  E.  Elz3, Evan  W.  Newell4, Andrew Spencer1, Geoffrey  R.  Hill2
+
+1Australian Centre for Blood Diseases, Alfred Health - Monash University, Melbourne, Australia,2Translational Science and Therapeutics Division, Fred Hutchison Cancer Centre, Seattle, WA,3Vaccine and Infectious Diseases Division, Fred Hutchison Cancer Centre, Seattle, WA,4Vaccine and Infectious Diseases Division, Fred Hutchinson Cancer Centre, Seattle, WA
+
+---
+
+Introduction: Extramedullary disease (EMD) in multiple myeloma (MM) is associated with poor prognosis due to aggressive disease kinetics and therapy resistance. Bone marrow (BM) restricted MM is highly dependent on the BM microenvironment for survival, putatively contributing to drug-resistance. In EMD, the biology and particularly the role of the tumor microenvironment (TME) is unknown.
+Methods: Eight biopsies from 8 patients with hematogenous EMD were analyzed using 10x Xenium In Situ Prime 5K. Subsequent analysis utilized the recently described high resolution ProSeg cell segmentation algorithm.
+Results: A total of 500,102 cells from 8 samples were included. Plasma cells (PC) in EMD maintain a PC transcriptome with expression of XBP1, IRF4 and PRDM1 without significant expression of PAX5, FOXP1. After dimensionality reduction, like BM-restricted MM, PC clustering was driven primarily by inter-patient variability. The TME was assessed. The most numerous immune cells were macrophages, specifically those with an immune-suppressive &#8216;M2&#8217; phenotype, demonstrated by expression of markers such as CD163 and MRC1. Infiltrating CD8+ T-cells co-expressed cytotoxicity and exhaustion genes. Cancer associated fibroblasts were the most common non-immune cell in the TME. Spatial analysis was performed with recurrent microenvironments identified: immune suppressed (IS), immune excluded (IE) and immune permissive (IP). The IS niches, characterised by macrophages, fibroblasts and endothelial cells, were enriched for immune cells and more proliferative PC subsets. The bulk of tumors (>70%) comprised the IE niche, with a very high proportion of PC (>90% cells) with the lowest proportion of T-cells. Rarer areas with increased T-cells and interferon-reactive macrophages, presumed IP regions, were present in two samples.
+Predicted cell-cell interactions identified a complex, bidirectional network. PC interactions with the TME via signals including TGFB1/3, PGE2 and THBS1 were evident, predicted to drive a suppressive macrophage phenotype and a fibrotic extracellular matrix. Conversely, macrophages in the TME expressing APRIL and BAFF are predicted to promote PC survival via canonical ligands including BCMA, CXCR4 and CD38. This bidirectional signalling between suppressive myeloid cells in the TME and PC thus putatively promote myeloma growth directly whilst concurrently constraining anti-myeloma immunity. The presence of the suppressive and excluded niches in all samples suggests an important role in EMD biology.
+Conclusions: Our findings provide new insights into the spatial organisation of MM EMD and identify prominent suppressive macrophage rich niches in the context of T cell exclusion within the TME, together with proliferative signalling networks in PC, that represent new clinically tractable targets.

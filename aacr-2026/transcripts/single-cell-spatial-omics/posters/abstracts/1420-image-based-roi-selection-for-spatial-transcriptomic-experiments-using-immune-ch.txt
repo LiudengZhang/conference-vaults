@@ -1,0 +1,22 @@
+# Image-based ROI selection for spatial transcriptomic experiments using immune checkpoint inhibitor treatment outcome prediction in gastric cancer
+
+**Poster #**: 1420
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Sunho Park1, Minji Kim1, Jean R. Clemenceau1, Seock-Jin Chung1, Eric F. Sha1, Changjin Hong1, Soyoung Im2, Hwanil Choi3, Soonyoung Lee3, Jongseong Jang3, Kohei Shitara4, Sung Hak Lee5, Jae-Ho Cheong6, Tae Hyun Hwang1
+
+1Vanderbilt University Medical Center, Nashville, TN,2St. Vincent’s Hospital, College of Medicine, The Catholic University of Korea, Suwon, Korea, Republic of,3LG AI Research, Seoul, Korea, Republic of,4Department of Gastrointestinal Oncology, National Cancer Center Hospital East, Kashiwa, Japan,5Seoul St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea, Republic of,6Yonsei University College of Medicine, Seoul, Korea, Republic of
+
+---
+
+Introduction
+Spatial omics experiments profile only a limited number of regions of interest (ROIs) per section, making ROI selection critical. However, manual selection from tumor annotations may miss critical subregion due to the complexity of tumor structures and the limited capability of human visual processing. We recently reported S2Omics, an AI framework that selects ROIs to maximize cell-type diversity and molecular information in an outcome-agnostic manner. Here, we extend this concept to develop an image-based ROI selection method that directly incorporates immune checkpoint inhibitor (ICI) treatment outcome in gastric cancer (GC), enabling outcome-aware spatial transcriptomic experiments.
+Methods
+We assembled 157 H&#38;E whole slide images (WSIs) from GC patients treated with ICIs at three centers in Korea and Japan (26 responders, 131 non-responders). WSIs were tiled into 256 &#181;m &#215; 256 &#181;m patches. Tumor tiles were identified using an LG AI Research&#8217;s EXAONE Path-based cell-type classifier plus a ResNet18 tumor classifier. A weakly supervised model, developed in our previous work, was trained on the tumor tiles to predict responder versus non-responder status, achieving a slide-level area under the curve (AUC) exceeding 0.7 on an independent test set.
+Results
+Tile-level prediction scores were aggregated into heatmaps representing predicted ICI responsiveness. By applying a sliding window (6.5 mm &#215; 6.5 mm) with rotational adjustments to the prediction heatmap, we identified candidate regions of interest (ROIs) that (i) maximized predicted responsiveness, (ii) maximized predicted non-responsiveness, or (iii) captured heterogeneous (&#8220;mixed&#8221;) patterns. The multiprocessing pipeline efficiently generated ROI suggestions for each slide within seconds. This approach can provide a systematic framework for identifying optimal ROIs for spatial molecular profiling, directly linked to immune responses in gastric cancer.
+Conclusion
+We developed an image-based approach that selects ROIs according to predicted ICI outcome in GC. By prioritizing regions enriched for predicted response, non-response, or mixed patterns, this strategy samples spatial niches more closely linked to outcome than conventional tumor-enriched or marker-based selection. The framework is adaptable to other spatial platforms by adjusting ROI size and applying user-defined weighting criteria based on predicted outcome, cell composition, or other image-derived features. Ongoing work will validate the method in larger cohorts and profile these ROIs with spatial transcriptomics and multimodal assays to define molecular programs underlying differential ICI response and support biomarker discovery, therapeutic development, and patient selection.
+*AI was used for language editing only; authors are responsible for all content and approved the final version.

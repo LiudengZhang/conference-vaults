@@ -1,0 +1,14 @@
+# Early macrophage reprogramming drives BRCA1 associated breast cancer initiation
+
+**Poster #**: LB221
+**Session**: Late-Breaking Research: Prevention, Early Detection, and Interception
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Angela Lincy Prem Antony Samy, Isam Adam, Victoria Mai, Tatyana Lev, Maren Pein, Sharmila Mallya, Jessica Gonzalez, Pascal Naef, Erika Zagni, Jessica Berari, Eva Zhao, Hannah Savage, Devon Lawson
+
+UCI School of Medicine, Irvine, CA
+
+---
+
+Breast cancer associated gene 1 (BRCA1) mutant breast cancer is an aggressive disease subtype traditionally attributed to the accumulation of genetic instability. However, emerging evidence suggests that non genetic factors within the tissue microenvironment, including immune cells, play critical roles in disease initiation. While many breast tumors are considered immunologically cold, BRCA1 deficient tumors display higher immune cell infiltration, indicating a distinct immune landscape. To define immune alterations associated with BRCA1 loss, we utilized a genetically engineered mouse model with mammary specific deletion of Brca1 and Trp53, complemented by analysis of tissues from human BRCA1 mutation carriers. Using single cell RNA sequencing, spatial proteomics, flow cytometry, and immunofluorescence, we comprehensively characterized immune remodeling during BRCA1 associated tumor initiation. Single-cell and flow cytometric analyses revealed a marked expansion of pro-inflammatory macrophages in BRCA1 mutant mammary glands at the premalignant stage. This was accompanied by a phenotypic shift from tissue-resident to inflammatory macrophage states as disease progressed. Spatial proteomic profiling demonstrated early accumulation of immune cells in mutant tissues prior to tumor formation with F4/80&#8314; macrophages preferentially localizing around epithelial structures. Functional assays using mammary epithelial organoids co-cultured with macrophages isolated from BRCA1 mutant glands showed increased epithelial growth and branching. Cell - cell communication analysis identified oncostatin M as a candidate mediator of this phenotype, and treatment with recombinant oncostatin M was sufficient to enhance growth and branching of BRCA1 mutant organoids. Notably, similar pro inflammatory macrophage signatures were observed in breast tissues from human BRCA1 mutation carriers.Together, these findings demonstrate that inflammatory macrophages emerge early following BRCA1 loss and actively promote epithelial remodeling associated with tumor initiation. Targeting early macrophage - epithelial interactions may represent a novel cancer prevention strategy for individuals at high genetic risk, highlighting the therapeutic potential of macrophage directed interventions in BRCA1 mutation carriers.

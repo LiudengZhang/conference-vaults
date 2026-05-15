@@ -1,0 +1,12 @@
+# Adjuvant immunotherapy in resected pancreatic ductal denocarcinoma: A 25-year landscape analysis of ClinicalTrials.gov (2000-2025)
+
+**Poster #**: 6436
+**Session**: Biostatistics in Clinical Trials / Surgical Oncology
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Carmel Awadallah1, Myer Marc Warshawsky21St. John's Episcopal Hospital, Far Rockaway, NY,2Hematology and Oncology, St. John's Episcopal Hospital, Far Rockaway, NY
+
+---
+
+Background: Pancreatic ductal adenocarcinoma (PDAC) remains one of the most lethal malignancies despite adjuvant chemotherapy. Immunotherapy has transformed adjuvant therapy in other solid tumors, yet its role in PDAC is undefined. We aimed to characterize the landscape of adjuvant systemic trials in resected PDAC, with a focus on immunotherapy, to identify progress and barriers to clinical impact.Methods: We queried ClinicalTrials.gov for interventional phase 2-3 adjuvant trials in resected PDAC registered between January 2000 and January 2025. Trials were categorized as immunotherapy, targeted therapy, other novel systemic strategies, or traditional chemotherapy. Phase, enrollment, sponsor type, and endpoints were extracted and summarized descriptively.Results: Thirty-six eligible trials were identified. Most were phase 2 (n=27, 75%), with only two phase 3 studies (6%). Enrollment was modest: 27 trials (75%) included fewer than 50 patients, while only three (8%) enrolled ≥200. Overall survival was the most common endpoint (n=35, 97%), followed by safety/toxicity (n=23, 64%) and disease-free survival (n=10, 28%); surgical endpoints were rare, including R0 resection (n=6, 17%) and pathologic complete response (n=2, 6%). Sponsorship was predominantly academic (n=28, 78%), with limited industry-led (n=3, 8%) or mixed (n=5, 14%) involvement. Immunotherapy approaches were mainly vaccines (GVAX, TG-01, ELI-002) and immune modulators, with only one small trial testing a checkpoint inhibitor (CT-011).Conclusions: Over two decades, adjuvant immunotherapy in PDAC has not advanced beyond small, exploratory studies. Trials were underpowered, academic-led, and focused largely on vaccine-based strategies, with minimal checkpoint inhibitor evaluation and no definitive phase 3 programs. Adequately powered, industry-supported phase 3 trials are urgently needed to establish effective adjuvant immunotherapy strategies in resected PDAC.

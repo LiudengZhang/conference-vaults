@@ -1,0 +1,12 @@
+# CertisAI Assistant: An agentic AI platform for dynamic preclinical oncology model selection
+
+**Poster #**: 24
+**Session**: Agentic AI in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Luke Jervis, Warren Andrews, Yuan-Hung Chien, Raffaella Pippa, Long Hoang DoCertis Oncology Solutions, San Diego, CA
+
+---
+
+Conventional tumor model selection often operates as a target-driven process, relying primarily on established biomarker strategies and prior treatment profiles to identify models aligned with a specific therapeutic goal. This methodology, rooted in static, retrospective datasets, frequently limits the scope of investigation and can result in selecting models that have reduced predictive power for complex clinical outcomes. To enhance the selection criteria for preclinical tumor models, we developed the CertisAI Assistant, an agentic AI platform that integrates real-time, on-demand therapeutic response prediction with deeply characterized tumor model datasets within a unified research environment.The CertisAI Assistant functions as an interactive research tool, integrating models from the Cancer Cell Line Encyclopedia (CCLE) and Certis’ proprietary patient-derived xenograft (PDX) data. Its core is CertisAI, an ensemble of machine learning models trained on extensive monotherapy and combination drug response data, leveraging gene expression and molecular fingerprints. We engineered a secure, self-service client that enables users to upload novel therapeutic compounds (via SMILES string) or sequencing data (via FASTQ files) for immediate, on-demand therapeutic predictions.Prediction results are dynamically integrated into the generative AI assistant, allowing for natural language querying and comparative analysis. Key visualizations, including mono and combination therapy prediction results, are instantly available. The CertisAI Assistant moves beyond static data delivery, providing a dynamic, real-time analysis environment for therapeutic response prediction and model selection. This platform significantly accelerates preclinical oncology research by empowering users to rapidly test hypotheses, evaluate novel agents, and guide the development of effective combination strategies.

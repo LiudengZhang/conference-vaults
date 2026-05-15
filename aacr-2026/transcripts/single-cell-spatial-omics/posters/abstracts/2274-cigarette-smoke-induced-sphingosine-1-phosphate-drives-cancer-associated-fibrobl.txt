@@ -1,0 +1,14 @@
+# Cigarette smoke-induced sphingosine-1-phosphate drives cancer-associated fibroblasts activation and esophageal cancer carcinogenesis
+
+**Poster #**: 2274
+**Session**: Tumorigenesis and Early Microenvironmental Trajectories
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Xinying Yue1, Jialing Ma1, Zifei Yang1, Yutong Wu1, Qianqian Su1, Lina Song1, Miaoxin Pan1, Dongxu Li2, Qingyi Liu2, Shasha Liu1, Yueping Li1, Shaokai Zhang3, Siyuan Wang4, Li Zhang5, Ni Zhang5, Wei Ping5, Catherine  C.   L.  Wong4, Dongxin Lin2, Chen Wu2, Jiang Chang1
+
+1Huazhong University of Science and Technology, Wuhan, China,2Cancer Hospital, Chinese Academy of Medical Sciences, Beijing, China,3The Affiliated Cancer Hospital of Zhengzhou University, ZhengZhou, China,4Chinese Academy of Medical Science & Peking Union Medical College, Beijing, China,5Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China
+
+---
+
+The metabolic impact of cigarette smoke on tumor microenvironment remodeling remains poorly defined. Here, we identify a missense variant in ACER1 that confers elevated risk of esophageal squamous cell carcinoma (ESCC) specifically among smokers, based on a gene-smoking interaction analysis involving 10,716 cases and 12,637 controls. Functional assays demonstrate that the risk allele synergizes with nicotine and benzo[a]pyrene to enhance sphingosine-1-phosphate (S1P) biosynthesis and secretion in ESCC epithelial cells. Integrated single-cell RNA sequencing, spatial proteomics, and multiplex immunofluorescence analyses across multi-stage ESCC samples reveal that this ACER1-driven sphingolipid reprogramming promotes the activation of myofibroblastic cancer-associated fibroblasts (myCAFs). Mechanistically, epithelial-secreted S1P engages the S1PR3-ERK-AKT signaling cascade in fibroblasts, promoting a pro-tumorigenic stromal state. Pharmacological inhibition of S1PR3 markedly suppresses ESCC growth in vivo. These findings uncover a critical gene-environment interaction driving pro-tumorigenic microenvironmental remodeling in esophageal tumorigenesis and highlight a metabolic vulnerability for early detection and therapeutic intervention.

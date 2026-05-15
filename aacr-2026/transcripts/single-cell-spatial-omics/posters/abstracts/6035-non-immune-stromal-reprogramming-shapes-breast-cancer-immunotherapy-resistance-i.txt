@@ -1,0 +1,17 @@
+# Non-immune stromal reprogramming shapes breast cancer immunotherapy resistance: insights from mouse models
+
+**Poster #**: 6035
+**Session**: Fibroblasts as Architects of the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yujia Yue, Stephanie Mittman, Rohit Reja, Julia Lau, Minyi Shi, Ana Xavier-Magalhaes, Jonathan Paw, Carolina De Amat Herbozo, Marco De Simone, Yan Qu
+
+Genentech, Inc., South San Francisco, CA
+
+---
+
+Background: PD-1/PD-L1 blockade benefits only a subset of breast cancer patients.While tumor and immune cells have been extensively studied, the role of non-immunestroma such as endothelial cells (ECs) and cancer-associated fibroblasts (CAFs) intherapeutic resistance is less understood.
+Methods: We performed single-cell RNA sequencing of CD45&#8315; cells from threesyngeneic breast cancer models with divergent ICB responses (4T1: resistant, EMT6:partial responder, EO771: responder). Stromal composition, functional programs (GOBiological Process), and tumor-stroma paracrine communication (CellChat) wereanalyzed. Findings were compared with published human breast and lung cancerdatasets (Cell Res 30, 745-762 (2020)).
+Results: Distinct stromal states were linked to ICB outcomes. 4T1 were enriched forfibroblast- and extracellular matrix-dominant stroma with immune-silent endothelium,while EMT6 tumors showed endothelial expansion and interferon-active CAFs. EO771tumors displayed pericyte-stabilized, quiescent vasculature and immune-stimulatoryfibroblast programs. Pathway-level analysis highlighted conserved modes of stromalcommunication and identified fibroblast-associated signatures that correlated withdisease stage in human cohorts. Pathway-level analysis highlighted conserved modesof stromal communication and identified fibroblast-associated signatures that correlatedwith disease stage in human cohorts.
+Conclusions: Stromal reprogramming contributes to ICB resistance. Cross-speciesanalysis highlights endothelial and fibroblast states as potential biomarkers andtherapeutic entry points to enhance immunotherapy efficacy.

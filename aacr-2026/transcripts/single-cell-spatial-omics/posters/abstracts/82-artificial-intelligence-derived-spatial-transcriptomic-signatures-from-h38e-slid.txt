@@ -1,0 +1,17 @@
+# Artificial intelligence derived spatial transcriptomic signatures from H&#38;E slides predict survival in primary melanoma
+
+**Poster #**: 82
+**Session**: Digital Pathology 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Amritpal Singh1, Merin George2, Tilak Pathak1, Ujjwal Baid1, Douglas Parker3, Michael  C.  Lowe4, Anant Madabhushi1, Bhakti Baheti1
+
+1Department of Biomedical Engineering, Emory University, Atlanta, GA,2Mercer University School of Medicine, Macon, GA,3Department of Pathology and Laboratory Medicine, Emory University, Atlanta, GA,4Department of Surgery, Emory University, Atlanta, GA
+
+---
+
+Introduction: Melanoma exhibits pronounced spatial and molecular heterogeneity, which drives tumor progression and clinical outcomes. While spatial transcriptomics (ST) assays can capture this complexity, their high cost and limited tissue availability hinder widespread use. Recent advances in computational pathology enable prediction of spatial gene expression directly from routine Hematoxylin and Eosin (H&#38;E) whole slide images (WSIs), providing a scalable virtual alternative for true spatial profiling. This work investigates whether artificial intelligence (AI) derived ST features extracted from TCGA-SKCM H&#38;E slides can serve as prognostic biomarkers of overall survival (OS) in primary melanoma.
+Methods: We analyzed formalin-fixed paraffin-embedded H&#38;E WSI of primary melanoma from TCGA-SKCM with available survival data (N=292 patients). Dataset was randomly split in a 30:70 ratio to generate training (N=87) and testing (N=205) cohorts. WSI were divided into patches of 290x290 pixels, and spatial expression of 5000 genes was predicted using the pretrained DeepSpot model. Downstream analyses were limited to 18 melanoma-relevant genes shortlisted from prior literature. AI predicted spatial gene expression values of these genes were summarized into per-spot and per-gene descriptors, producing 269 quantitative features encompassing statistical metrics, spatial autocorrelation indices, and Ripley&#8217;s K derived spatial clustering measures. After removing highly correlated and low-variance features, bootstrapped LASSO regression was used to select the top 5 survival-informative features. A Cox proportional hazards model was used to create an integrated AI signature. Model performance for 10-year OS was evaluated using hazard ratios (HR), concordance indices, log-rank tests, and Kaplan Meier analyses on training and holdout testing cohorts.
+Results: Survival times were right-censored at 10 years, resulting in 116 observed deaths and 176 censored patients. AI derived ST signature consisted of spatial features for KRT6B, UBE2L6, and PFKFB3 genes, along with average gene expression, and significantly stratified patients by OS. In the training set, the high-risk group had significantly poorer survival (HR = 3.39; 95% CI: 1.67-6.88; p < 0.001, C-index = 0.654). Independent validation in the testing cohort confirmed prognostic utility (HR = 2.17; 95% CI: 1.37-3.44; p = 0.001; C-index = 0.615), demonstrating generalizability.
+Conclusion: AI inferred ST features derived from standard H&#38;E slides capture biologically meaningful patterns associated with outcomes in primary melanoma. This virtual-omics pipeline provides a scalable and non-destructive approach for prognostication and may complement or substitute traditional molecular assays in settings where ST is not feasible.

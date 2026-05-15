@@ -1,0 +1,19 @@
+# Hippo/YAP1 mediated interplay of tumor-stromal-immune suppressive TME through IL6/gp130/STAT3 axis in advanced gastric cancer
+
+**Poster #**: 6121
+**Session**: Metastasis and Organ-Specific Microenvironmental Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Junsong Zhao1, Xiaodan Yao1, Yibo Fan2, Dipti Athavale1, Yanting Zhang1, Francis Spitz3, Generosa Grana3, Shilpa S. Dhar2, Jaffer  A.  Ajani2, Shumei Song1
+
+1Coriell Institute for Medical Research, Camden, NJ,2UT MD Anderson Cancer Center, Houston, TX,3Camden Cancer Research Center, Camden, NJ
+
+---
+
+Abstract
+Background: Peritoneal metastases (PMs) occur in ~45% of patients with advanced gastric cancer (GC) and are associated with debilitating symptoms and median survival of less than six months, yet the tumor-stromal&#8211;immune mechanisms sustaining the immune suppressive metastatic niche in GC with PM (GCPM) remain poorly defined. Single-cell RNA sequencing of patient-derived PMs revealed that, in addition to tumor epithelial clusters, a subset of activated cancer-associated fibroblasts (CAFs) expresses high levels of the Hippo pathway coactivator YAP1, which associates with CAF activation programs and poor survival. We hypothesized that YAP1high CAFs orchestrate an IL-6-dependent immunosuppressive metastatic niche that can be therapeutically targeted.
+Methods: Primary CAFs were established from GCPM implants and malignant ascites. YAP1 was genetically ablated using CRISPR/Cas9, and effects on the CAF secretome were assessed by cytokine arrays, multiplex ELISA, and qPCR. Co-culture assays with GC cell lines and CAFs with YAP1hgih or YAP1KO to determine the effects of YAP1 in CAFs on tumor cell malignant behaviors including tumor invasion, growth and tumor sphere formation; Co-culture of CAFs with YAP1hgih or YAP1KO with PBMC from peripheral blood or malignant ascites-derived CD45+ immune cells were used to evaluate the effects of YAP1 in CAFs on T-cell function. In vivo, genetic and pharmacologic YAP1 inhibition were tested in YAP1high patient-derived xenograft (PDX) and patient-derived orthotopic (PDO) models and in the KP-luc2 syngeneic GC model using the TEAD inhibitor VT00278, the STAT3 inhibitor WP1066, and their combinations with anti-PD-1.
+Results: YAP1 knockout in CAFs reduced invasion and growth of co-cultured tumor cells in vitro and enhanced T-cell activation in co-culture with PBMC. Secretome profiling by cytokine array identified interleukin-6 (IL-6) as the most strongly YAP1-dependent cytokine, IL-6 was highly expressed in YAP1high CAFs and enriched in malignant ascites, whereas IL6R/gp130 were upregulated in exhausted CD4+/CD8+ T cells, fibroblasts, and tumor cells within PM samples. YAP1 depletion decreased IL-6 expression and secretion, and pharmacologic blockade of the IL-6/gp130/STAT3 axis partially phenocopied the effects of YAP1 loss on tumor and T-cell function. Ongoing PDX, PDO, and KP-luc2 studies are evaluating dual YAP1/TEAD and STAT3 inhibition, with or without PD-1 blockade, as a strategy to remodel the PM microenvironment.
+Conclusions: These data support a model in which YAP1high CAFs drive an IL-6/gp130/STAT3&#8211;dependent immunosuppressive metastatic niche in GCPMs. Dual targeting of YAP1/TEAD and IL-6/STAT3, potentially combined with immune checkpoint blockade, represents a rational novel therapeutic strategy that will be prioritized for clinical translation in GC patients with PM.
+Page 1

@@ -1,0 +1,17 @@
+# Integrated bulk and single cell transcriptomics reveal PARL as a mitochondrial regulator associated with immunometabolic reprogramming and favorable prognosis in lung squamous cell carcinoma
+
+**Poster #**: 7451
+**Session**: Therapeutic Modulation of the Tumor Microenvironment: New Targets and Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Jaber H. Jaradat1, Zaid Alwarawrah2, Laith Alomari3, Anwaar Saeed4, Azhar Saeed5
+
+1Faculty of Medicine, Mutah University, Al-Karak, Jordan,2Griffin Hospital, Derby, CT,3Department of Medicine, Jefferson Einstein Philadelphia Hospital, Philadelphia, PA,4UPMC Hillman Cancer Center, Pittsburgh, PA,5University of Vermont Medical Center, Colchester, VT
+
+---
+
+Background: Lung squamous cell carcinoma (LUSC) lacks reliable prognostic biomarkers. Given the growing recognition of mitochondrial dysfunction as a driver of cancer metabolism and immune regulation, we investigated the mitochondrial protease presenilin-associated rhomboid-like (PARL) gene expression as a potential modulator of tumor progression and immune microenvironment in LUSC. &#8203;
+Methods: TCGA-LUSC bulk RNA-seq was analyzed with DESeq2 to evaluate PARL differential expression. Univariate and multivariate Cox models were performed to evaluate association with overall survival (OS). Limma was used to assess pathway-level differences using Hallmark MSigDB gene sets. Functional enrichment was performed using GO and GSEA. CIBERSORTx was utilized to assess immune infiltration. Single-cell analysis of the 10x Genomics NSCLC Tumor 1 dataset included quality control, normalization, clustering, automated annotation (SingleR), and pseudotime trajectory analysis to examine lineage-specific PARL patterns.
+Results: Low PARL expression correlated with shorter OS (median OS: 39 vs. 61 months; log-rank p = 0.008) and remained an independent favorable prognostic factor (HR = 0.75, p = 0.003). The survival benefit of high PARL expression persisted across early and late disease stages. Functional enrichment analysis indicated that high-PARL tumors were enriched for mitochondrial organization, oxidative phosphorylation, and apoptotic regulation, whereas PARL-low tumors favored proliferative and cell cycle pathways. Key pathways downregulated in high-PARL tumors included KRAS signaling, complement, IL6/JAK/STAT3, and TGF-&#946; signaling, while DNA repair, MYC targets, Oxidative Phosphorylation, and G2M checkpoint pathways were upregulated, suggesting enhanced metabolic activity and cell cycle regulation. Furthermore, Pearson&#8217;s chi-squared test showed a significant association between PARL expression and TP53 mutations (&#967; &#178; = 8.04, p = 0.0046). CIBERSORTx analysis revealed that PARL-high tumors exhibited lower infiltration of immunosuppressive and pro-inflammatory cells, including Tregs, M2 macrophages, and neutrophils suggesting a role for PARL in shaping a less suppressive immune microenvironment. Single-cell trajectory analysis revealed PARL expression peaked in progenitor and stromal populations, implying an early role in mitochondrial quality control and immune differentiation, influencing tumor-immune dynamics and clinical outcomes.
+Conclusions: PARL emerges as a candidate gene expression-based biomarker associated with mitochondrial homeostasis, reduced immunosuppression and favorable prognosis in LUSC. These findings highlight a potential role of PARL in immune metabolic adaptation and support further validation to establish its clinical relevance.

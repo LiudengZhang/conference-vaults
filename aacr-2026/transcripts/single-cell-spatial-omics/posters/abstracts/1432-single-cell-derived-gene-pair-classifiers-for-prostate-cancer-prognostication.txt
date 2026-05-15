@@ -1,0 +1,17 @@
+# Single-cell-derived gene-pair classifiers for prostate cancer prognostication
+
+**Poster #**: 1432
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Lucio Queiroz, Karnika Singh, Wikum Dinalankara, Luigi Marchionni
+
+Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY
+
+---
+
+Prostate cancer is characterized by marked histologic and molecular heterogeneity, which limits the precision of current prognostic tools based largely on Gleason grading. To better resolve the cellular programs underlying grade progression, we analyzed single-cell RNA-sequencing profiles from multiple prostate cancer specimens and performed high-confidence cell type classification across epithelial, stromal, and immune compartments. Within each annotated cell type, we compared tumors representing distinct Gleason grade groups to identify transcriptional markers that are specifically associated with grade-related biological changes rather than global tumor differences. This cell type-stratified analysis uncovered grade-associated signatures reflecting alterations in differentiation state, signaling pathways, and microenvironmental interactions.
+We next leveraged these marker genes to construct k-Top Scoring Pair (k-TSP) classifiers, which rely on relative expression orderings and therefore provide a robust, interpretable, and platform-independent modeling framework. Trained using single-cell-derived grade markers, the resulting classifiers were applied to multiple independent bulk transcriptomic cohorts. Across datasets, the k-TSP models consistently distinguished patients with high- versus low-grade disease and demonstrated strong prognostic performance, including significant associations with biochemical recurrence and progression-free survival.
+Overall, our study illustrates how single-cell transcriptomic profiling can reveal cell type-specific determinants of prostate cancer grade and enable the development of clinically relevant, generalizable gene-pair-based classifiers. These results support further evaluation of k-TSP models as practical tools for improving prognostication and guiding risk-adapted management in prostate cancer.
+Disclosures: AI tools were used to assist in the preparation of this abstract.

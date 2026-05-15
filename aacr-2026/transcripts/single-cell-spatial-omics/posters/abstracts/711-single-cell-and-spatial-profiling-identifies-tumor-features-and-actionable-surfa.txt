@@ -1,0 +1,17 @@
+# Single-cell and spatial profiling identifies tumor features and actionable surface targets in primary breast angiosarcoma
+
+**Poster #**: 711
+**Session**: Molecular Pathology
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Asumi Iesato, Masashi Akiya, Kazutaka Otsuji, Sumito Saeki, Natsue Uehiro, Tetsuo Noda, Tomo Osako, Takayuki Ueno, Reo Maruyama
+
+Japanese Foundation for Cancer Research, Tokyo, Japan
+
+---
+
+Background: Primary breast angiosarcoma (PBA) is an extremely rare and aggressive vascular malignancy with limited therapeutic options. Genomic studies have identified recurrent alterations such as KDR, PIK3CA, TP53, and FLT4, but gene-expression patterns have been scarcely reported, and their spatial context remains poorly defined. Only two spatial transcriptomic studies have been published, both from a single institution and focused mainly on immune-cell distribution while analyzing breast and non-breast angiosarcomas together. These two studies identified tumor regions based on endothelial markers (ERG/CD31); yet these markers can be diminished in dedifferentiated angiosarcoma, and reliable tumor-specific markers remain unavailable. Whether PBA shares molecular features with angiosarcomas from other anatomical sites also remains unclear. Objective: To delineate transcriptional programs of primary and metastatic PBA and validate them using integrated spatial analysis, and to identify candidate tumor cell markers with therapeutic applicability.
+Methods: We integrated single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics from matched PBA specimens. Fresh tumors (361T, 256T) were profiled using BD Rhapsody scRNA-seq and integrated with normal breast tissue (388D). CNVs were inferred by InferCNV. Visium spatial transcriptomics were performed on FFPE samples from two cases, with ovarian and liver metastases available from one (256T). CD276 expression was evaluated by immunohistochemistry in 3 PBA cases.
+Results: Integrated scRNA-seq from the three samples identified three endothelial clusters: c5 (normal ECs), c7 (tumor ECs), and c11 (lymphatic ECs). Cluster 7 expressed PECAM1/CDH5 and angiogenic/lymphangiogenic regulators, and InferCNV confirmed its tumor identity. Differential expression between c7 and c5 yielded a tumor-specific gene set (AS_signature) enriched for extracellular-matrix organization, receptor tyrosine-kinase signaling, and basement-membrane remodeling. Spatial InferCNV reproduced tumor-associated CNVs in Visium tumor regions. Joint analysis of ovarian and liver metastases of 256T showed complete UMAP separation and divergent CNV architectures; primary-tumor subclusters localized preferentially to ovarian or hepatic lesions, suggesting organ-selective subclonal dissemination. Twelve membrane-localized candidates were identified, and CD276 (B7-H3) showed strong membranous staining.
+Conclusions: Integrated single-cell and spatial profiling delineated tumor-derived endothelial features in PBA and validated their spatial and CNV context. The AS_signature robustly distinguished tumor from normal endothelium. Divergent metastatic CNV profiles suggest subclonal evolution with organ-specific tropism. CD276 emerged as a clinically actionable membrane antigen for ADC development.

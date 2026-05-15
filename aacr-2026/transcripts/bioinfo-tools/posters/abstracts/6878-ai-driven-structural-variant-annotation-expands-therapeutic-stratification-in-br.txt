@@ -1,0 +1,12 @@
+# AI-driven structural variant annotation expands therapeutic stratification in breast cancer
+
+**Poster #**: 6878
+**Session**: Network Biology and Precision Medicine
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Kriti Shukla1, Yue Wang2, Philip  M.  Spanheimer3, Elizabeth Brunk21Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, NC,2Department of Pharmacology, University of North Carolina at Chapel Hill, Chapel Hill, NC,3Department of Surgery, University of North Carolina at Chapel Hill, Chapel Hill, NC
+
+---
+
+Interpreting variants of unknown significance (VUS) remains a critical barrier to precision oncology, particularly in breast cancer, where the majority of somatic mutations are rare and lack functional annotation. We developed VAMOS (Variant Annotation through Multi-Omics and Structural Biology), a machine learning framework that integrates genomic, transcriptomic, and protein structural data to predict the regulatory impact of coding variants on cancer-driving pathways.Applied to >14,000 mutations across 1,000+ breast tumors, VAMOS identified 395 variant clusters in 346 proteins associated with dysregulated ESR1 and EZH2 activity, which are two key regulators of endocrine response and epigenetic reprogramming. Spatially resolved clustering revealed that 36% of rare variants co-localize with known oncogenic hotspots, enabling functional reclassification of clinically ambiguous mutations. These predictions were validated using CRISPR dependency and drug response datasets, revealing subtype-specific vulnerabilities. For example, distinct PIK3CA and TP53 clusters were differentially associated with response to mTOR, AKT, and DNA repair inhibitors.This structure-informed approach expands the set of potentially actionable variants by over 30%, offering new biomarkers for patient stratification and rational therapeutic targeting. By linking variant positions in 3D protein space to transcriptional phenotypes and drug sensitivity, VAMOS provides a scalable framework to bridge molecular profiling and clinical decision-making. These findings support the integration of AI-driven structural genomics into translational oncology pipelines to improve precision treatment strategies.

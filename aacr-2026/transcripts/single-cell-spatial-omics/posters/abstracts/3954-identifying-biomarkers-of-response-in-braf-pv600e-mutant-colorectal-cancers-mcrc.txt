@@ -1,0 +1,17 @@
+# Identifying biomarkers of response in BRAF p.V600E mutant colorectal cancers (mCRC)
+
+**Poster #**: 3954
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Gagandeep Brar1, Brooke Rhead2, Unnati Jariwala2, Stamatina Fragkogianni2, Amit Mahipal3
+
+1City of Hope Comprehensive Cancer Ctr., Duarte, CA,2Tempus, Chicago, IL,3Case Comprehensive Cancer Center, Cleveland, OH
+
+---
+
+Background: BRAF V600E mutations occur in 8-12% of patients (pts) with mCRC and are associated with poor response to standard systemic therapies and low survival rates. However, a subset of pts with BRAF V600E mCRC have a more indolent course with response and survival rates similar to non-BRAF mCRC pts, suggesting that the impact of BRAF V600E as an oncogenic driver may be heterogeneous. Here, we explore the genomic and transcriptomic differences between responders (R) vs non-responders (NR) in BRAF V600E mCRC pts treated with first line (1L) systemic therapy.
+Methods: The Tempus Lens Platform (Tempus AI, Inc., Chicago, IL) was used to query the Tempus multimodal de-identified database and establish and subsequently analyze a cohort of pts diagnosed with BRAF-V600E mCRC with xT (DNA) &#177; xR (RNA) testing prior to 1L chemotherapy &#177; bevacizumab (n=274). Pts with concomitant MSI-H/dMMR results were excluded. Pts with best response recorded at least 15 days after 1L start were classified as R (complete response/partial response/stable disease) vs NR (progressive disease). RNA expression data was normalized and quantified as transcripts per million (TPM), and compared using Wilcoxon rank-sum tests. Gene set enrichment analysis (GSEA) was performed on a curated collection of 50 gene sets defined by biological states or processes. Adjusted p-values (q-values) were computed for expression analyses using the Benjamini-Hochberg method. Landmark real world overall survival (rwOS) was defined as time from 1L treatment start +90 days until death or loss to follow up. Hazard ratio (HR) was calculated using Cox proportional hazard models and tested using a log-rank test.
+Results: Patient demographics and tumor characteristics did not differ by response status, including tumor sidedness, number of metastases, location of metastases and therapy received. Median age was 64 and 59% were female in the overall cohort. The 90 day landmark rwOS analysis was longer in R vs NR (median 15.0 vs 8.8 months given survival to 90 days from 1L treatment start; HR 0.53; 95% CI [0.31-0.89, p=0.016]).Of the genes analyzed, ARID2 (8.9% vs. 0%, p=0.006) and FLCN (5.4% vs. 0%, p=0.048) alterations were significantly enriched in NR (n=56) vs. R (n=96). Rs exhibited significantly higher expression of STARD9 compared to NRs (q=0.046), as well as positive enrichment expression in the Wnt pathway (q=0.02) and negative enrichment in multiple pathways associated with cell proliferation, immune infiltration, angiogenesis and bile acid metabolism (q<=0.05).
+Conclusions: Rs with BRAF V600E mCRC had improved survival outcomes and had minimal somatic and transcriptomic changes compared to NRs treated with 1L therapy at the gene level. Interestingly, GSEA revealed significant differences in Wnt, cell proliferation, immune infiltration, angiogenesis and bile acid metabolism pathways suggesting therapeutic implications that should be explored.

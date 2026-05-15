@@ -1,0 +1,12 @@
+# F5446 epigenetically reprograms T cells to boost CEA CAR T cell immunotherapy efficacy in human colorectal cancer metastasis
+
+**Poster #**: 4257
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Kendra Fick, Patrick Czabala, Zainab Tiamiyu, Dafeng Yang, Kebin LiuAugusta University, Augusta, GA
+
+---
+
+Chimeric Antigen Receptor (CAR) T cell therapy emerges as a promising cell-based immunotherapy for human cancer; however, it has shown little efficacy in solid tumors. Recent studies have shown that SUV39H1 decreases CAR T cell persistence and knocking out SUV39H1 increased CAR T efficacy in tumor-bearing mice. Analysis of human colon cancer liver metastases scRNA-seq datasets revealed that histone methyltransferases of H3K9me3 are upregulated in colon tumor and expressed in subsets of T cells in liver metastases of human colon cancer patients. To overcome human colon cancer resistance to CAR T cell immunotherapy, we have developed a SUV39H1-specific small molecule inhibitor F5446. Previously, we found that H3K9me3 promotes differentiation of Tex cells and targeting H3K9me3 is an effective approach to increase IFNγhi Tex-int cells to reinvigorate CTL functionality to suppress colon cancer liver metastasis. Based on this data, we hypothesize that F5446 is effective in increasing persistence of CAR T cells to suppress metastatic human colon cancer growth in NSG mice. A phase I clinical trial for α-CEA CAR T cell immunotherapy found it is well tolerated in patients with colorectal cancer with modest efficacy. Based on this, we generated second and third generation α-CEA CAR T plasmids for lentivirus transduction of primary T cells. We utilize an experimental liver metastasis model to induce liver metastasis of human colorectal cancer in a humanized mouse model. Mice are then treated with one dose of α-CEA CAR T cells and treated every three days with F5446 until endpoint. Extracted tumors are digested and the CAR T cell phenotypes (memory, effector, naïve, or exhausted) are determined via flow cytometry. We anticipate that F5446 will increase the persistence of CAR T cells in the liver metastases compared to CAR T therapy alone. F5446 is a promising conjunctive treatment with CAR T cell therapy to increase efficacy in solid tumor colon cancer.

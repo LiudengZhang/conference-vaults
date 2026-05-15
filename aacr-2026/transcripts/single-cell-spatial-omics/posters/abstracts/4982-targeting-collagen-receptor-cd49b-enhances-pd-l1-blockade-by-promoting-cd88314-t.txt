@@ -1,0 +1,17 @@
+# Targeting collagen receptor CD49b enhances PD-L1 blockade by promoting CD8&#8314; T-cell immunity in breast cancer
+
+**Poster #**: 4982
+**Session**: Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Ibrahim R. Eissa1, Kenneth  K.  Tanabe2
+
+1Massachusetts General Hospital, Boston, MA,2Massachusettes General Hospital, Boston, MA
+
+---
+
+Background: Immune checkpoints blockade (ICB) have improved cancer outcomes, but its efficacy in breast cancer remain limited by an immunosuppressive tumor microenvironment and dense extracellular matrix (ECM). Collagen, the main ECM component, supports tumor progression and immune evasion via integrin-mediated signaling and DDRs receptors. The collagen receptor CD49b (integrin &#945;2) promotes tumor adhesion. This study evaluated whether CD49b targeting enhances PD-L1 blockade to overcome ECM-driven resistance.
+Methods: Expression of CD49b, CD29, and DDR1 were profiled in breast cancer cell lines by flow cytometry, along with MHC-I and PD-L1. Collagen adhesion assays followed CD49b inhibition using Vatelizumab (anti-human CD49b), HM&#945;2 (anti-mouse CD49b), or CRISPR/Cas9 knockout in 4T1 cells. Transcriptomic datasets (CCLE, scRNA-seq, spatial transcriptomics) were analyzed to define collagen receptor localization in breast cancer TME. In vivo, 4T1-bearing mice were treated with anti-PD-L1, anti-CD49b, or the combination, followed by analysis of tumor growth and tumor immune infiltration.
+Results: CD49b and CD29 were highly expressed in MCF7, T47D, and 4T1 cells, while MDA-MB-231 cells showed low levels and weak collagen adhesion. CD49b blockade or knockout impaired adhesion and delayed tumor growth in vivo without affecting proliferation. Transcriptomic analysis confirmed CD49b enrichment in malignant cells. Dual CD49b and PD-L1 inhibition showed a synergistic antitumor activity, significantly reducing tumor burden and increasing CD8&#8314; T-cell infiltration and IFN-&#947; expression, consistent with enhanced cytotoxic immunity.
+Conclusions: CD49b mediates tumor-ECM interaction in breast cancer. Combined CD49b and PD-L1 blockade remodels the TME, enhances CD8&#8314; T-cell-driven responses, and represents a promising therapeutic strategy to overcome ICB resistance in collagen enriched tumors.

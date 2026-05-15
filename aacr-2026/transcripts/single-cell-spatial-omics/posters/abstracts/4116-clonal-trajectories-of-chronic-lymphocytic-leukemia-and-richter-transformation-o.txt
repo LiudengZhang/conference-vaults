@@ -1,0 +1,18 @@
+# Clonal trajectories of chronic lymphocytic leukemia and Richter transformation over the patients' lifespan
+
+**Poster #**: 4116
+**Session**: AACR Project GENIE: Genomic Characterization
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Ian Márquez-López1, Aleix Real1, Núria Russiñol1, Nicholas Williams2, Romina Royo3, Markus van Roosmalen4, Heribert Playa-Albinyana1, Juan Antonio Piñeyroa1, Melika Bashiri1, Pablo Mozas5, Armando López-Guillermo5, Julio Delgado5, Dolors Colomer1, Ruben van Boxtel4, Jyoti Nangalia2, Elias Campo1, Ferran Nadeu1
+
+1IDIBAPS, Barcelona, Spain,2Wellcome Sanger Institute, Cambridge, United Kingdom,3Barcelona Supercomputing Center, Barcelona, Spain,4Princess Máxima Center for Pediatric Oncology, Utrecht, Netherlands,5Department of Hematology, Hospital Clínic, Barcelona, Spain
+
+---
+
+Richter transformation (RT) is a rare but clinically challenging event in the evolution of chronic lymphocytic leukemia (CLL), characterized by transformation of CLL into an aggressive lymphoma, commonly diffuse large B-cell lymphoma. Although the molecular profiles of CLL and RT are well characterized, their evolutionary trajectories remain uncertain. A better understanding of CLL and RT dynamics could enable earlier identification and intervention in high-risk patients. Thus, our aim was to trace CLL/RT clonal histories over the lifespan of the patients through tumor phylogenies.
+To that aim, we applied primary template-directed amplification-based single-cell whole-genome sequencing to 5 patients, analyzing 349 single cells from up to 6 sequential time points spanning up to 19 years from CLL diagnosis to RT. A bioinformatic workflow that integrates existing algorithms with an in-house PTA-artifact filtering strategy was developed to optimize the sensitivity and specificity of the variant calling. A median sensitivity of 87.7% was obtained for point mutations at a sequencing depth of ~20&#215;, with only ~5% of cell-specific artifacts remaining.
+Our analyses revealed an increased mutational burden from normal B-cells to CLL and from CLL to RT explained by the combination of therapy-related and cell-intrinsic mutational processes. In addition, a high intratumor heterogeneity was detected both in terms of somatic mutations and copy number alterations, which was not previously captured by bulk sequencing. The phylogenetic reconstruction revealed remarkable intrapatient parallel genomic evolution. This was exemplified by the independent acquisition of multiple del(13q) in 3 cases, del(9p21) in 2 cases, or 7 LOH(17p) in 4 different phylogenetic clades with distinct TP53 mutations in 1 patient.
+Next, we used clock-like mutations to time the acquisition of genetic drivers, the diversification steps between CLL and RT, and their clonal bursts, which are indicative of periods of rapid proliferation. These analyses revealed that initial CLL genetic drivers were acquired up to 30 years before diagnosis. However, abrupt clonal bursts were not triggered by these genetic drivers, suggesting that cell-extrinsic factors such as B-cell receptor stimulation or microenvironmental changes could initiate the expansion of CLL. On the other hand, RT diversifies from the CLL early, including before CLL diagnosis. However, these clones follow a years-long process of clonal evolution in which the acquisition of high genomic complexity at advance stages facilitates their final outgrowth.
+Overall, this study provides a roadmap of the origin, early diversification steps, and evolution of CLL and RT with potential clinical implications for early detection and intervention, while providing a framework for the study of the evolution of other hematological and solid tumors.

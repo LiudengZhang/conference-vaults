@@ -1,0 +1,18 @@
+# Multi-omic profiling maps the immune multicellular environment of renal cell carcinoma
+
+**Poster #**: 802
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Thao Tran1, Máikel  L.  Colli1, Nathan  H.  Patterson1, Qanber Raza2, Liang Lim2, Lauren Tracey2, Alice Ly1, Sanja Bajovic1, James Mansfield2, Christina Loh2, Marc Claesen1
+
+1Aspect Analytics NV, Genk, Belgium,2Standard BioTools, Markham, ON, Canada
+
+---
+
+Clear cell renal cell carcinoma (ccRCC) is a biologically heterogeneous malignancy shaped by complex tumor&#8211;immune&#8211;stromal interactions that drive progression and influence therapeutic response. Despite advances in immunotherapy and combination regimens, many patients exhibit intrinsic or acquired resistance, underscoring the need for spatially resolved, multimodal profiling of the tumor microenvironment to elucidate mechanisms of treatment failure and discovery of therapeutic targets.
+To this end, we integrate Imaging Mass Cytometry (IMC) with Spatial Transcriptomics (ST) to enable simultaneous in situ phenotyping of protein and transcript expression within intact tissue architecture. IMC using the Hyperion XTi delivers high-resolution protein mapping across lymphoid, myeloid, and stromal compartments, including extracellular matrix components such as collagen, fibronectin, and &#945;SMA that define desmoplastic barriers and immune-excluded niches. Complementary ST with the Xenium immune-enriched 5000-gene panel reveals transcriptional programs related to T-cell exhaustion, cytotoxicity, antigen presentation, interferon signaling, and stress responses, capturing functional states not readily discernible at the protein level.
+The combination of per-cell spatial proteomic and transcriptomic data improves the understanding of the tumor-immune microenvironment. A central advance of this study is the direct correspondence established between protein-defined multicellular embeddings and transcriptomics-derived cellular states. IMC protein markers delineate the structural organization of cell neighborhoods consistently across tissue sections, while spatial transcriptomics assigns the functional programs operating within each niche and show how variable those states are. This integration reveals how specific transcriptional states concentrate within distinct structured microenvironments, including CD8+ T-cell rich inflammatory zones and tumor-stromal cells interface, co-localized with macrophage subpopulations. By anchoring gene expression states to well-resolved protein architectures, the analysis exposes the spatially organized mechanisms through which ccRCC shapes immune responses and promotes therapeutic resistance. This multimodal framework yields a more mechanistic understanding of tumor&#8211;immune interactions and enables the identification of spatially grounded biomarkers and intervention points that are not apparent from single-modality profiling.
+Combining ST and IMC unlocks a powerful framework for deciphering tumor complexity. By linking molecular expression to spatial context through integrative computational analysis, this strategy has the potential to identify novel biomarkers, refine therapeutic targets, and transform precision oncology.
+For Research Use Only. Not for use in diagnostic procedures.

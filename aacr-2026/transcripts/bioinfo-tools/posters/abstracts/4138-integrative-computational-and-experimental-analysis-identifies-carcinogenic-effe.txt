@@ -1,0 +1,12 @@
+# Integrative computational and experimental analysis identifies carcinogenic effects of 1,4-Phenylenediamine in hepatocellular carcinoma via PI3K/AKT-MAPK and JAK/STAT signaling pathway
+
+**Poster #**: 4138
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Liuxian Ban1, Ran Ding2, ZhiQing Long21University of Hong Kong, Shenzhen Hospital, Shenzhen, China,2Sun Yat-sen University Cancer Center, Guangzhou, China
+
+---
+
+Hepatocellular carcinoma (HCC) is strongly influenced by environmental chemical exposures, among which 1,4-Phenylenediamine dihydrochloride (1,4-PDD) may act as a potential carcinogenic agent. In this study, we employed a network toxicology framework to systematically elucidate the molecular mechanisms linking 1,4-PDD exposure to HCC development. Differentially expressed genes and putative targets associated with 1,4-PDD were identified by integrating toxicogenomic databases, transcriptomic profiles, and protein-protein interaction networks. A multi-algorithm machine learning pipeline-combining random forest, LASSO regression, and support vector machines was implemented to refine and prioritize key targets with high stability. These targets were subsequently used to construct a prognostic model via multivariate Cox regression, which demonstrated robust predictive performance in independent validation cohorts. Mechanistic analyses indicated that the key targets were predominantly enriched in oncogenic signaling pathways, particularly the p-AKT, p-MEK, p-ERK1, and p-STAT3 axes, suggesting that 1,4-PDD exposure may promote malignant progression by activating PI3K/AKT-MAPK and JAK/STAT signaling cascades. Overall, this study delineates system-level toxicological mechanisms of 1,4-PDD in HCC and presents a molecular prognostic model with potential translational value for assessing chemical exposure-related liver cancer risk.

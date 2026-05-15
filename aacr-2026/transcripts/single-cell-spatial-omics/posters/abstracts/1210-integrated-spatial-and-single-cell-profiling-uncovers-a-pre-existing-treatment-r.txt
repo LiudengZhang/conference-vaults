@@ -1,0 +1,21 @@
+# Integrated spatial and single-cell profiling uncovers a pre-existing, treatment-resistant subclone that drives early local relapse in luminal breast cancer
+
+**Poster #**: 1210
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kazutaka Otsuji1, Tomo Osako2, Yoko Takahashi3, Chikako Shibata4, Sumito Saeki4, Asumi Iesato1, Tetsuo Noda5, Kengo Takeuchi2, Takayuki Ueno3, Reo Maruyama4
+
+1NEXT-Ganken Program, Japanese Foundation for Cancer Research, Koto-ku, Tokyo, Japan,2Division of Pathology, Cancer Institute, Japanese Foundation for Cancer Research, Koto-ku, Tokyo, Japan,3Breast Oncology Center, Cancer Institute Hospital of JFCR, Japanese Foundation for Cancer Research, Koto-ku, Tokyo, Japan,4Division of Cancer Epigenomics, Cancer Institute, Japanese Foundation for Cancer Research, Koto-ku, Tokyo, Japan,5Director's room, Japanese Foundation for Cancer Research, Koto-ku, Tokyo, Japan
+
+---
+
+Background
+Early local relapse during adjuvant endocrine therapy in hormone receptor (HR)-positive breast cancer, although uncommon, may reflect selection of pre-existing subclonal populations with intrinsic resistance. While endocrine resistance has been linked to aberrant cell-cycle activation and attenuated estrogen signaling, the spatial organization and transcriptional evolution of resistant subclones within tumors remain insufficiently resolved.
+Methods
+We performed multimodal profiling of paired primary and early local-relapse tumor specimens using the 10x Visium and Xenium spatial transcriptomics platforms. Additionally, a diagnostic core-needle biopsy obtained from the relapse lesion before resection underwent single-cell (sc) RNA sequencing. Spatial inferCNV was applied to Visium data to delineate clonal architecture and identify putative malignant subclones in an unbiased manner. Clone-specific transcriptional programs were characterized through differential expression and pathway enrichment analyses. Gene signatures derived from relapse scRNA-seq clusters were computationally projected onto the matched spatial transcriptomics data to map subclone-specific transcriptional phenotypes with high spatial resolution. Xenium profiling of the primary tumor was used to evaluate local microenvironmental features associated with resistant and responsive clones.
+Results
+Spatial inferCNV revealed marked clonal remodeling between the primary and relapse tumors: a minor primary-tumor subclone with distinct copy-number features expanded disproportionately and became the dominant malignant population at relapse. scRNA-seq demonstrated that transcriptional clusters corresponding to this conserved clone exhibited increased E2F target and G2/M checkpoint activity, concomitant with reduced estrogen-responsive signaling, consistent with an estrogen-independent proliferative phenotype. Single-cell resolution analysis of Xenium data from the primary tumor revealed that regions enriched for the resistant clone exhibited lower T-lymphocyte density compared to areas dominated by treatment-responsive subclones, suggesting early spatial segregation and microenvironmental differences that may have facilitated selective survival under endocrine therapy.
+Conclusions
+This integrated spatial and single-cell analysis of a rare rapid-relapse HR-positive breast cancer case demonstrates that a transcriptionally distinct, estrogen-independent, E2F-driven subclone was already embedded within the primary tumor and later seeded early local recurrence. These findings highlight the power of multimodal transcriptomics to uncover clinically occult resistant subclones and provide a framework for identifying patients at risk of early relapse despite standard adjuvant endocrine therapy.

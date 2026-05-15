@@ -1,0 +1,17 @@
+# An AFA assisted workflow for mass-spectrometry based proteomics of FFPE samples
+
+**Poster #**: 7657
+**Session**: Multi-Omics, Systems Biology, and Biological Mass Spectrometry
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Dong-Gi Mun1, Kiran Mangalaparthi1, Daigo Gunji2, Amy  J.  French1, Raghavendra Pasupuleti3, Cristine Charlesworth1, Sameer Vasantgadkar4, DEB BHATTACHARYYA4, Akhilesh Pandey5
+
+1Mayo Clinic, Rochester, MN,2Mayo Clinic Cancer Center Minnesota, Rochester, MN,3Mayo CLinic, Rochester, MN,4Covaris, Woburn, MA,5Mayo Clinic, Rochseter, MN
+
+---
+
+Introduction: The intricate cellular structure is a constantly evolving environment where cells interact, communicate, and adapt to their surroundings. The fate, role, and actions of each cell are shaped by its specific location within the tissue. Therefore, studying the spatial proteome is crucial for gaining a deeper understanding of physiological or pathological processes. With significant advancements in microscopy and mass spectrometry, it has become feasible to explore the cellular proteome at low or even single cell numbers. However, spatial proteomics is an evolving field with scope for newer sample preparation and data analysis techniques. Our objective was to develop a sample preparation workflow for analyzing proteome from limited cells extracted from formalin fixed paraffin embedded (FFPE) tissue using laser capture microdissection (LCM).
+Methods: One hundred cells from the FFPE normal colon tissue were extracted by LCM and collected into an AFA-compatible 96-well plate. Decrosslinking was performed at 90&#8304;C for 50 minutes followed by lysis in a buffer composed of 100 mM triethylammonium bicarbonate and 0.1% n-dodecyl-&#946;-D-maltoside using adaptive focused acoustic (AFA) energetics in scanning mode for 5 minutes. After lysis, the proteins were digested using Trypsin/Lys-C mix using AFA energetics for 1 hour. The resulting peptides were acidified with trifluoroacetic acid and analyzed on a timsTOF Ultra 2 mass spectrometer coupled to a nanoElute 2 liquid chromatography system using a 15 cm (75 &#956;m) IonOpticks column, in DDA-PASEF mode for a total run time of 34 minutes. The data were searched against the UniProt Human Reviewed protein database using MSFragger.
+Results: We utilized AFA energetics to extract and digest proteins from a limited number of cells isolated from FFPE tissue using LCM. This experiment was conducted with technical replicates to ensure accuracy and reliability. A total of 3,723 proteins were identified across the three replicates, with replicate 1 identifying 3,895 proteins, replicate 2 identifying 3,754 proteins, and replicate 3 identifying 3,519 proteins. In total, we identified 21,005 peptides, with replicate 1 identifying 22,896 peptides, replicate 2 identifying 22,377 peptides, and replicate 3 identifying 17,741 peptides from 100 colon cells. Notably, we observed a 70% overlap in the proteins identified across the three replicates, which highlights the reproducibility of the approach.
+Conclusion: The entire sample preparation process, after cell collection, was completed within a concise four-hour timeframe, demonstrating the efficiency of this methodology for analyzing protein profiles from small cell populations. Further, this approach is highly adaptable to automation and high-throughput applications. Its adaptability and scalability make it a promising strategy for spatial proteomics applications.

@@ -1,0 +1,17 @@
+# Expression profiles of TCF-4 variants across digestive system cancers quantified by a novel PNA-directed qPCR assay
+
+**Poster #**: 4927
+**Session**: Novel Experimental Platforms and Causal Inference
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Hironori Koga, Yasuko Imamura, Tomoya Sudo
+
+Kurume University Research Center for Innovative Cancer Therapy, Kurume-shi, Japan
+
+---
+
+Background: TCF-4, a key transcription factor in the Wnt/&#946;-catenin pathway, produces multiple splice variants with distinct functions. Although our group previously identified 14 variants in liver cancer cells, quantitative assessment across digestive system cancers has been limited by the low resolution of conventional assays. To address this unmet need, we developed a peptide nucleic acid (PNA)-directed PCR clamping-based quantitative RT-PCR system enabling precise discrimination of individual TCF-4 splice variants.
+Purpose: To establish a robust quantitative framework for variant-level TCF-4 expression analysis and delineate organ-specific expression patterns across digestive cancer cell lines and colorectal cancer (CRC) tissues, with emphasis on the functionally distinct variants TCF-4J (SxxSS&#8722;) and TCF-4K (SxxSS+). Methods: A PNA-qPCR platform was constructed for sensitive discrimination of closely related TCF-4 splice variants. Sixteen cell lines representing liver, stomach, colorectum, pancreas, and pancreatic neuroendocrine tumors were analyzed. TCF-4J and TCF-4K expression levels were further quantified in 39 paired CRC tissues and adjacent mucosa (IRB-approved). An exploratory subgroup analysis was performed using quartile-based stratification of tumor TCF-4J expression.
+Results: The PNA-qPCR system enabled specific quantification of 14 TCF-4 variants. Distinct organ-dependent expression signatures were observed: liver cancer cell lines showed a predominantly TCF-4B-dominant pattern, whereas gastric, colorectal, and pancreatic cancer lines exhibited TCF-4J-dominant profiles, indicating lineage-specific variant usage rather than differentiation-dependent changes. In CRC tissues, TCF-4J was significantly upregulated relative to noncancerous mucosa, whereas TCF-4K expression remained low. Exploratory quartile analysis revealed that patients in the lowest 25% of tumor TCF-4J expression had no distant metastasis, and this subgroup showed a trend toward longer overall survival compared with higher-expression cases (51 vs. 23 months).
+Conclusions: This study establishes a sensitive quantitative platform for TCF-4 variant profiling and reveals striking organ-specific differences in variant usage across digestive system malignancies. The inverse relationship between low TCF-4J expression and metastatic progression in CRC suggests potential biological relevance. Integration of this bulk RNA-based framework with single-cell and spatial transcriptomic approaches will be essential to elucidate variant-specific regulation and intratumoral heterogeneity.

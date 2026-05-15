@@ -1,0 +1,16 @@
+# KLRG1+PD-1+ CD8+ T cells drive potent antitumor immunity induced by a systemic STING nanovaccine
+
+**Poster #**: 6693
+**Session**: Vaccines and Other Immunomodulatory Agents
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Shuang Chen1, Shuyue Ye1, Qiang Feng1, Gang Huang1, Animesha Krishnamurthy1, Baran Devrim Sumer2, Jinming Gao3
+
+1UTSW, Dallas, TX,2UT Southwestern Medical Center, Dallas, TX,3UT Southwestern, Dallas, TX
+
+---
+
+Activation of the stimulator of interferon genes (STING) pathway enhances dendritic-cell priming and cytotoxic T-cell immunity, yet systemic STING agonists are limited by off-target toxicity. We recently developed a dual-stimuli-responsive STING nanovaccine that co-delivers HPV E7 antigen and a polymer-conjugated STING agonist, enabling safe systemic activation of antitumor T cells.1, 2 Despite the strong induction of E7-specific CD8+ T cells, the phenotypic and functional heterogeneity of vaccine-elicited T cells remains incompletely understood. Identifying the dominant effector population responsible for tumor clearance is critical for rational vaccine optimization and for developing combination strategies with adoptive or checkpoint-based immunotherapies.3 To address this, we analyze the splenic immune cells in C57BL/6 tumor-bearing mice after intravenous administration of the dual-stimuli-responsive STING nanovaccine. A distinct KLRG1+PD-1+ CD8+ T-cell population emerged and was isolated by fluorescence-activated cell sorting for adoptive transfer into na&#239;ve, tumor-bearing recipients. Vaccination induced robust activation of dendritic cells (CD86+MHC-II+) in the spleen and lymph nodes, accompanied by expansion of E7-specific CD8+ T cells. Within this compartment, the KLRG1+PD-1+ subset exhibited high expression of granzyme B and IFN-&#947;, consistent with a cytotoxic-effector phenotype. Adoptive transfer of these double-positive cells significantly delayed tumor growth and prolonged survival relative to unsorted or untreated controls, confirming their potent antitumor activity. Expansion of this subset correlated with spleen-targeted biodistribution and STING-dependent activation of myeloid cells.These data identify a functionally dominant KLRG1+PD-1+ CD8+ T-cell subset as a key mediator of systemic STING nanovaccine efficacy. The findings support a mechanistic link between STING-driven myeloid activation and effector-T-cell differentiation. Ongoing single-cell and spatial transcriptomic analyses will define the lineage trajectories and molecular circuitry underlying their generation and persistence, informing future combinations of STING nanovaccines with adoptive-cell or checkpoint immunotherapies for durable systemic tumor control.
+Keywords: STING nanovaccine, CD8+ T cells, KLRG1, PD-1, adoptive transfer, single-cell RNA-seq, spleen, immunotherapy
+Reference1.Chen, S. et al. Stimuli-responsive STING nanovaccine for systemic therapy of HPV-induced cancers. Proc. Natl. Acad. Sci. U.S.A. 122, e2409570122 (2025).2.Li, S. et al. Prolonged activation of innate immune pathways by a polyvalent STING agonist. Nature Biomedical Engineering 5, 455-466 (2021).3.Giles, J.R., Globig, A.-M., Kaech, S.M. &#38; Wherry, E.J. CD8+ T cells in the cancer-immunity cycle. Immunity 56, 2231-2253 (2023).

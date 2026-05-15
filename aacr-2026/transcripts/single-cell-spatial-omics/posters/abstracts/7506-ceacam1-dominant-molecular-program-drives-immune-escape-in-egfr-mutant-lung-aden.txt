@@ -1,0 +1,17 @@
+# CEACAM1-dominant molecular program drives immune escape in EGFR-mutant lung adenocarcinoma
+
+**Poster #**: 7506
+**Session**: Tumor Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Jianyu Li, Qinglin Wang, Tongyan Liu, Siwei Wang, Rong Yin
+
+Department of Thoracic Surgery, Jiangsu Cancer Hospital, The Affiliated Cancer Hospital of Nanjing Medical University, Nanjing, China
+
+---
+
+Background:In East Asian populations, EGFR-mutant lung adenocarcinoma (LUAD) represents the predominant molecular subtype, yet even the two most common variants, exon 19 deletions (19del) and L858R, exhibit substantial molecular and clinical heterogeneity whose determinants of malignant progression remain poorly defined. A subset of EGFR-mutant LUADs exhibits an immune-escape phenotype with poor tyrosine kinase inhibitor (TKI) response, highlighting the need to define EGFR-driven malignant programs and intercellular mechanistic crosstalk.
+Methods:We performed single-cell RNA sequencing (scRNA-seq) on EGFR19del and EGFRL858R genetically engineered mouse models (GEMMs; n = 20) and on an in-house human EGFR-mutant LUAD cohort spanning early to advanced stages (n = 33), of which a subset had paired spatial transcriptomics (n = 8). Consensus non-negative matrix factorization (cNMF) was applied to derive metaprograms, which were correlated with immune composition, spatial niches, and clinical outcomes. Mechanistic and therapeutic relevance were evaluated using organoid co-cultures, blocking CEACAM1, and in vivo studies combining the anti-CEACAM1 antibody CM24 with TKIs and immune checkpoint inhibitors in TKI-resistant models.
+Results:Analyses revealed immune-related malignant programs and a proliferation-associated program. Intriguingly, a CEACAM1-dominant metaprogram, termed CEACAM1-MP, emerged as an invasive subtype indicator independent of EGFR mutant status and was consistently associated with early progression and immune escape. A high CEACAM1-MP score correlated with worse overall survival (HR = 2.39, P < 0.001) in multiple datasets. CEACAM1-MPhigh tumor cells showed reduced effector CD8+ T-cell infiltration but strong interactions with SPP1+TIM3+ tumor-associated macrophages (TAMs), predominantly via CEACAM1-TIM3. Spatial transcriptomics revealed that CEACAM1-MP high tumor cells localized to perivascular regions where they co-accumulated with SPP1+TIM3+ TAMs, forming an immunosuppressive niche that promoted M2-like polarization. The anti-CEACAM1 antibody CM24 impaired CEACAM1-MPhigh tumor cell proliferation. In TKI-resistant models, CM24 combined with TKIs and PD-1 blockade significantly delayed tumor growth, with a tumor growth inhibition rate of 68% (P < 0.01).
+Conclusions:This study identifies a CEACAM1-MP as an important driver of early invasion and immune escape in EGFR-mutant LUAD, defined by a perivascular niche and tight crosstalk with SPP1+TIM3+ TAMs. CEACAM1-MP provides a novel indicator to identify high-risk EGFR-mutant patients, while targeting CEACAM1 represents a promising strategy for refractory lung cancer.

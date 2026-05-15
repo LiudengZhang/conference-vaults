@@ -1,0 +1,17 @@
+# Intra-pancreatic adipocytes promote pancreatic cancer progression by inhibiting tumor immunity
+
+**Poster #**: LB231
+**Session**: Late-Breaking Research: Tumor Biology 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Chengcheng Wang, Xinpeng Yin, Yupei Zhao
+
+Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences, Beijing, China
+
+---
+
+INTRODUCTION: Fatty pancreas diseases(FPD) is the most common disease of the pancreas. It is reported that FPD might be an early specific harbinger of pancreatic cancer. Pancreatic cancer is a highly lethal malignant tumor, and surgical resection remains the only possible curative treatment. The efficacy of other treatment modalities including immunotherapy is limited, making it urgent to explore novel therapeutic targets. Pancreatic cancer is characterized by a unique tumor microenvironment, where infiltrated adipocytes are closely associated with tumor progression. Albeit, the underlying mechanisms remain unclear.
+RATIONALE: This study aims to demonstrate why adipocyte prefer to deposit in pancreatic cancer tissue and how it contribute to the progression of pancreatic cancer.
+RESULTS: Using MRI imaging analysis(n=120) and H&#38;E staining of sections(n=71), we found that the intrapancreatic fat fraction was significantly increased in the pancreatic cancer group compared with the normal and benign pancreatic tumor group. Through adipoq-cre linage tracing mouse model, we noticed that the increased adipocytes caused by pancreatic cancer originated from neogenesis and trans-differentiation rather than the proliferation of pancreatic resident adipocyte. By staining of the patient's and KPC mouse model pathological slides, we identified the adipocyte infiltrating within the pancreatic cancer underwent browning. After experimental verifications, we found IGFBP2, secreted by pancreatic cancer cells, played a crucial role in tumor caused adipocyte browning. Single-cell nuclear transcriptome sequencing(n=71) of intrapancreatic and peripancreatic fat in patients with pancreatic cancer and normal individuals indicated that the adipocytes infiltrating into pancreatic cancer had undergone changes in various aspects, including metabolic pathways and interactions with other cells. We also found that browning fat within the pancreas promotes the progression of pancreatic cancer by inducing an immunosuppressive tumor microenvironment. Finally, we demonstrated that the combination of IGFBP2 targeted therapy and anti-PD1 could effectively inhibit the progression of pancreatic cancer.
+CONCLUSIONS: We identified that pancreatic cancer cells induced adipocyte neogenesis and deposit in pancreas. At the same time, pancreatic cancer cells also caused these adipocytes to undergo browning. Our findings confirmed that the browning intrapancreatic adipocyte promoted the progression of pancreatic cancer by inducing an immune suppressive microenvironment. This study systematically depict the single cell resolved landscape of intrapancreatic and peripancreatic adipocytes, established the first single-cell transcriptome database(https://pan-fatlas.com/) for intra-pancreatic and peripancreatic fat which provided an important resource for fat research field. Targeting IGFBP2 may offer therapeutic strategies to boost immunotherapy efficiency in pancreatic cancer.

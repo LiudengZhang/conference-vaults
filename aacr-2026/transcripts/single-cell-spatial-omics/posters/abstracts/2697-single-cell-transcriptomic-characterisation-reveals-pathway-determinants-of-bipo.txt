@@ -1,0 +1,17 @@
+# Single-cell transcriptomic characterisation reveals pathway determinants of bipolar androgen therapy response in prostate cancer
+
+**Poster #**: 2697
+**Session**: Application of Bioinformatics to Cancer Biology 3
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Rosalia Quezada Urban1, Shivakumar Keerthikumar2, Peter Lau3, Georgia Cuffe1, Linda Teng1, Ashlee  K.  Clark4, Gail P. Risbridger5, Renea  A.  Taylor4, Megan Crumbaker6, ANTHONY JOSHUA7, Mitchell  G.  Lawrence5
+
+1Monash University, Clayton, Victoria, Australia,2Peter MacCallum Cancer Centre, Melbourne, Australia,3AGRF, Melbourne, Australia,4Monash University, Melbourne, Australia,5Monash University, Clayton, Australia,6Garvan Institute, Sydney, Australia,7St Vincents Health Australia, Melbourne, Australia
+
+---
+
+Purpose: Bipolar androgen therapy (BAT), which alternates between castrate and supraphysiological testosterone levels, represents a promising alternative to continuous androgen suppression in advanced prostate cancer. However, only a subset of patients&#8217; tumours respond. Using patient-derived models of metastatic castration-resistant prostate cancer, we aimed to identify molecular programs distinguishing BAT responders from non-responders using single-cell transcriptomics.
+Experimental Procedures: We profiled over 60,000 cells from four patient-derived xenografts (PDXs) using the 10x Genomics single-cell RNA-seq platform. Mouse reads were removed with Xenocell, leaving approximately 40,000 human prostate cancer cells for downstream analysis. Samples included two complete responders, one partial responder, and one non-responder, all evaluated 24 hours after BAT exposure, with responders also assessed at a long-term (6-week) timepoint. Differential expression and gene set enrichment (GSEA) analyses were performed using Hallmark, KEGG, and Gene Ontology collections.
+Results: BAT triggered robust androgen-responsive transcriptional reprogramming across models, yet the scale and persistence of pathway activation differed by response category. GSEA revealed that responders exhibited suppression of MYC target genes and stress-response pathways, alongside upregulation of metabolic and differentiation programs, including oxidative phosphorylation, cholesterol homeostasis, and cell adhesion. In contrast, the non-responder maintained MYC activation with enrichment of inflammatory, epithelial-mesenchymal transition (EMT), and cell-cycle pathways, suggesting incomplete androgen pathway re-engagement. Over time, complete responders showed reduced proliferative signalling, consistent with stable treatment adaptation.
+Conclusions: Our single-cell transcriptomic analyses delineate molecular signatures underlying BAT sensitivity and resistance. MYC activity and inflammatory remodelling emerge as potential drivers of resistance, whereas metabolic and differentiation programs define durable response. These insights provide a foundation for identifying biomarkers and designing rational combination strategies to enhance BAT efficacy.

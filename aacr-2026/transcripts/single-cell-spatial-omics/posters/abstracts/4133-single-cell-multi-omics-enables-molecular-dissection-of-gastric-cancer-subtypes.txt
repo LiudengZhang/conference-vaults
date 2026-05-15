@@ -1,0 +1,15 @@
+# Single cell multi-omics enables molecular dissection of gastric cancer subtypes
+
+**Poster #**: 4133
+**Session**: Application of Bioinformatics to Cancer Biology 4
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Junha Cha1, Anuja Sathe1, Yan Wang2, Susan M. Grimes3, Hanlee P. Ji2
+
+1Stanford University School of Medicine, Stanford, CA,2Stanford University, Stanford, CA,3Medicine, Stanford University, Stanford, CA
+
+---
+
+Gastric cancer (GC) has different histopathological subtypes that include intestinal, diffuse, and mixed. These subtypes are identified based on histologic cell morphology and are clinically informative, more so than molecular subtypes. Namely, histologic subtypes differ in prognosis, rates of metastasis and treatment response. However, many questions remain about the genomic features that distinguish each histologic subtype. Integrating single-cell datasets is particularly challenging at the molecular level due to technical variation. We developed an integrative data set combining in-house and public multi-omics datasets - they include bulk sequencing, scRNA-seq, spatial transcriptomics, and proteomics. The scRNA-seq data included 208 tumors from 118 patients. This single cell data was harmonized to reduce the effects of batch variability. For analysis, we developed a computational pipeline incorporating generalized linear models, non-negative matrix factorization for meta-program identification, sample-level pseudo-aggregation and network-based gene expression analysis. This pipeline enabled gene-wise dissection, pathway-centric interpretation of malignant transcriptional programs and systematic quantification of cell state dynamics across integrated cohorts. We identified distinct tumor-intrinsic gene expression programs across subtypes. The intestinal and mixed tumors expressed immune-associated programs, while the MSI tumors exhibited elevated cell-cycle signaling compared to MSS. In the tumor microenvironment, the diffuse subtype showed reduced B-cell differentiation but increased dendritic cell abundance, whereas intestinal subtype was enriched for T-cell subtypes, including regulatory T cells with immunosuppressive potential. From the single cell results, we determined that TIGIT expression was significantly elevated among CD8 and regulatory T cells. This result was confirmed with multiplexed immunofluorescence staining on an independent set of 142 GCs. Fibroblast-driven interactions dominated diffuse tumors, while intestinal and mixed tumors displayed immune-mediated &#8220;hot tumor&#8221; phenotypes.
+Overall, our study showed that the analysis of an integrated, harmonized single-cell data from GC revealed malignant and microenvironmental programs distinguishing subtypes. Our results provided some subtype-specific vulnerabilities and provides insight into potential future therapeutic targets.

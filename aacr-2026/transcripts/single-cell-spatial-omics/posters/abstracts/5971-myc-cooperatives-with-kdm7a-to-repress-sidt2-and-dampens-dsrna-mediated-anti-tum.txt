@@ -1,0 +1,14 @@
+# MYC cooperatives with KDM7A to repress SIDT2 and dampens dsRNA-mediated anti-tumor immunity
+
+**Poster #**: 5971
+**Session**: Mechanisms and Dynamics of Gene Expression
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Tae-Won Lee1, Kyung-min Lee1, Carlos  L.  Arteaga2, Ariella B. Hanker3, Seung Han Son1
+
+1Life Science, Hanyang University College of Natural Sciences, Seoul, Korea, Republic of,2Director, Breast Cancer Program and Center for Cancer Targeted Therapies, UT Southwestern Simmons Comprehensive Cancer Center, Dallas, TX,3UT Southwestern Harold C. Simmons Comprehensive Cancer Center, Dallas, TX
+
+---
+
+MYC is a proto-oncogene frequently amplified in various cancers and is well known for its transcriptional activation functions, yet the mechanisms by which MYC mediates transcriptional repression remain poorly understood. Through integrative multi-omics analysis, we identified SIDT2 as a novel direct target repressed by MYC. Analysis of public single-cell RNA sequencing datasets revealed mutually exclusive expression patterns between MYC and SIDT2, and their expression levels were inversely correlated across tumor transcriptome datasets. Loss of SIDT2 reduced cytoplasmic double-stranded RNA (dsRNA) levels, leading to decreased expression of inflammatory chemokines including CXCL9, CXCL10, CXCL11 and CCL5, resulting in impaired T cell recruitment. Inhibition of DDX58 and IFIH1, two dsRNA sensors essential for innate immune signaling, abrogated the cytokine reduction caused by SIDT2 loss, demonstrating that SIDT2-dependent cytokine expression is mediated through the dsRNA pathway. Consistent with its functional role, SIDT2 expression correlated positively with cytotoxic T lymphocyte infiltration and was associated with favorable outcomes in patients receiving immune checkpoint blockade therapy. To identify factors that facilitate MYC-mediated transcriptional repression, we examined genes directly bound and suppressed by MYC and found substantial overlaps with gene targets regulated by KDM7A, a histone demethylase. Mechanistically, KDM7A functions as a transcriptional cofactor that enables MYC to repress SIDT2 transcription. MYC and KDM7A co-occupied the regulatory region of SIDT2, forming a cooperative repressive complex, and loss of KDM7A abolishes MYC-dependent downregulation of SIDT2. ATAC-seq analysis further supported this mechanism by showing that MYC knockdown markedly increases chromatin accessibility at the SIDT2 locus, whereas this chromatin remodeling does not occur when KDM7A is inhibited or depleted, indicating that KDM7A is essential for maintaining the repressive chromatin state imposed by MYC. Together, these findings reveal a previously unrecognized MYC-KDM7A cooperative mechanism that silences SIDT2, providing a mechanistic basis for MYC-mediated transcriptional repression and clarifying how oncogenic MYC suppresses dsRNA-driven anti-tumor immune responses.

@@ -1,0 +1,14 @@
+# Alphavirus replicon expressing IL-12 reprograms tumor-associated macrophages and neutrophils and induces anti-tumor immunity
+
+**Poster #**: 2894
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Forrest Bowling1, Momoko Ishikawa1, Dhanya Nambiar2, Jayalaxmi Sastri1, Keiko Ishimoto1, Fumiya Tao1, Koyo Takahashi1, Ivan Stepanek2, Hongbin Cao2, Davis Leitner1, Kenta Matsuda1, Fred Baik2, John Sunwoo2, Quynh Thu Le2, Jonathan Smith1, Wataru Akahata1
+
+1VLP Therapeutics, Inc., Gaithersburg, MD,2Stanford University, Stanford, CA
+
+---
+
+Immunosuppressive myeloid cells such as tumor-associated macrophages (TAMs) and neutrophils (TANs) contribute to resistance against immune checkpoint therapies by fostering a suppressive tumor microenvironment (TME). To overcome this barrier, we developed a single-cycle alphavirus replicon particle (VRP) vector encapsulating self-amplifying RNA (saRNA) encoding interleukin-12 (IL-12) for intratumoral delivery, leveraging the natural tropism of alphaviruses for myeloid cells. The VRP was engineered with a capsid nuclear localization signal mutation to enhance transgene expression and reduce host cell toxicity. In preclinical studies, single-cell RNA sequencing of treated mouse 4T1 breast carcinoma tumors and draining lymph nodes revealed that IL12-VRP preferentially transduced M2-like TAMs and TANs, reprogramming them toward pro-inflammatory phenotypes via interferon signaling. This effect was further amplified by IL-12 expression, leading to expansion of pro-inflammatory Nos2&#8314; macrophage and neutrophil populations. IL12-VRP also activated cytotoxic NK and T cells, inducing IFN-&#947; expression and enhancing anti-tumor immunity. Compared to lipid nanoparticle-based delivery of the same saRNA replicon, IL12-VRP achieved superior tumor control in the MC38 colorectal model with ~1000-fold lower RNA gene copies in the dose. IL12-VRP suppressed MOC2 head and neck model tumor growth, prevented nodal and lung metastases, and remodeled immune landscapes in both tumors and lymphoid tissues. CT26 colorectal carcinoma model mice treated with IL12-VRP exhibited tumor reduction, durable systemic immune memory and rejected subsequent tumor rechallenge. These findings establish IL12-VRP as a potent immunomodulatory platform capable of reprogramming myeloid cells and enhancing adaptive immunity. This approach may improve outcomes in myeloid-dominant TMEs and augment current immunotherapies. Ongoing clinical evaluation (NCT06736379) will determine its translational potential.

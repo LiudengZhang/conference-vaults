@@ -1,0 +1,17 @@
+# Differential impact of short and long-term hypoxia on effector T cell dysfunction
+
+**Poster #**: 4240
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: María Villalba-Esparza1, Ana Lledó-Delgado2, Shruti S. Desai1, Adam Aguirre-Ducler1, Daniel Boiarsky3, Boyu Huang1, Samuel  M.  DeFina1, Javier Ramos-Paradas1, Kurt  A.  Schalper1
+
+1Pathology, Yale University, New Haven, CT,2Immunobiology, Yale University, New Haven, CT,3Medical Oncology, Yale University, New Haven, CT
+
+---
+
+Background: Limiting T cell dysfunction is crucial for improving immunotherapy outcomes in patients with solid tumors, including non-small cell lung cancer (NSCLC). Hypoxia can occur in the tumor microenvironment (TME) and induce tumor infiltrating lymphocytes (TILs) adaptations, yet the impact of sustained hypoxia on human effector T cells remains poorly understood.
+Methods: Using Imaging Mass Cytometry (IMC), we simultaneously mapped 36 markers for cancer cells (DNA, H3, CK, Vimentin, PD-L1, PD-L2, FGL1, CD47, &#946;2M), immune cells (CD3, CD4, CD8, CD20, CD56, CD68, CD45RA, CD45RO, FOXP3, DC-Lamp), functional states (LAG-3, PD-1, TIM-3, VISTA, TBET, EOMES, TOX1/2, TCF7, CD25, CD27, CD137, GZB, ARG1, KI67 and CC3) and hypoxia (HIF1&#945;, CA9) in 114 pre-treatment NSCLCs from two independent cohorts of patients treated with chemotherapy (Cohort 1, n=61) or PD-1 axis blockers (Cohort 2, n=53). Single-cell segmentation enabled the study of the relationship between hypoxia and effector T cell states. To assess functional changes, human PBMCs from healthy donors and in vitro expanded TILs obtained from primary human NSCLCs were exposed to recurrent TCR stimulation for 6 days under normoxia (21% O2) or hypoxia (1% O2). Longitudinal changes in effector T cell phenotype and function were evaluated by flow cytometry, scRNA/ATACseq, migration and cancer cell killing assays.
+Results: In primary NSCLCs, hypoxic CD8+ TILs showed heterogeneous distribution, higher activation and dysfunction markers (CD25, PD-1, LAG-3, TIM-3, TOX1/2, GZB, KI67), and distinct association with patient outcomes. Under normoxia, short-term (1 day) stimulation increased activation, cytokine production and cancer cell killing, followed by progressive acquisition of a dysfunctional state during intermediate (3 days) and long-term stimulation (6 days) characterized by increased markers of dysfunction, proliferation, reduced cytokine production, and impaired migration and cytotoxicity. Under hypoxia, short-term stimulation did not alter the T cell phenotype but reduced TNF&#945; production, migration and tumor killing capacity compared to normoxia. However, prolonged T cell stimulation under hypoxia (3-6 days) led to a distinct phenotype with reduced dysfunction markers, increased cytokine production, and improved migration and killing. Differences were noted between PBMCs and TILs. Long-term stimulation under hypoxia showed distinct transcriptomic and epigenetic changes supporting specific mechanisms underlying the observed responses.
+Conclusions: Hypoxia modifies the activation and functional profile of effector TILs in NSCLC. Short and long-term hypoxia induces opposite phenotypic, functional and molecular changes on effector T cells during recurrent TCR stimulation. These results expand our understanding of the dynamic role of hypoxia on human T cell dysfunction with prominent biological and translational implications.

@@ -1,0 +1,14 @@
+# Novel strategies for targeting B7-H3 to empower precision oncology
+
+**Poster #**: 2917
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Di Zhao
+
+UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Immune checkpoint B7-H3 (encoded by CD276) is an emerging immunotherapy target across diverse cancer types. However, our limited understanding of B7-H3 biology, its dysregulation, and its role in modulating immune and stromal components of the tumor microenvironment (TME) hinders the clinical application of B7-H3-targeting therapy. By leveraging genetically engineered mouse models and multi-omics approaches with single-cell resolution, we identified B7-H3 as one of the most promising checkpoint immunotherapy targets in cancers containing PTEN and TP53 defects. In addition to suppressing T cells, we identified non-canonical dual functions of B7-H3 in modulating myeloid and stromal cells in the TME, thereby promoting cancer progression and therapy resistance. In this study, we answered long-standing questions regarding B7-H3 signaling and its cellular counterpart in the TME, uncovered the cellular and molecular basis of resistance to B7-H3 immunotherapy in cancer treatment, and developed innovative biomarker-driven, combinatorial strategies for B7-H3-targeted immunotherapy in malignancies.

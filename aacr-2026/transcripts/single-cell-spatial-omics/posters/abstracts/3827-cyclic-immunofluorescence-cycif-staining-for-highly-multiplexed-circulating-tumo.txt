@@ -1,0 +1,17 @@
+# Cyclic immunofluorescence (CyCIF) staining for highly multiplexed circulating tumor cell (CTC) imaging using the Genesis Cell Isolation System with Celselect Slides
+
+**Poster #**: 3827
+**Session**: Diagnostic Biomarkers 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Yoon-Tae Kang1, Floyd Watkins2, Dominique Winston2, Marta Gonzalez-Plasky2, Adam Corner1, Nathan Knapp1, David Coe1, Elizabeth Jordan Dreskin1
+
+1Bio-Rad Laboratories, Hercules, CA,2Bio-Rad Laboratories, Ann Arbor, MI
+
+---
+
+Introduction: Blood-based liquid biopsy enables the analysis of CTCs, which is providing a less invasive method for cancer monitoring compared to tissue biopsy methods. Immunofluorescent (IF) staining of CTCs can identify expression of protein markers associated with cancer origin, progression and metastasis. However, conventional IF imaging is limited to 4-5 markers at a time due to the spectral overlap, hindering in-depth insights into disease status and tumor heterogeneity. CyCIF is a method for performing highly multiplexed IF imaging via repeated cycles of imaging and fluorescence inactivation, thus enabling multiple biomarker studies from the same sample, which is crucial for studying extremely rare cells, such as CTCs. Here, we demonstrate on-system CyCIF on CTCs captured using the Genesis Cell Isolation System with Celselect Slides.
+Methods: To run a CyCIF, two destaining buffers and a custom Genesis protocol were prepared. Contrived CTC samples were prepared by spiking breast cancer cells (MCF7) into whole blood from a healthy donor. The samples were processed following the Genesis Enumeration protocol with either Indirect Stain Kit or Indirect Stain Kit. The stained Celselect slides were imaged then destained following a two-step-destaining protocol (destaining and stripping) using hydrogen peroxide and low pH stripping buffer. Upon checking the destaining performance, the slide was re-stained and imaged again using the same antibody panel or a new panel. Hydrogen peroxide can deactivate fluorophores through irreversible chemical oxidation and intentionally erase fluorescent signals. Mild stripping buffer works by disrupting antibody-antigen interactions to remove antibodies, allowing the membrane to be re-probed for different proteins.
+Results: The slide was stained using a standard CTC panel (CK/CD45/DAPI), destained and restained using the same CTC panel. At each step, the slide was scanned and analyzed using the BioTek Lionheart (Agilent) and its Gen5 software under the same exposure time and conditions (LUTs) Over 82 percent of spiked cancer cells were initially captured and stained using the test panel. Upon destaining with the optimized protocol, 90.32% of these cells were detained. Restaining with the same panel resulted in detection of over 85% of the originally captured CTCs. This demonstrates effective on-system CyCIF demonstration for rare cell studies with minimal cell loss.
+Discussion and Conclusions: By combining CTC capture with a custom protocol, we present a cost-effective, efficient, and powerful solution for multiplexed protein marker expression studies on CTCs. This chemistry and protocol can be applied to multiple CTC staining panel applications using one Celselect slide across many sample types, thus maximizing the results with a limited sample type and volume for liquid biopsy.

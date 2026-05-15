@@ -1,0 +1,12 @@
+# The NVL inhibitor benzothiazepinone targets colorectal cancer by blocking ribosome biogenesis
+
+**Poster #**: 998
+**Session**: Computational, Technological, and Mechanistic Advances
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Ye Tao1, Holly Guo1, Min Fang1, VIshal Khivansara1, Shanhai Xie1, Ashley Leach1, Divya Reddy1, Noelle  S.  Williams2, Arin B. Aurora1, Deepak Nijhawan1, Jef  K.  De Brabander11Radiation Oncology, Section in Molecular Medicine, UT Southwestern Medical Center, Dallas, TX,2Dept. of Biochemistry, UT Southwestern Medical Center, Dallas, TX
+
+---
+
+The identification of new cancer-relevant protein targets is a major bottleneck in the discovery of small molecule therapies for the treatment of cancer. To meet this challenge, our team developed a platform that combines cell-based, high throughput phenotypic screens with forward genetics to identify new cancer targets and accompanying small molecule leads. By combining this approach with biochemical reconstitution and structural biology, we identified MM017 (benzothiazepinone scaffold) as a novel small molecule with anti-proliferative activity in colorectal cancer cells and its target nuclear valosin-containing protein-like (NVL), a hexameric AAA+ translocase required for large ribosomal subunit (60S) assembly. Simultaneously, an advanced medicinal chemistry campaign was launched to establish the SAR and to evaluate how continual modification balances the chemical-physical properties of candidate small molecules. Compounds that meet minimal criteria for in vitro ADME properties are progressed through the funnel and further evaluated through preclinical models to assess pharmacokinetics, toxicity, and efficacy.

@@ -1,0 +1,14 @@
+# Reprogramming of the stromal and immune microenvironment in preinvasive breast cancer
+
+**Poster #**: 2259
+**Session**: Tumorigenesis and Early Microenvironmental Trajectories
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Siyuan He1, Aatish Thennavan1, Runmin Wei1, Shanshan Bai1, Jianzhuo Li1, Chante Bethell1, Emi Sei1, Mitchell Rao1, Tapsi Kumar1, Chenling Tang1, Ivan Marin2, Jessica Montalvan2, Chandandeep Nagi2, Bora Lim1, Savitri Krishnamurthy1, Alastair Thompson3, Nicholas E. Navin1
+
+1UT MD Anderson Cancer Center, Houston, TX,2Baylor College of Medicine, Houston, TX,3Baylor College of Medicine, Dan L. Duncan Cancer Center, Houston, TX
+
+---
+
+Ductal carcinoma in situ (DCIS) is the most common form of preinvasive breast cancer. However, our knowledge of the DCIS tumor microenvironment (TME) remains limited. Here, we investigated the TME of estrogen receptor positive DCIS using fresh tissues samples from DCIS, invasive breast cancers and normal breast tissues. In total, 795,585 cells were analyzed from 153 patients by single cell RNA sequencing and 39 samples were profiled with spatial transcriptomics methods (Visium, Xenium). Our data identified reprogrammed vascular cells, fibroblasts and basal cells that encircled the DCIS regions, forming cancer stromal loops (CSL) that support the preinvasive cancer cells. The DCIS regions were highly immunosuppressive, and only lipomacrophages (APOC1+) and interferon T-cells infiltrated. The preinvasive cancer cells showed activation of cell cycling and interferon signaling, while reducing cell growth regulation, RNA processing, secretion and cell adhesion. Collectively, these data show extensive remodeling of the TME in DCIS that persists during invasive progression.

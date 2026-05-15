@@ -1,0 +1,14 @@
+# Loxl2 drives neutrophil-mediated immune evasion and resistance to anti PD-1 therapy in murine melanoma
+
+**Poster #**: 3446
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Jiah Yang1, Emre Arslan2, Veena Kochat3, Suresh Satpati3, Kunal Rai3
+
+1Graduate School of Biomedical Science, UT MD Anderson Cancer Center, Houston, TX,2UT MD Anderson Cancer Center, College Station, TX,3UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Immune checkpoint blockade (ICB) therapy with anti-PD-1 (&#945;PD-1) has revolutionized melanoma treatment; however, response rates remain suboptimal due to innate or adaptive resistance mechanisms. Although substantial efforts have focused on enlightening resistance mechanism and improving the efficacy, the role of epigenetic regulation within tumor remains insufficiently explored.scRNA-seq and scATAC-seq analysis of pre- and post-treatment samples from non-responding melanoma patients revealed upregulation of H3K4 oxidase LOXL2 following nivolumab treatment. LOXL2 expression was enriched in an uncharacterized tumor subcluster, distinct from hypoxic tumor and fibroblast clusters. These findings led us to hypothesize that LOXL2 contributes to immune evasion and promotes &#945;PD-1 resistant tumor microenvironment.To test this, we evaluated the impact of LOXL2 knockdown (KD) in a murine subcutaneous (SQ) melanoma model treated with &#945;PD-1. Tumors were profiled using scRNA-seq to assess cell-type-specific transcriptional changes and immune composition. LOXL2 KD significantly improved a-PD-1 efficacy in B6 SQ tumors, reducing N2 pro-tumorigenic neutrophils and increasing cytotoxic CD8+ T cell infiltration.To investigate how LOXL2 influences tumor-associated neutrophils (TANs) polarization, we examined epigenomic alterations and downstream gene regulation upon LOXL2 KD. We identified SOCS1-mediated NF- &#954;B transcriptional attenuation, along with reduced secretion of pro-inflammatory cytokines (i.e. IL-1&#946;, TGF&#946;) which favors N1 rather than N2 polarization.Collectively, our findings suggest that LOXL2-driven tumors secrete cytokines that promote N2 neutrophil polarization, leading to CD8+ T cell exclusion and resistance to &#945;PD-1 therapy. Targeting LOXL2 may reprogram the tumor immune microenvironment toward an immune-responsive state, offering a potential strategy to enhance ICB response in melanoma.

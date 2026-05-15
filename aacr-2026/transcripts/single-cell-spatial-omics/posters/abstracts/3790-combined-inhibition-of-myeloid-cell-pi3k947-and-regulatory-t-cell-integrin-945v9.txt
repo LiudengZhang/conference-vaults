@@ -1,0 +1,14 @@
+# Combined inhibition of myeloid cell PI3K&#947; and regulatory T cell integrin &#945;v&#946;8 promotes durable tumor suppression
+
+**Poster #**: 3790
+**Session**: Combination Immunotherapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Erpei Wang1, Giuliana Mognol2, MOHAMMAD AMJAD2, Hui Chen2, Mark Paradise2, Dean Sheppard3, judith Varner2
+
+1University of California, San Diego, San Diego, CA,2University of California, San Diego, San diego, CA,3University of California, San Francisco, San Francisco, CA
+
+---
+
+The immunosuppressive tumor microenvironment (TME) remains a critical barrier to effective immunotherapy. Immune suppressive myeloid cells and regulatory T cells can each prevent effective anti-tumor immune responses. The integrin &#945;v&#946;8 promotes immune evasion by serving as a key activator of latent TGF-&#946; in regulatory T cells, while the lipid kinase PI3K&#947; promotes immunosuppressive signaling in myeloid cells. Genetic and pharmacological inhibition of PI3K&#947; stimulates integrin &#945;v&#946;8 expression on regulatory T cells both in mouse models of cancer and in patients enrolled in cancer clinical trials. Inhibition of either &#945;v&#946;8 or PI3K&#947; significantly suppressed head and neck tumor growth, suggesting they each play important roles in modulating anti-tumor immunity. To gain mechanistic insights into the impacts of these therapeutic approaches, we performed single-cell RNA sequencing (scRNA-seq) on HPV+ HNSCC tumors from wild-type (WT) and PI3K&#947; knockout (KO) mice, with or without anti-&#945;v&#946;8 treatment, to investigate the individual and combined impacts of PI3K&#947; inhibition and &#945;v&#946;8 blockade in the TME. RNA velocity and cell-cell communication inference analysis was performed to uncover dynamic regulatory interactions among cell populations. Antagonism of integrin &#945;v&#946;8 led to increased CD8+ T cell infiltration and a reduction in TGF-&#946;-responsive transcriptional programs. PI3K&#947; inhibition promoted a proinflammatory shift in myeloid cells, characterized by diminished M2-like polarization and enhanced antigen presentation, and increased CD8+ T cell recruitment. Together combined inhibition of &#945;v&#946;8 and PI3K&#947; reversed T cell exclusion and promoted durable tumor suppression.

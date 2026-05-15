@@ -1,0 +1,14 @@
+# Role of SRC-3 in regulatory T cells as a modulator of activation and immunological memory
+
+**Poster #**: 165
+**Session**: Immune Cell Biology and Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Davis A. Graham, Yan Xia, Subhashree Pradhan, Amrit Koirala, Xiaobin Yu, Adam M. Dean, Bryan C. Nikolai, Aiden L. Moser, Jianming Xu, Cristian Coarfa, Bert W. O'Malley, David M. Lonard
+
+Molecular and Cellular Biology, Baylor College of Medicine, Houston, TX
+
+---
+
+While Steroid Receptor Coactivator 3 (SRC-3) is best known for its role in promoting proliferation of breast cancer cells, our group has recently identified a key role for SRC-3 in regulatory T cells (Tregs). Treg specific knockout (KO) of SRC-3 results in the long-term eradication of primary tumors in a syngeneic model of triple negative breast cancer. SRC-3 KO Treg mice also can resist rechallenge with a second dose of tumor cells. This long-term anti-tumor immunity points to the potential that SRC-3 KO Treg cells are differentiating into T memory cells. Our data shows that SRC-3 KO Tregs express higher levels of the T memory cell markers CD44 and CD62L than wild type Tregs and that SRC-3 KO Tregs downregulate inducible T-cell co-stimulator (ICOS), c-MAF, and interleukin 10 (IL-10). Utilizing single cell multiome sequencing and subsequent functional assays, we aim to further delineate the role of SRC-3 in Tregs and the impact of SRC-3 KO Tregs on the broader effector immune system. Through these assays we will gain insight into the role that SRC-3 has on T memory cell formation and function and the impact of SRC-3 KO Tregs on other immune cells. This work aims to provide a mechanistic delineation of the long term anti-tumor effects of SRC-3 KO Tregs.

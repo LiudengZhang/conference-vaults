@@ -1,0 +1,12 @@
+# A foundation model of cancer genotype enables precise predictions of therapeutic response
+
+**Poster #**: LB443
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: JungHo Kong1, Ingoo Lee1, Dean Boecher1, Akshat Singhal1, Marcus Kelly1, Jimin Moon2, Chang Ho Ahn2, Chan-Young Ock2, Dexter Pratt1, Tannavee Kumar1, Timothy Sears1, David Laub1, Sarah Wright1, Patrick Wall1, Hannah Carter1, Zhen Wang1, Trey Ideker11University of California San Diego - UCSD, San Diego, CA,2Lunit, Seoul, Korea, Republic of
+
+---
+
+While genetic sequencing is routine in cancer care, translating a tumor’s complex mutation profile into actionable treatment decisions remains a central challenge. Here we introduce MutationProjector, an AI foundation model that projects a tumor genotype into unified coordinates representing its biological state, enabling broad applications in diagnosis and therapy selection. MutationProjector is pre-trained from a large corpus of genomic alterations across 30,000+ tumors, integrated with extensive molecular knowledge. The resulting projection reveals a tumor’s altered molecular pathways, facilitating model interpretation, and it accurately reconstructs held-out mutations, demonstrating model generalization. The projection also stratified squamous cell carcinomas, human papilloma virus (HPV) infection status and expression-based molecular subtypes (i.e. basal versus luminal bladder and breast cancer subtypes), despite not explicitly trained on these tasks. When applied to predict immunotherapy or chemotherapy resistance across multiple cancer types and cohorts, MutationProjector achieves best-in-class performance in all contexts. For instance, in a non-small-cell lung cancer cohort treated with anti-PD1/PD-L1, patients predicted to be sensitive had a one-year progression free survival rate of 39%, compared to 16% for those predicted to be resistant. Furthermore, it identifies unexpected biomarkers, including KMT2A mutation in immunotherapy sensitivity and joint alteration of SMARCA4 and STK11 in immunotherapy resistance. These results establish a unifying framework for connecting tumor genotypes to biological mechanisms and therapeutic outcomes.

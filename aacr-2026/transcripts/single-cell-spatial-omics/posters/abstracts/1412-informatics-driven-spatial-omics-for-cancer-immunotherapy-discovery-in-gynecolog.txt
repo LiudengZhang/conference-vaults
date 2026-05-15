@@ -1,0 +1,17 @@
+# Informatics-driven spatial-omics for cancer immunotherapy discovery in gynecologic cancers
+
+**Poster #**: 1412
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Rongting Huang1, Diane Libert1, Arslan Kasimov1, Leandra Kingsley1, Sahar Nasr1, Reem Al-Humadi1, Lindsey  A.  Finch1, Elisabeth Diver1, Ravali  A.  Reddy2, Babak Litkouhi1, Kristin Bixel1, Sizun Jiang3, Brooke Howitt1
+
+1Stanford University, Stanford, CA,2The University of Texas MD Anderson Cancer Center, Houston, TX,3Harvard Medical School, Boston, MA
+
+---
+
+Endometrial cancer (EC) remains a highly prevalent and understudied malignancy, with aggressive subtypes disproportionately affecting underrepresented populations and lacking effective targeted therapies. Traditional bulk sequencing approaches have provided limited insight into the spatial and cellular heterogeneity that drive EC progression, particularly with respect to how tumor cells interact with their microenvironment and evade the immune system. Our current research focuses on directly addressing these gaps by leveraging large, well-annotated retrospective EC cohorts to apply advanced spatial multi-omics and computational frameworks.
+We propose SPATIAM (Spatial Partitioning of Tumor-Immune Architecture via Multi-omics), a novel computational framework integrating spatial genomics, transcriptomics, and proteomics at single-cell resolution to reconstruct tumor subclonal architecture and map dynamic tumor-immune-stromal interactions in situ. This approach resolves how genetically distinct subclones emerge and interact with their microenvironment and identifies spatially organized immune evasion mechanisms that are invisible in bulk analyses.
+Our longitudinal cohort (unpublished) includes patients treated with immune checkpoint inhibitors, with longitudinal sampling of matched primary untreated, post-chemotherapy, interim (on treatment) immune checkpoint inhibition (ICI) and post-ICI samples. This comprehensive collection was processed into tissue microarrays (TMAs) and subjected to multi-modal spatial and molecular profiling. We employed GeoMx Digital Spatial Profiling for high-plex protein and RNA analysis, Multiplexed Ion Beam Imaging (MIBI) for high-resolution spatial proteomics, and single nucleus RNA sequencing for unbiased transcriptional profiling at single cell resolution. This multi-modal approach enabled the systematic characterization of tumor microenvironment evolution throughout the treatment course, capturing both spatial and molecular dynamics of immune responses.
+This pioneering study presents the first longitudinal, multi-modal spatial and molecular atlas of ICI treatment evolution, integrating samples across treatment timepoints with cutting-edge spatial proteomics, digital spatial profiling, and single-nucleus sequencing to uncover novel mechanisms of therapeutic resistance.

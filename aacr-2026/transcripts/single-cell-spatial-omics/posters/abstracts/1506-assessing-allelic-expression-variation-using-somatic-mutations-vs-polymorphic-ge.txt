@@ -1,0 +1,14 @@
+# Assessing allelic expression variation using somatic mutations vs. polymorphic germline variants
+
+**Poster #**: 1506
+**Session**: Sequence Analysis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Kohei Hagiwara, Bensheng Ju, Nadezhda  V.  Terekhanova, John Easton, Jinghui Zhang
+
+Computational Biology, St. Jude Children's Research Hospital, Memphis, TN
+
+---
+
+Allele-specific expression (ASE) of somatic mutations can be caused by cis-activation of the mutant allele or silencing of the wildtype allele. It has been investigated by examining the enrichment of mutant allele in RNA relative to DNA which can account for increased allelic expression due to somatic copy number alteration. Here we show that this mutation-based approach can be confounded by gene expression differences in tumor and normal cells that co-exist in most bulk tumor samples resulting in enriched mutant allele expression without ASE. By modeling all the relevant co-factors, we show that this confounding effect is exacerbated with low tumor purity and is dependent on mutant allele dosage for mutations that can trigger nonsense-mediated decay (NMD). Our analysis using somatic indels in The Cancer Genomics Atlas (TCGA) dataset found that truncating indel alleles with elevated expression were more prevalent in tumor suppressor genes (TSGs) than in genes not frequently mutated in cancers (non-driver genes) (7.69% vs. 1.76%, Fisher exact p < 2.2&#215;10-16). Consistent with the model, such indels were associated with higher gene expressions in tumor compared to normal and with loss of heterozygosity (LOH) for NMD-sensitive indels in TSGs. By contrast, ASE events of somatic mutations can more accurately be characterized by assessing allelic enrichment of germline heterozygous single nucleotide polymorphisms (SNPs) phased to the somatic mutation. In this SNP-based approach, tumor/normal expression differences and tumor purity exhibit none or minimum confounding effects, discriminating true ASE events caused by cis-regulatory change from those caused by confounding factors. To further evaluate the SNP-based ASE analysis, we performed genome-wide haplotype phasing and single-cell full transcriptome sequencing in the B-cell acute lymphoblastic leukemia (B-ALL) cell line Nalm6. We show that that ASE is a heterogenous process with varying degrees of allele expression biases in different cellular subpopulations even in a cell line model and such transcriptional heterogeneity can potentially contribute to clonal evolution under treatments.

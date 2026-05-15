@@ -1,0 +1,17 @@
+# Macrophages support the growth of pediatric posterior fossa ependymoma type A
+
+**Poster #**: 6136
+**Session**: Metastasis and Organ-Specific Microenvironmental Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Gabrielle  L.  Persad1, Kaitlin Kharas1, Andrea Ribeiro2, Alexandra Rasnitsyn1, Michael  D.  Taylor3, Lincoln David Stein2
+
+1University of Toronto, Toronto, ON, Canada,2Ontario Institute for Cancer Research, Toronto, ON, Canada,3Baylor College of Medicine, Houston, TX
+
+---
+
+Posterior fossa type A ependymoma (PFA), the most prevalent of the nine ependymoma molecular subtypes, predominantly affects the hindbrain of infants and young children and has a five-year overall survival of only 56%. PFA harbors few genetic mutations, aside from H3K27M (2-4% of cases) and chromosome 1q gain (~20%). Instead, PFA displays hypoxia-dependent metabolic and epigenetic regulation. In vitro, even transient exposure of PFA cells to normoxia results in irreversible toxicity and rapid senescence.
+To investigate microenvironmental support, we applied single-cell and spatial transcriptomics to primary PFA tumors. Metabolic pathway analysis revealed that macrophages upregulate glycolysis-related programs. Both macrophages and hypoxic tumor cells exhibited elevated inflammation and glycolysis signatures, suggesting a shared metabolic niche. Spatial mapping revealed a regional hypoxic microenvironment consisting of proliferating PFA cells in close apposition to macrophages.
+Functional studies using co-culture and conditioned media experiments revealed a high-molecular weight diffusible factor in macrophage-conditioned media that enhances PFA cell growth under hypoxia and, strikingly, enables their growth under normoxic conditions, where PFA cells are otherwise non-viable.
+These findings uncover a critical functional interaction between PFA cells and macrophages that supports tumor growth beyond the hypoxic conditions. Exploring and leveraging intercellular crosstalk between PFA and its microenvironment could open up new avenues for novel therapeutic intervention. Additionally, as there are currently no reliable mouse models to study PFA, understanding how the tumor grows could enable the development of the cells and conditions required for successful patient-derived xenograft models.

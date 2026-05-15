@@ -1,0 +1,18 @@
+# Therapeutic targeting of ADAR1 p150 splicing activity impairs CD44+ TNBC cell populations in preclinical studies
+
+**Poster #**: 7105
+**Session**: Novel Antitumor Agents 3
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Wenxue Ma1, Jessica Pham1, Emma Klacking1, Kendale Wirtjes1, Inge van der Werf1, Peggy Wentworth1, Sheldon Morris1, James La Clair1, Michael Burkart2, Catriona Jamieson1
+
+1University of California San Diego, La Jolla, CA,2Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA
+
+---
+
+Background: Triple-negative breast cancer (TNBC) remains clinically challenging due to the lack of targeted therapies and the presence of therapy-resistant tumor-propagating cells. CD44 and ADAR1 contribute to TNBC progression and therapeutic resistance. Rebecsinib is a small-molecule inhibitor designed to block splicing-mediated activation of ADAR1 (adenosine deaminase acting on RNA 1). This study evaluates its efficacy in selectively targeting CD44+ and ADAR1+ cells in preclinical humanized TNBC models.
+Methods: MDA-MB-231 TNBC cell line-derived xenograft (CDX) models were established in Rag2-/-&#947;c-/- and NSG-SGM3 mice. MDA-MB-231 ADAR-nanoluciferase-GFP expressing cells enable tracking of ADAR1 activity by IVIS imaging. Engrafted mice received vehicle, Rebecsinib IV (10 mg/kg), or Rebecsinib PO (15mg/kg), twice a week for two weeks. Tumor burden was measured by IVIS and single-cell suspensions from peripheral blood, and tissues (lung, liver, spleen, and bone marrow) were analyzed by flow cytometry to quantify CD44+ and ADAR1+ cells.
+Results: Rebecsinib significantly reduced CD44+ cells in peripheral blood (p < 0.05), lung (p < 0.01), liver (p < 0.01), and spleen (p < 0.05) in Rag2-/-&#947;c-/- models (Student t test). Corresponding decreases in ADAR1+ cells was observed in the lung (p < 0.05), liver (p < 0.01), and spleen (p < 0.01) in NSG-SGM3 mouse models (Student t test). IVIS imaging demonstrated tumor bioluminescence in Rebecsinib-treated groups (p = 0.02, student t test). Combination with Fedratinib further suppressed tumor growth, indicating a synergistic effect (p < 0.05, student t test).
+Conclusion: Rebecsinib selectively reduces CD44+ and ADAR1+ TNBC cell populations and inhibits tumor progression in humanized preclinical models. These findings support further evaluation of Rebecsinib alone and in combination, as a targeted therapeutic approach for TNBC.
+Keywords: TNBC, ADAR1, CD44, Rebecsinib, targeted therapy, preclinical models.

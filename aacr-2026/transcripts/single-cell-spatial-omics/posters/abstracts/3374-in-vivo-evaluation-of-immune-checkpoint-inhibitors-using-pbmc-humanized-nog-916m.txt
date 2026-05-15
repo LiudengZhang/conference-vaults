@@ -1,0 +1,14 @@
+# In vivo evaluation of immune checkpoint inhibitors using PBMC-humanized NOG-&#916;MHC mice engrafted with PDX tumors
+
+**Poster #**: 3374
+**Session**: Humanized Mouse Models
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Asami Hanazawa1, Seinosuke Sakai1, Masayuki Komatsu1, Chiyoko Nishime1, Naohisa Ogo2, Masami Suzuki1, Jun-ichi Hata1, Akira Asai2, Taichi Yamamoto1
+
+1Central Institute for Experimental Medicine and Life Science (CIEM), Kawasaki, Japan,2Graduate School of Pharmaceutical Societies, University of Shizuoka, Shizuoka, Japan
+
+---
+
+Immunotherapy has emerged as the &#8220;fourth pillar&#8221; of cancer treatment, complementing surgery as well as chemo- and radiotherapies. Among these modalities, immune checkpoint inhibitors (ICIs), particularly anti-PD-1 antibodies, are key tools. Ongoing efforts are focused on identifying novel therapeutic targets and optimizing combination regimens using existing agents. Animal models are indispensable for evaluating the therapeutic efficacy and safety of preclinical drug development. However, conventional syngeneic mouse models often fail to recapitulate human pharmacodynamics and toxicity profiles, especially in molecularly targeted therapeutic contexts, where interspecies differences are pronounced, which underscores the urgent need for translationally relevant platforms.To address this gap, we established mouse models by engrafting human peripheral blood mononuclear cells (PBMCs) into NOG-&#916;MHC mice, followed by the transplantation of patient-derived xenografts (PDXs) or PDX-derived cell lines (PDXCs). These models partially reconstitute human immune components, while PDX/PDXC tumors preserve critical features (e.g., histological architecture, cellular heterogeneity, and tumor microenvironment), thereby allowing for a more faithful modeling of human cancer, including immune-tumor cell interactions. We developed two distinct lung adenocarcinoma-derived PDX/PDXC models and optimized testing schedules tailored to each strain. Using these models, we assessed the antitumor efficacy of an anti-PD-1 antibody (KEYTRUDA&#174;) and a novel IDO1/TDO2 dual inhibitor (KYPS-80), both applied as monotherapies and in combination. Both models exhibited tumor growth suppression across the treatment groups, accompanied by enhanced CD8+ T cell activation. Histopathological analyses revealed tumor nest regression, single-cell necrosis, and fibrosis, indicating a therapeutic response. In conclusion, we developed a robust and translationally relevant platform for evaluating ICIs and combination immunotherapies, which recapitulates key aspects of human immune tumor dynamics and holds promise for advancing preclinical immuno-oncology research.

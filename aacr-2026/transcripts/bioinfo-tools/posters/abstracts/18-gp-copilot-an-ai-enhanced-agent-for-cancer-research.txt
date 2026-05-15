@@ -1,0 +1,12 @@
+# GP CoPilot: An AI-enhanced agent for cancer research
+
+**Poster #**: 18
+**Session**: Agentic AI in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Michael M. Reich, Thorin Tabor, Ted Liefeld, Anthony Castanza, Alexander  T.  Wenzel, Jill  P.  MesirovUCSD Medical Ctr., San Diego, CA
+
+---
+
+We have released GP CoPilot, a large language model (LLM)-based, chatbot-style interface allowing scientists to design and execute bioinformatic analyses and workflows conversationally. Agentic features range from basic operations such as managing files and finding and executing available analyses, to more complex behaviors such as designing workflows, monitoring running jobs, and executing bulk actions. The addition of a knowledgebase containing detailed information about the available analyses, use of the software tools, and a help forum with over 20 years of questions and answers, ensures that the recommendations that GP CoPilot provides are in general more accurate and specific than those provided by plain LLMs alone such as ChatGPT, Claude, Gemini, etc.GP CoPilot uses as its base the GenePattern platform for reproducible genomics research. First released in 2004, GenePattern provides non-computational scientists with a web-based, code-free user interface to hundreds of genomic analysis tools. These include preprocessing, expression analysis for bulk and single-cell RNA-Seq data, network and pathway analysis, proteomics, flow cytometry, as well as many general machine learning methods. Cancer-specific analyses include copy number alteration using GISTIC 2.0, significance of variants with MutSigCV, driver gene identification with MutPanning, ecDNA identification and structure elucidation with AmpliconArchitect, variant annotation with OpenCRAVAT, etc. A pipeline building tool allows for the creation of detailed workflows. When analyses are run, their inputs, parameters, and code version are recorded, ensuring reproducibility.The integration of large language models with the GenePattern platform enables a user interface that surpasses previous efforts at providing scientists with the power to design complex workflows without the learning curve required to become proficient with a tool. Even technical users can shorten the time it takes to perform analyses due to the ease with which an agent can perform low-level tasks such as retrieving data from web sites and reformatting datasets.

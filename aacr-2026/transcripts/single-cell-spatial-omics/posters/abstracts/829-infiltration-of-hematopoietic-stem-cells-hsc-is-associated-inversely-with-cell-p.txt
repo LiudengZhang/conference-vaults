@@ -1,0 +1,17 @@
+# Infiltration of hematopoietic stem cells (HSC) is associated inversely with cell proliferation, with better patient survival, and its reduction by neoadjuvant chemotherapy relates with poor survival in breast cancer
+
+**Poster #**: 829
+**Session**: Stem Cell Plasticity and Lineage Reprogramming in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Masanori Oshi1, Rongrong Wu1, Li Yan1, Takashi Ishikawa2, Itaru Endo3, Kazuaki Takabe1
+
+1Roswell Park Comprehensive Cancer Center, Buffalo, NY,2Breast Surgery, Tokyo Medical University, Tokyo, Japan,3Yokohama City University, Yokohama, Japan
+
+---
+
+Background: Hematopoietic stem cell (HSCs), also known as blood stem cells, are self-renewable cells that can develop into all types of blood cells. They are found in bone marrow and peripheral blood. However, the clinical relevance of HSCs in breast cancer (BC) tumor microenvironment (TME) remains unknown. The aim of this study was to elucidate the clinical significance of HSC infiltration in the TME of BC.
+Methods: In silico analyses were conducted on 5,176 BC patients, including large independent cohorts; The Sweden Cancerome Analysis Network-Breast (SCAN-B) and the Molecular Taxonomy of Breast Cancer International Consortium (METABRIC), as well as multiple single-cell sequenced cohorts. HSC were identified through the xCell algorithm, and patients with high HSC levels were defined as those with HSC expression above the median in each cohort.
+Results: Fraction of HSCs ranged from 0.04-0.50% of all cells in BC TME by single cell transcriptome analyses. HSC infiltration was not correlated with its lineage cells, common myeloid progenitor cells and common lymphoid progenitor cells, but was associated with high infiltration of dendritic cells and stromal-related cells and low infiltration of Myeloid-related cells; M1-macrophages, and eosinophils, and lymphoid-related cells; Th1 cells, Tregs, NK T cells, and memory B cells. HSC high BC enriched TGF-&#946; signaling, myogenesis, coagulation, and angiogenesis gene sets. On the other hand, all the cell proliferation-related gene sets in Hallmark collection; E2F targets, G2M checkpoint, MYC targets-v2, and mitotic spindle, enriched to low HSC BC, and HSC infiltration was significantly lower in high histological grade BC and in Ki67 high expression BC. HSC high patients were significantly associated with better overall survival compared to low patients in ER+/HER2- (both p<0.02), but not in TNBC in both cohorts. Interestingly, there was no survival difference by HSC infiltration in ER+/HER2- when neoadjuvant chemotherapy (NAC) was used. Together with our finding that HSC in the TME markedly reduced by NAC, we cannot help but speculate that the loss of HSCs by NAC may have contributed to loss of their benefit in patient prognosis. Lastly, high levels of HSC were associated with significantly lower risk of lung metastasis and better survival, but not with brain and bone metastases.
+Conclusions: This is the first report that quantified HSCs in TME using transcriptome and demonstrated that they are rare, associated inversely with cell proliferation and with better survival in ER+/HER2- BC patients. Survival benefit of HSC infiltration was lost with NAC that reduce its infiltration. HSC high BC was associated with lower risk of lung metastasis and with better survival, but not with brain nor bone metastasis.

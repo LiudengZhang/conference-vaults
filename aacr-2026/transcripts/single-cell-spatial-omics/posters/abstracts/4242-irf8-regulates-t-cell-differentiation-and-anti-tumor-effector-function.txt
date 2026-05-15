@@ -1,0 +1,14 @@
+# IRF8 regulates T cell differentiation and anti-tumor effector function
+
+**Poster #**: 4242
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Zainab Tiamiyu1, Dakota Poschel2, Aaron Behdadnia1, Kendra Fick1, Patrick Czabala3, Yang Zhao1, Dafeng Yang3, Sergie BOMBIN4, Kebin LIU3
+
+1Biochemistry and Cancer Biology, Augusta University, Augusta, GA,2Medical College of Georgia, Augusta, GA,3Augusta University, Augusta, GA,4Georgia Cancer Center, Augusta, GA
+
+---
+
+Interferon regulatory factor 8 (IRF8) is a myeloid cell lineage-specific transcription factor that also regulate B cell differentiation under physiological conditions. Under pathological conditions such as cancer, IRF8 acts as a negative regulator of myeloid-derived suppressor cells (MDSCs) to regulate anti-tumor immunity. However, the function of IRF8 in regulation of the adaptive immune response in the tumor microenvironment is incompletely understood. We therefore aimed at building a single cell atlas of IRF8-regulated immune cell differentiation in the tumor microenvironment using genome-wide single-cell multiomics. Unsupervised clustering in combination with maker-based annotation identified 12 major cell subpopulations in tumor-infiltrating leukocytes. IRF8 deficiency resulted in increased myeloid-derived suppressor cells (MDSCs) and memory T cells, but decreased plasmablasts, dendritic cells, and effecter T cells. Pathway enrichment analysis indicates that IRF8 primarily regulates multiple metabolic pathways in plasmablasts. In addition, IRF8 deficiency enhances TCR signaling, MTOC1 signaling, IFN&#947; signaling, and T cell dysfunction in tumor-infiltrating effector T cells, but not in memory T cells. This hyperactivation is correlated with increased activation of apoptosis pathways in effector T cells. Our findings determine that IRF8 regulates the plasmablasts-effector T cell axis in the tumor microenvironment, and loss of IRF8 expression leads to decreased plasmablasts and hyper activation and dysfunction of effector T cells, resulting in effector T cell elimination and tumor immune escape.

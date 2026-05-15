@@ -1,0 +1,17 @@
+# Spatial profiling of the neuroblastoma tumor microenvironment using seqFISH
+
+**Poster #**: 3964
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Christopher Riccardi1, Michal Polonsky2, Michael  J.  Zobel1, Rebekah Kennedy1, Melody Khoshneviszadeh1, Anya Zdanowicz1, Bruce Pawel1, James Amatruda1, Long Cai2, Shahab Asgharzadeh1
+
+1Children's Hospital Los Angeles, Los Angeles, CA,2California Institute of Technology, Pasadena, CA
+
+---
+
+Background: Neuroblastoma is the most common extracranial solid tumor of childhood, and high-risk disease remains difficult to treat. Increasing evidence suggests that interactions among tumor cells, immune populations, and stromal elements influence progression and therapeutic response. However, the spatial organization and subtype diversity of these populations within intact tumors remain poorly defined.
+Methods: We applied seqFISH, a spatial transcriptomic platform, to eight regions of interest (ROIs) from fresh-frozen tumors of seven patients using a custom 2,514-gene panel, and to three ROIs from two tumors using a commercial 516-gene immuno-oncology panel. Tumor specimens represented a range of clinical risk groups and included primary, metastatic, MYCN-amplified, and post-therapy states. All samples were analyzed and integrated using the scVI Python package, a deep generative model that extracts latent embeddings from high-dimensional data while mitigating batch effects and preserving biologically relevant structure. To assign cell identities, we developed a novel joint-analysis algorithm that integrates seqFISH data with the NBAtlas single-cell RNA-seq reference (362,991 cells across 61 patients), enabling initial mapping of major neuroblastoma, immune, and stromal lineages, followed by refinement through spatial context, proximity relationships, and canonical marker gene expression. CAFs, TAMs, and T-cell populations were re-integrated separately to resolve subtype structure, and spatial statistics methods were used to identify cell-type associations occurring more frequently than expected by chance.
+Results: We profiled over 450,000 spatially resolved cells and identified major cell types with high-confidence NBAtlas-guided assignments. Neuroblastoma tumor cells displayed proliferative signatures associated with clinical risk, mirroring patterns observed in NBAtlas. We resolved diverse stromal states - including vascular, inflammatory, interferon-stimulated, myofibroblastic, and tumor-like CAFs - and distinguished M1- and M2-like TAM subsets in situ. Spatial analyses revealed conserved neighborhoods, including enrichment of CD4&#8314; na&#239;ve/central-memory T cells adjacent to inflammatory CAFs and strong co-localization between vascular CAFs and endothelial cells.
+Conclusion: By integrating seqFISH with a large neuroblastoma single-cell reference, we generate a detailed spatial map of the neuroblastoma tumor microenvironment. This combined approach enables refined identification of cellular subtypes and reveals reproducible microenvironmental structures that may influence tumor behavior and therapeutic vulnerability. Ongoing efforts include expanding sample size, incorporating spatial copy-number analysis, and applying this framework to additional pediatric solid tumors.

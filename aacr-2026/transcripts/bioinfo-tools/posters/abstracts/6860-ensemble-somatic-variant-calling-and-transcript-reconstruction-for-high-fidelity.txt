@@ -1,0 +1,12 @@
+# Ensemble somatic variant calling and transcript reconstruction for high-fidelity neoantigen discovery in mRNA cancer vaccine design
+
+**Poster #**: 6860
+**Session**: Network Biology and Precision Medicine
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Po-Yuan Chen1, Mi-Hua Tao2, Tai-Ming Ko31Academia Sinica, Taipei, Taiwan,2Research Fellow, Academia Sinica, Taipei, Taiwan,3National Yang Ming Chiao Tung University, Hsinchu, Taiwan
+
+---
+
+Personalized neoantigen vaccines require accurate identification of tumor-specific epitopes with clinical-grade confidence. However, pipelines that rely on single-caller somatic variant detection and reference-based transcript reconstruction often inflate false-positive neoantigens and mishandle complex mutations such as frameshifts and stop-codon disruptions, limiting the fidelity of candidates for mRNA cancer vaccines. We developed a GPU-accelerated workflow integrating whole-exome sequencing (WES) and RNA-seq, implemented on NVIDIA Parabricks to achieve more than a tenfold reduction in preprocessing time compared with conventional CPU-based pipelines. Somatic variants are identified using an ensemble consensus (≥2 of DeepSomatic, Strelka2 and VarScan), reducing inter-caller discordance while preserving biologically plausible events; germline variants are called with GATK HaplotypeCaller. To support neoepitope generation, we implemented a transcript reconstruction module that integrates all germline and somatic variants into patient-specific, strand-aware open reading frames, applies context-dependent peptide trimming (for example, ±20 amino acids for SNVs and dynamic windows for indels), and validates candidate coding changes against sequencing evidence, resolving multi-isoform usage and early terminations. Benchmarked on clinical solid tumor samples, the ensemble strategy improved reproducibility across technical replicates and showed high concordance with orthogonal variant validation. The reconstruction module robustly recovered mutant transcripts in diverse genomic contexts and enabled precise neoepitope extraction and HLA-binding prediction. Integrated with HLA genotyping and MHC binding models, this reproducible pipeline mitigates upstream sources of epitope inflation and provides a scalable bioinformatics framework for high-fidelity neoantigen discovery in personalized mRNA cancer vaccine design.

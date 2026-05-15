@@ -1,0 +1,17 @@
+# Single-cell profiling of NK cells in chronic myeloid leukemia identifies distinct cell states with gene regulatory signatures associated with differential outcomes after imatinib discontinuation
+
+**Poster #**: 5917
+**Session**: Genetic and Transcriptomic Dissection of Cancer Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Santoshi Borra1, Da Yan2, Robert  S.  Welner3, Zongliang Yue4
+
+1Department of Bioinformatics, Indiana University, Bloomington, IN,2Department of Computer Sciences, Indiana University, Bloomington, IN,3Department of Medicine, University of Alabama at Birmingham, Birmingham, AL,4Department of Health Outcomes Research and Policy, Auburn University, Auburn, AL
+
+---
+
+Background: Treatment-free remission (TFR) is an emerging therapeutic goal in chronic myeloid leukemia (CML), achieved by ~40% of patients who discontinue tyrosine kinase inhibitor (TKI) therapy after maintaining a deep molecular response. However, the immunogenomic mechanisms that distinguish sustained remission from molecular relapse remain incompletely defined. Previous single-cell RNA (scRNA-seq) and TCR sequencing studies revealed that CML is characterized by an expanded population of activated CD56dim natural killer (NK) cells and anti-PR1 T cells that mediate anti-leukemic immunity.
+Methods: Building on these findings, we reanalyzed NK cell transcriptomes from six CML patients, two with early relapse, two with late relapse, and two maintaining durable TFR, using an integrated computational framework combining unsupervised clustering, pseudotime trajectory inference, gene regulatory network (GRN) reconstruction, and artificial intelligence-assisted gene panel discovery. Longitudinal samples collected at TKI discontinuation and at 6- and 12-month post-therapy were analyzed to delineate transcriptional dynamics and regulatory drivers of immune outcomes.
+Results: Comparative GRN modeling revealed distinct transcription factor modules governing NK cell activation, differentiation, and exhaustion. Patients maintaining TFR exhibited higher activity in RUNX3, EOMES, ELK4, and REL regulons, whereas relapse cases showed modules enriched for FOSL2 and MAF with inflammatory/translational targets. Pseudotime analysis revealed altered state-transition kinetics between functional NK subtypes, with accelerated exhaustion trajectories in relapsing patients. An AI-guided gene prioritization model further identified a gene NK cell regulatory panel, including previously uncharacterized transcriptional mediators that robustly separated TFR, late relapse, and early relapse groups. Pathway enrichment linked these genes to IFN-&#947; signaling, metabolic reprogramming, and immunoregulatory feedback networks.
+Conclusions: This integrative reanalysis highlights transcriptional control and regulatory network rewiring as key determinants of immune persistence versus exhaustion following TKI cessation. The AI-derived gene panel provides a scalable framework for exploratory biomarker discovery and mechanistic stratification of CML remission outcomes. Together, these findings advance our understanding of the immune architecture underlying successful TFR and identify candidate transcriptional targets to improve remission durability in CML.

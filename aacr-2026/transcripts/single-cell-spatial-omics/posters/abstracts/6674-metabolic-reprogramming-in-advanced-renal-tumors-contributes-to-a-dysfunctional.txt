@@ -1,0 +1,16 @@
+# Metabolic reprogramming in advanced renal tumors contributes to a dysfunctional immune response and immune exhaustion within the tumor microenvironment
+
+**Poster #**: 6674
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Lakshmi Chandramohan, Kirsteen Maclean, Sergio Hernandez, Brigitte Lovell, Courtney Todorov, Harry Nunns, Jiong Fei, Judy Kuo, Erinn  A.  Parnell, Qingyan Au
+
+NeoGenomics, Fort Myers, FL
+
+---
+
+Background: Renal cell carcinoma (RCC), a malignancy arising from renal tubular epithelial cells, represents 2-3% of global cancer diagnoses and 85% of all kidney neoplasms with the most common histological subtype being clear cell renal cell carcinoma (ccRCC), an immunologically and histologically diverse tumor associated with poor clinical outcomes. While significant progress has been made in the development of immunotherapy for ccRCC, there are still many unanswered questions regarding mechanisms of immune evasion and resistance, and the development of predictive biomarkers for optimal treatment strategies for individual patients. Emerging evidence suggests that metabolic reprogramming marked by dynamic shifts in nutrient utilization that extend beyond canonical Warburg physiology to include lipid anabolism, nutrient scavenging, catabolic pathways and microenvironment-driven metabolic plasticity, is central to overall ccRCC pathogenesis. This orchestrated rewiring of cellular dynamics has been suggested to sustain tumor proliferation under hypoxia while fostering immunosuppression through metabolite-mediated T cell exhaustion. We therefore investigated the phenotype, functional states, and metabolic competencies of RCC immune cell populations, evaluating their potential associations with tumor clinicopathological features and stage-specific metabolic conditions.
+Methods: To investigate the complex interplay between the immunogenic nature of ccRCC tumors and metabolic reprogramming, we performed an integrative multi-omic analysis, combining transcriptomic and spatial proteomic data. We profiled 16 ccRCC patient samples representative across all clinical TNM stages (Stages I-IV) to define the potential changes in metabolic processes and infiltrating immune cells that correlated with advancing disease. Specifically, we incorporated the new PaletrraTM end to end spatial proteomic multiplexed immunofluorescence (mIF) workflow (NeoGenomics Laboratories, Inc.) and qualified a panel that includes: CD3, CD4, CD8, FoxP3, CD68, CD80, CD163, CD206, CA9, CD31, LAG3, PD1, PanCK. NanoString nCounter&#174; Metabolic Pathways Panel testing was performed on these samples to investigate metabolic reprogramming, cellular stress, and their relationship to TME composition in advancing disease progression in ccRCC.
+Results and Conclusions: We identified substantial TME-driven changes, notably the presence of immunosuppressive immune cells in advanced ccRCC disease, coupled with identification of several metabolism-related genes showing strong correlations with immune infiltration in ccRCC. Identifying and understanding these metabolic alterations within the different staging of RCC will help in designing new targeted therapies and improving diagnostic tools to improve care for patients with this disease.

@@ -1,0 +1,14 @@
+# Cellular senescence in the cancer microenvironment
+
+**Poster #**: 6010
+**Session**: Senescence and Cell Stress
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Subhiksha Meenakshisundaram, Robyn Laura Kosinsky, Dominik Saul
+
+Robert Bosch Centre for Tumor Diseases, Stuttgart, Germany
+
+---
+
+Cellular senescence is a stress-induced state of stable cell cycle arrest accompanied by sustained metabolic activity. In the context of cancer, senescence acts as a double-edged sword, halting cell growth while simultaneously creating conditions that favor tumor advancement. To understand the pro-tumorigenic effects of senescence, we analyzed publicly available single-cell RNA-seq datasets of six major cancers, with a refined and robust definition of cellular senescence based on cell-cycle arrest and senescence-associated secretory phenotype (SASP) gene signatures. We quantified senescent cell burden in six cancers and observed a significant enrichment in colorectal and pancreatic tumors compared to healthy controls. Comparative genomic and transcriptomic analyses revealed that senescent tumor cells exhibit distinct molecular features, reflecting a reprogrammed senescence biology within tumors. Trajectory inference analysis demonstrated that senescence represents a terminal cellular state, indicating that tumor-associated senescence constitutes a reprogrammed, terminal fate. Having characterized senescence at the single-cell level, we next examined the spatial impact of its SASP. Spatial transcriptomic analysis revealed that SASP signaling acts as a key mediator of local inflammation and promotes bystanding cells across the tumor microenvironment. By inducing cellular senescence in colorectal and pancreatic cancer cell lines in vitro, we confirmed the senescence induction using telomere associated foci (TAF) staining and profiled their molecular signatures. Given the pro-tumorigenic effects of senescent cells, we subsequently evaluated the impact of senolytic drugs and treated these senescent cells with senolytics, namely Dasatinib and Quercetin (D+Q) as well as fisetin. Both senolytic treatments effectively reduced the expression of senescent markers, confirming selective clearance of senescent cells. The treatment also significantly reduced tumor proliferation. Collectively, our findings refine the molecular and spatial characterization of tumor-associated senescence and highlight senolytics as a promising therapeutic strategy to mitigate its tumor-promoting effects and controlling tumor growth in distinct tumor entities.

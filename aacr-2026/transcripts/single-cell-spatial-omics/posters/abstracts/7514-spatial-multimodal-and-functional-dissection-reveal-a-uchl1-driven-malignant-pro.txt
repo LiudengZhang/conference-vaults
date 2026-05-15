@@ -1,0 +1,14 @@
+# Spatial multimodal and functional dissection reveal a UCHL1-driven malignant program in clear cell renal cell carcinoma
+
+**Poster #**: 7514
+**Session**: Tumor Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yize Li1, Wagma Caravan1, Xiyi Wei1, Kapur B. Dhami1, Kazuhito Sato1, Xiangwei Fang1, Preet Lal1, Hongyi Liu2, Lijun Chen2, Cody Weimholt1, Hui Zhang2, Li Ding1, Feng Chen1
+
+1Washington University in St. Louis, Saint Louis, MO,2Johns Hopkins University, Baltimore, MD
+
+---
+
+Clear cell renal cell carcinoma (ccRCC), the most common subtype of kidney cancer, exhibits substantial molecular and spatial heterogeneity that contributes to therapeutic resistance and poor clinical outcomes. Our previous work identified UCHL1 as a marker of aggressive ccRCC, but its mechanistic role in tumor progression remained unclear. To further elucidate UCHL1 function, we integrated single-nucleus RNA sequencing (snRNA-seq) from 67 tumors with bulk proteogenomics and spatial assays addressing molecular coverage and spatial specificity. Our refined tumor-intrinsic UCHL1 classification identified a distinct ccRCC subgroup characterized by elevated UCHL1 mRNA and protein abundance. The UCHL1-high subgroup, comprising 19% of tumors in this cohort, was significantly associated with BAP1 mutants, immune infiltration, and poor prognosis. The spatial mapping in Xenium indicated UCHL1-high tumors displayed enhanced interactions with an immune-inflamed tumor microenvironment (TME), whereas UCHL1-low tumors were enriched for immune-desert regions dominated by endothelium and VEGF signaling. Furthermore, we observed spatial dynamics in UCHL1 expression arising from distinct subclones within the same tumor, reflecting the intratumoral heterogeneity in the UCHL1-high subgroup. Our functional studies demonstrated that UCHL1 knockout and downregulation markedly suppressed ccRCC cell proliferation and tumorigenicity in vitro and in cell line-derived xenograft (CDX) models. Pharmacological inhibition of UCHL1 consistently reduced tumor growth in ccRCC cell lines. The corresponding cell line proteomics and post-translational modification profiling, including phosphorylation and ubiquitination, delineated that UCHL1 regulated key tumor-promoting pathways of inflammation and epithelial-mesenchymal transition (EMT) through NF-&#954;B activation. Notably, the RESL9 patient-derived xenograft (PDX) model responded robustly to the UCHL1 inhibitor, exhibiting pronounced tumor growth suppression. Collectively, these findings establish UCHL1 as a critical molecular driver and therapeutic target in ccRCC, supporting the potential of UCHL1-directed monotherapies or combination regimens to improve outcomes for patients with advanced ccRCC.

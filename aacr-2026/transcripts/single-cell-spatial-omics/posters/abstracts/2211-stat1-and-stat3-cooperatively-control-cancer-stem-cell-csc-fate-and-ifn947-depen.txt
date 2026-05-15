@@ -1,0 +1,17 @@
+# STAT1 and STAT3 cooperatively control cancer stem cell (CSC) fate and IFN&#947;-dependent CSC maintenance
+
+**Poster #**: 2211
+**Session**: Metabolic and Transcriptional Control of Cancer Stem Cell Plasticity
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Sophia Hidalgo1, Anushka Poola1, Yipeng Zhang1, Rachel Zhou1, Kourosh Kouhmareh2, Jack  D.  Bui1, Magalie Dosset1
+
+1Department of Pathology, UC San Diego, La Jolla, CA,2UC San Diego School of Medicine, La Jolla, CA
+
+---
+
+Background: Cancer stem cells (CSCs) are a rare tumor cell subset with self-renewal and differentiation capacity that drives tumor initiation, heterogeneity, metastasis, and therapy resistance. Interferon-&#947; (IFN&#947;) has been implicated in regulating CSC fate, but its effects are highly context dependent. How the intrinsic balance between opposing IFN&#947; pathway effectors such as STAT1 and STAT3 shapes CSC properties remains poorly understood.
+Methods: Breast (4T1, PY230) and sarcoma (F244, F236, H74) cell lines were exposed to high acute or persistent IFN&#947; stimulation. STAT1/STAT3 were deleted via CRISPR-Cas9. Retroviral transfection was used to restore STAT1 in STAT1-deficient H74 sarcoma cells. CSC induction was monitored using molecular and sphere formation assays for in vitro and in vivo experiments. Bioinformatic analyses include single-cell and bulk-RNA sequencing from public databases of human breast cancer.
+Results: In this study, we found that cancer cell lines with higher expression of stem-cell-associated markers at baseline tend to have a lower STAT1/ STAT3 ratio and/or constitutive STAT3 activation. Exposure to acute high dose of IFN&#947; or persistent exposure to IFN&#947; led a progressive increase of CSC-associated genes (e.g. Zeb1, Bst2, Tert). STAT1 depletion favored CSC induction, while STAT3 loss led to increased cell death both with or without IFN&#947; stimulation. Interestingly, combined STAT1/STAT3 depletion markedly increased sphere size independently of IFN&#947; treatment, indicating that those two transcription factors may cooperate to restrain CSC proliferation. In vivo, STAT1-deficient H74 sarcoma cell line exhibited accelerated tumor progression and CSC induction in an IFN&#947;-dependent manner. By contrast, restoration of STAT1 completely abrogated H74 tumor growth in immunocompetent but not immunodeficient mice, confirming that STAT1 limits CSC induction by sensitizing tumor cells to immune-mediated cytotoxicity. Finally, single-cell RNAseq of human breast cancer cells revealed an inverse correlation between STAT1 and STAT3 expressions. STAT1-negative tumor cells with high IFN&#947; score were enriched in EMT- and apoptosis-related programs. Consistently, IFN&#947;hi/STAT3hi breast tumors exhibited a stronger EMT signature and were associated with poorer clinical outcomes compared with IFN&#947;hi/STAT3lo tumors.
+Conclusions: Modulating the STAT1/STAT3 balance can suppress CSC expansion and preserve tumor cell vulnerability to immune-mediated killing. STAT1-sufficient tumors respond to IFN&#947; typically by increasing immunogenicity and limiting CSC potential, whereas STAT1-deficient tumors respond to IFN&#947; by increasing CSC properties. These results suggest that STAT1 serves as a toggle for anti- and pro-tumor effects of IFN&#947;.

@@ -1,0 +1,14 @@
+# Exploring high-resolution subtypes for pancreatic ductal adenocarcinoma via a meta-clustering approach
+
+**Poster #**: 1427
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Nick Boos Peterson, Jieqiong Wang, Shibiao Wan
+
+University of Nebraska Medical Center, Omaha, NE
+
+---
+
+As the third leading cause of cancer death in the United States, pancreatic cancer (PC) is a malignancy with a very low 5-year survival rate. Early diagnosis and treatment of PC remain challenging due to the lack of reliable clinical indicators such as biomarkers. Pancreatic ductal adenocarcinoma (PDAC) is the most common PC subtype, accounting for over 90% of cases. Identifying PDAC subtypes is essential for downstream risk stratification and tailored treatment design. PDAC is conventionally categorized into four molecular subtypes, i.e., aberrantly differentiated endocrine exocrine (ADEX), immunogenic, squamous, and pancreatic progenitor. However, numerous studies have demonstrated high heterogeneity within these 4 molecular subtypes, indicating that exploring high-resolution subtypes for PDAC is highly needed. Conventional wet-lab techniques like molecular profiling and histopathological studies are time-consuming, costly, and laborious. To fill these gaps, we developed a meta-clustering approach to leverage transcriptomics data to explore high-resolution PDAC subtypes. Specifically, we first leveraged random projection (RP) to reduce the dimensions of the PDAC RNA-seq data, which were then clustered by our base clustering method using the Leiden algorithm. To obtain robust results, we implemented 15 runs of RP-based Leiden clustering. Then, we performed meta-clustering of these 15 clustering results by adopting a weighted meta-clustering (wMetaC) architecture from our previous published single-cell analysis method named SHARP. Results suggested that our proposed approach significantly outperformed state-of-the-art clustering methods for PDAC subtyping. Moreover, our meta-clustering approach performed substantially better than all individual base clustering methods. We further performed cluster-specific differential gene expression analysis, pathway analysis and gene-drug-disease association studies, suggesting that our newly identified PDAC sub-clusters were distinctive among different clusters. We expect our proposed approach will provide a robust framework for high-resolution PC subtype characterization for accurate downstream risk assessment and personalized treatment design.

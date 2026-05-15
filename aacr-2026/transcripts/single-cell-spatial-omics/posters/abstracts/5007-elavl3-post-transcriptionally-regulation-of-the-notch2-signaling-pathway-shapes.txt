@@ -1,0 +1,16 @@
+# ELAVL3 post-transcriptionally regulation of the NOTCH2 signaling pathway shapes the plasticity of small cell lung cancer
+
+**Poster #**: 5007
+**Session**: Signaling Pathways, Metabolism, and Emerging Therapeutic Targets
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Shuangsi Liao1, Zichong Peng1, Kai Kang1, Shanghai Liu1, Hui Wang1, Yufeng Zhang1, Ren Luo1, Linglu Yi1, Feifei Na2, Guo Lin1, Yue Zheng1, Jianxin Xue1, You Lu1, Zhuoran Yao1
+
+1West China Hospital of Sichuan University, Chengdu City, China,2Sichuan University, Chengdu, China
+
+---
+
+Background: Small cell lung cancer (SCLC) is a highly aggressive and heterogeneous malignancy, typically classified into four phenotypic subtypes by different transcription factors, referred to as ANYP. Recent studies have highlighted the plasticity between these subtypes, especially neuroendocrine (NE)/ non-NE states, which closely linked to treatment resistance. Emerging evidence suggests that stabilizing the SCLC phenotype could be advantageous for improving clinical outcomes. In this study, we identified a novel RNA-binding protein, ELAVL3, as a key player in the plasticity of SCLC. We discovered that ELAVL3 promotes a more NE-like progression of SCLC by post-transcriptionally disrupting the NOTCH2 signaling pathway. This finding offers new insights into the molecular mechanisms driving SCLC plasticity and proposes potential targets for therapeutic intervention.
+Methods and Result: Through analysis of single-cell RNA sequencing data from 20 of our SCLC patients and some public databases, ELAVL3 expression is found to be positively correlated with NE signatures in both SCLC cell lines and patient tumors. Transcriptomic analysis and Western blotting results in SCLC cell lines showed that pharmacological inhibition of ELAVL3 with xxx activates NOTCH signaling pathways and induces the loss of NE features, while ELAVL3 overexpression reduces NOTCH2 mRNA levels and helps to maintain the NE characteristics. Some molecular experiments, including RNA immunoprecipitation (RIP)-qPCR, RIP-sequencing and RNA pulldown, further discovered that ELAVL3 extensively binds to and interferes with the RNA stability of NOTCH2 signaling pathway members, thereby enhancing the NE program.Our previous studies have found that immunotherapy (IO) combined with radiotherapy (RT) can be effective for chemotherapy resistant subcutaneous SCLC, which is non-NE type, for a certain period of time. By single-cell RNA sequencing of tumor at multiple time points after IO+RT, we identified a close association among highly expressed ELAVL3, inactivated NOTCH signaling, restored NE characteristics and acquired therapy resistance. After testing various combination therapies in SCLC cell lines, patient-derived organoids, patient-derived tumor xenograft model, and murine SCLC model, we revealed that the inhibition of ELAVL3 hold their differentiation into non-NE types, which better corresponded to the immuno-combination therapies for SCLC after chemotherapy resistance.
+Conclusions: This study nominates ELAVL3 as a key regulator of the NE state plasticity and defines a novel therapeutic strategy for SCLC.

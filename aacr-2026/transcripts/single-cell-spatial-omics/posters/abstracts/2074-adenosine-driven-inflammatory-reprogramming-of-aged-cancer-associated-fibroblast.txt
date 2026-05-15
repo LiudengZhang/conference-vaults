@@ -1,0 +1,17 @@
+# Adenosine-driven inflammatory reprogramming of aged cancer-associated fibroblasts promotes immune suppression in pancreatic ductal adenocarcinoma
+
+**Poster #**: 2074
+**Session**: Aging and Host Determinants of Tumor Progression: The Macroenvironmental Axis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Shuncang Zhu1, Jinpeng Lu1, Ziyi Tu1, Hongyi Lin2, Yinhao Chen1, Yiting Chen3, Haoxiang Zhang4, Zuwei Wang2, Shi Chen2
+
+1Shengli Clinical Medical College of Fujian Medical University, Fuzhou, China,2Department of Hepatobiliary Pancreatic Surgery, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China,3College of Biological Science and Engineering, Fuzhou University, Fuzhou, China,4University of Kentucky, Lexington, KY
+
+---
+
+Background: Aging exerts a profound influence on the tumor immune microenvironment of pancreatic ductal adenocarcinoma (PDAC). In elderly patients, PDAC is frequently characterized by pronounced stromal desmoplasia, enhanced immune evasion, and increased resistance to chemotherapy. The molecular underpinnings of these age-associated alterations remain largely undefined. Emerging evidence indicates that aging-related metabolic reprogramming can profoundly reshape the cellular and immunologic composition of the tumor microenvironment (TME). Yet, the mechanistic interplay between metabolic perturbations, stromal cell dynamics, and immune regulation in aged PDAC has not been fully elucidated.
+Methods: Two PDAC clinical cohorts stratified by age and survival were analyzed using bulk and single-cell transcriptomics, and metabolomics. Nucleotide metabolism was assessed by targeted metabolomics. Functional studies included adenosine stimulation of aged and young cancer-associated fibroblasts (CAFs), B cell migration and co-culture assays, cytokine profiling, and orthotopic PDAC mouse models with adenosine receptor blockade. Multiplex immunohistochemistry (mIHC) was applied to spatially validate the proximity of A2B&#8314;CXCL13&#8314; CAFs and IL-10&#8314; Bregs in aged human PDAC tissues.
+Results: Aged PDAC exhibited increased regulatory B (Breg) cell abundance, which correlated with shorter overall survival. Multi-omic analyses identified age-related adenosine accumulation as the most dysregulated metabolite linked to both poor prognosis and Breg infiltration. Direct adenosine exposure failed to expand Bregs but reprogrammed aged CAFs toward a proinflammatory state. Aged CAFs expressed elevated adenosine receptor A2B and secreted the B cell chemoattractant CXCL13 upon adenosine stimulation. The adenosine-A2B-CXCL13 axis promoted IL-10&#8314; Breg recruitment, which suppressed CD8&#8314; T cell cytotoxicity and accelerated tumor growth. mIHC confirmed close spatial association between CXCL13&#8314; CAFs and Bregs within aged PDAC tissues. Pharmacologic inhibition of A2B signaling or CXCL13 neutralization reduced Breg infiltration, restored T cell activity, and prolonged survival in orthotopic aged PDAC models.
+Conclusion: Age-associated adenosine accumulation reshapes the fibroblastic niche through A2B receptor-dependent inflammatory reprogramming, inducing CXCL13-mediated Breg recruitment and immune suppression. Targeting the adenosine-A2B-CXCL13 axis represents a promising strategy to restore anti-tumor immunity in elderly patients with PDAC.

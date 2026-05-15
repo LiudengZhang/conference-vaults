@@ -1,0 +1,12 @@
+# Multi-agent-augmented analysis of PD-1 checkpoint inhibitor response
+
+**Poster #**: 2444
+**Session**: Biomarkers Predictive of Therapeutic Benefit 3
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Ada Shaw1, Christina Vivelo2, Nicholas Dana2, Chetan Sood2, Michelle Garred1, Aqib Hasnain1, Shara Balakrishnan1, Vivek Adarsh1, Hinco Gierman2, Erika von Euw21Mithrl, San Francisco, CA,2Elephas, Madison, WI
+
+---
+
+Purpose: While checkpoint inhibitors have revolutionized treatment for cancer patients, only 20% of patients respond to PD-1 blockade, underscoring a need to better understand the mechanisms of response. Here, we deploy a multi-agent system for biological discovery that autonomously integrated functional cytokine readouts with multi-omics data to: (i) map patient clustering patterns and biological drivers; (ii) identify cytokine biomarkers differentiating response; and (iii) generate pathway-level mechanism narratives.Methods: The analytical workflow involved: (1) unsupervised stratification of patient cohorts by clinical response using integrated transcriptomic and cytokine features (data from patients enrolled in NCT05478538, NCT05520099, NCT0634962, and a biobank biopsy collection study), (2) pathway enrichment analysis coupled with autonomous generation of mechanistic hypotheses, and (3) systematic comparative analyses against the public pan-cancer PD-1 resistance dataset. To contextualize the findings, a comparative study was performed against public pan-cancer datasets of checkpoint inhibitor response [Ref: Nature Scientific Data, 2025; data in CELLXGENE collection].Results: The analysis revealed distinct patient clusters with separable cytokine profiles and immune-pathways that associated with response categories. The comparative overlay highlighted shared resistance hallmarks with the public resource while surfacing cohort-specific cytokine features and pathway combinations not captured in prior meta-analyses.Conclusions: This work demonstrates that an agentic AI system enables the integration of cytokine profiling and transcriptomic datasets, yielding insights into mechanisms of checkpoint inhibitor response. In combination with clinical data, the mechanistic insights garnered from this approach will enable the improved prediction of immunotherapy response, providing the potential to improve patient outcomes.

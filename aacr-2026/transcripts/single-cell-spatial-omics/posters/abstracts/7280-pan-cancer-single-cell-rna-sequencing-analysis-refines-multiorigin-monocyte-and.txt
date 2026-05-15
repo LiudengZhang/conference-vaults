@@ -1,0 +1,14 @@
+# Pan-cancer single-cell RNA sequencing analysis refines multiorigin monocyte and macrophage lineages
+
+**Poster #**: 7280
+**Session**: Genomic Approaches to Define Tumor Biology and Clinical Stratification
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Truc Do Thanh Nguyen1, Andrew J. Lee2, Hyun Jung Park3, Nameeta Shah4, Bayrta Mandzhieva1, Dong-Sup Lee5, Inkyung Jung2, Woong-Yang Park1
+
+1School of Medicine, Sungkyunkwan University, Suwon, Korea, Republic of,2Department of Biological Science, Korea Advanced Institute of Science and Technology, Daejeon, Korea, Republic of,3The Research Institute for Veterinary Science, College of Veterinary Medicine, Seoul National University, Seoul, Korea, Republic of,4Translational Genomics Center, Samsung Medical Center, Seoul, Korea, Republic of,5Seoul National University, Seoul, Korea, Republic of
+
+---
+
+Tumor-associated macrophages (TAMs) are central regulators of tumor progression, influencing tissue homeostasis, immune suppression, and angiogenesis. To define their diversity and developmental organization across human cancers, we analyzed a unified single&#8209;cell and spatial transcriptomic atlas of myeloid cells from healthy tissues and multiple tumor types. This analysis delineated two principal trajectories of tumor-associated macrophages (TAMs): a resident macrophage-aligned C1QC&#8314; lineage and a monocyte-derived lineage comprising SPP1&#8314; and ISG15&#8314; TAMs. We further identified THBS1&#8314; immature myeloid cells as a precursor population that transitions toward the SPP1&#8314; TAM state and underlies a strongly immunosuppressive and pro-angiogenic program. Clinically, enrichment of C1QC&#8314; TAMs was associated with more favorable outcomes, whereas activation of the THBS1&#8314; MDSC-SPP1&#8314; TAM axis correlated with poor survival and diminished response to immunotherapy. These findings refine the developmental framework of myeloid cells in cancer and underscore a pathogenic macrophage trajectory with potential therapeutic relevance.

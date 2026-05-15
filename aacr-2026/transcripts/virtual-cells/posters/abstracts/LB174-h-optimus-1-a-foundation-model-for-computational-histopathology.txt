@@ -1,0 +1,12 @@
+# H-optimus-1: A foundation model for computational histopathology
+
+**Poster #**: LB174
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Marin Scalbert, Charlie Saillard, Thomas Peeters, Liam Gonzalez, Dasha Valter, Felipe Llinares-López, Zelda  E.  Mariet, Rodolphe JenattonBioptimus, Paris, France
+
+---
+
+Background:Computational pathology has successfully incorporated artificial intelligence (AI) methodologies for various applications, including the predictions of therapeutic response, molecular biomarkers, and prognosis. Among these methodologies, foundation models (FMs) have arisen as a particularly promising solution, due to their ability to tackle simultaneously a diverse set of downstream use-cases. In this work, we introduce H-optimus-1, a histology foundation model that achieves state-of-the-art performance on a broad range of key downstream tasks, including biomarker prediction, mutation status classification, and spatial gene expression prediction.Methods:H-optimus-1 is a 1.1 billion parameter Vision Transformer (ViT) trained with self-supervised learning. This model was pre-trained on an extensive proprietary dataset consisting of over 1 million whole-slide images (WSI) slides from more than 800,000 patients. This dataset covers over 50 organs; slides were digitized with 3 scanner types across over 4,000 clinical centers.Results:H-optimus-1 was evaluated on 13 downstream tasks encompassing 15 datasets at both the slide level and tile level, including the HEST benchmark (Jaume et al., 2024), which assesses a model’s ability to predict spatial gene expression from histology images in nine different organs. Benchmarked against existing open-source and proprietary foundation models, H-optimus-1 consistently achieved the highest average performance across these tasks. Performance was measured as AUROC on slide-level classification tasks, Pearson correlation to gene expression on HEST, and top-1 accuracy on tile-level classification tasks.Conclusions:Leveraging a large, highly-diverse pre-training dataset, H-optimus-1 achieves state-of-the-art results and high generalizability to key downstream tasks, ranging from metastasis identification to mutation and gene expression prediction.

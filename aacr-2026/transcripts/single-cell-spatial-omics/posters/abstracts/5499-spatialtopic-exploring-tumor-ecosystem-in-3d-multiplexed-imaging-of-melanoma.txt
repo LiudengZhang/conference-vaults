@@ -1,0 +1,17 @@
+# SpatialTopic exploring tumor ecosystem in 3D multiplexed imaging of melanoma
+
+**Poster #**: 5499
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Xiyu Peng1, James Smithy2, Mohammad Yosofvand2, Caroline Kostrzewa2, Fiona Ehrich2, MaryLena Bleile2, Jasme Lee2, Michael A. Postow2, Margaret K. Callahan3, Katherine Panageas2, Ronglai Shen2
+
+1Texas A&M University, College Station, TX,2Memorial Sloan Kettering Cancer Center, New York, NY,3Univ. of Connecticut School of Medicine, Farmington, CT
+
+---
+
+Background: Advances in multiplexed imaging now profile cell phenotypes from 2D to 3D, creating new opportunities to analyze spatial organization in complex tissue. A 3D view of tissue architecture enables a re-examination of tumor-immune interactions in the tumor microenvironment, revealing spatially organized niches with direct biological and clinical relevance that may be obscured in 2D.
+Methods: We developed SpatialTopic1, a fast, scalable, unsupervised niche-detection method that identifies recurrent spatial patterns (&#8220;topics&#8221;) across multiplexed tissue images. SpatialTopic analyzes datasets with millions of cells within minutes using modest memory. With cell-type annotations as input, it applies to both spatial transcriptomics and proteomics (e.g., Xenium, CosMx, IMC and CODEX). Here, we extend SpatialTopic to 3D multiplexed images and demonstrate its applicability on a 3D CyCIF dataset from the melanoma invasive margin2. We also introduce a supervised framework of SpatialTopic that predicts spatial topic distributions using fixed, predefined topic compositions (&#8220;known topics&#8221;), enabling more scalable inference across multiple samples and facilitating links between spatial niches and clinical outcomes.
+Results: SpatialTopic delineates four main topics along the vasculature-to-tumor-core axis at the melanoma invasive margin: (1) Vascular topic: endothelial cells with CD4 T cells and macrophages; (2) Immune topic: mainly including CD4 T cells, dendritic cells, as well as Regulatory T cells (Tregs), and B cells; (3) Tumor-immune boundary topic: tumor cells mixed with dendritic cells and CD4 T cells; and (4) Tumor core topic. In this dataset, relative to the prior publication2, SpatialTopic more cleanly resolves vascular structures and reveals a graded shift in immune composition from vasculature toward the tumor boundary: decreasing macrophages and increasing CD4 T cells and dendritic cells at the invasive front of melanoma.
+1.Peng, X. et al. Scalable topic modelling decodes spatial tissue architecture for large-scale multiplexed imaging analysis. Nat. Commun. 16, 6619 (2025). 2.Yapp, C. et al. Highly multiplexed 3D profiling of cell states and immune niches in human tumors. Nat. Methods 22, 2180-2193 (2025).

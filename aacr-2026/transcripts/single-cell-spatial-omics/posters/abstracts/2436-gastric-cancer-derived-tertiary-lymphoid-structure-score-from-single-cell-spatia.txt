@@ -1,0 +1,17 @@
+# Gastric cancer-derived tertiary lymphoid structure score from single-cell spatial transcriptomics with pan-cancer validation for immunotherapy response
+
+**Poster #**: 2436
+**Session**: Biomarkers Predictive of Therapeutic Benefit 3
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Wenbo Zhu, Hongru Shen, Huijun Wang, Ben Liu, Xiangchun Li, Kexin Chen
+
+Tianjin Medical University Cancer Institute and Hospital, Tianjin, China
+
+---
+
+Background: Gastric cancer (GC) is a leading cause of cancer-related death, with poor 5-year survival rates for advanced stages, emphasizing the need for biomarkers to guide immunotherapy. Tertiary lymphoid structures (TLSs) in the tumor microenvironment have been linked to favorable prognosis and immune checkpoint blockade response, but the specificity of GC-derived TLS transcriptional signatures and their utility across tumor types remain unclear. We used single-cell-resolution spatial transcriptomics to construct a GC-derived TLS score and evaluated its prognostic and immunotherapy-predictive value in GC and pan-cancer cohorts.
+Methods: In a cohort of 100 GC patients, TLS presence and maturation were assessed on surgical specimens by H&#38;E, immunohistochemistry, and multiplex immunohistochemistry. A subset of 20 fresh GC tumors underwent high-resolution CosMx single-cell spatial transcriptomics to map immune and stromal cell distribution in TLS-positive versus TLS-negative regions. These spatial data were used to identify TLS regions, define major cell populations, and derive a 78-gene TLS signature, from which we constructed the GC-derived TLS score. The score was applied to pan-cancer bulk transcriptomic datasets and anti-PD-1 melanoma cohorts to assess its prognostic and immunotherapy-predictive performance. Patient-derived xenograft (PDOX) GC tumors were established in huCD34&#8314; HSC-NCG mice and treated with anti-PD-1/CTLA-4 antibodies to test functional associations with TLS score.
+Results: Patients were stratified into TLS-negative, immature TLS, and mature TLS groups. CosMx spatial transcriptomics resolved 10 major cell populations and mapped their distribution in TLS versus non-TLS regions. From mature TLS regions, we derived a 78-gene signature and constructed a GC-derived TLS score. Higher scores were associated with improved survival and better response to immune checkpoint blockade across multiple tumor types, including low-grade glioma, melanoma, NSCLC, metastatic melanoma, and metastatic GC (AUCs up to 0.857); in melanoma immunotherapy cohorts, high-score patients consistently had superior overall survival. In the humanized GC PDOX model, high TLS score tumors showed enhanced response to anti-PD-1/CTLA-4, with increased tumor cell apoptosis and higher T- and B-cell infiltration, potentially enhancing anti-tumor immunity.
+Conclusions: We developed the first GC-derived TLS score using single-cell-resolution spatial transcriptomic data and validated its performance across multiple tumor types and in a humanized GC model. This high-resolution score was consistently associated with improved response and survival after immune checkpoint blockade, supporting its use as a precise biomarker for patient stratification and immunotherapy guidance across cancers.

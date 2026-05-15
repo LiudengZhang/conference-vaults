@@ -1,0 +1,17 @@
+# Integrated multi-omics and spatial transcriptomics reveal tumor stroma co-evolution driving dabrafenib resistance in BRAF-V600E cholangiocarcinoma
+
+**Poster #**: 7041
+**Session**: Drug Resistance 2: Tyrosine Kinase Inhibitors
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Nai-Jung Chiang1, Ya-Chin Hou2, Chi-Che Hsieh3, Chao-Chun Cheng4, Che-Hung Shen4
+
+1Department of Oncoloy, Taipei Veterans General Hospital, Taipei, Taiwan,2Institute of Clinical Medicine, College of Medicine, National Cheng Kung University, Tainan, Taiwan,3School of Dentistry, Taipei Medical University, Taipei, Taiwan,4National Institute of Cancer Research, National Health Research Institutes, Tainan, Taiwan
+
+---
+
+Background: BRAF-V600E mutation represents one of the most therapeutically actionable oncogenic alterations in cholangiocarcinoma (CCA). Although BRAF inhibitors such as Dabrafenib have demonstrated clinical benefit, responses in CCA are often transient, with rapid disease recurrence and high invasiveness compared to melanoma or thyroid cancer. The mechanisms underlying such therapy-induced adaptation remain poorly understood.
+Methods: We established a Dabrafenib-resistant BRAF-V600E CCA model and its drug-sensitive counterpart, followed by integrated transcriptomic, proteomic, and metabolomic profiling. In parallel, spatial transcriptomics (ST) was performed on paired pre-treatment and post-recurrence CCA patient specimens to spatially dissect malignant cells, cancer-associated fibroblasts (CAFs), and CD45&#8314; immune cells within the tumor microenvironment (TME).
+Results: Multi-omics integration identified 3,562 differentially expressed genes, 1,986 proteins, and hundreds of metabolites that collectively revealed a TME-driven resistance phenotype. Resistant malignant cells displayed activation of epithelial-mesenchymal transition (EMT) and xenobiotic detoxification pathways, while CAFs underwent profound PPAR-driven fatty acid metabolic reprogramming and CYP450 enrichment, transforming the stroma into a nutrient-rich and drug-inactivating niche. Concurrently, the CD45&#8314; compartment exhibited transcriptional signatures of KRAS/E2F signaling, chronic inflammation, and metabolic exhaustion. Strikingly, Complement and Coagulation Cascades were spatially co-localized and synchronously activated across all three compartments, suggesting a unified mechanism of immune evasion and stromal barrier formation.
+Conclusions: Our findings reveal that acquired Dabrafenib resistance in BRAF-V600E CCA arises from the co-evolution of intrinsic EMT and extrinsic TME remodeling. The CAF metabolic axis and shared TME-Coagulation pathway emerges as actionable vulnerabilities, offering a mechanistic rationale for combination strategies to overcome therapeutic resistance in recurrent CCA.

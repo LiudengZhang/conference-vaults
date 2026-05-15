@@ -1,0 +1,12 @@
+# Evaluation of ingenane diterpenoids for BL2 triple-negative breast cancer
+
+**Poster #**: 296
+**Session**: Innovative Therapeutic Modalities and Translational Platforms
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Pamela  R.  Duarte, April  L.  RisingerPharmacology, UTHSA, San Antonio, TX
+
+---
+
+Breast cancers with high expression of estrogen receptor (ER), progesterone receptor (PR), or Human Epidermal Growth Factor Receptor 2 (HER2) have benefited dramatically from receptor-directed targeted therapies. In contrast, triple-negative breast cancers (TNBCs), which lack ER, PR, and HER2 expression, remain a significant therapeutic challenge. The basal-like 2 (BL2) molecular subtype of TNBC is of particular concern due to its extremely low rate of pathological response to standard chemotherapy. We found that BL2 TNBC cell lines are highly sensitive to protein kinase C (PKC)-activating diterpenes, including ingenol 3-angelate (I3A), tigilanol tiglate, and yuanhuacine, with potency in the nanomolar to picomolar range. Strikingly, these compounds demonstrate over a thousand-fold selectivity against BL2 cells as compared to other TNBC lines or normal breast cells, suggesting they could have a favorable therapeutic index for this indication. Preliminary evidence indicates that the vulnerability of BL2 TNBC lines is mediated by PKC, although it is unclear which isoform(s) and downstream signaling pathways are required for subtype-specific cytotoxicity. This project uses zebrafish tumor-bearing models as a strategy to establish the therapeutic index of these PKC agonists following systemic administration and to compare compounds that target distinct PKC isoforms. By integrating tumor response with pharmacologic profiling, this work aims to define the relationships between PKC activation, compound potency, and subtype-selective efficacy to identify the most promising candidate for preclinical development. Ultimately, this research aims to leverage PKC activation as a targeted therapeutic strategy for BL2 TNBC, expanding treatment options for this lethal breast cancer subtype.

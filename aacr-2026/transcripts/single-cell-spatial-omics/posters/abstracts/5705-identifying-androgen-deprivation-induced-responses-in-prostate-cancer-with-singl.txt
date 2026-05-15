@@ -1,0 +1,17 @@
+# Identifying androgen deprivation-induced responses in prostate cancer with single cell multiomic analysis
+
+**Poster #**: 5705
+**Session**: Mechanisms of Anticancer Drug Action
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Anni Perämäki1, Iina Koivisto1, Alfonso Urbanucci1, Frank Claessens2, Mikael Marttinen1, Matti Nykter1
+
+1Tampere University, Faculty of Medicine and Health Technology, Tampere, Finland,2KU Leuven, Leuven, Belgium
+
+---
+
+Understanding how cancer cells adapt to therapy and develop treatment resistance remains a major challenge. The main treatment for advanced primary prostate cancer is chemical castration, or androgen deprivation therapy (ADT), which reduces the activity of androgen receptor (AR) in cancer cells. Castration resistance is characterized by AR reactivation which is the main driver of disease progression. While currently available AR signaling inhibitors (ARSI) are effective, in long term treatment, resistance emerges. It has been proposed and tested in neoadjuvant settings to utilize ARSI in early-stage tumors with curative intent. While these trials have shown effectiveness in reducing tumor volume, some cancer cells manage to survive, thus reducing the benefit for patients. It is expected that mechanisms of resistance are patient specific.
+To gain insight into how cells adapt in response to ARSI (here, apalutamide), we generated a single-cell multiomic dataset using the single-cell ultra-high-throughput multiomic sequencing assay (SUM-seq), from selected prostate cancer cell lines: 22Rv1, R1AD1, LNCaP, LNCaP-ResA, LAPC4, and VCaP, to observe cell states and aberrant regulatory interactions in detail. These cell lines exhibit distinct androgen responsiveness and resistance mechanisms, including genetic alterations such as AR mutations and amplifications as well as non-genetic mechanisms like AR splice variants. We focused on the direct response to ARSI and thus characterized the cells at 48 hours after treatment.
+Multiplexing resulted in a total of 18,477 cells characterized, each with RNA and chromatin profiles. In all cell lines, the treated and control cells formed separate clusters, indicating that the data recapitulates the expected apalutamide response dynamics. More detailed analysis highlighted distinct treatment-associated molecular differences between the cell lines. ADT-responsive cell lines showed decreasing accessibility in sites enriched for AR, SOX, WNT, and MYC family motifs. Paired single-cell RNA and chromatin profiles are ideal for understanding the gene regulatory programs associated with treatment responses. We inferred the gene regulatory network for each cell line using single-cell Deep multi-Omic Regulatory Inference (scDoRI), highlighting distinct regulatory programs (topics) in response to treatment.
+Our data underlines diverse responses to apalutamide treatment by prostate cancer cell lines. Integration with treatment response data from patient samples will help to address the role of these cell states and regulators in context of treatment resistance and provide a foundation for selecting appropriate model systems to validate mechanisms observed from the clinical cohorts.

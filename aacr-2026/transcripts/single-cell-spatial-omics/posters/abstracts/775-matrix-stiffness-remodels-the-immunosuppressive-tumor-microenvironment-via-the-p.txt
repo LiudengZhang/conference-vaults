@@ -1,0 +1,17 @@
+# Matrix stiffness remodels the immunosuppressive tumor microenvironment via the PIEZO1-DCLK1-STAT5B pathway
+
+**Poster #**: 775
+**Session**: Physicochemical Modulation of Cancer Ecosystems: Mechanical Forces, Hypoxia, and Acidosis
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Liangyu Wei1, Lingpeng Tang2, Jinpeng Lu2, Ting Hu2, Shi Chen2, Zuwei Wang2, Haoxiang Zhang1
+
+1School of Medecine, Fuzhou University, Fuzhou, China,2Shengli Clinical Medical College, Fujian Medical University, Fuzhou, China
+
+---
+
+Background Pancreatic ductal adenocarcinoma (PDAC) has an abysmal 5-year survival rate (8%), largely attributed to its dense fibrotic stroma that forms a high-stiffness microenvironment. This biomechanical feature exacerbates immunosuppression and promotes immune escape, but the molecular mechanism by which matrix stiffness-derived mechanical signals convert into immunosuppressive cues remains undefined. This study aims to uncover the key mechanotransduction-immunity crosstalk pathway in PDAC and provide novel therapeutic targets.
+Methods We utilized our established adjustable extracellular matrix (ECM) stiffness models (in vitro 3D culture and in vivo orthotopic transplantation) as core research platforms. Integrated approaches including CRISPR-Cas9 gene editing, multi-omics (protein modification omics, CUT&#38;Tag-seq), single-cell RNA sequencing, and spectral flow cytometry were employed to dissect the mechanotransduction pathway and its regulatory effect on the tumor microenvironment.
+Results We identified a novel PIEZO1-Ca&#178;&#8314;-DCLK1-STAT5B axis mediating stiffness-induced immunosuppression. High matrix stiffness specifically activated the mechanosensitive ion channel PIEZO1, triggering Ca&#178;&#8314; influx. Intracellular Ca&#178;&#8314; upregulated and activated DCLK1 via dual mechanisms: inhibiting ANAPC5/PSMA7-mediated ubiquitination and promoting HPCAL1-dependent serine phosphorylation. Activated DCLK1 bound to STAT5B through its serine/proline-rich linker domain (DCLK1) and SH2 domain (STAT5B), inducing STAT5B phosphorylation and nuclear translocation. Nuclear STAT5B, under the regulation of super-enhancers (marked by H3K27ac/H3K4me1), transcriptionally activated immunosuppressive genes (TGF-&#946;, PD-L1, KRAS), ultimately shaping an immunosuppressive microenvironment characterized by increased infiltration of Tregs, MDSCs, and M2 macrophages, and impaired effector T cell function. Preliminary data confirmed that high stiffness upregulated all components of this axis, and STAT5B inhibition significantly reduced TGF-&#946;/PD-L1/KRAS expression and immunosuppressive cell infiltration.
+Conclusion This study is the first to uncover a biomechanics-driven immunosuppression pathway in PDAC, establishing a direct link between matrix stiffness and immune escape. The PIEZO1-Ca&#178;&#8314;-DCLK1-STAT5B axis provides a novel therapeutic target for reversing immunosuppression and improving PDAC therapeutic efficacy.

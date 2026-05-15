@@ -1,0 +1,17 @@
+# An end-to-end quality control pipeline for spatially resolved molecular imaging data in the multi-omic SpaceIQ&#8482; platform
+
+**Poster #**: 6675
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Brian Falkenstein1, A. Burak Tosun1, Raymond Yan1, S. Chakra Chennubhotla2, Filippo Pullara1
+
+1PredxBio, Inc., Pittsburgh, PA,2PredxBio, Inc. / University of Pittsburgh, Pittsburgh, PA
+
+---
+
+Background: The rapid expansion of mIF imaging has increased the need for rigorous, standardized quality control. Variability introduced during sample prep, staining, and image acquisition can obscure biological signals and compromise downstream analysis. Common issues include batch effects that distort foreground-background contrast, acquisition errors causing over/underexposure or low contrast, and physical artifacts such as bubbles, debris, or deparaffinization defects. More difficult to detect is non-specific antibody binding, which can appear in unexpected structures or cell types. These challenges require a human-in-the-loop QC system capable of detecting, correcting, and documenting quality deviations across diverse tissues and platforms.
+Methods: Using a pan-tissue real-world mIF dataset, we evaluated the SpaceIQ&#8482; QC pipeline across the most frequent image quality failure modes. QC begins with raw pixel data: a nuclear-derived tissue mask defines foreground/background regions for estimating and correcting batch effects. Channel-level parametric models detect blurring, saturation, bubbles, and other acquisition-related artifacts. Spatial modeling quantifies uneven illumination across tissue areas. A library of expected staining patterns is used to identify non-specific binding. Segmentation outputs are used to flag biologically impossible co-expression events (e.g., PanCK/CD45) as indicators of staining or acquisition issues. Each QC module generates a 0-3 score, from low quality/not-usable to no-artifacts, enabling a simple, interpretable quantitative assessment. All QC outputs are visualized in the SpaceIQ&#8482; interface, which highlights artifact-containing ROIs and enables user confirmation or override.
+Results: The pipeline reliably detected and excluded regions affected by blurring, saturation, and uneven illumination. Applying standardized QC steps significantly altered cell counts and subtype distributions by correcting batch effects and removing regions affected by non-specific staining, demonstrating the importance of systematic QC before quantitative analysis.
+Conclusions: The SpaceIQ&#8482; QC pipeline provides a platform- and tissue-agnostic framework for automated yet interpretable quality assessment of mIF imaging. By integrating artifact detection, batch correction, and biological validity checks, it improves accuracy, reproducibility, and user confidence, ensuring results reflect true biological signal rather than technical variability.

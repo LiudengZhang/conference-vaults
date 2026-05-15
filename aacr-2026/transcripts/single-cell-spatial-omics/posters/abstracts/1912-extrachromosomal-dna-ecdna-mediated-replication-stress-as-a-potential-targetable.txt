@@ -1,0 +1,15 @@
+# Extrachromosomal DNA (ecDNA)-mediated replication stress as a potential targetable vulnerability in high-risk medulloblastoma
+
+**Poster #**: 1912
+**Session**: Cell Cycle
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Jessica Wang1, Hui Hui1, Jon D. Larson2, Rishaan Kenkre3, Owen Chapman4, Yan Yuen Lo1, Emerald Adeyan1, Lukas Chavez1
+
+1Sanford Burnham Prebys Med. Discovery Inst., La Jolla, CA,2Sanford Burnham Prebys, La Jolla, CA,3Sanford Childrens Health Research Center, San Diego, CA,4Nagoya City University, Nagoya, Japan
+
+---
+
+Extrachromosomal DNA (ecDNA) amplification is a key driver of cancer evolution and progression. In medulloblastoma, ecDNA is present in approximately 18% of cases and is associated with poor patient survival. However, its role in tumor progression and treatment resistance for patients with medulloblastoma remains poorly understood. This study investigates ecDNA-mediated replication stress (RS) as a potentially targetable vulnerability in high-risk medulloblastoma with a focus on tumors harboring MYC amplifications. Using RNA sequencing data from a cohort of 186 patients from the Pediatric Brain Tumor Atlas, we performed gene set enrichment analysis (GSEA) and found RS to be significantly enriched in medulloblastomas with amplifications compared to those without amplifications. We then investigate the effects of pharmacological checkpoint kinase 1 (CHK1) inhibition using BBI-2779&#8212;a novel, selective, and potent inhibitor developed by Boundless Bio&#8212;on MYC ecDNA-positive (D425 and D458) and MYC-HSR (D283) medulloblastoma cell lines. Our results show that ecDNA-positive lines exhibit greater sensitivity and a stronger dose-dependent response to CHK1 inhibition than MYC-HSR cells. Moving forward, we will use patient-derived xenografts (PDXs) generated from tumor biopsies collected at Rady Children&#8217;s Hospital-San Diego, along with cell line models, to monitor tumor response and ecDNA copy number dynamics following CHK1 inhibition. We will then perform multiome single-cell sequencing to identify therapy-induced emergence of novel ecDNA variants.
+Keywords: Medulloblastoma, Extrachromosomal DNA, ecDNA, genomic instability, therapy resistance, tumor heterogeneity

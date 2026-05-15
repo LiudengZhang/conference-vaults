@@ -1,0 +1,18 @@
+# A patient-derived fragmented tumor assay for detailed evaluation of drug response in the tumor microenvironment (TME) using scRNAseq
+
+**Poster #**: 2897
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Daniel C. Rabe, Daniel  J.  Gorski, Shiyuan Zheng, Mary Flaherty, Tommy Trieu, A'Riane Branch, Terykah Hollis, Lovepreet Singh Chahal, Brian Roberts, Richard  A.  Klinghoffer, Sonal Khare
+
+Tempus AI, Inc., Chicago, IL
+
+---
+
+Background: Many platforms exist for evaluating drug response in patient-derived tumor models. However, they are limited by their ability to recapitulate the multitude of cell types present in the TME. Additionally, they don&#8217;t represent physiological ratios of tumor to immune cells and lack many secreted factors present in the TME. Each of these characteristics can have a profound impact on the efficacy of TME-targeting therapeutics. To overcome these limitations, we investigated the use of a fragmented tumor assay to interrogate TME alterations following treatment.
+Methods: We developed a method of processing fresh patient tumor specimens into drug penetrable (~1mm3) fragments, allowing short duration (4 to 48h) drug exposure and evaluation of therapeutic response by measuring cytokine/chemokine secretion using multiplexed ELISA and alterations in cell populations via single cell RNAseq (scRNAseq). To determine how therapies broadly affect the TME, we treated samples with either the multikinase inhibitor, Lenvatinib, immune checkpoint inhibitors (ICIs) Pembrolizumab/Nivolumab, or STING agonist cGAMP.
+Results: Endothelial cells of the tumor vasculature are one of the most difficult TME cell components to evaluate by conventional bulk analysis methods. To evaluate responsiveness of endothelial cells we exposed endometrial cancer specimens to Lenvatinib. Following drug exposure, tumor fragments were processed for scRNAseq. Well-defined and expected cell clusters were resolved including endothelial, tumor epithelial, stromal, and multiple immune cell populations. Analysis revealed differential expression across these diverse cell populations in response to drug treatments. Specifically in endothelial cells we observed significant dose-dependent downregulation of transcripts involved in angiogenesis.
+To examine immune perturbations, we treated tumor fragments with STING activators and ICIs. We observed activation of Type I Interferon genes and Interferon Stimulated Genes (ISGs), consistent with T-cell activation and proliferation through both ELISA and scRNAseq. Transcriptional changes in macrophages indicated activation of IFN&#947; and PI3K, consistent with changes from an immune-repressive to immune-activating state. Epithelial cells showed increased MYC and PI3K signatures and decreased signatures involved in hypoxic responses as well as NF&#954;B signaling.
+Conclusions: Our results demonstrate that TME-dependent cell-specific responses to drug exposure are observable by combining tumor fragmentation and scRNAseq. This allows the platform to be used for the characterization of responses to new investigational agents, particularly those that target the non-tumor cell components of the TME, evaluate mechanism of action in detail, and assess the promise of such agents for treating solid tumor malignancies.

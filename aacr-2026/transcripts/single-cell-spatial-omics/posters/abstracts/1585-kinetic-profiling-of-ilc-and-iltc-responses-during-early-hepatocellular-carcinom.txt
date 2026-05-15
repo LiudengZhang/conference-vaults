@@ -1,0 +1,14 @@
+# Kinetic profiling of ILC and ILTC responses during early hepatocellular carcinoma development reveals IL-15-ILC1 axis
+
+**Poster #**: 1585
+**Session**: Innate Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Patrick Huang1, Rajiv Trehan1, Benjamin Ruf2, Chi Ma1, Dana Soika1, Lorenz Kocheise1, Gabriel  B.  Prata1, Tim  F.  Greten1, Firouzeh Korangy1
+
+1Thoracic & GI Malignancies Branch, NIH/DHHS, Bethesda, MD,2Malignome, Metabolome and Microbiome, University of Tübingen, University of Tübingen, Germany
+
+---
+
+Cancer immunotherapy has largely focused on conventional T cells due to their recognition of precise peptide-antigens. However, despite recent breakthroughs, including the adoption of immune checkpoint inhibitor therapy as first-line therapy for unresectable hepatocellular carcinoma (HCC), the overall mortality associated with HCC continues to rise. Innate lymphoid cells (ILC) and innate-like T cells (ILTC) are lymphoid populations that play critical roles in inflammation, tissue repair, and immune tolerance. Using single cell RNA sequencing and flow cytometry on tumor samples from patients with established HCC, we have previously shown that the tumor cytokine milieu controls ILC composition and HCC outcome (Heinrich et al. Gut 2022). However, their dynamic roles during tumor development and progression particularly in the early phases of tumor initiation are poorly understood. We decided to study ILCs and ILTCs in murine HCC models, which allows us to perform temporal analysis and functional studies during very early tumor development. Using a combination of high-dimensional flow cytometry, single-cell RNA sequencing, and histologic imaging, we characterized the temporal shifts in these populations in a plasmid-induced (MYC-Luc;sg-p53) HCC mouse model. Most ILC and ILTC populations including mucosal-associated invariant T (MAIT) cells, group 1 ILCs, ILC2s, and ILC3s expanded by day 4, but lost cytotoxic granule production as the tumors progressed. We identified liver resident Hobit-expressing ILC1s as pivotal effectors of anti-tumor immunity, as their loss led to a significant increase in early tumor burden. Single-cell RNA sequencing demonstrated substantial phenotypic diversification in group 1 ILCs which ultimately shift towards an exhausted state as tumors progressed. Additionally, cytokine and transcriptional data suggested early tumor-derived IL-15 to be an early mediator and activator of hepatic ILC1s. Together, our findings position ILCs and ILTCs as rapid responders to oncogenic transformation, with ILC1s functioning as critical mediators of early anti-tumor defense.

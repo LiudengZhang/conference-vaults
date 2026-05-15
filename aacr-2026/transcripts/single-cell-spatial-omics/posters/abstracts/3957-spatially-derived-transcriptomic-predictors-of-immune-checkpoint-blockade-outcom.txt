@@ -1,0 +1,18 @@
+# Spatially derived transcriptomic predictors of immune checkpoint blockade outcome in advance gastric cancer
+
+**Poster #**: 3957
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Changjin Hong1, Sunho Park1, Jean  R.  Clemenceau1, Minji Kim1, Inyeop Jang1, Seock-Jin Chung1, Sung Hak Lee2, Sam C. Wang3, Tae Hyun Hwang1
+
+1Section Surgical Research, Vanderbilt University Medical Center, Nashville, TN,2St. Mary's Hospital Pathology, The Catholic University of Korea, Seoul, Korea, Republic of,3Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX
+
+---
+
+Background: Advanced gastric cancer (GC) responds poorly to systemic therapy, including Immune Checkpoint Blockade (ICB), yet how the tumor microenvironment (TME) drives resistance remains unknown. We assembled the largest spatial transcriptomic dataset in Immune Checkpoint Blockade (ICB)-treated GC, derived signatures encoding spatial composition and their cellular functions and phenotypes, and validated these as outcome predictors across bulk, single-cell, and independent spatial cohorts.
+Methods: Pre-treatment samples from advanced GC patients receiving ICB were profiled using spatial transcriptomics to derive spatial signatures that deconvolve immune, stromal, and tumor compartments and capture TME niches associated with ICB non-response. These spatial signatures were projected onto multiple external datasets, including four bulk RNA-seq cohorts, one single-cell RNA-seq cohort, two 10x Visium cohorts (27 GC samples), and one proteomic cohort, representing the largest integrated validation set for GC immunotherapy biomarkers to date.
+Results: Spatial immune signatures in non-responders showed Th2, regulatory Th17, and a homing-lymphocytes program marked by VLA-4 and CXCR4, confirmed in scRNA-seq. Stromal signatures in non-responders included inflammatory CAF programs, complement system activation (C1S, C3, A2M, IL6ST), growth-factor signaling, and MHC-II antigen-presenting states. When projected onto bulk RNA-seq and proteomic cohorts, these spatial immune and stromal modules were consistently enriched in clinical non-responders and associated with inferior survival. In 10x Visium data, non-responder stroma exhibited a strong complement system, aligned with ECM remodeling and myofibroblast properties, and showed reduced neighboring T-cell infiltration. Spatial bivariate analyses localized MHC genes and M2-like C1q&#8314; macrophages to inflamed stromal niches. Additional non-responders, including an MSI-H case, retained Th2-dominant profiles, whereas responders revealed higher tumor-antigen expression and dendritic-cell activation.
+Conclusion: Spatially derived transcriptomic signatures that incorporate functional states of the GC immune microenvironment robustly distinguish ICB non-responders across bulk, single-cell, and independent spatial datasets. These data nominate the inflammatory stromal niches, C1q&#8314; macrophage clusters, and skewed Th2 as actionable features of ICB resistance and potential therapeutic targets. Our results support incorporating spatial transcriptomics into pre-treatment assessment to refine patient selection, prioritize combination strategies that remodel the stromal-immune interface, and advance toward clinically deployable, GC-specific biomarkers for immunotherapy.
+AI was used for language editing only; authors are responsible for all content and approved the final version.

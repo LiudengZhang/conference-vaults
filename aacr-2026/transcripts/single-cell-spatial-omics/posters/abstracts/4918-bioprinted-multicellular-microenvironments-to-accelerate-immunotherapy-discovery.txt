@@ -1,0 +1,19 @@
+# Bioprinted multicellular microenvironments to accelerate immunotherapy discovery in pancreatic cancer
+
+**Poster #**: 4918
+**Session**: Novel Experimental Platforms and Causal Inference
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Aji Istadi1, Ali McCorkindale2, Silvia Lombardi1, Inna Navarro1, Diego Chacon Fajardo1, Henry Barraclough-Franks1, David Hermann1, Sean Porazinski2, Marco  J.  Herold3, Paul Timpson1, Greg Neely4, Marina Pajic1
+
+1Garvan Institute of Medical Research, Darlinghurst, Australia,2Inventia Life Science, Alexandria, Australia,3Olivia Newton-John Cancer Research Institute, Victoria, Australia,4Charles Perkins Centre, The University of Sydney, Camperdown, Australia
+
+---
+
+90% of pancreatic cancer (PC) patients succumb to the disease [1], necessitating development of more effective treatments. PC tumors are characterized by dense fibrotic stromal regions that contain complex, highly remodelled extracellular matrices. These fibrotic regions create protective niches promoting growth and shielding cancer cells from therapies [2]. These regions, along with other immunosuppressive elements within the tumor, prevent robust immune responses against the cancer cells, limiting immunotherapy efficacy.
+Accurately modeling fibrotic microenvironments in preclinical settings remains challenging. Two-dimensional models can incorporate multiple cell types and extracellular matrices, but fail to replicate nutrient and drug gradients that exist in tumors. These architectural features are particularly important when studying immune interactions, as T cells are often spatially excluded from tumor niches in patients [3]. Furthermore, in vivo models can lack sufficient immune components, make dissecting causal effects of therapies difficult and are limited by throughput costs.
+We present development and characterization of 3D in vitro co-culture models incorporating cancer, stroma, immune and microenvironment components using the RASTRUMTM Allegro bioprinter from Inventia Life Science. We investigate the role of CAFs in supporting immune evasion and analyze cancer-T cell dynamics in various contexts. Using single-cell RNA sequencing we show this physiologically-relevant system better mimics native PC tumors while maintaining scalability for drug screening. The modular design facilitates combinatorial drug testing and mechanistic dissection of therapy effects across distinct cell populations. This model will be utilised to identify combination therapies that are more effective in vivo, streamlining preclinical testing, particularly for immunotherapies and immunomodulators.
+References1. Stoffel EM, Brand RE, Goggins M. Pancreatic Cancer: Changing Epidemiology and New Approaches to Risk Assessment, Early Detection, and Prevention. Gastroenterology. 2023 Apr;164(5):752-765.
+2. Neesse A, Bauer CA, &#214;hlund D et al. Stromal biology and therapy in pancreatic cancer: ready for clinical translation? Gut. 2019 Jan;68(1):159-171.
+3. Carstens JL, Correa de Sampaio P, Yang D et al. Spatial computation of intratumoral T cells correlates with survival of patients with pancreatic cancer. Nat Comm. 2017 Apr 27;8:15095.

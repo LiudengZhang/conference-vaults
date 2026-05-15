@@ -1,0 +1,17 @@
+# Decoding cancer hallmarks through single-cell whole transcriptome imaging in invasive ductal carcinoma
+
+**Poster #**: 3974
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Claire Williams, Patrick Danaher, Megan Vandenberg, Martin Shelton, Mirko Corselli, Christine Kang, John Lyssand, Joseph Beechem
+
+Bruker Spatial Biology, Seattle, WA
+
+---
+
+Tumor adaptation to microenvironmental stressors underlies key cancer hallmarks, including immune evasion, altered metabolism, angiogenesis, and uncontrolled proliferation. However, the spatial organization and cell-type specificity of these adaptations remain poorly characterized in intact tissue. To address this, we generated a spatially resolved, single-cell transcriptomic map of a grade II HER2+ invasive ductal carcinoma using the CosMx&#174; Whole Transcriptome assay on the CosMx Spatial Molecular Imager (SMI). We assayed over 600,000 cells within a ~1 cm&#178; FFPE tumor section. Spatial domain mapping and cell classification identified 37 distinct tumor, immune, and other stromal subtypes. Copy number analysis revealed clonal divergence across two tumor lobes and five transcriptionally distinct malignant clusters, suggesting spatially restricted evolutionary trajectories.
+To investigate immune evasion, we characterized a robust T-cell infiltrate comprising 7.3% of cells. Spatial and transcriptional analyses revealed cytotoxic CD8+ T cells losing effector function and initiating exhaustion programs upon tumor entry. Tumor cells responded with localized activation of JAK-STAT, MHC-I, and NF-&#954;B signaling, suggesting coordinated resistance to immune attack. These findings highlight spatially organized immune suppression and identify candidate mechanisms that may contribute to T-cell dysfunction in HER2+ breast cancer.
+Next, we assessed tumor-induced metabolic reprogramming and angiogenesis, by modeling gene expression relative to vascular proximity. Hypoxia-related genes (e.g., HILPDA, VEGFA) were enriched in vessel-distal regions, while nutrient-associated genes (e.g., AZGP1, PLA2G2A) localized near vasculature. ELF3, a transcription factor associated with poor prognosis in HER2+ cancers, was unexpectedly upregulated in hypoxic zones. Cell cycle analysis revealed low-proliferation regions with stressor-specific transcriptional profiles, indicating localized growth constraints.
+This dataset showcases the power of subcellular whole transcriptome imaging in resolving hallmark cancer behaviors directly within tissue context. This same data set could be re-interrogated for any/all of the hallmarks of cancer, even those that haven&#8217;t been discovered yet. While derived from a single HER2+ breast cancer sample, the analytical framework we present, integrating spatial context with single-cell resolution, serves as a template for future studies investigating patient-specific tumor adaptations to microenvironmental stressors across diverse samples and clinical settings.

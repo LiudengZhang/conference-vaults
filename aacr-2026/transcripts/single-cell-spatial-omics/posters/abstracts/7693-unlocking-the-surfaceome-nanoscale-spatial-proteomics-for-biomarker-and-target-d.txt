@@ -1,0 +1,14 @@
+# Unlocking the surfaceome: Nanoscale spatial proteomics for biomarker and target discovery using Synlight-Rich and Synlight-Pure
+
+**Poster #**: 7693
+**Session**: Proteomics: Biomarker Discovery and Signaling Networks
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Jung-Chi Liao1, Po-Chao Chan1, Weng-Man Chong1, Hsiao-Jen Chang2, Michelli Faria de Oliveira3, Elate Huang1, Daniel Dlugolenski3
+
+1Syncell Inc., Taipei City, Taiwan,2Syncell Inc, Taipei City, Taiwan,3Syncell Inc., Livermore, CA
+
+---
+
+Cell surface proteins mediate essential signaling, trafficking, and cell-cell interactions, representing key biomarker and drug target classes. Yet, comprehensive characterization of human cells surfaceome remains challenging due to the limited spatial precision and labeling specificity of existing proteomic methods. We present an integrated workflow using Syncell&#8217;s Microscoop&#174; Mint platform in combination with Synlight-Rich and Synlight-Pure reagents to achieve nanometer-scale, unbiased surfaceome discovery with exceptionally high specificity. Synlight-Rich employs two-photon photo-biotinylation to covalently tag proteins within user-defined microscopy regions of interest (ROI) at ~350 nm lateral resolution, enabling deep proteomic interrogation of subcellular domains with high spatial control. Labeled proteins are recovered via the Synpull kit and analyzed by LC-MS/MS. Building on this, Synlight-Pure introduces antibody-mediated proximity labeling, restricting biotinylation to within ~25-50 nm of the target structure. This dual-precision approach&#8212;image-guided and chemistry-confined&#8212;enables selective, high-specificity enrichment of membrane-associated and interaction-proximal proteins. In HeLa cells, Microscoop with Synlight-Rich identified >3,500 proteins, including >1,000 known plasma-membrane proteins, with >50% showing &#8805;1.5-fold enrichment (P < 0.05) over unlabeled controls. Gene Ontology analysis revealed that ~55% of the top 200 enriched proteins localized to plasma-membrane compartments. Integration of Synlight-Pure increased membrane-specific identifications to ~70% within the same enrichment group, highlighting substantial improvement in labeling specificity and the discovery of previously uncharacterized surface components involved in receptor- and transporter-mediated signaling. By extending spatial proteomics from the micrometer to nanometer scale, Synlight-Rich and Synlight-Pure together unify unbiased discovery and targeted molecular precision within a single workflow. This platform enables comprehensive cell surfaceome mapping with unparalleled specificity, accelerating biomarker and therapeutic target identification across oncology, neurodegeneration, and immunology.

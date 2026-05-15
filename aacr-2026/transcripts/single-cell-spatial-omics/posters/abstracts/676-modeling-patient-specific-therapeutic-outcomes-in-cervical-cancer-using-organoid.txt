@@ -1,0 +1,14 @@
+# Modeling patient-specific therapeutic outcomes in cervical cancer using organoid technology
+
+**Poster #**: 676
+**Session**: Ex Vivo Systems: Patient-Derived, Patient-Specific Tumor Cultures
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Shalmoli Bhattacharyya1, Surbhi Singla1, Reena Sharma2, Bhavana Rai2, Rashmi Bagga3, Radhika Srinivasan4, Prateek Bhatia5
+
+1Biophysics, PGIMER, Chandigarh, India,2Radiotherapy and Oncology, PGIMER, Chandigarh, India,3Obstetrics and Gynecology, PGIMER, Chandigarh, India,4Cytology and Gynecological Pathology, PGIMER, Chandigarh, India,5Pediatrics, PGIMER, Chandigarh, India
+
+---
+
+Organoids have emerged as good preclinical models of human tumors, facilitating translation from basic research to clinical practice. Patient derived organoids recapitulate the heterogeneity and pathophysiology of the cancer and represent the complex tissue environment of clinical tumors more closely than in vitro cell lines and animal models. In the present study, we established patient-derived cervical cancer organoids (CC-PDOs) using a modified culture protocol. Tumor specimens were obtained from treatment-naive patients diagnosed with different histological subtypes of cervical cancer (squamous cell carcinoma and adenocarcinoma). The tissues were enzymatically dissociated to generate single-cell suspensions. The cells were embedded in Matrigel and cultured in DMEM media containing defined growth factors to initiate organoid formation. Comprehensive characterization of the established PDOs (n=12) demonstrated that they retained the HPV status and histopathological features of the corresponding primary tumors. The key somatic mutations in cervical cancer-associated genes like PIK3CA, LRP1B, KMT2A, NF1, TTN, and FGFR2 were consistent in both the PDOs and the corresponding patient tumor tissue. Base variant analysis further confirmed that the organoids preserved the mutational landscape of the parent tissue, with C>T transitions representing the predominant base substitution type. The organoids directly derived from patients represent the heterogeneity of cervical cancer patients. To investigate organoids' potential for clinical translation, the correlation between the sensitivity of ex vivo tumor organoids and clinical outcomes were recorded. The ex vivo chemo-radiation responses of the PDOs showed strong concordance with the clinical outcomes of the respective patients during a six-month follow-up period, thus demonstrating their ability to capture patient radiation heterogeneity. Collectively, these findings demonstrate the feasibility of generating cervical cancer PDOs that faithfully mirror patient-specific tumor characteristics and therapeutic responses, thereby establishing a robust in vitro platform for drug screening and the advancement of personalized therapeutic strategies.

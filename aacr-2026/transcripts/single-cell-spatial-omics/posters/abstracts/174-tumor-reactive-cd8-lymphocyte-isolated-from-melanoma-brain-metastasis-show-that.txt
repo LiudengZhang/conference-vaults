@@ -1,0 +1,14 @@
+# Tumor-reactive CD8 lymphocyte isolated from melanoma brain metastasis show that a subset of the total population is better at controlling tumor growth after adoptive transfer into a xenograft model
+
+**Poster #**: 174
+**Session**: Immune Cell Biology and Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Jeffrey Wu1, Mike Beymer1, Rebekka Duhen2, Venkatesh Rajamanickam1, Colin Thalhofer3, Prakash Ambady1, Andrew  D.  Weinberg1
+
+1Earle A. Chiles Research Institute, Portland, OR,2Oregon Health and Science University, Portland, OR,3Agonox, Portland, OR
+
+---
+
+Previously, we demonstrated that the vast majority of CD8 T cell tumor reactivity was found within the CD39+ CD103+ (Double Positive, DP) population when isolated from the tumor microenvironment. These cells can be sorted and expanded from thousands to billions in defined culture conditions. After adoptive cell transfer, they can cause tumor regression in vivo in a human melanoma xenograft model that constitutively secrete human IL-2 (NOGhIL-2). In the current study, we found that DP CD8 tumor infiltrating lymphocytes (TILs) isolated from a melanoma brain metastasis could not regress autologous tumor in the NOGhIL-2 mice. After adoptive transfer tumors progressed in mice that received DP TIL and grew at a similar rate compared to CD8 T cells that had little to no tumor reactivity. Co-culture experiments with the total CD8 DP TIL population and autologous tumor showed that there was a subset of T cells that greatly upregulated 4-1BB+ CD25+ over an extended period of time (~5-10% of total population). We sorted this subset away from the total DP TIL population and expanded them in culture. When the sorted population was compared to the parental CD8 DP TIL population in tumor co-culture experiments there was an increase in 4-1BB expression and 3 to 8-fold higher interferon gamma levels. Upon adoptive transfer into the tumor xenograft model, the sorted subset completely regressed autologous tumor, whereas the tumors grew progressively in mice receiving the unsorted population. Single cell TCRseq and RNA profiling revealed interesting differences between these two populations. Our findings suggest that specific subsets within the CD8 DP TIL total population might play an important role in controlling brain metastases in cancer patients with recurrent disease.

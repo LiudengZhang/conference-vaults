@@ -1,0 +1,17 @@
+# Matrix stiffness induces Ca&#178;&#8314;-DCLK1-PIP5K1A mechanotransduction as a biomechanical checkpoint in pancreatic cancer progression and chemotherapy resistance
+
+**Poster #**: 756
+**Session**: Physicochemical Modulation of Cancer Ecosystems: Mechanical Forces, Hypoxia, and Acidosis
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Haoxiang Zhang1, Chuanbin Zhao2, Jiaoshun Chen2, Xiaoqing Hu3, Jianwei Bai4, Long He2, Zanglong Deng2, Tao Yin2
+
+1Department of Hepatopancreatobiliary Surgery, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China,2Department of Pancreatic Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China,3Department of Ultrasound Medicine, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China,4Department of Biliary-Pancreatic Surgery, Xiangyang Central Hospital, Xiangyang, China
+
+---
+
+Background: Alterations in extracellular matrix (ECM) architecture and stiffness are hallmarks of rapid pancreatic cancer progression. However, the mechanisms by which ECM biomechanical properties influence malignant biological behavior remain largely unknown. Calmodulin-dependent protein kinase DCLK1 has been implicated in cancer progression, but its role in integrating biomechanical signals in pancreatic cancer has not been elucidated.
+Methods: We investigated the relationship between ECM stiffness and DCLK1 activation in pancreatic cancer using in vitro biomechanical stress models and in vivo solid tumor experiments. DCLK1 expression and activity were manipulated via overexpression or knockdown, and calcium signaling was modulated using specific inhibitors. Single-cell RNA sequencing was performed to identify potential pathways by which calcium inhibition sensitizes tumors to chemotherapy. Multicolor immunofluorescence staining of clinical tumor samples was used to examine the correlation between the PIEZO1-DCLK1-PIP5K1A-AKT signaling axis and ECM stiffness in situ. Mechanistic studies included protein interaction assays and phosphorylation analyses to define the DCLK1-PIP5K1A-PI3K-AKT signaling cascade.
+Results: DCLK1 expression and activation were selectively induced under high biomechanical stress mediated by the PIEZO1/calcium/HPCAL1 axis. Overexpression of DCLK1 under low stiffness conditions accelerated tumor progression and chemoresistance, which could be partially reversed by calcium inhibitors. Conversely, under high stiffness conditions, DCLK1 knockdown inhibited tumor growth and increased chemosensitivity, but attenuated the sensitizing effect of combined calcium inhibitor treatment. Single-cell RNA sequencing identified calcium-related pathways contributing to chemotherapy sensitization. Mechanistically, DCLK1 interacted with PIP5K1A by inhibiting its threonine phosphorylation, promoting membrane localization of PIP5K1A and activating the downstream PI3K-AKT pathway. Multicolor immunofluorescence confirmed the correlation of PIEZO1-DCLK1-PIP5K1A-AKT activation with ECM stiffness in clinical samples.
+Conclusions: DCLK1 functions as a biomechanical checkpoint in pancreatic cancer, integrating ECM-derived mechanical cues to exacerbate tumor progression and chemotherapy resistance. Targeting the calcium/DCLK1 signaling axis may enhance the efficacy of adjuvant therapy in pancreatic cancer patients

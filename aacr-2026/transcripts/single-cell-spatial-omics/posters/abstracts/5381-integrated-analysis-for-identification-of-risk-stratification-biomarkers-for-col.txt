@@ -1,0 +1,17 @@
+# Integrated analysis for identification of risk stratification biomarkers for colon cancer
+
+**Poster #**: 5381
+**Session**: Prognostic Biomarkers 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Andrea J. O'Hara1, Priya Roy2, Dhwani Mulani2, Ethan Stancliffe3, Tom Cohen3, Hemant Roy2, Haythem Latif1
+
+1GENEWIZ, LLC, South Plainfield, NJ,2Baylor College of Medicine, Houston, TX,3Panome Bio, St Louis, MO
+
+---
+
+Introduction: Colorectal cancer (CRC) remains the second leading cause of cancer-related deaths worldwide, underscoring the critical need for improved early detection and risk stratification methods. While polyps are detected in up to 40% of colonoscopies, most are negative for significant lesions, with only about 10% showing advanced adenomas or carcinomas. Although colonoscopy remains the gold standard for CRC screening, it has major limitations in predicting progression from benign neoplasia to advanced adenomas or carcinomas. Precision approaches that integrate molecular insights are necessary to identify biomarkers for risk stratification and better understand which individuals with colon neoplasia are at increased risk to develop advanced adenomas or carcinomas.
+Methods: This study leverages a multi-modal, integrated analysis of spatial transcriptomics, bulk RNA-sequencing, and metabolomics&#8212;an approach that has not been comprehensively applied to risk stratification in CRC. A set of 10 colorectal samples, five from cases that have progressed to CRC and five that have not, were selected for deep multiomics analysis. Starting with spatial transcriptomics from FFPE, single cell analysis across a slice was explored for each sample across the specimen, with a focus on variability between groups across the colonic crypts, tube-like glands in the colon and rectum that produce mucus and renew the intestinal lining. An additional slice of tissue was analyzed for bulk RNA-sequencing. Finally, adjacent tissue from the same individual was analyzed for bulk metabolomics, to identify and quantify the small molecules present within each sample.
+Results: Integrated bioinformatics analyses were used to compare and combine bulk results, along with clinical and demographic data associated with these samples, for downstream pathway and processes analysis. In addition, these results were further analyzed to cross-compare and validate single cell spatial findings.
+Conclusion: With this integrated multiomics approach, spatial transcriptomics provides high-resolution insights into gene expression within the structural context of the colonic crypts, while bulk metabolomics captures a systemic overview of metabolic alterations linked to neoplastic progression. By identifying key biomarkers and pathways associated with CRC progression, this study aims to pave the way for personalized screening strategies and targeted interventions to reduce the burden of advanced colorectal cancer.

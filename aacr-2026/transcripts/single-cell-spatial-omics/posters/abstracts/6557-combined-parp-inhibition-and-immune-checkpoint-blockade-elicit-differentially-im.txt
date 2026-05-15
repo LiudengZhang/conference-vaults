@@ -1,0 +1,17 @@
+# Combined PARP inhibition and immune checkpoint blockade elicit differentially improved survival in BRCA1, BRCA2 vs CHEK2, ATM deficient breast cancer by promoting an anti-tumor immune response through tertiary lymphoid structure formation
+
+**Poster #**: 6557
+**Session**: Immune Checkpoint Blockade
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Sibapriya Chaudhuri1, Alberto Emata1, Scott Thomas2, Pamela N. Munster1
+
+1UCSF - University of California San Francisco, San Francisco, CA,2Postdoctoral Fellow, Dept. of Hem./Onc., UCSF, San Francisco, CA
+
+---
+
+Introduction: Breast cancer affects over 2 million women globally every year despite advances in knowledge of disease biology, genomic assessment of disease profile and development of novel therapies. Preclinical and clinical studies suggest a benefit of combining PARP inhibitors (PARPi) and immune checkpoint inhibitors (ICi) in patients with homologous recombination proficient as well as deficient triple negative breast cancers. However, similar to the varied benefits of either drug class as single agent, the benefits of the combination therapy are strongly dependent on tumor mutation landscape. In this study, we identify which homologous recombination deficiency mutation respond best to PARPi and ICi combination therapy and explore the underlying mechanisms driving this sensitivity.
+Methods: We used CRISPR engineering to individually repress BRCA1, BRCA2, ATM, CHEK2 in both murine and human breast cancer cell lines (EMT6, 4T1, MDA-MB231). The engineered murine cells were implanted in the mammary fat pad of Balb/cJ mice and subsequently treated with PARPi, ICi and drug combination. We evaluated how single agent and combined treatment affected tumor growth and overall survival. Using different biochemical techniques including spectral flow-cytometry, immunohistochemistry and spatial transcriptomics, we analyzed different immune cell populations in the tumor microenvironment.
+Results: In EMT6 tumor models, the repression of BRCA1 or BRCA2 led to both reduced tumor growth and increased survival with either single agent or combination treatment. However, with ATM or CHEK2 repression, single agent ICi both reduced tumor growth and improved survival compared to untreated tumors, but no benefit was observed with PARPi addition. Spatial transcriptomics analysis suggested the formation of tertiary lymphoid structures (TLS) in combination therapy-responsive EMT6 tumors with repressed BRCA1. TLS formation was marked by higher CXCL13 expression, increased regions of B cells expressing CD19 and CD20, which were surrounded with CD3+ T cells. We also observed inward migration of CD45&#8314; and CD3&#8314; cells from the tumor periphery. PDL1 expression was also higher in these tumors. Furthermore, in vitro olaparib treatment resulted in a substantial increase in surface PDL1 expression in EMT6 BRCA1-repressed cells, which was more moderate in EMT6 BRCA2-repressed cells. In 4T1 cells, repression of the HRD genes led to a modest change in PDL1 upregulation upon olaparib treatment.
+Conclusion: Our findings mimic findings in the clinic and suggest that TLS formation may correlate with better response to the combination therapy of PARPi and ICi. TLS formation in the therapy responsive tumors might be maintaining the microenvironment necessary for anti-tumor immune response.

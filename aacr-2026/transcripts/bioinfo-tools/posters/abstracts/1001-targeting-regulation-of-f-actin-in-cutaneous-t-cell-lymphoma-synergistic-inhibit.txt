@@ -1,0 +1,12 @@
+# Targeting regulation of F-actin in cutaneous T-cell lymphoma: Synergistic inhibition of p38β with p38γ inhibitors
+
+**Poster #**: 1001
+**Session**: Computational, Technological, and Mechanistic Advances
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Xu Hannah Zhang, Jack Hsiang, Markus Kalkum, Jun Wu, Steven  T.  RosenBeckman Research Institute of The City of Hope, Duarte, CA
+
+---
+
+Cutaneous T-cell lymphoma (CTCL) is an incurable T-cell malignancy characterized by dysregulated p38 MAPK signaling. Our recent studies identify p38β as an F-actin-binding kinase that regulates T-cell receptor (TCR) polarization and cytoskeletal organization. Loss or pharmacologic inhibition of p38β triggers compensatory activation of p38γ, promoting epithelial-to-mesenchymal transition (EMT) and potentially accelerating disease progression. To counter this effect, we evaluated a dual-targeting strategy combining the p38β inhibitor Nilotinib with p38γ inhibitors F7 (ATP-site) and CSH71 (ligand-binding-domain site). In Hut78 CTCL cells, combined F7 + CSH71 treatment significantly reduced cell viability with strong synergy (31.25 nM F7 + 1.25 μM CSH71; CI = 0.69). This dual inhibition markedly decreased F-actin polymerization, disrupted cellular polarization, and enhanced apoptosis compared with either single agent. Similarly, Nilotinib synergized with CSH71 in CTCL cells but not in healthy PBMCs, demonstrating tumor-selective cytotoxicity. Mechanistic analyses revealed that Nilotinib reduced γ-actin and ribosome-biogenesis-related proteins such as MDN1, as determined by LC-MS/MS, whereas CSH71 suppressed F-actin formation. These convergent effects destabilized the actin cytoskeleton and impaired TCR-dependent survival signaling. To extend these findings in vivo, ongoing studies using Hut78 xenograft mice are evaluating tumor reduction, apoptosis, survival benefit, and systemic safety following triple-drug combination (Nilotinib + F7 + CSH71). Collectively, these results support dual p38β/p38γ inhibition as a promising therapeutic approach for CTCL and other hematologic malignancies driven by cytoskeletal and stress-kinase dysregulation, while providing mechanistic insight into how targeted therapies remodel the F-actin network in vivo.

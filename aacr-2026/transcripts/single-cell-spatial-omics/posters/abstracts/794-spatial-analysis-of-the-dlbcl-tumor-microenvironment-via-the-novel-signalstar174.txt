@@ -1,0 +1,15 @@
+# Spatial analysis of the DLBCL tumor microenvironment via the novel SignalStar&#174; multiplex immunohistochemistry assay
+
+**Poster #**: 794
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Jennifer Ziello1, Jason Weirather2, Derek Papalegis1, Lily Vu1, Gabriella Spang1, Sizun Jiang3, Giorgio Ga. Inghirami4
+
+1Cell Signaling Technology, Danvers, MA,2Elucidate Bio, Inc., Boston, MA,3Harvard Medical School, Boston, MA,4Weill Cornell Medical College, New York-Presbyterian, New York, NY
+
+---
+
+The complexity of the immune landscape in Diffuse Large B Cell Lymphoma (DLBCL) tumors underscores the necessity of understanding the interplay between T cell activation and immunosuppression within the tumor microenvironment (TME). Given the heterogeneity of these tumors and the importance of cellular interactions within the TME, there is a pressing need for advanced technologies capable of visualizing multiple biomarkers and cell phenotypes simultaneously. Multiplex immunohistochemistry (mIHC) offers an effective solution for this detailed spatial analysis.
+Here, we developed a 20-plex SignalStar multiplex immunohistochemistry (mIHC) panel aimed at profiling T cell activation and suppression states, as well as spatially characterizing tumor, myeloid, and vascular cells within the TME. The resulting images underwent processing using the Elucidate Bio Spatial Analysis pipeline. The images were co-registered and segmented based on DAPI staining and marker-specific classifiers were employed to label cells as either positive or negative for each respective stain. Expression intensities were subsequently normalized and clustered using the Leiden algorithm to assign predominant lineage phenotypes. Through graph-based community detection, higher-order cellular neighborhoods were identified. We also correlate the Signalstar spatial proteomics data to an orthogonal single cell RNA sequencing data. Our analysis revealed six distinct cell neighborhoods with unique spatial organization and cellular composition, consisting of those that were rich in either CD4+ T cells, CD8+ T cells, M2-like macrophages, dendritic cells, tumor cells with immune cell infiltration or tumor cells without immune cell infiltration. Substantial heterogeneity was observed with respect to the cell phenotypes and cell neighborhoods that were present, both inter- and intra- tumorally. While there were no statistically significant differences in the numbers of the various cell neighborhoods that were present, the overall number of M1-like macrophages was found to be significantly higher in complete responders vs. progressors. DLBCL tumors are composed of microenvironments filled with diverse cells of various types, all arranged into distinct neighborhoods. Our findings indicate that the SignalStar mIHC assay, when paired with the Elucidate Bio Spatial Analysis pipeline, serves as an effective means to explore the intricate composition and spatial layout of this complex tumor microenvironment.

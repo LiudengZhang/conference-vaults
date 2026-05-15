@@ -1,0 +1,21 @@
+# Hypoxia shapes tumor immune microenvironment through cell-type dependent responses in diffuse astrocytomas
+
+**Poster #**: 778
+**Session**: Physicochemical Modulation of Cancer Ecosystems: Mechanical Forces, Hypoxia, and Acidosis
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Aliisa Tiihonen1, Iida Salonen2, Iina Koivisto2, Anni Ritamäki2, Serafiina Jaatinen2, Tanja Hyvärinen2, Johanna Tilvis2, Joose Kreutzer2, Masi Valkonen2, Göktug Karabiyik1, Sonja Mäntylä2, Maryam Mohammadlou2, Miina Hoikka2, Jürgen Beck3, Roland Rölz3, Mikael Marttinen1, Matti Nykter1, Joonas Haapasalo4, Pekka Ruusuvuori2, Seppo Parkkila1, Pasi Kallio1, Sanna Hagman2, Juha Kesseli1, Vidhya Madapusi Ravi3, Hannu Haapasalo1, Arja Jukkola1, Kevin Joseph3, Kirsi Rautajoki1
+
+1Tampere University, Tampere, Finland,2Tampere University, Faculty of Medicine and Health Technology, Tampere, Finland,3Department of Neurosurgery, Medical Center - University of Freiburg, Faculty of Medicine, Freiburg, Germany,4Tampere University, Faculty of Medicine and Health Technology and Tampere University Hospital, Department of Neurosurgery, TAYS Cancer Centre, Tampere, Finland
+
+---
+
+Background
+Hypoxia is a critical driver of tumor aggressiveness in high-grade gliomas, yet its cell-type-specific effects on immune cell populations within the tumor microenvironment (TME) remain poorly understood.
+Materials and methods
+We have investigated how hypoxia shapes the spatial distribution and functional states of monocyte-derived macrophages (MDMs) and brain-resident microglia (MG) in diffuse astrocytomas and glioblastomas (GB) by using cyclic immunohistochemistry (cIHC), single-cell RNA sequencing, spatial transcriptomics, and in vitro cell culture models in controlled oxygen and pH conditions.
+Results
+Hypoxia induces divergent responses in these myeloid subsets, driving spatial immune patterning. In GB, CD163&#8315; MDMs dominate hypoxic niches, while MG populations are excluded from these regions, correlating with hypoxia-induced TNF upregulation, stress response signatures, and dampened interferon responses. Conversely, MDMs exhibit a shift towards hypoxia-associated immunosuppressive traits, altered metabolism and upregulated cell survival. GBs display elevated hypoxic intensity compared to diffuse astrocytomas, as supported by hypoxia-response gene expression in the TCGA dataset. In vitro, MG are characterized by heightened sensitivity to hypoxia-associated acidity compared to MDMs, suggesting that their exclusion from hypoxic zones results from intrinsic vulnerability.
+Conclusion
+Our findings reveal that hypoxia and hypoxia-associated acidity remodel the TME by promoting immunosuppressive MDM accumulation and depletion of MG, creating spatially distinct immune landscapes that may underlie GB progression. These results highlight hypoxia-driven immune dysregulation as a therapeutic target and underscore the importance of cell-type-specific strategies to counteract TME-driven immunosuppression in malignant gliomas.

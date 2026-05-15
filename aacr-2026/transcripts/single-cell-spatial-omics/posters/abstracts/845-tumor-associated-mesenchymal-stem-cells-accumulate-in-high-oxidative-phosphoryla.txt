@@ -1,0 +1,14 @@
+# Tumor-associated mesenchymal stem cells accumulate in high oxidative phosphorylation regions of peritoneal dissemination in gastrointestinal cancers
+
+**Poster #**: 845
+**Session**: Stem Cell Plasticity and Lineage Reprogramming in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Nobuhiko Kanaya, Yu Mikane, Shinji Kuroda, Eri Takeda, Makoto Matsumoto, Kosuke Yunoki, Yudai Mimata, Hitoshi Minagi, Tetsuya Katayama, Daisuke Kadowaki, Masashi Hashimoto, Yoshihiko Kakiuchi, Shunsuke Kagawa, Hiroshi Tazawa, Toshiyoushi Fujiwara
+
+Department of Gastroenterological Surgery, Okayama University Graduate School of Medicine, Dentistry and Pharmaceutical Sciences, Okayama, Japan
+
+---
+
+Peritoneal dissemination represents a lethal metastasis in gastrointestinal malignancies; however, cellular constituents that sculpt the metastatic niche remain poorly resolved. Recent studies reveal tumor associate mesenchymal stem/stromal cells (TA-MSCs) induce tumor migration and immune suppression in several tumors such as ovarian cancer. In this study, we focused on TA-MSCs as potential stromal drivers of metabolic adaptation within the peritoneal dissemination from gastrointestinal malignancies, especially colorectal cancer. First, public multi-omics datasets revealed tumor type-dependent variation in canonical MSC transcripts. Next, in surgical specimens of the peritoneal dissemination from patients with colorectal, gastric, and pancreatic cancer, the immunohistochemistry demonstrated marked elevation of CD90 and CD73 compared with non-tumor peritoneum, indicating robust stromal expansion. Single-cell transcriptomes from peritoneal lesions further identified a distinct MSC-like cluster enriched for THY1 (CD90) high cells, supporting an MSC-dominated stromal architecture in the peritoneal dissemination. To model this interaction in vivo, murine colorectal cancer bearing peritoneal dissemination mouse models exhibited a similar amplification of MSC markers compared to primary tumor controls. Notably, Oxidative Phosphorylation (OXPHOS) dominant metabolic signatures were prominent both in human metastatic peritoneum and in peritoneally adapted MC38 derivatives isolated from mice. Then, the correction between OXPHOS specific metabolism and localization of MSCs was assessed. Interestingly, the area of high OXPHOS expression into colorectal cancer derived peritoneal dissemination contained the higher MSCs infiltration using immunohistochemistry. These data proposes that MSC directed metabolic status, specifically toward oxidative phosphorylation constitutes a tractable vulnerability in peritoneal dissemination.

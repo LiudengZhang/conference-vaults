@@ -1,0 +1,17 @@
+# Integrative spatial multi-omics profiling enhanced by artificial intelligence reveals ancestry-associated molecular features in early-onset colorectal cancer among Southern California patients
+
+**Poster #**: 12
+**Session**: AACR Project GENIE: Predictive Models and AI
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Francisco  G.  Carranza, Brigette Waldrup, Yuxin Jin, Yonatan Amzaleg, David Craig, John Carpten, PE-CGS Network, Enrique  I.  Velazquez Villarreal
+
+Department of Integrative Translational Sciences, City of Hope National Medical Center, Duarte, CA
+
+---
+
+Introduction: Colorectal cancer (CRC) is the third most common malignancy and the second leading cause of cancer-related mortality worldwide. Although overall CRC incidence has stabilized in many high-income countries, early-onset CRC (EOCRC; <50 years) continues to rise. This increase is especially noticeable in our catchment area, the greater Los Angeles, CA region. Despite this trend, little is known about this population at risk, limiting insight into ancestry-associated biological factors and tumor microenvironment (TME) features.
+Methods: A total of 2,730 colorectal cancer (CRC) tumor samples were analyzed from patients in our NIH Cancer Moonshot COPECC PE-CGS Network and from public data repositories, including the AACR Project GENIE database. High-resolution spatial transcriptomics (10x Genomics Visium HD), together with whole-exome sequencing (WES) and RNA sequencing (RNA-seq), was used to assess regional gene expression patterns. Compartment-specific signatures were quantified using SpaCET, focusing on CRC-related genes and pathways. Clinical and molecular datasets were harmonized and analyzed through an AI-driven multi-omics platform, enabling natural-language-based exploration of genomic, transcriptomic, and clinical features.
+Results: EOCRC tumors showed a high median genetic similarity to the 1000 Genomes Peruvian-in-Lima (1KG-PEL) reference population. Key CRC-associated mutations were more frequent in EOCRC, particularly among patients with stronger 1KG-PEL-like similarity. Integrated analyses revealed ancestry-associated differences in gene expression between EOCRC and late-onset CRC within the catchment cohort. Spatial transcriptomics demonstrated marked variation in pathway activity across malignant, immune, and stromal regions, with EOCRC displaying distinct compartment-specific patterns.
+Conclusions: EOCRC in populations from our catchment area is defined by ancestry-associated genomic alterations and notable spatial heterogeneity in CRC-relevant pathways. These findings underscore the importance of ancestry-informed CRC molecular profiling to advance precision oncology.

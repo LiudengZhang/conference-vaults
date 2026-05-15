@@ -1,0 +1,17 @@
+# Integrated single-cell and spatial atlas of tumor-draining lymph nodes reveals metastasis-associated stromal and immune remodeling
+
+**Poster #**: 6114
+**Session**: Metastasis and Organ-Specific Microenvironmental Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Enshuo Zhang1, Lu Zhang2, Haitang Yang1, Feng Yao1
+
+1Department of Thoracic Surgery, Shanghai Chest Hospital of Shanghai Jiao Tong University of Medicine, Shanghai, China,2Shanghai Chest Hospital of Shanghai Jiao Tong University of Medicine, Shanghai, China
+
+---
+
+Introduction: Tumor-draining lymph nodes (TDLNs) are critical sites for anti-tumor immunity and important targets of immunotherapy. However, they are also early sites of tumor dissemination, and lymph node-resident metastatic tumors exhibit reduced responsiveness to immunotherapy compared with their primary counterparts. How metastasis reshapes TDLN stromal-immune ecosystems remains underexplored.
+Methods: We built a pan-cancer TDLN atlas, which consists of >1 million cells from healthy lymph nodes (hLN), non-metastatic TDLNs (nLN), and metastatic TDLNs (mLN) across 15 cancers and 70 donors using single-cell RNA sequence (scRNA-seq) and spatial transcriptomics (ST). Key findings were validated in independent patient specimens and mouse models.
+Result: Our integrated analysis constructed a public resource named PanTDLN, which identifies myeloid cells, stromal cells, and T cells as the most altered populations after metastasis, with characteristics including hypoxia, activation, and exhaustion. Spatially, four cross-cancer niches that form after metastasis are identified: na&#239;ve-enriched, tumor-reactive, peritumoral, and metastatic tumor, each with distinct cellular compositions and ligand-receptor networks. Na&#239;ve-enriched zones are filled with na&#239;ve T/B cells and PD-1+ CXCL13+ T helper cells with enrichment of immune-recruiting and activating chemokine axes. Peritumoral niches are built by a unique barrier-forming fibroblastic reticular cell (FRC) with the strongest extracellular matrix remodeling program, which spatially segregates the tumor-reactive niche, rich in antigen-presenting cells and cytotoxic lymphocytes, from the tumor mass. Within the tumor niches, hypoxia-associated macrophages and monocytes (HAMs) are specifically enriched, leading to an intratumoral immune desert. Meanwhile, these HAMs promote regulatory T cells (Tregs) within tumor-reactive niches toward terminally differentiated phenotypes via the TNF-TNFR axis, resulting in dysfunction of activated cytotoxic T/NK cells in the tumor-reactive niche. Animal models prove that targeting barrier-forming FRCs and the communication between HAMs and Tregs can disrupt the stromal-immune remodeling and enhance immunotherapy response in mLNs.
+Conclusion: PanTDLN decodes the spatiotemporal stromal-immune remodeling during TDLN metastasis and provides potential cross-cancer therapeutic targets, facilitating the treatment of lymph node-positive cancer patients.

@@ -1,0 +1,6429 @@
+WEBVTT
+
+1
+00:00:00.060 --> 00:00:00.800
+Good afternoon.
+
+2
+00:00:01.680 --> 00:00:02.720
+Welcome to this
+
+3
+00:00:04.400 --> 00:00:07.080
+Advances in Organized Research sessions.
+
+4
+00:00:07.660 --> 00:00:11.260
+So the session is about gastric and gastroesophageal cancer
+
+5
+00:00:11.340 --> 00:00:15.100
+dynamics, including pre-cancer evolution,
+
+6
+00:00:15.620 --> 00:00:19.580
+metastasis, microenvironment, and therapeutic breakthrough.
+
+7
+00:00:21.440 --> 00:00:22.820
+This is my disclosure.
+
+8
+00:00:25.220 --> 00:00:29.160
+So gastric and gastroesophageal and esophageal cancer are
+
+9
+00:00:29.200 --> 00:00:32.619
+very important cancers because there are more
+
+10
+00:00:32.660 --> 00:00:36.180
+than a million case newly diagnosed each
+
+11
+00:00:36.360 --> 00:00:39.660
+year and associated with very high mortality.
+
+12
+00:00:41.760 --> 00:00:45.240
+The TCGA has published a very nice paper
+
+13
+00:00:45.760 --> 00:00:49.560
+about the molecular subtypes along the whole upper
+
+14
+00:00:49.600 --> 00:00:52.800
+gastrointestinal tract, from the esophagus to the
+
+15
+00:00:52.860 --> 00:00:55.449
+gastroesophageal junction, down to the stomach.
+
+16
+00:00:56.200 --> 00:00:59.900
+And up in the esophagus is mostly esophageal squamous cell
+
+17
+00:00:59.960 --> 00:01:03.200
+carcinoma, which is a kind of very different tumor,
+
+18
+00:01:03.780 --> 00:01:07.460
+whereas down in the gastroesophageal junction, you begin to
+
+19
+00:01:07.540 --> 00:01:10.900
+see the predominance of the CIN subtypes
+
+20
+00:01:11.440 --> 00:01:14.200
+of adenocarcinoma. When
+
+21
+00:01:15.160 --> 00:01:18.340
+we progressively move up into the upper
+
+22
+00:01:18.980 --> 00:01:20.100
+gastric body
+
+23
+00:01:20.940 --> 00:01:24.360
+and antrum, the diversity of the cancer become
+
+24
+00:01:24.420 --> 00:01:25.980
+increased, where
+
+25
+00:01:26.920 --> 00:01:30.440
+there are some very gastric-specific subtypes like the
+
+26
+00:01:30.560 --> 00:01:33.480
+EBV-associated gastric cancer, the
+
+27
+00:01:34.180 --> 00:01:35.880
+genomically stable, or
+
+28
+00:01:36.820 --> 00:01:40.160
+with substantial overlap with the diffuse histology types of
+
+29
+00:01:40.600 --> 00:01:42.640
+cancer, and the MSI cancers,
+
+30
+00:01:44.080 --> 00:01:47.080
+coexist together with the CIN subtype.
+
+31
+00:01:49.800 --> 00:01:53.100
+So previously, treatment of gastric cancer or
+
+32
+00:01:53.120 --> 00:01:56.440
+gastroesophageal junction cancer has been really limited
+
+33
+00:01:56.520 --> 00:02:00.450
+to chemotherapy, mostly based on 5-FU and
+
+34
+00:02:00.520 --> 00:02:04.020
+platinum. But in the recent year, there has been
+
+35
+00:02:04.100 --> 00:02:08.039
+increasingly molecular biomarker, like the MSI
+
+36
+00:02:08.081 --> 00:02:08.620
+subtype,
+
+37
+00:02:09.780 --> 00:02:12.800
+being respond to PD-1 inhibitions.
+
+38
+00:02:13.420 --> 00:02:13.700
+The
+
+39
+00:02:15.080 --> 00:02:18.340
+PRD1 high tumor can be treated by
+
+40
+00:02:18.380 --> 00:02:22.160
+anti-PD-1 as well. And then the recent emergence
+
+41
+00:02:22.280 --> 00:02:26.040
+of the claudin 18.2 as a marker for
+
+42
+00:02:27.260 --> 00:02:31.000
+antibody against it. This is a lineage marker for stomach
+
+43
+00:02:31.580 --> 00:02:35.100
+tight junction cells. And then there is very exciting
+
+44
+00:02:35.160 --> 00:02:37.940
+breakthrough in the HER2-positive gastric cancer,
+
+45
+00:02:38.380 --> 00:02:41.300
+especially those with PD-1
+
+46
+00:02:42.540 --> 00:02:43.240
+expression.
+
+47
+00:02:44.440 --> 00:02:48.140
+And we are going to have speaker talking a lot about this,
+
+48
+00:02:48.360 --> 00:02:50.780
+which is really exciting development.
+
+49
+00:02:51.460 --> 00:02:54.940
+And there are second-line and third-line treatment, but
+
+50
+00:02:56.040 --> 00:02:59.840
+the efficacy is really limited, and we still need a
+
+51
+00:03:00.180 --> 00:03:01.700
+breakthrough in this area.
+
+52
+00:03:03.360 --> 00:03:06.260
+In parallel, there are technological evolution,
+
+53
+00:03:06.940 --> 00:03:10.580
+including organoid models, new animal models,
+
+54
+00:03:11.040 --> 00:03:14.350
+and multiomic profiling, as well as the single-cell and spatial
+
+55
+00:03:14.480 --> 00:03:18.040
+transcriptomic that allowed us to develop deep
+
+56
+00:03:18.100 --> 00:03:21.700
+understanding, both in the pre-cancer evolution and
+
+57
+00:03:21.800 --> 00:03:23.910
+also in the tumor microenvironment.
+
+58
+00:03:24.820 --> 00:03:28.720
+And with this background, today, we are going to have three talks.
+
+59
+00:03:28.900 --> 00:03:32.180
+Myself talking about the pre-cancer evolution of the upper
+
+60
+00:03:32.200 --> 00:03:34.480
+gastrointestinal tract. We have Dr.
+
+61
+00:03:34.880 --> 00:03:38.020
+Jaffa Ajani from MD Anderson Cancer Center talking about
+
+62
+00:03:38.460 --> 00:03:42.420
+molecular heterogeneity and also advances in
+
+63
+00:03:42.460 --> 00:03:45.780
+HER2-directed therapy. We also have Dr.
+
+64
+00:03:46.080 --> 00:03:49.480
+Yelena Janjigian from Memorial Sloan
+
+65
+00:03:49.580 --> 00:03:53.280
+Kettering to talk about resectable gastroesophageal
+
+66
+00:03:53.360 --> 00:03:55.480
+cancer, time to rewrite the standard.
+
+67
+00:03:56.200 --> 00:03:58.580
+So I'm going to start with the first talk,
+
+68
+00:04:00.080 --> 00:04:03.220
+and we will have Q&amp;A section after each of the talk, and
+
+69
+00:04:03.320 --> 00:04:06.880
+also a general discussion for all three of the speaker.
+
+70
+00:04:07.210 --> 00:04:11.140
+So you can either ask question right at the end or leave it to the end
+
+71
+00:04:11.200 --> 00:04:13.720
+of the general discussion. So
+
+72
+00:04:14.620 --> 00:04:18.601
+my laboratory is a molecular pathology
+
+73
+00:04:18.680 --> 00:04:21.969
+laboratory, and we are interested in the
+
+74
+00:04:22.880 --> 00:04:26.080
+pre-cancer evolution as well as the molecular
+
+75
+00:04:26.180 --> 00:04:29.580
+classification of gastric cancer.
+
+76
+00:04:29.620 --> 00:04:33.540
+More than 10 years ago, we have done a very comprehensive profiling
+
+77
+00:04:33.600 --> 00:04:37.380
+of gastric cancer and identified these four molecular
+
+78
+00:04:37.480 --> 00:04:40.280
+subtypes, each having their own driver
+
+79
+00:04:40.820 --> 00:04:44.600
+mutation, in which now we are seeing emerging targeted
+
+80
+00:04:44.760 --> 00:04:48.000
+therapy towards each of these molecular subgroups.
+
+81
+00:04:49.740 --> 00:04:53.480
+So in parallel, we have built organoid model
+
+82
+00:04:53.540 --> 00:04:56.720
+trying to understand all these molecular subtypes.
+
+83
+00:04:56.780 --> 00:05:00.040
+And we have now a bank that represent
+
+84
+00:05:00.460 --> 00:05:04.300
+virtually all the molecular subtype, including some of those that are
+
+85
+00:05:04.340 --> 00:05:07.900
+previously underrepresented in cancer cell
+
+86
+00:05:07.960 --> 00:05:11.740
+lines like the ALK fusion model, the RhoA mutation model,
+
+87
+00:05:12.200 --> 00:05:14.180
+as well as the EBV and
+
+88
+00:05:15.080 --> 00:05:17.320
+some diffuse gastric cancer models.
+
+89
+00:05:19.580 --> 00:05:20.520
+In parallel,
+
+90
+00:05:21.320 --> 00:05:25.080
+there is evolvement of many different
+
+91
+00:05:25.340 --> 00:05:29.260
+modification to the original organoid cocktail
+
+92
+00:05:29.320 --> 00:05:33.060
+that adapt to different organs in which you can actually
+
+93
+00:05:33.100 --> 00:05:36.480
+grow organoid from cancers from these various
+
+94
+00:05:36.560 --> 00:05:39.580
+organs, epithelial organ especially.
+
+95
+00:05:40.100 --> 00:05:40.280
+And
+
+96
+00:05:41.280 --> 00:05:44.800
+in parallel, the exciting development is now
+
+97
+00:05:45.420 --> 00:05:49.260
+because of this, you can actually grow pre-cancer models
+
+98
+00:05:49.800 --> 00:05:53.720
+covering all these different organs, and I'm going to mainly cover
+
+99
+00:05:53.880 --> 00:05:57.200
+the intestinal metaplasia model in this talk.
+
+100
+00:05:59.260 --> 00:06:02.604
+SoIntestinal metaplasia is the
+
+101
+00:06:02.664 --> 00:06:06.564
+conversion of gastric cell into intestinalized cells, and
+
+102
+00:06:07.004 --> 00:06:09.824
+it is usually a consequence of chronic inflammation,
+
+103
+00:06:11.104 --> 00:06:14.704
+and it has a wide prevalence, especially in
+
+104
+00:06:14.784 --> 00:06:18.404
+Asian population. Histologically, it has been
+
+105
+00:06:18.444 --> 00:06:22.404
+classified into the complete and incomplete type, and the incomplete
+
+106
+00:06:22.484 --> 00:06:26.444
+type is said to be associated with a higher risk of gastric cancer
+
+107
+00:06:26.504 --> 00:06:30.284
+conversion. However, study of this is
+
+108
+00:06:30.304 --> 00:06:34.284
+limited because there is no representative sensitive 2D cell line model,
+
+109
+00:06:34.764 --> 00:06:38.084
+and the animal model, especially in mice, only partially
+
+110
+00:06:38.484 --> 00:06:42.354
+resemble human metaplasia. And mice
+
+111
+00:06:42.464 --> 00:06:46.304
+mainly displace the so-called spam instead
+
+112
+00:06:46.364 --> 00:06:48.734
+of true intestinal metaplasia.
+
+113
+00:06:49.704 --> 00:06:53.654
+In collaboration with Mike Stratton in Sanger Institute, we have done
+
+114
+00:06:53.764 --> 00:06:54.364
+a deep
+
+115
+00:06:55.344 --> 00:06:58.944
+whole genome sequencing by microdissecting individual
+
+116
+00:06:59.004 --> 00:07:01.684
+crypts in individual gland in the stomach.
+
+117
+00:07:02.884 --> 00:07:06.744
+And through study of more than 200 whole genome
+
+118
+00:07:06.824 --> 00:07:08.744
+sequence of individual glands,
+
+119
+00:07:09.844 --> 00:07:12.564
+we observe the number of
+
+120
+00:07:12.684 --> 00:07:16.084
+SNVs increasing with age in both
+
+121
+00:07:16.144 --> 00:07:20.064
+non-cancer and cancer patients. So this is probably the range of
+
+122
+00:07:20.224 --> 00:07:24.064
+normal, what you would expect. By the age of 80, you will have
+
+123
+00:07:24.144 --> 00:07:25.244
+around 2,000
+
+124
+00:07:26.084 --> 00:07:29.364
+SNV mutation in each of the gland in your stomach.
+
+125
+00:07:30.184 --> 00:07:33.804
+But in some of the gastric cancer patient, we see
+
+126
+00:07:33.884 --> 00:07:37.004
+outliers with elevated somatic
+
+127
+00:07:37.464 --> 00:07:41.024
+mutation, and these correlate with chronic
+
+128
+00:07:41.084 --> 00:07:44.804
+inflammation, denoted in red, and also intestinal
+
+129
+00:07:44.844 --> 00:07:48.424
+metaplasia. And indeed, if you look at intestinal
+
+130
+00:07:48.464 --> 00:07:51.844
+metaplasia, for the glands that has it, it has
+
+131
+00:07:52.004 --> 00:07:55.924
+around two-fold elevation of the SNV and three-fold
+
+132
+00:07:55.964 --> 00:07:57.704
+elevation of the indel rate.
+
+133
+00:07:59.504 --> 00:08:03.024
+So this is example of what we have dissected, a
+
+134
+00:08:03.084 --> 00:08:06.984
+cluster of intestinal metaplasia glands and then some gastric
+
+135
+00:08:07.044 --> 00:08:09.223
+glands. And when you trace their
+
+136
+00:08:10.664 --> 00:08:14.304
+evolutionary branch, you can see that all these
+
+137
+00:08:14.344 --> 00:08:17.984
+metaplastic glands actually comes from a common
+
+138
+00:08:18.044 --> 00:08:21.844
+ancestor, suggesting that there is actually clonal expansion
+
+139
+00:08:22.264 --> 00:08:26.084
+from a common ancestor, and the asterisk all along in these trees
+
+140
+00:08:26.124 --> 00:08:28.344
+would denote intestinal metaplasia.
+
+141
+00:08:30.164 --> 00:08:33.244
+So this is another example of a bigger piece of
+
+142
+00:08:33.264 --> 00:08:37.004
+mucosa in which you can see that each of this red
+
+143
+00:08:37.064 --> 00:08:39.504
+gland denote a metaplastic gland.
+
+144
+00:08:39.544 --> 00:08:43.465
+You can see families of it around it, but we only dissect
+
+145
+00:08:43.644 --> 00:08:47.144
+one to represent them. You can see they are completely
+
+146
+00:08:47.204 --> 00:08:50.484
+independent in terms of their lineage, showing the
+
+147
+00:08:50.494 --> 00:08:53.864
+heterogeneity, and the field effect is
+
+148
+00:08:54.204 --> 00:08:57.394
+dramatic. And if you imagine you are a
+
+149
+00:08:57.404 --> 00:09:01.384
+gastroenterologist, you can biopsy this area in
+
+150
+00:09:01.424 --> 00:09:05.324
+which you get this IM glands cluster, and this area is a
+
+151
+00:09:05.364 --> 00:09:09.164
+totally different cluster. And only in this one cm
+
+152
+00:09:09.304 --> 00:09:12.964
+area of mucosa, you already get, I would suppose
+
+153
+00:09:13.044 --> 00:09:16.464
+tens or twenties of different metaplastic clones,
+
+154
+00:09:16.964 --> 00:09:18.224
+each with their own
+
+155
+00:09:19.304 --> 00:09:23.044
+different driver or different mutations.
+
+156
+00:09:23.964 --> 00:09:27.904
+So it is a very complex disease because of the
+
+157
+00:09:27.924 --> 00:09:31.864
+heterogeneity. So this phylogenetic tree shows
+
+158
+00:09:32.284 --> 00:09:35.484
+each patient in which the glands that we have
+
+159
+00:09:36.284 --> 00:09:39.524
+microdissected, and you can see the predominant
+
+160
+00:09:40.164 --> 00:09:43.584
+mutation, this clock line mutation of SBS1 and
+
+161
+00:09:43.764 --> 00:09:47.424
+5. But you can see in the metaplastic glands denoted
+
+162
+00:09:47.484 --> 00:09:51.004
+in asterisk, you can see the blue
+
+163
+00:09:51.044 --> 00:09:54.944
+mutation signature coming off, which is the SBS18,
+
+164
+00:09:55.844 --> 00:09:59.244
+suggest to be linked to ROS injury.
+
+165
+00:09:59.274 --> 00:10:02.904
+And then interestingly, this is the indel signature again,
+
+166
+00:10:03.504 --> 00:10:07.364
+in the metaplastic gland, you see a change in
+
+167
+00:10:07.444 --> 00:10:11.304
+ratio between the ID2
+
+168
+00:10:11.324 --> 00:10:15.244
+and the ID1 signature. An ID2 signature
+
+169
+00:10:15.284 --> 00:10:18.763
+is more enriched in tumor, especially MSI tumor.
+
+170
+00:10:18.823 --> 00:10:22.544
+So you can see in the early metaplastic process, you
+
+171
+00:10:22.564 --> 00:10:26.044
+already get this progressive shift in mutational
+
+172
+00:10:26.144 --> 00:10:26.704
+signature
+
+173
+00:10:27.544 --> 00:10:30.104
+towards a more like a cancer.
+
+174
+00:10:31.044 --> 00:10:34.764
+So we have studied extensively the biobank of
+
+175
+00:10:34.824 --> 00:10:37.754
+organoid that we have collected in which we grow the organoid.
+
+176
+00:10:38.464 --> 00:10:41.904
+And then with the transcriptome, you can see this is the metaplastic
+
+177
+00:10:42.004 --> 00:10:45.784
+organoid. This is the reference gastric and colon organoid,
+
+178
+00:10:46.284 --> 00:10:49.984
+and we characterize them by the colon and the stomach signature
+
+179
+00:10:50.284 --> 00:10:52.444
+score. And you can see that
+
+180
+00:10:54.644 --> 00:10:57.704
+for the metaplastic organoids, some of them
+
+181
+00:10:58.204 --> 00:11:02.124
+actually retain the gastric signature but begin to express
+
+182
+00:11:02.184 --> 00:11:06.024
+the colon signature, whereas other progressively
+
+183
+00:11:06.384 --> 00:11:09.004
+get lost in their stomach signature.
+
+184
+00:11:09.424 --> 00:11:12.564
+So I think this spectrum probably represent
+
+185
+00:11:14.124 --> 00:11:17.844
+the complete or incomplete transition in the
+
+186
+00:11:17.884 --> 00:11:21.854
+metaplastic process. And this organoid model, you can see they,
+
+187
+00:11:22.604 --> 00:11:26.284
+like the glands that we dissect, they have elevated somatic
+
+188
+00:11:26.324 --> 00:11:30.264
+mutation rates, they have copy number alterations, and these
+
+189
+00:11:30.304 --> 00:11:33.964
+are the key drivers that we found. They don't
+
+190
+00:11:34.044 --> 00:11:37.704
+have the very advanced cancer driver like P53
+
+191
+00:11:37.744 --> 00:11:41.504
+mutation, but ERIT1A mutation is pretty common.
+
+192
+00:11:42.944 --> 00:11:46.924
+And the most dramatic change is actually in the epigenetics.
+
+193
+00:11:47.264 --> 00:11:49.704
+So we can see in the metaplastic organoid,
+
+194
+00:11:50.984 --> 00:11:54.524
+hypermethylation and downregulated gene and
+
+195
+00:11:54.604 --> 00:11:57.184
+demethylation and upregulated gene.
+
+196
+00:11:57.544 --> 00:11:59.264
+When we map this to the
+
+197
+00:12:01.064 --> 00:12:04.764
+genes that related to the gastric or intestinal
+
+198
+00:12:05.124 --> 00:12:09.084
+signature, actually, we found that some of the
+
+199
+00:12:09.104 --> 00:12:12.064
+gastric signature genes denoted in black balls here
+
+200
+00:12:12.764 --> 00:12:15.740
+arehypermethylated and downregulated,
+
+201
+00:12:16.180 --> 00:12:20.040
+whereas these red genes are denoting the
+
+202
+00:12:20.100 --> 00:12:22.740
+colon signature are
+
+203
+00:12:23.900 --> 00:12:24.720
+demethylated
+
+204
+00:12:27.060 --> 00:12:28.020
+and hyperexpressed.
+
+205
+00:12:30.160 --> 00:12:33.880
+So the whole process seems to be highly epigenetically
+
+206
+00:12:34.040 --> 00:12:37.620
+related. So the interesting genes, claudin
+
+207
+00:12:37.680 --> 00:12:41.500
+18, there is intense interest because the claudin 18.2 is
+
+208
+00:12:41.580 --> 00:12:45.360
+now a target therapy. You can see they are expressed
+
+209
+00:12:45.460 --> 00:12:49.140
+in the membrane of the antrum or body organoid,
+
+210
+00:12:49.300 --> 00:12:52.420
+but in the metaplastic organoid, you can see progressive
+
+211
+00:12:52.580 --> 00:12:56.040
+reduction in its expression. And
+
+212
+00:12:56.100 --> 00:13:00.080
+probably this could constitute one of the escape mechanism to
+
+213
+00:13:00.160 --> 00:13:03.929
+the claudin 18.2 targeted therapy,
+
+214
+00:13:04.480 --> 00:13:07.620
+where as you can see induction of the metaplastic,
+
+215
+00:13:08.500 --> 00:13:12.080
+the intestinal signature gene. So we
+
+216
+00:13:12.120 --> 00:13:16.040
+perform single-cell analysis on the organoid culture,
+
+217
+00:13:16.560 --> 00:13:20.200
+and you can see if we plot these individual
+
+218
+00:13:20.340 --> 00:13:23.960
+organoid in the x-y axis, the colon and stomach score,
+
+219
+00:13:24.620 --> 00:13:25.300
+you can see
+
+220
+00:13:26.380 --> 00:13:30.000
+the organoid with a hybrid colon and gastric stomach
+
+221
+00:13:30.100 --> 00:13:33.720
+score are in many of the organoid models.
+
+222
+00:13:33.840 --> 00:13:36.980
+And here there is a normal gastric cells
+
+223
+00:13:37.020 --> 00:13:40.940
+contamination, which are the gastric cells that has the
+
+224
+00:13:40.980 --> 00:13:43.780
+gastric score but very low colon score.
+
+225
+00:13:43.820 --> 00:13:46.940
+But you can see the heterogeneity in the spectrum.
+
+226
+00:13:47.100 --> 00:13:51.040
+Some cells has more advanced intestinal differentiation, but other
+
+227
+00:13:51.120 --> 00:13:54.830
+cells are more hybrid, and the lighter color is
+
+228
+00:13:54.880 --> 00:13:58.220
+denote the cells after Wnt withdrawal when we try to induce
+
+229
+00:13:58.260 --> 00:14:01.810
+differentiation. You can see an elevation of their score.
+
+230
+00:14:02.520 --> 00:14:06.440
+So with this heterogeneity, then we pick
+
+231
+00:14:06.500 --> 00:14:10.340
+individual clonal organoid and grow them and look at the spectrum
+
+232
+00:14:10.620 --> 00:14:14.580
+of differentiation, and here is the
+
+233
+00:14:15.020 --> 00:14:18.520
+proportion of hybrid versus more advanced
+
+234
+00:14:18.560 --> 00:14:21.140
+intestinal cell in each clonal organoid.
+
+235
+00:14:21.420 --> 00:14:23.480
+This is the reference gastric organoid.
+
+236
+00:14:23.749 --> 00:14:27.440
+So you can see individual clone, each could have
+
+237
+00:14:27.620 --> 00:14:31.180
+different proportion of differentiation into the
+
+238
+00:14:31.220 --> 00:14:33.430
+hybrid or more advanced intestinal cell.
+
+239
+00:14:34.020 --> 00:14:37.700
+So suggesting that actually these epigenetic
+
+240
+00:14:38.260 --> 00:14:41.040
+deregulation constitute a spectrum.
+
+241
+00:14:41.480 --> 00:14:44.980
+Each cell is different in terms of its epigenetic
+
+242
+00:14:45.080 --> 00:14:48.460
+setting that whether they display more advanced
+
+243
+00:14:48.520 --> 00:14:51.680
+intestinal or a more hybrid phenotype.
+
+244
+00:14:54.040 --> 00:14:57.560
+So when we look at the different cell cluster,
+
+245
+00:14:58.260 --> 00:15:02.140
+actually the cycling isthmus stem cells of the
+
+246
+00:15:02.200 --> 00:15:06.040
+body organoid versus metaplastic organoid, you can see the
+
+247
+00:15:06.100 --> 00:15:09.840
+key difference is the transcription factor of intestinal metaplasia
+
+248
+00:15:10.420 --> 00:15:14.240
+are being expressed. But when we move progressively
+
+249
+00:15:14.280 --> 00:15:14.820
+down,
+
+250
+00:15:15.740 --> 00:15:19.660
+we can see this very interesting group we call pit-enterocyte, in
+
+251
+00:15:19.700 --> 00:15:19.920
+which
+
+252
+00:15:21.340 --> 00:15:24.840
+especially after Wnt withdrawal, when they differentiate, these
+
+253
+00:15:24.920 --> 00:15:28.740
+organoid express the pit cell marker
+
+254
+00:15:28.880 --> 00:15:32.740
+as well as enterocyte markers. So these constitute the
+
+255
+00:15:32.780 --> 00:15:36.260
+hybrid cells that we are seeing. But we are also seeing
+
+256
+00:15:36.500 --> 00:15:40.340
+other population like the cycling tuft
+
+257
+00:15:40.460 --> 00:15:44.340
+cells, which is quite specific in the stomach, and
+
+258
+00:15:44.400 --> 00:15:47.760
+then also the secretory progenitor expressed in the
+
+259
+00:15:47.840 --> 00:15:51.660
+neuroendocrine marker. So with these, we can
+
+260
+00:15:51.840 --> 00:15:54.940
+construct a 3D lineage
+
+261
+00:15:54.980 --> 00:15:58.300
+trajectory of the normal gastric organoid versus the
+
+262
+00:15:58.340 --> 00:16:01.680
+metaplastic organoid. So here you can see the
+
+263
+00:16:01.720 --> 00:16:05.660
+cycling isthmus stem cell denoted in light green can
+
+264
+00:16:05.760 --> 00:16:09.700
+goes to differentiate into the gastric mucus cell or through
+
+265
+00:16:09.720 --> 00:16:12.780
+the cycling tuft cell into the secretory progenitor.
+
+266
+00:16:13.280 --> 00:16:16.580
+And at the opposite end of the spectrum, these are the
+
+267
+00:16:17.060 --> 00:16:20.780
+gastric chief stem cells. Whereas in metaplastic
+
+268
+00:16:20.900 --> 00:16:24.280
+organoid, you can see they are more complex.
+
+269
+00:16:24.360 --> 00:16:28.280
+So from the cycling isthmus stem cells, they can give rise to the
+
+270
+00:16:28.380 --> 00:16:32.220
+Lgr5 stem cell and then the brown secretory progenitor.
+
+271
+00:16:32.240 --> 00:16:36.120
+But on this side, it was the pit-enterocyte and the enterocyte that I
+
+272
+00:16:36.180 --> 00:16:39.960
+will show you a little bit more in details.
+
+273
+00:16:40.480 --> 00:16:44.360
+So this is the lineage trajectory of a gastric body
+
+274
+00:16:44.440 --> 00:16:48.220
+organoid, and this is the cycling isthmus stem
+
+275
+00:16:48.300 --> 00:16:52.100
+cells, which is very high in STMN1, which is we
+
+276
+00:16:52.280 --> 00:16:55.980
+feel a very good marker. You can see you can stain them in the isthmus
+
+277
+00:16:56.060 --> 00:16:59.480
+region, and they correlate with the high
+
+278
+00:16:59.520 --> 00:17:02.160
+Ki67 labeling index. But
+
+279
+00:17:02.980 --> 00:17:04.881
+from here you can see that
+
+280
+00:17:07.181 --> 00:17:10.840
+the gastric organoid would differentiate into the pit
+
+281
+00:17:10.901 --> 00:17:14.700
+mucus cell characterized by MUC5AC, TFF2 and claudin
+
+282
+00:17:14.720 --> 00:17:16.800
+18. So these are the gastric marker.
+
+283
+00:17:17.421 --> 00:17:20.960
+But here is the interesting part, the metaplastic organoid.
+
+284
+00:17:21.060 --> 00:17:21.131
+So
+
+285
+00:17:22.580 --> 00:17:26.440
+for the cycling isthmus stem cells, so they still express
+
+286
+00:17:26.540 --> 00:17:30.180
+STMN1, but they now
+
+287
+00:17:30.320 --> 00:17:34.140
+express the stem cell, the IM markers.
+
+288
+00:17:34.570 --> 00:17:37.860
+And then when they differentiate, you can see they can give rise to the
+
+289
+00:17:37.980 --> 00:17:41.960
+Lgr5 stem cells, which also express the intestinal stem marker.
+
+290
+00:17:42.480 --> 00:17:46.400
+But on the other hand, they give rise to these two different
+
+291
+00:17:46.500 --> 00:17:50.120
+arm. One is more hybrid. You can see expression of
+
+292
+00:17:50.180 --> 00:17:54.120
+enterocyte marker as well as gastric pit
+
+293
+00:17:54.200 --> 00:17:57.260
+cell marker, which we denote the hybrid cells.
+
+294
+00:17:57.560 --> 00:18:01.180
+Whereas the other arm show more advanced intestinal
+
+295
+00:18:01.220 --> 00:18:04.990
+differentiation where you can get the more advanced intestinal
+
+296
+00:18:05.060 --> 00:18:06.110
+marker, but
+
+297
+00:18:06.920 --> 00:18:09.780
+reduction or loss in the gastric marker.
+
+298
+00:18:10.420 --> 00:18:10.980
+So,
+
+299
+00:18:12.760 --> 00:18:16.320
+in fact, it translate very well histologically for this
+
+300
+00:18:16.380 --> 00:18:20.260
+hybrid arm to the so-called incomplete metaplasia, in
+
+301
+00:18:20.320 --> 00:18:23.932
+which you can see theGastric gland expressing
+
+302
+00:18:24.012 --> 00:18:27.692
+both Fabp, its intestinal marker, and Mu5ac.
+
+303
+00:18:28.152 --> 00:18:30.272
+And the cells look transparent,
+
+304
+00:18:32.132 --> 00:18:35.052
+with goblet cell in between, so characteristic of so-called
+
+305
+00:18:36.212 --> 00:18:39.992
+incomplete IM. Whereas this arm corresponds to the
+
+306
+00:18:40.052 --> 00:18:43.952
+more advanced enterocyte differentiation, in which the cell
+
+307
+00:18:44.012 --> 00:18:47.812
+do not express any gastric pit marker at all, but mainly
+
+308
+00:18:47.872 --> 00:18:51.832
+intestinal markers. So we find that this hybrid cell is
+
+309
+00:18:51.852 --> 00:18:52.902
+very interesting.
+
+310
+00:18:53.372 --> 00:18:56.982
+We will
+
+311
+00:18:57.292 --> 00:18:58.381
+discuss it later.
+
+312
+00:18:59.252 --> 00:19:02.992
+So here we also try to look at where is the origin of the
+
+313
+00:19:03.352 --> 00:19:06.692
+metaplastic cells. So in the same
+
+314
+00:19:06.732 --> 00:19:10.112
+patient, we pool the body organoid and the
+
+315
+00:19:10.152 --> 00:19:13.552
+metaplastic organoid together to perform a lineage
+
+316
+00:19:13.572 --> 00:19:17.412
+trajectory analysis. And you can see that the
+
+317
+00:19:17.512 --> 00:19:21.092
+STM1 cycling isthmus stem cell seems to
+
+318
+00:19:21.132 --> 00:19:24.592
+be common between the metaplastic
+
+319
+00:19:25.052 --> 00:19:25.652
+and the
+
+320
+00:19:26.512 --> 00:19:29.752
+body organoid. But the metaplastic
+
+321
+00:19:29.872 --> 00:19:32.952
+organoids that differentiate into the
+
+322
+00:19:33.752 --> 00:19:37.572
+enterocyte on this side and then the Lgr5 stem cell on this
+
+323
+00:19:37.632 --> 00:19:41.592
+side. Whereas the body organoid differentiate
+
+324
+00:19:41.712 --> 00:19:45.312
+into the gastric pit cells. So
+
+325
+00:19:45.492 --> 00:19:49.412
+here, correspondingly immunohistochemically, you can see
+
+326
+00:19:49.472 --> 00:19:52.852
+that this is the isthmus region with
+
+327
+00:19:52.892 --> 00:19:56.612
+Cdx1 expression only on the upper part, whereas the lower part
+
+328
+00:19:57.092 --> 00:20:00.752
+is not. And then you can see the Stmm1
+
+329
+00:20:00.792 --> 00:20:04.712
+expression here, the upper part with the metaplasia, whereas
+
+330
+00:20:04.752 --> 00:20:08.592
+the lower part retain the gastric phenotype of
+
+331
+00:20:08.652 --> 00:20:12.052
+Musix and Progestrine. So suggesting that
+
+332
+00:20:12.122 --> 00:20:15.972
+actually IM start in the isthmus stem cells and
+
+333
+00:20:16.032 --> 00:20:17.832
+move progressively upward.
+
+334
+00:20:20.732 --> 00:20:24.492
+So when we examine the lineage plasticity of these
+
+335
+00:20:24.552 --> 00:20:28.342
+hybrid cells, here we use the single cell and
+
+336
+00:20:29.072 --> 00:20:32.152
+delineate their different proportion of
+
+337
+00:20:32.632 --> 00:20:35.952
+cell types signature. And we find that the
+
+338
+00:20:35.992 --> 00:20:39.962
+metaplastic cell, apart from expressing both gastric and
+
+339
+00:20:40.052 --> 00:20:42.312
+intestinal marker, actually
+
+340
+00:20:43.092 --> 00:20:46.432
+retain other, for example, epithelial
+
+341
+00:20:46.452 --> 00:20:49.892
+non-GI signature and even some mesenchymal
+
+342
+00:20:49.952 --> 00:20:53.632
+signature. So they remain high in the
+
+343
+00:20:53.812 --> 00:20:57.652
+diversity, whereas the advanced intestinal
+
+344
+00:20:57.752 --> 00:21:01.572
+organoid are more mature and unidirectional into the
+
+345
+00:21:01.612 --> 00:21:04.532
+intestinal fate, whereas the gastric organoid
+
+346
+00:21:04.932 --> 00:21:07.892
+unidirectional into the gastric fate.
+
+347
+00:21:09.232 --> 00:21:13.212
+Interestingly, this arrests in the hybrid state,
+
+348
+00:21:13.512 --> 00:21:16.772
+apart from display higher lineage
+
+349
+00:21:16.852 --> 00:21:20.692
+plasticity, also display
+
+350
+00:21:20.872 --> 00:21:24.472
+a fetal signature reversion. So you can see in this arm
+
+351
+00:21:26.412 --> 00:21:29.792
+of metaplastic cell, they express this fetal signature, the fetal
+
+352
+00:21:30.572 --> 00:21:34.512
+gut signature, including Tacstd2, which is also called
+
+353
+00:21:34.532 --> 00:21:38.032
+Trop2, which is a very interesting target now with
+
+354
+00:21:38.112 --> 00:21:41.152
+the ADC targeting these
+
+355
+00:21:42.932 --> 00:21:43.912
+fetal markers.
+
+356
+00:21:45.132 --> 00:21:48.812
+But beyond this, it also express other fetal marker.
+
+357
+00:21:49.152 --> 00:21:52.772
+So it looks like this metaplastic process are
+
+358
+00:21:52.852 --> 00:21:56.072
+actually undergoing fetal reversion with the lineage
+
+359
+00:21:56.172 --> 00:21:58.912
+plasticity. So lastly, we
+
+360
+00:21:59.952 --> 00:22:00.832
+examine
+
+361
+00:22:02.092 --> 00:22:05.712
+whether our IM organoid cell cluster or body
+
+362
+00:22:05.772 --> 00:22:09.232
+organoid cell cluster are more similar to
+
+363
+00:22:09.332 --> 00:22:13.322
+the normal or IM gastric tissue or gastric cancer
+
+364
+00:22:13.432 --> 00:22:16.412
+tissue. So you can see this is normal
+
+365
+00:22:17.612 --> 00:22:21.172
+gastric tissue. So they preferentially map to the
+
+366
+00:22:22.032 --> 00:22:25.772
+body organoid tree, whereas the IM gastric
+
+367
+00:22:25.812 --> 00:22:29.452
+tissue preferentially map into the IM organoid
+
+368
+00:22:29.552 --> 00:22:33.292
+tree. But interestingly, this is gastric cancer tissue.
+
+369
+00:22:33.312 --> 00:22:35.412
+You can see they cell map to
+
+370
+00:22:37.452 --> 00:22:41.311
+body organoid tree, but they map to a lot of the metaplastic
+
+371
+00:22:41.472 --> 00:22:45.452
+organoid tree where individual nodes denote different cell cluster,
+
+372
+00:22:46.152 --> 00:22:49.772
+as highlighted in this pie chart. So you can see the gastric
+
+373
+00:22:49.832 --> 00:22:53.512
+tissue, cancer tissue actually show the
+
+374
+00:22:53.612 --> 00:22:57.592
+higher similarity to the IM cycling isthmus
+
+375
+00:22:57.632 --> 00:23:01.132
+stem cell, as well as many different cell cluster in the
+
+376
+00:23:01.172 --> 00:23:05.152
+metaplastic process. And a minority actually looks
+
+377
+00:23:05.212 --> 00:23:09.192
+more similar to colon, and only a very small subset
+
+378
+00:23:10.192 --> 00:23:11.192
+resemble the
+
+379
+00:23:12.112 --> 00:23:15.962
+body organoid. And you can see in the metaplasia and
+
+380
+00:23:16.012 --> 00:23:19.972
+gastric cancer tissue, these cells also showed a
+
+381
+00:23:20.032 --> 00:23:23.472
+elevated fetal and the Yap stemness score.
+
+382
+00:23:24.852 --> 00:23:25.132
+So,
+
+383
+00:23:26.232 --> 00:23:30.062
+we then examined the chromosomal
+
+384
+00:23:30.152 --> 00:23:33.612
+instability status. You can see some of these organoid
+
+385
+00:23:33.692 --> 00:23:36.672
+display trisomy of chromosome 20,
+
+386
+00:23:37.432 --> 00:23:40.872
+and as well as in the normal body organoid.
+
+387
+00:23:40.912 --> 00:23:44.652
+But if you look at the distribution, they are quite widely
+
+388
+00:23:44.732 --> 00:23:48.492
+dispersed. For example, here you can see a chromosome 20
+
+389
+00:23:48.552 --> 00:23:52.372
+gain in one of the gland and a chromosome 13 gain in another
+
+390
+00:23:52.452 --> 00:23:56.112
+gland. So this is another extreme example in a
+
+391
+00:23:56.332 --> 00:23:58.652
+64-year-old stomach cancer patient.
+
+392
+00:23:59.472 --> 00:24:03.052
+75% of the gastric gland already acquire an extra
+
+393
+00:24:03.092 --> 00:24:05.112
+chromosome. So the
+
+394
+00:24:07.132 --> 00:24:10.712
+orange denote one haplotype and the blue denote the other
+
+395
+00:24:10.772 --> 00:24:14.132
+haplotype. So you can see these are independent events.
+
+396
+00:24:14.232 --> 00:24:18.112
+So sometimes it's the paternal, sometimes it's the maternal haplotype that get the
+
+397
+00:24:18.232 --> 00:24:19.572
+gain. And
+
+398
+00:24:20.692 --> 00:24:24.492
+it is very widespread. When we date the occurrence of this
+
+399
+00:24:24.532 --> 00:24:28.432
+chromosomal gain, it actually dates back to
+
+400
+00:24:28.672 --> 00:24:32.612
+when the patient was very young, and in this case, around 12 years old.
+
+401
+00:24:33.052 --> 00:24:36.492
+So these are the different cases with the
+
+402
+00:24:36.512 --> 00:24:40.272
+trisomy, and you can see they all happen in a pretty early
+
+403
+00:24:40.772 --> 00:24:42.882
+stage.So these
+
+404
+00:24:43.782 --> 00:24:47.622
+organoids, or these glands,
+
+405
+00:24:47.722 --> 00:24:51.662
+are wild type for P53. So you can actually see onset of chromosome
+
+406
+00:24:51.702 --> 00:24:54.842
+instability in a P53 wild type background.
+
+407
+00:24:55.642 --> 00:24:59.602
+So coming back to the organoid model, we find that the change in the
+
+408
+00:24:59.822 --> 00:25:03.602
+metaplastic organoid become independent of FGF10,
+
+409
+00:25:04.122 --> 00:25:07.042
+and they have reduced FGFR2 expression.
+
+410
+00:25:07.702 --> 00:25:11.561
+And when we examine the organoid with chromosome 20 gain,
+
+411
+00:25:12.242 --> 00:25:15.942
+we found that they actually can survive without Matrigel for
+
+412
+00:25:16.042 --> 00:25:19.402
+longer. So, because of this
+
+413
+00:25:19.502 --> 00:25:23.222
+observation, we start to withdraw the Matrigel, and we
+
+414
+00:25:23.282 --> 00:25:27.022
+found that in a few metaplastic organoid, we actually
+
+415
+00:25:27.182 --> 00:25:27.622
+get
+
+416
+00:25:29.342 --> 00:25:33.222
+growth that can actually grow independent of the Matrigel.
+
+417
+00:25:33.742 --> 00:25:36.762
+And when we examine them, we call this spheroid.
+
+418
+00:25:37.182 --> 00:25:41.172
+When we examine them, they actually get even a higher
+
+419
+00:25:41.282 --> 00:25:44.682
+copy gain in chromosome 20 in some of the case.
+
+420
+00:25:44.702 --> 00:25:48.222
+But all of them do have chromosome 20 gain.
+
+421
+00:25:48.302 --> 00:25:52.122
+And we did single-cell analysis, and again, showing the
+
+422
+00:25:52.302 --> 00:25:55.562
+enrichment of this subpopulation with the
+
+423
+00:25:56.342 --> 00:26:00.262
+CIN extra gain of chromosome when we put them in Matrigel,
+
+424
+00:26:00.742 --> 00:26:04.702
+so the whole population is constitute those with chromosome
+
+425
+00:26:04.762 --> 00:26:06.722
+20 as well as other chromosome gain.
+
+426
+00:26:06.802 --> 00:26:09.022
+And this is another two cases,
+
+427
+00:26:10.082 --> 00:26:11.062
+as example.
+
+428
+00:26:12.422 --> 00:26:12.942
+So,
+
+429
+00:26:15.362 --> 00:26:18.942
+when we look at this
+
+430
+00:26:19.002 --> 00:26:22.602
+metaplastic organoid that can survive
+
+431
+00:26:22.902 --> 00:26:26.842
+without Matrigel, we found that they have increased EMT
+
+432
+00:26:26.922 --> 00:26:30.902
+markers and stemness, et cetera, and
+
+433
+00:26:31.962 --> 00:26:35.882
+they also display tumor-like phenotype by the transcriptome.
+
+434
+00:26:37.022 --> 00:26:37.442
+So,
+
+435
+00:26:38.482 --> 00:26:41.762
+in summary, whole genome sequencing of microdissected
+
+436
+00:26:41.802 --> 00:26:45.222
+metaplastic glands revealed increased mutational load,
+
+437
+00:26:45.662 --> 00:26:49.512
+marked heterogeneity, and parallel evolution of individual clones,
+
+438
+00:26:50.022 --> 00:26:53.902
+as well as frequent CIN in the absence of P53
+
+439
+00:26:53.942 --> 00:26:57.242
+mutation. And the organoid biobank can
+
+440
+00:26:57.702 --> 00:27:01.022
+actually capture these diverse array of metaplastic
+
+441
+00:27:01.062 --> 00:27:05.002
+gland harboring heterogeneous genetic and epigenetic
+
+442
+00:27:05.012 --> 00:27:08.762
+perturbations. Single-cell RNA-seq revealed IM
+
+443
+00:27:08.802 --> 00:27:12.322
+organoids are spanning a spectrum from hybrid to advanced
+
+444
+00:27:12.362 --> 00:27:15.582
+intestinal differentiation, recapitulating the
+
+445
+00:27:15.642 --> 00:27:19.302
+incomplete to complete metaplasia spectrum in tissue.
+
+446
+00:27:20.402 --> 00:27:23.702
+And they show impaired differentiation potential, higher cell lineage
+
+447
+00:27:23.802 --> 00:27:27.462
+plasticity, as well as fetal reversion.
+
+448
+00:27:28.202 --> 00:27:32.142
+We have also shown the putative origin of IM from SDMN cycling
+
+449
+00:27:32.222 --> 00:27:35.582
+isthmus stem cell and gastric cancer cells in tissue show high
+
+450
+00:27:35.602 --> 00:27:39.302
+similarity to metaplastic cycling isthmus stem
+
+451
+00:27:39.402 --> 00:27:41.922
+cell and other metaplastic cell populations.
+
+452
+00:27:42.542 --> 00:27:46.182
+Finally, we identify a link between chromosome 20 gain and cell
+
+453
+00:27:46.222 --> 00:27:49.982
+matrix independency in metaplastic organoid, potentially
+
+454
+00:27:49.992 --> 00:27:53.742
+working in concert as one of the earliest tumor-initiating event
+
+455
+00:27:53.802 --> 00:27:57.522
+in gastric cancer development. So, in
+
+456
+00:27:57.582 --> 00:28:00.842
+parallel, there is also a very exciting
+
+457
+00:28:00.962 --> 00:28:04.722
+evolvement of the understanding of the metaplastic process
+
+458
+00:28:04.802 --> 00:28:08.722
+through spatial and in vivo transcriptomic and
+
+459
+00:28:08.822 --> 00:28:12.602
+also single-cell analysis. For example, this study
+
+460
+00:28:13.122 --> 00:28:17.062
+from the Vanderbilt group show that there is, in
+
+461
+00:28:17.142 --> 00:28:20.242
+parallel to the metaplasia, there is the
+
+462
+00:28:20.702 --> 00:28:24.062
+PDGF-alpha subset of fibroblasts being
+
+463
+00:28:24.102 --> 00:28:27.662
+expanded. And co-culture of these metaplastic
+
+464
+00:28:27.742 --> 00:28:30.962
+fibroblasts can actually promote dysplastic
+
+465
+00:28:31.022 --> 00:28:31.942
+progression.
+
+466
+00:28:33.762 --> 00:28:37.302
+And the Singapore Gastric Cancer Consortium has also
+
+467
+00:28:37.402 --> 00:28:41.042
+published a lot of multi-omics data, including
+
+468
+00:28:41.562 --> 00:28:44.922
+here suggesting that the intestinal stem cell
+
+469
+00:28:45.342 --> 00:28:48.642
+is highly linked to early gastric cancer and also
+
+470
+00:28:49.042 --> 00:28:52.742
+mutational signature of SBS17 in IM
+
+471
+00:28:52.862 --> 00:28:56.452
+and mutation count, ARID1A mutation, and high clonal
+
+472
+00:28:56.452 --> 00:29:00.002
+hemopoiesis associated with increased risk of
+
+473
+00:29:00.682 --> 00:29:04.502
+IM progressions. So I'm going a little bit
+
+474
+00:29:04.562 --> 00:29:06.502
+out of time now. So,
+
+475
+00:29:08.222 --> 00:29:11.902
+we start off with pathology. We understand the tumor by
+
+476
+00:29:12.002 --> 00:29:12.282
+their
+
+477
+00:29:13.082 --> 00:29:14.522
+morphology, molecular,
+
+478
+00:29:16.382 --> 00:29:20.142
+underlying genomics. Now we have a living biobank model of all these
+
+479
+00:29:20.202 --> 00:29:23.622
+organoid. And progressively now we can even capture the
+
+480
+00:29:23.682 --> 00:29:27.182
+pre-neoplastic organoid. So with these, I think,
+
+481
+00:29:28.222 --> 00:29:31.542
+there is hope for therapeutic intervention, especially in the
+
+482
+00:29:31.582 --> 00:29:32.362
+pre-cancer
+
+483
+00:29:33.382 --> 00:29:35.822
+area. And there has been two
+
+484
+00:29:36.742 --> 00:29:40.532
+approach previously undertaking, like using an anti-HER2/neu
+
+485
+00:29:40.562 --> 00:29:43.982
+mythic agent or using a MYC inhibitor
+
+486
+00:29:44.462 --> 00:29:45.622
+for targeting
+
+487
+00:29:46.502 --> 00:29:50.362
+pre-cancer. So hopefully with all these, we will see
+
+488
+00:29:50.502 --> 00:29:50.722
+a
+
+489
+00:29:52.962 --> 00:29:56.902
+prevention of gastric cancer becoming a good possibility.
+
+490
+00:29:57.302 --> 00:30:01.122
+So I would like to thanks my collaborators, especially Helen
+
+491
+00:30:01.222 --> 00:30:04.802
+Yen, who actually co-lead this study with me, and
+
+492
+00:30:04.842 --> 00:30:08.752
+Sarah and Yintong are the postdoc working on the
+
+493
+00:30:08.922 --> 00:30:12.582
+metaplastic project, and Mike Stratton, for the
+
+494
+00:30:12.962 --> 00:30:16.922
+collaboration. So I'm probably running out of time for
+
+495
+00:30:17.122 --> 00:30:20.802
+questions. So, maybe I will leave it to the last general
+
+496
+00:30:20.842 --> 00:30:24.372
+discussion, and I would like to invite the second speaker,
+
+497
+00:30:24.962 --> 00:30:25.032
+Dr.
+
+498
+00:30:29.702 --> 00:30:30.262
+Ajani.
+
+499
+00:30:37.302 --> 00:30:38.442
+Good afternoon, everyone.
+
+500
+00:30:39.522 --> 00:30:42.882
+I want to thank Dr. Leung and
+
+501
+00:30:42.982 --> 00:30:45.792
+ACR for inviting
+
+502
+00:30:45.842 --> 00:30:49.710
+me.Can
+
+503
+00:30:49.770 --> 00:30:51.530
+you put my slides on?
+
+504
+00:30:52.810 --> 00:30:54.010
+The second talk.
+
+505
+00:30:55.990 --> 00:30:59.030
+Yeah. Thank you. So I'd like to start with
+
+506
+00:30:59.650 --> 00:31:03.610
+examples of other tumor types than GEA
+
+507
+00:31:04.370 --> 00:31:05.450
+to demonstrate
+
+508
+00:31:06.430 --> 00:31:09.140
+the advancement that has already occurred in the
+
+509
+00:31:09.850 --> 00:31:12.130
+defining metastatic molecularly.
+
+510
+00:31:12.650 --> 00:31:13.790
+So this is breast cancer,
+
+511
+00:31:14.990 --> 00:31:15.870
+and here,
+
+512
+00:31:17.450 --> 00:31:20.170
+in the metastatic process.
+
+513
+00:31:22.310 --> 00:31:24.790
+Can you see the pointer? How do you get the pointer?
+
+514
+00:31:24.930 --> 00:31:28.870
+This is the mouse itself is a pointer.
+
+515
+00:31:31.570 --> 00:31:32.870
+Yeah. The mouse.
+
+516
+00:31:37.570 --> 00:31:39.790
+Okay. All right. I'm just going to
+
+517
+00:31:41.030 --> 00:31:44.710
+talk you through this. So on the right side of the slide, you
+
+518
+00:31:44.810 --> 00:31:45.110
+see
+
+519
+00:31:46.430 --> 00:31:50.370
+the preferential mutations that occur in metastatic
+
+520
+00:31:50.430 --> 00:31:53.110
+breast cancer, particularly ESR1.
+
+521
+00:31:54.090 --> 00:31:58.050
+And in the middle, you see the copy number variations that have
+
+522
+00:31:58.090 --> 00:32:00.450
+been defined in metastatic process.
+
+523
+00:32:00.530 --> 00:32:04.130
+At the bottom right is the various
+
+524
+00:32:04.170 --> 00:32:04.850
+pathways
+
+525
+00:32:05.870 --> 00:32:09.350
+have been well defined, and they can be targeted.
+
+526
+00:32:11.670 --> 00:32:15.460
+In prostate cancer, we heard from Dr. Sawyer today.
+
+527
+00:32:16.610 --> 00:32:18.890
+On the left side, you have
+
+528
+00:32:20.150 --> 00:32:24.130
+the primary tumor with a variety of alterations.
+
+529
+00:32:24.610 --> 00:32:27.510
+But on the right side is the androgen
+
+530
+00:32:27.570 --> 00:32:31.150
+receptor and P53. And androgen
+
+531
+00:32:31.250 --> 00:32:34.410
+receptor is amplified in almost 60% to
+
+532
+00:32:34.750 --> 00:32:38.490
+70% of prostate cancer in certain
+
+533
+00:32:38.570 --> 00:32:39.030
+organs.
+
+534
+00:32:41.570 --> 00:32:45.390
+So as far as GEA is concerned, we really don't have this kind
+
+535
+00:32:45.450 --> 00:32:48.130
+of definition of metastases.
+
+536
+00:32:50.050 --> 00:32:52.690
+So what we do in the clinic is,
+
+537
+00:32:53.510 --> 00:32:57.410
+patient comes in with an endoscopic specimen, or we collect them,
+
+538
+00:32:58.130 --> 00:33:01.590
+and we do profiling biomarkers, NGS,
+
+539
+00:33:02.410 --> 00:33:04.910
+all this, and then we treat the metastases.
+
+540
+00:33:06.270 --> 00:33:09.870
+And I'm not suggesting we biopsy all the metastases,
+
+541
+00:33:10.430 --> 00:33:14.190
+but we haven't really defined them very well, and this may
+
+542
+00:33:14.230 --> 00:33:16.310
+become important in the future.
+
+543
+00:33:20.130 --> 00:33:24.090
+So in the interest of time, I was not going to review
+
+544
+00:33:24.130 --> 00:33:26.470
+the literature by other investigators.
+
+545
+00:33:26.990 --> 00:33:29.450
+They really contribute a lot to our understanding.
+
+546
+00:33:29.900 --> 00:33:33.470
+But if you look at the whole picture, it's very limited.
+
+547
+00:33:36.030 --> 00:33:39.630
+So in 2020, we published this paper
+
+548
+00:33:40.190 --> 00:33:43.970
+on peritoneal metastasis. We've been working on it for almost 15 years.
+
+549
+00:33:44.890 --> 00:33:45.390
+And
+
+550
+00:33:46.370 --> 00:33:50.330
+there you can see on the right side, right lower side,
+
+551
+00:33:50.870 --> 00:33:54.650
+that if you have peritoneal metastasis and you look at
+
+552
+00:33:55.110 --> 00:33:58.370
+location of the primary, whether signet ring cells are
+
+553
+00:33:58.410 --> 00:34:01.570
+present, whether it's a grade two or grade three,
+
+554
+00:34:02.230 --> 00:34:06.219
+whether it is intestinal type, diffuse type, there's a lot of heterogeneity.
+
+555
+00:34:06.310 --> 00:34:09.640
+Different genes are expressed.
+
+556
+00:34:10.670 --> 00:34:13.810
+And we didn't have primary tumor at the time, so we took the
+
+557
+00:34:13.850 --> 00:34:17.440
+TCGA data, which is entirely from
+
+558
+00:34:17.470 --> 00:34:18.450
+primary tumors.
+
+559
+00:34:19.330 --> 00:34:23.250
+And then when we look at the comparison between
+
+560
+00:34:24.390 --> 00:34:28.210
+TCGA primary tumors from other patients
+
+561
+00:34:28.750 --> 00:34:30.130
+and then our patients,
+
+562
+00:34:31.591 --> 00:34:33.350
+there are two genes that stood out.
+
+563
+00:34:33.511 --> 00:34:37.250
+One is the TAF1 and RPL5, and
+
+564
+00:34:37.310 --> 00:34:41.111
+these two genes have already been defined by the
+
+565
+00:34:41.170 --> 00:34:43.910
+pan-cancer as driver
+
+566
+00:34:44.910 --> 00:34:45.850
+of these tumors.
+
+567
+00:34:49.370 --> 00:34:53.290
+So we were able to then collect specimen from the
+
+568
+00:34:53.330 --> 00:34:54.091
+primary tumor,
+
+569
+00:34:55.190 --> 00:34:57.970
+and here we have 41 patients,
+
+570
+00:34:59.210 --> 00:35:00.570
+and some healthy donors.
+
+571
+00:35:02.770 --> 00:35:06.630
+I won't go through all of this because there's a lot of data in this
+
+572
+00:35:06.670 --> 00:35:10.490
+paper, but we have normal tissue, chronic gastritis,
+
+573
+00:35:10.550 --> 00:35:13.970
+intestinal metaplasia, primary tumor, liver mets,
+
+574
+00:35:15.490 --> 00:35:18.570
+peritoneal mets, and ovarian mets from the same patient.
+
+575
+00:35:19.550 --> 00:35:23.450
+And we are looking at the immune cell and stromal
+
+576
+00:35:23.550 --> 00:35:27.380
+cell. We're not looking at epithelial cell in this particular
+
+577
+00:35:27.380 --> 00:35:31.230
+paper. And you can see throughout
+
+578
+00:35:31.240 --> 00:35:34.730
+that if you look at the primary tumor versus
+
+579
+00:35:34.770 --> 00:35:35.690
+metastasis,
+
+580
+00:35:36.910 --> 00:35:37.990
+stage of the tumor
+
+581
+00:35:38.810 --> 00:35:42.550
+and various features, there are a lot of
+
+582
+00:35:42.590 --> 00:35:43.290
+differences.
+
+583
+00:35:44.370 --> 00:35:47.770
+So this is one of the examples
+
+584
+00:35:47.830 --> 00:35:49.430
+of how diverse
+
+585
+00:35:50.230 --> 00:35:54.090
+the stromal component, the TME component,
+
+586
+00:35:54.630 --> 00:35:58.590
+is from the same patient in different locations.
+
+587
+00:36:00.590 --> 00:36:04.170
+We were also able to define these three ecotypes, I'm sorry,
+
+588
+00:36:04.330 --> 00:36:05.380
+six ecotypes,
+
+589
+00:36:06.430 --> 00:36:06.890
+and their
+
+590
+00:36:07.770 --> 00:36:11.630
+cellular compositions as well as their prognostic value,
+
+591
+00:36:12.330 --> 00:36:15.550
+and then also whether you can add
+
+592
+00:36:16.830 --> 00:36:18.950
+immunotherapy and get an advantage.
+
+593
+00:36:20.470 --> 00:36:24.170
+So these are also widely distributed from the
+
+594
+00:36:24.290 --> 00:36:27.150
+same patient's tumor in different locations.
+
+595
+00:36:30.550 --> 00:36:33.890
+And then I think Dr. Lung showed this slide
+
+596
+00:36:33.950 --> 00:36:37.860
+where we identified SDK, Syndecan2,
+
+597
+00:36:38.950 --> 00:36:42.830
+in the CAF cells that are highly prognostic in primary
+
+598
+00:36:42.870 --> 00:36:45.330
+tumor as well as in metastatic tumor.
+
+599
+00:36:45.970 --> 00:36:48.330
+So at the lower left side,
+
+600
+00:36:49.770 --> 00:36:53.650
+we have the in vivo model where
+
+601
+00:36:53.710 --> 00:36:57.610
+you take CAF cells and tumor cells and
+
+602
+00:36:57.690 --> 00:37:01.282
+co-co-inject them in
+
+603
+00:37:01.422 --> 00:37:01.862
+mice,
+
+604
+00:37:02.782 --> 00:37:06.212
+and half of the mice did not get
+
+605
+00:37:07.382 --> 00:37:08.882
+CAF with syndecan-2.
+
+606
+00:37:09.732 --> 00:37:10.502
+And on the right
+
+607
+00:37:11.642 --> 00:37:13.642
+side of the lower left side,
+
+608
+00:37:14.842 --> 00:37:17.992
+you will see where CAF cells were expressing
+
+609
+00:37:18.042 --> 00:37:21.332
+syndecan-2, and the tumor grew very rapidly.
+
+610
+00:37:22.142 --> 00:37:25.662
+So this is just one example of how CAF
+
+611
+00:37:25.722 --> 00:37:27.981
+can promote tumor progression.
+
+612
+00:37:31.262 --> 00:37:34.302
+Then more recently, we published another paper in
+
+613
+00:37:34.342 --> 00:37:36.862
+Gastroenterology. Here we have 20 patients,
+
+614
+00:37:38.162 --> 00:37:38.542
+stage
+
+615
+00:37:39.362 --> 00:37:42.831
+four gastric cancer with the primary tumor available,
+
+616
+00:37:43.602 --> 00:37:46.022
+liver metastasis available, and peritoneal.
+
+617
+00:37:46.682 --> 00:37:50.582
+And in the second or in the middle, you see the major cell
+
+618
+00:37:50.662 --> 00:37:54.562
+types. Here we included epithelial cells, so cancer cells are
+
+619
+00:37:54.602 --> 00:37:55.142
+included.
+
+620
+00:37:55.962 --> 00:37:59.822
+And then on the right side, if you look at different components such as
+
+621
+00:37:59.922 --> 00:38:03.661
+blood, adjacent normal, primary tumor, ascites,
+
+622
+00:38:04.562 --> 00:38:08.102
+and liver metastasis, you can see the compositions.
+
+623
+00:38:08.712 --> 00:38:12.002
+They are quite different. And this is from the same patient.
+
+624
+00:38:15.522 --> 00:38:18.942
+This is another example of one patient where
+
+625
+00:38:19.542 --> 00:38:21.042
+you have the circus plot
+
+626
+00:38:22.842 --> 00:38:25.882
+predominantly looking at various pairs.
+
+627
+00:38:26.542 --> 00:38:29.092
+One pair I want to mention is the
+
+628
+00:38:30.022 --> 00:38:33.882
+macrophages type
+
+629
+00:38:34.002 --> 00:38:36.902
+two and CD8 positive cells,
+
+630
+00:38:38.102 --> 00:38:41.962
+and you can see considerable differences.
+
+631
+00:38:44.982 --> 00:38:48.522
+Then the genius of Pawel Mazur, who is one of our
+
+632
+00:38:48.622 --> 00:38:49.282
+collaborator,
+
+633
+00:38:52.042 --> 00:38:55.542
+first established this model of CAR T
+
+634
+00:38:55.642 --> 00:38:56.102
+cells
+
+635
+00:38:57.002 --> 00:38:59.322
+in mice using
+
+636
+00:39:00.682 --> 00:39:04.482
+the mesenchyme as a
+
+637
+00:39:04.542 --> 00:39:07.902
+target for CAR T. But then he also identified
+
+638
+00:39:07.942 --> 00:39:10.242
+GPX4
+
+639
+00:39:11.262 --> 00:39:15.162
+elevation in tumor cells. So
+
+640
+00:39:15.222 --> 00:39:18.542
+if you look at the mouse panels,
+
+641
+00:39:19.562 --> 00:39:21.641
+with the CAR T, you get some advantage.
+
+642
+00:39:22.482 --> 00:39:26.302
+The IKE is the GPX4 inhibitor. But
+
+643
+00:39:26.382 --> 00:39:29.502
+on the right side of the panel, when you inhibit
+
+644
+00:39:30.102 --> 00:39:33.122
+GPX4 in tumor cells and then add
+
+645
+00:39:34.542 --> 00:39:37.402
+CAR T cells, you get dramatic improvement.
+
+646
+00:39:37.922 --> 00:39:41.902
+So today we heard from Dr. June that if you
+
+647
+00:39:42.562 --> 00:39:46.462
+inhibit CAF cells and then do CAR T cell,
+
+648
+00:39:46.542 --> 00:39:49.882
+you get an advantage. Here we are targeting tumor
+
+649
+00:39:49.962 --> 00:39:52.582
+cells in two different ways.
+
+650
+00:39:55.862 --> 00:39:59.822
+So in spite of all this heterogeneity, we've been able to make some
+
+651
+00:39:59.882 --> 00:40:03.042
+advances in the clinic. And you have to wonder, how
+
+652
+00:40:03.822 --> 00:40:04.742
+does that happen?
+
+653
+00:40:07.802 --> 00:40:11.262
+Okay, so these are the individuals who have
+
+654
+00:40:11.742 --> 00:40:15.242
+helped with this. On the left side is my team, and this would not be
+
+655
+00:40:15.282 --> 00:40:19.242
+possible without Ruping, who's the first author of a couple of papers
+
+656
+00:40:19.342 --> 00:40:21.602
+I showed you, and Lingua, who is the
+
+657
+00:40:22.702 --> 00:40:24.122
+bioinformatics
+
+658
+00:40:25.242 --> 00:40:25.602
+leader.
+
+659
+00:40:27.922 --> 00:40:28.142
+So,
+
+660
+00:40:29.662 --> 00:40:32.602
+let me just go on to talk about HER2.
+
+661
+00:40:33.662 --> 00:40:37.362
+I wasn't going to plan to explain
+
+662
+00:40:37.862 --> 00:40:41.742
+everything about HER2 because it can take a lot of
+
+663
+00:40:41.802 --> 00:40:45.642
+time. So let me talk about the new drug, which is a
+
+664
+00:40:45.682 --> 00:40:47.102
+bispecific antibody,
+
+665
+00:40:48.782 --> 00:40:52.542
+and that is anidatamab. It's intentionally an
+
+666
+00:40:52.622 --> 00:40:53.402
+asymmetric
+
+667
+00:40:54.242 --> 00:40:57.942
+bispecific antibody that tends to
+
+668
+00:40:58.502 --> 00:41:02.242
+conform to trans configuration. In
+
+669
+00:41:02.262 --> 00:41:06.002
+trans configuration, it can engage two different
+
+670
+00:41:06.042 --> 00:41:09.982
+receptors. So one arm will engage one receptor,
+
+671
+00:41:10.082 --> 00:41:12.462
+another arm will engage another receptor.
+
+672
+00:41:13.032 --> 00:41:14.762
+And you can see the transmission
+
+673
+00:41:16.042 --> 00:41:18.882
+electron microscopy on the right side.
+
+674
+00:41:21.922 --> 00:41:25.842
+So anidatamab can engage two receptors at the same
+
+675
+00:41:25.902 --> 00:41:29.412
+time, and if you think about thousands of
+
+676
+00:41:29.482 --> 00:41:33.022
+these bispecifics engaging HER2
+
+677
+00:41:33.042 --> 00:41:33.782
+receptors
+
+678
+00:41:34.742 --> 00:41:38.402
+at the same time, you will get cluster formation.
+
+679
+00:41:39.122 --> 00:41:42.742
+And cluster formation has very specific
+
+680
+00:41:42.802 --> 00:41:44.782
+consequences that I'm going to mention.
+
+681
+00:41:48.902 --> 00:41:52.802
+So this is just a trajectory of what can happen when you
+
+682
+00:41:52.862 --> 00:41:56.762
+inject anidatamab. You engage HER2 receptor.
+
+683
+00:41:57.502 --> 00:41:59.252
+There is little bit of clustering,
+
+684
+00:42:00.782 --> 00:42:01.432
+and then
+
+685
+00:42:02.562 --> 00:42:05.282
+on the right side you have cap formation,
+
+686
+00:42:06.402 --> 00:42:09.882
+and then finally you have hexamerization of the
+
+687
+00:42:09.922 --> 00:42:12.682
+molecule. This is very important for
+
+688
+00:42:13.042 --> 00:42:16.122
+complement-dependent cytotoxicity.
+
+689
+00:42:19.682 --> 00:42:21.722
+So this is an example of
+
+690
+00:42:22.542 --> 00:42:25.382
+cap formation. So you have negative control
+
+691
+00:42:26.642 --> 00:42:30.562
+on the left, and the second lane is anidatamab, and you can
+
+692
+00:42:30.642 --> 00:42:32.722
+see those silver color
+
+693
+00:42:33.602 --> 00:42:37.342
+thick caps that are being formed on the surface of
+
+694
+00:42:37.782 --> 00:42:38.282
+the cell.
+
+695
+00:42:39.442 --> 00:42:43.432
+And then that doesn't happen with trastuzumab, doesn't happen with
+
+696
+00:42:43.442 --> 00:42:46.842
+pertuzumab, and doesn't happen with the combination of
+
+697
+00:42:46.862 --> 00:42:48.302
+trastuzumab, pertuzumab.
+
+698
+00:42:50.102 --> 00:42:53.722
+So you get this kind of cluster where
+
+699
+00:42:54.522 --> 00:42:56.182
+the Y
+
+700
+00:42:57.062 --> 00:43:00.202
+portion of the bispecific is engaged
+
+701
+00:43:00.842 --> 00:43:04.670
+to the HER2And the
+
+702
+00:43:04.770 --> 00:43:08.070
+FC portion is sticking out. And so there's
+
+703
+00:43:08.770 --> 00:43:12.290
+a high clustering of the FC receptors,
+
+704
+00:43:13.070 --> 00:43:16.910
+and this will invite C1q, which is a
+
+705
+00:43:16.990 --> 00:43:20.290
+key protein for complement-dependent
+
+706
+00:43:20.390 --> 00:43:21.270
+cytotoxicity.
+
+707
+00:43:23.310 --> 00:43:26.750
+So this is another two different methods to
+
+708
+00:43:26.810 --> 00:43:28.950
+show that zanidatamab
+
+709
+00:43:30.070 --> 00:43:32.730
+induces high level of
+
+710
+00:43:34.030 --> 00:43:37.910
+cap formation or cluster formation that other
+
+711
+00:43:38.450 --> 00:43:42.170
+HER2-directed therapies do not. So you've got control on the
+
+712
+00:43:42.210 --> 00:43:44.790
+left, two lanes with two different methods.
+
+713
+00:43:45.360 --> 00:43:46.610
+Zanidatamab, you can
+
+714
+00:43:47.550 --> 00:43:48.770
+visualize the caps,
+
+715
+00:43:49.970 --> 00:43:53.390
+and then trastuzumab or pertuzumab and the combination.
+
+716
+00:43:56.610 --> 00:44:00.330
+So when you have this cluster and hexamerization,
+
+717
+00:44:01.150 --> 00:44:04.370
+the CQ1 protein really needs to engage
+
+718
+00:44:04.930 --> 00:44:08.570
+six FC receptors in order to
+
+719
+00:44:08.610 --> 00:44:09.190
+invite
+
+720
+00:44:10.970 --> 00:44:11.830
+the C3
+
+721
+00:44:13.070 --> 00:44:15.650
+protein component to enact
+
+722
+00:44:16.650 --> 00:44:18.950
+the cytotoxic cell toxicity.
+
+723
+00:44:22.190 --> 00:44:22.350
+So
+
+724
+00:44:23.290 --> 00:44:26.970
+as opposed to other HER2-directed
+
+725
+00:44:27.510 --> 00:44:28.050
+treatments,
+
+726
+00:44:29.890 --> 00:44:33.670
+zanidatamab can induce ADCC. It
+
+727
+00:44:33.730 --> 00:44:37.590
+can induce ADCP, which is the macrophages
+
+728
+00:44:37.650 --> 00:44:41.170
+are engaged. And finally, complement-dependent
+
+729
+00:44:41.210 --> 00:44:44.590
+cytotoxicity. So there are a number of advantages
+
+730
+00:44:45.110 --> 00:44:49.090
+for this bispecific antibody that others do not produce.
+
+731
+00:44:51.570 --> 00:44:55.540
+And as a single agent, this is hard to see, but
+
+732
+00:44:57.150 --> 00:45:01.010
+the paper is listed at the top, so you'll be able
+
+733
+00:45:01.050 --> 00:45:05.030
+to get to it. But as a single agent in the fourth,
+
+734
+00:45:05.150 --> 00:45:06.970
+fifth, and sixth line,
+
+735
+00:45:08.710 --> 00:45:12.010
+zanidatamab produced a number of responses
+
+736
+00:45:12.630 --> 00:45:14.590
+that were also lasting for a long time.
+
+737
+00:45:15.050 --> 00:45:17.530
+This is something we didn't see before
+
+738
+00:45:18.630 --> 00:45:22.570
+availability of zanidatamab, because trastuzumab cannot
+
+739
+00:45:22.610 --> 00:45:26.130
+do this, and chemotherapy cannot do this.
+
+740
+00:45:29.290 --> 00:45:33.150
+Then the phase two, which combined zanidatamab
+
+741
+00:45:33.220 --> 00:45:34.110
+to chemotherapy,
+
+742
+00:45:35.090 --> 00:45:38.700
+also produced dramatic clinical responses,
+
+743
+00:45:39.730 --> 00:45:42.209
+and some of them were very long-lasting.
+
+744
+00:45:44.110 --> 00:45:47.770
+It produced diarrhea when you combine with platinum
+
+745
+00:45:48.090 --> 00:45:49.250
+and fluoropyrimidine.
+
+746
+00:45:52.410 --> 00:45:55.410
+This led to the trial Horizon
+
+747
+00:45:56.290 --> 00:45:57.380
+GEA-01,
+
+748
+00:45:58.310 --> 00:46:01.530
+which had three arms. Arm A is the control arm.
+
+749
+00:46:02.350 --> 00:46:04.950
+Arm B is the zanidatamab with chemotherapy.
+
+750
+00:46:05.950 --> 00:46:09.770
+So similar to control, except zani
+
+751
+00:46:09.850 --> 00:46:11.430
+instead of trastuzumab.
+
+752
+00:46:12.350 --> 00:46:14.570
+And Arm C was zanidatamab,
+
+753
+00:46:15.630 --> 00:46:17.150
+tislelizumab, and
+
+754
+00:46:18.430 --> 00:46:19.190
+chemotherapy.
+
+755
+00:46:20.070 --> 00:46:23.570
+The primary endpoints of PFS as well as
+
+756
+00:46:23.650 --> 00:46:24.210
+OS.
+
+757
+00:46:26.430 --> 00:46:27.910
+And this is the PFS
+
+758
+00:46:29.750 --> 00:46:30.510
+endpoint,
+
+759
+00:46:32.070 --> 00:46:32.390
+which
+
+760
+00:46:33.270 --> 00:46:36.490
+the comparison is between trastuzumab chemotherapy
+
+761
+00:46:37.130 --> 00:46:39.630
+versus zanidatamab chemotherapy.
+
+762
+00:46:39.640 --> 00:46:42.550
+And you can see on the right upper side
+
+763
+00:46:43.410 --> 00:46:46.970
+that there is a four-month advantage in
+
+764
+00:46:47.230 --> 00:46:47.910
+PFS,
+
+765
+00:46:48.710 --> 00:46:52.390
+which is also quite remarkable. Hazard ratio of
+
+766
+00:46:52.410 --> 00:46:56.270
+0.65, very strong P value. And you can
+
+767
+00:46:56.350 --> 00:47:00.130
+see throughout the journey of the patients on
+
+768
+00:47:00.170 --> 00:47:01.870
+these curves, there is a
+
+769
+00:47:02.730 --> 00:47:04.870
+considerable separation.
+
+770
+00:47:07.870 --> 00:47:11.590
+When we look at the other experimental arm to the control
+
+771
+00:47:11.690 --> 00:47:15.130
+arm, in this case, zanidatamab, tislelizumab, and
+
+772
+00:47:15.230 --> 00:47:15.950
+chemotherapy,
+
+773
+00:47:16.850 --> 00:47:20.570
+again the median PFS is similar
+
+774
+00:47:21.550 --> 00:47:25.370
+with or without tislelizumab, but all the numbers
+
+775
+00:47:25.390 --> 00:47:29.190
+at different landmarks are better than
+
+776
+00:47:29.250 --> 00:47:31.670
+you get without tislelizumab.
+
+777
+00:47:32.670 --> 00:47:36.130
+So the area between the two curves is greater
+
+778
+00:47:37.190 --> 00:47:40.530
+with tislelizumab than you get without tislelizumab.
+
+779
+00:47:43.830 --> 00:47:45.650
+So in terms of overall survival,
+
+780
+00:47:46.610 --> 00:47:49.950
+without tislelizumab, zani plus chemo versus
+
+781
+00:47:49.990 --> 00:47:51.190
+trastuzumab chemo,
+
+782
+00:47:52.170 --> 00:47:52.930
+you have
+
+783
+00:47:54.490 --> 00:47:58.420
+the advantage towards overall survival, but this is
+
+784
+00:47:58.450 --> 00:48:02.310
+not statistically significant now, but
+
+785
+00:48:02.370 --> 00:48:05.800
+we expect it to become significant with further
+
+786
+00:48:05.890 --> 00:48:06.450
+follow-up.
+
+787
+00:48:09.110 --> 00:48:12.770
+But when you compare zanidatamab, tislelizumab,
+
+788
+00:48:12.990 --> 00:48:16.910
+and chemotherapy to chemotherapy plus trastuzumab, it
+
+789
+00:48:16.990 --> 00:48:17.190
+is
+
+790
+00:48:18.410 --> 00:48:21.390
+statistically significant, 0.72
+
+791
+00:48:23.350 --> 00:48:27.020
+hazard ratio, seven-month difference in overall survival.
+
+792
+00:48:27.910 --> 00:48:30.790
+And at every landmark, there is an advantage.
+
+793
+00:48:31.390 --> 00:48:34.910
+And hopefully, there will be a better tail to the curve
+
+794
+00:48:34.970 --> 00:48:38.670
+that we normally see with immunotherapy.
+
+795
+00:48:41.150 --> 00:48:44.840
+So in summary, I think we have made considerable
+
+796
+00:48:44.970 --> 00:48:48.770
+progress in the arena of HER2 targeting,
+
+797
+00:48:49.470 --> 00:48:50.950
+especially in the frontline setting.
+
+798
+00:48:51.770 --> 00:48:51.890
+So,
+
+799
+00:48:53.630 --> 00:48:55.170
+the second column
+
+800
+00:48:56.310 --> 00:49:00.130
+where the numbers are either blue or black.
+
+801
+00:49:00.930 --> 00:49:04.870
+So blue is the experimental arm.
+
+802
+00:49:05.530 --> 00:49:06.210
+So you saw
+
+803
+00:49:07.210 --> 00:49:08.790
+10, 12 years ago,
+
+804
+00:49:09.630 --> 00:49:12.362
+the experimental armThey
+
+805
+00:49:13.222 --> 00:49:14.622
+had the median survival of
+
+806
+00:49:15.662 --> 00:49:19.362
+13.8, but also look at the hazard ratio,
+
+807
+00:49:20.142 --> 00:49:21.042
+0.74.
+
+808
+00:49:22.142 --> 00:49:25.322
+And then the black numbers are the control.
+
+809
+00:49:25.802 --> 00:49:29.782
+So if you just run down in the second column to the
+
+810
+00:49:29.802 --> 00:49:33.402
+black number, you can see even the control is getting
+
+811
+00:49:34.442 --> 00:49:38.282
+much better. Our patients are doing a lot better in the clinic,
+
+812
+00:49:39.322 --> 00:49:39.902
+even with the
+
+813
+00:49:40.982 --> 00:49:42.282
+standard of care treatment.
+
+814
+00:49:43.542 --> 00:49:46.602
+But the blue also continues to increase.
+
+815
+00:49:47.202 --> 00:49:48.862
+Same thing for PFS,
+
+816
+00:49:50.082 --> 00:49:50.562
+et cetera.
+
+817
+00:49:53.502 --> 00:49:55.042
+So this is my last slide.
+
+818
+00:49:56.742 --> 00:49:58.591
+We can say that dinutuximab,
+
+819
+00:49:59.602 --> 00:50:02.582
+with its shortcoming of diarrhea,
+
+820
+00:50:02.822 --> 00:50:06.742
+and we have to be very vigilant about its management,
+
+821
+00:50:07.422 --> 00:50:09.702
+should be able to replace trastuzumab.
+
+822
+00:50:10.602 --> 00:50:14.482
+And perhaps zani, Tisley, and chemo will become the
+
+823
+00:50:14.562 --> 00:50:18.432
+standard of care. And I didn't show you the data, but this
+
+824
+00:50:18.462 --> 00:50:21.122
+would be irrespective of PD-L1 expression.
+
+825
+00:50:22.382 --> 00:50:24.482
+So with that, I want to thank everybody for
+
+826
+00:50:25.662 --> 00:50:27.122
+being here today. Thank you.
+
+827
+00:50:30.062 --> 00:50:33.902
+So there is five minutes for question, if you
+
+828
+00:50:33.942 --> 00:50:34.862
+have questions now.
+
+829
+00:50:37.622 --> 00:50:37.802
+Yeah.
+
+830
+00:50:38.842 --> 00:50:39.802
+Can you go to the mic?
+
+831
+00:50:47.522 --> 00:50:50.142
+Very nice talk. First question to Dr.
+
+832
+00:50:50.682 --> 00:50:52.262
+Leung regarding the--
+
+833
+00:50:54.402 --> 00:50:56.942
+Do I pronounce right? I'm not so sure
+
+834
+00:50:58.042 --> 00:51:01.922
+for you. But I think you both or only
+
+835
+00:51:01.982 --> 00:51:04.122
+Dr. Johnny's right now, the question.
+
+836
+00:51:04.222 --> 00:51:06.502
+Yeah. Because for me, leave to the end.
+
+837
+00:51:06.602 --> 00:51:07.082
+Oh, okay.
+
+838
+00:51:08.742 --> 00:51:12.662
+Regarding Dr. Johnny, I'm wondering the trial for
+
+839
+00:51:12.722 --> 00:51:16.702
+HER2, the new antibody, do they have a
+
+840
+00:51:16.722 --> 00:51:20.622
+biomarker-guided selection patient or all comers?
+
+841
+00:51:21.762 --> 00:51:25.482
+No, these are patients who are, by definition,
+
+842
+00:51:25.582 --> 00:51:29.502
+are HER2 positive. So they have to have three-plus protein
+
+843
+00:51:29.582 --> 00:51:30.142
+expression,
+
+844
+00:51:31.482 --> 00:51:35.222
+or they can have two-plus protein expression, but they have to have
+
+845
+00:51:35.302 --> 00:51:38.822
+increased number of ERBB2 copies.
+
+846
+00:51:39.102 --> 00:51:42.622
+Okay. That mean they have a biomarker-guided, either
+
+847
+00:51:42.662 --> 00:51:45.402
+amplification or overexpression HER2, right?
+
+848
+00:51:45.882 --> 00:51:47.502
+That's right. And this is not
+
+849
+00:51:48.802 --> 00:51:52.742
+highly common situation. It's about 10% to
+
+850
+00:51:52.842 --> 00:51:53.722
+12% of,
+
+851
+00:51:54.722 --> 00:51:58.262
+I would say, US patients have HER2 positivity.
+
+852
+00:51:59.082 --> 00:52:00.142
+Most patients don't.
+
+853
+00:52:00.662 --> 00:52:01.582
+Okay. Thank you.
+
+854
+00:52:04.002 --> 00:52:06.722
+Okay, so is there any other question for now?
+
+855
+00:52:09.002 --> 00:52:10.862
+So if not, maybe we have
+
+856
+00:52:11.682 --> 00:52:14.122
+the next speaker. Thank you, Dr. Ajani.
+
+857
+00:52:16.282 --> 00:52:17.602
+So our next speaker-
+
+858
+00:52:19.042 --> 00:52:21.522
+... is Dr. Elena
+
+859
+00:52:21.942 --> 00:52:23.522
+Jamcijan.
+
+860
+00:52:27.722 --> 00:52:28.002
+Well,
+
+861
+00:52:30.162 --> 00:52:33.742
+thank you for the opportunity, and it's always my
+
+862
+00:52:33.782 --> 00:52:37.482
+favorite topic, discussion of how we can change
+
+863
+00:52:37.582 --> 00:52:41.102
+practice for our patients. I am a medical oncologist,
+
+864
+00:52:41.282 --> 00:52:45.102
+and my focus has really been on bringing new treatments to the patients,
+
+865
+00:52:45.182 --> 00:52:48.662
+but also being able to learn from every single patient
+
+866
+00:52:48.882 --> 00:52:51.302
+from our translational program.
+
+867
+00:52:52.142 --> 00:52:55.842
+And I'll showcase some of the work that my group has done and give
+
+868
+00:52:55.922 --> 00:52:59.812
+you a little roadmap. Today is the advantage of
+
+869
+00:53:00.122 --> 00:53:03.902
+we still have the whole weekend of the meeting, so I'll give you a sense of
+
+870
+00:53:03.982 --> 00:53:06.542
+other abstracts that you may want to focus on.
+
+871
+00:53:07.382 --> 00:53:09.982
+So of course, we always have to bring it back to the patient.
+
+872
+00:53:10.182 --> 00:53:14.142
+And increasingly, we are seeing this disease
+
+873
+00:53:14.182 --> 00:53:16.382
+in younger and younger patient population.
+
+874
+00:53:16.702 --> 00:53:20.642
+It's not infrequently that I'm seeing patients younger than my age and
+
+875
+00:53:21.182 --> 00:53:24.802
+often sometimes even closer to the age of my children.
+
+876
+00:53:24.982 --> 00:53:25.222
+So
+
+877
+00:53:26.042 --> 00:53:29.982
+this is a typical patient now from my clinic, a 37-year-old man who
+
+878
+00:53:30.002 --> 00:53:33.642
+presented with months of swallowing difficulty and weight
+
+879
+00:53:33.702 --> 00:53:37.282
+loss. In these patients, we see delayed diagnosis
+
+880
+00:53:37.382 --> 00:53:39.902
+because of course, the practitioners
+
+881
+00:53:40.022 --> 00:53:43.542
+in the community are not
+
+882
+00:53:43.582 --> 00:53:45.462
+expecting these patients to have cancer.
+
+883
+00:53:46.062 --> 00:53:49.682
+Eventually, he had a imaging when we usually get FDG PET
+
+884
+00:53:49.702 --> 00:53:51.532
+scan. Our disease is very
+
+885
+00:53:52.642 --> 00:53:56.102
+much PET avid, so it lends itself well for functional
+
+886
+00:53:56.202 --> 00:53:59.902
+imaging. Again, addressing some of the questions that
+
+887
+00:54:00.062 --> 00:54:03.042
+were raised about ability to detect heterogeneity.
+
+888
+00:54:04.042 --> 00:54:07.742
+And we also did an EGD, and of course, there's bulky tumor.
+
+889
+00:54:08.362 --> 00:54:10.922
+And as you could see, it's very visible.
+
+890
+00:54:11.052 --> 00:54:14.922
+And typical biomarkers we do in the clinic now routinely
+
+891
+00:54:14.942 --> 00:54:18.791
+are protein-based expression, loss of expression of
+
+892
+00:54:18.822 --> 00:54:22.802
+mismatch repair protein, gain of HER2 overexpression or
+
+893
+00:54:24.162 --> 00:54:25.552
+amplification by Fish,
+
+894
+00:54:26.562 --> 00:54:30.282
+PD-L1 overexpression, and claudin, as well as
+
+895
+00:54:30.322 --> 00:54:34.242
+Epstein-Barr virus, which can also cause this disease.
+
+896
+00:54:34.662 --> 00:54:38.322
+So in this patient, this was an MMR proficient tumor, CPS
+
+897
+00:54:38.362 --> 00:54:42.222
+relatively low, one claudin positive, and again,
+
+898
+00:54:42.542 --> 00:54:44.362
+overwhelmingly, at least in our clinic,
+
+899
+00:54:45.362 --> 00:54:49.342
+these are p53 mutant tumors with very aggressive
+
+900
+00:54:49.402 --> 00:54:53.342
+types of TP53 mutation that do lead to chromosomal instability.
+
+901
+00:54:54.442 --> 00:54:57.242
+So what we're here today is to talk about curative disease.
+
+902
+00:54:57.282 --> 00:55:01.002
+What you heard from Jafar is metastatic patients first-line setting.
+
+903
+00:55:01.582 --> 00:55:05.402
+We're talking about possibility of cure and cure
+
+904
+00:55:05.482 --> 00:55:09.282
+with patients that they can-- As you know, young people want to just go
+
+905
+00:55:09.322 --> 00:55:11.062
+back pretending they've never had cancer.
+
+906
+00:55:11.122 --> 00:55:14.162
+I mean, all of us want to do that, but young people in particular.
+
+907
+00:55:14.562 --> 00:55:18.122
+So how do we cure more patients but also minimize the
+
+908
+00:55:18.162 --> 00:55:22.042
+fallout of our treatments? So surgery alone,
+
+909
+00:55:22.142 --> 00:55:25.732
+at least in the Western population, really
+
+910
+00:55:25.762 --> 00:55:29.622
+results to minimal likelihood of cure because this is a metastatic
+
+911
+00:55:29.702 --> 00:55:32.462
+disease at the get-go systemically.
+
+912
+00:55:32.942 --> 00:55:35.962
+High risk of micrometastasis, even if you can't see them on
+
+913
+00:55:36.022 --> 00:55:39.566
+imaging.And perioperative chemotherapy improved
+
+914
+00:55:39.706 --> 00:55:42.226
+survival by a bit, but not sufficiently.
+
+915
+00:55:43.646 --> 00:55:46.066
+Historically, this was a very fractionated field.
+
+916
+00:55:46.186 --> 00:55:49.426
+In Asia, people would get surgery first and then have chemo.
+
+917
+00:55:49.966 --> 00:55:53.826
+In the United States, we did some chemo perioperatively, but again, with very
+
+918
+00:55:53.906 --> 00:55:55.806
+limited efficacy.
+
+919
+00:55:56.666 --> 00:56:00.086
+So the big breakthrough in the last year was that we're now able to
+
+920
+00:56:00.186 --> 00:56:04.166
+unify our approach, and even doctors in South Korea and Japan,
+
+921
+00:56:04.546 --> 00:56:08.116
+Taiwan, and China are agreeing that doing
+
+922
+00:56:08.126 --> 00:56:11.956
+chemotherapy and chemo immunotherapy first is the best option,
+
+923
+00:56:12.406 --> 00:56:16.346
+and this is because of a large phase three study, Matterhorn study,
+
+924
+00:56:16.386 --> 00:56:20.006
+that changed practice showing that combination of durvalumab with three-drug
+
+925
+00:56:20.066 --> 00:56:22.686
+chemotherapy, FLOT, improved survival.
+
+926
+00:56:23.946 --> 00:56:27.686
+The other key feature of the study, in addition to saying
+
+927
+00:56:27.906 --> 00:56:31.826
+people all over the world can get this regimen, and we can move the field forward
+
+928
+00:56:32.006 --> 00:56:32.286
+in a
+
+929
+00:56:33.106 --> 00:56:36.866
+way where the comparator arm is standardized across different
+
+930
+00:56:36.926 --> 00:56:40.586
+regions. We also showed that if you have a major
+
+931
+00:56:40.606 --> 00:56:44.546
+pathologic response or a complete pathologic response, this will translate
+
+932
+00:56:44.586 --> 00:56:48.346
+to survival improvement. In other words, you can have a
+
+933
+00:56:48.406 --> 00:56:52.126
+quick result and a litmus test that could give you a sense
+
+934
+00:56:52.406 --> 00:56:56.366
+early, instead of doing a large phase three study, whether or not the treatment
+
+935
+00:56:56.386 --> 00:56:58.766
+that you're studying in early
+
+936
+00:57:00.226 --> 00:57:04.166
+phases, phase two perhaps, single center study, you can get a sense
+
+937
+00:57:04.226 --> 00:57:07.646
+of whether or not you're going to have achieved a
+
+938
+00:57:07.686 --> 00:57:11.646
+meaningful outcome because these tumors are bulky, and if you're
+
+939
+00:57:11.706 --> 00:57:15.416
+able to eradicate the tumor, meaning pathologic complete response, which
+
+940
+00:57:15.466 --> 00:57:19.066
+is we see 19% of the patients with durva plus FLOT,
+
+941
+00:57:19.606 --> 00:57:23.366
+or even a major pathologic response with less than 10% residual tumor
+
+942
+00:57:23.426 --> 00:57:26.266
+cells, you're very likely to have a cure.
+
+943
+00:57:26.626 --> 00:57:30.566
+So it's a very satisfying thing for us to do in the clinic
+
+944
+00:57:30.706 --> 00:57:34.266
+after the patient is there to be able to tell them the likelihood of
+
+945
+00:57:34.326 --> 00:57:36.966
+cure is very high and you should not worry.
+
+946
+00:57:38.626 --> 00:57:42.046
+The other important factor that we did, because there were other
+
+947
+00:57:42.546 --> 00:57:45.986
+studies trying to study this in adjuvant setting, we
+
+948
+00:57:46.046 --> 00:57:49.586
+demonstrated that neoadjuvant treatment is very important.
+
+949
+00:57:49.856 --> 00:57:53.526
+After the diagnosis, everyone has to calm down,
+
+950
+00:57:53.706 --> 00:57:57.426
+stop, and actually not do surgery, because that was a very
+
+951
+00:57:57.486 --> 00:58:01.346
+counterintuitive thing to do for the surgeons, certainly even for
+
+952
+00:58:01.386 --> 00:58:05.086
+the patients. Once the patient is diagnosed and if they're healthy, they just
+
+953
+00:58:05.166 --> 00:58:07.565
+want the tumor out in the bucket somewhere.
+
+954
+00:58:07.916 --> 00:58:11.086
+But that's not the right thing to do. We were doing it all wrong.
+
+955
+00:58:11.426 --> 00:58:15.166
+Taking the cancer out is a bad move because first you don't have
+
+956
+00:58:15.226 --> 00:58:18.686
+the tumor in place to know that what you're doing is successful,
+
+957
+00:58:19.166 --> 00:58:21.226
+right? You're only treating a hypothetical
+
+958
+00:58:22.126 --> 00:58:25.866
+MRD sort of setting. But also you're removing the
+
+959
+00:58:27.166 --> 00:58:30.535
+education, the educator, the tumor from
+
+960
+00:58:30.606 --> 00:58:34.106
+the patient and the amount of
+
+961
+00:58:34.166 --> 00:58:35.516
+antitumor immune response,
+
+962
+00:58:36.586 --> 00:58:40.366
+and diversity of that response is really
+
+963
+00:58:40.386 --> 00:58:42.506
+impaired if you're taking the cancer out.
+
+964
+00:58:42.826 --> 00:58:44.546
+So everyone just needs to sort of
+
+965
+00:58:45.346 --> 00:58:48.086
+take a breath, send the patient to the medical oncologist
+
+966
+00:58:48.906 --> 00:58:51.306
+to be able to improve the chances of cure.
+
+967
+00:58:52.446 --> 00:58:56.246
+So let's go back to our patients. So we know then we can impact
+
+968
+00:58:56.346 --> 00:59:00.186
+improved survival in some patients, and this is actually the patient that I was
+
+969
+00:59:00.226 --> 00:59:00.706
+showing you.
+
+970
+00:59:01.546 --> 00:59:04.626
+I got his permission to share. He's very proud of his outcome.
+
+971
+00:59:05.106 --> 00:59:08.846
+He had a complete response. So he had FLOT, durva,
+
+972
+00:59:09.186 --> 00:59:11.946
+went on to have a YPT zero and zero tumor,
+
+973
+00:59:12.826 --> 00:59:16.806
+and unfortunately, we took his esophagus and GE junction out anyway,
+
+974
+00:59:16.906 --> 00:59:20.486
+so he had an Ivor-Lewis esophagectomy and went through a
+
+975
+00:59:20.566 --> 00:59:24.296
+horrible divorce through the whole thing, through the treatment, and now he comes
+
+976
+00:59:24.386 --> 00:59:28.056
+back four years later, cured. The only thing he complains about is
+
+977
+00:59:28.686 --> 00:59:32.586
+having to sleep on a wedge and also the dating scene in
+
+978
+00:59:32.606 --> 00:59:36.106
+New York. So it's very tough, apparently.
+
+979
+00:59:37.246 --> 00:59:41.226
+But I think in this patient, if we knew he was going to be a complete
+
+980
+00:59:41.286 --> 00:59:44.406
+response, perhaps we could have left him with his
+
+981
+00:59:45.206 --> 00:59:48.126
+organs in place. I think he would want that.
+
+982
+00:59:48.386 --> 00:59:52.266
+So the next frontier is to figure out who are the complete responders that we can
+
+983
+00:59:52.346 --> 00:59:54.846
+leave and deescalate and do organ preservation.
+
+984
+00:59:54.906 --> 00:59:58.786
+Perhaps we don't need to develop grade two neuropathy and not be able
+
+985
+00:59:58.826 --> 01:00:02.326
+to text because of all the chemo we're giving them, and on
+
+986
+01:00:02.386 --> 01:00:05.586
+whom we can escalate the therapy.
+
+987
+01:00:06.566 --> 01:00:09.455
+So, you will see a great presentation
+
+988
+01:00:09.686 --> 01:00:13.286
+on Tuesday during the plenary on the updates of the
+
+989
+01:00:13.346 --> 01:00:17.146
+INFINITY study. I'm not going to spoil everything, but I did want to
+
+990
+01:00:17.546 --> 01:00:21.186
+showcase the work that was done by Gano group, which was very
+
+991
+01:00:21.226 --> 01:00:24.646
+important, showing that the total neoadjuvant
+
+992
+01:00:25.606 --> 01:00:29.266
+immune blockade with dual immune checkpoint blockade using tramidurva
+
+993
+01:00:29.646 --> 01:00:33.366
+can spare patients, and you can do organ preservation
+
+994
+01:00:33.446 --> 01:00:37.246
+in early-stage gastric cancer. In fact, again, going
+
+995
+01:00:37.286 --> 01:00:39.286
+back to my whole point of doing
+
+996
+01:00:40.226 --> 01:00:44.126
+all the work while the tumor is in place is critical because we actually did a
+
+997
+01:00:44.226 --> 01:00:48.225
+study at MSK where we said, "Okay, most
+
+998
+01:00:48.346 --> 01:00:50.546
+MSI tumors are cured with surgery alone.
+
+999
+01:00:50.866 --> 01:00:54.726
+So if they already had their surgery and they did not get neoadjuvant
+
+1000
+01:00:54.766 --> 01:00:58.506
+immunotherapy, and if they're MRD positive," which
+
+1001
+01:00:58.546 --> 01:01:02.146
+happens in about 15% of patients, in other words, after surgery, they're
+
+1002
+01:01:02.166 --> 01:01:06.106
+ctDNA positive, "let's give them immunotherapy and let's see how they do."
+
+1003
+01:01:06.366 --> 01:01:09.266
+Well, we did. We gave them pembro, and we did well.
+
+1004
+01:01:09.346 --> 01:01:13.106
+We cleared everyone's ctDNA. But as you see here from the
+
+1005
+01:01:13.186 --> 01:01:16.906
+curve on the right, 38% of patients still recurred
+
+1006
+01:01:17.226 --> 01:01:19.886
+despite ctDNA clearance at six months.
+
+1007
+01:01:20.446 --> 01:01:24.066
+So again, showing that once you're MRD positive, and
+
+1008
+01:01:24.346 --> 01:01:28.006
+if even in MSI tumors in adjuvant setting, you're treating
+
+1009
+01:01:28.046 --> 01:01:31.746
+metastatic disease. So you really need to focus on these tumors
+
+1010
+01:01:31.886 --> 01:01:35.546
+while they're still in place and risk stratify better.
+
+1011
+01:01:35.826 --> 01:01:39.706
+And I think in MSI tumors in particular, dual immune checkpoint blockade
+
+1012
+01:01:39.746 --> 01:01:43.170
+may be sufficient.So what are we doing?
+
+1013
+01:01:43.210 --> 01:01:46.270
+You just heard nice focus on zanidatamab data.
+
+1014
+01:01:47.050 --> 01:01:50.390
+While KEYNOTE-811, of course, changed practice in metastatic setting
+
+1015
+01:01:51.750 --> 01:01:55.730
+several years ago. So we're taking the KEYNOTE-811 regimen, which
+
+1016
+01:01:55.770 --> 01:01:59.070
+is the pembrolizumab, trastuzumab, FLOT regimen, to
+
+1017
+01:01:59.230 --> 01:02:01.490
+early-stage disease in neoadjuvant setting.
+
+1018
+01:02:01.880 --> 01:02:05.270
+And the key points of this study is that we're giving even more
+
+1019
+01:02:05.330 --> 01:02:08.590
+treatment neoadjuvantly while the tumor is in place.
+
+1020
+01:02:08.630 --> 01:02:12.550
+So instead of doing only four cycles of chemoimmunotherapy and HER2
+
+1021
+01:02:12.590 --> 01:02:15.230
+therapy, we're doing six, and that's been tolerable.
+
+1022
+01:02:15.910 --> 01:02:19.470
+And the protracted course of neoadjuvant therapy allows a
+
+1023
+01:02:19.530 --> 01:02:22.970
+maximum time for tumor response and again to mount the
+
+1024
+01:02:22.990 --> 01:02:26.810
+anti-tumor immune response. And again, similar to other approaches
+
+1025
+01:02:26.870 --> 01:02:30.430
+now, we're allowing non-operative management. Patients expect it.
+
+1026
+01:02:30.470 --> 01:02:34.130
+In fact, if you do not have a non-operative management in your
+
+1027
+01:02:34.930 --> 01:02:38.840
+consent form, it makes it a difficult consent form to sign with the
+
+1028
+01:02:38.850 --> 01:02:41.630
+patient. They want to at least have an option.
+
+1029
+01:02:41.870 --> 01:02:45.070
+And of course, longitudinal sample collections is critical in this study.
+
+1030
+01:02:45.890 --> 01:02:49.590
+So what we already saw, and initially we had a doublet regimen,
+
+1031
+01:02:49.710 --> 01:02:52.270
+CAPOX, compared, and then we amended the study.
+
+1032
+01:02:52.310 --> 01:02:56.250
+So this is not randomized by any means, but just showing you here to give you
+
+1033
+01:02:56.290 --> 01:02:58.030
+a sense of what we saw.
+
+1034
+01:02:59.470 --> 01:03:03.270
+Excitingly, we already seeing 83% complete
+
+1035
+01:03:03.630 --> 01:03:07.390
+clinical response. So small numbers, early data, but
+
+1036
+01:03:07.450 --> 01:03:11.310
+FLOT pembrolizumab is very doable and it's doable
+
+1037
+01:03:11.320 --> 01:03:14.160
+with six cycles per op. And CAPOX, again,
+
+1038
+01:03:14.870 --> 01:03:18.800
+underperformed. So we won't have time to talk about it, but
+
+1039
+01:03:18.810 --> 01:03:22.070
+the combination with taxane does something to tumor
+
+1040
+01:03:22.150 --> 01:03:25.250
+microenvironment that makes the responses deeper
+
+1041
+01:03:26.190 --> 01:03:28.450
+and more likely to have complete response.
+
+1042
+01:03:28.930 --> 01:03:32.710
+So what we're trying to generate now is finish this data set.
+
+1043
+01:03:32.750 --> 01:03:36.710
+It's going to be important for translational work, but also
+
+1044
+01:03:36.910 --> 01:03:40.810
+develop non-operative management strategies to stratify to know
+
+1045
+01:03:40.850 --> 01:03:43.450
+upfront which patients will be non-responders.
+
+1046
+01:03:43.910 --> 01:03:47.710
+The good news is out of our cohort of patients, everyone who had a
+
+1047
+01:03:47.750 --> 01:03:51.210
+complete response, there were only three people who elected to have
+
+1048
+01:03:51.270 --> 01:03:51.770
+surgery.
+
+1049
+01:03:52.799 --> 01:03:54.910
+They also had pathologic complete response.
+
+1050
+01:03:54.970 --> 01:03:58.730
+So at least using our modern tools of endoscopies, PET scans,
+
+1051
+01:03:59.859 --> 01:04:03.620
+serial biopsies, and ctDNA, we're good at saying that a clinical
+
+1052
+01:04:03.690 --> 01:04:07.530
+complete response translates to pathologic complete response.
+
+1053
+01:04:09.410 --> 01:04:12.450
+So now, of course, the portfolio is expanding.
+
+1054
+01:04:13.650 --> 01:04:17.510
+AstraZeneca has an important study looking at other biomarker
+
+1055
+01:04:17.570 --> 01:04:19.330
+selected strategies using claudin
+
+1056
+01:04:20.430 --> 01:04:24.170
+ADCs, HER2 ADCs, and of course, combination
+
+1057
+01:04:24.430 --> 01:04:24.710
+of
+
+1058
+01:04:25.730 --> 01:04:29.470
+bispecifics all in perioperative setting, building on the Matterhorn
+
+1059
+01:04:29.590 --> 01:04:32.890
+strategy. And we're doing an institutional
+
+1060
+01:04:33.590 --> 01:04:36.570
+small study, a single institution study, kind of Matterhorn
+
+1061
+01:04:38.170 --> 01:04:42.150
+accelerated, looking at PD-1/CTLA-4 bispecific
+
+1062
+01:04:42.250 --> 01:04:43.550
+with catumaxomab.
+
+1063
+01:04:45.570 --> 01:04:48.490
+So what worries me though is, of course, not
+
+1064
+01:04:49.290 --> 01:04:52.850
+the over-treatment, because that's important, but also the
+
+1065
+01:04:52.890 --> 01:04:55.390
+patients who are not responding, right?
+
+1066
+01:04:55.450 --> 01:04:59.070
+We talk about de-escalation, but what do we do for the majority of
+
+1067
+01:04:59.110 --> 01:05:00.430
+patients who will not be
+
+1068
+01:05:01.550 --> 01:05:04.710
+achieving complete response or major pathologic response?
+
+1069
+01:05:04.770 --> 01:05:07.810
+Who are those patients? How can we help them?
+
+1070
+01:05:07.870 --> 01:05:11.770
+Well, so we know that the big bad elephant in the room,
+
+1071
+01:05:11.800 --> 01:05:15.550
+and this is data we published from CheckMate 649, which was a large Phase
+
+1072
+01:05:15.730 --> 01:05:19.570
+3 study, showing that majority of chromosomally unstable tumors,
+
+1073
+01:05:19.610 --> 01:05:22.230
+which is the cancers that we see in the West predominantly,
+
+1074
+01:05:23.710 --> 01:05:26.510
+don't benefit from immune checkpoint blockade in first-line setting.
+
+1075
+01:05:26.570 --> 01:05:30.350
+The hazard ratio is 0.92. The dogma is all to
+
+1076
+01:05:30.410 --> 01:05:34.270
+focus on PD-L1, and people will fight to death about
+
+1077
+01:05:34.310 --> 01:05:37.990
+what cutoff of CPS one to four or CPS less than
+
+1078
+01:05:38.490 --> 01:05:42.350
+3.5 we should use. But really the elephant in the room
+
+1079
+01:05:42.410 --> 01:05:43.020
+is that it's
+
+1080
+01:05:44.050 --> 01:05:47.230
+something beyond PD-L1, and PD-L1 is just
+
+1081
+01:05:47.270 --> 01:05:50.120
+another sort of easy thing that we can assess.
+
+1082
+01:05:50.390 --> 01:05:54.200
+But chromosomal instability drives immune evasion in
+
+1083
+01:05:54.250 --> 01:05:56.630
+many of our patients that we're seeing in the clinic.
+
+1084
+01:05:58.370 --> 01:06:02.030
+So this is plug number one for one of the
+
+1085
+01:06:03.970 --> 01:06:07.710
+talented bioinformaticians and scientists that work with my lab.
+
+1086
+01:06:08.570 --> 01:06:12.150
+So Jerry Zhu is presenting this abstract today
+
+1087
+01:06:12.510 --> 01:06:14.990
+looking that, of course, everything is a spectrum.
+
+1088
+01:06:15.170 --> 01:06:18.890
+Nothing is as simple as just calling someone chromosomally unstable tumor.
+
+1089
+01:06:19.330 --> 01:06:22.690
+And we identified six reproducible CIN
+
+1090
+01:06:22.750 --> 01:06:23.470
+architecture
+
+1091
+01:06:24.750 --> 01:06:28.160
+features that define aneuploidy, focal amplification, and
+
+1092
+01:06:28.250 --> 01:06:31.710
+subclonal evolution. And really the purpose
+
+1093
+01:06:31.850 --> 01:06:35.770
+of this exercise was to use the facet analysis
+
+1094
+01:06:35.830 --> 01:06:38.670
+from close to 2,000 cases that we already did at
+
+1095
+01:06:38.790 --> 01:06:42.510
+MSK, but also the huge rich database of the
+
+1096
+01:06:42.530 --> 01:06:46.490
+CheckMate 649 whole exome data that BMS shared with
+
+1097
+01:06:46.530 --> 01:06:47.610
+our group to
+
+1098
+01:06:48.610 --> 01:06:52.150
+put in a framework, a unified clinical molecular framework to
+
+1099
+01:06:52.230 --> 01:06:55.930
+standardize how do we define CIN assessment to enable
+
+1100
+01:06:55.970 --> 01:06:59.850
+clinical patient stratification in the future, both in first
+
+1101
+01:06:59.910 --> 01:07:02.610
+line, second line, but also in early-stage tumors.
+
+1102
+01:07:04.330 --> 01:07:08.190
+The other important feature we saw is that in patients-- So
+
+1103
+01:07:08.230 --> 01:07:12.210
+we've been using chemoimmunotherapy in early stage disease well before
+
+1104
+01:07:12.350 --> 01:07:13.290
+the approval
+
+1105
+01:07:14.410 --> 01:07:18.370
+based on Matterhorn. So we amassed quite a group
+
+1106
+01:07:18.430 --> 01:07:19.490
+of patients
+
+1107
+01:07:20.690 --> 01:07:24.070
+mostly in standard practice who got chemoimmunotherapy.
+
+1108
+01:07:24.190 --> 01:07:26.150
+Now we're seeing some of the recurrences.
+
+1109
+01:07:26.590 --> 01:07:27.010
+So
+
+1110
+01:07:28.190 --> 01:07:31.830
+Dr. Chak and my group looked at genomic instability and
+
+1111
+01:07:31.930 --> 01:07:35.150
+predicted recurrence after perioperative immunotherapy in
+
+1112
+01:07:35.210 --> 01:07:38.050
+gastroesophageal cancer. So check out the poster.
+
+1113
+01:07:38.130 --> 01:07:42.050
+This small snippet of the data does not give it justice,
+
+1114
+01:07:42.150 --> 01:07:45.910
+but there is a story on, again, giving chemoimmunotherapy
+
+1115
+01:07:46.130 --> 01:07:49.730
+while the tumor is in place still, and even
+
+1116
+01:07:49.790 --> 01:07:53.310
+inducing a second immune response after recurrence,
+
+1117
+01:07:53.790 --> 01:07:57.730
+how CIN tumors affect that, and how the timing
+
+1118
+01:07:57.830 --> 01:07:59.810
+and duration of treatment
+
+1119
+01:08:00.650 --> 01:08:04.410
+may be important. So this is an important factor
+
+1120
+01:08:04.610 --> 01:08:08.510
+for us to consider, particularly since, of course, in the age of Matterhorn, we
+
+1121
+01:08:08.590 --> 01:08:10.630
+have to decide what to do with these patients when they
+
+1122
+01:08:10.650 --> 01:08:14.520
+recurSo what we're also seeing is
+
+1123
+01:08:14.580 --> 01:08:18.380
+that even if you induce-- So once you've been immune,
+
+1124
+01:08:18.641 --> 01:08:22.540
+sort of exposed, and if you're trying to induce a second response,
+
+1125
+01:08:22.590 --> 01:08:26.510
+sustained treatment induces increase in interferon gamma, but it
+
+1126
+01:08:26.561 --> 01:08:30.141
+does not-- So you're seeing what you would think would be
+
+1127
+01:08:30.460 --> 01:08:31.400
+adequate response,
+
+1128
+01:08:32.380 --> 01:08:35.300
+but it does not translate to clinical benefit.
+
+1129
+01:08:35.360 --> 01:08:39.160
+And this is from a phase two study that Sam Citrin in my group
+
+1130
+01:08:39.240 --> 01:08:41.740
+is running. Again, come check it out.
+
+1131
+01:08:42.880 --> 01:08:45.080
+This will be April 20th at 2:00 PM.
+
+1132
+01:08:47.101 --> 01:08:50.760
+So why is that? Well, what we're seeing, and I know
+
+1133
+01:08:50.900 --> 01:08:54.700
+Sam Baccom and Ashley Loughney gave a great talk yesterday, but
+
+1134
+01:08:54.740 --> 01:08:58.540
+chronic tumor cGAS associated with immunovasion and poor
+
+1135
+01:08:58.641 --> 01:09:01.160
+survival, and it's important, particularly in our cancers.
+
+1136
+01:09:01.730 --> 01:09:05.440
+This is data from breast cancer showing that if you have acute cGAS
+
+1137
+01:09:05.540 --> 01:09:09.480
+activation, it's potentially a good thing and can induce immune
+
+1138
+01:09:09.540 --> 01:09:13.400
+response. But what we often do, and what happens in the setting of
+
+1139
+01:09:13.460 --> 01:09:17.280
+CIN tumors, it burns out to chronic activation, which actually
+
+1140
+01:09:17.320 --> 01:09:20.240
+causes suppression of STING, and as a result,
+
+1141
+01:09:20.721 --> 01:09:24.580
+immunovasion. And this data from breast cancer patients
+
+1142
+01:09:24.960 --> 01:09:28.820
+showing that if you have, as you see here on the bottom
+
+1143
+01:09:28.900 --> 01:09:32.400
+red survival curve, cGAS high and low STING,
+
+1144
+01:09:33.400 --> 01:09:36.880
+it's a really bad thing for patient survival and outcomes.
+
+1145
+01:09:38.120 --> 01:09:41.880
+And now we're seeing the same in gastroesophageal cancer.
+
+1146
+01:09:42.200 --> 01:09:45.840
+Again, we see chronic cGAS high tumors,
+
+1147
+01:09:46.200 --> 01:09:49.820
+and we're seeing STING low. And what we're also seeing is
+
+1148
+01:09:49.860 --> 01:09:53.780
+there's a tumor stromal uncoupling between cGAS-STING axis,
+
+1149
+01:09:54.240 --> 01:09:56.300
+where we're seeing different expression.
+
+1150
+01:09:56.340 --> 01:10:00.240
+And I think what earlier discussion about heterogeneity and
+
+1151
+01:10:00.280 --> 01:10:02.760
+importance of tumor microenvironment in the stroma.
+
+1152
+01:10:04.600 --> 01:10:08.540
+In fact, again, going back to are we really looking at the right
+
+1153
+01:10:08.560 --> 01:10:12.320
+biomarkers, cGAS-STING activation appears to be, at least in our
+
+1154
+01:10:12.520 --> 01:10:16.340
+limited cohort that we looked at so far, a stronger predictor of poor
+
+1155
+01:10:16.360 --> 01:10:19.490
+prognosis in patients treated with immunotherapy
+
+1156
+01:10:19.860 --> 01:10:22.260
+than chromosomal instability itself.
+
+1157
+01:10:22.840 --> 01:10:26.489
+So considering it's potentially a
+
+1158
+01:10:26.500 --> 01:10:30.360
+druggable target, it's really important for us to continue to study this and
+
+1159
+01:10:30.440 --> 01:10:31.280
+characterize it.
+
+1160
+01:10:33.140 --> 01:10:34.360
+We're all together,
+
+1161
+01:10:35.180 --> 01:10:39.000
+sort of international group of researchers focused in
+
+1162
+01:10:39.080 --> 01:10:41.780
+the global engine for target discovery.
+
+1163
+01:10:42.280 --> 01:10:43.320
+MSK is just
+
+1164
+01:10:44.540 --> 01:10:48.180
+epicenter of it because we happen to both to have a big translational
+
+1165
+01:10:48.240 --> 01:10:50.460
+program, but also run phase three studies.
+
+1166
+01:10:51.030 --> 01:10:54.680
+And it's great to be able to collaborate with several industry
+
+1167
+01:10:55.740 --> 01:10:59.640
+partners who are then able to share with us raw data from some of
+
+1168
+01:10:59.680 --> 01:11:03.300
+these studies and use it for target discovery using
+
+1169
+01:11:03.620 --> 01:11:07.340
+newer AI tools within silica medicine, but also
+
+1170
+01:11:07.380 --> 01:11:11.090
+global collaborations. So we meet twice a year.
+
+1171
+01:11:11.540 --> 01:11:15.480
+It's both in person and virtual, and if you're interested, please feel free
+
+1172
+01:11:15.520 --> 01:11:17.670
+to ping me, and you'll be invited to the group.
+
+1173
+01:11:17.760 --> 01:11:20.440
+Our next retreat is coming up May 4th.
+
+1174
+01:11:22.200 --> 01:11:26.060
+And thanks to ACR and Stand Up to Cancer, many of
+
+1175
+01:11:26.120 --> 01:11:27.240
+these efforts are funded
+
+1176
+01:11:28.140 --> 01:11:31.540
+through various mechanisms, and these are some of the
+
+1177
+01:11:31.880 --> 01:11:35.760
+collaborators we pulled in over the years because this disease
+
+1178
+01:11:35.800 --> 01:11:39.060
+is definitely in the United States, a relatively orphan disease,
+
+1179
+01:11:40.200 --> 01:11:42.120
+where we don't have big
+
+1180
+01:11:43.220 --> 01:11:44.700
+foundations throwing
+
+1181
+01:11:45.820 --> 01:11:49.100
+millions of dollars at it. And so to have some
+
+1182
+01:11:49.960 --> 01:11:53.400
+key aspects of this funded through ACR and
+
+1183
+01:11:53.440 --> 01:11:57.300
+Stand Up to Cancer, Turkoos, Gemini, Debbie's Dream Foundation
+
+1184
+01:11:57.340 --> 01:11:58.200
+has been amazing.
+
+1185
+01:11:59.920 --> 01:12:03.880
+So in conclusion, what we're seeing here is a shift in
+
+1186
+01:12:03.920 --> 01:12:07.600
+paradigm where we're able to push the envelope and cure more
+
+1187
+01:12:07.620 --> 01:12:11.220
+patients. Because I think historically, this
+
+1188
+01:12:11.320 --> 01:12:14.940
+focus on palliation and just prolonging survival,
+
+1189
+01:12:16.180 --> 01:12:20.040
+this nihilistic approach has been centered in our
+
+1190
+01:12:20.100 --> 01:12:23.840
+disease. But now we're seeing even in metastatic, but certainly in
+
+1191
+01:12:23.880 --> 01:12:26.100
+early-stage disease, people are being cured.
+
+1192
+01:12:26.840 --> 01:12:30.230
+And what drives these cures is early immune priming,
+
+1193
+01:12:30.500 --> 01:12:34.200
+generating deep responses that will enable organ
+
+1194
+01:12:34.220 --> 01:12:37.860
+preservation. What we need to really understand is the tumor
+
+1195
+01:12:37.920 --> 01:12:41.250
+biology, including the spectrum of chromosomal instability,
+
+1196
+01:12:41.800 --> 01:12:45.620
+innate immune signaling, and that will shape immune response and
+
+1197
+01:12:46.000 --> 01:12:47.840
+interrogate all the biomarkers
+
+1198
+01:12:49.580 --> 01:12:53.380
+dynamically as we're really understanding how these tumors
+
+1199
+01:12:53.460 --> 01:12:54.560
+adjust and change
+
+1200
+01:12:55.620 --> 01:12:59.510
+while on treatment. And only working together in collaboration
+
+1201
+01:12:59.600 --> 01:13:00.860
+can we do this.
+
+1202
+01:13:02.060 --> 01:13:04.060
+We have an amazing team at MSK.
+
+1203
+01:13:04.960 --> 01:13:08.080
+I see patients in a day, 30 patients in a day.
+
+1204
+01:13:08.560 --> 01:13:12.480
+So really it takes a village to cure these
+
+1205
+01:13:12.560 --> 01:13:13.000
+patients.
+
+1206
+01:13:14.620 --> 01:13:17.460
+Really dedicated symptom management nursing care
+
+1207
+01:13:18.320 --> 01:13:22.250
+is a big part of this. And so thank you for attending the session,
+
+1208
+01:13:22.300 --> 01:13:25.120
+and I bought us four more minutes, so we have more time.
+
+1209
+01:13:29.300 --> 01:13:32.900
+So I have a few questions from the floor as well.
+
+1210
+01:13:32.980 --> 01:13:35.580
+Maybe I would like to invite Dr. Jenny to come up.
+
+1211
+01:13:35.660 --> 01:13:38.380
+We can have a group Q&amp;A.
+
+1212
+01:13:41.120 --> 01:13:44.860
+So first, I have a question from
+
+1213
+01:13:44.960 --> 01:13:45.260
+the
+
+1214
+01:13:46.220 --> 01:13:48.720
+internet audience for Dr.
+
+1215
+01:13:50.560 --> 01:13:54.420
+Yelena. In view of current guidelines, do you
+
+1216
+01:13:54.520 --> 01:13:58.380
+offer to diffuse TPS less than one and
+
+1217
+01:13:58.460 --> 01:13:59.700
+or node negative?
+
+1218
+01:14:01.700 --> 01:14:02.020
+Yes.
+
+1219
+01:14:03.740 --> 01:14:04.660
+The answer is?
+
+1220
+01:14:04.740 --> 01:14:05.040
+Yes.
+
+1221
+01:14:05.620 --> 01:14:05.880
+Okay.
+
+1222
+01:14:07.780 --> 01:14:11.520
+So the second question. In view of the negative results
+
+1223
+01:14:11.700 --> 01:14:15.220
+for KN-525 and
+
+1224
+01:14:15.320 --> 01:14:18.640
+innovation studies, what would you assume make the
+
+1225
+01:14:18.760 --> 01:14:21.250
+pembro trastuzumab combo work?
+
+1226
+01:14:23.430 --> 01:14:26.290
+Well, KEYNOTE-585 used a doublet,
+
+1227
+01:14:27.290 --> 01:14:27.890
+and
+
+1228
+01:14:28.850 --> 01:14:32.530
+we are seeing combination therapies with FLOT-based
+
+1229
+01:14:32.590 --> 01:14:36.030
+regimen. I think if we wanted to talk about things why
+
+1230
+01:14:36.370 --> 01:14:38.870
+585 was negative, we would need another 20 minutes.
+
+1231
+01:14:39.450 --> 01:14:39.830
+But
+
+1232
+01:14:40.730 --> 01:14:44.270
+in short, it's the combination of trastuzumab, pembrolizumab
+
+1233
+01:14:44.330 --> 01:14:45.530
+together with FLOT
+
+1234
+01:14:47.070 --> 01:14:47.370
+that
+
+1235
+01:14:48.210 --> 01:14:52.170
+is what's driving these responses because if you remember, our initial
+
+1236
+01:14:52.230 --> 01:14:55.760
+Phase 2 data of CAPOX, pembro/trast showed
+
+1237
+01:14:55.870 --> 01:14:59.830
+100% disease control rate, and even in the large Phase 3
+
+1238
+01:14:59.890 --> 01:15:03.870
+KEYNOTE-811 study, the complete response rate was
+
+1239
+01:15:04.050 --> 01:15:06.690
+20%, so in the metastatic setting.
+
+1240
+01:15:07.230 --> 01:15:10.290
+So really, it's not a difference between, I think
+
+1241
+01:15:11.030 --> 01:15:12.690
+we need to be very clear.
+
+1242
+01:15:13.610 --> 01:15:17.410
+In this case, anti-PD-1 therapy, anti-PD-L1 therapy,
+
+1243
+01:15:17.510 --> 01:15:21.330
+these agents are equivalent. It's really not because of pembro versus durva,
+
+1244
+01:15:21.790 --> 01:15:25.230
+why Matterhorn was different. It's the change in the
+
+1245
+01:15:25.290 --> 01:15:28.750
+backbone, but also in a clinical trial design.
+
+1246
+01:15:29.590 --> 01:15:32.790
+It was much more simple, and I would say elegant design.
+
+1247
+01:15:36.030 --> 01:15:37.380
+So there's questions or-
+
+1248
+01:15:37.420 --> 01:15:39.510
+Christoffer has opinions about that .
+
+1249
+01:15:39.530 --> 01:15:43.370
+Yes. So I personally don't believe that addition of
+
+1250
+01:15:43.450 --> 01:15:47.190
+taxane would change the outcome like that
+
+1251
+01:15:48.850 --> 01:15:52.710
+in context of immunotherapy, because there are many trials from
+
+1252
+01:15:52.790 --> 01:15:53.450
+China now
+
+1253
+01:15:54.450 --> 01:15:56.670
+without a taxane showing benefit.
+
+1254
+01:15:57.430 --> 01:15:58.290
+So I think
+
+1255
+01:16:00.650 --> 01:16:03.190
+going forward, we will have to
+
+1256
+01:16:04.330 --> 01:16:08.260
+focus on what you mentioned, is the more underlying
+
+1257
+01:16:08.370 --> 01:16:11.870
+biomarkers in addition to a PD-L1.
+
+1258
+01:16:13.590 --> 01:16:14.080
+Philip Dennis from Novo North-
+
+1259
+01:16:14.090 --> 01:16:17.990
+I would just clarify that, of course, I think there's a
+
+1260
+01:16:18.050 --> 01:16:21.990
+different in biology. We're dealing with G junction tumors, and I
+
+1261
+01:16:22.010 --> 01:16:25.410
+think there may be some difference in that.
+
+1262
+01:16:25.430 --> 01:16:26.150
+But please go ahead.
+
+1263
+01:16:27.030 --> 01:16:30.820
+Philip Dennis from Novo Bridge. I have a question about claudin 18.2 expression.
+
+1264
+01:16:30.850 --> 01:16:34.530
+For Dr. Leong first, in your metaplastic organoids,
+
+1265
+01:16:34.710 --> 01:16:37.790
+claudin 18.2 was decreased. So is
+
+1266
+01:16:37.850 --> 01:16:41.050
+cell surface 18.2 really only evident when
+
+1267
+01:16:41.150 --> 01:16:43.270
+cells are fully transformed and when
+
+1268
+01:16:43.290 --> 01:16:46.270
+truly malignancy is present?
+
+1269
+01:16:47.230 --> 01:16:51.070
+So I think claudin 18 actually is a lineage
+
+1270
+01:16:51.110 --> 01:16:54.550
+marker. I don't think it's a
+
+1271
+01:16:54.610 --> 01:16:55.690
+neoplastic marker.
+
+1272
+01:16:56.870 --> 01:16:57.990
+So is that-
+
+1273
+01:16:58.690 --> 01:16:59.050
+Well, its
+
+1274
+01:17:00.570 --> 01:17:02.510
+subcellular localization changes, right?
+
+1275
+01:17:02.550 --> 01:17:05.020
+That's the dogma, that it's a tight junction-
+
+1276
+01:17:05.370 --> 01:17:05.670
+Mm-hmm
+
+1277
+01:17:05.790 --> 01:17:08.230
+... protein that's accessible in the cell surface-
+
+1278
+01:17:08.410 --> 01:17:08.690
+Mm-hmm
+
+1279
+01:17:09.050 --> 01:17:09.050
+...
+
+1280
+01:17:10.290 --> 01:17:13.250
+in pancreatic BTC and gastric cancers, right?
+
+1281
+01:17:13.580 --> 01:17:13.670
+Mm-hmm.
+
+1282
+01:17:14.670 --> 01:17:17.330
+But I'm curious when in the process of
+
+1283
+01:17:17.390 --> 01:17:19.970
+transformation that takes place.
+
+1284
+01:17:20.370 --> 01:17:22.750
+I didn't know if you have data to that question.
+
+1285
+01:17:23.390 --> 01:17:27.270
+Yeah, so my belief is because it's a gastric lineage marker
+
+1286
+01:17:27.950 --> 01:17:31.650
+and during the metaplastic process, what we are
+
+1287
+01:17:31.750 --> 01:17:35.690
+seeing is in some metaplasia when especially
+
+1288
+01:17:35.890 --> 01:17:39.770
+it become very advanced intestinal, the gastric lineage markers
+
+1289
+01:17:39.790 --> 01:17:40.750
+start to reduce.
+
+1290
+01:17:41.750 --> 01:17:45.050
+So this is what we're talking about in the metaplastic process.
+
+1291
+01:17:45.110 --> 01:17:49.010
+So I'm not sure whether in the cancer it could undergo the same
+
+1292
+01:17:49.070 --> 01:17:52.570
+types of... Because, a lot of gastric cancer actually has
+
+1293
+01:17:52.630 --> 01:17:56.510
+inherent probably metaplasia as the
+
+1294
+01:17:56.570 --> 01:17:58.330
+stem cells. So,
+
+1295
+01:17:59.530 --> 01:18:03.370
+it depends on the state. If it's a hybrid, it may still
+
+1296
+01:18:03.450 --> 01:18:07.150
+retain the claudin 18, but it may switch to more
+
+1297
+01:18:07.190 --> 01:18:10.530
+intestinal phenotype. I suppose that could be a form of resistance.
+
+1298
+01:18:12.270 --> 01:18:14.460
+Is locally advanced, resectable,
+
+1299
+01:18:15.590 --> 01:18:18.310
+is the prevalence of 18.2 the same as in metastatic?
+
+1300
+01:18:18.850 --> 01:18:19.790
+Has anyone looked at that?
+
+1301
+01:18:21.790 --> 01:18:22.090
+I think
+
+1302
+01:18:23.110 --> 01:18:27.050
+it depends on which antibody. I find that the claudin
+
+1303
+01:18:27.090 --> 01:18:30.950
+expression is really variable depending on who's looking at
+
+1304
+01:18:31.030 --> 01:18:34.930
+the, and what cutoffs you use. But in our experience so far, it's very similar.
+
+1305
+01:18:36.530 --> 01:18:37.430
+I had a question for you.
+
+1306
+01:18:37.570 --> 01:18:37.680
+Mm-hmm.
+
+1307
+01:18:38.570 --> 01:18:42.110
+So, as you know, the young onset is an
+
+1308
+01:18:42.170 --> 01:18:44.270
+epidemic for our disease as well.
+
+1309
+01:18:46.610 --> 01:18:50.470
+How do they develop? What type of metaplasia are you seeing in
+
+1310
+01:18:50.530 --> 01:18:52.490
+young patients with this disease?
+
+1311
+01:18:52.610 --> 01:18:55.090
+Have you looked at- You mean in gastric cancer?
+
+1312
+01:18:55.930 --> 01:18:55.940
+Yeah.
+
+1313
+01:18:55.990 --> 01:18:56.630
+I think it's
+
+1314
+01:18:58.690 --> 01:19:00.110
+the same metaplasia.
+
+1315
+01:19:00.170 --> 01:19:00.350
+Mm-hmm.
+
+1316
+01:19:00.850 --> 01:19:04.530
+And I also find it, the complete and
+
+1317
+01:19:04.610 --> 01:19:06.990
+incomplete classification,
+
+1318
+01:19:07.830 --> 01:19:08.230
+I think
+
+1319
+01:19:09.190 --> 01:19:11.050
+it's always a spectrum. And
+
+1320
+01:19:11.990 --> 01:19:15.650
+if you look at the heterogeneity we see in the microdissected individual
+
+1321
+01:19:15.690 --> 01:19:19.590
+gland, so if you look at it carefully, often you will see both
+
+1322
+01:19:19.630 --> 01:19:21.970
+complete and incomplete in the same patient.
+
+1323
+01:19:22.070 --> 01:19:25.170
+So it's really which one eventually gained
+
+1324
+01:19:25.190 --> 01:19:28.510
+enough driver mutation to get transformed.
+
+1325
+01:19:28.930 --> 01:19:30.990
+And it looks like based on our data, the
+
+1326
+01:19:31.790 --> 01:19:35.770
+one that are more hybrid, that probably are more
+
+1327
+01:19:36.010 --> 01:19:39.230
+likely to progress because of this plasticity
+
+1328
+01:19:39.330 --> 01:19:41.250
+and fetal reversion.
+
+1329
+01:19:42.050 --> 01:19:45.690
+Yeah. But they can, I think if you look at the
+
+1330
+01:19:45.750 --> 01:19:49.310
+clonal organoid, they show different spectrum, right?
+
+1331
+01:19:49.430 --> 01:19:52.630
+So I think to start with, the cell that turn
+
+1332
+01:19:52.640 --> 01:19:54.110
+neoplastic probably
+
+1333
+01:19:55.350 --> 01:19:59.150
+may have certain epigenetic point to start
+
+1334
+01:19:59.230 --> 01:20:03.120
+with. But whether they can still deviate afterwards,
+
+1335
+01:20:03.230 --> 01:20:03.830
+I'm not sure.
+
+1336
+01:20:07.990 --> 01:20:08.290
+Yeah.
+
+1337
+01:20:08.330 --> 01:20:11.030
+Well, a very nice presentation. I have three
+
+1338
+01:20:11.090 --> 01:20:14.870
+questions. First is, if you only observe a single
+
+1339
+01:20:15.030 --> 01:20:18.570
+tumor in a patient but you have so many mutations in the gastric
+
+1340
+01:20:18.590 --> 01:20:21.470
+mucosa, why is it that we see only one tumor?
+
+1341
+01:20:21.810 --> 01:20:25.726
+So what is the difference?The second question is, if we see
+
+1342
+01:20:25.806 --> 01:20:28.636
+so many heterogeneities, and
+
+1343
+01:20:29.026 --> 01:20:31.346
+metastases, and primary tumor,
+
+1344
+01:20:32.206 --> 01:20:34.286
+how do we handle that in diagnostics?
+
+1345
+01:20:34.546 --> 01:20:36.646
+Because all we have is the primary biopsy.
+
+1346
+01:20:37.546 --> 01:20:40.626
+The third question is, we do have sexual dimorphism.
+
+1347
+01:20:41.366 --> 01:20:44.846
+I haven't heard anything about how you treat women and men separately, how you
+
+1348
+01:20:46.426 --> 01:20:49.956
+incorporate this information about sexual dimorphism in treatment and
+
+1349
+01:20:50.046 --> 01:20:51.686
+diagnostics of gastric cancer.
+
+1350
+01:20:53.346 --> 01:20:57.176
+Thank you. So for the first question about the heterogeneity,
+
+1351
+01:20:57.646 --> 01:21:01.306
+I think it's kind of a few effect. So I think the difficulty
+
+1352
+01:21:01.486 --> 01:21:05.346
+is, if you look at the heterogeneity, basically, there are many,
+
+1353
+01:21:05.426 --> 01:21:09.166
+many glands, each acquiring their
+
+1354
+01:21:09.406 --> 01:21:12.186
+mutation, the chromosome change independently.
+
+1355
+01:21:12.746 --> 01:21:16.606
+But the chance of any one of them progress is pretty low.
+
+1356
+01:21:16.666 --> 01:21:20.646
+So that's why at the end of the day, you end up mainly with one
+
+1357
+01:21:20.686 --> 01:21:24.006
+dominant cancer. But I think in the early cancer
+
+1358
+01:21:24.046 --> 01:21:27.606
+evolution, you may have many different parallel evolution
+
+1359
+01:21:28.466 --> 01:21:31.666
+clones, but eventually, maybe one out-compete all the
+
+1360
+01:21:31.746 --> 01:21:35.506
+others. So that's the answer to point number
+
+1361
+01:21:35.606 --> 01:21:39.286
+one. So that's why by the time we see the gastric cancer, it usually
+
+1362
+01:21:39.366 --> 01:21:40.746
+originate from one clone.
+
+1363
+01:21:42.206 --> 01:21:42.646
+The sec-
+
+1364
+01:21:43.146 --> 01:21:44.526
+Fitness. It's fitness, right? Fitness.
+
+1365
+01:21:44.646 --> 01:21:45.846
+Yes. Yeah, exactly.
+
+1366
+01:21:45.986 --> 01:21:49.206
+Many mutation in the gastric mucosa, you say you have shown that.
+
+1367
+01:21:49.386 --> 01:21:49.566
+Yeah.
+
+1368
+01:21:50.206 --> 01:21:52.306
+One eventually will develop into cancer.
+
+1369
+01:21:52.616 --> 01:21:52.786
+Yeah.
+
+1370
+01:21:53.186 --> 01:21:54.346
+What happens to the remainder?
+
+1371
+01:21:55.426 --> 01:21:59.246
+I think it's not so easy to developing
+
+1372
+01:21:59.286 --> 01:22:00.266
+cancer, so they
+
+1373
+01:22:01.066 --> 01:22:05.026
+may remain as metaplasia, they may become dysplastic, but
+
+1374
+01:22:06.026 --> 01:22:08.906
+they may be still in the field in the adjacent area.
+
+1375
+01:22:10.306 --> 01:22:10.506
+Yeah.
+
+1376
+01:22:12.046 --> 01:22:14.016
+So how we cope with diagnostics?
+
+1377
+01:22:15.426 --> 01:22:19.416
+Maybe I can take that one. Yeah. I think what
+
+1378
+01:22:19.446 --> 01:22:23.356
+we really need to cope with is, and it's a circular
+
+1379
+01:22:23.386 --> 01:22:27.246
+argument, but right now the diagnostics are actually quite good, it's the
+
+1380
+01:22:27.306 --> 01:22:31.246
+therapeutics that are lacking. So the truth is, yes, there is some
+
+1381
+01:22:31.266 --> 01:22:35.026
+heterogeneity, but there's not that much of a difference between the
+
+1382
+01:22:35.086 --> 01:22:37.786
+primary and the met. The p53 mutation is the same.
+
+1383
+01:22:38.326 --> 01:22:39.006
+I would say
+
+1384
+01:22:39.426 --> 01:22:43.386
+70% or 80% of
+
+1385
+01:22:43.406 --> 01:22:46.466
+genomic alterations, if you sequence both, are very similar.
+
+1386
+01:22:47.346 --> 01:22:50.986
+The difference comes in maybe some levels of expression of
+
+1387
+01:22:51.026 --> 01:22:54.946
+HER2 or PD-L1 and so forth, but they probably aren't
+
+1388
+01:22:54.966 --> 01:22:56.466
+that important to begin with, right?
+
+1389
+01:22:57.026 --> 01:22:59.646
+So I think what we need to catch up on is actual
+
+1390
+01:23:00.766 --> 01:23:01.906
+better therapeutics,
+
+1391
+01:23:03.146 --> 01:23:06.146
+and the diagnostics then will lead.
+
+1392
+01:23:07.786 --> 01:23:11.726
+Functional imaging, as Jeffrey said, and it's logical, you can't biopsy
+
+1393
+01:23:11.746 --> 01:23:13.006
+all the mets anyway. So
+
+1394
+01:23:14.526 --> 01:23:15.026
+I think what
+
+1395
+01:23:15.886 --> 01:23:18.726
+we've developed is functional imaging, so using
+
+1396
+01:23:19.746 --> 01:23:23.246
+radio tracers as a way to really just get a sense from the patient
+
+1397
+01:23:24.646 --> 01:23:27.626
+what level of the burden of the biomarker they have.
+
+1398
+01:23:27.756 --> 01:23:29.266
+And then you could prior strata...
+
+1399
+01:23:29.966 --> 01:23:33.626
+You think the tumor is HER2 positive, but then you go in and only
+
+1400
+01:23:34.006 --> 01:23:37.606
+60% or 70% of the primary tumor in the met
+
+1401
+01:23:37.726 --> 01:23:39.766
+express, and we see that with HER2 PAT.
+
+1402
+01:23:40.226 --> 01:23:42.926
+80% of patients have heterogeneity. We know that.
+
+1403
+01:23:44.166 --> 01:23:47.766
+But if you don't have an alternative to target, you will still use HER2.
+
+1404
+01:23:47.826 --> 01:23:51.746
+You'd need to develop other treatments before, and I think
+
+1405
+01:23:51.806 --> 01:23:55.486
+it's fine to do it in parallel, but the field of therapeutics has really
+
+1406
+01:23:55.546 --> 01:23:56.906
+lacked in this disease.
+
+1407
+01:23:57.606 --> 01:23:58.306
+Thank you very much.
+
+1408
+01:23:58.386 --> 01:23:58.606
+Yep.
+
+1409
+01:24:02.346 --> 01:24:03.586
+This side. Yes.
+
+1410
+01:24:03.706 --> 01:24:07.486
+Hi, my name is Chandra Gul. I'm a general surgery resident and a postdoc
+
+1411
+01:24:07.586 --> 01:24:10.026
+in surgery at Stanford. Thank you for an excellent talk.
+
+1412
+01:24:10.086 --> 01:24:13.666
+This is a question for Dr. Chen Zhijian. Hopefully, I'm saying your name right.
+
+1413
+01:24:14.046 --> 01:24:14.186
+Yes.
+
+1414
+01:24:14.666 --> 01:24:18.586
+You spoke about the neoadjuvant immuno-chemotherapy
+
+1415
+01:24:18.606 --> 01:24:21.226
+and how that's becoming the gold standard for gastric cancer.
+
+1416
+01:24:22.226 --> 01:24:25.426
+I wonder if you have any perspective on the extent of
+
+1417
+01:24:25.466 --> 01:24:28.506
+lymphadenectomy that we currently do as a surgeon.
+
+1418
+01:24:29.006 --> 01:24:32.846
+I know a lot of the Eastern perspective historically is doing pretty aggressive
+
+1419
+01:24:32.866 --> 01:24:35.626
+lymphadenectomy, and that's what used to be considered adequate.
+
+1420
+01:24:36.666 --> 01:24:40.576
+Now with immunotherapy, are we thinking about leaving some behind
+
+1421
+01:24:41.586 --> 01:24:43.486
+for adequate therapy or response?
+
+1422
+01:24:44.386 --> 01:24:45.186
+Curious to hear your thoughts.
+
+1423
+01:24:45.245 --> 01:24:49.146
+Yeah. So looking at the pancreas experience with Vinod
+
+1424
+01:24:49.226 --> 01:24:53.076
+Balachandran and the adjuvant vaccines, I think your
+
+1425
+01:24:53.166 --> 01:24:56.686
+point is well taken. Sometimes these lymph nodes are important.
+
+1426
+01:24:57.866 --> 01:25:01.326
+In fact, doing a splenectomy and taking out more lymph nodes was
+
+1427
+01:25:01.386 --> 01:25:03.446
+associated with less of immune response.
+
+1428
+01:25:04.086 --> 01:25:07.246
+For our disease, it's slightly different because we're doing everything
+
+1429
+01:25:07.306 --> 01:25:11.286
+neoadjuvantly, and I think where the field is moving forward to doing more and
+
+1430
+01:25:11.346 --> 01:25:14.766
+more while the tumor and the lymph nodes are in place, and
+
+1431
+01:25:14.946 --> 01:25:17.426
+using surgeries almost as a staging
+
+1432
+01:25:19.186 --> 01:25:22.766
+procedure where you have to take a lot of lymph nodes out, so you
+
+1433
+01:25:22.846 --> 01:25:26.326
+know sort of what it-- Because first of all, you're worried that there's residual
+
+1434
+01:25:26.366 --> 01:25:30.166
+disease, but also to adequately stage.
+
+1435
+01:25:31.086 --> 01:25:35.006
+So I don't see the field-- In fact,
+
+1436
+01:25:35.086 --> 01:25:38.746
+right now, I think that what I struggle most is as I'm
+
+1437
+01:25:38.846 --> 01:25:42.406
+selecting centers or designing the next phase three, is
+
+1438
+01:25:42.586 --> 01:25:44.456
+quality control. Because with the surgeons,
+
+1439
+01:25:45.426 --> 01:25:49.246
+it's just you and the patient, and maybe some nurses
+
+1440
+01:25:49.346 --> 01:25:52.946
+that report to you and would never tell you, "Well, your surgery was not good
+
+1441
+01:25:52.986 --> 01:25:54.246
+enough." Right? So,
+
+1442
+01:25:55.146 --> 01:25:58.846
+that's what we struggle with. And also the fact that
+
+1443
+01:25:59.266 --> 01:26:03.166
+if you do have a good immune response, sometimes it looks like the lymph nodes are
+
+1444
+01:26:03.206 --> 01:26:05.046
+growing, but in fact, they're all
+
+1445
+01:26:06.566 --> 01:26:10.466
+residual response of therapy. So we have not
+
+1446
+01:26:10.846 --> 01:26:14.006
+deescalated surgery. I think maybe that's going to be
+
+1447
+01:26:15.006 --> 01:26:18.906
+in the next phase. But I see it's either all or
+
+1448
+01:26:18.946 --> 01:26:20.766
+nothing. You either do the surgery or you don't.
+
+1449
+01:26:21.046 --> 01:26:24.466
+But right now, the D2 lymph node dissection is the same.
+
+1450
+01:26:24.806 --> 01:26:28.146
+It's a modified version where they leave the spleen behind.
+
+1451
+01:26:28.426 --> 01:26:28.806
+Thank you.
+
+1452
+01:26:33.310 --> 01:26:37.010
+I have a couple of questions, Dr. Judkins.
+
+1453
+01:26:37.830 --> 01:26:41.590
+The first one regarding you are showing
+
+1454
+01:26:41.730 --> 01:26:44.530
+the STING pathway, STING, cGAS pathway,
+
+1455
+01:26:46.250 --> 01:26:50.170
+the increase the STING pathway can associate the poor survival.
+
+1456
+01:26:50.990 --> 01:26:54.950
+But STING actually innate immune can increase the interferon gamma
+
+1457
+01:26:55.110 --> 01:26:55.270
+or
+
+1458
+01:26:56.290 --> 01:27:00.190
+actually anti-tumor. I don't know what's behind the rationale for
+
+1459
+01:27:00.250 --> 01:27:03.790
+this poorly differentiation association with this high STING
+
+1460
+01:27:03.850 --> 01:27:04.810
+pathway as a first pass.
+
+1461
+01:27:04.850 --> 01:27:08.290
+I know. I knew that it was going to be very controversial
+
+1462
+01:27:08.430 --> 01:27:12.090
+because you could approach it from two different factors.
+
+1463
+01:27:12.130 --> 01:27:15.330
+And I suspect that in each individual tumor type, but
+
+1464
+01:27:15.410 --> 01:27:18.330
+also within each even
+
+1465
+01:27:18.370 --> 01:27:21.750
+gastroesophageal cancer, depending on where in the
+
+1466
+01:27:21.800 --> 01:27:25.670
+trajectory of the CIN tumor you look, STING can be a good thing
+
+1467
+01:27:25.730 --> 01:27:26.510
+or a bad thing.
+
+1468
+01:27:27.550 --> 01:27:31.310
+So in our cohort
+
+1469
+01:27:31.390 --> 01:27:33.410
+now, what we're seeing is that
+
+1470
+01:27:34.430 --> 01:27:36.409
+we are seeing low STING expression.
+
+1471
+01:27:37.430 --> 01:27:40.230
+STING pathway through interferon gamma can
+
+1472
+01:27:40.750 --> 01:27:44.490
+up-regulation PD-1. I'm not sure in this patient
+
+1473
+01:27:44.650 --> 01:27:48.090
+you gave additional PD-1 or PD-L1 treatment.
+
+1474
+01:27:48.290 --> 01:27:50.510
+Do they have a better response or not?
+
+1475
+01:27:50.930 --> 01:27:54.570
+So the cohort we have are all IO-treated
+
+1476
+01:27:54.630 --> 01:27:58.530
+patients, so that's why we know what immunotherapy response or duration of
+
+1477
+01:27:58.610 --> 01:27:59.010
+treatment
+
+1478
+01:27:59.810 --> 01:28:00.650
+benefit was.
+
+1479
+01:28:01.690 --> 01:28:03.510
+And what we are seeing is
+
+1480
+01:28:04.410 --> 01:28:06.730
+these were pre-treatment samples.
+
+1481
+01:28:07.330 --> 01:28:07.340
+Okay.
+
+1482
+01:28:07.390 --> 01:28:08.990
+So these were not
+
+1483
+01:28:10.090 --> 01:28:13.320
+one sort of post-progression samples, post immunotherapy.
+
+1484
+01:28:13.810 --> 01:28:17.690
+Another question regarding to Dr. Johnny Bo, for you because you treat the patient.
+
+1485
+01:28:19.390 --> 01:28:23.290
+I'm wondering because diffuse type of intestinal have
+
+1486
+01:28:24.110 --> 01:28:27.950
+different etiology and molecular biology and the genetic
+
+1487
+01:28:28.050 --> 01:28:31.430
+difference, do you treat the patient different or similar?
+
+1488
+01:28:31.520 --> 01:28:32.370
+Based on what?
+
+1489
+01:28:34.110 --> 01:28:36.910
+So I think pure diffuse type
+
+1490
+01:28:37.470 --> 01:28:41.000
+of tumor patients, they do very badly
+
+1491
+01:28:41.690 --> 01:28:45.150
+generally. But we start with the biomarkers,
+
+1492
+01:28:46.010 --> 01:28:48.090
+the four biomarkers that Yelena showed,
+
+1493
+01:28:49.030 --> 01:28:50.650
+and then you can do NGS.
+
+1494
+01:28:51.470 --> 01:28:54.710
+But consistently, the diffuse type will do poorly.
+
+1495
+01:28:55.650 --> 01:28:58.430
+Maybe with claudin, they will do a little bit better.
+
+1496
+01:28:59.410 --> 01:28:59.770
+But
+
+1497
+01:29:01.850 --> 01:29:04.250
+we don't treat based on phenotype.
+
+1498
+01:29:04.770 --> 01:29:06.970
+We're treating based on biomarkers and
+
+1499
+01:29:07.850 --> 01:29:08.930
+other profiling.
+
+1500
+01:29:09.590 --> 01:29:12.850
+Okay. Another question also both to yours
+
+1501
+01:29:13.610 --> 01:29:17.450
+regarding the immune therapy. I know PD-1,
+
+1502
+01:29:17.930 --> 01:29:20.310
+PD-L1 mostly is tested in the clinical.
+
+1503
+01:29:20.830 --> 01:29:24.219
+However, do you ever treat a patient and use TIGIT?
+
+1504
+01:29:24.690 --> 01:29:27.740
+You mentioned the TIGIT plus PD-1.
+
+1505
+01:29:28.230 --> 01:29:31.960
+Are there other LAG-3 or other?
+
+1506
+01:29:32.310 --> 01:29:36.250
+Do you have any better clinical response than PD-1, PD-L1?
+
+1507
+01:29:36.710 --> 01:29:40.570
+Yeah. So the TIGIT story, unfortunately, is negative as many other tumor
+
+1508
+01:29:40.610 --> 01:29:44.530
+types. So there was a large Phase III study that will be
+
+1509
+01:29:44.550 --> 01:29:48.210
+presented at ESMO GI in Munich
+
+1510
+01:29:48.850 --> 01:29:52.050
+that was negative despite very promising Phase II study.
+
+1511
+01:29:52.910 --> 01:29:55.290
+And LAG-3 data is also negative, unfortunately.
+
+1512
+01:29:55.650 --> 01:29:59.270
+So the only hope is with PD-1 CTLA-4 because of
+
+1513
+01:29:59.330 --> 01:30:03.270
+this Catenilimab FC silent
+
+1514
+01:30:03.610 --> 01:30:07.310
+bispecific. But it's too soon to say because
+
+1515
+01:30:07.470 --> 01:30:10.510
+the Nivo/Ipi data, the CheckMate 649 data looked
+
+1516
+01:30:11.110 --> 01:30:14.730
+promising. But because there was no chemo, because of the
+
+1517
+01:30:14.770 --> 01:30:18.230
+toxicity concern, there was a crossover in the survival curves.
+
+1518
+01:30:18.590 --> 01:30:19.430
+So it's too soon.
+
+1519
+01:30:19.930 --> 01:30:23.550
+The new bispecifics are going to probably
+
+1520
+01:30:23.630 --> 01:30:25.890
+produce good results. So one
+
+1521
+01:30:25.970 --> 01:30:29.190
+anti-PD-1, anti-PD-L1,
+
+1522
+01:30:30.030 --> 01:30:31.320
+anti-VEGF,
+
+1523
+01:30:32.230 --> 01:30:32.630
+or
+
+1524
+01:30:33.570 --> 01:30:37.430
+EGFR HER3 with ADC,
+
+1525
+01:30:38.050 --> 01:30:38.970
+they are showing some
+
+1526
+01:30:40.090 --> 01:30:42.850
+good progress. But a lot of work needs to be done.
+
+1527
+01:30:44.050 --> 01:30:44.250
+Okay.
+
+1528
+01:30:46.130 --> 01:30:48.690
+Yeah. One question for Dr. Leung
+
+1529
+01:30:49.650 --> 01:30:51.030
+on the cancer evolution
+
+1530
+01:30:52.090 --> 01:30:55.810
+in this field. I'm curious if we can detect what's
+
+1531
+01:30:55.870 --> 01:30:59.390
+going on during the pre-cancer to cancer, the
+
+1532
+01:30:59.430 --> 01:31:00.050
+transition.
+
+1533
+01:31:02.230 --> 01:31:05.720
+Yes. Any genomic bottlenecks during
+
+1534
+01:31:06.010 --> 01:31:08.410
+the transition pre-cancer to cancer?
+
+1535
+01:31:09.010 --> 01:31:12.570
+You show the mutation cluster, you use the mutation
+
+1536
+01:31:12.930 --> 01:31:16.830
+and the epigenomic and the copy number, and do you have
+
+1537
+01:31:16.890 --> 01:31:19.370
+a chance to check the timing of this event?
+
+1538
+01:31:19.860 --> 01:31:22.510
+And the ultimate question is, can we detect, as
+
+1539
+01:31:23.350 --> 01:31:27.070
+you say, the diagnosis is good. Is it possible to
+
+1540
+01:31:27.170 --> 01:31:30.750
+detect cancer in pre-cancer stage if, say, we have the
+
+1541
+01:31:30.790 --> 01:31:33.390
+precursor? That's my question.
+
+1542
+01:31:35.050 --> 01:31:35.590
+Thank you.
+
+1543
+01:31:36.490 --> 01:31:39.970
+So I think there is an intense interest in
+
+1544
+01:31:40.010 --> 01:31:43.670
+predicting which metaplasia will progress to cancer, right?
+
+1545
+01:31:45.650 --> 01:31:48.690
+I think the problem is for the metaplasia,
+
+1546
+01:31:50.410 --> 01:31:54.110
+it's quite common, but only a small percent progress.
+
+1547
+01:31:54.190 --> 01:31:57.670
+So you need to find ways to predict the one that will progress.
+
+1548
+01:31:57.990 --> 01:32:01.770
+So based on our organoid model, we feel that those
+
+1549
+01:32:01.790 --> 01:32:04.920
+metaplasia with chromosome 20 gain is probably
+
+1550
+01:32:05.210 --> 01:32:08.830
+biologically, at least from our model, seems to have more
+
+1551
+01:32:09.790 --> 01:32:13.660
+neoplastic phenotype. So in parallel, I also
+
+1552
+01:32:13.870 --> 01:32:16.470
+cite some study, for example, from Singapore
+
+1553
+01:32:17.410 --> 01:32:21.330
+groups. So they actually have other risk progression
+
+1554
+01:32:21.410 --> 01:32:24.250
+marker like mutation count, even clonal
+
+1555
+01:32:24.270 --> 01:32:27.560
+hematopoiesis, and ARID1A
+
+1556
+01:32:27.830 --> 01:32:31.070
+mutation. So I think this is still work in progress.
+
+1557
+01:32:31.990 --> 01:32:32.560
+But
+
+1558
+01:32:34.070 --> 01:32:38.010
+I think with more data and more biology, I think for certain we should
+
+1559
+01:32:38.050 --> 01:32:40.210
+be able to find better markers.
+
+1560
+01:32:40.250 --> 01:32:41.060
+Thank you.
+
+1561
+01:32:41.460 --> 01:32:41.460
+Yes.
+
+1562
+01:32:42.822 --> 01:32:44.102
+The last question? Yeah.
+
+1563
+01:32:44.162 --> 01:32:47.982
+Yeah, I have one question. Thank you for the nice talking.
+
+1564
+01:32:48.302 --> 01:32:50.362
+The question for Dr. Elena.
+
+1565
+01:32:51.702 --> 01:32:51.822
+In
+
+1566
+01:32:53.382 --> 01:32:56.902
+new adjuvant in MSI-H patients, you
+
+1567
+01:32:57.042 --> 01:33:00.982
+showed your clinical trials that combined dual
+
+1568
+01:33:01.162 --> 01:33:04.282
+IO with chemotherapy, the effect is better.
+
+1569
+01:33:05.082 --> 01:33:08.822
+But have you ever compared single IO with
+
+1570
+01:33:09.102 --> 01:33:12.042
+chemotherapy and dual IO with
+
+1571
+01:33:12.782 --> 01:33:15.422
+chemotherapy in this kind of patients?
+
+1572
+01:33:15.522 --> 01:33:19.222
+Because in many clinical trials, single IO with
+
+1573
+01:33:19.402 --> 01:33:21.702
+chemotherapy has already pretty
+
+1574
+01:33:22.442 --> 01:33:24.622
+good effect.
+
+1575
+01:33:25.022 --> 01:33:28.942
+That's a great question, and I will cover some of this in the
+
+1576
+01:33:29.002 --> 01:33:32.802
+discussion. It's actually not my data, it's Alberto's data, Infinity,
+
+1577
+01:33:33.022 --> 01:33:36.842
+and Sara Leonardi is here too. So they're presenting the
+
+1578
+01:33:36.882 --> 01:33:39.282
+durva/tremi. But that's a very good question.
+
+1579
+01:33:39.362 --> 01:33:42.582
+I think because of the heterogeneity in MSI cancers,
+
+1580
+01:33:44.122 --> 01:33:47.582
+we know that anti PD-1, like dostorlimab data, right, in
+
+1581
+01:33:47.622 --> 01:33:51.122
+gastroesophageal cancer was not as good as it was in rectal.
+
+1582
+01:33:51.882 --> 01:33:55.782
+So at a minimum, chemoimmunotherapy is needed.
+
+1583
+01:33:56.202 --> 01:34:00.182
+But I think CTLA-4 is a very attractive option
+
+1584
+01:34:00.302 --> 01:34:03.502
+because we know from CheckMate 649,
+
+1585
+01:34:05.142 --> 01:34:09.042
+looking at, at least numerically, we never compared head to
+
+1586
+01:34:09.082 --> 01:34:12.602
+head, but FOLFOX nivo versus nivo ipi,
+
+1587
+01:34:13.982 --> 01:34:17.462
+it looked better in terms of, again, small numbers, hard to
+
+1588
+01:34:17.502 --> 01:34:21.422
+extrapolate. But we know that if you respond to ipi, you never progress,
+
+1589
+01:34:21.522 --> 01:34:23.002
+right? So we know that.
+
+1590
+01:34:25.002 --> 01:34:28.962
+And also FOLFOX is not easy. And in Alberto's study,
+
+1591
+01:34:29.282 --> 01:34:33.022
+doing one dose of tremi is enough. So instead of
+
+1592
+01:34:33.062 --> 01:34:35.462
+being on six months of FOLFOX nivo
+
+1593
+01:34:36.742 --> 01:34:39.362
+or a flott durva, certainly, it's very appealing.
+
+1594
+01:34:39.962 --> 01:34:43.822
+So I think the way that we approach it is that we usually start
+
+1595
+01:34:43.842 --> 01:34:47.242
+with dual immune checkpoint blockade, but we watch the patient very
+
+1596
+01:34:47.382 --> 01:34:51.082
+carefully, and if it looks like radiographically or clinically they're
+
+1597
+01:34:51.122 --> 01:34:54.702
+progressing or not responding, we then pivot to either
+
+1598
+01:34:54.822 --> 01:34:58.502
+flott durva or FOLFOX durva or something like that.
+
+1599
+01:34:59.282 --> 01:34:59.701
+Thank you.
+
+1600
+01:35:00.082 --> 01:35:03.882
+Mm-hmm. But come to the session on Tuesday. There'll be a lot more on that.
+
+1601
+01:35:05.782 --> 01:35:09.042
+Okay. So thank you very much for your attendance.
+
+1602
+01:35:09.182 --> 01:35:12.002
+And I also want to thank the speakers. Thank you.
+
+1603
+01:35:12.642 --> 01:35:14.242
+We should take a picture.
+
+1604
+01:35:14.302 --> 01:35:14.742
+Yeah.
+
+1605
+01:35:16.102 --> 01:35:18.782
+We should take a picture together.
+
+1606
+01:35:21.002 --> 01:35:22.122
+Thank you for the invitation.
+
+1607
+01:35:22.142 --> 01:35:22.932
+Yeah. Enjoyed it.

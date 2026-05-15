@@ -1,0 +1,17 @@
+# Single-cell multi-omics identifies MRD-associated Tr1-like CD4 cells in B-ALL
+
+**Poster #**: 7012
+**Session**: Tumor-induced Immune Suppression
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Qianyun Luo, Rebecca LaRue, Enoc Granados Centeno, Kyra Bergerud, Michael Farrar, Sean Tracy
+
+University of Minnesota, Minneapolis, MN
+
+---
+
+Background: The persistence of measureable residual disease (MRD) after frontline chemotherapy in B-cell acute lymphoblastic leukemia (B-ALL) predicts relapse, yet the mechanisms allowing leukemic persistence remain unclear. Despite endogenous leukemia-specific T-cell response, these effector populations fail to eliminate MRD, suggesting active immune evasion. A major unmet need is to define immune programs that enable MRD survival and relapse after chemotherapy and CD19-directed immunotherapies. We aim to delineate the immune mechanisms underlying leukemic immune escape, leveraging a ~350,000-cell single-cell multiomics dataset generated from early-treatment bone marrow aspirates containing residual leukemia.
+Methods: Bone marrow aspirates from 11 patients (collected within 100 days of diagnosis; MRD 0-20%) and 2 healthy controls were profiled using the 10x Chromium Flex platform with TotalSeq-C antibodies. Samples were enriched for CD19&#8314; blasts, CD3&#8314; T cells, and non-B/non-T populations, uniquely barcoded, fixed, probe-hybridized, and multiplexed into four captures, yielding ~350,000 cells with RNA + protein profiles. Data were processed with Cell Ranger and analyzed in Seurat. TCR-driven activation was quantified using the TCAT Antigen-Specific Activation (ASA) score.
+Results: Across all samples, we observed that all major immune cell lineages in leukemia samples segregated distinctly from healthy controls. Two subsets of highly activated CD4+ T-cells were observed, and both subsets corresponded to known regulatory/suppressive populations. These included a FOXP3+ T-regulatory (Treg) subset, and a FOXP3- IL10+ Type-1 regulatory (Tr1) like population. While FOXP3+ Tregs were also observed in healthy control samples, Tr1 like cells were found only in samples from patients with leukemia. Among CD8+ T-cells, we predominantly observed transcriptomic signatures of early activation and effector/memory features. Only small frequencies (0.01%) of CD8+ T-cells expressed an exhausted phenotype (PD1+/TIM3+/LAG3+), and cells in this subset continued to express TCF7, consistent with an early-progenitor-exhausted state, rather than terminal exhaustion.
+Conclusion: At an early-treatment timepoint, the MRD microenvironment undergoes extensive immune remodeling. Activated CD4+ T-cells are dominated by regulatory/suppressive subsets including transcriptionally distinctive FOXP3+ Treg subsets and a unique population of Tr1 like population that expands with increasing MRD, suggesting a dynamic role in immunosuppression. Conversely, CD8+ T-cell display signatures of suboptimal activation, without evidence of terminal exhaustion. Overall, suppressive CD4&#8314; programs appear to limit effective anti-leukemia immunity and may facilitate relapse.

@@ -1,0 +1,19 @@
+# Assessment of the T cell receptor repertoire in racially diverse prostate cancer patients
+
+**Poster #**: 6573
+**Session**: Inflammation, Immunity, and Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Paula O. Cooper, Laila  N.  Scroggins, Sally Elsamanoudi, Amina Ali, Picabo Binette, Beatriz German Falcon, Leigh Ellis, Gregory  T.  Chesnut, Shyh-Han Tan, Cara  C.  Schafer
+
+Surgery, Center for Prostate Disease Research, Bethesda, MD
+
+---
+
+Background: Prostate cancer (PCa), the second leading cause of cancer-related death for US men, gains limited benefits from immune therapies. Interestingly, African American (AA) men respond far better to Sipuleucel-T and undergo different T cell responses than Caucasian American (CA) PCa patients. Growing evidence suggests that variations in TCR diversity may serve as a biomarker for cancer progression and response to immune therapy; however, the extent of the TCR repertoire&#8217;s contribution to PCa progression and disparate racial responses to treatment remains unclear, highlighting the need for further study.
+Purpose: The rapid development of Next Generation Sequencing and single-cell transcriptomics provides a unique opportunity to examine the TCR repertoires of PCa patients in greater depth than previously possible. By examining TCR sequences in a racially diverse cohort from an equal-access Military Health System, we aim to identify how differences in AA and CA repertoires may contribute to variations in PCa initiation, progression, and response to therapy.
+Methods: Bulk TCR-seq was performed on 25 AA and 30 CA treatment-na&#239;ve tumor biopsies to compare the percent of dominant and unique TCRs (D50) from each sample. Next, peripheral blood lymphocytes (PBLs) were isolated from 4 AA and 4 CA men undergoing radical prostatectomy for diagnosed PCa with no prior treatment, matched for age, Gleason score, and PSA. 10X Genomics V(D)J and GEX technologies were used to produce libraries of individual cell TCRs and transcriptomes. These were compared using previously described bioinformatics pipelines and may be assessed for co-expression of activation, exhaustion, and anergy markers.
+Results: TCR-seq revealed significantly higher D50 scores in CA than AA tumors. We also found that men that developed biochemical recurrence and metastasis had significantly higher D50s than those that did not. Single cell V(D)J and RNA seq identified key differences in the TCR sequences of PBLs isolated from AA and CA PCa patients.
+Conclusions/future directions: These data may be used to help guide therapeutic options based on predicted responsiveness of an individual. The V(D)J data will be used as a reference set to generate a panel for 10X Genomics Xenium. This will provide spatial data to examine the distribution of identified TCR clones in PCa tumor biopsies.
+Disclaimer: The contents of this publication are the sole responsibility of the authors and do not necessarily reflect the views, opinions, or policies opinions of the USUHS, HJF, the DoW or the Departments of the Army, Navy, or Air Force. Mention of trade names, commercial products, or organizations does not imply endorsement by the U.S. Government.

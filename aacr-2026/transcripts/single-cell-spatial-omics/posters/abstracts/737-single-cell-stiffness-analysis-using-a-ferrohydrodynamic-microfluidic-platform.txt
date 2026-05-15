@@ -1,0 +1,16 @@
+# Single cell stiffness analysis using a ferrohydrodynamic-microfluidic platform
+
+**Poster #**: 737
+**Session**: Noninvasive Imaging and Analysis of Animal and Tissue Models
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Yuhao Zhang, Yang Liu
+
+CMBE, University of Georgia, Athens, GA
+
+---
+
+Accurate measurement of cell stiffness is essential for understanding how cells adapt to changes in their physical and biological environment, including those associated with cancer progression, immune activity, and tissue remodeling. Conventional techniques such as atomic force microscopy (AFM), optical tweezers, and micropipette aspiration are widely used, but they are limited by low throughput and cannot be readily integrated with molecular analysis. To overcome these constraints, we developed a ferrohydrodynamic microfluidic platform capable of quantifying single-cell stiffness in a high-throughput and label-free manner, while also enabling direct assessment of cytoskeletal protein expression.
+In this platform, the magnetic force acting on each cell varies with cell size, ferrofluid concentration, and magnetic field strength. Stiffness is quantified by estimating the forces acting on the cell at its measured position within the channel, including magnetic buoyancy and hydrodynamic drag. To ensure consistent and comparable measurements, cell size was incorporated into numerical simulations used to optimize the channel-width gradient and the resulting force distribution. Simulated magnetic fields and deformation patterns matched experimental results, confirming the mechanical reliability of the system. The device was further calibrated with polyacrylamide gel beads of known elastic moduli to examine how bead stiffness, ferrofluid concentration, and magnetic force distribution affect measurement accuracy.
+We evaluated the platform using human cancer cell lines and generated stiffness maps that revealed substantial mechanical heterogeneity within phenotypically similar populations. To explore the relationship between mechanics and behavior, we incorporated a single-cell migration module and compared the stiffness of cells before and after migration. Cells that successfully migrated consistently exhibited lower stiffness, suggesting that increased deformability may facilitate motility. To identify potential molecular contributors, we used immunofluorescence staining and single-cell western blotting (scWB) to quantify vimentin and lamin A/C. Their expression levels varied in patterns that aligned with stiffness differences across individual cells.

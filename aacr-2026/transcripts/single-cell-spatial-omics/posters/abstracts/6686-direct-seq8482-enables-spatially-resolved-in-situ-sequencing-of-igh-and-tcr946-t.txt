@@ -1,0 +1,19 @@
+# Direct-Seq&#8482; enables spatially resolved in situ sequencing of IgH and TCR&#946; transcripts in FFPE tissue at subcellular resolution
+
+**Poster #**: 6686
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Michael Lawson1, Tung  T.  Le2, Ryan Shultzaberger2, Ashley Tsue1, Zane Hiatt2, Nathan Ing1, Kenneth Gouin2, Eli Glezer2, Daan Witters2
+
+1Singular Genomics, San Diego, CA,2Singular Genomics, LA JOLLA, CA
+
+---
+
+Spatial multi-omics is transforming our understanding of the tumor microenvironment, immune responses, and disease mechanisms. A critical gap remains in the ability to sequence highly variable transcript regions in situ at single-cell and subcellular resolution, essential for mapping B- and T-cell clonotypes in their native tissue context.
+Here, we present Direct-Seq&#8482;, a novel in situ sequencing approach built on the G4X&#8482; in situ multiomic platform, enabling high-resolution profiling of RNA variable regions. Direct-Seq employs probes targeting the V and J regions flanking the diverse CDR3 domain of IgH and TCR&#946; transcripts, allowing sequencing of both the J and CDR3 regions. The workflow integrates in situ reverse transcription, amplification, and sequencing-by-synthesis chemistry.
+We applied Direct-Seq to 5-&#181;m FFPE tonsil and renal cell carcinoma (RCC) sections and 10-&#181;m fresh frozen tonsil sections. Up to 9% of B cells were profiled in FFPE tonsil, and ~20% of B and T cells in fresh frozen tissue. Extensive CDR3 diversity was detected, with clonally expanded B cells carrying highly similar CDR3 sequences localized within germinal centers, demonstrating the high-resolution clonotyping capacity of Direct-Seq.
+In Renal Cell Carcinoma (RCC), nine serial FFPE kidney sections revealed clonally expanded B-cell populations enriched around tumor regions and T-cell clones with persistent expansion. One dominant T-cell clone was consistently detected across serial sections, highlighting the method&#8217;s robustness and ability to track clonal populations spatially.
+Direct-Seq was combined with multiplexed protein detection on the same sections, confirming spatial concordance between transcript identity and protein phenotype.
+Together, these results establish Direct-Seq as a high-resolution, scalable approach for spatial immune repertoire mapping in both FFPE and fresh frozen tissue, enabling detailed studies of clonality, immune architecture, and translational immunology.

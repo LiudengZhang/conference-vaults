@@ -1,0 +1,14 @@
+# Spatial proteomics reveals vasculature and immune modulation for overcoming doxorubicin resistance in breast cancer
+
+**Poster #**: 3103
+**Session**: Overcoming Chemotherapy Resistance
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Gautami Gaidhani, Juraj Jakubik, Leoni Moldaner, Yishu Xu, Zuzana Tatarova
+
+German Cancer Consortium (DKTK), Heidelberg, Germany
+
+---
+
+Therapeutic resistance hinders the efficacy of single-agent cancer treatments, often mediated by the tumor microenvironment. Significant endothelial cell enrichment following local doxorubicin treatment has been proposed as a resistance mechanism in breast cancer. Here, we apply the tumor vasculature normalization principle using an anti-angiogenic drug combination delivered locally using the high-throughput multiplex implantable microdevice assay in mouse models of breast cancer. Spatial single-cell proteomic profiling paired with unsupervised learning methods confirmed doxorubicin-mediated pro-angiogenic changes, including pericyte detachment and sprouting angiogenesis. A combination with cabozantinib depleted endothelial cells and increased tumor antigenicity by inducing immunogenic cell death with recruitment of leukocytes including neutrophils, and T cells. Leveraging this immune modulatory activity, we tested a systemic triple combination with anti-PD1 immunotherapy, which led to a significant and complete tumor regression. Our study demonstrates a rational drug combination that improves doxorubicin efficacy to overcome microenvironment-driven resistance for long-term breast cancer control.

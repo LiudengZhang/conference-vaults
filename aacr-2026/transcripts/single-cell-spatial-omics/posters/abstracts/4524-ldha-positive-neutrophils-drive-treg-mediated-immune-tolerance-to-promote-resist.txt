@@ -1,0 +1,14 @@
+# LDHA-positive neutrophils drive Treg-mediated immune tolerance to promote resistance to pan-RAS inhibitors in pancreatic cancer
+
+**Poster #**: 4524
+**Session**: Hematologic Malignancies and Novel Therapeutic Modalities
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Xiangyan Jiang1, Xiaoe He1, Wen Wei1, Qichen He1, Lei Shi2, Zuoyi Jiao1
+
+1Lanzhou University, Lanzhou, China,2Cancer Research UK Manchester Institute, Manchester
+
+---
+
+KRAS is the most common and critical oncogenic mutation in pancreatic cancer, with a mutation rate exceeding 90%. The pan-RAS inhibitor RMC-6236 (Daraxonrasib) has shown promising progress in clinical trials and has been designated as a breakthrough therapy by the FDA. However, resistance to RAS-targeted drugs is inevitable. Here, we collected tumor tissues from KPC mice treated with the pan-RAS inhibitor RMC-6236, both at the time of tumor shrinkage and after the development of acquired resistance, and performed single-cell sequencing. We found that regulatory T cells (Tregs) decreased after treatment but increased after resistance. Similarly, myeloid immune cells exhibited similar subpopulation changes in both treated and acquired resistant states, with LDHA-positive tumor-associated neutrophils (TANs) significantly reduced after RMC-6236 treatment, but replenished after the development of acquired resistance. Mechanistically, LDHA-positive neutrophils upregulate PD-L1 expression via STAT3 signaling and NETs, and promote the immune suppressive effect of Tregs through PD-L1/PD-1 interactions. Additionally, the ablation of LDHA in neutrophils combined with RMC-6236 significantly inhibited tumor growth in KPC mice and restored pancreatic cancer sensitivity to RMC-6236. In conclusion, this study reveals the tumor microenvironment regulatory mechanisms underlying resistance to pan-RAS inhibitor RMC-6236 and proposes a promising strategy for overcoming RAS inhibitor resistance.

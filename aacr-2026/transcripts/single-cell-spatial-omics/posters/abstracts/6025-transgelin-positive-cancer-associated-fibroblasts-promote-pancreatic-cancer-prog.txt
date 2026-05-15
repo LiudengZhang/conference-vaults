@@ -1,0 +1,14 @@
+# Transgelin-positive cancer-associated fibroblasts promote pancreatic cancer progression
+
+**Poster #**: 6025
+**Session**: Fibroblasts as Architects of the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Keiko Shinjo1, Xingxing Wang1, Kohei Kumegawa2, Reo Maruyama2, Shinji Mii3, Yukihiro Shiraki1, TATSUNORI NISHIMURA1, Yoshiteru Murofushi1, Miho Suzuki1, Atsushi Enomoto1, Yutaka Kondo1
+
+1Nagoya University, Nagoya, Japan,2Japanese Foundation for Cancer Research, Tokyo, Japan,3Department of Pathology, Hiroshima University, Hiroshima, Japan
+
+---
+
+Pancreatic ductal adenocarcinoma (PDAC) is characterized by a pronounced desmoplastic reaction, predominantly composed of cancer-associated fibroblasts (CAFs), including a major population of myofibroblastic CAFs (myCAFs). This study was designed to elucidate the biological significances of CAFs in PDAC tumorigenesis. We performed a single-cell assay for transposase-accessible chromatin with high-throughput sequencing (scATAC-seq) on pancreas tissues from KPC mice (LSL-KrasG12D/+; LSL-Trp53R172H/+; Pdx-1-Cre). Epigenetic profiling uncovered substantial heterogeneity within the myCAF population, revealing distinct subclusters characterized by specific transcription factor (TF) motifs, such as those associated with Srf, Cebpb, Prrx1, and Smad4. Parallel single-cell RNA sequencing (scRNA-seq) further identified three transcriptionally distinct myCAF subtypes, each enriched for unique TF-associated signaling pathways, validating the TF motifs identified in the scATAC-seq analysis. Among the identified myCAF subtypes, Transgelin (Tagln), an actin-binding protein highly expressed in activated fibroblasts, emerged as a potential functional driver. In an orthotopic PDAC mouse model, Tagln knockout mice exhibited significantly reduced PDAC tumor burden compared to wild-type controls. Analysis of TCGA data revealed that high TAGLN expression in PDAC samples was significantly associated with poor overall survival. These findings highlight the functional heterogeneity of myCAFs and identify TAGLN-expressing myCAFs as critical mediators of tumor progression, providing the evidence that targeting stromal TAGLN may represent a promising therapeutic strategy for PDAC.

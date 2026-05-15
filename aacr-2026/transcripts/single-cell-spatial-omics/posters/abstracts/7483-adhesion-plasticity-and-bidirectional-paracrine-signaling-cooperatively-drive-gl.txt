@@ -1,0 +1,14 @@
+# Adhesion plasticity and bidirectional paracrine signaling cooperatively drive glioblastoma invasion
+
+**Poster #**: 7483
+**Session**: Tumor Adhesion
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Abhinaba Banerjee1, Audrey Iwashita1, Afsheen Banisadr2, Frank Furnari3, Adam Engler1
+
+1Bioengineering, University of California San Diego, San Diego, CA,2Biomedical Sciences Program, University of California San Diego, San Diego, CA,3Department of Medicine, University of California San Diego, San Diego, CA
+
+---
+
+Glioblastoma (GBM) lethality stems from diffuse invasion beyond surgical margins. EGFR amplification is frequent, and constitutively active mutant EGFRvIII co-exists with wild-type EGFR (wtEGFR) cells in ~50% of tumors, yet cell-intrinsic and extrinsic mechanisms coupling this heterogeneity to invasion remain unresolved. Murine astrocytes engineered with wtEGFR or EGFRvIII expression were interrogated across complementary 2-D, 3-D, and in-vivo platforms. Here, we found that EGFRvIII cells were ~40% less adherent, enabling faster migration than their wtEGFR counterparts. EGFRvIII conditioned media reduced adhesion strength of wtEGFR cells, but direct co-culture showed bidirectional signaling, with both populations experiencing a two-fold decrease in adhesion strength. Cooperative adhesion reduction was induced by a secretome unique to co-cultured cells, further suggesting bidirectional communication. Adhesion changes also cause post-&#8220;education&#8221; differences in invasion mode; EGFRvIII cells alone disseminate in a follow-the-leader mode but switch to single cell scattering when co-cultured with wtEGFR (and similar to the wt cells only condition). In addition to mode, the extent of migration is impacted by co-culture; mixed co-culture spheroids invade the matrix more extensively (>2-fold) than spheroids of either population alone, mirroring how patient tumors heterogeneity scales with invasiveness and prognosis. Moreover, RNA-seq, cytokine-arrays, and intracranially injected in vivo mouse models identified transcriptional and signaling alterations that could drive GBM adhesion. Heterotypic interaction between wtEGFR and EGFRvIII induces remodeling of focal adhesions through a distinct paracrine program, highlighting cooperative invasion. Targeting this adhesion-modulating axis offers a strategy to limit diffuse GBM spread. Together, these data show that both intrinsic and extrinsic signaling propel glioma migration and nominate new therapeutic entry points to improve patient outcomes.

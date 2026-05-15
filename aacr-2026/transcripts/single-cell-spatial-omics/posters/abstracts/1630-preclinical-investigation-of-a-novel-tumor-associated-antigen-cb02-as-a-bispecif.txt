@@ -1,0 +1,16 @@
+# Preclinical investigation of a novel tumor associated antigen, cb02, as a bispecific t-cell engager in cancer
+
+**Poster #**: 1630
+**Session**: T Cell Engagers 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Mary Mathieu, Daniel Reiton, Kevin Nuno, Egle Jurgaityte, Jason Chen, Nathan Fisher, Prasuna Paluru, Robert Chen, Ralph McAnelly, Colton Bracken, Jen Chew, Javeria Haroon, Maeve O'Huallachain, Maggie Lu, Jeffrey Verboon, Max Mumbach, Alexander Martinko, David Kugler, Dan Rock, Burcu Yigit
+
+Cartography Biosciences, Inc., South San Francisco, CA
+
+---
+
+Therapeutic success in next-generation cancer immunotherapy is dependent on identifying highly effective targets that allow selective eradication of tumor cells while sparing healthy tissues to maximize the therapeutic window. The novel target CB02 (target undisclosed), a highly tumor-specific antigen, was nominated from our comprehensive ATLAS platform that analyzes healthy and tumor tissues at single cell level. Based on target expression profile and target cleanliness, we built a bispecific T cell engager, CB02 TCE. Analysis of relevant patient tissues using quantitative flow cytometry (qFlow) and IHC indicated high prevalence across hematological and solid tumor indications.
+Through strategic antibody discovery and engineering, we designed a TCE optimized for the tumor specific CB02 expression profile with balanced CD3 binding affinity. Selection criteria focused on maximizing functional potency while maintaining molecular stability and manufacturability. In vitro characterization across multiple CB02 expressing preclinical tumor models allowed binder screening, kinetic analysis, cytotoxic function and profiling of T-cell activation and cytokine release. Functional assays showed robust, dose-dependent T-cell activation and cytotoxicity in 2D co-cultures as well as 3D spheroid models. Furthermore, we demonstrate robust in vivo efficacy of the CB02 TCE in systemic and subcutaneous cell-line derived xenograft models as well as good PK properties.
+The preclinical investigation successfully identified and validated CB02 as a promising, highly selective T-cell engager target, significantly enriched on malignant cells over critical healthy cell types. The associated TCE exhibits high affinity and compelling in vitro and in vivo efficacy across both hematological and solid tumor models. These data strongly support the continued development of this CB02-targeted bispecific TCE antibody for clinical evaluation.

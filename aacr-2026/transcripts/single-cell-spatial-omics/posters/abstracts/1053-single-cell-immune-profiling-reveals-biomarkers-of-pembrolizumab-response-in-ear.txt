@@ -1,0 +1,18 @@
+# Single-cell immune profiling reveals biomarkers of pembrolizumab response in early triple-negative breast cancer
+
+**Poster #**: 1053
+**Session**: Biomarkers Predictive of Therapeutic Benefit 2
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Inaki Comino-Mendez1, Maria Rosario Chica-Parrado1, María Elena Quirós-Ortega1, Ana Godoy-Ortiz1, Maria Emilia Dominguez-Recio1, Esperanza López-López1, María Victori Ortega-Jiménez2, Martina Alvarez1, Javier Pascual1, Enrique de Alava3, Emilio Alba1
+
+1Institute of Biomedical Research of Malaga (IBIMA), Malaga, Spain,2Hospital Universitario Virgen de la Victoria, Malaga, Spain,3Department of Normal and Pathological Cytology and Histology, Institute of Biomedicine of Sevilla (IBiS), Sevilla, Spain
+
+---
+
+Background: Triple-negative breast cancer (TNBC) is an aggressive subtype representing 15-20% of all breast cancers, characterized by early recurrence and lack of targeted therapies. The addition of pembrolizumab to standard neoadjuvant chemotherapy significantly improves outcomes; however, clinical benefit remains heterogeneous and predictive biomarkers of response or resistance are still lacking.
+Objectives: To characterize peripheral immune cell states associated with response and resistance to pembrolizumab-based neoadjuvant therapy in early TNBC.
+Methods: Patients with early TNBC treated with neoadjuvant pembrolizumab plus chemotherapy were included. Serial blood samples were obtained at baseline, during treatment, before surgery, and one month after surgery. Peripheral blood mononuclear cells (PBMCs) were analyzed by single-cell RNA sequencing and paired TCR/BCR sequencing using the 10x Chromium platform. Cellular composition, transcriptional states, checkpoint expression, and clonal architecture were compared between responders, defined as patients with Residual Cancer Burden (RCB 0) and non-responders (RCB I-III).
+Results: Single-cell analysis revealed distinct systemic immune profiles between responders and non-responders at baseline. Responders displayed an immune-prepared state characterized by enriched cytotoxic NK cells and effector T cells, together with reduced na&#239;ve CD4+ T cells and regulatory T cells. In contrast, non-responders showed dominance of na&#239;ve and suppressive populations. At the transcriptional level, CD4+ T cells from responders exhibited lower basal activation (&#8595;AP-1, &#8595;TNF) but higher antigen presentation and proliferation signatures. NK and monocyte compartments were more inflammatory and metabolically active, while B cells showed increased antigen-presenting capacity (&#8593;MHC-II, &#8593;CD86). Checkpoint expression analysis revealed higher mean and frequency of TIGIT, TIM3, and PD-1 across multiple immune lineages in responders. TCR-seq data showed oligoclonal expansions in responders, contrasting with the polyclonal, unexpanded repertoires of non-responders.
+Conclusions: Peripheral immune profiling reveals distinct systemic immune programs associated with response and resistance to pembrolizumab in early TNBC. Responders display features of antigen-experienced, cytotoxic, and clonally expanded immune populations, whereas resistant cases show quiescent and regulatory-dominant profiles. These findings highlight the potential of immune-based liquid biopsy as a minimally invasive tool to identify predictive biomarkers of immunotherapy efficacy and resistance in breast cancer.

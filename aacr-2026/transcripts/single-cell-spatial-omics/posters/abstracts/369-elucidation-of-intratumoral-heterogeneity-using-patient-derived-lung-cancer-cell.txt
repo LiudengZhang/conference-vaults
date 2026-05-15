@@ -1,0 +1,14 @@
+# Elucidation of intratumoral heterogeneity using patient-derived lung cancer cell line
+
+**Poster #**: 369
+**Session**: Mechanisms of Drug Resistance 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Tomoko Funazo1, Hiroaki Ozasa1, Takahiro Tsuji2, Kazutaka Hosoya1, Yusuke Shima1, Masahiro Ooi1, Keiichiro Suminaga1, Kentaro Hashimoto1, Hiroshi Yoshida1, Hitomi Ajimizu1, Takashi Nomizo1, Hironori Yoshida1, Toyohiro Hirai1
+
+1Respiratory Medicine, Graduate School of Medicine Kyoto University, Kyoto, Japan,2Fred Hutch Cancer Center, Seattle, WA
+
+---
+
+Intratumoral heterogeneity has been reported to be associated with treatment resistance in various cancers, including lung cancer. Elucidating intratumoral heterogeneity is a critical issue that must be addressed to improve patient prognosis. Previous studies on intratumoral heterogeneity have primarily focused on collecting and analyzing patient-derived cancer cells, classifying them into subclones with distinct characteristics, and conducting comparative analyses. In contrast, few studies have focused on the early phase of intratumoral heterogeneity. We established a patient-derived cancer cell line (KTOR83) using pleural effusion collected from a lung cancer patient harboring a BRAF gene mutation. From KTOR83, we generated single-cell-derived clones and established five subclones (clones A, B, C, D, and E). In drug sensitivity assays using the BRAF inhibitor dabrafenib, clones A and B exhibited resistance, whereas clones C, D, and E were sensitive. In cell migration assays, clones D and E demonstrated high migratory capacity. In xenograft models, clones A, B, and C showed strong tumorigenic potential, while clones D and E exhibited low tumor-forming ability. Furthermore, flow cytometric analysis revealed that in clone C, the expression pattern of the cell surface marker EpCAM shifted from a unimodal to a bimodal distribution before and after dabrafenib exposure. To investigate whether this bimodal expression of EpCAM corresponds to two phenotypically distinct subclones, we plan to isolate EpCAM-high and EpCAM-low populations using flow cytometry and compare their phenotypic characteristics. Through cloning of patient-derived cancer cells, we confirmed the presence of subclones with distinct phenotypes. Moreover, in one of these clones, exposure to an anticancer drug induced a shift to bimodal expression of a cell surface marker, capturing an early event of intratumoral heterogeneity in which a single cell differentiates into phenotypically distinct populations. This study presents a novel approach to capturing the early phase of intratumoral heterogeneity and provides new insights into the mechanisms underlying tumor progression.

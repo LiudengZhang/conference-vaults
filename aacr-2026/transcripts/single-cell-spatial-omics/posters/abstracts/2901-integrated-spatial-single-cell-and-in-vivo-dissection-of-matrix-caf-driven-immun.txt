@@ -1,0 +1,21 @@
+# Integrated spatial, single-cell, and in vivo dissection of matrix CAF-driven immune exclusion in colorectal cancer
+
+**Poster #**: 2901
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Yuki Nakanishi1, Kosuke Iwane1, Yu Muta1, Kento Yasumura1, Mayuki Omatsu1, Naoki Aoyama1, Munehiro Ikeda1, Yoko Masui1, Go Yamakawa1, Yasuhiro Fukui2, Hiroaki Kasashima2, Akihisa Fukuda1, Hiroshi Seno1
+
+1Kyoto University, Kyoto, Japan,2Osaka Metropolitan University Graduate Scholl of Medicine, Osaka, Japan
+
+---
+
+Background:
+Fibrotic colorectal cancers (CRCs) are largely microsatellite stable and characterized by desmoplastic stroma that excludes cytotoxic T cells. Cancer-associated fibroblasts (CAFs) are major stromal constituents, yet how specific CAF subsets regulate immune exclusion remains poorly understood.
+Methods:
+We integrated orthotopic in vivo tumor models with spatial and single-cell transcriptomic analyses of human and murine CRCs to elucidate the mechanisms by which matrix CAFs modulate the tumor immune microenvironment.
+Results:
+Matrix CAFs highly expressed THBS2, a matricellular protein enriched at the invasive tumor front. In vivo, global or fibroblast-specific Thbs2 deletion disrupted the fibrotic barrier and markedly increased intratumoral CD8&#8314; T-cell infiltration. Mechanistically, THBS2 restrained CXCL9/10 production by dendritic cells and macrophages, limiting recruitment of CXCR3&#8314; CD8&#8314; T cells. Neutralization of CXCL9/10 or blockade of CXCR3 reversed these effects, confirming the central role of the CXCL9/10-CXCR3 chemokine axis in CAF-mediated immune exclusion. Spatial transcriptomic profiling of human CRC further demonstrated that loss of THBS2 in matrix CAF-rich regions correlated with increased proximity between CD8&#8314; T cells and myeloid cells and elevated chemokine expression. Despite enhanced infiltration, these CD8&#8314; T cells displayed features of exhaustion, rendering tumors more responsive to immune checkpoint blockade.
+Conclusion:
+This integrated spatial, single-cell, and in vivo dissection reveals that matrix CAF-derived THBS2 orchestrates immune exclusion in fibrotic CRC via suppression of the CXCL9/10-CXCR3 axis. Targeting THBS2 or its downstream stromal pathways may represent a promising therapeutic strategy to overcome stromal-driven immunotherapy resistance in microsatellite-stable colorectal cancer.

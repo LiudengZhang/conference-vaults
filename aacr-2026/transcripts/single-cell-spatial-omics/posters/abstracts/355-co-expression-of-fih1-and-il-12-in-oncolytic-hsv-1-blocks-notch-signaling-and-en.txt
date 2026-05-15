@@ -1,0 +1,14 @@
+# Co-expression of FIH1 and IL-12 in oncolytic HSV-1 blocks Notch signaling and enhances anti-tumor immunity
+
+**Poster #**: 355
+**Session**: Mechanism-Guided Development of Targeted Cancer Therapies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Karina Vazquez-Arreguin, Balveen Kaur
+
+Augusta University, Augusta, GA
+
+---
+
+Glioblastoma (GBM) is the most aggressive brain tumor in adults and remains a lethal disease with limited treatment options despite continuing worldwide efforts to develop new therapies. GBM cells often exhibit increased Notch signaling, whose activity contributes to tumor progression and therapy resistance. Previous clinical trials aimed to target Notch signaling using &#611;-secretase inhibitors (GSIs) but have not been fully successful due off-target effects, dose-limiting toxicity and eventual resistance. Here, we have generated an oncolytic herpes simplex virus (oHSV) that expresses the asparaginyl hydroxylase factor inhibiting HIF (FIH1) which efficiently targets Notch signaling locally and specifically in GBM and other solid tumors. Using this virus, OncoD-F, we have shown successful downregulation of Notch signaling in vitro and significant survival improvement in in vivo mouse models of GBM. Furthermore, scRNA sequencing analysis of mouse brain tumors treated with OncoD-F have shown a reduction in tumor associated macrophages and an enrichment in the T cell population. Based on these observations, and in order to enhance the cytotoxic activity of the recruited T cells, we combined OncoD-F treatment with intratumoral injections of the immunoregulatory cytokine IL-12 in a subcutaneous tumor model. Mice receiving the combination treatment had a delayed tumor growth and had a longer time to reach endpoint. Given the favorable response of the combination treatment, we have expressed IL-12 in OncoD-F to generate OncoD-F12. The findings from this study suggest the potential of multi-modality therapeutic strategies for GBM and other solid tumors that have oncogenic Notch activation.

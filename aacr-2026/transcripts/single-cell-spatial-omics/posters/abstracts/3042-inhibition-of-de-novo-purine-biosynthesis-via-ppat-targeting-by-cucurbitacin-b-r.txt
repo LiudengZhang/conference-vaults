@@ -1,0 +1,17 @@
+# Inhibition of de novo purine biosynthesis via PPAT targeting by cucurbitacin B restrains esophageal squamous cell carcinoma growth
+
+**Poster #**: 3042
+**Session**: Novel Targets and Pathways
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Mengqiu Song1, Jing Guo1, Huajie Jia1, Jie Tian2, Pan Li2, Zigang Dong3
+
+1Department of Pathophysiology, School of Basic Medical Sciences, Henan Medical College, Zhengzhou University, Zhengzhou, China,2China-US (Henan) Hormel Cancer Institute, Zhengzhou, China,3Henan Medical College, Zhengzhou University, Zhengzhou, China
+
+---
+
+Background: The de novo purine biosynthesis (DNPB) pathway plays a critical role in the malignant progression of tumors. However, its specific contribution to esophageal squamous cell carcinoma (ESCC) growth, radioresistance, and response to targeted therapies remains poorly understood.
+Methods: In this study, the underlying metabolic change of ESCC were analyzed by untargeted metabolomics and single-cell RNA sequencing data analyses. The expression and function of PPAT were further evaluated through immunohistochemistry (IHC) and lentivirus-mediated gene manipulation. Additionally, patient-derived xenograft (PDX) and cell-derived xenograft (CDX) models were utilized to assess the role of PPAT and its inhibitor in ESCC tumor growth and radioresistance.
+Results: In this study, we identified phosphoribosyl pyrophosphate amidotransferase (PPAT), a key rate-limiting enzyme in the DNPB pathway, as a critical modulator of ESCC malignancy. We demonstrated that PPAT promotes the production of energy-related nucleotides, including AMP, GMP, ADP, GDP, ATP, and GTP, thereby fueling ESCC tumor growth in vitro and in vivo. Moreover, we found that Cucurbitacin B (CuB) specifically targets PPAT and induces its polyubiquitin-mediated degradation via the E3 ligase TRIM38, leading to suppression of the DNPB pathway and inhibition of tumor growth. Importantly, CuB also functions as a radiosensitizer, significantly enhancing the therapeutic efficacy of radiotherapy in ESCC.
+Conclusions: Our findings reveal that targeting PPAT represents a promising therapeutic strategy to suppress ESCC progression and enhance the efficacy of radiotherapy.

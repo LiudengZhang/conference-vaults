@@ -1,0 +1,18 @@
+# Development of a proximity ligation-imaging mass cytometry platform for spatially resolved immune checkpoint analysis
+
+**Poster #**: 1218
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Ghazal Lessan Toussi1, Lars Muhl2, Anna Gorbunova1, Austin James Rayford3, Amanda Lindberg4, Neda Hekmati4, Viktoria Thurfjell4, Aglaia Schiza4, Agata Zieba Wicher5, Patrick Micke4, Carina Strell4
+
+1Department of Clinical Medicine, University of Bergen, Bergen, Norway,2Department of Medicine, Huddinge, Karolinska Institutet, Stockholm, Sweden,3Department of Biomedicine, University of Bergen, Bergen, Norway,4Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden,5Navinci Diagnostics AB, Uppsala, Sweden
+
+---
+
+Introduction: Immune checkpoint inhibitors (ICIs) have transformed cancer therapy, yet durable clinical benefit remains limited to a subset of patients. Current biomarkers, such as PD-L1 immunohistochemistry (IHC), reflect protein abundance rather than functional receptor-ligand engagement and therefore provide only modest predictive value. To address this, we previously demonstrated that mapping PD1-PD-L1 interactions using a proximity ligation assay (PLA) outperforms PD-L1 IHC in predicting immunotherapy response in non-small cell lung cancer (NSCLC) [1].
+Methods: Building on these findings, we developed a triplex PLA detecting PD1-PD-L1, PD1-PD-L2, and CD8-MHC I interactions and integrated it with Imaging Mass Cytometry (IMC). This approach enables high-plex (&#8776;40 markers) spatial quantification of active immune signaling pathways alongside detailed immune phenotyping. The platform was applied to human tonsil tissue as a biological control and to pre-treatment NSCLC and triple-negative breast cancer (TNBC) biopsies to map checkpoint engagement, antigen recognition, and T-cell functional states within the tumor microenvironment.
+Results: In tonsil, PD1-PD-L1 and PD1-PD-L2 interactions were observed primarily between CD8&#8314; T cells and follicular B cells, while additional PD1-PD-L1 interactions occurred between CD8&#8314; T cells and CD68&#8314; macrophages. These patterns suggest partly distinct cellular contexts for PD-L1 and PD-L2 engagement in lymphoid tissue. Consistent with this, preliminary tumor data indicate that PD1-PD-L2 interactions are relatively rare in TNBC compared with NSCLC, suggesting that PD-L2 involvement varies across tissue types and immune environments.
+Conclusion: PLA-IMC provides a functional, spatially resolved platform for screening and quantifying active immune checkpoint signaling directly in tissue. This approach holds promise to identify functional biomarkers for refined patient stratification and mapping of context-specific checkpoint activity to guide rational immunotherapy combinations in solid tumors.
+References: [1] Lindberg A, Muhl L, Yu H, et al. In situ detection of programmed cell death protein 1 and programmed death ligand 1 interactions as a functional predictor for response to immune checkpoint inhibition in NSCLC. J Thorac Oncol. 2025; 20:625-640.

@@ -1,0 +1,12 @@
+# A scalable, proteome-wide protein profiling platform with absolute quantification of 1000 proteins to power oncologic drug discovery pipelines
+
+**Poster #**: 4190
+**Session**: Integrative Computational Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jerid Robinson, Nathaniel Robichaud, Grant Ongo, Kiran Edwardson, Alyssa Rosenbloom, Narges Rashidi, Arya Tavakoli, Jeff Munzar, Milad DagherNomic Bio, Montreal, QC, Canada
+
+---
+
+Proteomics has been constrained by flexibility, high costs, and inconsistent quantification. We present Omni 1000, a quantitative 1000-plex solution powered by nELISA technology—designed for broad, reproducible, and cost-effective protein measurement. Omni 1000 delivers 0.1 pg/mL sensitivity, 99.99% specificity, and dynamic range spanning 3-6 logs. With 80% Reactome level 1, 100% pharma-relevant KEGG signaling pathways, and 100% MeSH disease classes.For biomarker discovery, Omni 1000 makes large-scale and clinically relevant studies routinely achievable through significant cost-efficiencies and rapid readout with flow cytometry. In a study of plasma biobank samples, use of Omni 1000 successfully demonstrated early insights in detecting active rheumatoid arthritis immune signatures prior to onset of clinical symptoms.In addition, Omni 1000’s high-throughput capabilities were used to support a drug screening platform based on patient-derived tumor organoids. Use of Omni 1000 demonstrated insights on baseline donor heterogeneity and drug compound responses and resistances specific to patient tissue profiles, an effort to advance precision medicine.Together, we demonstrate a novel 1000-plex solution, Omni 1000, with content balancing critical targets and biological breadth, and demonstrate real-world utility through two key applications: early detection of disease and high throughput drug development.

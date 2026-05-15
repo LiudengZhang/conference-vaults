@@ -1,0 +1,17 @@
+# Benchmarking gene expression foundation models on bulk RNA-Seq data
+
+**Poster #**: 5478
+**Session**: Deep Learning in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Jong Hyun Kim1, Sunwoo Yu1, Soonyoung Lee1, Tae Hyun Hwang2, Jongseong Jang1, Janghyeon Lee1
+
+1Bio Intelligence Lab, LG AI Research, Seoul, Korea, Republic of,2Department of Surgery, Vanderbilt University Medical Center, Saint Johns, FL
+
+---
+
+Introduction: Recent advances in single-cell RNA (scRNA) foundation models have enabled large-scale learning of gene-gene relationships across cell types. Although these models are pre-trained on single-cell data, many studies have begun applying them to bulk RNA-seq datasets, assuming cellular level representations can generalize to tissue data. However, no systematic benchmark has evaluated whether scRNA-based foundation models truly generalize to bulk RNA-seq data or how their performance compares with models trained on bulk data. Here, we systematically evaluate gene expression foundation models for transferability and distributional bias between single-cell and bulk RNA-seq data using TCGA.
+Methods: We compared publicly available models with released weights, including six single-cell models (CellFM, GeneFormer, scBERT, scFoundation, scGPT, and scLong) and BulkFormer, a model trained on bulk RNA-seq data. Embeddings were extracted following each model&#8217;s published procedures. When not specified, average pooling over valid gene tokens was applied. Gene expression inputs were normalized according to each model&#8217;s original preprocessing. Hyperparameter were tuned, and the best configuration was used for final evaluation. Performance was assessed via linear probing on fixed embeddings for two downstream tasks: gene mutation classification and survival prediction. Classification and survival tasks were evaluated using AUROC and C-index, respectively. Results were averaged across ten random data splits.
+Results: In pan-cancer mutation prediction tasks involving six biomarker genes, CellFM achieved the highest performance (0.870 &#177; 0.053), followed by scFoundation (0.858 &#177; 0.056) and BulkFormer (0.827 &#177; 0.058). GeneFormer (0.822 &#177; 0.060) and scGPT (0.673 &#177; 0.077) showed moderate generalization (0.81-0.82), while scBERT (0.614 &#177; 0.054) and scLong (0.597 &#177; 0.053) exhibited limited transferability. A consistent trend was observed in subtype-specific mutation tasks across BRCA, COAD, LUAD, and RCC, where CellFM and scFoundation maintained the top performance, followed by BulkFormer. In survival prediction across 14 cancer types, scFoundation (0.672 &#177; 0.081) and CellFM (0.665 &#177; 0.078) achieved the best overall performance, comparable to BulkFormer (0.839 &#177; 0.086). While scBERT (0.599 &#177; 0.054) and scLong (0.589 &#177; 0.052) showed limited generalization.
+Conclusion: In conclusion, models that effectively learn gene-gene interactions during pretraining can generalize across bulk RNA-seq data despite distributional differences. This suggests that the key to cross-domain performance lies not in model size or data scale, but in how well biological relationships are captured within learned representations. These results highlight the importance of biologically grounded pretraining for achieving robust generalization across transcriptomic domains.

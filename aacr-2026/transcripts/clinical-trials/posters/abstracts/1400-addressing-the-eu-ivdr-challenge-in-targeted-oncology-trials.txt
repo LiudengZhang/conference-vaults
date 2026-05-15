@@ -1,0 +1,12 @@
+# Addressing the EU IVDR challenge in targeted oncology trials
+
+**Poster #**: 1400
+**Session**: Regulatory Science and Policy
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Margaret CurnutteIVD Regulatory Consulting, Precision for Medicine, Frederick, MD
+
+---
+
+The European Union (EU) In Vitro Diagnostic Regulation (IVDR 2017/746) went into effect May 2022, dramatically changing the regulatory requirements for oncology clinical trials using an in vitro diagnostic (IVD) for patient enrollment. Sponsors developing experimental targeted oncology drugs are grappling with the new regulatory framework, which lacks alignment between drug and device regulations. This means sponsors may have to manage two parallel submissions and processes: a clinical trial for the drug and a separate performance study for the IVD used for patient selection, adding significant complexity, coordination, and potential delays. This poster outlines key considerations and best practices for drug sponsors managing these requirements. We explore preliminary options to avoid parallel studies—such as running the assay at a qualified Health Institution or utilizing a CE-marked assay—before detailing the necessary steps when a separate device study is unavoidable. The poster provides practical guidance for managing the dual studies that can be required under the new EU IVDR, focusing on two key areas. First, it addresses the critical decision of device sponsorship, clarifying the roles and responsibilities (including regulatory submissions, monitoring, and adverse event reporting) that must be defined between a drug sponsor and a device manufacturer in a partnership. Second, it highlights integrated oversight, outlining crucial areas for coordination where the two studies overlap, such as qualification of clinical trial sites, informed consent forms, shared study objectives, site personnel roles, and joint safety reporting responsibilities. The poster offers actionable insights and lessons learned to help oncology drug sponsors achieve clinical trial readiness in this new regulatory landscape.

@@ -1,0 +1,17 @@
+# Tumor cell CEBPB expression contributes to T cell-mediated immune evasion of microsatellite stable colorectal cancer
+
+**Poster #**: 7005
+**Session**: Tumor-induced Immune Suppression
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Hye Jeong Yun1, Chan Ho Park2, Dahye Yun1, Hye-Ri Shin3, Naeun Park1, Changhee Park4, Jeong Dong Lee1, Kiyeon Kim2, Heejun Shim2, Hyejin Sim1, Se Min Kim1, Min Jung Kim5, Ji Won Park5, Seung-Bum Ryoo5, Yoojoo Lim6, Seung-Yong Jeong5, Kyu Joo Park5, Tae-You Kim4, Junil Kim2, Jae-Kyung Won3, Sae-Won Han4
+
+1Cancer Research Institute, Seoul National University Hospital, Seoul, Korea, Republic of,2Department of Bioinformatics, Soongsil University, Seoul, Korea, Republic of,3Department of Pathology, Seoul National University Hospital, Seoul, Korea, Republic of,4Department of Internal Medicine, Seoul National University Hospital, Seoul, Korea, Republic of,5Department of Surgery, Seoul National University Hospital, Seoul, Korea, Republic of,6Lunit, Seoul, Korea, Republic of
+
+---
+
+Background: Microsatellite stable (MSS) colorectal cancer (CRC), which accounts for approximately 80-85% of all colorectal cancer cases, exhibits a poor response to immune checkpoint inhibitors. Tumor protein 53 (TP53) mutations are frequently observed in colorectal cancer and may contribute to tumor-driven immunosuppression. In this study, we aimed to investigate the immunosuppressive mechanisms associated with TP53 mutations in MSS CRC.
+Methods: We performed single-cell RNA sequencing (scRNA-seq) on tumor samples from 30 CRC patients and Trp53- knockout (KO) CT26 tumors in syngeneic mice to profile the tumor microenvironment and analyze tumor cell gene expression profiles based on TP53 mutation status. We identified CCAAT enhancer-binding protein beta (CEBPB) as a potential immunosuppressive factor associated with TP53-mutant CRC. To demonstrate the role of CEBPB in T cell immunosuppression, we analyzed T cell-tumor cell co-cultures and CEBPB-overexpressing (oe) tumor-injected syngeneic mouse models by flow cytometry.
+Results: scRNA-seq analysis of 30 CRCs revealed increased proportions of CD4+ T cell subsets, including Treg, Th17, and Tcm cells, in TP53 mutant tumors. Immune activation pathways, such as the immune system and interferon-gamma response, were down-regulated in T cells compared to TP53 wild-type tumors, suggesting that TP53 mutations might contribute to immune evasion by negatively affecting T cells. scRNA-seq analysis of Trp53-KO CT26 tumors identified CEBPB as notably upregulated, and we confirmed that loss of Trp53 WT led to increased CEBPB mRNA expression and protein stability in CRC cell lines. CEBPB expression was associated with reduced CD4+ T cell infiltration and positively correlated with cytotoxic T lymphocyte-associated protein 4 (CTLA4) expression in regulatory T cells (Treg) and exhausted T cells (Tex). CEBPB-oe CT26 tumors in syngeneic mice showed reduced CD4+ T cell infiltration and upregulation of CTLA-4 expression on CD4+ T cells in vivo. Consistently, spleen T co-cultured with CEBPB-overexpressing CT26 cells showed increased CTLA-4 expression and decreased proliferation of CD4&#8314; T cells.
+Conclusion: Tumor cell CEBPB expression, upregulated by TP53 mutation, may mediate T cell-mediated immunosuppression and is considered as potential therapeutic target for regulating immune evasion in MSS CRC.

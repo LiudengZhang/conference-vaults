@@ -1,0 +1,17 @@
+# Deciphering the dysfunctional immunological synapse in acute myeloid leukemia through microfluidic
+
+**Poster #**: 4260
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Sofia Titah1, Clara Lewuillon1, Faruk Azam Shaik2, Aurelie Guillemette1, Eva Gez1, Nathalie Jouy3, Laure Goursaud1, Celine Berthon1, Salomon Manier1, Carine Brinster1, William Langue4, Tzung Hsuen Khoo4, Alexandre Poulain4, Sophie Dabo4, Dominique Collard2, Bruno Quesnel1, Loic Lemonnier5, Mehmet Cagatay Tarhan2, Yasmine Touil1
+
+1Univ. Lille, CNRS, Inserm, CHU Lille, UMR9020-U1277 – Canther – Cancer Heterogeneity, Plasticity and Resistance to Therapies, Lille, France,2Univ. Lille, CNRS, Centrale Lille, Junia, Univ. Polytechnique Hauts-de-France, UMR 8520 -IEMN 10 -Institut d'Electronique de Microélectronique et de Nanotechnologie, Lille, France,3UMS 2014/US4, Lille, France,4Laboratoire Paul Painlevé - CNRS UMR 8524, Lille, France,5Laboratory of Excellence, Ion Channels Science and Therapeutics, Villeneuve d'Ascq, Lille, France
+
+---
+
+Minimal residual disease (MRD) in acute myeloid leukemia (AML) arises from residual leukemic cells that resist chemotherapy and evade immune surveillance, notably through the PD-1/PD-L1 immune checkpoint. These persistent cells are the main source of relapse. Our working hypothesis is that alterations in calcium signaling, a key regulator of T-cell activation, contribute to PD-1/PD-L1-mediated immune escape in AML. The project aims to characterize the calcium signaling signature associated with PD-1/PD-L1 axis activation during the formation of the immunological synapse (IS) between T cells and leukemic cells from AML patients, to better understand immune dysfunction and therapy failure.
+To facilitate interactions between rare T cells and leukemic cells, we utilize microfluidic devices that enable controlled cell-cell contact and real-time monitoring of calcium dynamics. An AI-based algorithm performs real-time analysis of IS formation, processing about 100 events per image every five seconds. Calcium fluctuation data are extracted and mathematically modeled to quantify responses and classify patient-derived T cells as &#8220;responders&#8221; or &#8220;non-responders&#8221; using machine learning.
+Immunofluorescence is used to identify key molecular components at the IS, while RT-qPCR quantifies the expression of calcium-regulating genes such as ORAI, STIM, and NFAT isoforms in both T cells and leukemic cells. Our first results reveal altered calcium mobilization in AML-derived CD8&#8314; T cells compared with healthy donors, along with PD-1-dependent inhibition of store-operated calcium entry linked to reduced ORAI1 activity.
+Ongoing single-cell RNA sequencing (scRNA-seq) analyses aim to identify transcriptional profiles of T-cell subpopulations, both at rest and during IS formation. By integrating functional calcium signatures and transcriptomic data, we seek to uncover signaling pathways responsible for impaired IS formation in AML. Ultimately, this work will identify molecular targets within the calcium signaling network that could be modulated to restore the cytotoxic activity of exhausted CD8&#8314; T cells against therapy-resistant leukemic cells.

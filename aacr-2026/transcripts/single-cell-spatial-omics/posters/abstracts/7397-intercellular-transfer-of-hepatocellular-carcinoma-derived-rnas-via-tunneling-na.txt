@@ -1,0 +1,15 @@
+# Intercellular transfer of hepatocellular carcinoma-derived RNAs via tunneling nanotubes educates macrophages and enhances antigen presentation
+
+**Poster #**: 7397
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yutao He, Lin Wang, Zhitian Shi
+
+The Second Affiliated Hospital of Kunming Medical University, Kunming, China
+
+---
+
+Despite significant progress in immunotherapy for hepatocellular carcinoma (HCC), effective therapeutic targets remain limited, highlighting the urgent need for novel immunotherapeutic strategies. Intercellular communication is fundamental for maintaining homeostasis and responding to external stimuli, and while various modes such as ligand-receptor interactions and extracellular vesicle transfer are known, the potential role of tunneling nanotubes (TNTs) in macrophage-HCC cell communication has been unclear. In this study, using peritoneal macrophages from C57BL/6J mice co-cultured with Hepa1-6 HCC cells in vitro, we observed via field emission scanning electron microscopy and confocal microscopy that macrophages and HCC cells form TNTs&#8212;slender, straight, and suspended structures with vesicle-like protrusions indicative of cargo transport, composed of F-actin, &#945;-tubulin, and Sec5. By physically inhibiting TNT formation using 0.4&#8239;&#956;m transwell inserts and applying single-cell RNA sequencing, we found that in the TNT system, the HCC cell phenotype did not change significantly, but the proportion of MHC II&#8314; macrophages greatly increased, and OT-II T cell activation assays further demonstrated enhanced antigen presentation ability in macrophages. Using specific markers for proteins, mitochondria, DNA, and RNA (CellTracker Blue, MitoTracker, Hoechst 34580, Click-iT RNA) and corresponding inhibitors (metformin, DNase, RNase), we obtained direct evidence that HCC cell-derived RNAs are transferred via TNTs to
+macrophages, leading to increased antigen presentation capability. Moreover, blocking macrophage RNA sensors with hydroxychloroquine suppressed the TNT-induced increase in MHC II&#8314; macrophages, and in an orthotopic HCC mouse model, intratumoral injection of hydroxychloroquine-pretreated macrophages resulted in significantly larger tumor diameters by day 7 compared to the untreated group. In summary, our study reveals that macrophages and HCC cells establish a novel form of intercellular communication&#8212;TNTs&#8212;through which HCC cells transfer RNAs to macrophages, mediating an increase in MHC II&#8314; macrophage proportion and enhanced antigen presentation capacity, thereby suppressing tumor progression. We propose that promoting efficient transfer of HCC-derived RNAs to macrophages by TNTs and enhancing macrophage recognition of these RNAs may provide novel insights and potential therapeutic targets for innovative anti-HCC treatments.

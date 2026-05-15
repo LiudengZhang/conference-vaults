@@ -1,0 +1,18 @@
+# Dynamic transcriptional remodeling and functional adaptation drive malignant progression in lymphoma
+
+**Poster #**: 5571
+**Session**: Oncogenic Pathways and Cancer Immunity
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Bandish Kapadia1, Anirban Roychodhury1, Forum Kayastha1, Won Sok Lee2, Nahid Nanaji3, Jolene windle1, Ronald  B.  Gartenhaus1
+
+1Virginia Commonwealth University, Richmond, VA,2Richmond Department of Veterans Affairs, Richmond, VA,3Veterans Affairs Maryland Health Care System-Baltimore Division, Baltimore, MD
+
+---
+
+Background: Lymphoma progression is shaped by dynamic interactions between malignant B cells and the tumor microenvironment, generating marked transcriptional and functional heterogeneity. To define mechanisms driving this adaptive evolution, we developed a transplantable oncogene-driven lymphoma model enabling controlled tracking of clonal evolution, transcriptional remodeling, and functional adaptation across serial tumor passages.
+Methods: Primary tumors from transgenic lymphoma-bearing mice were serially propagated into syngeneic hosts, generating early (P0), intermediate (P2), and advanced (P4) stages. Single-cell transcriptomics, CNV-inference (inferCNV), and pathway-level modeling (Seurat/Scanpy, GSVA, Enrichr, DrugBank-based prediction) were used to define malignant and microenvironmental evolution and emerging vulnerabilities.
+Results: Serial propagation produced progressive transcriptional diversification consistent with malignant evolution. P0 tumors exhibited proliferative activation and metabolic priming, whereas P4 tumors developed immunosuppressive, angiogenic, and stress-adaptive programs mirroring hallmarks of advanced human B-cell lymphoma. A key finding was a unified stress-survival module in P4, marked by hypoxia-responsive, UPR-related, and metabolically rewired pathways, alongside reduced proliferative dependence. Sex-specific pathway biases including cytokine/chemokine signaling and metabolic checkpoint usage also emerged. Drug-response inference identified passage-specific vulnerabilities, with P4 showing heightened sensitivity to inhibitors of oxidative-stress buffering, lipid metabolism, and UPR nodes.
+Future Directions: Multiparametric flow cytometry, immunohistochemistry, and spatial profiling are underway to validate lineage reprogramming, CNV-based malignant classifications, and pathway activation states.
+Conclusions: Malignant progression in this model is driven by iterative transcriptional reprogramming and functional adaptation shaped by microenvironmental selection. P4 most accurately recapitulates transcriptomic and functional features of advanced disease, making it an optimal preclinical platform for studying therapeutic resistance and identifying emergent vulnerabilities in aggressive B-cell lymphoma.

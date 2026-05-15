@@ -1,0 +1,12 @@
+# Validation of a gene pair-based machine learning model for treatment prioritization in breast cancer
+
+**Poster #**: 67
+**Session**: Application of Bioinformatics to Cancer Biology 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Rishi Nair1, Nicholas  R.  Mistry1, Roy Khalife2, Anthony M. Magliocco21University of Central Florida, Orlando, FL,2Protean BioDiagnostics Inc, Orlando, FL
+
+---
+
+Introduction: Drug resistance in breast cancer (BC) can arise from synergistic genetic alterations. We previously developed a machine learning (ML) model that ranks treatment categories by 5-year predicted overall survival (POS) based on altered gene pairs. Here, we perform the first retrospective validation of this model using an independent BC patient cohort that received next-generation sequencing (NGS)-directed therapy.Methods: Thirty metastatic BC patients who received NGS-directed therapy with FoundationOne Companion Diagnostic (CDx) profiling were analyzed (PMID: 34572791). For each patient, logits scores (representing the probability of death at 5 years) were generated across 8 treatment categories combined with altered gene pair combinations from the CDx gene-set. Inverse logits, representing POS, were computed using a virtual clinical trial where a decoder model received patient data and output probability distributions for each gene pair. Synthetic patient populations were then randomly generated from these probabilities and used to calculate POS rates for each treatment category per patient. Mean inverse logits were analyzed per patient using repeated-measures ANOVA, Friedman tests and pairwise Holm t-tests. The Shapiro-Wilk test and η2 values assessed model normality and strength of association.Results: Across all patients, the POS rate was 70.0%, compared to the actual rate of 62.9%. A one-sample z-test indicated a significant difference (Z=6.82, p0.9, suggesting an approximately normal distribution of logits. Repeated-measures ANOVA confirmed significant treatment-dependent differences in logits for all 30 patients (p0.05).Conclusion: Our findings demonstrate strong internal consistency with a ML-based approach to predict survival using gene pair and treatment data. Promising external validity is shown by POS within 8% of observed outcomes. Further calibration and validation of this model with subtype-stratified cohorts is warranted to improve validity, enhance clinical utility and maintain predictive stability.

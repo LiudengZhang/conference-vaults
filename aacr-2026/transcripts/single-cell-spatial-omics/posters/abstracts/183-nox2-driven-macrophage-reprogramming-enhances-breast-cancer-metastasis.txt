@@ -1,0 +1,14 @@
+# NOX2-driven macrophage reprogramming enhances breast cancer metastasis
+
+**Poster #**: 183
+**Session**: Inflammation and Cancer Progression
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Mustafa Kaya1, Olivia Johnsson1, Nuttida Issdisai1, Hugo Söderberg1, Ilayda Altinönder2, Roberta Kiffin1, Xavier Tekpli2, Kristoffer Hellstrand1, Anna Martner1
+
+1University of Gothenburg, Gothenburg, Sweden,2Oslo University Hospital and University of Oslo, Oslo, Norway
+
+---
+
+Tumor-associated macrophages (TAMs) are considered key determinants of breast cancer progression, yet the molecular mechanisms shaping their immunosuppressive phenotypes remain incompletely understood. The NOX2 enzyme of myeloid cells generates antimicrobial reactive oxygen species (ROS) in myeloid cells, but its potential contribution to macrophage programming within the tumor microenvironment is largely unknown. This study aimed at identifying the potential role of NOX2 in regulating M2-like macrophage polarization for breast cancer growth and dissemination. Analysis of single-cell RNA sequencing data from 100 human breast tumors revealed selective upregulation of NOX2 in M2-like TAM clusters, associated with an immunosuppressive transcriptional profile. Consistently, transcriptional data showed that macrophages from Nox2-deficient mice displayed a shift toward a pro-inflammatory, M1-like state, marked by altered transcription factor networks and enrichment of inflammatory gene signatures. In vitro, pharmacologic or genetic inhibition of NOX2 blocked M2 polarization induced by colony-stimulating factor-1 (CSF-1) (P=0.0006, n=4-11/group, one-way ANOVA) or breast cancer-derived conditioned media (P=0.02, n=4/group, Mann-Whitney test), implying that NOX2 activity is required for tumor-driven macrophage reprogramming. Mechanistically, our results suggested that NOX2-derived ROS activated NRF2-dependent transcriptional pathways that stabilized the M2-like phenotype. In two distinct murine breast cancer in vivo models, i.e. orthotopic EO771 implantation and the genetically engineered MMTV-PyMT model, genetic deletion of Nox2 entailed reduced abundance of M2-like TAMs (P=0.006, n=4-7/group), enhanced intratumoral T cell infiltration (P=0.04, n=4-7/group), and markedly suppressed primary tumor growth (P=0.01, n=4-7/group) and metastatic spread (P=0.02, n=6-8/group, Mann-Whitney test for all). Mining of public datasets revealed that high expression of M2-associated markers and NRF2 target genes correlated with inferior survival in human breast cancer (P=0.02 for CD206 and P=0.04 for HO-1, n=65, log-rank test). These findings position NOX2 as a key driver of immunosuppressive macrophage plasticity in breast cancer and highlight the NOX2-NRF2 axis as a potential therapeutic target to counteract metastasis-promoting myeloid programming.

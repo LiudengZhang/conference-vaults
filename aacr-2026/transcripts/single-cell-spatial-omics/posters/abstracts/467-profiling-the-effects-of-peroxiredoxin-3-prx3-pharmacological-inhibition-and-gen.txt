@@ -1,0 +1,14 @@
+# Profiling the effects of Peroxiredoxin 3 (PRX3) pharmacological inhibition and genetic deletion with the AVITI24&#8482; multi-omic spatial biology platform
+
+**Poster #**: 467
+**Session**: RNA, Gene and Cell Therapies, and Enabling Assay Technologies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Victoria Gibson1, Seana Lymer2, Trevor Wolf2, Brian Cunniff1
+
+1University of Vermont Cancer Center, Burlington, VT,2Element Biosciences, San Diego, CA
+
+---
+
+Targeting metabolic vulnerabilities of tumor cells, including tumor cell escape from oxidative stress, is an attractive therapeutic approach in oncology. Thiostrepton (TS), the active pharmaceutical ingredient of RSO-021, is a clinical stage peroxiredoxin 3 (PRX3) covalent inhibitor currently in phase 2 testing for the treatment of pleural mesothelioma (NCT05278975). PRX3 expression supports tumor cell escape from oxidative stress and genetic deletion via CRISPR/Cas9 or pharmacological targeting of PRX3 with TS inhibits mesothelioma tumor growth. To further profile cellular responses to PRX3 deletion and inhibition with TS we utilized the AVITI24&#8482; multi-omic spatial biology platform to profile hundreds of thousands of cells in a single run. Using the Teton&#8482; CytoProfiling assay, we analyzed high-dimensional morphology, targeted transcriptomic data, and multiplexed proteomic data, enabling direct linkage of molecular markers to pathway-level readouts. Differential expression was evaluated using two complementary approaches. Single-cell analyses used a Wilcoxon rank-sum test between conditions, while pseudobulk analyses aggregated replicate wells into pseudo-bulk groups and used DESeq for differential expression testing. Marker genes for each condition were identified using a log&#8322;FC threshold of 0.1, and results from both methods were compared to assess concordance. Deletion of PRX3 in the H-MESO-1 human mesothelioma cell line reduced expression of cell cycle and proliferation genes at the RNA level (ie. CDK1 and Kif11) and protein level (ie. phospho-p38, phospho-AKT1, phospho-CDK1). TS treatment of H-MESO-1 cells increased transcript and protein levels of genes related to Mitogen-activated protein kinase (MAPK) signaling (MAPK10, MAPK11), stress response (HSP70), and apoptosis (FASLG). TS treatment reduced expression of genes related to mitochondrial function, cell migration, and growth. TS treatment did not elicit the same effects on gene expression in PRX3 deleted cells as wild type treated cells with MAPK signaling being one common increased feature across PRX3 deletion and TS treatment (ie. MAPK13 and MAP3K5). Together the AVITI24&#8482; multi-omic spatial biology platform provides a robust workflow that supported profiling genetic and pharmacological targeting of PRX3 in mesothelioma tumor cells, further supporting PRX3 as a novel and actionable therapeutic target in cancer.

@@ -1,0 +1,17 @@
+# Multi-omic single-cell assessment of castration-resistant prostate cancer patients receiving177Lu-PSMA-617 and pembrolizumab shows timing of radioligand therapy alters immune response
+
+**Poster #**: 2558
+**Session**: Immunomodulatory Effects of Targeted Therapies
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Anusha Muralidhar1, Karen Law1, Zenghua Fan2, Shloka Shukla1, Aram Lyu1, Serena Kwek2, David  Y.  Oh2, Michael Evans2, Rahul R. Aggarwal2, Lawrence Fong1
+
+1Fred Hutchinson Cancer Center, Seattle, WA,2University of California San Francisco, San Francisco, CA
+
+---
+
+Background: Prostate cancer, a leading cause of cancer-related death in men, is refractory to checkpoint inhibition.1-3 Lutetium-177-labeled PSMA-617 (177Lu-PSMA, Pluvicto) is an FDA-approved radioligand therapy in CRPC. We have shown that a single dose of 177Lu-PSMA is immunomodulatory, and can be safely combined with the PD-1 blockade, pembrolizumab, in a phase 1 clinical trial (NCT03805594).4 However, the schedule by which these treatments should be combined is unknown.
+Methods: In our phase 1 clinical trial, patients with mCRPC received a single dose of 177Lu-PSMA either before (Schedule 1, n=30), concurrently with (Schedule 2, n=6), or after pembrolizumab (Schedule 3, n=6). Serial peripheral blood mononuclear cells (PBMCs) were collected and analyzed using multi-omic single-cell RNA sequencing (scRNA-seq) to dissect the immune responses with these 3 schedules.
+Results: We found that a single dose of 177Lu-PSMA in monotherapy led to an expansion of CD4+ effector T cells as well as in Tregs indicative of direct immunomodulatory activity. This was accompanied by a reduction in NK and B cells. When 177Lu-PSMA was combined with pembrolizumab, we saw dynamic changes in non-Treg T cell subsets (CD4&#8314; and CD8&#8314; T cells), dendritic cells (DCs), NK cells, and B cells across all three dosing schedules. Schedules 1 and 2 demonstrated stable T cell levels accompanied by a gradual increase in DCs, whereas Schedule 3 was characterized by low T cell frequencies and a progressive decline in DCs relative to baseline.
+Conclusions: Our study demonstrates the critical importance of treatment sequencing to fully harness the immunomodulatory potential of RLT using a single dose of 177Lu-PSMA and optimize synergy with PD-1 blockade in mCRPC. While initiating with either 177Lu-PSMA or concurrently starting 177Lu-PSMA with pembrolizumab resulted in an increase in DCs, starting with pembrolizumab first resulted in lower frequencies T cells and DCs suggesting that this schedule could be detrimental to immune outcomes.

@@ -1,0 +1,18 @@
+# Synthetic reprogramming of &#947;&#948; CAR T cells with the LTBR gene optimizes function in the TME and overcomes effector limitations
+
+**Poster #**: 128
+**Session**: Alternative Cell Type and in Situ Cell Therapies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Mitchell  S.  Wang, Ivan Reyes-Torres, Kristen  C.  Vogt, Caroline  K.  Hanlon, Ashley  N.  Thornal, Maria Guarino, Eric  M.  Johnson, Mark  P.  Roberto, Navamallika  G.  Reddy, Miao Chen, Theodore Giavridis, Mateusz Legut
+
+OverT Bio, New York, NY
+
+---
+
+Cell therapies have transformed outcomes in hematologic cancers, yet their efficacy in solid tumors remains limited by the profoundly immunosuppressive tumor microenvironment (TME), which employs multiple, overlapping mechanisms to suppress immune activity. Current armoring strategies address these barriers individually, leaving key vulnerabilities, while autologous approaches remain costly and difficult to scale. Allogeneic &#947;&#948; CAR T cells represent an attractive, off-the-shelf platform, but their persistence and potency within the solid tumor TME require enhancement.
+To advance scalable and effective solid tumor therapies, we pursued a data-driven strategy to optimize &#947;&#948; T cell biology while increasing TME resilience. Owing to limited knowledge of &#947;&#948; T cell functional states in antitumor response, we implemented an empirical approach integrating genome-scale discovery and AI-driven analytics to uncover pathways governing &#947;&#948; CAR T function.
+We conducted a genome-wide overexpression screen to identify reprogramming genes that protect CAR T cells from adenosine, TGF-&#946;, immunosuppressive macrophages, and regulatory T cells while improving persistence. Among 12,000 genes screened, 51 candidates conferred protection against three or more suppressive mechanisms. Lymphotoxin beta receptor (LT&#946;R)&#8212;a TNF superfamily receptor not normally expressed in T cells&#8212;emerged as the top hit, reprogramming T cells into highly proliferative, persistent, and multifunctional states, as confirmed by bulk and single-cell RNA-seq.
+In high-stress assays, LT&#946;R expression conferred broad resistance to immunosuppression, including complete abrogation of Treg-mediated inhibition. In &#947;&#948; CAR T cells, LT&#946;R induced an &#945;&#946;-like effector program characterized by enhanced cytotoxicity, persistence, and cytokine modulation. scRNA-seq revealed new mechanisms of &#947;&#948; CAR T exhaustion and effector differentiation distinct from &#945;&#946; CAR T cells. In vivo, LT&#946;R-armored &#945;&#946; and &#947;&#948; CAR T cells targeting CLDN6 mediated complete, durable regressions in an aggressive ovarian cancer model where controls were ineffective.
+Finally, we established a GMP-compatible manufacturing process tailored to &#947;&#948; T cell biology, producing highly pure, potent cells suitable for multi-patient allogeneic use. Together, this work defines a comprehensive next-generation engineering and manufacturing framework that overcomes &#947;&#948; CAR T cell limitations and enables durable activity in solid tumors.

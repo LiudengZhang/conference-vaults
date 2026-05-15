@@ -1,0 +1,15 @@
+# Generation of a distal lung cancer organoid model using oncogenic ret-expressing induced pluripotent stem cells
+
+**Poster #**: 3413
+**Session**: In Vitro Models 1: 2D and 3D
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Jinwook Hwang1, Christophe Desterke2, Paul Marcoux1, Mohamed Amin Bani3, Frank Griscelli1, Annelise Bennaceur Griscelli1, Ali  G.  Turhan1
+
+1INSERM U1310, Villejuif, France,2Universite Paris Saclay, INSERM U1310, Villejuif, France,3Gustave Roussy Cancer Center, Villejuif, France
+
+---
+
+3D-lung organoids generated from normal iPSCs represent a powerful tool to study human lung development and disease. The tyrosine kinase receptor RET is altered by genetic fusions in a subset non-small cell lung cancers (NSCLC). To determine if we can generate lung cancer organoids in this context, we used two iPSC lines harboring RET with oncogenic M918T and C634Y mutations and evaluated their ability to give rose to distal lung organoid structures. NKX2-1+ lung progenitor cells (LPC) were generated after 14 days of culture followed by air-liquid interface cultures giving rise to alveolar structures by day +38. These cells expressed alveolar differentiation markers (such as SFTPC) as well as PD-L1, TTF-1, MUC1, and CK5/6. Transplantation of day+14 LPCs into NOD/SCID mice generated tumors in RET-expressing organoids only whose immunostaining also revealed presence of bronchial structures, ciliated cells, goblet cells and the well-established squamous cell carcinoma marker p40. Single-cell RNA sequencing analyses revealed the presence of fetal neuroendocrine cells, goblet cells as well as alveolar type 2 cells. This single cell RNAseq signature allowed to determine the major genes involved with response or resistance to Selpercatinib, the major inhibitor targeting RET-altered lung cancers.
+Significance : These findings show for the first time to our knowledge that iPSC-derived distal lung organoids with oncogenic RET overexpression can recapitulate the characteristics of RET-Driven non-small cell lung cancer (NSCLC). This experimental tool has significant potential as a preclinical model for identifying new therapeutic targets in RET-inhibitor-refractory lung cancers.

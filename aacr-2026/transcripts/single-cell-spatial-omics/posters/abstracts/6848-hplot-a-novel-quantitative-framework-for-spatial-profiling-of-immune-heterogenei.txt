@@ -1,0 +1,19 @@
+# HPlot: A novel quantitative framework for spatial profiling of Immune heterogeneity in tumor microenvironments
+
+**Poster #**: 6848
+**Session**: Mathematical Modeling and Statistical Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Chao Hui Huang1, Jadwiga Renata Bienkowska2, Diane Fernandez1, Sara Beth Linker1, Xinmeng Jasmine Mu2, Robbin Nameki2, Jennifer Kinong1, Michelle Saul1, Aakash Sur3, Mehmet Tekman1, Alexander Trageser1, Wenjing Yang1, Daniel Chawla1, Greg Szeto3, Arne Schmidt4, Alberto M. Gonzalo5, Srishti Munjal Mehta5, Rosemarie Krupar4, Nina Kozar-Gillan4, Sophie Laturnus6, Cornelius Böhm4, Marija Pezer4, Gloria H.Y. Lin1, Darlan Conterno Minussi1, Keith Ching1, Thomas Powles7, Craig Davis8
+
+1Pfizer Inc., San Diego, CA,2Pfizer, Inc., San Diego, CA,3Pfizer Inc., Bothell, CA,4Aignostics, Berlin, Germany,5Aignoistics, Berlin, Germany,6AIgnoistics, Berlin, Germany,7Barts Cancer Centre, London, United Kingdom,8Sage Healthcare Insights, Albany, NY
+
+---
+
+Spatial organization of immune and tumor cells plays a critical role in disease progression and therapeutic response. Existing spatial analysis methods often treat tissue regions as uniform compartments and fail to quantify how immune composition and functional states change across tumor boundaries. This limits the ability to detect spatial biomarkers associated with treatment outcomes.
+We developed H-Plot, a quantitative framework for profiling spatial immune heterogeneity with high resolution. The method is compatible with whole-slide imaging and modern single-cell spatial biology platforms. H-Plot integrates three components:
+(1) Cell prediction and classification using machine-learning-based single-cell image analysis or spatial transcriptomics-derived cell subtyping to generate a high-fidelity cellular map;
+(2) Cell-function enrichment analysis to identify biologically meaningful structures such as tumor regions, lymphoid aggregates, and tertiary lymphoid structures (TLS) through localized functional program detection; and
+(3) Cell spatial profiling, which measures spatial relationships and computes layer-wise distances from biological structure boundaries (e.g., tumor margins) to capture spatial gradients across the tumor-immune interface.
+Applying H-Plot to the ABACUS bladder cancer dataset revealed that treatment responders exhibited higher lymphocyte enrichment adjacent to tumor borders and smoother immune-layer transitions, whereas non-responders showed shallow or fragmented infiltration. In the TEMPUS mCRPC cohort, reduced pre-treatment lymphocyte proximity and weaker enrichment layers were associated with poorer clinical outcomes and aligned with RNA-based immune signatures and histological assessments.H-Plot provides a reproducible, interpretable, and visualization-ready framework for quantifying tumor-immune spatial heterogeneity. By converting complex spatial arrangements into layer-wise quantitative profiles and intuitive visualizations, H-Plot enables systematic comparison across patients, treatments, and tumor types. This framework supports spatial biomarker discovery and offers a scalable tool for translational oncology research.

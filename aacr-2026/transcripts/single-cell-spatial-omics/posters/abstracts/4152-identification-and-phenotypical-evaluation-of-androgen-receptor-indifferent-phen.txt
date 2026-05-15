@@ -1,0 +1,17 @@
+# Identification and phenotypical evaluation of androgen receptor indifferent phenotype in treatment-na&#239;ve primary prostate cancer cases
+
+**Poster #**: 4152
+**Session**: Digital Pathology 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Tessa Tolson1, Beatrice Knudsen2, Wei Zhang3, Mason Hovinga2, Chance Walker2, Galaxy Yang4, Erika Egal3, Yosep Chong5, Michael Freeman4, Yi Qiao1
+
+1Department of Biomedical Informatics, University of Utah, Salt Lake City, UT,2Department of Pathology, University of Utah, Salt Lake City, UT,3Huntsman Cancer Institute, Salt Lake City, UT,4Cedars Sinai Health System, Los Angeles, CA,5The Catholic University of Korea Uijeongbu St. Mary's Hospital, Uijeongbu, Korea, Republic of
+
+---
+
+INTRODUCTION: High-grade, locally advanced primary prostate cancer (PC) carries an increased risk of metastatic progression. The Androgen Receptor indifferent (ARi) phenotype is characterized by low PSA expression despite high expression of AR and has been noted in CRPC where it is considered to be induced by treatment. We sought to examine primary, treatment-na&#239;ve PC cases for evidence of ARi.
+METHODS: We applied digital pathology and multiplexed, single-cell resolution tissue staining techniques to a locally advanced PC patient cohort with 27 patients and computational RNA expression analysis to the TCGA prostate cancer dataset (TCGA-PRAD). Thus, we first quantify AR and PSA protein expression levels in cells and then identify tissue regions with >30% AR+ cells and <30% PSA+ cells as ARi cases. The PC regions we analyzed include seminal vesicle invasion (SV), lymph node metastasis (LN), extracapsular extension (ECE), perineural invasion (PNI), cribriform (CRIB), and non-cribriform (HGNC). For computational analysis of the TCGA bulk RNA sequencing data, we stratify patients according to high AR / low PSA (ARi-cohort) and high AR / high PSA (AR responsive, or ARr-cohort) and perform differential expression and gene set enrichment analysis accordingly.
+RESULTS: Pathologically, we identified ARi phenotype in one or more tissue samples from 5 out of 27 patients. ARi is more frequent in LN compared to SV; and within the prostate, HGNC exhibited more ARi than CRIB. Computational analysis of the TCGA-PRAD cohort (n=500) revealed that ARi patients, compared to AR-responsive patients, are enriched in epithelial-mesenchymal transition (EMT), stem-like, and ONECUT2-induced gene signatures. Moreover, we demonstrate that ARi phenotype is strongly associated with the Prostate Cancer Subtype 1 (PCS1) and PAM50 Basal subtype, consistent with the aggressiveness of the disease.
+CONCLUSION: We identified the ARi phenotype in two cohorts of primary PC patients using both tissue staining with single cell resolution and computational analysis of bulk RNA expression. We further characterized this phenotype using published gene signatures and determined its relationship to PCS and PAM50 subtypes. Furthermore, we propose that the presence of the ARi phenotype can be assessed quickly by clinical immunohistochemistry with AR and PSA antibodies followed by quantification of positive ARi cells (as defined by a high AR:PSA ratio). Moving forward, we will perform single cell RNA expression analysis on the cohort we performed tissue staining to further validate the presence and behavior of ARi phenotype in primary PC, expand into other cohorts, as well as evaluate treatment strategies likely to elicit a response in these cells according to their transcriptomic phenotypes.

@@ -1,0 +1,14 @@
+# Induction of epidermal like differentiation irreversibly limits the invasive and metastatic potential of basal like breast cancer cells
+
+**Poster #**: 4765
+**Session**: Oncogenic Transcription Factors and Cancer Programs
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Justin Hui1, Andrea  E.  Doak1, Nicole Rhoads1, Ruijin Yang1, Jimin Park1, Cory  L.  Simpson2, Manu Setty1, Kevin J. Cheung1
+
+1Fred Hutchinson Cancer Center, Seattle, WA,2University of Washington, Seattle, WA
+
+---
+
+Triple-negative breast cancer (TNBC) exhibits the worst overall survival compared to other breast cancer subtypes and has the most limited treatment options. Molecularly, most TNBCs are classified as basal-like and are associated with aggressive metastasis and drug resistance.A major hurdle in the development of effective therapeutics is tumor cell state and phenotypic plasticity that confer fitness advantages for growth, therapeutic resistance, and invasion. In this study, we sought to identify transcription factors that regulate basal-like plasticity for collective invasion. Using mouse mammary tumor organoids and time course single-cell RNA sequencing, we show that transcription factor KLF4 is a potent suppressor of basal-like invasion plasticity.Unexpectedly, we observed that KLF4 overexpression potently induced a molecular program recapitulating the classical differentiation of basal epidermal cells processively toward a biologically dead cornified outer skin layer. Overexpression of KLF4 induced hallmark markers of epidermal differentiation such as keratin 10, desmosomal cadherins, loricrin, and multicellular features of maturing epidermis, including cell piling, keratinization, and increased desmosomes, all putative anti-invasive features. Induction of epidermal differentiation, specifically in basal but not mesenchymal or luminal breast tumor cells, resulted in terminal differentiation in vitro and irreversible loss of colony-forming potential, indicative of tumor subtype-specific vulnerability. In vivo, KLF4 potently suppressed metastatic outgrowth of human basal TNBC in an intracardiac metastasis assay. In human breast tumors, we observed 50% of tumors expressed KLF4 RNA yet lacked KLF4 protein. Mechanistically, we show that basal-like TNBCs actively degrade KLF4protein to limit epidermal differentiation, which was overcome by proteasome inhibitors. In sum, these data uncover epidermal differentiation as a latent plasticity switch of highly metastatic basal-like breast cancer cells, making them irreversibly more cohesive, and point to KLF4protein stabilization as a therapeutic strategy.

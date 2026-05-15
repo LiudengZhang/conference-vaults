@@ -1,0 +1,14 @@
+# Single-cell characterization of tumor niches driving liver metastasis in colorectal cancer
+
+**Poster #**: 6157
+**Session**: Metastatic Niches and Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Jinho Jang1, Yoojeong Seo1, Kyung Pil Ko1, Jie Zhang1, Sohee Jun1, Jae-Il Park2
+
+1UT MD Anderson Cancer Center, Houston, TX,2Asst. Professor, Exp. Radiation Oncology, UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Metastasis has been linked to the tumor microenvironment, but the cellular interaction networks that organize metastatic niches in microsatellite-stable colorectal cancer are not fully characterized. We performed single-cell RNA sequencing of colon normal tissue, primary colorectal tumors, liver metastases, and matched liver normal tissue to define microenvironmental remodeling with a focus on T-cell and fibroblast compartments. Tumor-associated fibroblasts showed broad upregulation of collagen genes, enrichment of apical junction and surface-related pathways, increased communication among fibroblast subsets, and the emergence of metastasis-associated fibroblast populations. In parallel, liver metastases exhibited depletion of CD8+ T cells and NK cells compared with liver normal tissue, accumulation of regulatory T cells and CD8+ exhausted T cells and strengthened fibroblast-CD8+ T-cell interactions. Ligand-receptor analysis revealed CLEC signaling between fibroblasts and T cells across multiple conditions, with selectively enhanced CLEC-mediated interactions in liver metastases compared with liver normal tissue. Galectin-mediated communication was restricted to tumor settings and, while broadly distributed across fibroblast clusters in primary tumors, became selectively intensified within a specific fibroblast subset in liver metastases. Fibroblasts in liver metastases also preferentially engaged CD8+ exhausted T cells through NRXN signaling. Together, these data delineate fibroblast-centered, site-specific signaling circuits that shape immune composition and function during metastatic progression and nominate fibroblast-T-cell communication hubs as candidate targets for modulating the tumor niche in microsatellite-stable colorectal cancer.

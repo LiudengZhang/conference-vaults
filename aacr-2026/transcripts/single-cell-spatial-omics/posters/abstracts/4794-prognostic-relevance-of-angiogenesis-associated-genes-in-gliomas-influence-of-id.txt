@@ -1,0 +1,18 @@
+# Prognostic relevance of angiogenesis-associated genes in gliomas: Influence of idh/1p19q status and opportunities for antiangiogenic immunotherapy strategies
+
+**Poster #**: 4794
+**Session**: Angiogenesis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Pijush Das1, Kevin A. Camphausen2, Uma Shankavaram2
+
+1National Cancer Institute, National Institutes of Health (NIH), Bethesda, MD,2National Cancer Institute, Bethesda, MD
+
+---
+
+Background: Angiogenesis, the formation of new blood vessels, is central to glioma progression and supports tumor growth and invasion. Early identification of aggressive biology in lower-grade gliomas (LGG) is essential for guiding treatment decisions. We developed an immune-oriented angiogenesis gene signature that characterizes aggressive tumor phenotypes in LGG and glioblastoma (GBM). The study also evaluates its association with key glioma biomarkers, including IDH mutations and 1p/19q co-deletions, and assesses its prognostic relevance across both tumor types.
+Objective: To develop and validate an immune-oriented angiogenesis gene signature that identifies aggressive glioma biology, predicts patient prognosis in LGG and GBM, and evaluates its relationship with IDH mutation and 1p/19q co-deletion status.
+Methods: We analyzed LGG and GBM samples from The Cancer Genome Atlas (TCGA). Immune infiltration levels were estimated using EPIC, and samples were classified into high and low infiltration groups. Differentially expressed genes between these groups were identified, followed by Weighted Gene Co-expression Network Analysis (WGCNA) to cluster co-expressed genes into modules. Fisher&#8217;s exact test was used to assess enrichment of WGCNA module genes within the Hallmark Angiogenesis gene set, prioritizing overlapping genes. Associations with IDH status, 1p/19q co-deletion, and patient survival were evaluated using Cox regression, Kaplan-Meier analysis, and time-dependent ROC curves. Validation was performed in the Chinese Glioma Genome Atlas (CGGA) and two single-cell datasets (pLGG: GSE222850; GBM: GSE138794).
+Results: The derived immune-oriented angiogenesis signature was significantly associated with IDH mutation and 1p/19q subtypes (Adj. p &#8804; 0.05) and strongly predicted patient outcomes. Higher signature expression correlated with poorer survival and remained independently prognostic in multivariate analyses (e.g., TCGA LGG p = 3.28&#215;10&#8315;&#8311;; CGGA LGG p = 1.08&#215;10&#8315;&#8312;). The signature showed strong predictive accuracy in time-dependent ROC analyses (TCGA LGG AUCs: 1-year 0.959, 3-year 0.873, 5-year 0.812). Gene expression patterns observed in LGG showed a progressive trend consistent with certain GBM subgroups. In single-cell datasets, most genes showed significant differential expression between high and low immune infiltration groups (Adj. p &#8804; 0.05).
+Conclusion: We identified and validated an immune-oriented angiogenesis gene signature that integrates genetic, molecular, and clinical features across gliomas. The signature demonstrates strong prognostic value in both LGG and GBM and reflects increasing angiogenic activity along glioma progression. This gene set may serve as a practical tool for patient risk stratification and offers potential targets for future therapeutic strategies.

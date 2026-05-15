@@ -1,0 +1,14 @@
+# QL535: A novel CD2-costimulating PSMA-targeted T-cell engager with dose-responsive efficacy in PDX models and a favorable GLP toxicology profile in NHP
+
+**Poster #**: 5592
+**Session**: T Cell Engagers 2 / Antibody-Drug Conjugates 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Xiao Liu
+
+QLSF Biotherapeutics, South San Francisco, CA
+
+---
+
+Prostate cancer remains a major cause of cancer mortality, highlighting the need for better targeted immunotherapies. Prostate-specific membrane antigen is highly expressed in malignant prostate tissue, confirmed by immunohistochemistry in 77 patients. Earlier T-cell engagers show limited activity in solid tumors, prompting designs incorporating co-stimulation. Single-cell RNA sequencing of 2,170 tumor-infiltrating lymphocytes from 14 metastatic castration-resistant prostate cancer patients showed broader and higher CD2 expression than CD28, especially in CD8-positive T cells, supporting CD2 as an accessible co-stimulatory axis.QL535 is a trispecific PSMA &#215; CD3 &#215; CD2 T-cell engager engineered to provide optimized CD3 activation and CD2-mediated co-stimulation. In vitro, QL535 enhanced PSMA-dependent cytotoxicity compared to CD2-deficient controls and matched the potency of CD28-based trispecifics while reducing secretion of IL-6, TNF&#945;, IFN-&#947;, and IL-8. Repeated-stimulation assays using patient peripheral blood mononuclear cells demonstrated preserved cytolytic activity and reduced exhaustion relative to CD28-based trispecifics and clinical benchmark analog.In vivo, QL535 produced clear dose-responsive tumor regression in prostate cancer patient-derived xenograft models. Good Laboratory Practice toxicology studies demonstrated favorable tolerability. Intravenous dosing from 1 to 10 mg/kg resulted in dose-dependent exposure. Cytokines increased transiently after the first dose, accompanied by reversible decreases in monocytes and lymphocytes and transient elevations in neutrophils and C-reactive protein. Circulating T cells declined at 24 hours and returned to baseline by Day 7. QL535 was overall well tolerated in non-human primates, with pharmacodynamic changes consistent with T-cell engager activity. These findings demonstrate that QL535 delivers potent PSMA-targeted cytotoxicity, sustains function under exhaustion-inducing conditions, drives dose-responsive antitumor activity in patient-derived xenograft models, and exhibits a favorable safety and pharmacology profile, supporting advancement toward clinical evaluation in PSMA-positive prostate cancer.

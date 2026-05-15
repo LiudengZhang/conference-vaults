@@ -1,0 +1,418 @@
+site_name: Conference Vaults
+site_description: Per-conference vaults for biomedical, bioinformatics, and AI/ML meetings — built dossiers, day digests, themes, and program-notes templates. Successor to conference-corpus.
+repo_url: https://github.com/LiudengZhang/conference-vaults
+repo_name: LiudengZhang/conference-vaults
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+extra_css:
+  - stylesheets/tabulator.min.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/tabulator.min.js
+  - javascripts/posters.js
+  - javascripts/tools-table.js
+  - https://hypothes.is/embed.js
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - 2026 Timeline: timeline.md
+  - AACR 2026:
+    - Overview: conferences/aacr-2026/index.md
+    - Agentic AI:
+      - Overview: conferences/aacr-2026/topics/agentic-ai/index.md
+      - Landscape: conferences/aacr-2026/topics/agentic-ai/landscape.md
+      - Synthesis — AT02 vs corpus: conferences/aacr-2026/topics/agentic-ai/synthesis-at02-vs-corpus.md
+    - Single-Cell & Spatial Omics:
+      - Overview: conferences/aacr-2026/topics/single-cell-spatial-omics/index.md
+      - Landscape: conferences/aacr-2026/topics/single-cell-spatial-omics/landscape.md
+      - Synthesis — spatial eating scRNA: conferences/aacr-2026/topics/single-cell-spatial-omics/synthesis-spatial-eating-sc.md
+    - Virtual Cells:
+      - Overview: conferences/aacr-2026/topics/virtual-cells/index.md
+      - Landscape: conferences/aacr-2026/topics/virtual-cells/landscape.md
+      - Synthesis — ED03 vs corpus: conferences/aacr-2026/topics/virtual-cells/synthesis-ed03-vs-corpus.md
+    - Bioinfo / Comp Bio / AI Methods:
+      - Overview: conferences/aacr-2026/topics/bioinfo-tools/index.md
+      - Landscape: conferences/aacr-2026/topics/bioinfo-tools/landscape.md
+      - Synthesis — FM pathology traction: conferences/aacr-2026/topics/bioinfo-tools/synthesis-fm-pathology-traction.md
+      - Tools:
+        - Index: conferences/aacr-2026/topics/bioinfo-tools/tools/index.md
+        - CHIEF: conferences/aacr-2026/topics/bioinfo-tools/tools/chief.md
+        - Prov-GigaPath: conferences/aacr-2026/topics/bioinfo-tools/tools/prov-gigapath.md
+        - UNI / UNI2: conferences/aacr-2026/topics/bioinfo-tools/tools/uni.md
+        - Geneformer: conferences/aacr-2026/topics/bioinfo-tools/tools/geneformer.md
+        - scGPT: conferences/aacr-2026/topics/bioinfo-tools/tools/scgpt.md
+        - Cell2Location: conferences/aacr-2026/topics/bioinfo-tools/tools/cell2location.md
+    - Clinical Trials:
+      - Overview: conferences/aacr-2026/topics/clinical-trials/index.md
+      - Landscape: conferences/aacr-2026/topics/clinical-trials/landscape.md
+      - Synthesis — trial-design methodology: conferences/aacr-2026/topics/clinical-trials/synthesis-trial-design-methodology.md
+    - All AACR sessions: conferences/aacr-2026/sessions/index.md
+  - Nextflow Summit 2026:
+    - Overview: conferences/nextflow-2026/index.md
+    - Themes & takeaways: conferences/nextflow-2026/themes.md
+    - Digests:
+      - Day 1 (AM): conferences/nextflow-2026/digest/day-1-am.md
+      - Day 1 (PM): conferences/nextflow-2026/digest/day-1-pm.md
+      - Day 2: conferences/nextflow-2026/digest/day-2.md
+    - Raw transcripts:
+      - All sessions: conferences/nextflow-2026/sessions/index.md
+      - Day 1 (AM): conferences/nextflow-2026/sessions/2026-04-30-nextflow-summit-day-1-am.md
+      - Day 1 (PM): conferences/nextflow-2026/sessions/2026-04-30-nextflow-summit-day-1-pm.md
+      - Day 2: conferences/nextflow-2026/sessions/2026-05-01-nextflow-summit-day-2.md
+  - JPM 2026:
+    - Overview: conferences/jpm-2026/index.md
+    - Themes & takeaways: conferences/jpm-2026/themes.md
+    - Digests:
+      - Day 1 (Mon): conferences/jpm-2026/digest/day-1.md
+      - Day 2 (Tue): conferences/jpm-2026/digest/day-2.md
+      - Day 3 (Wed): conferences/jpm-2026/digest/day-3.md
+      - Day 4 (Thu): conferences/jpm-2026/digest/day-4.md
+  - EuroBioC 2025 (pilot):
+    - Overview: conferences/eurobioc-2025/index.md
+    - Themes & takeaways: conferences/eurobioc-2025/themes.md
+    - Day digests:
+      - Day 1 (Wed Sep 17): conferences/eurobioc-2025/digest/day-1.md
+      - Day 2 (Thu Sep 18): conferences/eurobioc-2025/digest/day-2.md
+      - Day 3 (Fri Sep 19): conferences/eurobioc-2025/digest/day-3.md
+    - Keynotes:
+      - Vince Carey (Day 1) — 25 years of Bioconductor: conferences/eurobioc-2025/keynotes/carey.md
+      - Helena Crowell (Day 1) — whole-transcriptome imaging: conferences/eurobioc-2025/keynotes/crowell.md
+      - Susan Holmes (Day 1) — latent variables: conferences/eurobioc-2025/keynotes/holmes.md
+      - James Sharpe (Day 2) — C3PO optical positioning: conferences/eurobioc-2025/keynotes/sharpe.md
+      - Noelia Ferruz (Day 2) — protein design with LMs: conferences/eurobioc-2025/keynotes/ferruz.md
+      - Jacques Serizay (Day 3) — community-driven software: conferences/eurobioc-2025/keynotes/serizay.md
+    - Tools:
+      - Index: conferences/eurobioc-2025/tools/index.md
+      - notame: conferences/eurobioc-2025/tools/notame.md
+      - Metabonaut: conferences/eurobioc-2025/tools/metabonaut.md
+      - omicsGMF: conferences/eurobioc-2025/tools/omicsgmf.md
+      - miaTime: conferences/eurobioc-2025/tools/miatime.md
+      - SpectriPy: conferences/eurobioc-2025/tools/spectripy.md
+      - RCX: conferences/eurobioc-2025/tools/rcx.md
+      - scp-distributional: conferences/eurobioc-2025/tools/scp-distributional.md
+      - MIRit: conferences/eurobioc-2025/tools/mirit.md
+      - DeeDeeExperiment: conferences/eurobioc-2025/tools/deedeeexperiment.md
+      - edgeR: conferences/eurobioc-2025/tools/edger.md
+      - MOSClip: conferences/eurobioc-2025/tools/mosclip.md
+      - Rega: conferences/eurobioc-2025/tools/rega.md
+      - footprintR: conferences/eurobioc-2025/tools/footprintr.md
+      - decemedip: conferences/eurobioc-2025/tools/decemedip.md
+      - ATAC-seq bias correction: conferences/eurobioc-2025/tools/atacseq-biascorrection.md
+      - SpatialData: conferences/eurobioc-2025/tools/spatialdata.md
+      - DESpace: conferences/eurobioc-2025/tools/despace.md
+      - spatialFDA: conferences/eurobioc-2025/tools/spatialfda.md
+      - consICA: conferences/eurobioc-2025/tools/consica.md
+      - barbieQ: conferences/eurobioc-2025/tools/barbieq.md
+      - HistoImagePlot: conferences/eurobioc-2025/tools/histoimageplot.md
+      - OSTA: conferences/eurobioc-2025/tools/osta.md
+      - mia: conferences/eurobioc-2025/tools/mia.md
+      - msqrob2: conferences/eurobioc-2025/tools/msqrob2.md
+      - Workshop Platform: conferences/eurobioc-2025/tools/workshop-platform.md
+      - iSEE: conferences/eurobioc-2025/tools/isee.md
+  - GBCC 2025:
+    - Overview: conferences/gbcc-2025/index.md
+    - Themes & takeaways: conferences/gbcc-2025/themes.md
+    - Day digests:
+      - Day 2 (Tue Jun 24): conferences/gbcc-2025/digest/day-2.md
+      - Day 3 (Wed Jun 25): conferences/gbcc-2025/digest/day-3.md
+      - Day 4 (Thu Jun 26): conferences/gbcc-2025/digest/day-4.md
+    - Keynotes:
+      - Sergei Kosakovsky Pond (Day 2) — interactive analytics: conferences/gbcc-2025/keynotes/pond.md
+      - Charlotte Soneson (Day 3) — classes to community: conferences/gbcc-2025/keynotes/soneson.md
+      - Jason Williams (Day 4) — Conquest of Abundance: conferences/gbcc-2025/keynotes/williams.md
+    - Program notes (research): conferences/gbcc-2025/program-notes.md
+    - Tools:
+      - Index: conferences/gbcc-2025/tools/index.md
+      - GAIA: conferences/gbcc-2025/tools/gaia.md
+      - GalaxyMCP: conferences/gbcc-2025/tools/galaxymcp.md
+      - AnVIL: conferences/gbcc-2025/tools/anvil.md
+      - torch: conferences/gbcc-2025/tools/torch.md
+      - Galaxy-ML2: conferences/gbcc-2025/tools/galaxy-ml2.md
+      - NOVA: conferences/gbcc-2025/tools/nova.md
+      - TPV Broker: conferences/gbcc-2025/tools/tpv-broker.md
+      - gINTomics: conferences/gbcc-2025/tools/gintomics.md
+      - RAIDS: conferences/gbcc-2025/tools/raids.md
+      - signifinder: conferences/gbcc-2025/tools/signifinder.md
+      - SEMPLR: conferences/gbcc-2025/tools/semplr.md
+      - Meta-iPep: conferences/gbcc-2025/tools/meta-ipep.md
+      - HiFi-MAG: conferences/gbcc-2025/tools/hifi-mag.md
+      - bsseq: conferences/gbcc-2025/tools/bsseq.md
+      - SynExtend: conferences/gbcc-2025/tools/synextend.md
+      - SeqArray: conferences/gbcc-2025/tools/seqarray.md
+      - Voyager: conferences/gbcc-2025/tools/voyager.md
+      - splicelogic: conferences/gbcc-2025/tools/splicelogic.md
+      - atena: conferences/gbcc-2025/tools/atena.md
+      - iscream: conferences/gbcc-2025/tools/iscream.md
+      - KRSA: conferences/gbcc-2025/tools/krsa.md
+      - sosta: conferences/gbcc-2025/tools/sosta.md
+      - IWC: conferences/gbcc-2025/tools/iwc.md
+      - spatialLIBD: conferences/gbcc-2025/tools/spatiallibd.md
+      - mia: conferences/gbcc-2025/tools/mia.md
+      - Tidyomics: conferences/gbcc-2025/tools/tidyomics.md
+      - bioc-to-galaxy: conferences/gbcc-2025/tools/bioc-to-galaxy.md
+      - plyxp: conferences/gbcc-2025/tools/plyxp.md
+      - mitology: conferences/gbcc-2025/tools/mitology.md
+      - FAIR-EASE: conferences/gbcc-2025/tools/fair-ease.md
+      - ipd: conferences/gbcc-2025/tools/ipd.md
+      - GSVA→Galaxy: conferences/gbcc-2025/tools/gsva-galaxy.md
+  - AGBT 2026:
+    - Overview: conferences/agbt-2026/index.md
+    - Program notes (research): conferences/agbt-2026/program-notes.md
+    - Launches:
+      - Index: conferences/agbt-2026/launches/index.md
+      - Axelios 1 (Roche): conferences/agbt-2026/launches/roche-axelios-1.md
+      - VITARI (Element): conferences/agbt-2026/launches/element-vitari.md
+      - UG200 / UG200 Ultra (Ultima): conferences/agbt-2026/launches/ultima-ug200.md
+      - DNBSEQ-T7+ (Complete): conferences/agbt-2026/launches/complete-dnbseq-t7-plus.md
+      - TruPath (Illumina): conferences/agbt-2026/launches/illumina-trupath.md
+      - Q70 duplex kits (Illumina): conferences/agbt-2026/launches/illumina-q70-duplex.md
+      - CiFi (PacBio): conferences/agbt-2026/launches/pacbio-cifi.md
+      - SPRQ-Hq (PacBio): conferences/agbt-2026/launches/pacbio-sprq-hq.md
+      - PureTarget (PacBio): conferences/agbt-2026/launches/pacbio-puretarget.md
+      - PromethION cfDNA/cfRNA (ONT): conferences/agbt-2026/launches/ont-promethion-cf-multiomic.md
+      - G4X (Singular): conferences/agbt-2026/launches/singular-g4x.md
+      - Xenium RNA+Protein (10x): conferences/agbt-2026/launches/10x-xenium-rna-protein.md
+      - Atera (10x): conferences/agbt-2026/launches/10x-atera.md
+      - CellScape (Bruker): conferences/agbt-2026/launches/bruker-cellscape.md
+      - PaintScape (Bruker): conferences/agbt-2026/launches/bruker-paintscape.md
+      - CosMx mouse WT (Bruker): conferences/agbt-2026/launches/bruker-cosmx-mouse-wt.md
+      - MERSCOPE Ultra (Vizgen): conferences/agbt-2026/launches/vizgen-merscope-ultra.md
+      - Pyxa (Stellaromics): conferences/agbt-2026/launches/stellaromics-pyxa.md
+      - Rhapsody (Waters): conferences/agbt-2026/launches/waters-rhapsody.md
+      - Concerto (Codetta): conferences/agbt-2026/launches/codetta-concerto.md
+      - CellCage (Cellanome): conferences/agbt-2026/launches/cellanome-cellcage.md
+      - mcPCR (Syndex): conferences/agbt-2026/launches/syndex-mcpcr.md
+      - Callisto (Volta): conferences/agbt-2026/launches/volta-callisto.md
+  - RECOMB 2026 (scaffold):
+    - Overview: conferences/recomb-2026/index.md
+    - Program notes (research): conferences/recomb-2026/program-notes.md
+    - Tools (template): conferences/recomb-2026/tools/index.md
+  - ASCO 2026 (scaffold):
+    - Overview: conferences/asco-2026/index.md
+    - Program notes (research): conferences/asco-2026/program-notes.md
+    - Trials (template): conferences/asco-2026/trials/index.md
+  - ISMB 2026 (scaffold):
+    - Overview: conferences/ismb-2026/index.md
+    - Program notes (research): conferences/ismb-2026/program-notes.md
+    - Tools (template): conferences/ismb-2026/tools/index.md
+  - ESMO 2026 (scaffold):
+    - Overview: conferences/esmo-2026/index.md
+    - Program notes (research): conferences/esmo-2026/program-notes.md
+    - Trials (template): conferences/esmo-2026/trials/index.md
+  - SITC 2026 (scaffold):
+    - Overview: conferences/sitc-2026/index.md
+    - Program notes (research): conferences/sitc-2026/program-notes.md
+    - Trials (template): conferences/sitc-2026/trials/index.md
+    - Tools (template): conferences/sitc-2026/tools/index.md
+  - RSNA 2026 (scaffold):
+    - Overview: conferences/rsna-2026/index.md
+    - Program notes (research): conferences/rsna-2026/program-notes.md
+    - Tools (template): conferences/rsna-2026/tools/index.md
+  - ASH 2026 (scaffold):
+    - Overview: conferences/ash-2026/index.md
+    - Program notes (research): conferences/ash-2026/program-notes.md
+    - Trials (template): conferences/ash-2026/trials/index.md
+  - NeurIPS 2026 (light scaffold):
+    - Overview: conferences/neurips-2026/index.md
+    - Program notes (research): conferences/neurips-2026/program-notes.md
+    - Tools (template, filtered): conferences/neurips-2026/tools/index.md
+  - ICML 2026 (light scaffold):
+    - Overview: conferences/icml-2026/index.md
+    - Program notes (research): conferences/icml-2026/program-notes.md
+    - Tools (template, filtered): conferences/icml-2026/tools/index.md
+  - MICCAI 2026 (scaffold):
+    - Overview: conferences/miccai-2026/index.md
+    - Program notes (research): conferences/miccai-2026/program-notes.md
+    - Tools (template): conferences/miccai-2026/tools/index.md
+  - ASHG 2026 (scaffold):
+    - Overview: conferences/ashg-2026/index.md
+    - Program notes (research): conferences/ashg-2026/program-notes.md
+    - Talks (template): conferences/ashg-2026/talks/index.md
+  - CSHL BDS 2026 (scaffold):
+    - Overview: conferences/cshl-bds-2026/index.md
+    - Program notes (research): conferences/cshl-bds-2026/program-notes.md
+    - Tools (template): conferences/cshl-bds-2026/tools/index.md
+  - SABCS 2026 (scaffold):
+    - Overview: conferences/sabcs-2026/index.md
+    - Program notes (research): conferences/sabcs-2026/program-notes.md
+    - Trials (template): conferences/sabcs-2026/trials/index.md
+  - ASCO GI 2026 (post-meeting, built):
+    - Overview: conferences/asco-gi-2026/index.md
+    - Program notes (research): conferences/asco-gi-2026/program-notes.md
+    - Trials:
+      - Index: conferences/asco-gi-2026/trials/index.md
+      - HERIZON-GEA-01 (zani+chemo HER2+ G/GEJ): conferences/asco-gi-2026/trials/herizon-gea-01.md
+      - BREAKWATER cohort 3 (BRAF mCRC): conferences/asco-gi-2026/trials/breakwater-cohort3.md
+      - Daraxonrasib + zoldonrasib PDAC: conferences/asco-gi-2026/trials/daraxonrasib-zoldonrasib-pdac.md
+      - REFOCUS lirafugratinib (FGFR2 CCA): conferences/asco-gi-2026/trials/refocus-lirafugratinib.md
+      - KEYNOTE-937 (adjuvant pembro HCC — negative): conferences/asco-gi-2026/trials/keynote-937.md
+      - MSS-CRC novel classes synthesis: conferences/asco-gi-2026/trials/asco-gi-mss-crc-novel.md
+  - ASCO GU 2026 (post-meeting, built):
+    - Overview: conferences/asco-gu-2026/index.md
+    - Program notes (research): conferences/asco-gu-2026/program-notes.md
+    - Trials:
+      - Index: conferences/asco-gu-2026/trials/index.md
+      - KEYNOTE-B15 / EV-304 (MIBC): conferences/asco-gu-2026/trials/keynote-b15-ev304.md
+      - LITESPARK-022 (adjuvant ccRCC): conferences/asco-gu-2026/trials/litespark-022.md
+      - PEACE-3 (mCRPC enza+Ra-223): conferences/asco-gu-2026/trials/peace-3.md
+      - PSMAaddition (1L mHSPC): conferences/asco-gu-2026/trials/psmaaddition.md
+      - CAPItello-281 (PTEN mHSPC): conferences/asco-gu-2026/trials/capitello-281.md
+      - IMvigor011 ctDNA-guided MIBC: conferences/asco-gu-2026/trials/asco-gu-rlt-bladder-emerging.md
+  - ICLR 2026 (post-meeting, built):
+    - Overview: conferences/iclr-2026/index.md
+    - Program notes (research): conferences/iclr-2026/program-notes.md
+    - Tools:
+      - Index: conferences/iclr-2026/tools/index.md
+      - sc-Arena (virtual-cell benchmark): conferences/iclr-2026/tools/sc-arena.md
+      - MedAgentGym (biomedical reasoning gym): conferences/iclr-2026/tools/medagentgym.md
+      - Generative Virtual Cells (Gen²): conferences/iclr-2026/tools/generative-virtual-cells.md
+      - Proteina Complexa (atomistic binder design): conferences/iclr-2026/tools/proteina-complexa.md
+      - sc-FM Perturbation Adapter: conferences/iclr-2026/tools/sc-fm-perturbation-adapter.md
+      - MMedAgent-RL (multi-agent medical reasoning): conferences/iclr-2026/tools/mmedagent-rl.md
+      - Genomic ICL in Evo2: conferences/iclr-2026/tools/genomic-icl-evo2.md
+      - TEA (de novo protein design): conferences/iclr-2026/tools/tea-de-novo-protein.md
+  - CVPR 2026 (scaffold):
+    - Overview: conferences/cvpr-2026/index.md
+    - Program notes (research): conferences/cvpr-2026/program-notes.md
+    - Tools (template, filtered): conferences/cvpr-2026/tools/index.md
+  - EHA 2026 (scaffold):
+    - Overview: conferences/eha-2026/index.md
+    - Program notes (research): conferences/eha-2026/program-notes.md
+    - Trials (template): conferences/eha-2026/trials/index.md
+  - ECCB 2026 (scaffold):
+    - Overview: conferences/eccb-2026/index.md
+    - Program notes (research): conferences/eccb-2026/program-notes.md
+    - Tools (template): conferences/eccb-2026/tools/index.md
+  - ASCB 2026 (scaffold):
+    - Overview: conferences/ascb-2026/index.md
+    - Program notes (research): conferences/ascb-2026/program-notes.md
+    - Talks (template): conferences/ascb-2026/talks/index.md
+  - AGBT-PM 2026 (scaffold):
+    - Overview: conferences/agbt-pm-2026/index.md
+    - Program notes (research): conferences/agbt-pm-2026/program-notes.md
+    - Trials (template): conferences/agbt-pm-2026/trials/index.md
+  - AACR Pancreatic 2026 (scaffold):
+    - Overview: conferences/aacr-pancreatic-2026/index.md
+    - Program notes (research): conferences/aacr-pancreatic-2026/program-notes.md
+    - Talks (template): conferences/aacr-pancreatic-2026/talks/index.md
+  - AACR Brain Tumors 2026 (post-meeting, built):
+    - Overview: conferences/aacr-brain-tumors-2026/index.md
+    - Program notes (research): conferences/aacr-brain-tumors-2026/program-notes.md
+    - Talks:
+      - Index: conferences/aacr-brain-tumors-2026/talks/index.md
+      - UPenn ICV bivalent CAR-T (GBM): conferences/aacr-brain-tumors-2026/talks/upenn-icv-bivalent-cart.md
+      - City of Hope IL-13Rα2 / chlorotoxin CAR-T: conferences/aacr-brain-tumors-2026/talks/city-of-hope-il13ra2-cart.md
+      - Monje GD2 CAR-T (DIPG/DMG): conferences/aacr-brain-tumors-2026/talks/monje-gd2-cart-dipg.md
+      - Vorasidenib post-INDIGO: conferences/aacr-brain-tumors-2026/talks/vorasidenib-post-indigo.md
+      - DKFZ IDH-mutant vaccine: conferences/aacr-brain-tumors-2026/talks/dkfz-idh-vaccine.md
+      - Suva — glioma cell states (keynote): conferences/aacr-brain-tumors-2026/talks/suva-glioma-cell-states.md
+      - Parrinello — injury programs (keynote): conferences/aacr-brain-tumors-2026/talks/parrinello-injury-programs.md
+      - Neuroscience of gliomas + TAM (synthesis): conferences/aacr-brain-tumors-2026/talks/neuroscience-of-gliomas-tam.md
+  - ASTRO 2026 (scaffold):
+    - Overview: conferences/astro-2026/index.md
+    - Program notes (research): conferences/astro-2026/program-notes.md
+    - Trials (template): conferences/astro-2026/trials/index.md
+  - ACMG 2026 (post-meeting, built):
+    - Overview: conferences/acmg-2026/index.md
+    - Program notes (research): conferences/acmg-2026/program-notes.md
+    - Talks:
+      - Index: conferences/acmg-2026/talks/index.md
+      - Presidential Plenary — NBS expansion: conferences/acmg-2026/talks/presidential-plenary-nbs-expansion.md
+      - LLM ACMG/AMP reproducibility: conferences/acmg-2026/talks/llm-acmg-amp-reproducibility.md
+      - CHIP / mosaicism in cancer panels: conferences/acmg-2026/talks/chip-mosaicism-cancer-panels.md
+      - NIFS (non-invasive fetal sequencing): conferences/acmg-2026/talks/nifs-non-invasive-fetal-sequencing.md
+      - ACMG SF v3.3 — Secondary Findings: conferences/acmg-2026/talks/acmg-sf-v33-secondary-findings.md
+      - Platform 1 — Hereditary cancer + adult genetics: conferences/acmg-2026/talks/hereditary-cancer-adult-genetics.md
+      - Rimoin Award — John C. Carey: conferences/acmg-2026/talks/rimoin-award-carey.md
+  - SGO 2026 (post-meeting, built):
+    - Overview: conferences/sgo-2026/index.md
+    - Program notes (research): conferences/sgo-2026/program-notes.md
+    - Trials:
+      - Index: conferences/sgo-2026/trials/index.md
+      - ROSELLA (relacorilant + nab-pac, plat-resistant ovarian): conferences/sgo-2026/trials/rosella.md
+      - RUBY 4-yr OS (dostarlimab+chemo dMMR endometrial): conferences/sgo-2026/trials/ruby-4yr-os.md
+      - BLUESTAR (puxitatug B7-H4 ADC endometrial): conferences/sgo-2026/trials/bluestar-puxitatug.md
+      - Mirvetuximab + carbo maintenance (FRα+ PSOC): conferences/sgo-2026/trials/mirvetuximab-maintenance.md
+      - REJOICE-Ovarian01 (raludotatug CDH6 ADC): conferences/sgo-2026/trials/rejoice-ovarian01.md
+      - KEYNOTE-A18 mature OS (cervical): conferences/sgo-2026/trials/keynote-a18-mature.md
+      - NRG-GY019 (LGSOC — negative): conferences/sgo-2026/trials/nrg-gy019.md
+      - InnovaTV 205 Arm H (1L cervical): conferences/sgo-2026/trials/innovatv-205-arm-h.md
+  - ESHG 2026 (scaffold):
+    - Overview: conferences/eshg-2026/index.md
+    - Program notes (research): conferences/eshg-2026/program-notes.md
+    - Talks (template): conferences/eshg-2026/talks/index.md
+  - ISBI 2026 (post-meeting, built):
+    - Overview: conferences/isbi-2026/index.md
+    - Program notes (research): conferences/isbi-2026/program-notes.md
+    - Tools:
+      - Index: conferences/isbi-2026/tools/index.md
+      - Mahmood — pathology FM (keynote): conferences/isbi-2026/tools/mahmood-pathology-fm-keynote.md
+      - Golland — MRI/registration (keynote): conferences/isbi-2026/tools/golden-keynote.md
+      - van Ginneken — radiology AI (keynote): conferences/isbi-2026/tools/van-ginneken-keynote.md
+      - RIVA Cervical Cytology Challenge: conferences/isbi-2026/tools/riva-cervical-cytology-challenge.md
+      - WBCBench2026 (leukemia diagnosis): conferences/isbi-2026/tools/wbcbench2026.md
+      - MPI Low-Concentration Challenge: conferences/isbi-2026/tools/mpi-low-concentration-challenge.md
+      - FAIBI workshop (Wu MD Anderson): conferences/isbi-2026/tools/faibi-workshop.md
+      - Segmentation FMs synthesis: conferences/isbi-2026/tools/segmentation-foundation-models-isbi.md
+  - ECCV 2026 (scaffold):
+    - Overview: conferences/eccv-2026/index.md
+    - Program notes (research): conferences/eccv-2026/program-notes.md
+    - Tools (template, filtered): conferences/eccv-2026/tools/index.md
+  - KDD 2026 (scaffold):
+    - Overview: conferences/kdd-2026/index.md
+    - Program notes (research): conferences/kdd-2026/program-notes.md
+    - Tools (template, filtered): conferences/kdd-2026/tools/index.md
+  - Single Cell Genomics 2026 (scaffold):
+    - Overview: conferences/single-cell-genomics-2026/index.md
+    - Program notes (research): conferences/single-cell-genomics-2026/program-notes.md
+    - Tools (template): conferences/single-cell-genomics-2026/tools/index.md
+  - Notes:
+    - Extraction method: notes/extraction.md
+    - Caveats: notes/caveats.md

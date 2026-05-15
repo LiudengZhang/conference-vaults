@@ -1,0 +1,14 @@
+# Blockade of cell-ECM interaction with an oncolytic virus suppresses tumoral STING activation while inducing antitumor immunity
+
+**Poster #**: 7774
+**Session**: Immunomodulatory Agents and Interventions
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Upasana Sahu1, Matthew Mullarkey2, Kimberly Rivera Caraballo1, Sergie Bombin1, Adam Chadli1, Ravindra Kolhe3, James  M.  Markert4, Bangxing Hong1, Balveen Kaur1
+
+1Augusta University, Augusta, GA,2The University of Texas Health Science Center At Houston, Houston, TX,3Pathology, Medical College of Georgia, Augusta, GA,4University of Alabama at Birmingham (UAB), Birmingham, AL
+
+---
+
+Oncolytic HSV (oHSV) therapy is an emerging immunotherapeutic modality currently approved for melanoma in USA and EU and conditionally approved for recurrent brain tumors in Japan. Several clinical trials are investigating the utility of this approach in patients. To investigate ways to improve its therapeutic index, we analyzed the transcriptomic changes in patients with recurrent brain tumor pre and post CAN-3110 treatment (NCT03152318). Gene set enrichment analysis showed significant enrichment in the pathways of extracellular matrix (ECM) interactions and glycosaminoglycan (GAG) synthesis post virotherapy. CD44, a cell surface receptor, plays a crucial role in cell-cell and cell-ECM interactions. Apart from engaging with ECM components like hyaluronic acid (HA), collagens, fibronectin, osteopontin, matrix metalloproteinases (MMPs), etc., it also partners with several cell surface receptors like growth factor receptor family and integrins to guide cellular responses to ECM and growth factor stimulation. Here we investigated the role of CD44 signaling in regulation of both anti-viral innate immunity and anticancer adaptive immunity by creating an oHSV that encodes for the secreted extracellular portion of CD44 (OV-x44). Our results indicated that OV-x44 destabilized xCT and disrupted cellular redox homeostasis. Increased oxidative stress resulted in tumor selective STING carbonylation, and reduced TBK1 activation, thereby enhancing virus replication. On the contrary, single-cell RNA sequencing uncovered enhanced innate immune responses in immune cells with TLR7 driven activation in T cells in the tumor microenvironment (TME). To our knowledge, this is the first report to describe an oHSV that can inhibit innate intracellular anti-viral immunity in tumor cells and can also stimulate innate immune responses in the TME to guide antitumor immunity. Collectively, this study uncovers the significance of OV-x44 as a potent immune stimulating anticancer therapeutic.

@@ -1,0 +1,12 @@
+# Multiplex immunohistochemistry for immuno-oncology: A flexible approach to characterize the tumor microenvironment
+
+**Poster #**: 5494
+**Session**: Machine Learning for Image Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Elena Baranova1, Sabine Iglesias1, Amanda Finan-Marchi1, Manon Motte1, Renaud Burrer1, Rania Gaspo2, Marie Gerus-Durand31Cerba Research, Montpellier, France,2Cerba Research, Laval, QC, Canada,3Cerba Research Histalim, Montpellier, France
+
+---
+
+Background: In immuno-oncology (I/O), limited tissue availability underscores the need for precise characterization of the tumor microenvironment (TME). Comprehensive phenotyping of immune cell populations and novel biomarkers is critical for understanding pro- and anti-tumor dynamics and guiding immunotherapy strategies. Multiplex immunohistochemistry (IHC) offers a powerful approach to achieve this.Methods: Cerba Research developed multiplex IHC protocols targeting key I/O markers, including macrophage phenotypes, myeloid-derived suppressor cells, cytotoxic T-cell status, and regulatory T cells. Protocols were optimized using Leica Bond Rx and Roche Discovery Ultra platforms with Akoya Opals and Roche Chromogens for detection. Panels were applied to normal and tumor tissues from lung, colon, and pancreas. Fluorescent images were analyzed using an internally validated workflow without deconvolution. Quantification of single markers and phenotypes was performed on whole-slide images or regions of interest (ROI) selected by a pathologist using Halo® (Indica Labs).Results: Multiplex panels demonstrated versatility across multiple indications, enabling detailed comparisons of immune profiles between healthy and tumor tissues and across tumor types. Quantification of single-marker positivity and phenotypic combinations provided insights into spatial distribution of immune subsets within the TME. The study also evaluated benefits and limitations of ROI-based analysis versus whole-slide assessment.Conclusions: Multiplex IHC is a robust and flexible tool for immune profiling in solid tumors, offering comprehensive characterization of I/O-related targets and their spatial context. This approach supports deeper understanding of tumor-immune interactions and informs precision immunotherapy development.This text has been revised with the assistance of Microsoft Copilot to comply with the specified character limit.

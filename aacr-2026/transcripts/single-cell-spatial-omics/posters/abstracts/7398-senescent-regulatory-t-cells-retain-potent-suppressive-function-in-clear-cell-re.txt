@@ -1,0 +1,14 @@
+# Senescent regulatory T cells retain potent suppressive function in clear cell renal cell carcinoma
+
+**Poster #**: 7398
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Temitope Mary Ogunmola1, Myung-Chul Kim2, Zeng Jin1, Umasankar de3, Lina Cui4, Guangrong Zheng4, Ryan Kolb4, Weizhou Zhang4
+
+1University of Florida College of Medicine, Gainesville, FL,2Kyungpook National University, Daegu, Korea, Republic of,3Pharmacy, Sungkyunkwan University (SKKU), Suwon, Korea, Republic of,4University of Florida, Gainesville, FL
+
+---
+
+Clear cell renal cell carcinoma (ccRCC) is an aging-associated malignancy characterized by a highly immunosuppressive, immune-rich tumor microenvironment and variable response to immune checkpoint blockade. Regulatory T cells (Tregs) are dominant orchestrators of immune suppression in ccRCC, yet the functional consequences of cellular senescence in these cells remain unknown and are widely presumed to be impairing. Single-cell RNA sequencing of treatment-na&#239;ve human ccRCC tumors revealed a distinct tumor-infiltrating Treg (TI-Treg) subpopulation co-expressing classic senescence markers (p16^INK4a, p21), senescence-associated &#946;-galactosidase activity (SA-&#946;-gal), BCL-xL, and robust immunosuppressive effector programs. Contrary to the prevailing view that senescence attenuates Treg function, we hypothesized that senescent TI-Tregs retain potent suppressive capacity. To functionally characterize these senescent TI-Treg subsets, we used a novel activity-based fluorescent senescence probe that labels SA-&#946;-gal and employed p16-tdTomato reporter mice for the isolation of viable senescent TI-Tregs. Additionally, using an in vitro co-culture system in which na&#239;ve Tregs are driven into senescence by ccRCC cell-derived factors, suppression assays demonstrated that senescent Tregs maintain strong inhibitory activity against CD4+ T-cell proliferation, comparable to non-senescent Tregs. Concomitant RNA sequencing confirmed persistence of canonical immunosuppressive pathways and acquisition of a senescence-reinforced suppressive transcriptome. These findings challenge the assumptions that senescence Tregs are dysfunctional in cancer and establish senescent Tregs as critical contributors to immunosuppression in aging-associated ccRCC. This work unravels senescent TI-Tregs as therapeutic targets/vulnerabilities for their selective elimination to restore antitumor immunity.

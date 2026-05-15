@@ -1,0 +1,14 @@
+# Investigating the mechanisms underlying regulatory T cell dysfunction in ICI-induced colitis
+
+**Poster #**: 7757
+**Session**: Immune Response to Therapies
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Emily Schahrer, Paul Ngai, Mehdi Benjelloun Zahar, Christopher R. Weber, David Zemmour
+
+University of Chicago, Chicago, IL
+
+---
+
+Immune checkpoint inhibitors (ICIs) have revolutionized cancer therapy but can trigger immune-related adverse events such as colitis. The mechanisms driving these toxicities remain poorly understood. In this study, we analyzed colon biopsies from a patient cohort with ICI-induced colitis using integrated single-cell RNA sequencing and paired spatial transcriptomics and proteomics to define disease mechanisms and model human autoimmunity.Transcriptomic mapping revealed accumulation of proliferative cytotoxic T cells in the colon, suggesting failure of regulatory T cells (Tregs) to restrain effector responses. Tregs displayed upregulation of Th1- and IFN-response genes, including IL12RB2, IFI6, and CXCL9, distinguishing ICI colitis from patterns observed in Th17-driven inflammatory bowel disease.Within the CD8&#8314; T cell compartment, combined single-cell and TCR analyses identified tissue-resident memory (Trm) cells as key targets of ICIs driving colonic inflammation. Activated CD8+ Trm cells displayed a cytotoxic, IFN-&#947;-rich profile enriched for granzymes, chemokines, and effector transcriptional modules characteristic of human ICI colitis. Spatial mapping will confirm the co-localization of Trm cell activation, Treg dysfunction, and IFN-driven microenvironments within epithelial and mucosal niches.Together, these results define a pathogenic circuit in which Trm activation, Treg destabilization, and Th1-skewed inflammation converge to drive ICI-induced colitis. This work provides a mechanistic framework for understanding ICI-associated autoimmunity and may guide development of targeted therapeutic strategies that preserve antitumor immunity while limiting tissue toxicity.

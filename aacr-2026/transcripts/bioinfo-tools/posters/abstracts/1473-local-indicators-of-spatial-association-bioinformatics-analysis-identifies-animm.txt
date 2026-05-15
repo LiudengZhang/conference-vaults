@@ -1,0 +1,12 @@
+# Local indicators of spatial association bioinformatics analysis identifies animmunosuppressive zone at the liver tumor margin
+
+**Poster #**: 1473
+**Session**: Integrative Computational Approaches 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Yoshiki Nonaka1, Kanae Echizen1, Tomonori Kamiya1, Maho Tsuda1, Yoshimi Yukawa-Muto1, Hideki Fujii1, Ryo Takahashi2, Takahiro Kodama2, Naoko Ohtani11Osaka Metropolitan University, Osaka, Japan,2Osaka University, Suita, Japan
+
+---
+
+Immune checkpoint inhibitor therapy has shown effectiveness across several cancer types. However, immune checkpoint inhibitor therapy has limited efficacy for MASLD and MASH associated hepatocellular carcinoma, suggesting that the anti tumor immune response in the tumor microenvironment of MASLD and MASH associated hepatocellular carcinoma may differ from that in other cancers. Therefore, understanding the mechanisms behind MASLD and MASH hepatocellular carcinoma pathogenesis and identifying novel therapeutic targets is essential. Although immune checkpoint inhibitor monotherapy has shown limited efficacy, its combination with agents targeting cancer progression pathways may enhance anti tumor effects. In this study, to elucidate tumor promoting pathways in MASLD and MASH associated hepatocellular carcinoma, we aimed to comprehensively characterize the transcriptomic landscape of cancer cells and stromal cells within the tumor microenvironment. We performed single cell RNA sequencing on 63 samples from 45 hepatocellular carcinoma patients and 8 healthy donors, as well as spatial transcriptomics analysis on 6 samples from 5 patients with non viral hepatocellular carcinoma. Deconvolution analysis of the spatial transcriptomics data revealed that COL1A1 high cancer associated fibroblasts and TIMP1 high cancer associated fibroblasts were enriched at the inner margin of the tumor nodule. In this region, regulatory T cells, monocytes, and SPP1 high macrophages were predominantly co localized with cancer associated fibroblasts, which was determined by local indicators of spatial association analysis. These observations suggest that, in addition to histological wall thickening, the fibrotic tumor margin forms a functionally immunosuppressive niche in MASH associated hepatocellular carcinoma. In this presentation, we will highlight the distinct features of this fibrotic inner margin zone and discuss their therapeutic potential for MASLD and MASH associated hepatocellular carcinoma.

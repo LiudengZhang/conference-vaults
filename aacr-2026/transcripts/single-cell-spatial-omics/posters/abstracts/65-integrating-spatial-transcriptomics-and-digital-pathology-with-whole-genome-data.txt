@@ -1,0 +1,21 @@
+# Integrating spatial transcriptomics and digital pathology with whole-genome data from Genomics England to characterise the tumour and it's microenvironment in colorectal cancer
+
+**Poster #**: 65
+**Session**: Application of Bioinformatics to Cancer Biology 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Luke McNickle1, Assya Legrini1, Yoana Doncheva1, Mari-Claire McGuigan1, Ghazal Latifi1, Claire Kennedy Dietrich1, Molly McKenzie1, Phimmada Hatthakarnkul1, Tom Wright1, Leonor Patricia Schubert Santana1, Emma McCargow2, Cong Chen2, Henry  M.  Wood3, Jon Laye3, Gemma Hemmings3, Caroline Cartlidge3, Derek Magee4, Phil Quirke3, Joanne Edwards1, Nigel Jamieson1
+
+1School of Cancer Sciences, University of Glasgow, Glasgow, United Kingdom,2Genomics England Limited, London, United Kingdom,3Division of Pathology and Data Analytics, University of Leeds, Leeds, United Kingdom,4School of Computer Science, University of Leeds, Leeds, United Kingdom
+
+---
+
+Introductory Sentence:
+By combining spatial transcriptomics and digital pathology with whole-genome-sequenced samples from Genomics England&#8217;s 100,000 Genomes Project, we can directly link spatial gene expression patterns to genetic alterations and morphological features.
+Brief Description of Pertinent Experimental Procedures:
+We applied Bruker Spatial Biology&#8217;s CosMx&#8482; High Plex (6K) spatial transcriptomics platform to tissue microarray (TMA) cores derived from Genomics England colorectal cancer samples. H&#38;E-stained sections were reviewed by pathologists for morphological assessment and AI-based detection of lymphocytes and stroma. Across 65 TMA cores on three slides, we performed cell segmentation, gene expression quantification, and multi-step quality control. A total of 966,500 cells were detected pre-QC, with 935,262 high-quality cells retained post-QC for downstream analyses, including cell typing, pathway enrichment, spatial neighbourhood, and regulatory network inference. Integrative comparisons were made across MMR status, Klintrup inflammation, SARIFA (Stroma AReactive Invasion Front Areas) scoring, and the underlying mutational landscape from matched whole-genome sequencing data.
+Summary of New Unpublished Data:
+Our results demonstrate successful implementation of high-plex spatial transcriptomics on Genomics England tissue samples with high-quality pathology input. We observed distinct spatial and transcriptional signatures&#8212;at both gene and module levels&#8212;between MMR-proficient and MMR-deficient tumours, and across gradients of histopathological inflammation and SARIFA metrics. Integration of genomic variants revealed transcriptional programmes associated with cellular activity and phenotypic divergence. These data highlight the ability of spatially resolved transcriptomics to contextualise genomic alterations within the complex cellular landscape of the tumour microenvironment.
+Statement of the Conclusions:
+This study establishes the feasibility and analytical power of applying spatial transcriptomics to Genomics England&#8217;s whole-genome-characterised samples. Integrating spatial, histological, and genomic data provides new insight into immune-stromal dynamics and tumour heterogeneity. This approach demonstrates the potential for large-scale spatial multi-omic profiling across Genomics England cohorts, enabling deeper functional interpretation of genomic data and advancing the next generation of precision oncology research.

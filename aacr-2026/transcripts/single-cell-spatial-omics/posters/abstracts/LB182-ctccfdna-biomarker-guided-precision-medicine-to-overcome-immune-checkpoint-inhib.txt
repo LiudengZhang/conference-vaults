@@ -1,0 +1,17 @@
+# CTC/cfDNA biomarker-guided precision medicine to overcome immune checkpoint inhibitor resistance in hepatocellular carcinoma
+
+**Poster #**: LB182
+**Session**: Late-Breaking Research: Experimental and Molecular Therapeutics 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Yang Cui1, Alexandria Borges1, Meng Li2, Linda Sher1, Bangyan Stiles3, Dan  G.  Duda4, Anthony El-Khoueiry5, Keigo Machida1
+
+1University of Southern California Keck School of Medicine, Los Angeles, CA,2University of Southern California Norris Medical Library, Los Angeles, CA,3University of Southern California School of Pharmacy, Los Angeles, CA,4Houston Methodist Academic Institute, Houston, TX,5Keck School of Medicine of USC, Los Angeles, CA
+
+---
+
+Background/Aim: Immune checkpoint inhibitors (ICs) have improved survival outcomes in advanced hepatocellular carcinoma (HCC), but most HCC patients experience treatment resistance. Thus, we aimed to stratify HCC patients to target therapy-resistant TICs and identify responders through stemness mRNA profiling. Our second aim was to evaluate novel CTC signatures to predict treatment efficacy in response to standard anti-VEGFA+anti-PD-L1 antibody immunotherapy with cancer-driver-targeted chemotherapies.
+Methods: The Genome-wide CRISPR-Cas9 knockout (GeCKO) method was used to identify genes required for killing tumors expressing TP53, CTNNB1, and ARID2. To confirm the drug efficacy, we used CRISPR/Cas9-mediated driver gene knock-ins and knockouts combined with alcohol Western diet feeding to promote HCC development in a humanized FNRG (Fah-/-;Nod;Rag1-/-;Il2rgc-/-) mouse harboring ARID1A mutation or TP53 mutation in a PDX Model. Drugs paired with ICI were tested for treatment of HCC in genetically defined PDX and these humanized FNRG mice.
+Results: The GeCKO screening in ARID1A-mutant HCC showed that a combination of a Polycomb repressive complex 2 (PRC2) inhibitor, anti-PD-L1, and anti-VEGFA treatment reduced tumor size and extended survival in ARID1A-mutant PDX mice with humanized immune systems. The most successful combination from these approaches, comprising anti-EZH1/2 inhibitor + anti-PD-L1 + anti-VEGFA for ARID1A mutant HCC or all-trans retinoic acid (ATRA) and an HDAC inhibitor, along with anti-PD-L1, for TP53 mutant HCC-eradicated human patient-derived liver TICs grown ex vivo from tumors generated in mice. Single-cell RNA-seq analyses of patient HCCs identified 16 upregulated gene signatures with statistical significance. Principal component analyses provide a clear separation between Barcelona Clinic Liver Cancer (BCLC) stage categories A (benign) and B (malignant). Alcohol Western diet-associated TLR4-AKT signal leads to EZH2 phosphorylation of PRC2 complex to switch from histone suppressive activity to transactivation. The most effective targeting of PRC2 components, which eliminated human patient-derived liver TICs grown ex vivo in mice.
+Conclusions: Our innovative approach, using precision medicine to identify patients most likely to respond to specific drug combinations targeting TICs and cancer-driver mutations, will revolutionize cancer treatment by addressing a core component of therapeutic resistance in HCC.

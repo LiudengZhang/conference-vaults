@@ -1,0 +1,14 @@
+# Memory B cell Responses Ignite Anti-Tumor Immunity by Activating CD8+ T cell Cytotoxicity
+
+**Poster #**: 6595
+**Session**: Inflammation, Immunity, and Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Kendrick Nguyen1, Monika Quackenbush1, Georgia Lattanzi1, Daniel Hollern1, Sara Basbous1, Haley Rodriguez1, Daniela Boassa1, Jingting Yu1, Asona Lui2, April Wehner2, Aatish Thennavan3, Peter H. Watson4
+
+1Salk Institute, La Jolla, CA,2UC San Diego, La Jolla, CA,3UT MD Anderson Cancer Center, Houston, TX,4Chief Physician, BC Cancer Agency Vancouver Island Ctr., Victoria, BC, Canada
+
+---
+
+Immunotherapies aimed at leveraging T cell responses have revolutionized cancer care with demonstrated effectiveness in a myriad of cancers. Yet, challenges remain in patients with solid tumors such as triple negative breast cancer (TNBC) that fail to generate and sustain a durable anti-tumor T cell mediated immune response. Numerous reports demonstrate opportunities to improve upon these treatments by leveraging B cells. Tumor infiltrating B cells have been shown to predict responses to chemo and immunotherapies across cancers. B cells within the tumor have also been experimentally shown to be intimately involved in controlling anti-tumor immune responses and markers for their interactions with T cells have immense prognostic value. However, experimental demonstration of how B cell responses to tumors are regulated and function remains a key gap in research, which limits leveraging B cells in future immunotherapies. Thus, we sought to understand the role of tumor antigen and activation signals of B cell-driven anti-tumor immunity. Our study has revealed that activating the CD40 pathway of B cells in the presence of neo-antigen can directly incite a robust non-germinal center (GC) memory B cell response that is able to facilitate powerful anti-tumor immune responses in mouse models of TNBC. Leveraging single cell sequencing in combination with microscopy approaches we have found that these memory B cells can participate in an anti-tumor response by promoting CD8+ T cell infiltration, organization, and stimulation of CD8+ T cells to promote tumor cell killing. These findings advance the canonical models of B cell and CD8+ T cell regulation along with function. Furthermore, these results showcases novel routes to leverage B cells to promote anti-tumor immunity.

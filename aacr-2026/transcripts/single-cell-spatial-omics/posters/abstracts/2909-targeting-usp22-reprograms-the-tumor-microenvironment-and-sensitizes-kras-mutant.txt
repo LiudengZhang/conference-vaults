@@ -1,0 +1,16 @@
+# Targeting USP22 reprograms the tumor microenvironment and sensitizes KRAS-mutant, TP53-Null Lung cancer to immunotherapy
+
+**Poster #**: 2909
+**Session**: Modifiers of Inflammation and the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Keqiang Zhang, Ching Ouyang, jinhui Wang, Wendong Li, Walter Tsark, Yuanyuan Gao, Mingxiao Yang, Aimin Li, Colt Egelston, Crystal Marconett, Dan Raz
+
+City of Hope National Medical Center, Duarte, CA
+
+---
+
+Ubiquitin-specific peptidase 22 (USP22), a deubiquitinase and component of the &#8220;Death-By-Cancer&#8221; gene signature, is overexpressed in many cancers and associated with recurrence, therapy resistance, and poor prognosis. Although USP22 has recently been implicated in tumor immune evasion, its role in KRAS-driven lung cancer and antitumor immunity has remained unclear. Here, we aimed to investigate the role of USP22 in tumor progression and antitumor immunity in KRAS-driven lung cancer.
+By immunohistochemistry analysis, USP22 was found to be highly expressed in nearly all human KRAS-mutant lung adenocarcinomas and in early-stage KRAS-induced mouse tumors, where its strong correlation with the proliferation marker Ki67 highlights USP22 as a potentially important mediator of KRAS-driven tumor biology and reinforces its promise as a therapeutic target.
+To define USP22&#8217;s role in tumor progression and immune regulation, we generated a conditional Usp22 knockout (Usp22-KO) model in KRASG12D; Tp53-/- (KP) mice. Usp22 loss significantly suppressed tumor growth, prolonged survival, and promoted tumor differentiation, accompanied by reduced KRAS pathway activity and partial restoration of p53 signaling. Spatial transcriptomics, RNA sequencing, and multiplex immunofluorescence revealed that Usp22 deletion reprogrammed the tumor microenvironment by decreasing CD206+ M2 macrophages, reducing TGF-&#946;1 levels, limiting angiogenesis, increasing CD8+ T cell infiltration, and diminishing FOXP3+ regulatory T cells. Mechanistically, Usp22-KO altered gene expression and protein stability, reducing c-Myc, PD-L1, TGF-&#946;1, and secreted protein acidic and rich in cysteine (SPARC); disruption of the TGF-&#946;1-SPARC axis led to a marked depletion of immunosuppressive PD-L1^+ M2 macrophages. Functionally, Usp22 deletion substantially enhanced sensitivity to anti-PD-L1 immune checkpoint blockade in KP lung cancer. Collectively, these findings reveal USP22 as a critical driver of tumor progression and immunosuppression in KRAS-mutant, TP53-deficient lung cancer and demonstrate that targeting USP22 has significant therapeutic potential for overcoming resistance to immune checkpoint inhibitor therapy.

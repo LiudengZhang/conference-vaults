@@ -1,0 +1,17 @@
+# Mechanical remodeling of the tumor microenvironment promotes breast cancer and neutrophil-ssociated immunosuppression through ERG3-ALOX5 signaling
+
+**Poster #**: 759
+**Session**: Physicochemical Modulation of Cancer Ecosystems: Mechanical Forces, Hypoxia, and Acidosis
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Lingpeng Tang1, Liangyu Wei2, Jinpeng Lu3, Haoxiang Zhang4, Songsong Wu1
+
+1Fujian Medical University, Fuzhou, China,2Fuzhou University School of Medicine, Fuzhou, China,3Shengli Clinical Medical College of Fujian Medical University, Fuzhou, China,4University of Kentucky, Lexington, KY
+
+---
+
+Background: Tumor extracellular matrix (ECM) stiffness is linked to breast cancer progression and immune evasion. The mechanisms by which mechanical signals influence tumor immune evasion through the immune microenvironment remain unclear. This study explores how ECM stiffness impacts the immune landscape and tumor progression via the &#8220;mechanical signal-matrix-neutrophil reprogramming-tumor immune escape&#8221; axis.
+Methods: ECM stiffness in breast cancer patients was assessed using ultrasound elastography, with correlation to prognosis. In preclinical models, a mouse xenograft and 3D cell cultures were used to investigate the effects of ECM stiffness on tumor growth and immune cell infiltration. Single-cell RNA sequencing (scRNA-seq) and multicolor immunofluorescence analyzed immune cell composition in varying stiffness microenvironments. The role of stromal mechanical signals in neutrophil chemotaxis was studied using Piezo1-Ca&#178;&#8314;-EGR3 pathway modulation through gene interference, Ca&#178;&#8314; signaling blockade, and ChIP-seq. The efficacy of combined EGR3 inhibition and PD-L1 therapy was evaluated in a mouse model.
+Results: Single-cell RNA sequencing revealed significant enrichment of tumor-associated neutrophils (TANs) and regulatory T cells (Tregs) in high-stiffness microenvironments, with a reduction in CD8&#8314; T cells. This remodeling was linked to upregulation of PD-L1, Arg1, and TGF-&#946;, suggesting immune escape. TANs in high-stiffness environments exhibited enhanced immunosuppressive traits, correlating with tumor immune evasion. Increased ECM stiffness elevated tumor cell histone acetylation via Piezo1-mediated Ca&#178;&#8314; influx, promoting EGR3 transcription. ChIP-seq analysis showed that EGR3 activates ALOX5, driving LTB4 synthesis and enhancing tumor cell chemotaxis toward TANs. The study reveals that ECM stiffness regulates neutrophil chemotaxis via the Piezo1-Ca&#178;&#8314;-EGR3-ALOX5-LTB4 pathway, promoting immune evasion. Functional assays demonstrated that inhibiting EGR3 or ALOX5/LTB4 impaired neutrophil chemotaxis and immune evasion. In a mouse model, combining PD-L1 therapy with inhibition of the EGR3 or ALOX5/LTB4 pathways significantly suppressed tumor growth.
+Conclusion: ECM stiffness promotes immune evasion in breast cancer via the Piezo1-Ca&#178;&#8314;-EGR3-ALOX5-LTB4 axis, creating an immunosuppressive microenvironment that drives tumor progression. These findings suggest new therapeutic targets for breast cancer immunotherapy.

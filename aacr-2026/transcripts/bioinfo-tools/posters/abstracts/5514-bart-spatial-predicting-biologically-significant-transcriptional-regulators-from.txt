@@ -1,0 +1,12 @@
+# BART-spatial: Predicting biologically significant transcriptional regulators from spatial omics data
+
+**Poster #**: 5514
+**Session**: New Software Tools for Data Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Jingyi Wang1, Hongpan Zhang1, Zhenjia Wang2, Chongzhi Zang11Department of Genome Sciences, University of Virginia, Charlottesville, VA,2Department of Genome Sciences, University of Virginia, CHARLOTTESVILLE, VA
+
+---
+
+Transcription regulators (TRs), including transcription factors and chromatin regulators, are essential for maintaining cell identity and directing cell fate decisions by activating or repressing lineage-specific gene expression program and integrating environmental signals with intrinsic regulatory networks. Identifying active TRs is critical for understanding transcriptional regulation in both normal physiology and diseases like cancer. Emerging spatial omics technologies, such as 10x Visium and Visium HD and spatial ATAC-seq, enable simultaneous profiling of genomic information and spatial location at near-single-cell resolution, providing unprecedented opportunities to study transcription activities in the tissue microenvironment. However, inferring functional TRs from spatial omics data remains challenging due to data sparsity, high dimensionality, and the complex nature of transcriptional regulation. Here we present BART-spatial (Binding Analysis for Regulation of Transcription for spatial omics data), a computational method for identifying functional TRs from spatially resolved transcriptomics or epigenomics data. BART-spatial integrates spatial variability and pseudo-temporal dynamics of molecular profiles to generate biologically informed predictions of TR activity. It leverages public TR binding profiles to enhance prediction accuracy, without relying on TR expression levels. Applied to multiple real spatial transcriptomics datasets across different biological systems and platforms, BART-spatial successfully identifies TRs with region- or stage-specific activities, outperforming existing tools. Moreover, BART-spatial also works for other spatial omics data such as spatial ATAC-seq, enabling cross-validation between transcriptomic and epigenomic layers. Implemented as an open-source package, BART-spatial provides a useful computational tool for decoding spatial omics data and offers new insights into transcriptional regulation in various biological systems.

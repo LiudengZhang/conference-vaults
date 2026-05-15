@@ -1,0 +1,12 @@
+# KH617 API manufacturing: A synthetic biology approach
+
+**Poster #**: LB033
+**Session**: Late-Breaking Research: Chemistry
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Yi Zhou1, Jiong-Qin Liu1, Cheng-Guo Gao1, Hao Luo1, Man-Xi Zhao2, Xiao Ke11Sichuan Honghe Biotechnology Co., Ltd., Chengdu, China,2Beijing Hongsheng Ruihe Biotechnology Co., Ltd., Beijing, China
+
+---
+
+KH617 is a first-in-class anti-tumor drug candidate for the treatment of glioma approved by FDA and NMPA. Sustainable sourcing of the key active ingredient (-)-β-elemene of high quality and purity was challenging. To overcome these limitations, we employed a synthetic biology approach to manufacture germacrene A, an immediate precursor of (-)-β-elemene, at high titers in yeast. By introducing heterologous germacrene synthase and iterative rewiring of indigenous mevalonate pathway, a germacrene A-producing yeast strain was obtained. Extensive optimization of fermentation parameters was performed using 3-L bioreactors. The final bioprocess resulted in a titer of 31 g/L,the highest reported value in yeast in the absence of in situ organic solvent extraction. Lastly, this bioprocess was validated using a cubic-meter industrial fermentor under GMP settings. The resulting products was of high quality and purity and met the requirements for clinical use. Recent completion of Phase I study in China demonstrated encouraging data of an expected mOS over 18 months in patients with recurrent glioblastoma. This work supports future clinical research of KH617 which is the only investigational plant derived drug under Phase II clinical trial empowered by synthetic biology.

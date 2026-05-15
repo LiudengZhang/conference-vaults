@@ -1,0 +1,12 @@
+# A circulating GPNMB-based multimodal model integrates tumor-immune crosstalk to predict immunotherapy response in esophageal cancer
+
+**Poster #**: 7724
+**Session**: Biomarkers Predictive of Therapeutic Benefit 6
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Liang Zhu1, Xiaoyuan Wang2, Guoyu Cheng1, Yancheng Lai1, Lan Lan1, Zhenghao Dong1, Zhixuan You1, Xinjie Chen1, Ziyi He1, Xinyi Xiao1, Lingxuan Zhu1, Rucheng Liu1, Shaosen Zhang1, Dongxin Lin1, Chen Wu1, Jiang Chang31Cancer Hospital Chinese Academy of Medical Sciences, Beijing, China,2Harbin Medical University Cancer Hospital, Harbin, China,3Department of Epidemiology and Biostatistics, Huazhong University of Science & Technology, Wuhan, China
+
+---
+
+Neoadjuvant immunotherapy improves outcomes in esophageal squamous cell carcinoma (ESCC), yet ~70% of patients fail to respond. Pretreatment biopsies and plasma thus provide critical opportunities for biomarker discovery. Here, we performed plasma proteomic profiling and identified soluble glycoprotein non-metastatic melanoma protein B (sGPNMB) as the most elevated circulating protein in non-responders. Mechanistically, tumor cell-derived sGPNMB suppressed CD8+ T cell receptor (TCR) signaling to induce functional exhaustion, with secretion being required for its immunosuppressive activity. Cancer-associated fibroblast-epithelial (CAF-Epi) niches promoted SOX2 upregulation in tumor cells, transcriptionally activating GPNMB expression. In humanized PDX models, plasma GPNMB levels predicted response to PD-1 blockade, and GPNMB inhibition synergised with therapy. Across retrospective cohorts and a prospective clinical trial, a multimodal model combining plasma GPNMB levels, CAF-Epi niche detection, and clinical-pathological features achieved robust predictive accuracy for immunotherapy response and survival. These findings establish a mechanistically grounded, spatial-circulating biomarker framework for precision immunotherapy in ESCC.

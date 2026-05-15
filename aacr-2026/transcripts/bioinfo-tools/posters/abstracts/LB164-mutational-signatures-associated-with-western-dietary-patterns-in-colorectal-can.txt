@@ -1,0 +1,12 @@
+# Mutational signatures associated with Western dietary patterns in colorectal cancer
+
+**Poster #**: LB164
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Mariya Kazachkova1, Thomas Cattiaux2, Ammal Abbasi1, Mathilde Meyenberg3, Joanna Loizou4, Michael  R.  Stratton5, Paul Brennan2, Ludmil  B.  Alexandrov11University of California San Diego, La Jolla, CA,2International Agency for Research on Cancer, Lyon, France,3University of Vienna, Vienna, Austria,4Institute of Cancer Research, London, United Kingdom,5Wellcome Sanger Institute, Cambridge, United Kingdom
+
+---
+
+A Western dietary pattern is a major risk factors for colorectal cancer (CRC), yet its mutational impact on the CRC genome remains unclear. We integrated whole-genome sequencing data, dietary metrics, patient surveys, and experimental models to link Western diet to specific mutational processes. Across 802 CRCs from 11 countries, national measures of meat and fat consumption correlated with increased activity of two signatures: SBS1, reflecting 5-methylcytosine deamination, and SBS18, associated with reactive oxygen species. The SBS18 association was independently validated in an external CRC cohort, and patient dietary surveys confirmed that higher processed meat intake was linked to elevated SBS1 and SBS18 activities. These two signatures accounted for the majority of APC driver mutations, and individuals reporting higher processed meat intake were more likely to harbor APC drivers. In a mouse model, high-fat feeding increased SBS1 and SBS18 relative activity in intestinal epithelial cells. Together, these convergent results suggest that Western diet consumption leaves a detectable mutational footprint in CRC.

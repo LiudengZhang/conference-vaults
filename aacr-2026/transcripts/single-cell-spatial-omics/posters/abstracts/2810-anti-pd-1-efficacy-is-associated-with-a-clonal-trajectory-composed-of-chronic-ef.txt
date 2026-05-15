@@ -1,0 +1,17 @@
+# Anti-PD-1 efficacy is associated with a clonal trajectory composed of chronic effectors with lymph node homing capacity
+
+**Poster #**: 2810
+**Session**: Immune Checkpoints
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Mingshuang Wang*1, Guanning Wang*2, Khushboo Patel2, Ajeya Nandi2, Timmy Lai2, Shira Rosenberg2, Zhoumu Xiang2, Stella Park2, Tara C. Mitchell2, Alexander C. Huang#2
+
+1Department of Neurosurgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA,2Division of Hematology/Oncology, Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA
+
+---
+
+Introduction: Immune checkpoint blockade (ICB), such as anti-CTLA-4 or anti-PD-1 (&#945;PD-1), drives distinct patterns of T cell differentiation that ultimately influence treatment efficacy. However, it has been challenging to identify and define distinct T cell differentiation states in humans. We apply a novel algorithm Clonotrace (Nancy Zhang, UPenn) to define differentiation trajectories by monitoring single clones across differentiation states after &#945;PD-1. We test the hypothesis that certain differentiation trajectories will have unique properties, including cell states and trafficking patterns, that will influence clinical efficacy.
+Methods: We performed single cell RNA and paired TCR sequencing on 132,898 CD8+ T cells from 36 stage III melanoma patients treated with neoadjuvant &#945;PD-1, including 12 patients with matched tumor, uninvolved regional lymph node, and blood samples. We applied Clonotrace to define differentiation trajectories by grouping clonotypes that have a similar transcriptional footprint across CD8 cell states. We then defined these differentiation trajectories in terms of cell state composition, antigen specificity, tissue distribution, gene regulation, and association with clinical outcomes.
+Results: We identified 10 distinct clonal trajectories that differentiate from na&#239;ve/stem-like CD8 T cell states to exhausted and/or effector CD8 T cell states. These trajectories largely separated into two sets of clones based on antigen specificity and the expression of pathways associated with chronic stimulation. Further examination of the antigen-specific clones identified one particular trajectory (Traj 5), that was associated with clinical response. Traj 5 included clones with a unique chronic effector cell state that was able to traffic between lymph node and tumor. In contrast, Traj 1 was composed of terminally exhausted CD8 clones that were tumor-resident and associated with &#945;PD-1 resistance.
+Conclusion: We identify a unique differentiation trajectory in patients that retains effector T cell differentiation in the setting of chronic stimulation. These chronic effectors retain the ability to traffic between lymph node and tumor and are associated with the efficacy of &#945;PD-1. These findings indicate maintaining trafficking ability is essential for the efficacy of ICB. In contrast, terminal differentiation results in CD8 T cells becoming &#8220;locked&#8221; in the tissue and terminally exhausted.

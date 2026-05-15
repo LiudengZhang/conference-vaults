@@ -1,0 +1,17 @@
+# Tertiary lymphoid structures induction predicts and enhances response to famitinib plus PD-L1 blockade in advanced thyroid cancer
+
+**Poster #**: 2435
+**Session**: Biomarkers Predictive of Therapeutic Benefit 3
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Wei Kou, Yue Che, Qiwu Zhao, Haoran Feng, Zhuoran Liu, Jie Kuang, Weihua Qiu
+
+Ruijin Hospital, Shanghai, China
+
+---
+
+Background: Therapeutic options for advanced thyroid cancer (TC) remain limited once standard treatments fail. In our phase II trial (NCT 06146985), the multi-target kinase inhibitor famitinib combined with the PD-L1 antibody adebrelimab showed early antitumor activity. However, the immunologic basis of this synergy, particularly the contribution of tertiary lymphoid structures (TLSs), remains unclear. To determine whether TLS induction underlies treatment sensitivity, we integrated histopathology, single-cell transcriptomics, and patient-derived organoid (PDO) assays.
+Methods: TLS density and maturity were evaluated by H&#38;E staining and multiplex immunofluorescence (mIHC). Pre- and on-treatment tumor biopsies underwent single-cell RNA-sequencing to define TLS-associated transcriptional features, including chemokine modules, lymphoid-organogenesis signatures, and T follicular helper (Tfh)-B-cell interaction pathways. PDOs were generated from fresh papillary thyroid cancer (PTC) tissues, and autologous CD3+ T cells and CD20+ B cells, the principal TLS-associated lymphocyte subsets, were isolated. PDO-TIL 3D co-culture assays assessed baseline immune killing, the response to famitinib plus PD-L1 blockade, TLS-pathway activation using CpG ODN with Mn2+, and the combination of TLS activation with drug treatment. Apoptosis, proliferation, and TLS-signaling molecules were quantified after 48-72 hours.
+Results: TLS density and the presence of mature TLSs strongly correlated with tumor shrinkage and successful surgical conversion. Single-cell analysis showed that TLS-positive tumors exhibited an immune-activated microenvironment enriched in Tfh cells, B cells/plasma cells, dendritic cells, and activated CD8+ cytotoxic T cells. TLS-associated transcriptional features, including CXCR5- and CXCR3-driven chemokine recruitment pathways, were robustly enhanced, whereas TLS-negative tumors were dominated by Tregs and suppressive myeloid cells. Functionally, CpG plus Mn2+ induced TLS-related signaling and markedly enhanced TIL-mediated killing. Activating TLS-pathway synergized with famitinib plus adebrelimab, producing the strongest apoptotic and antiproliferative effects, surpassing drug treatment alone. These findings demonstrate that TLS activation potentiates the efficacy of TKI-immunotherapy combination.
+Conclusions: Mechanistic evidence from this phase II study identifies TLS induction and maturation as key determinants of therapeutic response to famitinib plus adebrelimab. TLS enhances Tfh-B-cell interactions and cytotoxic T-cell activation, thereby increasing treatment sensitivity. TLS represents a mechanistic driver of response, a predictive biomarker, and an actionable immunologic target to sensitize advanced TC to TKI-immunotherapy combination.

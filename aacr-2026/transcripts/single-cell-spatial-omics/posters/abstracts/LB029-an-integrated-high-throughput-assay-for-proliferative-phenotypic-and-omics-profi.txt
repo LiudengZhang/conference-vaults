@@ -1,0 +1,14 @@
+# An integrated high-throughput assay for proliferative phenotypic and omics profiling of single tumor cells
+
+**Poster #**: LB029
+**Session**: Late-Breaking Research: Chemistry
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Shiska Raut1, Karoliina Stefanius1, Bryan Presley1, Digant  P.  Dave2
+
+1SingleCell Biotechnology, Dallas, TX,2University of Texas at Arlington, Arlington, TX
+
+---
+
+Measuring regenerative potential and resolving functional growth heterogeneity of cells remains challenging due to the lack of scalable single cell assays. We present a high throughput assay platform for quantifying phenotypic single cell proliferative potential and the corresponding omics states of retrieved single cells and colonies. The assay captures the fate of individual tumor cells spanning a continuum from cell death and dormant, to limited proliferation, to robust clonal expansion with 3D colony formation. The platform integrates high-density, low-adhesion microwell plates (standard 96-well format, with each well containing over 11, 000 microwells) with a machine learning-driven image analysis pipeline, enabling parallel tracking of tens and thousands of spatially confined single cells. Cells are seeded at controlled densities such that individual tumor cells stochastically occupy discrete microwells and can be longitudinally tracked over time. At defined assay endpoints, tumor cells representing distinct proliferative states are selectively recovered for downstream omics analysis. Assay performance and reproducibility were evaluated across thousands of microwells, supporting its robustness and suitability for routine high-content phenotypic and omics screening. Using three glioblastoma (GBM) cell lines with well characterized differences in clonogenic capacity, we demonstrate consistent single cell occupancy and highly reproducible fate distributions across multiple plate formats and imaging platforms. This integrated microscale assay provides a scalable and versatile approach for dissecting proliferative heterogeneity at single cell resolution, with applications in cancer biology, therapeutic response profiling, and functional single cell phenotyping. By resolving proliferative, limited-division, and dormant cell fates in a unified platform, this approach lays the foundation for next-generation proliferative phenotypic and omics profiling of single tumor cells.

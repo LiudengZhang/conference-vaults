@@ -1,0 +1,17 @@
+# Convergent FGFR-JAK signaling reprograms luminal identity and drives endocrine resistance in HR&#8314; breast cancer
+
+**Poster #**: 1786
+**Session**: Mechanisms of Drug Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Yucheng Zeng1, Ruixin Liu2, Xiaoyan Qiang1, Jean Fan1, Caixia Sun1, Hanlin Zeng2, Peng Peng1
+
+1TransThera Sciences (Nanjing), Inc., Nanjing, China,2Shanghai Institute of Precision Medicine, Shanghai, China
+
+---
+
+Endocrine therapy has substantially improved outcomes in hormone receptor-positive (HR&#8314;) breast cancer, yet resistance remains a major clinical challenge. Such resistance arises via two axes: spatially from tumor-intrinsic alterations or microenvironmental cues; temporally as de novo or acquired phenotypes. How these diverse drivers converge to reprogram cancer cell states remains poorly understood. Through single-cell transcriptomics of resistant HR&#8314; breast cancers, we uncovered a recurrent luminal-to-basal transition with ER/PR downregulation - plasticity that emerged in primary tumors and amplified in metastases, particularly malignant pleural effusions (MPE).
+Using serial drug selection and MPE coculture, we recapitulated both therapy-induced and microenvironment-driven resistance, both of which converged on FGFR and JAK pathways activation&#8212;a phenotype reversible by genetic knockdown or pharmacological inhibition of these pathways.
+Mechanistically, FGFR and JAK activation regulated transcription factors to repress luminal genes (ESR1, PGR) and conferred resistance. Tinengotinib (TT-00420), a first-in-class dual FGFR and JAK small molecular inhibitor, restored luminal identity and resensitized resistant models to endocrine therapy in vitro and in vivo. Thus, lineage plasticity unified intrinsic/extrinsic inputs in endocrine resistance, supporting dual FGFR-JAK blockade as a translational strategy.
+Planned trials of tinengotinib combined with endocrine therapy in advanced HR&#8314; breast cancer will assess its clinical potential, with results reported in due course.

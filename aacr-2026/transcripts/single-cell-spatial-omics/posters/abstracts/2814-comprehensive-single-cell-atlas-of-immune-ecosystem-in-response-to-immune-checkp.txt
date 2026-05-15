@@ -1,0 +1,14 @@
+# Comprehensive single-cell atlas of immune ecosystem in response to immune checkpoint blockade therapy
+
+**Poster #**: 2814
+**Session**: Immune Checkpoints
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Dayoung Lee1, Ji Yoon Lee1, Jiwon Kim1, You Jin Song2, Namsung Moon1, Juyoung Lee1, Harim Koo3, Jason K. Sa1
+
+1Korea University, Seoul, Korea, Republic of,2Korea Univ. Medical Center, Seoul,3National Cancer Center - Korea, Goyang, Korea, Republic of
+
+---
+
+Despite the clinical success of immune checkpoint blockade (ICB) in several malignancies, a majority of patients failed to achieve clinical response. A deeper understanding of the cellular and molecular mechanisms underlying ICB resistance is essential for advancing precision immunotherapy. In the present study, we analyzed the complex transcriptional profiles of 663,526 single cell data across eight different cancer types with clinical response to ICB therapy. Through integrative analysis, we delineated the transcriptional heterogeneity of exhausted CD8+ T cells and immunosuppressive macrophages and assessed their contribution to ICB treatment outcomes. Exhausted T cells demonstrated a wide spectrum of exhaustion states that stratified patients by clinical response. Notably, terminally exhausted T cells were particularly enriched in non-responders and exhibited high expressions of TIGIT, HAVCR2, and CTNNB1-driven WNT signaling activity, while responders were marked by activation of cytotoxic effectors and NF-&#954;B transcriptional regulators. Immunosuppressive macrophages were functionally associated with terminal T cell exhaustion via aberrant activation of CD137 signaling axis. Transcriptional regulatory network analysis further revealed key transcriptional factors and immune checkpoint molecules that are differentially expressed across all cell states, offering new therapeutic targets. Our study provides a comprehensive single-cell atlas of immune cell states predictive of ICB response, uncovering substantial cellular and transcriptional heterogeneity and crosstalk between exhausted T cells and macrophage populations. These findings present mechanistic insights into cellular programs that can be therapeutically modulated to overcome ICB resistance.

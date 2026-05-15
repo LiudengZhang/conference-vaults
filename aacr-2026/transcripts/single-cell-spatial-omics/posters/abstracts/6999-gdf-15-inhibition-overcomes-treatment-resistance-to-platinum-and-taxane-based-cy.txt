@@ -1,0 +1,17 @@
+# GDF-15 inhibition overcomes treatment resistance to platinum- and taxane-based cytotoxic chemoimmunotherapy
+
+**Poster #**: 6999
+**Session**: Tumor-induced Immune Suppression
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Neha Vashist1, Amelie Köhler1, Daniel Schätzlein1, Sabrina Genßler1, Katja Rungger2, Hubert Hackl2, Matthias Kist1, Sarah Lutzenberger1, Julia Weigandt1, José Medina-Echerverz1, Christine Schuberth-Wagner1, Thorsten Ross1
+
+1CatalYm GmbH, Planegg, Germany,2Institute of Bioinformatics, Medical University of Innsbruck, Innsbruck, Austria
+
+---
+
+Background: GDF-15 is a stress-induced cytokine that restricts CD8+ T cell infiltration, drives immunotherapy resistance, and mediates chemotherapy-induced nausea, emesis, anorexia, and cancer cachexia. Durable responses to GDF-15 blockade have been reported in PD-1-refractory NSCLC and UC, supporting its role as a clinically relevant mediator of immune escape. Because platinum agents and other DNA-damage-inducing therapies strongly upregulate GDF-15, we investigated whether therapy-induced GDF-15 limits the antitumor activity and tolerability of combined PD-1 blockade and cytotoxic chemotherapy.
+Methods: Human tumor cell lines were treated with platinum compounds, docetaxel, and a panel of DNA-damage inducers, DNA-damage-repair inhibitors, and cell-cycle and transcriptional stress-inducing agents, and GDF-15 secretion was quantified. Syngeneic MBT-2 and MC-38 models received cisplatin or docetaxel plus anti-PD-1, with or without a GDF-15-neutralizing antibody. Tumor growth, survival, body weight, serum GDF-15, intratumoral immune populations, and peripheral CD8+ T cell activation were analyzed by ELISA, flow cytometry, bulk RNA sequencing, and single-cell RNA sequencing.
+Results: A broad range of DNA-damage-inducing, DNA-damage-repair-inhibitory, and cell-cycle stress-inducing agents robustly induced GDF-15 in vitro. In vivo, cisplatin plus anti-PD-1 markedly increased systemic GDF-15 but yielded limited tumor control. Adding GDF-15 blockade substantially delayed tumor growth, extended survival, and fully prevented cisplatin-associated weight loss. Single-cell RNA sequencing demonstrated increased intratumoral CD8+ T cell infiltration. scRNA-seq and bulk RNA sequencing together showed enrichment of activation, co-stimulation, cytotoxicity, and TCR-signaling programs (Lck, Fyn, Zap70, Lat; Gzmb, Prf1; CCL5). Flow cytometry confirmed increased peripheral CD8+ T cell proliferation (Ki67+) and a higher proportion of activated effector CD8+ T cells, including increased PD-1 expression. Bulk RNA-seq revealed an M2-like macrophage signature (CD163, Chil3, Retnla, Marco, Rnase2a) in chemoimmunotherapy-treated tumors, and flow cytometry showed reduced cDC1 activation; both were reversed by GDF-15 blockade.
+Conclusions: These findings suggest that therapy-induced GDF-15 contributes to resistance to platinum- and taxane-based PD-1 combinations and may exacerbate treatment-related toxicity. Neutralizing GDF-15 restores antitumor CD8+ T cell immunity, reprograms suppressive myeloid states, and improves the overall activity and tolerability of combined PD-1 blockade and cytotoxic chemotherapy. GDF-15 inhibition therefore holds potential to enhance responses to first-line chemoimmunotherapy in tumors such as NSCLC and UC.

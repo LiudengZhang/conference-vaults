@@ -1,0 +1,17 @@
+# A single-cell atlas reveals a tumor microenvironment-dominated ecosystem in breast cancer brain metastasis
+
+**Poster #**: 6154
+**Session**: Metastatic Niches and Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Chuanbao Zhang1, Wang Jia2, Lei Xing1, Md Tauhidul Islam1
+
+1Stanford University, Stanford, CA,2BEIJING TIANTAN HOSPITAL, CAPITAL MEDICAL UNIVERSITY, Beijing, China
+
+---
+
+Purpose. Brain metastasis in breast cancer is a major cause of mortality, yet the cellular heterogeneity and dynamic evolution of the tumor microenvironment (TME) during metastatic progression remain poorly defined. The aim of this study was to elucidate the transcriptional and microenvironmental reprogramming that accompanies breast cancer metastasis to the brain.
+Experimental Design. We integrated single-cell RNA sequencing data from primary breast tumors, lymph node metastases, and brain metastases (n=65) to construct a comprehensive single-cell transcriptomic atlas. We performed Non-negative Matrix Factorization to identify malignant cell metaprograms and applied multi-layered analyses to assess genomic instability, subtype plasticity, and cell-cell communication within the TME. We further validated the results in bulk RNA sequencing data (N=1184).
+Results. Metastatic progression was associated with increased genomic instability and amplification of brain-metastasis-specific genes, including UBE2M, which correlated with poor prognosis. At single-cell resolution, we observed marked transcriptional plasticity of clinical subtypes, with ER&#8314; tumors frequently converting to more aggressive intrinsic subtypes in the brain. Ten malignant metaprograms were defined, with conserved inter-program interactions but sample-type-specific activity; notably, hypoxia and oxidative phosphorylation programs were enriched in brain metastases. The TME underwent profound remodeling, becoming depleted of stromal and immune infiltrates but developing a dense, autonomous intercellular signaling network dominated by myeloid and endothelial cells.
+Conclusions. This study delineates the co-evolution of tumor-intrinsic states and the TME during metastatic dissemination, revealing that the brain microenvironment becomes an independent signaling hub that supports colonization. These findings underscore the pivotal role of the TME in shaping metastatic adaptation and suggest new avenues for therapeutic intervention in advanced breast cancer.

@@ -1,0 +1,17 @@
+# Identifying new cell surface markers of T-cell reactivity through single cell transcriptomic analysis
+
+**Poster #**: 6718
+**Session**: Vaccines and Other Immunomodulatory Agents
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Abraham  A.  Hakim1, Lisa Kenney2, Nivedita Mohan Ratnam3, Jared J. Gartner4, Ian  S.  Goldlust5, Aarushi Bhasin6, Brian Bui6, Nicholas  D.  Klemen6, Steven A. Rosenberg3, Frank  J.  Lowery3
+
+1NIH-NCI, Bethesda, MD,2Laboratory of Integrative Cancer Immunology (LICI), Center for Cancer Research, Bethesda, MD,3National Cancer Institute, Bethesda, MD,4National Institutes for Health, Bethesda, MD,5Surgery Branch, NIH-NCI, Bethesda, MD,6Surgery Branch, National Cancer Institute, Bethesda, MD
+
+---
+
+Background: Adoptive transfer of selected tumor infiltrating lymphocytes (SEL-TIL)+ pembrolizumab has yielded clinical responses of 23.5% in a phases 2 trial.1 Following expansion in IL-2, TIL cultures are selected for treatment based on in vitro reactivity assays in which TIL are co-cultured with candidate autologous tumor targets, (peptides, tandem minigenes (TMGs), and autologous tumor organoid). Detection of neoantigen reactivity currently relies on 4-1BB, OX40, and interferon-&#947; (IFN-&#947;) upregulation.2 Clinical administration of more neoantigen reactive CD4+ TIL is associated with improved responses.1 However, there may be additional reactivity markers that would allow for detection of neoantigen relevant fragments and more diverse final treatment products in both CD4+ and CD8+ T-cells.
+Methods: Initial screening and selection of neoantigen reactive TIL completed using standard screening via upregulation of 4-1BB, and OX40 by flowcytometry and IFN-&#947; by ELISpot. These samples with known reactivity were then selected for transcriptomics. scRNA sequencing was performed using 10x Genomics Chromium platform on known tumor-reactive fragments to organoid and negative controls. Conditions were tracked with barcode hashing of TCRs. CITE-Seq, and TCR-seq were also used. Clustering and analysis completed using Seurat.
+Results: Upregulation of TNFRSF9 (4-1BB) and IFNG (IFN-&#947;) were found in a single cluster. An additional larger cluster was found expressing additional genes including TNFRSF18 (GITR). This activation of GITR, and other markers was not seen in negative control conditions. In additional validation samples, GITR was successfully observed by flow cytometry equal to or greater than 4-1BB when tested as a cell surface marker of activation for CD8 T-cells against autologous organoid.
+Conclusions: The methodology of using scRNA transcriptomic analysis is a successful and viable method for identifying new markers of upregulation. GITR is a potential marker of CD8+ T-cell tumor reactivity, however, it requires further validation in additional samples and evaluation of antitumor effects.

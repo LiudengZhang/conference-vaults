@@ -1,0 +1,14 @@
+# Single-cell spatial proteomics of 1200+ protein targets in tumor microenvironments from diverse cancers using GeoMx Discovery Proteome Atlas
+
+**Poster #**: 6664
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Terence  C.  Theisen, Alexa  E.  Lasley, Giang Ong, Megan Vandenberg, Brian Filanoski, Lori Hamanishi, Erin Piazza, Sayani Bhattacharjee, Courtney Anderson, Mirko Corselli, Prajan Divakar, Margaret  L.  Hoang, Joseph  M.  Beechem
+
+Research and Development, Bruker Spatial Biology, Seattle, WA
+
+---
+
+The tumor microenvironment (TME) is a heterogeneous landscape where immune cells interact with malignant cells to influence cancer progression and therapeutic response, but to date, dissecting the spatial proteomic signature of the TME has been limited by plex and resolution. Here we introduce the GeoMx&#174; Discovery Proteome Atlas (DPA), a high-plex antibody-based spatial proteomic assay, and use it to characterize, for the first time, the 1200+ plex spatial proteomes of hundreds of individually selected cells from more than 8 FFPE cancer samples. GeoMx DPA includes 130+ Post-Translational Modification-targeting antibodies, allowing for the interrogation of phosphorylation, glycosylation, and ubiquitination modifications missed by transcriptomics or other proteomic methods. We developed and optimized a protocol to collect Regions of Interest (ROIs) at single-cell resolution with segmentation strategies on the GeoMx&#174; Digital Spatial Profiler (DSP) platform (e.g., CD45+ leukocyte and CD3+ T cell markers). We mapped immune infiltration patterns and activation states within distinct tumor niches by comparing ROIs encompassing single cells and ROIs with hundreds of cells. Our analyses revealed tissue- and cancer-specific proteomic signatures, including differential expression of checkpoint molecules (PD-1, CTLA-4, LAG3), kinases, and inflammatory mediators. We examine the expression profiles of tumor infiltrating lymphocytes (T cells, B cells, and neutrophils) in different cancers and the dependency upon tumor spatial proximity. We also compare the single-cell proteomes from cancer tissues to single cell DPA data from more than 30 cell lines to identify protein targets differentially expressed based on cancer or cell line lineage. By integrating high-plex protein data with spatial segmentation strategies, we are providing the field with a critical tool to find more predictive biomarkers to drug response (e.g., PD-L1). The ability to resolve the spatial proteomic patterns of more than 1200 targets within tumor microenvironments, right down to the level of single cells, will enable deeper insights into cellular interactions and inform new approaches for patient treatment.

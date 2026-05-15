@@ -1,0 +1,22 @@
+# Cytotoxic T-cell signatures underlie therapeutic response to 177Lu-DOTATATE plus pembrolizumab in well-differentiated gastroenteric neuroendocrine tumors
+
+**Poster #**: 6455
+**Session**: Clinical Correlates of Immunotherapy
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Naoki Mizutani1, Shloka Shukla1, Nicholas Fidelman2, Bridget  P.  Keenan2, David  Y.  Oh2, Kira Chan2, Li Zhang2, Emily  K.  Bergsland2, Thomas Hope2, Lawrence Fong1
+
+1Translational Science and Therapeutics Division, Fred Hutchinson Cancer Center, Seattle, WA,2University of California San Francisco, San Francisco, CA
+
+---
+
+Background
+Peptide receptor radionuclide therapy (PRRT) with 177Lu-DOTATATE is an established treatment for well-differentiated neuroendocrine tumors (WD-NETs). PD-1 blockade with pembrolizumab has been investigated in NETs; however, radiographic responses are limited when used as monotherapy. As such, we investigated the combination of PRRT and pembrolizumab as an investigational approach to enhance antitumor immunity and efficacy in 26 patients with grade 2 or 3 WD-NET (NCT03457948). The overall response rate (ORR) by RECIST 1.1 was 34.6% (9/26), but the systemic immune changes induced by this combination remain incompletely understood. We now report the results of our investigation of peripheral immune remodeling and T-cell clonal dynamics using single-cell (sc) transcriptomic and TCR repertoire profiling of PBMCs.
+Methods
+A total of 111 PBMC samples were collected longitudinally from 26 patients treated with PRRT plus pembrolizumab. scRNA sequencing and TCR sequencing were performed using the 10x Genomics platform. Major immune populations were annotated, and transcriptional and clonal characteristics were analyzed in relation to treatment response. Patients were stratified into pancreatic NET (pNET, N=14; 5 responders [36%, PR] and 9 non-responders [64%; 7 SD, 2 PD]) and extrapancreatic NET (epNET, N=12; 4 responders [33%, PR] and 8 non-responders [67%; 7 SD, 1 PD]), with the latter including tumors of intestinal, pulmonary, and unknown primary origin. Statistical analysis was performed with Mann-Whitney U test.
+Results
+In epNET responders, the frequency of CD8&#8314; T cells increased across timepoints compared with epNET non-responders (p<0.05). Further subclustering of T cells revealed that both CD4&#8314; and a subset of CD8&#8314; cytotoxic T cells were significantly elevated (p<0.05) and exhibited prominent clonal expansion in epNET responders, particularly post treatment. Non-responders showed an enrichment of immunosuppressive subsets, including CD4&#8314; regulatory T cells (Treg) and CD4&#8314;
+Th2 cells (p<0.05). Differential gene expression analysis demonstrated that several cytotoxic genes (NKG7, CCL5, GNLY, and GZMH) were upregulated in both CD4&#8314; and CD8&#8314; T cells in the responders compared with non-responders. In contrast to epNET, systemic immune remodeling was generally limited in pNET patients regardless of response status.
+Conclusions
+Integrated single-cell and TCR analysis revealed distinct systemic T-cell activation profiles between responders and non-responders to PRRT plus PD-1 blockade, but this effect varied by site of origin. Responding patients with epNET exhibited prominent clonal expansion and upregulation of cytotoxic genes. These findings highlight key differences in peripheral immune dynamics associated with treatment response in WD-NETs and may inform strategies to optimize combination therapy.

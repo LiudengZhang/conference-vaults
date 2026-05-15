@@ -1,0 +1,17 @@
+# Selecting cord blood-derived NK cells enriched in mature subsets optimizes CAR-NK cell-based anti-tumor therapy
+
+**Poster #**: 141
+**Session**: Alternative Cell Type and in Situ Cell Therapies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Ye Ethan Li, Huihui Fan, Rafet Basar, Wilson Jeffrey, Patrick Zhang, Katayoun Rezvani
+
+UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Background: CAR-modified natural killer (CAR NK) cell therapy offers a promising "off-the-shelf" cell therapy, with promising clinical activity with a favorable safety profile. Clinical efficacy, however, varies between umbilical cord blood (CB) donors. A deeper understanding of the cellular and molecular factors driving this variability is essential to improve the manufacturing and performance of CAR NK therapies.
+Methods: We analyzed products from our first-in-human clinical study of CB-derived CAR19/IL-15 NK cells in B cell malignancies (NCT03056339). We had shown that donor selection affected clinical outcome, with some donors linked to better responses and longer progression free and overall survival, and others to poorer outcomes. To define the cellular basis for this effect, we returned to those specific donors and performed integrated single-cell RNA and antibody-derived tag (ADT) sequencing on their NK cells both before manipulation and after ex vivo expansion using the same protocol used for the trial. We then related donor intrinsic states and specific cellular subsets with clinical responses.
+Results: Unsupervised clustering identified two distinct NK cell subsets based on their expression of CD16 and CD161. A double-negative (DN) subset (CD56brightCD16-CD161-) and its expanded progeny showed reduced expression of key activating receptors and adaptor molecules, consistent with limited effector function signatures after expansion. Conversely, the double-positive (DP) subset (CD56dimCD16+CD161+) maintained a robust adaptive-like cytotoxic profile, characterized by stronger membrane-proximal activation signaling and high effector-gene expression that persisted through expansion. Notably, trial CAR-NK cell products generated from CB donors enriched for the DP subset were associated with superior clinical benefits, whereas enrichment for the DN subset was associated with worse outcomes.
+Conclusions: Our single-cell multiomic analysis reveals previously underappreciated donor-intrinsic diversity within CB-NK cells, which may explain the functional heterogeneity among CAR NK cell products. These results provide a mechanistic foundation for donor selection strategies and for targeted genetic improvements that can raise the consistency and potency of future allogeneic CAR NK cell therapies.

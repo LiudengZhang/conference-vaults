@@ -1,0 +1,17 @@
+# RenTCR-derived MAGEA1-specific TCRs demonstrated superior peptide sensitivity and potent antitumor activity in vitro and in vivo
+
+**Poster #**: 5613
+**Session**: TCR and Autologous T Cell Therapies
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yi Yang, Yabo Zhang, Jiawei Yao
+
+Biocytogen, Waltham, MA
+
+---
+
+Background: MAGEA1, a cancer-testis antigen, is broadly expressed in solid tumors such as HCC and NSCLC, but is restricted to the testis in normal tissues, making it an ideal therapeutic target. TCR therapies against MAGEA1 are in preclinical/early clinical stages. Conventional strategies for TCR discovery typically rely on isolation from donor PBMCs or patient TILs. In contrast, Biocytogen's proprietary RenTCR platform enables the generation of TCRs using TCR/MHC humanized mouse models. Lacking thymic negative selection to human antigens, this platform facilitates the identification of TCRs exhibiting higher reactivity and specificity.
+Method: RenTCR mice (HLA-A*02:01) were immunized with full-length MAGEA1 mRNA. PBMCs or splenocytes were isolated and stimulated in vitro with artificially modified antigen-presenting cells (APCs) presenting MAGEA1. Activated antigen-specific CD8+ T cells were then sorted. Single cells were sorted by FACS for reverse transcription, amplification, and sequencing to obtain TCR sequences. Initial TCR screening used a Jurkat reporter assay for binding. Positive TCRs were transduced into primary human T cells and co-cultured with HLA-A2.1+/MAGEA1+ tumor cells to assess killing and cytokine release. Functional TCR candidates underwent off-target risk assessment, with final anti-tumor efficacy validated in CDX models using NDG mice.
+Results: Immunization of 20 mice yielded a total of 80 binding-positive TCRs. The majority of these TCRs mediated potent cytotoxic activity in vitro. Assessment of functional avidity showed that TCRs derived from RenTCR mice recognized target peptides with superior sensitivity compared to human donor-derived TCRs. No cross-reactivity was detected in the candidate TCRs. All candidate TCRs demonstrated efficacy by inducing tumor regression in NDG mice bearing HLA-A2.1+/MAGEA1+ tumors.
+Conclusion: The RenTCR platform enables the generation of T cell receptors (TCRs) with higher reactivity and specificity. TCRs derived from RenTCR mice exhibited better peptide sensitivity than human donor-derived TCRs. The candidate TCRs demonstrated excellent antitumor activity both in vitro and in vivo.

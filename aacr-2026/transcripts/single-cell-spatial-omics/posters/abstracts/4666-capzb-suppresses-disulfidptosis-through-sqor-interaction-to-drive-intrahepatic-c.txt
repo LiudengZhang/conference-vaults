@@ -1,0 +1,17 @@
+# CAPZB suppresses disulfidptosis through SQOR interaction to drive intrahepatic cholangiocarcinoma progression and therapeutic vulnerability
+
+**Poster #**: 4666
+**Session**: Cell Death Regulation and Therapeutic Resistance in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jiangqiao Yao1, Tong Chen1, Ziyan Chen1, Gang Chen2, Chongming Zheng3, Yi Wang1
+
+1Department of Epidemiology and Biostatistics, Wenzhou Medical University, Wenzhou, China,2The First Affiliated Hospital of Wenzhou Medical University, Wenzhou Medical University, Wenzhou, China,3The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China
+
+---
+
+Background: Intrahepatic cholangiocarcinoma (ICC) is an aggressive malignancy with limited therapeutic options. Disulfidptosis, a novel cell death modality triggered by disulfide stress, represents a promising therapeutic target. While CAPZB has been implicated in disulfidptosis, its role in ICC remains undefined. This study investigates whether CAPZB regulates disulfidptosis via SQOR to promote ICC progression.
+Methods: Transcriptomic analysis of three ICC cohorts (n=98) and single-cell RNA-seq (n=4) evaluated CAPZB expression and prognostic significance. CAPZB was genetically modulated in ICC cell lines using shRNA/overexpression constructs. Disulfidptosis was induced by glucose deprivation and assessed via cell viability, F-actin staining, and NADP+/NADPH/GSH/GSSG ratios. Protein interactions were identified by IP-MS and validated by co-immunoprecipitation. AKT/NICD mouse models evaluated in vivo tumor progression. Patient-derived organoids were treated with GLUT1 inhibitor BAY-876.
+Results: CAPZB was significantly overexpressed in ICC tissues and correlated with poor overall survival (p<0.01). Single-cell analysis revealed elevated CAPZB in malignant cholangiocytes. CAPZB knockdown suppressed proliferation, migration, and invasion, while overexpression enhanced malignant phenotypes. IP-MS identified SQOR as a CAPZB-interacting protein, with strong expression correlation (p<0.001). CAPZB knockdown promoted disulfidptosis under glucose deprivation, increasing cell death (p<0.001), F-actin contraction, and NADP+/NADPH ratio. SQOR overexpression partially rescued these effects. In vivo, CAPZB knockdown reduced tumor burden (p<0.01). Patient-derived organoids showed BAY-876 sensitivity (IC&#8325;&#8320;=0.315 &#956;M). Combination therapy with CAPZB knockdown and BAY-876 demonstrated synergistic anti-tumor efficacy (p<0.001). Conclusions: CAPZB is a disulfidptosis-related oncogene that drives ICC progression by interacting with SQOR to maintain redox homeostasis and suppress disulfidptosis. Targeting CAPZB alone or with GLUT1 inhibitors induces synthetic lethality via disulfidptosis, offering a promising therapeutic strategy.
+Clinical Significance: This study identifies the CAPZB-SQOR axis as a novel disulfidptosis regulator in ICC and demonstrates synergistic anti-tumor effects of dual targeting CAPZB and glucose metabolism, providing a translational framework for disulfidptosis-based therapies.

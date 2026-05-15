@@ -1,0 +1,17 @@
+# Long noncoding RNAs networks as novel master regulators of cytotoxic immune cell exhaustion in triple-negative breast cancer
+
+**Poster #**: 5563
+**Session**: Oncogenic Pathways and Cancer Immunity
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Raquel Sanchez1, Eduardo  E.  Chaib Lozano1, Barbara Yang1, Shrikanth  S.  Gadad2, Enrique  I.  Ramos1
+
+1The University of Texas at El Paso, El Paso, TX,2University of Texas Rio Grande Valley, El Paso, YT
+
+---
+
+Background: Breast cancer is the second leading cause of cancer-related deaths among women in the United States, with triple-negative breast cancer (TNBC) representing the most aggressive subtype. Although immune checkpoint inhibitors (ICI) and CAR-T therapy emerge as promising therapy options for TNBC patients, their overall effectiveness is limited. This therapeutic failure is strongly influenced by immunosuppressive tumor microenvironments, where chronic antigen exposure leads to exhaustion in cytotoxic lymphocytes. Exhausted CD8&#8314; T cells, NK cells, and NKT cells display diminished effector capacity and reduced persistence, ultimately impairing tumor clearance. Understanding the regulatory mechanisms that sustain exhaustion is critical for improving immunotherapies. Long non-coding RNAs (lncRNAs) have gained recognition as regulators of transcriptional and epigenetic programs in cancer biology; however, their contribution to immune cell exhaustion in TNBC remains unexplored.
+Methods: We analyzed single-cell RNA-seq datasets (NCBI/GEO) from TNBC tumors, focusing on immune cell populations. We performed scRNAseq analysis and clustering to assess expression of specific exhaustion markers (TOX, TIGIT, PDCD1, LAG3, as well as differential gene expression to identify dysregulated lncRNAs in those exhausted CD8&#8314;, NK, and NKT cell subsets.
+Results/future directions: Preliminary data identified variable exhaustion-associated lncRNAs shared among CD8 T cells, NK, and NKT cells in TNBC samples. Some of these candidate lncRNAs were selectively enriched in certain immune populations. Signaling pathway analyses are in progress to evaluate the functions of these lncRNAs and their involvement in chromatin regulation, RNA-protein scaffolding, transcriptional activation/repression, and metabolic stress responses, all hallmarks of immune exhaustion. We will then functionally validate top candidate lncRNAs using RNA interference and overexpression models in primary human cytotoxic lymphocytes to assess their impact on exhaustion phenotypes and effector function.
+Conclusion: In our study, we identified a previously unrecognized group of lncRNAs in TNBCs, which could potentially drive immune exhaustion across cytotoxic immune subtypes by regulating TNBC tumors physiology. These lncRNAs could be crucial for exhaustion progression, and reversing their effects through ASOs or gene silencing could reveal their influence towards recovering anti-tumor response by maintaining T cell persistence.

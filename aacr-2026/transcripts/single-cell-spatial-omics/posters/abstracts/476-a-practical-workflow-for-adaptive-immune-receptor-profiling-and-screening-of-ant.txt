@@ -1,0 +1,14 @@
+# A practical workflow for adaptive immune receptor profiling and screening of antigen-specific clonotypes with applications in cancer
+
+**Poster #**: 476
+**Session**: RNA, Gene and Cell Therapies, and Enabling Assay Technologies
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Alex Chenchik, Tianbing Liu, Dongfang Hu, Kitt Paraiso, Lester Kobzik, Khadija Ghias, Paul Diehl
+
+Cellecta, Inc., Mountain View, CA
+
+---
+
+We developed a streamlined workflow linking adaptive immune receptor (AIR) profiling to antigen-specific functional screening for cancer-relevant T-cell receptor (TCR) and B-cell receptor (BCR) discovery. Bulk AIR sequencing of DNA and RNA from matched samples quantified clonal expansion while distinguishing transcriptionally activated tumor-infiltrating lymphocytes. Paired TCR chains were obtained using a 96-well plate-based, multiplex single-cell assay for TCR &#945; &#946; chain-pairs together with 36 T-cell marker genes, enabling simultaneous identification of full-length receptor sequences and functional phenotype.Reconstructed paired TCRs were cloned into GFP-reporter Jurkat cells, which were then screened using antigen-binding dextramers and co-cultured with K562 APCs expressing tumor-associated peptides. Reporter activation provided a sensitive readout of antigen recognition and allowed ranking of tumor-specific clonotypes. In proof-of-principle studies, the single-cell assay identified the most abundant TCR-&#945; &#946; clonotype in leukemic T cells (35 wells) and revealed co-expression of NKG7 and CCL5, markers associated with cytotoxic activation in cancer. Functional assays confirmed antigen-responsive signaling in the engineered Jurkat cells.This integrated workflow&#8212;from repertoire profiling to TCR-&#945; &#946; chain-pair reconstruction and antigen validation&#8212;will enable rapid discovery of tumor-associated clonotypes, characterization of cancer-specific immune responses, and the development of receptor-based cellular immunotherapies.

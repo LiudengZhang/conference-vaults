@@ -1,0 +1,17 @@
+# Enabling single-cell transcriptomics from samples with degraded and low-input RNA using TempO-LINC
+
+**Poster #**: 5954
+**Session**: Mechanisms and Dynamics of Gene Expression
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Kevin White1, Albus Kilili2, Hanna Ha2, Dennis Eastburn1, Nathan Jayne1, Salvatore Camiolo2, Zhoutao Chen1, Bruce Seligmann1
+
+1BioSpyder Technologies, Inc., Carlsbad, CA,2BioClavis, LTD, Glasgow, United Kingdom
+
+---
+
+Background: Single-cell RNA sequencing (scRNA-seq) technologies enable characterization of cellular heterogeneity and rare cell types, and mapping of cell states in complex tissues. However, scRNA-seq performance in clinical samples is limited by RNA degradation, fragmentation, or inherently low RNA abundance. Peripheral blood mononuclear cells (PBMCs) are a common low RNA, heterogeneous sample, while formalin-fixed paraffin-embedded (FFPE) tissues, an invaluable archive of human samples, often contain degraded RNA of poor quality/quantity, due to tissue processing. Thus, TempO-LINC, a targeted, instrument-free single-cell transcriptomics assay, was designed for high-throughput gene expression profiling with strong tolerance to low RNA integrity. Here, we report that TempO-LINC enables robust gene expression profiling and rare cell subtype detection in human PBMCs and dissociated FFPE tissues from human and mouse.
+Methods: The TempO-LINC assay is a scalable, combinatorial split-pool barcoding approach to uniquely index RNA molecules in fixed cells/nuclei. Cryopreserved PBMCs from three donors were fixed using the TempO-LINC Fixation Kit and profiled with the TempO-Seq human whole transcriptome v2.1 probe set. FFPE blocks from human lung and mouse brain were sectioned, two 30&#181;m thick sections per block, deparaffinized, enzymatically dissociated, filtered, and then processed with the TempO-LINC Fixation Kit. TempO-LINC scRNA-seq was performed on FFPE lung and brain using the human whole transcriptome v2.1 and mouse whole transcriptome v1.1 probe sets, respectively. Data processing and visualization were performed using the open-source Python Scanpy and R Bioconductor packages.
+Results: Analysis of 12,027 PBMCs revealed 16 transcriptionally distinct cell populations, including major classes of blood/immune cell subsets, and rarer cell populations of hematopoietic stem/progenitor cells and proliferating CD4+ T cells, demonstrating high sensitivity in low-RNA contexts. TempO-LINC successfully generated FFPE single-cell expression profiles with mean mapping rates from 71-93% and ~1,000 genes detected per cell. UMAP data shows clearly defined cell subtypes from dissociated FFPE lung and brain tissues.
+Conclusion: The TempO-LINC scRNA-seq assay enables high-resolution gene expression profiling across heterogenous, low-RNA PBMCs and FFPE samples. These results highlight the assay&#8217;s high sensitivity in determining rare cell types from samples with degraded RNA. Applying TempO-LINC scRNA-seq on FFPE specimens unlocks new opportunities in precision medicine, biomarker discovery, and mechanistic toxicology.

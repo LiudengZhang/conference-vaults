@@ -1,0 +1,14 @@
+# ACTL6A, subunit of SW/SNF chromatin remodeling complex, drives immune evasive phenotype in head and neck squamous cancers
+
+**Poster #**: LB096
+**Session**: Late-Breaking Research: Molecular/Cellular Biology and Genetics 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: SrinivasVinod Saladi1, Nana Chen2
+
+1University of Toledo College of Medicine and Life Sciences, Toledo, OH,2Massachusetts Eye and Ear Infirmary, Harvard Medical School, Boston, MA
+
+---
+
+Amplification of the SWI/SNF chromatin remodeling factor ACTL6a/BAF53a gene is frequently observed in head and neck squamous cell cancers (HNSCCs) and is associated with poor clinical outcomes, but its mechanisms remain obscure. Here, we demonstrate that overexpressed ACTL6A mediates transcriptional repression of a tumor cell-intrinsic immune response program including antigen presentation machinery and chemotactic cytokine genes. Accordingly, loss of ACTL6A in a syngeneic HNSCC model induces cytotoxic T lymphocyte recruitment and remodels the tumor immune microenvironment (TIME), leading to tumor regression. We reveal potentiation of EZH2 chromatin binding and H3K27 tri-methyl deposition as the direct mechanism of ACTL6A-mediated repression, and we show that clinical EZH2 inhibitors mimic the gene expression changes and physiologic effects of ACTL6A loss in vitro and in vivo. Finally, we establish PD-L1 as a factor limiting the response to ACTL6A/EZH2 inhibition and demonstrate potent synergy with anti-PD-1 for TIME remodeling and tumor regression. Single cell ATAC-seq of head and neck squamous tumor specimens identified a inactive chromatin state on antigen processing machinery genes suggesting a immune evasive mechanism in patients. Thus, ACTL6A controls a therapeutically targetable epigenetic program for immune evasion in HNSCC.

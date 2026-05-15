@@ -1,0 +1,12 @@
+# Development of iPSC-derived human liver organoids for preclinical drug testing and toxicology studies
+
+**Poster #**: 3152
+**Session**: Pharmacogenomics and Translational Biomarkers for Precision Cancer Therapy
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Fong Cheng Pan1, Mahi Rahman1, David Austin2, Stephan Krieg3, Luisa Marie  A.  Pfeifer3, Anthony Saporita1, Philip Hewitt4, Steven Johnston5, Laura Braeuninger-Weimer4, Willem Kools6, Vi Chu11MIlliporeSigma, Temecula, CA,2R&D, MIlliporeSigma, Temecula, CA,3Discovery Toxicology, Merck KGaA Darmstadt, Darmstadt, Germany,4Merck KGaA Darmstadt, Darmstadt, Germany,5Merck KGaA Darmstadt, Tempe, AZ,6MIlliporeSigma, Burlington, MA
+
+---
+
+Background and Purpose: Over 90% of drug candidates fail during clinical trials, often due to insufficient efficacy and unmanageable toxicity. Drug-induced liver injury (DILI) is frequently missed in preclinical testing due to a lack of robust and predictive liver models. We report the de novo development of iPSC-derived human liver organoids as scalable, reliable, and physiologically relevant preclinical toxicology models.Methods: Using an efficient and reproducible iPSC-differentiation protocol, we generated long term expandable, cryopreservable bipotential 3dGROTM Human iPSC-derived Liver Progenitor Organoids, which differentiate into mature liver organoids (MLOs) containing multiple liver cell types.Results: The iPSC-derived mature liver organoids display long-term stability, secrete albumin and urea, and express key biomarkers of mature hepatocytes (albumin, CYP3A4, HNF4a, PCK2) and cholangiocytes (Sox17, Sox9, CK7, MRP2). They also exhibit functional Phase I/II liver enzymes (CYP3A4, CYP2C9, CYP1A2, ALT, AST, GST) and active bile salt/drug transporters. Compared to primary hepatocytes, our 3dGROTM Human iPSC-derived Mature Liver Organoids demonstrate comparable functionality and outperform HepG2 cells and liver spheroids. In DILI assays, MLOs responded to drug treatment with elevated liver enzymes, confirming their potential for toxicology screening.Conclusion: These liver organoids represent a powerful tool for high-throughput drug screening, DMPK and toxicological studies, with future applications including disease modeling of hepatocellular carcinoma, MASLD, and NASH.

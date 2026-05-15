@@ -1,0 +1,17 @@
+# Clonal evolutionary trajectory of HER2-positive breast cancer with ERBB2 or PIK3CA mutations under neoadjuvant treatment
+
+**Poster #**: 3527
+**Session**: Tumor Evolution
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Kang Wang, Ioannis Zerdes, Emmanouil G. Sifakis, Dimitrios Salgkamis, Jonas Bergh, Thomas Hatschek, Alexios Matikas, Theodoros Foukakis
+
+Karolinska Institutet, Stockholm, Sweden
+
+---
+
+Background: ERBB2 and PIK3CA are among the most commonly mutated genes in HER2-positive breast cancer and are known mediators of resistance to HER2-targeted therapies. However, the molecular evolution of these mutant tumors under treatment remains poorly understood. In this study, we profiled the multi-omics landscape of ERBB2- and PIK3CA-mutant tumors from the randomized PREDIX HER2 trial, which compared neoadjuvant trastuzumab emtansine (T-DM1) with dual HER2 blockade plus chemotherapy in early-stage HER2-positive disease.
+Methods: Fresh-frozen tumor biopsies were used for RNA sequencing and whole-exome sequencing (WES), while FFPE biopsies were used for Xenium 5K spatial transcriptomics. Longitudinal differential gene expressions were analyzed using Gaussian mixed-effects models. Tumor subtypes were assigned with a five-subtype single-sample predictor (SSP.Subtype). Somatic mutations and copy number alterations were profiled using GATK4 Mutect2 and GISTIC2. Somatic mutations were filtered and curated using a 5% variant allele frequency (VAF) cut-off.
+Results: Of the 190 patients with available WES data, 7 (3.7%) and 49 (25.8%) patients carried non-synonymous ERBB2 mutations (median VAF = 0.28) and PIK3CA mutations (median VAF = 0.21), respectively. In those patients who did not achieve pathological complete response (pCR) (63%), we identified two ERBB2 mutations (S310Y and R143*) that were consistently detected prior to, during, and after treatment, all located in the extracellular domain. Notably, both tumors maintained the HER2-enriched subtype and ERBB2 amplification during treatment, suggesting mutations may influence trastuzumab binding and blocking HER2 signals. Similarly, we identified 10 patients with persistent PIK3CA mutations during treatment, all of which were known gain-of-function alterations. Only one out of four tumors retained the HER2-enriched subtype, suggesting a potential shift in molecular phenotype under therapeutic selective pressure. Phylogenetic analysis further revealed recurrent clonal expansion involving PIK3CA and acquired KLB mutations, the latter implicated in the regulation of cholesterol metabolism. Further in vitro validation of KLB-FGF21 signaling is ongoing.
+Conclusion: This longitudinal evolutionary analysis of ERBB2- or PIK3CA-mutant, HER2+ breast cancer suggests that tumors evolve heterogeneously under HER2-targeted therapies, revealing the positive selection of pathogenic ERBB2 and PIK3CA mutations.

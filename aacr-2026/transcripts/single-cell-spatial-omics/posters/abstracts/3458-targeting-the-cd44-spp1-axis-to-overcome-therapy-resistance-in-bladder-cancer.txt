@@ -1,0 +1,17 @@
+# Targeting the CD44-SPP1 axis to overcome therapy resistance in bladder cancer
+
+**Poster #**: 3458
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Hiba Siddiqui1, Yuzhen Zhou1, Jihyun Lee2, Kevin Bi3, Jacqueline  T.  Ochoa3, Martin Egger1, Eliezer M. Van Allen1, Filipe  L.  De Carvalho2, Kent  W.  Mouw1
+
+1Dana-Farber Cancer Institute, Boston, MA,2Brigham and Women's Hospital, Boston, MA,3Broad Institute, Cambridge, MA
+
+---
+
+Introduction: Cisplatin-based chemotherapy remains a mainstay of treatment for muscle-invasive bladder cancer (MIBC), and the recent approval of antibody-drug conjugates (ADCs) enfortumab vedotin (EV) combined with pembrolizumab (P) as the first-line treatment has expanded therapeutic options. However, primary non-response and acquired resistance to these treatments result in poor clinical outcomes. Tumor cells interact with the tumor microenvironment (TME), where tumor-associated macrophages (TAMs) comprise 50-80% of non-tumors cells and can promote an immunosuppresive TME that drives therapeutic resistance. However, the mechanisms underlying tumor-macrophage crosstalk in cisplatin- and EV-based therapeutic settings remain poorly defined.
+Methods: We employed snRNA-seq to analyze human samples and performed combined analyses with publicly available datasets. Spatial transcriptomics were used to characterize the distribution of TAM subtypes. CRISPR-Cas9 was used to generate CD44-deficient bladder cancer cell lines and SPP1-deficient macrophages. A series of in vitro functional assays including flow cytometry-based macrophage phenotype profiling, phagocytosis assays, immunoblots, and viability assays were performed across cisplatin and MMAE treatment conditions. Direct and indirect co-culturing systems were used to model tumor cell-macrophage interactions. Immunocompetent murine bladder cancer models were used to evaluate therapeutic responses when combining CD44-SPP1 blockade with cisplatin or EV. RNA sequencing was performed to profile gene expression changes in tumor cells and macrophages following CD44-SPP1 axis modulation.
+Results: Tumor cell CD44 expression and macrophage SPP1 expression are positively correlated with cisplatin resistance and poor clinical outcomes in bladder cancer patients. SPP1-expressing macrophages were spatially localized near CD44-positive tumor cells in resistant tumors. Cisplatin and EV treatment increased CD44 and SPP1 expression in tumor cells and macrophages, respectively, and recombinant SPP1 was sufficient to induce tumor cell CD44 expression. CD44 deletion enhanced tumor cell response to cisplatin and EV, and flow cytometry and immunoblots showed that SPP1-deficient macrophages exhibit altered polarization states and enhanced phagocytic potential. Co-implantation of CD44-expressing tumor cells with SPP1-deficient macrophages reduced tumor growth. Comprehensive immune profiling of TME changes under various genetic and treatment conditions is underway.
+Conclusion: Disrupting the CD44-SPP1 interaction sensitizes bladder tumors to cisplatin and EV. By defining macrophage phenotypes and polarization states within the CD44-SPP1 axis, this work supports therapeutic approaches such as engineered macrophage-based immunotherapies to overcome therapeutic resistance in MIBC.

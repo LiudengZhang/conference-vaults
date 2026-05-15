@@ -1,0 +1,19 @@
+# Spatial transcriptomic profiling of peritoneal metastases identifies multicellular programs in patient tumors undergoing pressurized intraperitoneal aerosol chemotherapy (PIPAC)
+
+**Poster #**: 3958
+**Session**: Spatial Proteomics and Transcriptomics 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Heini Maaret Natri1, Arianna  L.  Williams-Katek1, Muhammad Talha Waheed2, Tiana Li3, Marwan Fakih4, Mingye Feng5, Amit Merchea6, Sue Chang7, Richard  L.  Whelan8, Danielle Deperalta8, Thanh  H.  Dellinger2, Nicholas Banovich1, Mustafa Raoof2
+
+1Division of Bioinnovation and Genome Sciences, TGen (The Translational Genomics Research Institute), Phoenix, AZ,2Department of Surgery, City of Hope, Duarte, CA,3Department of Cancer Genetics and Epigenetics, City of Hope, Duarte, CA,4City of Hope National Medical Center, Duarte, CA,5Department of Immuno-Oncology, City of Hope, Duarte, CA,6Department of Surgery, Mayo Clinic, Jacksonville, FL,7Department of Pathology, City of Hope, Duarte, CA,8Department of Surgery, Northwell Health, New York, NY
+
+---
+
+Peritoneal Carcinomatosis (PC) is a metastatic cancer of the lining of the abdominal cavity, most often originating from the gastrointestinal or gynecological tracts. PC occurs in approximately 20% of colorectal cancer and 60% of ovarian cancer cases, with estimated 5-year survival rates as low as 6%.
+Pressurized intraperitoneal aerosolized chemotherapy (PIPAC) is a locoregional drug delivery modality administered via a minimally invasive laparoscopic approach. PIPAC shows promise in the treatment of peritoneal metastasis in early trials on colorectal cancer (CRC) or appendiceal cancer (AC) in patients who cannot undergo cytoreductive surgery.
+The spatial organization of the tumor microenvironment (TME) and the complex cellular interactions within profoundly shape biology and treatment response. Spatial transcriptomics offers an opportunity to characterize TME heterogeneity in its native architecture, allowing the identification of biomarkers, interactions, and gene expression programs as well as resistance mechanisms and new potential targets.
+We performed image-based spatial transcriptomic profiling of 152 tissue samples, including 50 pre-treatment and 65 post-treatment metastatic tumors and 17 pre-treatment and 20 post-treatment tumor-adjacent normal tissue samples from 19 patients who participated in a Phase I trial on Oxaliplatin PIPAC. Through a comprehensive characterization of transcriptional profiles of a total of 1,249,711 cells, as well as cellular neighborhood and ligand-receptor interactions, we describe the heterogeneity of PC in its spatial context.
+We have further characterized treatment-driven changes in pre- and post-treatment tumors of a subset of 7 patients who underwent PIPAC with mitomycin IP. Through cell-based niche and proximity analyses, we identify distinct shifts in the composition and architecture of treated tumors. Most notably, treatment resulted in an 87% decrease in the number of malignant cells, as well as an expansion of the plasma-barrier niche and an increased number of immune infiltrates. Further analysis revealed distinct differences in the abundance of specific cancer-associated fibroblast and immune subsets, demonstrating changes in TME architecture.
+Overall, our results provide an invaluable characterization of PC in CRC and AC, garnering new insight into their architecture, cellular composition, and cell-cell interactions at baseline and in response to regional chemotherapy. Further analyses and follow-up studies can identify and validate new, actionable biomarkers to target these hard-to-treat tumors.

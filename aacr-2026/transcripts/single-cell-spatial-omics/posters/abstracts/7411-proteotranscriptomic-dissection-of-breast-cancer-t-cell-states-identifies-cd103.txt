@@ -1,0 +1,14 @@
+# Proteotranscriptomic dissection of breast cancer T cell states identifies CD103+ Tfh-derived cytotoxic CD4+ cells linked to immunotherapy response
+
+**Poster #**: 7411
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Ghamdan Al-Eryani1, Sophie van der Leij2, Etienne Masle-Farquhar2, Alma Andersson3, Kate Harvey2, Sunny Wu2, Tony Wang2, John Reeves2, Cindy Ma2, Daniel  L.  Roden2, Charles  M.  Perou4, Nir Hacohen1, Aziz Al’Khafaji1, Mats Nilsson5, Joakim Lundeberg3, Marcel Batten2, Simon Junankar2, Alexander Swarbrick2
+
+1Broad Institute, Cambridge, MA,2Garvan Institute of Medical Research, Darlinghurst, Australia,3Science for Life Laboratory, KTH Royal Institute of Technology, Stockholm, Sweden,4UNC Lineberger Comprehensive Cancer, Chapel Hill, NC,5Stockholm University, Stockholm, Sweden
+
+---
+
+While cancer immunotherapies have primarily focused on activation of cytotoxic CD8 killing, CD4 T cell activity is also associated with survival and immunotherapeutic response in numerous cancers. We applied integrated single-cell RNA sequencing and multiplexed protein epitope profiling to breast cancer samples to resolve the complexity of immune cell states within the tumor microenvironment. This approach enhanced phenotypic resolution, identifying three distinct states within the T follicular helper (Tfh) cell cluster. A CXCR4high progenitor state gave rise to two differentiated states: an IGFL2high subset resembling conventional Tfh cells and localised to B cell-rich lymphoid aggregates, and a CD103+ subset, exhibiting features of tissue residency, exhaustion, and cytotoxicity, which co-localised with tumor foci. CD103+ Tfh-like cells were found to interact with CXCL10+ macrophages through production of CCL chemokines and CSF1. A higher CD103+ Tfh to IGFL2high Tfh ratio correlated with improved patient survival and enhanced responses to anti-PD1 checkpoint blockade. These findings integrate Tfh and CD4 with cytotoxic potential in breast cancer, offering new insight into anti-tumor immunity and response to checkpoint blockade.

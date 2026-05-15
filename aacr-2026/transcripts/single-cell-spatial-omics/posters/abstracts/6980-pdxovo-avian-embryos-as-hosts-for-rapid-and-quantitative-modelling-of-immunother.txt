@@ -1,0 +1,14 @@
+# PDXovo: Avian embryos as hosts for rapid and quantitative modelling of immunotherapy responses in patient-derived xenografts
+
+**Poster #**: 6980
+**Session**: Novel Models of Immunotherapy Response
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Olivia R. Grafinger1, Kabir A. Khan1, Esther Matus2, Ping Xu1, Sara Mar2, Yan Li1, David E. Goertz1, Wilder Scott1, Jean Gariepy1, Katarzyna  J.  Jerzak2, Robert S. Kerbel1, Hon  S.  Leong1
+
+1Sunnybrook Research Institute, Toronto, ON, Canada,2University of Toronto, Toronto, ON, Canada
+
+---
+
+The purpose of patient-derived xenograft (PDX) technology as a pre-clinical model for drug sensitivity testing is well established, but this does not include immunotherapies. When mouse hosts are used, the non-cancer cells within the human tumor xenograft are replaced with murine stromal cells. The lack of the patient&#8217;s tumor-infiltrated lymphocytes (TILs) within these mouse-based xenografts prohibits immunotherapy testing. We show that avian embryos as a host for PDXs are a superior model because of the ability to test a wide range of therapies, including immunotherapies, because TILs from the patient are still present in the xenograft within days of engraftment in the chorioallantoic membrane (CAM) of the avian embryo. To validate this model for immunotherapy drug testing, we engrafted murine tumors sensitive to PD-L1 immunotherapy into CAM of avian embryos and battle-tested this technology in various experimental conditions. By controlling the amount of mouse TILs in these xenografts, we demonstrate the utility of the PDXovo (PDX ex ovo) for testing immunotherapies. We then performed feasibility studies on fresh material from kidney, colorectal, and breast cancer human patients, revealing anti-tumor responses concordant with the initial and final number of human TILs. Finally, spatial omics technology was applied to compare the tumour-immune microenvironment of the original murine tumours to their xenograft counterparts grown in the avian embryo. These findings demonstrate compelling evidence supporting the efficacy of the PDXovo system for maintaining the integrity of the original tumour architecture as well as immune cell populations. Additionally, this model offers high tumor take rate of fresh tumor material, all within 10 days of engraftment. The speed of these experiments is also mirrored by their low cost, which points to their potential role for timely drug sensitivity testing and patient eligibility for existing and emerging therapies.

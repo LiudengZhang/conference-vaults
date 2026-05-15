@@ -1,0 +1,12 @@
+# Macrophages promote immunotherapy resistance of hepatocellular carcinoma through increasing tumor cell lipid availability
+
+**Poster #**: 3429
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Zhixian Liang, Xiaohang LONG, ZHEWEN XIONG, PATRICK WONG, Siyuan HUANG, Siyun Chen, Yiling Zhang, Lingyun ZHANG, Chunning Leung, Saiming Ngai, Stephen Lam CHAN, Alfred S. L. ChengThe Chinese University of HONG KONG, HONG KONG, China
+
+---
+
+Hepatocellular carcinoma (HCC) is the most common type of liver cancer. Although increasing immune checkpoint blockade (ICB) inhibitors have been applied in HCC clinical trials, the immunosuppressive tumor microenvironment (TME) restricts therapeutic responses to a small subset of patients. The triggering receptor expressed on myeloid cells-2 (TREM2) plays a critical role in counteracting inflammation and maintaining metabolic fitness in myeloid cells. Recently, we performed single-cell RNA sequencing (scRNA-seq) on tumor biopsies from a phase II clinical trial of pembrolizumab on advanced hepatitis B virus (HBV)-related HCC patients (NCT03419481) and identified a subset of tumor-associated macrophages (TAMs) over-expressing TREM2, which were enriched in non-responders following therapy. Consistently, our syngeneic ICB-sensitive and resistant HCC mouse models verified that Trem2+ TAMs were adaptively increased after anti-PD-1 treatment in resistant tumors. We observed that TREM2+ TAMs enriched in lipid-laden TME and transferred fatty acids to tumor cells. Trem2 deficiency in myeloid cells reduced the lipid level of tumor cells and re-sensitized them to anti-PD-1 therapy.

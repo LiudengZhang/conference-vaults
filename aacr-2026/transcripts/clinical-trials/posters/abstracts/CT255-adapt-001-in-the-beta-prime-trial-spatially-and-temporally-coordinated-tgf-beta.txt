@@ -1,0 +1,12 @@
+# AdAPT-001 in the BETA-PRIME trial: Spatially and temporally coordinated TGF-beta inhibition and oncolytic infection
+
+**Poster #**: CT255
+**Session**: Phase II Clinical Trials
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Chris Larson1, Vinod Ravi2, Jeannie Williams1, Erica Burbano1, Meaghan Stirn1, Scott Caroen1, Bryan Oronsky1, Anthony  P.  Conley2, Tony Reid11EpicentRx, Inc., San Diego, CA,2UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Cancers are dynamic systems that respond to external pressures to persist, including evading an immune response. Infections are potent immunogenic stimuli, and oncolytic viruses have been tested with varying degrees of success in triggering an immune response against infected cancers. TGFβ is an immunosuppressive cytokine involved in healing, and while TGFβ inhibitors (neutralizing antibodies and TKIs) have been tested with minimal activity in oncology, they have not been tested in the setting of an immunogenic viral infection. AdAPT-001 is an oncolytic adenovirus that triggers an immune response within a treated cancer while expressing a TGFβ trap to locally block its immune suppressive activity in the setting of the viral infection. It is being tested clinically in the BETA-PRIME trial and showed activity in a broad range of cancer types (triple negative breast, melanoma, neck squamous cell carcinoma, myxofibrosarcoma, fibrosarcoma-like sarcoma, eccrine adenocarcinoma, thyroid, chordoma, and angiosarcoma). Pseudoprogression was observed in some cases before durable response, consistent with an immunologic mechanism of action. However, autoimmune side effects characteristic of checkpoint inhibitors were not encountered with AdAPT-001 monotherapy, and AdAPT-001 administered in combination with anti-PD(L)1 checkpoint inhibitors had a lower rate of immune mediated side effects than expected with a checkpoint inhibitor alone (1/40 patients). At the time of abstract submission, PFS for patients who exhausted conventional treatment options and who received AdAPT-001 with a checkpoint inhibitor was 40% at 6 months and 22% at 12 months, while most (72%) of those patients previously received a checkpoint inhibitor as part of standard of care before study treatment if their cancer type was known to be sensitive to immunotherapy. Median duration of response with AdAPT-001 and a checkpoint inhibitor is not yet reached with only 3 responding patients stopping for progression. The BETA-PRIME trial is ongoing, and updated clinical data will be presented.

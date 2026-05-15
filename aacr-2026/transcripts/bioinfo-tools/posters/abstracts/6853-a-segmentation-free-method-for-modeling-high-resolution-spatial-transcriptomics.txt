@@ -1,0 +1,12 @@
+# A segmentation-free method for modeling high-resolution spatial transcriptomics at the molecule level
+
+**Poster #**: 6853
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Xiao Wang1, Nan Zhang2, Chi Zhang3, Sha Cao41Indiana University, Bloomington, IN,2Fudan University, Shanghai, China,3Knight Cancer Institute, Oregon Health & Science University, Portland, OR,4Biomedical Engineering, Oregon Health and Science University, Portland, OR
+
+---
+
+Modern platforms such as Xenium and Visium HD measure the spatial coordinates and identities of millions of individual RNA molecules per tissue section, providing unprecedented resolution to study tumor heterogeneity and the spatial organization of cellular compartments. However, most current analyses rely on cell segmentation, which can be error-prone in densely packed or morphologically complex tumors. Here, we introduce a segmentation-free statistical framework for modeling RNA molecules in high-resolution spatial transcriptomics data using Log-Gaussian Cox Processes (LGCPs). Building on our recently developed efficient variational method for fitting LGCPs, we treat each RNA molecule as a point in continuous space and model gene-specific log-intensity surfaces with a latent Gaussian random field prior. This framework enables us to (i) infer smooth intensity fields for selected genes, (ii) estimate spatial cross-covariance between these fields as a direct measure of gene-gene co-localization, and (iii) perform direct association analyses quantifying how the local abundance of one gene varies as a function of genes or spatial features, all without requiring cell boundaries. These quantities define molecule-level association scores that capture local enrichment or exclusion of RNA species, facilitating the discovery of ligand-receptor hotspots, metabolic niches, and immune-tumor interaction zones at subcellular resolution. By aggregating molecule-level association patterns over marker gene sets, our approach further supports inference of cell type and subtype-level spatial organization and interactions. Simulation studies demonstrate that our segmentation-free LGCP approach accurately recovers underlying intensity surfaces and spatial associations with favorable runtimes. Overall, this work provides a scalable, model-based tool for leveraging the full richness of high-resolution spatial transcriptomics to map RNA molecule associations in cancer tissues without relying on cell segmentation.

@@ -1,0 +1,12 @@
+# Advancing peptide-MHC binding prediction with JANUS through iterative multi-allele deconvolution and ensemble deep learning
+
+**Poster #**: LB168
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Alan Perez-Rathke1, Justin Balko1, Jens Meiler21Vanderbilt University Medical Center, Nashville, TN,2Vanderbilt University, Nashville, TN
+
+---
+
+Reliable computational modeling of peptide-major histocompatibility complex (MHC) interactions directly informs cancer immunotherapy development, enabling improved identification of tumor neoantigens and potential predictors of immunotherapy-related adverse events. Building upon our prior novel deep learning framework, JANUS (Joint Allele-specific Neural prediction of MHC I/II-binding Universal Sequences), we now investigate whether integrating multi-allele mass spectrometry data - where the presenting MHC allele is unknown - can further enhance prediction accuracy across a broad set of MHC alleles. Multi-allele datasets represent a substantial portion of available immunopeptidomics data but require deconvolution strategies to assign peptides to their most likely presenting allele. Inspired by approaches such as NNAlign_MA, we apply an iterative deconvolution procedure to annotate multi-allele ligands and incorporate them into training alongside single-allele binding affinity and eluted ligand datasets. In parallel, we explore ensemble modeling architectures to determine whether aggregating multiple JANUS-based models yields additional gains in predictive stability and generalization. Using large publicly available datasets, we evaluate ensemble extensions of JANUS against state-of-the-art predictors, including NetMHCpan and NetMHCIIpan, with performance assessed across metrics such as precision-recall and receiver operating characteristic curves. Preliminary findings indicate that the novel combination of transformer-based deep learning, iterative multi-allele deconvolution procedures, and ensemble learning strategies can maintain or improve predictive performance compared with single-model baselines.

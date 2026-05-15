@@ -1,0 +1,17 @@
+# Decoding ADC payload dynamics with a spatial transcriptomics-integrated tumor microenvironment PK model
+
+**Poster #**: 5450
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Sungwoo Bae, Jeongbin Park, Jin Yeong Choi, Daeseung Lee, Hyung-Jun Im, Hongyoon Choi
+
+Portrai, Inc., Seoul, Korea, Republic of
+
+---
+
+Background: The inherent heterogeneity of the tumor microenvironment (TME) complicates the prediction of antibody-drug conjugate (ADC) payload delivery and the mechanism of resistance. The advent of spatial transcriptomics (ST) enables high-resolution molecular profiling, allowing in silico pharmacokinetics (PK) modeling within the TME as a proxy for payload delivery. This study aimed to develop a TME-PK platform, validate it preclinically, and integrate human TME data to inform how ADC payload delivery can be optimized in clinically relevant settings.
+Method: We developed an in silico TME-PK model parameterized using target expression and endothelial density derived from ST (Visium/Visium HD) grids. It enables quantification of payload distribution in a time-dependent manner by solving kinetic equations mapped onto ST data, incorporating vessel distribution, linker-cleavage enzymatic activity, and target expression patterns. To validate these findings, we used a FaDu xenograft mouse model that received either fluorescently labeled cetuximab or panitumumab. Tumors were collected at two and 40 hours for distribution imaging and ST. We then used the model to simulate payload delivery in 52 stomach adenocarcinoma (STAD) patients across a wide KD range (pM to 10 &#181;M) to find optimal targets and range of ADC characteristics. The peak concentration of the intratumoral payload was then calculated for each ST of the patient tumor.
+Results: The 2 and 40-hour antibody distribution predicted by the TME-PK model correlated significantly with observed fluorescence intensity from experimental data (Spearman&#8217;s rho > 0.65, p < 0.05). The model was then evaluated for the relationship between intratumoral target expression levels and the sensitivity of payload delivery to KD, revealing a strong positive correlation (Spearman&#8217;s rho: 0.94, p < 0.05). For highly expressed targets (e.g., CEACAM5), payload concentration rapidly saturated even at modest binding affinities (higher KD). However, very high affinity (low KD) induced a potent binding-site barrier, causing ADC accumulation in perivascular regions and preventing tumor core penetration. Conversely, for low-expression targets (e.g., NECTIN-4), a very high affinity (low KD) was essential to achieve adequate payload concentration and enhanced tumor core delivery.
+Conclusion: We established a spatially-resolved TME-PK framework, which was validated preclinically using experimental xenograft data. Its application to STAD patient data confirmed known pharmacological phenomena, such as the binding-site barrier effect. This demonstrates the TME-PK model as a crucial tool for optimizing ADC payload delivery, showing that the optimal kinetic properties of antibody must be balanced against the spatial patterns of target expression and relationship with tumor microenvironment to ensure both binding and tissue penetration.

@@ -1,0 +1,12 @@
+# An RNA-based survival model predicting real-world response to trastuzumab deruxtecan
+
+**Poster #**: 6883
+**Session**: Network Biology and Precision Medicine
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Klemen Žiberna, Anže Lovše, Žan Kuralt, Janez Kokošar, Marcel Levstek, Luka Ausec, Miha Štajdohar, Rafael Rosengarten, Mark Uhlik, Joshua WheelerGenialis, Inc., Boston, MA
+
+---
+
+Antibody-drug conjugates (ADCs) such as trastuzumab deruxtecan (T-DXd, Enhertu) have redefined therapy for HER2-expressing breast cancer, yet clinical benefit remains unpredictable across HER2-positive, -low, and -ultralow disease. Current IHC/FISH diagnostics quantify receptor abundance but fail to capture the molecular state that governs ADC sensitivity.To address this gap, we developed an RNA-based survival model for Enhertu using the Genialis Supermodel, a large molecular foundation model. The Supermodel maps gene expression into hundreds of biomodules, algorithmic representations of biology that capture diverse oncologic hallmarks including signaling pathways, stress responses, and drug-target mechanisms. We used biomodules specific to ADC mechanisms-of-action as input features in predictive models that learn biological patterns associated with T-DXd response.In a real-world clinical cohort (n≈90 T-DXd-treated patients) from the Tempus real-world multimodal database, we performed survival modeling of time-to-next-treatment (rwTTNT). Stratified nested cross-validation was used to assess model robustness and predictive performance. Prognostic specificity was assessed in prior-line rwTTNT and in an independent clinically matched cohort. The model showed statistically significant discrimination (C-index 0.632, HR 2.22 [95% CI 1.14-4.35], p = 0.017). Predicted-benefit patients had longer rwTTNT (345 vs 245 days), and no prognostic signal appeared in control cohorts (C-index ≈ 0.5), suggesting predictive specificity. Top predictive features aligned with ADC biology, including TOP3B and TOP2A (topoisomerase payload), ATM and TP53 (DNA damage response), HIF1A (hypoxia), ESR1 (hormone signaling), and XBP1/NFATC1 (stress and immune regulation).This Enhertu survival model applies biologically structured AI to real-world RNA-seq data to reveal treatment-specific patterns of response. Integrating large-scale embeddings, mechanistic biomodules, and survival modeling, we identified biological programs related to DNA repair and stress response associated with T-DXd benefit.

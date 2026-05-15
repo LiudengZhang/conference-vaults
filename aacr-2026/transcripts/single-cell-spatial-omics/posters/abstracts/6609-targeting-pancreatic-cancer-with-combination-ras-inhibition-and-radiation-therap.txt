@@ -1,0 +1,22 @@
+# Targeting pancreatic cancer with combination RAS inhibition and radiation therapy
+
+**Poster #**: 6609
+**Session**: Radiation and Photodynamic Therapy Response Modifiers
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Candise  L.  Tat1, Kimal Rajapakshe2, Emma Rodriguez2, Vincent Bernard-Pagan2
+
+1The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences, Houston, TX,2The University of Texas MD Anderson Cancer Center, Houston, TX
+
+---
+
+Background
+Radiation therapy (RT) is a key treatment modality for locally advanced PDAC, yet PDAC is characterized by intrinsic and acquired radioresistance. Our preliminary data suggest that PDAC radioresistance is driven in part by defenses against cuproptosis, a copper-dependent, oxidative phosphorylation- (OXPHOS) linked cell death pathway. KRAS-mutant PDAC is strongly dependent on mitochondrial OXPHOS and becomes even more cuproptosis-prone with KRAS inhibition. We find that this vulnerability can be exploited therapeutically, with KRAS inhibitors synergizing with RT to amplify copper driven cell death and mitigate radioresistance.
+Methods
+KPC cancer cells were orthotopically injected into the pancreas of mice and subjected to RT at clinically relevant doses (40 Gy in 5 fractions). Tumors were harvested either immediately post-radiation (day 6 post-stereotactic body radiation therapy, or SBRT) or at the time of recurrence and euthanasia (~day 40), and gene expression changes were identified through single-cell RNA sequencing.
+MIA PaCa-2 and PANC-1 cells were treated with a pan-RAS inhibitor (iRAS) to evaluate effects on viability and protein expression, and cuproptosis defense genes were genetically modified to delineate pathways mediating RAS inhibition-induced cell death.
+Results
+In the recurrent KPC tumors, we found that therapy refractory PDAC tumors consistently overexpress metallothioneins (Mt1 and Mt2). Notably, the expression of Mt1 and Mt2 progressively increases from treatment-na&#239;ve status to post-SBRT, and further to the time of recurrence. These metallothioneins play a key role in sequestering intracellular copper, resulting in lower free copper pools in the radioresistant lesions. This sequestration preserves lipoylated enzymes, contributing to tumor cell resistance to RT. Treatment of PDAC cells with iRAS resulted in an increase in lipoylated protein levels at 24 hours. Overexpression of CTR1, a copper importer, in PDAC cells increased susceptibility to RT in the presence of copper and iRAS.
+Conclusions
+Targeting cuproptosis may be a viable option for therapy-resistant cancers such as PDAC. We have identified that cells upregulate genes related to copper defense upon development of radioresistance, and that iRAS therapy could serve as a primer to sensitize PDAC cells to cuproptosis.

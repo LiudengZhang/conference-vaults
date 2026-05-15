@@ -1,0 +1,14 @@
+# Aging turns B cells into drivers of CD8&#8314; cells that weaken tumor defenses
+
+**Poster #**: 4239
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: MONICA BODOGAI1, Bongsoo Park2, Fatima-Zohra Braikia3, Kumaraswami Konda1, Arya Biragyn1
+
+1Immunoregulation Section, Laboratory of Molecular Biology and Immunology, National Institute on Aging, Baltimore, MD,2Epigenetics and Stem Cell Aging Unit, Translational Gerontology Branch, National Institute on Aging, Baltimore, MD,3Gene Regulation Section, Laboratory of Molecular Biology and Immunology, National Institute on Aging, Baltimore, MD
+
+---
+
+Despite aging being a major risk factor for cancer, the effect of age-induced immune dysregulation in tumor control is poorly understood. While CD8&#8314; T cells are central to antitumor immunity, aging changes their phenotype and interactions with other immune cells. Using multiparameter flow cytometry, functional assays. single-cell RNA sequencing, and ATAC-seq, we identify a phenotypically and epigenetically distinct CD8&#8314; T cell population (DP8) that accumulates with age in mice and possibly in older humans. DP8 cells exhibit a non-exhausted CD101&#8314;CXCR6&#8314;CD39&#8314;CD73&#8314; phenotype. Mechanistically, DP8 differentiation is driven by aging B cells, as aged&#8212;but not young&#8212;B cells induce DP8 identity and B cell deficiency prevents their emergence. Functionally, DP8 cells suppress CD4&#8314; T cell activation and promote tumor progression, and tumors expressing CXCL16 selectively recruit DP8 cells into the tumor microenvironment where they impair antitumor immunity. We propose that DP8 cells are attractive therapeutic targets, as DP8-like cells appear to also increase in older humans, including in late onset breast cancer. In aged mice, the depletion of DP8 cells or their inducer B cells efficiently reverses tumor growth even when anti-PD1 therapy fails.

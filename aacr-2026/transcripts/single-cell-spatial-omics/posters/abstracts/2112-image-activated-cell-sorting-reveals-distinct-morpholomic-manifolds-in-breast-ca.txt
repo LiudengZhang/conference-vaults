@@ -1,0 +1,17 @@
+# Image activated cell sorting reveals distinct morpholomic manifolds in breast cancer cell lines
+
+**Poster #**: 2112
+**Session**: Characterization of Metastases by Imaging and Profiling
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Andres Jose Nevarez1, Lan Zheng2, Songyun Li2, Nicholas E. Navin1
+
+1Systems Biology, UT MD Anderson Cancer Center, Houston, TX,2Graduate School of Biomedical Sciences , UT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Background: Breast cancer progression is driven by genomic alterations that fundamentally reshape cellular architecture. However, the specific mapping between genomic drivers and the resulting quantitative morphological phenotype&#8212;the "morpholome"&#8212;remains poorly understood. We hypothesize that distinct breast cancer subtypes occupy unique, stable morphological "attractor states" defined by high-dimensional features invisible to standard microscopy, and that this morpholome is a direct, quantifiable readout of underlying genomic identity.
+Methods: To decode these morpholomic states, we established a multimodal, high-throughput imaging pipeline applied to a controlled model system of three genetically distinct breast cancer cell lines: MCF10A (normal-like), SKBR3 (HER2+), and MDA-MB-231 (TNBC). We generated a massive dataset of single-cell images using two complementary platforms: (1) DeepCell for high-resolution, label-free brightfield structural analysis, and (2) BD FACSDiscover S8 for multi-channel, image-based flow cytometry to capture molecularly-defined morphological features. We then extracted deep, self-supervised (DINOv3) features from >150,000 single cells to construct a high-dimensional morpholomic atlas.
+Results: Our analysis revealed that genomic identity dictates a robust and quantifiable morphological manifold. (1) Distinct Attractor States: In latent space analysis (PHATE), each cell line occupied a distinct, non-overlapping morphological manifold, confirming that the "morpholome" faithfully captures subtype-specific genomic differences without the need for molecular labels. (2) Robust Biological Signal: This morphological separation was highly robust, with independent biological replicates of the metastatic MDA-MB-231 line showing near-perfect overlap in feature space (e.g., Area, Intensity SD, Elongation), demonstrating that these are stable biological properties rather than technical artifacts. (3) Intra-line Heterogeneity: Crucially, we resolved distinct morphological sub-clusters within the clonally derived MDA-MB-231 population, suggesting that even isogenic cancer populations fluctuate between distinct morphological states that may correspond to functional plasticity.
+Conclusions (Future Directions): These findings establish the single-cell morpholome as a powerful, high-dimensional biomarker of breast cancer cell state. Having validated that genomic subtypes drive distinct morphological manifolds in cell lines, we are now applying this framework to patient samples. Our next steps will utilize this approach to identify the specific "morpho-genomic metaprograms" that drive metastasis, using generative AI to causally link these subtle morphological shifts to their genomic drivers in primary tumors.

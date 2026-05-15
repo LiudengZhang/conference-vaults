@@ -1,0 +1,14 @@
+# ETS1 orchestrates a hybrid EMT program to drive metastasis and immune evasion in UASCC
+
+**Poster #**: 7354
+**Session**: Transcription Factor Function in Cell Identity, Signaling, and Post-Transcriptional Control
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Chehyun Nam1, Talia Wenger1, Benjamin Ziman2, Daniel Arnaudov1, Thomas Tilton1, Ethan Pan1, Young Min Park3, Uttam  K.  Sinha4, De-Chen Lin1
+
+1University of Southern California, Los Angeles, CA,2Biocare Medical, LLC, Walnut Creek, CA,3Yonsei University of College of Medicine, Seoul, Korea, Republic of,4Keck School of Medicine at USC, Los Angeles, CA
+
+---
+
+Intratumoral transcriptional heterogeneity (ITH) is a defining feature of aggressive cancers, yet the mechanisms by which distinct ITH programs drive metastasis and immune escape in upper aerodigestive squamous cell carcinoma (UASCC) remain poorly understood. Using single-cell RNA sequencing of cancer cell lines and patient tumors, we identified a hybrid epithelial-mesenchymal transition (hEMT) program strongly associated with metastatic potential. We determined that the transcription factor ETS1 functions as a master regulator of this hEMT state, directly activating pro-invasive and pro-metastatic gene networks and promoting distant dissemination in vivo. Beyond its role in metastasis, ETS1 unexpectedly established an immune-cold microenvironment by transcriptionally inducing STAT1 and PD-L1 (CD274), leading to reduced T-cell infiltration and elevated immune checkpoint expression. Clinically, ETS1-high tumors were consistently linked to poor survival and diminished responses to immune checkpoint blockade across multiple independent cohorts. Through a focused drug screen, we found that ETS1-high cancers exhibit selective vulnerability to HSP90 inhibition (e.g., Alvespimycin), which reduces ETS1 expression via disruption of HIF1A-driven transcription. Together, these findings define ETS1 as a central driver of both metastatic progression and immune evasion in UASCC and nominate HSP90 inhibitors as a promising therapeutic strategy for ETS1-driven disease states.

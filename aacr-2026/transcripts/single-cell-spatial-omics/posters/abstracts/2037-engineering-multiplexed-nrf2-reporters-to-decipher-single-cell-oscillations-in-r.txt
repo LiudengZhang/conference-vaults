@@ -1,0 +1,16 @@
+# Engineering multiplexed NRF2 reporters to decipher single cell oscillations in real time
+
+**Poster #**: 2037
+**Session**: Metabolic Regulation in Breast and Gynecologic Cancers
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Naurisha Kapoor1, Yasemin Ceyhan Ozdemir2, James V. Alvarez2
+
+1University of Washington, Seattle, WA,2Fred Hutchinson Cancer Center, Seattle, WA
+
+---
+
+Tumor cell survival after therapy and the emergence of recurrent disease are major contributors to breast cancer mortality. NRF2, a master regulator of antioxidant and metabolic stress responses, is frequently activated in therapy-resistant and recurrent tumor cells, yet its regulation in the absence of canonical Nfe2l2/Keap1 mutations remains poorly understood. To enable real-time visualization of NRF2 dynamics, we developed a dual fluorescent reporter system to independently monitor NRF2 protein stability and transcriptional activity at single-cell resolution. The first reporter (Neh2-YFP) fuses YFP to the NRF2 Neh2 degron domain, providing a readout of KEAP1-dependent NRF2 protein turnover. The second reporter (ARE-CFP) places CFP under control of antioxidant response elements (AREs), enabling measurement of NRF2-dependent transcriptional output.
+Using confocal live-cell imaging in NMuMG mammary epithelial cells, we validated both reporters by demonstrating increased fluorescence after exposure to NRF2 activators (H&#8322;O&#8322;, TBHQ) and decreased signal with NRF2 inhibitors (ML385, luteolin). Building on this foundation, we will use the reporters to define how NRF2 activity fluctuates over short timescales and how these dynamics change during transitions from therapy-na&#239;ve to drug-tolerant, recurrent, or metastatic cell states. Because the two reporters disentangle protein stabilization from transcriptional competence, this system will also allow us to identify noncanonical mechanisms of NRF2 activation - such as altered kinase signaling or autophagy - specifically in breast cancer models lacking Nfe2l2/Keap1 mutations.
+Together, this dual-reporter platform enables dynamic, single-cell characterization of NRF2 regulation and will provide new insight into how NRF2-driven stress tolerance and metabolic adaptation contribute to tumor persistence, recurrence, and metastatic progression.

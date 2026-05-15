@@ -1,0 +1,17 @@
+# Cross platform same slide multi-omics reveals Treg heterogeneity and links to spatial niche variability in pre-cancerous colonic inflammation
+
+**Poster #**: 6591
+**Session**: Inflammation, Immunity, and Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Daniel Jimenez-Sanchez1, Matthew  H.  Ingalls1, Sanghamithra korukonda2, Brian  J.  Lane1, Isabella Marie Peshek3, Patrick Danaher2, Prajan Divakar2, Oliver Braubach1, Parambir S. Dulai3
+
+1Bruker Spatial Biology, St. Louis, MO,2Bruker Spatial Biology, Seattle, WA,3Division of Gastroenterology, Northwestern University, Chicago, IL
+
+---
+
+Introduction: FOXP3+ regulatory T cells (Tregs) maintain immune tolerance, and their dysfunction contributes to autoimmunity, chronic inflammation, and cancer. Treg heterogeneity is well documented in ulcerative colitis, where dysregulated Tregs can promote colon cancer. Treg heterogeneity is often defined by transcriptional profiles, which can include technical artifacts due to inherent biological differences between transcript and protein levels. Using cross-platform same-slide multi-omics with CellScape&#8482; proteomics and CosMx&#8482; transcriptomics, we aimed to assess whether quantitative FOXP3 protein improves definition of Treg transcriptional heterogeneity within the colonic microenvironment.
+Methods: Eight FFPE intestinal biopsies from a pre-cancerous condition (ulcerative colitis) were profiled with CellScape&#8482; (34-plex VistaPlex), followed by CosMx&#8482; Human Universal Cell Characterization Panel (1K-plex) on the same slide. Whole-slide multimodal alignment used shared morphology markers and WsiReg to generate affine registrations. Segmentation masks were harmonized for pixel-level correspondence, enabling direct integration of protein and RNA per cell. CD4+ T cells were classified into FOXP3neg, FOXP3low, FOXP3high groups via quantitative automatic cell typing. Spatial neighborhoods (k=15) yielded 25 FOXP3-defined niches, and both protein and RNA features were included in neighborhood and state enrichment analyses.
+Results: Quantitative spatial proteomics revealed reproducible FOXP3low and FOXP3high populations with corresponding transcriptomic variation. Neighborhood analysis showed two recurring contexts: (1) FOXP3low cells in innate- and vascular-associated neighborhoods, and (2) FOXP3high cells in adaptive immune-rich and proliferative niches. Integration with CosMx&#8482; enabled transcriptional characterization of FOXP3&#8314; cells and neighbors.
+Conclusion: Immune regulation relies on balanced Treg activity and their response to local microenvironmental changes. In ulcerative colitis rectal tissue, FOXP3low and FOXP3high T cells occupy distinct recurrenting spatial niches, indicating multiple FOXP3&#8314; regulatory states within inflamed tissue. Integrating same-slide CellScape&#8482; proteomics with CosMx&#8482; transcriptomics revealed microenvironment-linked patterns that were not evident from either modality alone. These findings underscore the power of spatial neighborhood analysis to expose context-dependent T-cell states in immune-mediated disease and the value of cross-platform multi-omics.

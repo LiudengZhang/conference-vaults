@@ -1,0 +1,14 @@
+# Cholesterol-associated immune cell dysfunction across lung cancer progression
+
+**Poster #**: 7385
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Jiwon Hwang, Ajay Tosh, Satyanarayana Rachagani
+
+University of Missouri, Columbia, MO
+
+---
+
+Lung cancer progression occurs through tumor microenvironment (TME) transformation, leading cells to modify their metabolic patterns to support tumor growth. Research has recently focused on cholesterol metabolism because it shows promise to affect tumor cell behavior and immune system responses. The TME contains elevated cholesterol levels which lead to CD8&#8314; T-cell exhaustion through a process that results in increased inhibitory receptor expression and decreased antitumor activity. Previous studies have produced conflicting results about cholesterol effects on T-cell function because some studies found cholesterol builds up in tumor-infiltrating T cells whereas others showed that low cholesterol levels can impair T-cell performance. The current understanding lacks information about how cholesterol-related genes change between different cell types and different stages of lung cancer development. In this study, we analyzed single-cell RNA-seq data from a GEO dataset representing multiple stages of lung cancer progression to characterize stage-specific changes in cholesterol-related gene expression across major cell populations. To understand how these metabolic shifts relate to CD8&#8314; T-cell exhaustion, this study investigates the progression of cholesterol metabolism during lung cancer and its potential influence on antitumor immunity.

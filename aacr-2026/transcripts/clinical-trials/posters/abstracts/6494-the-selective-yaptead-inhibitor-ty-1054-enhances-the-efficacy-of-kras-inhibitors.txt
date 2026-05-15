@@ -1,0 +1,12 @@
+# The selective YAP/TEAD inhibitor TY-1054 enhances the efficacy of KRAS inhibitors or Trop2-ADC in multiple solid tumors
+
+**Poster #**: 6494
+**Session**: Combination Targeted Therapy
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Shengli Dong, Zhengfei Guo, Zhiyong He, Apeng Liang, Meihua Li, Guangbin Liu, Chao Zhou, Yu Yu, Xinlong Yang, Hongqiang Li, Chengshan Niu, Shaoqing Chen, Jun Li, Yusheng WuTYK Medicines, Inc., Changxing, Zhejiang, China
+
+---
+
+Introduction: KRAS is one of the most common somatic mutations associated with human cancers. YAP/TEAD activation is a major cause of resistance to various targeted therapies. Recently, YAP/TEAD signaling has been identified as a synthetic lethal target that can enhance the efficacy of KRAS G12C inhibitors. TY-1054 is a potent YAP/TEAD inhibitor developed by TYK Medicines Inc.Results: 1. TY-1054 not only enhanced the efficacy of FDA-approved KRAS G12C inhibitors, Adagrasib and Sotorasib, in Non-Small Cell Lung Cancer (NSCLC) H1373 and H2122 cells, but also enhanced the efficacy of Divarasib (GDC-6036) and pan-KRASi Daroxonrasib (RMC-6236) in NSCLC H1972 and H2122 cells. 2. TY-1054 not only enhanced the efficacy of KRAS G12Di RMC-9805 in SU.86.86 (PDAC, KRAS G12D) in vitro and in vivo, but also enhanced the efficacy of pan-KRASi Daraxonrasib in SU.86.86 in vitro and in vivo. 3. TY-1054 enhances cetuximab efficacy in head and neck squamous cell carcinoma (HNSCC) Cal33 cells. 4. TY-1054 enhances the efficacy of Trop2-ADC (SKB264/Sac-TMT) in triple-negative breast cancer (TNBC) (MDA-MB 231 and HCC1806), NSCLC (H1975 and HCC827), and trastuzumab-resistant breast cancer (JIMT-1) cells. In summary, TY-1054 has a potentially wide therapeutic window and is currently being evaluated in patients in China. IND clearance from the US FDA was received in 2024. This study provides a strong rationale for testing the combination therapy of TY-1054 and KRAS inhibitors or Trop2-ADC in human clinical trials. The successful execution of the TY-1054 clinical trial will provide a powerful solution for precision oncology.# Shengli Dong and Zhengfei Guo contributed equally to this work.* Correspondence to: Shengli Dong, Ph.D.; TYK Medicines Inc.; Block D, No. 778 Huaxi Avenue, Changxing, Zhejiang, P. R. China, 313100. Tel: 86 17772745590; e-mail: shengli.dong@tykmedicines.com.

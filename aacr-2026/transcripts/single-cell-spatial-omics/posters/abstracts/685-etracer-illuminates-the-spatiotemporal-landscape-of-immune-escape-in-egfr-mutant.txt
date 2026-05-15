@@ -1,0 +1,14 @@
+# eTRACER illuminates the spatiotemporal landscape of immune escape in EGFR-mutant lung adenocarcinoma
+
+**Poster #**: 685
+**Session**: Methods to Measure Tumor Evolution and Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Hongbin Ji1, Zheng Hu2, Jinhua Yang3, Liangzhen Hou4, Xue Wang3
+
+1Westlake University, Hangzhou, China,2Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China,3Center for Excellence in Molecular Cell Science, Shanghai, China,4Shenzhen Institutes of Advanced Technology, Shenzhen, China
+
+---
+
+EGFR-mutant lung adenocarcinoma (LUAD), prevalent among East Asian non-smoking women, typically exhibits a strong initial response to tyrosine kinase inhibitors. However, resistance inevitably develops and these tumors often show poor responsiveness to immune checkpoint blockade. Deciphering the mechanisms of cellular evolution underlying immune evasion in EGFR-mutant LUAD could provide critical insights for developing effective immunotherapies. Here we developed eTRACER, an endogenous gene 3&#8217;UTR-based CRISPR-Cas9 lineage tracer that avoids lineage information-disruptive large deletions of traditional techniques and enables the reconstruction of high-fidelity spatiotemporal phylogeny through integration of single-cell RNA-seq, chromatin accessibility and/or spatial transcriptome. We applied eTRACER to systematically decode clonal and phenotypic fate maps of EGFR-mutant LUAD under CD8+ T cell-mediated cytotoxicity in mice. Quantitative analyses of temporally-resolved single-cell lineages across baseline, early- and late-immune escape stages revealed the dynamics of cell-state transitions from the Hypoxic and Proliferative states to the epithelial-mesenchymal transition (EMT) state leading to immune evasion. Spatially-resolved lineage tracing unveiled evident stratification of distinct tumor cell states and location-primed transitions to the EMT state. Multiomic study uncovers the cooperation between the intrinsic role of the activator protein 1 (AP-1) in cancer cells and the spatially stratified interactions between macrophages and tumor cells in promoting the transition to the EMT state. Collectively, we have developed a powerful lineage tracing system eTRACER and uncovered the spatiotemporal cell-fate dynamics underlying immune evasion in EGFR-mutant LUAD. These findings hold important implication for future design of effective immunotherapy.

@@ -1,0 +1,12 @@
+# Evaluation of an agentic LLM chatbot for clinico-genomic analysis of AACR GENIE BPC data
+
+**Poster #**: 3
+**Session**: AACR Project GENIE: Predictive Models and AI
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Likhita Thiriveedi, Kenneth L. KehlDana-Farber Cancer Institute, Boston, MA
+
+---
+
+PurposeThe significant volume and complexity of genomic and clinical data can hinder efficient research based on clinico-genomic datasets, requiring manual effort and specialized expertise. Agentic large language model (LLM) workflows may help accelerate data processing, but the performance of existing LLMs for this task is not well-characterized.MethodsAn agentic large language model-based chatbot was developed to leverage the Gemini-2.5-pro LLM to interpret oncology research queries and autonomously execute sequential analytic tasks based on the AACR GENIE BPC NSCLC cohort (version 2.0 public). The LLM’s performance was assessed against a curated benchmark set of 125 expert-reviewed clinical and genomic questions derived from a published study (https://pubmed.ncbi.nlm.nih.gov/37223888/), with accuracy defined as numerical concordance within ±10% of manuscript-reported reference values.ResultsThe chatbot was used to ask 118 questions manually extracted from the publication, including questions broadly categorized as quantifying cohort sizes (n=92) or conducting statistical analyses (n=26). The overall accuracy rate was 42.37%. Inaccurate responses were manually reviewed and assigned to the following categories: no obvious source of error or discrepancy (33.8%), where 39.1% of these deviated < 20% from the reference value; chatbot reasoning faulty (36.8%); chatbot failed to clarify a concept in the user question (22.1%); reference publication analysis insufficiently specified to replicate (7.4%); user error in response to chatbot (4.4%); chatbot did not interpret analysis question as intended (1.5%); and unclear/other (1.5%).ConclusionAgentic LLM data analysis workflows hold potential for automating components of oncology data interpretation, but current performance limitations, attributable to inconsistent reasoning, incomplete clarification of clinical concepts, and a need for clear specification of published analysis plans for reproducibility and evaluation, highlight the need for further model refinement in these specific areas before these systems can be reliably integrated into real-world clinical research pipelines.

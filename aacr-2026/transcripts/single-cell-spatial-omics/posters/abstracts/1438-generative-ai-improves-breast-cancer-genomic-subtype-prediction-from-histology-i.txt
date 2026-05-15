@@ -1,0 +1,14 @@
+# Generative AI improves breast cancer genomic subtype prediction from histology images
+
+**Poster #**: 1438
+**Session**: Digital Pathology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Brennan Geti Simon1, Clemens  L.  Weiss1, Darren Chan2, Lise Mangiante1, Nicholas  H.  Smith1, Zhicheng Ma3, Cansu Karakas4, Christina Curtis3
+
+1Stanford University School of Medicine, Stanford, CA,2Stanford Cancer Institute, Stanford, CA,3Stanford University, Stanford, CA,4Department of Pathology, Stanford University School of Medicine, Stanford, CA
+
+---
+
+Breast cancer subtyping is a cornerstone of precision oncology, guiding prognosis, treatment selection, and clinical trial stratification. The Integrative Subtype Classification (IC) scheme is a clinically relevant system that categorizes breast cancer tumors into groups with distinct long-term patient prognoses based on genomic and transcriptomic features. Currently, this approach requires genomic sequencing data to predict tumor subtype, and although genomic profiling continues to drop in cost, it is still not routinely deployed in the clinic at scale, particularly in low-resource settings where adoption is likely to lag. As an alternative, we present PATH-IC, a digital pathology model that predicts ER+ breast cancer IC subtype from routine histology data. Through the novel method BERGERON, which uses generative AI to correct class imbalance and reduce overfitting, we found that synthetic data improved PATH-IC&#8217;s performance by an amount equivalent to adding 41% more real histology samples for training. PATH-IC reaches a validation AUROC of 0.814 and its predictions correlate with Oncotype DX scores and long-term patient relapse. Using attention-based model interpretation approaches as well as CRAWFORD, a novel embedding-to-image foundation model, we showed that PATH-IC learned expected tumor microenvironment patterns associated with the IC subtypes and identified heterochromatin condensation as a key characteristic of High Risk tumors. Matched single-cell spatial transcriptomics data revealed new IC subtype-specific gene expression patterns discovered by PATH-IC, highlighted by active metabolic, proliferative, and proteostasis pathways. PATH-IC marks a step forward in enabling the routine clinical deployment of IC subtyping while simultaneously advancing the performance of digital pathology models through the implementation of generative AI.

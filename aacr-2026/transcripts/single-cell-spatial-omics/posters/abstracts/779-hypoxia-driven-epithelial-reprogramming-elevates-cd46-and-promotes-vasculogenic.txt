@@ -1,0 +1,17 @@
+# Hypoxia-driven epithelial reprogramming elevates CD46 and promotes vasculogenic mimicry in immune-desert NSCLC
+
+**Poster #**: 779
+**Session**: Physicochemical Modulation of Cancer Ecosystems: Mechanical Forces, Hypoxia, and Acidosis
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Minyeop Kim1, Youwon Lee1, Seung Yeon Oh1, Eun Ji Lee1, Ji Hyung Moon1, Ji Ae Ko1, Ji Woo Lim1, Sujin Choi1, Jae-Hwan Kim2, Jii Bum Lee1, Min Hee Hong3, Sun Min Lim1, Byoung Chul Cho1, Mi Ran Yun1
+
+1Yonsei University College of Medicine, Seoul, Korea, Republic of,2Yonsei University Hospital Cancer Center, Seoul, Korea, Republic of,3Yonsei University College of Medicine SBSI, Seoul, Korea, Republic of
+
+---
+
+Introduction: Immune-desert non-small cell lung cancer (NSCLC) presents a major challenge for immunotherapy due to poor T-cell infiltration despite the presence of tumor antigens. While immune suppression in these tumors is well recognized, the contributions of epithelial and stromal compartments to shaping the tumor microenvironment (TME) remain poorly defined.
+Methods: We analyzed bulk RNA-seq profiles from 60 lung adenocarcinoma (LUAD) tumors and classified them as immune-desert or inflamed using a T-cell inflammed signature. Matched tumors were further characterized using single-cell RNA sequencing (scRNA-seq) to dissect epithelial, stromal, and immune compartments within the TME. Key findings were validated using public datasets, immunohistochemistry (IHC) of patient specimens, and functional assays in CRISPR/Cas9-edited cell lines.
+Results: Compared with immune-infiltrated epithelial cells, desert epithelial cells were enriched in complement cascade, hypoxia, cholesterol homeostasis, and EMT pathways, while OXPHOS and antigen-processing programs were downregulated. Regulon analysis identified XBP1 as a key transcription factor in desert epithelial cells, which targeted other genes driving desert-enriched pathways, including CD46, complement-regulatory modules, and cytokines/chemokines involved in myeloid recruitment and immune evasion. These results suggest that desert epithelial cells are in an stress-adapted, plastic state. In the endothelial lineage, Desert tumors exhibited reduced PCV scores, a metric associated with T-cell infiltration, alongside an increased proportion of Epi-like endothelial cells expressing cancer stemness-related genes. Among regulators of this program, ELF3, a hypoxia-inducible transcription factor, was strongly upregulated in vascular mimicry (VM)-associated cells. IHC confirmed robust CD46 expression on epithelial surfaces of Desert tumors. Notably, CD46-high NSCLC lines formed significantly more VM networks than CD46-low lines. Analyses of public datasets further corroborated inverse relationships among CD46 expression, hypoxia signaling, VM enrichment, immune infiltration, and immunotherapy response, consistent with a role for these programs in mediating immune exclusion.
+Conclusions These findings indicate that hypoxia-linked epithelial stress programs, driven in part by XBP1, elevate CD46 and support VM-related plasticity, forming both immunologic and structural barriers characteristic of the immune-desert state. Together, these results outline how hypoxia-adapted epithelial and endothelial transitions reorganize the architecture of Desert tumors and help explain their persistent resistance to T-cell infiltration, highlighting the value of considering structural remodeling alongside immune suppression when interpreting the desert phenotype.

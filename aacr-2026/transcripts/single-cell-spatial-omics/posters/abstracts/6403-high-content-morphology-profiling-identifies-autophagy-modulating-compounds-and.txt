@@ -1,0 +1,18 @@
+# High-content morphology profiling identifies autophagy-modulating compounds and their off-target activities
+
+**Poster #**: 6403
+**Session**: Screening and Technology Advances for Probe and Drug Discovery
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Petr Dzubak1, Alzbeta Srovnalova2, Pavel Polishchuk3, Anna Siskova1, Martin Mistrik4, Matthew Lacey4, Marian Hajduch4
+
+1Insititute of Molecular and Translational Medicine, Palacky University and University Hospital in Olomouc, Olomouc, Czech Republic,2Institute of Molecular and Translational Medicine, Palacky University and University Hospital in Olomouc, Olomouc, Czech Republic,3Faculty of Medicine and Dentistry,, Palacky University and University Hospital in Olomouc, Olomouc, Czech Republic,4Institute of Molecular and Translational Medicine, Palacký University and University Hospital in Olomouc, Olomouc, Czech Republic
+
+---
+
+Background: Autophagy gives many tumors a way to cope with stress, adjust their metabolism, and weather therapy. Compounds that interfere with this process, therefore, attract considerable interest. To efficiently spot such compounds, we rely on screening methods that detect subtle shifts in cell structure. The Cell Painting assay offers this possibility: by capturing rich morphological snapshots, it lets us see how different compounds alter organelles and pathways involved in autophagy.
+Methods: We exposed HepG2 cells for 24 hours to several well-characterized autophagy inhibitors&#8212;chloroquine, bafilomycin A1, dauricine, daurisoline, and dorsomorphine&#8212;as well as two established activators, rapamycin and PP242. MCOPPB and its derivatives MS107 and MS108 were included in the same panels, alongside JUMP-target controls. After staining, we imaged the cells on a Yokogawa CV8000 microscope, recording four channels across nine fields per well. From these images, we extracted and normalized 1,065 single-cell features using pycytominer. Dimensionality reduction (UMAP) and correlation analyses were performed in R, and autophagy markers (LAMP2B, p62/SQSTM1, and LC3) were assessed by immunofluorescence.
+Results: The morphological profiles separated inhibitors from activators with a clear margin, each group forming tight clusters. Inhibitors produced the expected signatures: a fragmented Golgi apparatus, swollen mitochondria, and expanded ER structures, all indicative of impaired autophagic flux. Compounds with known mechanisms behaved as anticipated. Strikingly, MCOPPB&#8212;usually classified as a NOP receptor agonist&#8212;fell directly into the inhibitor cluster. Follow-up staining corroborated this pattern: disrupted autophagosome-lysosome fusion, p62 accumulation, and LC3 changes all pointed toward autophagy inhibition.
+Conclusion: Cell Painting proved effective at distinguishing autophagy-modulating compounds through their characteristic organelle-level effects. The unexpected behaviour of MCOPPB highlights a previously overlooked mechanism. Combining morphological profiling with marker-based validation provides a practical framework for identifying new modulators of autophagy with potential oncological relevance.
+This work was supported by the Technology Agency of the Czech Republic project PERMED: T2BA (TN02000109). We also acknowledge the contributions from infrastructural projects CZ-OPENSCREEN (LM2023052), EATRIS-CZ (LM2023053), IGA_LF_2025_21, and the SALVAGE project (CZ.02.01.01/00/22_008/0004644) supported by OP JAK, with cofinancing from the EU and the State Budget.

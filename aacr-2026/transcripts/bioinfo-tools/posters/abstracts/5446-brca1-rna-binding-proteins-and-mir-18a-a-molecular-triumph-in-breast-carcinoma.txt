@@ -1,0 +1,12 @@
+# BRCA1, RNA-binding proteins, and miR-18a, a molecular tri(umph) in breast carcinoma
+
+**Poster #**: 5446
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Raiyan Satti, Anjana Saxena, Shaneen  M.  SinghBrooklyn College, Brooklyn, NY
+
+---
+
+Breast cancer frequently involves widespread dysregulation of miRNAs, and changes in their processing can influence tumor behavior. RNA binding proteins (RBPs) are key post-transcriptional regulators that predominantly control gene expression through RNA metabolism. Dysregulation of RBPs is implicated in therapy resistance of breast cancer and targeting key RBPs can be a promising therapeutic approach to reverse this resistance. Earlier we identified a group of RBPs as common interactors of BRCA1 and RBP-nucleolin (NCL), namely heterogeneous nuclear ribonucleoprotein A1 (HNRNPA1), heterogeneous nuclear ribonucleoprotein D (HNRNPD), polyadenylate binding protein cytoplasmic 1(PABPC1), and TAR DNA-binding protein 43 (TDP-43). We published computational models of these RBPs, including NCL for their competitive versus synergistic binding with miR-21, based on predicted docking scenarios. NCL and the biogenesis of the six-miRs that it regulates are frequently overexpressed in breast cancer and are directly implicated in tumor growth and progression. Similarly, the miR-17-92 cluster which includes miR-18a is often upregulated in malignancies, including breast tumors. In estrogen receptor-positive breast cancer, it has been shown that miR-18a directly targets the 3’UTR of ER-α, increasing resistance to hormonal therapy. Although it is known that HNRNPA1 binds the terminal loop of pri-miR-18a and enhances its processing by the microprocessor complex, how NCL interacts with miR-18a is completely unknown. Interestingly, targeting NCL either by silencing or using NCL-specific aptamers directly impacts its control of various miRs, and hence inhibition of tumor growth. In this study, we have focused on the two RBPs, NCL and HNRNPA1 and their interaction with miR-18a in the context of breast cancer. We have modeled the full primary miR-18a and show its predicted interaction with the RNA-binding domains (RBDs) of NCL and HNRNPA1. We compare and contrast the molecular interactions and highlight the key residues involved in the interaction interface for the RBPs and miR-18a with an end goal to suggest potential targetable sites for therapeutics.

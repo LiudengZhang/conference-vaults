@@ -1,0 +1,12 @@
+# Potency-Attenuated analogues of PNU-159,682 in conjugation with GlycoConnect® and HydraSpace® technologies provide ADCs with improved tolerability and efficacy
+
+**Poster #**: 1682
+**Session**: Antibody-Drug Conjugates and Linker Engineering 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Marcel Scheepstra, Remon van Geel, Jorin Hoogenboom, Lianne Lelieveldt, Sorraya Popal, Mick Verhagen, Oleksandr Zagorodko, Finn McSorley, Çağla Koç, Margarida Espadinha, Floris van Delft, Anette Sommer, Sander van BerkelSynaffix/Lonza, Oss, Netherlands
+
+---
+
+PNU-159,682, an oxidized secondary metabolite of nemorubicin, exhibits extraordinary cytotoxic potency, being 2,100-6,400 fold more active than the clinically established doxorubicin. Despite promising antitumor activity, antibody-drug conjugates (ADCs) utilizing PNU-159,682 have not advanced beyond phase I clinical trials. The high potency and associated poor tolerability of PNU-based ADCs likely result in suboptimal clinical dosing, limiting the potential efficacy in patients. Based on these concerns, we designed and synthesized PNU analogues with attenuated cytotoxic potency, aiming to increase the tolerability while retaining robust antitumor activity, thus improving the therapeutic index (TI). Our approach involved multiple modifications to improve the properties. Conjugation of these new PNU analogues using GlycoConnect® site-specific conjugation technology, combined with HydrasSpace® polar spacer, yielded highly homogeneous ADCs with improved PK properties. Comprehensive in vitro and in vivo studies demonstrated that ADCs incorporating these attenuated PNU analogues maintained potent antitumor efficacy, inducing complete tumor regression in relevant xenograft models. Importantly, the maximum tolerated dose (MTD) of these ADCs was increased by up to 8-fold compared to ADCs based on the original PNU-159,682 payload, translating into a significantly expanded TI. Our findings demonstrate that potency-attenuated PNU analogues, when combined with GlycoConnect® and HydraSpace® technologies, represent a promising alternative to overcome the limitations of highly potent DNA-damaging payloads. This approach may enable higher clinical dosing paving the way for next-generation anthracycline-based ADCs with broad applicability in oncology.

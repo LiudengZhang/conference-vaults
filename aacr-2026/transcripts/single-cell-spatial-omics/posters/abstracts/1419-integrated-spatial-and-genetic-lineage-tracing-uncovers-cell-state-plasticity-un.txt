@@ -1,0 +1,14 @@
+# Integrated spatial and genetic lineage tracing uncovers cell state plasticity underlying recurrence in group3 and group4 medulloblastoma
+
+**Poster #**: 1419
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Bohyeon Yu1, Emanuele Filiberto Rosatti2, Jangham Jung1, Abhinav Jain1, Joanna Phillips1, Aaron Antonio Diaz1
+
+1Department of Neurological Surgery, University of California, San Francisco, San Francisco, CA,2Department of Cellular, Computational and Integrative Biology, University of Trento, Trentino, Italy
+
+---
+
+Recent studies place Group 3/4 medulloblastomas (G3/4 MBs) within the rhombic lip (RL)-derived glutamatergic lineage, indicating that a stalled differentiation program underlies their malignant evolution. However, it remains unclear whether these tumors retain the plasticity to transition within this lineage framework, and how their cellular states are reshaped in response to therapy. To address these questions, we constructed a single-cell multiomics atlas of G3/4 MBs using 84 tumor specimens from 38 patients, including 7 longitudinally matched cases collected through the University of California, San Francisco Brain Tumor Center (UCSF BTC) and the Children&#8217;s Brain Tumor Network (CBTN). From these samples, we generated single-nucleus transcriptomic and chromatin accessibility profiles from 57 frozen samples, and spatial transcriptomic profiles from 27 FFPE samples using Visium and Xenium. We also incorporated single-cell lineage-tracing data from intracranial xenografts derived from two G3 MB cell lines. Genetic lineage tracing integrating static barcodes with endogenous mutations demonstrated that xenografts recapitulate the developmental cell-type composition of treatment-naive primary human MBs, with barcode-defined individual clones maintaining highly similar and stable cell-type fractions. Comparison of matched primary and recurrent clinical tumors revealed no substantial differences in developmental composition. Despite this stability, phylogenetic analysis uncovered markedly increased plasticity in recurrent tumors, driven by dedifferentiation transitions from unipolar brush cell-like states to RL progenitor-like states. Tumor regions exhibiting high plasticity were spatially clustered and corresponded to structurally disorganized areas. Our work establishes cell-state plasticity as a defining feature of recurrent G3/4 MBs, providing a mechanistic framework for understanding recurrence following therapy.

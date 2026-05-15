@@ -1,0 +1,12 @@
+# Discovery and identification of SHR-RAS001: A structurally novel, highly potent tri-complex RASmulti(ON) inhibitor
+
+**Poster #**: LB347
+**Session**: Late-Breaking Research: Experimental and Molecular Therapeutics 3
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Xin Li, Feng Shen, Limin Zhang, Bin Gui, Wei Wang, Yong Liu, Yong Bao, Lu Wang, Yixiu Li, Yuchang Mao, Zaiyong Wang, Chunyue Wang, Jun Feng, Min Hu, Feng HeShangHai Hengrui Pharmaceuticals Co., Ltd., Shanghai, China
+
+---
+
+KRAS mutations serve as oncogenic drivers across roughly 20% of human malignancies, showing elevated occurrence in certain tumor types—most notably pancreatic cancer (~90%), alongside non-small cell lung cancer (~35%) and colorectal cancer (~45%). While currently available KRAS G12C inhibitors offer clinical benefit for that specific alteration, several other frequent KRAS variants, including G12D, G12V, G13D, and Q61H, remain largely untargeted and represent a persistent treatment gap. To address this need, we present SHR-RAS001, a structurally novel, highly potent cyclophilin A (CypA)-dependent tri-complex RASmulti(ON) inhibitor, specifically designed to counteract these currently difficult-to-treat RAS mutations.SHR-RAS001 effectively bound to CypA and subsequently recruited wild-type or mutant RAS proteins. The resulting ternary complex disrupted the interaction between RAF and active RAS, exhibiting potent cell-killing activity across a panel of RAS-mutant cell lines, with IC50 values below 1 nM. In RAS-mutant xenograft models, SHR-RAS001 demonstrated robust, dose-dependent antitumor activity and achieved significant tumor regression even at low dose levels.Furthermore, SHR-RAS001 displayed favorable in vitro ADME and safety profiles, including good stability in human hepatocytes, desirable physicochemical properties, , and low liabilities across both a 78-panel safety screen and a 97-kinase panel.SHR-RAS001 also exhibited promising pharmacokinetics, with dose-dependent exposure and acceptable oral bioavailability. Importantly, it showed favorable safety profiles in 14-day toxicology studies conducted in rats and dogs.In summary, SHR-RAS001 has been successfully developed as a novel, highly potent CypA-dependent tri-complex inhibitor of multiple RAS mutants. It demonstrates potent antitumor activity along with favorable pharmacokinetic and safety profiles. An open-label, multicenter Phase I study of SHR-RAS001 is currently underway.

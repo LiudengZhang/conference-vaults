@@ -1,0 +1,17 @@
+# Multi-omics reveals the diversity of CAF in ESCC lymph node metastasis
+
+**Poster #**: 6192
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Licheng Tan1, Beilei Liu2, Shuang Zhang3, Jiayi Huang4, Bowen Yao4, Xin-Yuan Guan4
+
+1Department of Clinical Oncology, University of Hong Kong, Hong Kong, Hong Kong,2City University of Hong Kong, Hong Kong,3University of Hong Kong, Shenzhen Hospital, Shenzhen Shi, Hong Kong,4University of Hong Kong, Hong Kong, Hong Kong
+
+---
+
+1. Introduction Esophageal squamous cell carcinoma (ESCC) is among the most common and lethal malignancies in China, accounting for the fifth-highest rate of cancer-associated mortality. Cancer-associated fibroblast (CAF) plays an important role in tumor microenvironment (TME). Lymph node metastasis is a key risk factor that leads to worse prognosis of ESCC patients. However, the initiation and mechanism of lymph node metastasis is still uncertain. Our previous study has revealed that CAF can promote ESCC lymph node metastasis through secreting MFGE8 to activate AKT/STAT3 signaling. Thus, we decided to further explore the role of CAF in ESCC lymph node metastasis.
+2. Materials and methods We collected ESCC tumor samples for spatial transcriptome sequencing. Combined with our single-cell RNA sequencing data and published single-cell sequencing cohort, we performed multi-omics spatiotemporal analysis to reveal the diversity of CAF in ESCC. We also performed multi-plex immunohistochemistry (mIHC) to verify the subtype in ESCC samples. We collected fresh ESCC samples from patients and murine models to isolate CAF from tumor for in vitro and in vivo experiment. Sirius red staining was performed for collagen composition analysis. KYSE30, KYSE180, KYSE410, KYSE520, and mouse mEC25 cell lines were cultured for in vivo and in vitro experiments.
+3. Results We integrated our single-cell RNA sequencing data (GSE203067) and another published cohort (GSE160269), which contained 64 ESCC patients. After unsupervised clustering, we got 6 subclusters of fibroblast (including pericyte and smooth muscle cell). Tissue distribution showed that MMP11+ Fib was enriched in primary tumor and metastatic lymph node, while PI16+ Fib was enriched in normal esophagus. Then we analyzed spatial transcriptome sequencing data via deconvolution algorithm, and revealed the spatial distribution of different fibroblast subtypes in ESCC tumor. MMP11+ Fib showed a higher proportion in primary tumor of patients with lymph node metastasis. Gene Set Enrichment Analysis indicated pathways with extracellular matrix and epithelial-mesenchymal transition were upregulated in MMP11+ Fib. Western blot and immunofluorescent staining verified the expression of MMP11 in CAF from ESCC patients and murine ESCC model. Cell-cell interaction analysis, based on spatial localization, indicated the POSTN-(ITGAV/ITGB5) ligand-receptor signaling was significantly activated between MMP11+ Fib and tumor cell.
+4. Conclusion CAF in ESCC showed a huge diversity, and the MMP11+ Fib is a pro-tumor and pro-metastasis subtype of CAF, which is a potential target for ESCC treatment.

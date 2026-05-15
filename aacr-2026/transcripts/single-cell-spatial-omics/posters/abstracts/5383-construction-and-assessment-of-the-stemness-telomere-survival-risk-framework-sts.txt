@@ -1,0 +1,17 @@
+# Construction and assessment of the stemness-telomere survival risk framework (STSRF) for precision breast cancer therapy: Insights from multi-omic approaches
+
+**Poster #**: 5383
+**Session**: Prognostic Biomarkers 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Zhiyuan Bo1, Jingpei Long1, Fang Wan1, Fangfang Chen1, Jiajun Li2, Zhengxiao Zhao3
+
+1Department of Surgery, Women's Hospital School of Medicine Zhejiang University, Hangzhou, China,2The Second Affiliated Hospital and Yuying Children’s Hospital of Wenzhou Medical University, Wenzhou, China,3Department of Oncology, the First Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, China
+
+---
+
+Background and Aims: Breast cancer (BRCA) remains a major clinical challenge due to its molecular heterogeneity and therapy resistance. Stemness and telomere-related genes are key contributors to tumor progression, but their interplay is poorly defined. This study aims to construct a Stemness-Telomere Survival Risk Framework (STSRF) to improve risk stratification and guide precision treatment.
+Methods: We integrated single-cell and bulk RNA sequencing data (n = 1684 BRCA patients) with WGCNA and 101 machine learning model combinations within a LOOCV framework to build the STSRF. Immune infiltration was assessed using seven algorithms and deep learning on histopathological images. Biological functions were explored via multi-omic enrichment analyses. Drug sensitivity data from DepMap, GDSC, CMap, CTRP, and PRISM supported therapeutic predictions. Causal relationships were validated using Mendelian randomization (MR), and expression patterns were confirmed by RT-qPCR and immunohistochemistry (IHC).
+Results: STSRF showed strong prognostic power ( highest 1-, 3-, 5-year AUCs: 0.930, 0.807, 0.766). High- and low-risk groups were effectively stratified, correlating with immune infiltration and clinical traits. High-risk patients were linked to immune-cold phenotypes and may benefit from chemotherapy combined with HDAC inhibitors, while low-risk patients, associated with immune-hot phenotypes and lower IC50 values for chemotherapy agents, may respond better to immunotherapy or chemotherapy. Single-cell and MR analyses confirmed the biological relevance of STSRF genes to BRCA risk. Experimental validation supported key gene expression patterns.
+Conclusions: STSRF is a robust framework integrating stemness and telomere biology to predict prognosis and inform personalized therapies in BRCA.

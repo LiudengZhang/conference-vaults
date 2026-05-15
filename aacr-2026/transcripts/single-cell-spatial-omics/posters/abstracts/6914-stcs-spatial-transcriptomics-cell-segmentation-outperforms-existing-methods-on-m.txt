@@ -1,0 +1,15 @@
+# STCS: Spatial transcriptomics cell segmentation outperforms existing methods on multiple slides
+
+**Poster #**: 6914
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Xinyu Hu1, Fengwei Zhan1, Lixia  C.  Wu1, Jose Gonzalez1, Chuhanwen Sun1, Rachel Ofer1, Tyler Tran2, Michael Verzi1, Jiekun Yang1
+
+1Department of Genetics, Rutgers University, New Brunswick, NJ,2Quantitative Biomedicine Program, Rutgers University, New Brunswick, NJ
+
+---
+
+Spatial transcriptomics (ST) has long been recognized as an advanced technique that provides insights on spatial information beyond what can be obtained from single-cell RNA sequencing. However, widely used sequencing-based ST approaches cannot provide cell level data because their results are aggregated into discrete bins rather than assigned to individual cells. With the advent of Visium HD and other subcellular-resolution platforms, accurate cell segmentation has become essential for extracting biologically meaningful, cell-level information.Here, we present STCS (Spatial Transcriptomics Cell Segmentation), a segmentation framework tailored for high-resolution ST data. We benchmarked STCS against several existing methods&#8212;including STHD, bin2cell, and Space Ranger&#8212;using a slide with both Visium HD and Xenium results. Evaluation using ground-truth Xenium cell boundary annotations demonstrated that STCS delivers the best performance, achieving 40% accuracy in cell-type prediction and showing the lowest spatial chaos score, a metric that quantifies how spatially continuous clusters are. We also applied STCS to another Visium HD slide from mouse intestinal regeneration model which contains tissue from different time points after radiation. Compared to default Visium HD binning, STCSsegmented cells show clear transcriptional differences by timepoints and identify several rare immune cell types. As a result, downstream analyses such as spatial cell-cell interaction inference and regional pattern characterization can be done in cell level which include more cell types and more immune related pathways like JAK-STAT pathway with STCS.
+In addition, STCS is versatile and can be applied to other sequencing-based ST methods like Stereo-seq, which offers nanometer-scale resolution. And it&#8217;s also an open-source tool with adjustable parameters for different tissue types.In summary, STCS is a robust and flexible cell segmentation tool that provides a one-stop solution for deriving biologically meaningful, cell-level information from high-resolution sequencing-based ST datasets.

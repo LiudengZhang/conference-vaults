@@ -1,0 +1,18 @@
+# Targeting tumor macrophage TGF-&#946; signaling overcomes immunotherapy resistance in hepatocellular carcinoma
+
+**Poster #**: 7146
+**Session**: Overcoming Microenvironmental and Delivery Barriers in Cancer Therapy
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Hui Yue, Yan Liu, Han Wang, Yalin Tu, Yaxian Wang, Siyuan Huang, Haoran Wu, Xiaohang Long, Carol Tong, Alfred Sze-Lok Cheng
+
+The Chinese University of Hong Kong, Hong Kong, Hong Kong
+
+---
+
+Background: Immune checkpoint blockade (ICB) has improved outcomes in hepatocellular carcinoma (HCC), but its response rates remain limited. We aimed to investigate the role of transforming growth factor-beta (TGF-&#946;) signaling in ICB resistance and develop a targeted strategy to enhance therapeutic efficacy.
+Methods: We analyzed our in-house clinical single-cell RNA sequencing (scRNA-seq) data (NCT03419481) from HCC patients. An ICB-resistant mouse model was used for therapeutic validation. In vivo phage display screening was employed to identify a tumor-associated macrophage (TAM)-homing peptide, which was then conjugated to nanoparticles for targeted delivery of the TGF-&#946; receptor inhibitor (TGFBR1) Vactosertib.
+Results: Our scRNA-seq revealed a broad upregulation of TGF-&#946; ligand and pathway activity within the tumor microenvironment (TME) of ICB non-responders compared to responders. Further analysis identified TREM2+ macrophages as the dominant recipients of TGF-&#946; signaling, a finding corroborated by their significant abundance in non-responders, suggesting their central role in a TGF-&#946;-driven resistance pathway. To functionally validate this clinical observation, we employed an ICB-resistant HCC mouse model. Treatment with Vactosertib, in combination with anti-PD-1, markedly restored tumor growth control and significantly prolonged survival, effectively reversing the resistant phenotype. To definitively establish the causal role of macrophage-specific TGF-&#946; signaling in driving resistance, we developed a targeted nanomedicine strategy. Using an in vivo phage display screening, we identified a peptide with high specificity and affinity for TAMs. By conjugating this TAM-homing peptide to nanoparticles, we achieved precise delivery of Vactosertib to the TAM population. This targeted intervention not only recapitulated the synergistic anti-tumor effect observed with systemic Vactosertib administration but also more potently reversed the immunosuppressive TME signature, providing direct evidence that TGF-&#946; acts primarily through TAMs to mediate ICB resistance.
+Conclusions: Our study establishes TGF-&#946; signaling in TAMs as a key mechanism of ICB resistance in HCC. The TAM-homing nanoparticle platform provides a powerful tool for dissecting macrophage-specific mechanisms and represents a versatile strategy for developing precision immunotherapies that target specific cellular niches within the immunosuppressive TME.
+Acknowledgements: This study is supported by RGC GRF14119023, LiKaShing Foundation, and Strategic Seed Funding for Collaborative Research Scheme.

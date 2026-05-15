@@ -1,0 +1,14 @@
+# An immune-activating and tumor-suppressive subtype of cancer-associated fibroblasts identified in gastric cancer
+
+**Poster #**: 6037
+**Session**: Fibroblasts as Architects of the Tumor Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: HUAITAO WANG, Takashi Semba, Atsuko Yonemura, Takatsugu Ishimoto
+
+Japanese Foundation for Cancer Research, Tokyo, Japan
+
+---
+
+The tumor microenvironment (TME) is a critical determinant of progression and therapy resistance in advanced gastric cancer (GC), with cancer-associated fibroblasts (CAFs) being a key component. While protumorigenic CAFs have been extensively characterized, the identity and regulatory mechanisms of tumor-suppressive CAF subsets remain elusive. To address this, we analyzed single-cell RNA sequencing (scRNA-seq) datasets derived from gastric cancer (GC) samples and identified fibroblast subclusters characterized by high expression of antitumor-associated genes such as CXCL10 and ASPN. Further analysis revealed that RARRES2, encoding Chemerin, was one of the signature genes defining this CAF subpopulation. Chemerin is a multifunctional protein exhibiting chemotactic and metabolic functions. Accumulating evidence indicates that Chemerin mediates the recruitment of multiple immune cell types, thereby influencing immune surveillance and inflammatory processes. However, its precise roles within the tumor microenvironment have yet to be fully elucidated. Functionally, recombinant Chemerin potently induced CD8+ T cell migration in vitro. Through co-culture models and mechanistic dissection, we demonstrated that tumor cells actively suppress RARRES2/Chemerin expression in CAFs by activating the Jag1-Notch2-HDAC5 signaling axis, leading to epigenetic silencing. Crucially, CAF-specific overexpression of RARRES2 in vivo was sufficient to attenuate tumor growth and profoundly augment the recruitment of CD8+ T cells into tumors. Our findings definitively identify Chemerin+ CAFs as a pivotal stromal subset that orchestrates antitumor immunity by recruiting cytotoxic T cells. Furthermore, we unveil a dynamic and therapeutically targetable crosstalk wherein tumor cells subvert this stromal defense mechanism via Jag1-Notch2-HDAC5 signaling, thereby identifying a novel immune-evasion pathway in GC.

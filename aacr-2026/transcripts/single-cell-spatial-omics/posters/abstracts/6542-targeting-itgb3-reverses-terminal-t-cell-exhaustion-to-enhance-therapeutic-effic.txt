@@ -1,0 +1,14 @@
+# Targeting ITGB3 reverses terminal T cell exhaustion to enhance therapeutic efficacy in esophageal squamous cell carcinoma
+
+**Poster #**: 6542
+**Session**: Immune Checkpoint Blockade
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Beilei Liu1, Xin-Yuan Guan2, Bowen Yao2, Hongyu Zhou3, Licheng Tan2, Jiayi Huang2, Shuang Zhang2
+
+1City University of Hong Kong, Hong Kong, Hong Kong,2The University of Hong Kong, Hong Kong, Hong Kong,3Shanghai Cancer Center, Shanghai, China
+
+---
+
+Terminal T cell exhaustion represents a critical barrier limiting the efficacy of immune checkpoint blockade therapies in solid tumors, yet the underlying mechanisms remain to be fully elucidated. Based on the esophageal squamous cell carcinoma (ESCC) mouse cell line mEC25 established in our previous work, we successfully constructed an immunocompetent ESCC mouse CDX (cell-derived xenograft) model that effectively reflects the immune dynamics of ESCC. Single-cell sequencing analysis of this dynamic subcutaneous ESCC model delineated 17 T cell subpopulations, revealing the transition of T cells from activated and effector states to exhaustion and terminal exhaustion. Among these subsets, ITGB3+ T cells exhibited moderate cytotoxicity and moderate exhaustion levels. Pseudotime analysis confirmed that ITGB3+ T cells reside at a critical node in the transition of T cells toward terminal exhaustion, potentially bridging effector and exhausted states through integrin signaling modulation. To address this, we utilized ITGB3-neutralizing antibodies. In vitro tumor-T cell co-culture assays showed that treatment with these antibodies restored T cell proliferation, upregulated the secretion of IFN-&#947; and granzyme A, and enhanced tumor-killing capacity. In vivo studies demonstrated that neutralizing ITGB3, when administered during early tumor formation, effectively reduces ESCC tumor growth, promotes T cell infiltration into the tumor microenvironment, and diminishes the exhausted T cell pool. Additionally, combination therapy with PD-1 inhibitors further amplified these effects: in vivo experiments showed synergistic tumor suppression, with enhanced T cell cytotoxicity and prolonged survival in treated mice. Further multiplex immunohistochemistry staining on tissue microarrays confirmed that elevated ITGB3 expression in PD-1+ IFN-&#947;+ double-positive T cells correlates with tumor progression and poor patient prognosis in ESCC, highlighting ITGB3 as a biomarker of T cell dysfunction. These findings uncover a molecular basis for T cell therapy resistance in ESCC and provide a novel strategy to improve the efficacy of immunotherapy for solid tumors.

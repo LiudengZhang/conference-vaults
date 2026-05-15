@@ -1,0 +1,17 @@
+# FOXA2-associated chemoresistance in gastroesophageal adenocarcinoma: A single-cell transcriptomic exploratory analysis
+
+**Poster #**: LB316
+**Session**: Late-Breaking Research: Tumor Biology 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Shuyuan Wang, Qian Qiu, Sanjima Pal, Ece Ozmen, Ruoyu Ma, Cédric Julien, Wotan Zeng, Betty Giannias, France Bourdeau, Nicholas Bertos, Swneke Bailey, Lorenzo Ferri
+
+McGill University, Montréal, QC, Canada
+
+---
+
+Introduction: Gastroesophageal Adenocarcinoma (GEA) is among the top five malignant tumors with a 5-year survival of < 20% and limited improvement in clinical management over recent decades. Currently, docetaxel-based triplet chemotherapy remains the standard-of-care treatment. However, approximately 40% of patients show resistance to chemotherapy up front, and half of initial responders develop resistance on treatment. Identifying predictors of response to chemotherapy remains a key unmet clinical need. Single-cell transcriptomic profiling enables high-resolution characterization of gene expression changes at the cellular level. It holds significant promise as a new approach to address the clinical challenge. Given the lack of reliable predictive or prognostic biomarkers, this study aims to identify biomarkers predictive of treatment response to support clinical decision-making.
+Materials and Methods: Tissue samples were obtained from GEA patients, then processed and prepared for single-cell RNA sequencing (scRNA-seq). Gene transcripts and cells identified from scRNA-seq were clustered and annotated. Overall survival (OS) and disease-free survival (DFS) analyses were conducted to assess whether specific biomarkers were associated with survival outcomes. Immunohistochemistry (IHC) and immunofluorescence (IF) staining were performed to validate identified gene markers. Gene Set Enrichment Analysis (GSEA) and Pseudotime analyses were carried out to elucidate the underlying mechanisms of chemoresistance.
+Results: Our scRNA-seq analysis was performed on samples from 43 GEA patients, annotated with their pathological treatment response to chemotherapy assessed using Tumor Regression Grade (TRG). Among these, 10 patients were good responders (TRG 0 or 1), 25 were moderate responders (TRG 2), and 8 were poor responders (TRG 3). FOXA2 was identified as one of the most highly expressed genes in tumor epithelial cells. High FOXA2 expression before treatment was significantly associated with longer OS and DFS, and its expression was validated on primary tissue samples and matched patient-derived organoids. FOXA2 expression was significantly higher in treatment-na&#239;ve tissues from pathological good responders than in poor responders. Additionally, differential FOXA2 expression was associated with distinct cellular states, with cells expressing low levels of FOXA2 showing enrichment of HALLMARK pathways including epithelial-mesenchymal transition and DNA repair.
+Conclusions: Our results identify FOXA2 as a predictive biomarker of response to neoadjuvant standard-of-care chemotherapy in patients with GEA. Our data further suggest that FOXA2 may function as a tumor suppressor through inhibition of epithelial-mesenchymal transition.

@@ -1,0 +1,12 @@
+# Uncovering the systems-level mutational landscape of intrinsically disordered regions in cancer
+
+**Poster #**: 6867
+**Session**: Network Biology and Precision Medicine
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Kivilcim Ozturk1, Hannah K. Carter21UC San Diego School of Medicine, La Jolla, CA,2UC San Diego, La Jolla, CA
+
+---
+
+Biological functions and cellular behaviors arise from interactions among proteins and other molecules within cells, and cancers often act to perturb these interactions, resulting in disease phenotypes. Many proteins contain intrinsically disordered regions (IDR) that perform biological functions without relying on a single well-defined conformation. While IDRs of several cancer drivers have emerged as central mediators of oncogenic signaling and post-translational modifications, their role in protein-protein interactions (PPI) is less clear. Here, we set out to characterize the mutational landscape of IDRs in how they contribute to perturbation of underlying protein interaction networks in cancer. A comprehensive analysis of our structurally resolved PPI network showed that IDRs mediating protein interactions are significantly targeted by cancer missense mutations. Furthermore, proteins containing IDRs are more centrally located in the PPI network, especially cancer drivers, where disordered drivers are significantly more central than ordered ones, suggesting that the inherent conformational heterogeneity of IDRs might enable them to interact with a wider range of molecular partners, allowing them to easily propagate signals through the cell and the mutations targeting them to generate a larger impact on cellular activity and phenotypes. Overall, our work demonstrates the importance of uncovering the systems-level mutational landscape of IDRs to identify mechanisms driving cancer development and progression, enabling more effective selection and development of cancer therapeutics.

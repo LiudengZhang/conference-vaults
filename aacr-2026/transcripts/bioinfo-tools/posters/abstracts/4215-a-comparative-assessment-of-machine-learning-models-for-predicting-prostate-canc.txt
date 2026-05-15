@@ -1,0 +1,12 @@
+# A comparative assessment of machine learning models for predicting prostate cancer using PVT1 biomarkers and PSA
+
+**Poster #**: 4215
+**Session**: Machine Learning Approaches for Cancer Prediction
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Pragyan Kadel1, Rachel E. Bonacci2, Emmanuel Owusu Asante-Asamani3, Olorunseun O. Ogunwobi41Data Science, Clarkson Univ., Potsdam, NY,2Biology, Michigan State University, East Lansing, MI,3Mathematics, Clarkson Univ., Potsdam, NY,4Michigan State University, East Lansing, MI
+
+---
+
+Prostate cancer (PCa) is one of the leading causes of cancer-related deaths among men, especially in populations of African ancestry. While prostate-specific antigen (PSA) testing is the most common diagnostic tool, its low specificity results in overdiagnosis and overtreatment. Recent studies have shown that specific exons of the PVT1 gene, such as exon 4A, exon 4B and exon 9, may serve as promising biomarkers to improve PCa risk stratification when combined with PSA levels. Building on this work, our study evaluates the predictive accuracy of machine learning techniques in identifying patients with any prostate cancer or high-grade prostate cancer on data from 108 multiracial men with elevated PSA. We explore different combinations of these features using logistic regression and support vector machines (SVMs).We found no single best method across all population groups and endpoints. The optimal classifier varied based on the specific prediction task. For predicting any cancer in the general population, the best performing model was Logistic Regression (F1-score of 0.72) when PSA is combined with PVT1 exon 4a. For cancer grade prediction in the general population, SVM achieved the best performance (F1 score of 0.93) using PSA, PVT1 exon 4a and PVT1 exon 9. For predicting the risk of any cancer among Men of African Ancestry (MoAA) Logistic Regression achieved the best accuracy (F1 score of 0.89) by combining PSA with PVT1 exon 4a.Our results show that combination of PVT1 biomarkers with PSA improves the accuracy of risk prediction across different populations and endpoints. Additionally, Logistic Regression provides more accurate predictions of any cancer whereas SVMs perform better for predicting high grade cancer. Future work will focus on evaluating our models on larger clinical data

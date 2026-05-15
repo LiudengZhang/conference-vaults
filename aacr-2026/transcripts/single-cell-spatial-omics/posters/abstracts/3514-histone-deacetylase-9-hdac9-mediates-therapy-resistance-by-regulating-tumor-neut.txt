@@ -1,0 +1,14 @@
+# Histone deacetylase 9 (HDAC9) mediates therapy resistance by regulating tumor-neutrophil interaction in advanced hepatocellular carcinoma
+
+**Poster #**: 3514
+**Session**: Therapeutic Modulation of the Tumor Microenvironment: New Targets and Approaches 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Yunong Xie1, Minghe Zhang1, Linglin Liu1, Yimiao He1, Jiahuan Cai1, Clive Yik-Sham Chung2, Leung Hoi Wing1, Terence Kin-Wah Lee3, Stephanie Ma2, Ka-Fai To1, Jingying Zhou1, Carol Man Carol Tong1
+
+1The Chinese University of Hong Kong, Hong Kong, Hong Kong,2The University of Hong Kong, Hong Kong, Hong Kong,3Hong Kong Polytechnic University, Hong Kong
+
+---
+
+Tyrosine kinase inhibitors (TKIs) and immune checkpoint blockade (ICB) therapies are standard treatments for advanced hepatocellular carcinoma (HCC), but their efficacy is limited by therapy resistance. This study investigates the mechanisms underlying resistance, focusing on the role of tumor-immune interaction. Using single-cell RNA sequencing (scRNA-seq) in a TKI-treated immunocompetent mouse model, we identified an expansion of poorly differentiated tumor cells with significant upregulation of histone deacetylase 9 (HDAC9). Elevated HDAC9 enhanced cancer stemness and reduced the efficacy of TKI therapy. Beyond TKIs, HDAC9 also contributed to ICB resistance by suppressing CD8+ T cell infiltration and cytotoxicity, partly through interactions with immunosuppressive neutrophils exhibiting a neutrophil extracellular trap (NET) phenotype. Neutrophil depletion reversed ICB resistance, restoring CD8+ T cell infiltration and function. Mechanistically, HDAC9 deacetylates translation initiation factor 4 gamma 2 (eIF4G2), enhancing its interaction with YTHDF3 to promote m6A-dependent protein translation, including signaling molecules that mediate tumor-neutrophil crosstalk. Clinicopathological analysis confirmed that HDAC9 correlates with increased neutrophil infiltration and reduced cytotoxic immune activity in HCC patients. These findings identify HDAC9 as a key immunoregulator driving therapy resistance and suggest that targeting the HDAC9/eIF4G2/YTHDF3 axis may improve the efficacy of TKI and ICB therapies in advanced HCC.

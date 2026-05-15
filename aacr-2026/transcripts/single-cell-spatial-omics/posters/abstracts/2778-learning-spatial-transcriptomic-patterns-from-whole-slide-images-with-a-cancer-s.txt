@@ -1,0 +1,21 @@
+# Learning spatial transcriptomic patterns from whole-slide images with a cancer-scale foundation model
+
+**Poster #**: 2778
+**Session**: Radiomics and AI in Medical Imaging
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Minsoo Lee1, Soonyoung Lee1, Tae Hyun Hwang2, Jongseong Jang1
+
+1LG AI Research, Seoul, Korea, Republic of,2Department of Surgery, Vanderbilt University Medical Center, Nashville, TN
+
+---
+
+Background
+Spatial transcriptomics (ST) provides essential insights into tumor microenvironment (TME) organization, but remains costly and limited in clinical scalability. Predicting spatial gene expression directly from routine whole-slide images (WSIs) could enable large-scale molecular phenotyping across diverse cancer types. However, existing approaches rely on self-supervised patch encoders and small gene panels, limiting biological fidelity and cross-cancer generalization.
+Methods
+To explicitly capture molecular variation underlying tissue morphology, we train a DINOv2-based patch encoder jointly with a spatial transcriptomics prediction head. This design aligns visual representations with gene-expression signals, addressing the morphological ambiguity often encountered in tumor pathology, where cells with similar appearance may exhibit distinct transcriptomic states relevant to tumor progression or immune activity. To model tissue-level biological organization, we introduce a masked transformer that integrates information from neighboring patches. Spatial relationships are crucial in cancer tissues, where gene expression patterns are shaped by tumor-stroma interfaces, immune niches, and gradients across the invasive front. By referencing local spatial context, the model captures these microenvironmental dependencies that conventional patch-level encoders overlook.
+Results
+We evaluate our framework on the HEST-benchmark, which comprises ten cancer types designed to assess ST prediction from WSIs. Without using the benchmark&#8217;s training data, our foundation model already achieves comparable performance to state-of-the-art methods that were trained separately for each cancer type in the HEST-benchmark, demonstrating strong cross-cancer generalization. When further fine-tuned on each cancer cohort within the benchmark, our model surpasses prior approaches by a large margin. Qualitatively, the predicted spatial expression maps reproduce tissue features that are clinically and biologically meaningful, including localized expression changes and tumor-associated regions. These patterns closely match ground-truth ST profiles, indicating that the model captures spatial domains shaped by tissue organization.
+Conclusion
+Our model shows that large-scale pretraining enables reliable prediction of spatial gene expression directly from routine histology. By generating spatial gene expression maps from standard pathology slides, this approach can support biomarker assessment, enhance characterization of the tumor microenvironment, and provide value where spatial transcriptomic assays are not available. Overall, these findings highlight the potential of foundation-model-based pathology to make spatial transcriptomic insights more accessible in both clinical and research settings.

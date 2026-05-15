@@ -1,0 +1,12 @@
+# TACC3 inhibition with KC1101 drives mitotic catastrophe and broad antitumor activity
+
+**Poster #**: 4495
+**Session**: Epigenetic Modulators 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Lei Zhang, Xin Nie, Zhen Mi, Yin Guo, Xiaona Yang, Yinyin Zhang, Huaying Wang, Bingqian Li, Yong Peng, Yang YangBeijing Konruns Pharmaceutical Co., Ltd., Beijing, China
+
+---
+
+TACC3, an oncogenic member of the transforming acidic coiled-coil domain-containing protein (TACC) family, is a core component of multi-protein complexes regulating microtubule and centrosome-related processes. Aberrant overexpression of TACC3 is found across multiple cancers with centrosome instability and worse prognosis. Emerging evidence further highlights TACC3 as a therapeutic vulnerability, particularly in highly aggressive cancers characterized with centrosome amplification.We have profiled our selective TACC3 inhibitor—KC1101 via cell proliferation assays across diverse cancer cell lines. KC1101 demonstrated potent anti-proliferative effects, approximately 2-fold more potent than reference compound (Rf-Cpd), assumed as the oral TACC3 inhibitor currently in Phase I. Meanwhile, no cytotoxicity was observed in primary hepatocytes or PBMCs. Further studies indicated KC1101 triggered robust cell-cycle arrest at G2/M phase and markedly increased multipolar spindle formation, consistent with on-target disruption of TACC3-dependent spindle regulation. With once-daily oral dosing, KC1101 demonstrated superior antitumor activity in vivo across TNBC (MDA-MB-231, CAL-51) and colon (HCT116) xenograft models. At 20 mpk, KC1101 achieved 94.4% TGI in CAL-51 and 61.1% TGI in HCT-116, outperforming Rf-Cpd (24.7% and 54.2%, respectively). Encouragingly, KC1101 also produced significant tumor suppression in an intracranial TNBC (MDA-MB-231-Luc) and AML (MOLM-13-Luc) model. All the data highlighted high therapeutic potential of KC1101. A wide safety margin in exploratory toxicology, coupled with low interspecies PK variability in mouse, rat, and dog, supports future clinical investigation.In conclusion, KC1101 delivers best-in-class potential for TACC3-addicted tumors by coupling strong mitotic-catastrophe biology with consistent, QD oral efficacy—including intracranial and hematologic settings—while avoiding primary-cell cytotoxicity. Collectively with the clinical precedent for TACC3 inhibition (Rf-Cpd), these data nominate KC1101 for IND in 2026.

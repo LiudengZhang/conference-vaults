@@ -1,0 +1,12 @@
+# Rg002: An mRNA-LNP-based immunotherapy targeting HPV-16/18-related malignancies
+
+**Poster #**: 6703
+**Session**: Vaccines and Other Immunomodulatory Agents
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Shan Cen1, Lan Zhu2, Fei Chen2, Wei Wang3, Lihua Qiu4, Hua Yang2, Yijie Dong5, Weiguo Zhang5, Huizhen Zhang5, Jing Wang51Institute of Medicina Biotechnology, Chinese Academy of Medical Sciences, Beijing, China,2Peking Union Medical College Hospital, Beijing, China,3The Second Hospital of Shanxi Medical University, Taiyuan, China,4Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China,5RinuaGene Biotechnology Co., Ltd., Suzhou, China
+
+---
+
+Prophylactic vaccines against oncogenic human papillomaviruses (HPVs) are effective in preventing HPV infection but not in treating existing HPV infection and cervical intraepithelial neoplasia (CIN). Current treatments for CIN are often ablative and may lead to long-term reproductive morbidity. Thus, there is a tremendous need for therapies that can treat the millions living with persistent oncogenic HPV infection and CIN and the risk of HPV-related cancers. RG002 is a mRNA-based therapeutic treatment targeting the E2, E6, and E7 proteins of HPV-16/18 with a targeted LNP for selective delivery to spleen and dendritic cells, which demonstrated excellent efficacy and safety in preclinical studies. In the phase I and expanded clinical studies, we evaluated the safety, efficacy, and immunogenicity of RG002 in 12 women with HPV 16/18 associated CIN2/3. Patients receive intramuscular administrations of 25, 75, 150, or 300 μg of RG002 at weeks 0, 2, and 4. RG002 does not cause any serious vaccine-related adverse events at any of the administered doses. Notably, all patients have exhibited complete regression of lesions and viral clearance within 17 weeks after the first dose, along with unprecedented E2/E6/E7 specific IFN-γ-producing T-cell response with clear dose-responses relationships. These initial data demonstrate the strong potential of RG002 as a first-in-class, non-surgical treatment for HPV-16/18-associated CIN2/3 to prevent progression to invasive carcinoma.Note on Study Status: *The initial cohort (n=12; 3 per dose) is nearing completion. Based on promising early results, the protocol has been amended to enroll an additional 15-30 patients by January 2026. Updated results from over 40 patients, including Week 17 efficacy data for at least 20 patients, are expected in mid-April 2026.*

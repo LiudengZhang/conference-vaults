@@ -1,0 +1,17 @@
+# Integrated spatial transcriptomics and proteomics workflows for high-resolution multiomics analysis
+
+**Poster #**: 6667
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Cindy Pamela Ulloa Guerrero1, Michele Bortolomeazzi1, Pooja Sant1, Laura Schütze1, Laura Giese1, Denise Keitel1, Julia Boehl2, Robin Reschke2, Jan-Philipp Mallm1
+
+1Single-cell Open Lab, DKFZ German Cancer Research Center, Heidelberg, Germany,2Max-Eder Research Group Reschke, University Hospital Heidelberg, Heidelberg, Germany
+
+---
+
+High-resolution tissue profiling increasingly relies on integrated spatial multiomic approaches that unify spatial transcriptomics and antibody-based proteomics to reveal coordinated molecular patterns within complex tissues. This enables a detailed exploration of spatial niches, cell-cell interactions, and tissue microenvironments. However, these modalities are often performed on consecutive sections, limiting precise correlation between molecular and spatial features. Here, we present optimized workflows that combine high-plex imaging and sequencing-based spatial transcriptomic assays with antibody-based proteomics from the same tissue section in a coordinated and customizable manner.
+We developed and evaluated experimental adaptations to ensure high data quality and optimal tissue handling across multiple platforms, including Xenium, Visium, and COMET. Quality control procedures were implemented to assess antigen retrieval compatibility, as these conditions can be antibody dependent. We examined the balance between epitope exposure, tissue integrity, and background signal, providing specific recommendations tailored to different research objectives.
+We further compared the sensitivity of these technologies and offer guidance on selecting and combining commercially available transcriptomic and proteomic workflows in a controlled, flexible setup. As in all multiomic approaches, signal loss can occur, particularly in the second readout of consecutive analyses. For proteomics, photobleaching and antigen retrieval are key considerations, especially for low-abundance or difficult-to-detect targets. Transcriptomic data can be enhanced by using HiPlex RNAscope Pro on COMET to detect lowly expressed transcripts. For data integration, we employed a straightforward pipeline that includes cell segmentation based on protein data, image registration using nuclear staining and/or segmentation masks, and extraction of single-cell transcript counts and pixel intensity data for downstream analyses within the SpatialData framework.
+We applied these workflows to tonsil, skin, and colon tissues using immuno-oncology-focused panels. The combined approach improved molecular resolution and reduced data sparsity, enabling more precise definition of cell states, spatial neighborhoods, and functional niches. These spatial multiomics workflows expand the analytical capabilities and facilitate deeper biological interpretation across diverse tissue contexts.

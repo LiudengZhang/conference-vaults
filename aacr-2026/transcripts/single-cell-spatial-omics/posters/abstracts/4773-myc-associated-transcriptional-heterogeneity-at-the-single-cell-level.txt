@@ -1,0 +1,17 @@
+# MYC associated transcriptional heterogeneity at the single cell level
+
+**Poster #**: 4773
+**Session**: Oncogenic Transcription Factors and Cancer Programs
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Saravana Gowtham Baskaran1, Min-Zhi Jiang2, Ada Tam1, Hongkai Ji2, Chi Van Dang1
+
+1Johns Hopkins University School of Medicine, Baltimore, MD,2Johns Hopkins University Bloomberg School of Public Health, Baltimore, MD
+
+---
+
+Background: Tumor heterogeneity allows cancer cells to adapt to microenvironmental stress and resist therapies. MYC is commonly amplified in human cancers and its expression can be heterogeneous due to variations in extrachromosomal DNA (ecDNA) and the pulsatile nature of MYC expression. However, the heterogeneity of the MYC responsive transcriptome among single cells is unknown. Here, we evaluate the heterogeneity of MYC transcriptional response in vitro in an inducible MYC cancer cell line.
+Methods: We used the P493-6 human B cell line model of Epstein-Barr Virus associated Burkitt&#8217;s lymphoma (BL) with tetracycline-repressible (Tet-OFF) ectopic MYC expression. We modulated MYC expression by addition of tetracycline and performed paired bulk and single-cell RNA-sequencing (scRNA-seq). To further characterize the transcriptional response of these cells with different MYC levels, we turned off MYC in these cells and then turned it back on to capture cells with increasing levels of MYC over time and performed paired bulk and single-cell RNA sequencing.
+Results: We observed heterogeneous expression of MYC and strikingly diverse expression of MYC responsive genes at the single cell level. After MYC induction with the removal of tetracycline, we observe a time-dependent decrease in STAT1 and other immune-related gene expression and movement of single cell transcriptomic clusters in high dimensional space visualized with tSNE plotting. Intriguingly, we observed a small cluster of CD58+ cells whose position in the tSNE space is unaltered by MYC status. We surmise that this cluster behaves like &#8216;stem&#8217; cells capable of repopulating the entire population of P493 cells. Interestingly, we also see this small cluster of cells in some patient-derived BL cell lines.
+Conclusions: Overall, we provide detailed evidence of MYC driven transcriptional heterogeneity at the single cell level. Our preliminary evidence of this unique &#8216;stem-cell&#8217; like population of cells in BL warrants further study.

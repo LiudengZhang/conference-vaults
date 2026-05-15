@@ -1,0 +1,12 @@
+# DXP-106, an anti-IL1RAP monoclonal antibody with enhanced ADCC activity, exhibits both in vitro and in vivo anti-tumor effects and has successfully completed IND-enabling studies
+
+**Poster #**: 2632
+**Session**: Redefining Targeted Therapy: Bispecific T-Cell Engagers and Antibody-Drug Conjugates 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Qinghao Liu, Yaqi Ru, Yan Jiang, Huimin Li, Wenbo Li, Lan Yang, Qian ShiSinglomics Biopharmaceuticals, Beijing, China
+
+---
+
+Background: The Interleukin-1 Receptor Accessory Protein (IL1RAP) is expressed on cancer cells, stromal cells, and infiltrating immune cells within the tumor microenvironment (TME) across various cancer types. By activating the IL-1 superfamily signaling pathways, IL1RAP contributes to tumor progression at multiple stages, making it a promising therapeutic target for cancer treatment.Methods: The epitope of DXP-106 was identified using cryo-electron microscopy (Cryo-EM). The antibody’s inhibitory activity against IL-1, IL-33, and IL-36 signaling was assessed through a range of assays utilizing reporter cell lines, primary HUVEC cells, and the A431 human squamous cell carcinoma model. In vivo efficacy was evaluated using a cell line-derived xenograft (CDX) model. The DXP-106 therapeutic product was manufactured using FUT8 knockout Chinese hamster ovary (CHO) cell lines to enhance the antibody-dependent cellular cytotoxicity (ADCC) activity.Results: Cryo-EM-based epitope mapping revealed that DXP-106 binds to a unique site within IL1RAP domain 2, an area that overlaps with the key interfaces of IL1β-IL1R1 and IL1RAP. In vitro studies demonstrated that DXP-106 effectively blocked signaling through all six IL-1 family pathways: IL-1α, IL-1β, IL-33, and IL-36α, IL-36β, IL-36γ. Additionally, DXP-106 exhibited strong ADCC activity in tumor cell killing assays and significantly suppressed tumor growth in xenograft models. A robust and high-yield manufacturing process has been successfully established, yielding clinical-ready product. Nonclinical safety evaluations, including GLP-compliant toxicity studies in non-human primates, showed no significant adverse findings.Conclusions: DXP-106 is a potent monoclonal antibody that specifically binds to a unique epitope on IL1RAP, broadly inhibits all six IL-1 family signaling pathways, and shows robust anti-tumor activity both in vitro and in vivo. IND-enabling studies have been successfully completed, and the first-in-human (FIH) clinical trial is planned for the first quarter of 2026.

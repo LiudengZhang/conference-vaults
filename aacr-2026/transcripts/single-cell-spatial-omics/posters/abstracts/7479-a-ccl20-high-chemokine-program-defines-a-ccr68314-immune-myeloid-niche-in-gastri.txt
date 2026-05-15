@@ -1,0 +1,20 @@
+# A CCL20-high chemokine program defines a CCR6&#8314; immune-myeloid niche in gastric cancer
+
+**Poster #**: 7479
+**Session**: Therapeutic Modulation of the Tumor Microenvironment: New Targets and Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Kurtay Ozuner1, Jaewon Kim2, Sandra W. Ryeom3
+
+1Herbert Irving Comprehensive Cancer Ctr., New York, NY,2Albert Einstein College of Medicine, New York, NY,3Columbia University Irving Medical Center, New York, NY
+
+---
+
+Introduction: Gastric cancer remains one of the leading causes of cancer mortality worldwide and is characterized by an aggressive clinical course and a profoundly immunosuppressive tumor microenvironment with limited therapeutic options. Chemokine signaling has emerged as an important regulator of gastric tumor progression, and among these pathways, the CCL20-CCR6 axis is a validated driver of epithelial to mesenchymal transition, invasion, and metastasis, and is associated with poor patient survival. However, the upstream signals that generate high levels of CCL20 within gastric tumors, and the specific CCR6&#8314; immune compartment that respond to this signal remain poorly understood. Understanding the source and downstream signaling for this axis may offer novel therapeutic options for gastric cancer. Here, we identify a previously unrecognized CCL20 high chemokine signature and a dynamically regulated CCR6&#8314; immune and myeloid niche in gastric cancer.
+Methods:
+Chemokine profiling of murine gastric cancer cell lines, multiplex immunohistochemistry of gastric tumors isolated from preclinical models of gastric cancer, and integration with human gastric single-cell RNA-seq confirmed CCL20 expression by gastric cancer cells and CCR6 expression in myeloid and B lineage clusters in the gastric tumor microenvironment.
+Results:
+Gastric cancer murine organoids exhibited a distinct chemokine signature marked by high CCL20 together with CCL22 and M-CSF. Confocal imaging confirmed abundant CCL20 protein within gastric tumors and organoids. Analysis of TCGA stomach adenocarcinoma data demonstrated that high CCR6 expression correlates with reduced overall survival. Multiplex immunohistochemistry revealed that substantial CCR6 positive CD11c&#8314; MHCII&#8314; immune cells infiltrate into the gastric cancer tumor microenvironment, including B220&#8314; plasmacytoid DC-like (pDC-like) subset. pDC-like cells increased with tumor burden and was modulated by anti-PD-1 and 5-fluorouracil treatment, indicating dynamic regulation of CCR6&#8314; myeloid subsets. Human gastric single-cell RNA-seq datasets identified CCR6 expression on myeloid clusters capable of responding to CCL20 through the CCR6 receptor.
+Conclusions:
+These findings define a previously unrecognized CCL20-high, CCR6&#8314; immune-myeloid population in gastric cancer that offers insight into the source of chemokines that drive recruitment of immune cells into the gastric cancer tumor microenvironment. Targeting this axis may reveal actionable vulnerabilities in gastric cancer progression.

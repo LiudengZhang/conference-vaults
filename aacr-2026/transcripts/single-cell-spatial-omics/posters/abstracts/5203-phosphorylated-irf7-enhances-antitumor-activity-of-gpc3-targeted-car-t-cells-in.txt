@@ -1,0 +1,14 @@
+# Phosphorylated IRF7 enhances antitumor activity of GPC3-targeted CAR T cells in solid tumors
+
+**Poster #**: 5203
+**Session**: Adoptive Cell Therapy 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Inci Cevher Zeytin1, Che-Hsing Li1, David de la Cerda1, Leidy Diana Caraballo Galva2, Andras Attila Heczey1
+
+1Ben Towne Center for Childhood Cancer and Blood Disorders Research, Seattle Children's Research Institute, Seattle, WA,2Pediatrics - Oncology, Baylor College of Medicine, Houston, TX
+
+---
+
+Glypican-3 (GPC3) is highly expressed in hepatocellular carcinoma (HCC) and hepatoblastoma (HBL), but not in healthy mature tissues; thus, represents a promising immunotherapeutic target. In a recent study, GPC3-CAR or IL15 co-expressing GPC3-CAR T cells (15.CAR) were safe in patients, IL15 co-expression significantly enhanced CAR T cell expansion and resulted in a disease control rate of 66% and antitumor response rate of 33%. To elucidate molecular programs associated with therapeutic response, single cell RNA sequencing of tumor infiltrating CAR T cells was performed and unique transcriptomic profile differences were identified associated with antitumor responses including downregulation of SWI/SNF and upregulation of FOS/JUN and Type I Interferon family members. Transcription factor motif enrichment analyses identified Interferon regulatory factor 7 (IRF7) as the dominant transcriptional driver of genes upregulated in responders. We hypothesized that IRF7 will boost the antitumor activity and this study examined the role of wild type and constitutively active IRF7 expression in GPC3-CAR T cells (IRF7.CAR and pIRF7.CAR, respectively).Compared with 15.CAR T cells, IRF7.CAR and pIRF7.CAR T cells showed significantly higher na&#239;ve (CD45RA+ CCR7+ CD62L+; CD4 p=0.0348; in CD8 p=0.0163; ), Central memory (CM, CD45RO+ CCR7+ CD62L+; CD4 p= 0.0382), LAG3+ (CD4 p=0.0236, CD8 p=0.0030) and significantly lower effector memory (TEM, CD45RA- CCR7- CD62L-; CD4 p= 0.0221) cell population at baseline, post-manufacturing based on flow cytometry. IRF7.CAR and pIRF7.CAR T cells had higher expansion and significantly improved killing efficacy (p<0.001) in repeated tumor-challenge assays using the IncuCyte system. Finally, In vivo, pIRF7GPC3+ cells showed more rapid tumor clearance under both high (5x10^6)- and low-dose (3x10^6) conditions in NSG-MHC I/II double knockout mice bearing HCC and HBL xenografts. These findings demonstrate that pIRF7 enhances CAR T-cell function. Incorporation of pIRF7 into GPC3-targeted CARs represents a novel strategy to improve efficacy against solid tumors.

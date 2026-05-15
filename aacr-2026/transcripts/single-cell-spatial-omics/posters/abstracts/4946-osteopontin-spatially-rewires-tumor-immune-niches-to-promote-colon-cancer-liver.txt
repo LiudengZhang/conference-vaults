@@ -1,0 +1,14 @@
+# Osteopontin spatially rewires tumor-immune niches to promote colon cancer liver metastasis
+
+**Poster #**: 4946
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Patrick Czabala1, Yang Zhao1, John Klement1, Dafeng Yang1, Dakota Poschel1, Kendra Fick1, Zainab Tiamiyu1, Martina Zoccheddu1, Kristen Carver1, Priscilla Redd1, Patricia Schoenlein1, Jennifer Waller2, Huidong Shi1, Kebin Liu1
+
+1Biochemistry and Molecular Biology, Augusta University, Augusta, GA,2Biostatistics, Data Science, and Epidemiology, School of Public Health, Augusta University, Augusta, GA
+
+---
+
+Osteopontin (OPN) is a secreted extracellular matrix protein that regulates T cells, myeloid cells, and tumor cells. Although OPN is a known biomarker of colorectal cancer (CRC) progression and liver metastasis, the cellular circuitry linking OPN-producing and OPN-responsive cells in the metastatic liver microenvironment remains poorly defined. Here, we investigated how tumor-derived and host-derived OPN remodel this microenvironment to promote disease progression. Using orthotopic mouse models, we found that deleting OPN in either tumor cells or host cells was sufficient to increase T cell infiltration and suppress liver metastasis, whereas dual deletion produced an even greater reduction in metastatic burden. To define niche-specific programs, we applied COSMX spatial transcriptomics to mouse liver metastasis tissues, profiling 1,000 signature genes across 1,179,351 cells. We determined that tumor-derived OPN reprograms immune-inactive niches enriched for highly proliferative cancer cells, and that host-derived OPN rewires niches characterized by low monocyte and T cell abundance and enriched stem-like cancer cells. Mechanistically, tumor-derived OPN activates the MEK/ERK pathway to promote tumor cell proliferation. To translate these findings, we tested OPN blockade immunotherapy in mouse models. OPN blockade immunotherapy significantly suppressed tumor growth and increased immune cell infiltration in both syngeneic models and humanized mouse models of CRC liver metastasis. Together, these data identify tumor- and host-derived OPN as nonredundant, pro-metastatic drivers of proliferation, immune suppression, and niche remodeling, and support OPN inhibition as a promising immunomodulatory strategy for CRC liver metastasis.

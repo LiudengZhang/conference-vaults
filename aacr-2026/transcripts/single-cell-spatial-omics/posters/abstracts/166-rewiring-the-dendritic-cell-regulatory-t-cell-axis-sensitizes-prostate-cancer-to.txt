@@ -1,0 +1,17 @@
+# Rewiring the dendritic cell: Regulatory T cell axis sensitizes prostate cancer to immunotherapy
+
+**Poster #**: 166
+**Session**: Immune Cell Biology and Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Jessica  C.  Hill, Kade  R.  Copple, Collin Jugler, Phuong Nguyen, Nilika Bhattacharya, Jessica  N.  Lancaster, Casey  R.  Ager
+
+Mayo Clinic Arizona, Phoenix, AZ
+
+---
+
+Introduction: The prostate cancer (PCa) tumor microenvironment (TME) is immunosuppressive and resistant to immune checkpoint blockade (ICB). Based on multi-omic single cell correlatives of response to neoadjuvant Fc-enhanced (FcE) &#945;CTLA-4 in high-risk localized PCa (NCT04301414), we explored how modulating the balance between regulatory T cells (Tregs) and dendritic cells (DCs) in the PCa TME affects sensitivity to ICB.
+Methods: We leveraged three single cell transcriptomic atlases of PCa to assess how Tregs and DC frequencies are dynamically regulated during PCa progression. To investigate responses to Treg depletion (via FcE-&#945;CTLA-4) alongside DC expansion (via Flt3L-Ig) and stimulation (via STING agonist ADU-S100) in PCa, we employed the castration-sensitive MycCaP PCa model and 45-parameter spectral flow cytometry. To investigate novel direct mechanisms of DC stimulation by FcE-&#945;CTLA-4 via Fc&#947; receptor (Fc&#947;R) engagement, we optimized reductionist in vitro assays involving bone marrow-derived DCs (BMDCs) from wild-type (WT) mice or mice deficient in activating Fc&#947;Rs (Fcer1g-/-) or inhibitory Fc&#947;RIIb (Fcgr2b-/-). To validate this effect in vivo we established a tumor antigen-specific T cell priming assay with both flow cytometry and ex vivo 2-photon live cell imaging readouts.
+Results: In three independent single cell transcriptomic PCa atlases, we find cDC2 frequencies are significantly decreased in advanced PCa while effector Tregs (TNFRSF9+) increase in proportion. Hypothesizing that excessive Treg function and DC insufficiency drive ICB resistance in PCa, we find in vivo DC expansion (Flt3L-Ig) prior to hormonal therapy, Treg depletion (FcE-&#945;CTLA-4), and in situ DC stimulation (ADU-S100) drives robust control of established MycCaP tumors, with 87% of animals tumor-free 40-days post-treatment (27/31). Using 45-parameter spectral flow cytometry we find FcE-&#945;CTLA-4 drives DC activation prior to Treg depletion in the TME, supporting a novel direct mechanism of DC modulation by FcE-&#945;CTLA-4. In vitro, we find cell-associated FcE-&#945;CTLA-4 is sufficient to drive BMDC maturation in an Fc&#947;R-dependent manner. In vivo, FcE-&#945;CTLA-4 augments DC-mediated T cell priming in an Fc&#947;R-dependent manner. Ongoing experiments are investigating how FcE-&#945;CTLA-4 shapes DC-T cell interactions via Fc&#947;R engagement and how DC/Treg axis modulation can be optimized to improve long-term curative response rates in the MycCaP model.
+Conclusions: DC insufficiency and effector Treg differentiation are hallmarks of advanced PCa. Enhancing DC number and function concomitant with Treg depletion can drive effective antitumor immunity in a pre-clinical PCa model. Direct DC modulation via Fc&#947;R engagement represents a novel mechanism of response to CTLA-4-targeted ICB. These findings will inform ongoing translation of FcE-&#945;CTLA-4 agents and development of novel immunotherapy strategies for PCa.

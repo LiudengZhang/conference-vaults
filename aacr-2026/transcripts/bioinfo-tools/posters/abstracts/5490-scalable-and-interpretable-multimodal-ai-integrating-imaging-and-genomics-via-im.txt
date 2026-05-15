@@ -1,0 +1,12 @@
+# Scalable and interpretable multimodal AI: Integrating imaging and genomics via image-based encodingfor cancer and disease classification
+
+**Poster #**: 5490
+**Session**: Machine Learning for Image Analysis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Sakib Mostafa, Md. Tauhidul IslamRadiation Oncology, Stanford University School of Medicine, Stanford, CA
+
+---
+
+The integration of disparate data modalities, such as medical imaging and genomics, is fundamental to modern oncology, capturing a holistic view of complex disease heterogeneity. Deciphering these multimodal relationships is critical for precision medicine, yet the diverse nature of the data represents a significant challenge for current computational methods. Traditional deep learning approaches for multimodal fusion, while powerful, often suffer from massive computational overhead and complex, resource-intensive architectures. To address this, we present a novel framework that transforms high-dimensional tabular omics data into a compact, two-dimensional image representation using Optimal Transport. This transformation recasts omics data as an additional image channel, enabling the use of a single convolutional neural network (CNN) to concurrently process both data streams, thereby overcoming critical limitations in computational efficiency. When evaluated on a multimodal cancer dataset integrating Whole Slide Images (WSI) and Spatial Transcriptomics (ST), our method achieved 96% accuracy, outperforming the 94% baseline using WSI alone. We further demonstrated the framework's generalizability on the ADNI Alzheimer's dataset, where it achieved 97.6% accuracy (vs. 93.4% for MRI-only). This framework thus provides a scalable, interpretable, and efficient approach for unified multimodal analysis, offering new opportunities for cancer diagnosis and the study of complex biological systems.

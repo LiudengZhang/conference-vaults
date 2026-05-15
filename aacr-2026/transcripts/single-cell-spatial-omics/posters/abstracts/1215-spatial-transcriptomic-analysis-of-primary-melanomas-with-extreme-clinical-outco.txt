@@ -1,0 +1,17 @@
+# Spatial transcriptomic analysis of primary melanomas with extreme clinical outcomes
+
+**Poster #**: 1215
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Prachi Bhave1, Marie Trussart2, Anthony  T.  Papenfuss2, Grant A. McArthur3
+
+1The Sir Peter MacCallum Department of Oncology, University of Melbourne, Melbourne, Australia,2Walter & Eliza Hall Institute of Medical Research, Melbourne, Australia,3Peter MacCallum Cancer Centre, Melbourne, Australia
+
+---
+
+Introduction: Most patients that die from melanoma do so after recurrence of early stage disease. There is, therefore, an urgent need to improve the identification and management of patients with early stage melanoma at high risk of recurrence. The tumour microenvironment (TME), subclonal tumour cell intrinsic features and cellular interactions likely play key roles in melanoma recurrence. Spatial transcriptomics (ST) is optimally positioned to characterize these factors and may provide novel insights and strategies to overcome early stage melanoma recurrence.
+Methods: We examined 12 early stage (thick, T4b) FFPE primary melanoma samples with extreme clinical outcomes, identified from the prospectively collected Melanoma Research Victoria database. Of these, 7 patients had T4b melanoma with an unexpectedly good outcome of no recurrence &#8804;5 years of diagnosis and 5 patients had T4b melanoma with an expectedly poor outcome of recurrence &#8804;5 years of diagnosis (late and early recurrence groups, respectively). Samples were interrogated using 10X CytAssist Visium with comparisons between the two groups. Comprehensive bioinformatics analyses were performed including Bayespace and Harmony for initial spot clustering; SingleR for cluster annotation; RCTD deconvolution to refine cluster identification; edgeR on pseudo-bulk counts and gene set testing of differentially expressed genes (DEG); sscomp for differential cellular composition; SPIAT for spatial immune-tumor architecture analysis and non-negative matrix factorization (NMF) and SpaceMarkers for exploration of gene expression patterns and interacting regions.
+Results: Key cell types were revealed within each sample, including tumor cells, diverse immune cell subsets, fibroblasts, macrophages and keratinocytes. Tissue architecture including dermis, epidermis and invasive tumour front were well characterised. DEG identified downregulation of SLC5A10, PFKFB2, FBXO32, GABRB3, SMIM38 and CDH7 in the late group relative to the early group. Gene set analysis revealed upregulation of the hallmark hypoxia, angiogenesis, EMT, glycolysis, IL2, TNFa and TGFb pathways in the late relative to the early group. Cellular compositions varied across the two groups, with the late group having significantly lower tumour purity and higher abundance of immune cells than the early group. NMF revealed specific patterns associated with tumor and immune cells, with significant downregulation of IGHA2, CYP4X1, RBMXL3 and AIRE at the interacting region between tumor and immune cells in the late relative to the early group.
+Conclusion: This study is one of the first to analyze primary melanoma samples with extreme clinical outcomes using ST. Our results reveal that differences in cellular composition of primary melanomas as well as differential expression of key genes involved in immune activation, inflammation and metabolism may be associated with melanoma recurrence.

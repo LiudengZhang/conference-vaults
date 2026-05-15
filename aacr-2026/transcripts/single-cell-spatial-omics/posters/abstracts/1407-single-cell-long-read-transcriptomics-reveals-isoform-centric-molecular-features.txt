@@ -1,0 +1,14 @@
+# Single-cell long-read transcriptomics reveals isoform centric molecular features of rare pseudomyxoma peritonei disease
+
+**Poster #**: 1407
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Kyungtae Lee1, Anuja Sathe2, Raegan Wood2, Dongin Lee2, Billy Lau3, Hanlee P. Ji4
+
+1Oncology, Stanford University School of Medicine, Stanford, CA,2Stanford University School of Medicine, Stanford, CA,3Biochemistry, Stanford University School of Medicine, Palo Alto, CA,4Stanford University, Stanford, CA
+
+---
+
+Pseudomyxoma peritonei is a rare mucin-producing cancer, most often arising from appendiceal mucinous neoplasm. In the past, investigations into transcriptomic and genomic alterations in this tumor have concentrated on gene-level changes, neglecting the impact of differential isoform usages resulting from alternative splicing and allele specific expression. In this study, we conducted single-cell long-read sequencing on 10 biopsies from 5 tumor patients at various stages of disease. Single cell analysis delineated the individual cell types and long read sequencing revealed the sequence of mRNA transcripts from its 5&#8217; transcript start sites to 3&#8217; polyA- tail - providing insights into disease and cell type specific RNA transcript structures and changes. Across the single cell results, we identified a total of 35,095 expressed genes and 130,272 transcripts, including 50,330 novel transcripts. Based on the identified gene and isoform repertoire, epithelial cells derived from appendiceal mucinous neoplasm showed an upregulation of genes and isoforms linked to goblet cell differentiation, cell proliferation, and mucin production. Furthermore, we identified alternative RNA alternative splicing in genes related to protein degradation and cellular transport within tumor epithelial cells. Our ongoing research focuses on discovering phased somatic mutations at the allele-specific isoform level and uncovering RNA splicing-derived neoantigens expressed in tumor epithelial cells. These efforts may reveal novel oncogenic drivers and potential therapeutic targets for this tumor.

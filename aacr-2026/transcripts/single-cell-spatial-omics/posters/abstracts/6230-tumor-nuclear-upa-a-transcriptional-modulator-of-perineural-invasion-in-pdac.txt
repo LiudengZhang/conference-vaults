@@ -1,0 +1,14 @@
+# Tumor nuclear uPA: A transcriptional modulator of perineural invasion in PDAC
+
+**Poster #**: 6230
+**Session**: Tumor-Neuron Interactions and Neuro-Regulation of Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Yun HE, Zonghua Su, Feng Ding, Zheng Chen, Xinxing Cui, Liu Yang, Shuangying Qiao, Yaru Hou, Aiping Lu, Fangfei Li
+
+Hong Kong Baptist University, Hong Kong, Hong Kong
+
+---
+
+Perineural invasion is highly prevalent in pancreatic ductal adenocarcinoma and correlates with poor outcomes; clinical approaches to inhibit PNI remain limited. Using integrated transcriptomic analyses of PDAC parenchymal cells with escalating nerve-invasive potential, we identified PLAU (uPA) as a key determinant of PNI capacity. Patient single-cell datasets showed that high tumor PLAU expression is associated with enrichment of Schwann cells in the tumor microenvironment and strengthened ductal cell-Schwann cell communication. Functionally, nuclear uPA in PDAC parenchymal cells activates Schwann cells in a coculture perineural invasion model. Mechanistically, chromatin profiling revealed that nuclear uPA occupies a compact set of genomic sites enriched near transcription start sites and linked to genes governing neural development and neuronal signaling. Motif analysis, biolayer interferometry (BLI), and co-immunoprecipitation showed that uPA binds c-Jun; the uPA-c-Jun complex engages DNA and serves as a co-regulator that drives pro-neurogenic transcriptional programs. Together, these findings establish nuclear uPA as a central mediator of tumor-nerve crosstalk in PDAC and highlight targeting its nuclear function as a promising strategy to inhibit perineural invasion.

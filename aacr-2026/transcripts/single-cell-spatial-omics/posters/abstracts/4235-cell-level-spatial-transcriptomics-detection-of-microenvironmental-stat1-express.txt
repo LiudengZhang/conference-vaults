@@ -1,0 +1,17 @@
+# Cell-level spatial transcriptomics detection of microenvironmental STAT1-expressing plasma cells in colorectal cancer recurrence by G4X
+
+**Poster #**: 4235
+**Session**: Adaptive Immunity in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: I-Chuang Liao1, Minh-Khang Le1, Vivek Pujara1, Haley Jun1, Devanshi Pratiher1, Jane C. Figueiredo2, Nathalie Nguyen1, Chintda Santiskulvong1, Angie Laguna1, Yi Zhang1, Keluo Yao1, Joshua Jay Levy1
+
+1Cedars-Sinai Medical Center, Los Angeles, CA,2Samuel Oschin Comprehensive Cancer Institute, Los Angeles, CA
+
+---
+
+Introduction: STAT1 mediates interferon signaling and immune responses with diverse roles in cancer. In colorectal cancer (CRC), plasma cells are critical immune mediators, and STAT1 expression in these cells may reflect their functional status. Lower STAT1-expressing plasma cells have been linked to a weakened anti-tumor immune response that facilitates tumor escape. Understanding this relationship could reveal novel prognostic biomarkers and therapeutic targets for CRC.
+Materials and Methods: Thirty CRC samples underwent G4X spatial profiling, each with a manually selected 4.5 &#215; 4.5 mm&#178; capture area targeting key histological features, resulting in spatial gene expression profiles for a 360-gene panel for 3,088,252 cells. Tissue sections were processed following the G4X spatial transcriptomics protocol enabling RNA detection at subcellular resolution. Manual pathology annotation was performed by a collaborating pathologist, identifying regions including cancer, dysplasia/cancer in situ, benign epithelium, interface, muscularis, and stroma. Cancer-associated cells were defined by two criteria: (1) spatial localization within annotated cancer regions, and (2) absence of canonical epithelial and malignant epithelial markers (CEACAM5, EPCAM, MUC12). Differential expression analyses identified associated cell markers, and the proportions of cell types expressing these markers were quantified. Cell-level regression models incorporated random patient intercepts and clinical covariates (age, gender, microsatellite status, T and N stage), followed by sample-level univariate analyses across all 30 samples to assess associations between STAT1-positive cell clusters and clinical recurrence.
+Results: Differential expression analysis identified STAT1 as the top upregulated gene in cancer-associated cells (log2 fold-change = 2.11; adjusted p < 0.001). Clustering of STAT1-positive cancer-associated cells revealed 10 distinct cell clusters, including 5 cancer-associated fibroblast subtypes, tumor-associated macrophages, mixed T cells, 2 epithelial-like cells, and plasma cells. Regression analyses consistently indicated a negative association between proportion of STAT1-positive plasma cells and colorectal cancer recurrence (OR = 0.19; 95% CI = 0.03-1.13; p = 0.068).
+Conclusion: STAT1-expressing plasma cells in the colorectal cancer microenvironment are significantly associated with recurrence risk. These findings support further validation efforts through immunohistochemistry in a larger study cohort, demonstrating the promise of leveraging spatial transcriptomic insights to inform routine pathology for patient stratification.

@@ -1,0 +1,14 @@
+# CNTF governs exercise-induced myofibroblast reversion in prostate cancer
+
+**Poster #**: 2098
+**Session**: Aging and Host Determinants of Tumor Progression: The Macroenvironmental Axis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Pengju Gong1, Yuan Liu2, Leng Han2, Liuqing Yang1, Chunru Lin1
+
+1Department of Molecular and Cellular Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX,2Department of Biostatistics and Health Data Science, Indiana University School of Medicine, Indianapolis, IN
+
+---
+
+Prostate cancer (PCa) remains a major cause of cancer-related morbidity and mortality in the United States, with more than 2.5 million new cases reported annually. Epidemiological studies suggest that physical exercise reduces PCa risk and progression, yet the underlying molecular and stromal mechanisms remain poorly defined. Here, we demonstrate that long-term and moderate exercise significantly suppresses primary tumor growth and metastatic spread in the Transgenic Adenocarcinoma of the Mouse Prostate (TRAMP) model. Single-cell RNA-seq and spatial analyses of the tumor microenvironment (TME) revealed an abundance of myofibroblast populations in PCa, a hallmark associated with tumor progression and immunosuppression. Exercise robustly reversed this myofibroblast transition, shifting fibroblasts toward a resting phenotype in the TRAMP model. Mechanistically, we identified ciliary neurotrophic factor (CNTF) as an exercise-induced cytokine that restrains myofibroblast transition and enhances CD8&#8314; T-cell infiltration within the TME. This CNTF-dependent remodeling of the TME emerged as a key determinant of the anti-tumor effects of exercise. Therapeutically, recombinant CNTF suppressed PCa tumor growth in vivo and demonstrated synergy with immune checkpoint blockade, suggesting that CNTF restoration provides a promising strategy to sensitize PCa to immunotherapy. Collectively, our findings reveal a previously unrecognized CNTF-mediated axis that links physical exercise to fibroblast plasticity and anti-tumor immunity in PCa. This work also provides critical insights into mitigating potential risk factors for PCa patient survival outcomes, offering an avenue for further studies that may serve as a foundation for future clinical considerations for patients with this cancer type.

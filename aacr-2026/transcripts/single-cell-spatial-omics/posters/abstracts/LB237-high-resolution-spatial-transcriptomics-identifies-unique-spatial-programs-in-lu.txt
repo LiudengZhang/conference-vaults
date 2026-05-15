@@ -1,0 +1,17 @@
+# High-resolution spatial transcriptomics identifies unique spatial programs in lung adenocarcinoma from never smokers
+
+**Poster #**: LB237
+**Session**: Late-Breaking Research: Tumor Biology 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Wei Zhao1, Aaron Rozeboom2, Phuc  H.  Hoang1, Tam-Anh Tran1, Maria Teresa Landi1
+
+1National Cancer Inst. Div. of Cancer Epidemiology & Genetics, Bethesda, MD,2Cancer Genomics Research Laboratory, Leidos Biomedical Research, Frederick National Laboratory for Cancer Research, Frederick, MD
+
+---
+
+Background: The development and molecular architecture of lung adenocarcinoma (LUAD) in never smokers (NS-LUAD) remain poorly understood. Spatial transcriptomics offers an opportunity to resolve tumor-microenvironment organization and detect spatially restricted cellular programs that may influence tumor evolution.
+Methods: We profiled LUAD and matched normal lung tissues using the 10x Xenium 5K platform in 15 NS-LUAD and 11 paired normal samples. For comparison, we also analyzed three LUAD and paired normal samples from smokers. To evaluate cross-platform reproducibility, eight adjacent tissue sections, including six from NS-LUAD and two from smokers, were also analyzed using the Visium HD platform. Spatial cellular composition, tumor-intrinsic cell states, and microenvironmental features were assessed using multiple computational approaches (e.g. SPARK-X, BANKSY, CellChat).
+Results: Across paired sections, we observed markedly reduced transcript capture in Visium HD compared with Xenium, despite high-quality Xenium data from the same tissues, suggesting that Visium HD may have reduced sensitivity in lung tissue, highlighting important platform-specific considerations. Analysis of Xenium datasets revealed substantial spatial heterogeneity among LUAD tumors, with differences associated with distinct driver gene alterations .NS-LUAD displayed spatially organized transcriptional programs and microenvironmental patterns that differed from those in smoker-associated LUAD.
+Conclusions: High-resolution Xenium-based spatial transcriptomics provides a robust framework to characterize spatial cellular architecture in LUAD and reveals distinct spatial features by smoking status. Ongoing analyses will refine tumor and immune cell-state definitions and identify spatial features linked to oncogenic drivers and disease evolution.

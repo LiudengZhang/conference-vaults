@@ -1,0 +1,14 @@
+# High resolution spatial transcriptomics reveals dynamic remodeling of the tumor microenvironment during prostate cancer progression
+
+**Poster #**: 4949
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jiayi Zhou, Gabriel Cruz, Somnath Mahapatra, Radha Paturu, Hanbyul Cho, Xuhong Cao, Fengyun Su, Rui Wang, Dan Robinson, Yi-Mi Wu, Rohit Mehra, Kayla Muschong, Christine Caldwell Smith, Chelsea Decker, Chandan Kumar-Sinha, Saravana Mohan Dhanasekaran, Rahul Mannan, Yuping Zhang, Arul Chinnaiyan
+
+University of Michigan, Ann Arbor, MI
+
+---
+
+Prostate cancer exhibits diverse cellular composition, and the interaction between the tumor epithelial and tumor microenvironment (TME) cell types plays a crucial role in disease progression. However, due to technical limitations, systematic characterization of microenvironmental influences on prostate cancer progression remains insufficient. This study combined an assembled single-cell transcriptomic data (163 prostate samples; 756,000 high-quality cells) with the spatial data we obtained from 20 primary prostate tumors using the Visium HD platform to create high-resolution spatial profiles of the TME in prostate cancer. Our approach enabled detailed investigation of the dynamic remodeling of TME during prostate cancer progression from benign to low- and high-grade lesions. Our spatial transcriptomics data cohort includes 13 high-grade (grade group>=2) and 7 low-grade cases (grade group 1). We used the single cell clustering results as a reference and applied robust cell type decomposition (RCTD) to annotate the Visium HD data. In total, we identified 15 major cell types within the microenvironment and observed significant differences in the distribution of TME cell types and their frequency across benign, low-grade, and high-grade prostate cancers areas. Inflammatory fibroblasts and their gene signature were more prevalent in benign and low-grade microenvironments, whereas they decreased in high-grade TME. Conversely, myofibroblasts and their gene signature were enriched in high-grade TMEs. Within the smooth muscle populations, the more proliferative and migratory synthetic type (THY1-high) is increased in high-grade TMEs, while the contractile type (RERGL-high) was enriched in benign and low-grade microenvironments. Among endothelial cells, the abundant pro-angiogenesis subpopulation (EDNRB-high) was noted in high-grade TMEs, in contrast to the preferential enrichment of anti-angiogenesis subpopulation (RGS16-high), in localized to benign and low-grade microenvironments. Our findings uncover variations in the TME across tumor stages and implicate several important cell types that may influence prostate cancer progression, offering clues for future therapeutic exploration.

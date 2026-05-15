@@ -1,0 +1,14 @@
+# Evaluation of tumor-infiltrating &#947;&#948; T cells across solid tumor indications
+
+**Poster #**: 7389
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Shawn P. Fahl, Cavin Ott, Kerri Colwell, Kayla Williams, Audrey Kleeman, Jessica Maxwell
+
+Discovery Life Sciences, Huntsville, AL
+
+---
+
+The tumor microenvironment is a complex heterogeneous cellular mixture containing not only tumor cells, but also immune cells, fibroblasts, and endothelial cells. Based on numerous factors, including cellular subtype and activation, these cell types can have both tumor-promoting and tumor-eradicating activities. We have previously analyzed both intra-tumoral &#945;&#946; T cells and B cells using a combination of flow cytometry and single cell transcriptomics across solid tumor indications such as bladder, colorectal, endometrial, lung, ovarian, prostate, and renal cancer using human dissociated tumor cells (DTCs). &#945;&#946; T cells represented the largest tumor-infiltrating lymphocyte (TIL) subset, and the majority of &#945;&#946; T cells were in an exhausted state based on high surface expression of inhibitory receptors such as PD1 and TIGIT. Across all indications, B cells were the next most prevalent TIL subset, although indication-specific differences were observed. Overall, like &#945;&#946; T cells, intra-tumoral B cells had an exhausted phenotype, and a high proportion of these B cells were plasmablasts.&#947;&#948; T cells represent an attractive candidate for immunomodulation as they recognize their cognate antigens in an HLA-independent manner and have intrinsic cytotoxic potential. Previous studies utilized large scale bulk transcriptomics inferred a substantial percentage of &#947;&#948; T cells across several solid tumor indications. Further studies in melanoma and colorectal cancer analyzed the activation status and V&#948;1/2 usage of intra-tumoral &#947;&#948; T cells; however, a fully comprehensive evaluation and comparison of &#947;&#948; T cell activation status, V&#947;/V&#948; usage, and putative &#947;&#948; T cell ligand expression across numerous indications remains unstudied. We have now utilized DTCs across twelve solid tumor indications to analyze the relative percentages of &#947;&#948; T cells, including their V&#947; chain and V&#948; chain usage. The na&#239;ve versus memory phenotype of the &#947;&#948; T cells and the surface expression of exhaustion and natural cytotoxicity receptors were also evaluated. Finally, the expression of &#947;&#948; T cell ligands, such as stress receptors and butyrophilins, on the tumor cells was assessed. Collectively, these studies provide crucial insight into the indication-specific &#947;&#948; T cell composition to inform future &#947;&#948; T cell-mediated immunotherapies.

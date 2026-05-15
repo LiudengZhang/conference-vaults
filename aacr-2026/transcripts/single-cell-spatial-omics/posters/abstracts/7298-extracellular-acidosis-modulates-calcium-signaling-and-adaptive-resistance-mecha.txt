@@ -1,0 +1,17 @@
+# Extracellular acidosis modulates calcium signaling and adaptive resistance mechanisms in acute myeloid leukemia
+
+**Poster #**: 7298
+**Session**: Hypoxic and Proteotoxic Stress Response
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Eva Gez1, Sofia Titah1, Aurélie Guillemette1, Céline Berthon1, Laure Goursaud1, Nathalie Jouy2, Loic Lemonnier3, Salomon Manier1, Carine Brinster1, Suman Mitra1, Bruno Quesnel1, Yasmine Touil1
+
+1Univ. Lille, CNRS, Inserm, CHU Lille, Institut Pasteur de Lille, UMR9020-U1277-CANTHER-Cancer Heterogeneity Plasticity and Resistance to Therapies, F-59000 Lille, France., Lille, France,2Univ. Lille, CNRS, Inserm, CHU Lille, Institut Pasteur de Lille, US 41 - UAR 2014 - PLBS, F-59000 Lille, France, Lille, France,3Univ. Lille, Inserm, U1003 - PHYCELL - Physiologie Cellulaire, F-59000 Lille, France., Lille, France
+
+---
+
+Acute Myeloid Leukemia (AML) is a malignant hematological disease with a high relapse rate linked to multiple resistance mechanisms, including leukemic stem cells, apoptosis resistance, and efflux pump activation. Previous work in the host laboratory demonstrated that calcium signaling contributes to these resistance pathways. At the same time, the Warburg effect induces extracellular acidosis, a hallmark of aggressive cancer phenotypes. This study investigates whether an acidic extracellular pH alters calcium signaling and thus participates in AML resistance mechanisms.
+The MOLM-13 AML cell line was exposed to acidic (pH 6.5) or neutral (pH 7.4) conditions for various durations (&#8220;real-time,&#8221; 24 h, and 72 h). Cell proliferation and cycle distribution (Ki-67/IP), viability and apoptosis (Annexin V/IP), leukemic stem-like subpopulations (CD34&#8314;/CD38&#8315;), and efflux pump activity (rhodamine exclusion) were analyzed by flow cytometry. Expression of genes regulating pH and calcium homeostasis (STIM, ORAI, SERCA, PMCA families) was quantified by qPCR, and intracellular pH and Ca&#178;&#8314; fluxes were assessed by flow cytometry using fluorescent probes.
+Preliminary results show that exposure to pH 6.5 transiently slows proliferation and induces G&#8321; arrest without loss of viability or apoptosis. Acidic pH rapidly increases multidrug resistance (MDR) activity, suggesting an adaptive response, but does not enrich for CD34&#8314; stem-like cells. At the signaling level, acidity downregulates STIM2, SERCA2, ORAI1, and PMCA1 expression and transiently inhibits store-operated calcium entry (SOCE), an effect that diminishes after 72 h, indicating cellular adaptation to the acidic environment.
+These findings demonstrate that extracellular acidosis reshapes calcium signaling and efflux activity, enabling rapid metabolic and signaling adaptation in AML cells. Future work will include precise intracellular pH measurements, exploration of TRP channels and STIM2 isoforms, and single-cell RNA-seq to map transcriptional heterogeneity in acidic conditions, using both cell lines and patient-derived PBMC samples.

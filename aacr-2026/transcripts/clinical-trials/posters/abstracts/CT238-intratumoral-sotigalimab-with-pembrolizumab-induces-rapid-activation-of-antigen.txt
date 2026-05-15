@@ -1,0 +1,12 @@
+# Intratumoral sotigalimab with pembrolizumab induces rapid activation of antigen presenting cells and drives anti-tumor responses in non-injected tumors in metastatic melanoma: A phase I/II study
+
+**Poster #**: CT238
+**Session**: Phase II Clinical Trials
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Salah-Eddine Bentebibel1, Daniel J McGrail1, Veena Kochat1, Emre Arslan1, Reham Abdel-Wahab1, Sung-Nam Cho1, Xiaodong Yang2, Daniel H Johnson1, Rodabe N Amaria1, Isabella C Glitza1, Patrick Hwu1, Hussein A Tawbi1, Jared K Burks1, Michael A Davies1, Kunal Rai1, Suhendan Ekmekcioglu1, Adi Diab11UT MD Anderson Cancer Center, Houston, TX,2Pyxis Oncology inc, Boston,, MA
+
+---
+
+Checkpoint-inhibitors (CPIs) improve outcomes in metastatic melanoma (MM), but resistance limits benefit. This phase I/II (NCT02706353) study evaluated intratumoral sotigalimab (an anti-CD40 agonistic antibody) with pembrolizumab in 32 CPI-naïve MM patients. Here, we report the final safety outcomes, clinical efficacy results, and comprehensive biomarker analyses from this trial. Primary endpoints included determining safety and tolerability, the recommended phase 2 dose (RP2D) of sotigalimab, and the objective response rate (ORR). The most common adverse events (AEs) related to sotigalimab were injection-site reactions, pruritus, and fatigue. Sotigalimab was well tolerated; common adverse events were injection-site reactions, and fatigue. At the RP2D, the ORR was 50% and the disease control rate (DCR) was 92%, with ORR of 67% in injected tumors and 50% in non-injected tumors. Multiomic biomarker analyses of tumor and blood samples collected before and during treatment demonstrated that sotigalimab effectively engaged the CD40 pathway, boosting the infiltration and activation of myeloid cells, including CD11c+DC-LAMP+ dendritic cells (DCs) and macrophages. The combination therapy activated innate and adaptive immunity in injected tumors and cytotoxic responses in non-injected tumors. TCR sequencing analysis showed increased T-cell clonality with expanded new clones shared across tumors. Clinical responses correlated with these immunologic changes, but not with baseline immunological features associated with response to anti-PD1 monotherapy. These findings suggest that intratumoral sotigalimab may enhance anti-PD1 therapy, supporting the need for further randomized phase 2 trials to better evaluate its therapeutic potential in the 'in situ' immunization approach.

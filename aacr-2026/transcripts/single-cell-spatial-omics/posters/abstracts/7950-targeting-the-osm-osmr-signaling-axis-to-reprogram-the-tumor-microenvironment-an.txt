@@ -1,0 +1,14 @@
+# Targeting the OSM-OSMR signaling axis to reprogram the tumor microenvironment and overcome immune suppression in pancreatic cancer
+
+**Poster #**: 7950
+**Session**: Tumor Microenvironment Modulators
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Yuan Sui, Tony Hunter
+
+Salk Institute, La Jolla, CA
+
+---
+
+Pancreatic ductal adenocarcinoma (PDA) is one of the deadliest malignancies, characterized by a dense, fibrotic, and immune&#8209;excluded tumor microenvironment (TME) that resists current therapies. Emerging evidence implicates the Oncostatin M (OSM)-Oncostatin M receptor (OSMR) signaling axis, a member of the IL&#8209;6 cytokine family, as a key driver of PDA progression through regulation of tumor-stroma-immune interactions. My research aims to define how OSM-OSMR signaling orchestrates the immune&#8209;suppressive microenvironment in PDA and to evaluate whether its inhibition can reprogram tumors toward immune responsiveness.Spatial transcriptomics analysis of treatment&#8209;na&#239;ve human PDA revealed high OSMR expression associated with cancer&#8209;associated fibroblast (CAF) activation, stromal stiffness, and enrichment of macrophage and monocyte gene signatures, alongside reduced CD8&#8314; T&#8209;cell infiltration. Integrated transcriptomic analyses identified OSMR&#8209;associated genes enriched for NF&#8209;&#954;B, JAK-STAT, and IFN&#8209;&#947; pathways. Functional studies showed that OSM-OSMR signaling promotes PDA cell proliferation, migration, and invasion, while driving CAF activation and polarization of monocytes toward immunosuppressive CD163&#8314;/CD206&#8314; macrophages. In ex vivo human PDA slice cultures, recombinant OSM enhanced proliferation and STAT3 phosphorylation, effects reversed by OSM or OSMR neutralizing antibodies.To dissect the underlying mechanisms, I employed CRISPR&#8209;engineered OSMR knockout and rescue PDA cell lines, OSMR&#8209;overexpressing CAFs, and 3D co&#8209;cultures with monocyte&#8209;derived macrophages, integrated with single&#8209;cell RNA&#8209;seq, phospho&#8209;proteomics, and spatial transcriptomics. Parallel translational studies will test OSM/OSMR&#8209;neutralizing antibodies in patient&#8209;derived organoids, tumor slice cultures, and genetically engineered mouse models (GEMMs), alone or in combination with FDA&#8209;approved chemotherapies. These studies will assess the effects of OSM-OSMR signaling on tumor growth, stromal remodeling, immune infiltration, and metastasis.By defining how OSM-OSMR signaling sustains PDA&#8217;s fibrotic and immune&#8209;suppressive TME and establishing its therapeutic vulnerability, this work aims to develop rational strategies that reprogram the TME, enhance immunotherapy responsiveness, and improve outcomes for patients with pancreatic cancer.

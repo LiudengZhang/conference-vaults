@@ -1,0 +1,14 @@
+# ELF3-driven epigenetic reprogramming creates ERK pathway dependency in SERD-resistant ER+ breast cancer
+
+**Poster #**: 1783
+**Session**: Mechanisms of Drug Resistance 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Na Zhang1, Myles A. Brown1, Rongbin Zheng2, Kaifu Chen3
+
+1Dana-Farber Cancer Institute, Boston, MA,2Boston Children's Hospital, Boston, MA,3Boston Children's Hospital, Bosotn, MA
+
+---
+
+Selective estrogen receptor degraders (SERDs) such as fulvestrant represent a promising therapeutic strategy for endocrine-resistant ER+ breast cancers. However, acquired resistance to SERDs remains a significant clinical challenge, and mechanisms underlying SERD resistance without ESR1 mutations are poorly understood. With the new generation of oral SERDs entering clinic, there is urgent need to understand the mechanisms of SERD resistance. Using genome-wide CRISPR knockout screens in parental and fulvestrant-resistant MCF7 cells, we identified ELF3 as a critical driver of SERD resistance. We then performed multi-omics profiling including RNA-seq, ATAC-seq, H3K27ac ChIP-seq, ER ChIP-seq and ELF3 ChIP-seq to characterize the parental and fulvestrant-resistant cell models. We found that SERD-resistant cells exhibited a stable ERlow/ELF3hi phenotype driven by a dysregulated ER&#945;-ELF3 reciprocal negative feedback circuit. Multi-omics profiling revealed that ELF3 motifs ranked as the top enriched transcription factor binding motif in both gained ATAC-seq and H3K27ac peaks in the resistant cells. ELF3 ChIP-seq identified ~ 5,000 gained binding sites in resistant cells that co-localized with dramatic increases in chromatin accessibility and H3K27ac signals, confirming robust ELF3-driven enhancer activation of ER-independent survival programs. To assess ELF3-driven transcriptional changes associated with SERD resistance, we integrated ELF3 ChIP-seq data with RNA-seq data from both parental and SERD-resistant cells. We derived an ELF3 signature consisting of the top 500 genes that showed both increased ELF3 binding and elevated expression in the resistant cells. Pathway enrichment analysis revealed that ELF3 target genes are highly enriched in ERK signaling components. Experimental validation showed that resistant cells exhibited marked ERK pathway activation and developed strong dependency on ERK signaling, with increased sensitivity to MEK inhibitor trametinib. Re-analysis of single-cell RNA-seq from a metastatic breast cancer cohort confirmed that ERlow/ELF3hi tumor cells show enrichment of the ELF3 signature and increased ERK signaling compared to ERhi/ELF3low cells. We define a novel mechanism of SERD resistance where the ERlow/ELF3hi state drives resistance by activating an ELF3-ERK signaling axis. Targeting this pathway may overcome resistance in ERlow/ELF3hi tumors.

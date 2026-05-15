@@ -1,0 +1,14 @@
+# Cross-platform comparison of spatial transcriptomics technologies in an FFPE lung squamous cell carcinoma sample
+
+**Poster #**: 4960
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Bryan Bell, Cedric Uytingco, Alec Barrett, Bryant Ngo, Jonathan Sakkos, Diksha Kool, Wanxin Wang, Melissa del Rosario, Christina Chang, Christina Fan, Andrew Farmer
+
+Takara Bio USA, San Jose, CA
+
+---
+
+Spatial transcriptomics technologies vary widely in methodology, spatial resolution, sensitivity, and compatibility with FFPE tissues, yet comparative data generated from the same clinical specimen remain limited. We conducted a benchmarking study using a single FFPE lung squamous cell carcinoma block to evaluate Takara Trekker&#8482; alongside Visium, Visium HD, and Xenium. Sections from the same block were processed with each platform following standard workflows. Trekker employs a unique spatial-tagging strategy that preserves the positional identity of intact nuclei and integrates seamlessly with the 10x Flex assay, enabling true single-cell&#8211;resolution spatial profiling. Visium HD and Visium provide array-based mRNA capture and Xenium enabled targeted in situ detection. Data were processed with platform-specific pipelines.Within the same tumor region, Trekker delivered higher gene recovery and captured malignant, immune, and stromal populations with spatial patterns broadly aligned with histopathology. Comparisons with Visium HD showed overall spatial concordance in major tumor and stromal features. Trekker&#8217;s increased sensitivity relative to Visium HD and Visium resulted in deeper transcriptome coverage and clearer separation of transcriptionally distinct tumor states. The nuclei-based workflow also supported reliable detection of lower expressing genes. Xenium offered high-resolution, targeted measurements that aligned with Trekker&#8217;s major spatial features, though its panel limited unbiased transcriptome-wide discovery.Across platforms, integrated analysis showed that Trekker provided strong concordance with both high-resolution imaging-based signals and array-level structure while preserving the advantages of whole-transcriptome profiling from FFPE. These findings demonstrate that Trekker enables high-resolution, scalable, and unbiased spatial characterization of archival lung cancer tissue and complements existing spatial technologies by combining flexible FFPE compatibility with comprehensive molecular detection.

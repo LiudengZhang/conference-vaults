@@ -1,0 +1,14 @@
+# Single-cell transcriptomics reveal functional interaction between CD4+ T cells and B cells driving the activated peripheral immune phenotype in healthy women living with germline pathogenic BRCA1 variants
+
+**Poster #**: 6569
+**Session**: Inflammation, Immunity, and Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Vince Kornel Grolmusz1, Klaudia Horti-Oravecz1, István Kelemen1, István Likó1, Anikó Bozsik1, Tímea Pócza1, Janos Papp1, Szonja Polett Pósa1, Lorinc S. Pongor2, Henriett Butz1, Attila Patócs1
+
+1National Institute of Oncology Hungary, Budapest, Hungary,2Hungarian Center of Excellence for Molecular Medicine, Szeged, Hungary
+
+---
+
+Our previous, mass cytometry-based results signalled an enrichment of peripheral activated CD4+ T and B cells in healthy women living with germline pathogenic BRCA1 variants (gpath(BRCA1)) and in triple-negative breast cancer (TNBC) patients. Our aim was to assess the transcriptional background of this activation and investigate the interrelation between these two cell populations. Peripheral blood mononuclear cells were isolated from five healthy women living with gpath(BRCA1), seven women with treatment-naive TNBC living with gpath(BRCA1) and seven, age-matched healthy women living without hereditary cancer predisposition (control group). Viable single-cell suspensions were subjected to single-cell transcriptomic library preparation using the Chromium Controller. Libraries were sequenced on a Novaseq 6000 instrument. Bioinformatic analyses were performed using the CellRanger, Seurat, AUCell, CellChat and Monocle3 packages. Following quality control, 100 132 cells were analyzed. CD4+ T cells, CD8+ T cells, NK cells, B cells and monocytes were annotated and subclustered to subpopulations. B cell frequencies in gpath(BRCA1) study groups were decreased compared to controls. A pro-inflammatory B cell subpopulation was more frequent in healthy gpath(BRCA1) carriers while an activated Th17-polarized CD4+ T cell subpopulation was elevated in both healthy and TNBC-bearing gpath(BRCA1) study groups. Ligand-receptor interaction network analysis between these two subpopulations revealed a striking increase in interaction strength in gpath(BRCA1) carriers and identified multiple inflammatory cytokines which mediate the observed activated peripheral immune phenotype. Our results confirm the activated peripheral immune profile of healthy women living with gpath(BRCA1). This activated peripheral immune phenotype and the functional interactions between CD4+ T cells and B cells might serve as targets during precision prevention approaches in women living with gpath(BRCA1).

@@ -1,0 +1,12 @@
+# Pharmacokinetics of a series of anticancer agents in immunodeficient female NOD scid gamma mice
+
+**Poster #**: 3156
+**Session**: Pharmacogenomics and Translational Biomarkers for Precision Cancer Therapy
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Mohd Beshr Chama1, Emily  J.  Koubek2, Sarah A. Buhrow3, Renee A. Schoon1, Joel M. Reid31Oncology Department, Division of Oncology Research, Mayo Clinic, Rochester, MN,2University of Michigan, Ann Arbor, MI,3Mayo Clinic, Rochester, MN
+
+---
+
+Introduction: We aimed to characterize the preclinical pharmacokinetics (PK) of a series of 20 anticancer agents in highly immunodeficient female NOD scid gamma (NSG) mice to provide clearance and exposure data for agents under investigation by the NCI PDX Development and Trial Centers Research Network (PDXNet).Methods: The series of 20 anticancer agents (inhibitors of CDK4/6, PI3K-β/PI3K-δ, ATR, MEK1/2, PI3K, microtubule, EZH2, BCL-2, PARP, histone deacetylase, γ-secretase, FGFR, SHP2, and ERK1/2, as well as a SMAC mimetic) were administered to female NSG mice via IV, PO, or IP routes to characterize plasma exposures under conditions used for PDX efficacy testing. Serial plasma samples were collected 15, 30, 60, 120, 240, 360, 480, and 1440 minutes after dosing. Drug concentrations were quantified using validated LC-MS/MS assays. PK parameters were calculated using non-compartmental analysis.Results: The PK for each agent was determined, and the clearance and half-life values are listed in the table below. The PK metrics for Navitoclax could not be calculated. Due to higher metabolic rates, mice show faster PK processes. They generally had shorter half-lives and higher weight-normalized clearance than humans. Copanlisib, Navitoclax, and Trametinib were exceptions.Conclusion: These PK data are critical for understanding the antitumor activities of agents studied by the PDXNet and will aid investigators in developing new approach methodologies for preclinical safety studies in preparation for human clinical trials.Pharmacokinetic AnalysisAgentClearance (L/hr*kg)Half-life (Hours)abemaciclib1.3210.99AZD818642.42BAY-18953441.774.72birinapant4.198.47cobimetinib0.7621.9copanlisib9.422.78docetaxel1.711.17EPZ-0119891.132.06niraparib1.2510.11olaparib4.633.44panobinostat241.553.80RO49290971.014.2rogaratinib0.463.86romidepsin6.214.38selumetinib0.775.91SHP0990.3555.12talozoparib0.2954.26trametinib0.3137.47ulixertinib0.322.48

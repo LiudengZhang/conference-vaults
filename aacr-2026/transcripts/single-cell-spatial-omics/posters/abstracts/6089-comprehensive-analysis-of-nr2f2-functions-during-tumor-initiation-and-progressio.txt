@@ -1,0 +1,17 @@
+# Comprehensive analysis of NR2F2 functions during tumor initiation and progression in a genetically engineered mouse model of high-grade serous ovarian carcinoma
+
+**Poster #**: 6089
+**Session**: Mechanisms of Metastasis
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Miranda Mansolf1, Danqi Liao2, Samantha Goncalves Novo1, Tobias  M.  Hartwich1, Jasmine Jathan1, Kevin Yang1, Viktoriia Kolesnyk1, Smita Krishnaswamy2, Yang Yang-Hartwich1
+
+1Yale School of Medicine, New Haven, CT,2Yale University, New Haven, CT
+
+---
+
+High-grade serous ovarian carcinoma (HGSOC) is often diagnosed at late stages when tumors have metastasized in the peritoneal cavity. We know HGSOC can originate from fallopian tube secretory epithelial cells, yet the molecular and cellular processes controlling tumor metastasis from the origin are still unclear. Using a genetically engineered mouse model (GEMM) and patient-derived cell lines, we aim to understand the molecular mechanism of tumor progression and metastasis in HGSOC with a focus on the orphan nuclear receptor NR2F2, which was identified as a potential transcriptional regulator in a subpopulation of fallopian tube secretory epithelial cells with tumor forming ability. Inhibition of NR2F2 has shown therapeutic effects in prostate and breast cancer preclinical models. A better understanding of NR2F2 functions in HGSOC is a critical step in developing therapeutic approaches to target oncogenic NR2F2.
+Method: Distal oviducts collected from BPRN mice at different timepoints of ovarian tumor formation (2, 4, 6, and 8 months) were analyzed using single cell RNA-sequencing and deep learning AI tools (PHATE and MIOFlow). Bulk RNA sequencing was subsequently used to evaluate gene expression changes in murine and human ovarian cancer cell lines expressing inducible shRNA targeting NR2F2 or scramble shRNA. Co-immunoprecipitation and mass spectrometry (Co-IP/MS) were performed to identify NR2F2-interacting proteins in human ovarian cancer cells overexpressing NR2F2 or treated with a small molecule inhibitor of NR2F2. Chromatin immunoprecipitation sequencing (ChIP-seq) was used to characterize genes and related pathways regulated by NR2F2 and its co-factors.
+Result: Trajectory analysis of single cell RNA-sequencing data identified that NR2F2 and its target genes are enriched in a subpopulation of oviduct epithelial cells. The upregulated NR2F2 pathway is associated with tumor development and gene signatures of metastasis. Bulk RNA sequencing of human and mouse cancer cell lines with inducible NR2F2 knockdown demonstrated that NR2F2 regulates signaling pathways involved in cell cycle, cytokine signaling, and extracellular matrix/integrin interactions. Co-IP/MS results show that NR2F2 interacts with several key regulators of tumor progression including PARP1, beta-catenin, and menin 1. ChIP-seq results identified genes directly regulated by NR2F2 and its co-factors.
+Conclusion: Through comprehensive analyses of NR2F2 functions in the GEMM, we identified genes and co-transcriptional factors that are regulated by NR2F2. This knowledge will advance our understanding of NR2F2&#8217;s role in regulating HGSOC initiation and metastasis from the fallopian tubes. Our findings support the rationale of evaluating the therapeutic potential of NR2F2 inhibitors in preventing metastatic recurrence after debulking surgery.

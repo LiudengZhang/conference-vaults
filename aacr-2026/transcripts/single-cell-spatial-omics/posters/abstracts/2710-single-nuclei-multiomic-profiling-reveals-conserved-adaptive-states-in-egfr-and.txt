@@ -1,0 +1,17 @@
+# Single-nuclei multiomic profiling reveals conserved adaptive states in EGFR- and ALK-mutant lung adenocarcinoma
+
+**Poster #**: 2710
+**Session**: Integration of Clinical and Research Data
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Naomi Kaste Mfonfu1, Floriane Brayé1, Galina Boldina2, Matteo Cesaroni2, Luc Friboulet1, Sergey Nikolaev1, Andrey Yurchenko1
+
+1INSERM U981 (Gustave Roussy), Villejuif, France,2Translation Medicine Unit, Sanofi, Vitry-sur-seine, France
+
+---
+
+Background: Resistance to EGFR and ALK tyrosine kinase inhibitors (TKIs) in lung adenocarcinoma (LUAD) remains a major clinical challenge. Tumor persistence and relapse arise from dynamic lineage transitions and adaptive signaling rewiring, yet the molecular features defining minimal residual disease (MRD) remain incompletely understood.
+Methods: We generated single-nucleus RNA and ATAC sequencing datasets from the longitudinal patient tumor biopsies at baseline, minimal residual disease (MRD), and relapse. In total, we analyzed 38 patient samples (18 baseline, 10 MRD, 10 relapse, including 6 matched samples) across both RNA-seq and ATAC-seq. Moreover, we generated six patient-derived xenograft (PDX) models harboring EGFR or/and ALK mutations, sampled at baseline and during MRD (2 baseline samples and 3-6 MRD samples per model).
+Results: Transcriptomic analyses revealed consistent remodeling of regulatory programs associated with differentiation, adhesion, and stress adaptation. Across PDX models, a conserved persister signature emerged, enriched in pathways related to ciliogenesis, neuronal signaling, lipid metabolism, and senescence. In patient samples, MRD and relapse were marked by transcriptional transitions from alveolar to ciliated and neuroendocrine-like states, reflecting a lineage continuum also observed in PDXs, and this shift was supported by 127 significantly altered genes between baseline and MRD (34 downregulated and 93 upregulated), quantifying the extent of transcriptional reprogramming associated with the emergence of drug tolerant persister cells.
+Conclusion: Together, these results point to shared adaptive trajectories across preclinical and clinical contexts, capturing the continuum from drug-tolerant persistence to established resistance. These findings define a conserved adaptive landscape across EGFR- and ALK-driven LUAD and lay the groundwork for identifying therapeutic strategies to eradicate residual disease and prevent relapse in TKI-treated lung cancer.

@@ -1,0 +1,12 @@
+# The effects of survivorship patterns and survival parameters on cancer risk across vertebrates
+
+**Poster #**: 5449
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Olivia  K.  Corrao1, Walker Mellon1, Zachary Taylor Compton2, Harley Richker1, Gissel Marquez Alcaraz1, Stefania Kapsetaki3, Joel Brown4, Orsolya Vincze5, Mathieu Giraudeau6, Michael Lynch1, Carlo C. Maley71Biodesign Institute, Arizona State University, Tempe, AZ,2University of Arizona, Tucson, AZ,3Institute of Molecular Biology and Biotechnology of the Foundation for Research and Technology-Hellas, Heraklion, Greece,4Moffitt Cancer Center, Tampa, FL,5French National Center for Scientific Research, Bordeaux, France,6University of La Rochelle, La Rochelle, France,7Arizona State Univ. Biodesign Institute, Tempe, AZ
+
+---
+
+Cancer is a disease that affects all multicellular organisms. However, evolutionary pressures resulted in a diverse range of life history traits, including survivorship patterns, across all species that may significantly impact susceptibility to cancer. This study aims to identify the effects of survivorship patterns and survival parameters in vertebrate species on neoplasia and cancer prevalence. The data used contains necropsy records of 29,702 individual organisms, spanning 100 different species in 4 clades: Mammalia, Reptilia, Amphibia, and Aves. The Rage software in R was used to generate survivorship models and calculate survivorship patterns for each species. Five survival parameters were estimated for each species using the Siler model and the fmsb software in R. We found that species that exhibit a Type I or Type III survivorship pattern have a higher prevalence of both neoplasia and cancer, whereas Type II species develop significantly less neoplasia and cancer. Similarly, we found that species with a low extrinsic mortality rate in the senescent stage have an increased risk of both neoplasia and cancer. This comparative study highlights the effects of life history strategies on cancer and allows for further research on mechanisms of cancer suppression in species with low cancer risk and potential applications to cancer treatment plans in humans.

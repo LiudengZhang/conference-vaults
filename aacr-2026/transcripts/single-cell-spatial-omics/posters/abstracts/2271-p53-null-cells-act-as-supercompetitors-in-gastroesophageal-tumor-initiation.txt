@@ -1,0 +1,14 @@
+# p53-null cells act as supercompetitors in gastroesophageal tumor initiation
+
+**Poster #**: 2271
+**Session**: Tumorigenesis and Early Microenvironmental Trajectories
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Kyle LaBella, Efren Reyes, Mathijs Verhagen, Priyanka Kulkarni, Shadi Tarazi, Shawn Gillespie, Oana Ursu, Louis Vermeulen
+
+Genentech, Inc., South San Francisco, CA
+
+---
+
+TP53 is the most frequently mutated gene in cancer and is often detected in histologically normal tissues decades before malignant transformation. p53-null cells possess a competitive advantage over neighboring wildtype cells, yet the mechanisms that restrain their outgrowth within healthy tissue or drive their expansion in disease remain poorly understood. Here, we investigated the role of p53 inactivation in a new model of Barrett&#8217;s esophagus using long-term live-cell clonal tracing coupled with single-cell RNA sequencing. Using an epithelioid co-culture system of gastric stem cells and esophageal squamous epithelium, we found that gastric epithelial p53-loss confers a strong competitive advantage over neighboring wildtype esophageal squamous cells, leading to the expansion of mutant clones via the active suppression of adjacent wildtype cell proliferation. Mechanistically, these p53-null cells exhibit high levels of chromosomal instability, which drives an altered secretome that represses the growth of wildtype basal cells. Strikingly, p53-null cells remain resistant to these inhibitory factors. Additionally, neutral competition was restored either by deleting cell cycle checkpoint pathways in p53-wildtype neighbors or by blocking the pathways in p53-null cells that confer resistance to secreted inhibitory factors. Collectively, these findings reveal how p53 inactivation alters competitive stem cell dynamics at the gastroesophageal junction and suggest potential strategies for cancer interception in individuals with Barrett&#8217;s Esophagus.

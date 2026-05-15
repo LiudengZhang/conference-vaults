@@ -1,0 +1,17 @@
+# Pre-existing T cells drive durable anti-tumor immunity after oncolytic virus therapy in glioblastoma
+
+**Poster #**: 7743
+**Session**: Immune Response to Therapies
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Maxime Meylan1, Ye Tian1, Lijian Wu1, Alexander  L.  Ling2, Daniel Kovarsky3, Graham  L.  Barlow1, Linh  D.  Nguyen1, Jason Pyrdol1, Lucas Westphal1, Michel Julius1, Nicolas  L.  Gonzalez Castro4, Sydney  D.  Dumont4, Andres Santos2, Itay Tirosh3, Mario  L.  Suva4, E Antonio Chiocca2, Kai  W.  Wucherpfennig1
+
+1Cancer Immunology and Virology, Dana-Farber Cancer Institute, Boston, MA,2Harvey Cushing Neuro-oncology Laboratories, Department of Neurosurgery and Center for Tumors of the, Mass General Brigham Cancer Institute, Boston, MA,3Department of Molecular Cell Biology, Weizmann Institute of Science, Rehovot, Israel,4Department of Pathology and Krantz Family Center for Cancer Research, Massachusetts General Hospital, Boston, MA
+
+---
+
+Background: Recurrent glioblastoma (rGBM) remains refractory to immunotherapy due to sparse and suppressed T cell infiltration. We recently reported that survival correlated with immune activation signatures in rGBM patients receiving the oncolytic HSV-1 (oHSV) rQNestin34.5v.2 (CAN-3110). Here, we provide in-situ and molecular evidence that a single oncolytic virus injection can induce durable, tumor-reactive T cell immunity in rGBM.
+Methods: We integrated highly multiplexed spatial proteomics (CODEX), spatial transcriptomics (Xenium) with custom probes for viral, immune and TCR targets, and bulk TCR-sequencing on paired pre- and post-treatment specimens from a phase 1 clinical trial (NCT03152318).
+Results: T cell densities strongly increased after treatment, with deep infiltration into viable tumor regions persisting up to two years after a single intratumoral oHSV injection. Cytotoxic GZMB+ T cells were located in close proximity with cleaved-caspase 3+ apoptotic tumor cells, and shorter T cell-tumor distance correlated with longer-progression free survival, demonstrating ongoing anti-tumor immunity. Spatial transcriptomics identified CD8+ T cells states expressing early TCR activation (NR4A1, CD69) and tissue residency (ZNF683 [HOBIT], ITGAE [CD103]) programs enriched in the tumor bed while stem-like T cells localized within lymphoid aggregates. Bulk and spatial TCR analyses revealed in-situ expansion of pre-existing tumoral T cell clones whose amplification correlated with survival. Expanded clones featured tissue resident phenotypes and were positioned closer to tumor cells than non-expanded T cells. Viral remnants were limited to necrotic regions and did not co-localize with T cells, suggesting persistent tumor recognition rather than viral antigen.
+Conclusion: These results provide in-situ evidence that a single intratumoral oncolytic virus injection can amplify pre-existing T cells clones and induce sustained T cell mediated tumor cytotoxicity even after virus clearance. This suggests that oncolytic virotherapy is as potent T cell activating strategy in rGBM.

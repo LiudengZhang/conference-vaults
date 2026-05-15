@@ -1,0 +1,17 @@
+# Hypoxia reveals a polyaneuploid cancer cell phenotype with features implicated in tumor escape and early metastasis
+
+**Poster #**: 3473
+**Session**: Migration and Invasion
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Noreen Hosny1, Shengkai Li2, Sarah R. Amend3, Arwa Abdelshafy1, Robert A. Gatenby4, Kenneth J. Pienta3, Joel Brown4, Junle Qu5, Robert  H.  Austin2
+
+1Department of Molecular Biology, Princeton University, Princeton, NJ,2Department of Physics, Princeton University, Princeton, NJ,3Johns Hopkins School of Medicine, Baltimore, MD,4Moffitt Cancer Center, Tampa, FL,5Shenzhen University, Shenzhen, China
+
+---
+
+Ten million people die every year globally due to metastasis, as metastatic disease remains largely incurable with existing therapies. Polyaneuploid cancer cells (PACCs), which are large, endoreplicated cells that arise in response to environmental stressors, have recently been shown to possess an increased capacity for metastatic behavior. Prior studies have enriched for PACCs using high doses of chemotherapy and have demonstrated their altered nutrient-sensing capabilities, yet the dynamics of PACCs within a native, tumor-like hypoxic microenvironment remain poorly defined.
+In this study, we use our previously established in vitro membrane-based culture system that allows cancer cells to self-generate physiologically relevant oxygen gradients. Prostate cancer cells rest beneath an acrylic plug and consume the limited oxygen available directly beneath it, while oxygen diffuses inward from the plug periphery to generate a stable radial gradient. This is coupled with a phosphorescent oxygen-sensing film, whose signal increases in the absence of oxygen, enabling real-time spatial visualization and quantification of hypoxia.
+Prostate cancer-derived PACCs emerged in response to the hypoxic stress and were identified in real time using morphology-based criteria (&#8805;1500 &#181;m2 area and &#8805;3-fold growth over 16 hours). Similar to previous reports in normoxia, long-term single-cell tracking under hypoxia revealed that PACCs exhibited significantly greater net displacement than non-PACCs, suggesting a heightened capacity to invade surrounding tissue during metastatic progression. PACCs also demonstrated a stronger directional bias toward higher oxygen regions within the gradient. This aerotactic behavior suggests two possible roles in PACC dynamics: (1) escape from severely hypoxic tumor regions for survival, and (2) migration toward oxygen-rich vasculature for intravasation during metastasis. Preliminary work in ovarian cancer cells demonstrates similarly enhanced motility of PACCs, suggesting that this phenotype may extend beyond prostate cancer.
+Altogether, these findings suggest that hypoxia shapes a PACC phenotype with enhanced motility and oxygen-directed migration, which may confer increased metastatic potential. Future work will incorporate hanging-drop tumor spheroids in this system to enable 3D modeling of hypoxic PACC behavior and determine whether aerotaxis facilitates outward migration toward oxygen-rich regions.

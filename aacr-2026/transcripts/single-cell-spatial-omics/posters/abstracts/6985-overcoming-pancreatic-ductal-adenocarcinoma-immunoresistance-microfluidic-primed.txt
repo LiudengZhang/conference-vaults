@@ -1,0 +1,17 @@
+# Overcoming pancreatic ductal adenocarcinoma immunoresistance: Microfluidic-primed organoid interacting lymphocytes demonstrate superior infiltration, cytotoxicity, and tumor suppression in patient-derived models
+
+**Poster #**: 6985
+**Session**: Novel Models of Immunotherapy Response
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Eleftherios Makris, Damian Hutchins, Tiefu Liu, Adam Hall, Lance Miller, Shay Soker, Konstantinos Votanopoulos
+
+Wake Forest University School of Medicine, Winston Salem, NC
+
+---
+
+Background: Pancreatic ductal adenocarcinoma (PDAC) remains refractory to immunotherapy due to its immunosuppressive tumor microenvironment (TME), characterized by dense desmoplasia, immune exclusion, and T cell exhaustion. With 5-year survival <13%, novel strategies are urgently needed. We developed a platform to generate and evaluate tumor-specific cytotoxic lymphocytes using immunocompetent patient-derived organoids (PTOs) that recapitulate the PDAC TME.
+Methods: Immunocompetent PTOs (iPTOs) were established by co-culturing resected PDAC tissue with autologous tumor-draining lymph node cells. Autologous PBMCs were primed via microfluidic tumor-on-a-chip circulation, generating Organoid Interacting Lymphocytes (OILs). OILs were expanded for 14 days and co-cultured with patient-matched PTOs at 5&#215; and 10&#215; effector:target ratios. Tumor-immune dynamics were quantified using high-resolution time-lapse microscopy with automated single-cell tracking, flow cytometry (CD45, CK19, viability), and longitudinal tumor area measurements over 96 hours.
+Results: Flow cytometry demonstrated robust immune infiltration, with CD45+ cells comprising 26% of OIL-treated cultures versus 0.5% in tumor-only controls. OILs induced 93% tumor cell death compared to 68% with unstimulated PBMCs. Quantitative tracking revealed OILs migrated 6.1 pixels closer to tumor cells versus 0.6 pixels for PBMCs over 24 hours (P<0.05). At 27 hours, OIL-treated organoids exhibited consistent tumor area reduction (-2% to -13%), while PBMC-treated wells showed variable responses including tumor expansion (+7%). Longitudinal analysis confirmed sustained suppression with live OILs, whereas heat-killed OILs permitted 15-fold tumor expansion, demonstrating viability-dependent cytotoxicity. Time-lapse microscopy captured direct killing events, immune synapse formation, and tumor clustering consistent with immune evasion. These findings replicate observations in appendiceal and mesothelioma models where OILs outperformed tumor-infiltrating lymphocytes.
+Conclusions: OILs represent a potent, patient-specific adaptive cell therapy capable of overcoming PDAC's immunosuppressive TME. This immunocompetent organoid platform enables quantitative real-time assessment of personalized immunotherapies and supports clinical translation of OIL-based therapies for pancreatic cancer.

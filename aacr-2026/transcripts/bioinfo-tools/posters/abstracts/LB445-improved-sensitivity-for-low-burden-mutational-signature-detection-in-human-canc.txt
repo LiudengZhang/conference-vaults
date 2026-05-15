@@ -1,0 +1,12 @@
+# Improved sensitivity for low-burden mutational signature detection in human cancers with SigProfilerCleaner
+
+**Poster #**: LB445
+**Session**: Late-Breaking Research: Bioinformatics, Computational Biology, Systems Biology, and Convergent Science 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Haoran Zhang, Raviteja Vangara, Mark Barnes, Ludmil B. AlexandrovUniversity of California San Diego, La Jolla, CA
+
+---
+
+Somatic mutations reflect the activities of multiple endogenous and exogenous mutational processes summarized each exhibiting a characteristic mutational signature. However, in many cancer types, one or a few mutational signatures generate a disproportionately large number of mutations, obscuring the presence of other signatures. This limits our ability to detect all operative mutagenic processes and to fully understand their role in cancer development. To address this, we developed SigProfilerCleaner, a probabilistic algorithm that models and selectively subtracts specified dominant signatures from sample-level mutation catalogs, facilitating the accurate detection of low-burden mutational signatures in human cancers. Given one or a few target signatures as input, this tool outputs cleaned mutation catalogs for downstream analysis with standard signature extraction and assignment pipelines. The method first assigns the maximum plausible contribution to dominant mutational signatures based on the observed catalog and fixed signature profiles. It then refits the remaining mutations using a constrained non-negative least squares (NNLS) approach to generate cleaned sample catalogs. Analysis of 2,700 synthetic cancer genomes across nine cancer types and varying noise levels shows that the method effectively reduces dominant-signature signal while maintaining low false-cleaning rates for signatures that are not present. By probabilistically removing the attributions of dominant mutational signatures, SigProfilerCleaner increases the resolution of mutational signature analysis and enables more sensitive detection of biologically informative, low-burden processes. The method will be released as a module in the SigProfiler suite with an open-source Python package.

@@ -1,0 +1,17 @@
+# Understanding cutaneous immune-related adverse events at single-cell resolution
+
+**Poster #**: 7276
+**Session**: Genomic Approaches to Define Tumor Biology and Clinical Stratification
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Olivia  J.  Cheng1, Nabeela Khan2, Terri Clister2, Rebecca Nichols2, Khanh Doan2, Connor Hall2, Rajan Kulkarni2, Aik Choon Tan1
+
+1University of Utah Huntsman Cancer Institute, Salt Lake City, UT,2OHSU, Lake Oswego, OR
+
+---
+
+Background: Immune checkpoint inhibitor (ICI) treatment has demonstrated clinical efficacies in various cancers. However, alongside the benefits of ICI&#8217;s anti-tumor effect, a subset of patients experience immune-related adverse events (irAEs) that could lead to the termination of treatment, and in severe cases, morbidity and mortality. Cutaneous irAEs often occur early and are among the most common irAE in patients treated with ICIs. In particular, combinations of ICI with other anti-cancer agents can heighten the frequency and severity of irAEs. The goal of this study is to understand the molecular factors of immune-related rash (ir-Rash) and identifying biomarkers for early risk prediction and mechanism-based management.
+Method: Five prostate cancer patients were treated with pembrolizumab and enzalutamide (androgen receptor blocker), and skin samples were collected for longitudinal single cell RNA sequencing (scRNA-seq) at various post-treatment timepoints: Week 0, Week 12, and Rash for those who developed ir-Rash. Cell type annotation, gene set enrichment, cell proportion and cell-cell interaction analyses were performed to identify cell types and biological pathways associated with ir-Rash risk and temporal development. To identify predictive biomarkers correlated with the risk of ir-Rash, baseline Week 0 samples were compared between the rash (R) and no-rash (NR) groups. To understand the temporal changes and mechanisms of actions through ir-Rash onset and resolution, we compared samples from patients with rash at the three timepoints.
+Results: Cell proportion analysis revealed a higher baseline proportion of dendritic cells (DCs) in ir-Rash patients compared to NR patients. Among ir-Rash patients, cytotoxic cell abundance increased at rash timepoint relative to baseline. Single sample gene set enrichment analysis (ssGSEA) of 50 MSigDB hallmark gene sets across 5 conditions (Week0-NR, Week0-R, Rash, Week12-NR, and Week12-R) showed enrichment of pathways including interferon responses and PI3K-AKT-MTOR signaling at Rash. Week0-Rash samples additionally exhibited enrichment of MYC targets, IL2-STAT5 signaling, hypoxia, mTORC1 signaling, and E2F targets. Particularly in DCs, interferon-gamma response was enriched at both Week0-Rash and Rash timepoints. And among cytotoxic cells, notch signaling, MTORC1 signaling, WNT-BETA-Catenin signaling were enriched at the Rash timepoint.
+Conclusions: Our results suggest that immune-related rash is associated with an increase in dendritic cell frequency at baseline and an increase in cytotoxic cells at onset, accompanied by enrichment of pathways including interferon responses. These results may help elucidate potential mechanisms underlying cutaneous toxicity during ICI treatment.

@@ -1,0 +1,12 @@
+# Integrative analysis of genomic and transcriptomic data informs precancer progression in the pancreas
+
+**Poster #**: 41
+**Session**: Application of Bioinformatics to Cancer Biology 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kathleen Noller1, Jiaying Lai2, Daniel Lesperance3, Ricky  S.  Adkins3, Ahmed M. Elhossiny4, Paola  A.  Guerrera5, Kimal Rajapakshe5, Anirban Maitra6, Anup Mahurkar1, Owen White3, Marina Pasca Di Magliano7, Michael Ochs3, Luciane Tsukamoto Kagohara2, Laura Wood2, Rachel Karchin8, Elana Judith Fertig11University of Maryland School of Medicine, Baltimore, MD,2Johns Hopkins University, Baltimore, MD,3University of Maryland, Baltimore, MD,4University of Michigan, Ann Arbor, MI,5University of Texas MD Anderson Cancer Center, Houston, TX,6NYU Langone, New York, NY,7University of Michigan Medical School, Ann Arbor, MI,8Johns Hopkins Univ., Baltimore, MD
+
+---
+
+Pancreatic ductal adenocarcinoma (PDAC) arises from heterogeneous precursor lesions, including intraductal papillary mucinous neoplasms (IPMNs), but the features distinguishing indolent from progressive lesions remain unclear. We performed an integrative analysis of transcriptomic, genomic, and microenvironmental profiles of IPMNs to define multi-omic phenotypes. Using transfer learning, we projected IPMN-derived transcriptional programs onto spatial transcriptomic datasets from IPMNs and pancreatic intraepithelial neoplasias (PanINs). We identified two major phenotypes: one associated with cancer-associated fibroblasts and epithelial-to-mesenchymal transition, shared across IPMN, PanIN, and PDAC; and a second, glycolysis-enriched phenotype with a unique somatic variant profile specific to IPMN. Spatial mapping further revealed grade-specific enrichment of transcriptional programs and distinct interactions with stromal and immune subtypes, underscoring the role of the precancer microenvironment in progression. These findings establish multi-omic phenotypes that unify genetic, transcriptional, and microenvironmental heterogeneity, providing a framework for distinguishing progressive from indolent precancers and a web-based public atlas for future exploration of these data and transcriptional phenotypes.

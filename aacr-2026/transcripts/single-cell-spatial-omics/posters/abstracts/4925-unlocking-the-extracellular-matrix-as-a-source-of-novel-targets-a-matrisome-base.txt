@@ -1,0 +1,21 @@
+# Unlocking the extracellular matrix as a source of novel targets: A matrisome-based platform to characterize the tumor microenvironment
+
+**Poster #**: 4925
+**Session**: Novel Experimental Platforms and Causal Inference
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Edward Long, Cecilia Pennica, Lisa Sassi, Seyed Mahfouzi, Filippo Prestinoni, Luca Frenguelli, Gareth Muirhead, Kovilen Sawmynaden, Athiva Shankar, Tu Vinh, Matthew  J.  Edwards, Chris Stevenson, Emma Huang, Sam Cooper, Giuseppe Mazza
+
+Engitix Therapeutics, London, United Kingdom
+
+---
+
+Background:
+The extracellular matrix (ECM) is a bioactive environment key to tumorigenesis and disease progression. Yet despite evidence that multiple ultra-selective ECM targets exist, efforts to leverage the ECM for therapeutic targeting have remained centered on fibronectin isoforms.
+Methods:
+We leveraged a decellularization protocol focused on preserving stable ECM targets to characterize the matrisome in three cancer indications, including moderately to poorly differentiated pancreatic ductal adenocarcinoma (PDAC) tumors (n = 5; stage IA-IIB), moderately differentiated primary colorectal cancer (CRC) tumors (n = 5; stages I-IIIB), and CRC liver metastases (CRC-LM; n = 5; stage IV). For each indication, we decellularized tumor and background whole-tissue samples using mechanical and chemical approaches. This method enables the removal of cells while preserving 3D ECM structure and composition. Decellularized ECM was then analyzed histologically and with proteomics via TMT DDA mass spectrometry (MS).
+Results:
+Analysis of CRC and CRC-LM tumor and adjacent non-tumor tissue samples identified 1,080 commonly expressed proteins, 79 of which were core matrix proteins and 67 matrix-associated. Tumor-specific matrisome signatures clearly differentiated tumor from non-tumor adjacent tissue samples for both indications&#8212;83 and 96 ECM proteins were differentially expressed in CRC and CRC-LM, respectively (FDR < 0.05). Analysis of PDAC tumors and adjacent non-tumor tissue samples detected 854 proteins, including 103 core matrisome and 77 matrisome-associated proteins. In addition, we identified a PDAC signature of 109 ECM proteins differentially regulated between tumor and background. Critically, comparison of highly enriched targets identified by this study with both bulk and single-cell RNA data indicated that a number of these targets are ultra-selective and could thus serve as valuable ECM-stable candidates for therapeutic targeting.
+Conclusions:
+TMT-MS analysis of decellularized tumors and adjacent non-tumor tissues defined a novel, tumor-specific matrisome signature enriched for stably bound proteins. Integration of this dataset with transcriptomic data identified specific ECM pathways and targets that may be valuable for therapeutic targeting.

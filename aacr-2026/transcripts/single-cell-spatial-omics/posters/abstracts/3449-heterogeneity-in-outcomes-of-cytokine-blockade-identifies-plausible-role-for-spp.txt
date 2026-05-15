@@ -1,0 +1,20 @@
+# Heterogeneity in outcomes of cytokine blockade identifies plausible role for SPP1+macrophages in colorectal liver metastasis immune suppression
+
+**Poster #**: 3449
+**Session**: Microenvironmental Determinants of Therapy Response and Resistance 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Kristin Goodsell1, Jason Carter1, Sheela Damle2, Xiuyun Jiang1, Heidi Kenerson1, Ian  N.  Crispe1, Venu G. Pillarisetty1
+
+1Surgery, University of Washington, Seattle, WA,2Hematology/Oncology, University of Washington, Seattle, WA
+
+---
+
+The failure of immunotherapy to demonstrate a benefit in patients with colorectal cancer liver metastases (CRLM) is likely due to both liver-specific immune tolerance and cancer-specific immune evasion mediated by tumor associated macrophages (TAMs), suppressive cytokines (e.g., interleukin-10/IL-10), and immune checkpoints, such as PD-1-PD-L1. We previously demonstrated that IL-10 blockade can activate antitumor immunity in tumor slice cultures (TSC) of CRLM, while PD-1 blockade failed to do so. We hypothesized that immunosuppressive TAMs in the tumor immune microenvironment (TIME) contributed to treatement failure.
+Cases were classified as responders or non-responders to IL-10 blockade. Clinical characteristics were analyzed. Bulk and single cell RNA sequencing (RNAseq) and multiplexed immunofluorescence (mIF) were performed on subsets of treated samples. RNAseq data were analyzed in R (Seurat) and Python (Scanpy). AIVIA software was used to quantify SPP1 staining on mIF.
+IL-10 blockade increased apoptosis (29% to 45%, p<0.05) across all TSC (n=59). Using two tailed t-test, cases were classified by percent apoptosis in anti-IL-10 treatment versus control as responders (53% vs 23%, p<0.05) and non-responders (25% vs 24%, p=0.67).
+Clinical characteristics including primary site, metachronous/synchronous metastasis, mutation status, and prior therapy were not significantly different between groups. BulkRNAseq demonstrated no difference in baseline IL-10 or IL-10 receptor gene expression between groups. scRNAseq identified TAMs as the major source and both T cells and TAMs as recipients of IL-10 signaling.
+While non-responders had higher baseline expression of genes related to CD8+ T cell activation (p=0.03) and cytotoxicity (p=0.03), they also had a higher abundance of M2-macrophage related genes (p=0.02) and CD8+ T cell exhaustion (p=0.04). Further interrogation of immunosuppressive signaling pathways showed that SPP1 (encoding osteopontin/OPN) is largely expressed by TAMs within CRLM, while T cells and TAMs express OPN receptors (CD44, ITGB1). mIF demonstrates colocalization of macrophage markers (CD68/CD163) and OPN/SPP1. Preliminary analysis showed that non-responders had significantly more OPN/SPP1+ cells on baseline mIF (4.3 vs 0.1%, P=0.01).
+Importantly, we determined that OPN secretion is significantly reduced in responders but unchanged in non-responders. The results suggest a role for TAM-related OPN-mediated immunosuppression in the failure of immunomodulatory treatment.
+We identify SPP1+ TAMs as a potentially critical immunosuppressive population in the TIME of liver metastases. Future work will leverage both orthotopic CRLM models and spatial transcriptomics of human tumors to explore the role of osteopontin signaling in CRLM.

@@ -1,0 +1,17 @@
+# Lactate-driven cholesterol reprogramming induces fibroblast senescence and immune suppression in aged pancreatic cancer
+
+**Poster #**: 2075
+**Session**: Aging and Host Determinants of Tumor Progression: The Macroenvironmental Axis
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Ziyi Tu1, Jinpeng Lu2, Shuncang Zhu1, Hong-yi Lin1, Yi-ting Chen1, Yinhao Chen1, Haoxiang Zhang2, Zu-Wei Wang1, Shi Chen1
+
+1Shengli Clinical Medical College of Fujian Medical University, Fuzhou, China,2University of Kentucky, Lexington, KY
+
+---
+
+Background:Aging profoundly remodels the pancreatic tumor microenvironment (TME), where senescent cancer-associated fibroblasts (senCAFs) accumulate and promote tumor progression. However, the metabolic cues derived from aged tumor cells that induce fibroblast senescence and mediate immune suppression remain poorly understood.
+Methods:Integrated analyses of murine and human single-cell RNA-sequencing datasets combined with multiplex immunofluorescence (mIF) revealed a marked enrichment of p16&#8314; senCAFs in aged pancreatic ductal adenocarcinoma (PDAC). Targeted metabolomics and isotope tracing identified lactate as a key metabolite driving fibroblast senescence. Lactyl-proteomics, ATAC-seq, CUT&#38;Tag, and site-directed mutagenesis were used to define functional lactylation sites. Multiplex cytokine profiling identifies the secretome of senCAFs that modulates the immunosuppressive microenvironment.
+Results:Aged PDAC exhibited a marked expansion of senCAFs, validated by scRNA-seq and mIF. Metabolomic and isotope-tracing analyses revealed that lactate secreted by aged tumor cells was preferentially imported by fibroblasts through upregulated MCT1 transporters, triggering metabolic and phenotypic senescence. Proteomic profiling identified enhanced histone A-protein lactylation (H3K18la) as a key senescence-associated modification strongly correlated with poor prognosis. Mutation of the lactylation site (K18R) restored fibroblast proliferative capacity and reduced SASP secretion. Mechanistically, histone lactylation reprogrammed cholesterol metabolism by transcriptionally activating SQLE (squalene epoxidase), a rate-limiting enzyme in cholesterol biosynthesis. Cholesterol accumulation further reinforced fibroblast senescence and sustained inflammatory SASP signaling, including IL-8, CXCL12, and TGF-&#946;, establishing an immunosuppressive tumor microenvironment. Pharmacologic inhibition of SQLE or blockade of lactate import markedly decreased senCAF accumulation, restored CD8&#8314; T cell infiltration, and improved survival in aged PDAC models.
+Conclusion:Aged PDAC cells metabolically reprogram fibroblasts via lactate-driven histone lactylation, reactivating cholesterol biosynthesis and maintaining senescence. This metabolic-epigenetic axis fuels immune suppression and tumor progression. Targeting the lactate-H3K18la-SQLE pathway offers a promising therapeutic strategy to reprogram the aged tumor stroma and enhance anti-tumor immunity in PDAC.

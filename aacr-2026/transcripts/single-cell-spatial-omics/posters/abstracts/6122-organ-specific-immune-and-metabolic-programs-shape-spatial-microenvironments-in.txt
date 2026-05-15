@@ -1,0 +1,17 @@
+# Organ-specific immune and metabolic programs shape spatial microenvironments in MSS colorectal cancer metastases
+
+**Poster #**: 6122
+**Session**: Metastasis and Organ-Specific Microenvironmental Evolution
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Jian Ye1, Colt A. Egelston2, Chongkai Wang3, Marwan Fakih4
+
+1Department of Medical Oncology and Therapeutics Research, City of Hope National Medical Center, Duarte, CA,2Department of Immuno-Oncology, Beckman Research Institute of the City of Hope, Duarte, CA,3City of Hope National Medical Center, Department of Medical Oncology and Therapeutics Re, CA,4City of Hope National Medical Center, Duarte, CA
+
+---
+
+Background: Our previous spatial analysis of MSS metastatic colorectal cancer (mCRC) revealed organ-specific differences in immune infiltration across metastatic sites (Ye et al., Cancer Res Commun, 2023). Building on that work, we expanded the cohort and applied high-plex spatial transcriptomic and proteomic platforms to characterize region- and organ-dependent microenvironmental programs.
+Methods: Spatial transcriptomic profiling using the GeoMx WTA (70 specimens) was performed across malignant, stromal, invasive-margin, distal, and TLS-associated regions. A 56-plex CODEX spatial proteomic panel (120 specimens) was used for whole-tumor multiplex imaging to visualize immune and stromal architecture.
+Results: Spatial compartment was the primary driver of transcriptional variation, with malignant epithelial regions from different organs clustering closely together and separating distinctly from normal colon villus epithelium and stroma. Liver outer-margin and distal regions formed a separate transcriptomic cluster from analogous regions in other organs, indicating a strong liver-associated imprint. Within this region-defined structure, GSEA revealed coherent organ-specific archetypes. Primary colon generally showed intermediate immune and metabolic programs. Liver metastases showed broad metabolic activation across regions, including lipid and amino-acid metabolism, mitochondrial and peroxisomal activity, and complement-related signatures, reflecting a metabolically conditioned liver niche. Lung metastases were associated with immune-enriched stromal, margin, and distal regions, marked by strong NK-cell cytotoxicity, T cell differentiation, cytokine signaling, mucosal-like immune networks, and antiviral pathways. Peritoneal metastases showed metabolically and immunologically quiet tumor cores, while outer and distal regions were enriched for lipid and steroid metabolism, and ECM and mesothelial activation, consistent with a lipid-rich, immune-poor peritoneal niche. Preliminary CODEX observations were broadly consistent with these patterns. Lung metastases often showed abundant T-cell infiltration; liver metastases showed lymphocytes accumulating at tumor boundaries with myeloid-enriched tumor centers; and peritoneal metastases displayed dense stromal or fibrotic architecture with limited intratumoral lymphocytes.
+Conclusions: High-plex spatial profiling reveals distinct organ-imposed microenvironmental programs in MSS mCRC. Liver metastases adopt a highly metabolic and complement-associated niche, lung metastases display strong peritumoral immune activity, and peritoneal metastases develop within a lipid-rich but immune-low environment. These findings highlight how each organ shapes metastatic ecology and may guide site-adapted therapeutic strategies.

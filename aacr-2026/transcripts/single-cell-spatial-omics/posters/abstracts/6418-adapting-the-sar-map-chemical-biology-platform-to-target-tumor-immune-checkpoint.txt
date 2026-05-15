@@ -1,0 +1,14 @@
+# Adapting the SAR-MAP chemical biology platform to target tumor immune checkpoints
+
+**Poster #**: 6418
+**Session**: Screening and Technology Advances for Probe and Drug Discovery
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Hannah  L.  Thirman1, Stephanie Medina1, Jonathan  M.  Irish2
+
+1Vanderbilt University, Nashville, TN,2University of Colorado, Aurora, CO
+
+---
+
+A major challenge in preclinical drug discovery is adapting deep cellular profiling of complex primary human cells to scalable small-molecule screening and subsequent structure-activity relationship (SAR) studies. This is especially the case when the goal is to target an intercellular interaction, such as a tumor immune checkpoint. We previously developed Structure-Activity Relationships by Multiplexed Activity Profiling (SAR-MAP; PMC12313981), a single cell chemical biology platform that quantitatively maps how small structural changes in compounds can drive distinct functional responses within human cells. SAR-MAP integrates phospho-specific flow cytometry with fluorescent cell barcoding to efficiently profile dozens of key intracellular signaling nodes, surface markers, and cell states in parallel. This platform revealed previously unrecognized mechanistic heterogeneity for the rocaglate natural product family, including a structural feature that confers selective anti-leukemia activity. Here we adapted SAR-MAP to primary human macrophages and established a scalable screening assay capable of dissecting IFN-&#947; responsive pathways, immune checkpoint regulation, and fundamental immune-relevant signaling nodes within a single experiment. Monocytes were isolated from peripheral blood, differentiated, and polarized to an M1-like proinflammatory state using IFN-&#947; in a fluorescently barcoded 96-well format suited for screening and iterative SAR. Multiplexed activity profiling quantified key functional and surface markers including PD-L1, CD14, CD206, and CD32, confirming that IFN-&#947; polarization robustly induces PD-L1 relative to baseline macrophages. This adaptation enables simultaneous evaluation of multiple mechanisms regulating immune checkpoint expression, including direct PD-L1 blockade, modulation of IFN-&#947;, and JAK-STAT1 or mTOR pathway interference. Small molecules that selectively modulate these pathways not only have translational relevance but may also illuminate previously unrecognized targets and mechanisms governing immune regulation. Together, these studies further establish SAR-MAP as a scalable, high-content approach for linking chemical structure to immune regulation in primary human cells.

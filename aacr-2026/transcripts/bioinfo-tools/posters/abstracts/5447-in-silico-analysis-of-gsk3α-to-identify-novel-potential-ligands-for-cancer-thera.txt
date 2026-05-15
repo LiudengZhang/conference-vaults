@@ -1,0 +1,12 @@
+# In silico analysis of GSK3α to identify novel potential ligands for cancer therapy
+
+**Poster #**: 5447
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Neha Sylvia Walter, Sanchit Dora, Jasmeet KaurPostgraduate Institute of Medical Education and Research (PGIMER), Chandigarh, India
+
+---
+
+Cancer prevails as the leading mortality cause worldwide. Constraints like drug resistance and adverse immune events urge the need to find novel treatment targets in cancer patients. Glycogen synthase kinase 3 (GSK3) is a multifunctional kinase that has context-dependent dual role in cancer. Out of the two highly homologous mammalian isoforms of GSK3 (i.e. GSK3α and GSK3β), we explored the predictive and prognostic role, and novel potential ligands for GSK3α. GSK3A gene expression was compared in normal and tumor tissues using TNM plot (https://tnmplot.com/analysis/). Kaplan-Meier plotter (https://kmplot.com/analysis/) was used to correlate GSK3A mRNA expression with survival in cancer patients receiving immunotherapy, for a 240 months follow-up threshold and using median expression. ROC plotter (https://www.rocplot.com) was used to analyze the predictive role of GSK3A gene in cancer patients receiving immunotherapy. The data from KM- and ROC-Plotter was analyzed using Graphpad PRISM 8. Logrank P, 95% confidence intervals and Hazard ratio (HR) were calculated and P value of < 0.05 was considered to be statistically significant. Five ligand libraries from Selleckchem chemical database were docked with GSK3α protein using PyRx Vina Wizard for virtual screening. Ligands with favorable binding energies were validated for drug-likeliness using ProTox 3.0 (https://tox-new.charite.de/protox_II/). GSK3A gene expression was significantly higher in twelve tumors than normal tissue and two normal than tumor tissue. Higher GSK3A mRNA expression was significantly correlated with better OS and not PFS in patients receiving immunotherapy. ROC analysis showed that GSK3A gene expression was significantly associated with combined response to anti-PD-L1 and anti-CTLA-4 therapy, and not to anti-PD-1 therapy. Molecular docking predicted several ligands with strong binding affinity to GSK3α. Shortlisted drugs based on their docking scores were analyzed for their drug-likeliness. MOLI001171, MOLI001205 and Formylmethanofuran were found to be potent GSK3α ligands with potential for cancer therapy.

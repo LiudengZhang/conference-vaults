@@ -1,0 +1,12 @@
+# Reconstruction of Tumor Clonal Trees with Multi-Sample Bulk Sequencing Data by Integrative Combinatorial Optimization
+
+**Poster #**: 6905
+**Session**: New Algorithms and Computational Methods
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Salem Malikic1, Hamza Iseric2, Chih Hao Wu1, Erin Molloy2, S. Cenk Sahinalp11Cancer Data Science Laboratory, Center for Cancer Research, National Cancer Institute, Bethesda, MD,2Department of Computer Science, University of Maryland, College Park, MD
+
+---
+
+Multi-sample bulk DNA sequencing enables reconstruction of a tumor’s clonal history, but scalable methods often rely on heuristic search and provide no optimality guarantees. We present CITUP2, an integrative combinatorial optimization framework that reconstructs clonal trees from descendant cell fractions (DCFs) of mutational clusters. CITUP2 formulates tree inference as a mixed-integer quadratic program (MIQP) that jointly determines the tree topology and clone prevalences across samples. It minimizes a weighted discrepancy between observed and inferred DCFs, with options to prioritize trees exhibiting consistency in the presence-absence patterns of parent-child clones. Under this formulation, CITUP2 returns provably optimal solutions (with respect to the model) and avoids the combinatorial explosion of exhaustive topology enumeration used by existing methods with optimality guarantees. In addition, CITUP2 can report a user-specified number of best trees. In simulations and analyses of a large, recently published multi-sample TRACERx cohort, CITUP2 scales to trees with tens of clones (approximately 30) and matches or improves on the fit attained by state-of-the-art approaches, while providing clear optimality certificates.

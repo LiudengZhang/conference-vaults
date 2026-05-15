@@ -1,0 +1,12 @@
+# Unique tumor ecosystems in metaplastic breast cancer identified through single nucleus RNA sequencing
+
+**Poster #**: 1424
+**Session**: Application of Bioinformatics to Cancer Biology 2
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Aatish Thennavan, Tuan M Tran, Jianzhuo Li, Clinton Yam, Nicholas E. NavinUT MD Anderson Cancer Center, Houston, TX
+
+---
+
+Metaplastic breast cancers (MBC) are rare, aggressive triple negative breast cancers (TNBC) that account for less than 1% of all breast cancers. Patients with MBCs are treated similarly to other TNBCs, however, consistently have a worse prognosis and decreased survival in comparison to other TNBC patients. The main aspect affecting MBCs treatment refractoriness is the heterogeneity of tumor cell differentiation in this tumor towards cells of mesenchymal/sarcoma like phenotype e.g. spindle cells, chondroblasts etc. The objective of this study was to investigate these transdifferentiated MBC tumor cells and tumor microenvironment (TME) changes in comparison to other TNBCs and normal breast tissues using single nucleus RNA sequencing (snRNA). For snRNA we profiled 5000-10,000 nuclei per tumor after running FACS to remove ambient RNA and compared tissue samples from MBCs, TNBC and normal breast tissues. Additionally, we also report that MBCs have different myeloid cell state proportions in comparison to other TNBCs, including a significant increased population of SIPA1L1 myeloid cells cancer cells in MBCs. We also describe novel fibroblast populations enriched in the MBC that are distinct from normal breast and TNBCs. Overall, the MBC TME also exhibits an increased number of proliferative cells in endothelial, fibroblast and myeloid cell compartments. In the transdifferentiated MBC cancer cells, we also define novel transcriptional metagene programs using non-negative matrix factorization (NMF) analysis. Collectively our data identifies the distinctive cancer cell programs and TME of this rare breast cancer for the first time at a single cell resolution and identifies potential new cell states that define it’s unique tumor biology.

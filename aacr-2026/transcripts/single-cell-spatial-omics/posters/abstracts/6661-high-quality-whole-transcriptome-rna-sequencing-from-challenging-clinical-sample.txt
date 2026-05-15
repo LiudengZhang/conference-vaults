@@ -1,0 +1,14 @@
+# High quality whole transcriptome RNA-sequencing from challenging clinical samples
+
+**Poster #**: 6661
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Pieter Mestdagh, Lisa Van Den Bossche, Thomas Van Wunsel, Hilke Spooren, Emmanuel Rivière, Jan Van de Velde, Ana Carolina Elisa Fierro Gutierrez, Nathalie Bernard, Lien Heyrman, Dirk Goossens, Jurgen Del Favero
+
+CellCarta, Antwerp, Belgium
+
+---
+
+RNA sequencing (RNA-seq) of clinical specimens poses several challenges due to limited sample material, RNA fragmentation, and high fractions of ribosomal RNA (rRNA) and globin RNA. These factors often result in elevated PCR duplication rates and reduced library complexity, compromising transcriptome data quality and downstream analyses. We evaluated the Watchmaker Genomics RNA library prep with Polaris Depletion workflow and compared its performance to a standard RNA-seq and exome capture workflow. Performance was assessed across a range of sample types, including reference materials, whole blood, and tumor FFPE samples with varying RNA integrity.The Polaris Depletion workflow achieved efficient depletion of both rRNA (< 5%) and globin RNA (< 1% in whole blood), compared to > 5% rRNA and > 50% globin RNA observed with the standard exome capture workflow. PCR duplication rates were approximately twofold lower with the Polaris Depletion workflow (30.2%) versus the standard exome capture approach (62.5%). Notably, the Polaris Depletion workflow demonstrated robust performance across samples of differing RNA quality, provided sufficient RNA input was used for library preparation. Overall performance of the Polaris Depletion workflow was highly reproducible, as confirmed through inter-operator and inter-laboratory experiments.In summary, the Watchmaker Genomics RNA library prep with Polaris Depletion workflow enables the generation of high-quality RNA-seq libraries with efficient rRNA and globin depletion, reduced PCR duplication, and reliable quantification of both coding and non-coding transcripts. These results demonstrate that RNA sequencing of challenging clinical samples can be effectively performed without the need for costly and time-intensive exome capture, thereby improving both sensitivity and workflow efficiency.

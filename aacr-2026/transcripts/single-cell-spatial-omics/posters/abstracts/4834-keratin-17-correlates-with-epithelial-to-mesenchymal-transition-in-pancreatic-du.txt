@@ -1,0 +1,17 @@
+# Keratin 17 correlates with epithelial-to-mesenchymal transition in pancreatic ductal adenocarcinoma
+
+**Poster #**: 4834
+**Session**: Epithelial-to-Mesenchymal Transition
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Shayan Sarkar, Lyanne Delgado Coka, Robert  S.  Powers, Natalia Marchenko, Kenneth Shroyer
+
+Pathology, Stony Brook University, Renaissance School of Medicine, Stony Brook, NY
+
+---
+
+Background: Pancreatic ductal adenocarcinoma (PDAC) accounts for more than 90% of all pancreatic malignancies and has a 5-year survival rate of 13%. Approximately, 80% of the patients are diagnosed at later stages with metastatic disease characterized by widespread invasion. One of the key biological pathways that lead to this metastatic spread is Epithelial to Mesenchymal Transition (EMT) - a highly plastic process that allows cancer cells to gain invasive properties by switching from an epithelial to a mesenchymal phenotype. Keratin 17 (K17), a component of the basal-like PDAC signature associated with poor prognosis, has been shown to promote pancreatic cancer metastases and induce EMT in bladder, esophageal, and lung cancers. In this study, we test the hypothesis that K17 is associated with EMT in PDAC, contributing to the poor prognosis of the disease.
+Methods: We performed integrative single-cell transcriptomic analyses (scRNA-seq) of publicly available datasets comprising of 42 treatment-na&#239;ve PDACs to identify cancer-related pathways associated with K17 expression. Differential gene expression and pathway enrichment analyses were conducted in RStudio using the Hallmark gene sets from MSigDB and Gene Ontology (GO) terms. To validate the scRNA-seq results, we performed cyclic multiplex immunofluorescence imaging using the MACSima platform on FFPE tissue microarrays, along with immunohistochemistry (IHC) on whole-slide FFPE sections of human PDAC samples. These analyses were conducted to assess the spatial distribution of K17 and its correlation with the expression of top EMT-associated markers identified through scRNA-seq.
+Results: scRNA-seq analysis revealed that K17-positive PDAC cells exhibited transcriptional enrichment of the EMT pathway, with ANXA1, S100A4, GPC1, LAMC2, WWTR1, and LAMA3 identified as top associated markers. Multiplex immunofluorescence image analysis confirmed that K17-positive tumor regions displayed reduced epithelial differentiation as indicated by low GATA-6 and E-cadherin score. Among the markers identified by scRNA-seq, LAMC2, an established biomarker of EMT, demonstrated the most significant positive correlation with K17 and was confirmed using IHC.
+Conclusions: K17 marks a transcriptionally distinct and highly invasive PDAC subpopulation characterized by robust EMT activation. LAMC2 emerges as the EMT marker most closely associated with K17 at both transcriptomic and protein levels, suggesting a K17-LAMC2 axis that maybe a major driver of EMT in PDAC.

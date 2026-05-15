@@ -1,0 +1,19 @@
+# Spatial programs of cancer-associated and normal fibroblasts diverges with mismatch repair status in colorectal cancer
+
+**Poster #**: LB239
+**Session**: Late-Breaking Research: Tumor Biology 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Debanjan Barua1, Tze Guan Tan2, Shu Wen Samantha Ho2, Michael  T.  Wong2, Iain  B.   H.  Tan3, Jennifer  H.  Yearley1, Su-Yang Liu1
+
+1Merck Research Laboratories, South San Francisco, CA,2Merck Sharp & Dohme, Singapore, Singapore,3National Cancer Center Singapore, Singapore, Singapore
+
+---
+
+Background: Fibroblast-derived transcriptional signatures in colorectal cancer (CRC) associate with poor prognosis and are elevated in mismatch repair-proficient (MMRp) versus mismatch repair-deficient (MMRd) disease. Yet the spatial organization of fibroblast subtypes by MMR status is undefined, limiting insight into stromal neighborhoods that modulate these distinct microenvironments. We hypothesized that CRC harbors MMR-stratified stromal niches with distinct compositions of various fibroblast subtypes.
+Methods: Fresh primary tumors from 41 CRC donors (MMRp n=34, MMRd n=7) underwent single-cell RNA sequencing (scRNA-seq) to define fibroblast subtypes, which were subsequently mapped on matched formalin-fixed, paraffin-embedded (FFPE) sections and an independent archival FFPE cohort (MMRp n=50, MMRd n=30) via multiplex whole-slide imaging. Tumor regions were defined by tumor vs. stromal cell densities (tumor core: high tumor/low stromal; invasive margin: low tumor/high stromal).
+Results: scRNA-seq resolved 5 fibroblast subtypes conserved across MMR settings. Two were cancer-associated fibroblasts (CAFs): myofibroblastic CAFs enriched for fibrillar ECM genes (myCAF_ECM), inflammatory CAFs (iCAFs). Three were normal fibroblasts (NFs): subepithelial myofibroblasts (SEMFs; contractility genes), lamina propria fibroblasts (LPFs; growth factor activity genes), and crypt fibroblasts (CFs; fibrillar and non&#8209;fibrillar ECM genes).
+The invasive margin within 600 &#181;m of the tumor core periphery showed 4-fold higher CAF density (p<0.01) relative to other areas, regardless of MMR status. This region constituted a CAF-enriched niche, within which CAFs formed focal aggregates. Aggregate composition diverged by MMR status: in MMRp tumors, myCAF_ECM were 16&#8209;fold more prevalent than iCAFs (p<0.01), whereas in MMRd tumors, iCAFs were 3&#8209;fold more prevalent than myCAF_ECM (p<0.03).
+NFs were collectively as abundant as CAFs in the tumor stroma, with MMR&#8209;dependent distributions. In MMRp tumors, LPFs were 5&#8209;fold more prevalent within the CAF-niche versus the deeper invasive margin (p<0.01), whereas CF peak densities were 2-fold higher in deeper invasive margin (p<0.02). In MMRd tumors, SEMFs were 2&#8209;fold more prevalent in the niche (p<0.05). Among all 5 subtypes, SEMFs localized closest to tumor cells in both MMR settings, and ligand-receptor analysis (LIANA) of SEMF-tumor interactions showed enrichment of ECM&#8209;remodeling pathways in tumors relative to normal colorectal tissues.
+Conclusions: CRC contains MMR&#8209;dependent fibroblast niches characterized by focal CAF aggregates and distinct NF localization. Our data uniquely highlight NF prevalence and patterning in CRC and prompt further investigation into NF-tumor crosstalk in the TME.

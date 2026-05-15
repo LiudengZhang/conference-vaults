@@ -1,0 +1,12 @@
+# BRD9 functions as a negative regulator of GBAF in synovial sarcoma
+
+**Poster #**: 3499
+**Session**: Pediatric Cancer Genomics and Epigenomics
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Jinxiu Li1, Mary Nelson1, Li Li1, Xiaobo Xia2, Christine Stephan2, Katarzyna Modzelewska1, Gary Yu2, Iain Mulford2, Honnappa Srinivas2, Xinyi Ge1, Sarah McCollum1, Ewin R Jones1, Yixuan Guo1, Xi Chen2, Thomas Zoller2, Gregory Hollingworth2, Ensar Halilovic3, Tinya J. Abrams4, Edmund Harrington2, Sofia Gkountela5, Giorgio Galli5, Hans Voshol6, Nathalie Carte2, Jason Thomas2, Xiaoyang Zhang7, David Lum7, Martin Hirst8, Jeffery Yap7, William Forrester2, Bradley R. Cairns7, Kevin Bruce Jones71University of Utah, Salt Lake City, UT,2Novartis Biomedical Research, Cambridge, MA,3Oncology Translational Medicine, Novartis Insts. for BioMedical Research, Cambridge, MA,4Novartis (Cambridge, MA), Acton, MA,5Novartis Institutes for Biomedical Research, Basel, Switzerland,6Novartis Biomedical Research, Basel, Switzerland,7University of Utah Huntsman Cancer Institute, Salt Lake City, UT,8Canada’s Michael Smith Genome Sciences Centre, Vancouver, BC, Canada
+
+---
+
+Synovial sarcoma (SyS) incorporates the SS18::SSX fusion oncoprotein into GLTSCR1-containing BRG1/BRM and associated factors (GBAF) complexes, and demonstrated a dependency on GBAF subunit, BRD9. However, SyS clinical trials with multiple BRD9 degraders failed to achieve clinically impactful remissions. Here, we provide a mechanistic framework to explain these results. BRD9 depletion serves to blunt proliferation in SySs harboring minimal genomic alterations, rare in trial participants. In cultured cells, xenografts, and recombinant purified complexes, BRD9 loss does not impact GBAF assembly. Although BRD9 degradation in SyS reduces GBAF enrichment at target loci, BRD9-less complexes maintain or increase chromatin accessibility and associated gene transcription. Biochemical assays with purified recombinant GBAF demonstrate markedly increased nucleosome sliding in the absence of BRD9. Thus, BRD9 restrains GBAF activity, with BRD9 degradation increasing enzymatic remodeling and target gene expression by fusion oncoprotein-distributed GBAFs in SyS. This subtle epigenetic disturbance creates a low hurdle for SyS to surpass.

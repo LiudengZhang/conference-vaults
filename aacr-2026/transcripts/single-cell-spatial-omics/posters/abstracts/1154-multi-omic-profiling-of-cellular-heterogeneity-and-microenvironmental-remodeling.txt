@@ -1,0 +1,18 @@
+# Multi-omic profiling of cellular heterogeneity and microenvironmental remodeling underlying treatment resistance in neuroblastoma
+
+**Poster #**: 1154
+**Session**: Mechanistic Insights for Targeted Therapies in Pediatric Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Eun Seop Seo1, JI WON LEE1, In Woo Hwang1, Woong-Yang Park2, Jun Sun Kim1, Ki Woong Sung1
+
+1Samsung Medical Center, Seoul, Korea, Republic of,2Geninus, Seoul, Korea, Republic of
+
+---
+
+Background: Relapse and therapy resistance in high-risk neuroblastoma (NBL) remain major clinical challenges. The dynamic evolution of neuroblasts and their tumor microenvironment (TME) during treatment is not fully characterized. We established a multi-omic, longitudinal cohort to dissect the cellular and molecular mechanisms driving therapeutic failure.
+Methods: We established a multi-omic longitudinal cohort of high-risk neuroblastoma. This included single-cell RNA sequencing (scRNA-seq) on 18 tumors (7 pre-treatment, 5 post-treatment, 6 relapsed), complemented by matched Xenium spatial transcriptomics for spatial mapping. Parallel Nanopore sequencing was conducted on a longitudinal NBL cohort to define the genomic and epigenomic landscape. A validation cohort of 76 bulk RNA-seq samples was used to correlate findings with clinical outcomes.
+Results: Our scRNA-seq analysis identified a distinct ADRN_proliferating neuroblast subtype. In our validation cohort (n=76), the signature of this subtype was significantly associated with poor prognosis and correlated with the poorest response to induction chemotherapy. Longitudinal sampling showed that induction chemotherapy drives a predominant ADRN to MES shift in neuroblasts, while relapsed tumors exhibit the re-emergence of ADRN-like cells. However, this re-emergence was accompanied by markedly increased spatial heterogeneity.
+Methylation profiling revealed an epigenetically post-imprinted ADRN program at relapse; these cells retained post-treatment-like methylation patterns in key TFs, such as GATA3, distinct from their treatment-na&#239;ve state. The TME underwent progressive remodeling from pre- to post-chemotherapy toward a more unfavorable, immunosuppressive state characterized by enrichment of SPP1&#8314; macrophages and other myeloid populations. This unfavorable TME was largely maintained at relapse, even as MES-like tumor cells reverted toward an ADRN phenotype, creating a highly treatment-refractory ecosystem. Ligand-receptor analysis implicated monocyte- and neutrophil-derived RTN4R signaling to neuroblasts and NOTCH signaling from Schwann cells as potential mediators of this relapse-prone niche.
+Conclusion: Our multi-omic analysis demonstrates that NBL relapse is not a simple reversion but the emergence of a novel, epigenetically primed ADRN state co-evolving with a sustained, immunosuppressive TME.

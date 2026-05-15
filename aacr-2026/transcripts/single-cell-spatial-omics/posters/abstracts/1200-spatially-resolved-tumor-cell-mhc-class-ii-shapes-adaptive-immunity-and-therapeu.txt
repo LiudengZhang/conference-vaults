@@ -1,0 +1,17 @@
+# Spatially resolved tumor-cell MHC class II shapes adaptive immunity and therapeutic response in triple-negative breast cancer
+
+**Poster #**: 1200
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Yi Liu1, Sachin Kumar Deshmukh2, Thiti Susiriwatananont1, Panuch Eiamprapaporn1, Bogang Wu3, Heikki Joensuu4, Roberto  A.  Leon-Ferre5, David Zahrieh6, Judy  C.  Boughey7, James Newell Ingle8, Fergus J. Couch9, Sharon Wu2, Shipra Gandhi10, Maryam Lustberg11, George W. Sledge2, Matthew P. Goetz9, Keith L. Knutson1, E Aubrey Thompson1, Jodi Carter12, Saranya Chumsri1
+
+1Mayo Clinic Florida, Jacksonville, FL,2Caris Life Sciences, Phoenix, AZ,3Mayo Clinic Phoenix, Phoenix, AZ,4University of Helsinki, Helsinki, Finland,5Mayo Clinic, Rochester, MN,6Health Sciences Research, Mayo Clinic, Rochester, MN,7Radiation Oncology, Mayo Clinic, Rochester, MN,8Professor, Dept. of Oncology, Mayo Clinic College of Medicine, Rochester, MN,9Mayo Clinic College of Medicine and Science, Rochester, MN,10Emory University School of Medicine, Atlanta, GA,11Yale School of Medicine, New Haven, CT,12University of Alberta, Edmonton, AB, Canada
+
+---
+
+Background: MHC class II molecules are normally restricted to professional antigen-presenting cells. Prior TNBC studies have focused on immune-compartment MHC-II. Using spatial transcriptomics, we recently identified aberrant tumor-cell MHC-II expression. Here, we characterized the immune architecture surrounding HLA-DRA-expressing tumor cells.
+Methods: High-plex single-cell spatial transcriptomics (CosMxTM SMI) was performed on treatment-na&#239;ve TNBC (Mayo TMA, n=65) and two neoadjuvant pembrolizumab cohorts (Mayo n=8; Emory n=4). Spatial neighborhoods were mapped relative to HLA-DRA-high tumor cells. Differential expression and adaptive immune gene-set scores were evaluated. Clinical relevance was assessed using FinXX (n=114), I-SPY2 (n=364), and Caris CODEai (n=3,662).
+Results: HLA-DRA-high tumor regions showed significant enrichment of adaptive immune subsets within &#8804;50 &#956;m, including B cells, CD8+ T cells, NK cells, macrophages, and plasmacytoid dendritic cells. In pembrolizumab-treated cohorts, responders exhibited higher proportions of HLA-DRA-high tumor cells and greater numbers of B cells, plasmablasts, CD4+ and CD8+ T cells, and macrophages near tumor cells. Responders&#8217; tumors showed upregulation of antigen-presentation machinery, B-cell/plasma-cell programs, CXCL13, and NOTCH3/DLL1. Across I-SPY2 and FinXX, higher HLA-DRA correlated with pathologic complete response and improved survival. In CODEai TNBC, high HLA-DRA expression correlated with higher CXCL13 (median TPM 7.5 vs. 1.1, q<0.05) and longer overall survival (24.2 vs. 18.5 months, HR 0.77, 95% CI 0.71-0.83, p<0.0001). This association was TNBC-specific. High CXCL13 also predicted improved survival (26.6 vs. 16.5 months, HR 0.64, 95% CI 0.59-0.69, p<0.0001).
+Conclusions: Tumor-cell HLA-DRA expression defines a highly organized adaptive immune niche enriched with B cells and activated T-cell populations in close proximity. Adaptive immune programs&#8212;including enhanced antigen presentation and CXCL13-mediated B-cell/plasma-cell pathways&#8212;consistently associate with improved outcomes across TNBC cohorts treated with chemotherapy and immune checkpoint blockade. Aberrant tumor-cell MHC-II expression may contribute to antitumor immunity and warrants further investigation as a potential therapeutic target.

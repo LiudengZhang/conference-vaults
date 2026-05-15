@@ -1,0 +1,14 @@
+# Investigation of the immune microenvironment of breast cancer brain metastasis using single-cell spatial genomics
+
+**Poster #**: LB302
+**Session**: Late-Breaking Research: Tumor Biology 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Eva Zhao, Isam Adam, Angela Lincy Prem Antony Samy, Jacob Insua-Rodríguez, Pascal Naef, Sharmila Mallya, Jenny Wu, Delia  F.  Tifrea, Robert  A.  Edwards, Ahmed Mohyeldin, Devon  A.  Lawson
+
+University of California, Irvine, Irvine, CA
+
+---
+
+Breast cancer brain metastases (BCBM) occur in 20-40% of breast cancer patients and are associated with poor prognosis and decreased quality of life. Current standard of care for BCBM consists of surgical resection and radiation therapy, either whole-brain or stereotactic, with a resulting median survival of 3-36 months. Advances in precision medicine, specifically immunotherapy, show promise in increasing overall survival through targeting unique genetic markers and boosting the immune system response via immune checkpoint inhibitors. Given the distinct immune landscape of the central nervous system (CNS), there is a need to better understand CNS immune response to BCBM in order to identify optimal immunotherapeutic approaches. Recent single-cell RNA sequencing (scRNA-seq) studies have elucidated the distinct cellular compositions and expression signatures of BCBM lesions. However, scRNA-seq fails to preserve BCBM tissue architecture, losing structural context of immune-rich versus immune-excluded regions and relevant neighborhood dependent cell-cell interactions. Here, we characterize the immune microenvironment of BCBM using the 10x Genomics Xenium platform to perform single-cell resolution, in situ spatial profiling of BCBM samples from a cohort comprising over 70 patients. We utilized the prebuilt human immune-oncology panel of 380 genes, an additional 50 custom genes more specific to BCBM, and 6 protein subpanels highlighting immune and tumor expression. For improved single-cell resolution with cell-level counts and marker localization validation, we included the cell segmentation kit in the imaging pipeline. In preliminary studies, we have identified the localization of key immune cells, including B cells, T cells, and macrophages in a subset of BCBM samples from our cohort. From the conserved architecture of the tumor lesion, we investigated proximity between tumor and immune cells, illuminating areas of dynamic tumor-immune interactions, as well as regions with immune exclusion. These data provide preliminary insights for the development of tailored immunotherapy approaches for BCBM.

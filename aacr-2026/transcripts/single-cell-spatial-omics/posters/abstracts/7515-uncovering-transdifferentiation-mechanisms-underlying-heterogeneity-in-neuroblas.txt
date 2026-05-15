@@ -1,0 +1,14 @@
+# Uncovering transdifferentiation mechanisms underlying heterogeneity in neuroblastoma
+
+**Poster #**: 7515
+**Session**: Tumor Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Michele Tomanelli1, Jennifer Hoti2, Ilaria Medici2, Chaimae Sellak2, Tullio Florio3, Aldo Pagano4
+
+1Department of Experimental Medicine, University of Genoa, Genoa, Italy,2University of Genoa, Genoa, Italy,3Department of Internal Medicine, University of Genoa, Genoa, Italy,4IRCCS Ospedale Policlinico San Martino, Genoa, Italy
+
+---
+
+Neuroblastoma is the most prevalent extracranial tumor in newborns and originates from neural crest-derived cells. Using selected Neuroblastoma cell lines, we generated clones engineered to express the non-coding RNA NDM29. This approach allowed us to investigate the function of NDM29 in tumor cell differentiation and to identify potential new therapeutic targets aimed at limiting tumor aggressiveness. Additional analyses, including single-cell sequencing, revealed the existence of distinct cellular subpopulations within this model. These subsets were subsequently separated through FACS sorting. The cellular heterogeneity observed in this system mirrors the complexity found in neuroblastoma patient samples. The clonal nature of our model and the presence of multiple subpopulations suggest that the observed heterogeneity arises from transdifferentiation processes. The plasticity of these subpopulations is a central focus of our study. The ability of cancer cells to undergo transdifferentiation is a key aspect in cancer research. In our model, we identified a subpopulation capable of responding to VEGF signaling and potentially able to regulate the angiogenic process within the tumor nodule. Understanding the plasticity mechanisms involved in this model, which lead to the generation of this and other subpopulations, may enable us to develop targeted therapeutic strategies aimed at counteracting tumor cell transdifferentiation.

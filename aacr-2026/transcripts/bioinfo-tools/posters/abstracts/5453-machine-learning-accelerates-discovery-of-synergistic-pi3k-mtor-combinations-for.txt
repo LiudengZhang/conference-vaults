@@ -1,0 +1,12 @@
+# Machine learning accelerates discovery of synergistic- PI3K-mTOR combinations for robust tumor growth inhibition in KRAS G12 mutant patient-derived xenografts
+
+**Poster #**: 5453
+**Session**: Application of Bioinformatics to Cancer Biology 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Emily Eastwood, Yuan-Hung Chien, Jose Lopez-Ramos, Paris Offor, Warren Andrews, Long Hoang Do, Raffaella PippaCertis Oncology Solutions, San Diego, CA
+
+---
+
+Identifying effective drug combinations remains a major challenge in oncology, primarily due to inherent resistance and the limited clinical fidelity of conventional in vitro screening data. To address this translational barrier, we established a robust platform utilizing Certis Oncology’s proprietary patient-derived xenograft (PDX) models, which offer high correlation with clinical responses, to predict and validate synergistic therapeutic regimens.Our approach leveraged CertisAITM, an ensemble of proprietary machine learning (ML) models trained on high-throughput combination experiments. CertisAITM successfully prioritized combinations targeting the PI3K and mTOR pathways as lead candidates for treating aggressive KRAS G12 mutant tumors, spanning non-small cell lung, gastric, pancreatic, and colorectal cancers. We experimentally evaluated a comprehensive matrix of six PI3K inhibitors and four mTOR inhibitors across distinct KRAS G12 mutant PDX models. These ex-vivo studies rigorously demonstrated that the dual inhibition of the PI3K-mTOR axis resulted in potent, synergistic anti-tumor activity, consistently yielding efficient and sustained tumor cell reduction across all tested models. Notably, a key synergistic combination—involving Everolimus or Tacrolimus (mTORi) paired with Inavolisib (PI3Ki)—translated directly to significant therapeutic benefit in the PDX setting.These findings validate our PDX-informed strategy for rapidly identifying clinically relevant, synergistic combinations. The demonstrated efficacy of the Everolimus/Tacrolimus + Inavolisib combination provides compelling preclinical evidence, establishing this dual-agent approach as a strong therapeutic candidate for clinical evaluation in KRAS G12 mutant solid tumors.

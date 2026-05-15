@@ -1,0 +1,12 @@
+# A single cell-based protein activity landscape for human small cell lung cancer
+
+**Poster #**: 1490
+**Session**: Integrative Computational Approaches 1
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Lucas ZhongMing Hu1, Anish Thomas2, Andrea Califano11Columbia University, New York, NY,2National Cancer Institute, Bethesda, MD
+
+---
+
+Small cell lung cancer (SCLC) is a lethal malignancy characterized by rapid metastasis, profound intra-tumor heterogeneity (ITH), and an immunosuppressive tumor immune microenvironment (TIME). The underlying biology of SCLC is poorly understood, and treatment options remain limited. To overcome this, we performed a systematic analysis on a large collection of single-cell RNA-Seq-based SCLC human sample cohort to define the gene regulatory networks and master regulators (MR) driving SCLC ITH and TIME composition. We constructed a single-cell transcriptomic atlas of 182,189 cells from 41 fresh patient-derived SCLC samples (primary and metastatic sites). Tumor and immune cells were cataloged and clustered. To move beyond transcriptional states, we reverse-engineered patient- and cluster-specific regulatory networks using ARACNe and inferred protein activity for >6,500 regulatory and signaling proteins via metaVIPER. This protein activity landscape was used to deconvolute ITH and TIME architecture. The OncoTreat algorithm identified FDA-approved drugs that invert MR activity in matched SCLC cell lines, with subsequent in vivo validation. Our protein activity analysis identified distinct, translationally relevant SCLC tumor and TIME subpopulations governed by specific MR programs. In tumor cells, we defined a proliferative "Tumor Checkpoint" module of MRs as a key determinant of this aggressive disease. Within the TIME, we discovered immune subpopulations with unique biological properties. A genome-wide drug perturbation screen identified potent agents that effectively abrogate the activity of tumor-specific MRs. These candidates demonstrated significant efficacy in inducing tumor cell death in preclinical in vivo models. We present the largest single-cell protein activity atlas of SCLC, providing a high-resolution view of the regulatory networks underlying its ITH and TIME. We computationally derived and preclinically validated novel therapeutic strategies that target master regulators of distinct tumor and immune subpopulations, offering a promising path to overcome therapeutic resistance in SCLC.

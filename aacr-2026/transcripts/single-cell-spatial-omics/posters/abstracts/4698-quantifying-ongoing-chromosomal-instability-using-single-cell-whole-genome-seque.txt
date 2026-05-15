@@ -1,0 +1,18 @@
+# Quantifying ongoing chromosomal instability using single-cell whole-genome sequencing
+
+**Poster #**: 4698
+**Session**: Insights into Genomic Instability
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Barbara Hernando1, Blas Chaves-Urbano1, Maria Escobar-Rey1, Alice Cadiz1, Angel Fernandez-Sanroman1, Marina Torres1, Sara Barrambana1, Carmen G. Lechuga1, Carmen Guerra1, Mariano Barbacid1, Maria Garcia-Perez2, Patricia G. Santamaria1, Geoff Macintyre1
+
+1Spanish National Cancer Research Ctr. (CNIO), Madrid, Spain,2Institute for Biomedical Research Sols-Morreale (IIBM), Spanish National Research Council-Universidad Autónoma de Madrid (CSIC-UAM), Madrid, Spain
+
+---
+
+Chromosomal instability (CIN) describes the set of processes that generate numerical and structural DNA changes that typically operate during tumourigenesis. High-resolution readouts of DNA changes can be achieved using whole-genome sequencing (WGS) and the distinct patterns of copy number aberrations seen in these data can then be used to infer which type of CIN operated on the genome1-3. However, this static readout only provides evidence of historical or past CIN, as bulk WGS lacks the resolution needed to identify ongoing CIN that is actively shaping genome evolution.
+To address this limitation, we have developed a computational framework that leverages single-cell whole-genome sequencing (scWGS) to identify and quantify ongoing CIN by detecting cell-unique copy number alterations and probabilistically mapping them to known CIN signatures2. We assessed performance by generating in vitro models with 4 types of induced CIN via CRISPR knockout of DNA repair genes or drug perturbation, and correctly identifying the induced-CIN type in each case.
+Applied to near-diploid BRCA1/2-deficient hTERT-RPE1 models, we show that only single-cell, and not bulk, WGS can reveal ongoing homologous recombination deficiency (HRD) scars, enabling accurate identification of sensitivity to PARP inhibitors. In 4 pancreatic cancer organoids treated with platinum-based chemotherapy, ongoing HRD scars correctly identified the most sensitive organoid, which was misclassified as resistant using bulk WGS. Analysis of scWGS from 8 triple-negative breast cancers further reveal that impaired non-homologous end joining (NHEJ) is associated with subclonal diversification. Consistent with this observation, activity levels of CX10 (a CIN signature linked to NHEJ impairment1) was significantly higher in 119 metastatic TNBCs compared with 60 primary tumours (p-value=0.0085, Wilcoxon test), suggesting a link between defective NHEJ, subclonal evolution and increased metastatic potential.
+Together, these results show that our framework reveals treatment-relevant, recent CIN processes undetected by bulk sequencing, and it offers a robust tool for dissecting tumour evolution. Our study supports expanding biomarker-guided therapies by targeting active CIN rather than historical genomic scars.
+References: 1Macintyre et al. Nat Genetics, 2018; 2Drews et al. Nature, 2022; 3Thompson et al. Nat Genetics, 2025

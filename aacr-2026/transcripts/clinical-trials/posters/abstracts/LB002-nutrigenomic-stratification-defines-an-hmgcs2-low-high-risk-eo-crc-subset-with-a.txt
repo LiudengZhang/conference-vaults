@@ -1,0 +1,12 @@
+# Nutrigenomic stratification defines an HMGCS2-low, high-risk EO-CRC subset with a targetable stress-response vulnerability
+
+**Poster #**: LB002
+**Session**: Late-Breaking Research: Clinical Research 1
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Chia-Wei Cheng1, Joel  T.  Gabre1, Han-Mo Chiu2, Lindsay LaFave3, Iok In Christine Chio1, Timothy  C.  Wang11Herbert Irving Comprehensive Cancer Ctr., New York, NY,2National Taiwan University Hospital, Taipei, Taiwan,3Albert Einstein College of Medicine, Bronx, NY
+
+---
+
+Early-onset colorectal cancer (EO-CRC) is increasing worldwide and displays a remarkable distal (left-sided) predominance, yet the molecular features that stratify aggressive disease and link modifiable exposures to tumor biology remain incompletely defined. We surveyed for metabolic and microbiome-linked traits underlying the left-sided EO-CRC program using archived data from four patient cohorts (using AACR Project GENIE®) and biospecimens from trial-linked cohorts used for correlative molecular analyses (CUIMC IRB #AAAT8778; NTUH #202305003RINC). Our analyses revealed a high-risk EO-CRC patient subset (~30% of total EO-CRC) with low colonic HMGCS2 (EO:H_low) associated with inferior survival. Tumors from EO:H_low patients exhibit a microenvironment with metabolically stressed aberrant stem-cell (AbSC) state and increased representation of metastasis-linked cancer-associated fibroblasts (CAFs), the latter being independently associated with advanced-stage EO-CRC (III-IV). In Apc-driven CRC models, genetic ablation of HMGCS2 recapitulated the induction of AbSC and CAF, and accelerated distal-predominant tumorigenesis, whereas pharmacological inhibition of the stress-responsive pathway Rho/ROCK attenuated the phenotypes. Consistent with clinical risk associations, diet-induced obesity and dysbiosis further amplified the HMGCS2-Rho/ROCK axis and elicited host microbial-inflammatory responses that align with signatures observed in EO:H_low patients. Together, this study nominates an epithelial metabolic-stress axis that is amplified by environmental exposures underlying the distal predominance and aggressiveness of EO-CRC, highlighting a tractable vulnerability for intervention. This nutrigenomic framework is enabling an ongoing biomarker-guided correlative effort in trial-linked cohorts, benchmarking molecular readouts between study groups to inform mechanism-guided prevention and early interception.

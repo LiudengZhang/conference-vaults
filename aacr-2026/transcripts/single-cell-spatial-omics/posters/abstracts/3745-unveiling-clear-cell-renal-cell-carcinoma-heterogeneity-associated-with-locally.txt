@@ -1,0 +1,16 @@
+# Unveiling clear cell renal cell carcinoma heterogeneity associated with locally advanced disease using single nucleus multi-omics
+
+**Poster #**: 3745
+**Session**: Biomarkers Predictive of Therapeutic Benefit 4
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Pratik Shah1, Anita Ng2, Justin Wang3, Houman Khalili2, Tony Pham4, Melissa Neumann1, Xinhua Zhu1, Annette Lee5, Andrew Shih2
+
+1Northwell Health Cancer Institute, New Hyde Park, NY,2The Feinstein Institute for Medical Research, Manhasset, NY,3College of Agriculture and Life Sciences, Cornell University, Ithaca, NY,4CUNY School of Medicine, Manhattan, NY,5ATL Consulting, Wayne, NJ
+
+---
+
+Clear cell Renal Cell Carcinoma (ccRCC) is the most common type of kidney cancer with diverse clinical courses that are driven by molecular and histological heterogeneity. Overall survival of ccRCC patients has improved significantly with the introduction of adjuvant therapies, including immunotherapy and tyrosine kinase inhibitors (TKI), particularly for patients at higher risk of recurrence post-nephrectomy. However, the response rate to these targeted therapies for those that relapse can vary greatly. To decipher the molecular underpinning of therapy responsiveness associated with advanced stage ccRCC, we performed single nucleus analysis of gene expression and chromatin dynamics on fresh post-nephrectomy tumor samples collected in 8 patients.
+Upon comparing different ccRCC subpopulations between stage 3 (n=6) and stage 1 (n=2) patients, we observed large global transcriptional differences with an enrichment of a subset of metabolically active RCC cells with heightened EDIL3 expression. Besides the increased distribution of this RCC subset in stage 3 patients, we have identified chromosomal regions in these cells that overlapped with 4 genome-wide association study (GWAS) hits for increased risk of ccRCC (Purdue et al., 2024). Among the clusters of ccRCC subsets discovered in this cohort, the gene signatures of EDIL3-ccRCC are significantly associated with lower survival time (OR= 4.65; P=1.9E4) in stage I-III TCGA-KIRC (n = 372). Intriguingly, these cells, as well as a FOS expressing ccRCC cluster, are also enriched in patients in our cohort that eventually relapsed. Together with the upregulation of ERK and RAS signaling compared to other tumor cells, the increased fatty acid metabolism in EDIL3-ccRCC may present an alternative signaling mechanism that can contribute to progression due to metastasis and disease recurrence. In silico prediction of drug responsiveness revealed an overall decrease of therapeutic sensitivity of EDIL3-ccRCC toward various EGFR inhibitors. In contrast, while FOS-ccRCC signature also appears to be associated with disease recurrence, these cells are highly sensitive to various TKI and Sunitinib in particular. These results suggest the potential to leverage the differential therapeutic vulnerability of ccRCC subpopulations to provide better combination therapies in the clinic.
+With the goal of improving the conceptual framework for the design of adjuvant therapies, our study offers an in-depth characterization of ccRCC subpopulations that are associated with higher stages and disease progression, possibly through different druggable oncogenic pathways.

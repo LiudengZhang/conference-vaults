@@ -1,0 +1,17 @@
+# Efficacy of Tumor Treating Fields (TTFields) together with standard chemotherapy and PD-L1 blockage in preclinical models of small cell lung carcinoma
+
+**Poster #**: 4455
+**Session**: Drug Combinations, Repurposing, and Differentiation
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Rotem Engelman1, Lina Somri-Gannam1, Talya Borkum1, Roni Blatt1, Daria Gerasimova1, Shay Cahal1, Catherine Tempel Brami1, Mai Shai1, Yiftah Barsheshet1, Eyal Dor-On1, Itai Tzchori1, Adi Haber1, Moshe Giladi1, Uri Weinberg2, Yoram Palti1
+
+1Novocure Ltd, Haifa, Israel,2Novocure GmbH, Baar, Switzerland
+
+---
+
+Introduction: SCLC is a highly aggressive cancer treated with platinum-etoposide chemotherapy, immunotherapy, and radiotherapy. Tumor Treating Fields (TTFields), an FDA-approved therapy for several solid tumors, has been shown to enhance chemotherapy and immunotherapy treatment efficacy. Here, we assessed the potential of TTFields to augment the effects of chemotherapy and PD-1 inhibition in preclinical SCLC models.
+Methods: Human SCLC cell lines (H196, DMS-53) were exposed to 150 kHz TTFields (1.62 V/cm RMS, 120 h; 1 V/cm RMS, 72 h), alone or with the chemotherapy combination cisplatin and etoposide (0.15 &#181;M and 0.3 &#181;M; 0.25 &#181;M and 0.5 &#181;M). Treatment efficacy was assessed by cell count and colony formation, combined to determine overall response. Protein expression in the Fanconi anemia-BRCA DNA repair pathway was analyzed by western blot, and DNA damage was quantified via &#947;H2AX fluorescence microscopy. Immunogenic cell death (ICD) was evaluated by flow cytometry for ATP depletion (quinacrine staining) and surface calreticulin, and by Homogeneous Time Resolved Fluorescence (HTRF) assay for HMGB1 release. In vivo, mice orthotopically implanted with murine KP3 SCLC cells received TTFields (150 kHz) or sham-heat for 10 days starting seven days post-implantation, with or without cisplatin (2 mg/kg), etoposide (8 mg/kg), and anti-PD-L1 (10 mg/kg) administered intraperitoneally. Tumor burden was monitored by MRI at treatment initiation and completion, and tumor weight measured at endpoint. DNA damage was examined by &#947;H2AX immunohistochemistry and by flow cytometry of tumor single-cell suspensions.
+Results: TTFields and the chemotherapy combination each reduced cell counts and increased overall treatment efficacy compared with control, with greater effects observed when applied simultaneously. While TTFields or chemotherapy alone induced minimal DNA damage and ICD, concurrent application markedly enhanced both endpoints relative to control and single treatments. TTFields exposure suppressed expression of Fanconi anemia-BRCA pathway proteins essential for homologous recombination repair. In mice, TTFields reduced tumor growth, with further suppression observed when delivered together with cisplatin, etoposide, and anti-PD-1 therapy. Enhanced DNA damage was likewise detected under concurrent TTFields and immunochemotherapy exposure.
+Conclusions: In preclinical SCLC models, TTFields showed antitumor activity and augmented the effects of standard chemoimmunotherapy. By interfering with DNA repair, TTFields intensify the cytotoxic impact of DNA-damaging chemotherapeutics, while their ability to trigger immunogenic cell death may potentiate immune checkpoint blockade. These complementary mechanisms highlight TTFields as a promising modality to reinforce the efficacy of existing therapeutic approaches in SCLC.

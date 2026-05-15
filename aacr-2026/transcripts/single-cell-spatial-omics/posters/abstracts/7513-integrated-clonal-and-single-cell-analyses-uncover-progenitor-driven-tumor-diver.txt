@@ -1,0 +1,22 @@
+# Integrated clonal and single-cell analyses uncover progenitor-driven tumor diversification in early-stage endometrioid endometrial carcinoma
+
+**Poster #**: 7513
+**Session**: Tumor Heterogeneity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Suguru Miyata1, Hiroshi Yoshida2, Toyoyuki Hanazawa3, Masahito Kawazu4
+
+1Chiba Cancer Center, Chiba, Japan,2Gastrointestinal Oncology Division, National Cancer Center Hospital, Tokyo, Japan,3Chiba University, Chiba, Japan,4Chiba Cancer Center Research Institute, Chiba-shi, Japan
+
+---
+
+Background and Objectives
+The normal endometrium undergoes cyclical regeneration and frequently contains somatic mutations, yet the earliest steps of endometrioid endometrial carcinoma (EEC) development remain poorly defined. Although tumor heterogeneity arises from both genomic evolution and diversity in epithelial cell states, how these two axes interact during early tumorigenesis is not well understood. To address this question, we focused on early-stage EEC and performed an integrative analysis linking clonal architecture with cell-state heterogeneity.
+Methods
+We performed multi-region whole-exome sequencing (WES) of uterine samples from 37 patients with early-stage EEC to map the anatomical distribution of tumor clones. Representative cases covering POLE-mutated, microsatellite instability-high, and copy-number-low subtypes underwent single-cell RNA sequencing to characterize epithelial differentiation states and reconstruct lineage relationships. Somatic mutations identified by WES were used to infer clonal structures at single-cell resolution. Patient-derived organoids were established to functionally evaluate distinct progenitor-like tumor populations.
+Results
+Single-cell RNA sequencing revealed a spectrum of epithelial differentiation, ranging from mature ciliated and secretory cells to undifferentiated progenitor-like tumor cells. The proportions of these states varied widely not only between patients but also across regions within the same uterus. By integrating WES-derived mutations with single-cell profiles, we showed that individual tumor clones contained both progenitor-like and differentiated cells, recapitulating a hierarchical epithelial organization reminiscent of the normal endometrium.
+Subclonal populations differed markedly in epithelial composition and proliferative activity, indicating that clone-specific genomic alterations influence cell-state output. Notably, we identified two transcriptionally and functionally distinct progenitor-like tumor cell types, suggesting multiple differentiation routes in early tumor evolution.
+Conclusions
+Early-stage EEC exhibits coordinated heterogeneity at genetic and cellular levels. The discovery of two progenitor-like tumor populations provides evidence for parallel differentiation programs that drive early tumor diversification. By integrating clonal evolution driven by genetic alterations with single-cell phenotypes, this study refines current EEC classification frameworks such as ProMisE and offers new biological insights into the origins, propagation, and therapeutic vulnerabilities of early-stage endometrial cancer.

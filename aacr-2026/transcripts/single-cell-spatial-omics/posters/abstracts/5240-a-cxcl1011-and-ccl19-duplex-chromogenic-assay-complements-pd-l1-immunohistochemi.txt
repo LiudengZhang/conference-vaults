@@ -1,0 +1,17 @@
+# A CXCL10/11 and CCL19 duplex chromogenic assay complements PD-L1 immunohistochemistry in non-small cell lung cancer
+
+**Poster #**: 5240
+**Session**: Biomarkers Predictive of Therapeutic Benefit 5
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Alexander  L.  Tang1, Liad Elmelech1, William L. Tang1, Maxwell Spurrell2, Maria Ganci3, Yiwen He4, Catherine B. Meador3, Christopher S. Nabel3, Jessica J. Lin3, Mari Mino-Kenudson3, Nir Hacohen5, Justin F. Gainor3, Jonathan H. Chen6
+
+1Broad Institute, Cambridge, MA,2Yale University, New Haven, CT,3Massachusetts General Hospital, Boston, MA,4Northwestern University, Chicago, IL,5Massachusetts General Hospital/Broad Institute, Boston, MA,6Northwestern University/Broad Institute, Chicago, IL
+
+---
+
+Purpose: PD-1 blockade is a standard first-line treatment for advanced non-small cell lung cancer (NSCLC). PD-L1 tumor proportion score (TPS) by immunohistochemistry (IHC), a key predictor of response to PD-1 blockade, is imperfect, underscoring the need for additional predictive biomarkers. Immunity hubs and stem-immunity hubs have been shown to correlate with response, but these have been mainly characterized through spatial transcriptomics, and multiplexed immunofluorescence, which are not readily scalable to clinical workflows. We developed a clinically compatible chromogenic duplex assay that quantifies these multicellular immune networks using the chemokines CXCL10/11 and CCL19 to predict response.
+Experimental Design: We stained tissue from 65 metastatic NSCLC tumors for CXCL10/11 and CCL19 using chromogenic in situ hybridization (cISH). We created three separate scoring approaches, 1. percentage of CXCL10/11+ cells, 2. percentage of CXCL10/11+ tiles (immunity hubs), and 3. percentage of CXCL10/11+ and CCL19+ tiles (stem-immunity hubs), in order to stratify patients and determine whether respective scoring approaches were predictive of response. Objective response rates were assessed using RECIST v1.1.
+Results: 57 patients with NSCLC treated with single-agent PD-(L)1 inhibitors were identified and samples were procured before treatment. The majority of patients (56%) had a PD-L1 TPS of 50% or above. Across the cohort, the overall response rate was 37% and the median progression free survival of 119 days. The PD-L1 TPS (>50%) had 71.4% sensitivity, 56.3% specificity, 50% positive predictive value, and 75% negative predictive value (Fisher&#8217;s exact test: p=0.089). The stem-immunity hub scoring approach with cISH combined with PD-L1 TPS had 100% sensitivity, 53% specificity, 58% positive predictive value, and 100% negative predictive value (Fisher&#8217;s exact test: p<0.0001). Notably, the stem-immunity cISH scoring approach identified all responders who were not previously classified as PD-L1 TPS high.
+Conclusions: cISH detection of stem-immunity hubs using CXCL10/11 and CCL19 complements PD-L1 IHC. Integration of this spatial biomarker with PD-L1 testing may refine immunotherapy treatment strategies in NSCLC.

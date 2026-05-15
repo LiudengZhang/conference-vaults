@@ -1,0 +1,18 @@
+# Identifying vulnerabilities through an elucidation of the tumor-host interplay that drives osteosarcoma lung colonization
+
+**Poster #**: 641
+**Session**: Developmental Origins, Drivers, and Heterogeneity in Pediatric Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Fatemeh Yazarlou, Matthew Cannon, Yogesh Budhathoki, Amy  C.  Gross, Leyre Jimenez Garcia, James Reinecke, Ryan D. Roberts
+
+Nationwide Children's Hospital, Columbus, OH
+
+---
+
+Metastasis is the single most critical determinant of outcome in many solid tumors. In pediatric osteosarcoma, the development of lung metastases is associated with more aggressive and treatment-resistant tumor behavior. While many have assumed that metastasis is a consequence of this more aggressive behavior, emerging evidence suggests that interactions driving colonization reshape the behavior of both tumor and stromal compartments, reinforcing the resilience of metastatic lesions.
+Our recent work has shown that colonization induces changes in lung epithelial cells, infiltrating macrophages, and tumor cells, forming a microenvironment dominated by a dense, scar-like matrix that promotes tumor survival and proliferation. While we have shown that this aberrant niche can be disrupted by several multireceptor tyrosine kinase inhibitors (TKIs), each agent appears to affect lesions through distinct mechanisms. Identifying the specific pathways responsible for these anti-tumor effects has proved challenging.
+To address this, we developed an algorithm that identifies aberrantly activated, kinase-dependent signaling pathways within each individual cell type. This approach revealed that several distinct, self-reinforcing microenvironments can emerge during lung colonization, and that each of these emergent networks activates a characteristic subset of kinase-dependent pathways. Importantly, these pathway signatures can be matched against the known activity profiles of available TKIs to predict which agents may be most effective for a given tumor.
+To improve the effectiveness of this algorithm, we refined this predictive process by using CROP-seq to generate a purpose-built database for the accurate identification of kinase-driven transcriptional programs within each relevant cell type. The incorporation of spatial transcriptomics further refines predictions by resolving cellular neighborhoods to identify the most meaningful interactions occurring within a metastatic lesion.
+Through this process, we aim to make every patient an exceptional responder by elucidating the targetable pathways driving the formation and maintenance of individual metastatic lesions and matching these vulnerabilities to the most effective available drug.

@@ -1,0 +1,14 @@
+# A macrophage endocytic checkpoint for PD-1 governs durable vs hyperprogressive response
+
+**Poster #**: 2797
+**Session**: Immune Checkpoints
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Madhubanti Mullick1, Ella McLaren1, Suchismita Roy1, Brandon Biagas1, Mahitha Anandachar1, Vanessa Castillo1, Samuel Williams1, Celia Espinoza1, Courtney Tindle1, Gajanan Katkar1, Saptarshi Sinha1, Pradipta Ghosh2
+
+1University of California, San Diego, San Diego, CA,2UC San Diego Health, San Diego, CA
+
+---
+
+Clinical responses to PD-1 blockade span a wide continuum, from durable regressions to hyperprogressive disease (HPD); yet the macrophage-intrinsic switches that determine these extremes responses remain undefined. Using a macrophage systems model built from >12,500 transcriptomes and calibrated with single-cell transcriptomes from >1,000 anti-PD-1-treated patients, we identified  CCDC88A (encodes the endocytic adaptor, GIV) as a top responder-linked gene and mechanistic driver of tumor-associated macrophage (TAM)states predictive of clinical benefit versus HPD. Loss of GIV in macrophages increased cell-surface PD-1 across species and platforms (primary cell-line, and organoid co-cultures), impaired phagocytosis, and accelerated tumor progression. In syngeneic models, myeloid-specific GIV deletion converted anti-PD-1 therapy from tumor-controlling (beneficial) to tumor-accelerating (hyperprogressive), without altering T cell targeting; transcriptomic analyses of tumor-infiltrating myeloid cells confirmed a shift towards HPD-associated macrophage signatures. Mechanistically, GIV engages a TIR-like BB-loop (TILL) motif within the PD-1 cytoplasmic tail and functions as an endocytic adaptor, driving dynamin-mediated PD-1 internalization and recycling. A pharmacogenomic perturbation strategy revealed that blocking endocytic trafficking phenocopies GIV loss both in vitro and in vivo: PD-1 is trapped on the TAM surface, checkpoint blockade fails, and tumors accelerate under therapy. Conversely, preserving GIV&#8226;PD-1 coupling enhances response durability. Finally, we uncover a clinically relevant vulnerability: FDA-approved psychotropic and antiemetic drugs that impair receptor internalization (e.g., prochlorperazine) negate anti-PD-1 efficacy and induce HPD-like progression in vivo, consistent with pharmacoepidemiologic evidence linking such drugs to increased mortality and immune-related adverse events in patients receiving checkpoint therapy. Collectively, these findings establish GIV-dependent PD-1 routing as a macrophage-encoded checkpoint that dictates whether PD-1 blockade elicits tumor clearance or fuels malignant outgrowth. By repositioning TAMs as active arbiters of immunotherapy fate, this work exposes PD-1 trafficking, and its drug-induced derailment, as a new axis for therapeutic control and precision risk mitigation in solid tumors.

@@ -1,0 +1,7305 @@
+WEBVTT
+
+1
+00:00:02.080 --> 00:00:06.010
+Okay. So in the interest of keeping this on time, I think we're going to go ahead
+
+2
+00:00:06.020 --> 00:00:09.340
+and get started. I know people are still filtering in a little bit.
+
+3
+00:00:09.600 --> 00:00:12.980
+So I'm Dr. Joshua LaBaer, and this is Dr.
+
+4
+00:00:13.220 --> 00:00:16.210
+Irene Gabriel, and we're here to lead this
+
+5
+00:00:16.261 --> 00:00:19.780
+session. And if I can, yep, switch to this.
+
+6
+00:00:19.900 --> 00:00:23.730
+I'm going to do a couple of quickie introductory notes just because
+
+7
+00:00:23.960 --> 00:00:27.310
+I've spent most of my career looking at biomarkers, and so I thought I would talk
+
+8
+00:00:27.360 --> 00:00:31.270
+in general a little bit about biomarkers just to set the stage for a lot of
+
+9
+00:00:31.300 --> 00:00:35.040
+what we're going to hear today. So biomarkers are basically biometric
+
+10
+00:00:35.120 --> 00:00:38.840
+measurements that convey some kind of information about the subject's either
+
+11
+00:00:38.920 --> 00:00:40.660
+biological or clinical state.
+
+12
+00:00:41.720 --> 00:00:45.600
+We can think about biomarkers in terms of how they're going to be
+
+13
+00:00:45.720 --> 00:00:48.350
+used, which I think is a big part of what we'll hear today,
+
+14
+00:00:49.160 --> 00:00:53.130
+where the material comes from, what type of material people are using, and
+
+15
+00:00:53.200 --> 00:00:54.200
+how
+
+16
+00:00:55.100 --> 00:00:57.300
+thoroughly the biomarkers are validated.
+
+17
+00:00:58.760 --> 00:01:02.700
+In terms of clinical use, a common use is to stratify patients
+
+18
+00:01:02.740 --> 00:01:04.560
+into specific subtypes of disease.
+
+19
+00:01:05.140 --> 00:01:08.120
+You could think of the MSI status in colon cancer, for
+
+20
+00:01:08.140 --> 00:01:11.640
+example. They're definitely useful for looking at
+
+21
+00:01:12.040 --> 00:01:14.440
+prediction in terms of use of therapies.
+
+22
+00:01:14.470 --> 00:01:16.700
+So are they a good companion diagnostic?
+
+23
+00:01:17.660 --> 00:01:21.200
+We'll hear a number of examples of prognostic biomarkers, so essentially
+
+24
+00:01:21.240 --> 00:01:24.480
+assessing how aggressive a cancer will be and where it will end up.
+
+25
+00:01:25.000 --> 00:01:25.640
+We can think about
+
+26
+00:01:26.620 --> 00:01:28.960
+monitoring disease progression with biomarkers.
+
+27
+00:01:29.000 --> 00:01:32.980
+This is commonly done in cancer therapy, looking at things like CEA in colon
+
+28
+00:01:33.060 --> 00:01:34.060
+cancer.
+
+29
+00:01:34.980 --> 00:01:37.630
+The area that I've been interested in is early detection biomarkers.
+
+30
+00:01:37.740 --> 00:01:40.980
+Can we pick up cancer before they're clinically apparent?
+
+31
+00:01:41.500 --> 00:01:44.840
+And then, of course, there are markers that actually predict risk of cancer.
+
+32
+00:01:45.760 --> 00:01:46.020
+So
+
+33
+00:01:47.060 --> 00:01:50.710
+you can sometimes use biomarkers defined for one approach for another
+
+34
+00:01:50.740 --> 00:01:53.160
+approach, but that doesn't always work great.
+
+35
+00:01:53.760 --> 00:01:57.560
+So in terms of types of markers, this is a list of common
+
+36
+00:01:57.600 --> 00:02:01.360
+types of markers. Obviously, today we're going to be thinking about spatiotemporal
+
+37
+00:02:01.480 --> 00:02:05.040
+sampling. So looking at different time points
+
+38
+00:02:05.500 --> 00:02:09.299
+and different locations and also measuring various types of omic
+
+39
+00:02:09.320 --> 00:02:12.400
+responses is what we're going to be focusing on today.
+
+40
+00:02:13.560 --> 00:02:14.520
+Just as a quick note,
+
+41
+00:02:15.660 --> 00:02:19.480
+the success of getting biomarkers through the FDA has not been
+
+42
+00:02:19.660 --> 00:02:23.560
+stupendous. In the past 10 years, there have been five tests that have
+
+43
+00:02:23.580 --> 00:02:27.280
+been cleared by the FDA for cancer detection.
+
+44
+00:02:27.760 --> 00:02:31.520
+So that speaks to the challenges inherent in finding good
+
+45
+00:02:31.580 --> 00:02:35.380
+biomarkers. And just to outline those, first of all,
+
+46
+00:02:35.480 --> 00:02:39.440
+it's very difficult to find a difference in a biological specimen
+
+47
+00:02:40.000 --> 00:02:43.840
+that is predictive of outcome. It's especially hard to
+
+48
+00:02:43.880 --> 00:02:46.360
+find them in accessible fluids, and
+
+49
+00:02:47.280 --> 00:02:49.400
+it's ridiculously hard to find them that are not
+
+50
+00:02:51.140 --> 00:02:53.220
+affected by other related diseases.
+
+51
+00:02:53.300 --> 00:02:53.500
+So,
+
+52
+00:02:55.140 --> 00:02:59.040
+other things that are challenging, as many of you know, just to get these studies
+
+53
+00:02:59.100 --> 00:03:03.000
+off the ground, getting the appropriate clinical samples is a
+
+54
+00:03:03.160 --> 00:03:06.860
+big challenge. And probably one of the biggest challenges
+
+55
+00:03:06.980 --> 00:03:08.940
+is even if you find a difference,
+
+56
+00:03:09.880 --> 00:03:13.440
+getting the funding to do a validation study is
+
+57
+00:03:13.480 --> 00:03:17.470
+especially challenging. You will often get reviews back on your
+
+58
+00:03:17.500 --> 00:03:21.079
+grant proposals saying that this has already been done. Why are you doing it again?
+
+59
+00:03:22.020 --> 00:03:24.860
+So, just to think a little bit about validation.
+
+60
+00:03:25.640 --> 00:03:29.160
+Typically, biomarker studies begin with making some kind of an observed difference
+
+61
+00:03:29.180 --> 00:03:32.910
+between cases and controls. And if you do enough of those
+
+62
+00:03:33.080 --> 00:03:36.640
+together, you will get a subset of those markers that you would think of
+
+63
+00:03:36.780 --> 00:03:40.250
+as candidate biomarkers, once you define their sensitivity and
+
+64
+00:03:40.360 --> 00:03:44.200
+specificity. From there, you really need to verify that biomarker
+
+65
+00:03:44.240 --> 00:03:48.140
+by repeating it in a fully independent set
+
+66
+00:03:48.220 --> 00:03:52.140
+of samples. So nothing in common with the previous discovery set,
+
+67
+00:03:52.600 --> 00:03:55.040
+so you can be sure that they really are not false positives.
+
+68
+00:03:55.980 --> 00:03:59.460
+Then you're set up to do an actual validation study, which should be a
+
+69
+00:03:59.500 --> 00:04:03.420
+prospective blinded study to see if, in fact, the markers
+
+70
+00:04:03.460 --> 00:04:04.440
+are truly predictive.
+
+71
+00:04:05.340 --> 00:04:08.820
+After which you really need to do a utility study to show that
+
+72
+00:04:09.220 --> 00:04:12.680
+by using those biomarkers, you can actually change the clinical
+
+73
+00:04:12.980 --> 00:04:16.680
+benefit of-- you can improve the clinical benefit of people being
+
+74
+00:04:16.700 --> 00:04:20.120
+treated. So it's a long road to get to an approved
+
+75
+00:04:20.161 --> 00:04:23.900
+biomarker, and all of it depends on first defining
+
+76
+00:04:24.040 --> 00:04:27.240
+what's the clinical need that you're going to address with the biomarker.
+
+77
+00:04:28.060 --> 00:04:32.000
+So lots of pitfalls. Discovery without defining the clinical need,
+
+78
+00:04:32.500 --> 00:04:35.580
+doing inappropriate statistics, doing an underpowered study,
+
+79
+00:04:36.560 --> 00:04:39.800
+failure to account for overfitting, which is a huge issue in omics.
+
+80
+00:04:40.480 --> 00:04:43.880
+If we're looking at lots and lots of variables, it's very easy to find something
+
+81
+00:04:44.380 --> 00:04:47.540
+that doesn't hold up when you repeat the study in a different population.
+
+82
+00:04:48.460 --> 00:04:51.910
+Not using the right samples, failing to develop a robust and
+
+83
+00:04:51.940 --> 00:04:55.720
+reproducible assay which can be done over and over again and
+
+84
+00:04:55.780 --> 00:04:59.740
+reliably, and not doing the appropriate validation studies or the
+
+85
+00:04:59.760 --> 00:05:01.960
+utility studies. So today,
+
+86
+00:05:02.780 --> 00:05:06.570
+just coming back to the biomarkers by clinical use, we've got a couple of great
+
+87
+00:05:06.620 --> 00:05:09.770
+talks lined up for looking at disease stratification markers.
+
+88
+00:05:10.780 --> 00:05:12.280
+We've got a talk looking at
+
+89
+00:05:13.320 --> 00:05:17.120
+markers that are good in predicting immunotherapy response, so a
+
+90
+00:05:17.160 --> 00:05:20.520
+companion diagnostic. We've got several talks on
+
+91
+00:05:20.900 --> 00:05:24.600
+prognostic biomarkers and one talk on an early
+
+92
+00:05:24.660 --> 00:05:28.560
+detection biomarker. So I won't spill the beans on what they're
+
+93
+00:05:28.580 --> 00:05:30.420
+going to talk about since they're going to do it in a moment.
+
+94
+00:05:30.940 --> 00:05:33.480
+So I just want to thank you, and we'll start with the first talk.
+
+95
+00:05:34.940 --> 00:05:38.820
+All right. Thank you so much. And our first talk is on spatial transcriptomics
+
+96
+00:05:38.900 --> 00:05:42.260
+profiling of colorectal cancer tumors in Alaska Native people:
+
+97
+00:05:42.900 --> 00:05:45.340
+Discovery of prognostic biomarkers by Geryk Cheng.
+
+98
+00:05:56.260 --> 00:05:59.540
+So thank you very much for coming to my talk, and thank you, AACR, for selecting my
+
+99
+00:05:59.640 --> 00:06:03.600
+talk for this mini symposium. So today I'm going to talk about the
+
+100
+00:06:03.680 --> 00:06:07.440
+spatial transcriptomic profiling of colorectal cancer samples
+
+101
+00:06:07.820 --> 00:06:11.400
+in Alaska Native people and trying to discover prognostic biomarkers.
+
+102
+00:06:12.540 --> 00:06:13.680
+And I have nothing to disclose.
+
+103
+00:06:16.108 --> 00:06:19.977
+So colorectal cancer in Alaska Native people, this is one of the most
+
+104
+00:06:20.028 --> 00:06:23.628
+commonly diagnosed cancer and there exists stark
+
+105
+00:06:23.648 --> 00:06:27.088
+disparities where they are having the highest rates in the world
+
+106
+00:06:27.488 --> 00:06:31.448
+compared to the US average. Their incidence rate
+
+107
+00:06:31.508 --> 00:06:34.828
+is two times higher, and their mortality rates are almost three times
+
+108
+00:06:34.988 --> 00:06:38.838
+higher. And these rates cannot just be explained by the screening because their
+
+109
+00:06:38.868 --> 00:06:42.688
+screening rates are similar to the US public So we want to
+
+110
+00:06:42.728 --> 00:06:46.488
+understand how to have the best available
+
+111
+00:06:47.088 --> 00:06:49.208
+methods to increase their survivability.
+
+112
+00:06:49.248 --> 00:06:53.058
+So the current knowledge gaps and barrier is that there's just a lack of
+
+113
+00:06:53.088 --> 00:06:56.658
+clinically useful biomarkers and tools for predicting clinical
+
+114
+00:06:56.768 --> 00:06:59.768
+outcomes that's tailored specifically for Alaska Native people.
+
+115
+00:07:00.308 --> 00:07:03.828
+And as you all know, most established researchers are focusing on
+
+116
+00:07:04.028 --> 00:07:07.728
+non-Hispanic white people. And by having effective prognostic
+
+117
+00:07:07.748 --> 00:07:11.448
+biomarkers for them, it allows a robust risk stratification
+
+118
+00:07:11.948 --> 00:07:15.358
+and preventing over or under-treatment and overall,
+
+119
+00:07:15.808 --> 00:07:17.548
+increasing their survival likelihood.
+
+120
+00:07:19.908 --> 00:07:23.808
+So, in order to try to find the spatial biomarkers, we
+
+121
+00:07:23.848 --> 00:07:27.728
+decided to look into both the tumor and the tumor microenvironment around the
+
+122
+00:07:27.748 --> 00:07:31.408
+tumor. And, just a quick definition of TME, it's the
+
+123
+00:07:31.468 --> 00:07:35.178
+ecosystem surrounding the cancer cells, and they have different cell types,
+
+124
+00:07:35.228 --> 00:07:38.888
+different soluble factors. And the spatial organization of these cell
+
+125
+00:07:38.968 --> 00:07:42.788
+types of the tumor and TME and how their pathways are
+
+126
+00:07:43.008 --> 00:07:46.788
+enriched can drive the development of the tumor, how
+
+127
+00:07:46.848 --> 00:07:47.688
+the disease
+
+128
+00:07:48.668 --> 00:07:52.448
+going to turn out, and also how the patient's going to respond to therapy.
+
+129
+00:07:54.228 --> 00:07:58.168
+And in here we have a really unique study population,
+
+130
+00:07:58.268 --> 00:08:01.708
+thanks to our close collaboration with the Alaska Native Tribal Health
+
+131
+00:08:01.748 --> 00:08:04.028
+Consortium, where currently we have
+
+132
+00:08:05.168 --> 00:08:08.978
+217 Alaska Native patients who have colorectal cancer, and we have
+
+133
+00:08:09.028 --> 00:08:13.018
+their FFP tissue blocks. And, the patients who die from colorectal
+
+134
+00:08:13.068 --> 00:08:16.768
+cancer are matched one to two to patients who did not die from
+
+135
+00:08:16.788 --> 00:08:20.398
+colorectal cancer. And, these data have been
+
+136
+00:08:21.248 --> 00:08:24.708
+processed with GeoMix and additional 100
+
+137
+00:08:24.768 --> 00:08:28.328
+patients are also being generated with GeoMix data that we will be
+
+138
+00:08:28.388 --> 00:08:30.268
+including in our results in the future.
+
+139
+00:08:31.028 --> 00:08:31.248
+And,
+
+140
+00:08:32.528 --> 00:08:36.088
+for these tissue blocks, we will then extract tissue cores for them
+
+141
+00:08:36.288 --> 00:08:38.948
+and arrange them into tissue microarrays.
+
+142
+00:08:39.428 --> 00:08:43.389
+And apart from GeoMix, we also have other spatial
+
+143
+00:08:43.428 --> 00:08:47.068
+omics profiling performed on them, including bulk
+
+144
+00:08:47.148 --> 00:08:51.048
+RNA-seq, PhenoCyte, which is single cell spatial proteomics, and also
+
+145
+00:08:51.108 --> 00:08:53.328
+Xenia, which is single cell spatial transcriptomics.
+
+146
+00:08:53.968 --> 00:08:55.998
+And, this one is our
+
+147
+00:08:56.988 --> 00:09:00.818
+characteristics of our study population, which also includes
+
+148
+00:09:00.848 --> 00:09:04.658
+matched on sex, tumor stage, and
+
+149
+00:09:04.688 --> 00:09:05.268
+tumor sites.
+
+150
+00:09:07.588 --> 00:09:10.728
+So, the way that we have our different cores is that we first,
+
+151
+00:09:12.128 --> 00:09:16.028
+for each patient, we identify cores that are two cores
+
+152
+00:09:16.068 --> 00:09:18.868
+from tumor center and then one core from the invasive margin.
+
+153
+00:09:19.258 --> 00:09:23.098
+And then for each core, we also have identified the epithelium and the
+
+154
+00:09:23.148 --> 00:09:26.188
+stroma, which corresponds to the tumor and TME
+
+155
+00:09:26.208 --> 00:09:29.988
+respectively. And we're using the pencillin marker to
+
+156
+00:09:30.028 --> 00:09:33.988
+identify the different regions, and we also have pathologists to verify that.
+
+157
+00:09:34.328 --> 00:09:38.308
+And in total, we have 1,140 total tissue
+
+158
+00:09:38.348 --> 00:09:41.748
+compartments that is currently used for the GeoMix analysis.
+
+159
+00:09:43.508 --> 00:09:47.308
+And, as I mentioned, we're using GeoMix, and the specific part
+
+160
+00:09:47.348 --> 00:09:51.048
+about that is that it allows for a UV-dependent cleavage of the
+
+161
+00:09:51.068 --> 00:09:53.928
+oligo-labeled RNA probes. So since we know where the
+
+162
+00:09:54.688 --> 00:09:58.408
+epithelial segment and the stromal segment is, we can then just shine the UV light
+
+163
+00:09:58.448 --> 00:10:02.108
+onto there, and then it can release the RNA probes, so we're able to know the
+
+164
+00:10:02.208 --> 00:10:05.808
+spatially specific transcriptomic profiles of those tissue
+
+165
+00:10:05.828 --> 00:10:06.368
+compartments.
+
+166
+00:10:08.368 --> 00:10:10.908
+And the bioinformatic pipeline is relatively straightforward.
+
+167
+00:10:11.028 --> 00:10:14.968
+We first have quality control, where we kick out any segments and genes that are
+
+168
+00:10:15.388 --> 00:10:19.268
+underperforming. And then we also have batch effects correction, as our data
+
+169
+00:10:19.328 --> 00:10:21.977
+is being processed in different batches.
+
+170
+00:10:22.348 --> 00:10:25.988
+We want to make sure all the differences that remains are from biological
+
+171
+00:10:26.008 --> 00:10:28.868
+differences and not experimental differences.
+
+172
+00:10:28.948 --> 00:10:32.648
+So, we did the batch effect correction for that, and then we also did
+
+173
+00:10:32.688 --> 00:10:36.258
+normalization to make sure every gene's in an equal footing and easier for
+
+174
+00:10:36.267 --> 00:10:40.198
+comparison. And then finally, we have the downstream analysis, including
+
+175
+00:10:40.208 --> 00:10:43.777
+differential gene expression, gene set enrichment, and also cell type
+
+176
+00:10:43.808 --> 00:10:44.388
+compositions.
+
+177
+00:10:46.188 --> 00:10:49.728
+And for the results. So, first we have the differentially expressed
+
+178
+00:10:49.808 --> 00:10:52.928
+genes. So we are able to identify spatially
+
+179
+00:10:53.288 --> 00:10:54.188
+compartment-specific
+
+180
+00:10:55.188 --> 00:10:58.978
+expressed genes. So specifically for the epithelial compartment of the
+
+181
+00:10:59.068 --> 00:11:02.888
+tumor center, we see that for the patients who did not die from colorectal
+
+182
+00:11:02.928 --> 00:11:06.608
+cancer, there is a upregulation of SPINK4 and MUQ2
+
+183
+00:11:06.648 --> 00:11:10.448
+genes. And then for the epithelial compartment of the invasive margin,
+
+184
+00:11:10.808 --> 00:11:14.588
+we see a upregulation of HBA2 for patients who die from colorectal
+
+185
+00:11:14.628 --> 00:11:18.268
+cancer. And all these differentially expressed genes are
+
+186
+00:11:18.308 --> 00:11:22.208
+being processed by using DESeq2, and then
+
+187
+00:11:22.468 --> 00:11:26.028
+it's being adjusted for all the measuring co-variables I mentioned in the study
+
+188
+00:11:26.068 --> 00:11:29.308
+population, including sex, tumor stage, tumor site,
+
+189
+00:11:29.568 --> 00:11:33.548
+age, and year of diagnosis. And we also did
+
+190
+00:11:33.608 --> 00:11:37.508
+a randomization to make sure we don't have any effects
+
+191
+00:11:37.548 --> 00:11:38.388
+of the outliers.
+
+192
+00:11:39.988 --> 00:11:43.868
+And once we have the results from the differentially expressed genes, we can
+
+193
+00:11:43.948 --> 00:11:47.888
+then also try to see which specific pathways are being
+
+194
+00:11:47.928 --> 00:11:50.368
+enriched. And, two things to note here.
+
+195
+00:11:50.568 --> 00:11:54.068
+One thing is that we've identified that in the epithelial compartment,
+
+196
+00:11:54.468 --> 00:11:58.008
+in both tumor center and the invasive margin, there is an
+
+197
+00:12:00.268 --> 00:12:04.128
+enriched pathway of the interferon alpha and gamma response for
+
+198
+00:12:04.168 --> 00:12:07.884
+patients who did not die from colorectal cancer.And
+
+199
+00:12:07.924 --> 00:12:11.644
+that definitely makes sense. And also we see that in invasive margin,
+
+200
+00:12:12.044 --> 00:12:15.944
+we see that both epithelial and stromal compartment, there is an
+
+201
+00:12:15.964 --> 00:12:19.924
+upregulation of epithelial-mesenchymal transition-related pathways
+
+202
+00:12:19.964 --> 00:12:22.824
+that are being enriched for patients who die from colorectal cancer.
+
+203
+00:12:23.224 --> 00:12:27.044
+And that also makes sense because as EMT is being known for
+
+204
+00:12:27.584 --> 00:12:31.384
+epithelial cells losing their cell identity and getting more fluid
+
+205
+00:12:31.444 --> 00:12:34.484
+and easy to get metastasized. So it also makes sense why they are being
+
+206
+00:12:34.524 --> 00:12:37.224
+upregulated for patients who die from colorectal cancer.
+
+207
+00:12:39.224 --> 00:12:41.294
+And, also we are
+
+208
+00:12:43.044 --> 00:12:46.904
+able to determine these pathways based on the reference database
+
+209
+00:12:46.944 --> 00:12:49.303
+using Homologene, KEGG MEDica, and Reactome.
+
+210
+00:12:51.904 --> 00:12:55.384
+And then after that, we also have cell type deconvolution results, where we are
+
+211
+00:12:55.464 --> 00:12:59.364
+able to look at the cell type abundance score for
+
+212
+00:12:59.444 --> 00:13:00.864
+the specific tissue compartments.
+
+213
+00:13:01.284 --> 00:13:05.204
+And this cell type abundance score is being determined
+
+214
+00:13:05.604 --> 00:13:09.524
+by using SpatialDecon, a publicly available library specifically for
+
+215
+00:13:09.564 --> 00:13:11.234
+geomix results. And we're
+
+216
+00:13:12.204 --> 00:13:15.874
+doing this with a custom cell reference based on a publicly
+
+217
+00:13:15.924 --> 00:13:18.884
+available colorectal cancer single-cell RNA sequencing datasets.
+
+218
+00:13:19.294 --> 00:13:22.364
+And what we can see in here is that for the epithelial compartment at the tumor
+
+219
+00:13:22.444 --> 00:13:26.434
+center, we see an increase of plasma cells for patients who did not
+
+220
+00:13:26.434 --> 00:13:30.014
+die from colorectal cancer. And for the stromal compartment of the tumor center,
+
+221
+00:13:30.404 --> 00:13:34.194
+we see that an increase of mast cells for patients who die from colorectal
+
+222
+00:13:34.264 --> 00:13:38.204
+cancer. And just to have a quick validation to make sure our cell deconvolution
+
+223
+00:13:38.224 --> 00:13:41.864
+results are valid, we also check it with the
+
+224
+00:13:41.904 --> 00:13:45.644
+consensus molecular subtypes we determine with our bulk RNA-seq
+
+225
+00:13:45.684 --> 00:13:49.624
+results. And in CMS1, which is known for MSI-H, having
+
+226
+00:13:49.704 --> 00:13:53.564
+a higher immune activity, we see that there is a higher immune cell type
+
+227
+00:13:53.624 --> 00:13:54.584
+in those groups, so
+
+228
+00:13:56.144 --> 00:14:00.004
+meaning that our cell type deconvolution results are valid.
+
+229
+00:14:01.564 --> 00:14:05.364
+So in summary, our analysis have identified spatially specific markers
+
+230
+00:14:05.384 --> 00:14:08.954
+that's tied to colorectal cancer-specific mortality in Alaska Native
+
+231
+00:14:09.044 --> 00:14:12.684
+people. Specifically, in the tumor center, we have a
+
+232
+00:14:12.704 --> 00:14:16.404
+downregulation of MILK2, SPINK4, and the interferon
+
+233
+00:14:16.464 --> 00:14:19.104
+alpha and gamma pathways in the epithelial compartment.
+
+234
+00:14:19.604 --> 00:14:23.564
+And in the cell type, we see that there is a decrease of plasma cells and an
+
+235
+00:14:23.644 --> 00:14:26.484
+increase of mast cells in the tumor center.
+
+236
+00:14:27.234 --> 00:14:30.624
+And also for the invasive margin, we see an increase of
+
+237
+00:14:30.744 --> 00:14:34.384
+HBA2 expression in the epithelial compartment, and the overall
+
+238
+00:14:34.424 --> 00:14:38.354
+invasive margin, we see an enriched epithelial-mesenchymal
+
+239
+00:14:38.424 --> 00:14:41.824
+transition pathways. And for the future direction for this research, as I
+
+240
+00:14:41.864 --> 00:14:45.664
+mentioned, there's still 100 more patients' data being generated for
+
+241
+00:14:45.684 --> 00:14:49.044
+geomix that will be included. And also with the
+
+242
+00:14:49.604 --> 00:14:53.444
+other spatial proteomics and transcriptomics data we have with our
+
+243
+00:14:54.564 --> 00:14:55.504
+sequential TMA
+
+244
+00:14:56.884 --> 00:15:00.814
+slides, we're hoping to drive a more effective and complete prognostic biomarker
+
+245
+00:15:01.004 --> 00:15:02.784
+sets. Thank you very much for your time.
+
+246
+00:15:07.284 --> 00:15:09.923
+Thank you. This is now open for discussion.
+
+247
+00:15:13.524 --> 00:15:17.464
+Thank you very much for your talk. One question is, do you
+
+248
+00:15:17.484 --> 00:15:19.604
+need spatial transcriptomics for this kind of
+
+249
+00:15:20.904 --> 00:15:24.704
+biomarkers? Would you be able to have a pathologist annotate the regions
+
+250
+00:15:24.764 --> 00:15:28.654
+and use some tools to isolate and sequence-
+
+251
+00:15:28.744 --> 00:15:29.964
+I'm sorry, can you repeat that, please?
+
+252
+00:15:30.204 --> 00:15:31.204
+I think I couldn't hear you through the mic.
+
+253
+00:15:31.244 --> 00:15:34.684
+Right. So my question is if you need spatial
+
+254
+00:15:34.724 --> 00:15:37.144
+transcriptomics for this kind of biomarkers-
+
+255
+00:15:37.264 --> 00:15:37.444
+Mm-hmm
+
+256
+00:15:37.664 --> 00:15:41.484
+... or whether you can use a pathologist, say, to annotate the tumor center and the
+
+257
+00:15:41.524 --> 00:15:43.444
+invasive margin and then
+
+258
+00:15:44.424 --> 00:15:48.044
+sequence these separately in bulk transcriptomics.
+
+259
+00:15:49.424 --> 00:15:52.704
+Yeah. So, ultimately, what we want to do is to
+
+260
+00:15:52.764 --> 00:15:56.164
+present a list of curated
+
+261
+00:15:56.284 --> 00:15:58.904
+biomarkers so that it can be implemented clinically.
+
+262
+00:15:59.244 --> 00:16:03.024
+Because obviously even geomix is a relatively old technology,
+
+263
+00:16:03.404 --> 00:16:03.904
+relatively,
+
+264
+00:16:05.204 --> 00:16:07.984
+compared to the single-cell technologies, but it's still really expensive, so we
+
+265
+00:16:08.044 --> 00:16:11.714
+obviously don't want to bankrupt the patients by performing these
+
+266
+00:16:11.724 --> 00:16:15.564
+geomix datasets for everyone. So yes, ultimately, we'll be
+
+267
+00:16:15.624 --> 00:16:19.504
+having a curated set so that they can
+
+268
+00:16:19.564 --> 00:16:21.644
+use a cheaper way to determine those.
+
+269
+00:16:21.984 --> 00:16:22.964
+Yes. Thank you.
+
+270
+00:16:25.284 --> 00:16:27.804
+Hasan Ishtar, a very nice presentation.
+
+271
+00:16:27.864 --> 00:16:28.074
+Thank you.
+
+272
+00:16:28.104 --> 00:16:28.994
+Questions about,
+
+273
+00:16:29.884 --> 00:16:33.714
+you mentioned two categories, those who died versus those
+
+274
+00:16:33.904 --> 00:16:34.784
+who not died.
+
+275
+00:16:34.934 --> 00:16:35.033
+Mm-hmm.
+
+276
+00:16:35.294 --> 00:16:38.824
+How about the age of the patient? How about the metastasis versus
+
+277
+00:16:38.864 --> 00:16:41.804
+non-metastasis? Because the treatment.
+
+278
+00:16:42.164 --> 00:16:42.174
+Yes.
+
+279
+00:16:42.204 --> 00:16:46.064
+So that is very specific. For the age
+
+280
+00:16:46.124 --> 00:16:47.464
+can be 90-
+
+281
+00:16:47.844 --> 00:16:47.944
+Mm-hmm
+
+282
+00:16:48.024 --> 00:16:51.544
+... or less than 50, young or late, and then the
+
+283
+00:16:51.604 --> 00:16:54.424
+treatment and the markers,
+
+284
+00:16:55.204 --> 00:16:58.324
+tumor microenvironment, which is hot versus
+
+285
+00:16:58.784 --> 00:16:59.244
+cold.
+
+286
+00:16:59.344 --> 00:16:59.374
+Mm-hmm.
+
+287
+00:16:59.424 --> 00:17:01.684
+You mentioned CMS.
+
+288
+00:17:01.884 --> 00:17:02.064
+Mm-hmm.
+
+289
+00:17:02.904 --> 00:17:06.234
+Especially MSI and MSS, which is now the
+
+290
+00:17:06.344 --> 00:17:08.004
+guideline at the bedside.
+
+291
+00:17:08.104 --> 00:17:08.194
+Mm-hmm.
+
+292
+00:17:08.524 --> 00:17:11.854
+CMS is not really at the bedside yet.
+
+293
+00:17:12.065 --> 00:17:12.075
+Mm-hmm.
+
+294
+00:17:12.585 --> 00:17:15.774
+But that is interesting to know about your-
+
+295
+00:17:16.164 --> 00:17:17.924
+Yes. So thank you very much for your question.
+
+296
+00:17:17.964 --> 00:17:19.144
+That is actually a really good point.
+
+297
+00:17:19.244 --> 00:17:22.744
+So, as I mentioned that our dataset, as we did have a really
+
+298
+00:17:22.805 --> 00:17:26.785
+careful matching for the age, the sex, the tumor
+
+299
+00:17:26.904 --> 00:17:30.424
+stage, and tumor site. Those are the things that we adjust for
+
+300
+00:17:30.464 --> 00:17:30.944
+before
+
+301
+00:17:32.024 --> 00:17:35.924
+getting the results. And yes, you did mention for CMS MSI-H, right
+
+302
+00:17:35.964 --> 00:17:39.844
+now we have some, the subset of the data is being
+
+303
+00:17:39.864 --> 00:17:43.744
+performed with bulk RNA-seq that we are able to know the CMS and the MSI-H.
+
+304
+00:17:44.404 --> 00:17:48.284
+But after that, once we're able to get the additional 100 patients, we
+
+305
+00:17:48.324 --> 00:17:52.024
+can then use, for example, CMS Call, which is a
+
+306
+00:17:52.364 --> 00:17:56.244
+library that can get those results from the geomix data, then we
+
+307
+00:17:56.284 --> 00:17:59.224
+can include them to use for adjusting and also for
+
+308
+00:17:59.304 --> 00:18:01.364
+stratification comparisons.
+
+309
+00:18:05.164 --> 00:18:05.404
+Great.
+
+310
+00:18:05.844 --> 00:18:05.944
+Thanks.
+
+311
+00:18:05.964 --> 00:18:06.694
+Well, thank you for
+
+312
+00:18:10.700 --> 00:18:14.040
+Okay. The next speaker is David Routtenberg from Mesoscale
+
+313
+00:18:14.100 --> 00:18:18.080
+Diagnostics, who will be talking about highly multiplexed immunoassays that
+
+314
+00:18:18.120 --> 00:18:21.980
+enable the discovery of multi-marker EV surface signatures as novel
+
+315
+00:18:22.040 --> 00:18:22.680
+biomarkers.
+
+316
+00:18:27.000 --> 00:18:30.300
+Hi, thanks for coming. My name is David Routtenberg with Mesoscale,
+
+317
+00:18:31.370 --> 00:18:35.120
+and I'm going to talk about a new tool, a new platform that we've put
+
+318
+00:18:35.160 --> 00:18:39.040
+together to enable discovery of multi-marker extracellular vesicle
+
+319
+00:18:39.080 --> 00:18:41.920
+surface signatures, and how we can use these as biomarkers.
+
+320
+00:18:44.000 --> 00:18:46.960
+So I'm an employee of MSD, neither a shareholder nor an officer.
+
+321
+00:18:49.300 --> 00:18:51.700
+Okay, so I'll give a little bit of background on EVs, but I know most of you
+
+322
+00:18:51.780 --> 00:18:55.740
+probably know most of this info. So extracellular vesicles
+
+323
+00:18:55.820 --> 00:18:59.480
+are lipid bilayer vesicles. They're secreted by all cells.
+
+324
+00:19:00.300 --> 00:19:01.500
+They show up in all biofluids.
+
+325
+00:19:04.740 --> 00:19:08.460
+They're typically secreted at higher levels from tumor tissue than healthy
+
+326
+00:19:08.480 --> 00:19:11.320
+tissue, so that helps us if we're looking for tumor biomarkers.
+
+327
+00:19:12.300 --> 00:19:16.040
+And they provide a snapshot of the originating
+
+328
+00:19:16.160 --> 00:19:19.840
+cell. And so that makes them an attractive liquid biopsy target.
+
+329
+00:19:20.700 --> 00:19:24.200
+We're interested in surface signatures because the surface markers reveal
+
+330
+00:19:24.240 --> 00:19:26.580
+information about the cellular origin.
+
+331
+00:19:27.300 --> 00:19:31.000
+They help determine the destination, ultimately, which cells will take these up, as
+
+332
+00:19:31.040 --> 00:19:33.860
+well as they give us clues about the effector function of these EVs.
+
+333
+00:19:34.780 --> 00:19:37.680
+And we're interested in multi-marker signatures
+
+334
+00:19:38.580 --> 00:19:42.160
+because typically, single markers aren't sufficient in order to
+
+335
+00:19:42.180 --> 00:19:44.930
+distinguish a lot of the interesting EV populations.
+
+336
+00:19:45.240 --> 00:19:48.940
+Just as in flow cytometry, where you need two or three or more
+
+337
+00:19:49.860 --> 00:19:53.460
+surface stains in order to define your interesting cell populations, it's no
+
+338
+00:19:53.500 --> 00:19:55.080
+different with EVs.
+
+339
+00:19:56.980 --> 00:20:00.380
+All right. So I'll use an example here to show why I think you should care about EV
+
+340
+00:20:00.480 --> 00:20:04.240
+surface markers. So looking at colorectal cancer, we had a
+
+341
+00:20:04.280 --> 00:20:07.980
+set of stage four patients, and we measured soluble
+
+342
+00:20:08.480 --> 00:20:12.280
+CEA, sort of a classic soluble biomarker for colorectal cancer.
+
+343
+00:20:12.820 --> 00:20:16.360
+And then we also measured that same CEA molecule on the surface of extracellular
+
+344
+00:20:16.460 --> 00:20:19.620
+vesicles. It's actually a multi-marker signature, but it contains the CEA
+
+345
+00:20:20.340 --> 00:20:23.980
+molecule. And what we found is that 16% of the
+
+346
+00:20:24.020 --> 00:20:27.930
+patients were undetectable by the soluble CEA biomarker, and
+
+347
+00:20:27.960 --> 00:20:31.920
+yet were detectable looking at that same molecule on the surface
+
+348
+00:20:31.940 --> 00:20:35.480
+of the EVs. So clearly, there's orthogonal information
+
+349
+00:20:35.960 --> 00:20:39.900
+in these two different measurements, despite being based on measuring the same
+
+350
+00:20:40.380 --> 00:20:40.860
+molecule.
+
+351
+00:20:42.440 --> 00:20:42.580
+So
+
+352
+00:20:43.720 --> 00:20:45.440
+that kind of gives an idea of why we should care.
+
+353
+00:20:46.000 --> 00:20:47.620
+The challenging thing now is to know which
+
+354
+00:20:48.660 --> 00:20:51.360
+EV populations or subpopulations we should be looking at.
+
+355
+00:20:52.340 --> 00:20:55.000
+So one way that you could do that would be to take a whole bunch of different
+
+356
+00:20:55.060 --> 00:20:58.540
+surface markers and look at all the combinations of those surface markers and
+
+357
+00:20:58.580 --> 00:21:00.740
+figure out which ones are of interest.
+
+358
+00:21:01.670 --> 00:21:03.740
+That's challenging to do using
+
+359
+00:21:05.740 --> 00:21:09.549
+typical EV assay measurements. So we developed
+
+360
+00:21:10.180 --> 00:21:11.280
+a new platform for this.
+
+361
+00:21:12.160 --> 00:21:14.420
+We call it combinatorial immunosequencing.
+
+362
+00:21:15.460 --> 00:21:19.260
+So we essentially capture EVs from a sample on a solid phase.
+
+363
+00:21:19.820 --> 00:21:23.480
+We label those EVs using a cocktail of detection antibodies,
+
+364
+00:21:23.720 --> 00:21:27.340
+where each of these antibodies is tagged with a
+
+365
+00:21:27.380 --> 00:21:28.420
+molecular barcode.
+
+366
+00:21:29.500 --> 00:21:33.020
+We then have an assay where if three of these antibodies are
+
+367
+00:21:33.080 --> 00:21:36.700
+co-localized on the same vesicle, those barcodes get stitched
+
+368
+00:21:36.740 --> 00:21:38.880
+together into a sequenceable amplicon.
+
+369
+00:21:39.440 --> 00:21:41.940
+And so we can then put this into an NGS.
+
+370
+00:21:42.860 --> 00:21:45.800
+We can read out all the combinations of three
+
+371
+00:21:46.680 --> 00:21:50.180
+surface markers that were present, along with their relative
+
+372
+00:21:50.220 --> 00:21:51.980
+abundances in the sample.
+
+373
+00:21:55.240 --> 00:21:58.700
+All right. So to show that this is actually reporting sensibly, we ran it on a
+
+374
+00:21:58.740 --> 00:21:59.680
+number of cell lines.
+
+375
+00:22:01.080 --> 00:22:05.000
+Here I'm showing four. But we found that in each case, we're able to pick
+
+376
+00:22:05.080 --> 00:22:08.780
+out combinations of multiple surface markers, these triplets
+
+377
+00:22:09.280 --> 00:22:13.210
+that are both highly enriched in that cell line relative to all the other cell
+
+378
+00:22:13.260 --> 00:22:16.960
+lines in our little universe of cell lines, and also those that are highly
+
+379
+00:22:17.020 --> 00:22:20.679
+abundant on those targets. So those would be the ones in the upper right corner.
+
+380
+00:22:21.440 --> 00:22:25.240
+And what's interesting is we can take two colorectal carcinoma cell lines, so
+
+381
+00:22:25.380 --> 00:22:29.160
+Diffi and HCT15, and those would be really challenging to
+
+382
+00:22:29.240 --> 00:22:32.600
+separate just using a single marker because they do share a lot of the same surface
+
+383
+00:22:32.700 --> 00:22:36.690
+features. But we can easily find triplet combinations that
+
+384
+00:22:36.740 --> 00:22:40.670
+discriminate these quite well. So doing
+
+385
+00:22:40.670 --> 00:22:44.460
+this on cell lines is relatively easy, but the kicker is can we do
+
+386
+00:22:44.520 --> 00:22:48.040
+this in human biofluids? Can we detect these low abundance
+
+387
+00:22:48.640 --> 00:22:52.620
+multi-marker combinations against the background of billions of
+
+388
+00:22:52.680 --> 00:22:56.670
+irrelevant vesicles, or at least relevant to other biology vesicles in
+
+389
+00:22:56.720 --> 00:22:57.620
+something like plasma?
+
+390
+00:22:59.140 --> 00:23:02.240
+So to determine whether this is reasonable, we
+
+391
+00:23:02.380 --> 00:23:05.900
+purified Diffi EVs. We spiked these
+
+392
+00:23:05.940 --> 00:23:09.140
+into healthy human plasma. We did a limiting
+
+393
+00:23:09.160 --> 00:23:12.500
+dilution to figure out what was the minimum number of these
+
+394
+00:23:12.680 --> 00:23:16.480
+spiked-in EVs that we could detect among the background from the
+
+395
+00:23:16.500 --> 00:23:19.860
+healthy plasma. And we found that we can see
+
+396
+00:23:20.200 --> 00:23:21.800
+about one in 10 million.
+
+397
+00:23:24.980 --> 00:23:25.120
+So
+
+398
+00:23:26.700 --> 00:23:30.460
+that's hard to do with single markers, but the more markers you add up in
+
+399
+00:23:30.500 --> 00:23:34.380
+conjunction, the more your nonspecific background can go away, and you
+
+400
+00:23:34.420 --> 00:23:36.099
+can detect these really rare populations.
+
+401
+00:23:38.280 --> 00:23:41.960
+All right. So we showed that we have sensitive-- Actually, one more thing.
+
+402
+00:23:41.990 --> 00:23:45.340
+We have a really nice wide dynamic range, about four logs
+
+403
+00:23:46.000 --> 00:23:47.820
+of dynamic range here, so that's helpful.
+
+404
+00:23:49.720 --> 00:23:52.780
+So now that we have sensitive and specific
+
+405
+00:23:55.100 --> 00:23:59.040
+assays, we wanted to see, can these do something useful in actual patient samples?
+
+406
+00:23:59.600 --> 00:24:03.280
+So we looked at three independent cohorts of colorectal cancer
+
+407
+00:24:03.380 --> 00:24:07.160
+samples. The first was a cross-sectional cohort from Bob
+
+408
+00:24:07.220 --> 00:24:11.120
+Coffey's lab at Vanderbilt, and then two longitudinal cohorts from
+
+409
+00:24:11.160 --> 00:24:14.582
+Andy Nixon's lab at Duke.And despite being quite different
+
+410
+00:24:14.582 --> 00:24:15.292
+populations,
+
+411
+00:24:16.392 --> 00:24:19.822
+and different treatment, we found a lot of similar features, similar
+
+412
+00:24:20.132 --> 00:24:23.392
+three-marker combinations in these three cohorts.
+
+413
+00:24:24.352 --> 00:24:27.772
+And the interesting thing was that these combinations really reflect two distinct
+
+414
+00:24:27.912 --> 00:24:31.572
+tumor compartments. So we have combinations that reflect the
+
+415
+00:24:31.592 --> 00:24:35.052
+epithelial cells, so we can see there are combinations of markers like
+
+416
+00:24:35.112 --> 00:24:38.812
+CEA, E-cadherin, EpCAM, and then we
+
+417
+00:24:39.572 --> 00:24:43.492
+also see stromal combinations. And then there's a
+
+418
+00:24:43.512 --> 00:24:46.972
+few things like CD73 that we know show up on both the stromal population
+
+419
+00:24:47.252 --> 00:24:51.232
+and the epithelial population. So that's where if you just look at the single
+
+420
+00:24:51.272 --> 00:24:55.012
+marker CD73, it's really hard to put this into one of those two compartments.
+
+421
+00:24:55.232 --> 00:24:56.172
+You need the multimarker.
+
+422
+00:24:58.692 --> 00:25:01.852
+All right. So to convince ourselves that what we're seeing here is not just an
+
+423
+00:25:01.942 --> 00:25:05.222
+artifact of the assay, because we're a little worried that if you jam a bunch of
+
+424
+00:25:05.232 --> 00:25:09.032
+vesicles together on a surface, you might get cross-mixing of these
+
+425
+00:25:09.092 --> 00:25:12.652
+signatures, so you might have single positive EVs next to each other, and it look
+
+426
+00:25:12.732 --> 00:25:14.612
+like a double positive. So we
+
+427
+00:25:16.012 --> 00:25:19.792
+used an alternative assay technology, this is based on MST's
+
+428
+00:25:19.852 --> 00:25:20.652
+ECL
+
+429
+00:25:21.632 --> 00:25:23.292
+planar array platform.
+
+430
+00:25:24.172 --> 00:25:27.552
+And we measured the same samples, and we showed really high correlation, so a
+
+431
+00:25:27.612 --> 00:25:29.232
+Pearson correlation of over 0.9.
+
+432
+00:25:31.252 --> 00:25:35.032
+And so this was great. It kind of validated that the markers we're seeing are
+
+433
+00:25:35.072 --> 00:25:38.792
+real, but it also gives us a pipeline so we can
+
+434
+00:25:38.852 --> 00:25:42.772
+do our discovery of multimarker signatures using this high-multiplex
+
+435
+00:25:43.152 --> 00:25:47.062
+combinatorial immunosequencing, and then once we find the interesting populations,
+
+436
+00:25:47.472 --> 00:25:51.312
+we can port those over onto the ECL, the targeted assays
+
+437
+00:25:51.772 --> 00:25:55.752
+for... These are lower plex, but we can run higher throughput and use
+
+438
+00:25:55.772 --> 00:25:56.652
+this for validation.
+
+439
+00:25:59.452 --> 00:26:01.952
+So the next question in our mind was,
+
+440
+00:26:03.212 --> 00:26:03.672
+can we
+
+441
+00:26:04.952 --> 00:26:07.932
+get prognostic information from some of these surface signatures?
+
+442
+00:26:09.052 --> 00:26:12.912
+So we know they were elevated in cancers relative to normals, but that's not
+
+443
+00:26:12.952 --> 00:26:16.332
+that useful. So we wanted to see in these longitudinal cohorts, are they actually
+
+444
+00:26:16.352 --> 00:26:19.712
+predictive of overall survival or progression-free survival?
+
+445
+00:26:20.712 --> 00:26:21.702
+So to
+
+446
+00:26:22.832 --> 00:26:26.332
+sort of limit the scope, we took the top 100 signatures that were
+
+447
+00:26:26.412 --> 00:26:29.872
+overexpressed in the tumors, and we
+
+448
+00:26:30.152 --> 00:26:31.792
+performed Cox regressions on these.
+
+449
+00:26:34.032 --> 00:26:35.392
+And we found there were quite a few after
+
+450
+00:26:36.392 --> 00:26:40.252
+our correction for multiple comparisons, there were quite a few that
+
+451
+00:26:40.272 --> 00:26:43.092
+were still FDR significant. And
+
+452
+00:26:43.112 --> 00:26:46.752
+I guess one thing that's interesting, we're
+
+453
+00:26:46.772 --> 00:26:50.632
+getting a number of consistent three-marker findings between the two different
+
+454
+00:26:50.692 --> 00:26:54.632
+cohorts, but we're also identifying some unique three-marker
+
+455
+00:26:54.712 --> 00:26:58.672
+combinations that only show up in one of these cohorts or that only show up in
+
+456
+00:26:58.732 --> 00:27:02.012
+one context, either in progression-free or overall survival.
+
+457
+00:27:02.932 --> 00:27:06.392
+So this gives us hope that we can make something useful out of
+
+458
+00:27:06.432 --> 00:27:07.612
+this technology.
+
+459
+00:27:08.452 --> 00:27:10.492
+And I guess I want to highlight a few key findings.
+
+460
+00:27:10.512 --> 00:27:14.472
+We found that CD73, CD13, and CEA are kind
+
+461
+00:27:14.512 --> 00:27:17.232
+of recurrent components in these
+
+462
+00:27:17.572 --> 00:27:20.972
+CRC-secreted vesicles.
+
+463
+00:27:22.432 --> 00:27:26.112
+All right. So to kind of sum it up, we built a technology that allows us to
+
+464
+00:27:26.132 --> 00:27:29.052
+profile three-marker EV surface identities.
+
+465
+00:27:30.532 --> 00:27:34.452
+We have currently, this says 63, but at this point, we're well over 100 surface
+
+466
+00:27:34.532 --> 00:27:37.852
+markers, and we can do this by using the three-marker combinations.
+
+467
+00:27:38.032 --> 00:27:41.632
+We can simultaneously assay tens of thousands of
+
+468
+00:27:41.692 --> 00:27:43.102
+subpopulations in a single
+
+469
+00:27:43.232 --> 00:27:46.882
+sample. We've
+
+470
+00:27:46.912 --> 00:27:50.232
+cross-validated the technology by using an orthogonal
+
+471
+00:27:50.252 --> 00:27:53.792
+platform to look at some of these populations that we found.
+
+472
+00:27:55.052 --> 00:27:56.232
+And we've consistently found
+
+473
+00:27:58.032 --> 00:28:00.412
+the same markers across three different CRC cohorts.
+
+474
+00:28:00.672 --> 00:28:04.492
+So obviously, this isn't validation, but it gives us a signal that's at
+
+475
+00:28:04.512 --> 00:28:08.352
+least reproducible in some independent sample sets.
+
+476
+00:28:09.032 --> 00:28:10.512
+So interestingly, we can
+
+477
+00:28:11.672 --> 00:28:13.352
+probe two different tumor compartments.
+
+478
+00:28:14.132 --> 00:28:17.712
+We've seen there's prognostic value of some of these signatures.
+
+479
+00:28:18.662 --> 00:28:20.292
+So what comes next? Well,
+
+480
+00:28:22.152 --> 00:28:25.672
+I had been discouraged about using EVs for early detection
+
+481
+00:28:26.012 --> 00:28:29.892
+simply because there are so many EVs in plasma that are not the ones you're
+
+482
+00:28:29.932 --> 00:28:33.712
+looking for. So it's really hard. You're looking for essentially a few EVs
+
+483
+00:28:33.832 --> 00:28:34.892
+in maybe trillions.
+
+484
+00:28:35.972 --> 00:28:39.932
+But seeing the specificity we have with the multimarker gives me hope that we can
+
+485
+00:28:39.972 --> 00:28:43.152
+go back to early detection. So we've started working with a few different
+
+486
+00:28:43.772 --> 00:28:45.572
+cancer types, not just colorectal cancer.
+
+487
+00:28:46.232 --> 00:28:50.152
+We're also interested in expanding our library of antibodies
+
+488
+00:28:50.732 --> 00:28:54.512
+to look at the broader tumor microenvironment to kind of decode
+
+489
+00:28:54.522 --> 00:28:58.212
+the composition of that microenvironment based on the circulating
+
+490
+00:28:58.252 --> 00:28:58.642
+EVs.
+
+491
+00:28:59.652 --> 00:29:03.172
+And then lastly, we want to try to track the tumor
+
+492
+00:29:03.212 --> 00:29:06.852
+progression by looking at the evolution of these EV surface signatures over
+
+493
+00:29:06.952 --> 00:29:07.232
+time.
+
+494
+00:29:08.352 --> 00:29:12.192
+So overall, we've put together a multimarker profiling technique
+
+495
+00:29:12.312 --> 00:29:15.152
+that we think opens new dimensions for analyzing liquid biopsies.
+
+496
+00:29:15.922 --> 00:29:19.712
+It helps to capture the tumor ecosystem complexity in a way that single
+
+497
+00:29:19.812 --> 00:29:22.032
+analyses can't resolve.
+
+498
+00:29:23.272 --> 00:29:26.132
+So I want to thank my group and
+
+499
+00:29:26.992 --> 00:29:30.872
+our collaborators, the Coffey Lab, the Nixon Lab, and the Cody Lab at Washington
+
+500
+00:29:30.912 --> 00:29:32.672
+University, as well as our funding.
+
+501
+00:29:32.752 --> 00:29:36.142
+A lot of this came from the Common Fund, the Extracellular RNA Communication
+
+502
+00:29:36.192 --> 00:29:39.692
+Consortium, which supported our work for about five years.
+
+503
+00:29:39.972 --> 00:29:42.112
+So thanks for listening. Take questions.
+
+504
+00:29:46.072 --> 00:29:47.652
+Okay. Do we have any questions?
+
+505
+00:29:51.312 --> 00:29:55.132
+I'll jump in right-- And so in terms of validation, what
+
+506
+00:29:55.312 --> 00:29:56.692
+are your plans? Are you going to...
+
+507
+00:29:58.252 --> 00:30:00.392
+Honestly, I'm a technology development guy.
+
+508
+00:30:00.472 --> 00:30:03.732
+It's what gets me excited more so than the actual biology.
+
+509
+00:30:04.392 --> 00:30:07.372
+But Lucy, who's in the audience there, she's a cancer biologist, and so she's
+
+510
+00:30:09.012 --> 00:30:09.692
+going to help with that.
+
+511
+00:30:10.012 --> 00:30:10.232
+Okay.
+
+512
+00:30:11.032 --> 00:30:14.372
+Yeah. I'm not entirely sure. As well as our clinical collaborators will sort of
+
+513
+00:30:14.412 --> 00:30:16.432
+help guide that.
+
+514
+00:30:16.492 --> 00:30:16.892
+Very cool.
+
+515
+00:30:18.272 --> 00:30:18.951
+All right. Thank you.
+
+516
+00:30:19.072 --> 00:30:19.932
+All right. Thank you very much.
+
+517
+00:30:23.962 --> 00:30:27.382
+All right. Our next speaker, Dr. Soto
+
+518
+00:30:27.742 --> 00:30:29.522
+Trujillo. I hope I'm saying that correctly.
+
+519
+00:30:29.552 --> 00:30:33.482
+"Differences in Survival Outcomes Among Metastatic Colorectal Cancer Patients
+
+520
+00:30:33.542 --> 00:30:37.142
+Across Fibroblast Growth Factor Receptor Two and Three Expression Levels."
+
+521
+00:30:40.442 --> 00:30:42.681
+Thank you, Dr. Gulveru, for welcoming me onto stage.
+
+522
+00:30:43.462 --> 00:30:46.522
+My name is Steve Soto, and it is an honor for me to speak before all of you today.
+
+523
+00:30:47.202 --> 00:30:51.102
+I'm a post-bac research trainee at the USC Norris Center, and today I will be
+
+524
+00:30:51.122 --> 00:30:54.702
+discussing survival outcomes in metastatic colorectal cancer patients across
+
+525
+00:30:54.822 --> 00:30:57.202
+FGFR2 and 3 expression levels.
+
+526
+00:30:58.542 --> 00:30:59.522
+This is my disclosure.
+
+527
+00:31:00.822 --> 00:31:04.642
+So colorectal cancer is the second most common cause of cancer deaths in men and
+
+528
+00:31:04.702 --> 00:31:08.502
+women combined in the US. In 2026, it is estimated that
+
+529
+00:31:08.582 --> 00:31:11.762
+over 150,000 people will be diagnosed with colorectal
+
+530
+00:31:11.802 --> 00:31:15.762
+cancer within the US. The rise of incidents, especially in young adults,
+
+531
+00:31:15.782 --> 00:31:18.402
+has only accelerated the demand for more clinical
+
+532
+00:31:18.482 --> 00:31:22.262
+biomarkers. So FGFR2 and 3
+
+533
+00:31:22.282 --> 00:31:26.182
+belong to the FGF receptor family, which contain a total of four
+
+534
+00:31:26.382 --> 00:31:30.172
+distinct receptors recognized in the literature that bind to a diverse set of
+
+535
+00:31:30.402 --> 00:31:31.782
+22 FGF ligands.
+
+536
+00:31:32.962 --> 00:31:36.802
+FGFR2 and 3 are receptor tyrosine kinases that dimerize
+
+537
+00:31:36.862 --> 00:31:40.602
+and autophosphorylate upon ligand binding, activating a series of
+
+538
+00:31:40.642 --> 00:31:44.342
+metabolic cascades. Many of these downstream signaling pathways, similar to those
+
+539
+00:31:44.352 --> 00:31:48.302
+activated by other receptors as well, such as the epidermal growth factor
+
+540
+00:31:48.322 --> 00:31:51.162
+receptor and the vasoendothelial growth factor receptor.
+
+541
+00:31:52.942 --> 00:31:56.922
+So FGFR2 is mostly discussed in breast cancer literature, with
+
+542
+00:31:56.942 --> 00:32:00.602
+some germline variants being associated with a predisposition for breast cancer
+
+543
+00:32:00.662 --> 00:32:04.382
+development. FGFR2 has been found to be expressed in the endothelium
+
+544
+00:32:04.722 --> 00:32:08.462
+and has most recently been suggested in allowing dormant breast cancer tumor
+
+545
+00:32:08.502 --> 00:32:11.902
+cells to survive following targeted therapy.
+
+546
+00:32:12.322 --> 00:32:15.582
+The role of FGFR2 in colorectal cancer pathogenesis
+
+547
+00:32:16.042 --> 00:32:20.002
+remains a bit unclear, although some papers do suggest it being linked to a more
+
+548
+00:32:20.022 --> 00:32:23.602
+aggressive type of cancer and consequently worse survival outcomes.
+
+549
+00:32:25.442 --> 00:32:28.842
+FGFR3 is mostly discussed in bladder cancer, with some
+
+550
+00:32:28.902 --> 00:32:32.362
+specific mutations being associated with improved survival.
+
+551
+00:32:32.382 --> 00:32:36.282
+While the underlying mechanisms are a bit unknown, some papers do point towards the
+
+552
+00:32:36.362 --> 00:32:40.142
+possible modulation of the tumor microenvironment through the infiltration
+
+553
+00:32:40.202 --> 00:32:41.242
+of T cells.
+
+554
+00:32:42.282 --> 00:32:45.942
+FGFR3 gene alterations have been found to be increased in a small CRC
+
+555
+00:32:45.982 --> 00:32:48.922
+cohort, although this failed to be statistically significant.
+
+556
+00:32:50.642 --> 00:32:54.292
+So based on the literature for FGFR2 and FGFR3, our team
+
+557
+00:32:54.302 --> 00:32:58.022
+hypothesized that in colorectal cancer patients, FGFR2 gene
+
+558
+00:32:58.062 --> 00:33:01.982
+expression will be associated with worse survival due to a possible contributing
+
+559
+00:33:02.022 --> 00:33:05.542
+factor towards angiogenesis, and FGFR3 gene expression will be
+
+560
+00:33:05.562 --> 00:33:09.542
+associated with improved survival due to this possible modulation of the
+
+561
+00:33:09.582 --> 00:33:10.682
+tumor microenvironment.
+
+562
+00:33:12.862 --> 00:33:16.122
+So the database in which we conducted our analysis in is the
+
+563
+00:33:16.182 --> 00:33:19.922
+CALGB SWOG 80405 Phase III clinical trial,
+
+564
+00:33:20.452 --> 00:33:24.022
+which contained a cohort of newly diagnosed metastatic colorectal cancer
+
+565
+00:33:24.102 --> 00:33:28.042
+patients that were randomly assigned to a chemotherapy plus cetuximab treatment
+
+566
+00:33:28.162 --> 00:33:31.662
+arm or a chemotherapy plus bevacizumab treatment arm.
+
+567
+00:33:32.042 --> 00:33:35.702
+So cetuximab is a monoclonal antibody for the epidermal growth factor
+
+568
+00:33:35.742 --> 00:33:39.522
+receptor, which is responsible for cell survival, and
+
+569
+00:33:39.542 --> 00:33:43.202
+bevacizumab is a monoclonal antibody for the vasoendothelial growth
+
+570
+00:33:43.262 --> 00:33:45.942
+factor, which is strongly linked to angiogenesis.
+
+571
+00:33:46.622 --> 00:33:50.082
+Other covariates that we adjusted for in our additional statistical
+
+572
+00:33:50.142 --> 00:33:54.072
+analysis include the KRAS mutation, BRAF mutation, and
+
+573
+00:33:54.282 --> 00:33:55.062
+MSI status,
+
+574
+00:33:56.102 --> 00:33:58.442
+sidedness, age, sex, chemotherapy as well.
+
+575
+00:34:00.222 --> 00:34:04.162
+So we initially tested for the prognostic potential of FGFR2 by
+
+576
+00:34:04.202 --> 00:34:06.142
+grouping our two treatment arms together.
+
+577
+00:34:06.742 --> 00:34:10.002
+So here on the left side, we have a progression-free survival curve
+
+578
+00:34:10.263 --> 00:34:13.902
+where FGFR2 high expression was somewhat associated with
+
+579
+00:34:15.082 --> 00:34:18.522
+worse survival. However, this failed to be statistically
+
+580
+00:34:18.582 --> 00:34:22.243
+significant. However, FGFR2 did demonstrate to
+
+581
+00:34:22.283 --> 00:34:25.783
+be prognostic of overall survival across our treatment
+
+582
+00:34:25.882 --> 00:34:29.872
+arms, with FGFR2 high expression being associated with worse survival, with
+
+583
+00:34:29.882 --> 00:34:33.102
+the median survival difference between FGFR2 high and low
+
+584
+00:34:33.803 --> 00:34:37.502
+7.4 months and the hazard ratio of high to low 1.28,
+
+585
+00:34:38.022 --> 00:34:41.911
+meaning that our FGFR2 high expression group had a 28% increased chance of
+
+586
+00:34:41.922 --> 00:34:43.062
+mortality at any time.
+
+587
+00:34:45.582 --> 00:34:49.542
+So to determine if these effects observed in our
+
+588
+00:34:49.562 --> 00:34:53.522
+prognostic curves were more pronounced in a specific treatment arm, we
+
+589
+00:34:53.562 --> 00:34:55.882
+looked at each treatment arm individually.
+
+590
+00:34:55.902 --> 00:34:59.602
+So here on the left side, we found that FGFR2 was not predictive of
+
+591
+00:34:59.642 --> 00:35:03.522
+overall survival in patients being treated with bevacizumab, which was striking
+
+592
+00:35:03.562 --> 00:35:07.522
+because bevacizumab being an anti-angiogenic drug and FGFR2
+
+593
+00:35:07.532 --> 00:35:11.462
+being strongly linked towards angiogenesis, we expected FGFR2 gene expression
+
+594
+00:35:11.502 --> 00:35:15.282
+to have a greater predictability in clinical response.
+
+595
+00:35:15.362 --> 00:35:19.342
+However, FGFR2 gene expression was predictive of overall survival
+
+596
+00:35:19.362 --> 00:35:21.102
+in patients being treated with cetuximab,
+
+597
+00:35:22.182 --> 00:35:25.782
+with FGFR2 high expression being associated with worse survival
+
+598
+00:35:26.582 --> 00:35:30.442
+and the median survival difference between high and low being 12 months and the
+
+599
+00:35:30.482 --> 00:35:34.122
+hazard ratio of high to low 1.56, meaning that our
+
+600
+00:35:34.262 --> 00:35:38.042
+FGFR2 high expression group had a 56% increased chance of
+
+601
+00:35:38.062 --> 00:35:39.182
+mortality at any time.
+
+602
+00:35:41.242 --> 00:35:44.892
+So we then conducted a similar analysis for the FGFR3 gene expression,
+
+603
+00:35:45.382 --> 00:35:48.762
+but did not find it to be prognostic of overall nor progression-free
+
+604
+00:35:48.822 --> 00:35:50.932
+survival across our treatment arms.
+
+605
+00:35:51.402 --> 00:35:55.182
+However, we did find that FGFR3 gene expression was predictive of
+
+606
+00:35:55.222 --> 00:35:55.982
+overall survival
+
+607
+00:35:57.122 --> 00:35:58.922
+in patients being treated with cetuximab.
+
+608
+00:35:59.102 --> 00:36:02.942
+However, in this case, FGFR3 high expression was associated with
+
+609
+00:36:03.042 --> 00:36:06.542
+improved survival, with the median survival difference of high to low being
+
+610
+00:36:06.562 --> 00:36:10.412
+12.4 months and the hazard ratio of high to low 0.59,
+
+611
+00:36:10.882 --> 00:36:14.602
+meaning that there was a 41% reduction in mortality in our FGFR3 high
+
+612
+00:36:14.662 --> 00:36:15.432
+expression group.
+
+613
+00:36:18.102 --> 00:36:21.982
+We then tested for differences in FGFR2 and
+
+614
+00:36:22.342 --> 00:36:26.182
+FGFR3 gene expression across ethnicity and race and found no statistically
+
+615
+00:36:26.262 --> 00:36:29.818
+significant differenceNor did we find any difference in early
+
+616
+00:36:29.898 --> 00:36:32.678
+onset versus late onset colorectal cancer patients.
+
+617
+00:36:34.698 --> 00:36:38.438
+So we then moved on to SNPs. SNPs are single nucleotide polymorphisms,
+
+618
+00:36:38.898 --> 00:36:42.608
+which are genetic variants that differ from each other by a single nucleotide and
+
+619
+00:36:42.618 --> 00:36:46.518
+whose functional impact varies depending on the site of the mutation.
+
+620
+00:36:46.578 --> 00:36:50.568
+So SNPs can manifest themselves as either a heterozygous variant if
+
+621
+00:36:50.618 --> 00:36:54.478
+a mutant allele is inherited from one parent, or a homozygous variant if
+
+622
+00:36:54.538 --> 00:36:56.458
+two mutant alleles are inherited from both parents.
+
+623
+00:36:56.828 --> 00:37:00.498
+So here we sourced 12 distinct SNPs recognized in the literature for
+
+624
+00:37:00.598 --> 00:37:03.158
+FGFR2 and FGFR3 and tested
+
+625
+00:37:04.218 --> 00:37:06.038
+their associations with survival.
+
+626
+00:37:07.918 --> 00:37:10.598
+So here we have a visualization of one of those analyses.
+
+627
+00:37:11.018 --> 00:37:14.518
+Here we tested for the prognostic potential of the SNP in FGFR2,
+
+628
+00:37:15.078 --> 00:37:18.988
+RS-3135718, and found that the variant allele groups,
+
+629
+00:37:19.078 --> 00:37:22.578
+the heterozygous variant and the homozygous variant on the left curve, do seem to
+
+630
+00:37:22.618 --> 00:37:24.358
+be associated with improved survival.
+
+631
+00:37:24.818 --> 00:37:28.578
+However, this failed to be significant in the overall survival curve, although
+
+632
+00:37:28.598 --> 00:37:30.238
+there does seem to be a similar pattern.
+
+633
+00:37:32.038 --> 00:37:35.998
+We then looked at each treatment arm individually and found that this SNP was not
+
+634
+00:37:36.018 --> 00:37:39.258
+predictive of survival in patients being treated with
+
+635
+00:37:39.278 --> 00:37:40.098
+bevacizumab.
+
+636
+00:37:41.478 --> 00:37:45.358
+However, we did find that the SNP was predictive of progression-free and
+
+637
+00:37:45.438 --> 00:37:47.818
+overall survival in patients being treated with cetuximab.
+
+638
+00:37:48.358 --> 00:37:52.038
+So here in the overall survival curve, we see that the heterozygous variant group,
+
+639
+00:37:52.238 --> 00:37:55.968
+the blue curve, is associated with improved survival, and the homozygous variant,
+
+640
+00:37:56.118 --> 00:37:59.438
+the red curve, is associated with the highest improvement in survival relative to
+
+641
+00:37:59.498 --> 00:38:01.438
+the heterozygous and the wild type group,
+
+642
+00:38:02.318 --> 00:38:05.758
+with the median survival difference between the homozygous variant and the wild
+
+643
+00:38:05.858 --> 00:38:09.678
+type being three months. So while the difference in survival is not grand,
+
+644
+00:38:09.778 --> 00:38:13.458
+it does suggest that this SNP may have some sort of functional role in
+
+645
+00:38:13.498 --> 00:38:16.858
+predicting clinical response in patients being treated with cetuximab.
+
+646
+00:38:17.598 --> 00:38:21.058
+I think it is important to note that here in the overall survival curve, from zero
+
+647
+00:38:21.138 --> 00:38:25.018
+to 29 months, we don't see a clear distinction in survival between the
+
+648
+00:38:25.098 --> 00:38:28.958
+three groups. It is only after 30 months and forward where we see a clear
+
+649
+00:38:28.998 --> 00:38:32.918
+distinction between the three groups, suggesting that the SNP may be
+
+650
+00:38:33.878 --> 00:38:37.817
+predictive only after a specific clinically relevant time point.
+
+651
+00:38:40.158 --> 00:38:43.578
+So we then tested the SNP's association with its respective
+
+652
+00:38:43.738 --> 00:38:47.598
+FGFR2 gene expression, but did not find any differences in gene expression
+
+653
+00:38:47.618 --> 00:38:50.638
+between the three groups, the wild type, homozygous variant, or heterozygous
+
+654
+00:38:50.718 --> 00:38:54.618
+variant. Nor did we find any differences in gene expression in other SNPs that we
+
+655
+00:38:54.658 --> 00:38:56.928
+tested with their respective gene expression.
+
+656
+00:38:58.858 --> 00:39:02.628
+So overall, in the 80405 Phase III clinical trial, we found that
+
+657
+00:39:02.758 --> 00:39:05.818
+FGFR2 low expression, the SNP in FGFR2
+
+658
+00:39:05.938 --> 00:39:09.898
+RS-3135718, and the FGFR3 high expression
+
+659
+00:39:09.918 --> 00:39:13.558
+were all strongly predictive of survival in patients being treated with cetuximab,
+
+660
+00:39:14.018 --> 00:39:16.308
+with them all being strongly associated with improved survival.
+
+661
+00:39:18.138 --> 00:39:22.088
+So given the biomarker potential promised by
+
+662
+00:39:22.178 --> 00:39:25.998
+our predictive and prognostic curves, we have transitioned to a pre-clinical
+
+663
+00:39:26.078 --> 00:39:29.678
+platform in an effort to elucidate the underlying mechanisms
+
+664
+00:39:29.698 --> 00:39:32.738
+surrounding FGFR2 and FGFR3 signaling.
+
+665
+00:39:33.198 --> 00:39:34.558
+So here on the right side, we
+
+666
+00:39:35.478 --> 00:39:39.158
+inhibited FGFR2 in various CRC cell lines with
+
+667
+00:39:39.258 --> 00:39:42.798
+unique molecular characteristics and successfully decreased cell
+
+668
+00:39:42.838 --> 00:39:46.798
+viability, reiterating the criticality of FGFR2 in
+
+669
+00:39:46.858 --> 00:39:50.398
+maintaining cell survival in these human-derived CRC cell lines.
+
+670
+00:39:52.158 --> 00:39:55.968
+So thank you so much to my PI, Dr. Lenz, and everyone else on the part of the
+
+671
+00:39:56.038 --> 00:39:58.098
+team that made this project and presentation possible.
+
+672
+00:39:58.518 --> 00:40:02.318
+Thank you to patients and caregivers for their invaluable contribution
+
+673
+00:40:02.378 --> 00:40:05.058
+to this Phase III clinical trial.
+
+674
+00:40:05.958 --> 00:40:06.278
+Thank you.
+
+675
+00:40:09.498 --> 00:40:11.318
+Excellent. It's now open for discussion.
+
+676
+00:40:13.498 --> 00:40:17.158
+Thank you. Very nice talk. I was wondering, you tested also
+
+677
+00:40:17.698 --> 00:40:21.118
+SNPs in FGFR3. Were any of those SNPs associated with outcome?
+
+678
+00:40:21.698 --> 00:40:25.498
+We did not find any of the SNPs that I-- Those 12 SNPs that I mentioned,
+
+679
+00:40:26.278 --> 00:40:29.948
+those of FGFR3, we did not find any to be statistically significant with their-
+
+680
+00:40:30.158 --> 00:40:30.628
+All right. Thank you
+
+681
+00:40:30.628 --> 00:40:32.718
+... respective gene express-- or survival.
+
+682
+00:40:39.278 --> 00:40:42.938
+Well, a quick question. So, given that FGFR2 and
+
+683
+00:40:43.118 --> 00:40:46.878
+R3 are from the same family, why do you think that they behave differently?
+
+684
+00:40:47.718 --> 00:40:51.058
+So I think that's what makes the findings from this
+
+685
+00:40:51.138 --> 00:40:54.968
+analysis very exciting. The fact that they're part of the FGF, they're
+
+686
+00:40:54.968 --> 00:40:58.798
+both RTKs or receptor tyrosine kinase, but they could be
+
+687
+00:40:58.858 --> 00:41:02.398
+associated with different survival outcomes, makes it even more intriguing,
+
+688
+00:41:02.818 --> 00:41:06.798
+and is what we are basically trying to work on next
+
+689
+00:41:06.838 --> 00:41:10.638
+in these other clinical experiments that we are planning for soon.
+
+690
+00:41:11.918 --> 00:41:13.298
+Great. Thank you very much.
+
+691
+00:41:16.458 --> 00:41:17.688
+See, I think it's me. Is it me or you?
+
+692
+00:41:17.688 --> 00:41:18.148
+It's you.
+
+693
+00:41:18.198 --> 00:41:22.038
+Okay. Okay, so the next speaker is Lubna Ahmad,
+
+694
+00:41:23.418 --> 00:41:26.358
+who is here from the University of Cambridge, and she will be talking about the
+
+695
+00:41:26.398 --> 00:41:30.358
+mapping of spatial organization of B cells and immune signaling in triple
+
+696
+00:41:30.398 --> 00:41:33.958
+negative breast cancer to characterize response to immunotherapy.
+
+697
+00:41:45.348 --> 00:41:49.078
+Good afternoon, everybody. My name is Lubna, and today
+
+698
+00:41:49.238 --> 00:41:52.958
+I'm... So first of all, I'm a postdoc in the Ali Lab at the Cancer Research
+
+699
+00:41:53.038 --> 00:41:56.818
+UK Cambridge Institute, and I'm talking a little bit about my PhD
+
+700
+00:41:56.838 --> 00:42:00.758
+project, which looked at B cells and immune signaling in an immunotherapy
+
+701
+00:42:00.838 --> 00:42:03.258
+trial to characterize response to treatment.
+
+702
+00:42:04.498 --> 00:42:04.718
+So,
+
+703
+00:42:06.238 --> 00:42:10.128
+to set the stage, so the main kind of challenge we have in immunotherapy is
+
+704
+00:42:10.198 --> 00:42:13.988
+how can we better predict which patients are going to respond to this treatment?
+
+705
+00:42:14.878 --> 00:42:18.618
+Essentially, in solid tumors, what we do, we assess
+
+706
+00:42:18.658 --> 00:42:19.258
+PD-L1
+
+707
+00:42:20.178 --> 00:42:23.638
+expression, and that is usually done by scoring its staining across
+
+708
+00:42:23.658 --> 00:42:25.298
+tumor-infiltrating immune cells.
+
+709
+00:42:26.018 --> 00:42:29.638
+However, emerging clinical evidence has suggested that this does not really
+
+710
+00:42:29.698 --> 00:42:33.658
+capture the complexity of responses and that additional features
+
+711
+00:42:33.678 --> 00:42:37.198
+of the TME might be important to take into account.
+
+712
+00:42:37.648 --> 00:42:41.058
+So in the recent years, B cells have become increasingly associated with
+
+713
+00:42:41.098 --> 00:42:44.798
+immunotherapy response, such as in studies of melanoma, renal cell
+
+714
+00:42:44.858 --> 00:42:48.846
+carcinoma, and sarcoma.Despite the growing interest
+
+715
+00:42:48.886 --> 00:42:51.486
+in B cells, B cells in cancer are generally
+
+716
+00:42:51.526 --> 00:42:54.366
+relatively poorly characterized.
+
+717
+00:42:54.466 --> 00:42:58.146
+For example, in terms of their heterogeneity, very little is known about the
+
+718
+00:42:58.186 --> 00:43:01.516
+composition, localization, maturation, and molecular characteristics.
+
+719
+00:43:02.036 --> 00:43:05.716
+So although we know that B cells seem to matter, we know very little
+
+720
+00:43:05.766 --> 00:43:09.636
+of how, when, or why they contribute to responses in
+
+721
+00:43:09.726 --> 00:43:13.486
+cancer. So to address some of these questions, I use an approach called
+
+722
+00:43:13.546 --> 00:43:16.086
+imaging mass cytometry. So here, I
+
+723
+00:43:17.306 --> 00:43:20.986
+made a targeted panel that looked at B-cell protein markers, cytokine
+
+724
+00:43:21.086 --> 00:43:24.326
+RNA markers, and other contextual protein markers.
+
+725
+00:43:24.786 --> 00:43:28.506
+I used FFPE tissue where I used double Z probes to target the
+
+726
+00:43:28.586 --> 00:43:32.566
+RNA of these cytokines. And I amplified the signal
+
+727
+00:43:32.626 --> 00:43:36.186
+using a branch DNA structure, which was modified to be labeled with
+
+728
+00:43:36.306 --> 00:43:39.935
+metal-conjugated labeling probes in order to detect the signal using
+
+729
+00:43:40.006 --> 00:43:43.926
+IMC. After this, the tissue is then stained with a cocktail
+
+730
+00:43:43.986 --> 00:43:45.615
+of metal-conjugated antibodies.
+
+731
+00:43:46.186 --> 00:43:49.846
+I then identify regions of interest which are ablated at one micron
+
+732
+00:43:49.886 --> 00:43:53.406
+resolution using a laser, and the resulting ion cloud is then
+
+733
+00:43:53.466 --> 00:43:55.976
+analyzed using time-of-flight mass spectrometry.
+
+734
+00:43:56.566 --> 00:44:00.446
+Essentially, a technique such as this allows you to simultaneously detect RNA
+
+735
+00:44:00.466 --> 00:44:04.426
+and protein in tissue. And, in this case, I was able
+
+736
+00:44:04.486 --> 00:44:08.346
+to detect up to 43 RNA and protein. And what you are able to
+
+737
+00:44:08.406 --> 00:44:11.846
+do is you preserve spatial information
+
+738
+00:44:11.946 --> 00:44:14.886
+and that being at single-cell resolution.
+
+739
+00:44:16.526 --> 00:44:20.446
+So in the lab, we have already used this type of technique called IMC, in
+
+740
+00:44:20.486 --> 00:44:23.986
+the setting of an immunotherapy clinical trial called NEOCHIP, which is for early
+
+741
+00:44:24.066 --> 00:44:27.746
+triple-negative breast cancer patients using a broad lymphoid and
+
+742
+00:44:27.806 --> 00:44:31.746
+tumor panel. Here, we identified several key spatial
+
+743
+00:44:31.786 --> 00:44:35.546
+predictors of immunotherapy response, and this is a study that has already been
+
+744
+00:44:35.586 --> 00:44:39.136
+published. So building on this work, I now focus on this
+
+745
+00:44:39.146 --> 00:44:43.126
+NEOCHIP study, but with a focus on B cells and cytokines.
+
+746
+00:44:43.636 --> 00:44:46.836
+So to tell you a little bit more about NEOCHIP, here we have about
+
+747
+00:44:47.266 --> 00:44:50.846
+280 early-stage triple-negative breast cancer patients, and they are
+
+748
+00:44:50.906 --> 00:44:54.486
+randomized to the chemoimmunotherapy arm, as indicated in red.
+
+749
+00:44:54.946 --> 00:44:57.506
+And then we have the chemotherapy arm, as indicated in gray.
+
+750
+00:44:58.096 --> 00:45:01.776
+So we have samples collected at baseline which are treatment naive, so these are
+
+751
+00:45:01.786 --> 00:45:05.306
+biopsies. On-treatment samples, which is after one cycle of treatment,
+
+752
+00:45:05.706 --> 00:45:07.806
+and post-treatment tissue microarrays.
+
+753
+00:45:08.386 --> 00:45:11.606
+I've applied my targeted panel to all of these samples in order to more
+
+754
+00:45:11.666 --> 00:45:15.266
+comprehensively target B cells and cytokine signaling in the broader
+
+755
+00:45:15.326 --> 00:45:15.846
+TME.
+
+756
+00:45:16.846 --> 00:45:20.666
+So from this, I have resulting pixel-level data which I then segmented into
+
+757
+00:45:20.726 --> 00:45:24.666
+single cells. I compartmentalized these cells into epithelium TME
+
+758
+00:45:24.706 --> 00:45:28.366
+and identified, in total, 22 different TME phenotypes and 14
+
+759
+00:45:28.426 --> 00:45:29.666
+epithelial phenotypes.
+
+760
+00:45:30.506 --> 00:45:34.126
+So the first question I asked myself was whether any of the TME
+
+761
+00:45:34.226 --> 00:45:37.826
+densities associated with treatment responses.
+
+762
+00:45:38.426 --> 00:45:42.086
+So to begin off with, this is an odds ratio plot at the baseline time
+
+763
+00:45:42.166 --> 00:45:46.146
+point. So any values above one outlined in black are
+
+764
+00:45:46.206 --> 00:45:50.026
+significantly associated with treatment response, where the color of the dot
+
+765
+00:45:50.086 --> 00:45:54.056
+indicates the treatment arm, so gray, chemotherapy, and red, immunotherapy.
+
+766
+00:45:54.586 --> 00:45:58.066
+As we can see at this time point, none of these TME densities are actually
+
+767
+00:45:58.106 --> 00:45:59.966
+associated with immunotherapy response.
+
+768
+00:46:00.526 --> 00:46:04.326
+But then when we go to the on-treatment time point, we see a clear B-cell
+
+769
+00:46:04.386 --> 00:46:08.366
+signature emerging where several B cells, such as germinal center B,
+
+770
+00:46:08.506 --> 00:46:11.996
+plasma memory, and naive B cells, are associated with
+
+771
+00:46:12.026 --> 00:46:15.826
+immunotherapy response, some of which are also differentially associated.
+
+772
+00:46:16.856 --> 00:46:20.706
+Apart from looking at TME densities, I was curious to see whether B
+
+773
+00:46:20.746 --> 00:46:24.246
+and plasma cells exist within niches in triple-negative breast cancer.
+
+774
+00:46:24.786 --> 00:46:28.726
+To find these niches, I used a niche detection method called GraphST and built
+
+775
+00:46:28.746 --> 00:46:32.546
+on this using a sequential hub-based approach to learn about the neighboring cells.
+
+776
+00:46:33.126 --> 00:46:36.846
+To summarize these niches here, I'm showing you that we found germinal
+
+777
+00:46:36.926 --> 00:46:40.466
+center niches, B activated niches, plasma-rich
+
+778
+00:46:40.566 --> 00:46:42.626
+niches, and plasma-maturing niches.
+
+779
+00:46:43.186 --> 00:46:46.756
+On the right, I'm showing you via this dot plot the associations with
+
+780
+00:46:46.846 --> 00:46:49.006
+response on baseline and on treatment.
+
+781
+00:46:49.566 --> 00:46:53.306
+Here, what we see is for this B activated niche, this niche stays
+
+782
+00:46:53.666 --> 00:46:57.586
+significantly associated with immunotherapy response across the neighborhood
+
+783
+00:46:58.106 --> 00:47:01.656
+scales and trends starting to emerge for the germinal center and the
+
+784
+00:47:01.726 --> 00:47:03.186
+plasma-maturing niches, too.
+
+785
+00:47:04.486 --> 00:47:07.846
+Apart from detecting niches, I was wondering whether the niches
+
+786
+00:47:08.446 --> 00:47:12.126
+and their associations or their interactions with the surrounding cells
+
+787
+00:47:12.606 --> 00:47:14.726
+were informative of immunotherapy response.
+
+788
+00:47:15.146 --> 00:47:19.086
+So first, I defined cell-to-cell interactions, which was the direct contact
+
+789
+00:47:19.306 --> 00:47:23.206
+of the segmented cell masks. So at baseline here, I'm showing you
+
+790
+00:47:23.246 --> 00:47:26.926
+a dot plot where the color shows you the odds ratio, and the asterisks
+
+791
+00:47:26.986 --> 00:47:30.136
+shows you the significant associations with response.
+
+792
+00:47:30.786 --> 00:47:34.266
+Here, clearly you can see that all of these associations lie within the
+
+793
+00:47:34.306 --> 00:47:38.166
+immunotherapy arm. For example, the plasma-rich niche interacting with
+
+794
+00:47:38.206 --> 00:47:41.806
+CD15, MHC-1 and 2 epithelial cells being associated with
+
+795
+00:47:41.866 --> 00:47:45.706
+immunotherapy response. If we compare baseline to on treatment,
+
+796
+00:47:45.766 --> 00:47:49.486
+we see a much richer set of interactions being associated with
+
+797
+00:47:49.526 --> 00:47:53.446
+immunotherapy response now. The difference here is now that B
+
+798
+00:47:53.506 --> 00:47:57.386
+cells from the B activated niche interacting with numerous CD4, CD8,
+
+799
+00:47:57.526 --> 00:48:01.106
+plasma, and B cells, as I summarize here, being associated with
+
+800
+00:48:01.146 --> 00:48:04.736
+immunotherapy response. So taken together, these results from
+
+801
+00:48:04.786 --> 00:48:08.306
+niches, their interactions suggest what drives response to
+
+802
+00:48:08.346 --> 00:48:12.286
+immunotherapy is not just the abundance of B cells but also
+
+803
+00:48:12.346 --> 00:48:14.146
+measures of their spatial organization.
+
+804
+00:48:16.526 --> 00:48:20.486
+Apart from this, what is very unique about NEOCHIP is that we
+
+805
+00:48:20.506 --> 00:48:24.306
+have collected samples at different time points, which is what makes it such a nice
+
+806
+00:48:24.426 --> 00:48:28.336
+resource. So I was interested in learning about the cellular composition and
+
+807
+00:48:28.366 --> 00:48:30.426
+how that changes over the course of treatment.
+
+808
+00:48:30.986 --> 00:48:33.106
+In this odds ratio plot, I will show you the
+
+809
+00:48:34.386 --> 00:48:38.186
+enrichment on treatment if I
+
+810
+00:48:38.226 --> 00:48:42.106
+compare them from baseline. So any odds ratios above zero
+
+811
+00:48:42.286 --> 00:48:45.765
+outlined in black and with this darker yellow
+
+812
+00:48:46.066 --> 00:48:49.916
+circle show you significant associations on treatment of cell
+
+813
+00:48:49.966 --> 00:48:53.706
+phenotype abundances. So within the chemoimmunotherapy
+
+814
+00:48:53.806 --> 00:48:56.096
+arm, when we rank them, we see that the most
+
+815
+00:48:56.146 --> 00:48:59.436
+abundantPhenotype is actually the naive and B
+
+816
+00:48:59.476 --> 00:49:03.336
+cells, which is also enriched in the chemotherapy arm, but it's not the
+
+817
+00:49:03.396 --> 00:49:07.236
+most abundant one. Similarly, if we do this kind of comparison
+
+818
+00:49:07.316 --> 00:49:11.256
+from on-treatment to post-treatment, you can clearly see all of the immune
+
+819
+00:49:11.316 --> 00:49:15.276
+cells are now depleted, and the ones that are enriched all belong to the stromal
+
+820
+00:49:15.356 --> 00:49:16.056
+compartment.
+
+821
+00:49:18.116 --> 00:49:22.016
+To get to the final part of my presentation, we now focus on cytokine
+
+822
+00:49:22.056 --> 00:49:26.036
+enrichment, and I wanted to study this in terms of defining
+
+823
+00:49:26.096 --> 00:49:30.056
+cells being cytokine positive or negative for each of the cytokine on my panel.
+
+824
+00:49:30.636 --> 00:49:34.616
+What I was curious about is learning whether these cytokine positive cells were
+
+825
+00:49:34.676 --> 00:49:38.656
+enriched within a vicinity of a niche, so within a given radius
+
+826
+00:49:38.696 --> 00:49:42.376
+compared to its surrounding. So this is what this very complex heat map
+
+827
+00:49:42.416 --> 00:49:46.176
+shows, where we have the cytokine positive cells on the Y-axis and all the
+
+828
+00:49:46.196 --> 00:49:49.896
+niches on the X-axis. As you can quite clearly see, numerous
+
+829
+00:49:49.916 --> 00:49:53.636
+cytokines are enriched in niches across many of the
+
+830
+00:49:53.676 --> 00:49:57.396
+different groups I have here. But the main feature I want to highlight for now is
+
+831
+00:49:57.776 --> 00:50:01.696
+within the chemo immunotherapy arm, in the responding patients, this seems to
+
+832
+00:50:01.736 --> 00:50:03.056
+be a more persistent
+
+833
+00:50:04.156 --> 00:50:08.136
+feature, where this kind of cytokine enrichment persists post-treatment, which is
+
+834
+00:50:08.176 --> 00:50:10.076
+not the case in the other groups.
+
+835
+00:50:10.916 --> 00:50:14.636
+So to summarize my presentation today, what I showed you is that B and plasma cells
+
+836
+00:50:14.656 --> 00:50:18.116
+are differentially associated with immunotherapy response early on treatment,
+
+837
+00:50:18.556 --> 00:50:22.236
+that they exist within niches and that this is a feature of the TNBC
+
+838
+00:50:22.296 --> 00:50:25.156
+TME. That specifically the B cell
+
+839
+00:50:25.216 --> 00:50:28.866
+activation signature remains significant across spatial
+
+840
+00:50:28.896 --> 00:50:32.636
+scales, and its interactions are also having predictive
+
+841
+00:50:32.656 --> 00:50:35.616
+capacity for immunotherapy response.
+
+842
+00:50:35.666 --> 00:50:39.536
+That the cellular dynamics suggest that out of all TME cells, B cells
+
+843
+00:50:39.576 --> 00:50:43.316
+are more significant post immunotherapy, that many cytokines are
+
+844
+00:50:43.356 --> 00:50:46.756
+enriched within niches and also seem to be a persistent feature in
+
+845
+00:50:46.796 --> 00:50:49.016
+immunotherapy responders across time points.
+
+846
+00:50:49.636 --> 00:50:51.296
+So this brings me to the acknowledgments.
+
+847
+00:50:51.376 --> 00:50:55.316
+I would like to take a brief second to thank my lab, the Ali Lab, my
+
+848
+00:50:55.376 --> 00:50:59.296
+supervisor, Razali, our collaborators for the NEOTRIP trial, of
+
+849
+00:50:59.356 --> 00:51:03.156
+course, all patients and families, without whom work like this would never be
+
+850
+00:51:03.256 --> 00:51:07.136
+possible, the funding bodies that make this work possible, and all of you guys for
+
+851
+00:51:07.175 --> 00:51:08.536
+your attention. Thank you very much.
+
+852
+00:51:11.476 --> 00:51:13.375
+Okay. The floor is open for questions.
+
+853
+00:51:17.676 --> 00:51:19.476
+Hi. Really fascinating work.
+
+854
+00:51:21.036 --> 00:51:23.456
+I wonder how you selected your regions,
+
+855
+00:51:24.356 --> 00:51:28.176
+because I think the B cell effects, they seem very believable, but for
+
+856
+00:51:28.236 --> 00:51:30.456
+more subtle effects with cell interactions,
+
+857
+00:51:31.376 --> 00:51:34.916
+you can be impacted by how the regions were chosen.
+
+858
+00:51:35.336 --> 00:51:35.556
+Mm-hmm.
+
+859
+00:51:35.836 --> 00:51:37.176
+Could you say something about that?
+
+860
+00:51:38.036 --> 00:51:39.196
+So essentially what
+
+861
+00:51:40.296 --> 00:51:44.076
+we looked at, so we had adjacent H&amp;E sections to
+
+862
+00:51:44.156 --> 00:51:48.016
+these slides. From these H&amp;E sections, we identified regions of immune
+
+863
+00:51:48.096 --> 00:51:51.965
+aggregation, and when these immune aggregation regions were not present, it
+
+864
+00:51:51.976 --> 00:51:55.396
+would be immune infiltration, but always with the focus on tumor
+
+865
+00:51:55.476 --> 00:51:56.016
+regions.
+
+866
+00:51:57.096 --> 00:51:58.536
+When tumor regions would not be--
+
+867
+00:51:59.376 --> 00:52:02.956
+When we couldn't identify them, for example, on treatment when the tumor would be
+
+868
+00:52:02.996 --> 00:52:05.216
+gone, this would be in the tumor bed instead.
+
+869
+00:52:05.636 --> 00:52:08.876
+So these were the kind of definitions for sampling.
+
+870
+00:52:09.996 --> 00:52:10.396
+Thank you.
+
+871
+00:52:13.276 --> 00:52:16.916
+I have a question. Were you surprised to think of plasma cells and B
+
+872
+00:52:17.016 --> 00:52:20.916
+cells as an immune reactive and being responsible for this, given
+
+873
+00:52:20.956 --> 00:52:23.556
+that people usually focus on T cells or other cells?
+
+874
+00:52:23.856 --> 00:52:27.836
+B cells or at least plasma cells are not the most critical
+
+875
+00:52:27.896 --> 00:52:30.636
+usually in a tumor microenvironment. I'm a big believer in them.
+
+876
+00:52:30.716 --> 00:52:33.296
+I work in myeloma, but just wanted to know what you thought of it.
+
+877
+00:52:33.896 --> 00:52:37.656
+I think the effect is actually quite striking, and it is quite clear in the data
+
+878
+00:52:37.736 --> 00:52:38.036
+set,
+
+879
+00:52:39.016 --> 00:52:41.716
+also because T cells are the most abundant
+
+880
+00:52:42.396 --> 00:52:46.146
+lymphoid cell in TME, so I was quite surprised by the finding,
+
+881
+00:52:46.216 --> 00:52:47.556
+especially for plasma cells.
+
+882
+00:52:48.556 --> 00:52:50.775
+So yeah, I would agree. Yeah.
+
+883
+00:52:51.736 --> 00:52:53.316
+So I'm going to echo that.
+
+884
+00:52:54.656 --> 00:52:58.245
+So for the long time, our lab studies antibodies and their
+
+885
+00:52:58.276 --> 00:53:02.196
+relationship to responses in cancer, and we've been pushing to try to
+
+886
+00:53:02.276 --> 00:53:06.156
+study that in this context. And recently heard Chuck
+
+887
+00:53:06.236 --> 00:53:07.516
+Perou talk about-
+
+888
+00:53:07.736 --> 00:53:07.916
+Mm-hmm
+
+889
+00:53:08.116 --> 00:53:11.956
+... one of the best predictors in outcome, in breast
+
+890
+00:53:12.036 --> 00:53:14.436
+cancer was the B cells.
+
+891
+00:53:14.616 --> 00:53:14.785
+Mm-hmm.
+
+892
+00:53:14.905 --> 00:53:15.595
+B cell density.
+
+893
+00:53:15.715 --> 00:53:16.536
+Yeah.
+
+894
+00:53:16.595 --> 00:53:19.916
+This is going to emerge. People have always focused on the T
+
+895
+00:53:20.016 --> 00:53:23.596
+cells. Have you looked at antibodies at all in what these plasma cells are
+
+896
+00:53:23.616 --> 00:53:24.076
+producing?
+
+897
+00:53:24.676 --> 00:53:24.956
+So,
+
+898
+00:53:26.176 --> 00:53:29.596
+there was, of course, interest in looking at antibodies such as IgG or
+
+899
+00:53:29.656 --> 00:53:33.216
+IgA, but at times it is quite difficult to find reliable
+
+900
+00:53:33.276 --> 00:53:37.256
+antibodies for these that are able to work with the assays, especially
+
+901
+00:53:37.296 --> 00:53:37.556
+with the
+
+902
+00:53:38.536 --> 00:53:42.246
+different assay I had. But I do think there's a lot of
+
+903
+00:53:42.936 --> 00:53:46.456
+interesting things spatially that you can learn from targeting
+
+904
+00:53:46.516 --> 00:53:48.516
+IgG or IgA in the TME.
+
+905
+00:53:49.596 --> 00:53:53.156
+Even in the plasma. Yeah. Have you looked at the plasma of those same patients?
+
+906
+00:53:53.496 --> 00:53:53.896
+Uh.
+
+907
+00:53:53.916 --> 00:53:54.936
+With secret antibodies.
+
+908
+00:53:55.776 --> 00:53:58.556
+Yeah. We didn't have information on that data, but yeah, that would be-
+
+909
+00:53:58.716 --> 00:54:00.996
+We talk about using protein microarrays in that setting.
+
+910
+00:54:01.056 --> 00:54:01.136
+Yeah.
+
+911
+00:54:01.916 --> 00:54:05.576
+The other thing to think about would be doing B cell receptor
+
+912
+00:54:05.616 --> 00:54:06.096
+sequencing.
+
+913
+00:54:06.596 --> 00:54:07.776
+Yes, exactly. Yeah.
+
+914
+00:54:09.156 --> 00:54:10.216
+All right. Thank you very much.
+
+915
+00:54:10.256 --> 00:54:10.876
+Thank you. Yeah.
+
+916
+00:54:13.796 --> 00:54:17.556
+All right. Our next speaker is Andreas Mand, and he's talking
+
+917
+00:54:17.616 --> 00:54:21.136
+about AI-powered deep visual proteomics, DVP, links
+
+918
+00:54:21.276 --> 00:54:25.176
+pancreatic precursor biology to PDAC survival phenotypes.
+
+919
+00:54:25.266 --> 00:54:28.896
+Thank you. And yeah, it's a great pleasure to
+
+920
+00:54:29.716 --> 00:54:32.716
+present today an exciting collaboration between Dr.
+
+921
+00:54:33.376 --> 00:54:37.236
+Aniban Mitra from NYU and also from Dr.
+
+922
+00:54:37.516 --> 00:54:41.356
+Michael Hollingsworth from the University of Nebraska, where we
+
+923
+00:54:41.416 --> 00:54:44.876
+used the power of deep visual proteomics to study pancreatic
+
+924
+00:54:44.896 --> 00:54:46.536
+precursor biology.
+
+925
+00:54:47.496 --> 00:54:51.136
+So our mission is to develop and apply mass spectrometry-based
+
+926
+00:54:51.216 --> 00:54:53.496
+spatial proteomics for translational research.
+
+927
+00:54:53.996 --> 00:54:57.866
+We typically utilize formalin-fixated, paraffin-embedded
+
+928
+00:54:57.896 --> 00:54:58.796
+tissue material,
+
+929
+00:54:59.876 --> 00:55:03.716
+these classical surgical pathology specimens, which are millions of
+
+930
+00:55:03.756 --> 00:55:06.868
+them stored in biobanks.And we do so to
+
+931
+00:55:08.448 --> 00:55:12.308
+basically do deep molecular phenotyping of humans to
+
+932
+00:55:12.368 --> 00:55:13.708
+better understand disease
+
+933
+00:55:14.688 --> 00:55:18.398
+initiation, progression, and outcomes, and also to find new and better
+
+934
+00:55:18.488 --> 00:55:22.458
+biomarker patterns to stratify patients and
+
+935
+00:55:22.488 --> 00:55:23.258
+treatment choice.
+
+936
+00:55:24.688 --> 00:55:26.288
+So what is deep visual proteomics?
+
+937
+00:55:26.408 --> 00:55:27.448
+Conceptually, it's
+
+938
+00:55:28.408 --> 00:55:30.708
+mass spectrometry-based spatial proteomics.
+
+939
+00:55:31.248 --> 00:55:35.088
+Deep stands for deep learning and visual for high-resolution, high
+
+940
+00:55:35.168 --> 00:55:38.348
+content microscopy, and proteomics for mass
+
+941
+00:55:38.388 --> 00:55:39.888
+spectrometry-based proteomics.
+
+942
+00:55:40.768 --> 00:55:44.058
+As I just mentioned, we typically take formalin-fixated,
+
+943
+00:55:44.128 --> 00:55:45.628
+paraffin-embedded tissue material.
+
+944
+00:55:45.688 --> 00:55:49.488
+We cut very thin sections, like three to
+
+945
+00:55:49.528 --> 00:55:53.448
+five micrometer thin sections, put them on glass
+
+946
+00:55:53.488 --> 00:55:56.408
+slides, and then stain them with either H&amp;E,
+
+947
+00:55:56.828 --> 00:55:59.728
+immunohistochemistry or immunofluorescence.
+
+948
+00:56:00.448 --> 00:56:04.428
+And then we use the power of computational foundation models
+
+949
+00:56:04.488 --> 00:56:07.288
+to identify interesting cellular phenotypes.
+
+950
+00:56:07.848 --> 00:56:11.528
+In the next step, we then transfer these GPS coordinates from
+
+951
+00:56:11.848 --> 00:56:15.368
+these cells or regions of interest to a laser microdissection
+
+952
+00:56:15.408 --> 00:56:19.148
+microscope, where we, over the years, developed a workflow
+
+953
+00:56:19.188 --> 00:56:23.078
+that automatically isolates single cells or
+
+954
+00:56:23.108 --> 00:56:26.788
+regions of interest. And then we collect the different classes of
+
+955
+00:56:26.828 --> 00:56:30.688
+phenotypes into, for example, a 384-well plate,
+
+956
+00:56:31.148 --> 00:56:33.468
+where we then can collect, for example, class
+
+957
+00:56:34.268 --> 00:56:37.748
+one into well A1, class two in well two, and so on.
+
+958
+00:56:38.728 --> 00:56:42.108
+In the next step, we can then digest the proteins into
+
+959
+00:56:42.128 --> 00:56:45.868
+peptides and use the latest and greatest in mass spectrometry
+
+960
+00:56:46.328 --> 00:56:49.728
+to identify thousands of proteins, which we then
+
+961
+00:56:50.148 --> 00:56:54.028
+can merge together with the images we created, because we
+
+962
+00:56:54.088 --> 00:56:56.728
+preserve throughout the workflow these spatial coordinates.
+
+963
+00:56:56.768 --> 00:56:58.408
+And thereby we create this
+
+964
+00:56:59.548 --> 00:57:03.528
+digital map of the diseased, or these proteome maps of
+
+965
+00:57:03.548 --> 00:57:04.428
+the diseased tissue.
+
+966
+00:57:06.088 --> 00:57:09.538
+So OmicVision platform is based on an emerging and
+
+967
+00:57:09.588 --> 00:57:11.708
+increasingly validated platform.
+
+968
+00:57:12.908 --> 00:57:16.788
+Our initial study was featured in "Nature Biotechnology"
+
+969
+00:57:16.928 --> 00:57:19.948
+in 2022. Then two years later,
+
+970
+00:57:20.748 --> 00:57:24.488
+"Nature Methods" named spatial proteomics the method of the year, and we
+
+971
+00:57:24.548 --> 00:57:27.998
+were very happy to see that our technology was featured there as
+
+972
+00:57:28.028 --> 00:57:31.988
+well. And since then, we have validated and applied
+
+973
+00:57:32.408 --> 00:57:34.748
+this technology in a number of use cases.
+
+974
+00:57:36.068 --> 00:57:39.048
+I want to highlight one example where we
+
+975
+00:57:39.908 --> 00:57:43.588
+identified a drug target for a deadly skin disease called toxic
+
+976
+00:57:43.668 --> 00:57:47.268
+epidermis necrolysis. It's a rare but very deadly skin
+
+977
+00:57:47.308 --> 00:57:51.048
+disease, and here we found a drug
+
+978
+00:57:51.148 --> 00:57:52.308
+target, and
+
+979
+00:57:53.568 --> 00:57:55.788
+through off-label use, we could then
+
+980
+00:57:56.708 --> 00:58:00.568
+went from the discovery all the way into pre-clinical models,
+
+981
+00:58:00.888 --> 00:58:04.788
+down to the patients. And so far, eight out of eight patients
+
+982
+00:58:04.828 --> 00:58:07.858
+were treated with this off-label used
+
+983
+00:58:08.588 --> 00:58:10.208
+drug and cured.
+
+984
+00:58:11.248 --> 00:58:11.768
+So this
+
+985
+00:58:13.288 --> 00:58:17.208
+finding was basically then featured from Eric
+
+986
+00:58:17.248 --> 00:58:18.708
+Topol, a medical AI
+
+987
+00:58:19.948 --> 00:58:23.457
+key opinion leader, and called "The Dawn of Spatial
+
+988
+00:58:23.608 --> 00:58:24.448
+Medicine."
+
+989
+00:58:26.128 --> 00:58:29.288
+So as I said, we typically work with a
+
+990
+00:58:29.388 --> 00:58:31.848
+formalin-fixated, paraffin-embedded tissue material.
+
+991
+00:58:32.308 --> 00:58:35.248
+So we typically stain them with H&amp;E, and then we
+
+992
+00:58:36.068 --> 00:58:39.748
+create these gigapixel large images, which then get divided
+
+993
+00:58:39.808 --> 00:58:43.468
+into thousands or tens of thousands of patches, where
+
+994
+00:58:43.528 --> 00:58:46.428
+each of these patch encode
+
+995
+00:58:47.488 --> 00:58:51.248
+some feature vectors, which then
+
+996
+00:58:52.368 --> 00:58:52.768
+using
+
+997
+00:58:55.508 --> 00:58:58.468
+computation AI, and then we can basically
+
+998
+00:58:58.768 --> 00:59:02.608
+classify AI-based phenotypic clusters
+
+999
+00:59:03.048 --> 00:59:06.688
+and then can analyze them using mass spectrometry-based
+
+1000
+00:59:06.708 --> 00:59:07.368
+proteomics.
+
+1001
+00:59:08.428 --> 00:59:10.688
+And that's exactly what you can see here.
+
+1002
+00:59:10.788 --> 00:59:14.608
+Once we isolate these regions of interest, we can then perform
+
+1003
+00:59:14.648 --> 00:59:18.208
+differential expression analysis,
+
+1004
+00:59:18.748 --> 00:59:21.928
+for example, between healthy or tumor cells
+
+1005
+00:59:22.728 --> 00:59:24.478
+and look for the
+
+1006
+00:59:26.448 --> 00:59:30.048
+outliers in order to describe the biology and
+
+1007
+00:59:30.648 --> 00:59:34.188
+map them back to the spatial location in the tissue.
+
+1008
+00:59:36.048 --> 00:59:39.568
+And we then teamed up with Dr. Anima
+
+1009
+00:59:39.628 --> 00:59:43.448
+Mehta from the NYU and Dr. Hollingsworth, and we
+
+1010
+00:59:43.508 --> 00:59:44.448
+had the questions,
+
+1011
+00:59:46.448 --> 00:59:49.968
+since the fact that 60% of the general population
+
+1012
+00:59:50.548 --> 00:59:54.368
+have a prevalence of these incidental precursor lesions we
+
+1013
+00:59:54.408 --> 00:59:58.028
+set out to study, and only a subset of those patients develop
+
+1014
+00:59:58.328 --> 01:00:02.288
+PDAC, we were interested in understanding why this
+
+1015
+01:00:02.348 --> 01:00:04.768
+is the case. And for that reason, we then
+
+1016
+01:00:07.008 --> 01:00:10.528
+defined two cohorts. One is the I cohort with the
+
+1017
+01:00:10.588 --> 01:00:14.448
+incidental normal ducts and ADMs and also
+
+1018
+01:00:14.508 --> 01:00:17.748
+low-grade PANAs. And then we had another cohort, which is the
+
+1019
+01:00:17.808 --> 01:00:20.708
+cancer-associated cohort, where we isolated
+
+1020
+01:00:21.368 --> 01:00:25.128
+cancer-associated normal ducts, low-grade and very rare
+
+1021
+01:00:25.688 --> 01:00:28.048
+high-grade PANAs, and the tumor cells.
+
+1022
+01:00:29.868 --> 01:00:33.608
+So in the next step, we then used AI-guided location of
+
+1023
+01:00:33.708 --> 01:00:35.688
+precursor lesions and normal ducts.
+
+1024
+01:00:36.088 --> 01:00:39.948
+So we used a computational approach to find the optimal number of
+
+1025
+01:00:39.968 --> 01:00:43.768
+clusters to identify, which you can see here on the right side, these
+
+1026
+01:00:44.108 --> 01:00:45.088
+normal ducts and
+
+1027
+01:00:46.308 --> 01:00:49.688
+PANA lesions, and then sent these XY
+
+1028
+01:00:49.728 --> 01:00:53.388
+coordinates to the laser microdissection microscope, which then isolated
+
+1029
+01:00:53.448 --> 01:00:53.728
+these
+
+1030
+01:00:55.648 --> 01:00:58.878
+less than 100 phenotype-matched epithelial cells and
+
+1031
+01:00:58.988 --> 01:01:02.468
+analyzed them using mass spectrometry-based
+
+1032
+01:01:02.488 --> 01:01:06.408
+proteomics. And here we could, in total, quantify more
+
+1033
+01:01:06.448 --> 01:01:10.278
+than 9,000 proteins across the whole cohort, and
+
+1034
+01:01:10.448 --> 01:01:10.748
+per
+
+1035
+01:01:12.808 --> 01:01:16.448
+mass spec sample, an average of 5,800 proteins
+
+1036
+01:01:16.988 --> 01:01:20.868
+and many, many more peptides.So when we take
+
+1037
+01:01:20.948 --> 01:01:23.118
+a bird's-eye view on these
+
+1038
+01:01:25.168 --> 01:01:28.368
+proteomic changes, we can see that we have
+
+1039
+01:01:28.448 --> 01:01:32.348
+massive changes in the proteome, looking at the tumor
+
+1040
+01:01:32.448 --> 01:01:36.368
+cells, which is not surprising. But what we can do then is to look what are
+
+1041
+01:01:36.388 --> 01:01:40.368
+the drivers between the different disease states.
+
+1042
+01:01:40.398 --> 01:01:44.078
+And then, of course, in the case of cancer, we could see that there's
+
+1043
+01:01:44.368 --> 01:01:48.338
+a lot of these hallmarks of cancer which drive the separation.
+
+1044
+01:01:48.348 --> 01:01:52.107
+But very interestingly, when we looked a little bit closer about the pannus
+
+1045
+01:01:52.148 --> 01:01:53.318
+lesion, and particularly the
+
+1046
+01:01:54.568 --> 01:01:57.868
+normal ducts, we could already see a separation between the
+
+1047
+01:01:57.908 --> 01:02:00.498
+cancer-associated normal ducts and the incidental
+
+1048
+01:02:03.328 --> 01:02:06.328
+normal ducts, which is, of course, very interesting.
+
+1049
+01:02:07.228 --> 01:02:10.468
+So in the next step, we looked a little bit closer what are actually the
+
+1050
+01:02:10.788 --> 01:02:12.908
+molecular changes between these two
+
+1051
+01:02:14.028 --> 01:02:18.008
+ducts. And here we did some volcano analysis, and
+
+1052
+01:02:18.048 --> 01:02:21.988
+as you can see on the right side, you see significant enriched proteins in
+
+1053
+01:02:22.028 --> 01:02:25.248
+the cancer-associated ducts, which are reflecting
+
+1054
+01:02:25.728 --> 01:02:29.368
+oxidative stress, metabolic reprogramming, and also
+
+1055
+01:02:29.888 --> 01:02:31.288
+immune editing.
+
+1056
+01:02:32.308 --> 01:02:36.208
+We then did also pathway enrichment analysis and
+
+1057
+01:02:36.728 --> 01:02:40.718
+could show that inflammation, antigen presentation rise early,
+
+1058
+01:02:40.868 --> 01:02:44.828
+so as early as in the normal ducts, all the way to low-grade pannus
+
+1059
+01:02:44.848 --> 01:02:47.948
+and then sharply drop when they transit to
+
+1060
+01:02:48.508 --> 01:02:52.128
+high-grade pannus, suggesting that these cells already undergo
+
+1061
+01:02:52.168 --> 01:02:53.048
+immune evasion.
+
+1062
+01:02:54.988 --> 01:02:55.518
+So this
+
+1063
+01:02:57.408 --> 01:03:01.388
+we then explained like a cancer field effect, where
+
+1064
+01:03:01.468 --> 01:03:02.568
+the normal
+
+1065
+01:03:03.508 --> 01:03:06.788
+ducts are close proximity
+
+1066
+01:03:07.528 --> 01:03:11.428
+to tumor cells, basically undergo or
+
+1067
+01:03:12.348 --> 01:03:13.608
+get these immune
+
+1068
+01:03:15.668 --> 01:03:19.648
+signatures, which then drive these kind of stress response,
+
+1069
+01:03:20.468 --> 01:03:20.848
+whereas
+
+1070
+01:03:22.068 --> 01:03:25.648
+the normal ducts not. And then, what
+
+1071
+01:03:26.208 --> 01:03:27.568
+comes on top here with the
+
+1072
+01:03:29.568 --> 01:03:33.048
+mass spectrometry-based proteomics analysis is that we can not
+
+1073
+01:03:33.108 --> 01:03:36.897
+only detect differentially expressed proteins, but we can also
+
+1074
+01:03:36.928 --> 01:03:40.348
+detect KRAS mutations without sequencing the DNA.
+
+1075
+01:03:41.048 --> 01:03:44.728
+In order to do so, we generate a custom FASTA file
+
+1076
+01:03:44.888 --> 01:03:45.128
+and
+
+1077
+01:03:46.668 --> 01:03:50.528
+use deep learning-based prediction of peptide properties
+
+1078
+01:03:50.948 --> 01:03:51.108
+to
+
+1079
+01:03:52.088 --> 01:03:54.868
+generate theoretical spectral libraries.
+
+1080
+01:03:55.348 --> 01:03:58.308
+And this allowed us then to identify
+
+1081
+01:03:59.168 --> 01:04:02.008
+the different KRAS hotspot mutations.
+
+1082
+01:04:02.488 --> 01:04:06.308
+So what this enables us is to combine genotype
+
+1083
+01:04:06.348 --> 01:04:07.208
+with phenotype.
+
+1084
+01:04:08.048 --> 01:04:11.948
+And just to give you an idea, what we found is that when we look at the ADMs
+
+1085
+01:04:11.988 --> 01:04:15.568
+in low-grade, we can see in a number of those
+
+1086
+01:04:15.608 --> 01:04:19.468
+hotspot mutations, when we look on the patient level, we can
+
+1087
+01:04:19.528 --> 01:04:23.388
+see that some patients have one mutation, others have
+
+1088
+01:04:23.448 --> 01:04:24.208
+several
+
+1089
+01:04:25.328 --> 01:04:28.728
+different mutations in the different regions of
+
+1090
+01:04:28.828 --> 01:04:29.368
+interest.
+
+1091
+01:04:31.188 --> 01:04:34.888
+So we can further expand this analysis also to study tumor
+
+1092
+01:04:34.928 --> 01:04:35.828
+heterogeneity
+
+1093
+01:04:36.708 --> 01:04:40.088
+using, again, the computational foundation models to
+
+1094
+01:04:40.588 --> 01:04:44.528
+look at different morphologies. And then we can start to ask what
+
+1095
+01:04:44.568 --> 01:04:48.328
+are the different drivers of those different morphologies,
+
+1096
+01:04:48.408 --> 01:04:51.368
+and also could see that certain areas are more
+
+1097
+01:04:52.108 --> 01:04:55.268
+aggressive than others. So this represents a huge
+
+1098
+01:04:56.528 --> 01:05:00.188
+now resource to look at tissue heterogeneity or
+
+1099
+01:05:00.348 --> 01:05:04.168
+tumor heterogeneity. And for example, we could see that these
+
+1100
+01:05:04.228 --> 01:05:07.808
+two spatially adjacent regions differ in cytoskeletal,
+
+1101
+01:05:08.348 --> 01:05:10.328
+metabolic, and RNA processing.
+
+1102
+01:05:12.228 --> 01:05:16.108
+Yeah, to make a long story short, I'm very happy to announce
+
+1103
+01:05:16.148 --> 01:05:19.628
+that this study is now online at Cancer Discovery,
+
+1104
+01:05:20.108 --> 01:05:23.408
+just published today. So if you're interested to know more about
+
+1105
+01:05:24.088 --> 01:05:26.648
+what we did in particular, so please use the
+
+1106
+01:05:27.988 --> 01:05:29.148
+QR code. And,
+
+1107
+01:05:30.148 --> 01:05:32.128
+yeah, with this, I would like to
+
+1108
+01:05:33.668 --> 01:05:36.117
+end and acknowledge all the people involved.
+
+1109
+01:05:36.668 --> 01:05:36.988
+Most
+
+1110
+01:05:37.908 --> 01:05:38.978
+prominently, Dr.
+
+1111
+01:05:39.848 --> 01:05:43.208
+Aniban Maitra from the NYU,
+
+1112
+01:05:44.048 --> 01:05:47.817
+and also my team at Omic Vision Biosciences, particularly
+
+1113
+01:05:47.868 --> 01:05:51.558
+Lisa Schweitzer and Jimin from Dr.
+
+1114
+01:05:51.788 --> 01:05:55.338
+Maitra's lab, and also Paul and Michael from the University of
+
+1115
+01:05:55.348 --> 01:05:58.808
+Nebraska. Also, our industry partner from Leica
+
+1116
+01:05:58.848 --> 01:06:02.408
+Microsystems, and most importantly, the donor patients and their
+
+1117
+01:06:02.448 --> 01:06:06.008
+families for their invaluable contribution to scientific
+
+1118
+01:06:06.088 --> 01:06:06.628
+research.
+
+1119
+01:06:07.488 --> 01:06:11.308
+Last but not least, I would like to announce that we are in the process of
+
+1120
+01:06:11.408 --> 01:06:15.268
+rebranding from Omic Vision
+
+1121
+01:06:15.328 --> 01:06:18.968
+towards Resolute Bio and have some exciting news
+
+1122
+01:06:19.348 --> 01:06:22.948
+soon to share. And if you are interested in partnering with us, please
+
+1123
+01:06:23.788 --> 01:06:24.168
+find me.
+
+1124
+01:06:31.028 --> 01:06:32.668
+All right. It's open for discussion.
+
+1125
+01:06:34.088 --> 01:06:34.608
+Nice work.
+
+1126
+01:06:35.288 --> 01:06:35.488
+Thanks.
+
+1127
+01:06:35.548 --> 01:06:39.168
+I'm wondering about the diameter of the laser capture
+
+1128
+01:06:39.228 --> 01:06:43.108
+size to quantitate 5,000 protein groups in
+
+1129
+01:06:43.168 --> 01:06:43.938
+your study, and-
+
+1130
+01:06:44.428 --> 01:06:44.558
+Yeah
+
+1131
+01:06:45.128 --> 01:06:47.628
+... have you compared frozen
+
+1132
+01:06:48.508 --> 01:06:50.428
+versus FFP tissues
+
+1133
+01:06:50.948 --> 01:06:54.868
+with regards to the sensitivity
+
+1134
+01:06:54.908 --> 01:06:55.608
+and performance?
+
+1135
+01:06:56.148 --> 01:06:59.608
+Yes. So to the first point, in this case, we took
+
+1136
+01:06:59.968 --> 01:07:03.748
+less than 100 phenotype-matched cells, which corresponds
+
+1137
+01:07:03.808 --> 01:07:07.648
+approximately two to three nanogram of input material.
+
+1138
+01:07:07.708 --> 01:07:11.628
+So very little amount. So what we do is that we try
+
+1139
+01:07:11.708 --> 01:07:14.968
+to identify computational similar cells from
+
+1140
+01:07:15.528 --> 01:07:19.508
+spatially localized regions and then collect them to
+
+1141
+01:07:19.548 --> 01:07:22.948
+get statistical power behind it and also
+
+1142
+01:07:23.008 --> 01:07:25.968
+the proteomics depth. So it's less of 100
+
+1143
+01:07:26.028 --> 01:07:29.840
+cells.And then the second part is, yes, we have also in a
+
+1144
+01:07:29.900 --> 01:07:30.640
+separate study,
+
+1145
+01:07:31.460 --> 01:07:35.360
+compared fresh frozen with FFPE. And the good thing
+
+1146
+01:07:35.420 --> 01:07:39.060
+is that we only lose marginal proteomic depth.
+
+1147
+01:07:39.380 --> 01:07:40.440
+And the reason is that
+
+1148
+01:07:41.480 --> 01:07:45.479
+formalin-fixed and paraffin-embedded tissue, we might lose some of the
+
+1149
+01:07:45.520 --> 01:07:49.220
+peptides, but we still have enough peptides to then
+
+1150
+01:07:49.620 --> 01:07:52.580
+quantify and identify the proteins behind it.
+
+1151
+01:07:52.900 --> 01:07:56.720
+Because we have many, many more peptides per protein than we actually
+
+1152
+01:07:56.760 --> 01:08:00.680
+need. So loss is below 5%
+
+1153
+01:08:00.740 --> 01:08:02.120
+between FFPE and
+
+1154
+01:08:02.940 --> 01:08:06.780
+fresh frozen samples. And in fact, we have actually looked in samples
+
+1155
+01:08:06.860 --> 01:08:10.340
+that are stored 30 years or longer, and we still get a very
+
+1156
+01:08:10.420 --> 01:08:12.360
+robust proteomic signature.
+
+1157
+01:08:15.060 --> 01:08:18.681
+Do you see this becoming a diagnostic test that we can use in the clinic?
+
+1158
+01:08:18.740 --> 01:08:22.660
+And is there a way for us to see that in a blood-based rather than
+
+1159
+01:08:22.940 --> 01:08:24.400
+tissue-based proteomics?
+
+1160
+01:08:24.641 --> 01:08:28.521
+Yeah. So a good point, particularly for pancreatic cancer, you don't want to do
+
+1161
+01:08:28.601 --> 01:08:32.419
+an ongoing tissue biopsy. But of course, the
+
+1162
+01:08:32.460 --> 01:08:34.320
+beauty is here that you can
+
+1163
+01:08:35.181 --> 01:08:38.990
+develop, for example, a targeted mass spectrometry-based assay where
+
+1164
+01:08:39.460 --> 01:08:43.221
+once you have identified interesting peptides, you can then
+
+1165
+01:08:43.280 --> 01:08:46.940
+create marker peptides, which you then can try to
+
+1166
+01:08:47.000 --> 01:08:48.021
+refind in the blood,
+
+1167
+01:08:48.880 --> 01:08:51.920
+and then even do absolute quantification.
+
+1168
+01:08:51.980 --> 01:08:55.820
+If you do some spike-in peptides where you know the exact amount of
+
+1169
+01:08:55.840 --> 01:08:59.521
+the peptide of interest, you can then calculate the ratio,
+
+1170
+01:08:59.721 --> 01:09:03.260
+and thereby knowing what is the exact amount of any given
+
+1171
+01:09:03.300 --> 01:09:04.601
+peptide in your sample.
+
+1172
+01:09:07.580 --> 01:09:08.721
+All right. Thank you so much.
+
+1173
+01:09:12.260 --> 01:09:15.940
+Okay. Our next speaker is Zach Kinsella from the Royal College of
+
+1174
+01:09:16.021 --> 01:09:16.950
+Surgeons in Ireland.
+
+1175
+01:09:17.800 --> 01:09:21.710
+He's speaking about spatial immune multiomics refines prognostication in
+
+1176
+01:09:21.820 --> 01:09:24.380
+early-stage estrogen receptor-positive breast cancer.
+
+1177
+01:09:25.900 --> 01:09:27.980
+Hi, everyone. Can you hear me? Yeah.
+
+1178
+01:09:28.900 --> 01:09:32.200
+Thank you for inviting me to talk. I'm here today to just give a background on some
+
+1179
+01:09:32.221 --> 01:09:36.061
+of my research, which is used in spatial multiomics to refine prognostication
+
+1180
+01:09:36.160 --> 01:09:37.141
+in early breast cancer.
+
+1181
+01:09:37.960 --> 01:09:39.960
+I have no financial relationships to disclose.
+
+1182
+01:09:41.101 --> 01:09:44.840
+A bit of background. ER positive breast cancer is the most common breast cancer
+
+1183
+01:09:44.860 --> 01:09:48.589
+subtype, and in comparison to other breast cancer subtypes, late recurrence is
+
+1184
+01:09:48.641 --> 01:09:51.820
+particularly common, where up to a third of patients will experience a recurrence.
+
+1185
+01:09:52.580 --> 01:09:55.380
+This really raises the question of how do we know who's going to recur?
+
+1186
+01:09:55.420 --> 01:09:59.280
+And it's in part answered by clinical pathological variables, grade, stage, size,
+
+1187
+01:09:59.360 --> 01:10:02.280
+et cetera, and genomic variables such as multigene assays.
+
+1188
+01:10:02.880 --> 01:10:06.520
+The most widely used and extensively validated is the Oncotype DX
+
+1189
+01:10:06.540 --> 01:10:10.300
+Recurrence Score. It may need a little introduction, but essentially it's
+
+1190
+01:10:10.660 --> 01:10:14.260
+a test that looks at the expression of 21 genes and algorithmically
+
+1191
+01:10:14.300 --> 01:10:16.730
+computes a risk score between zero and 100.
+
+1192
+01:10:17.380 --> 01:10:20.580
+It was prospectively validated in one of the largest adjuvant trials in breast
+
+1193
+01:10:20.640 --> 01:10:24.580
+cancer to date, and essentially is really quite useful at determining
+
+1194
+01:10:24.620 --> 01:10:26.059
+who does and doesn't need chemotherapy.
+
+1195
+01:10:26.300 --> 01:10:29.600
+For example, patients with low risk between a recurrence score zero and 10,
+
+1196
+01:10:30.000 --> 01:10:33.860
+they're known not to benefit from chemotherapy, whereas those with high
+
+1197
+01:10:33.940 --> 01:10:37.120
+risk between 26 and 100 are known to benefit from chemotherapy.
+
+1198
+01:10:37.780 --> 01:10:41.640
+The problem is that this intermediate group between 11 and 25, the current benefit
+
+1199
+01:10:41.680 --> 01:10:44.020
+of chemotherapy for these patients is relatively ambiguous.
+
+1200
+01:10:44.180 --> 01:10:47.970
+So what this reveals is that a test is only really accurate in the extremes,
+
+1201
+01:10:48.440 --> 01:10:50.200
+is inaccurate in the intermediate.
+
+1202
+01:10:50.210 --> 01:10:54.100
+And that hides a bit of a deeper issue in the sense that the majority of patients,
+
+1203
+01:10:54.160 --> 01:10:57.339
+up to 60% of them, actually exist within this intermediate group.
+
+1204
+01:10:58.720 --> 01:11:02.400
+To begin to ameliorate this, we have Irish patients that were
+
+1205
+01:11:02.420 --> 01:11:06.320
+previously enrolled in TAILORx, and we basically applied our spatial multiomic
+
+1206
+01:11:06.380 --> 01:11:08.540
+workflow, which included
+
+1207
+01:11:09.400 --> 01:11:13.100
+IHC on full face and on TMAs, we applied spatial
+
+1208
+01:11:13.140 --> 01:11:16.860
+transcriptomics using NanoString's GeoMx, their whole transcriptome
+
+1209
+01:11:16.920 --> 01:11:20.730
+atlas, spatially segregated from tumor epithelia to the peritumoral
+
+1210
+01:11:20.740 --> 01:11:24.420
+stroma, and also spatial proteomics using Akoya's
+
+1211
+01:11:24.640 --> 01:11:26.260
+6-plex immunofluorescence technology.
+
+1212
+01:11:27.060 --> 01:11:31.000
+So we essentially wanted to take this together, analyze it, and really
+
+1213
+01:11:31.060 --> 01:11:34.899
+try and separate out that intermediate recurrence score using
+
+1214
+01:11:35.000 --> 01:11:38.920
+spatial omics data. And the other TAILORx is particularly good for this
+
+1215
+01:11:38.960 --> 01:11:42.500
+because the intermediate group we have one to one randomized to receive either
+
+1216
+01:11:42.540 --> 01:11:46.340
+hormone therapy alone or chemo endocrine therapy as the major TAILORx
+
+1217
+01:11:46.380 --> 01:11:48.140
+trial was as well.
+
+1218
+01:11:49.180 --> 01:11:52.970
+Going into our data, we wanted to basically see initially what's going on in the
+
+1219
+01:11:52.980 --> 01:11:56.400
+immune microenvironment. So we performed unsupervised clustering with our proteomic
+
+1220
+01:11:56.440 --> 01:12:00.060
+data, finding there to be four TME types and three
+
+1221
+01:12:00.120 --> 01:12:00.800
+epitypes.
+
+1222
+01:12:01.720 --> 01:12:05.620
+These TME types range from T cell low, T cell infiltrating, actually
+
+1223
+01:12:05.640 --> 01:12:09.380
+immune hot, and actually immune cold, whereas the epithelial types really only
+
+1224
+01:12:09.460 --> 01:12:12.200
+range from cold, intermediate, to relatively warm.
+
+1225
+01:12:13.340 --> 01:12:16.300
+What was interesting is that these immune types were not significantly captured by
+
+1226
+01:12:16.320 --> 01:12:19.910
+the Oncotype DX Recurrence Score, nor were significantly coupled to one another,
+
+1227
+01:12:20.130 --> 01:12:23.760
+potentially showing that there's some orthogonal immune biology going on there to
+
+1228
+01:12:23.820 --> 01:12:27.080
+genomic risk, and that the immune information may provide
+
+1229
+01:12:27.640 --> 01:12:30.660
+avenues to begin to improve that genomic risk categorization.
+
+1230
+01:12:31.820 --> 01:12:35.140
+This is where we started to bring in our transcriptomic data to look at what was
+
+1231
+01:12:35.200 --> 01:12:38.480
+actually going on and the differences of what's different between these different
+
+1232
+01:12:39.040 --> 01:12:42.990
+TME and epithelial states. What we found among other immune related
+
+1233
+01:12:43.060 --> 01:12:46.870
+transcripts was significant upregulation of things like CTLA4 and other
+
+1234
+01:12:46.900 --> 01:12:49.300
+checkpoint sites like TIGIT and CD96.
+
+1235
+01:12:49.740 --> 01:12:53.100
+Whereas inflamed epithelia were really uniquely characterized by
+
+1236
+01:12:53.140 --> 01:12:56.220
+downregulation of ESR1, which encodes ER alpha.
+
+1237
+01:12:57.000 --> 01:13:00.560
+This potentially shows maybe a dedifferentiation from
+
+1238
+01:13:00.740 --> 01:13:04.700
+luminal-like biology, and we also saw, for example, in gene set enrichment
+
+1239
+01:13:04.740 --> 01:13:08.150
+analysis, again, amongst other pathways, downregulation and
+
+1240
+01:13:08.220 --> 01:13:10.220
+suppression of things like DNA repair.
+
+1241
+01:13:11.220 --> 01:13:14.950
+So from here we wanted to know, are any of these individual immune
+
+1242
+01:13:15.040 --> 01:13:18.962
+states in the TME or epithelia prognostic?Unfortunately, not many of them
+
+1243
+01:13:19.012 --> 01:13:22.192
+were. Only one was really prognostic, and that was across the randomized
+
+1244
+01:13:22.212 --> 01:13:23.172
+intermediate recurrence score.
+
+1245
+01:13:24.032 --> 01:13:27.812
+After adjusting for clinical variables, what this shows is that patients receiving
+
+1246
+01:13:27.832 --> 01:13:31.062
+chemotherapy on the randomized chemo arm had a poorer outcome,
+
+1247
+01:13:32.152 --> 01:13:35.432
+whereas those on endocrine therapy alone actually trended towards improved
+
+1248
+01:13:35.472 --> 01:13:39.292
+outcomes. The takeaway here being inflamed TME and epithelia
+
+1249
+01:13:39.572 --> 01:13:41.992
+in our cohort, they appear relatively dysfunctional.
+
+1250
+01:13:42.032 --> 01:13:44.172
+They significantly upregulate checkpoints.
+
+1251
+01:13:44.212 --> 01:13:47.712
+They downregulate the estrogen receptor and suppress pathways such as DNA repair.
+
+1252
+01:13:49.491 --> 01:13:53.012
+After that, we wanted to know, okay, there's a lot going on in these environments.
+
+1253
+01:13:53.852 --> 01:13:55.712
+Can we decide what's going on and what
+
+1254
+01:13:56.552 --> 01:13:59.992
+genes are being expressed and are functionally coupled to infiltrating phenotype
+
+1255
+01:14:00.032 --> 01:14:02.512
+densities? So we performed an analysis here,
+
+1256
+01:14:03.552 --> 01:14:07.112
+firstly in the epithelia, showing significant upregulation of antigen presentation
+
+1257
+01:14:07.172 --> 01:14:11.052
+genes, potentially showing that the epithelia could be engaged by
+
+1258
+01:14:11.192 --> 01:14:13.512
+and recognized with the immune response.
+
+1259
+01:14:14.172 --> 01:14:18.012
+But also, along with cytotoxic genes like your
+
+1260
+01:14:18.032 --> 01:14:21.312
+granzymes and perforin, there's upregulation of CTLA4 and
+
+1261
+01:14:21.372 --> 01:14:24.792
+CXCL13, again indicative of a dysfunctional response.
+
+1262
+01:14:25.632 --> 01:14:29.542
+We had the same in the stroma for macrophage density, finding increased
+
+1263
+01:14:29.632 --> 01:14:33.252
+extracellular matrix remodeling and M2-like macrophage signatures through
+
+1264
+01:14:33.352 --> 01:14:37.192
+SPP1, which encodes osteopontin, and trends to
+
+1265
+01:14:37.252 --> 01:14:38.932
+downregulation in cytotoxicity.
+
+1266
+01:14:39.952 --> 01:14:43.472
+Similarly, for stromal cytotoxic T cell density, we saw
+
+1267
+01:14:43.532 --> 01:14:47.512
+significant increases in granzymes and perforin, but also a TCF7,
+
+1268
+01:14:48.032 --> 01:14:51.932
+which is a progenitor exhaustion-like signature and non-canonical checkpoints
+
+1269
+01:14:51.972 --> 01:14:55.052
+like VSIG which encodes an emergent checkpoint vista.
+
+1270
+01:14:56.012 --> 01:14:59.992
+So we are seeing across the transcriptome that there
+
+1271
+01:15:00.032 --> 01:15:03.552
+are dysfunctional immune responses, expression of checkpoints,
+
+1272
+01:15:03.692 --> 01:15:04.292
+exhaustion,
+
+1273
+01:15:05.152 --> 01:15:08.702
+M2 macrophage are engaged, and there's a buildup of extracellular
+
+1274
+01:15:08.752 --> 01:15:09.292
+matrix.
+
+1275
+01:15:10.212 --> 01:15:12.872
+Can we bring in proteomic data to see something quite similar?
+
+1276
+01:15:13.692 --> 01:15:17.632
+So we asked the question, what's the relationship between ITLs or epithelial
+
+1277
+01:15:17.672 --> 01:15:21.502
+TILs to STILs, TME TILs as STIL density
+
+1278
+01:15:21.552 --> 01:15:25.411
+increases? So what these plots show, one is proportional coupling, where a
+
+1279
+01:15:25.472 --> 01:15:29.332
+one unit increase in STIL basically translates to a one unit increase in
+
+1280
+01:15:29.372 --> 01:15:31.481
+ITIL. We saw that in those inflamed
+
+1281
+01:15:32.892 --> 01:15:35.532
+TME, TME3, that Tregs are much more fluid.
+
+1282
+01:15:35.832 --> 01:15:38.972
+As they basically infiltrate into the stroma, they're much more likely to also
+
+1283
+01:15:39.012 --> 01:15:42.912
+infiltrate into the epithelia, whereas cytotoxic T cells are relatively
+
+1284
+01:15:42.952 --> 01:15:46.692
+decoupled. And we're actually fairly similar to the T cell low environment,
+
+1285
+01:15:46.712 --> 01:15:47.912
+despite it being really inflamed.
+
+1286
+01:15:48.522 --> 01:15:52.292
+Basically showing that even in the proteomic data, there is, or it
+
+1287
+01:15:52.352 --> 01:15:54.392
+suggests there's a level of immune exclusion.
+
+1288
+01:15:55.872 --> 01:15:59.852
+So from here, we've seen that the inflamed epithelia are prognostic in
+
+1289
+01:15:59.892 --> 01:16:02.492
+the intermediate group and there's dysfunctional responses.
+
+1290
+01:16:02.912 --> 01:16:04.512
+It's quite difficult to translate that, though.
+
+1291
+01:16:04.992 --> 01:16:08.042
+So are there any individual immune variables that can basically recapture and
+
+1292
+01:16:08.052 --> 01:16:11.292
+recapitulate that prognostic signal? The answer is yes.
+
+1293
+01:16:11.552 --> 01:16:14.152
+Amongst others tested, this is just as an example.
+
+1294
+01:16:14.632 --> 01:16:17.972
+It seems that the high density of T cells, regardless of whether they were scored
+
+1295
+01:16:18.012 --> 01:16:21.852
+in the epithelia or TME, conferred significantly poorer outcome of patients
+
+1296
+01:16:21.932 --> 01:16:23.332
+randomized to receive chemotherapy.
+
+1297
+01:16:24.672 --> 01:16:26.722
+Just to take CD8 density here as an example,
+
+1298
+01:16:28.361 --> 01:16:31.372
+and using an arbitrary median cutoff, you can see that there is a significantly
+
+1299
+01:16:31.412 --> 01:16:35.372
+poorer outcome of high-density patients receiving chemo, and that the
+
+1300
+01:16:35.412 --> 01:16:38.932
+addition of CD8 adds prognostic information
+
+1301
+01:16:38.992 --> 01:16:41.052
+significantly to clinical variables.
+
+1302
+01:16:41.752 --> 01:16:45.432
+Another way of representing this is an inverse analysis, where you can
+
+1303
+01:16:45.492 --> 01:16:49.252
+see patients with low density don't have a significant difference in outcome over
+
+1304
+01:16:49.262 --> 01:16:53.042
+15 years, whereas those with high density, you can see clearly that there is a
+
+1305
+01:16:53.052 --> 01:16:55.152
+difference of those receiving chemo.
+
+1306
+01:16:56.792 --> 01:17:00.552
+We also performed a formal interaction analysis, again, showing that
+
+1307
+01:17:00.652 --> 01:17:04.532
+as CD8 density increases continually, there is a significantly
+
+1308
+01:17:04.572 --> 01:17:08.472
+poorer outcome on chemo and basically trying to emulate what
+
+1309
+01:17:08.532 --> 01:17:09.932
+the changes in treatment will be like.
+
+1310
+01:17:10.012 --> 01:17:13.592
+By using our biomarker, you can see that there is a marked
+
+1311
+01:17:13.612 --> 01:17:17.552
+change in treatment, both across pre- and post-menopausal patients from
+
+1312
+01:17:17.572 --> 01:17:18.892
+what is known as the current guideline.
+
+1313
+01:17:21.152 --> 01:17:23.592
+Next, pathologists are really great.
+
+1314
+01:17:23.672 --> 01:17:27.592
+They're regularly known for being the ground truth, but
+
+1315
+01:17:27.632 --> 01:17:31.612
+there could be a selection bias in the areas that they used to determine or
+
+1316
+01:17:31.752 --> 01:17:35.641
+pick TMAs for sampling. So we performed an orthogonal validation on whole
+
+1317
+01:17:35.692 --> 01:17:39.432
+slide images. Again, we're using a similar pipeline of masking the epithelia,
+
+1318
+01:17:39.512 --> 01:17:41.472
+doing nearest neighborhood density analysis.
+
+1319
+01:17:42.272 --> 01:17:46.092
+And again, we found in the whole slide images that there was a significant
+
+1320
+01:17:46.732 --> 01:17:50.712
+formal interaction where, again, increasing CD8 density
+
+1321
+01:17:50.772 --> 01:17:52.892
+conferred poorer outcome on chemotherapy.
+
+1322
+01:17:54.072 --> 01:17:57.392
+Whenever we looked at absolute risk differences, this was only really significant
+
+1323
+01:17:57.432 --> 01:17:59.632
+above the 70th to 80th decile.
+
+1324
+01:18:01.352 --> 01:18:05.232
+But we really saw here that, for example, there was about a 16%
+
+1325
+01:18:05.332 --> 01:18:08.912
+15-years survival difference at the 90th percentile of density favoring hormone
+
+1326
+01:18:08.922 --> 01:18:12.652
+therapy, which in restricted median survival time corresponded to around a
+
+1327
+01:18:12.692 --> 01:18:15.832
+13-month difference favoring hormone therapy over chemotherapy.
+
+1328
+01:18:17.192 --> 01:18:20.712
+So to conclude, ER-positive breast cancer is not truly immune cold.
+
+1329
+01:18:20.932 --> 01:18:24.872
+People think it is. It's not. There are unique immune states that exist
+
+1330
+01:18:25.032 --> 01:18:28.992
+that differ in their density and composition and range from cold to hot.
+
+1331
+01:18:29.652 --> 01:18:33.192
+The inflamed states do appear transcriptomically wired to more
+
+1332
+01:18:33.272 --> 01:18:36.732
+dysfunctions, such as the expression of checkpoints, exhaustion
+
+1333
+01:18:36.792 --> 01:18:40.332
+transcripts, M2-like macrophage, and remodeling genes, as well as
+
+1334
+01:18:40.392 --> 01:18:42.591
+dedifferentiation, potentially from luminal biology.
+
+1335
+01:18:43.572 --> 01:18:46.772
+But more crucially is that the inflamed milieu, particularly those with high
+
+1336
+01:18:46.972 --> 01:18:50.952
+stromal CD8, at least in alcohol, is a predictive marker of chemo inferiority.
+
+1337
+01:18:51.652 --> 01:18:55.252
+It does add significant prognostic information to clinical variables, including
+
+1338
+01:18:55.292 --> 01:18:59.192
+menopausal status, which is one of the current guidelines, but one thing is to take
+
+1339
+01:18:59.212 --> 01:19:02.792
+this with a pinch of salt. It does need external validation in larger TRX
+
+1340
+01:19:03.232 --> 01:19:05.372
+before anything can be really generalized to practice.
+
+1341
+01:19:06.192 --> 01:19:08.812
+I want to say thank you for listening, thank you for inviting me to talk, and
+
+1342
+01:19:08.872 --> 01:19:10.872
+here's everyone who worked on this with me.
+
+1343
+01:19:16.992 --> 01:19:18.552
+Okay, the floor is open for questions.
+
+1344
+01:19:28.002 --> 01:19:31.902
+I can start with a question. Very intriguing data, and especially
+
+1345
+01:19:31.962 --> 01:19:33.742
+that it's something that you didn't expect to see.
+
+1346
+01:19:33.842 --> 01:19:36.782
+I wonder again, how are we going to see that in the clinic?
+
+1347
+01:19:36.802 --> 01:19:40.362
+How do you translate that? Would you consider now checkpoint inhibitors in these
+
+1348
+01:19:40.442 --> 01:19:43.632
+patients? I like that you looked at
+
+1349
+01:19:43.702 --> 01:19:47.012
+immunohistochemistry as a simple, easy way for us to translate that into the
+
+1350
+01:19:47.062 --> 01:19:48.242
+clinic. So can you
+
+1351
+01:19:49.182 --> 01:19:51.062
+tell us where to go from here?
+
+1352
+01:19:51.442 --> 01:19:55.282
+Yeah. I think one thing I'm currently looking at is whether you can
+
+1353
+01:19:55.362 --> 01:19:57.182
+use foundational models to score TILs.
+
+1354
+01:19:57.502 --> 01:20:01.342
+I don't know yet.
+
+1355
+01:20:01.682 --> 01:20:05.302
+I'm still doing the work. As for
+
+1356
+01:20:05.342 --> 01:20:08.122
+CD8, let's say it doesn't, and you need CD8.
+
+1357
+01:20:08.292 --> 01:20:10.282
+I feel like it could be translated.
+
+1358
+01:20:10.922 --> 01:20:14.602
+We use diagnostics all the time, like ER, PR, HER2, Ki67.
+
+1359
+01:20:15.762 --> 01:20:17.042
+They come with their own challenges.
+
+1360
+01:20:17.282 --> 01:20:21.002
+We're still arguing about the right threshold for Ki67, but I feel
+
+1361
+01:20:21.042 --> 01:20:25.022
+like as things progress, foundational models progress, you get more data, more
+
+1362
+01:20:25.082 --> 01:20:28.142
+samples, you can kind of find ways to generalize.
+
+1363
+01:20:28.642 --> 01:20:29.462
+But yeah, it's still a way off.
+
+1364
+01:20:31.402 --> 01:20:33.602
+Well, thank you very much for the talk. Very interesting.
+
+1365
+01:20:34.362 --> 01:20:37.862
+I was wondering how your biomarker would correlate in the triple negative breast
+
+1366
+01:20:37.902 --> 01:20:39.962
+cancer as well, because there you have the
+
+1367
+01:20:41.282 --> 01:20:44.682
+hot/cold classification as well. Have you ever looked at that or?
+
+1368
+01:20:45.402 --> 01:20:48.382
+No, this cohort is ER positive, HER2 negative only.
+
+1369
+01:20:49.882 --> 01:20:53.662
+The reason why it's relatively unexpected is because CD8 tends to confer improved
+
+1370
+01:20:53.702 --> 01:20:57.152
+outcome in triple negatives. I haven't actually looked at that myself,
+
+1371
+01:20:57.422 --> 01:21:00.822
+but this is kind of opposite to what we would have expected.
+
+1372
+01:21:01.002 --> 01:21:04.022
+So it's most likely due to chemotherapy.
+
+1373
+01:21:06.282 --> 01:21:10.262
+I know in triple negatives it does, or CD8 is a marker of improved outcome
+
+1374
+01:21:10.282 --> 01:21:11.342
+on chemo. So
+
+1375
+01:21:12.362 --> 01:21:15.072
+it was one of the problems with people considering the disease as being immune
+
+1376
+01:21:15.122 --> 01:21:17.902
+cold. There's not really been that much investigation.
+
+1377
+01:21:18.522 --> 01:21:21.982
+Could it be some kind of, I don't know, interaction with estrogen receptor
+
+1378
+01:21:22.222 --> 01:21:25.932
+signaling as well? Because it's not completely, like the intermediate risk score,
+
+1379
+01:21:26.202 --> 01:21:29.782
+like this subgroup still has potentially a lot of estrogen
+
+1380
+01:21:29.822 --> 01:21:30.782
+receptor signaling.
+
+1381
+01:21:31.662 --> 01:21:31.802
+Yeah.
+
+1382
+01:21:32.802 --> 01:21:33.722
+It probably is.
+
+1383
+01:21:35.182 --> 01:21:38.581
+Again, oncotype, like you said, includes ESR1.
+
+1384
+01:21:39.742 --> 01:21:41.682
+It's something that I probably need to look into more.
+
+1385
+01:21:42.162 --> 01:21:44.722
+I'd say
+
+1386
+01:21:46.942 --> 01:21:50.702
+more so, for example, you can see
+
+1387
+01:21:51.522 --> 01:21:54.922
+or we've seen in the data that there is a stronger relationship with
+
+1388
+01:21:54.962 --> 01:21:57.042
+post-menopausal women than pre-menopausal.
+
+1389
+01:21:57.782 --> 01:22:01.002
+And again, one of the flaws of TAILORx is that they didn't fully account for the
+
+1390
+01:22:01.042 --> 01:22:03.662
+fact that chemo was inducing ovarian function suppression.
+
+1391
+01:22:04.302 --> 01:22:08.211
+So it probably is there, but only really recent trials
+
+1392
+01:22:08.222 --> 01:22:11.742
+are beginning to look at the effect of really taking out estrogen
+
+1393
+01:22:11.942 --> 01:22:14.962
+properly has on the immune responses in these different tissues.
+
+1394
+01:22:15.622 --> 01:22:16.742
+So yeah, you'd be probably right.
+
+1395
+01:22:17.442 --> 01:22:18.902
+Got it. Thank you very much. Very nice work.
+
+1396
+01:22:19.102 --> 01:22:19.362
+Thank you.
+
+1397
+01:22:20.482 --> 01:22:20.722
+Thank you.
+
+1398
+01:22:20.862 --> 01:22:21.222
+Thank you.
+
+1399
+01:22:25.062 --> 01:22:28.972
+All right. Our last speaker, Maxime Deynaud, on unbiased
+
+1400
+01:22:29.002 --> 01:22:32.722
+phenotyping of CRISPR edited tumors with preserved
+
+1401
+01:22:32.782 --> 01:22:36.602
+map and subcellular imaging of the mouse whole transcriptome, 22,000
+
+1402
+01:22:36.622 --> 01:22:37.002
+plex.
+
+1403
+01:22:39.262 --> 01:22:41.042
+Yeah. Thank you very much, and good afternoon, everyone.
+
+1404
+01:22:41.342 --> 01:22:44.162
+It's a pleasure to be here and represent the whole team at Nordic.
+
+1405
+01:22:45.162 --> 01:22:48.322
+I'm actually going to talk today about some recent development that we've been
+
+1406
+01:22:48.922 --> 01:22:52.782
+doing at the company, where we are mapping human tumor ecosystems
+
+1407
+01:22:52.882 --> 01:22:54.242
+on non-clinical tissue.
+
+1408
+01:22:56.162 --> 01:22:58.102
+So an introduction on what Nordic is doing.
+
+1409
+01:22:58.562 --> 01:23:01.882
+So we are leveraging foundation models, machine learning models,
+
+1410
+01:23:02.762 --> 01:23:06.182
+to develop cancer therapeutics. And it all starts with
+
+1411
+01:23:06.562 --> 01:23:10.482
+proprietary and purpose-built data sets that we are generating from
+
+1412
+01:23:10.882 --> 01:23:14.702
+large cohorts of patient samples where we generate spatial transcriptomics.
+
+1413
+01:23:14.822 --> 01:23:18.762
+We have H&amp;E slides for pathology, and also proteomics on all
+
+1414
+01:23:18.782 --> 01:23:22.042
+these samples. And we then feed all this data into foundational models that are
+
+1415
+01:23:22.062 --> 01:23:24.682
+going to learn about human biology.
+
+1416
+01:23:25.262 --> 01:23:29.162
+And then we have a series of applications for these models, some impacting
+
+1417
+01:23:29.442 --> 01:23:32.102
+clinical development here, like clinical response prediction or patient
+
+1418
+01:23:32.122 --> 01:23:32.802
+stratification
+
+1419
+01:23:33.682 --> 01:23:37.202
+or biomarker identification. But what I want to talk today is how we are
+
+1420
+01:23:37.242 --> 01:23:40.942
+leveraging these models as well to investigate and interrogate the causal
+
+1421
+01:23:41.022 --> 01:23:44.562
+biology behind cancer and how we can use this to
+
+1422
+01:23:44.762 --> 01:23:48.662
+develop novel therapeutics for cases where there is no
+
+1423
+01:23:48.702 --> 01:23:50.262
+clinical data yet available.
+
+1424
+01:23:52.142 --> 01:23:56.002
+And to be able to do this, you basically need a platform that has a
+
+1425
+01:23:56.022 --> 01:23:56.722
+couple of features.
+
+1426
+01:23:57.602 --> 01:24:01.302
+The first feature is that you need to be able to ask a lot of questions, and what
+
+1427
+01:24:01.342 --> 01:24:02.392
+that means is that you need to be
+
+1428
+01:24:02.502 --> 01:24:06.422
+able to
+
+1429
+01:24:06.882 --> 01:24:08.662
+have a platform that can do
+
+1430
+01:24:09.582 --> 01:24:12.502
+genetic perturbation at scale in the right settings.
+
+1431
+01:24:13.112 --> 01:24:17.022
+And this is why we are using the PertiMap platform, which is a scaled in vivo
+
+1432
+01:24:17.262 --> 01:24:21.022
+perturbation platform. And what you can see here is an example of
+
+1433
+01:24:21.082 --> 01:24:23.482
+a mouse lung that has been seeded with tumors.
+
+1434
+01:24:24.012 --> 01:24:26.362
+And you can see that all these tumors are different colors because they've been
+
+1435
+01:24:26.422 --> 01:24:30.202
+barcoded previously, and we can now identify directly in the
+
+1436
+01:24:30.242 --> 01:24:33.982
+tissue which tumor carries which genetic perturbation based on the barcode that
+
+1437
+01:24:34.022 --> 01:24:34.582
+they express.
+
+1438
+01:24:35.442 --> 01:24:38.902
+And using this method, we've been able to generate a large data set
+
+1439
+01:24:39.482 --> 01:24:43.242
+of more than 600 genetic perturbations across four different
+
+1440
+01:24:43.602 --> 01:24:45.362
+pharmacological interventions or therapies.
+
+1441
+01:24:45.882 --> 01:24:47.822
+So when you think about it, this kind of represents
+
+1442
+01:24:49.382 --> 01:24:53.262
+around 2,500 traditional experiments we would try, like a
+
+1443
+01:24:53.302 --> 01:24:56.362
+given drug in a given genetic knockout.
+
+1444
+01:24:57.522 --> 01:25:01.402
+So how are we able to do this? We are leveraging protein barcodes
+
+1445
+01:25:01.462 --> 01:25:02.622
+technology that
+
+1446
+01:25:03.502 --> 01:25:05.242
+I developed back during my postdoc at Mount Sinai.
+
+1447
+01:25:06.362 --> 01:25:09.742
+And the protein barcodes are essentially a series of protein reporters
+
+1448
+01:25:10.262 --> 01:25:14.202
+that are characterized by a combination of three short epitope tags,
+
+1449
+01:25:14.822 --> 01:25:18.432
+and we can generate by combining in triplets these epitope tags.
+
+1450
+01:25:18.462 --> 01:25:21.402
+We can generate more than 100 different protein reporters
+
+1451
+01:25:22.202 --> 01:25:26.082
+from as little as 10 different tags, and each and any of these
+
+1452
+01:25:26.122 --> 01:25:29.952
+reporters can be coupled to a specific CRISPR perturbation, for
+
+1453
+01:25:30.002 --> 01:25:33.994
+example.So we are generating cells
+
+1454
+01:25:34.014 --> 01:25:36.414
+that express these libraries of ProCode CRISPRs.
+
+1455
+01:25:36.454 --> 01:25:40.174
+We inoculate them into mice, and they go and seed the lung and develop these
+
+1456
+01:25:41.554 --> 01:25:44.914
+clonal tumors in the lung that we can now resolve
+
+1457
+01:25:45.234 --> 01:25:46.754
+spatially directly in the tissue.
+
+1458
+01:25:49.454 --> 01:25:53.184
+And so this is essentially how we do this kind of workflow,
+
+1459
+01:25:53.264 --> 01:25:56.874
+and the really great thing about this methodology is that it's compatible with
+
+1460
+01:25:56.914 --> 01:26:00.734
+multimodal tissue profiling. So you get the high throughput, the high scale of in
+
+1461
+01:26:00.774 --> 01:26:03.814
+vivo, but without compromising on any of the phenotyping that you want to do.
+
+1462
+01:26:04.874 --> 01:26:08.574
+So, an example here is that you can use antibodies to detect the epitope
+
+1463
+01:26:08.634 --> 01:26:12.484
+tags, in which case you can combine this with a whole panel of multiplex IF
+
+1464
+01:26:12.774 --> 01:26:15.614
+to study your favorite biology in the TME.
+
+1465
+01:26:16.254 --> 01:26:19.614
+And then very recently, we've been partnering with Bluco Spatial Biology, and they
+
+1466
+01:26:19.654 --> 01:26:23.594
+have designed probes that can directly recognize the RNA molecules of
+
+1467
+01:26:23.614 --> 01:26:27.494
+these barcodes. And as you can see here, you can very clearly also delineate all
+
+1468
+01:26:27.514 --> 01:26:31.414
+the clonal tumors. And for each one of these tumors, we have access to
+
+1469
+01:26:31.494 --> 01:26:35.194
+the genetic perturbation that is carried by the cells, and we also have access to
+
+1470
+01:26:35.234 --> 01:26:37.494
+the spatial transcriptomics data.
+
+1471
+01:26:37.534 --> 01:26:39.374
+And in this case, it's actually the whole transcriptome
+
+1472
+01:26:40.294 --> 01:26:41.254
+that was generated.
+
+1473
+01:26:42.474 --> 01:26:45.754
+And so we have the first piece of the puzzle. We can ask a lot of questions.
+
+1474
+01:26:45.814 --> 01:26:49.774
+We can screen all these different genetic perturbations, and we can
+
+1475
+01:26:49.794 --> 01:26:52.674
+do that with multimodal tissue profiling.
+
+1476
+01:26:53.354 --> 01:26:55.614
+But this is still studying mouse biology.
+
+1477
+01:26:55.934 --> 01:26:59.214
+And the second really important element that we want to have is that we want to
+
+1478
+01:26:59.274 --> 01:27:00.914
+impact patients' lives at the end of the day.
+
+1479
+01:27:01.484 --> 01:27:04.464
+So we need to have a way to analyze this data in a way that will speak to the
+
+1480
+01:27:04.514 --> 01:27:04.954
+patients.
+
+1481
+01:27:07.154 --> 01:27:11.054
+And this is where we leverage some of our foundation
+
+1482
+01:27:11.194 --> 01:27:12.294
+machine learning models.
+
+1483
+01:27:13.234 --> 01:27:16.574
+In this case, it's a model that has been trained exclusively on patients' data.
+
+1484
+01:27:17.284 --> 01:27:21.034
+And so what the model is seeing to learn biology is aligned multimodal
+
+1485
+01:27:21.074 --> 01:27:24.934
+data, which is H&amp;E and then a layer of whole transcriptomics, spatial
+
+1486
+01:27:24.954 --> 01:27:25.574
+transcriptomics
+
+1487
+01:27:26.434 --> 01:27:26.974
+for the same
+
+1488
+01:27:28.774 --> 01:27:29.134
+tissue.
+
+1489
+01:27:30.214 --> 01:27:33.794
+And so at training time, the model is going to learn human biology based on these
+
+1490
+01:27:33.814 --> 01:27:34.294
+two layers.
+
+1491
+01:27:35.814 --> 01:27:39.074
+At inference time, what we can do then is that we can feed the model
+
+1492
+01:27:39.674 --> 01:27:43.634
+any H&amp;E image, and the model can predict and infer the expression of
+
+1493
+01:27:43.694 --> 01:27:46.894
+every single gene in the spatial proteomics panel.
+
+1494
+01:27:46.954 --> 01:27:48.354
+So in this case, the whole transcriptome.
+
+1495
+01:27:49.034 --> 01:27:52.914
+And essentially what this does is that it turns your H&amp;E slide into
+
+1496
+01:27:53.174 --> 01:27:56.914
+a spatial transcriptomics data set directly without needing to
+
+1497
+01:27:56.954 --> 01:27:57.894
+actually run the assay.
+
+1498
+01:27:58.874 --> 01:28:00.834
+And when I say any H&amp;E,
+
+1499
+01:28:01.694 --> 01:28:02.354
+we really took it
+
+1500
+01:28:03.654 --> 01:28:07.634
+to the next level, and we decided that we would just feed this model
+
+1501
+01:28:08.054 --> 01:28:08.194
+the
+
+1502
+01:28:09.834 --> 01:28:13.214
+H&amp;E samples from the Bertamap high-throughput in vivo platform
+
+1503
+01:28:13.694 --> 01:28:15.954
+that we've been using to generate the causal data set.
+
+1504
+01:28:17.023 --> 01:28:17.854
+And so we have
+
+1505
+01:28:18.794 --> 01:28:19.434
+this way,
+
+1506
+01:28:20.434 --> 01:28:24.194
+we feed the model with this H&amp;E. The model has been only trained on human
+
+1507
+01:28:24.214 --> 01:28:27.734
+data, so the model is going to make predictions on expression of human
+
+1508
+01:28:27.754 --> 01:28:30.974
+gene in the mouse model. So essentially what this does is
+
+1509
+01:28:31.154 --> 01:28:35.114
+it humanizes the mouse system, but in silico after the experiment
+
+1510
+01:28:35.134 --> 01:28:38.694
+has been run, and you can project human biology directly on mouse tissue.
+
+1511
+01:28:38.854 --> 01:28:42.834
+So this is what we have called a MALS for multi-species alignment and
+
+1512
+01:28:42.874 --> 01:28:46.654
+reasoning on spatial data, because our model, even though it's trained on human
+
+1513
+01:28:46.694 --> 01:28:49.194
+data, is agnostic to the species you run it on.
+
+1514
+01:28:51.434 --> 01:28:55.334
+How does that look like? So this is an example where, again, we project
+
+1515
+01:28:55.374 --> 01:28:58.594
+the human signature on the tissue, and you can see here on the H&amp;E that you have
+
+1516
+01:28:59.894 --> 01:29:03.494
+some tumor nodules in the tissue. And the model is actually
+
+1517
+01:29:03.954 --> 01:29:07.774
+very able to identify where the tumors are located because this is where the
+
+1518
+01:29:07.814 --> 01:29:10.834
+model is going to predict that there is a very high human keratin-17
+
+1519
+01:29:10.874 --> 01:29:14.714
+expression. And this is because keratin-17 is a marker of the
+
+1520
+01:29:14.754 --> 01:29:17.314
+human lung cancer that the model has been trained on.
+
+1521
+01:29:17.854 --> 01:29:21.034
+And as you can see, this matches perfectly the ground truth staining of
+
+1522
+01:29:22.074 --> 01:29:24.314
+the tumor marker that we use in this mouse model.
+
+1523
+01:29:28.014 --> 01:29:31.874
+What's really interesting here is that, again, the model only understands human
+
+1524
+01:29:31.934 --> 01:29:33.814
+biology and only projects human biology.
+
+1525
+01:29:33.884 --> 01:29:37.214
+So in this case, in this example, what we've looked at is the expression of CCAM6.
+
+1526
+01:29:38.634 --> 01:29:42.523
+And you may know that CCAM6 is a gene that
+
+1527
+01:29:42.554 --> 01:29:45.394
+does not have an ortholog in mice. So this gene doesn't exist in mice.
+
+1528
+01:29:46.014 --> 01:29:49.334
+If you're very interested in that, if you have therapeutics program against CCAM6,
+
+1529
+01:29:50.694 --> 01:29:54.234
+you can't really measure its expression in the mouse tissue, in the preclinical
+
+1530
+01:29:54.273 --> 01:29:54.594
+tissue.
+
+1531
+01:29:55.454 --> 01:29:58.634
+In this case, though, the model is perfectly able to predict
+
+1532
+01:29:59.534 --> 01:30:03.494
+what are the tumors that are going to express higher level of this gene.
+
+1533
+01:30:04.054 --> 01:30:07.614
+And you can see that most tumors here are comparing to the H&amp;E on the left.
+
+1534
+01:30:08.354 --> 01:30:11.814
+Most tumors have very low to no CCAM6 expression at baseline.
+
+1535
+01:30:12.134 --> 01:30:15.684
+But we have found that a specific tumor here on the bottom left and
+
+1536
+01:30:15.754 --> 01:30:19.274
+magnified here in the center is actually characterized with a high level of
+
+1537
+01:30:19.354 --> 01:30:22.054
+predicted human CCAM6 expression.
+
+1538
+01:30:22.694 --> 01:30:25.714
+And what we find that we look at the knockouts, it's a knockout of a transcription
+
+1539
+01:30:25.794 --> 01:30:29.594
+factor that essentially is going to induce a switch in histology of the tumor.
+
+1540
+01:30:30.114 --> 01:30:33.864
+And the resulting histology resembles the tumor
+
+1541
+01:30:33.914 --> 01:30:36.554
+histology in patients that have high CCAM6 expression.
+
+1542
+01:30:39.894 --> 01:30:43.074
+And so, as I mentioned before, we've generated a very large data set of more than
+
+1543
+01:30:43.314 --> 01:30:46.414
+600 different genetic perturbations across different therapeutics.
+
+1544
+01:30:47.554 --> 01:30:50.534
+And so the idea then was, how do we analyze this in a way that we can
+
+1545
+01:30:50.754 --> 01:30:54.514
+access the diversity of the mouse phenotype that we have generated?
+
+1546
+01:30:55.254 --> 01:30:59.054
+And so the model is only seeing the H&amp;E and is completely
+
+1547
+01:30:59.074 --> 01:31:02.994
+blind to the perturbation, but we have the perturbation label on top of
+
+1548
+01:31:03.034 --> 01:31:06.334
+this H&amp;E as well. So what we are doing is that we are aggregating the signatures
+
+1549
+01:31:06.394 --> 01:31:09.454
+for every tumor that has the same clonal perturbation.
+
+1550
+01:31:10.274 --> 01:31:14.134
+And then all these tumors end up being one spot here in this
+
+1551
+01:31:14.454 --> 01:31:16.534
+2D space, which we call an embedding space.
+
+1552
+01:31:17.114 --> 01:31:20.374
+And so the way to look at this figure on the right is that each single dot
+
+1553
+01:31:21.114 --> 01:31:24.654
+corresponds to the phenotype of one genetic knockout in a
+
+1554
+01:31:24.714 --> 01:31:26.314
+particular therapeutic setting.
+
+1555
+01:31:26.354 --> 01:31:29.954
+So it could be a beta-2M knockout in an isotype control or a
+
+1556
+01:31:29.994 --> 01:31:33.274
+beta-2M knockout in animals treated with anti-PD-1, for
+
+1557
+01:31:33.314 --> 01:31:37.182
+example.And then on top of this space, we can
+
+1558
+01:31:37.262 --> 01:31:40.942
+add a number of labels. We can just represent, in this case, the expression
+
+1559
+01:31:41.022 --> 01:31:44.722
+of predicted human HER2 on top of the space.
+
+1560
+01:31:44.782 --> 01:31:48.282
+You see that the knockouts that are here on the right are characterized by a higher
+
+1561
+01:31:48.302 --> 01:31:51.742
+expression of HER2, whereas the ones on the left in blue have a lower expression of
+
+1562
+01:31:51.762 --> 01:31:52.182
+HER2.
+
+1563
+01:31:57.022 --> 01:32:00.942
+And so using this embedding space here, what we can
+
+1564
+01:32:01.002 --> 01:32:04.942
+do now is also try to understand, we have a diverse mouse biology,
+
+1565
+01:32:05.022 --> 01:32:08.682
+we have the human biology projecting on top of that, and we've done some work to
+
+1566
+01:32:08.722 --> 01:32:12.672
+understand what are the main drivers of the diversity of phenotype
+
+1567
+01:32:12.672 --> 01:32:15.562
+that we find here. So we know, for example, that there's a given cluster here that
+
+1568
+01:32:15.602 --> 01:32:19.522
+is very specific of a certain metabolic
+
+1569
+01:32:19.542 --> 01:32:23.042
+signature, for example, that we find in some patients and that we can reproduce
+
+1570
+01:32:23.062 --> 01:32:26.842
+here in the mouse model. Another big axis of viability is
+
+1571
+01:32:26.902 --> 01:32:30.122
+the immune infiltration gene signature, where you find that
+
+1572
+01:32:31.262 --> 01:32:35.222
+the left of the space here is characterized by a
+
+1573
+01:32:35.242 --> 01:32:38.922
+knockout that have a very low immune efficient signature, so low
+
+1574
+01:32:39.502 --> 01:32:43.042
+T cell activity. And they actually have also an increased
+
+1575
+01:32:43.442 --> 01:32:46.982
+fibrotic signature there. And then the ones that are here on the right
+
+1576
+01:32:47.802 --> 01:32:49.702
+are characterized by the higher T cell activity.
+
+1577
+01:32:51.102 --> 01:32:54.482
+And we can then also map all these knockouts to where they are in the space.
+
+1578
+01:32:54.522 --> 01:32:58.342
+So we can identify which are the knockouts, which are the perturbations that are
+
+1579
+01:32:58.382 --> 01:33:01.822
+going to drive these phenotypes. And when we do this, what we find is that we find
+
+1580
+01:33:01.862 --> 01:33:05.352
+a lot of established biology that we know in patients to be true.
+
+1581
+01:33:06.302 --> 01:33:10.162
+We find, for example, STK11 knockout tumors tend to
+
+1582
+01:33:10.202 --> 01:33:11.782
+be very cold and have a bit
+
+1583
+01:33:12.722 --> 01:33:13.342
+more fibrotic.
+
+1584
+01:33:14.242 --> 01:33:16.462
+beta2m knockout tumors have also low T cells.
+
+1585
+01:33:16.882 --> 01:33:20.412
+These are both mutations that are associated with lack of response to immune
+
+1586
+01:33:20.562 --> 01:33:22.602
+checkpoint blockade, so this is something that makes sense.
+
+1587
+01:33:23.942 --> 01:33:27.222
+And on the right part of the space, if you knockout beta-catenin,
+
+1588
+01:33:27.602 --> 01:33:31.582
+SOX1, which is a negative regulator in Wnt gamma signaling, or PTPN2,
+
+1589
+01:33:31.622 --> 01:33:35.182
+these are also gene knockouts that have been shown to induce
+
+1590
+01:33:35.902 --> 01:33:39.342
+recruitment of T cells. And some of these other genes that are anonymized here are
+
+1591
+01:33:39.402 --> 01:33:42.802
+things that are in the clinic right now or that we know that those phenotypes are
+
+1592
+01:33:42.842 --> 01:33:43.142
+also
+
+1593
+01:33:43.962 --> 01:33:45.381
+correlated to what we have in patients.
+
+1594
+01:33:48.702 --> 01:33:51.822
+Then one way to use these models, I've mentioned before that we have
+
+1595
+01:33:53.542 --> 01:33:56.842
+these knockouts both in the control isotype
+
+1596
+01:33:57.162 --> 01:34:00.762
+treatment conditions, but also after immune checkpoint blockade.
+
+1597
+01:34:00.782 --> 01:34:03.522
+And so what becomes interesting is that we can look at the trajectories of these
+
+1598
+01:34:03.562 --> 01:34:06.002
+different knockouts upon treatment with different drugs.
+
+1599
+01:34:06.712 --> 01:34:10.662
+And for example, if you here look at this knockout of VGFR1,
+
+1600
+01:34:11.682 --> 01:34:15.562
+the VGFR receptor, when you treat this knockout with PD1, you
+
+1601
+01:34:15.662 --> 01:34:19.502
+see a drastic shift towards the right of the space
+
+1602
+01:34:19.822 --> 01:34:23.722
+of the phenotype of this tumor. So these tumors under PD1 become tumors that
+
+1603
+01:34:23.762 --> 01:34:27.162
+have a very hot TME. And this gives you a very good rationale that
+
+1604
+01:34:27.762 --> 01:34:31.602
+it would probably be a good idea to generate a bispecific against VEGF
+
+1605
+01:34:31.642 --> 01:34:35.282
+pathway and PD1, which we know is something that has activity in the
+
+1606
+01:34:35.302 --> 01:34:35.662
+clinic.
+
+1607
+01:34:37.002 --> 01:34:40.801
+And another example here, this is a gene that has an
+
+1608
+01:34:40.962 --> 01:34:41.442
+oncogene
+
+1609
+01:34:42.602 --> 01:34:44.102
+targeted therapy target that is not
+
+1610
+01:34:45.502 --> 01:34:47.822
+typically used in combination with immunotherapy.
+
+1611
+01:34:49.002 --> 01:34:51.642
+And we can find the same thing here that we now have a rationale that this is
+
+1612
+01:34:51.662 --> 01:34:55.462
+something that probably would be a good idea to target in
+
+1613
+01:34:55.502 --> 01:34:59.462
+combination with PD1 and for example, in a bispecific format.
+
+1614
+01:35:02.862 --> 01:35:06.562
+So to conclude on this, the BERTA mouse platform that we have developed
+
+1615
+01:35:07.382 --> 01:35:08.922
+relies on two main characteristics.
+
+1616
+01:35:08.982 --> 01:35:12.862
+The first one is that we can model tumor biology in vivo and at scale, and this
+
+1617
+01:35:12.922 --> 01:35:16.802
+is allowing us to generate a large, diverse landscape of tumor
+
+1618
+01:35:16.862 --> 01:35:20.662
+biology in vivo in mouse, which reflects the diversity of phenotype that you
+
+1619
+01:35:20.702 --> 01:35:21.662
+also find in patients.
+
+1620
+01:35:22.642 --> 01:35:26.102
+The second element is that we are able to translate that biology into human
+
+1621
+01:35:26.162 --> 01:35:30.022
+biology by humanizing the non-clinical model with H&amp;E inference.
+
+1622
+01:35:30.142 --> 01:35:33.262
+So we basically project the human biology on the mouse canvas,
+
+1623
+01:35:34.662 --> 01:35:37.922
+and then we can use this methodology to discover next generation
+
+1624
+01:35:38.262 --> 01:35:42.102
+bispecific combination targets, biomarkers, and so on.
+
+1625
+01:35:42.122 --> 01:35:44.682
+And the example I showed today was on the lung
+
+1626
+01:35:45.902 --> 01:35:49.602
+cancer data set and with PD1 blockade, but we are currently actively
+
+1627
+01:35:49.642 --> 01:35:53.542
+expanding this on different activation indications and also
+
+1628
+01:35:53.581 --> 01:35:55.462
+looking for partners in that space.
+
+1629
+01:35:56.462 --> 01:35:58.972
+If you have your favorite drug and you would like to run this kind of assay, for
+
+1630
+01:35:59.022 --> 01:36:02.882
+example, we can also run the exact same data set with your drug of choice and look
+
+1631
+01:36:02.922 --> 01:36:06.022
+at what are the drivers of response in that case as well.
+
+1632
+01:36:07.062 --> 01:36:07.342
+Thank you.
+
+1633
+01:36:12.422 --> 01:36:14.162
+All right. This paper is open for discussion.
+
+1634
+01:36:18.742 --> 01:36:22.442
+Hey. A very interesting talk. Well, my question is, is
+
+1635
+01:36:22.542 --> 01:36:22.882
+the
+
+1636
+01:36:24.442 --> 01:36:28.262
+gene prediction, gene expression prediction based
+
+1637
+01:36:28.342 --> 01:36:30.982
+on the cellular level or regional level?
+
+1638
+01:36:32.502 --> 01:36:34.362
+Yeah. So the model is seeing--
+
+1639
+01:36:35.462 --> 01:36:38.482
+It's trained on COSMIC data, so it's subcellular resolution. Yeah.
+
+1640
+01:36:39.842 --> 01:36:41.462
+So how can you
+
+1641
+01:36:42.282 --> 01:36:43.562
+validate your prediction?
+
+1642
+01:36:44.422 --> 01:36:46.341
+Yeah. So that's a very good question.
+
+1643
+01:36:46.402 --> 01:36:48.182
+And I kind of have two elements to this, right?
+
+1644
+01:36:48.302 --> 01:36:52.282
+The first one is that we have in a set of the samples, we have the ground
+
+1645
+01:36:52.322 --> 01:36:52.952
+truth where we
+
+1646
+01:36:54.282 --> 01:36:57.962
+have the COSMIC data, but we can just infer on the H&amp;E and then compare the ground
+
+1647
+01:36:58.042 --> 01:36:59.822
+truth towards the prediction of the model, right?
+
+1648
+01:37:01.742 --> 01:37:04.442
+The best proof for me at this point as well is that
+
+1649
+01:37:05.322 --> 01:37:08.442
+all this that I showed right now, it was really impressive to see because you have
+
+1650
+01:37:08.662 --> 01:37:12.482
+an H&amp;E that you feed to the model. All these tumors, to my eyes, I'm not a
+
+1651
+01:37:12.502 --> 01:37:14.722
+pathologist, but look fairly much the same.
+
+1652
+01:37:15.522 --> 01:37:19.442
+And what we saw very clearly is that the model can give you, okay, I will
+
+1653
+01:37:19.482 --> 01:37:22.862
+look at a lobe of lung, and it would say, okay, these three tumors
+
+1654
+01:37:23.602 --> 01:37:25.322
+have a very specific expression pattern,
+
+1655
+01:37:26.122 --> 01:37:28.382
+and the three tumors will end up being the same exact knockout.
+
+1656
+01:37:28.422 --> 01:37:32.142
+So blindly to the knockout, not even knowing there are knockouts in there, the
+
+1657
+01:37:32.182 --> 01:37:35.102
+model picked away the different knockouts and the phenotype even for the knockouts
+
+1658
+01:37:35.122 --> 01:37:39.074
+are phenotypes we know exist in patients.And one other thing I would say is that
+
+1659
+01:37:39.094 --> 01:37:42.574
+we actually just released a demo on this model as well.
+
+1660
+01:37:42.594 --> 01:37:44.314
+It's called Target-2 that you can find on the website.
+
+1661
+01:37:44.394 --> 01:37:46.374
+You can also play with the data and see.
+
+1662
+01:37:46.444 --> 01:37:47.634
+Sorry, last question.
+
+1663
+01:37:47.894 --> 01:37:48.094
+Yep.
+
+1664
+01:37:48.104 --> 01:37:51.134
+How many samples did you use in the model training?
+
+1665
+01:37:52.014 --> 01:37:55.374
+We have thousands of samples. Yeah.
+
+1666
+01:37:55.394 --> 01:37:57.834
+Different sample, right? Different results, right?
+
+1667
+01:37:58.134 --> 01:38:01.164
+Yeah. The different-- The human samples that you use to train. Yeah. Okay. Yeah.
+
+1668
+01:38:01.194 --> 01:38:01.854
+Thank you.
+
+1669
+01:38:01.874 --> 01:38:03.734
+Yeah.
+
+1670
+01:38:03.854 --> 01:38:07.354
+Hi. Really great talk. I guess I had one question.
+
+1671
+01:38:07.394 --> 01:38:09.194
+Maybe the first one is just clarification.
+
+1672
+01:38:09.254 --> 01:38:13.094
+So when you said that CCAM6 is not expressed in mouse, when we're looking
+
+1673
+01:38:13.154 --> 01:38:13.894
+at that, the
+
+1674
+01:38:15.274 --> 01:38:16.014
+expression of
+
+1675
+01:38:16.894 --> 01:38:20.614
+predicted CCAM6, was that in mouse cells?
+
+1676
+01:38:21.354 --> 01:38:24.854
+Yeah. So there is no ortholog to the human gene.
+
+1677
+01:38:24.934 --> 01:38:28.454
+So if you would go and look at the mouse tissue, you can't detect
+
+1678
+01:38:28.474 --> 01:38:32.314
+CCAM6. But what the model does, it's projecting the human biology, so predicting,
+
+1679
+01:38:33.234 --> 01:38:36.514
+it's like, "Oh, this tumor looks like a tumor that would express a lot of CCAM6."
+
+1680
+01:38:36.914 --> 01:38:39.374
+Yeah. So I guess my follow-up question then is have you
+
+1681
+01:38:39.454 --> 01:38:43.274
+looked at the attention maps or looked at correlated
+
+1682
+01:38:43.394 --> 01:38:46.674
+genes that maybe CCAM6 wasn't the driver, but there is a
+
+1683
+01:38:46.734 --> 01:38:50.694
+correlated murine gene with CCAM6 that could
+
+1684
+01:38:50.734 --> 01:38:53.374
+explain what you're seeing?
+
+1685
+01:38:54.154 --> 01:38:57.974
+Yeah, we haven't looked into that very deeply, but what we
+
+1686
+01:38:58.014 --> 01:39:01.934
+can do with this is that the way we analyze this data and the human data
+
+1687
+01:39:01.974 --> 01:39:04.894
+is not the same. It's both inference of the human transcriptome, right?
+
+1688
+01:39:04.934 --> 01:39:08.494
+So we can identify features on the mouse tumor that are
+
+1689
+01:39:08.514 --> 01:39:11.834
+predictive of CCAM6 expression on the human side, basically.
+
+1690
+01:39:12.634 --> 01:39:14.094
+Okay. Yeah. Thank you so much.
+
+1691
+01:39:15.114 --> 01:39:17.294
+Yeah.
+
+1692
+01:39:17.364 --> 01:39:19.054
+I have a question that follows up on
+
+1693
+01:39:19.154 --> 01:39:23.034
+getting the gene expression from mouse
+
+1694
+01:39:23.194 --> 01:39:25.814
+H&amp;E images. What if you have in vivo data?
+
+1695
+01:39:26.024 --> 01:39:29.894
+So let's say you inject some human cells into mouse, so you have both mouse
+
+1696
+01:39:29.934 --> 01:39:31.394
+and human cells.
+
+1697
+01:39:32.214 --> 01:39:33.434
+Does MAIRS work as well?
+
+1698
+01:39:34.714 --> 01:39:37.694
+Yeah. I think we haven't done this because I should have said that all the
+
+1699
+01:39:37.734 --> 01:39:40.974
+experiments we're doing is in syngenic models, like immunocompetent and
+
+1700
+01:39:41.014 --> 01:39:44.914
+everything. But the model essentially doesn't care about species,
+
+1701
+01:39:44.924 --> 01:39:48.734
+right? It would predict anyway what's happening in the sample and
+
+1702
+01:39:49.014 --> 01:39:50.874
+just overlay the human signatures.
+
+1703
+01:39:50.894 --> 01:39:54.354
+So if you have a humanized mouse, it will give you only human genes.
+
+1704
+01:39:54.394 --> 01:39:56.074
+It doesn't know about mouse biology.
+
+1705
+01:39:56.394 --> 01:39:57.294
+That's crazy.
+
+1706
+01:39:58.094 --> 01:39:59.494
+Is it available for researchers?
+
+1707
+01:40:00.234 --> 01:40:01.054
+I agree, it's crazy.
+
+1708
+01:40:01.204 --> 01:40:01.204
+Yeah.
+
+1709
+01:40:01.234 --> 01:40:02.294
+I was the first one to be
+
+1710
+01:40:03.174 --> 01:40:03.894
+mind-blown by this.
+
+1711
+01:40:05.134 --> 01:40:06.374
+Yeah, we can talk. Yeah.
+
+1712
+01:40:06.654 --> 01:40:07.204
+Okay. Thank you.
+
+1713
+01:40:07.204 --> 01:40:07.334
+Thank you.
+
+1714
+01:40:10.734 --> 01:40:14.274
+How many genes can we identify in the
+
+1715
+01:40:14.314 --> 01:40:16.834
+inferred spatial transcriptomes?
+
+1716
+01:40:17.694 --> 01:40:21.014
+It's whole transcriptome, so it's the whole, I believe,
+
+1717
+01:40:21.394 --> 01:40:23.954
+22,000 plaques from CosMx, from NanoString.
+
+1718
+01:40:24.794 --> 01:40:24.914
+Yeah.
+
+1719
+01:40:25.184 --> 01:40:25.534
+Yeah. Thank you.
+
+1720
+01:40:27.134 --> 01:40:28.174
+All right. Thank you so much.
+
+1721
+01:40:28.284 --> 01:40:28.414
+Thank you.
+
+1722
+01:40:32.874 --> 01:40:36.734
+So many of our speakers finished their sessions very fast, so we
+
+1723
+01:40:37.374 --> 01:40:41.214
+still have about 15 minutes if any other questions for the prior
+
+1724
+01:40:41.354 --> 01:40:45.194
+speakers are available, it's open for discussion, open for any
+
+1725
+01:40:45.234 --> 01:40:46.154
+more questions.
+
+1726
+01:40:52.394 --> 01:40:52.914
+Go ahead.
+
+1727
+01:40:57.534 --> 01:40:59.834
+Oh, yeah. You're getting a lot of questions.
+
+1728
+01:41:00.054 --> 01:41:02.554
+Yeah. I was fascinated by this last talk.
+
+1729
+01:41:03.794 --> 01:41:07.514
+This idea about projecting to mouse, it seems to me that
+
+1730
+01:41:10.214 --> 01:41:13.814
+you could generalize that quite a bit because imagine that you have two people.
+
+1731
+01:41:14.374 --> 01:41:18.244
+Two people will actually have some constraints in the possibility of
+
+1732
+01:41:18.244 --> 01:41:21.914
+gene expression. For example, let's say you have a person who's
+
+1733
+01:41:22.214 --> 01:41:23.514
+born with a defective gene,
+
+1734
+01:41:24.454 --> 01:41:24.984
+then
+
+1735
+01:41:26.094 --> 01:41:29.474
+what makes up for that? I think what you're taking is the case where the mouse
+
+1736
+01:41:29.514 --> 01:41:30.994
+makes up for it in a certain way.
+
+1737
+01:41:31.374 --> 01:41:31.534
+Mm-hmm.
+
+1738
+01:41:31.894 --> 01:41:35.694
+But you might have actually the same problem, but to a lesser extent
+
+1739
+01:41:35.814 --> 01:41:38.194
+in human, mapping one human to another.
+
+1740
+01:41:39.154 --> 01:41:41.474
+I wonder if you've thought about that and
+
+1741
+01:41:42.554 --> 01:41:45.414
+how that problem might apply across people.
+
+1742
+01:41:46.434 --> 01:41:50.234
+Yeah. It is a big application of the model to also do this from human samples for
+
+1743
+01:41:50.254 --> 01:41:53.134
+which we don't have access to the transcriptomics data.
+
+1744
+01:41:54.054 --> 01:41:56.054
+So you can also do this in this case where you can,
+
+1745
+01:41:57.353 --> 01:41:58.714
+let's say you have a
+
+1746
+01:41:59.614 --> 01:42:03.414
+biopsy before treatment, and then you have a bunch of H&amp;E data that you can
+
+1747
+01:42:03.494 --> 01:42:07.374
+access, but these are images, and the slide is hard to
+
+1748
+01:42:07.414 --> 01:42:11.374
+access. We can now regenerate the whole TX panel from those slides that are
+
+1749
+01:42:11.414 --> 01:42:14.774
+difficult to access. I'm not sure if that answers your question fully, but...
+
+1750
+01:42:15.914 --> 01:42:17.234
+I would love to talk a little more.
+
+1751
+01:42:17.514 --> 01:42:17.714
+Okay.
+
+1752
+01:42:19.714 --> 01:42:20.854
+Any other questions
+
+1753
+01:42:21.674 --> 01:42:23.354
+for any of the prior speakers?
+
+1754
+01:42:25.234 --> 01:42:27.254
+I'll ask, any speaker that's interested.
+
+1755
+01:42:27.904 --> 01:42:31.814
+So a lot of these technologies involve measuring multiple things,
+
+1756
+01:42:32.394 --> 01:42:35.034
+different parts of tissues, and biopsies.
+
+1757
+01:42:35.534 --> 01:42:39.194
+And I'm wondering how you're all thinking about converting this into a clinical
+
+1758
+01:42:39.314 --> 01:42:43.084
+assay, because that obviously is going to be challenging from a clinical
+
+1759
+01:42:43.134 --> 01:42:46.864
+standpoint. So are you thinking about how to condense it into a simple
+
+1760
+01:42:46.894 --> 01:42:47.234
+test?
+
+1761
+01:42:48.154 --> 01:42:50.614
+You're welcome to come up, any of you who are interested.
+
+1762
+01:42:50.874 --> 01:42:52.604
+Yeah, there are microphones.
+
+1763
+01:42:52.604 --> 01:42:53.714
+Or go to the microphones there, yeah.
+
+1764
+01:42:55.514 --> 01:42:55.934
+I think I
+
+1765
+01:42:57.474 --> 01:43:00.594
+touched a little bit upon that. So, for example, in the tissue,
+
+1766
+01:43:01.894 --> 01:43:05.834
+we look for peptides in the case of mass spectrometry-based proteomics, so if you
+
+1767
+01:43:06.094 --> 01:43:09.674
+find some disease-specific peptides, you can synthesize them and
+
+1768
+01:43:09.774 --> 01:43:11.374
+create a blood-based
+
+1769
+01:43:12.294 --> 01:43:15.714
+assay, where you then try to refind these disease-specific
+
+1770
+01:43:15.854 --> 01:43:19.794
+peptides in the blood. And in this way, you can not only look
+
+1771
+01:43:19.894 --> 01:43:23.654
+for a relative abundance, but you can also design peptides
+
+1772
+01:43:23.714 --> 01:43:27.594
+with a known, let's say, weight, and then you spike them
+
+1773
+01:43:27.674 --> 01:43:31.234
+in, and thereby you can then really calculate the absolute
+
+1774
+01:43:31.354 --> 01:43:35.274
+amount, because in the clinics, often you look for absolute concentrations rather
+
+1775
+01:43:35.294 --> 01:43:38.354
+than relative. So in this way, you can design
+
+1776
+01:43:39.034 --> 01:43:42.274
+non-invasive tests using these kinds of peptide assays.
+
+1777
+01:43:42.534 --> 01:43:43.854
+So you're thinking about doing it in the blood?
+
+1778
+01:43:44.314 --> 01:43:45.814
+Yeah, in the blood, for example.
+
+1779
+01:43:47.784 --> 01:43:48.004
+Yes.
+
+1780
+01:43:50.364 --> 01:43:53.044
+I will caveat this by saying I'm probably the person in the room that know the
+
+1781
+01:43:53.064 --> 01:43:54.124
+least about biomarkers.
+
+1782
+01:43:55.024 --> 01:43:58.964
+But what I keep learning from the work we're doing at Noetic is that there is a
+
+1783
+01:43:59.024 --> 01:44:02.904
+lot of information in the H&amp;E. And I think we are developing tools now
+
+1784
+01:44:02.924 --> 01:44:05.724
+that can allow us to detect more and more of this information.
+
+1785
+01:44:06.264 --> 01:44:09.624
+So there is certainly a path for me that I think would be interesting to explore,
+
+1786
+01:44:09.684 --> 01:44:12.564
+is how we can just leverage H&amp;E more, right?
+
+1787
+01:44:13.404 --> 01:44:16.584
+And identify features from this tissue that would be predictive of response.
+
+1788
+01:44:22.244 --> 01:44:25.814
+I think this original question was, if you're measuring everything, how do we get
+
+1789
+01:44:25.844 --> 01:44:29.044
+this thing to the clinic, I guess, right? How do we actually make it practical?
+
+1790
+01:44:29.784 --> 01:44:33.524
+And I think, one of the key thing-- It's no different than what we did in NGS,
+
+1791
+01:44:33.624 --> 01:44:37.504
+right? It's like we started out, we sequence everything, and then you hone
+
+1792
+01:44:37.524 --> 01:44:40.524
+it down to the key biomarkers that are important.
+
+1793
+01:44:40.994 --> 01:44:42.824
+It seems that the same thing will happen here.
+
+1794
+01:44:44.024 --> 01:44:47.684
+With Noetic, we're imaging the entire transcriptome.
+
+1795
+01:44:48.204 --> 01:44:52.064
+But we're doing that because we wanted to capture all elements of biology before
+
+1796
+01:44:52.143 --> 01:44:55.244
+I make the little miniature clinical grade assay, right?
+
+1797
+01:44:55.864 --> 01:44:59.124
+I think it seems like we made so many mistakes early.
+
+1798
+01:44:59.134 --> 01:45:02.494
+In NGS, we made those mistakes. We went to the small panels too
+
+1799
+01:45:02.524 --> 01:45:06.024
+early, and we missed some of the biology that should have been in our
+
+1800
+01:45:06.064 --> 01:45:08.564
+clinical biomarker assays that weren't there.
+
+1801
+01:45:09.264 --> 01:45:12.424
+So hopefully in spatial, we won't make that same mistake.
+
+1802
+01:45:12.884 --> 01:45:16.484
+But just measure everything and make sure we capture the biology in as many
+
+1803
+01:45:16.524 --> 01:45:20.064
+different areas where it's happening, and then make the clinical grade
+
+1804
+01:45:20.164 --> 01:45:23.864
+assays. Otherwise, our assays are never going to be-- They're just not accurate
+
+1805
+01:45:23.904 --> 01:45:25.104
+enough.
+
+1806
+01:45:27.984 --> 01:45:31.684
+All right. Well, on that note, then it's a perfect way for us to end this session.
+
+1807
+01:45:31.744 --> 01:45:35.124
+We're ending it early, but it's really a nice way for us to see all of the amazing
+
+1808
+01:45:35.184 --> 01:45:38.894
+technologies being developed, whether spatial transcriptomics, spatial proteomics,
+
+1809
+01:45:39.344 --> 01:45:43.284
+mass spectrometry, whether in the blood or in the tissue, CRISPR
+
+1810
+01:45:43.804 --> 01:45:46.604
+screening perturb seeks on the tissue.
+
+1811
+01:45:47.104 --> 01:45:51.024
+It's really wonderful for us to see novel biomarkers being developed.
+
+1812
+01:45:51.044 --> 01:45:54.854
+But I think the message you're hearing from us is, think of this
+
+1813
+01:45:54.964 --> 01:45:57.064
+as this discovery to understand something new.
+
+1814
+01:45:57.383 --> 01:46:01.244
+Think of it of not just biomarker or cool technologies, but does it
+
+1815
+01:46:01.304 --> 01:46:05.224
+matter for us to identify or risk stratify patients
+
+1816
+01:46:05.233 --> 01:46:08.604
+so that we can identify who will respond and who will not respond to certain
+
+1817
+01:46:08.624 --> 01:46:12.324
+therapies, and also define new therapies for them in the future.
+
+1818
+01:46:12.364 --> 01:46:16.134
+So how does that translate to a patient in the clinic, and
+
+1819
+01:46:16.184 --> 01:46:19.804
+how can it identify for us a unique patient population that will
+
+1820
+01:46:19.884 --> 01:46:23.164
+benefit from certain therapies is really the end goal
+
+1821
+01:46:23.173 --> 01:46:27.104
+here. And thinking of how to bring that to the clinic, diagnostics,
+
+1822
+01:46:27.244 --> 01:46:31.104
+predictives, biomarker, and potentially therapeutic selection will be
+
+1823
+01:46:31.144 --> 01:46:34.584
+important. Maybe not today with how expensive spatial
+
+1824
+01:46:34.804 --> 01:46:38.644
+technologies are, but potentially bringing it as a clinical assay in the
+
+1825
+01:46:38.684 --> 01:46:42.204
+future. So thank you so much, and hopefully you're enjoying
+
+1826
+01:46:42.324 --> 01:46:43.203
+AACR. Thank you.

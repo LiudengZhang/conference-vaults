@@ -1,0 +1,12 @@
+# Knowledge graph driven insights and drug repurposing opportunities for neuroendocrine prostate cancer
+
+**Poster #**: 6873
+**Session**: Network Biology and Precision Medicine
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Pawan Verma, Prasanna Kumar Sekar Sekar, Dharani Dadi, Manimala Sen, Nobal Dhruw, Abhishek JhaElucidata Corporation, San Francisco, CA
+
+---
+
+Biomedical Knowledge Graphs (BKGs) have emerged as powerful tools for integrating, managing, and exploring this complex information landscape. Elucidata has built a knowledge graph that integrates 20+ high-quality, well-curated knowledge sources. Additionally, we have developed a GUI-based application that enables users to derive insights in a no-code manner. This facilitates the discovery of drugs that modulate a target's activity through upstream or downstream network effects.Neuroendocrine prostate cancer (NEPC) represents a highly aggressive histologic subtype of prostate cancer. Literature review shows that the “true biological problem” for drug repurposing in NEPC is not the disease state itself, but the underlying causal process of treatment-induced lineage plasticity. This transition is initiated by RB1 and TP53 loss and sustained by a mutually reinforcing MYCN-AURKA-EZH2 regulatory axis. The outcome of this shift is the loss of conventional therapeutic targets (such as AR and PSMA) and the emergence of new, actionable vulnerabilities—including AURKA, EZH2, BCL2, and DLL3.Its poor clinical outcomes stem from a combination of delayed detection, rapid disease progression, and the absence of effective therapeutic options. Additionally, the number of publicly available NEPC datasets is very low, hampering early-stage R&D. We demonstrate how knowledge graphs can be queried to identify genes with dependency profiles similar to MYCN’s essentiality. Genes with similar essentiality profiles are almost always functionally related (e.g., belonging to the same complex or pathway). We further provide evidence for drugs approved for other diseases that share molecular underpinnings with NEPC and may be advanced into clinical trials to treat NEPC.

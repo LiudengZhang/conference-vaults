@@ -1,0 +1,17 @@
+# Stromal SPARC drives tumor-nerve-stroma crosstalk and perineural invasion in pancreatic ductal adenocarcinoma
+
+**Poster #**: 6220
+**Session**: Tumor-Neuron Interactions and Neuro-Regulation of Cancer
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Satoru Furuhashi1, Ryuta Muraki2, Yoshifumi Morita1, Daiki Nishiwaki1, Akio Matsumoto1, Yuji Shimizu1, Tomohiro Murakami1, Makoto Takeda1, Hirotoshi Kikuchi1, Yoshihiro Hiramatsu1, Hiroya Takeuchi1
+
+1Hamamatsu University School of Medicine, Hamamatsu, Japan,2Shizuoka General Hospital, Shizuoka, Japan
+
+---
+
+Background: Perineural invasion (PNI) is frequent in pancreatic ductal adenocarcinoma (PDAC) and contributes to poor outcomes. However, the stromal-neural mechanisms that underlie tumor neurotropism remain poorly understood. We hypothesized that soluble factors secreted by stromal fibroblasts, in cooperation with nerves and cancer cells, drive PNI-related tumor aggressiveness.
+Methods: A vertical transwell tri-culture system was established using human PDAC cells (MIA PaCa-2) in the upper chamber and neonatal mouse dorsal root ganglia (DRG) with human pancreatic stellate cells (PSCs) in the lower chamber. PDAC cell migration was quantified after 24 h. Conditioned media from each condition (control, DRG, PSC, DRG + PSC) were analyzed by LC-MS/MS with intensity-based quantification; candidate proteins were selected by correlation with migration (Pearson r &#8805; 0.95) and &#8805; 2-fold enrichment in DRG + PSC. Clinical significance was assessed using TCGA-PDAC and GTEx datasets. Cell-of-origin was inferred by CIBERSORTx deconvolution and single-cell RNA-seq analysis. Stromal versus epithelial SPARC protein expression and its association with PNI were evaluated by immunohistochemistry and semi-automated QuPath scoring in 81 resected PDACs.
+Results: Tri-culture with DRG + PSC significantly enhanced PDAC migration compared with control or either single-cell condition (all p < 0.001). Proteomic profiling identified Secreted Protein Acidic and Cysteine-Rich (SPARC) as one of the most enriched proteins in DRG + PSC condition, with abundance strongly correlating with migratory activity. In transcriptomic datasets, SPARC was markedly upregulated in PDAC relative to normal pancreas, and high SPARC expression was associated with shorter overall survival. CIBERSORTx and single-cell analyses localized SPARC expression primarily to fibroblast/cancer-associated fibroblast (CAF) populations. In clinical specimens, SPARC protein was concentrated in the desmoplastic stroma and significantly higher than in tumor epithelium (p < 0.0001). Stromal SPARC levels were elevated in PNI-positive versus PNI-negative tumors in our institutional cohort (p < 0.0001), with consistent results in TCGA-PDAC (p = 0.032).
+Conclusions: A nerve-stroma-conditioned microenvironment accelerates PDAC cell migration, with CAF-derived SPARC serving as a pivotal driver of tumor-nerve crosstalk and PNI. Through extracellular matrix remodeling and promotion of neural infiltration, SPARC emerges as a promising biomarker and therapeutic target for stroma-directed, anti-PNI strategies in PDAC.

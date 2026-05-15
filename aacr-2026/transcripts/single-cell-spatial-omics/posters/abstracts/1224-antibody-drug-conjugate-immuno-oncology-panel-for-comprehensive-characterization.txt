@@ -1,0 +1,14 @@
+# Antibody-drug conjugate immuno-oncology panel for comprehensive characterization of the tumor and associated microenvironment
+
+**Poster #**: 1224
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Sandra  F.  Lam, Kevin Gallagher, Maryam Rohafza, Courtney Todorov, Harry Nunns, Marianne Thio, Flora Sahafi, Kathy Pham, Victoria Gomez, Erinn  A.  Parnell, Qingyan Au
+
+NeoGenomics Laboratories, Aliso Viejo, CA
+
+---
+
+Antibody-drug conjugates (ADCs) represent a rapidly advancing class of targeted therapeutics that integrate the specificity of monoclonal antibodies with the potent cytotoxicity of small-molecule drugs. By coupling antibodies to highly active payloads through linkers, ADCs enable selective delivery of cytotoxic agents to tumor cells while minimizing systemic toxicity. Pivotal studies have shown compelling evidence that this strategy of anti-cancer therapeutics can dramatically improve outcomes for patients. Despite notable success, challenges such as tumor heterogeneity and predicting clinical efficacy have been difficult to overcome. Because ADCs rely on precise spatial localization of target antigens to optimize treatment efficacy, subcellular resolution of protein expression is required. To provide insight into spatial patterns and heterogeneity within a tumor, we used the Paletrra&#8482; (NeoGenomics Laboratories, Inc) platform. Paletrra&#8482; is a proprietary multiplex immunofluorescence (mIF) platform for the visualization and characterization of up to 60 protein biomarkers in a single FFPE section and offers high-resolution spatial and quantitative analysis of protein expression in tissue samples. Herein we report the design and use of a novel panel of commercially available antibodies to support ADC development in lung and breast cancer samples. The panel can measure common ADC targets such as B7-H3, B7-H4, c-MET, EGFR, HER2, HER3, and TROP2 combined with a membrane marker to enable subcellular differentiation between membrane and cytoplasmic expression. Quantitative image analysis enables normalization of protein expression and computation of membrane-to-cytoplasmic expression ratio, providing enhanced biological context. Moreover, because ADCs have been shown to modulate the tumor immune microenvironment, additional markers in the panel provide insight into immunogenicity, cellular relationships, and overall structural biology within the tumor samples. Application of this assay supports translational research and clinical development of ADCs, facilitating identification of patients with optimal target expression and localization.

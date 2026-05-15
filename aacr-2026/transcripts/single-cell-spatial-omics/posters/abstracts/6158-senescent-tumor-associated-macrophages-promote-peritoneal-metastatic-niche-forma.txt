@@ -1,0 +1,14 @@
+# Senescent tumor-associated macrophages promote peritoneal metastatic niche formation in gastric cancer
+
+**Poster #**: 6158
+**Session**: Metastatic Niches and Microenvironment
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Tadahito Yasuda1, Mayu Yasuda1, Atsuko Yonemura2, Fabio de Mello1, Feng Guo1, Boping Jing1, Hudie Li1, Takatsugu Ishimoto2, Yaoqi Alan Wang1
+
+1Indiana University School of Medicine, Indianapolis, IN,2The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan
+
+---
+
+Peritoneal metastasis represents a major clinical challenge in gastric cancer (GC), yet the mechanisms underlying metastatic niche formation remain poorly understood. In particular, the specific tumor-associated macrophage (TAM) subsets that drive peritoneal dissemination remain poorly characterized. Here, we identify a subset of senescent macrophages that promote metastatic niche propagation in GC. Using a newly established GC cell line, GAN-KPC (harboring a KrasG12V mutation with Trp53 and Cdh1 knockout), and a syngeneic gastric wall transplantation model in C57BL/6 mice, we investigated the cellular landscape of metastatic niche formation. High-resolution spatial transcriptomics (10x Visium HD) revealed macrophages within metastatic niches exhibiting transcriptional features of cellular senescence. Pharmacologic clearance of senescent cells with the senolytic agent ABT263 markedly reduced peritoneal tumor formation, and macrophage-specific p16INK4a knockout further confirmed the essential role of senescent macrophages in metastatic niche formation. Complementarily, single-cell mass cytometry (CyTOF) of ascitic fluid from GC patients with peritoneal metastasis revealed a macrophage subset expressing p16 and SASP-associated factors. These findings uncover a previously unrecognized role of senescent macrophages in peritoneal metastatic niche formation and suggest that targeting senescent cells may represent a promising therapeutic strategy to limit peritoneal dissemination in GC.

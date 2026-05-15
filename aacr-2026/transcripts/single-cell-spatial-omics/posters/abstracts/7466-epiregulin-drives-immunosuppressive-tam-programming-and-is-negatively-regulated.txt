@@ -1,0 +1,14 @@
+# Epiregulin drives immunosuppressive TAM programming and is negatively regulated by miR-19a-3p in colorectal cancer
+
+**Poster #**: 7466
+**Session**: Therapeutic Modulation of the Tumor Microenvironment: New Targets and Approaches 2
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Ah Ran Yu1, Ju Yeon Park1, Jeong Eun Kang1, Sang Hyuk Moon2, Hey Kyung Hong3, Yong Beom Cho4
+
+1Institute for Future Medicine, Samsung Medical Center, SEOUL, Korea, Republic of,2Department of Biopharmaceutical Convergence, SEOUL, Korea, Republic of,3Samsung Medical Center, SEOUL, Korea, Republic of,4Department of Health Sciences and Technology, SAIHST, Sunkyunkwan University, Seoul, Korea, Republic of
+
+---
+
+Colorectal cancer (CRC) is one of the most prevalent malignancies worldwide and remains a leading cause of cancer-related mortality. Its clinical challenge is compounded by the presence of a highly immunosuppressive tumor microenvironment (TME), which not only facilitates tumor growth and metastasis but also contributes to poor responses to immunotherapy. Among the cellular components of the TME, tumor-associated macrophages (TAMs) play a central role in supporting tumor progression, largely through their polarization into an M2-like, immunosuppressive phenotype. Despite their importance, the upstream regulators and downstream signaling pathways that maintain the tumor-promoting state of TAMs in CRC remain insufficiently defined. We performed single-cell RNA sequencing and transcriptomic profiling of CRC patient samples, which led to the identification of epiregulin (EREG) as a TAM-enriched gene, with predominant expression in SPP1&#8314; macrophage clusters. Functional studies using EREG knockdown in murine CT26-derived TAMs and human M2-polarized macrophages demonstrated that EREG promotes M2-like polarization, elevates the secretion of pro-tumoral cytokines and enhances the proliferation and migration of co-cultured CRC cells. Mechanistically, we found that EREG signals through the JAK/STAT3 pathway, as its silencing led to reduced STAT3 phosphorylation and downregulation of associated target genes involved in immune suppression and tumor progression. Furthermore, miRNA screening and validation assays revealed that miR-19a-3p directly binds to the 3&#8242;UTR of EREG mRNA, as confirmed by RIP (Ago2) enrichment analysis. Introduction of miR-19a-3p mimics led to a significant reduction in EREG expression, suppression of JAK/STAT3 signaling, and reprogramming of TAMs toward an M1-like, anti-tumor phenotype. Collectively, our findings uncover the miR-19a-3p&#8211;EREG&#8211;JAK/STAT3 axis as a critical regulatory mechanism of TAM programming in colorectal cancer and highlight its potential as a therapeutic target for reprogramming the immunosuppressive tumor microenvironment.

@@ -1,0 +1,17 @@
+# Integrated scRNAseq andspatial RNAseq analysis of aggressive prostatic adenocarcinoma identifies TIGIT-NECTIN 2/3 and TIGIT/PVRimmunosuppressive interactions
+
+**Poster #**: 4954
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jerry  A.  Ombor1, Anurendra Kumar2, Jatin Gandhi1, Rakesh Shiradkar3, Tilak Pathak1, Cynthia  L.  Winham1, Ismaheel  O.  Lawal1, Olayinka  A.  Abiodun-Ojo1, Lara Harik1, Saurabh Sinha2, Martin  G.  Sanda1, David  M.  Schuster1, Adeboye  O.  Osunkoya1, Carlos S. Moreno1
+
+1Emory University, Atlanta, GA,2Georgia Institute of Technology, Atlanta, GA,3Indiana University, Indianapolis, IN
+
+---
+
+Background: Our understanding of the mechanisms of tumor immunosuppression in the tumor microenvironment (TME) of aggressive prostatic adenocarcinoma (PCa) at the single-cell level is limited. Integrated Visium-HD Spatial RNAseq analysis and 10X Flex sequencing of formalin-fixed paraffin-embedded (FFPE) tissue can provide unique insights into the mechanisms of immunosuppression in the &#8216;immune cold&#8217; TME of PCa.
+Design: Visium-HD Spatial RNAseq analysis was performed on FFPE blocks from radical prostatectomy specimens of 12 patients of which six had lymph node metastases (LNM) and six did not. All specimens were also analyzed by 10X Flex sequencing, and data from each scRNAseq dataset were integrated with spatial RNAseq data. VisiumHD bins were processed with H&#38;E images to generate cell-level expression data using the bin2cell package, and cell types were annotated. Ligand-receptor interactions were identified using the CellWhisper algorithm.
+Results: Mean patient age was 63 years (range: 50-77 years). Gleason scores ranged from 7-10 (Grade group 3-5). Patients with LNM had more significant enrichment for gene signatures associated with inflammation and immune responses and high numbers of na&#239;ve regulatory T cells (Na&#239;ve Treg) near the invasive front of the aggressive tumor foci. The inflamed stroma adjacent to PCa in patients with LNM was enriched in expression of antigen-presenting genes, but also in immunosuppressive gene signatures. In addition, there was significant enrichment for spatial co-expression of the immunosuppressive receptor TIGIT and the NECTIN2, NECTIN3, and PVR ligands. TIGIT was expressed in CD4 and CD8 expressing cells and CD14+ monocytes, while NECTIN2, NECTIN3, and PVR were expressed in tumor cells, suggesting that this is one of the mechanisms of immunosuppression in aggressive PCa.
+Conclusions: High-definition spatial RNAseq analysis with integrated 10X Flex scRNAseq enabled identification of mechanisms of immunosuppression in the TME of PCa. Targeting TIGIT-NECTIN2/3 and/or TIGIT/PVR interactions may be a potential immunotherapeutic strategy for the management of patients with aggressive PCa.

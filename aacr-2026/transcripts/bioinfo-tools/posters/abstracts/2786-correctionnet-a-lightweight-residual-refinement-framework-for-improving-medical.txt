@@ -1,0 +1,12 @@
+# CorrectionNet: A lightweight residual refinement framework for improving medical image segmentation
+
+**Poster #**: 2786
+**Session**: Radiomics and AI in Medical Imaging
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Antoine Azar1, Cally Lin2, Naryeong Kim31Computer Science, EPITECH, Paris, France,2Biomedical Data Science, Stanford University, Stanford, CA,3Biology, Stanford University, Stanford, CA
+
+---
+
+Accurate and reproducible image segmentation is crucial for oncologic imaging tasks, including tumor delineation, treatment planning, and quantitative response assessment. Despite strong baseline performance from modern deep learning frameworks such as nn-Unet, automated segmentations frequently exhibit systematic boundary errors and under-segmentation of small or infiltrative tumor regions, resulting in costly manual correction efforts. We present CorrectionNet, a lightweight and modular refinement framework designed to work on top of existing segmentation models. The method extracts patch-based regions of interest around the initial segmentation and inputs both multimodal imaging and base-model probability maps to a shallow 3D U-Net. Instead of predicting full masks, CorrectionNet learns residual connections, enabling it to fix high-confidence false positives/negatives and improve boundary regularity while preserving the global tumor structure. Training focuses on voxels where the base model is likely incorrect or uncertain, yielding efficient learning behavior and minimal computational overhead. In current quantitative evaluations, CorrectionNet maintained whole-lesion Dice performance relative to nnU-Net (ΔDice = −0.0002 ± 0.0024, p = 0.18) while achieving measurable improvements in boundary accuracy (ΔHD95 = −0.089 ± 0.786 mm; one-sided p = 0.03). Nearly half of all local voxel edits (47.7%) represented true error corrections, with the model showing a strong preference for eliminating false-positive boundary over-segmentation (FP fix precision = 81.5%). CorrectionNet hyperparameters further enable researchers or clinicians to tune the balance between false-positive removal and false-negative recovery, accommodating diverse tumor morphologies and clinical priorities. Overall, CorrectionNet provides a practical and scalable refinement layer for oncology segmentation workflows. By improving local boundary fidelity without retraining or replacing base models, it has the potential to reduce manual editing effort and enhance clinical deployment of automated segmentation.

@@ -1,0 +1,21 @@
+# Spatial transcriptomics analysis reveals tumor cell plasticity and diverse tumor microenvironments in Ewing sarcoma
+
+**Poster #**: 6195
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 2
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Heng Luo1, Clémence Henon2, Gleb Rukhovich1, Stefanie Kutschmann2, Nina Wilhelm1, Wolfgang Hartmann3, Uta Dirksen4, Duncan  T.  Odom5, Thomas G. Grünewald2, Moritz Gerstung1
+
+1Division of Artificial Intelligence in Oncology, DKFZ German Cancer Research Center, Heidelberg, Germany,2Division of Translational Pediatric Sarcoma Research, DKFZ German Cancer Research Center, Heidelberg, Germany,3Gerhard-Domagk-Institute of Pathology, Münster University Hospital, Muenster, Germany,4Pediatrics III, University Hospital Essen, West German Cancer Center, NCT West, Essen, Germany,5Division of Regulatory Genomics and Cancer Evolution, DKFZ German Cancer Research Center, Heidelberg, Germany
+
+---
+
+Objective
+Ewing sarcoma (EwS) is a highly aggressive fusion-driven cancer of childhood and adolescence that can arise in both bone and soft tissue.In EwS, the tumor microenvironment (TME) is composed of cell types from the mesenchymal and hematopoietic lineages. Complex interactions between tumor cells and their TME are believed to shape the TME structure and the tumor cell plasticity in EwS. There have been existing efforts to characterize the fusion related tumor cell heterogeneity in EwS using bulk RNA-seq. In contrast, the TME of Ewing sarcoma remains largely underexplored at both single-cell and spatial level due to limited accessibility to patient samples and the constraints of contemporary staining methods. The aim of this project is to chart the EwS tumor cell heterogeneity and to characterize the interaction between the EwS tumor cells and the cells from the TME.
+Methods
+We performed single-cell FFPE sequencing (scFFPEseq) on four EwS tissue blocks. By utilizing the scFFPEseq data, we developed a probe panel comprising 480 genes. This refined selection includes cell type markers, differentially expressed genes (DEGs), highly variable genes (HVGs), hallmarks of tumor heterogeneity, pathway signatures, and specific receptor-ligand pairs, enabling precise in situ profiling of gene expression. We then performed spatially-resolved single-cell transcriptomics (10x Xenium) on 1 whole-section EwS sample and 137 EwS core sets from archived tissue microarrays.
+Results
+We generated a spatially-resolved single-cell dataset of 138 Ewing sarcoma patient samples, comprising 3.14 million cells. Meta program analysis on this dataset revealed 5 transcriptional states shared among EwS tumor cells across samples. These states include cell cycle, protein regulation, hypoxic stress, interferon response and high EWSR1-FLI1 fusion activity. The EwS TME consists of four stromal cell types and eight immune cell types. Spatial analysis showed that the EwS tumor cell states co-localize with distinct TME cells, giving rise to 8 recurrent niches.In the necrotic regions, SPP1+ macrophages and NK cells are found enriched in close proximity to hypoxic tumor cells. In regions with lymphocytic infiltration, co-localization with C1QC+ macrophage is associated with increased interferon response and JAK-STAT pathway activity in the EwS tumor cells.Finally, spatial single-cell interaction analysis suggests that lower EWSR1::FLI1 signature levels in the EwS tumor cells may be attributed to FGFR1 signaling stimulated by proximal fibroblasts.
+Conclusion
+In this project, we defined 5 shared tumor cell programs and 8 recurrent spatial neighborhoods across 138 EwS patient samples. The interplay between EwS tumor cells and fibroblasts via FGFR1 was found to be associated with lower EWSR1::FLI1 fusion signatures. This finding will lead to a potential therapeutic value of FGFR1 in the EwS treatment.

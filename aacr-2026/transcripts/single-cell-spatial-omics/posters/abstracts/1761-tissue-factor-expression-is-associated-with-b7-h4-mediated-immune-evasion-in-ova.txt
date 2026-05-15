@@ -1,0 +1,17 @@
+# Tissue Factor expression is associated with B7-H4-mediated immune evasion in ovarian clear cell carcinoma and with response to tisotumab vedotin in preclinical models
+
+**Poster #**: 1761
+**Session**: Engineering the Next Wave of Antibody-Based Cancer Therapeutics
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Yutaro Mori, Ryo Tamura, Kotaro Takahashi, Kosuke Yoshihara
+
+Niigata University, Niigata, Japan
+
+---
+
+Objective: Ovarian clear cell carcinoma (OCCC) characteristically overexpresses Tissue Factor (TF; F3), yet its biological significance and therapeutic implications remain unclear. We aimed to elucidate the impact of TF expression in OCCC and evaluate the antitumor efficacy of the anti-TF antibody-drug conjugate, tisotumab vedotin (TV), in vitro and in vivo models.
+Methods: We performed bulk RNA sequencing (RNA-seq) of 112 clinical OCCC cases to identify transcriptomic features of F3-high tumors. We then applied single-nucleus RNA-seq (snRNA-seq) to three F3-high and three F3-low cases to characterize tumor biology at the single-cell level. Based on these transcriptomic results, we focused on immune-related pathways and immune-checkpoint molecules, with emphasis on VTCN1 (B7-H4). Immunohistochemistry for TF and B7-H4 was performed on 57 OCCC specimens. Finally, we assessed TV activity in patient-derived OCCC spheroids and xenografts.
+Results: F3-high tumors exhibited lower immune scores with upregulation of MYC and cell cycle pathways, and suppression of inflammatory and immune pathways in bulk RNA-seq. Consistently, snRNA-seq showed similar trends in cancer cells, and immune fractions were significantly reduced in F3-high tumors, indicating an immunologically &#8220;cold&#8221; state. Notably, the immune-checkpoint molecule VTCN1 was highly expressed in F3-high tumors and positively correlated with F3 expression. Immunohistochemistry confirmed that B7-H4 was significantly overexpressed in TF-positive tumors, showing a positive correlation between TF and B7-H4 expression.TV activity correlated with TF abundance in vitro and induced marked growth inhibition in F3-high xenografts; residual tumors showed decreased TF and B7-H4 expression.
+Conclusions: TF-high OCCC shows a distinct gene expression pattern, particularly an immunologically cold subtype with B7-H4-mediated immune evasion. TV demonstrates TF-dependent activity, supporting TF as a therapeutic target, and providing rationale for TV-based monotherapy or combinations with immunotherapy in OCCC.

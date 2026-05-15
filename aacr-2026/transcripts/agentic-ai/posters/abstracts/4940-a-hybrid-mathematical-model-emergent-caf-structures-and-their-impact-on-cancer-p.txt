@@ -1,0 +1,12 @@
+# A hybrid mathematical model: Emergent CAF structures and their impact on cancer progression
+
+**Poster #**: 4940
+**Session**: Novel Experimental Platforms and Causal Inference
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Junho Lee, Eunjung KimCenter for Natural Product Systems Biology, Korea Institute of Science and Technology, Gangneung, Korea, Republic of
+
+---
+
+Cancer-associated fibroblasts (CAFs) are key regulators of the tumor microenvironment (TME), exhibiting diverse phenotypes that exert both anti- and pro-tumorigenic effects. To investigate how this heterogeneity shapes cancer progression and therapy response, we first developed an ordinary differential equation (ODE) model, which assumes a well-mixed, homogeneous, and non-spatial TME. This mean-field framework captures cancer-immune-CAF interactions and predicts that CAF composition strongly influences treatment outcomes sometimes making single-agent therapies as effective as multi-drug combinations, or conversely rendering even triple-combination therapies ineffective. These results highlight CAF composition as a potential biomarker for guiding less invasive, CAF-informed therapeutic strategies.To overcome the limitations of non-spatial ODE models, we developed a hybrid Agent-Based Model-Partial Differential Equation-Ordinary Differential Equation (ABM-PDE-ODE) framework. In this spatial model, cancer cells, T cells, and CAFs are represented as individual agents that migrate, proliferate, or die based on local environmental cues. Diffusible factors including oxygen, CXCL, IFN-gamma, and TGF-beta are modeled by PDEs to generate spatial gradients, while each T cell independently solves an ODE-based PD-1/PD-L1 binding equation to determine its activation or exhaustion state. This multiscale model resolves spatial heterogeneity, local immunosuppressive niches, and CAF-driven barriers to immune infiltration phenomena that cannot be captured in the well-mixed ODE system.Together, these complementary modeling approaches provide a unified multiscale framework to evaluate how CAF phenotypic diversity shapes cancer dynamics and treatment response, and they offer new opportunities for CAF-informed, spatially guided personalized therapy design.

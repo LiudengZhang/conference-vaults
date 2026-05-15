@@ -1,0 +1,17 @@
+# Longitudinal single-cell profiling of breast tumors reveals immune and epigenetic mechanisms of sensitivity and resistance to aromatase inhibitors
+
+**Poster #**: 7169
+**Session**: Role of the Microenvironment in Therapeutic Response
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Ilayda Altinönder1, Villads Winton1, Quy Khang Le2, Marie Fongaard1, Paal  M.  Bjornstad3, Elin Edda Seland Agustsdottir4, Stephanie Geisler5, Kamilla Fjermeros5, Manouchehr Seyedzadeh6, Unn-Cathrin Buvarp5, Marianne Lyngra7, Arnoldo Frigessi8, Diether Lambrechts9, Vessela N. Kristensen3, Anthony Mathelier8, Victor Greiff2, Jürgen Geisler5, Xavier Tekpli1
+
+1Department of Pathology, Oslo University Hospital, Oslo, Norway,2Department of Immunology, Oslo University Hospital, Oslo, Norway,3Department of Medical Genetics, Oslo University Hospital, Oslo, Norway,4Department of Breast and Endocrine Surgery, Akershus University Hospital, Oslo, Norway,5Department of Oncology, Akershus University Hospital, Oslo, Norway,6Department of Radiology, Akershus University Hospital, Oslo, Norway,7Department of Pathology, Akershus University Hospital, Oslo, Norway,8University of Oslo, Oslo, Norway,9KU Leuven, Leuven, Belgium
+
+---
+
+Background. Aromatase inhibitors like letrozole and exemestane play a pivotal role in the treatment algorithms for estrogen receptor (ER) positive breast cancer in all phases of the disease. However, resistance to such therapies is not fully understood and remains a major clinical challenge.
+Methods. To investigate the mechanisms of sensitivity and resistance to aromatase inhibitors in ER-positive HER2-negative breast cancer, we conducted single-cell RNA (scRNA-seq), T cell receptor (scTCR-seq), and B cell receptor (scBCR-seq) sequencing on tumor biopsies obtained before and during neoadjuvant therapy with letrozole and exemestane given in a randomized sequence for 6 months.
+Results. We examined 472,737 single cells from 73 biospecimens collected at baseline (n=25), at mid-therapy (n=24) and at the end of neoadjuvant treatment (n=24). We identified transcription start site usage at single cell level to study the role of enhancer activity in the evolution of breast tumors under treatment pressure. Malignant cells that were sensitive to treatment exhibited elevated ER-signaling and increased activity in enhancers containing ER binding sites. Conversely, resistant malignant cells showed upregulated androgen receptor (AR) signaling, cellular de-differentiation, and neuroendocrine-like characteristics. The activity of AR cis-regulome increased under treatment in non-responders, suggesting a role of epigenetic modifications in treatment resistance. Treatment-na&#239;ve tumor microenvironment was predictive of response. Non-responders displayed high proportions of naive lymphoid and undifferentiated myeloid cells, indicating an ineffective immune landscape. In contrast, responders were characterized by clonal expansion of T cells.
+Conclusions. Taken together our longitudinal single-cell analyses delineate the genetic, epigenetic and cellular mechanisms that drive sensitivity and resistance to aromatase inhibitors in ER positive breast cancer, opening avenues for improved treatment strategies. Footnotes. Ilayda Altin&#246;nder and Villads Winton are shared first authors. J&#252;rgen Geisler, Xavier Tekpli have jointly supervised this work.

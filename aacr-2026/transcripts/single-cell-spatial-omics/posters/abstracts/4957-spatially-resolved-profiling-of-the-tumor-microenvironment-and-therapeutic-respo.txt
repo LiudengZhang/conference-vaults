@@ -1,0 +1,14 @@
+# Spatially resolved profiling of the tumor microenvironment and therapeutic response in SMARCB1-deficient epithelioid sarcoma
+
+**Poster #**: 4957
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Jiayi Fan, Jeffrey Quinn, Wesley Tansey
+
+Computational Oncology, Memorial Sloan Kettering Cancer Center, New York, NY
+
+---
+
+Epithelioid sarcoma (ES) is a rare, aggressive soft-tissue sarcoma driven by biallelic loss of SMARCB1. It primarily affects adolescents and young adults and has poor clinical outcomes. The EZH2 inhibitor tazemetostat is the only FDA-approved targeted therapy for ES, yet most tumors show primary resistance or relapse after treatment. How the ES tumor microenvironment (TME) is spatially organized, and how it is reshaped by therapy, remains poorly understood. Here, we profiled 64 tumor tissue microassay (TMA) samples from 19 patients using the 10X Xenium 5k platform. An analysis pipeline integrating automated cell-type annotation, spatial neighborhood characterization, and ligand-receptor interaction (LRI) inference, and therapy response was established. Spatial niche analysis identified tumor associated M2 like macrophages that limit effector T cell development in the early lymphoid aggregates. Further, LRI analysis identified a detailed communication network involving immune suppression, tumor proliferation and angiogenesis in the TME. Comparative analyses using paired pre and post tazemetostat samples further revealed consistent treatment associated transcriptional shifts. Most post treatment tumors showed up regulation of inflammatory and mesenchymal transition pathways. Notably, patients who responded clinically displayed the opposite features. Together, the genes and pathways that become activated after tazemetostat exposure may highlight potential targets that could be explored in combination with EZH2 inhibition. Moreover, cancer-associated fibroblasts (CAFs) were highly abundant in ES. Distal and proximal tumors exhibited divergent CAF subgroups, with distal tumors showing a higher prevalence of CAF programs associated with matrix remodeling and migratory signaling that may facilitate tumor dissemination. These findings provide one of the first large-scale spatially resolved maps of ES.

@@ -1,0 +1,21 @@
+# Automated multiomics assay with over 100 biomarkers for in-depth spatial profiling of the tumor microenvironment in multiple cancer types
+
+**Poster #**: 4969
+**Session**: Spatial Niches and Functional Boundaries within the Tumor Microenvironment 1
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Marion Bonnet1, Cansaran Saygili-Demir1, Kim Handel1, Pedro Machado1, Alix Failletaz1, Debia Wakhloo2, Anushka Dikshit2, Maria Giuseppina Procopio1, Saska Brajkovic1
+
+1Lunaphore, a Bio-Techne brand, Tolochenaz, Switzerland,2Advanced Cell Diagnostics, a Bio-Techne brand, Newark, CA
+
+---
+
+Background
+The tumor microenvironment (TME) plays a pivotal role in cancer progression, immune evasion, and therapeutic response. Understanding the spatial organization and functional states of cells within the TME is essential for advancing immuno-oncology and precision medicine [PMID: 40102282]. However, simultaneous visualization of secreted molecules and cellular phenotypes in situ remains a major challenge in the spatial biology field [PMID: 39930476]. Here, we employed an automated hyperplex multiomics assay to simultaneously detect RNA and protein expressions to spatially map cell phenotypes and their functional states in the TME of multiple cancer types.
+Methods
+We examined a formalin-fixed paraffin-embedded tissue microarray (TMA) comprising various human cancer types: prostate, lung, breast, colorectal, melanoma, and lymphoma. A TMA section was stained and imaged on the COMET&#8482; platform, integrating RNAscope&#8482; HiPlex Pro for transcript detection and sequential immunofluorescence (seqIF&#8482;) for proteomic analysis [PMID: 22166544; 37813886; 41065276]. Image was analyzed using HORIZON&#8482; software to extract single-cell and spatial features.
+Results
+The automated multiomics approach enabled the concomitant in situ detection of over 100 biomolecular targets, including 12 transcripts and more than 90 proteins on the same section. High-resolution spatial profiling of the TME allowed accurate mapping of cancer, stromal, vascular and diverse immune cell subsets. It further revealed key molecular features associated with tumor-suppressor or proto-oncogene activity, including markers of proliferation, apoptosis, and immune checkpoint regulation. Concurrent detection of cytokine and chemokine transcripts highlighted localized immune signaling and cell-cell communication within tumor and stromal compartments.
+Conclusions
+This multiomics workflow offers a powerful tool for in-depth characterization of the TME across multiple cancer types, while significantly reducing sample consumption. Spatial profiling provides new opportunities to dissect the tissue architecture and immune dynamics to identify functional cell states and interactions to be exploited in immunotherapy and personalized medicine.

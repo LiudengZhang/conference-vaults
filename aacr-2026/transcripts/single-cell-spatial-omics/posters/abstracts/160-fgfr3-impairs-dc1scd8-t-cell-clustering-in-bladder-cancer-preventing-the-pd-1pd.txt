@@ -1,0 +1,17 @@
+# FGFR3 impairs DC1s/CD8+ T cell clustering in bladder cancer preventing the PD-1/PD-L1 blockade-induced CD8+ T cell phenotypes associated with immunotherapy efficacy
+
+**Poster #**: 160
+**Session**: Immune Cell Biology and Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Andrea Ziblat, Ken Hatogai, Anthony  A.  Fernald, Danny  E.  Kim, Hyunsik Lee, Alexander  T.  Pearson, Madeleine  S.  Torcasso, Randy  F.  Sweis
+
+Medicine, University of Chicago, Chicago, IL
+
+---
+
+Background: Despite advances in immunotherapy, median survival for advanced bladder cancer remains under 3 years, and mechanisms governing PD-1/PD-L1 blockade efficacy remain ill defined. Activation of fibroblast growth factor receptor-3 (FGFR3) has been shown to be linked to a non-T cell-inflamed tumor microenvironment (TME) and with resistance to checkpoint blockade. Using human bladder tumors and murine models, we investigated mediators of immunotherapy response and how FGFR3 shapes the immune landscape affecting PD-1/PD-L1 treatment efficacy.
+Methods: Multiplex immunofluorescence (mIF) and RNAscope were performed on 47 human bladder tumors to assess immune infiltrates and FGFR3 expression. A second cohort of 21 bladder tumors collected before anti-PD-1/PD-L1 therapy was analyzed by mIF and spatial transcriptomics (ST). CD8+ T cell and DC1 clustering was evaluated using an unbiased computational analysis (K-cross, a modified Ripley&#8217;s K function). ST was used to investigate the effect of FGFR3 expression on immune cells spatial distribution and transcripts. In vivo, subcutaneous and orthotopic MB49 models expressing FGFR3 G370C activating mutation, FGFR3 kinase-dead mutant (K508M), or control vector were used with/without anti-PD-L1. FTY720 was used to assess the requirement for new T cell entry into the TME for anti-PD-L1 efficacy. Tumor growth and immune phenotypes were analyzed by spectral flow cytometry.
+Results: FGFR3-activated tumors showed reduced CD86+ DC1s in tumor-draining lymph nodes (tdLN), impaired CD8+ T cell activation, greater exhaustion, and fewer TCF-1+ progenitor-exhausted CD8+ T cell (TPE) in the TME after anti-PD-L1 treatment. Blockade of new T cell entry to the TME abrogated the anti-PD-L1-induced accumulation of TPE in control tumors. FGFR3-kinase-dead mutation resulted in higher TPE frequencies in tumors, tdLN, and spleen, and reduced CD8+ T cell exhaustion. In human tumors, clinical response to PD-1/PD-L1 blockade was associated with CD8+/DC1 clustering rather than absolute cell numbers. FGFR3 expression inversely correlated with CD8+ and DC1 abundance and co-localization. Within tumors, FGFR3+ regions showed fewer DC1s, CD8+ T cells, reduced co-localization, and diminished expression of chemokines that recruit these cells. CD8+ T cells in FGFR3+ areas exhibited lower activation/effector and TPE gene expression and higher exhaustion/inhibitory-related transcripts, compared to those in FGFR3 negative areas.
+Conclusions: Our results indicate that DC1/CD8+ T cell clustering is essential for PD-1/PD-L1 efficacy in bladder cancer, and FGFR3 activation drives resistance by disrupting this interaction, preventing CD8+ T cells from acquiring phenotypes required for effective immunotherapy.

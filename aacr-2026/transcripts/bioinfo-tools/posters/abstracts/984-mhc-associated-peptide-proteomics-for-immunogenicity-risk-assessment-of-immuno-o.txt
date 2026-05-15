@@ -1,0 +1,12 @@
+# MHC-associated peptide proteomics for immunogenicity risk assessment of immuno-oncology drug candidates
+
+**Poster #**: 984
+**Session**: Computational, Technological, and Mechanistic Advances
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Chloé Ackaert1, Jana Schockaert1, Aurélie Mazy1, Christoph Schifflers1, Martijn Vlaming1, Elise Pepermans2, Sofie Pattyn11IQVIA Laboratories, Gosselies, Belgium,2ImmuneSpec, Niel, Belgium
+
+---
+
+Traditional monoclonal antibodies and bispecifics have shown great promise for the treatment of various tumor entities. However, managing unwanted immunogenicity has become a challenge in the development of these promising therapeutics as there is a trend towards higher unwanted immune responses compared to classical monoclonal antibodies. Thorough assessment of their immunogenic potential is a crucial step in the development of safe biotherapeutics with high treatment efficacy. MHC-associated peptide proteomics (MAPPS Assay) enables the precise identification of all the regions of a protein that may evoke an immune response. High-sensitive MAPPS workflow in combination with high quality primary cells leads to higher numbers of identified self + non-self peptides and provides the analysis depth required for confident immunogenicity derisking and modulation. Here, we report the importance of peptides presented by HLA-DP and HLA-DQ (next to the standard HLA-DR presented peptides). Next, we also showed the first ever comparison of presented peptides by true immune cells: myeloid dendritic cells versus monocyte derived dendritic cells.

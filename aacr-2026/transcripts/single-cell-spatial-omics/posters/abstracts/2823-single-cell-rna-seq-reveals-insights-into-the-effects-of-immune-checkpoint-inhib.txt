@@ -1,0 +1,14 @@
+# Single-cell RNA-seq reveals insights into the effects of immune checkpoint inhibitors
+
+**Poster #**: 2823
+**Session**: Immune Checkpoints
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Junting Lu, Jinghui Xiu, Ce Zhong, Wentao Li, Wei Yun, Tan Pang, Jingqi Huang
+
+Pharmacology, Pharmaron, Beijing, China
+
+---
+
+Immune checkpoint inhibitors (ICIs) have demonstrated superior clinical efficacy, significantly prolonging patient survival across various cancers. However, the mechanisms by which ICIs modulate the immune system and memory function require continued exploration. Single-cell RNA sequencing (scRNA-seq) offers a powerful tool for oncology research and development. In this study, we performed scRNA-seq following treatment with an anti-PD-1 antibody in a murine colon adenocarcinoma model. Mice were inoculated with MC38 tumor cells, treated with ICIs, and subsequently re-challenged with the same tumor cells after tumor regression. Tumor-infiltrating lymphocytes (TILs) and peripheral blood mononuclear cells (PBMCs) were isolated and analyzed using scRNA-seq alongside flow cytometry. Single-cell suspensions were processed using the 10x Genomics Chromium platform. Single-cell libraries were constructed, sequenced, and pre-processed, including demultiplexing and mapping to the reference genome. Filtered data underwent dimensionality reduction and clustering, and cells were annotated into distinct populations based on classical markers. Within the tumor microenvironment (TME), we observed notable activation of CD4&#8314; and CD8&#8314; T cells, a reduction in immunosuppressive CD4&#8314; Treg cells, and an increase in Th1 cells. Among CD8&#8314; T cells, cytotoxic effector (Teff) and memory (Tem) subsets were elevated, indicating effective T-cell activation and enhanced anti-tumor immunity. Similarly, PBMC analysis revealed increased naive T cells and Th1 cells within the CD4&#8314; population, while CD8&#8314; T cells exhibited expansion of Tem subsets with a slight increase in Teff cells. Overall, our findings demonstrate that checkpoint blockade promotes durable anti-tumor responses through expansion and differentiation of memory T cells and enhanced immune cell infiltration at both genetic and peripheral levels. Anti-PD-1 therapy directly potentiated the tumor-killing capacity of TILs, promoting a shift toward subtypes favorable to tumor clearance. Concurrently, treatment reprogrammed T-cell subsets in PBMCs, improving differentiation potential and thereby strengthening effective anti-tumor immune responses.

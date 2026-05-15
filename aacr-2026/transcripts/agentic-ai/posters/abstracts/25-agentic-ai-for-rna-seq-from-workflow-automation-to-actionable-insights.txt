@@ -1,0 +1,12 @@
+# Agentic AI for RNA-Seq: From workflow automation to actionable insights
+
+**Poster #**: 25
+**Session**: Agentic AI in Cancer
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Arthur Liberzon, Pablo Cingolani, Steven Wood Criscione, Etai JacobOncology R&D, AstraZeneca, Waltham, MA
+
+---
+
+Automating bioinformatic analyses of RNA-seq data is challenging because each project requires unique combinations of analytical steps and frequent, case-specific adjustments. These project-specific processes limit the reusability of workflows to other analyses and require extensive manual coding. Large language model (LLM) agents are well-suited to address these challenges because they can interpret natural language instructions, dynamically plan workflows, and adapt to study-specific requirements without manual coding.We developed an agentic AI platform that uses LLMs to plan, execute, and interpret bulk RNA-Seq analyses via natural language instructions. The platform includes two implementations: an interactive Streamlit app where users can upload data and describe the project, and a non-interactive API for integration into larger agentic ecosystems to enable extension to single-cell RNA-Seq and mutation analyses. Our system leverages vetted, state-of-the-art methods to ensure reproducibility while performing analyses such as PCA, differential expression, and pathway enrichment in Python. The platform generates actionable reports that contextualize tables and figures in the project context. Key capabilities include automatic contrast generation, covariate handling, and accurate identification of differentially expressed genes and enriched pathways. Validation studies demonstrate that PCA clustering, differential expression and pathway scores align with expected biology and match manual pipeline accuracy.This agentic approach reduces coding effort, improves reproducibility, and democratizes the accessibility of RNA-Seq analysis, with the possibility of expanding multi-omics analyses.

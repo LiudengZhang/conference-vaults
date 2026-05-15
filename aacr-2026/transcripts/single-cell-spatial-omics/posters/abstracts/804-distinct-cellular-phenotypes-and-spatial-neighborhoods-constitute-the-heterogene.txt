@@ -1,0 +1,17 @@
+# Distinct cellular phenotypes and spatial neighborhoods constitute the heterogeneous microenvironment of desmoplastic small round cell tumor
+
+**Poster #**: 804
+**Session**: Spatial Protein Profiling and Multi-Modal Mapping of Tumor and Circulating Ecosystems
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Kevin  A.  Murgas1, Jiaqian Fan1, Diana Shamsutdinova2, Khalida Wani2, Davis  R.  Ingram2, Alexander  J.  Lazar2, Danh  D.  Truong1, Joseph  A.  Ludwig1
+
+1Sarcoma Medical Oncology, MD Anderson Cancer Center, Houston, TX,2Anatomical Pathology, MD Anderson Cancer Center, Houston, TX
+
+---
+
+Desmoplastic Small Round Cell Tumor (DSRCT) is an ultra-rare, aggressive sarcoma primarily affecting young adults. Characterized by a pathognomonic EWSR1::WT1 gene fusion, DSRCT typically presents with extensive peritoneal metastasis and has a 5-year overall survival rate of 15-25%. Histologically, these tumors exhibit marked peritumoral desmoplasia and minimal immune infiltrate (&#8220;immune-cold&#8221;). However, substantial heterogeneity among and within tumors has hindered the identification of secondary molecular mechanisms and the discovery of novel therapeutic targets.
+We constructed a first-of-its-kind DSRCT tissue microarray (TMA), comprising over 260 specimens from 63 patients spanning 13 years. We applied sequential multiplexed immunofluorescence imaging using a 20-antibody panel (selected based on prior studies) to map tumor, stroma, and immune cell components simultaneously. Our image analysis pipeline utilized tissue and cell segmentation to extract proteomic expression data from nuclear and cytoplasmic compartments of each cell. We applied Harmony batch correction and Leiden clustering to assign putative cell identities based on multi-marker expression.
+Our analysis of over 800,000 cells revealed significant inter- and intra-tumoral heterogeneity. We observed a variety of tumor nest morphologies, including well-circumscribed and trabecular architectures, as well as a range of stromal densities. We observed distinct marker expression phenotypes, with some cores dominated by AR-positive, epithelial-like (Pan-Keratin+) cells, while others display prominent neural markers (NSE+/SYP+). Estimated TMA core compositions quantitatively confirmed a range of tumor phenotypes and highlighted variable stromal predominance and a sparse immune infiltrate. Spatial analysis revealed distinct cellular neighborhood patterns and spatial arrangements among the tumor, stromal, and immune components. Finally, we correlated spatial signatures with clinical outcomes.
+Our work provides the first comprehensive spatial proteomic atlas of DSRCT at a single-cell resolution using a TMA. This foundational resource aims to elucidate the complex cellular environment of DSRCT, uncover novel biological insights into tumor-driving mechanisms, and ultimately identify new therapeutic vulnerabilities in DSRCT. Ongoing work will incorporate spatial transcriptomics to augment cell phenotyping and identify signalling pathways implicated in the tumor and microenvironment.

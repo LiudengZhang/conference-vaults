@@ -1,0 +1,14 @@
+# High-throughput screening of chimeric RNA-binding proteins for improved CAR T cell function
+
+**Poster #**: LB141
+**Session**: Late-Breaking Research: Immunology 2
+**Activity**: Late Breaking and Clinical Trials
+**Date**: 4/20/2026 9:00:00 AM
+
+**Authors**: Courtney Kernick, Oliver Takacsi-Nagy, Austin Hartman, Lujing Wu, Christie Chang, Ansuman Satpathy, Theodore Roth
+
+Stanford University, Stanford, CA
+
+---
+
+Genetically modified cell-based immunotherapy has been successful in multiple liquid tumors; however, the complex and immunosuppressive solid tumor microenvironment has limited the efficacy of cell-based therapies for solid tumors, which account for the majority of cancers. There is ongoing effort to achieve a more therapeutically effective T cell state by modulating the expression of endogenous genes to enhance chimeric antigen receptor (CAR) T cell activity against solid tumors and prevent T cell exhaustion. One promising strategy involves the use of RNA-binding proteins (RBPs), which regulate gene expression through mRNA splicing, export, stability, degradation, and translation. Recent research indicates that RBPs are crucial in T cell functions such as proliferation, cytokine production, inflammatory responses, and effector activities. However, genetic manipulation of endogenous RBPs has not been sufficient to produce improved effector phenotypes in CAR T cells for robust tumor clearance. To address this, we synthesized novel chimeric RBPs by combining effector and RNA-binding domains from different natural RBPs involved in immune response pathways, each tagged with a unique DNA barcode. We edited primary human T cells using CRISPR-Cas12a to integrate a library of nearly 12,000 chimeric RBPs and a CD19-28z CAR into the endogenous TRAC locus. In large scale pooled knockin screens, we repetitively co-cultured the library of edited CAR T cells with stress doses of Nalm6 target leukemia cells, and performed both acute and chronic antigen stimulation assays to assess CAR T cell persistence. The most effective chimeric RBPs were identified by comparing barcode readouts before versus after the acute or chronic stimulation assays, and linking the most abundant barcodes to enhanced CAR T cell proliferation. Multiple chimeric RBPs outperformed both natural RBPs and CAR only controls, with (N)YTHDF1&#8211;(RBD)ZFP36L1&#8211;(C)ZC3H12A emerging as a top hit.  In subsequent functional validation assays, this synthetic protein induced unique single-cell transcriptomic signatures, and the edited cells demonstrated superior killing capacity and distinct phenotypic markers. These top chimeric RBPs represent promising candidates for further study, potentially leading to improved CAR T cell therapies that can overcome the challenges posed by solid tumors. This approach establishes a scalable platform for the discovery and screening of new synthetic genes for next-generation cell therapies.

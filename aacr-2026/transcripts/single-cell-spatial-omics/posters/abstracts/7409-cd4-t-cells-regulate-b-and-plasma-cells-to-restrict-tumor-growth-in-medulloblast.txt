@@ -1,0 +1,14 @@
+# CD4 T cells regulate B and plasma cells to restrict tumor growth in Medulloblastoma
+
+**Poster #**: 7409
+**Session**: Functional and Spatial Regulation of Immune Evasion and Anti-Tumor Immunity
+**Activity**: Abstract Submission
+**Date**: 4/22/2026 9:00:00 AM
+
+**Authors**: Tanja Eisemann1, Alexander Thomas Wenzel2, Jill  P.  Mesirov2, Robert Wechsler-Reya3
+
+1SBP Medical Discovery Institute, La Jolla, CA,2Medicine, University of California, San Diego, La Jolla, CA,3Neurology, Columbia University, New York, CA
+
+---
+
+Medulloblastoma is the most common pediatric brain cancer. While survival has improved in recent years, some subtypes, such as &#8220;Group 3&#8221;, still have a poor prognosis, and due to the lifelong side effects of standard chemotherapy and radiation, new treatments with less toxicity are greatly needed. Further, immunotherapy, while beneficial for other cancers, has not impacted brain cancer treatment, and immune system dynamics and interactions with tumor cells in the brain are poorly understood. We created a mouse model of Group 3 Medulloblastoma in which transformed, orthotopically transplanted neural stem cells form tumors in syngeneic, immune-competent mice, allowing us to study the effects of immune system modulation on Medulloblastoma tumor growth. Though they comprised a relatively small subpopulation of immune cells in the brain, depleting CD4+ T cells resulted in rapid tumor growth and worse survival. An analysis of tumor and control cells profiled with single cell RNA-sequencing (scRNA-seq) showed that, in addition to a loss of CD4+ T cells, B cells and plasma cells were also substantially reduced. In a pseudotemporal model of B cell to plasma cell differentiation, tumor cells from treated mice were absent from differentiated plasma cells and from a plasmablast population. These results indicate that brain-resident CD4+ T cells play a key role in controlling Medulloblastoma tumor growth by regulating B and plasma cells, and that immunotherapy may play a role in future Medulloblastoma treatments.

@@ -1,0 +1,17 @@
+# FLASH radiotherapy improves survival in mouse glioblastoma and spares circulating antigen reactive CD8+T-cells
+
+**Poster #**: 5265
+**Session**: Effects of Ionizing Radiation on Normal Tissues and FLASH Radiation Research
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Yanxia Ma1, Nhat Nguyen1, Xuehong Gui2, Edgardo Aguilar3, Luke Connell3, Denae Neill3, Emil Schüler3, Chibawanye I. Ene1
+
+1Department of Neurosurgery, The University of Texas MD Anderson Cancer Center, Houston, TX,2Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX,3Department of Radiation Physics, Division of Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX
+
+---
+
+Introduction: Glioblastoma is a lethal brain tumor with poor response to current therapies, which include surgery, chemotherapy, and conventional radiation therapy (CONV-RT). Although, CONV-RT (0.01Gy/second) to brain tumors stimulate tumor antigen release, it also recruits immunosuppressive myeloid-derived suppressor cells and is associated with neurotoxicity. Ultrahigh-dose-rate or FLASH-RT, which delivers CONV-RT doses over a significantly shorter period (more than 40Gy/second) maintains tumor control, reduces normal tissue injury and is less immunosuppressive compared to CONV-RT across multiple cancer types. In our study, we compared the effects of FLASH-RT to CONV RT in syngeneic mouse GL261 glioblastoma-bearing mice. We hypothesized that FLASH-RT would be equally or more effective than CONV-RT for tumor control and result in less immunosuppression within the tumor and systemically.
+Methods: We stereotactically implanted 2 &#215; 105 mouse GL261 cells into the right forebrain of C57BL/6 mice. Five days after tumor initiation, tumor bearing mice were treated with Sham-RT (control), CONV-RT (mean dose rate > 0.373 Gy/s), or FLASH-RT (mean dose rate >3.6x106 Gy/s). Brain tumor tissue and peripheral blood were collected on days 5 and 12 after treatment. To assess for changes in the tumor microenvironment after CONV-RT or FLASH-RT, we performed 10x Xenium spatial transcriptomics analysis (stRNA-seq; brain tumor, n = 6 mice per group), Lunaphore COMET multiplexed immunofluorescence assay (brain tumor, n = 6 mice per group), and flow cytometry (peripheral mononuclear cells, n = 6 mice per group). We also evaluated survival outcomes following treatment (n = 8 mice per group).
+Results: FLASH-RT significantly improved overall survival rate of GL261 bearing mice compared to CONV-RT (P <0.05) and Sham-RT (P < 0.001). FLASH-RT treatment markedly increased intratumoral CD8+ T-cell infiltration compared with CONV-RT (P <0.01) and Sham-RT (P < 0.01). We also found that compared to FLASH-RT, CONV-RT caused a significant decrease in circulating PD-1+CD8+ T-cells (P < 0.01), a potent antigen reactive cytotoxic T-cell population previously identified in human patients with glioblastoma.
+Conclusion: FLASH-RT is associated with better tumor control in mouse GL261 glioblastoma, increased intratumoral CD8+ T-cell infiltration, and preserves circulating antigen reactive PD1+CD8+ T-cells. These results indicate that FLASH-RT may synergize better with immune checkpoint inhibitors to re-invigorate anti-tumor T-cell responses against glioblastoma.

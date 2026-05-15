@@ -1,0 +1,17 @@
+# Explore the effects of Fusobacterium nucleatum on chemotherapy response in colorectal cancer at spatial and single-cell resolution
+
+**Poster #**: 4903
+**Session**: Microbiome-Tumor-Immune Crosstalk
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Yuting Shan1, Lilin Wang1, Matthew Jeon1, R. Stephanie Huang2
+
+1University of Minnesota, College of Pharmacy, Minneapolis, MN,2Asst. Professor, Dept. of Medicine, University of Minnesota, Minneapolis, MN
+
+---
+
+Introduction: Emerging evidence implicates intratumoral microbiota such as Fusobacterium nucleatum (Fn) in modulating therapeutic response and clinical outcomes in colorectal cancer (CRC). Here, we leveraged tumor transcriptomic data to predict the efficacy of hundreds of chemotherapies at single-cell resolution in the presence or absence of Fn, aiming to identify drugs with differential efficacy under each condition.
+Methods: Two CRC cell lines (HT29 and HCT116) were co-cultured with or without Fn and sequenced using the 10x Genomics platform. In parallel, a CRC patient tumor was profiled using 10x Genomics Visium spatial transcriptomics. Raw sequencing data from both the cell lines and the patient sample were obtained from published sources and aligned to references to generate single-cell RNA and Fn count matrices. Drug sensitivity for each cell was predicted using scIDUC, a previously validated single-cell level transcriptome-based drug response prediction model. This enables prediction of >350 drugs for their likelihood of response in each cell derived from either cell line or patient sample. We then compared the predicted drug sensitivity between Fn-positive and Fn-negative cells for each drug. Differential expression and gene set enrichment analyses were conducted to identify Fn-associated molecular pathways.
+Results: After quality control, 11,624 cells from the CRC cell lines and 3,105 spatial spots from the patient sample were retained, each with >20,000 genes quantified. Among standard-of-care agents used to treat CRC, oxaliplatin was consistently predicted to have reduced efficacy in Fn-positive cells (P < 2.2 &#215; 10&#8315;&#185;&#8310; for HT29 and HCT116; P < 0.01 for the CRC sample). In contrast, 5-fluorouracil was predicted to be less effective in Fn-positive cells in the patient sample but more effective in cell lines. Notably, dasatinib, a BCR-ABL inhibitor, was consistently predicted to exhibit enhanced efficacy in Fn-positive cells. Transcriptomic analyses revealed upregulation of tumor growth and drug-resistance genes, including JUN, DDIT4, and BIRC3, in Fn-enriched CRC cells.
+Discussion: This study provides one of the first spatial and single-cell perspectives on how intratumoral microbiota shape chemotherapy response in CRC. Our findings suggest that F. nucleatum status may serve as a predictive biomarker for chemotherapy efficacy and a potential guide for drug repurposing and treatment stratification in colorectal cancer.

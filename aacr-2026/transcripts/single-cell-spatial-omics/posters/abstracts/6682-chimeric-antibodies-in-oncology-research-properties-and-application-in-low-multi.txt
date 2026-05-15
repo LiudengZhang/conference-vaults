@@ -1,0 +1,14 @@
+# Chimeric antibodies in oncology research: Properties and application in low-multiplexing assays
+
+**Poster #**: 6682
+**Session**: Spatial Proteomics and Transcriptomics 3
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Tom Bright, Nadine Nelson, Antonella Galli, Will Howat, Silvia Sbacchi
+
+Abcam Limited (UK), Cambridge, United Kingdom
+
+---
+
+Chimeric antibodies, engineered by fusing the variable (antigen-binding) domains of one species (e.g. rabbit) with the constant domains of a different species (e.g. human, chicken), represent a significant advancement in antibody technology. This approach preserves the original antibody&#8217;s specificity and affinity while introducing desirable features from the second species. Beyond therapeutics, the distinctive characteristics of chimeric antibodies offer notable benefits in in vitro diagnostic and research applications, for example in low-multiplexing assays. In particular, chimeric antibodies offer significant advantages in multiplexed assays, where their species-specific constant regions allow for the simultaneous use of multiple primary antibodies with minimal cross-reactivity. The use of chimeric antibodies is compatible with diverse experimental setups allowing researchers to leverage existing secondary antibodies systems. Here we demonstrate the advantage of using chimeric antibodies for building immunohistochemistry (IHC) panels for the co-detection of cancer protein markers and the study of tissue micro environment (TME) in formalin-fixed paraffin-embedded (FFPE) human tumor tissues. By leveraging antibodies derived from multiple host species, including mouse, rabbit, and chicken, we achieved robust and specific staining in both normal and tumor samples. Our results highlight the potential of chimeric antibodies to streamline complex IHC workflows and improve the resolution of multiplexed tissue analyses in cancer research.

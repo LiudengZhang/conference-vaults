@@ -1,0 +1,17 @@
+# Tumor-associated macrophage creatine metabolic reprogramming enhances hnRNPA1 phase separation and promotes colorectal cancer stemness and recurrence
+
+**Poster #**: 4714
+**Session**: Metabolic Alterations in Colorectal and Gastrointestinal Cancers
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Zhengran Zhou, Xuanhui Liu, Yifan Zheng, Zhengyu Wei, Zerong Cai, Yufeng Chen, Peishan Hu, Xiaojian Wu
+
+The Sixth Affiliated Hospital of Sun Yat-sen University, Guangzhou, China
+
+---
+
+BACKGROUND: Creatine, a common nutritional supplement, has gained increasing attention in tumorigenesis and development. Our previous study found that creatine is a key metabolic biomarker for colorectal cancer (CRC) recurrence. Further studies are urgently needed to reveal the mechanism by which creatine metabolic reprogramming induces CRC relapse.
+METHODS: Targeted metabolomics analysis of creatine was dynamically performed on plasma samples of 160 CRC patients including 30 relapse cases. Creatine metabolism-related genes were investigated in TCGA, ICGC-ARGO database (a large multi-omics study of CRC in China), and CRC single-cell transcriptome datasets. Single-cell RNA sequencing and spatial transcriptomics sequencing were carried out on locally recurrent CRC tissues. Creatine metabolic reprogramming and its effect on CRC stemness were investigated in tumor-associated macrophages (TAMs) and CRC cell lines, patient-derived organoids, and murine models. Limited proteolysis-mass spectrometry (LiP-MS) and RNA-sequencing were performed to illustrate creatine-protein interaction and the regulation of relative signal pathways.
+RESULTS: In recurrent CRC cases, creatine level gradually increased over time after the first radical surgery until recurrence. GATM, the key enzyme for creatine synthesis, was found to be enriched in TAMs, while creatine transporter SLC6A8 was highly expressed by malignant cells. Their expression levels were found significantly higher in patients who were going to relapse and they were positively correlated with that of LDHA, the acidic micronment marker. Creatine synthesis in TAMs was found upregulated, especially in acidic condition or after the addition of lactate, and the lactylation level of H3 histone was found elevated. Isotope tracking assays indicated that creatine can be taken up by CRC cells through SLC6A8. The addition of creatine significantly enhanced the self-renewal ability of CRC cells and activated tumor stemness pathways, which could be reversed by SLC6A8 inhibitors. LiP-MS and CETSA assay revealed that creatine directly interacted with hnRNPA1 and enhancement of hnRNPA1 phase separation was observed after the addition of creatine. Function of creatine-hnRNPA1-stemness axis was verified in vivo and in vitro subsequently.
+CONCLUSIONS: Creatine has been identified as a biomarker for the dynamic monitoring of post-surgery CRC recurrence. Macrophages in the tumor microenvironment have undergone metabolic reprogramming of creatine, and TAMs-derived creatine contributed to CRC recurrence. Creatine promotes tumor stemness and malignancy via directly interacting with hnRNPA1 and enhancing its phase separation. Therapeutic strategies targeting creatine metabolism and hnRNPA1 have the potential to reduce CRC recurrence.

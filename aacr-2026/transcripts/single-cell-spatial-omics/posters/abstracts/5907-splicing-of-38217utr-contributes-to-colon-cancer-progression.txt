@@ -1,0 +1,14 @@
+# Splicing of 3&#8217;UTR contributes to colon cancer progression
+
+**Poster #**: 5907
+**Session**: Functional Roles of Noncoding RNAs in Cancer Progression, Metabolism, and Therapy Response
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 2:00:00 PM
+
+**Authors**: Jiunn Fung Cheong1, Xiaonan Fan2, Xiao Hong Chew2, Yvonne Tay1
+
+1National University of Singapore, Singapore, Singapore,2Cancer Science Institute Singapore, Singapore, Singapore
+
+---
+
+The 3&#8242; untranslated regions (3&#8242;UTRs) of messenger RNAs (mRNAs) play crucial roles in regulating gene expression. These regions have been found to be involved in important processes, including mRNA stability, localization, and translation. It is shown that 3&#8217;UTR splicing is widespread in many cancers and dysregulated 3&#8242;UTR splicing leads to cytoplasmic localization of the spliced 3&#8217;UTR (3&#8217;SP) transcript variant, resulting in increased protein expression, thus contributing to tumor progression. Currently, little is known about the functional mechanism of 3&#8217;UTR splicing in the progression of colon cancer and its implications for treatment outcomes. To address this, we integrated short-read RNA sequencing (RNA-seq) data from The Cancer Genome Atlas (TCGA) colorectal cancer cohort, in-house patient samples, single-cell PacBio long-read sequencing, short-read fractionation RNA-seq data of colon cancer cell lines, and in-house patient sample mass spectrometry data. We shortlisted four candidates that have upregulated 3&#8217;SP transcript expression in the tumor samples for further validation. Additionally, our fractionation RNA sequencing in colon cancer cell lines showed that the 3&#8217;SP isoforms were significantly more enriched in the cytoplasm compared to the nucleus. Further mechanistic studies are ongoing to identify the corresponding splicing and transport factors, which will determine the mechanism controlling the localization of spliced 3&#8217;UTR transcripts and how they are linked to dysregulated 3&#8217;UTR splicing.

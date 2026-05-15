@@ -1,0 +1,14 @@
+# 3D spatial multiomics characterization of ovarian cancer tissue samples
+
+**Poster #**: 1225
+**Session**: Spatial Proteomics and Transcriptomics 1
+**Activity**: Abstract Submission
+**Date**: 4/19/2026 2:00:00 PM
+
+**Authors**: Lena Nolte1, Diogo Bessa-Neto1, Salpy Baghdo1, Bernadett Szabó1, Fabio El Yassouri1, Emily Neil2, Robert Pinard2, Werner Müller1, Dominik Eckardt1, Christoph Herbel1, Andreas Bosio1
+
+1Miltenyi Biotec, Bergisch Gladbach, Germany,2Miltenyi Biotec, Waltham, MA
+
+---
+
+The complex interplay between genetic alterations, cellular environments, and immune responses in ovarian cancer demands advanced analytical approaches to inform personalized therapies. Conventional two-dimensional analyses fail to capture the tumor&#8217;s complex three-dimensional (3D) architecture and cellular organization, limiting insight into immune dynamics and the tumor microenvironment. To overcome this, we developed a fully automated spatial biology workflow integrating 3D multiomics. This workflow combines RNAsky&#174; technology for precise RNA detection with multiplexed protein profiling using recombinant REAfinity&#8482; and REAdye_lease&#8482; antibody conjugates, analyzed via the MACS&#174; iQ View - Spatial Biology Image Analysis Software for accurate 3D segmentation. The inclusion of multiple layers in the z-dimension allows precise annotation of individual cells, and thus precise RNA and protein localization at the single-cell level. By analyzing ovarian cancer tissues with an immuno-oncology antibody panel and a complementary RNA panel, we characterized primary, untreated ovarian cancer tissues and their microenvironment. This enabled spatial mapping of diverse lymphoid cell populations including T-cells, B-cells, and NK cells, as well as cells of myeloid lineage such as dendritic cells and macrophages. Additionally, cancer cells were characterized and the stromal compartment encompassing fibroblasts, endothelial and neuronal cells were identified. These aspects revealed structural and immunological features which may influence tumor progression and treatment response. The 3D analysis uncovered spatial relationships among various cell types, in particular, 3D analysis resolved key anatomical features of tissue architecture, which play crucial roles in tumor growth and metastasis. By correlating these 3D spatial data with clinical outcomes, the workflow may provide insights into resistance mechanisms, potential biomarkers, and therapeutic targets. This integrated 3D multiomics workflow offers a holistic, high-resolution view of tumor organization and immune contexture, advancing the understanding of ovarian cancer biology and supporting precision medicine across cancer types.

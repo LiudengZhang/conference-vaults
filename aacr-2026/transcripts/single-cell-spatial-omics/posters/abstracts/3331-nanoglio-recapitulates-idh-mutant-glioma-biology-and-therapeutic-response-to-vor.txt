@@ -1,0 +1,14 @@
+# NanoGlio recapitulates IDH-mutant glioma biology and therapeutic response to vorasidenib
+
+**Poster #**: 3331
+**Session**: Tumorigenesis Drivers
+**Activity**: Abstract Submission
+**Date**: 4/20/2026 2:00:00 PM
+
+**Authors**: Uijin Kim1, Satoru Kawakita1, Emily Miller1, Wei Huang1, Francisco Bustamante1, Lauren Vanderpool1, Chongming Jiang1, Albert Lai2, Zhaohui Wang1
+
+1Terasaki Institute for Biomedical Innovation, Woodland Hills, CA,2Department of Neurology, UCLA Health, Los Angeles, CA
+
+---
+
+IDH-mutant gliomas are a biologically and clinically distinct subset of diffuse gliomas that remain challenging to model in vitro. Vorasidenib, a brain-penetrant dual IDH1/2 inhibitor, is the first FDA-approved targeted therapy for grade 2 non-enhancing gliomas in 2024. Here, we present NanoGlio, a nanoliter-scale organoid platform that enables rapid, passage-zero functional drug testing using minimal patient-derived material. NanoGlio supports the formation of uniform, viable tumor organoids that preserve the cytoarchitecture and cellular heterogeneity of the parental tumors. We established NanoGlio models from 13 cases of grade 2, 5 cases of grade 3, and 9 cases of grade 4 IDH-mutant gliomas, including spatially distinct enhancing and non-enhancing regions from 4 patients. Single-cell RNA sequencing confirmed that NanoGlio retains tumor-intrinsic heterogeneity and myeloid lineages present in the original tissue. High-content phenotypic screening revealed heterogeneous responses to Vorasidenib, with NanoGlio sensitivity correlating with tumor grade and molecular subtype. Notably, Vorasidenib induced differentiation-like morphologic changes in grade 2 models but paradoxically enhanced proliferation in a subset of high-grade models. Bulk RNA sequencing showed that NanoGlio captures in vivo-like drug response programs, particularly in immune-related and glial differentiation pathways that overlap with molecular changes reported in clinical trials. Furthermore, NanoGlio-derived conditioned media, when applied to co-cultures of HER2-specific chimeric antigen receptor (CAR) T cells and HER2-positive SKOV3 tumor cells, enabled functional assessment of soluble factor-mediated immune suppression. Together, these data establish NanoGlio as a scalable, patient-relevant organoid platform for modeling IDH-mutant glioma biology and therapeutic response, with direct applications to drug-response prediction and rational combination strategies in precision oncology.

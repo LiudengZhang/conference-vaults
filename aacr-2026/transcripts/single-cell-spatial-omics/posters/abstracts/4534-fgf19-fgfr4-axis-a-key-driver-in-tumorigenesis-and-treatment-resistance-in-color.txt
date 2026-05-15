@@ -1,0 +1,14 @@
+# FGF19/ FGFR4 Axis: A key driver in tumorigenesis and treatment resistance in colorectal cancer
+
+**Poster #**: 4534
+**Session**: Next-Generation Targeted Therapies Directed Against Tumor Surface Antigens
+**Activity**: Abstract Submission
+**Date**: 4/21/2026 9:00:00 AM
+
+**Authors**: Anh Nguyen, Bruce M. Boman
+
+Helen F. Graham Cancer Center & Research Institute, Newark, DE
+
+---
+
+Colorectal cancer (CRC) remains one of the most treatment-resistant malignancies, yet the mechanisms underlying this resistance are not fully understood. Our GOAL is to define these mechanisms and identify new therapeutic targets to improve treatment outcomes. We investigate the role of the Fibroblast Growth Factor (FGF) signaling, particularly the FGF19/FGF Receptor (FGFR) 4 axis, in CRC tumor growth and therapeutic response. This axis is compelling because our preliminary data show that: (i) FGF19 and FGFR4 are co-overexpressed in human CRC, based on publicly available single-cell RNA-seq and bulk RNA-seq of our paired patient specimens; (ii) FGF19 overexpression correlates with worse relapse-free survival (RFS) in the TCGA-COAD cohort; and (iii) both FGF19 and FGFR4 expression correlate with poor overall survival (OS). Importantly, FGF19/FGFR4 signaling is an upstream regulator of the MAPK and WNT/&#946;-catenin pathways, key drivers of tumorigenesis and treatment resistance in CRC. We HYPOTHESIZE that autoactivation of the FGF19/FGFR4 axis promotes tumor growth, survival, and treatment resistance in CRC. To dissect this axis&#8217;s functional contributions, CRC cell lines underwent selective FGFR4 inhibition or induced FGF19 overexpression. Effects on viability, proliferation, clonogenic growth, invasion, and drug sensitivity were assessed using established in vitro assays, while mechanistic changes were examined by qRT-PCR and Western blotting. Functionally, targeting FGFR4 with the selective inhibitor BLU9931 impacted all critical cancer hallmarks: increased apoptosis, reduced proliferation, suppressed clonogenic capacity, and diminished invasion. Pre-treatment with BLU9931 sensitized cells to 5-fluorouracil (5-FU), a standard chemotherapeutic agent, enhancing cytotoxicity synergistically. Conversely, FGF19 overexpression activated ERK1/2 and &#946;-catenin signaling to promote proliferation, induced resistance to 5-FU by maintaining cells in the G1-protective phase, and facilitated rapid post-chemotherapy recovery. Our findings support the hypothesis that the FGF19-FGFR4 axis is a key driver of CRC progression and therapy resistance, underscoring the rationale for developing targeted therapies against this tumor-specific signaling axis.
