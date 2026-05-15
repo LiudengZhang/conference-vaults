@@ -10,20 +10,22 @@ The FM → Virtual Cells talk-prep and knowledge-base content moved to [fm-to-vi
 - **13 vaults content-complete** · 24 scaffolded for live coverage at each meeting window
 - **~109 deep dossiers** built (tools / trials / launches / talks / keynotes)
 
+## Site
+
+Built and deployed via `mkdocs gh-deploy`. The deployed site is password-gated client-side using [mkdocs-encryptcontent-plugin](https://github.com/CoinK0in/mkdocs-encryptcontent-plugin). Pass the password via the `SITE_PASSWORD` env var at build time:
+
+```bash
+SITE_PASSWORD='your-password' mkdocs build --strict
+SITE_PASSWORD='your-password' mkdocs gh-deploy --force
+```
+
 ## Local development
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-mkdocs serve -a 127.0.0.1:8000
-```
-
-## Build + deploy
-
-```bash
-mkdocs build --strict
-mkdocs gh-deploy --force
+SITE_PASSWORD='your-password' mkdocs serve -a 127.0.0.1:8000
 ```
 
 ## Build scripts

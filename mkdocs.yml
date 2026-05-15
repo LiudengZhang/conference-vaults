@@ -47,6 +47,14 @@ extra_javascript:
 plugins:
   - search
   - tags
+  - encryptcontent:
+      global_password: !ENV [SITE_PASSWORD, 'changeme']
+      title_prefix: ''
+      summary: 'This site is password-protected.'
+      placeholder: 'Password'
+      decryption_failure_message: 'Wrong password.'
+      encryption_info_message: 'Contact the site owner if you need access.'
+      remember_password: true
 
 markdown_extensions:
   - admonition
