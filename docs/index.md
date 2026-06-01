@@ -7,9 +7,9 @@ Per-conference vaults for biomedical, bioinformatics, and AI/ML meetings. Every 
 ## At a glance
 
 - **38 conferences** scaffolded across 2025–2026
-- **~109 deep dossiers** built (tools / trials / launches / talks / keynotes)
+- **~155 deep dossiers** built (tools / trials / launches / talks / keynotes)
 - **36-row Gantt timeline** with a 4-criterion scoring rubric — see [2026 Timeline](timeline.md)
-- 13 vaults content-complete · 25 scaffolded for live coverage at each meeting window
+- 14 vaults content-complete · 24 scaffolded for live coverage at each meeting window
 
 ## Built vaults
 
@@ -33,6 +33,7 @@ Per-conference vaults for biomedical, bioinformatics, and AI/ML meetings. Every 
 
 **Cancer-clinical — retrospective trial dossiers:**
 
+- [**ASCO 2026**](conferences/asco-2026/){ .md-button } — 46 trial dossiers across Lung / GI / GU / Breast / Heme / melanoma + 5 day digests + cross-cutting themes. Plenary: PROTEUS, SARC041, LIBRETTO-432, HARMONi-6, RASolute 302.
 - [**ASCO GI 2026**](conferences/asco-gi-2026/){ .md-button } — 6 trials (HERIZON-GEA-01, BREAKWATER cohort 3, daraxonrasib/zoldonrasib PDAC, REFOCUS, KEYNOTE-937, MSS-CRC synthesis).
 - [**ASCO GU 2026**](conferences/asco-gu-2026/){ .md-button } — 6 trials (KEYNOTE-B15/EV-304, LITESPARK-022, PEACE-3, PSMAaddition, CAPItello-281, IMvigor011).
 - [**AACR Brain Tumors 2026**](conferences/aacr-brain-tumors-2026/){ .md-button } — 8 talks (CAR-T architectures, GD2 DIPG, vorasidenib combos, IDH vaccine, cell-state framework).
@@ -51,7 +52,6 @@ Each has an overview, program-notes research file, and a per-trial / per-tool / 
 | Meeting | Date | Type |
 |---|---|---|
 | [RECOMB 2026](conferences/recomb-2026/) | May 26–29 (Thessaloniki) | methods / per-tool |
-| [ASCO 2026](conferences/asco-2026/) | May 29–Jun 2 (Chicago) | clinical / per-trial |
 | [CVPR 2026](conferences/cvpr-2026/) | Jun 3–7 (Denver) | AI/CV / filtered |
 | [EHA 2026](conferences/eha-2026/) | Jun 11–14 (Stockholm) | clinical / per-trial |
 | [ESHG 2026](conferences/eshg-2026/) | Jun 13–16 (Gothenburg) | clinical / per-talk |

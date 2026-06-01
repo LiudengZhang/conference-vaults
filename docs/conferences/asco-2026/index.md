@@ -2,7 +2,7 @@
 
 **62nd ASCO Annual Meeting** — McCormick Place, Chicago, IL · May 29 – Jun 2, 2026. ~40,000 attendees, the largest oncology meeting of the year.
 
-> **Status:** Scaffold — meeting is **3 weeks out** as of today (May 11, 2026). The structure is landing now so live-coverage build (Plenary May 31, LBA-by-LBA reveal across May 29 – Jun 2) can run immediately. Abstract titles are public (released Apr 21); the **regular-abstract embargo lifts May 21, 5:00 PM ET**; **LBAs (including all Plenary abstracts) release at 7:00 AM CT on the day of presentation**. Anything in this vault dated before its embargo lift is built from company topline press releases, ASCO press-program previews, and analyst notes — flagged inline.
+> **Status:** Built post-meeting (meeting ran May 29 – Jun 2, 2026; Plenary May 31). **46 trial dossiers** with verified results + **5 day digests** + cross-cutting **[themes](themes.md)**, reconciled against ASCO press releases, company releases, simultaneous journal publications (NEJM / Annals of Oncology / Lancet), and trade-press recaps as embargoes lifted. Start at the **[trials index](trials/index.md)** or the day digests. A handful of readouts (revumenib post-HSCT, KN026-004, persevERA, JSKN016) were still partly embargoed or undisclosed at writing and are flagged inline.
 
 ## Why this is in the vault
 
@@ -32,7 +32,7 @@ The **ASCO Meeting Library is the load-bearing primary source** — every accept
 
 ASCO 2026 runs **Friday May 29 (Education Day) through Tuesday June 2 (closing)**, five days, McCormick Place West / South. The structure:
 
-- **Plenary Session — Sunday May 31** (the practice-changing slot). Six abstracts: **LBA1 PROTEUS** (Erleada/apalutamide, prostate, perioperative), **LBA2 SARC041** (abemaciclib, dedifferentiated liposarcoma), **LBA3 LIBRETTO-432** (selpercatinib, adjuvant RET+ NSCLC), **LBA4 HARMONi-6** (ivonescimab, 1L squamous NSCLC, China-only), **LBA5 Rasolute-302** (daraxonrasib, 2L pancreatic PDAC, RAS), plus one TBD. Discussants for the Plenary are usually announced ~2 weeks pre-meeting; we'll capture them in `program-notes.md`.
+- **Plenary Session — Sunday May 31** (the practice-changing slot). Five clinical-science abstracts: **LBA1 PROTEUS** (Erleada/apalutamide, prostate, perioperative), **LBA2 SARC041** (abemaciclib, dedifferentiated liposarcoma), **LBA3 LIBRETTO-432** (selpercatinib, adjuvant RET+ NSCLC), **LBA4 HARMONi-6** (ivonescimab, 1L squamous NSCLC, China-only), **LBA5 RASolute 302** (daraxonrasib, 2L pancreatic PDAC, RAS). The clinical-science Plenary was five LBAs (no sixth materialized); see each trial page for the named discussant.
 - **Opening Session (Sat May 30)** — Presidential Address + Karnofsky Award lecture.
 - **23 Oral Abstract Sessions + 25 Rapid Oral + 13 Clinical Science Symposia** — ~450 oral abstract presentations.
 - **>7,000 abstracts total** (orals + posters + online-only publications).

@@ -2,103 +2,109 @@
 
 The primary artifact of this vault: **one Markdown file per trial / readout**. ASCO 2026 is a clinical-readout meeting, so the unit of analysis is the trial — not the speaker, not the tool, not the company.
 
-> **Status:** Template + master index. Per-trial pages will be populated as embargoes lift (regular abstracts May 21, 5pm ET; LBAs the morning of presentation). Pre-meeting stubs flagged `*expected, subject to embargo*` are sourced from company toplines, abstract titles (released Apr 21), and analyst preview pieces; numbers can shift on the actual abstract reveal.
+> **Status:** Built post-meeting. **46 trial pages** with verified results, reconciled against ASCO press releases, company releases, simultaneous journal publications, and trade-press recaps as embargoes lifted (May 29 – Jun 2, 2026). For the cross-cutting synthesis see **[themes.md](../themes.md)**; for the chronological narrative see the day digests (**[Day 1](../digest/day-1-friday.md)** … **[Day 5](../digest/day-5-tuesday.md)**).
+
+## Plenary (Sun May 31, LBA1–5)
+
+| # | Trial | Sponsor | Indication | Headline result | Practice-changing? |
+|---|---|---|---|---|---|
+| LBA1 | **[PROTEUS](proteus.md)** | J&J / Janssen | Perioperative high-risk localized prostate | pCR/MRD 8.9% vs 1.0%; MFS HR 0.80 (BICR); subsequent therapy delayed 33 mo (N=2,109); NEJM | **Yes** |
+| LBA2 | **[SARC041](sarc041.md)** | Lilly (IIT) | Advanced dedifferentiated liposarcoma | mPFS 9.7 vs 1.5 mo (HR ≈0.38, ~62% reduction); first positive Ph3 in DDLPS | **Yes** |
+| LBA3 | **[LIBRETTO-432](libretto-432.md)** | Lilly (Loxo) | Adjuvant RET-fusion+ NSCLC | 83% reduction in recurrence/death (EFS); first adjuvant RET TKI | **Yes** |
+| LBA4 | **[HARMONi-6](harmoni-6.md)** | Akeso / Summit | 1L squamous NSCLC | mOS 27.89 vs 23.69 mo vs tislelizumab+chemo; first OS win for PD-1×VEGF | Pending |
+| LBA5 | **[RASolute 302](rasolute-302.md)** | Revolution Medicines | 2L metastatic PDAC (RAS) | mOS 13.2 vs 6.7 mo (HR 0.40, P<.0001); first pan-RAS Ph3 win in PDAC; NEJM | **Yes** |
+
+## Lung
+
+| Trial | Day | Result | PC? |
+|---|---|---|---|
+| **[WU-KONG28](wu-kong28.md)** | Fri | 1L sunvozertinib vs chemo, EGFR exon20ins NSCLC: mPFS 10.3 vs 7.5 mo (HR 0.65); NEJM | **Yes** |
+| **[CROWN (7-yr)](crown-7yr.md)** | Fri | Lorlatinib vs crizotinib ALK+ NSCLC: mPFS NR vs 9.1 mo (HR 0.19); 55% vs 3% PF at 7 yr | No (confirm.) |
+| **[OptiTROP-Lung05](optitrop-lung05.md)** | Fri | Sac-TMT + pembro vs pembro, 1L PD-L1+ NSCLC: mPFS NR vs 5.7 mo (HR 0.35) | Pending |
+| **[ANVIL / ALCHEMIST EA5142](alchemist-ea5142.md)** | — | Adjuvant nivolumab, EGFR/ALK-WT NSCLC: no DFS benefit (HR 0.97) — **negative** | No |
+| **[TRIPLEX](triplex.md)** | — | Thoracic RT + chemo-IO, ES-SCLC: **terminated early** for excess toxicity | No |
+| **[CHRYSALIS-2 (Cohort C)](chrysalis-2-atypical-egfr.md)** | — | 1L ami + lazertinib, atypical EGFR NSCLC: mOS 41.0 mo, ORR 57% | Pending |
+| **[IMforte (subtype)](imforte-sclc-subtype.md)** | Sun | Lurbinectedin + atezo 1L SCLC maintenance — transcriptomic subtype subanalysis | Pending |
+
+## GI
+
+| Trial | Day | Result | PC? |
+|---|---|---|---|
+| **[BREAKWATER (Cohort 3)](breakwater.md)** | Sun | 1L EC + FOLFIRI, BRAF V600E mCRC: mPFS 15.2 vs 8.3 mo (HR 0.44); OS NR vs 20.3 mo | **Yes** |
+| **[HERIZON-GEA-01](herizon-gea-01.md)** | Mon | Zanidatamab + chemo ± tisle, 1L HER2+ GEA: mOS 26.4 vs 19.2 mo (HR 0.72) | Pending |
+| **[HORIZON-CRC01](horizon-crc01-trastuzumab-rezetecan-her2-crc.md)** | — | Trastuzumab rezetecan, HER2+ chemo-refractory mCRC: mPFS 5.5 vs 2.8 mo (HR 0.33) | Pending |
+| **[EMERALD-3](emerald-3-stride-lenvatinib-tace-hcc.md)** | — | STRIDE + lenvatinib + TACE, HCC: mPFS 13.0 vs 9.8 mo (HR 0.70) | Pending |
+| **[OrigAMI-1](origami-1.md)** | — | Amivantamab biomarker analysis, RAS/BRAF-WT mCRC (AREG-high PFS 9.1 vs 4.5 mo) | Pending |
+| **[Alpha DaRT PDAC](alpha-dart-eus-pancreatic-pooled.md)** | — | EUS-guided intratumoral alpha-emitter, advanced PDAC: mOS ~11–17 mo (pooled Ph1/2) | Pending |
+| **[CT041 satri-cel (Cohort 3)](satri-cel-ct041-gastric-sequential.md)** | Sat | Claudin18.2 CAR-T sequential after 1L gastric: ORR 100% (4/4), mPFS-from-1L 20.9 mo | No (n=5) |
+| **[EPISODE-III](episode-iii-adjuvant-aspirin-stage-iii-crc.md)** | — | Adjuvant aspirin, stage III CRC: **missed** DFS (HR 0.84, P=.099) | No |
+
+## GU
+
+| Trial | Day | Result | PC? |
+|---|---|---|---|
+| **[TALAPRO-3](talapro-3-talazoparib-enzalutamide-mhspc.md)** | — | Tala + enza, HRR-altered mCSPC: rPFS HR 0.481 (BRCA HR 0.368); NEJM | Pending |
+| **[A-DREAM](a-dream-intermittent-arpi-mhspc.md)** | Sat | ADT+ARPI interruption in exceptional mHSPC responders: 57.7% treatment-free at 18 mo | Pending |
+| **[ARACOG](aracog-darolutamide-vs-enzalutamide-cognition.md)** | — | Darolutamide vs enzalutamide cognition: −15.8% vs −36.1% MCCD (P=.009) | Pending |
+| **[NEXUS-01](nexus-01-ly4052031-nectin4-adc-urothelial.md)** | Mon | Nectin-4 ADC LY4052031, post-EV urothelial: ORR 33%, DOR 7.4 mo | Pending |
+| **[EV-302 / KEYNOTE-A39 (3.5-yr)](ev-302-keynote-a39-3-5yr-update-urothelial.md)** | — | EV + pembro urothelial: mOS 33.6 vs 15.9 mo (HR 0.53) — mature update | No (confirm.) |
+| **[RAMPART](rampart-adjuvant-durvalumab-tremelimumab-rcc.md)** | — | Adjuvant durva ± treme, resected RCC: durva mono **missed** DFS (HR 0.74) | No |
+| **[TiNivo-2 (final)](tinivo-2-final-tivozanib-nivolumab-mrcc.md)** | — | Tivo + nivo vs tivo, post-ICI mRCC: **no benefit** (mPFS 5.7 vs 7.4 mo) | No |
+
+## Breast
+
+| Trial | Day | Result | PC? |
+|---|---|---|---|
+| **[ASCENT-04 / KEYNOTE-D19](ascent-04.md)** | Sun/Tue | SG + pembro, 1L PD-L1+ mTNBC: mPFS 11.2 vs 7.8 mo (HR 0.65); subgroup-consistent | **Yes** |
+| **[SERENA-6](serena-6.md)** | Tue | ctDNA-guided switch to camizestrant, ESR1m HR+ MBC: PFS 16.0 vs 9.2 mo (HR 0.44) | Pending |
+| **[lidERA](lidera-giredestrant-adjuvant.md)** | Sat | Adjuvant giredestrant: iDFS HR 0.70 (30% reduction); N=4,170 | Pending |
+| **[evERA](evera-giredestrant-everolimus.md)** | — | Giredestrant + everolimus post-CDK4/6i: PFS 8.77 vs 5.49 mo (HR 0.56) | Pending |
+| **[persevERA](persevera.md)** | Tue | Giredestrant + palbociclib 1L: **missed** primary PFS (numerical, NS); N=992 | No |
+| **[NATALEE (gene expr.)](natalee-ribociclib-gene-expression.md)** | Sat | Adjuvant ribociclib iDFS consistent across PAM50 subtypes (HR 0.42–0.77) | Pending |
+| **[KN026-004 (Neo-Healer)](kn026-004.md)** | Sat | Neoadjuvant anbenitamab + chemo vs THP, HER2+: tpCR 62.4% vs 51.2% (P=.0099) | Pending |
+| **[DESTINY-Breast09 (durability)](destiny-breast09-response-durability.md)** | — | T-DXd + pertuzumab 1L HER2+ mBC: durable responses (DOR 39.2 vs 26.4 mo) | Pending |
+| **[JSKN016](jskn016-trop2-her3-bispecific-adc.md)** | Mon | First-in-class TROP2/HER3 bispecific ADC, late-line HER2− BC (early data) | Pending |
+| **[BWEL](bwel-weight-loss-intervention.md)** | — | Telephone weight-loss intervention: ~5.7% loss, improved physical function | Pending |
+
+## Heme
+
+| Trial | Day | Result | PC? |
+|---|---|---|---|
+| **[MajesTEC-9](majestec-9-teclistamab-rrmm.md)** | Fri | Teclistamab vs PVd/Kd, RRMM: mPFS NR vs 8.2 mo (HR 0.29); NEJM | **Yes** |
+| **[SUCCESSOR-2](successor-2-mezigdomide-kd-rrmm.md)** | Fri | MeziKd vs Kd, RRMM: mPFS 18.0 vs 8.3 mo (HR 0.48) | Pending |
+| **[frontMIND](frontmind.md)** | Sat | Tafa + len + R-CHOP, 1L high-risk DLBCL/HGBL: PFS HR 0.75 (P=.019) | Pending |
+| **[EPCORE DLBCL-1](epcore-dlbcl-1-epcoritamab-rr-dlbcl.md)** | — | Epcoritamab mono vs chemo, R/R DLBCL: PFS HR 0.74; first CD3×CD20 Ph3 mono | Pending |
+| **[PRIMAVERA](primavera-azd3470-prmt5-rr-hodgkin.md)** | Sat | AZD3470 (PRMT5i) mono, R/R Hodgkin: ORR 44% (63% at 600 mg) | Pending |
+| **[CONQUER](conquer-anti-cd5-nanobody-car-t-tcell.md)** | Tue | Dual-epitope anti-CD5 CAR-T, R/R T-ALL/PTCL: ORR 77.8% (100% at RP2D) | Pending |
+| **[Revumenib (post-HSCT)](revumenib-aml.md)** | Tue | Revumenib maintenance post-transplant, KMT2Ar/NPM1m/NUP98r leukemia (Abs 6505) | Pending |
+| **[Olverembatinib 2L](olverembatinib-second-line-cml-cp.md)** | Sat | 2L olverembatinib, CML-CP: 91.3% CCyR, 60.9% MMR by cycle 24 | Pending |
+
+## Melanoma / rare
+
+| Trial | Day | Result | PC? |
+|---|---|---|---|
+| **[OptimUM-02](optimum-02.md)** | Mon | Darovasertib + crizotinib vs ICT, 1L HLA-A*02:01-neg metastatic uveal melanoma: mPFS 6.9 vs 3.1 mo (HR 0.42); ORR 37.1% vs 5.8% | Pending |
+| **[SARC041](sarc041.md)** | Sun | *(see Plenary — abemaciclib in dedifferentiated liposarcoma)* | **Yes** |
+
+---
 
 ## Per-trial template
 
-Each trial file (e.g., `libretto-432.md`) follows this schema. Copy and fill:
+Each trial file follows this schema:
 
 ```markdown
 # <Trial acronym / name> — <Drug regimen, indication, line>
 
-> **Abstract:** <abstract #, e.g., LBA3> · **Session:** <session name, date, time CT, hall> · **Embargo:** <date>
+> **Abstract:** <abstract #> · **Session:** <session, date, time CT> · **Embargo:** <date>
 
 ## At a glance
-
-- **Sponsor:** <pharma / cooperative group>
-- **PI / presenter:** <name, institution>
-- **NCT ID:** <NCTxxxxxxxx>
-- **Phase:** <1 / 2 / 3 / 2-3>
-- **Design:** <arms, randomization, blinding>
-- **N:** <enrolled / analyzed>
-- **Primary endpoint(s):** <PFS / OS / EFS / DFS / ORR / pCR>
-- **Comparator:** <SOC / placebo / active comparator>
-- **Indication:** <tumor type, subtype, biomarker selection>
-- **Line:** <neoadjuvant / adjuvant / 1L / 2L / 3L+ / perioperative>
+- **Sponsor:** · **PI / presenter:** · **NCT ID:** · **Phase:** · **Design:**
+- **N:** · **Primary endpoint(s):** · **Comparator:** · **Indication:** · **Line:**
 
 ## Headline result
-
-<One paragraph. Numbers + HR + p-value if known. If pre-embargo, mark
-`*expected per <company> topline <date>*` or `*pre-embargo per <analyst source>*`.>
-
 ## Mechanism / class
-
-<Drug class, target, prior approvals if any. Cross-link to related AACR mechanism sessions.>
-
 ## Discussant takeaway
-
-<Named discussant + key framing once known. Discussant identity is itself a
-signal — ASCO assigns senior figures to practice-changing trials.>
-
 ## Practice-changing?
-
-<Yes / no / pending, with rationale: NCCN guideline implications, FDA filing path,
-unmet need, prior SOC.>
-
 ## Cross-links
-
-- **AACR 2026:** <related plenary / session / poster, if applicable>
-- **AACR 2025:** <prior-year mechanism work>
-- **Other ASCO 2026 trials:** <same class, same indication>
-- **JPM 2026:** <sponsor presentation / deal>
-- **Tools:** <if a biomarker / ctDNA / spatial method anchored the trial>
-
 ## Sources
-
-- ASCO Meeting Library abstract: <URL or "pending embargo">
-- Company press release: <URL>
-- Trade-press recap: <OncLive / ASCO Post / Targeted Oncology URL>
-- ClinicalTrials.gov: <NCT URL>
 ```
-
-## Master trial index
-
-The shortlist for pre-meeting stub creation. All numbers below are **pre-embargo, sourced from company toplines + OncLive / ApexOnco previews + ASCO press releases** — to be reconciled with the official abstract / presentation. **`Result` column entries marked italic are speculative / company topline only.**
-
-| Trial | Sponsor | Indication | Phase | Endpoint | Result (pre-embargo) | Discussant | Practice-changing? |
-|---|---|---|---|---|---|---|---|
-| **LBA1 PROTEUS** | J&J / Janssen | High-risk localized prostate (perioperative) | 3 | MFS | *expected, subject to embargo* | TBD | TBD |
-| **LBA2 SARC041** | Lilly | Advanced dedifferentiated liposarcoma | 3 | PFS | *expected, subject to embargo* | TBD | TBD |
-| **LBA3 LIBRETTO-432** | Lilly (Loxo) | Stage IB–IIIA RET-fusion+ NSCLC (adjuvant) | 3 | EFS | *EFS positive per Lilly topline Feb 2026* | TBD | Likely yes — first adjuvant RET TKI |
-| **LBA4 HARMONi-6** | Akeso / Summit | 1L advanced squamous NSCLC | 3 | OS | *PFS positive ESMO 2025; OS pending* | TBD | Class-defining if OS positive (PD-1×VEGF) |
-| **LBA5 Rasolute-302** | Revolution Medicines | 2L pancreatic PDAC (RAS-mut) | 3 | OS / PFS | *mOS 13.2 vs 6.7 mo (HR 0.40, p<0.0001), per April 13 topline* | TBD | Yes — first pan-RAS Ph3 win in PDAC |
-| **LBA8500 WU-KONG28** | Dizal | 1L EGFR exon 20 ins+ NSCLC | 3 | PFS | *expected, subject to embargo* | TBD | Possibly — vs platinum chemo SOC |
-| **LBA8005 TRIPLEX** | French cooperative / AZ | 1L ES-SCLC | 3 | OS | *expected, subject to embargo* | TBD | TBD — TRT + chemo-IO combination |
-| **LBA9503 OptimUM-02** | IDEAYA / Servier | 1L HLA-A2-neg metastatic uveal melanoma | 2/3 | PFS | *mPFS 6.9 vs 3.1 mo (HR 0.42, p<0.0001); ORR 37% vs 6%* | TBD | Yes — first effective 1L mUM regimen |
-| **LBA7000 frontMIND** | Incyte / MorphoSys | 1L DLBCL (high IPI) | 3 | PFS | *PFS positive (HR 0.75, 95% CI 0.59–0.96, p=0.019) per Incyte topline Jan 2026* | TBD | Possibly — first R-CHOP+X PFS win in years |
-| **LBA660 KN026-004** | Akeso / Hansoh | HER2+ early/locally advanced breast (neoadj) | 3 | pCR | *expected, subject to embargo* | TBD | Class read-through for anbenitamab vs THP |
-| **Abstract 8000 ALCHEMIST EA5142** | NCI / ECOG-ACRIN | Stage IB–IIIA NSCLC (adjuvant) | 3 | DFS / OS | *expected, subject to embargo* | TBD | Adjuvant nivolumab post-chemo — possible SOC shift |
-| **Abstract 8502 CROWN** | Pfizer | 1L ALK+ advanced NSCLC | 3 | PFS (7-yr update) | *expected — extended follow-up of prior PFS HR 0.27* | TBD | Confirmatory; CNS protection signal |
-| **Abstract 8515 TRITON** | AZ | 1L STK11/KEAP1/KRAS-mut metastatic nonsquamous NSCLC | 2b | ORR / PFS | *expected, subject to embargo* | TBD | TBD — dual checkpoint in IO-cold subset |
-| **LBA1000 ASCENT-04 PFS2** | Gilead | 1L PD-L1+ metastatic TNBC | 3 | PFS2 | *expected (PFS1 positive AACR/SABCS 2025)* | TBD | Confirmatory of TROP2-ADC durability |
-| **LBA1006 persevERA BC** | Roche | 1L ER+/HER2- locally advanced/metastatic BC | 3 | PFS | *Missed primary per Roche topline Mar 2026* | TBD | Negative — preserves CDK4/6 + AI SOC |
-| **LBA1007 SERENA-6 PFS2** | AZ | 1L ER+/HER2- ESR1-mut BC (switch design) | 3 | PFS2 / TT2P | *expected (PFS1 positive ASCO 2025 Plenary)* | TBD | Confirmatory — strengthens ctDNA switch |
-
-**Additional shortlist candidates** to stub post-embargo (regular abstracts, not LBA):
-
-- **GI:** Pancreatic KRAS-G12D early-phase combos; COMMIT update; CRC ctDNA-guided trials; gastric HERIZON-GEA-01 follow-up; amivantamab OrigAMI mCRC durability
-- **GU:** KEYNOTE-B15 EV+pembro MIBC perioperative; LITESPARK-022 belzutifan adjuvant RCC; LITESPARK-011 belzutifan+lenva RCC 2L; PEACE-3 enza+Ra-223 mCRPC; actinium-225 PSMA
-- **Heme:** MajesTEC-3 teclistamab+dara MM 1–3L; RedirecTT-1 dual bispecific MM EMD; Carvykti / anito-cel updates
-- **Other:** DAREON-5 obrixtamig DLL3 bispecific (SCLC / NEC); CAR-T solid tumor early phase
-
-## Cross-cutting themes (for `themes.md`)
-
-To synthesize across `trials/` once populated:
-
-1. **RAS-class drugs become real.** Daraxonrasib Plenary readout + KRAS-G12D early-phase combos. Cross-link to AACR 2025/2026 RAS mechanism sessions.
-2. **PD-1 × VEGF bispecific class.** Ivonescimab HARMONi-6 OS readout is the class-defining moment. Echoes AbbVie RC148 ($5.6B JPM Day 1 deal), Summit JPM presence, BMS pumitamig.
-3. **Perioperative IO expands.** PROTEUS (prostate), KEYNOTE-B15 (bladder), LIBRETTO-432 + ALCHEMIST (lung) — IO/TKIs moving earlier in disease.
-4. **ADC durability story.** ASCENT-04 PFS2 (TROP2-ADC), trastuzumab deruxtecan continued read-through, novel ADC targets.
-5. **Endocrine backbone resistance.** persevERA miss + SERENA-6 PFS2 — the limits of next-gen oral SERDs vs CDK4/6 + AI.
-6. **China-origin assets dominate the LBA slate.** HARMONi-6 (Akeso), Rasolute-302 partner activity, anbenitamab (KN026-004), WU-KONG28 (Dizal). Continuity from JPM 2026 "China is the story" thread.
-7. **Radioligands move to randomized data.** PEACE-3 enza+Ra-223, actinium-225 PSMA dose-escalation.

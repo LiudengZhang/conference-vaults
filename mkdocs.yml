@@ -244,10 +244,71 @@ nav:
     - Overview: conferences/recomb-2026/index.md
     - Program notes (research): conferences/recomb-2026/program-notes.md
     - Tools (template): conferences/recomb-2026/tools/index.md
-  - ASCO 2026 (scaffold):
+  - ASCO 2026:
     - Overview: conferences/asco-2026/index.md
-    - Program notes (research): conferences/asco-2026/program-notes.md
-    - Trials (template): conferences/asco-2026/trials/index.md
+    - Program notes: conferences/asco-2026/program-notes.md
+    - Themes (cross-cutting): conferences/asco-2026/themes.md
+    - Day digests:
+      - Day 1 — Fri May 29: conferences/asco-2026/digest/day-1-friday.md
+      - Day 2 — Sat May 30: conferences/asco-2026/digest/day-2-saturday.md
+      - Day 3 — Sun May 31 (Plenary): conferences/asco-2026/digest/day-3-sunday.md
+      - Day 4 — Mon Jun 1: conferences/asco-2026/digest/day-4-monday.md
+      - Day 5 — Tue Jun 2: conferences/asco-2026/digest/day-5-tuesday.md
+    - Trials:
+      - All trials (index): conferences/asco-2026/trials/index.md
+      - Plenary (LBA1–5):
+        - PROTEUS — perioperative apalutamide, prostate: conferences/asco-2026/trials/proteus.md
+        - SARC041 — abemaciclib, liposarcoma: conferences/asco-2026/trials/sarc041.md
+        - LIBRETTO-432 — adjuvant selpercatinib, NSCLC: conferences/asco-2026/trials/libretto-432.md
+        - HARMONi-6 — ivonescimab, squamous NSCLC: conferences/asco-2026/trials/harmoni-6.md
+        - RASolute 302 — daraxonrasib, pancreatic: conferences/asco-2026/trials/rasolute-302.md
+      - Lung:
+        - WU-KONG28 — sunvozertinib, EGFR exon20ins: conferences/asco-2026/trials/wu-kong28.md
+        - CROWN — lorlatinib 7-yr, ALK+: conferences/asco-2026/trials/crown-7yr.md
+        - OptiTROP-Lung05 — sac-TMT + pembro: conferences/asco-2026/trials/optitrop-lung05.md
+        - ANVIL / ALCHEMIST EA5142 — adjuvant nivolumab: conferences/asco-2026/trials/alchemist-ea5142.md
+        - TRIPLEX — thoracic RT + chemo-IO, SCLC: conferences/asco-2026/trials/triplex.md
+        - CHRYSALIS-2 — ami + lazertinib, atypical EGFR: conferences/asco-2026/trials/chrysalis-2-atypical-egfr.md
+        - IMforte — SCLC maintenance subtypes: conferences/asco-2026/trials/imforte-sclc-subtype.md
+      - GI:
+        - BREAKWATER — EC + FOLFIRI, BRAF mCRC: conferences/asco-2026/trials/breakwater.md
+        - HERIZON-GEA-01 — zanidatamab, HER2+ GEA: conferences/asco-2026/trials/herizon-gea-01.md
+        - HORIZON-CRC01 — trastuzumab rezetecan, HER2+ CRC: conferences/asco-2026/trials/horizon-crc01-trastuzumab-rezetecan-her2-crc.md
+        - EMERALD-3 — STRIDE + lenva + TACE, HCC: conferences/asco-2026/trials/emerald-3-stride-lenvatinib-tace-hcc.md
+        - OrigAMI-1 — amivantamab biomarkers, mCRC: conferences/asco-2026/trials/origami-1.md
+        - Alpha DaRT — intratumoral alpha-emitter, PDAC: conferences/asco-2026/trials/alpha-dart-eus-pancreatic-pooled.md
+        - CT041 satri-cel — Claudin18.2 CAR-T, gastric: conferences/asco-2026/trials/satri-cel-ct041-gastric-sequential.md
+        - EPISODE-III — adjuvant aspirin, stage III CRC: conferences/asco-2026/trials/episode-iii-adjuvant-aspirin-stage-iii-crc.md
+      - GU:
+        - TALAPRO-3 — tala + enza, mCSPC: conferences/asco-2026/trials/talapro-3-talazoparib-enzalutamide-mhspc.md
+        - A-DREAM — intermittent ARPI, mHSPC: conferences/asco-2026/trials/a-dream-intermittent-arpi-mhspc.md
+        - ARACOG — darolutamide vs enza cognition: conferences/asco-2026/trials/aracog-darolutamide-vs-enzalutamide-cognition.md
+        - NEXUS-01 — Nectin-4 ADC, urothelial: conferences/asco-2026/trials/nexus-01-ly4052031-nectin4-adc-urothelial.md
+        - EV-302 / KEYNOTE-A39 — EV + pembro 3.5-yr: conferences/asco-2026/trials/ev-302-keynote-a39-3-5yr-update-urothelial.md
+        - RAMPART — adjuvant durva ± treme, RCC: conferences/asco-2026/trials/rampart-adjuvant-durvalumab-tremelimumab-rcc.md
+        - TiNivo-2 — tivo + nivo final, mRCC: conferences/asco-2026/trials/tinivo-2-final-tivozanib-nivolumab-mrcc.md
+      - Breast:
+        - ASCENT-04 / KEYNOTE-D19 — SG + pembro, mTNBC: conferences/asco-2026/trials/ascent-04.md
+        - SERENA-6 — ctDNA-guided camizestrant: conferences/asco-2026/trials/serena-6.md
+        - lidERA — adjuvant giredestrant: conferences/asco-2026/trials/lidera-giredestrant-adjuvant.md
+        - evERA — giredestrant + everolimus: conferences/asco-2026/trials/evera-giredestrant-everolimus.md
+        - persevERA — giredestrant + palbociclib: conferences/asco-2026/trials/persevera.md
+        - NATALEE — ribociclib gene expression: conferences/asco-2026/trials/natalee-ribociclib-gene-expression.md
+        - KN026-004 — neoadjuvant anbenitamab: conferences/asco-2026/trials/kn026-004.md
+        - DESTINY-Breast09 — T-DXd durability: conferences/asco-2026/trials/destiny-breast09-response-durability.md
+        - JSKN016 — TROP2/HER3 bispecific ADC: conferences/asco-2026/trials/jskn016-trop2-her3-bispecific-adc.md
+        - BWEL — weight-loss intervention: conferences/asco-2026/trials/bwel-weight-loss-intervention.md
+      - Heme:
+        - MajesTEC-9 — teclistamab, RRMM: conferences/asco-2026/trials/majestec-9-teclistamab-rrmm.md
+        - SUCCESSOR-2 — mezigdomide Kd, RRMM: conferences/asco-2026/trials/successor-2-mezigdomide-kd-rrmm.md
+        - frontMIND — tafa + len + R-CHOP, DLBCL: conferences/asco-2026/trials/frontmind.md
+        - EPCORE DLBCL-1 — epcoritamab mono: conferences/asco-2026/trials/epcore-dlbcl-1-epcoritamab-rr-dlbcl.md
+        - PRIMAVERA — AZD3470 PRMT5i, Hodgkin: conferences/asco-2026/trials/primavera-azd3470-prmt5-rr-hodgkin.md
+        - CONQUER — anti-CD5 CAR-T, T-cell: conferences/asco-2026/trials/conquer-anti-cd5-nanobody-car-t-tcell.md
+        - Revumenib — post-HSCT maintenance: conferences/asco-2026/trials/revumenib-aml.md
+        - Olverembatinib — 2L CML-CP: conferences/asco-2026/trials/olverembatinib-second-line-cml-cp.md
+      - Melanoma / rare:
+        - OptimUM-02 — darovasertib + crizotinib, uveal melanoma: conferences/asco-2026/trials/optimum-02.md
   - ISMB 2026 (scaffold):
     - Overview: conferences/ismb-2026/index.md
     - Program notes (research): conferences/ismb-2026/program-notes.md
