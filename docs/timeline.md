@@ -231,6 +231,7 @@ We score each conference 0–2 on four criteria.
 | [ECCV 2026](conferences/eccv-2026/) | Sep 8–12 (Malmö) | methods | 1 | 2 | 0 | 1 | **4** | light | scaffold |
 | [KDD 2026](conferences/kdd-2026/) | Aug 9–13 (Jeju) | methods | 1 | 2 | 0 | 1 | **4** | light | scaffold |
 | [Single Cell Genomics 2026](conferences/single-cell-genomics-2026/) | May 10–15 (GRC) / Jun 10–12 (Wellcome) | methods | 2 | 1 | 2 | 2 | **7** | full | scaffold |
+| [Single Cell Genomics Day 2026](conferences/single-cell-genomics-day-2026/) | Jun 12 (NYGC, virtual) | methods | 2 | 2 | 2 | 2 | **8** | full | ✅ built (transcript) |
 
 ### 2025 pilots (past, retained as reference)
 

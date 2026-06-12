@@ -7,6 +7,8 @@
 
 > **Status:** Scaffold — both meetings upcoming or active. GRC 2026 is happening **this week** (the vault is being built mid-meeting, May 11, 2026). Wellcome Single Cell Biology drops a month later. Full program for the Wellcome meeting was released April 22, 2026; the GRC program is closed-door per Gordon Conference policy (no recording, no public talk titles, attendees-only).
 
+> **Not to be confused with Single Cell Genomics *Day*.** The Satija Lab / NYGC's free one-day virtual meeting **Single Cell Genomics Day 2026** (Jun 12) is a *separate* event with its own vault — see [`single-cell-genomics-day-2026/`](../single-cell-genomics-day-2026/), which is built from a full livestream transcript (Xin Jin, Aviv Regev, Junyue Cao keynotes + GIFT / SynapseSeq / ChromBPNet / VIP Perturb-seq / TimeVault talks). This vault here covers only the two academic-society flagships (GRC + Wellcome).
+
 > **Brand-disambiguation up front:** there is no single meeting in 2026 literally titled "Single Cell Genomics" hosted by EMBL or the Sanger Institute. EMBL Heidelberg's last "Single-Cell Omics" conference ran in 2022 (`sic22-01`) and is not on the 2026 calendar — EMBL's 2026 single-cell-adjacent slot is the **Brain (epi)genome** symposium (Apr 21–24, in-house single-cell + 3D-genomics axis). The two events above are the two real 2026 flagships for the single-cell community. The CSHL "Single Cell Analyses" meeting alternates years and is not running in 2026 either; its sibling slot at CSHL is the **Biological Data Science** meeting (see [`cshl-bds-2026/`](../cshl-bds-2026/)), which has spatial/single-cell as one of six sessions but is not a single-cell-focused meeting per se.
 
 ## Why this is in the vault

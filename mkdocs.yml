@@ -484,6 +484,18 @@ nav:
     - Overview: conferences/single-cell-genomics-2026/index.md
     - Program notes (research): conferences/single-cell-genomics-2026/program-notes.md
     - Tools (template): conferences/single-cell-genomics-2026/tools/index.md
+  - Single Cell Genomics Day 2026 (transcript):
+    - Overview: conferences/single-cell-genomics-day-2026/index.md
+    - Talks (index): conferences/single-cell-genomics-day-2026/talks/index.md
+    - 1 · Dingchang Lin — GEMINI recorder: conferences/single-cell-genomics-day-2026/talks/molecular-recorder-gemini.md
+    - 2 ★ Xin Jin — in vivo Perturb-seq: conferences/single-cell-genomics-day-2026/talks/xin-jin-in-vivo-perturbseq.md
+    - 3 · Sydney Blattman — GIFT: conferences/single-cell-genomics-day-2026/talks/sydney-blattman-gift.md
+    - 4 · Amanda Urke — Synapse-seq: conferences/single-cell-genomics-day-2026/talks/amanda-urke-synapseseq.md
+    - 5 · Anshul Kundaje — ChromBPNet: conferences/single-cell-genomics-day-2026/talks/anshul-kundaje-chrombpnet.md
+    - 6 ★ Aviv Regev — virtual cell: conferences/single-cell-genomics-day-2026/talks/aviv-regev-virtual-cell.md
+    - 7 · Alex Bradu — VIPerturb-seq: conferences/single-cell-genomics-day-2026/talks/alex-vip-perturbseq.md
+    - 8 · Kevin Chao — TimeVault: conferences/single-cell-genomics-day-2026/talks/kevin-chao-timevault.md
+    - 9 ★ Junyue Cao — scalable single-cell: conferences/single-cell-genomics-day-2026/talks/junyue-cao-scalable-singlecell.md
   - Notes:
     - Extraction method: notes/extraction.md
     - Caveats: notes/caveats.md
